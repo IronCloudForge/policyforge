@@ -1,0 +1,230 @@
+{
+  "catalog": {
+    "uuid": "c45d1505-f6e2-5979-b053-dbf03a494805",
+    "metadata": {
+      "title": "USDA DR4740-002: USDA Cross Training Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2013-09-26",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4740-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2013-09-26"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4740-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4740-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "51e61af6-1a5c-506b-a3ec-6d28dcb5b0d1",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4740-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4740-002-1-stmt",
+                "name": "statement",
+                "prose": "The purpose of USDA’s Cross Training Program (CTP) is to educate USDA employees in\n         Farm Service Agency (FSA), Natural Resource Conservation Service (NRCS) and Rural\n         Development (RD) service centers on the full range of grants, loans, services and programs\n         administered by the Agricultural Marketing Service (AMS), FSA, NRCS, the Risk\n         Management Agency (RMA) and RD. The overall goal of CTP is to improve the level of\n         customer service provided."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "572736dd-f876-5315-b2cb-e3cf1e592f0e",
+        "class": "section",
+        "title": "Authorities",
+        "controls": [
+          {
+            "id": "dr4740-002-2",
+            "class": "policy-requirement",
+            "title": "Authorities",
+            "parts": [
+              {
+                "id": "dr4740-002-2-stmt",
+                "name": "statement",
+                "prose": "a. The Government Employees Training Act, Title 5, United States Code, Chapter 41 and\n            related guidance issued by the Office of Personnel Management;\n\n         b. Title 5, Code of Federal Regulations (CFR), Part 410, Training, Section 305,\n            Establishing and Using Interagency Training."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "54d10f4a-3497-558e-a089-5afe74c70912",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr4740-002-3",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr4740-002-3-stmt",
+                "name": "statement",
+                "prose": "This directive:\n\n         a. Shall be used in conjunction with:\n\n            (1) The Business Case for the Cultural Transformation of USDA\n\n            (2) The Cultural Transformation of USDA: Creating an Inclusive, High-Performance\n                Organization\n\n            (3) Diversity and Inclusion Roadmap\n\f  b. Addresses concerns expressed at the Employee Listening Sessions: The Cultural\n     Transformation of USDA, June 2010"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ae18dc04-061c-519c-9552-3a1103539fa7",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr4740-002-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr4740-002-4-stmt",
+                "name": "statement",
+                "prose": "USDA’s mission is to provide leadership on food, agriculture, natural resources, rural\n  development, nutrition and related issues based on sound public policy, the best available\n  science, and efficient management. How well our customers are served, the level of\n  customer satisfaction, and our delivery processes are essential to accomplishing our\n  mission. Often, customers are not certain about the specific USDA programs that are\n  available to meet their needs.\n\n  Historically, USDA employees have been educated only on the programs in their area of\n  specific responsibility and are often not familiar with programs offered by other USDA\n  agencies that would help a customer further. Employees in the FSA, NRCS, and RD who\n  interact with the public in service centers should be able to share information about other\n  USDA programs so that a customer’s needs are met."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "39cd3ef3-1525-5bed-9af8-9fc634e74430",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr4740-002-5",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr4740-002-5-stmt",
+                "name": "statement",
+                "prose": "This is a new policy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bd539439-498f-5109-bdf8-7b5084d747f6",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4740-002-6",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4740-002-6-stmt",
+                "name": "statement",
+                "prose": "a. To improve customer service, all employees in the FSA, NRCS, and RD service centers\n     who interact with the public are required to complete all courses in the CTP curriculum.\n\n  b. Supervisors in the FSA, NRCS, and RD are encouraged to build inter-agency program\n     knowledge of their employees who communicate with the public by ensuring those\n     employees complete the required cross training as part of employees’ individual\n     development plans.\n  c. For existing employees, all of the training listed in Appendix I must be completed by\n     the end of calendar year 2013. Any future cross training courses new to the employee in\n     AgLearn, must be completed by the end of the third quarter of the fiscal year annually.\n     New employees to whom this training requirement applies must complete all available\n     CTP courses within their first 6 months on duty.\n\n  d. The training is developed and maintained by a working group that is led by the USDA\n     Virtual University with members from FSA, NRCS, RD, and the Office of Advocacy\n     and Outreach (OAO)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e56973b5-f6e8-5efa-8ff8-bfd364984732",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4740-002-7",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4740-002-7-stmt",
+                "name": "statement",
+                "prose": "2\n\fa. The USDA Virtual University:\n\n   (1)   Works with representatives from FSA, NRCS, RD, and OAO to lend training\n         expertise and ensure that training coursework is designed to promote adult\n         learning.\n\n   (2)   Issues a call for a report of employees who have completed the training.\n\n   (3)   Ensures that the curriculum is evaluated quarterly and is up to date.\n\n   (4)   Convenes training and subject matter experts from FSA, NRCS, RD, and OAO to\n         update courses as needed, for example based on changes resulting from new\n         legislation making changes to programs.\n\nb. The USDA’s OAO shares the training links with the following groups to ensure that\n   they are aware of the full range of USDA’s grants, loans and services that are available\n   to the communities they represent.\n\n   (1)   Liaisons of the 1890 Program. The mission of the 1890 program is to attract\n         students into careers in agriculture and related fields; share expertise and\n         resources in areas such as agricultural research, extension and teaching programs,\n         technology development, limited-resource farmers and minority farmer programs,\n         and rural development programs; and to increase the involvement of the 1890\n         Land-Grant Institutions and Tuskegee University in the delivery of USDA\n         programs.\n\n   (2)   Liaisons of the 1994 Program. The mission of this program is to provide grant\n         funds and encourage applications for the Equity in Educational Land-Grant Status\n         Act of 1994 (Tribal Colleges Extension Services) Program. This Program\n         provides funding for the 1994 Land-Grant Institutions to conduct non-traditional\n         education and outreach activities to help meet the needs of the Native American\n         people, and to provide essential services to their communities.\n\n   (3)   Liaisons to the Hispanic Serving Institutions (HSIs). The mission of the Hispanic\n         Serving Institutions program is to maintain strategic partnerships between USDA\n         and HSIs that provide equitable access to employment, educational and\n         institutional development opportunities.\n\n   (4)   2501 [Outreach and Assistance for Socially Disadvantaged Farmers and Ranchers\n         (OASDFR) Competitive Grants Program] Community Based Organization\n         recipients.\n\nc. Supervisors in the FSA, NRCS, and RD ensure that appropriate employees complete\n   the training and report it to the Virtual University as requested.\n\n\n                                         3\n\fd. The Office of the Chief Information Officer’s Team AgLearn ensures that training\n   courses are accessible to employees and members of Community Based Organizations,\n   including Liaisons from the 1890, 1994, and HSI programs, in AgLearn.\n\ne. Agencies other than the AMS, FSA, NRCS, RMA and RD may be required to share or\n   develop course content and participate in the CTP as needs arise based on new\n   legislation related to USDA’s grants, loans, and programs for customers.\n\n\n                                   -END-\n\n\n\n\n                                      4\n\f                                                  APPENDIX A\n\n            CROSS TRAINING PROGRAM PHASE I COURSES\n\nAgencies are required to use the USDA Cross Training Program curriculum as outlined in\nparagraph 5, sections a, b, and c of this DR. The tables below outline the course titles by Agency\nas they are listed in AgLearn. Any updates to the curriculum can be found on the USDA Virtual\nUniversity Cross Training Program webpage. All courses and activities outlined in the curriculum\nare freely available to all USDA personnel through AgLearn. For existing employees, all of the\ntraining listed in Appendix I, and any future cross training courses new to the employee in\nAgLearn, must be completed by the end of the third quarter of the fiscal year annually. New\nemployees to whom this training requirement applies must complete all available CTP courses\nwithin their first 6 months on duty.\n\nNOTE: All courses are listed in AgLearn with the “USDA Cross Training Programs” identifier\nprior to the course title contained in the tables below (e.g., USDA Cross Training Programs: FSA\nOverview).\n\nTable 1. Agricultural Marketing Service Courses\n\n                     Course                                  Course ID   Source    Method    Time\n                                                                                            (Hours)\nAMS Organic 101                                      USDA-CTP-AMS-001    AgLearn   Online   0.25\nAMS Organic 201                                      USDA-CTP-AMS-002    AgLearn   Online   0.5\n\n\nTable 2. Farm Services Agency Courses\n\n                     Course                                  Course ID   Source    Method    Time\n                                                                                            (Hours)\nFSA Overview                                         USDA-CTP-FSA-001    AgLearn   Online   0.5\nFSA Loan Programs                                    USDA-CTP-FSA-002    AgLearn   Online   0.5\nFSA Noninsured Crop Disaster Assistance Program      USDA-CTP-FSA-003    AgLearn   Online   0.5\n\n\nTable 3. Natural Resource Conservation Service Courses\n\n                     Course                                  Course ID   Source    Method    Time\n                                                                                            (Hours)\nNRCS Overview                                        USDA-CTP-NRCS-001   AgLearn   Online   0.25\nNRCS Conservation Technical Assistance Program       USDA-CTP-NRCS-002   AgLearn   Online   0.75\nNRCS Partners                                        USDA-CTP-NRCS-003   AgLearn   Online   0.5\nNRCS Conservation Programs Part I                    USDA-CTP-NRCS-004   AgLearn   Online   0.75\nNRCS Conservation Programs Part II                   USDA-CTP-NRCS-005   AgLearn   Online   0.75\nNRCS Wetland and Highly Erodible Land Compliance     USDA-CTP-NRCS-006   AgLearn   Online   0.25\n\n\n\n\n                                                       A-1\n\fTable 4. Risk Management Agency Courses\n\n                     Course                            Course ID   Source    Method    Time\n                                                                                      (Hours)\nRMA Crop Insurance 101                         USDA-CTP-RMA-001    AgLearn   Online   0.5\nRMA Crop Insurance Cycle                       USDA-CTP-RMA-002    AgLearn   Online   0.5\n\n\nTable 5. Rural Development Courses\n\n                     Course                            Course ID   Source    Method    Time\n                                                                                      (Hours)\nRD Overview                                    USDA-CTP-RD-001     AgLearn   Online   0.25\nRD Rural Business-Cooperative Programs         USDA-CTP-RD-002     AgLearn   Online   0.75\nRD Housing and Community Facilities Programs   USDA-CTP-RD-003     AgLearn   Online   0.75\nRD Rural Utilities Service Programs            USDA-CTP-RD-004     AgLearn   Online   0.5\n\n\n\n\n                                                 A-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "2bec8f41-6240-5b6e-a81e-7266f3a5b7fe",
+          "title": "USDA Directives — DR4740-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4740-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "catalog": {
+    "uuid": "db73bec5-3a91-5a73-8dd9-6821085c525a",
+    "metadata": {
+      "title": "USDA DR2230-001: Reviews of Unliquidated Obligations",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-10-28",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2230-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-10-28"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2230-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer, October 28, 2025",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2230-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer, October 28, 2025"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "a3e3cf6b-f87b-5086-a7f0-11d694e9c211",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2230-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2230-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) prescribes the United States Department of Agriculture\n     (USDA) policies and procedures for the review and certification of unliquidated obligations\n     (ULO) as required by Treasury Year-end Closing Bulletin.\n\n     Reviews of ULOs are necessary to properly report obligation balances, certify the validity of\n     obligated balances, make funds available that otherwise would not be used, reduce the risk of\n     misuse and theft of funds, and improve the Treasury Department’s ability to forecast outlay\n     and borrowing needs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "045a0a28-d0c9-51ec-b026-e15617ff9db8",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr2230-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr2230-001-2-stmt",
+                "name": "statement",
+                "prose": "This regulation cancels and replaces DR 2230-001, Reviews of Unliquidated Obligations,\n  dated October 15, 2014."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9b61d843-aeb6-509d-94f7-a06c8155c0b2",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr2230-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr2230-001-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all agencies and staff offices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c3a5cdda-b92a-50c2-9c47-d49defb309d1",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr2230-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr2230-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   The optimum utilization of funds requires that all current and prior year obligations be\n       continuously reviewed to ensure that obligated balances are not over or under stated and\n       that the obligations are properly documented and reported.\n\n  b.   Reviews and certification of ULOs shall be made by each agency and staff office.\n       ULOs found to be unnecessary will be promptly adjusted. All adjusting transactions\n       shall be properly documented and all documentation will be retained for audit purposes.\n\n  c.   Agencies and staff offices are required to certify quarterly that reviews and corrective\n       actions related to ULOs inactive for at least 12 months were performed. Certifications\n       are due 30 days after the end of the quarter.\n\n\n                                PERIOD                     CERTIFICATION\n                        October 1 − December 31              January 31\n                         January 1 − March 31                 April 30\n                            April 1 − June 30                  July 31\n                         July 1 − September 30               October 31"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7dbe2483-89ca-5aff-8a61-ae5ccd17379a",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr2230-001-5",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr2230-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   Identification. Financial personnel will produce quarterly reports on unliquidated\n       obligations from the financial management system for review.\n\n  b.   Notification. The CFO, or equivalent, for each agency or staff office will notify\n       program and procurement personnel of ULOs selected for review in writing and request\n       a written notification of their validity. A standard form letter should be used for this\n       purpose. Appendix D provides an example.\n\n   c. Review of Obligations. Program and procurement personnel will review ULOs with\n      inactivity of at least 12 months and over $100 to determine whether delivery of goods or\n      services or performance is expected to occur:\n\n\n                                               2\n\f     (1) Program and procurement personnel must consider, if applicable:\n\n          (a) The period of fund availability;\n\n          (b) The period of performance or delivery date;\n\n          (c) The completeness and accuracy of information provided by contract, grant, or\n              loan recipients;\n\n          (d) Whether funds have been expended consistent with the percentage of\n              completion;\n\n          (e) Whether remaining funds are sufficient to complete the order in accordance\n              with the specifications or whether funds are no longer needed;\n\n          (f) Justifications for amendments to funding levels;\n\n          (g) Supplemental loans, grants, etc.;\n\n          (h) Reasons for lack of activity, such as litigation or delay in contract closeout;\n\n          (i) Any provisions of the grant, agreement or contract that may permit or prohibit\n              deobligation or reprogramming; and\n\n          (j) Any other relevant factors, when making a determination.\n\n     (2) Review, close out, and de-obligations should occur on an ongoing basis as\n         determination(s) are made that obligation(s) can be adjusted or cancelled.\n\nd.   Determination. The review must disclose ULOs:\n\n     (1) That do not have a legal basis, or are not properly authorized and supported by\n         appropriate documentation;\n\n     (2) Which have been completed and have not been closed out; and\n\n     (3) Under which no future expenditures are expected.\n\n     Once a determination is made that an ULO is no longer valid, program and procurement\n     personnel will notify appropriate agency or staff office designated personnel, in writing,\n     within 5 business days after the determination is made to process a deobligation.\n\ne.   Deobligation. Appropriate agency and staff office designated personnel will cancel or\n     adjust the ULOs in the financial management system, based on the written notification\n     from program and procurement personnel, within 15 business days after receipt of the\n\n\n\n                                             3\n\f       written notification. In situations where program and/or procurement personnel are\n       canceling or adjusting the ULOs, a written notification stating that the deobligation was\n       processed must be provided to the CFO, or equivalent, for each agency or staff office.\n       Copies of the supporting documentation should be retained according to the records\n       retention requirements in Section 7.\n\n  f.   Certification. The CFO, or equivalent, for each agency or staff office must submit a\n       certification to the Office of the Chief Financial Officer (OCFO) – Associate Chief\n       Financial Officer for Financial Operations (ACFO-FO) by the dates outlined in Section\n       4c, supported by a ULO Aging Report that reconciles to the general ledger.\n       Certifications are subject to examination by OCFO on a sample basis annually. The\n       certification memorandum can be found in Appendix E.\n\n       All ULOs inactive for at least 12 months and over $100 must be categorized as one of\n       the following (agencies and staff offices may disaggregate within each category at their\n       discretion):\n\n       (1) Valid: Obligations that must remain open because all the related\n           goods or services have not yet been delivered and accepted.\n\n       (2) Research required: Program and procurement personnel have notified the\n           appropriate agency or staff office designated personnel that the open obligation\n           requires additional research that may be related to Integrated Acquisition System\n           (IAS) Contracts (Contract Closeout), Reimbursable Agreements, Greenbook,\n           Service Now Tickets, and Travel.\n\n       (3) Deobligate: Program and procurement personnel have determined that an ULO is\n           no longer valid and has provided written notification to the appropriate agency or\n           staff office designated personnel to cancel or adjust the ULO in the financial\n           management system. The deobligation must be processed within 15 business days\n           after receipt of the written notification. If the deobligation processing has a delay\n           for any reason personnel must escalate to appropriate contacts and continue to\n           follow up until the deobligation is processed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e7904826-0d4f-5885-8bdd-69cc55339b54",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr2230-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr2230-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CFO will:\n\n       (1) Monitor agency and staff office compliance with this regulation;\n\n       (2) Work with CFOs, or equivalent, for each agency and staff office to identify\n           impediments to compliance and assist in developing and implementing corrective\n           actions; and\n\n\n\n\n                                               4\n\f     (3) Provide analytical support to agencies and staff offices to assist in early\n         identification of invalid ULOs.\n\nb.   The OCFO ACFO-FO will:\n\n     (1) Receive agency and staff office ULO certification submissions; and\n\n     (2) Review the ULO certifications for completeness.\n\nc.   CFOs, or Equivalent, for Each Agency and Staff Office must:\n\n     (1) Coordinate reviews and corrective actions related to ULOs between program,\n         procurement, and financial personnel; and\n\n     (2) Provide the ACFO-FO a certification that the reviews were performed, and ULOs\n         are valid based on the reviews.\n\nd.   Agency and Staff Office Program and Procurement Personnel will:\n\n     (1) Determine if ULOs should be deobligated; and\n\n     (2) Provide a written notification to appropriate agency or staff office designated\n         personnel.\n\ne.   Appropriate Agency and Staff Office designated Personnel will deobligate ULOs for\n     goods or services for which delivery or performance is not expected to occur, based on\n     written notification from program and procurement personnel.\n\nf.   Program, Procurement, and Financial Managers with obligation authority will:\n\n     (1) Ensure that agency and staff office funds are obligated properly and managed\n         effectively; and\n\n     (2) Conduct routine monitoring and timely adjustment of obligations for which the\n         agency or staff office is responsible.\n\ng.   Supervisory Officials must:\n\n     (1) Ensure that appropriate and timely execution of these responsibilities are reflected\n         in the performance plans of all program, procurement, and financial managers with\n         obligation authority; and\n\n     (2) Provide assessments in formal performance evaluations.\n\n\n\n\n                                              5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fcdebcc2-27e6-529c-a06e-830ec6d8fa62",
+        "class": "section",
+        "title": "Records Retention",
+        "controls": [
+          {
+            "id": "dr2230-001-7",
+            "class": "policy-requirement",
+            "title": "Records Retention",
+            "parts": [
+              {
+                "id": "dr2230-001-7-stmt",
+                "name": "statement",
+                "prose": "Records, reports, certifications and all other supporting documents relating to reviews of\n  unliquidated obligations should be maintained, by the agency or staff office and the OCFO,\n  for a period of 6 years and 3 months from the date the review was completed. However,\n  records should not be destroyed if they are subject to litigation or other moratorium, per DR\n  3090-001, Litigation Retention Policy for Documentary Materials including Electronically\n  Stored Information. Questions related to records retention requirements should be directed to\n  the agency or staff office Records Officer."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1b382d34-d2a4-548e-8018-750dd5804179",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr2230-001-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr2230-001-8-stmt",
+                "name": "statement",
+                "prose": "Questions and comments concerning the requirements of this regulation should be directed to\n  OCFO, Accounting Policy and Consolidated Reporting Division (APCRD) via email to\n  APCRD@usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                              6\n\f                                APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nACFO-FO   Associate Chief Financial Officer for Financial Operations\nAPCRD     Accounting Policy and Consolidated Reporting Division\nCFO       Chief Financial Officer\nDR        Departmental Regulation\nIAS       Integrated Acquisition System\nOCFO      Office of the Chief Financial Officer\nULO       Unliquidated Obligation\nUSDA      United States Department of Agriculture\n\n\n\n\n                                     A-1\n\f                                          APPENDIX B\n\n                                          DEFINITIONS\n\n\nDeobligation. The cancellation, downward adjustment, or deletion of a previously recorded\nobligation. Such adjustments may be attributable to cancellation of a project or contract, price\nrevisions, corrections of amounts previously recorded, or differences between obligations\npreviously recorded and payments made.\n\nInvalid Unliquidated Obligation. The portion of an obligated balance associated with\nundelivered orders that is not needed to pay for goods and services not yet received. This may\nbe a balance remaining following final delivery of goods and services, a balance unneeded due to\na reduction in vendor rates or quantities needed compared to the basis for the original estimate,\nthe unearned portion of a grant or agreement once the period of performance has expired, the\nentire recorded obligation if the underlying transaction did not result in a valid obligation of the\nGovernment, or similar reason.\n\nUndelivered Order. An undelivered order is an obligation for goods that have not been received\nor services that have not been performed.\n\nUnliquidated Obligation (ULO). The balance remaining from the amount of orders placed;\ncontracts or other binding agreements awarded; or services rendered after making any payments\nor processing deobligations. ULOs consist of undelivered orders and accounts payable.\n\n\n\n\n                                                B-1\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nDepartment of the Treasury, Bureau of the Fiscal Service, Treasury Financial Manual, Bulletin\nNo. 2019-15, 2019 Year-end Closing, August 2019\n\nUSDA, DR3080-001, Records Management, August 16, 2016\n\nUSDA, DR3085-001, Vital Records Management Program, August 19, 2011\n\nUSDA, DR3090-001, Litigation Retention Policy for Documentary Materials including\nElectronically Stored Information, May 28, 2008\n\nUSDA, DR3099-001, Records Management Policy for Departing Employees, Contractors,\nVolunteers and Political Appointees, July 2, 2012\n\n\n\n\n                                             C-1\n\f                                           APPENDIX D\n\n                                  SAMPLE REVIEW LETTER\n\n\nTO:                        Agency Program and Contracting Personnel\n\nFROM:                      Agency Chief Financial Officer\n\nSUBJECT:                   Review of Unliquidated Obligations\n\n\nDepartmental Regulation 2230-001, Review of Unliquidated Obligations, prescribes policies and\nprocedures for the review and certification of unliquidated obligations (ULO).\n\nAttached is a list of ULOs that have been inactive for at least 12 months as of\n                            . Please review and determine the validity of these ULOs. When\nperforming this review, please consider the following, if applicable:\n\n   (a) The period of fund availability;\n\n   (b) The timeliness of delivery or performance;\n\n   (c) The completeness and accuracy of information provided by grant or loan recipients;\n\n   (d) Whether funds have been expended consistent with the percentage of completion;\n\n   (e) Whether remaining funds are sufficient to complete the order in accordance with the\n       specifications;\n\n   (f) Justifications for amendments to funding levels;\n\n   (g) Supplemental loans, grants, etc.;\n\n   (h) Reasons for lack of activity, such as litigation or delay in contract closeout;\n\n   (i) Any provisions of the agreement or contract that may permit or prohibit deobligation or\n       reprogramming; and\n\n   (j) Any other relevant factors, when making a determination.\n\n\n\n\n                                               D-1\n\fPlease notify us in writing by                              of the results of your review so\nthat we may take appropriate actions and provide our certification as to the validity of these\nULOs to the Associate Chief Financial Officer for Financial Operations (ACFO-FO) by\n                                                   . We appreciate your assistance in\nperforming this review.\n\n\nAttachment\n\n\n\n\nChief Financial Officer                                                     Date\n\n\nAttachments\n\n\n\n\n                                                D-2\n\f                                         APPENDIX E\n\n                                   SAMPLE CERTIFICATION\n\n\nTO:                   Associate Chief Financial Officer for Financial Operations\n\nFROM:                 Agency Chief Financial Officer\n\nSUBJECT:              Certification of Quarterly Review of Unliquidated Obligations\n\n\nIn accordance with Departmental Regulation 2230-001, Reviews of Unliquidated Obligations, I\ncertify:\n\n   1.   My office has provided a listing of all obligations with no activity for 12 months that\n        were open as of MM/DD/YY, to all appropriate program and procurement personnel;\n\n   2.   All appropriate program and/or procurement personnel have reviewed the underlying\n        support for obligations to determine the validity of the obligations;\n\n   3.   Obligations determined to no longer be valid have been deobligated or are in the process\n        of being deobligated;\n\n   4.   Certain obligations require more research before a determination can be made; and\n\n   5.   All other obligations are valid and should remain open.\n\n\n                        Category                     Number           Amount\n          Deobligate\n          Research Required\n              Reimbursable Agreements\n\n               Greenbook\n               Service Now Tickets\n               Travel\n               IAS Contracts\n              \n              \n              \n          Valid\n          Total Obligations with No Activity\n          for 12 Months\n\n\n\n\n                                               E-1\n\fChief Financial Officer              Date\n\nAttachment: ULO Aging Report\n\n\n\n\n                               E-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "372bd1ca-4a1d-5d29-ab26-10a082be08da",
+          "title": "USDA Directives — DR2230-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2230-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

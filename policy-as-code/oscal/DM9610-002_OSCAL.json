@@ -1,0 +1,101 @@
+{
+  "catalog": {
+    "uuid": "aeb5cae0-deec-5e5b-8a29-01c08dc47e80",
+    "metadata": {
+      "title": "USDA DM9610-002: USDA Security Policies and Procedures for Laboratories and Technical Facilities (Excluding Biosafety Level (BSL)-3 Facilities)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2003-04-30",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DM9610-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Manual"
+        },
+        {
+          "name": "effective-date",
+          "value": "2003-04-30"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dm-9610-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dm-9610-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "24f137e4-faa9-508f-a219-cd7a8d66747f",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dm9610-002-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dm9610-002-1-stmt",
+                "name": "statement",
+                "prose": "United States\nDepartment of\nAgriculture\n\nAgricultural Research Service\n\nDM 9610-2\n\n\n\n\n    USDA Security Policies and Procedures\n    For Laboratories and Technical Facilities\n  (Excluding Biosafety Level (BSL)-3 Facilities)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "a9ab16e5-c6a1-5b2d-9904-3a00b79e6681",
+          "title": "USDA Directives — DM9610-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dm-9610-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

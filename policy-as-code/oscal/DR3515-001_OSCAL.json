@@ -1,0 +1,269 @@
+{
+  "catalog": {
+    "uuid": "beb2532a-cf9e-5bc1-86ff-11f2ef3f1a0f",
+    "metadata": {
+      "title": "USDA DR3515-001: Use of Web Measurement and Customization Technologies",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2011-10-21",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3515-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2011-10-21"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3515-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3515-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "c8a13ade-3f5d-5790-a4af-150a2556a32b",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3515-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3515-001-1-stmt",
+                "name": "statement",
+                "prose": "a. This Departmental Regulation (DR) establishes guidance for the use of web measurement\n         and customization technologies and the associated privacy requirements for public-facing\n         and third-party websites and applications owned or operated on behalf of the United\n         States Department of Agriculture (USDA).\n\n      b. This directive does not apply to internal agency activities (such as intranets, applications,\n         or interactions not involving the public) or to activities that are part of authorized law\n         enforcement, national security, or intelligence activities.\n\f  c. This policy adheres to the guidance identified in the National Institute of Standards and\n     Technology (NIST) Special Publication (SP) 800-53, Revision 3 identified in the table\n     below.\n\n           Identifier                     Family                          Class\n             AC-8                     Access Control                    Technical\n             PL-5                        Planning                      Management\n             PS-7                   Personnel Security                 Operational\n            SC-14        System and Communications Protection           Technical"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ab20591b-2d1b-51be-9b2b-9813b555a921",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3515-001-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3515-001-2-stmt",
+                "name": "statement",
+                "prose": "Unless otherwise specified, this directive applies to all USDA agency and staff office\n  personnel, including non-Government personnel (e.g., contractors, interns, and partners)\n  authorized to use USDA web and application resources, including third-party websites, for\n  official USDA purposes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1c7ca618-3627-5474-a5eb-8eeb6b1638dd",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3515-001-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3515-001-3-stmt",
+                "name": "statement",
+                "prose": "This policy supersedes Departmental Manual (DM) 3515-001, Collection of Web Page\n  Cookies & Privacy Requirements, dated August 19, 2004. The title of this policy has been\n  changed to reflect changes in the terminology used by the Office of Management and Budget\n  (OMB).\n\n  OMB Memorandum M-10-22, Guidance for Online Use of Web Measurement and\n  Customization Technologies rescinds OMB Memorandum M-00-13, Privacy Policies and\n  Data Collection on Federal Websites and the following specified sections in OMB\n  Memorandum M-03-22, OMB Guidance for Implementing the Privacy Provisions of the E-\n  Government Act of 2002: Section III(D)(2)(v) concerning tracking and customization\n  activities, and Section VII(B) regarding the reporting of tracking technologies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ee8f146e-a852-5251-ad67-5a3ae260a0a4",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3515-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3515-001-4-stmt",
+                "name": "statement",
+                "prose": "The free flow of information between the government and the public is essential in a\n  democratic society. However, the individual’s right to privacy must be protected in the\n  Federal Government’s information activities involving personal information. The Federal\n  Government has established guidelines for the use of web measurement and customization\n  technologies and to enable the useful functioning of federal websites while protecting\n  individual privacy.\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "49c91257-924a-5274-904a-d7f3f2a53cc7",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3515-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3515-001-5-stmt",
+                "name": "statement",
+                "prose": "a. Appropriate Use and Prohibitions\n\n     (1) Agencies may use web measurement and customization technologies (e.g., persistent\n         cookies, web analytics, etc.) for the purpose of improving Federal services online\n         through conducting measurement and analysis of usage or through customization of\n         the user’s experience.\n\n     (2) Agencies may not use web measurement and customization technologies to:\n\n         (a) track user individual-level activity on the Internet outside of the website or\n             application from which the technology originates;\n\n         (b) share the data obtained through such technologies, without the user’s explicit\n             consent, with other departments or agencies;\n\n         (c) cross-reference, without the user’s explicit consent, any data gathered from web\n             measurement and customization technologies against PII to determine individual-\n             level online activity;\n\n         (d) collect PII without the user’s explicit consent in any fashion; or\n\n         (e) for any like usages so designated by OMB.\n\n  b. General Guidance\n\n     (1) Agencies will only collect or create information necessary for the proper performance\n         of the agency’s functions and which has practical utility. Each agency/mission area\n         will consider the effects of their actions on the privacy rights of individuals, and\n         ensure that appropriate legal and technical safeguards are implemented.\n\n     (2) Agencies must exercise care to ensure that they comply with OMB's privacy policies\n         cited in Appendix B of this document and the requirements outlined in the Privacy\n         Act of 1974. The Privacy Act allows individuals to access documents maintained in a\n         Privacy Act system of records and to request amendments to the records.\n\n     (3) Visitors to a USDA website must receive clear and conspicuous notification in the\n         Department’s privacy notice regarding the use of technologies for collecting an\n         individual's information and how that information will be used.\n\n     (4) Agencies will comply with the standards set forth in the Children’s Online Privacy\n         Protection Act of 1998 (COPPA) with respect to the collection of personal\n         information directed at children. USDA will not knowingly contact or collect\n         personal information or solicit information of any kind for children under the age of\n         13.\n\n\n                                                 3\n\f      It is possible that by fraud or deception we may receive information pertaining to\n      children under the age of 13. If such actions are detected, the USDA Chief Privacy\n      Officer should be notified via the Personally Identifiable Information (PII) Hotline\n      and the information reviewed for further action.\n\nc. Usage Tiers\n\n   OMB M-10-22 defines tiers for authorized use of web measurement and customization\n   technologies.\n\n      (1) Tier 1 – single session. This tier encompasses any use of single session web\n          measurement and customization technologies.\n\n      (2) Tier 2 – multi-session without PII. This tier encompasses any use of multi-session\n          web measurement and customization technologies when no PII is collected (including\n          when the agency is unable to identify an individual as a result of its use of such\n          technologies).\n\n      (3) Tier 3 – multi-session with PII. This tier encompasses any use of multi-session web\n          measurement and customization technologies when PII is collected (including when\n          the agency is able to identify an individual as a result of its use of such technologies).\n\n   More detailed information pertaining to usage tiers and associated privacy requirements can\n   be found in OMB M-10-22, Attachments 1 and 2.\n\nd. Third-Party Website Usage\n\n   (1) Before an agency uses a third-party website or application to engage with the public,\n       the agency must follow the process identified in DR 1495-001, New Media Roles,\n       Responsibilities, and Authorities, which requires evaluation by the Office of\n       Communications (OC) and Office of the Chief Information Officer (OCIO) prior to\n       use and implementation of the third-party site. The agency shall, at a minimum,\n       review the third-party’s privacy policy quarterly to confirm appropriateness and\n       reassess risk.\n\n   (2) Before an agency uses a third-party website or application to engage with the public,\n       the agency must exercise due diligence to determine whether the third-party’s website\n       or application contains links to sites that may provide content not supported or\n       endorsed by the Department. The agency shall, at a minimum, review the third-party's\n       website quarterly to confirm appropriateness.\n\n   (3) If an agency posts a link that leads to a third-party website or any other location that\n       is not part of an official government domain, a statement adjacent to the link or visual\n       alert must be provided to notify the user that they are being directed to a non-\n       government website that may have different privacy policies from those of the\n       agency's official website. Visual alerts must comply with federal regulations and\n       policies.\n\n                                              4\n\f            (4) USDA agencies using a third-party website or application for content placement that\n                is not part of an official government domain must ensure that appropriate USDA\n                branding is applied to distinguish the agency's activities from those of non-\n                government entities.\n\n            (5) Agencies utilizing a third-party service to solicit feedback must also provide an\n                alternative government e-mail address where users can also send feedback.\n\n            (6) Information collected through an agency's use of a third-party website or application\n                must only collect the information “…necessary for the proper performance of agency\n                functions and which has practical utility.”1 If PII is collected, the agency shall collect\n                only the minimum necessary to accomplish a purpose required by statute, regulation,\n                or executive order.\n\n       e. Privacy Impact Assessments (PIA) and PII\n\n            (1) Agencies are required to perform a PIA whenever the use of a third-party website or\n                application makes PII available to the agency.\n\n            (2) The PIA shall describe:\n\n                 (a) The specific purpose of the agency’s use of the third-party website or application;\n\n                 (b) Any PII that is likely to become available to the agency through public use of the\n                     third-party website or application;\n\n                 (c) The agency’s intended or expected use of PII;\n\n                 (d) With whom the agency will share PII;\n\n                 (e) Whether and how the agency will maintain PII, and for how long;\n\n                 (f) How the agency will secure PII that it uses or maintains;\n\n                 (g) What other privacy risks exist and how the agency will mitigate those risks; and\n\n                 (h) Whether the agency’s activities will create or modify a “system of records” under\n                     the Privacy Act.\n\n            (3) In general, an agency’s use of a third-party website or application shall be covered in\n                a single, separate PIA. However, an agency may prepare one PIA to cover multiple\n                websites or applications that are functionally comparable, as long as the agency’s\n                practices are substantially similar across each website and application.\n\n\n1\n    OMB Circular A-130, http://www.whitehouse.gov/omb/circulars_a130_a130trans4/\n\n                                                                   5\n\f     (4) If an agency’s use of a website or application raises distinct privacy risks, the agency\n         shall prepare a PIA that is exclusive to that website or application.\n\n     (5) If the agency’s use of a website or application results in the ability to retrieve PII, the\n         agency shall comply with the system of records notice requirement of the Privacy\n         Act."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0cc9fa96-ee54-5e2e-b239-55389975242d",
+        "class": "section",
+        "title": "Policy Exception Requirements",
+        "controls": [
+          {
+            "id": "dr3515-001-6",
+            "class": "policy-requirement",
+            "title": "Policy Exception Requirements",
+            "parts": [
+              {
+                "id": "dr3515-001-6-stmt",
+                "name": "statement",
+                "prose": "All USDA agencies and staff offices are required to conform to the policy; however, in the\n  event that a policy requirement cannot be met as explicitly stated, agencies may submit a\n  waiver request. The waiver request must explain the reason for the request, identify\n  compensating controls/actions that meet the intent of the policy, and identify how the\n  compensating control/action provides a similar or greater level of defense or compliance than\n  the policy requirement. Agencies and staff offices will submit all policy waiver requests\n  directly to the Associate Chief Information Officer (ACIO) for Cyber Policy and Oversight\n  (CPO) for review and decision.\n\n  Unless otherwise specified, agencies must review and renew approved policy waivers every\n  fiscal year. Approved waivers must be recorded and tracked as a Plan of Action and\n  Milestones (POA&M) item in the Department’s Federal Information Security Management\n  Act (FISMA) data management and reporting tool. CPO will monitor all approved waivers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cb71a602-a4b8-5764-a802-ed2df0eac2e8",
+        "class": "section",
+        "title": "Procedures And Guidance",
+        "controls": [
+          {
+            "id": "dr3515-001-7",
+            "class": "policy-requirement",
+            "title": "Procedures And Guidance",
+            "parts": [
+              {
+                "id": "dr3515-001-7-stmt",
+                "name": "statement",
+                "prose": "This DR may be further shaped by other USDA regulations and manuals that contain\n  clarifying procedures. USDA Departmental regulations and manuals can be found at:\n  http://www.ocio.usda.gov/directives/index.html. Additional references can also be found in\n  Appendix B of this directive."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "14b30c34-a512-5301-a406-d9dab3c29fbf",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr3515-001-8",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr3515-001-8-stmt",
+                "name": "statement",
+                "prose": "a. The USDA Chief Information Officer (CIO) and Director, Office of Communications\n     will:\n\n         (1) Ensure that USDA agencies/mission areas comply with current Federal and OMB\n             guidance with regard to the use of web measurement and customization\n             technologies and protection of PII; and\n\n         (2) Ensure that information resulting from the annual web measurement and\n             customization technology system/procedure reviews are posted on the agency’s\n             “USDA.gov/open” page and a public feedback mechanism established.\n\n\n\n                                                6\n\fb. The Associate CIO for Cyber Policy and Oversight (ACIO-CPO) will:\n\n   (1) Publish minimum requirements identifying the Department’s approach to OMB and\n       other relevant Federal agency-issued web measurement and customization\n       technologies and privacy guidance;\n\n   (2) Issue direction to cease operating websites if the agency/mission area or contractor is\n       not in compliance with the policies identified in this directive and does not correct the\n       problem in a timely manner (within 2 working days).\n\n   (3) Review and render decision on waivers to the guidance established in this policy.\n\nc. The USDA Chief Privacy Officer and Agency Privacy Act Officers will:\n\n   (1) Ensure that USDA agencies/mission areas and contractors comply with the\n       requirements of the Privacy Act and COPPA with regard to the collection and use of\n       personal information.\n\n   (2) At a minimum, annually review the online privacy notice on the www.USDA.gov\n       page to ensure the notice provides the public with the most current guidance and\n       information.\n\nd. The Office of the Inspector General (OIG) will:\n\n   Incorporate a review of applicable requirements concerning the use of web measurement\n   and customization technologies and posting of privacy notices in their audit of USDA\n   websites, as appropriate.\n\ne. The Office of the General Counsel (OGC) will:\n\n   (1) Review applicable legal documentation in the form of new media site Terms of\n       Service (TOS) agreements;\n\n   (2) Providing the Department and agencies with legal guidance and advice on issue-\n       specific situations; and\n\n   (3) Providing enforcement justifications for the removal or deactivation of Department or\n       agency profiles and accounts based upon agency or department staff performance or\n       utilization, content, or other issue with legal implications for the Department or\n       agency.\n\nf. The Agency/Mission Area CIOs will:\n\n   (1) Implement this policy within their respective agency and/or office;\n\n\n\n\n                                             7\n\f   (2) Ensure that all agency internet and intranet websites are inventoried and the inventory\n       list provided to the ACIO CPO and/or Director, Office of Communications, upon\n       request;\n\n   (3) Ensure that all agency program managers, IT personnel, and contractors are aware of\n       the requirements of this policy in connection with the daily operation of agency\n       internet and intranet sites; and\n\n   (4) Promptly notify the ACIO-CPO of any web sites that do not comply with privacy\n       requirements.\n\ng. The Agency/Mission Area Information Systems Security Program Managers (ISSPM)\n   will:\n\n   Conduct periodic reviews of websites as part of overall security compliance to ensure that\n   USDA agencies/contractors are appropriately utilizing persistent cookies, web agents,\n   and other web technologies appropriately and ensure sites are providing the public with\n   conspicuous access to the USDA privacy notice.\n\nh. The Agency System Administrator(s)/Webmaster(s) will:\n\n   (1) Prepare and maintain a complete inventory list of all agency internet and intranet\n       websites, update this list monthly or as changes occur, and provide a copy of the\n       inventory list to the agency ISSPM. This list must include point of contact\n       information (name, phone number, location, e-mail address) for each website;\n\n   (2) Ensure that all agency websites provide clear and conspicuous notice of USDA’s\n       privacy notice concerning individuals and children upon entering all sites, in\n       compliance with the requirements of this policy; and\n\n   (3) Monitor and verify that all agency websites comply with the requirements of the\n       Privacy Act and COPPA with regard to the collection and use of personal\n       information.\n\n\n\n                                         -END-\n\n\n\n\n                                            8\n\f                                          APPENDIX A\n\n                                          DEFINITIONS\n\n\nIndividual: A citizen of the United States or an alien lawfully admitted for permanent residence.\n\nPersistent Cookies: A small text file containing a collection of information, usually a user name\nand the current date and time, that is stored on a computer and used to identify a user who has\npreviously registered or visited a website. A persistent cookie, also called a permanent cookie or\nstored cookie, operates until it expires or until a user deletes it.\n\nPrivacy Impact Assessment (PIA): An analysis of how information is handled: (i) to ensure\nhandling conforms to applicable legal, regulatory, and policy requirements regarding privacy, (ii)\nto determine the risks and effects of collecting, maintaining and disseminating information in\nidentifiable form in an electronic information system, and (iii) to examine and evaluate\nprotections and alternative processes for handling information to mitigate potential privacy risks.\n\nPersonally Identifiable Information (PII): PII refers to information that can be used to\ndistinguish or trace an individual’s identity. Examples include a person’s name, social security\nnumber, or other information that alone or when combined with other identifying information, is\nlinked or linkable to a specific individual.\n\nPrivacy notice: A statement made by an organization regarding why, how, and pursuant to what\nlegal authority (if applicable) personal data is being collected at a public website or social media\nsite, and how the owner of the site will use any information obtained.\n\nPrivacy policy: In relation to OMB M-10-23 and this directive, the term “privacy policy” refers\nto a single, centrally located statement that is accessible from an agency’s official homepage.\nThe privacy policy should be a consolidated explanation of the agency’s general privacy-related\npractices that pertain to its official website and its other online activities\n\nRecord: A record under the Privacy Act means any item, collection, or grouping of information\nabout an individual that is maintained by an agency, including, but not limited to, his education,\nfinancial transactions, medical history, and criminal or employment history and that contains his\nname, or the identifying number, symbol, or other identifying particular assigned to the\nindividual, such as a finger or voice print (biometrics), or a photograph.\n\nSystem of records: A Privacy Act system of records is a group of any records (as defined by the\nPrivacy Act) under the control of any agency from which information is retrieved by the name of\nthe individual or by some identifying number, symbol, or other identifying particular assigned to\nthe individual.\n\n\n\n\n                                                  A-1\n\fThird-party websites or applications: The term “third-party websites or applications” refers to\nweb-based technologies that are not exclusively operated or controlled by a government entity,\nor web-based technologies that involve significant participation of a non-government entity.\nOften these technologies are located on a “.com” website or other location that is not part of an\nofficial government domain. However, third-party applications can also be embedded or\nincorporated on an agency’s official website.\n\nWeb measurement and customization technologies: Technologies used to remember a user’s\nonline interactions with a website or online application in order to conduct measurement and\nanalysis of usage or to customize the user’s experience.\n\n\n\n\n                                                 A-2\n\f                                        APPENDIX B\n\n                            AUTHORITIES AND REFERENCES\n\n\nChildren’s Online Privacy Protection Act of 1998 (COPPA) (15 U.S.C. 6501, et seq.)\n\nDepartmental Regulation (DR) 4070-735-001, “Employee Responsibilities and Conduct,”\nOctober 4, 2007\n\nDR 1495-001, “New Media Roles, Responsibilities and Authorities,” May 23, 2011\n\nDM 3515-002, “Privacy Impact Assessment,” February 17, 2005\n\nNIST SP 800-53, Revision 3, Recommended Security Controls for Federal Information Systems\nand Organizations” (Errata as of May 1, 2010)\n\nNIST SP 800-95, Guide to Secure Web Services, August 2007\n\nNIST SP 800-122, Guide to Protecting the Confidentiality of Personally Identifiable Information\n(PII), April 2010\n\nOMB Memorandum M-99-18, “Privacy Policies on Federal Websites”, June 2, 1999\n\nOMB Memorandum M-10-22, “Guidance for Online Use of Web Measurement and\nCustomization Technologies”, June 25, 2010\n\nOMB Memorandum M-10-23, “Guidance for Agency Use of Third-Party Websites and\nApplications”, June 25, 2010\n\nOMB Memorandum M-03-22, \"Guidance for Implementing the Privacy Provisions of the\nE-Government Act of 2002\", September 26, 2003 (modifies M-00-13, June 22, 2002)\n\nThe Privacy Act of 1974 (5 U.S.C. 552a, et seq.)\n\nUSDA Web Standards and Style Guide v1.1, April 18, 2011\n\n\n\n\n                                              B-1\n\f                               APPENDIX C\n\n                            ABBREVIATIONS\n\n\nACIO    Associate Chief Information Officer\nCIO     Chief Information Officer\nCOPPA   Children’s Online Privacy Protection Act of 1998\nCPO     Cyber Policy and Oversight\nDM      Departmental Manual\nDR      Departmental Regulation\nISSPM   Information Systems Security Program Manager\nNIST    National Institute of Standards and Technology\nOC      Office of Communications\nOCIO    Office of the Chief Information Officer\nOGC     Office of the General Counsel\nOIG     Office of the Inspector General\nOMB     Office of Management and Budget\nPIA     Privacy Impact Assessment\nPII     Personally Identifiable Information\nPOA&M   Plan of Action and Milestones\nSP      Special Publication\nUSDA    United States Department of Agriculture\n\n\n\n\n                                    C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "7270a45c-2408-59d4-be85-21b808b3c82d",
+          "title": "USDA Directives — DR3515-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3515-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

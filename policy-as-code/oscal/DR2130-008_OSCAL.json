@@ -1,0 +1,206 @@
+{
+  "catalog": {
+    "uuid": "b5ce5058-1b8b-5c80-bd63-af54ae703984",
+    "metadata": {
+      "title": "USDA DR2130-008: Changes in Significant Accounting Estimates",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2016-10-24",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2130-008"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2016-10-24"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2130-008",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Officer",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2130-008",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Officer"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "2f8b71bd-9002-5fc6-871f-061def2b3f34",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2130-008-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2130-008-1-stmt",
+                "name": "statement",
+                "prose": "This regulation provides guidance for changes in significant accounting estimates."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8be4a112-2831-560b-9884-4ba152e50dea",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr2130-008-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr2130-008-2-stmt",
+                "name": "statement",
+                "prose": "This regulation is new. There have been no previous versions of this regulation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "23e3119c-67a1-5210-bf98-796785e2fa73",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr2130-008-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr2130-008-3-stmt",
+                "name": "statement",
+                "prose": "The preparation of financial statements requires frequent use of estimates for such items as\n     asset service lives, salvage values, lease residuals, asset impairments, collectability of\n     accounts receivable, warranty costs, pension costs, etc. Future conditions and events that\n     affect these estimates cannot be known with certainty. Therefore, changes in estimates will\n     be inevitable as new information and more experience is obtained. Changes in estimates are\n     handled currently and prospectively. The effect of the change in accounting estimate is\n     accounted for in\n\n     a.   the period of change if the change affects that period only or,\n     b.   the period of change and future periods if the change affects both."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a9f16fb6-5ff6-51f5-8671-a91fbb2bb8a3",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr2130-008-4",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr2130-008-4-stmt",
+                "name": "statement",
+                "prose": "a.   Accounting change. An accounting change is one of three types of modifications that\n       affect an enterprise’s accounting principles and practices, or its application of them. The\n       three types of accounting changes are:\n\n       (1) a change in accounting principle from one generally accepted accounting principle to\n           another alternative that is considered preferable,\n       (2) a change in an accounting estimate, and\n       (3) a change in the reporting entity.\n\n  b.   Change in accounting estimate. A revision of an accounting measurement based on the\n       occurrence of new events, additional experience, subsequent developments, better\n       insight, and improved judgment. Refining previously made estimates is an inherent part\n       of the accounting process."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0ef15519-615b-5f44-847b-ddddfe7208f9",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr2130-008-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr2130-008-5-stmt",
+                "name": "statement",
+                "prose": "Agencies will request approval, in writing, from the USDA Chief Financial Officer (CFO)\n  for significant changes in accounting estimates when the effect of the change is more than\n  10% and $100 million in the financial statements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ae9a3665-2a21-5c93-9a6e-224c14ed709a",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr2130-008-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr2130-008-6-stmt",
+                "name": "statement",
+                "prose": "a. Agency Heads shall be responsible for justifying significant changes in accounting\n     estimates. This should be accomplished by:\n\n       (1) Developing a requirements document that contains:\n\n           (a) an Executive Summary explaining the reason for the change, including a brief\n               history of the current model and a brief description of the proposed change;\n\n           (b) a section that describes the current process, including an analysis of the functions\n               performed, a review of applicable regulations and guidance to ensure that the\n               proposed model will comply with them, and a review of the model’s structure,\n               inputs, and basic calculations; and\n\n           (c) a section that describes the proposed model and its benefits and an explanation of\n               the concept and design features; and,\n\n       (2) Performing verification and validation analysis.\n\n           Management should demonstrate that the new model is more appropriate or is\n           responsive to such changes. Verification and validation analysis is a necessary\n\n                                                2\n\f        component of implementing a new or enhanced model. Testing should be done by\n        both the developer and the end user and must include, but is not limited to the\n        following:\n\n        (a) Comparative analysis between the current and revised models to review the\n            extent of the model changes on the outcome;\n\n        (b) Data validation to ensure that all data input is accurately reflected in the output\n            of the model (if appropriate);\n\n        (c) Sensitivity analysis performed by using a set of alternative assumptions to\n            ensure that they produce the expected results, i.e., generally a symmetrical\n            input/output set of changes for each variable;\n\n        (d) Out-of-time (OOT) analysis to test the accuracy of the model’s forecast by\n            using data from older fiscal years to forecast results for more recent years. The\n            forecasts are then compared to the actual data to determine how closely the\n            model’s projections approximate reality.\n\n   (3) Requesting approval, in writing, from the USDA CFO before implementing a new or\n       enhanced model.\n\n   (4) Notifying the Office of Inspector General (OIG) before implementing a new or\n       enhanced model.\n\n   (5) Implementing the new or enhanced model.\n\nb. The CFO shall be responsible for approving significant changes in accounting estimates\n   proposed by agencies.\n\n\n\n                                          -END-\n\n\n\n\n                                             3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "aeb97441-1e7a-5bae-b190-aec67f015795",
+          "title": "USDA Directives — DR2130-008",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2130-008",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

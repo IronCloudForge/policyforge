@@ -1,0 +1,1088 @@
+                           U.S. DEPARTMENT OF AGRICULTURE
+                                 WASHINGTON, D.C. 20250
+
+                                                               NUMBER:
+          DEPARTMENTAL MANUAL                                  DM 3130-010
+ SUBJECT: Enterprise Information Technology                    DATE:
+ Governance Procedures                                         April 29, 2026
+ OPI: Office of the Chief Information Officer - Information    EXPIRATION DATE:
+ Resource Management Center                                    April 29, 2031
+
+
+
+Section                                                                                 Page
+
+1.   Purpose                                                                                1
+2.   Scope                                                                                  2
+3.   Special Instructions/Cancellations                                                     2
+4.   Background                                                                             3
+5.   Procedures                                                                             3
+6.   Roles and Responsibilities                                                            12
+7.   Inquiries                                                                             16
+
+Appendix A – Acronyms and Abbreviations                                                  A-1
+Appendix B – Definitions                                                                 B-1
+Appendix C – Authorities and References                                                  C-1
+
+
+
+1. PURPOSE
+
+     a.   This Departmental manual (DM) establishes procedures for the United States
+          Department of Agriculture’s (USDA) enterprise information technology governance
+          (EITG) framework and accompanying governance processes. USDA’s EITG
+          framework is called the Integrated Information Technology Governance Framework
+          (IITGF).
+
+     b.   This DM provides an overview and implementation guidance for the USDA IITGF. The
+          Integrated Information Technology Governance Framework: Guidebook identifies the
+          activities of each of the eight decision gates of the IITGF. Decision gates are aligned
+          with an investment’s lifecycle phase and enable USDA to manage its EITG processes.
+
+          (1) This DM also defines the alignment activities and responsibilities of the
+              Information Technology (IT) Executive Governance Board. These measures
+              facilitate effective IT decision-making within USDA and include touchpoints with
+              other governance, management, and control processes. These include USDA’s IT
+              Portfolio Management (ITPM) division, USDA’s System Development Lifecycle
+           approach, project management, enterprise architecture (EA), the risk management
+           framework, IT security and privacy controls, and Departmental Regulation (DR)
+           3575-004, Information Technology Security Baselines and Security Control
+           Tailoring. Implementing an Integrated IT Governance Framework further supports
+           the USDA mission by providing organizational alignment for decisions related to
+           technology components, services, and applications.
+
+
+2. SCOPE
+
+  a.   This DM applies to all Mission Areas, agencies, and staff offices with USDA major and
+       non-major IT investments.
+
+  b.   The USDA IITGF applies to all new and existing USDA major IT investments and
+       projects. This includes enhancements to existing major investments and projects
+       associated with operations, maintenance, and disposition.
+
+  c.   The USDA IITGF also applies and should be leveraged during governance for any non-
+       major investments at a Mission Area, agency, or staff office.
+
+
+3. SPECIAL INSTRUCTIONS/CANCELLATIONS
+
+  a.   This DM provides the procedures for the Departmental policy as outlined in DR 3130-
+       010, United States Department of Agriculture Enterprise Information Technology
+       Governance.
+
+  b.   This DM is supported by management oversight controls and processes. It consists of:
+
+       (1) The Clinger-Cohen Act of 1996 (CCA), 40 United States Code (U.S.C.) § 11101, et
+           seq.;
+
+       (2) The Consolidated and Further Continuing Appropriations Act, 2015, Public Law
+           (P.L.) 113-235; and
+
+       (3) The Federal Information Technology Acquisition Reform Act (FITARA), P.L. 113-
+           291, Title VIII, Subtitle D, Sections 831-837.
+
+  c.   This DM is effective immediately when published and will remain in effect until it is
+       superseded or expires. All Mission Areas, agencies, and staff offices must align their
+       procedures to comply with this DM within six months of the date of publication.
+
+
+
+
+                                              2
+4. BACKGROUND
+
+  a.   There are various legislative and regulatory drivers for implementing ITPM. Many legal
+       reforms emphasize the need for Federal agencies to significantly improve how they plan,
+       select, fund, control, and evaluate IT initiatives. The Federal approach to ITPM has
+       been the select-control-evaluate model championed by OMB in OMB Circular A-11,
+       Preparation, Submission, and Execution of the Budget; the Government Accountability
+       Office (GAO); and industry experts since the early 1990s.
+
+  b.   To give Mission Areas, agencies, and staff offices guidance on implementing CCA and
+       FITARA, OMB offers Circular A-130, Managing Information as a Strategic Resource.
+
+  c.   The Consolidated and Further Continuing Appropriations Act, 2015, P.L. 113-235,
+       Division A, Title VII, Section 706 prohibits the use of funds to acquire new IT systems
+       or significant upgrades without certain approval and concurrences. These include the
+       approval of the Chief Information Officer (CIO) and the concurrence of the Executive IT
+       Investment Review Board (E-Board) and the Committees on Appropriations of both
+       Houses of Congress.
+
+
+5. PROCEDURES
+
+  a.   Definition of IT Governance
+
+       IT governance involves collaborating to make strategic decisions about technology
+       within an organization. It connects business and IT leaders, ensuring alignment and
+       adaptability in the ever-evolving IT landscape. It covers four critical areas: strategic
+       alignment, value delivery, risk management, and resource management.
+
+  b.   Summary of the IITGF
+
+       (1) The IITGF is a cohesive, streamlined governance structure that provides for
+           executive-level decision-making. It outlines the primary role that each governance
+           board plays within the EITG process. This ensures the accountability and success
+           of governance objectives.
+
+       (2) In the IITGF, governance boards and members represent the full complement of and
+           formal authority over the business, financial, and IT organizations of USDA.
+
+       (3) The IITGF is a comprehensive framework of policies and processes that ensures
+           USDA’s formal, responsive, and effective oversight of IT resources. It integrates
+           enterprise and mission area governance, standardizes intake and review workflows,
+           and aligns IT decision-making with USDA’s strategic priorities, compliance
+           mandates, and operational needs. This ensures operational efficiency and value
+           delivery in the implementation of IT by enabling timely, evidence-based decisions;
+           reducing duplication and rework through standardized artifacts; and ensuring that
+
+
+
+                                                3
+         resources are directed toward initiatives with clear institutional fit, measurable
+         impact, and sustained alignment with USDA’s mission. The framework spans the
+         entire IT lifecycle from initiation through disposition. The Integrated Information
+         Technology Governance Framework: Guidebook defines a series of eight
+         governance decision gates and associated investment lifecycle phases. These
+         promote effective executive oversight and management of IT investments.
+
+     (4) An investment tailoring agreement (ITA) formalizes the requirements for requests
+         to the Integrated Advisory Board (IAB) for customizing or waiving IITGF-specific
+         phases, activities, decision gates, deliverables, or investment governance reviews.
+         These requests are based on specific investment requirements or business needs and
+         can occur in any of the eight decision gates of the IITGF.
+
+          (a) Personnel can use an ITA to request and obtain authorization. They can also
+              use an ITA to record the rationale for using, omitting, or integrating specific
+              IITGF decision gate reviews. An ITA determines the selection and granularity
+              of deliverables for the investment or project. It indicates the parameters of
+              scope, schedule, budget, and quality, including any exceptions.
+
+          (b) The Investment Manager or Project Manager (PM) for the investment must
+              initiate and endorse the ITA. After approval by a USDA IT governance board
+              or its delegate, the ITA indicates permission for the project to advance.
+
+c.   The Eight Decision Gates of the IITGF
+
+     (1) Procedure for the Eight Decision Gates
+
+         The procedure for each of the eight decision gates is the same, except for minor
+         differences noted in the description of each decision gate. Each investment or
+         project is required to go through the following steps for each of the eight decision
+         gates to meet IITGF requirements and obtain the necessary reviews and approvals
+         from the required enterprise governance boards.
+
+         (a) The Mission Area, Agency, or Staff Office Integrated Project Team (IPT):
+
+             1   Collaboratively identifies, addresses, and resolves issues (determines
+                 requirements);
+
+             2   Establishes project baselines and contract requirements; and
+
+             3   Provides required information to the Investment Manager or PM for
+                 developing the governance documentation package based on the decision
+                 gate.
+
+         (b) The Investment Manager or PM:
+
+
+
+
+                                             4
+   1   Reviews the completed decision gate approval documentation package; and
+
+   2   Submits the approved documentation package to the Mission Area Agency,
+       or Staff Office Investment Review Board (IRB).
+
+(c) The Mission Area, Agency, or Staff Office IRB:
+
+   1   Conducts an evaluation of the submitted materials; and
+
+   2   Decides whether to approve the governance request.
+
+        a    If the governance request is approved, the IRB provides the required
+             updates, action items, and conditions (if applicable) to the Investment
+             Manager or PM.
+
+        b    If the governance request is not approved, the IRB notifies the
+             Investment Manager or PM of the rejection and reason.
+
+(d) The Investment Manager or PM:
+
+   1   If the governance request was approved, the Investment Manager or PM
+       sends the Decision gate documentation package to the Enterprise
+       Governance Team Liaison prior to the deadline for their IAB.
+
+   2   If the governance request is not approved, the Investment Manager or PM
+       updates the Decision gate documentation package and resubmits it to the
+       Mission Area, Agency, or Staff Office IRB.
+
+(e) The Enterprise Governance Team Liaison:
+
+   1   Reviews the decision gate documentation package, supporting
+       documentation, and IRB assessment for completion and accuracy; and
+
+   2   Notifies the E-Board and IAB of upcoming activities for this decision gate
+       and routes materials and inputs to the E-Board and IAB for review and
+       distribution to IAB and E-Board members in preparation for the meetings.
+
+(f) The E-Board and IAB:
+
+   1   Review the documentation submitted for the governance request; and
+
+   2   Decide whether to approve or disapprove it and provide decision memos
+       signed by the appropriate board chair.
+
+        a    If the E-Board and IAB approve the decision gate documentation
+             package, they send a signed approval memo, with any applicable
+
+
+
+                                  5
+                  action items or conditions, to the Mission Area Points of Contact
+                  (POC).
+
+             b    If the E-Board and IAB do not approve the decision gate
+                  documentation package, they send a signed disapproval memo, with
+                  applicable action items or conditions to be satisfied before
+                  resubmittal, to the Mission Area POCs.
+
+(2) Descriptions of the Decision Gates with Procedure Exceptions
+
+    (a) Decision Gate 1: Initiation Review
+
+        1   Decision gate 1, personnel assess the need for a proposed investment. They
+            evaluate the alignment with Departmental, Mission Area, agency, or staff
+            office strategic planning efforts. This decision gate allows Mission Areas,
+            agencies, and staff offices to develop the investment concept with
+            preliminary business requirements, performance measures, benefits, and
+            costs. It allows the integrated IT governance boards to review these
+            proposals and assess the impact and benefit to the overall IT portfolio.
+
+        2   Each newly proposed IT project or initiative proceeds through IITGF
+            decision gate 1. The IAB decides whether it is a major or non-major
+            investment. DR 3130-008, Definition of Major Information Technology
+            Investments, defines major investments. DR 3130-009, Non-Major
+            Information Technology (IT) Investments, defines non-major investments.
+
+             a    If the new proposed IT project or initiative is a major IT investment
+                  or within a major investment it will follow the governance path in the
+                  Integrated Information Technology Governance Framework:
+                  Guidebook. Review, recommendation, and decision authority at each
+                  level will vary based on the criteria and decision type per DR 3130-
+                  008.
+
+             b    If it is a non-major investment, the Office of the Chief Information
+                  Officer (OCIO) Information Resource Management Center (IRMC)
+                  IT Strategic Planning and Governance (ITSPG) division will inform
+                  the Investment Manager or PM that the governance delegation will
+                  return to the Mission Area, agency, or staff office. It will then
+                  proceed under that Mission Area, agency, or staff office governance
+                  structure.
+
+    (b) Decision Gate 2: Investment Review
+
+        1   Decision gate 2 ensures that the proposed or existing investment best
+            supports the Department’s mission and objectives. The investments are
+
+
+
+
+                                       6
+       prioritized and evaluated for performance as measured by cost, schedule,
+       performance, and risk, as well as technical alignment.
+
+(c) Decision Gate 3: Requirements Review
+
+   1   Decision gate 3 is required to determine the effectiveness, completion, and
+       accuracy levels achieved throughout the investment’s planning activities.
+       This decision gate provides the integrated IT governance boards with
+       information to further understand the strategy by which the proposed
+       investment will achieve its scope, cost, and schedule objectives.
+
+(d) Decision Gate 4: Design Review
+
+   1   Decision gate 4 is for reviewing an investment’s functional requirements.
+       The functional requirements must be complete, unambiguous, and
+       actionable enough to support detailed system design, acquisition planning,
+       and downstream implementation. This decision gate also allows the
+       integrated IT governance boards to gain a complete understanding of the
+       requirements and ensure that the requirements can support a detailed design
+       of the proposed system.
+
+(e) Decision Gate 5: Development and Test Review
+
+   1   Decision gate 5 ensures that any systems under review can proceed into
+       system fabrication, development, and testing by conducting a formal design
+       review. This review compares the system’s final design against the stated
+       performance requirements, cost, schedule, risk, and other constraints. It does
+       so by examining product specifications, engineering drawings, and
+       configuration item documentation to confirm alignment with the product
+       baseline. Independent reviewers and subject matter experts validate that
+       each product in the baseline is fully represented in the detailed design
+       documentation. This structured evaluation, often supported by checklists,
+       compliance matrices, and risk assessments, provides confidence that the
+       system is ready to enter testing.
+
+(f) Decision Gate 6: Implementation Review
+
+   1   Decision gate 6 is a review of the implementation, ensuring that the
+       development and testing of the investment systems satisfy the desired
+       functional requirements. It accomplishes this by requiring evidence from
+       unit tests, integration tests, and system-level verification reports that
+       demonstrate compliance with business needs, functional requirements, and
+       service level agreements. Reviewers also assess user procedures, training
+       materials, and operational documentation to confirm they meet stakeholder
+       needs. The gate uses test results, defect tracking, and performance metrics to
+       verify that components adhere to physical constraints and operate as
+
+
+
+                                  7
+                 described in the user documentation. This structured review process ensures
+                 that the system is not only built correctly but is also usable and supportable
+                 in practice.
+
+         (g) Decision Gate 7: Operations and Maintenance (O&M)
+
+             1   Decision gate 7 determines whether system components achieve expected
+                 benefits. It provides an evaluation of the investment’s development process.
+                 It determines whether the investment is ready to go into O&M mode. From
+                 the evaluation, there is a recommendation for continuing or modifying an
+                 investment.
+
+         (h) Decision Gate 8: Disposition Review
+
+             1   Decision gate 8 determines whether system components are still providing
+                 their benefits at a reasonable cost, have reached the end of life, or will be
+                 disposed of (retired or decommissioned). After an evaluation, there is a
+                 recommendation for terminating or disposing of, an investment.
+
+d.   USDA’s IT Baseline Management Process
+
+     (1) Earned value management (EVM) is the integrated management system that USDA
+         uses to coordinate the work scope, schedule, and cost goals of a program or
+         contract. USDA also uses it to objectively measure progress toward these goals.
+         Mission Areas, agencies, and staff offices must implement IT baseline management
+         processes that meet certain minimum requirements that align with EVM best
+         practices and the USDA’s enterprise governance process.
+
+     (2) USDA requires compliance for all investments that meet any one of the following
+         criteria:
+
+         (a) All new IT investments for any Mission Area, agency, or staff office are
+             planning to spend $20 million or more on development, modernization, and
+             enhancement (DME) over the lifecycle; or
+
+         (b) All major IT investments currently in process and budgeted for $20 million or
+             more in DME during the remainder of the lifecycle; or
+
+         (c) Any investment for which a Mission Area, agency, or staff office is planning to
+             spend $1 million or more in DME in current-year funding (the Mission Area,
+             agency, or staff office must use EVM to track investment cost, schedule, and
+             performance).
+
+e.   Requirements for Integrated Baseline Reviews
+
+
+
+
+                                             8
+     (1) An integrated baseline review is a joint assessment between the USDA Federal PM
+         and the contractor to establish a mutual understanding of the performance
+         measurement baseline (PMB). This understanding provides for an agreement on a
+         plan of action to evaluate the risks inherent in the PMB and the management
+         processes that operate during program execution.
+
+     (2) PMs must conduct integrated baseline reviews on all major investments. They must
+         conduct these within 180 calendar days from project start.
+
+     (3) The Mission Area, agency, or staff office’s Investment Manager or PM will submit
+         an integrated baseline review report during the Select phase of the CPIC process.
+         The report will help the Investment Manager or PM understand whether:
+
+         (a) The scope of the PMB is consistent with authorizing documents;
+
+         (b) All activities and deliverables required by the statement of work are in the work
+             breakdown structure (WBS);
+
+         (c) Work packages are at the appropriate level of the WBS;
+
+         (d) Management control processes are in place; and
+
+         (e) There are risks in the PMB associated with cost, schedules, and resources, and
+             there are corrective actions where necessary.
+
+f.   Requirements for Rebaselines
+
+     (1) A rebaseline is the major realignment of the PMB to improve the correlation
+         between the work plan and the baseline budget, scope, and schedule. Rebaselining
+         does not add or change the existing scope of work. It merely changes how and
+         when personnel may accomplish it within the constraints of the existing contract.
+
+     (2) Personnel must not approve baseline changes for the sole purpose of offsetting
+         variances. Baseline changes are, however, acceptable for unexpected growth within
+         the currently authorized work scope, rate changes, risk handling, and other program
+         unknowns. Rebaselining to offset variances erases important information useful for
+         effective project management. This is counter to the purpose of EVM. However, if
+         measuring and managing the current baseline is no longer viable, and EVM is no
+         longer an effective tool for the management of the project, the project may be
+         rebaselined. The criteria for a rebaseline are as follows:
+
+         (a) The schedule variance is equal to or greater than 10 percent; or
+
+         (b) The budget variance is equal to or greater than 10 percent, or equal to or less
+             than minus 10 percent; or
+
+
+
+
+                                             9
+         (c) There is a scope change (any modification, adjustments, or additions to the
+             project’s original goals, deliverables, or requirements).
+
+g.   Requirements for Portfolio Restructures
+
+     (1) Portfolio restructures are an integral aspect of strategic portfolio management
+         (SPM). They should be part of an ongoing process that focuses on aligning
+         USDA’s IT resources with its strategic business goals.
+
+     (2) As USDA continues to adopt agile development methods to respond to the rapidly
+         changing business environment, there is also a need for agility at the strategic level.
+         Portfolio restructurings need to be able to quickly align budgets, resources, projects,
+         and architecture roadmaps to new business strategies.
+
+     (3) A portfolio restructuring enables an organization to neatly organize the information
+         needed to optimize portfolios, improve agility, and set the pace for change.
+         Integrating portfolios enables impact analyses that reduce planning errors and
+         improve synergies between the portfolios.
+
+     (4) SPM needs to be a continuous process. An organization needs to be able to
+         continuously adapt to be resilient. This means continuous analysis, decision-
+         making, IT road mapping, planning, execution, monitoring, and finally returning
+         full circle to analysis. This needs to happen across all organizational hierarchies
+         and units, from strategy to execution. The following items fall under the criteria for
+         a portfolio restructure. Personnel should use the portfolio restructure checklist as
+         appropriate:
+
+         (a) Addition of new investments;
+
+         (b) Upgrading investments;
+
+         (c) Downgrading investments;
+
+         (d) Eliminating investments;
+
+         (e) Consolidating investments; and
+
+         (f) Splitting investments.
+
+h.   Requirements for Governance Touchpoints (Annual or Incremental)
+
+     (1) The owners of all USDA major investments must brief the IAB at a minimum
+         annually to ensure alignment with milestones, procurement, and other strategic
+         priorities.
+
+
+
+
+                                             10
+     (2) An annual touchpoint should be completed for steady state or O&M projects that
+         have not been briefed to the IAB in over 1 year.
+
+     (3) DME projects that have passed Decision gate 2 and are utilizing any agile
+         development methodology should have established reoccurring incremental
+         touchpoints with the IAB that align with the implementation of any major release.
+
+i.   Preparing for Governance Boards and Facilitating Meetings (IAB and E-Board)
+
+     (1) At a minimum, IAB meetings will be scheduled monthly and E-Board meetings
+         scheduled quarterly. The chair of each board can call an ad hoc meeting as
+         necessary. Each investment must go through their Mission Area, agency, or staff
+         office governance board before briefing the IAB and then the E-Board repository.
+         The process should be as follows:
+
+         (a) The Mission Area, agency, or staff office governance board approves
+             investment and applicable projects.
+
+         (b) The Mission Area, agency, or staff office capital planning team or Investment
+             Manager coordinates with their ITSPG Liaison to select and confirm the IAB
+             meeting date.
+
+         (c) The Mission Area, agency, or staff office provides briefing and supporting
+             documentation to the ITSPG Liaison and IT governance mailbox at least 3
+             weeks before the meeting.
+
+         (d) Briefing, agendas, and supporting documents are distributed to IAB voting
+             members no later than within 5 business days before the meeting.
+
+         (e) Voting members have 5 business days to develop questions, comments,
+             feedback, and action items or conditions.
+
+         (f) The OCIO IRMC ITSPG Governance Team delivers the internal pre-brief to the
+             IAB Chair and Vice Chair 2 days before the meeting.
+
+         (g) Hold the IAB meeting. The Chair or Vice Chair facilitates the meeting.
+
+         (h) IAB meeting minutes are finalized and distributed NLT 5 business days after
+             the meeting.
+
+         (i) Send the final draft of the IAB meeting memo with action items and conditions
+             for the CIO’s signature NLT 5 business days after the meeting.
+
+         (j) Distribute the CIO-signed IAB memo to all stakeholders NLT 1 business day
+             after receipt. Store it in the SharePoint IT governance document repository
+
+
+
+
+                                           11
+               along with the briefing, meeting minutes, and other supporting documentation,
+               in accordance with DR 3080-001, Records Management.
+
+           (k) Brief each recommended investment to the E-Board. Follow the same steps and
+               timeframes for preparing and briefing the E-Board.
+
+      (2) Attendance will be captured at each meeting:
+
+           (a) 75 percent of voting member attendance is necessary for a quorum for
+               conducting business and making recommendations regarding actions for items
+               coming before the boards.
+
+           (b) Primary participants must attend or designate a proxy at least 24 hours in
+               advance of the meeting.
+
+      (3) Meeting objectives can be accomplished using multiple forums:
+
+           (a) In-person meetings;
+
+           (b) Virtual meetings; or
+
+           (c) Documentation review, without a meeting.
+
+      (4) Voting members have the following options and decisions:
+
+           (a) Voting Options: Approve, Approve with Conditions, or Disapprove.
+
+           (b) Decision Options: Identify Action Items and Conditions, Identify Points of
+               Contact (POC), and Identify Due Dates.
+
+      (5) A simple majority (51 percent) of those voting in favor of a motion will pass the
+          motion. The Chair will only vote in the event of a tie vote among voting members.
+
+      (6) Action items and condition tracking:
+
+           (a) The respective organizations and the Mission Area, agency, or staff office POCs
+               will track action items and conditions.
+
+           (b) A member of the Governance Team or ITSPG Liaison will notify all
+               stakeholders upon the resolution of the action item.
+
+
+6. ROLES AND RESPONSIBILITIES
+
+  The following roles and responsibilities are in addition to those outlined in DR 3130-010.
+
+
+
+
+                                             12
+a.   The Deputy Secretary will:
+
+     (1) Chair the E-Board;
+
+     (2) Ensure that the E-Board serves as the conduit for decisions; and
+
+     (3) Provide advice and recommendations through the E-Board to the Secretary.
+
+b.   The CIO will:
+
+     (1) Serve as the E-Board’s Vice Chair; and
+
+     (2) Serve as the Chair in the absence of the Deputy Secretary.
+
+c.   The ACIO and Deputy ACIO of IRMC will:
+
+     (1) Serve as the IAB Chair and Vice Chair, respectively; and
+
+     (2) Reserve the authority to delegate functions and responsibilities as they see fit to
+         carry out IAB functions. Additionally:
+
+         (a) The IAB Chair (or designated representative) will call IAB meetings;
+
+         (b) The IAB Chair (or designated representative) will approve agendas;
+
+         (c) The IAB Chair (or designated representative) will submit recommendations to
+             the CIO and report to the E-Board as required; and
+
+         (d) The Vice Chair will lead the IAB in any situation when the Chair is not
+             available.
+
+d.   Governance Board General Voting Members will:
+
+     (1) Represent their organization’s interests in proposed decisions, investments, projects,
+         policies, and expenditures;
+
+     (2) Communicate and support the decisions at their respective Mission Areas, agencies,
+         and staff offices by:
+
+         (a) Attending meetings;
+
+         (b) Reviewing and assessing all submitted IT investment deliverables on the agenda
+             to make recommendations, approvals, or rejections as appropriate; and
+
+
+
+
+                                             13
+         (c) Reviewing the recommendations provided by supporting boards, considering
+             the larger cross-agency and administrative offices’ organizational impact and
+             implications.
+
+e.   Governance Board Non-Voting Members will:
+
+     (1) Serve as subject matter experts;
+
+     (2) Provide support, guidance, and expertise during IAB meetings as requested,
+         including:
+
+         (a) Reviewing IT investment submission in advance, and, if applicable, creating a
+             list of issues, risks, and comments;
+
+         (b) Validating IT investment information through consultation with Mission Area,
+             agency, or staff office representatives before governance meetings; and
+
+         (c) Serving as a point of reference for any questions coming from constituent
+             boards.
+
+f.   The IRMC Executive Assistant will:
+
+     (1) Work together with the ITSPG Liaison and OCIO IRMC ITSPG to ensure that each
+         governance board meeting follows the IITGF;
+
+     (2) Prepare and distribute minutes of IAB meetings;
+
+     (3) Provide advice and counsel to the IAB Chair on Governance Team matters;
+
+     (4) Prepare and distribute the agenda;
+
+     (5) Announce and coordinate IAB meetings at the IAB Chair’s direction;
+
+     (6) Maintain and safeguard IAB records and ensure their appropriate disposition; and
+
+     (7) Disseminate, as appropriate, recommendations and decisions reached by the IAB.
+
+g.   The OCIO IRMC ITSPG Enterprise Governance Team Liaison will:
+
+     (1) Work together with the IRMC Executive Assistant and OCIO IRMC ITSPG to
+         ensure that each governance board meeting is conducted in accordance with the
+         IITGF;
+
+     (2) Monitor and track follow-on actions to ensure that the governance board’s decisions
+         and assignments are implemented properly;
+
+
+
+
+                                              14
+     (3) Provide advice and counsel to the governance board Chairs (E-Board and IAB) on
+         investment matters;
+
+     (4) Assemble, prepare, and distribute the material on matters under consideration by the
+         governance board in advance of scheduled meetings, conducted per the IITGF;
+
+     (5) Work together with the ITSPG Liaison and IRMC Executive Assistant to ensure
+         that each governance board meeting follows the IITGF;
+
+     (6) Solicit agenda items from IAB members and ensure proper representation of items
+         before the IAB;
+
+     (7) Propose processes to support the functions of the IAB;
+
+     (8) Provide advice and counsel to the IAB Chair on IAB governance matters;
+
+     (9) Disseminate specific requirements for data and other actions on behalf of the IAB;
+
+     (10) Coordinate with the USDA Deputy Secretary’s Executive Assistant (or a designee)
+          on the schedule, agenda, and other items pertaining to facilitating E-Board
+          meetings;
+
+     (11) Prepare advisory reports and recommendations on matters to be brought to the E-
+          Board;
+
+     (12) Prepare and distribute minutes of E-Board meetings;
+
+     (13) Announce and coordinate E-Board meetings at the E-Board Chair’s direction;
+
+     (14) Maintain and safeguard E-Board records and ensure their appropriate disposition;
+
+     (15) Disseminate, as appropriate, the E-Board’s recommendations and decisions; and
+
+     (16) Prepare quarterly IAB status reports for the E-Board.
+
+h.   Mission Area, Agency, and Staff Office IPT Members will:
+
+     (1) Identify business needs and potential IT solutions that align with strategic goals;
+
+     (2) Coordinate with Investment Managers and PMs to facilitate new projects and
+         investments; and
+
+     (3) Resolve issues and make sound and timely recommendations to facilitate decision-
+         making.
+
+i.   Mission Area, Agency, and Staff Office IRB Members will:
+
+
+
+                                            15
+       (1) Review, discuss, prioritize, and approve IT investments, projects, maintenance, and
+           enhancements regarding the systems in use and any new IT innovation requests;
+           and
+
+       (2) Approve and recommend major investments and projects for enterprise governance
+           review and approval.
+
+  j.   The Investment Manager or PM will:
+
+       (1) Ensure that funding and resources are in place to support IT investments or projects
+           and that they are used appropriately;
+
+       (2) Develop IITGF and other required deliverables for enterprise governance board
+           meetings; and
+
+       (3) Coordinate with the ITSPG Liaison to ensure that required documentation is
+           completed properly and submitted on time.
+
+
+7. INQUIRIES
+
+  USDA Mission Areas, agencies, and staff offices can direct questions and inquiries on this
+  DM to the OCIO IRMC ITSPG at sm.ocio.cio.itgovernance@usda.gov.
+
+
+                                           -END-
+
+
+
+
+                                             16
+                              APPENDIX A
+
+                  ACRONYMS AND ABBREVIATIONS
+
+
+ACIO      Associate Chief Information Officer
+CCA       Clinger-Cohen Act
+CIO       Chief Information Officer
+DM        Departmental Manual
+DME       Development, Modernization, and Enhancement
+DR        Departmental Regulation
+EA        Enterprise Architecture
+E-Board   Executive Information Technology Investment Review Board
+EITG      Enterprise Information Technology Governance
+EVM       Earned Value Management
+FITARA    Federal Information Technology Acquisition Reform Act
+GAO       Government Accountability Office
+IAB       Integrated Advisory Board
+IPT       Integrated Project Team
+IITGF     Integrated Information Technology Governance Framework
+IRB       Investment Review Board
+IRMC      Information Resource Management Center
+ITPM      Information Technology Portfolio Management
+ITSPG     Information Technology Strategic Planning and Governance
+IT        Information Technology
+ITA       Investment Tailoring Agreement
+NLT       No Later Than
+OCIO      Office of the Chief Information Officer
+O&M       Operations and Maintenance
+OMB       Office of Management and Budget
+P.L.      Public Law
+PM        Project Manager
+PMB       Performance Measurement Baseline
+POC       Point of Contact
+SAOP      Senior Agency Official for Privacy
+SPM       Strategic Portfolio Management
+U.S.C.    United States Code
+USDA      United States Department of Agriculture
+WBS       Work Breakdown Structure
+
+
+
+
+                                   A-1
+                                         APPENDIX B
+
+                                         DEFINITIONS
+
+
+Control Phase. A phase of the ITPM process. Its purpose is to ensure that, as projects develop
+and investment expenditures occur, the investment and its associated projects and activities
+continue to meet mission or business needs at the expected levels of cost and risk. The key
+objectives are:
+
+   a.   To ensure that corrective actions are taken quickly to address any deficiencies in project
+        or operational components; and
+
+   b.   To allow an organization to adjust its objectives for an investment and appropriately
+        modify expected outcomes if its mission or business needs change. (Source: CCA)
+
+Earned Value Management (EVM). The technique for measuring project performance and
+assessing progress during project execution. This system aims to help people identify trends,
+predict problems, consider solutions, and manage performance more effectively. Essentially,
+EVM measures project performance against the baselines outlined in a project scope
+management plan. Using original goals as benchmarks, people can measure progress more
+accurately and draw actionable conclusions. (Sources: OMB A-11, FY 2025 Capital
+Programming Guide and subsequent versions)
+
+Enterprise. An organization that includes interdependent resources (people, organizations,
+technology) that must be integrated for effective operation.” (Sources: OMB A-11, FY2025
+Capital Programming Guide and subsequent versions)
+
+Enterprise IT Governance (EITG). A set of responsibilities and practices exercised by a board
+and executive management. EITG provides strategic direction. It ensures that objectives are
+achieved. It ascertains that risks are managed appropriately. It verifies that the enterprise’s
+resources are used responsibly. (Source: DR 3130-010)
+
+Evaluate Phase. A phase of the ITPM process. Its purpose is to compare actual versus expected
+benefits and costs of IT investments and projects. This allows personnel to assess return on
+investment, customer satisfaction, and value to an organization in meeting its mission and
+business needs. (Source: CCA)
+
+Governance. A set of processes that ensures the effective and efficient use of IT in enabling an
+organization to achieve its goals. (Source: DR 3130-010)
+
+Information System. A discrete set of information resources organized for the collection,
+processing, maintenance, use, sharing, dissemination, or disposition of information. (Source: 44
+U.S.C. § 3502(8), Definitions)
+
+
+
+
+                                               B-1
+Information Technology (IT). Any equipment or interconnected system or subsystem of
+equipment used in the automatic acquisition, storage, manipulation, management, movement,
+control, display, switching, interchange, transmission, or reception of data or information by an
+executive agency. Related to the terms capital asset, IT investment, program, project, sub-
+project, service, and system. It also includes computers, ancillary equipment (including imaging
+peripherals, input, output, and storage devices necessary for security and surveillance),
+peripheral equipment designed to be controlled by the central processing unit of a computer,
+software, and firmware. It also includes similar procedures, services (including support
+services), and related resources. It does not include any equipment acquired by a Federal
+contractor incidental to a Federal contract (per CCA). However, OMB policy includes this:
+“supercomputers, software for mission systems, telecommunications, and satellite signal
+processing.” (Source: USDA DME and O&M Definitions (and Additional IT-Related
+Definitions))
+
+Information Technology Portfolio Management (ITPM). The combination and management of
+all IT assets, resources, and investments owned or planned by an organization to achieve its
+strategic goals, objectives, and mission. (Sources: FY 2022 IT Budget – Capital Planning
+Guidance and subsequent versions)
+
+Integrated Information Technology Governance Framework (IITGF). An integral part of EITG.
+Consists of the leadership, structures, and processes that ensure that an organization’s IT sustains
+and extends its strategies and objectives. Integrated IT governance requires a structure and
+processes to support repeatable decision-making, alignment of IT activities to the enterprise’s
+strategic goals and objectives, and a clear understanding of authority and accountability.
+(Source: Integrated Information Technology Governance Framework: Guidebook)
+
+Integrated Project Team (IPT): Are formed to support the planning, execution, and governance
+of IT investments. At a minimum, IPTs should include representation from business/program
+leadership, IT, cybersecurity, acquisition, and financial management to ensure cross-functional
+coordination and accountability across the investment lifecycle. For offices with limited IT
+staffing, enterprise resources such as EPMO liaisons, ITAs, or OCIO support may be designated
+to fulfill required roles. IPTs are responsible for developing governance artifacts, preparing for
+decision gate reviews, and ensuring traceability of scope, schedule, budget, and quality
+parameters. Mission Areas are encouraged to tailor IPT composition based on project
+complexity and operational context, while maintaining compliance with IITGF expectations. For
+assistance in forming an IPT or clarifying role requirements, Mission Areas should contact
+Enterprise Governance points of contact listed in the guidebook or governance portal.
+
+Investment Manager or Project Manager (PM). The Investment Manager or PM is responsible
+for ensuring that funding and resources are in place to support an IT investment and that they are
+used appropriately. These duties can also be performed by a Program Manager or another
+individual in a similar role who has oversight responsibilities of an investment, project, or
+system. (Sources: FY 2022 IT Budget – Capital Planning Guidance and subsequent versions)
+
+Investment Tailoring Agreement (ITA). Tailoring is a request to the IAB for customizing or
+waiving IITGF-specific phases, activities, decision gates, deliverables, or investment governance
+
+
+
+                                                B-2
+reviews. It is based on specific investment requirements or specific business needs. Personnel
+can complete tailoring requests at any stage of the IITGF process documented in the ITA
+deliverable. It is the Mission Area, agency, or staff office PM’s responsibility to ensure that the
+major investment meets the required governance needs. (Source: Integrated Information
+Technology Governance Framework: Guidebook)
+
+IT Investment Management. A management process to identify, select, control, and evaluate
+investments in information systems and resources. The process effectively and efficiently:
+
+   a.   Links mission needs, information, and IT;
+
+   b.   Integrates with organizational planning, budgeting, procurement, management
+        (financial, human resources, and program), and assessment;
+
+   c.   Coordinates with the Department’s current and targeted EA; and
+
+   d.   Maximizes the value while assessing and managing the risks in the selection, control,
+        and evaluation of information resources.
+
+(Sources: FY 2022 IT Budget – Capital Planning Guidance and subsequent versions)
+
+Lifecycle. A set of processes and their temporal relationships that describe a continuous flow of
+actions and states associated with the existence of a system. The linear sequence of phases of a
+system’s existence that span an initiating action to a closing action, with an implied future re-
+execution of the sequence. (Source: USDA DME and O&M Definitions (and Additional IT-
+Related Definitions))
+
+Major IT Investment. An IT investment in Part 1 and Part 2 of the IT portfolio requires special
+management attention because of its:
+
+   a.   Importance to the mission or function of the government;
+
+   b.   Significant program or policy implications;
+
+   c.   High executive visibility;
+
+   d.   High development, operating, or maintenance costs;
+
+   e.   Unusual funding mechanism; or
+
+   f.   Definition as “major” by the Agency’s ITPM process.
+
+OMB may work with the Agency to declare IT investments as major IT investments. Agencies
+must consult with assigned OMB Desk Officers and Resource Management Offices regarding
+which investments are considered “major.” Investments not considered “major” are “non-
+
+
+
+
+                                                B-3
+major.” (Sources: FY 2022 IT Budget – Capital Planning Guidance and subsequent versions;
+DR 3130-008)
+
+Major IT Release. A major release introduces wide-ranging changes to the existing software
+version, including new features to improve the user experience. For example, it might add new
+features or functionality. (Source: USDA Definition of Major and Minor Software Releases)
+
+Mission Area Investment Review Board (IRB): Is an essential governance bodies that ensure IT
+investments align with USDA strategic priorities, comply with IITGF Gate requirements, and
+reflect sound business and technical planning. At minimum, IRBs must be chartered with defined
+decision authority, including representatives from program leadership, IT, acquisition, and
+finance, and maintain documented procedures for intake, review, and escalation. IRBs should
+meet regularly to evaluate proposals, validate deliverables, and coordinate with enterprise
+governance boards when required. Smaller offices may leverage enterprise support to fulfill IRB
+functions, provided governance responsibilities are clearly assigned and traceable. IRB
+composition and cadence may vary based on mission needs, but all boards must uphold IITGF
+standards for transparency, responsiveness, and evidence-based decision-making. Mission Areas
+seeking guidance on establishing or refining their IRB should reach out to the Enterprise
+Governance points of contact for tailored support and examples.
+
+Minor IT Release. A minor release introduces small improvements to the software’s
+functionality. However, changes or modifications are made to existing features instead of the
+release of new key features. For example, a required patch update. (Source: USDA Definition
+of Major and Minor Software Releases)
+
+Non-Major IT Investment. An IT investment that USDA or OMB does not designate as “major.”
+A non-major IT investment may be a “standard IT investment,” “IT migration investment,” or
+“funding transfer investment.” (Sources: FY 2022 IT Budget – Capital Planning Guidance and
+subsequent versions; DR 3130-009)
+
+Project. A temporary endeavor undertaken to create a unique product or service. Projects are
+different from other ongoing operations in an organization because, unlike operations, projects
+have a definite beginning and an end. That is, they have a limited duration. (Source: USDA
+DME and O&M Definitions (and Additional IT-Related Definitions))
+
+Select Phase. A phase of the ITPM process. During this phase, current and potential IT
+capabilities are evaluated from a business and technical perspective. This is done to validate
+their efficacy and cost relative to potential alternatives. This evaluation is a critical pillar in
+conjunction with the agency’s Control and Evaluate phases, which support the continuous
+evolution and optimization of the agency’s IT portfolio. (Source: CCA)
+
+
+
+
+                                                  B-4
+                                       APPENDIX C
+
+                            AUTHORITIES AND REFERENCES
+
+
+40 U.S.C. § 11302, Capital Planning and Investment Control
+
+44 U.S.C. § 3502(8), Definitions
+
+CCA, 40 U.S.C. § 11101 et seq., Subtitle III—Information Technology Management
+
+Division A—Agriculture, Rural Development, Food and Drug Administration, and Related
+Agencies Appropriations Act, 2015, P.L. 113-235, December 16, 2014
+
+Executive Order 14058, Transforming Federal Customer Experience and Service Delivery to
+Rebuild Trust in Government, December 13, 2021
+
+Federal Information Security Modernization Act of 2014 (FISMA), P.L. 113-283, December 18,
+2014
+
+Federal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, Title VIII,
+Subtitle D, Sections 831-837, December 19, 2014
+
+GAO, GAO-04-394G, Version 1.1, Information Technology Investment Management: A
+Framework for Assessing and Improving Process Maturity, March 12004
+
+OMB, Circular A-11, Preparation, Submission, and Execution of the Budget, August 2025
+OMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016
+
+OMB, FY 2022 IT Budget – Capital Planning Guidance, 2020
+
+OMB, Memorandum M-10-27, Information Technology Investment Baseline Management
+Policy, June 28, 2010
+
+OMB, M-15-14, Management and Oversight of Federal Information Technology, June 10, 2015
+
+OMB, M-16-17, OMB Circular A-123, Management’s Responsibility for Enterprise Risk
+Management and Internal Control, July 15, 2016
+
+OMB, Supplement to Circular A-11, Capital Programming Guide, Version 3.1, 2025
+
+Paperwork Reduction Act of 1995, P.L. 104-13, May 22, 1995
+
+Privacy Act of 1974, 5 U.S.C. § 552a, Records Maintained on Individuals
+
+
+
+
+                                             C-1
+USDA, Capital Planning and Investment Control web page
+
+USDA, USDA Definition of Major and Minor Software Releases, June 2023
+
+USDA, DR 3080-001, Records Management, August 16, 2016
+
+USDA, DR 3130-008, Definition of Major Information Technology Investments, August 13,
+2020
+
+USDA, DR 3130-009, Non-Major Information Technology (IT) Investments, September 28, 2020
+
+USDA, DR 3130-010, United States Department of Agriculture Enterprise Information
+Technology Governance, April 20, 2021
+
+USDA, DR 3515-002, Privacy Policy and Compliance for Personally Identifiable Information
+(PII), October 30, 2020
+
+USDA, DR 3575-004, Information Technology Security Baselines and Security Control
+Tailoring, November 21, 2023
+
+USDA, Information Technology Strategic Plan FY 2022-2026, February 2025
+
+USDA, Integrated Information Technology Governance Framework: Guidebook, Version 3.3,
+June 2018
+
+USDA, Strategic Plan Fiscal Years 2022–2026, March 2022
+
+
+
+
+                                           C-2
+

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/opa-part-file",
+  "title": "OpaPartFileExtensions",
+  "description": "Additional top-level constants present in `_partN.rego` overflow files (N ≥ 2). These extend the base directive module for the 15 large directives that exceed the 75-requirement cap. A part file shares the same `directive`, `sections`, and `summary` structure as the base file but adds the two properties below.",
+  "type": "object",
+  "properties": {
+    "part_number": {
+      "type": "integer",
+      "minimum": 2,
+      "description": "1-based part number. The base file is implicitly part 1; overflow files start at 2. DM3440-001 (408 requirements) produces parts 2 through 6.",
+      "examples": [2, 3, 4, 5, 6]
+    },
+    "primary_package": {
+      "type": "string",
+      "description": "Fully-qualified Rego package name of the base (part-1) module for this directive. Enables OPA consumers to locate the primary module when traversing a part file.",
+      "pattern": "^usda\\.policy\\.[a-z][a-z0-9_]+$",
+      "examples": ["usda.policy.dm3440_001", "usda.policy.dr3300_001_a"]
+    }
+  },
+  "required": ["part_number", "primary_package"],
+  "additionalProperties": false,
+  "examples": [
+    {
+      "part_number": 2,
+      "primary_package": "usda.policy.dm3440_001"
+    }
+  ]
+}

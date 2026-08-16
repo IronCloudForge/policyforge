@@ -1,0 +1,620 @@
+{
+  "catalog": {
+    "uuid": "00928965-0a59-59c1-badc-ea399397a700",
+    "metadata": {
+      "title": "USDA DR2405-001: Guidance on the Use of Prize Competitions and Challenges",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2014-09-30",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2405-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2014-09-30"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2405-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2405-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "a78d0b70-dcc7-5c98-b9df-8545340a0df1",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2405-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2405-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) prescribes standards for assisting U.S. Department of\n  Agriculture (USDA) agencies and staff offices with understanding the requirements for the\n  use of prize competitions and challenges. Prize competitions and challenges are one of the\n  tools available to federal agencies to advance their missions, like procurement contracts,\n  grants, and cooperative agreements.\n\n  a.     This DR will assist USDA agencies and staff offices with understanding the\n         requirements for using prize competitions and challenges as tools for advancing open\n         government, innovation, and the agency’s mission. It defines roles and\n         responsibilities and explains how to track USDA results with prize competitions and\n         challenges as well as ensure internal coordination and consistency.\n\n         Prize competitions and challenges may be appropriate for use when:\n\n         (1)    An agency wants to highlight excellence in a particular area to motivate,\n                inspire, or guide others;\n\n         (2)    An agency wants to increase the number and diversity of individuals,\n                organizations, and teams that are addressing a particular problem of national\n                or international significance;\n\n         (3)    An agency wants to improve the skills of the participants in the prize\n                competition or challenge;\n\n         (4)    An agency wants to stimulate private sector investment in a particular area;\n\n         (5)    An agency wants to capture the public imagination about a particular area;\n\n         (6)    An agency wants to pay only for results.\n\n  b.     There are multiple types of prize competitions and challenges. In considering the use\n         of a prize competition or challenge an agency must have a clear idea of what it is they\n         are trying to accomplish so they can choose the best type of prize to help them\n         accomplish the goal. Prize types are listed below:\n\n         (1)    Exemplar prizes define excellence within an area.\n\n         (2)    Point solution prizes aim to reward and spur development of solutions for a\n                particular well defined problem.\n\n         (3)    Exposition prizes help identify and promote a broad range of promising ideas\n                and practices that may not otherwise attract attention, ideally facilitating\n                further development of the idea or practice by third parties.\n\n\n\n                                                2\n\f         (4)     Network prizes build networks and strengthen communities by organizing\n                 winners into new problem-solving communities that can deliver more impact\n                 than individual efforts.\n\n         (5)     Participation prizes create value by using the competition or challenge as a\n                 vehicle to educate participants and encourage them to change their behavior or\n                 develop a new skill that may have beneficial effects during and beyond the\n                 competition.\n\n         (6)     Market stimulation prizes try to establish the viability of a market to address a\n                 potential market failure, mobilize additional human talent and financial capital\n                 to jumpstart the development of a new industry, or change public perceptions\n                 about what is possible."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "165106f6-0fca-5bef-86fd-feb0bf4ae9ad",
+        "class": "section",
+        "title": "Authorities",
+        "controls": [
+          {
+            "id": "dr2405-001-2",
+            "class": "policy-requirement",
+            "title": "Authorities",
+            "parts": [
+              {
+                "id": "dr2405-001-2-stmt",
+                "name": "statement",
+                "prose": "There are multiple authorities agencies can use to conduct prize competitions and challenges.\n  For example, prize competitions and challenges can be conducted through procurement,\n  through grants and cooperative agreements (with limitations), or as part of an agency’s\n  outreach and education activities. There is also a contest-specific statutory authority for\n  agencies to conduct prize competitions and challenges. (See The America COMPETES\n  Reauthorization Act of 2010, 15 U.S.C. § 3719 (America COMPETES Act)). This DR\n  provides general guidance on the use of these various authorities to conduct prize\n  competitions and challenges. Not all of the possible authorities are available to each agency\n  of USDA; some authorities will be agency specific. For each prize competition or challenge\n  an agency wishes to conduct, the agency will need to determine which of the possible\n  authorities is available to the agency and which of the agency’s available authorities is most\n  appropriate to help the agency achieve the agency’s end goal. This section discusses some of\n  the possible authorities, and identifies guidance resources to help agencies determine which\n  type of prize competition or challenge will best fit their needs.\n\n  a.       In 2010, the Office of Management and Budget (OMB) issued a memorandum titled\n           “Guidance on the Use of Challenges and Prizes to Promote Open Government”\n           (OMB Memorandum M-10-11, March 8, 2010); this memorandum advises agencies\n           on the potential uses of prize competitions and challenges, types of prizes, use of\n           various types of authorities to conduct prize competitions and challenges, and\n           includes a discussion of some of the issues agencies must consider when conducting\n           a prize competition or challenge – e.g., intellectual property rights, the Paperwork\n           Reduction Act. This OMB memorandum is included as Appendix A of this DR.\n\n           Some of the possible authorities for prize competitions and challenges discussed in\n           the OMB memorandum are:\n\n           (1)    Direct prize authorities – e.g., the America COMPETES Act;\n\n                                                 3\n\f               (2)      Discretionary competitive grants where the grantee’s proposed way of\n                        addressing the aim of the grant funding is to conduct a competition. The\n                        grantee would use the federal funds to conduct their own prize competition or\n                        challenge – i.e., this is not a way to conduct a prize competition or challenge\n                        for USDA. The solution(s) created through the prize competition or challenge\n                        process would not be for the direct use or benefit of the federal government;\n\n               (3)      A procurement for a contractor to provide a particular solution where that\n                        solution is obtained through a prize competition or challenge process. The\n                        solution obtained could be for the direct use or benefit of the federal\n                        government;\n\n               (4)      As part of an agency’s already authorized outreach and education activities\n                        conducting a prize competition with prizes of no or nominal monetary value,\n                        and using the Department’s gift acceptance authority to accept the winning\n                        solutions for the direct use or benefit of the federal government;\n\n               (5)      Other transactions authority – the Department has limited other transactions\n                        authorities that are available to some, but not all of the agencies within\n                        USDA;\n\n               (6)      Agency partnership authorities may have limited uses for prize competition\n                        efforts.\n\n b. In January of 2011, the President signed into law the America COMPETES Act. This statute\n    provides direct prize authority for all civilian agencies, including USDA, to carry out a\n    program to award prizes competitively to stimulate innovation that has the potential to\n    advance the mission of the agency.\n\n(1) Shortly after the passage of the America COMPETES Act, OMB issued a memorandum\n    titled “Prize Authority in the America COMPETES Reauthorization Act.” This\n    memorandum provides a list of frequently asked questions and general guidance for agencies\n    on the use of the direct prize authority of the America COMPETES Act. This OMB\n    memorandum is included as Appendix B of this DR.\n\n(2) The Under Secretaries, Assistant Secretaries, and General Officers listed below in (a) are\n    delegated the authority vested in the Secretary to implement the America COMPETES Act.\n    This authority may be redelegated, as appropriate.\n\n     (a)   The USDA officials who have been delegated America COMPETES Act authority are:\n\n           1         Under Secretary for Farm and Foreign Agriculture Services\n\n           2         Under Secretary for Natural Resources and Environment\n\n\n\n                                                       4\n\f       3     Under Secretary for Marketing and Regulatory Programs\n\n       4     Under Secretary for Food Safety Programs\n\n       5     Under Secretary for Food, Nutrition and Consumer Services\n\n       6     Under Secretary for Rural Development\n\n       7     Under Secretary for Research, Education and Economics\n\n       8     Assistant Secretary for Civil Rights\n\n       9     Assistant Secretary for Administration\n\n       10    Chief Economist\n\n  This delegation has the following exclusions:\n\n       a     Secretarial approval is required for all prize competitions that may result in the\n             award of more than $1,000,000 in cash prizes, 15 U.S.C. § 3719(m)(4)(B).\n\n       b     No prize competition approved by the Secretary may offer a prize in an amount\n             greater than $50,000,000 unless 30 days have elapsed after written notice has\n             been transmitted to the Committee on Commerce, and Transportation of the\n             Senate and the Committee on Science and Technology of the House of\n             Representatives, 15 U.S.C. § 3719(m)(4)(A)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b8f1ccbc-54b0-5982-ab3f-b9bc36f44cde",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr2405-001-3",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr2405-001-3-stmt",
+                "name": "statement",
+                "prose": "(1) Challenge.gov. Challenge.gov is a website administered by General Service\n           Administration (GSA) that serves as the central listing for federal agency prize\n           competitions and challenges. Agencies are required to list every prize competition\n           or challenge they conduct on the Challenge.gov website. Some types of prize\n           competitions and challenges can also be hosted on the Challenge.gov website.\n\n       (2) Prize Competition Coordinator. The Office of the Chief Financial Officer (OCFO)\n           is responsible for ensuring all necessary steps are completed when an agency/staff\n           office submits a prize competition or challenge.\n\n       (3) Prize Competition Manager. A representative from a USDA agency/staff office\n           responsible for administering prize competitions and challenges.\n\n\n\n\n                                                  5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cdccdde9-de95-5407-93ff-d0d9e047216a",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr2405-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr2405-001-4-stmt",
+                "name": "statement",
+                "prose": "Section 4.a. discusses the policy for use of the direct prize authority provided by the America\n  COMPETES Act. Section 4.b. discusses the policy for all non-direct authority prize\n  competitions and challenges. Section 4.c. discusses the policies that are applicable to all\n  USDA prize competitions and challenges.\n\n       (1) America COMPETES Act Prize Competitions and Challenges\n\n       (2) Signed into law in 2011, the America COMPETES Act authorizes each head of an\n           agency, or heads of multiple agencies in cooperation, to carry out programs to\n           award prizes competitively to stimulate innovation that has the potential to\n           advance the mission of the respective agency, 15 U.S.C. § 3719 (b). See Section\n           2. paragraph b. (2) for a discussion regarding delegation of this authority.\n\n       (3) Prizes.\n\n            (a) A Prize (monetary or non-monetary) is used to give a solver an incentive to\n                support innovation and encourage the development and spread of new ideas.\n                In the Federal context, a prize may be considered similar to an acquisition\n                tool, 15 U.S.C. § 3719 (c). A prize under the America COMPETES Act may\n                be one or more of the following:\n\n                  1   A point solution prize that rewards and spurs the development of\n                      solutions for a particular, well-defined problem.\n\n                  2   An exposition prize that helps identify and promote a broad range of\n                      ideas and practices that may not otherwise attract attention, facilitating\n                      further development of the idea or practice by third parties.\n\n                  3   Participation prizes that create value during and after the competition by\n                      encouraging contestants to change their behavior or develop new skills\n                      that may have beneficial effects during and after the competition.\n\n                  4   Such other types of prizes as agency heads consider appropriate to\n                      stimulate innovation that has the potential to advance their respective\n                      agency missions.\n\n       (4) Eligibility.\n\n            (a) For individuals, whether participating individually, or in a group, only\n                citizens or permanent residents of the United States are eligible to compete in\n                America COMPETES Act prize competitions and challenges, 15 U.S.C. §\n                3719 (g)(3).\n\n\n\n\n                                                  6\n\f    (b) For private entities, only those entities that are incorporated and maintain a\n        primary place of business in the United States are eligible to compete in\n        America COMPETES Act prize competitions and challenges, 15 U.S.C. §\n        3719 (g)(3).\n\n    (c) Federal employees acting within the scope of their employment are ineligible\n        to enter prize competitions, 15 U.S.C. § 3719 (g)(4). Because Federal\n        conflicts of interest may be implicated, Federal employees acting in their\n        personal capacity should consult with their ethics officials prior to applying\n        for any USDA prize competitions or challenges.\n\n    (d) A contractor may not use Federal funds from a contract to develop an entry\n        for a prize competition or challenge. Costs associated with such activities are\n        unallowable and are not allocable to Government contracts.\n\n    (e) Federal grantees may not use Federal funds to develop an entry for a prize\n        competition or challenge, unless entry into the prize competition or challenge\n        is consistent with the purpose of their grant award. If a grantee using Federal\n        funds wins a prize competition or challenge, the monetary value of the prize\n        purse/award must be treated as program income for the purposes of the\n        original grant in accordance with applicable OMB circulars and 2 CFR Part\n        200.\n\n(5) Funding for Prize Competitions and Challenges under the America COMPETES\n    Act.\n\n    (a) Financial support for the design and administration of a prize or funds for a\n        monetary prize purse may consist of Federal appropriated funds and funds\n        provided by the private sector for cash prizes, 15 U.S.C. § 3719 (m)(1).\n\n         1   Acceptance of funds from private sector donors must comply with DR\n             5200-003 “Gift Acceptance Policy.”\n\n         2   Agencies may not give special consideration to a private sector entity in\n             return for a donation.\n\n    (b) Agencies may accept funds from other Federal agencies to support prize\n        competitions, 15 U.S.C. § 3719 (m)(1).\n\n    (c) Federal appropriated funds may only be used for prize competitions and\n        challenges that match the purpose for which Congress appropriated the funds.\n\n(6) Administration of Prize Competitions and Challenges.\n\n    (a) Agencies may administer America COMPETES Act prize competitions and\n        challenges themselves.\n\n                                        7\n\f     (b) Agencies may hire a contractor to administer an America COMPETES Act\n         prize competitions and challenges. GSA has established a federal supply\n         schedule contract for prize competition and challenge administration\n         contractors.\n\n     (c) The America COMPETES Act authorizes agencies to enter into cooperative\n         agreements with private, nonprofit entities to administer prize competitions\n         and challenges on behalf of the agency, 15 U.S.C. § 3719(l).\n\n(7) Limitation on Prize Amount.\n\n     (a) No prize competition or challenge may result in the award of more than\n         $1,000,000 in cash prizes without the approval of the Secretary, 15 U.S.C.\n         § 3719 (m)(4)(B).\n\n     (b) No prize competition or challenge approved by the Secretary may offer a\n         prize in an amount greater than $50,000,000 unless 30 days have elapsed\n         after written notice has been transmitted to the Senate Committee on\n         Commerce, Science, and Transportation and the House Committee on\n         Science and Technology, 15 U.S.C. § 3719 (m)(4)(A).\n\n(8) Announcement of Prize Competition or Challenge.\n\n     (a) Prize competitions and challenges conducted using the direct prize authority\n         of the America COMPETES Act require publication in the Federal Register,\n         15 U.S.C. § 3719(f).\n\n     (b) The Federal Register notice must be published either before the start date or\n         on the same day as the start date of the prize competition or challenge; the\n         notice cannot be published after the start date.\n\n     (c) The Federal Register notice must include:\n\n          1   The subject of the competition;\n\n          2   The rules for being eligible to participate in the competition;\n\n          3   The process for participants to register for the competition;\n\n          4   The amount of the prize; and\n\n          5   The basis on which a winner will be selected.\n\n(9) Liability – Prize competition and challenge rules must require participants to agree\n    to assume any and all risks associated with participation in the competition or\n\n                                         8\n\f     challenge, and waive claims against the Federal Government, 15 U.S.C. §\n     3719(i)(1)(B).\n\n(10) Insurance.\n\n     (a) When designing a prize competition or challenge, agencies will need to\n         consider whether the risks posed by participation in the competition or\n         challenge are of such a type or degree that participants should be required to\n         obtain liability insurance prior to participating.\n\n     (b) For every prize competition or challenge, the agency must make a written\n         determination of the amount of liability insurance required for that prize\n         competition or challenge. The determination may be that zero liability\n         insurance is required.\n\n     (c) Anytime liability insurance is required for participation in a prize competition\n         or challenge, the required insurance shall cover:\n\n          1    Claims by a third party for death, bodily injury, or property damage, or\n               loss resulting from an activity carried out in connection with participation\n               in the competition, with the Federal Government named as an additional\n               insured under the participant’s insurance policy and participants agreeing\n               to indemnify the Federal Government against third party claims for\n               damages arising from or related to competition activities.\n\n               and\n\n          2    The Federal Government for damage or loss to Government property\n               resulting from competition activities.\n\n(11) Intellectual Property.\n\n     (a) Agencies may not obtain ownership of or interests in (e.g., licenses)\n         intellectual property developed by a participant in an America COMPETES\n         Act prize competition or challenge as part of the prize competition or\n         challenge.\n\n     (b) Agencies may negotiate for a license for use of intellectual property\n         developed by a participant in an America COMPETES Act prize competition\n         or challenge after the prize competition or challenge.\n\n(12) Judges.\n\n     (a) For each prize competition or challenge the agency shall appoint one or more\n         qualified judges to select the winner or winners of the competition. Judges\n\n\n\n                                          9\n\f             may include individuals from inside the agency and individuals from outside\n             the agency, including from the private sector, 15 U.S.C. § 3719(k)(1).\n\n        (b) Appendix E sets forth the judging guidelines for USDA prize competitions\n            and challenges.\n\n        (c) The Federal Advisory Committee Act (FACA), 5 U.S.C. App. does not apply\n            to a group created solely for the purpose of judging America COMPETES\n            Act prize competitions or challenges, 15 U.S.C. § 3719(k)(4).\n\n   (13) Agencies/staff offices considering prize competitions or challenges should consult\n        with their appropriate program counsel office for their mission area concerning\n        legal issues relevant to their agencies/staff offices and to ensure that each use of a\n        prize competition or challenge is consistent with congressional authorizations or\n        appropriation.\n\nb. Non-Direct Authority Prize Competitions and Challenges\n\n   (1) Prize competitions under other authorities may include any of the types of prizes\n       discussed in section 1., or any of the types of prizes contemplated by the America\n       COMPETES Act.\n\n   (2) Administration of Prize Competitions and Challenges under Other Legal\n       Authorities.\n\n        (a) Agencies may administer prize competitions and challenges themselves.\n\n        (b) Agencies may hire a contractor to administer a prize competition or\n            challenge. GSA has established a federal supply schedule contract for prize\n            competition and challenge administration contractors.\n\n        (c) Depending on the type of authority used for the prize competition or\n            challenge having a grantee, cooperator, or other partner administer the prize\n            competition or challenge may be a possibility.\n\n   (3) Eligibility. Individuals who are not U.S. citizens or permanent residents might be\n       eligible to win prizes in prize competitions and challenges conducted under other\n       legal authorities. Eligibility will be determined by the type of authority being used\n       for the prize competition or challenge.\n\n   (4) Authority. There are a number of authorities under existing statutes that agencies\n       potentially could rely upon to structure a prize competition or challenge; see\n       section 2. Not every authority will be available for every agency. Agencies\n       should always consult with their appropriate program counsel office for their\n       mission area concerning available authority and other legal issues relevant to their\n\n\n\n                                            10\n\f     agencies to ensure that each use of a prize competition and challenge is consistent\n     with congressional authorization and appropriation.\n\n(5) Funding. Availability of appropriated funds or outside funding sources for prize\n    competitions and challenges using other legal authorities will be determined based\n    upon:\n\n     (a) The particular authority being used for the prize competition or challenge;\n\n           and\n\n     (b) The purpose of the prize competition or challenge.\n\n(6) Prize Amount of Prize Competition or Challenge under Other Authorities. No\n    prize competition or challenge may result in the award of more than $1,000,000 in\n    cash prizes without the approval of the Secretary and OCFO.\n\n(7) Announcement of the Prize Competition or Challenge. USDA prize competitions\n    and challenges conducted under other legal authorities require the same\n    publication in the Federal Register as prize competitions and challenges under the\n    America COMPETES Act (see 4.a.(7)).\n\n(8) Liability. Prize competitions and challenges conducted under other legal\n    authorities should include in their rules the same liability requirements as America\n    COMPETES Act competitions (see 4.a.(8)).\n\n(9) Insurance. Prize competitions and challenges conducted under other legal\n    authorities require the same written determination about amount of any liability\n    insurance that will be required as America COMPETES Act (see 4.a.(9)).\n\n(10) Intellectual Property. The ability of the agency to obtain ownership of or an\n     interest in (e.g., licenses) intellectual property developed by a participant in a prize\n     competition or challenge under other legal authorities will be determined by the\n     type of legal authority used for the prize competition or challenge.\n\n(11) Judges.\n\n     (a) Prize competitions and challenges under other legal authorities will use the\n         same judging guidelines as prize competitions and challenges under the\n         America COMPETES Act competitions (see 4.a.(11)(a) and (b)). The\n         judging guidelines are included as Appendix E.\n\n     (b) Judging panels for prize competitions and challenges under other legal\n         authorities may be subject to the Federal Advisory Committee Act (FACA), 5\n         U.S.C. App. Judging panels consisting wholly of federal employees will not\n         be subject to FACA. If a judging panel will have non-federal members, the\n\n                                          11\n\f             agency will need to consult with the Office of the General Counsel (OGC) to\n             determine whether FACA applies to their particular prize competition or\n             challenge.\n\nc. Policy Applicable to Both America COMPETES Act and Other Legal Authority Prize\n   Competitions and Challenges.\n\n   (1) Announcement Timing.\n\n        Agencies may not announce prize competitions or challenges until all the funding\n        needed to pay out the prize amount has been appropriated and/or committed in\n        writing by any private source(s) providing funding.\n\n   (2) Federal Endorsement of Products or Services. Agencies should avoid any\n       improper Federal endorsement of products or services when creating prize\n       competitions and challenges. See 5 C.F.R. 2635.702 (c).\n\n   (3) Entities/persons that are suspended or debarred are not eligible to win prize\n       competitions and challenges.\n\n   (4) Paperwork Reduction Act (PRA). Agencies should consult with their agency PRA\n       Coordinator, and if necessary with OGC to determine whether the PRA applies to\n       the entry forms or other documents the agency intends to use for a particular prize\n       competition or challenge. The standard forms that prize winners will be required\n       to fill out (see section 6.) should already satisfy the requirements of the PRA; if\n       there is a question about whether use of these forms triggers any additional PRA\n       requirements agencies should consult with their PRA Coordinator.\n\n   (5) Privacy Act. For prize competitions and challenges with monetary prize purses the\n       agency will need to collect personally identifiable information from the prize\n       winners in order to make payments. Agencies will use already established\n       standard forms for the collection of this information. Accordingly, the Privacy Act\n       requirements for collection of this information should already be satisfied. If\n       additional forms will be used for a particular prize competition or challenge, the\n       agency should consult with their agency privacy officer, and if necessary with the\n       OCFO and/or OGC to determine what Privacy Act requirements apply to the\n       additional forms.\n\n   (6) Challenge.gov.\n\n        (a) All prize competitions and challenges must be posted on the Challenge.gov\n            website.\n\n             1   To post a prize competition or challenge on the Challenge.gov website\n                 agencies will need to apply with the GSA for administrator access to the\n                 site.\n\n                                           12\n\f            (b) Certain types of prize competitions and challenges can also be hosted on the\n                Challenge.gov website. Other types of prize competitions and challenges\n                will need to be hosted on a website other than Challenge.gov.\n\n                 1   For guidance on the use and availability of Challenge.gov for hosting\n                     prize competitions and challenges please visit the Challenge.gov website.\n\n       (7) Requirements for Transactions Related to the Prize Competition or Challenge.\n\n            During the course of conducting a prize competition or challenge, agencies may\n            enter into other transactions related to the prize competition or challenge. The\n            standard rules, procedures, and documentation requirements that normally apply to\n            these types of transactions continue to apply in the prize competition or challenge\n            arena. For example, an agency may enter into a procurement contract to have a\n            contractor administer the prize competition or challenge. This procurement\n            contract would be subject to the same competition requirements, Federal\n            Acquisition Regulation requirements, and records retention requirements as any\n            other procurement contract.\n\n       (8) Compliance with State Law. Agencies should evaluate the need for participants to\n           comply with varying state laws.\n\n       (9) Reporting. Agencies should submit the template for Annual Reporting\n           Requirements at USDA to OCFO within 5 days after the selection of a prize\n           competition or challenge winner. See Appendix H. This information will be used\n           in compiling USDA’s annual report to Congress on its use of prize competitions\n           and challenges."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2df9a168-873f-5fcd-a88d-db49b38bb0bd",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr2405-001-5",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr2405-001-5-stmt",
+                "name": "statement",
+                "prose": "a. Office of the Secretary.\n\n     (1)    America COMPETES Act Prize Competitions and Challenges\n\n            (a) Approve prize competitions that may result in awards of more than\n                $1,000,000 as set forth in 15 U.S.C. § 3719 (m)(4)(b).\n\n            (b) Ensure that no prize competition may offer a prize in an amount greater than\n                $50,000,000 unless 30 days have elapsed after written notice has been\n                transmitted to the Senate Committee on Commerce, Science, and\n                Transportation and the House Committee on Science and Technology as set\n                forth in 15 U.S.C. § 3719 (m)(4)(A).\n\n     (2)    Other Legal Authority Prize Competitions and Challenges\n\n\n\n                                               13\n\f        (a) Approve prize competitions that may result in awards of more than\n            $1,000,000 (see4.b.(6)).\n\nb. OCFO.\n\n   (1) Responsibilities Applicable to Both America COMPETES Act and Other\n       Authority Prize Competitions and Challenges\n\n        (a) Act as the USDA agency Prize Competition Coordinator.\n\n        (b) Review, in collaboration with the OGC, all prize competition and challenge\n            proposals submitted by agencies/staff offices. See Appendix C.\n\n        (c) Complete the OCFO/OGC Review Document. See Appendix D.\n\n        (d) Submit the consolidated USDA annual report for America COMPETES Act\n            to the OMB's Director of Office of Science and Technology Policy by\n            December 30th of each year, regarding the Department’s activities during the\n            fiscal year that ended on the preceding September 30 as set forth in 15 U.S.C.\n            § 3719 (p)(1).\n\nc. Agencies/staff offices.\n\n   (1) Identify a Prize Competition Manager for their agency/staff office who will be\n       responsible for both America COMPETES Act and other legal authority prize\n       competitions and challenges.\n\nd. Prize Competition Manager.\n\n   (1) America COMPETES Act Prize Competitions and Challenges.\n\n        (a) Directly, or through an agreement with a private, nonprofit entity, shall\n            appoint one or more qualified judges to select the winner or winners of the\n            prize competition as set forth in 15 U.S.C. § 3719 (k)(1).\n\n        (b) Work with the agency/staff office budget office to secure sufficient funds for\n            administration of the prize competition or challenge and award of the prize\n            amount. Appropriated funds may only be used if the purpose of the prize\n            competition or challenge matches the purpose for which Congress\n            appropriated the funds.\n\n        (c) If it is known that the agency/staff office intends to negotiate intellectual\n            property (IP) rights later, this may be noted under the “Additional\n            Information” section of the Federal Register Notice. This will ensure the\n            proper treatment of IP rights in the notice.\n\n\n                                            14\n\f(2) Other Legal Authority Prize Competitions and Challenges.\n\n    (a) Secure sufficient funds that are authorized for the planned prize competition\n        or challenge and are consistent with congressional authorization and\n        appropriation.\n\n    (b) Select the right vehicles and partners for the prize competition or challenge.\n        Think broadly about the role that effective partners can play in administering\n        or publicizing contests. Depending on agency authority, it may be\n        appropriate to seek Federal agency or non-Federal partners to help meet\n        agency goals. Some or all of the following vehicles may, in appropriate\n        circumstances, be worthy of consideration:\n\n         1   Design, administer, and pay for the challenge competition internally\n             within the agency.\n\n         2   Award a procurement contract for administration of the prize\n             competition.\n\n         3   Enter into an Economy Act agreement or other interagency agreement to\n             involve other federal agencies in the conduct of a prize competition.\n\n         4   As permitted by agency authorities, encourage the formation of a public-\n             private partnership to fund and administer the challenge competition.\n\n(3) Responsibilities Applicable to Both America COMPETES Act and Other Legal\n    Authority Prize Competitions and Challenges.\n\n    (a) Select topics for prize competitions and challenges.\n\n    (b) Complete and submit USDA Review Form to OCFO. See Appendix C.\n\n    (c) Publish a notice in the Federal Register announcing:\n\n         1   The subject of the competition;\n\n         2   The rules for being eligible to participate in the competition;\n\n         3   The process for participants to register for the competition;\n\n         4   The amount of the prize; and\n\n         5   The basis on which a winner will be selected.\n\n    (d) When developing an announcement of the prize competition or challenge for\n        publication to the Federal Register, include OCFO in the clearance process\n\n                                        15\n\f(e) When prize purses are paid with Federal funds, the Federal Register\n    announcement must indicate i) that awards will be paid using electronic funds\n    transfer and ii) all Federal, state and local taxes are the sole responsibility of\n    the winner(s). See Appendix G. If the funding for the prize purse is donated\n    by a non-Federal entity, the contest rules announced in the Federal Register\n    should reflect the name of the USDA award approving official; not the name\n    of the donor.\n\n(f)   If the funding for the prize purse is paid by a non-Federal entity, the contest\n      rules should reflect the name of the partner. The agency/staff office will need\n      to coordinate with the partner regarding instructions for award of the prize\n      purse.\n\n(g) Consult with their appropriate program counsel for their mission area\n    concerning legal issues relevant to their agencies to ensure that each use of a\n    prize competition or challenge is consistent with congressional authorization\n    and appropriation.\n\n(h) Use the appropriate vehicle (e.g., Interagency Agreement with another\n    Federal agency or an appropriate agreement with a private party) when\n    USDA is accepting outside funds for a prize competition or challenge.\n\n      1 When USDA is responsible for making the payment to the prize\n      competition winners, the funds from the outside source must be received and\n      deposited as an advance prior to announcing the prize competition. When the\n      prize competition or challenge is fully completed, any remaining funds must\n      be returned to the outside source.\n\n      2 If the outside source is responsible for making the payment directly to the\n      winner(s) of the prize competition or challenge, USDA will:\n\n               a   Obtain the outside source’s commitment in writing; and\n\n               b   Clearly state in the prize competition or challenge rules and\n                   announcement that an outside source is responsible for paying\n                   the monetary prize.\n\n(i)   Notify the Judges. Upon approval of qualified judges, provide the selected\n      judges with USDA judging guidelines document for completion. See\n      Appendix E.\n\n(j)   Develop judging evaluation criteria for the prize competition or challenge.\n      See Appendix F. Prize Competition Managers must document and keep a\n      record of the decision-making process used to select the finalists.\n\n\n\n                                    16\n\f(k) Work with agency/staff office accounting staff to record a commitment of\n    funds in USDA’s accounting system before the prize competition or\n    challenge is announced.\n\n(l)   List USDA prize competitions or challenges on Challenge.gov (USDA-wide\n      policy). All USDA Prize Competition Managers wishing to post a challenge\n      on Challenge.gov must be approved by OCFO or agency designee.\n\n(m) When a prize purse is monetary, check the System for Award Management\n    (https://www.sam.gov/portal/public/SAM/) to determine whether a\n    prospective winner has been suspended or debarred. Agencies need to\n    include in the contest rules the exclusion of Suspended and/or Debarred\n    entities or individuals from being able to win the contest.\n\n(n) Have available for inspection by OCFO documentation: 1) identifying the\n    winner(s) of the prize competition or challenge, 2) how the winner(s) of the\n    prize competition or challenge were selected, and 3) how the winner(s) of the\n    prize competition or challenge were announced.\n\n(o) Obtain winner(s) information needed to process a payment for a prize\n    competition or challenge within USDA’s accounting system. The USDA\n    agency/staff office will complete Standard Form 1034 (SF1034), “Public\n    Voucher for Purchases and Services Other than Personal” and submit the\n    SF1034 to the unit responsible for processing payment to the winner(s).\n\n(p) Ensure that all prize competition or challenge documentation provides clear\n    audit trails of financial transactions which include all materials created in\n    support of financial events and disclosure of events or circumstances that\n    affect a user’s interpretation.\n\n(q) Paperwork Reduction Act. Agencies should evaluate the applicability of the\n    PRA to any prize-related activities. Consult with your PRA Coordinator\n    should you have any questions about the applicability of prizes and the PRA\n    to a specific competition or challenge.\n\n(r)   Privacy Act. Agencies should evaluate the applicability of the Privacy Act to\n      any prize-related activities.\n\n(s)   Gift Acceptance. Agencies should apply USDA gift acceptance policy\n      guidelines for acceptance of any gifts related to prize competitions or\n      challenges. See USDA Gift Acceptance Policy, DR 5200-003.\n\n(t)   Ethical Issues. Federal employees must comply with the Standards of Ethical\n      Conduct for Employees of Executive Branch, 5 C.F.R. § 2635, and the\n      general principle that employees will act impartially and not give preferential\n      treatment to any private organization or individual.\n\n                                    17\n\f(u)    Submit the template for Annual Reporting Requirements at USDA to OCFO\n      within five days after the conclusion of a prize competition or challenge. See\n      Appendix H. This information will be used in compiling USDA’s annual\n      report to Congress on its use of prize competitions and challenges.\n\n\n\n\n                                 -END-\n\n\n\n\n                                    18\n\f                          APPENDIX A\n\nGuidance on the Use of Challenges and Prizes to Promote Open Government\n                     (OMB Memorandum M-10-11)\n\n\n\n\n                                 A-1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-2",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-2",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-stmt",
+                "name": "statement",
+                "prose": "A-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-3",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-2",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-3",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-2-stmt",
+                "name": "statement",
+                "prose": "A-3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-4",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-3",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-4",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-3-stmt",
+                "name": "statement",
+                "prose": "A-4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-5",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-4",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-5",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-4-stmt",
+                "name": "statement",
+                "prose": "A-5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-6",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-5",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-6",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-5-stmt",
+                "name": "statement",
+                "prose": "A-6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-7",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-6",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-7",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-6-stmt",
+                "name": "statement",
+                "prose": "A-7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-8",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-7",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-8",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-7-stmt",
+                "name": "statement",
+                "prose": "A-8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-9",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-8",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-9",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-8-stmt",
+                "name": "statement",
+                "prose": "A-9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-10",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-9",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-10",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-9-stmt",
+                "name": "statement",
+                "prose": "A-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-11",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-10",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-11",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-10-stmt",
+                "name": "statement",
+                "prose": "A-11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0286bc8-bc56-5bad-a07e-6220081592d8",
+        "class": "appendix",
+        "title": "Appendix A — A-12",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-a-11",
+            "class": "policy-requirement",
+            "title": "Appendix A — A-12",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-a-11-stmt",
+                "name": "statement",
+                "prose": "A-12\n\f                     APPENDIX B\n\nPrize Authority in the America COMPETES Reauthorization Act\n\n\n\n\n                           B-1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-2",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-2",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-stmt",
+                "name": "statement",
+                "prose": "B-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-3",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-2",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-3",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-2-stmt",
+                "name": "statement",
+                "prose": "B-3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-4",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-3",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-4",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-3-stmt",
+                "name": "statement",
+                "prose": "B-4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-5",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-4",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-5",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-4-stmt",
+                "name": "statement",
+                "prose": "B-5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-6",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-5",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-6",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-5-stmt",
+                "name": "statement",
+                "prose": "B-6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-7",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-6",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-7",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-6-stmt",
+                "name": "statement",
+                "prose": "B-7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-8",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-7",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-8",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-7-stmt",
+                "name": "statement",
+                "prose": "B-8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-9",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-8",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-9",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-8-stmt",
+                "name": "statement",
+                "prose": "B-9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-10",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-9",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-10",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-9-stmt",
+                "name": "statement",
+                "prose": "B-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-11",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-10",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-11",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-10-stmt",
+                "name": "statement",
+                "prose": "B-11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af6ff5f4-9581-5989-960b-7234320f66d3",
+        "class": "appendix",
+        "title": "Appendix B — B-12",
+        "controls": [
+          {
+            "id": "dr2405-001-appendix-b-11",
+            "class": "policy-requirement",
+            "title": "Appendix B — B-12",
+            "parts": [
+              {
+                "id": "dr2405-001-appendix-b-11-stmt",
+                "name": "statement",
+                "prose": "B-12\n\f                                         APPENDIX C\n\n                                   Sample USDA Review Form\n\nThe Office of the Chief Financial Officer (OCFO) and the Office of General Counsel (OGC)\nteam establishes a transparent and formal agency process for proposing and tracking prize\ncompetitions and challenges. The review process will ensure that prize competitions and\nchallenges are subject to high-levels of safeguard. OCFO also serves as a point of contact to\ndisseminate policy guidance and resources regarding the use of prize competitions and\nchallenges.\n\nProcedures: Proposals for prize competitions and challenges must be submitted to OCFO\nbefore development begins. Prize Competitions Managers will complete a form (attached) and\nsubmit it to the OCFO Challenge Review Team (challengereviewteam@cfo.usda.gov). Under\nnormal circumstances, OCFO and OGC will review the proposal and provide a response within\ntwo weeks.\n\nA review of a prize competition or challenge will consider:\n\n   •   Legal issues\n   •   Relation to agency mission\n   •   Budget rationale\n   •   Communication plan and outreach strategy\n   •   What program is this furthering?\n   •   Who is the universe of solvers?\n   •   What do you want to get out of this?\n   •   What is the problem to be solved?\n\n\n\n\n                                                C-1\n\f                                       APPENDIX C\n\nOCFO and OGC will review all proposals based on the information provided below.\n\nPlease email the completed form to challengereviewteam@cfo.usda.gov and your agency\nprogram counsel in OGC.\n\nEmail with this USDA Review Form, a communication plan for the prize competition or\nchallenge that includes any plans for events.\n\nYou should receive a response within two weeks. Incomplete forms will delay a response.\n\n\nSECTION 1. BASIC INFORMATION\n\n   1. Proposed Name of Prize Competition or Challenge.\n\n   2. Staff Point of Contact (name/title/email/phone number).\n       Name                  Title                  Email                Phone Number\n\n\n\n\n   3. Supervisor Approving Form Submission and Signature (name/title/email/phone\n      number).\n      Name                 Title               Email                  Phone Number\n\n\n\n\n   4. Prize Competition Manager Approving Form Submission and Signature\n      (name/title/email/phone number).\n      Name                  Title             Email                Phone Number\n\n\n\n\n       Signature:___________________________________\n\n   5. Under what authority is this prize competition or challenge being conducted?\n\n   6. Are appropriated funds planned for use for this prize competition or challenge?\n         a. If yes, what appropriation are the funds from, and what is the assigned purpose\n             of the appropriated funds?\n\n                                              C-2\n\f  7. Proposed start/close date for prize competition or challenge.\n\n\n\nSECTION 2. PROPOSAL DESCRIPTION\n\n  1. Describe the prize competition or challenge.\n\n  2. Describe how this prize competition or challenge relates to or furthers the program\n     mission of the agency/staff office.\n\n  3. Describe the group(s) of solvers.\n\n  4. Describe the judging evaluation criteria.\n\n  5. Describe any intended prizes for solvers. If monetary, please list the intended\n     amount(s):\n\n  6. What is the partnering plan? If applicable.\n\n  7. What is the source of funding? Are any funds coming from outside the USDA?\n\n  8. Why is a prize competition and/or challenge the best way to approach this problem?\n\n\n\nSECTION 3. IMPLEMENTATION\n\n  1. All prize competitions and challenges must be made available through Challenge.gov.\n     Who will be the contact point for Challenge.gov?\n\n  2. Agencies can choose platforms that best meet their needs for specific competitions.\n     GSA created a Special Item Number (SIN) for challenge and competition services that\n     are available on GSA.gov (541 4G).\n\n  3. Are there any other organizations participating? If so, please provide details below:\n\n  4. Is this a technology or science-based prize competition or challenge? If yes, has a patent\n     search been conducted?\n\n\n\n\n                                                 C-3\n\f                                        APPENDIX D\n\n                                 OCFO/OGC Review Document\n\nTO:                   Prize Competition Manager\n\nFROM:                 Office of the Chief Financial Officer\n                      Office of General Counsel\n\nDATE:\n\nPROJECT NAME:         [Proposed Name of Prize Competition or Challenge]\n\nThe Office of the Chief Financial Officer and the Office of General Counsel have reviewed the\nUSDA Review Form submitted for the above referenced project name.\n\n[The Office of the Chief Financial Officer and the Office of General Counsel checks the\nappropriate line below for recommend approval, recommend approval with changes, do not\nrecommend approval, or need more information, dates the memo, and signs below.]\n\n\n\n\nOCFO Recommends Approval ___ Recommend Approval with changes ___ (attach a\ndescription of the recommended changes) Do Not Recommend Approval ___ Need More\nInformation ___ (list additional information required)\n\n_________________________________________                                _________________\nOffice of the Chief Financial Officer                                    Date\n\n\n\nOGC Recommends Approval ___ Recommend Approval with changes ___ (attach a\ndescription of the recommended changes) Do Not Recommend Approval ___ Need More\nInformation ___ (list additional information required)\n__________________________________________                        _________________\nOffice of the General Counsel                                     Date\n\n\n\n\n                                               D-1\n\f                                          APPENDIX E\n\n                                     USDA Judging Guidelines\n\nJudge Selection. Judges may not:\n\n   •   have personal or financial interests in, or be an employee, officer, director, or agent of\n       any entity that is a registered participant in a competition; or\n\n   •   have a familial or financial relationship with an individual who is a registered\n       participant.\n\nTo ensure that judges appointed for prize competitions and challenges are fairly balanced\nand operate in a transparent manner, every judge appointed for a USDA prize\ncompetition or challenge must complete the following non-disclosure and conflict of\ninterest agreement attached to Appendix E.\n\n\n\n\n                                                 E-1\n\f                                           APPENDIX E\n\n            NON-DISCLOSURE AND CONFLICT OF INTEREST AGREEMENT\n\nName:\n\nOrganization:\n\n\nTitle:\n\nEmail:\n\nPhone Number:\n\nTitle of Prize Competition or Challenge:\n\nAgency Prize Competition Manager:\n\n1)   I acknowledge that USDA has selected me to participate as a judge in the above prize\n     competition or challenge. I am aware that during the course of executing my duties, I may\n     receive confidential business information, as well as participate in confidential deliberations\n     leading to a decision by USDA to select a prize competition or challenge winner.\n\n2)   I certify that I will not knowingly disclose any information obtained during the judging\n     process (e.g. application materials not already in the public domain, comments and\n     deliberations of the judging panel), directly or indirectly, to any person other than USDA’s\n     Prize Competition Manager, or a person authorized by the Prize Competition Manager, to\n     receive such information. I understand that unauthorized disclosure of such information\n     may subject me to substantial administrative, civil and criminal penalties, including fine,\n     imprisonment, and loss of Federal employment under applicable laws and regulations.\n\n\n3)   I understand that I am not permitted to have a personal or financial interest in or be an\n     employee, officer, director, or agency of any entity that competes in the prize competition\n     or challenge. After the close of the entry period and prior to performing my judging duties\n     I will be provided a list of all contestants in the prize competition or challenge. I commit to\n     review the list of contestants and immediately make the Prize Competition Manager aware\n     of any conflict of interest I have with any of the contestants, and will recuse myself from\n     judging the entries of any and all contestants for whom such conflicts of interest arise.\n\n4)   I understand that I am not permitted to have a familial or financial relationship with any\n     individual that competes in the prize competition or challenge. After the close of the entry\n     period and prior to performing my judging duties I will be provided a list of all contestants\n     in the prize competition or challenge. I commit to review the list of contestants and\n     immediately make the Prize Competition Manager aware of any conflict of interest I have\n     with any of the contestants, and will recuse myself from judging the entries of any and all\n     contestants for whom such conflicts of interest arise.\n\n                                                  E-2\n\f                                          APPENDIX E\n\n5)   The Whistleblower Protection Enhancement Act of 2012, Pub. L. No. 112-199 (Nov. 27,\n     2012) (WPEA) makes it a prohibited personnel practice for Federal agencies to enter into\n     any “nondisclosure policy, form or agreement” that does not include the following specific\n     language:\n\n           These provisions are consistent with, and do not supersede, conflict with,\n            or otherwise alter the employee obligations, rights, or liabilities created\n           by existing statute or Executive order relating to (1) classified information,\n           (2) communications to Congress, (3) the reporting to the Inspector General\n           of a violation of any law, rule, or regulation, or mismanagement, a gross\n           waste of funds, an abuse of authority, or a substantial and specific danger\n           to public health or safety, or (4) any other whistleblower protection. The\n           definitions, requirements, obligations, rights, sanctions, and liabilities\n           created by controlling Executive orders and statutory provisions are\n           incorporated into this agreement and are controlling.\n           Prohibited personnel practices are listed at 5 U.S.C. § 2302(b).\n\n6)   I certify that I will operate in a transparent manner in accord with the following minimum\n     standards of conduct:\n\n     A. I will base each proposal evaluation on the published evaluation factors;\n     B. I will remain free from bias in making selection decisions;\n     C. I will provide USDA’s Prize Competition Manager or his/her representative a score\n        sheet or such other documentation the USDA Prize Competition Manager requires for\n        each application I review describing the basis for my evaluation of the application;\n     D. I will not discuss evaluation matters related to competition entries or the judging\n        thereof with any unauthorized individuals, including Federal personnel, even after\n        competition award, without specific prior approval from USDA’s Prize Competition\n        Manager or his/her representative;\n     E. I will not disclose a participant’s proposal to another participant or other individuals\n        except for USDA’s Prize Competition Manager and his/her representatives;\n     F. I will remain free from conflicts of interest with participants;\n     G. I will disclose to USDA any contact during a competition with a participant regarding\n        prospective employment;\n     H. I will not ask for, demand, exact, solicit, seek, accept, receive, or agree to receive,\n        directly or indirectly, accept, directly or indirectly, any money, gratuity, or other thing\n        of value from any officer, employee, representative, agent, or consultant of a\n        contestant. I will advise my family that the acceptance of any such money, gratuity, or\n        other thing of value may be imputed to me as a violation and must therefore be\n        avoided; and\n     I. I will not solicit or accept any promise of future payment, employment or business\n        opportunity from, or engage, directly or indirectly, in any discussion of future\n        payment, employment or business opportunity with any applicant or any officer,\n        employee, representative, agent, or consultant of an applicant.\n\n\n\n\n                                                 E-3\n\f                                           APPENDIX E\n\n7)   I understand that my obligations under this agreement are of a continuing nature. If at\n     any time during the judging process, I receive a contact from a contestant in the prize\n     competition or challenge I am judging concerning payment, employment or other\n     business opportunity or the offer of a gift from a contestant’s competitor, or I\n     encounter circumstances where my participation as a judge might result in a real,\n     apparent, or potential conflict of interest, I will immediately seek the advice of\n     USDA’s Prize Competition Manager or his/her representative.\n\n8)   These restrictions do not supersede, or otherwise alter, Federal employee obligations,\n     rights, or liabilities established by statute, regulation, Executive Order or agency\n     policy.\n\n     The acknowledgement and signature provided does not bar disclosures to\n     Congress or to an authorized representative of USDA’s Office of Inspector\n     General or an official of an executive agency or the Department of Justice that are\n     essential to reporting substantial violation of law.\n\nI understand that making a false, fictitious, or fraudulent certification may subject me\nto prosecution under Title 18, U.S.C. Section 1001.\n\n\n\n\nSignature: ________________________________________________\n\nDate: ____________________________________________________\n\n\n\n\n                                                  E-4\n\f                                        APPENDIX F\n\n                              Sample of Judging Evaluation Criteria\n\nSubject of the prize competition or challenge: Example: The USDA seeks, in collaboration\nwith its Office of Communications, the development of a public service video explaining how\nmore fruits and vegetables can be added to diets without straining household budgets.\nJudge:________________________________________\nDate: ________________\n*****************************************************************************\n                                    Contestant Information\nExample:\nName: ________________________________________________________________\nAddress:_______________________________________________________________\nCity: __________________________________           State: _____ Zip Code:________\nPhone Number:_________________________\nEmail:_________________________________\n        This prize competition or challenge will be evaluated on the following criteria:\n\n Element\n                                       Points Possible OR           Points Given OR\n                                       Adjectival Ratings           Adjectival Rating Given\n                                       Possible\n\n\n\n\n                                                             TOTAL SCORE/OVERALL\n                                                             RATING:____________\n                                                F-1\n\f                                          APPENDIX G\n\n                             USDA Guidance for Federal Register Notice\n\nProvided below is guidance for USDA officials functioning as Prize Competition Managers to\nuse in developing the required Federal Register notice for the announcement of a prize\ncompetition or challenge. The Federal Register notice must contain: (1) the subject of the\ncompetition; (2) the rules for being eligible to participate in the competition; (3) the process for\ncontestants to register for the competition; (4) the amount of the prize; and (5) the basis on\nwhich a winner will be selected.\n\nThe requirements for writing a notice for the Federal Register can be found in the Federal\nRegister Document Drafting Handbook, the relevant portion of which is available at\nhttp://www.archives.gov/Federal-register/write/handbook/chapter-3.txt.\n\nPrize Competition Managers may utilize their operating or staff division’s processes for\nsubmitting this document to their Executive Secretariats for publication in the Federal Register.\n\nThe notice announcing the requirements and registration of the prize competition or challenge\nshould be published in the Federal Register before it is announced on Challenge.gov.\n\n\n\n\n                                                  F-1\n\f                                         APPENDIX G\n\n              SAMPLE TEMPLATE FOR FEDERAL REGISTER NOTICE\n                                                         [Billing Code]\n\nU.S. DEPARTMENT OF AGRICULTURE\n\n[Subagency Name]\n\n[Agency Docket Number]\n\nAnnouncement of Requirements and Registration for_____[Insert Name of Prize\nCompetition]\n\nAuthority: For America COMPETES Act competitions the authority will be 15 U.S.C. § 3719;\nFor prize competitions and challenges conducted under other legal authorities the authority\ncitation will be competition-specific.\n\nAGENCY: ____________ [Subagency Name], USDA\n\nACTION: Notice\n\nSUMMARY: In summarizing the prize competition or challenge that will be issued by your\nagency, please answer the following four questions:\n\n       1) What action is being taken?\n\n       2) Why is this action necessary?\n\n       3) What is the objective of the prize competition or challenge?\n\n       4) What is the intended effect of this action?\n\nThe summary should be brief. Supporting information and details should be placed under the\nSUPPLEMENTARY INFORMATION caption below.\n\nDATES: Effective on [list the effective dates of the prize competition or challenge].\n\nFOR FURTHER INFORMATION CONTACT: [List the name and telephone number and\nemail address of an authorized representative of the USDA Prize Competition Manager who can\nanswer questions about the prize competition or challenge.]\n\nSUPPLEMENTARY INFORMATION:\nInsert the rules of the competition here. At a minimum, the rules must include the following\nelements:\n\n\n\n\n                                                G-2\n\f                                          APPENDIX G\n\nSubject of Prize Competition or Challenge:\nEligibility Rules for Participating in the Competition or Challenge:\n\n“To be eligible to win a prize under this prize competition or challenge, an individual or\nentity—\n\n   (1) Shall have registered to participate in the competition under the rules promulgated by\n       [the issuing agency];\n\n   (2) Shall have complied with all the requirements under this section;\n\n   (3) May not be a Federal entity or Federal employee acting within the scope of their\n       employment.”\n\n       FOR AMERICA COMPETES ACT PRIZE COMPETITIONS AND CHALLENGES\n       INSERT THIS LANGUAGE\n\n   (4) In the case of a private entity, shall be incorporated in and maintain a primary place of\n       business in the United States and in the case of an individual, whether participating\n       singly or in a group, shall be a citizen or permanent resident of the United States\n\n       FOR PRIZE COMPETITIONS AND CHALLENGES UNDER OTHER\n       AUTHORITIES INSERT THE APPROPRIATE LANGUAGE REGARDING\n       CITIZENSHIP REQUIREMENTS\n\nPrize Competition Managers should include the following statement regarding consultation with\nFederal employees:\n\n“An individual or entity shall not be deemed ineligible because the individual or entity used\nFederal facilities or consulted with Federal employees during a competition if the facilities and\nemployees are made available to all individuals and entities participating in the competition on\nan equitable basis”\n\n\nRegistration Process for Participants:\nState the process for contestants to register for the competition.\n\nPrize Competition Managers should be aware that all prize competitions in which USDA is\ninvolved must be listed on the Challenge.gov website, even if the challenge is run on an outside\nplatform.\n\nAmount of the Prize:\n\nState the amount/type of the prize(s).\n\n                                                  G-3\n\f                                           APPENDIX G\n\nPrize Competition Managers should be aware that the amount of a prize may be increased after\nan initial announcement is made in the Federal Register only if notice of the increase is\nprovided in the same manner as the initial notice of the prize – i.e., only if notice of the increase\nis published in the Federal Register.\n\nIf no monetary prize is offered, the Federal Register notice should describe the planned\nrecognition for the winner(s).\n\nPayment of the Prize:\nIf the prize is directly paid by USDA, include the following statements: “Prizes awarded under\nthis competition will be paid by electronic funds transfer. All Federal, state and local taxes are\nthe sole responsibility of the winner(s).” If the prize is paid by a private entity, state that XXXX\nwill pay the prize directly to the winner. Coordinate with the outside entity paying the prize to\ndetermine what language should be included regarding payment method; taxes; etc.\n\nJudging:\nDescribe the criteria on which entries will be judged; the point or adjectival rating system that\nwill be used for judging; the expected number of winners, if multiple winners are anticipated;\nand the way in which ties will be decided.\n\nAdditional Information: Prize Competition Managers should include any additional\ninformation in this section that would be relevant for participants. For example, the information\ncould include background information about the data sources or materials that should be\naccessed for the purposes of the prize competition, treatment of intellectual property rights if it\nis an area the agency plans to negotiate later in the prize competition, or background\ninformation about related initiatives or challenges.\n\nThis section will also include liability language, insurance language (if applicable, language\nrequiring contestants to ensure they do not infringe on copyright or use images without\npermission, etc. Examples of the boilerplate language can be found in the rules of prior USDA\ncompetitions archived on the Challenge.gov website.\n\nDate: ______.\n\n\n_____[signature]_____\n\n\nName of Prize Competition Manager\n\nTitle of Prize Competition Manager\n\n\n\n\n                                                  G-4\n\f                                         APPENDIX H\n\n                       Sample Template for Annual Reporting Requirements\n\nPrize Competition Managers have five days after the conclusion of a competition or challenge\nto complete data entry on each prize competition or challenge. This will allow the Office of the\nChief Financial Officer (OCFO) to capture the data in real-time and aggregate as necessary for\nsubmission to the Office of Science and Technology Policy (OSTP) by December 30th of each\nyear. In order to collect relevant information, Prize Competition Managers should provide the\nfollowing in accordance with OSTP guidelines:\n\n   1. Title of prize competition or challenge.\n\n   2. Type of prize competition or challenge. Was it America COMPETES Act or Other\n      Prize Authority Prize Competition or Challenge?\n\n   3. Sponsoring Agency/Staff Office;\n\n   4. Primary point of contact for the prize competition or challenge.\n\n   5. Tagline of 350 words or less. Similar to the first line of a newspaper story, the tagline\n      should clearly explain what the prize competition or challenge is, who the prize\n      challenged, what it challenged them to do, and why it is important or unique.\n\n   6. Link to the homepage for the prize competition or challenge (e.g., on Challenge.gov).\n\n   7. Problem Statement. Explain the problem the prize competition or challenge solves.\n\n   8. Proposed Goals. What was the primary objective of the prize competition or\n      challenge?\n\n   9. Why a Prize. An analysis of why a prize competition or challenge was the preferable\n      method of achieving the goals described in number 7 above as opposed to other\n      authorities available to the agency/staff office, such as contracts, grants, and\n      cooperative agreements.\n\n   10. Participants. Who did the agency/staff office hope to mobilize to compete?\n\n   11. Solicitation & Outreach. What methods did the agency/staff office use to market the\n       prize competition or challenge, mobilize potential participants, and ensure high quality\n       submissions? How would the agency/staff office evaluate the effectiveness of such\n       methods? What lessons did the agency/staff office learn about outreach that might be\n       valuable for future prize competitions or challenges?\n\n   12. Incentives. What incentives did the agency/staff office provide for participants to\n       compete in the prize competition or challenge (monetary and non-monetary)? What is\n\n                                                 H-1\n\f                                       APPENDIX H\n\n   the total amount of cash prizes awarded for the prize competition or challenge,\n   including a description of the amount of private funds contributed in the program, the\n   sources of such funds, and the manner in which the amounts of cash prizes awarded\n   and claimed were allocated among the accounts of the agency/staff office for recording\n   as obligations and expenditures?\n\n13. Evaluation. What methods did the agency/staff office use to evaluate submissions to\n    the prize competition or challenge? How would the agency/staff office evaluate the\n    effectiveness of such methods? What lessons did the agency/staff office learn about\n    evaluation that might be valuable for future prize competitions or challenges?\n\n14. Partnerships. What partnerships did your agency/staff office form (formal or\n    informal) with other agencies or private sector entities to make successful a prize\n    competition or challenge conducted under Section 105 of the America COMPETES\n    Act or challenge conducted under OMB “Guidance on the Use of Challenges and\n    Prizes to Promote Open Government?” What were the benefits derived from those\n    partnerships? What lessons did the agency/staff office learn about public private\n    partnerships that might be valuable for future prize competitions or challenges?\n\n15. Resources. What resources, including personnel and funding, did the agency/staff\n    office use in the execution of each prize competition or challenge? Please provide a\n    detailed description of the activities for which such resources were used and an\n    accounting of how funding for execution was allocated among the accounts of the\n    agency/staff office for recording as obligations and expenditures.\n\n16. Results. Please explain if and how the prize competition or challenge advanced the\n    mission of the agency/staff office and the specific objectives identified in number 7\n    above.\n\n17. Winners. Please identify the winners of the prize competition or challenge. Describe\n    the winning solutions. Please provide web links to the winning solutions if they are\n    available.\n\n\n\n\n                                             H-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "4d625525-c939-56d9-a91c-6b7203834e6a",
+          "title": "USDA Directives — DR2405-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2405-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

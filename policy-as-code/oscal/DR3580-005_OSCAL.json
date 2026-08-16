@@ -1,0 +1,293 @@
+{
+  "catalog": {
+    "uuid": "47168fe8-fd40-5e72-b7cb-a4e734a93a07",
+    "metadata": {
+      "title": "USDA DR3580-005: Securing Client Devices for International Travel",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2018-11-30",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3580-005"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2018-11-30"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3580-005",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3580-005",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "dbb77de3-681f-55ea-a79e-b22296b16a3e",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3580-005-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3580-005-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the policy for secure remote access to\n          United States Department of Agriculture (USDA) information and information systems\n          prior to, during, and upon return from foreign locations.\n\n     b.   It is USDA policy to comply with Federal requirements to establish, implement, and\n          enforce a policy on:\n\n          (1) USDA information systems that facilitate remote access from international\n              locations; and\n\n          (2) The use of devices and removable media when used to remotely access USDA\n              information systems from international locations.\n\n     c.   This policy complies with the requirements of:\n\f       (1) The Federal Information Security Modernization Act of 2014 (FISMA);\n\n       (2) Federal Information Processing Standards Publication (FIPS PUB) 200, Minimum\n           Security Requirements for Federal Information and Information Systems;\n\n       (3) National Institute of Standards and Technology (NIST), Special Publication (SP)\n           800-53 Revision 4, Security and Privacy Controls for Federal Information Systems\n           and Organizations;\n\n       (4) NIST, SP 800-46 Revision 2, Guide to Enterprise Telework, Remote Access, and\n           Bring Your Own Device (BYOD) Security;\n\n       (5) NIST, SP 800-114 Revision 1, User’s Guide to Telework and Bring Your Own\n           Device (BYOD) Security;\n\n       (6) NIST, SP 800-124 Revision 1, Guidelines for Managing the Security of Mobile\n           Devices in the Enterprise;\n\n       (7) Office of Management and Budget (OMB), Memoranda M-11-27, Implementing the\n           Telework Enhancement Act of 2010: Security Guidelines;\n\n       (8) OMB, M-17-12, Preparing for and Responding to a Breach of Personally\n           Identifiable Information; and\n\n       (9) Telework Enhancement Act of 2010.\n\n  d.   This policy serves as the foundation for agencies and staff offices to develop and\n       implement foreign remote access policies and procedures that comply with Federal and\n       Departmental requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a94d0127-0c9a-5541-a43f-eed088abda64",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3580-005-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3580-005-2-stmt",
+                "name": "statement",
+                "prose": "a.   This policy applies to:\n\n       (1) All USDA Mission Areas, agencies, staff offices, employees, appointees,\n           contractors, and others who work for, or on behalf of, USDA and use, or are\n           responsible for, maintaining USDA information systems remotely accessed by\n           devices or use removable media from international locations; and\n\n       (2) All Federal information, in any medium or form, generated, collected, provided,\n           transmitted, stored, maintained, or accessed by, or on behalf of, USDA and all\n           information systems or services (including cloud-based services) used or operated\n           by USDA, USDA contractors, or other organizations on behalf of, or funded by,\n           USDA.\n  b.   This directive builds on other information security policies that cover application and\n       client device security requirements used domestically. However, this DR is written with\n\n\n                                               2\n\f       an emphasis on specifying requirements for ensuring the security of USDA information\n       systems when individuals remotely access them from foreign locations. Related policies\n       include:\n\n       (1) DR 3505-003, Access Control for Information and Information Systems,\n           forthcoming;\n\n       (2) DR 3580-004, Securing Remote Access to USDA Information Systems and Client\n           Devices, November 30, 2018; and\n\n       (3) DR 35xx-xxx, Bring Your Own Device, forthcoming.\n\n  c.   Users should comply with DR 5400-007, Text Messaging While Driving, which provides\n       safety guidance about the use of Government furnished equipment while driving.\n\n  d.   Nothing in this policy will alter the requirements of DR 4080-811-002, Telework\n       Program, that defines approved worksites for USDA, when those worksites may be\n       used, and the conditions in which they may be used.\n\n  e.   Nothing in this policy will alter the requirements for the protection of information\n       associated with national security systems such as those identified in FISMA, policies,\n       directives, instructions, and standards issued by the Committee on National Security\n       Systems (CNSS), or the intelligence community."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5f941edd-ad27-5528-965d-721a430df123",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3580-005-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3580-005-3-stmt",
+                "name": "statement",
+                "prose": "a.   This policy is effective immediately and remains in effect until superseded.\n\n  b.   All agencies and staff offices will align their international remote access policies and\n       procedures with this policy within 6 months of the publication date.\n\n  c.   This DR uses the term “remote client device” in place of NIST’s “telework client\n       device.” The two categories of client devices used in this policy and defined by NIST\n       are:\n\n       (1) Personal computers (PC) (e.g., desktops and laptops); and\n\n       (2) Mobile devices (e.g., smartphones, tablets).\n\n       Note: The term “remote client device” in this DR encompasses any device in the two\n       categories of devices used to remotely access USDA information systems.\n\n  d.   USDA desktop computers within USDA facilities that access USDA information\n       systems do not need the same security requirements as remote client devices that access\n       USDA information systems remotely. Section 5a addresses USDA desktop\n       requirements when they remotely access USDA facilities.\n\n\n\n\n                                                  3\n\f  e.   The term “controlled unclassified information” (CUI) replaces and encompasses all\n       previous terms and labels for sensitive information such as for official use only (FOUO),\n       sensitive but unclassified (SBU), Sensitive Security Information (SSI), and personally\n       identifiable information (PII). The categories of CUI can be found in the National\n       Archives and Records Administration (NARA) CUI Registry – Categories and\n       Subcategories.\n\n  f.   The term “burner” refers to a client device that cannot be sanitized to meet NIST SP\n       800-88 Revision 1, Guidelines for Media Sanitization requirements and is to be used\n       once; the primary use is during foreign travel to a country of high risk .\n\n  g.   The term “Government furnished” followed by “equipment,” “device,” or their plural\n       forms will be used to describe the category of devices whose security posture is\n       managed by USDA. The term is used in place of “Organization-Controlled Device,”\n       which NIST uses and is defined in Appendix B.\n\n  h.   The terms “international travel” and “foreign travel” apply to trips, as well as permanent\n       duty assignments in any country, territory, or commonwealth outside of the United\n       States and its territories.\n\n  i.   The term “wireless” refers to client devices, (e.g., laptops, mobile devices) and\n       networking devices (e.g., access points) exchanging data through radio communication\n       within a limited geographic area, such as an office building.\n\n  j.   Wi-Fi is a trademark of the Wi-Fi Alliance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c50fc3a0-24d8-5aaa-9d99-5001ae644778",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3580-005-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3580-005-4-stmt",
+                "name": "statement",
+                "prose": "The USDA remote access infrastructure affords personnel convenient and efficient methods\n  to use USDA resources from external locations. However, remote client devices used to\n  perform work from foreign locations introduce additional risks to USDA information and\n  information systems; therefore, these devices have additional security requirements than\n  those operating within USDA controlled areas and those operating from remote locations\n  within the United States and its territories.\n\n  System owners that permit access to information systems from foreign locations must\n  safeguard USDA information systems from threats arising from the lack of physical security\n  controls, the use of insecure networks, and potentially compromised client devices used by\n  personnel on foreign travel. Personnel using remote client devices are responsible for\n  protecting them by knowing when, where, and how the devices are permitted to be used.\n  Foreign governments are very skilled at collecting information even from devices that are\n  turned off. Devices and sensitive information taken to foreign countries are susceptible to\n  infection and compromise. Infected devices may not be discovered upon return and, if\n  reconnected to USDA networks, may compromise the security of additional information. For\n  these reasons, the Department strongly discourages personnel from taking devices to foreign\n  countries.\n\n\n\n                                                 4\n\f  Personnel should be mindful of restrictions on electronic equipment that may be brought\n  aboard aircraft and that the restrictions may change without notice. The Department of\n  Homeland Security and, potentially, the Department of State websites may have updated\n  information about restrictions on electronic equipment. Employees can obtain security and\n  threat briefings prior to traveling by following the guidance below and, when on travel with\n  an official U.S. passport, by scheduling a security and threat briefing at a U.S. Embassy or\n  Consulate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "02dd5e0d-44ed-5ebf-a98f-c4f253d472cb",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3580-005-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3580-005-5-stmt",
+                "name": "statement",
+                "prose": "a.   Government furnished desktop computers, when used remotely from international\n       locations to access or store USDA information, will have the same information storage,\n       configuration, operational, and sanitization requirements as laptops in this DR.\n\n  b.   International travel locations identified as “a country of high risk” are based on:\n\n       (1) The ISSPM, based on information about the traveler’s destination in the\n           Department of State Travel Advisories or Travel to High-Risk Areas web pages;\n\n       (2) Information provided by the ASOD Threat Intelligence team; and\n\n       (3) Information provided by Office of Homeland Security (OHS) Personnel and\n           Document Security Division (PDSD).\n\n  c.   Agencies and staff offices whose personnel travel to a country of high risk will have a\n       process with OHS PDSD to obtain a high-risk travel briefing.\n\n       (1) Personnel with security clearances will request a high-risk travel briefing by\n           sending an email to pdsd@dm.usda.gov; and\n\n       (2) All other personnel will use the OHS Foreign Travel Information web page.\n\n       Additional responsibilities and duties described in Departmental Manual (DM) 3440-\n       001, USDA Classified National Security Information Program Manual, apply to\n       Information Security Coordinators (ISC) and to personnel with national security\n       clearances traveling internationally.\n\n  d.   Agencies and staff offices will ensure their personnel have international travel security\n       and threat awareness information that reflects current and relevant changes to the threat\n       environment for the traveler’s foreign destinations and includes but is not limited to:\n\n       (1) Unclassified threat information obtained from the Department of State’s Travel\n           Advisories and Travel to High-Risk Areas web pages;\n\n       (2) Cybersecurity and physical threats in the foreign countries;\n\n\n\n\n                                                  5\n\f     (3) The cybersecurity controls required for remote client devices that will be used\n         during international travel;\n\n     (4) Requirements for physical protection of remote client devices and removable media\n         contained in this policy;\n\n     (5) Requirements for protection of CUI, including restrictions on printing;\n\n     (6) Prohibited use of public wireless networks in foreign countries; and\n\n     (7) Restricted use of Bluetooth in foreign countries.\n\ne.   Agencies and staff offices will provide a fully patched, securely configured USDA\n     wireless router to personnel whose international permanent duty station is outside of a\n     U.S. Embassy, consulate, or other U.S. Federal building. The routers will include the\n     following settings:\n\n     (1) Enable Wi-Fi Protected Access 2, often displayed as “WPA2/Enterprise;”\n\n     (2) Disable Wi-Fi Protected Setup; and\n\n     (3) Enable strong shared key.\n\nf.   Agencies and staff offices will use diplomatic pouches to deliver Government furnished\n     devices and removable media to personnel whose permanent duty station is in a foreign\n     location or when countries prohibit travelers from hand carrying electronic devices while\n     traveling.\n\ng.   Government furnished remote client devices and removable media used domestically\n     will only be taken on international travel when:\n\n     (1) Supporting USDA business functions;\n\n     (2) The USDA employee has obtained approval from their supervisor; or\n\n     (3) For contract support staff, the contractor has obtained approval from the\n         Contracting Officer’s Representative (COR); and\n\n     (4) When a waiver has been submitted and approved.\n\nh.   An approved waiver will be required to take government furnished remote client devices\n     and removable media to a country of high risk.\n\ni.   Personnel whose BYOD or third-party-controlled mobile device is provisioned in\n     USDA’s BYOD program will follow the requirements in DR 35xx-xxx, Bring Your Own\n     Device, prior to and upon return from international travel.\n\nj.   Agencies and staff offices that permit client devices to be taken outside the United States\n     will:\n\n\n                                               6\n\f(1) Maintain an inventory of loaner and burner client devices and basic cell phones\n    (non-smartphones with only voice and text capability) to be issued and used during\n    international travel, or have an alternate process to harden Government furnished\n    remote client devices used domestically and authorized for use on foreign travel;\n\n(2) Assess the risk of bringing such devices and removable media into the foreign\n    country, including the risks of theft, confiscation, breach of data confidentiality and\n    integrity, communications intercept, the insertion of malware into the devices, and\n    unsuccessful sanitization;\n\n(3) Have procedures to:\n\n    (a) Assess the threat capabilities in the traveler’s destinations using threat\n        intelligence from the ASOD’s threat intelligence team and, when necessary,\n        their agency or staff office ISC or OHS PDSD;\n\n         Contact ASOD, 30 days in advance of travel via email to the\n         cyberthreat@asoc.usda.gov mailbox to determine whether a country to be\n         visited is a country of high risk.\n\n    (b) Ensure the devices are appropriately configured based on the threat intelligence\n        about the foreign destination prior to being taken on international travel; and\n\n    (c) Arrange shipment of Government furnished devices and removable media via\n        diplomatic pouch with U.S. Embassies or U.S. consulates.\n\n(4) Configure such devices to meet domestic security controls plus the following\n    international travel requirements:\n\n    (a) Ensure basic cell phones only have voice and text capabilities;\n\n    (b) Disable Bluetooth and wireless networking services, and instruct the user on\n        how to enable these services when needed and disable them again when not\n        needed;\n\n    (c) Instruct users to conduct remote client device data communications to USDA\n        information systems over cellular networks using a Virtual Private Network\n        (VPN);\n\n    (d) Enroll mobile devices into a Mobile Device Management (MDM) solution, and\n        add the provisioning profile that establishes an encrypted container;\n\n    (e) Equip laptops without an internal storage disk, but with an external hard drive\n        or bootable disk image that the user can remove and store separately from the\n        PC; and\n\n    (f) When permitted by the Authorizing Official (AO), provision such devices with\n        email and file space accessible only through an encrypted container.\n\n\n                                          7\n\f     (5) Identify the remote client device and removable media returning from a country not\n         of high risk and:\n\n         (a) Quarantine them from connecting to information systems and services until the\n             device and media have been assessed for and deemed free of malware,\n             unauthorized executables, and other changes;\n\n         (b) Obtain approval from the Mission Area Assistant Chief Information Security\n             Officer (CISO) or Information Systems Security Program Manager (ISSPM) to\n             authorize moving the information from a client device or media that has\n             malware, unauthorized executable code, or other unauthorized changes to\n             USDA information system;\n\n         (c) Have techniques to securely move information from the client device or media\n             to USDA information systems; and\n\n         (d) Sanitize the client device or media as specified in SP 800-88 Revision 1 if it\n             has malware, unauthorized executable code, or other unauthorized changes.\n\nk.   Government furnished remote client devices, removable media, and cell phones\n     returning from a country of high risk will:\n\n     (1) Not be connected to USDA networks and information systems;\n\n     (2) At the agency or staff office discretion, require a forensic image made by either:\n\n         (a) The agency or staff office security operations team if one exists; or\n\n         (b) The USDA forensics team with Agriculture Security Operations Division\n             (ASOD) Computer Security Incident Response Team (CSIRT) by sending an\n             email message to cyber.incidents@asoc.usda.gov.\n\n     (3) Be sanitized in accordance with guidance in SP 800-88 Revision 1.\n\nl.   Personnel on international travel will:\n\n     (1) Obtain foreign travel security and threat awareness information from the\n         Department of State website, and when necessary, from OHS PDSD when traveling\n         to a country of high risk prior to departure;\n\n     (2) Take the minimum amount of CUI and authorized applications needed to conduct\n         USDA business on a loaner or burner remote client device during international\n         travel;\n\n     (3) Only use removable media purchased in the 50 states or U.S. territories;\n\n     (4) Not connect removable media used with Government furnished client devices,\n         including loaners or burners, to non-Government devices;\n\n\n\n                                               8\n\f       (5) Not connect Government furnished remote client devices to non-Government\n           equipment, including removable media, in accordance with DR 3520-002,\n           Configuration Management;\n\n       (6) Keep remote client devices and removable media within sight at all times or stored\n           in a locked office or file cabinet at a U.S. Government owned and protected\n           building such as a U.S. military base, U.S. Embassy, or U.S. consulate; and\n\n       (7) Not store remote client devices in checked baggage.\n\n  m. Transmission, storage, and printing of CUI while on international travel is prohibited\n     unless the actions take place in a pre-approved secure location such as:\n\n       (1) In a non-public room using a Government furnished local, non-networked printer;\n\n       (2) At a USDA in-country office location; or\n\n       (3) At other in-country U.S. Government offices such as the U.S. Embassy, consulate,\n           or approved telecommunications services locations.\n\n  n.   To minimize the opportunity for unauthorized foreign access mobile devices, and cell\n       phones will:\n\n       (1) Be powered off when not in use. If possible, the battery and the subscriber identity\n           module (SIM) card will be removed and stored separately from the device; or\n\n       (2) Be kept in airplane mode when in use and not transmitting or receiving information.\n\n  o.   Personal Identity Verification (PIV) cards, Government furnished remote client devices,\n       or cell phones lost, stolen, or confiscated while on international travel will be reported to\n       the Department, agency, or staff office incident response team and the local U.S.\n       Embassy or consulate immediately upon discovery. The ASOD CSIRT 24-hour contact\n       information is 1-866-905-6890 or 816-823-1068, or the Cyber mailbox\n       (cyber.incidents@asoc.usda.gov).\n\n  p.   Personnel will also report the loss or theft of their PIV card to their PIV credential\n       sponsor."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bf89e57d-efd2-50d6-b655-49c14a6d6480",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3580-005-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3580-005-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will:\n\n       (1) Provide ongoing funding and support for the Departmental information security\n           program and resources to support international travel; and\n\n       (2) Ensure policies and procedures governing foreign travel security are developed,\n           disseminated, and implemented.\n\n\n\n                                                  9\n\fb.   The USDA CISO will:\n\n     (1) Oversee and ensure compliance with Federal and Departmental policies,\n         procedures, and guidance on international travel issued to agencies and staff offices;\n\n     (2) Ensure the Department’s business continuity plans and continuity of operation plans\n         take into consideration risks posed by international travel and risks to USDA\n         facilities located in foreign countries and territories;\n\n     (3) Provide guidance to USDA agencies and staff offices to ensure implementation of\n         and compliance with Departmental requirements for information security while on\n         international travel;\n\n     (4) Adjudicate requests for waivers from device sanitizing requirements; and\n\n     (5) Ensure that user training includes requirements and techniques to protect and\n         properly secure remote client devices while on international travel.\n\nc.   The Director of ASOD will:\n\n     (1) Coordinate the necessary actions to remotely track, purge, and disable lost or stolen\n         remote client devices; and\n\n     (2) Coordinate with agencies or staff offices, or conduct forensic analysis on remote\n         client devices returning from foreign countries.\n\nd.   The Director of OHS will:\n\n     (1) Assess all requests for High-Risk Travel Briefings, and provide information only to\n         personnel with a need-to-know and who have a national security clearance; and\n\n     (2) Have a process to ensure each agency or staff office can obtain high-risk travel\n         briefings and personal safety, security, and country threat information from OHS\n         PDSD.\n\ne.   Agency and Staff Office AOs will:\n\n     (1) Be responsible for risk-based decisions regarding use of USDA-issued remote client\n         devices used on and returning from international travel; and\n\n     (2) Adjudicate and approve, only for compelling mission and operational needs,\n         requests for waivers from requirements that restrict:\n\n         (a) Whether remote client devices will be taken on international travel;\n\n         (b) Whether remote client devices taken on international travel will have email and\n             file space access to USDA information systems; and\n\n\n\n\n                                              10\n\f         (c) Whether information may be removed from remote client devices returning\n             from international travel that have malware or unauthorized configuration\n             changes.\n\nf.   Mission Area Assistant CIOs will:\n\n     (1) Ensure CISOs and ISSPMs have adequate resources including funding, personnel,\n         and training to implement and support the remote access infrastructure and remote\n         client device security for international travel requirements; and\n\n     (2) Ensure remote access architectures protect the agency or staff office computing\n         environments and information resources from malicious activity.\n\ng.   Mission Area Assistant CISOs and ISSPMs will:\n\n     (1) Ensure a quarantine environment is available for remote client devices and\n         removable media returning from international travel to ensure they have been\n         scanned for malware, unauthorized executable code, and other unauthorized\n         changes prior to connecting to information systems;\n\n     (2) Determine whether remote client devices or media returning from a country of high\n         risk requires a forensic image before they are destroyed;\n\n     (3) Determine whether to approve or deny requests:\n\n         (a) To store CUI on a remote client device prior to it being taken to a foreign\n             location; or\n\n         (b) To access or use CUI in a foreign location.\n\n     (4) Ensure processes and procedures are developed that:\n\n         (a) Ensure personnel traveling internationally receive information on the secure\n             use and protection of remote client devices and removable media specific to\n             the countries to be visited;\n\n         (b) Require personnel to comply with access control and training requirements\n             prior to taking Government furnished remote client devices on foreign travel;\n\n         (c) Implement secure configuration baselines for remote client devices taken on\n             international travel based on threat intelligence and risk assessments;\n\n         (d) Ensure approval is obtained prior to CUI being taken to, or used in, a foreign\n             location;\n\n         (e) Ensure Government furnished remote client devices that return from\n             international travel cannot connect to information systems and services without\n\n\n\n\n                                             11\n\f              having been scanned for malware, unauthorized executable code, and other\n              unauthorized changes; and\n\n         (f) Ensure Government furnished remote client devices are sanitized according to\n             SP 800-88 Revision 1 requirements.\n\nh.   System Owners of remote client devices that are used for international travel will:\n\n     (1) Develop threat models and risk assessments based on risks of using such devices in\n         foreign countries. These assessments will be:\n\n         (a) Reviewed at least annually and updated as necessary; and\n\n         (b) Shared with system owners of remote access methods and information systems\n             that allow remote access from foreign locations.\n\n     (2) Use the results of risk assessments to implement security controls and maintain\n         secure baseline configurations for their client devices that are taken to foreign\n         countries; and\n\n     (3) Document in the system security plans (SSP) the assumptions and limitations,\n         security controls, maintenance requirements, and user access and privileges\n         permitted when using such devices in foreign locations. This information will be\n         reviewed at least annually and updated as necessary.\n\ni.   System, Database, and Network Administrators will:\n\n     (1) Comply with all Federal and Departmental requirements for configuring and\n         updating remote client devices prior to international travel according to security\n         requirements and controls for the expected travel destinations; and\n\n     (2) Provision remote client devices with the applicable country label and add the MDM\n         profile.\n\nj.   Supervisors will:\n\n     (1) Ensure personnel receive appropriate specialized remote access and remote client\n         device security training prior to departing on international travel; and\n\n     (2) Approve personnel to bring Government furnished remote client devices and\n         information on international travel only when necessary to meet mission\n         requirements.\n\nk.   Users will:\n\n     (1) Comply with all Departmental requirements regarding:\n\n         (a) The proper use and protection of remote client devices, removable media, and\n             encrypted containers while on international travel;\n\n\n                                              12\n\f           (b) Obtaining approval to take and use Government furnished remote client\n               devices and Government information (particularly CUI) while on international\n               travel; and\n\n           (c) The proper use, storage, and transport of Government information and CUI\n               while traveling and while in foreign locations.\n\n       (2) Obtain foreign travel security and threat awareness information prior to\n           international travel; and\n\n       (3) Promptly report lost or stolen remote client devices, as well as removable media\n           containing CUI or Government information of any type."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "32ac203d-296b-5446-91d3-b05aeafa535d",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Non-Compliance",
+        "controls": [
+          {
+            "id": "dr3580-005-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Non-Compliance",
+            "parts": [
+              {
+                "id": "dr3580-005-7-stmt",
+                "name": "statement",
+                "prose": "DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, sets forth USDA\n  policy, procedures, and standards on employee responsibilities and conduct regarding the use\n  of computers and telecommunications equipment. In addition, DR 4070-735-001, Section\n  21, Disciplinary or Adverse Action, states:\n\n  a.   A violation of any of the responsibilities and conduct standards contained in this\n       directive may be cause for disciplinary or adverse action; and\n\n  b.   Disciplinary or adverse action will be affected in accordance with applicable law and\n       regulations.\n\n  Such disciplinary or adverse action will be consistent with applicable law and regulations\n  such as Office of Personnel Management regulations, OMB regulations, and the Standards of\n  Ethical Conduct for Federal Employees of the Executive Branch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "77bbb70c-9f41-5cbb-aaf3-88bd1d3028da",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3580-005-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3580-005-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA agencies and staff offices are required to conform to this policy. If a specific\n       policy requirement cannot meet a specific as explicitly stated, a waiver may be\n       requested. Note that an approved waiver does not bring the system into compliance with\n       policy. Requests for waivers:\n\n       (1) Are an acknowledgement of a system’s non-compliance with policy and that an\n           acceptable plan to remediate the weakness has been provided and will be\n           implemented.\n\n       (2) Must be documented as indicated in the standard operating procedure (SOP) by the\n           Compliance and Policy Branch, CAPE-SOP-003, Plan of Action and Milestones\n           Management Standard Operating Procedure, Revision 1.1.\n\n\n\n\n                                                13\n\f  b.   Policy waiver request memoranda will be addressed to the USDA CISO and submitted\n       to ISC.Outreach@wdc.usda.gov for review and decision. Unless otherwise specified,\n       agencies and staff offices must review and renew approved policy waivers every fiscal\n       year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "584e0f6e-0d15-518d-a8b4-09f6f0b8bea6",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3580-005-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3580-005-9-stmt",
+                "name": "statement",
+                "prose": "Address inquiries concerning this DR to Office of the Chief Information Officer, Information\n  Security Center via email to the cscc@ocio.usda.gov mailbox.\n\n\n                                             -END-\n\n\n\n\n                                               14\n\f                                     APPENDIX A\n\n                         AUTHORITIES AND REFERENCES\n\n\nCNSS, Committee on National Security Systems Instruction (CNSSI 4009), Committee on\nNational Security Systems (CNSS) Glossary, April 6, 2015\n\nDepartment of State, Travel Advisories\n\nDepartment of State, Travel to High-Risk Areas\n\nExecutive Order 13526, Classified National Security Information, December 29, 2009\n\nExecutive Order 13556, Controlled Unclassified Information, November 4, 2010\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 United States Code\n(U.S.C.) §3551, et seq., December 18, 2014\n\nFIPS PUB 200, Minimum Security Requirements for Federal Information and Information\nSystems, March 2006\n\nFraud and related activity in connection with identification documents, authentication\nfeatures, and information, 18 U.S.C. 1028(d)(7), 2010\n\nGovernment Accountability Office (GAO), GAO-12-757, Information Security Better\nImplementation of Controls for Mobile Devices Should Be Encouraged, September 2012\n\nNARA, CUI Registry – Categories and Subcategories\n\nNIST, Interagency Report (IR) 7298 Revision 2, Glossary of Key Information Security\nTerms, May 2013\n\nNIST, SP 800-46 Revision 2, Guide to Enterprise Telework, Remote Access, and Bring Your\nOwn Device (BYOD) Security, July 2016\n\nNIST, SP 800-53 Revision 4, Security and Privacy Controls for Federal Information Systems\nand Organizations, April 2013 with updates as of January 22, 2015\n\nNIST, SP 800-83 Revision 1, Guide to Malware Incident Prevention and Handling for\nDesktops and Laptops, July 2013.\n\nNIST, SP 800-88 Revision 1, Guidelines for Media Sanitization, December 2014\n\nNIST, SP 800-111, Guide to Storage Encryption Technologies for End User Devices,\nNovember 2007\n\nNIST, SP 800-114 Revision 1, User’s Guide to Telework and Bring Your Own Device\n(BYOD) Security, July 2016\n\n\n                                            A-1\n\fNIST, SP 800-122, Guide to Protecting the Confidentiality of Personally Identifiable\nInformation (PII), April 2010\n\nNIST, SP 800-124 Revision 1, Guidelines for Managing the Security of Mobile Devices in\nthe Enterprise, June 2013\n\nNIST, SP 800-125, Guide to Security for Full Virtualization Technologies, January 2011\n\nNIST, SP 800-171 Revision 1, Protecting Controlled Unclassified Information in Nonfederal\nInformation Systems and Organizations, December 2016 includes updates as of February 20,\n2018\n\nOffice of Government Ethics, Standards of Ethical Conduct for Federal Employees of the\nExecutive Branch, 5 Code of Federal Regulations §2635, et seq., (2017)\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016\n\nOMB, Memorandum M-11-27, Implementing the Telework Enhancement Act of 2010:\nSecurity Guidelines, July 15, 2011\n\nOMB, Memorandum M-17-12, Preparing for and Responding to a Breach of Personally\nIdentifiable Information, January 3, 2017\n\nOMB, Memorandum M-19-02, Fiscal Year 2018-2019 Guidance on Federal Information\nSecurity and Privacy Management Requirements, October 25, 2018\n\nTelework Enhancement Act of 2010, 5 U.S.C. §6501, et seq., (2010)\n\nUnited States Atomic Energy Act 1954, as Amended, Public Law 114-92, Enacted November\n25, 2015\n\nUSDA, CAPE-SOP-003, Plan of Action and Milestones Management Standard Operating\nProcedure, Revision 1.1, November 2015\n\nUSDA, CAPE-SOP-004, USDA Six Step Risk Management Framework (RMF) Process\nGuide, Revision 3.0, December 7, 2016\n\nUSDA, DM 3300-005, Policies for Planning and Managing Wireless Technologies in USDA,\nNovember 10, 2010\n\nUSDA, DM 3440-001, USDA Classified National Security Information Program Manual,\nJune 9, 2016\n\nUSDA, DM 3530-005, Encryption Security Standards, February 17, 2005\n\nUSDA, DR 3300-001, Telecommunications & Internet Services and Use, March 18, 2016\n\nUSDA, DR 3505-003, Access Control for Information and Information Systems, February\n10, 2015\n\n\n                                            A-2\n\fUSDA, DR 3520-002, Configuration Management, August 12, 2014\n\nUSDA, DR 3540-003, Security Assessment and Authorization, August 12, 2014\n\nUSDA, DR 3580-004, Securing Remote Access to USDA Information Systems and Client\nDevices, November 30, 2018\n\nUSDA, DR 35xx-xxx, Scanning and Remediation of Configuration and Patch\nVulnerabilities, forthcoming\n\nUSDA, DR 3575-002, System and Information Integrity, August 16, 2018\n\nUSDA, DR 3640-001, Identity, Credential, and Access Management, December 9, 2011\n\nUSDA, DR 35xx-xxx, Bring Your Own Device, forthcoming\n\nUSDA, DR 3xxx-xxx, Controlled Unclassified Information, forthcoming\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, DR 4080-811-002, Telework Program, January 4, 2018\n\nUSDA, DR 5400-007, Text Messaging While Driving, September 7, 2010\n\nUSDA, OHS, Foreign Travel Information\n\n\n\n\n                                         A-3\n\f                                      APPENDIX B\n\n                                      DEFINITIONS\n\n\nBring Your Own Device (BYOD). A non-organization-controlled telework client device.\nThese client devices are controlled by the teleworker, who is fully responsible for securing\nthem and maintaining their security. (Source: NIST SP 800-46 Revision 2)\n\nClear. A method of sanitization by applying logical techniques to sanitize data in all user-\naddressable storage locations for protection against simple non-invasive data recovery\ntechniques using the same interface available to the user; typically applied through the\nstandard read and write commands to the storage device, such as by rewriting with a new\nvalue or using a menu option to reset the device to the factory state (where rewriting is not\nsupported). (Source: NIST SP 800-88 Revision 1)\n\nClient Device.\n\na.   A system used by a remote worker to access an organization’s network and the systems\n     on that network. (Source: NIST SP 800-46 Revision 2)\n\nb.   Two categories of client devices defined by NIST and used in this policy: PCs (e.g.,\n     desktops and laptops) and mobile devices (e.g., smartphones and tablets).\n\nc.   See related terms “mobile device” and “personal computer.”\n\nContainer. The file used by a virtual disk encryption technology to encompass and protect\nother files. (Source: NIST SP 800-111)\n\nControlled Unclassified Information (CUI). Information that requires safeguarding or\ndissemination controls pursuant to and consistent with applicable law, regulations, and\nGovernmentwide policies but is not classified under Executive Order 13526 or the United\nStates Atomic Energy Act 1954, as Amended. (Source: Executive Order 13556)\n\nDestroy. A method of sanitization that renders target data recovery infeasible using state-of-\nthe-art laboratory techniques and results in the subsequent inability to use the media for\nstorage of data. (Source: NIST SP 800-88 Revision 1)\n\nFederal Information System. An information system used or operated by an executive\nAgency, by a contractor of an executive Agency, or by another organization on behalf of an\nexecutive Agency. (Source: NIST SP 800-53 Revision 4)\n\nInformation System. A discrete set of information resources organized for the collection,\nprocessing, maintenance, use, sharing, dissemination, or disposition of information.\n(Source: OMB Circular A-130)\n\nMalware. A program that is covertly inserted into a system or another program with the\nintent to destroy data, run destructive or intrusive programs, or otherwise compromise the\n\n\n                                              B-1\n\fconfidentiality, integrity, or availability of the victim’s data, applications, or operating\nsystem. (Source: NIST SP 800-83 Revision 1)\n\nMobile Device. A small mobile computer such as a smartphone or tablet. (Source: NIST SP\n800-46 Revision 2)\n\nMobile Work. Work which is characterized by routine and regular travel to conduct work in\ncustomer or other worksites as opposed to a single authorized alternative worksite. Examples\ninclude site audits, site inspections, investigations, property management, and work\nperformed while commuting, traveling between worksites, or on temporary duty. Mobile\nwork is not considered telework; however, mobile workers may be eligible to participate in\ntelework, as applicable. (Source: DR 4080-811-02)\n\nNeed-to-Know. Decision made by an authorized holder of official information that a\nprospective recipient requires access to specific official information to carry out official\nduties. (Source: CNSSI 4009)\n\nOrganization-Controlled Device. A telework client device controlled by a U.S. Government\norganization (e.g., Government furnished equipment, Government furnished device). Client\ndevices in this category are usually acquired, configured, and managed by the organization.\n(Source: Adapted from NIST SP 800-46 Revision 2)\n\nPersonal Computer (PC). A desktop or laptop computer. (Source: NIST SP 800-46\nRevision 2)\n\nPersonally Identifiable Information (PII). Any information about an individual maintained\nby an Agency, including (1) any information that can be used to distinguish or trace an\nindividual’s identity, such as name, social security number, date and place of birth, mother’s\nmaiden name, or biometric records; and (2) any other information that is linked or linkable to\nan individual, such as medical, educational, financial, and employment information. (Source:\nNIST SP 800-122)\n\nPurge. A method of sanitization by applying physical or logical techniques that renders\ntarget data recovery infeasible using state-of-the-art laboratory techniques. (Source: NIST\nSP 800-88 Revision 1)\n\nQuarantine. Isolation for devices or files that contain, or may contain, malware for future\ndisinfection or examination. (Source: Adapted from NIST IR 7298 Revision 2)\n\nRemote Access. The ability for an organization’s users to access its non-public computing\nresources from external locations other than the organization’s facilities. (Source: CNSSI\n4009)\n\nRemote Access Method. Mechanisms that enable users to perform remote access. There are\nfour types of remote access methods: tunneling, portals, remote desktop access, and direct\napplication access. (Source: Adapted from NIST SP 800-46 Revision 2)\n\n\n\n\n                                                B-2\n\fRemovable Media. Portable data storage medium that can be added to or removed from a\ncomputing device or network. Examples include, but are not limited to: optical discs;\nexternal/removable hard drives; external/removable Solid State Disk (SSD) drives;\nmagnetic/optical tapes; flash memory devices; flash memory cards; and other\nexternal/removable disks. (Source: Adapted from CNSSI 4009)\n\nSanitize. A process to render access to target data on the media infeasible for a given level of\neffort. Clear, Purge, and Destroy are actions that can be taken to sanitize media. (Source:\nNIST SP 800-88 Revision 1)\n\nSanitization. Actions taken to render data written on media unrecoverable by both ordinary\nand, for some forms of sanitization, extraordinary means. Process to remove information\nfrom media such that data recovery is not possible. It includes removing all classified labels,\nmarkings, and activity logs. (Source: NIST SP 800-53 Revision 4)\n\nTarget Data. The information subject to a given process, typically including most or all\ninformation on a piece of storage media. (Source: NIST SP 800-88 Revision 1)\n\nTelework. The term ‘telework’ or ‘teleworking’ refers to a work flexibility arrangement\nunder which an employee performs the duties and responsibilities of such employee’s\nposition, and other authorized activities, from an approved worksite other than the location\nfrom which the employee would otherwise work. Telework may be authorized for an entire\nduty day or a portion of one. Telework does not include the following:\n\n    (1) Work performed while on official travel status;\n\n    (2) Work performed while commuting to/from work; or\n\n    (3) Mobile work. (Source: DR 4080-811-002)\n\nTelework Client Device. A PC or mobile device used by a teleworker for performing\ntelework—sometimes referred to as telework device. (Source: NIST SP 800-46 Revision 2)\n\nThird-Party-Controlled Device. A client device controlled by a contractor, business partner,\nor vendor. These client devices are controlled by the remote worker’s employer, who is\nultimately responsible for securing the client devices and maintaining their security. (Source:\nAdapted from NIST SP 800-46 Revision 2)\n\nVirtual Disk Encryption. The process of encrypting a container, which can hold many files\nand folders, and permitting access to the data within the container only after proper\nauthentication is provided. (Source: NIST SP 800-111)\n\nVirtual Environment. All forms of virtual remote access components such as virtual\nmachine, virtual device, virtual mobile device, virtual device infrastructure, virtual mobile\ninfrastructure, and encrypted container that ensures Federal information is under USDA\ncontrol and encrypted when necessary.\n\n\n\n\n                                              B-3\n\fVirtual Private Network. A virtual network, built on top of existing physical networks, that\nprovides a secure communications tunnel for data and other information transmitted between\nnetworks. (Source: NIST SP 800-46 Revision 2)\n\n\n\n\n                                            B-4\n\f                                  APPENDIX C\n\n                     ACRONYMS AND ABBREVIATIONS\n\n\nAO         Authorizing Official\nASOD       Agriculture Security Operations Division\nBYOD       Bring Your Own Device\nCAPE       Compliance, Audit, Policy, and Enforcement\nCIO        Chief Information Officer\nCISO       Chief Information Security Officer\nCNSS       Committee on National Security Systems\nCNSSI      Committee on National Security Systems Instruction\nCOR        Contracting Officer’s Representative\nCSIRT      Computer Security Incident Response Team\nCUI        Controlled Unclassified Information\nDM         Departmental Manual\nDR         Departmental Regulation\nFIPS PUB   Federal Information Processing Standards Publication\nFISMA      Federal Information Security Modernization Act\nFOUO       For Official Use Only\nGAO        Government Accountability Office\nIR         Interagency Report\nISC        Information Security Coordinator\nISSPM      Information Systems Security Program Manager\nMDM        Mobile Device Management\nNARA       National Archives and Records Administration\nNIST       National Institute of Standards and Technology\nOHS        Office of Homeland Security\nOMB        Office of Management and Budget\nPC         Personal Computer\nPDSD       Personnel and Document Security Division\nPII        Personally Identifiable Information\nPIV        Personal Identity Verification\nRMF        Risk Management Framework\nSBU        Sensitive but Unclassified\nSIM        Subscriber Identity Module\nSOP        Standard Operating Procedure\nSP         Special Publication\nSSD        Solid State Disk\nSSI        Sensitive Security Information\nSSP        System Security Plan\nU.S.       United States\nU.S.C.     United States Code\nUSDA       United States Department of Agriculture\nVPN        Virtual Private Network\nWi-Fi      A trademark of the Wi-Fi Alliance\n\n                                         C-1\n\fWPA2   Wi-Fi Protected Access 2\n\n\n\n\n                                  C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "657f8e1f-ffd5-55ca-8234-0fc7ce3d3256",
+          "title": "USDA Directives — DR3580-005",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3580-005",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

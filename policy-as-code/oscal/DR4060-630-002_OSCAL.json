@@ -1,0 +1,624 @@
+{
+  "catalog": {
+    "uuid": "49503bdd-6dab-51d5-b615-fe628d455623",
+    "metadata": {
+      "title": "USDA DR4060-630-002: Leave Administration - Excused Absence/Administrative Leave",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2010-10-19",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4060-630-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2010-10-19"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4060-630-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4060-630-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "f9fc4386-30cb-51c4-8cf5-e54ad23abbb2",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4060-630-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4060-630-002-1-stmt",
+                "name": "statement",
+                "prose": "The purpose of this directive is to set forth the Department of Agriculture’s (USDA)\n     policy on excused absence and administrative leave. Although it specifically addresses\n     many situations where excused absence and/or administrative leave may be granted, it is\n     not intended to cover all possible instances."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "69091749-affe-5e3c-8845-898a12a1c838",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr4060-630-002-2",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr4060-630-002-2-stmt",
+                "name": "statement",
+                "prose": "Title II – Leave, Civilian Personnel Law Manual, Chapter 5, part A – Administrative\n     Leave."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "edcb8f6a-6d79-5b63-9973-189409893928",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr4060-630-002-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr4060-630-002-3-stmt",
+                "name": "statement",
+                "prose": "This directive replaces Department Personnel Manual Chapter 630 – Absence and Leave,\n     Subchapter 11 (Amendment 173), dated November 30, 1981."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "361d67a5-343d-561d-be19-a6049d2b3459",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4060-630-002-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4060-630-002-4-stmt",
+                "name": "statement",
+                "prose": "It is USDA’s policy to grant excused absence and/or administrative leave in limited\n     circumstances that:\n\n     a.     Are directly related to the employing Agency or Staff Office’s mission;\n\n     b.     Enhance the professional development or skills of the employee in his or her\n            current position; or\n\n     c.     Are officially sponsored/sanctioned by Agency or Staff Office Head as being in\n            the interest of the Federal government."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ad7fb49b-77ef-55bc-9216-596d1b4cefe6",
+        "class": "section",
+        "title": "Delegation Of Authority",
+        "controls": [
+          {
+            "id": "dr4060-630-002-5",
+            "class": "policy-requirement",
+            "title": "Delegation Of Authority",
+            "parts": [
+              {
+                "id": "dr4060-630-002-5-stmt",
+                "name": "statement",
+                "prose": "The Secretary has the authority to dismiss any or all USDA employees at any or all\n     USDA locations.\n\n     The Assistant Secretary for Administration (ASA) and the Director, Office of Human\n     Resources Management (OHRM), have the authority to dismiss employees in the\n     Washington, D.C. metropolitan area. These delegations may be exercised directly on a\n     case-by-case basis, or by USDA policy as issued by the Secretary or ASA (e.g. disaster\n     plans).\n\n\n\n\n                                             2\n\f     The ASA and the Director, OHRM have the authority to dismiss employees in major\n     metropolitan areas that do not have active Federal Executive Boards (FEB) or Federal\n     Executive Associations (FEA).\n\n     The authority is hereby delegated to Agency and Staff Office Heads, to approve\n     reasonable, short-term excused absences and/or administrative leave. Agency and Staff\n     Office Heads may re-delegate this authority to the lowest supervisory level practicable."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9581832d-9425-5da5-b11f-9dac254a9141",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4060-630-002-6",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4060-630-002-6-stmt",
+                "name": "statement",
+                "prose": "a.     Administrative Leave. An authorized absence, without loss of pay and without\n            charge to the employee’s leave. Administrative leave is granted to employees for\n            reasons determined to be in the Government’s interest. An employee on\n            administrative leave is not acting within the employer-employee relationship and\n            is not deemed to be subject to the control or responsibility of the Department as\n            an employer. Administrative leave is an approved leave status and is charged to\n            code 66 on the employee’s Time and Attendance (T&A) Report.\n\n     b.     Agencies. An organizational unit of USDA, other than a Staff Office as defined\n            below, whose head reports to an Under Secretary.\n\n     c.     Agency Head. The head of a USDA Agency or an official who has been\n            delegated the authority to act for the head of the Agency in the matter concerned.\n\n     d.     Excused Absence. An authorized absence, without loss of pay and without charge\n            to the employee’s leave. Excused absence is granted to employees for reasons\n            determined to be in the Government’s interest. An excused absence is granted to\n            an employee who is performing or participating in officially sanctioned\n            government activities not within the scope of their regular duties. Excused\n            absence is charged to code 01 on the employee’s T&A.\n\n     e.     Public Emergency. A catastrophic natural or human-caused event resulting from\n            forces or actions beyond the employee’s control that affect numerous people in an\n            particular geographic area in such a way as to require affected employees to take\n            immediate action to protect their lives and/or property as well as deal with\n            immediate personal needs. Examples include; wildfires, floods, earthquakes,\n            terrorist attacks, etc., resulting in the need to take such actions as evacuation,\n            finding short term shelter, seeking emergency assistance, and/or taking necessary\n            actions to initiate recovery.\n\n     f.     Staff Office. A USDA administrative office whose head reports to the Secretary.\n\n     g.     Staff Office Head. The head of a Staff Office or an official who has been\n            delegated the authority to act for the head of the Staff Office in the matter\n            concerned.\n\n\n\n                                              3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "687b203c-a664-5b55-ba50-a1703e99507a",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4060-630-002-7",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4060-630-002-7-stmt",
+                "name": "statement",
+                "prose": "a.   The ASA is responsible for:\n\n          (1)    Establishing USDA policy pertaining to excused absence and\n                 administrative leave;\n\n          (2)    Authorizing mass dismissals of USDA employees in the\n                 Washington, D.C. metropolitan area; and\n\n          (3)    Authorizing mass dismissals of USDA employees in major metropolitan\n                 areas that do not have active FEBs and/or FEAs.\n\n     b.   The Director, OHRM is responsible for:\n\n          (1)    Recommending USDA policy pertaining to excused\n                 absence and administrative leave;\n\n          (2)    Providing technical human resources guidance and staff assistance\n                 to Agencies and Staff Offices;\n\n          (3)    Authorizing mass dismissals of USDA employees in the\n                 Washington, D.C. metropolitan area;\n\n          (4)    Authorizing mass dismissals of USDA employees in major metropolitan\n                 areas that do not have active FEBs and/or FEAs;\n\n          (5)    Monitoring Agency and Staff Office compliance with USDA policy; and\n\n          (6)    Reporting to OPM.\n\n     c.   Agency and Staff Office Heads are responsible for:\n\n          (1)    Issuing policy and procedures that address how excused absence and\n                 administrative leave will be administered in their\n                 respective Agencies and Staff Offices and issuing supplemental policy if\n                 warranted;\n\n          (2)    Ensuring that excused absences and administrative leave within their\n                 Agencies and Staff Offices are authorized and approved in accordance\n                 with the requirements set forth in this directive;\n\n          (3)    Monitoring and assessing decisions made using this policy;\n\n\n\n\n                                          4\n\f            (4)     Coordinating weather-related dismissals with co-located USDA Agencies\n                    in areas that do not have active FEBs or FEAs;\n\n            (5)     Reporting to USDA; and\n\n            (6)     Authorizing reasonable, short-term excused absences and/or granting\n                    administrative leave."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cdc93e62-580d-5190-a765-610460dd97da",
+        "class": "section",
+        "title": "Blood Donation",
+        "controls": [
+          {
+            "id": "dr4060-630-002-8",
+            "class": "policy-requirement",
+            "title": "Blood Donation",
+            "parts": [
+              {
+                "id": "dr4060-630-002-8-stmt",
+                "name": "statement",
+                "prose": "With advance supervisory approval, employees who volunteer as blood donors, without\n     compensation, shall be authorized up to 4 hours of administrative leave on the day the\n     blood is donated for recuperation purposes. This time is in addition to the time required\n     to travel to and from the blood center and to give the blood.\n\n     Compensated blood donors are required to take annual leave or leave without pay for any\n     period of absence resulting from making the blood donation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c036e8cd-c229-55a6-ae6f-d147bd346706",
+        "class": "section",
+        "title": "Examinations And Interviews",
+        "controls": [
+          {
+            "id": "dr4060-630-002-9",
+            "class": "policy-requirement",
+            "title": "Examinations And Interviews",
+            "parts": [
+              {
+                "id": "dr4060-630-002-9-stmt",
+                "name": "statement",
+                "prose": "a.     Examinations. An employee shall be granted administrative leave for the period\n            of time necessary to complete an examination, if:\n\n            (1)     The examination is required to remain in the position he or she currently\n                    occupies;\n\n            (2)     The examination is for a position to which transfer, promotion, or\n                    reassignment is recommended by USDA; or\n\n            (3)     The examination is a prerequisite for a professional license or certification\n                    (such as a Certified Public Accountant, entrance into the Bar, or a\n                    Professional Engineer) that is considered advantageous to the Agency and\n                    Staff Office.\n\n            For examinations covered under subsections (1) and (2) above, the Agency or\n            Staff Office may grant a reasonable amount of administrative leave to prepare.\n\n     b.     Employment Interviews. Employees shall be excused to participate in local in-\n            person or any telephonic interviews for other USDA jobs.\n\n\n\n\n                                              5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fbff20f9-9d4a-5578-af53-db3008137612",
+        "class": "section",
+        "title": "Leave Prior To Or Upon Completion Of Travel",
+        "controls": [
+          {
+            "id": "dr4060-630-002-10",
+            "class": "policy-requirement",
+            "title": "Leave Prior To Or Upon Completion Of Travel",
+            "parts": [
+              {
+                "id": "dr4060-630-002-10-stmt",
+                "name": "statement",
+                "prose": "An employee may be granted an excused absence for a period of time not to exceed two\n      hours prior to or upon completion of the employee’s travel status when the time of\n      departure from or arrival at the employee’s duty station is such that it would be\n      administratively unreasonable to expect the employee to report to the duty station."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3bb1b7c4-e613-5846-a01f-e5151b6294b0",
+        "class": "section",
+        "title": "Time Allowed In Health Units Or First Aid Rooms",
+        "controls": [
+          {
+            "id": "dr4060-630-002-11",
+            "class": "policy-requirement",
+            "title": "Time Allowed In Health Units Or First Aid Rooms",
+            "parts": [
+              {
+                "id": "dr4060-630-002-11-stmt",
+                "name": "statement",
+                "prose": "An employee who is sent to the health unit or first aid room for treatment may be granted\n      an excused absence for a period of time not to exceed one hour. If an employee is not\n      able to return to work after remaining in the health unit or first aid room for one hour, the\n      supervisor shall advise the employee to go home and/or obtain further medical treatment\n      by the health unit or other attending official, but may no longer be granted excused\n      absence.\n\n      This excused absence applies only to an employee who becomes ill while in a duty status.\n      When an employee is required, under a doctor’s orders, to rest a certain period of time\n      each day, such time shall be charged to sick or other appropriate leave.\n\n      All employees shall be instructed to “sign in” upon entering the health unit or first aid\n      room and “sign out” upon leaving. Agencies may verify visits by contacting the health\n      unit or first aid room."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "db725aaf-f59f-5a53-8883-b345b5be9cb2",
+        "class": "section",
+        "title": "Participation In Emergency Rescue Or Protective Work",
+        "controls": [
+          {
+            "id": "dr4060-630-002-12",
+            "class": "policy-requirement",
+            "title": "Participation In Emergency Rescue Or Protective Work",
+            "parts": [
+              {
+                "id": "dr4060-630-002-12-stmt",
+                "name": "statement",
+                "prose": "An employee who is requested to assist in emergency law enforcement, relief, or clean-\n      up efforts in affected communities, as authorized by Federal, State, or other officials\n      having jurisdiction, and whose participation in such activities has been approved by his or\n      her employing Agency or Staff Office may be granted administrative leave.\n\n      This policy does not apply to Federal employee members of the National Guard or\n      Reserves who are called to assist in disaster relief and recovery efforts, as they are\n      entitled to military leave under 5 U.S.C. 6323(b).\n\n      It is the employing Agency of Staff Office responsibility to determine that such leave was\n      for an emergency and was in the interest of the public welfare."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2b2c6c5c-3f85-5436-8b82-f0a04f4a20d0",
+        "class": "section",
+        "title": "Change Of Official Duty Station",
+        "controls": [
+          {
+            "id": "dr4060-630-002-13",
+            "class": "policy-requirement",
+            "title": "Change Of Official Duty Station",
+            "parts": [
+              {
+                "id": "dr4060-630-002-13-stmt",
+                "name": "statement",
+                "prose": "A non-temporary employee who is changing his or her official duty station in the interest\n      of the Federal government which includes the relocation of their residence shall be\n\n\n\n                                                6\n\f      granted administrative leave when the costs and expenses of the move are reimbursable\n      under the General Services Administration (GSA) Federal Travel Regulations. The\n      period of time granted for the administrative leave shall not exceed 80 hours.\n\n      The administrative leave may be used for the following activities:\n\n      a.     Locating quarters at the new duty station, including the travel time covered in the\n             GSA Federal Travel Regulations; and\n\n      b.     Pre-moving and post-moving arrangements, such as stopping and starting utility\n             services. The time associated with packing one’s possessions is not subject to\n             administrative leave as this activity is covered in the commuted rate allowance.\n\n      The on-the-road travel time associated with the final one-way move is not chargeable\n      against the 80-hour limitation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d0890dc1-38f0-5b3c-8ac4-5edd0fd0d473",
+        "class": "section",
+        "title": "Physical Examinations",
+        "controls": [
+          {
+            "id": "dr4060-630-002-14",
+            "class": "policy-requirement",
+            "title": "Physical Examinations",
+            "parts": [
+              {
+                "id": "dr4060-630-002-14-stmt",
+                "name": "statement",
+                "prose": "An employee who is required by the employing Agency/Staff Office to undergo a\n      physical examination other than that required for appointment, shall be granted\n      administrative leave for the period of time necessary to complete the examination.\n\n      If a medical condition is discovered or medical suspicions arise as a result of that\n      examination and it becomes necessary to hospitalize the employee or require more\n      extensive tests and examinations, the period of time associated with undergoing such\n      additional tests and examinations shall be charged to sick or other appropriate leave.\n      This provision also applies when there are periods of duty between the initial\n      examination and the additional tests, examinations, or hospitalizations that may be\n      required."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "37fc57b0-32b3-5341-9d58-e704974619ac",
+        "class": "section",
+        "title": "Physical Examinations For Military Duty",
+        "controls": [
+          {
+            "id": "dr4060-630-002-15",
+            "class": "policy-requirement",
+            "title": "Physical Examinations For Military Duty",
+            "parts": [
+              {
+                "id": "dr4060-630-002-15-stmt",
+                "name": "statement",
+                "prose": "An employee who is required to take a physical examination in connection with induction\n      or enlistment in the armed forces shall be granted administrative leave for the period of\n      time necessary to complete the examination.\n\n      Members of the Reserves who are recalled to active duty are placed on pay status with\n      the branch of the armed forces for the period of time required to take the physical\n      examination and, therefore, shall not be granted administrative leave for that purpose.\n\n\n\n\n                                               7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "66496198-97ef-5099-8373-41f7c93e6016",
+        "class": "section",
+        "title": "Draft Registration",
+        "controls": [
+          {
+            "id": "dr4060-630-002-16",
+            "class": "policy-requirement",
+            "title": "Draft Registration",
+            "parts": [
+              {
+                "id": "dr4060-630-002-16-stmt",
+                "name": "statement",
+                "prose": "An employee shall be granted administrative leave for a period of time sufficient to\n      register in accordance with the Military Selective Service Act. Administrative leave shall\n      be granted subject to the following considerations:\n\n      a.     The administrative leave may be granted only to an employee subject to the\n             registration; and\n\n      b.     The employee must register as provided in the Act.\n\n      An employee may register before a board having jurisdiction in the area of his or her\n      permanent home, or wherever the employee may be on the days the employee is subject\n      to registration whichever results in the shorter period of administrative leave."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fea714c6-9cd5-5d17-8c9b-fb1ce7a79dbc",
+        "class": "section",
+        "title": "Officially Sponsored Functions And Programs",
+        "controls": [
+          {
+            "id": "dr4060-630-002-17",
+            "class": "policy-requirement",
+            "title": "Officially Sponsored Functions And Programs",
+            "parts": [
+              {
+                "id": "dr4060-630-002-17-stmt",
+                "name": "statement",
+                "prose": "An employee may be granted an excused absence for a reasonable period of time to\n      participate in programs and functions sponsored by USDA, or a USDA Agency/Staff\n      Office if participation is in the interest of the Federal government. Under certain\n      circumstances, an employee may be excused when the function is sponsored by another\n      Federal government Agency/Staff Office such as OPM, etc. These situations should be\n      determined on a case-by-case basis and approved in advance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4d6b326c-1a3e-5615-984e-3123ced31f45",
+        "class": "section",
+        "title": "Registration And Voting",
+        "controls": [
+          {
+            "id": "dr4060-630-002-18",
+            "class": "policy-requirement",
+            "title": "Registration And Voting",
+            "parts": [
+              {
+                "id": "dr4060-630-002-18-stmt",
+                "name": "statement",
+                "prose": "An employee may be granted administrative leave for a reasonable period of time to\n      register to vote in Federal, State, county, or municipal elections or in referendums on any\n      civic matter in their community, if such administrative leave would not seriously interfere\n      with work operations. An employee may be granted administrative leave for a period of\n      time that permits the employee to vote and report for work no later than 3 hours after the\n      polls open or to leave work no earlier than 3 hours before the polls close, whichever\n      results in the lesser period of time. The administrative leave, if granted, shall be based\n      upon the employee’s scheduled tour of duty for that day.\n\n      Unusual circumstances may warrant the granting of administrative leave for a longer\n      period of time and should be made on a case-by-case basis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a573d598-75c4-5c8a-8090-4e79f308a64e",
+        "class": "section",
+        "title": "Tardiness And Brief Absences",
+        "controls": [
+          {
+            "id": "dr4060-630-002-19",
+            "class": "policy-requirement",
+            "title": "Tardiness And Brief Absences",
+            "parts": [
+              {
+                "id": "dr4060-630-002-19-stmt",
+                "name": "statement",
+                "prose": "An employee may be granted an excused absence or administrative leave for a period of\n      time not to exceed one hour for occasional absences from duty and tardiness when the\n      employee’s supervisor determines the cause of the absence or tardiness to be reasonable\n\n\n\n                                               8\n\f      and in accordance with this directive or any employing Agency or Staff Office\n      procedures. (for example; administrative leave for morning traffic delays or an excused\n      absence to attend an office luncheon, etc.)\n\n      It is the employing Agency/Staff Office responsibility to determine the appropriate type\n      of leave based upon the definitions set forth in this directive."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a93a5f9f-63f7-5f2b-8386-0e5e4f951064",
+        "class": "section",
+        "title": "Conferences, Conventions Or Training",
+        "controls": [
+          {
+            "id": "dr4060-630-002-20",
+            "class": "policy-requirement",
+            "title": "Conferences, Conventions Or Training",
+            "parts": [
+              {
+                "id": "dr4060-630-002-20-stmt",
+                "name": "statement",
+                "prose": "An employee may be granted an excused absence to attend conferences, conventions or\n      training when attendance will serve the interest of the Federal government and USDA.\n      Excused absences to attend conferences or conventions may be restricted to those\n      instances in which the employee is an official representative of the Agency/Staff Office\n      or is a contributor on the agenda."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d2ede4be-8ee6-5a29-9526-d6c6a6e075e2",
+        "class": "section",
+        "title": "Volunteer Activities",
+        "controls": [
+          {
+            "id": "dr4060-630-002-21",
+            "class": "policy-requirement",
+            "title": "Volunteer Activities",
+            "parts": [
+              {
+                "id": "dr4060-630-002-21-stmt",
+                "name": "statement",
+                "prose": "An employee may be granted administrative leave for short periods of time to participate\n      in volunteer activities that are:\n\n      a.     Mission-related;\n\n      b.     Officially sponsored or sanctioned by the employing Agency/Staff Office; or\n\n      c.     Deemed to enhance the professional development and/or skills of the employee in\n             his or her current position.\n\n      Agencies/Staff Offices are encouraged to support their employees’ volunteer efforts that\n      do not meet the criteria set forth above by ensuring that all employees are aware of the\n      various work scheduling and leave flexibilities available to them and by allowing them\n      the flexibility to adjust their schedules to accommodate the volunteer activity if possible."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "25a6d405-6222-548f-a9d8-967842f475d7",
+        "class": "section",
+        "title": "Military Funerals",
+        "controls": [
+          {
+            "id": "dr4060-630-002-22",
+            "class": "policy-requirement",
+            "title": "Military Funerals",
+            "parts": [
+              {
+                "id": "dr4060-630-002-22-stmt",
+                "name": "statement",
+                "prose": "An employee who is a veteran of a declared war, who served in a campaign or expedition\n      for which a campaign badge has been authorized, or who is a member of an honor or\n      ceremonial group of those veterans may be granted administrative leave to attend military\n      funerals. The administrative leave may be granted for a period of time not to exceed 4\n      hours, to participate as an active pallbearer or as a member of an honor guard in a funeral\n      ceremony for a member of the armed services whose remains are returned from abroad\n      for final interment in the United States.\n\n\n\n\n                                                9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "100ce0fe-3da5-50d2-886a-0917760a1f11",
+        "class": "section",
+        "title": "Disciplinary Or Medical Actions",
+        "controls": [
+          {
+            "id": "dr4060-630-002-23",
+            "class": "policy-requirement",
+            "title": "Disciplinary Or Medical Actions",
+            "parts": [
+              {
+                "id": "dr4060-630-002-23-stmt",
+                "name": "statement",
+                "prose": "An employee who is the subject of an investigation involving allegations of serious\n      misconduct wherein workplace safety could be compromised, or those whose workplace\n      behavior represents a potential threat to themselves or others, may be placed on\n      administrative leave. Such periods of time shall be limited, to the extent possible, in\n      order to effectuate timely Agency or Staff Office disciplinary and/or administrative\n      actions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "008c69c7-1500-5d8c-bc01-24b35763e3db",
+        "class": "section",
+        "title": "Early Dismissals For Holidays",
+        "controls": [
+          {
+            "id": "dr4060-630-002-24",
+            "class": "policy-requirement",
+            "title": "Early Dismissals For Holidays",
+            "parts": [
+              {
+                "id": "dr4060-630-002-24-stmt",
+                "name": "statement",
+                "prose": "Only the Secretary may grant an excused absence or administrative leave for holiday-\n      related early dismissals of USDA employees. This authority may be re-delegated, at the\n      sole discretion of the Secretary, to the Assistant Secretary for Administration or his or her\n      designee."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ca1ad8ef-6991-52c1-a7a4-ef51f0b83c84",
+        "class": "section",
+        "title": "Weather And Other Emergency Related Dismissals",
+        "controls": [
+          {
+            "id": "dr4060-630-002-25",
+            "class": "policy-requirement",
+            "title": "Weather And Other Emergency Related Dismissals",
+            "parts": [
+              {
+                "id": "dr4060-630-002-25-stmt",
+                "name": "statement",
+                "prose": "When natural disasters, adverse weather conditions, and other emergency situations occur\n      that disrupt Federal government operations, the following procedures shall be followed:\n\n      a.     Dismissals in the Washington, D.C. Metropolitan Area. OPM will determine the\n             Federal government’s operating status in Washington, D.C. and notify the media\n             as to whether Federal agencies are open, closed, operating under an unscheduled\n             leave policy, a delayed arrival policy, or an early dismissal policy. The\n             Washington, D.C., Area Dismissal or Closure Procedures are available on OPM’s\n             website at:\n             http://www.opm.gov/oca/compmemo/dismissal.pdf.\n             Updates on USDA’s current operating status are available on USDA’s website at:\n             http://www.usda.gov/da/beprepared.\n\n      b.     Dismissals outside the Washington, DC Metropolitan Area. In major\n             metropolitan areas having an active FEB and/or FEA, the FEB and/or FEA will\n             determine the Federal government’s operating status in that area and notify the\n             media as to whether Federal agencies are open, closed, operating under an\n             unscheduled leave policy, a delayed arrival policy, or an early dismissal policy.\n             USDA Agencies with offices in that major metropolitan area or its commuting\n             area shall follow the FEB’s or FEA’s dismissal decisions and procedures unless\n             the USDA leased facility is closed by its owner or other non-USDA host\n             organization.\n\n             USDA Agencies in areas without an active FEB or FEA, or that are located\n             outside a major metropolitan area, are delegated the authority to make decisions\n             regarding weather related or emergency dismissals. The authority may be\n\n\n\n                                               10\n\f             redelegated to the highest ranking official at the location. In facilities occupied by\n             multiple USDA agencies, local managers must collaborate and make a dismissal\n             decision applicable to all USDA employees assigned to that duty station.\n             Disagreements between local managers will be referred to the Deputy\n             Administrators for Management of the respective Agencies for resolution.\n\n             When delayed arrival, early dismissal, or closures are authorized, time is recorded\n             as administrative leave."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65168e7a-4757-5a27-9a49-14516ba6f0f9",
+        "class": "section",
+        "title": "Administrative Leave For Personal Emergencies",
+        "controls": [
+          {
+            "id": "dr4060-630-002-26",
+            "class": "policy-requirement",
+            "title": "Administrative Leave For Personal Emergencies",
+            "parts": [
+              {
+                "id": "dr4060-630-002-26-stmt",
+                "name": "statement",
+                "prose": "An employee who is faced with a personal emergency because of a public emergency\n      may be granted up to 40 hours of administrative leave if the employee can be spared from\n      his or her usual responsibilities.\n\n      Unusual circumstances, such as the scope and severity of the public emergency may\n      warrant the granting of additional administrative leave. Any request for administrative\n      leave in excess of 40 hours must be submitted, in writing, to the Director, OHRM. The\n      Director, OHRM, may grant up to an additional 40 hours of administrative leave on a\n      case-by-case basis. The ASA may grant administrative leave in excess of 80 hours.\n      Requests should be submitted through the Director, OHRM, for concurrence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5c168513-b7cd-521b-b699-4ad80b2376d5",
+        "class": "section",
+        "title": "Preventive Health And Wellness Activities",
+        "controls": [
+          {
+            "id": "dr4060-630-002-27",
+            "class": "policy-requirement",
+            "title": "Preventive Health And Wellness Activities",
+            "parts": [
+              {
+                "id": "dr4060-630-002-27-stmt",
+                "name": "statement",
+                "prose": "An employee may be granted an excused absence when the employee is participating in\n      an Agency/Staff Office-sponsored preventative health or wellness event such as the\n      annual Healthier Feds Physical Activity Challenge and USDA-sponsored health\n      screening activities.\n\n      An employee, who occupies a position that has established physical fitness standards and\n      requires the maintenance of such standards as a condition of employment, may be granted\n      an excused absence to engage in Agency or Staff Office-sanctioned fitness activities. It\n      is the employing Agency or Staff Office responsibility to determine the amount of an\n      excused absence necessary to maintain the required fitness level.\n\n      Supervisors of employees who occupy positions that do not have established fitness\n      standards are encouraged to support their employees’ physical fitness efforts by ensuring\n      that all employees are aware of the various work scheduling and leave flexibilities\n      available. An excused absence for ongoing personal health and fitness programs may not\n      be granted.\n\n\n\n\n                                              11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a54afa70-423b-5ac9-8135-ab468a05b39c",
+        "class": "section",
+        "title": "Official Time For Employee Association Activities",
+        "controls": [
+          {
+            "id": "dr4060-630-002-28",
+            "class": "policy-requirement",
+            "title": "Official Time For Employee Association Activities",
+            "parts": [
+              {
+                "id": "dr4060-630-002-28-stmt",
+                "name": "statement",
+                "prose": "Employees are authorized excused absences and/or administrative leave in accordance\n      with DR 4020-251, Associations of Management Officials and/or Supervisory and Other\n      Organizations and DR 4020-251-01 Welfare and Recreation Organizations.\n\n\n\n\n                                           12"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "d8a5c57a-1008-5825-a3ee-d11fff70bfbd",
+          "title": "USDA Directives — DR4060-630-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4060-630-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

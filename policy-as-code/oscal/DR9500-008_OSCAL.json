@@ -1,0 +1,235 @@
+{
+  "catalog": {
+    "uuid": "9bbec676-cd31-5b33-a0ab-459df0206320",
+    "metadata": {
+      "title": "USDA DR9500-008: USDA Policy for Groundwater Quality",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-01-14",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR9500-008"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-01-14"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-9500-008",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Natural Resources Conservation Service, January 14, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-9500-008",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Natural Resources Conservation Service, January 14, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "2e759c6f-c267-56e9-8662-192fb148defe",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr9500-008-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr9500-008-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) provides United States Department of Agriculture\n     (USDA) policy to protect and enhance groundwater quality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fca594a6-ad98-50bc-9331-3373472b2e0f",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr9500-008-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr9500-008-2-stmt",
+                "name": "statement",
+                "prose": "a.   This revision supersedes DR 9500-008, USDA Policy for Ground Water Quality, dated\n          August 11, 2011.\n\n     b.   This policy is effective immediately and remains in effect until it is superseded or\n          expires."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "679ba3dc-314e-56bd-ba7d-4358d2fb59b0",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr9500-008-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr9500-008-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to USDA Mission Areas, agencies, and personnel responsible for activities\n     related to the protection of groundwater quality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af47c5a0-d616-5139-bb96-57a2ca1aeb35",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr9500-008-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr9500-008-4-stmt",
+                "name": "statement",
+                "prose": "Groundwater quality is important to all Americans, and it is the intent of USDA to ensure\n  that its programs and activities reflect that importance. The quality of groundwater may be\n  affected by contamination from many sources, including some occurring naturally and some\n  induced by agricultural and silvicultural practices. The Nation's farmers, ranchers, and\n  foresters need to prudently use nutrients and chemicals as they help produce the food and\n  fiber necessary for improving the quality of life of all mankind, and to meet the needs of a\n  growing population.\n\n  This groundwater policy statement is issued to improve the management, coordination, and\n  effectiveness of USDA assistance to farmers, ranchers, foresters, State and local government\n  agencies, and other water users in rural areas."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1cf84028-0b92-5ed1-8cff-9419b2374760",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr9500-008-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr9500-008-5-stmt",
+                "name": "statement",
+                "prose": "With the need to continue the prudent and sustained use of the nation's renewable natural\n  resources, it is the policy of USDA to help protect water users and the natural environment\n  from exposure to harmful substances in groundwater, especially in rural areas, and to\n  enhance groundwater quality where appropriate.\n\n  Accordingly, USDA will:\n\n  a.   Support the prudent use and careful management of nutrients and chemicals in\n       agricultural and silvicultural production with the objective of safeguarding groundwater\n       quality. Where groundwater quality improvement is needed, promote alternative crop\n       management systems, enhanced management of nutrients and chemicals, and reductions\n       in the use of inputs as appropriate.\n\n  b.   Promote programs, activities, and practices that can prevent the harmful contamination\n       of groundwater from agricultural and silvicultural production to minimize, or make\n       unnecessary, regulatory restrictions on the use of chemicals and nutrients needed for\n       agricultural production.\n\n  c.   Continue to conduct and support research, monitoring, and evaluation of:\n\n       (1) Factors affecting the movement of nutrients, pathogens, and agricultural chemicals\n           in soils and water;\n\n       (2) Effectiveness of efforts to protect groundwater quality;\n\n       (3) Procedures to predict the effects of changes in agricultural nutrient and chemical\n           management;\n\n\n                                               2\n\f       (4) Effects of agricultural and silvicultural practices on the movement of nutrients,\n           pathogens, and agricultural chemicals in groundwater;\n\n       (5) Economic benefits of agricultural nutrient and chemical uses;\n\n       (6) Economic effects of various strategies to reduce groundwater contamination; and\n\n       (7) Relative hazards to animal and human health of substances in soil and groundwater.\n\n  d.   Provide both nationwide and site-specific information, education, and technical\n       assistance to private landowners to encourage them to use agricultural and silvicultural\n       practices, including non-chemical methods of pest control, that can minimize the risks of\n       groundwater contamination.\n\n  e.   Provide information and education to people and communities in rural areas about\n       methods to maintain safe wells to:\n\n       (1) Avoid local contamination of water by nutrients, pathogens, agricultural chemicals,\n           and other substances;\n\n       (2) Obtain tests of groundwater quality; and\n\n       (3) Treat their water to remove natural and artificial contaminants where needed.\n\n  f.   Coordinate with state and Federal agencies, manufacturers, and others to help ensure\n       agricultural and silvicultural land users apply nutrients and pesticides correctly.\n\n  g.   Coordinate with and encourage state and Federal agencies, manufacturers, and others to\n       help agricultural and silvicultural land users avoid or minimize adverse effects on\n       groundwater quality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4ad57221-1365-5322-9317-5178ce83c4c7",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr9500-008-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr9500-008-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Under Secretaries will:\n\n       (1) Ensure that their agencies and staff offices comply with this DR.\n\n       (2) Ensure that applicable USDA Mission Area, agency, and staff office policies and\n           guidance are consistent with this DR.\n\n  b.   USDA Agencies will:\n\n       (1) Implement this DR as it pertains to their agency;\n\n\n\n                                               3\n\f      (2) Develop agency-specific policies and guidance, as appropriate; and\n\n      (3) Coordinate with state and Federal agencies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2df76da4-e57c-52ac-8f8c-69d1d2f3b910",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr9500-008-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr9500-008-7-stmt",
+                "name": "statement",
+                "prose": "Inquiries regarding this DR should be directed to the Natural Resources Conservation Service\n  (NRCS), Ecological Sciences Division at 202-692-5307.\n\n\n                                          -END-\n\n\n\n\n                                             4\n\f                            APPENDIX A\n\n                ACRONYMS AND ABBREVIATIONS\n\n\nDR     Departmental Regulation\nNRCS   Natural Resources Conservation Service\nUSDA   United States Department of Agriculture\n\n\n\n\n                                 A-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "cc8f37ad-6d65-57e3-bc67-3d46a76cb5ac",
+          "title": "USDA Directives — DR9500-008",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-9500-008",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

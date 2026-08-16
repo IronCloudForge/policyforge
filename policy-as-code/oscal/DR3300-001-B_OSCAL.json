@@ -1,0 +1,283 @@
+{
+  "catalog": {
+    "uuid": "bc746f5f-9c40-508b-ba5d-2ab95cc1ca99",
+    "metadata": {
+      "title": "USDA DR3300-001-B: Telephone Use",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-07-16",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-001-B"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-07-16"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-001-b",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Digital",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-001-b",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Digital"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b90091aa-27e3-560b-b2f8-864b9a710f2a",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3300-001-b-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3300-001-b-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes United States Department of Agriculture\n     (USDA) policy for the management and use of Government telephone equipment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2c248db2-7814-54c6-9362-90974a18ec01",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3300-001-b-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3300-001-b-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR replaces DR 3300-1-B, Telephone Use, dated March 23, 1999.\n\n     b.   This DR will be in effect until superseded or the expiration date.\n\n     c.   All Mission Areas, agencies, and staff offices will align their policies and procedures\n          with this DR within 6 months of the publication date.\n\f  d.   All Mission Areas, agencies, and staff offices may supplement this DR when developing\n       their internal guidance. Modifications to the intent or purpose of this DR are not\n       allowed. If Mission Areas, agencies, and staff offices publish internal guidance that\n       supplements this DR, one copy of each supplement will be forwarded to the Office of\n       the Chief Information Officer (OCIO), Digital Infrastructure Services Center (DISC),\n       Enterprise Network Services (ENS), Telecommunications Infrastructure Management\n       and Governance (TIMG) at ens.policy@ocio.usda.gov."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b1a013e4-e865-5703-baca-5f7da8ca7494",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3300-001-b-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3300-001-b-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, staff offices, employees, contractors,\n  data centers, cloud service providers, cooperative partners, and others working for, or on\n  behalf of, the USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "838ce939-a879-574a-b553-5953a4be7e3c",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3300-001-b-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3300-001-b-4-stmt",
+                "name": "statement",
+                "prose": "The USDA telephone use policy depends on, and is derived from, the regulations\n  promulgated by Congress and the Executive Office of the President. Managers responsible\n  for telecommunications systems within Mission Areas, agencies, and staff offices must be\n  proactive in educating employees on telephone abuse to mitigate the risk of abuse and fraud\n  to the systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ad3c50e4-fa8e-5530-9efe-6c52d48f14fc",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3300-001-b-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3300-001-b-5-stmt",
+                "name": "statement",
+                "prose": "a.   Use of Government Telephone Equipment\n\n       Telephone equipment that is paid by the Government is available for conducting official\n       business or for limited personal use as outlined in this DR. Official calls may include\n       emergency calls and calls that Mission Areas, agencies, and staff offices determine are\n       necessary in the interest of the Government. Supervisors are responsible for the\n       management of telephone use within the scope of their jurisdiction.\n\n       (1) Criteria for Authorized Limited Personal Use\n\n            Use of Government telephone equipment for limited personal use may be\n            authorized if such use satisfies the following criteria:\n\n            (a) It is of reasonable duration and frequency;\n\n            (b) It reasonably could not have been made at another time; and\n\n            (c) It does not adversely affect the performance of the employee’s official duties.\n\n\n\n\n                                               2\n\f     (2) Long Distance Calls\n\n         Personal long distance toll and toll-free calls can be made during work hours using\n         any type of Government telephone (e.g., cellular, smartphone, Voice over Internet\n         Protocol (VoIP), analog) if the call is consistent with the criteria specified in\n         Section 5a(1).\n\n     (3) Prohibited Calls\n\n         The following types of calls are prohibited when using Government equipment:\n\n         (a) Calls that interfere with the performance of Government business; and\n\n         (b) Calls to unsafe and unauthorized parties (e.g., “900” calls).\n\n     (4) Collect Calls\n\n         Incoming collect calls (calls placed from a non-Government number to a Federal\n         Government number) and third-party calls are prohibited, except for official\n         business and only when authorized in writing by the employee’s supervisor. Since\n         the telephone company charges an additional fee for collect calls, employees and\n         their supervisors should consult with the Telecommunications Mission Area\n         Control Officer (TMACO) to determine if there is an alternative, cost-effective\n         method for accepting collect calls.\n\nb.   Installation of Government Telecommunications Resources in Private Residences\n\n     Mission Areas, agencies, and staff offices will determine whether it is necessary to\n     install Government-furnished telephones in an employee’s private residence. In general,\n     this practice is discouraged to avoid possible conflicts of interest. If it is acceptable for\n     the employee to perform Government work on his or her personal telephone, the\n     supervisor may allow telework without providing a Government-furnished telephone for\n     offsite use. If it is mandated that an employee must use a Government telephone for\n     telework, the employee must adhere to this policy.\n\nc.   Monitoring and Recording Telephone Conversations\n\n     (1) In accordance with DR 1710-001, Interception and Monitoring of Telephone and\n         Non-telephone Conversations, and DR 4070-735-001, Employee Responsibilities\n         and Conduct, all parties on the call must receive prior and adequate notice that their\n         call is being monitored and recorded, and all parties on the call must agree in\n         advance to the monitoring and recording.\n\n     (2) In accordance with DR 3300-001, Telecommunications & Internet Services and\n         Use, and DR 1710-001, employees at customer service call centers, and at other\n\n\n\n                                              3\n\f         locations where calls from the general public may be received, will be reminded\n         that any such calls in which they participate may be monitored for evaluating the\n         performance of employees and for quality control purposes.\n\n     (3) USDA customer service telephone numbers equipped with call monitoring or\n         recording equipment will provide a suitable greeting announcement such as: “This\n         call may be recorded for quality control or training purposes.” Once the caller on\n         the incoming call is connected to a live USDA employee, the caller should be given\n         the opportunity to provide consent to the recording or monitoring of the call. The\n         call cannot be recorded or monitored if the caller does not provide consent.\n\n     (4) For those calls that continue to be monitored or recorded, an automatic tone\n         warning device, sometimes called a beep tone, will be provided. This tone would\n         automatically produce a distinct signal that is repeated at regular intervals during\n         the course of the telephone conversation when the recording or monitoring device is\n         in use.\n\n     (5) If speakerphones are used, all parties will be informed of the names of persons\n         listening in prior to the subject matter of the call being introduced.\n\n     (6) The Office of Inspector General (OIG) has an exception to the requirement for\n         consensual recording of conversations. This exception is described in DR 1710-\n         001, Section 3b(1).\n\nd.   Minimizing Telephone Abuse and Fraud\n\n     Mission Areas, agencies, and staff offices will implement cost-effective actions to\n     minimize their exposure to telephone abuse. Abuse can be minimized by:\n\n     (1) Reviewing and validating office telephone bills;\n\n     (2) Blocking collect and third party calls through the Local Exchange Carrier (LEC)\n         and telephone systems; and\n\n     (3) Educating employees on the telephone use policy.\n\ne.   Loss of Government Telephone Equipment\n\n     USDA personnel will report the loss of Government telephone equipment to their\n     manager as soon as possible to enable services to be deactivated and tracked and to\n     minimize financial losses.\n\n\n\n\n                                             4\n\f  f.   Travel Regulations for Telephone Equipment\n\n       USDA personnel will comply with DR 3580-004, Securing Remote Access to USDA\n       Information Systems and Client Devices and DR 3580-005, Securing Client Devices for\n       International Travel, regarding the use of telephone equipment while traveling."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "df4c46b4-c024-52c8-8aed-432cfc1fa128",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3300-001-b-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3300-001-b-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will:\n\n       (1) Represent the USDA to the Federal CIO Council, General Services Administration\n           (GSA), and Office of Management and Budget (OMB) regarding requests for\n           exceptions to mandatory telecommunications services contracts;\n\n       (2) Represent the USDA to oversight agencies, such as OMB, Government\n           Accountability Office (GAO), Department of Homeland Security (DHS),\n           Department of Commerce (DOC), and Federal Communications Commission\n           (FCC) on telecommunications-related issues;\n\n       (3) Respond to oversight agencies with timely and accurate USDA telecommunications\n           program and cost information;\n\n       (4) Serve as the USDA liaison with international, inter- and intra-Local Access and\n           Transport Area (interLATA and intraLATA) telecommunications service providers;\n\n       (5) Serve as the USDA representative to the Diplomatic Telecommunications Service\n           Program Office (DTSPO); and\n\n       (6) Perform management and oversight responsibilities in accordance with the Federal\n           Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113-\n           291, as applicable to this directive.\n\n  b.   The ENS Director will:\n\n       (1) Establish procedures for monitoring, measuring, and enforcing compliance with this\n           DR;\n\n       (2) Oversee Mission Area, agency, and staff office compliance with USDA\n           telecommunications policies and procedures;\n\n       (3) Manage USDA telecommunications services, equipment, and facilities in\n           accordance with prescribed laws, regulations, standards, and related USDA 3300\n           Series telecommunications management directives;\n\n\n\n\n                                             5\n\f     (4) Review and render a decision for Mission Area, agency, and staff office policy\n         waiver requests;\n\n     (5) Maintain an electronic file of approved waivers;\n\n     (6) Work with Mission Areas, agencies, and staff offices to eliminate redundant or\n         unused services and equipment;\n\n     (7) Include telecommunications requirements and initiatives as part of the\n         telecommunications planning process;\n\n     (8) Use GSA and USDA mandated programs when Mission Area, agency, and staff\n         office requirements can be met cost-effectively through those programs;\n\n     (9) Maintain inventories of USDA telecommunications resources to the extent\n         necessary to:\n\n         (a) Ensure adequate and appropriate telecommunications resources to support the\n             Mission Area, agency, and staff office mission;\n\n         (b) Ensure accountability for USDA telecommunications property; and\n\n         (c) Meet Departmental and Governmental requests for periodic or special\n             inventory reports.\n\nc.   Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT)\n     Directors will:\n\n     (1) Ensure Mission Area, agency, and staff office personnel comply with this DR;\n\n     (2) Ensure Mission Area, agency, and staff office internal directives conform to this\n         DR’s stated requirements;\n\n     (3) Provide guidance, oversight, and training on the issuance and use of Government-\n         furnished telecommunications in Government and non-Government buildings;\n\n     (4) Include telecommunications requirements and initiatives as part of the\n         telecommunications planning process;\n\n     (5) Select the most cost-effective solution to meet the telephone needs of the office;\n\n     (6) Implement cost-effective actions to minimize the exposure to telephone abuse;\n\n     (7) Require supervisory personnel to authorize, in writing, the approval of all\n         international calls that incur charges for USDA.\n\n\n\n\n                                             6\n\f       (8) Obtain waivers and approvals from the ENS Director when Mission Area, agency,\n           and staff office telecommunications requirements cannot be met through mandated\n           programs; and\n\n       (9) Provide the TMACO’s name and contact information to the DTSPO and USDA\n           CIO.\n\n  d.   The roles and responsibilities for TMACOs are provided in DR 3300-020,\n       Telecommunications Mission Area Control Officer Roles and Responsibilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c8c72cce-37f6-53e2-94fb-12709a7f419d",
+        "class": "section",
+        "title": "Compliance",
+        "controls": [
+          {
+            "id": "dr3300-001-b-7",
+            "class": "policy-requirement",
+            "title": "Compliance",
+            "parts": [
+              {
+                "id": "dr3300-001-b-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Section 16, sets forth USDA’s policies, procedures, and standards on\n       employee responsibilities and conduct relative to the use of computers and\n       telecommunications equipment. DR 4070-735-001, Section 21, states that a violation of\n       any of the responsibilities and conduct standards contained in this directive may be\n       cause for disciplinary or adverse action; and\n\n  b.   Such disciplinary or adverse action will be affected in accordance with applicable laws\n       and regulations, including the Office of Personnel Management (OPM) regulations,\n       OMB regulations, and the Standards of Ethical Conduct for Employees of the Executive\n       Branch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16051c17-a550-5505-a941-178a2f548f3f",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3300-001-b-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3300-001-b-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy. If a specific policy requirement cannot be met as explicitly stated, Mission\n       Areas, agencies, and staff offices may submit a waiver request to the ENS Director for\n       review and determination. Submit the waiver request to ens.policy@ocio.usda.gov. The\n       waiver request will explain the reason for the request, identify compensating controls\n       and actions that meet the intent of the policy, and identify how the compensating\n       controls and actions provide a similar or greater level of defense or compliance than the\n       policy requirement.\n\n  b.   Waivers to stipulations of this directive that have been granted approval by the ENS\n       Director and that are associated with a National Institute of Standards and Technology\n       (NIST) Special Publication (SP) 800-53 Revision 4, Security and Privacy Controls for\n       Federal Information Systems and Organizations, control will be recorded and tracked as\n       a Plan of Action and Milestones (POA&M) item in the USDA Federal Information\n       Security Modernization Act of 2014 (FISMA), 44 United States Code (U.S.C.) Section\n       3551, data management and reporting tool.\n\n\n\n\n                                              7\n\f  c.   Waivers will expire at the end of the fiscal year or 6 months from the date of approval,\n       whichever is longer. Unless otherwise specified, Mission Areas, agencies, and staff\n       offices will review and renew approved policy waivers every fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c281eceb-3796-5f46-a49b-e2f816e5d89a",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3300-001-b-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3300-001-b-9-stmt",
+                "name": "statement",
+                "prose": "Questions and comments concerning the requirements of this regulation should be directed to\n  OCIO, DISC, ENS, TIMG at ens.policy@ocio.usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                               8\n\f                               APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nCIO         Chief Information Officer\nDHS         Department of Homeland Security\nDISC        Digital Infrastructure Services Center\nDOC         Department of Commerce\nDR          Departmental Regulation\nDTSPO       Diplomatic Telecommunications Service Program Office\nENS         Enterprise Network Services\nFCC         Federal Communications Commission\nFISMA       Federal Information Security Modernization Act\nFITARA      Federal Information Technology Acquisition Reform Act\nGAO         Government Accountability Office\nGSA         General Services Administration\ninterLATA   Inter-Local Access and Transport\nintraLATA   Intra-Local Access and Transport\nIT          Information Technology\nLEC         Local Exchange Carrier\nNIST        National Institute of Standards and Technology\nOCIO        Office of the Chief Information Officer\nOIG         Office of Inspector General\nOMB         Office of Management and Budget\nOPM         Office of Personnel Management\nP.L.        Public Law\nPOA&M       Plan of Action and Milestones\nSP          Special Publication\nTIMG        Telecommunications Infrastructure Management and Governance\nTMACO       Telecommunications Mission Area Control Officer\nU.S.C.      United States Code\nUSDA        United States Department of Agriculture\nVoIP        Voice over Internet Protocol\n\n\n\n\n                                    A-1\n\f                                      APPENDIX B\n\n                                     DEFINITIONS\n\n\na.   Telecommunications. The preparation, transmission, communication, or related\n     processing of information (writing, images, sounds, or other data) by electrical,\n     electromagnetic, electromechanical, electro-optical, or electronic means. (Source:\n     NIST, Information Technology Laboratory, Computer Security Resource Center,\n     Glossary)\n\nb.   Telecommunications Services. The services and solutions that deliver or augment\n     communications between users up to and including interstate and international\n     communications. Telecommunications services refer to communications services or\n     solutions specified as a discrete offering or set of capabilities. (Source: DR 3300-020,\n     Telecommunications Mission Area Control Officer Roles and Responsibilities, July 12,\n     2019)\n\n\n\n\n                                           B-1\n\f                                    APPENDIX C\n\n                        AUTHORITIES AND REFERENCES\n\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §3551, et seq.,\nDecember 18, 2014\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, 128 Stat.\n3292, Title VIII, Subtitle D, §831-837, December 19, 2014\n\nNIST, Information Technology Laboratory, Computer Security Resource Center, Glossary\n\nNIST, SP 800-53 Revision 4, Security and Privacy Controls for Federal Information Systems\nand Organizations, April 2013, includes updates as of January 22, 2015\n\nOffice of Government Ethics, Standards of Ethical Conduct for Employees of the Executive\nBranch, November 18, 2016, effective January 1, 2017\n\nUSDA, DR 1710-001, Interception and Monitoring of Telephone and Non-telephone\nConversations, February 6, 1984\n\nUSDA, DR 3300-001, Telecommunications & Internet Services and Use, March 18, 2016\n\nUSDA, DR 3300-020, Telecommunications Mission Area Control Officer Roles and\nResponsibilities, July 12, 2019\n\nUSDA, DR 3580-004, Securing Remote Access to USDA Information Systems and Client\nDevices, November 30, 2018\n\nUSDA, DR 3580-005, Securing Client Devices for International Travel, November 30, 2018\n\nUSDA DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, October 4,\n2007\n\nUSDA, 3300 Series, Telecommunications Management Directives\n\n\n\n\n                                         C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "854cfb13-e23f-50d1-aa95-70151ef9b38c",
+          "title": "USDA Directives — DR3300-001-B",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-001-b",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/summary",
+  "title": "DirectiveSummary",
+  "description": "The `summary` rule value exposed by each Rego module and aggregated by `_usda_policy_index.rego` into `all_summaries`. Provides a lightweight read-only projection of directive metadata plus coverage counts, suitable for dashboards and cross-directive search without loading full requirements arrays.",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "description": "Directive identifier. Example: DR0100-001.",
+      "examples": ["DR0100-001", "DM3440-001"]
+    },
+    "title": {
+      "type": "string",
+      "description": "Official directive title."
+    },
+    "directive_type": {
+      "type": "string",
+      "enum": [
+        "Departmental Regulation",
+        "Departmental Manual",
+        "Secretary's Memorandum",
+        "Departmental Notice",
+        "Departmental Guideline"
+      ]
+    },
+    "effective_date": {
+      "type": "string",
+      "description": "ISO-8601 effective date or 'Unknown'.",
+      "examples": ["2018-01-04", "Unknown"]
+    },
+    "opi": {
+      "type": "string",
+      "description": "Office of Primary Interest abbreviation or full name."
+    },
+    "nist_families": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["AC","AT","AU","CA","CM","CP","IA","IR","MA","MP","PE","PL","PM","PS","PT","RA","SA","SC","SI","SR"]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "requirement_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total mandatory requirements in this module (≤75 for base file; part files add to the per-directive total)."
+    },
+    "section_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of sections/appendixes extracted from the directive body."
+    }
+  },
+  "required": ["label", "title", "directive_type", "effective_date", "opi", "nist_families", "requirement_count", "section_count"],
+  "additionalProperties": false
+}

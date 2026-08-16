@@ -1,0 +1,202 @@
+{
+  "catalog": {
+    "uuid": "3653054c-00fd-5a38-be30-9ade330e2eb5",
+    "metadata": {
+      "title": "USDA DR2300-002: USDA Relocation Allowance Regulation",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2013-08-26",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2300-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2013-08-26"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2300-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2300-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "74e8c86f-3556-5eac-9103-1366766250c2",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2300-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2300-002-1-stmt",
+                "name": "statement",
+                "prose": "This regulation incorporates by reference the Federal Travel Regulation (FTR) issued by\n     the General Services Administration (GSA), 41 CFR Chapter 302, and supplements it\n     with policy specific to U.S. Department of Agriculture (USDA), relocation activities.\n     Together, these regulations are the primary source of USDA policy on relocation\n     allowances. All provisions of this regulation comply with applicable Federal guidance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4ebd2532-d5a8-59a0-aa89-d93fbe8ff474",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr2300-002-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr2300-002-2-stmt",
+                "name": "statement",
+                "prose": "This regulation cancels and replaces DR 2300-002, dated May 31, 2007. This update of\n     the USDA Relocation Allowance Regulation includes the following changes:\n\n      a. Streamlines the regulation by eliminating all sections that are in the FTR, thus\n         limiting the policy to USDA’s specific additional requirements or exceptions.\n\n      b. Defers to the FTR’s definition of “immediate family”, which includes same sex\n         domestic partners, but does not include unmarried, opposite-sex partners.\n\n      c. Defines “shipment released valuation”.\n\f     d. Establishes an official definition for “residence” for use in determining relocation\n        allowances.\n\n     e. Defines relocation incentives and references the section in the Code of Federal\n        Regulations which governs their use.\n\n     f. Establishes the delegations of authority as those listed in the Agriculture Travel\n        Regulation for the authorization and approval of relocation allowances.\n\n     g. Expands the list of acceptable reasons for authorizing a move in the interest of the\n        Government to include recruitment/hiring of qualified applicants for key vacancies\n        and new positions.\n\n     h. Requires relocation expenses that are directly paid by the Government to follow\n        Federal Acquisition Regulation requirements including the use of contracting\n        officers for expenses over the micro purchase threshold.\n\n     i. Defines the requirements for agencies, staff offices, and employees related to the\n        relocation services program.\n\n     j. Removes the home sale cap list. This will now be issued annually by the Office of\n        the Chief Financial Officer (OCFO).\n\n     k. Clarifies the liability for damaged goods related to the transportation of household\n        goods.\n\n     l. Sets default methods and clarifies use of calculating reimbursement for househunting\n        trip expenses, temporary quarters subsistence expenses (TQSE), and transportation\n        of household goods.\n\n     m. Updates the requirements for USDA’s Relocation Services Program and Home\n        Marketing Incentive Program to comply with current industry standards and\n        maximize savings related to these programs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1e10fb11-eb58-5431-bed3-8a5980318421",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr2300-002-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr2300-002-3-stmt",
+                "name": "statement",
+                "prose": "a. Employee Eligibility Requirements.\n\n        (1) Agencies have the authority to decide if relocation allowances will be offered, if\n            such is in the interest of the Federal Government. Hiring officials should consult\n            with their Human Resources representative prior to initiating the relocation\n            process to ensure all relocation benefits conform to USDA Human Resources\n            (HR) and relocation policies. The following are examples where allowances may\n            be considered:\n\n\n\n                                             2\n\f      (a) Directed reassignments. When an agency or staff office requires an employee\n          to move to another location, for example, reduction in force, transfer of work\n          and special missions.\n\n      (b) Merit promotions.\n\n      (c) Recruitment/hiring of qualified applicants for key vacancies and new\n          positions.\n\n   (2) Distance Tests.\n\n      (a) Long Distance Moves. For an employee to be eligible for relocation\n          entitlements and allowances, the new duty station must be 50 miles farther\n          from the employee’s current residence than the old duty station is from the\n          same residence (i.e., distance between old residence and old duty station plus\n          50 miles) as required by the FTR.\n\n      (b) Short Distance Moves (less than 50 miles from the old official duty station).\n          USDA does not generally permit employees to be reimbursed for relocation\n          expenses if the relocation does not meet the above 50-mile distance test.\n          However, at the discretion of agency or staff office heads, exceptions may be\n          made for extenuating circumstances, and must be approved in advance in\n          writing by the OCFO. Agency or staff office heads must provide supporting\n          documentation, background materials, and any additional information as\n          evidence for the extenuating circumstances, or as requested by OCFO.\n\nb. Acquisition, Vouchering, and Payment of Relocation Expenses.\n\n   (1) Expenses authorized must be reasonable and not exceed FTR limits.\n\n   (2) To obtain reimbursement for authorized relocation expenses, a travel voucher\n       must be processed in USDA’s official relocation electronic travel system.\n\n   (3) The Department will not reimburse an employee for relocation expenses incurred\n       or committed prior to the date of a duly authorized relocation authorization. For\n       example, an employee will not be reimbursed for expenses incurred relative to the\n       sale of the old or new residence if the agreement was entered into prior to the\n       relocation authorization being approved.\n\n   (4) Relocation services directly acquired by the Government must follow Federal\n       Acquisition Regulation requirements including the use of contracting officers for\n       expenses over the micro purchase threshold.\n\n   (5) USDA reserves the right to establish maximum limitations for reimbursement of\n       discretionary relocation expenses for individual relocations.\n\n\n\n                                       3\n\fc. Allowance for Househunting Trip Expenses. USDA will reimburse househunting\n   expenses using the per diem method unless an agency’s or staff office’s regulations\n   specifically authorize another method of calculating reimbursement authorized by the\n   FTR for its employees.\n\nd. Allowance for Temporary Quarters Subsistence Expenses (TQSE). USDA will\n   reimburse TQSE using the “Actual Expense Method”, as defined in the FTR, unless\n   an agency’s or staff office’s regulations specifically authorize that another method of\n   calculating reimbursement authorized by the FTR is authorized for that agency or\n   staff office. The employee is responsible for ensuring that they do not exceed the\n   reimbursable amount authorized.\n\ne. Transportation and Temporary Storage of Household Goods (HHG) and Professional\n   Books, Papers and Equipment (PBP&E). USDA will reimburse HHG and PBP&E\n   expenses using the actual expense method unless an agency’s or staff office’s\n   regulations specifically authorize another method of calculating reimbursement\n   authorized by the FTR for its employees. The Government’s liability for any loss and\n   damage claims depends on the method used to calculate reimbursement. The\n   methods are:\n\n   (1) Liability for Loss Using the Actual Expense Method:\n\n       (a) USDA uses the GSA Centralized Household Goods Traffic Management\n           Program (CHAMP) to ship household goods. Under CHAMP, the moving\n           company is liable if the loss or damage occurred while the shipment was in\n           the moving company’s custody, or if the moving company uses a third party\n           to perform a portion of the move.\n\n       (b) The moving company’s liability is limited to the actual full replacement value\n           of the lost articles and the repair costs for damaged articles, regardless of their\n           individual weight, up to the shipment released valuation.\n\n       (c) The shipment released valuation is calculated as the actual shipment weight in\n           pounds times a base value specified in the CHAMP master contract.\n\n       (d) Additional coverage above the shipment released valuation must be at the\n           employee’s expense and will not be reimbursed by the Government.\n\n   (2) Liability for Loss Not Using the Actual Expense Method: Employees will not be\n       reimbursed for any loss or damages unless an agency’s or staff office’s\n       regulations specifically authorize another method of calculating reimbursement\n       authorized by the FTR.\n\n\n\n\n                                          4\n\ff. Relocation Services Program. An agency or staff office may reimburse an employee\n   for residence transactions using the direct sale method; or via a contract with a\n   relocation services company or property management services. Relocation services\n   are services provided by a private company under a contract with an agency to assist\n   a transferred employee in relocating to the new official station. Examples include\n   home sale programs, home marketing assistance, home finding assistance, and\n   property management services. If a contract with a relocation services company is\n   used, the following applies:\n\n   (1) Agency Requirements:\n\n       (a) Agencies must have a contract with a relocation services company in place\n           within 90 days after authorizing an employee to participate in the program.\n           The contract must be in full compliance with the Federal Acquisition\n           Regulation.\n\n       (b) In counseling employees, agencies and staff offices will explain all\n           contractual restrictions and expectations, including whether the home will be\n           purchased; price limitations; marketing requirements; and if a Home\n           Marketing Incentive Program (HMIP) is being offered in coordination with\n           the relocation services.\n\n       (c) The agency may reimburse up to the maximum home values eligible for\n           reimbursement (“USDA’s Home Sale Caps”). Thus, if a residence is sold for a\n           higher price, any relocation service company’s fee based on the home’s value\n           above the cap is the responsibility of the employee. Agencies and staff offices\n           will ensure that employees pay the fees.\n\n   (2) OCFO will issue an update to the home sale caps list annually.\n\n   (3) Employee Requirements: Employees must fully participate in the relocation\n       services program and act in good faith to complete the residence transactions at\n       the lowest possible cost to the Government as defined by their agency’s relocation\n       services contract. USDA will limit reimbursement to the lowest possible cost;\n       any additional expense is the responsibility of the employee. Agencies/staff\n       offices will ensure that the additional expenses are paid by the employee.\n\ng. Home Marketing Incentive Program (HMIP). This program will be offered in\n   coordination with the relocation services program unless specifically stated otherwise\n   in agency or staff office regulations or the travel authorization. The employee must\n   find a bona fide buyer for their residence as a result of the independent-marketing\n   efforts to receive reimbursement. Reimbursement under the HMIP will be the lowest\n   of the following:\n\n   (1) The savings realized by the agency from the reduced fee/expenses it paid as a\n       result of the employee finding a bona fide buyer;\n\n                                        5\n\f            (2) Three percent of the sale price of the residence, up to USDA’s home sale cap; or\n\n            (3) $15,000.\n\n        h. Relocation Income Tax Allowance (RITA). Statute and regulation require agencies\n           to pay various relocation benefits and allowances to employees who are transferred in\n           the interest of the Government from one permanent duty station to another. These\n           payments, for the most part, are considered taxable income to the employees. The\n           RITA compensates employees for taxes they incur because of the receipt of the\n           relocation benefits and allowances."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6a7e0068-811a-52ad-8aeb-d0fc57bbe356",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr2300-002-4",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr2300-002-4-stmt",
+                "name": "statement",
+                "prose": "As management officials are delegated authorities under this manual, there must also be\n     corresponding accountability. The delegated officials will be required to maintain necessary\n     records to respond to any internal audits or external inquiries from the Congress, the Office\n     of Inspector General, the Government Accountability Office, and other agencies regarding\n     these approvals. Management officials are required to timely report any violation of these\n     regulations to the Chief Financial Officer.\n\n        a. Delegation from the Administrator of General Services to the Secretary of\n           Agriculture.\n\n            The Secretary is delegated authority by the Administrator of General Services (GSA),\n            through the FTR, to implement policies for relocation by employees and others\n            authorized to relocate at USDA expense. The Administrator of General Services\n            promulgates the FTR to:\n\n            (1) Interpret statutory and other policy requirements in a manner that balances the\n            need to assure that relocations are conducted in a responsible manner with the need to\n            minimize administrative costs.\n\n            (2) Communicate the resulting policies in a clear manner to USDA agencies and\n            employees.\n\n            (3) The Secretary and Deputy Secretary may authorize relocation, within the\n            requirements of the FTR and this policy.\n\n        b. Delegation from the Secretary to the Chief Financial Officer.\n\n            The CFO is delegated full responsibility for Departmental relocation policy as\n            contained in this regulation.\n\n        c. Delegation to General Officers.\n\n\n\n                                                 6\n\f          General Officers may authorize relocations, within the requirements of the FTR and\n          this policy.\n\n     d.   Delegation from the Secretary to Agency Heads.\n\n          Agency Heads may authorize, within the requirements of the FTR and this policy,\n          relocations for their employees.\n\n     e.   Delegation from Agency Heads to Approving Officials.\n\n          In view of the authority granted to Agency Heads, Agency Heads are instructed to use\n          special care to ensure that delegations of authority are held to a sufficiently high level\n          to ensure proper review and control of all relocations. Delegations must be in writing\n          and be contained in agency internal regulations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cda9d3c1-eb50-5190-87d4-504ee2c5d38a",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr2300-002-5",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr2300-002-5-stmt",
+                "name": "statement",
+                "prose": "a. Residence. The location the employee uses to regularly commute to and from work\n        on a daily basis.\n\n     b. Relocation Incentive. An incentive paid to a current employee to relocate to take a\n        position that may be difficult to fill in the absence of an incentive (5 CFR\n        575.205(a)).\n\n     c. Shipment Released Valuation. The total amount of monetary value placed on a\n        shipment at the time of its release to the moving company.\n\n     d. Immediate family. Any of the following named members of the employee’s\n        household at the time he/she reports for duty at the new permanent duty station or\n        performs other authorized travel involving family members:\n        (1) Spouse;\n        (2) Domestic partner;\n        (3) Children of the employee, of the employee’s spouse, or of the employee’s\n        domestic partner, who are unmarried and under 21 years of age or who, regardless of\n        age, are physically or mentally incapable of self-support. (The term “children” shall\n        include natural offspring; stepchildren; adopted children; grandchildren, legal minor\n        wards or other dependent children who are under legal guardianship of the employee,\n        of the employee’s spouse, or of the domestic partner; and an unborn child(ren) born\n        and moved after the employee’s effective date of transfer.)\n\n\n                                            - END -\n\n\n\n\n                                                7"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "950dfad4-eb64-500c-80da-22593f9b4dba",
+          "title": "USDA Directives — DR2300-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2300-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

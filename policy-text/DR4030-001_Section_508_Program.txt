@@ -1,0 +1,1202 @@
+                          U.S. DEPARTMENT OF AGRICULTURE
+                                WASHINGTON, D.C. 20250
+
+                                                              NUMBER:
+ DEPARTMENTAL REGULATION                                      DR 4030-001
+                                                              DATE:
+SUBJECT: Section 508 Program                                  July 1, 2026
+OPI: Office of the Chief Information Officer, Information     EXPIRATION DATE:
+Resource Management Center                                    July 1, 2031
+
+
+Section                                                                                 Page
+
+1. Purpose                                                                                 1
+2. Scope                                                                                   2
+3. Special Instructions/Cancellations                                                      2
+4. Background                                                                              2
+5. Policy                                                                                  4
+6. Section 508 Training and Awareness                                                      5
+7. Section 508 Compliance                                                                  5
+8. Section 508 Complaint Procedures                                                        6
+9. Section 508 Mandatory Requirements                                                      6
+10. Section 508 Product Evaluation and Remediation                                         7
+11. Roles and Responsibilities                                                             8
+12. Inquiries                                                                             18
+
+Appendix A – Acronyms and Abbreviations                                                  A-1
+Appendix B – Definitions                                                                 B-1
+Appendix C – Authorities and References                                                  C-1
+
+
+1. PURPOSE
+
+   a) This Departmental Regulation (DR) establishes the United States Department of
+      Agriculture (USDA) policy for the implementation of Section 508 of the Rehabilitation
+      Act of 1973, 29 United States Code (U.S.C.) § 794d, as amended. Section 508 of the
+      Rehabilitation Act applies to all Federal agencies when developing, procuring,
+      maintaining, or using information and communication technology (ICT).
+
+   b) USDA is committed to ensuring that employees, job applicants, and members of the
+      public with disabilities have access to ICT comparable to the access available to those
+      without disabilities.
+2. SCOPE
+
+  This DR applies to all USDA Mission Areas, agencies, staff offices, employees, appointees,
+  and contractors performing work for, or on behalf of, USDA. All ICT developed, procured,
+  funded, maintained, and used by USDA must be accessible to individuals with disabilities,
+  including employees, job applicants, and members of the public seeking information or
+  services from the agency, in accordance with Section 508 of the Rehabilitation Act of 1973,
+  as amended.
+
+
+3. SPECIAL INSTRUCTIONS/CANCELLATIONS
+
+  a) This DR supersedes DR 4030-001, Section 508 Program, dated April 8, 2014.
+
+  b) Mission Areas, agencies, and staff offices will align their policies and procedures with
+     this DR within 6 months of the publication date.
+
+
+4. BACKGROUND
+
+  a) In 1998, Congress amended the Rehabilitation Act of 1973 to require Federal agencies to
+     make their electronic information and technology (EIT) accessible to people with
+     disabilities. Under Section 508, agencies must give individuals with disabilities,
+     including employees, job applicants, and members of the public, access to information
+     comparable to the access available to others.
+
+      The U.S. Access Board (“Access Board”) is responsible for developing accessibility
+      standards. In 2017, the U.S. Access Board published a Final Rule that that updated
+      accessibility requirements covered by Section 508 and refreshed guidelines in the law.
+      The Final Rule went into effect on January 18, 2018. The original Section 508 term EIT
+      was replaced with Information and Communication Technology (ICT), to reflect new
+      technologies. Categories of ICT include electronic content, hardware, software, and
+      support documentation and services. The regulations can be found at 36 CFR Part 1194.
+
+  b) The Access Board Section 508 standards apply to procurements by the Federal
+     Government. This includes but is not limited to computer hardware and software,
+     websites, phone systems, and copiers. Section 508 of the Rehabilitation Act requires that
+     all ICT developed, procured, funded, maintained, and used by Federal agencies be
+     accessible to individuals with disabilities, including employees, and members of the
+     public seeking information or services from the agency.
+
+       1) Refresh of the Section 508 standards and the Communications Act of 1934, 47
+          U.S.C. § 255, Access by Persons with Disabilities
+
+           (a) On January 18, 2017, the Access Board published the Final Rule, Information
+               and Communication Technology (ICT) Standards and Guidelines. The Final
+               Rule updates the Section 508 standards along with the accessibility guidelines
+
+
+                                              2
+        for telecommunication products and equipment covered by Section 255 of the
+        Communications Act. The Access Board standards are available at Information
+        and Communication Technology: Revised 508 Standards and 255 Guidelines.
+
+   (b) The Final Rule updated and reorganized the Section 508 standards and Section
+       255 guidelines in response to market trends and innovations, such as
+       significant advancements in technology. The Final Rule also harmonized these
+       requirements with other guidelines and standards both in the U.S. and abroad.
+       These include European Telecommunications Standards Institute (ETSI)
+       accessibility standards EN 301 549, V3.2.1, Accessibility Requirements for ICT
+       Products and Services, for public ICT procurement. They also include the
+       World Wide Web Consortium (W3C) Web Content Accessibility Guidelines
+       (WCAG) 2.1 and the approved Web Content Accessibility Guidelines (WCAG)
+       2.2, a globally recognized voluntary consensus standard for web content and
+       ICT.
+
+2) Coverage of electronic content (Section 508 standards)
+
+   Similar to the original Section 508 standards, the updated Section 508 standards
+   apply to a Federal agency’s full range of public-facing content. This includes, but
+   is not limited to websites, documents and media, blog posts, and social media sites.
+   The Final Rule specifically lists the types of non-public-facing content that must
+   comply. The list includes but is not limited to:
+
+   (a) Electronic content used by a Federal agency for official business to
+       communicate emergency notifications;
+
+   (b) Initial or final decisions adjudicating administrative claims or proceedings;
+
+   (c) Internal or external program or policy announcements;
+
+   (d) Notices of benefits, program eligibility, employment opportunity, or personnel
+       action;
+
+   (e) Formal acknowledgements or receipts;
+
+   (f) Questionnaires or surveys;
+
+   (g) Templates or forms;
+
+   (h) Educational or training materials; and
+
+   (i) Web-based intranets.
+
+
+
+
+                                      3
+5. POLICY
+
+  USDA is committed to making its ICT accessible to all people, including individuals with
+  disabilities. Compliance with the Section 508 standards is mandatory for Federal agencies.
+  This policy establishes the guidance and responsibilities for implementing and maintaining
+  an ICT accessibility program to ensure the following:
+
+  a) Employees and job applicants with disabilities have access to ICT that is comparable to
+     the access and use by employees and job applicants who do not have disabilities, unless it
+     would impose an undue burden on the agency.
+
+  b) Individuals with disabilities, who are members of the public seeking information or
+     services from the agency, have access to and use of USDA information and services that
+     is comparable to that provided to the public who are not individuals with disabilities,
+     unless an undue burden would be imposed on the agency.
+
+  c) All ICT systems or products that provide direct services to the public or Federal
+     employees are accessible to individuals with disabilities. This does not apply only if a
+     formal request for an exception from an established Section 508 standard is granted. The
+     procedures can be found in the Departmental Manual (DM) 4030-001, Section 508
+     Procedures.
+
+  d) All USDA Mission Areas, agencies, and staff offices will work with the USDA Section
+     508 Program Office, within the Office of the Chief Information Officer (OCIO), to
+     establish their Section 508 program within six months of the publication date of this DR.
+
+  e) All USDA Mission Areas, agencies, and staff offices will establish information
+     technology (IT) procurement guidance for Section 508 compliant solicitations for all ICT,
+     per this DR and the Federal Acquisition Regulations (FAR) 48 Code of Federal
+     Regulations (CFR) Part 39, Acquisition of Information Technology. This will occur
+     within 3 months of the publication date of this DR.
+
+  f) All USDA Mission Areas, agencies, and staff offices will appoint a Section 508
+     Coordinator within 2 months of the publication of this DR.
+
+       1) The USDA Section 508 Program Office will provide coordinators with the criteria
+          and training requirements needed for a person to serve as a Section 508
+          Coordinator.
+
+       2) Evidence of the appointment will be documented in writing and submitted annually
+          to the USDA Section 508 Program Office.
+
+  g) Section 508 Coordinators are responsible for managing their respective Mission Area,
+     agency, or staff office Section 508 programs. This includes developing and maintaining
+     Section 508 policies, guidance, and other best practice efforts on behalf of their program
+     office.
+
+
+
+                                              4
+6. SECTION 508 TRAINING AND AWARENESS
+
+  a) All current and new USDA employees and contractors must complete Section 508
+     mandatory training annually. The training provides a general overview of the Section
+     508 requirements, USDA Section 508 responsibilities, and product delivery service
+     requirements for employees and members of the public.
+
+  b) Additionally, all USDA Section 508 Coordinators and employees performing in roles
+     pertinent to the Section 508 provisions must also complete specialized Section 508
+     training. This includes Section 508 accessibility webinars, Trusted Tester training,
+     document remediation training, and quality assurance training for ICT and electronic
+     content.
+
+  c) The AgLearn training system will annually notify employees and contractors when they
+     must complete the mandatory Section 508 training. The USDA Section 508 Program
+     Office will report metrics pertaining to training completion to the Office of Management
+     and Budget (OMB), the General Services Administration (GSA), and the Access Board.
+
+  d) Continuing education is a requirement for USDA’s Section 508 Program Manager (PM)
+     and all Section 508 Coordinators. This ensures that they can comply with laws and stay
+     current with the latest accessibility developments, issues, skills, and new technologies.
+
+
+7. SECTION 508 COMPLIANCE
+
+  a) USDA employees are responsible for working with their Mission Area, agency, or staff
+     office Section 508 Coordinator to ensure that their ICT is accessible to individuals with
+     disabilities. If a Mission Area, agency, or staff office does not have a designated Section
+     508 Coordinator, contact the USDA Section 508 Program Office for assistance at
+     Section508-ocio@usda.gov.
+
+  b) To the greatest extent possible, Mission Areas, agencies, and staff offices must ensure
+     that their ICT, regardless of platform or media, meets the technical provisions for
+     accessibility as prescribed by the Access Board.
+
+  c) If the agency determines that acquiring ICT that meets the technical provisions of Section
+     508 would impose an undue burden or an exception, the agency still has an obligation to
+     make information and data available by an alternative means.
+
+  d)   Mission Areas, agencies, and staff offices must ensure the development of a plan for risk
+       management, risk assessments and the documentation of buying, implementing,
+       developing, maintaining, and using ICT products that do not meet the Access Board’s
+       technical standards.
+
+
+
+
+                                              5
+  e) To determine if your agency acquiring of ICT meets technical provisions of Section 508
+     that would impose an undue burden, risk acceptance, or require an exception. These
+     procedures can be found in the Section 508 Procedures.
+
+     The USDA Chief Information Officer (CIO), serving as the USDA Section 508 Official,
+     or the CIO’s designee may grant an exception.
+
+
+8. SECTION 508 COMPLAINT PROCEDURES
+
+  Section 508 of the Rehabilitation Act of 1973 is a law that requires federal agencies to ensure
+  that their ICT is accessible to people with disabilities. If you need to report a Section 508
+  violation or need to request accessibility to digital content, the administrative process is as
+  follows:
+
+  a) Submit your administrative violation to the Section 508 Program Manager at Section508-
+     ocio@usda.gov describing the ICT that is inaccessible, the Staff Office or Mission Area
+     that is responsible for the content, and the impact on your ability to access the
+     information or services.
+
+  b) Provide your contact information and any supporting information or documents.
+
+  c) The Section 508 Program Office will review the administrative violation or accessibility
+     request within a reasonable timeframe. You may also contact the Staff Office or Mission
+     Area Section 508 Coordinator for their assistance and guidance. For more information,
+     you can visit the Section 508 website.
+
+  d) Complaints of discrimination regarding Section 508 accessibility should be filed with the
+     Office of the Assistant Secretary for Civil Rights. A complainant may file a
+     complaint online via the Program Discrimination Complaint Portal Complaint Form
+     Portal; by completing the USDA Program Discrimination Complaint Form (English), at
+     any USDA office by calling (866)- 632-9992, or sending an email/letter
+     to program.intake@usda.gov.
+
+
+9. SECTION 508 MANDATORY REQUIREMENTS
+
+  a) The Access Board’s technical provisions are mandatory requirements that must be met
+     directly or through substantially equivalent or greater access. This is also known as
+     equivalent facilitation. The USDA Section 508 Official may approve a request for an
+     exception.
+
+  b) USDA will ensure that all ICT meets the revised requirements of Section 508 and the
+     FAR. Specifically:
+
+
+
+
+                                               6
+       1) USDA must provide the applicable Section 508 provisions in contract language to
+          all contractors.
+
+       2) Conformance to the Section 508 standards must persist whenever there are upgrades
+          (system or application), patches, and alterations to ICT products and services. This
+          includes, but is not limited to, websites, software systems, documents, emails,
+          training materials, and multimedia.
+
+       3) All internal and external emails and their attachments must have meaningful links
+          that are accessible to recipients with disabilities.
+
+       4) Broadcasted emails must comply with the applicable Section 508 standards. They
+          may not substitute individual accommodations for Section 508 compliance.
+
+       5) Disseminated working draft documents should meet the Section 508 standards as
+          much as practicable. Alternatively, accessible formats or an equivalent facilitation
+          must be made available upon request.
+
+      All contracts and purchase agreements for the procurement of ICT must include all
+      necessary provisions for Section 508 compliance. This is mandatory unless an
+      exception was granted in accordance with established Section 508 standards and USDA
+      procedures. These procedures can be found in the Section 508 Procedures.
+
+  c) Contracting officers and individual credit card purchasers must acquire ICT that meets
+     the applicable technical provisions to the maximum extent practicable. Solicitations for
+     ICT should be drafted so that personnel may consider products offering equivalent
+     facilitation, along with those that strictly meet the technical provisions in the Access
+     Board’s standards.
+
+
+10. SECTION 508 PRODUCT EVALUATION AND REMEDIATION
+
+  a) All newly developed or procured ICT and pre-existing ICT that USDA maintains and
+     uses will undergo assessment for compliance. This must occur in accordance with the
+     Access Board and the Section 508 Reference Procedures.
+
+  b) All solicitation which includes ICT must specify accessibility requirements.
+
+  c) Vendors must create an Accessibility Conformance Report (ACR) using the current GSA
+     Voluntary Product Accessibility Template (VPAT®) for all ICT developed or procured by
+     USDA. Vendors must provide the report to the Mission Area, agency, or staff office
+     Section 508 Coordinator prior to deployment.
+
+  d) All USDA employees and contractors performing work for, or on behalf of, USDA must
+     report to the Section 508 Coordinator all pre-existing and legacy ICT operating and
+
+
+
+
+                                              7
+     maintained in a production environment without a Section 508 compliance determination.
+     The Section 508 Coordinator will perform quality assurance testing and validation.
+
+  e) Only ICT that has been appropriately reviewed and determined to be Section 508
+     compliant, or that has been granted an exception in accordance with procedures in the
+     Section 508 Procedures, will be placed into production. All ICT operating in a
+     production environment that is noncompliant with Section 508 must have a remediation
+     plan for achieving compliance or a request for an exception prepared and submitted to the
+     USDA Section 508 Program Office within 45 business days of the noncompliance
+     determination. Submit requests to Section508-ocio@usda.gov.
+
+
+11. ROLES AND RESPONSIBILITIES
+
+  a) The Secretary or designee will:
+
+       1) Provide guidance on compliance to USDA Mission Areas, agencies, and staff
+          offices regarding the implementation of Section 508 of the Rehabilitation Act;
+
+       2) Ensure that funding is available to support the USDA Section 508 Program Office
+          for the personnel and the purchasing of needed tools (e.g., Section 508 remediation,
+          website monitoring and testing, document and training testing, software
+          automation);
+
+       3) Ensure that funding is available to support collaboration with Mission Areas,
+          agencies, and staff offices on the purchase of proposed ICT enterprise-approved
+          solutions to support accessibility;
+
+       4) Designate a senior-level executive as the USDA Section 508 Official, 7 CFR §
+          2.32(a)(12)(viii) delegates the Office of the Chief Information Officer (OCIO),
+          Chief Information Officer (CIO) as the 508 Official;
+
+       5) Ensure that Section 508 discrimination complaints are forwarded to the Assistant
+          Secretary for Administration (ASA), Office of the Secretary (OSEC), and the CIO
+          upon request; and
+
+       6) Ensure that submission of reports and survey data related to ICT are provided to
+          appropriate Government organizations. These include, for example, Congress, the
+          Senate Committee on the Budget, and the House Committee on Oversight and
+          Reform.
+
+  b) The ASA will:
+
+       1) Serve as the USDA Chief Acquisition Officer (CAO);
+
+
+
+
+                                             8
+    2) Implement Section 508 standards in the overall IT acquisition strategy and IT
+       contract portfolio for the Department;
+
+    3) Review the IT acquisition process in coordination with the USDA CIO and the
+       Director, Office of Contracting and Procurement (OCP), serving as the Senior
+       Procurement Executive (SPE) to ensure that Section 508 requirements are met;
+
+    4) Delegate policy and oversight aspects of IT acquisitions to the Director, OCP, as it
+       relates to Section 508 compliance and accessibility;
+
+    5) Address other CAO responsibilities as outlined in the FAR (see Federal Acquisition
+       Regulation: Section 508-Based Standards in Information and Communication
+       Technology) to ensure that Mission Areas, agencies, and staff offices comply with
+       Section 508 in their acquisitions of ICT; and
+
+    6) Address the Section 508 contract language in contracts when needed or upon
+       request.
+
+c) The USDA CIO will:
+
+    1) Provide oversight for the USDA Section 508 Program as delegated by the Secretary
+       per 7 CFR § 2.32(a)(12)(viii);
+
+    2) Serve as the USDA Section 508 Official;
+
+    3) Designate the USDA Section 508 PM;
+
+    4) Maintain and provide leadership to the USDA Section 508 Program.
+
+    5) Provide guidance to the USDA Section 508 PM;
+
+    6) Provide policy management, coordination, and oversight of the design, acquisition,
+       maintenance, use, and dissemination of ICT;
+
+    7) Ensure that Section 508 accessibility considerations are incorporated into the
+       planning, operation, and management of any ICT that the Department develops,
+       uses, or maintains;
+
+    8) Ensure that funding and resources are available for the USDA Section 508 Program
+       Office and its activities;
+
+    9) Ensure that Section 508 is incorporated into all acquisition and development
+       processes in OCIO in collaboration with the CAO;
+
+
+
+
+                                           9
+     10) Review and approve all Section 508 exception requests. Ensure that an appropriate
+         response is provided for each unless delegated to the OCIO Information Resource
+         Management Center (IRMC) Associate Chief Information Officer (ACIO);
+
+     11) Collaborate with the Secretary or Designee and other senior USDA officials on
+         matters pertaining to the implementation of Section 508 requirements and the
+         resolution of Section 508 complaints;
+
+     12) Develop and implement Departmental policy to ensure that the Section 508
+         requirements are integrated with, but not limited to, DR 3130-013, Information
+         Technology Capital Planning and Investment Control; DR 3130-010, United States
+         Department of Agriculture Enterprise Information Technology Governance; and
+         DR 3145-001, Oversight and Management of the Federal Information Technology
+         Acquisition Reform Act (FITARA);
+
+     13) Provide Section 508 conformance information in response to the biennial (every
+         other year) Department of Justice (DOJ) Section 508 survey to OMB and DOJ;
+
+     14) Provide Section 508 conformance information in response to the annual OMB
+         Governmentwide Section 508 Assessment Report to OMB and DOJ; and
+
+     15) Monitor and report USDA compliance on the USDA Section 508 Program
+         regarding operational activities to OMB and the White House.
+
+d) Mission Area, Agency, and Staff Office Heads will:
+
+     1) Ensure senior executive leadership and accountability for the implementation of the
+        Section 508 requirements in their respective program offices;
+
+     2) Designate a Mission Area, agency, or staff office Section 508 Coordinator and
+        communicate the selection to the USDA Section 508 PM in writing;
+
+     3) Support the implementation of Section 508 in the development, acquisition,
+        maintenance, use, and management of ICT products and services within their
+        organization;
+
+     4) Ensure that funding and resources are available to use towards Section 508
+        compliance and managerial activities;
+
+     5) Review all Section 508 exception requests to ensure that an appropriate response is
+        provided for each and records are properly maintained;
+
+     6) Ensure that Section 508 is incorporated into acquisition and developmental
+        processes;
+
+
+
+
+                                          10
+     7) Ensure that only Section 508 compliant ICT or ICT with a documented exception
+        operates in the USDA production environment;
+
+     8) Ensure that employees and contractors within their Mission Area, agency, and staff
+        office complete Section 508 training as required; and
+
+     9) Update or reconfirm the Section 508 Coordinator’s appointment letter annually, or
+        more often as needed.
+
+e) The USDA Office of the General Counsel (OGC) will:
+
+     1) Provide legal advice to the Secretary of Agriculture, senior officials, Mission Areas,
+        agencies, and staff offices on questions of law involving Section 508 across all
+        USDA;
+
+     2) Provide legal advice on compliance with Section 508; and
+
+     3) Advise and defend USDA, as needed, to address Section 508 complaints.
+
+f) The Director, OCP, will:
+
+     1) Serve as the USDA Senior Procurement Executive (SPE);
+
+     2) Ensure, in collaboration with the CIO, that Section 508 requirements are
+        incorporated into any ICT that is procured by the Department;
+
+     3) Ensure that individuals involved in all financial planning and requirements
+        generation develop plans and specifications that address ICT accessibility using the
+        Section 508 standards addressed in the FAR;
+
+     4) Include Section 508 contract language and any required supporting documentation
+        for all ICT acquisitions. Apply due diligence as part of the market research
+        requirements; and
+
+     5) Use GSA’s Accessibility Requirements Tool (ART) as a resource to locate Section
+        508 compliant products, services, and accessibility-related documentation for the
+        contract file.
+
+g) The Office of the Assistant Secretary for Civil Rights (OASCR) will:
+
+     1) Ensure that Mission Areas, agencies, and staff offices conduct internal reviews to
+        ensure their policies and procedures comply with Section 508 regulations,
+        mandates, and amendments;
+
+     2) Develop, implement, and maintain procedures for processing complaints of
+        discrimination filed with OASCR by Federal employees, applicants for employment
+
+
+
+                                           11
+       at USDA, and members of the public. These procedures also apply to all
+       complaints alleging a violation of the agency’s responsibility to procure ICT under
+       Section 508 whether filed by members of the public or USDA employees or job
+       applicants;
+
+    3) Ensure procedures are consistent with 7 CFR § 2.25, Assistant Secretary for Civil
+       Rights. This section defines the ASCR’s delegated authority. The procedures must
+       also conform with 7 CFR Part 15e, Enforcement of Nondiscrimination on the Basis
+       of Handicap in Programs or Activities Conducted by the United States Department
+       of Agriculture;
+
+    4) Maintain a system to track, document, and monitor Section 508 informal and formal
+       complaints received by OASCR;
+
+    5) Ensure Section 508 complaints received by OASCR are timely and properly
+       processed;
+
+    6) Evaluate the effectiveness of OASCR’s procedures for processing Section 508
+       informal and formal complaints and implement changes as needed; and
+
+    7) Provide reports and survey data on the number and status of Section 508 informal
+       and formal complaints received by OASCR to the appropriate Federal agencies,
+       OMB, and Congress.
+
+h) The ACIO, OCIO-IRMC, will:
+
+    1) Serve as acting USDA Section 508 Official, upon delegation from the CIO;
+
+    2) Monitor the impact, needs, and performance of the USDA Section 508 Program
+       Office;
+
+    3) Implement Section 508 compliance within USDA;
+
+    4) Provide leadership and guidance to the USDA Section 508 PM;
+
+    5) Identify and evaluate current and future accessibility tools and technology for use
+       across the Department;
+
+    6) Identify and document ICT deficiencies impacting the performance of individuals
+       with disabilities in both current and future prospective ICT systems;
+
+    7) Establish enterprise system and accessibility testing protocols; and
+
+    8) Advise the Secretary and other senior USDA officials on matters pertaining to the
+       implementation of Section 508 requirements and the resolution of Section 508
+       complaints.
+
+
+
+                                          12
+i) The Director, OCIO-IRMC Enterprise Architecture Division will:
+
+     1) Serve as the USDA Chief Enterprise Architect (CEA);
+
+     2) Confirm that ICT acquisitions, investments, and projects follow the USDA Section
+        508 Program or the Access Board standards and guidelines;
+
+     3) Collaborate with the USDA Section 508 Program to promote Section 508
+        awareness; and
+
+     4) Ensure that Section 508 is integrated into DR 3185-001, Enterprise Architecture.
+
+j) The Director, OCIO IRMC Information Management Division (IMD), will:
+
+     1) Provide leadership and oversight for the USDA Section 508 Program and guidance
+        to the USDA Section 508 PM;
+
+     2) Collaborate with the Director, OCIO IRMC Capital Planning and IT Governance
+        Division, to ensure that DR 3130-013 and DR 3130-010 incorporate Section 508
+        standards;
+
+     3) Monitor the impact, needs, and performance of the USDA Section 508 Program
+        Office;
+
+     4) Advise the USDA CIO and other senior USDA officials on matters pertaining to the
+        implementation of Section 508 requirements and the resolution of Section 508
+        complaints;
+
+     5) Assist with identifying and evaluating current and future tools and technology for
+        use across the Department;
+
+     6) Assist with identifying and documenting ICT deficiencies impacting the
+        performance of individuals with disabilities in both current and future prospective
+        ICT systems; and
+
+     7) Establish enterprise systems and accessibility testing protocols that support the
+        assessment, reporting, and remediation of Section 508 violations.
+
+k) The Director, OCIO IRMC Capital Planning and IT Governance Division, will:
+
+     1) Ensure that DR 3130-013 and DR 3130-010 incorporate Section 508 standards;
+
+     2) Ensure that USDA functional business areas, along with their IT investments,
+        systems, and applications deliverables, are Section 508 compliant and accessible;
+
+
+
+
+                                           13
+    3) Ensure that AgMax has Section 508 contract language in procurement submission
+       before approval; and
+
+    4) Ensure that the IT governance process and procedures incorporate Section 508
+       standards.
+
+l) The Director, OCIO IRMC FITARA, will:
+
+    1) Ensure that DR 3145-001 incorporates Section 508 standards;
+
+    2) Ensure that all applicable policies, procedures, and governance structures are
+       consistent with the Section 508 standards for accessibility; and
+
+    3) Ensure that the IT investment processes and procedures incorporate Section 508
+       standards.
+
+m) The USDA Section 508 PM will:
+
+    1) Manage the USDA Section 508 Program Office;
+
+    2) Assist in the establishment of a strong and inclusive USDA Section 508 Program
+       foundation across USDA;
+
+    3) Oversee USDA Section 508 Program activities and abide by established standards;
+
+    4) Host reoccurring meetings as necessary with Mission Area, agency, and staff office
+       Section 508 Coordinators and accessibility professionals to provide updates,
+       training, and information pertaining to Section 508;
+
+    5) Coordinate the identification and remediation of noncompliant ICT operating in a
+       production environment;
+
+    6) Educate USDA employees and contractors on the importance of Section 508 as it
+       applies to the acquisition, development, maintenance, and use of ICT;
+
+    7) Establish procedures for conducting semiannual reviews of approved exceptions to
+       ensure compliance with Section 508;
+
+    8) Update this DR and the Section 508 Procedures in accordance with USDA policy;
+
+    9) Implement standards, policies, and guidelines pertaining to Section 508-related
+       activities across USDA;
+
+    10) Monitor and report on Section 508 compliance in USDA Mission Areas, agencies,
+        and staff offices;
+
+
+
+
+                                          14
+     11) Identify current and prospective ICT deficiencies impacting individuals with
+         disabilities;
+
+     12) Develop and maintain standardized Section 508 contract language to be used in
+         solicitations and related procedures;
+
+     13) Ensure that individuals involved in all financial planning and requirements
+         generation develop plans and specifications that address ICT accessibility using the
+         Section 508 standards addressed in the FAR;
+
+     14) Review and respond appropriately to Section 508 exception requests;
+
+     15) Routinely monitor the Access Board and the GSA websites for updated Section 508
+         guidance, training opportunities, and best practices;
+
+     16) Collect, organize, and submit Section 508 conformance metrics and information
+         pertaining to each Mission Area, agency, and staff office in response to the annual
+         OMB Governmentwide Section 508 Assessment Report;
+
+     17) Collect, organize, and submit Section 508 conformance metrics and information
+         pertaining to each Mission Area, agency, and staff office in response to the biennial
+         DOJ Section 508 survey;
+
+     18) Collaborate with OGC, OASCR, and the CEA to support Section 508 initiatives;
+
+     19) Advise the CIO and other senior USDA officials on matters pertaining to the
+         implementation of Section 508 requirements and the resolution of Section 508
+         violations;
+
+     20) Ensure that Section 508 program manager tasked with testing and evaluating digital
+         accessibility have appropriate expertise and have, at a minimum, participated in a
+         certified Section 508 conformance training program, such as the Department of
+         Homeland Security (DHS) Trusted Tester Certification Program;
+
+     21) Represent USDA at Federal meetings, conferences, and training sessions on Section
+         508, as appropriate; and
+
+     22) Participate in the Accessibility Community of Practice (ACOP) to maintain
+         compliance with laws and stay current with the latest developments, issues, skills,
+         and new technology requirements for compliance and accessibility.
+
+n) Mission Area, Agency, and Staff Office Section 508 Coordinators will:
+
+     1) Define and oversee Mission Area, agency, and staff office Section 508 program
+        activities, including the strategic implementation of Section 508 procedures in order
+        to meet Departmentwide Section 508 and accessibility standards;
+
+
+
+                                           15
+2) Develop guidelines for how ICT is procured, developed, deployed, and used in
+   accordance with Section 508;
+
+3) Execute Section 508 activities related to training, acquisition, ICT evaluations,
+   exception requests, and complaint consultations;
+
+4) Provide technical assistance on Section 508 issues within their Mission Area,
+   agency, or staff office;
+
+5) Support PMs in reviewing completed vendors’ Information Technology Industry
+   Council (ITIC) VPAT® and ACR generated by GSA’s ART within the business
+   component;
+
+6) Track and report Mission Area, agency, or staff office Section 508 conformance
+   metrics as required by the USDA Section 508 PM in response to the OMB
+   Governmentwide Section 508 Assessment Report and the DOJ Section 508 survey;
+
+7) Track, review, and respond appropriately to Section 508 exception requests;
+
+8) Communicate Section 508-related issues and concerns to the USDA Section 508
+   PM;
+
+9) Evaluate ICT against the Section 508 conformance standards. Provide remediation
+   guidance to vendors, development teams, and content creators where applicable;
+
+10) Coordinate the identification of noncompliant ICT in the USDA production
+    environment;
+
+11) Ensure the development and completion of remediation plans for ICT identified as
+    noncompliant with Section 508;
+
+12) Ensure that the Section 508 contract language provided by the USDA Section 508
+    PM and any required artifacts are included in solicitations;
+
+13) Ensure all coordinators tasked with testing and evaluating digital accessibility have
+    appropriate expertise and have, at a minimum, participated in a certified Section
+    508 conformance training program, such as the Department of Homeland Security
+    (DHS) Trusted Tester Certification Program;
+
+14) Represent their Mission Area, agency, or staff office at Federal meetings,
+    conferences, and training sessions for Section 508 as appropriate; and
+
+15) Participate in meetings and events held by the USDA Section 508 Program Office
+    to receive updated information and guidance pertaining to Section 508.
+
+
+
+
+                                       16
+o) Acquisition, Management, and Procurement Officials (Contracting Officers) will:
+
+     1) Incorporate standardized Section 508 contract language and all related artifacts in
+        solicitations for all ICT procurements;
+
+     2) Enforce contract compliance with all applicable Section 508 contract provisions;
+
+     3) Advise procurement package creators on the Section 508 acquisition requirements;
+
+     4) Ensure that the results from market research and the documentation for approved
+        exceptions, if applicable, are maintained in the contract files for all ICT
+        procurements; and
+
+     5) Ensure that all ICT procurements are evaluated for Section 508 conformance.
+
+p) Project Managers will:
+
+     1) Conduct market research in accordance with USDA policy and procedures to
+        identify Section 508-compliant ICT that meets the business need;
+
+     2) Use the ART as a resource to locate Section 508-compliant products, services, and
+        vendor voluntary product accessible templates for the contract file;
+
+     3) Include the Section 508 contract language and supporting documentation for all ICT
+        acquisitions and apply due diligence as part of the market research requirements;
+
+     4) Ensure that all ICT procurements are evaluated for Section 508;
+
+     5) Review the Access Board and GSA standards to determine the applicable Section
+        508 standards for procured and developed ICT products and services;
+
+     6) Determine and ensure that the applicable Section 508 standards are defined early in
+        development life cycles;
+
+     7) Determine, request, and document any applicable Section 508 exceptions in
+        accordance with the USDA Section 508 exception process detailed in the Section
+        508 Procedures;
+
+     8) Develop and implement appropriate remediation plans for noncompliant ICT
+        operating in the production environment;
+
+     9) Ensure that newly developed or procured ICT is either Section 508 compliant or has
+        a documented and approved exception granted prior to use in the production
+        environment; and
+
+
+
+
+                                           17
+        10) Ensure that vendors provide complete and accurate responses to the Section 508
+            standards for all ICT being developed, procured, maintained, or used by USDA
+            employees and contractors and the public.
+
+   q) Developers, Content Creators, Software Engineers, and Webmasters will:
+
+        1) Incorporate the applicable Section 508 standards throughout development life
+           cycles;
+
+        2) Design, develop, and implement ICT services with Section 508-compliant and
+           accessible user interfaces;
+
+        3) Create, maintain, evaluate, and remediate accessible ICT and electronic content in
+           accordance with Section 508 and the current WCAG standards; and
+
+        4) Develop and implement remediation plans for known accessibility-related issues in
+           accordance with USDA procedures.
+
+   r) USDA Employees and Contractors performing work on behalf of USDA will:
+
+        1) Complete the mandatory Section 508 training annually;
+
+        2) Properly apply Section 508 provisions to relevant work activities;
+
+        3) Engage with the respective Section 508 Coordinator throughout the acquisition,
+           development, and authoring processes of all ICT;
+
+        4) Provide evidence of accessibility conformance when required;
+
+        5) Adhere to the requirements of this USDA policy, and its associated standards and
+           procedures, when developing, procuring, maintaining, or using ICT; and
+
+        6) Ensure that all content, documents, applications, and files authored, owned,
+           developed, maintained, and submitted for publication on USDA public-facing
+           websites, on internal USDA platforms and the USDA intranet, or distributed via
+           broadcast emails, for which they are responsible, are Section 508 compliant per the
+           Section 508 standards.
+
+
+12. INQUIRIES
+
+   Direct all questions concerning this DR to the OCIO, IRMC, IMD Section 508 Program
+   Manager via email at Section508-ocio@usda.gov.
+
+
+                                           -END-
+
+
+
+                                             18
+                            APPENDIX A
+
+                 ACRONYMS AND ABBREVIATIONS
+
+
+ACIO     Associate Chief Information Officer
+ACOP     Accessibility Community of Practice
+ACR      Accessibility Conformance Report
+AD       Agriculture Department (Departmental form prefix)
+ART      Accessibility Requirements Tool
+ASA      Assistant Secretary for Administration
+ASCR     Assistant Secretary for Civil Rights
+CAO      Chief Acquisition Officer
+CEA      Chief Enterprise Architect
+CFR      Code of Federal Regulations
+CIO      Chief Information Officer
+DM       Departmental Manual
+DOJ      Department of Justice
+DR       Departmental Regulation
+EEO      Equal Employment Opportunity
+EEOC     Equal Employment Opportunity Commission
+EIT      Electronic and Information Technology
+ETSI     European Telecommunications Standards Institute
+FAR      Federal Acquisition Regulations
+FCC      Federal Communications Commission
+FITARA   Federal Information Technology Acquisition Reform Act
+GSA      General Services Administration
+ICT      Information and Communication Technology
+IMD      Information Management Division (OCIO-IRMC component)
+IRMC     Information Resource Management Center (OCIO component)
+IT       Information Technology
+ITIC     Information Technology Industry Council
+OASCR    Office of the Assistant Secretary for Civil Rights
+OCIO     Office of the Chief Information Officer
+OCP      Office of Contracting and Procurement
+OGC      Office of the General Counsel
+OMB      Office of Management and Budget
+OSEC     Office of the Secretary
+P.L.     Public Law
+PM       Program Manager
+SPE      Senior Procurement Executive
+U.S.C.   United States Code
+USDA     United States Department of Agriculture
+VPAT®    Voluntary Product Accessibility Template
+W3C      World Wide Web Consortium
+WCAG     Web Content Accessibility Guidelines
+
+
+
+                                 A-1
+                                           APPENDIX B
+
+                                          DEFINITIONS
+
+
+Access Board. An independent Federal agency that promotes equality for individuals with
+disabilities through leadership in accessible design and the development of accessibility
+guidelines and standards. Also known as the Architectural and Transportation Barriers
+Compliance Board. (Source: Access Board, About the U.S. Access Board).
+
+Accessibility Conformance Report (ACR). ACR is a representation of how the product meets
+the applicable Section 508 technical standards. The product owner or developer must first test
+the product against those standards in order to complete an ACR. Currently, the most common
+way to complete an ACR is by using the Voluntary Product Accessibility Template (VPAT®)
+template created by the ITIC. (Source: GSA, Section508.gov, How to Create an Accessibility
+Conformance Report Using A Voluntary Product Accessibility Template (VPAT®)).
+
+Accessibility Requirements Tool (ART). A step-by-step guide to help easily identify relevant
+accessibility requirements from the revised Section 508 standards (see the Access Board,
+Information and Communication Technology: Revised 508 Standards and 255 Guidelines) and
+incorporate them into procurement and contracting documentation, as well as in-house IT
+development. The GSA’s IT Accessibility Program developed ART as part of its mission to
+provide technical assistance to Federal agencies, to improve compliance with Section 508 of the
+Rehabilitation Act. (Source: GSA, IT Accessibility Laws and Policies).
+
+AgMax. The acquisition approval request system used by USDA.
+
+Equivalent Facilitations. The use of designs, products, or technologies as alternatives to those
+prescribed, resulting in substantially equivalent or greater accessibility and usability. (Source:
+Access Board, Information and Communication Technology: Revised 508 Standards and 255
+Guidelines).
+
+Federal Acquisition Regulations (FAR). A set of principles that govern the Government
+procurement process. The FAR regulates purchasing of goods and services by the Government.
+(Source: GSA, Federal Acquisition Regulation).
+
+Final Rule (for the purposes of this DR). The Access Board’s Final Rule updated requirements
+for ICT covered by Section 508 of the Rehabilitation Act and Section 255 of the
+Communications Act. The revisions and updates to the Section 508-based standards and Section
+255-based guidelines are intended to ensure that information and communication technology
+covered by the respective statutes is accessible to and usable by individuals with disabilities.
+(Source: Federal Register, Final Rule, Information and Communication Technology (ICT)
+Standards and Guidelines).
+
+Information and Communication Technology (ICT). A term for IT that stresses the role of
+unified communications and the integration of telecommunications (telephone lines and wireless
+
+
+
+                                                B-1
+signals) and computers, as well as necessary enterprise software, middleware, storage, and all
+EIT. (Source: Access Board, Information and Communication Technology: Revised 508
+Standards and 255 Guidelines).
+
+Section 508 of the Rehabilitation Act of 1973, as amended. This is a Federal law that requires
+Federal agencies to provide individuals with disabilities equal access to electronic information
+and data comparable to those who do not have disabilities, unless an undue burden would be
+imposed on the Federal agency. (Source: Access Board, Section 508 (Federal Electronic and
+Information Technology)).
+
+Trusted Tester. The Department of Homeland Security Trusted Tester process is a manual test
+approach that aligns with the ICT Testing Baseline and provides repeatable and reliable
+conformance test results. (Source: GSA, Trusted Tester and ICT Testing Baseline).
+
+Undue Burden. The undue burden exception applies only to the specific features or functions of
+the ICT that cannot be made to conform to the Revised 508 Standards without imposing an
+undue burden on the agency or component. (Source: Step 2: Determine ICT Exceptions).
+
+Web Content Accessibility Guidelines (WCAG). The WCAG defines how to make web content
+more accessible to individuals with disabilities. (Source: W3C, Web Content Accessibility
+Guidelines (WCAG) 2.2).
+
+Working Draft Disseminations. Living documents where multiple people are editing the
+document before the final version. These documents are typically sent via email for updates,
+edits, and corrections. (Source: W3C, Types of Documents W3C Publishes).
+
+
+
+
+                                               B-2
+                                         APPENDIX C
+
+                             AUTHORITIES AND REFERENCES
+
+
+7 CFR § 2.24, Delegation of Authority, Assistant Secretary for Administration
+
+7 CFR § 2.25, Delegation of Authority, Assistant Secretary for Civil Rights
+
+7 CFR § 2.32, Delegation of Authority, Chief Information Officer
+
+7 CFR § 2.93, Delegation of Authority, Director, Office of Contracting and Procurement
+
+7 CFR Part 15e, Enforcement of Nondiscrimination on the Basis of Handicap in Programs or
+Activities Conducted by the United States Department of Agriculture
+
+29 CFR Part 1614, Federal Sector Equal Employment Opportunity
+
+36 CFR Part 1194, Information and Communication Technology Standards and Guidelines
+
+40 U.S.C. § 121(c), Regulations by Administrator
+
+44 U.S.C. Chapter 35, Coordination of Federal Information Policy
+
+Access Board, About the U.S. Access Board
+
+Access Board, Federal Acquisition Regulation (FAR) Updated to Incorporate Revised 508
+Standards
+
+Access Board, Information and Communication Technology: Revised 508 Standards and 255
+Guidelines
+
+Access Board, Section 508 (Federal Electronic and Information Technology)
+
+Access Board, U.S. Access Board
+
+Americans with Disabilities Act of 1990, P.L. 101-336, July 26, 1990
+
+CIO.gov, Accessibility Community of Practice
+
+Communications Act of 1934, 47 U.S.C. § 255, Access by Persons with Disabilities, as
+amended
+
+DOJ, Workforce Investment Act of 1998: Sec. 508. Electronic and Information Technology,
+August 7, 1998
+
+
+
+
+                                               C-1
+EEOC, The Rehabilitation Act of 1973: Sections 501 and 505
+
+ETSI, EN 301 549, V3.2.1, Accessibility Requirements for ICT Products and Services, March
+2021
+
+FAR, 48 CFR Part 1, Federal Acquisition Regulations System
+
+FAR, 48 CFR Part 2, Definitions of Words and Terms
+
+FAR, 48 CFR Part 7, Acquisition Planning
+
+FAR, 48 CFR Part 11, Describing Agency Needs
+
+FAR, 48 CFR Part 12, Acquisition of Commercial Products and Commercial Services
+
+FAR, 48 CFR Part 39, Acquisition of Information Technology
+
+FAR, 48 CFR Subpart 39.2, Information and Communication Technology
+
+FCC, Section 255 - Disability Rights Office, July 13, 2022
+
+FCC, Section 508 of the Rehabilitation Act
+
+FCC, Telecommunications Access for People with Disabilities, January 27, 2021
+
+Federal Register, Federal Acquisition Regulation: Section 508-Based Standards in
+Information and Communication Technology, August 11, 2021
+
+Federal Register, Final Rule, Information and Communication Technology (ICT) Standards
+and Guidelines, January 18, 2017
+
+GSA, Accessibility Requirements Tool (ART), September 2023
+
+GSA, Federal Acquisition Regulation
+
+GSA, How to Create an Accessibility Conformance Report Using A Voluntary Product
+Accessibility Template (VPAT®), November 2022
+
+GSA, IT Accessibility Laws and Policies, November 2022
+
+GSA, Section508.gov
+
+GSA, Trusted Tester and ICT Testing Baseline, February 2023
+
+GSA, Voluntary Product Accessibility Template (VPAT®), May 2022
+
+
+
+
+                                              C-2
+OMB, Circular A-130, Managing Information as a Strategic Resource, Revised, July 28, 2016
+
+Rehabilitation Act of 1973, P.L. 93-112, September 26, 1973, codified at 29 U.S.C. § 791 et seq.,
+as amended
+
+Section 501 of the Rehabilitation Act of 1973, 29 U.S.C. § 791, Employment of Individuals
+with Disabilities, as amended
+
+Section 504 of the Rehabilitation Act of 1973, 29 U.S.C. § 794, Nondiscrimination Under
+Federal Grants and Programs, as amended
+
+Section 505(a)(2) of the Rehabilitation Act of 1973, 29 U.S.C. § 794a, Remedies and Attorney
+Fees, as amended
+
+Section 508 of the Rehabilitation Act of 1973, 29 U.S.C. § 794d, Electronic and Information
+Technology, as amended
+
+Telecommunications Accessibility Enhancement Act of 1988, P.L. 100-542, October 28, 1988
+
+Telecommunications Act of 1996, P.L. 104-104, February 8, 1996
+
+Telecommunications for the Disabled Act of 1982, P.L. 97-410, January 3, 1983
+
+Twenty-First Century Communications and Video Accessibility Act of 2010, P.L. 111-260,
+October 8, 2010
+
+USDA, Agriculture Department (AD) 3027, USDA Program Discrimination Complaint Form,
+Expiration Date May 31, 2024
+
+USDA, DM 0100-001, Preparing Departmental Directives, January 4, 2018
+
+USDA, DM 4030-001, Section 508 Procedures
+
+USDA, DM 4300ci-001, EEO [Equal Employment Opportunity] Complaint Processing
+Procedures, July 20, 2001
+
+USDA, DR 1110-002, Management’s Responsibility for Internal Control, March 5, 2021
+
+USDA, DR 3130-010, United States Department of Agriculture Enterprise Information
+Technology Governance, April 20, 2021
+
+USDA, DR 3130-013, Information Technology Capital Planning and Investment Control,
+May 24, 2021
+
+USDA, DR 3145-001, Oversight and Management of the Federal Information Technology
+Acquisition Reform Act (FITARA), May 7, 2021
+
+
+
+                                              C-3
+USDA, DR 3185-001, Enterprise Architecture, April 19, 2022
+
+USDA, DR 4300-007, Processing Equal Employment Opportunity (EEO) Complaints of
+Discrimination, August 4, 2021
+
+USDA, DR 4330-002, Nondiscrimination in Programs and Activities Receiving Federal
+Financial Assistance from USDA, July 27, 2021
+
+USDA, DR 4330-003, Nondiscrimination in USDA-Conducted Programs and Activities,
+October 3, 2022
+
+USDA, OASCR, Equal Employment Opportunity Complaint Filing - Frequently Asked
+Questions, website
+
+USDA, OASCR, Filing a Discrimination Complaint as a USDA Employee, website
+
+USDA, OASCR, Filing a Program Discrimination Complaint as a USDA Customer, website
+
+USDA, OASCR, How to File a Program Discrimination Complaint, website
+
+USDA, OASCR, Program Discrimination Complaint Filing - Frequently Asked Questions,
+website
+
+USDA, OCIO, Section 508 Accessibility and Compliance, website
+
+U.S. Department of Labor, Americans with Disabilities Act
+
+U.S. Department of Labor, Section 504, Rehabilitation Act of 1973
+
+W3C, Types of Documents W3C Publishes, 2023
+
+W3C, WCAG 2 Overview, January 25, 2023
+
+W3C, Web Content Accessibility Guidelines (WCAG) 2.1, 2018
+
+W3C, Web Content Accessibility Guidelines (WCAG) 2.2, October 5, 2023
+
+
+
+
+                                             C-4
+

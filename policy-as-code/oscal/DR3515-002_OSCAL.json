@@ -1,0 +1,288 @@
+{
+  "catalog": {
+    "uuid": "b00565e9-ab95-5e09-a46c-389565dcdaaa",
+    "metadata": {
+      "title": "USDA DR3515-002: Privacy Policy and Compliance for Personally Identifiable Information (PII)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-10-30",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3515-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-10-30"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3515-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, October 30, 2025",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "expiration-date",
+          "value": "2025-10-30",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3515-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, October 30, 2025"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "419ef55c-0685-581b-a305-bf6d2101fd0c",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3515-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3515-002-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the United States Department of\n           Agriculture (USDA) privacy policy, provides the impetus and foundations for the\n           Privacy Program, and guides the development of associated processes and procedures.\n\n      b.   It is USDA policy to comply with Federal requirements to establish, implement, and\n           support a Departmental Privacy Program and associated program plans to continually\n           manage risks to privacy data, Personally Identifiable Information (PII), and USDA’s\n           information resources.\n\n      c.   This directive establishes USDA policy and compliance with the E-Government Act of\n           2002, as amended, 44 United States Code (U.S.C.) § 3501; the Confidential Information\n           Protection and Statistical Efficiency Act of 2002, 44 U.S.C. § 3501; the Privacy Act of\n           1974, 5 U.S.C. § 552 (as amended); the Clinger-Cohen Act of 1996, 40 U.S.C. 11101 et\n           seq.; and Office of Management and Budget (OMB) policies and guidance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a2c0a8c9-e114-5ddc-9e8d-95f04410e74b",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3515-002-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3515-002-2-stmt",
+                "name": "statement",
+                "prose": "a.   This policy supersedes Departmental Manual (DM) 3515-000, Privacy Requirements,\n       dated February 17, 2005.\n\n  b.   This policy is effective immediately and remains in effect until superseded or expired.\n\n  c.   All USDA Mission Areas, agencies, and staff offices will align their policies and\n       procedures with this DR within 6 months of the publication date.\n\n  d.   The term “USDA personnel” means USDA employees, contractors, affiliates, interns,\n       fellows, and volunteers who work for, on behalf of, USDA, and whose work is overseen\n       by USDA employees."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f4786690-be63-5a61-9312-89773a1fb8ab",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3515-002-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3515-002-3-stmt",
+                "name": "statement",
+                "prose": "This policy applies to all USDA Mission Areas, agencies, and staff offices and USDA\n  personnel working for, or on behalf of, USDA regarding the collection, use, maintenance,\n  disclosure, deletion, destruction, or dissemination of PII, in transit and at rest, for official\n  purposes and regarding any other activity that impacts the privacy of individuals, as\n  determined by the USDA Senior Agency Official for Privacy (SAOP)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9d7e7064-a194-5f82-84b8-2883ccad5b04",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3515-002-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3515-002-4-stmt",
+                "name": "statement",
+                "prose": "The legal rights of individuals are guaranteed and must be protected regarding the collection,\n  use, maintenance, disclosure, deletion, destruction, or dissemination of PII in compliance\n  with Federal laws, regulations, and policies. This DR provides direction and guidance to\n  Mission Areas, agencies, and staff offices for implementing those requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e1841980-8c13-5f3c-8a38-57f0afaef9bf",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3515-002-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3515-002-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Department will comply with OMB memoranda M-01-05, Guidance on Inter-\n       Agency Sharing of Personal Data – Protecting Personal Privacy; M-03-22, OMB\n       Guidance for Implementing the Privacy Provisions of the E-Government Act of 2002;\n       M-05-08, Designation of Senior Agency Officials for Privacy; M-11-02, Sharing Data\n       While Protecting Privacy; and M-16-24, Role and Designation of Senior Agency\n       Officials for Privacy.\n\n  b.   The Department will comply with OMB Circulars A-108, Federal Agency\n       Responsibilities for Review, Reporting, and Publication under the Privacy Act, and A-\n       130, Managing Information as a Strategic Resource, Appendix II: Responsibilities for\n       Managing Personally Identifiable Information, which include the Fair Information\n       Practice Principles, as guidelines for USDA’s privacy policy.\n\n\n\n\n                                                 2\n\f  c.   The Department will comply with OMB specific guidance on Privacy management and\n       control requirements, to include the safeguarding of PII, in accordance with OMB\n       memoranda.\n\n  d.   USDA Mission Areas, agencies, and staff offices will coordinate with the Chief Privacy\n       Officer (CPO), or designee, when developing and implementing privacy policy and\n       procedures to ensure they are consistent with Federal laws, regulations, guidance, and\n       Departmental policy.\n\n  e.   USDA Mission Areas, agencies, and staff offices will ensure all personnel have received\n       privacy training, and provide support to Departmental leadership on privacy-related\n       matters, data gathering, reporting requirements, and privacy-related investigations and\n       incident reporting.\n\n  f.   USDA Mission Areas, agencies, and staff offices , through their Privacy Officers,\n       Privacy Act Officers, Privacy Analysts, and other Privacy Points of Contact (PPOC),\n       will coordinate with the CPO, or designee, to ensure that their processes and procedures\n       follow USDA privacy policy and standards; thereby enhancing the overall consistency\n       of privacy protections across USDA.\n\n  g.   All privacy policies and associated procedures and controls will be reviewed annually\n       and updated, if necessary, within 1 year of the issuance of changes in Federal law,\n       regulations, and OMB and National Institute of Standards and Technology (NIST)\n       guidance.\n\n  h.   USDA Mission Areas, agencies, and staff offices may develop privacy policies,\n       processes, and procedures that meet, or exceed corresponding Departmental policy\n       requirements if needed, to further enhance Departmental privacy policy. However,\n       those policies, processes, and procedures will neither contradict, nor be less stringent\n       than, Departmental policy requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "14513d86-bdd7-5991-952d-0c97988e145b",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3515-002-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3515-002-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture will:\n\n       (1) Ensure that all PII and information systems within which PII is stored, processed, or\n           transits, are protected in compliance with all Federal requirements;\n\n       (2) Ensure that privacy and PII management processes are integrated into USDA’s\n           strategic, operational, budgetary, and acquisition planning processes;\n\n       (3) Be accountable for managing the cybersecurity risks to PII maintained by USDA, in\n           both electronic and hard-copy format;\n\n       (4) Designate a senior official at the Deputy Assistant Secretary or equivalent level\n           who serves in a central leadership position, that has the necessary skills, knowledge,\n\n\n                                                3\n\f         and expertise to lead, direct, and carry out the privacy-related functions described in\n         law and OMB policies, as the SAOP; and\n\n     (5) Delegate the necessary authority to the SAOP to carry out all assigned duties.\n\nb.   The USDA CIO will:\n\n     (1) Serve as the USDA SAOP;\n\n     (2) Serve as the Department’s official point of contact on all matters related to privacy\n         in the Federal Government;\n\n     (3) Govern the USDA Privacy Program;\n\n     (4) Review and approve USDA’s privacy policy and procedures to ensure they are\n         comprehensive, current, and compliant with applicable privacy laws and Federal\n         guidance;\n\n     (5) Be responsible for the overall management of the Department’s Privacy Program\n         portfolio, to include budget management;\n\n     (6) Chair the Data Integrity Board (DIB);\n\n     (7) Coordinate with the USDA Chief Information Security Officer (CISO) to provide\n         guidance regarding information technology and technology-related programs to\n         develop and implement policies and procedures to safeguard PII used or maintained\n         by the Department, in accordance with Federal law and policy;\n\n     (8) Coordinate with the Director, Office of Contracting and Procurement, serving as the\n         Senior Procurement Executive, to ensure that contract provisions related to assisting\n         with a breach and breach notifications are uniform and consistently included in\n         agency contracts;\n\n     (9) Coordinate with the Assistant Secretary for Civil Rights on privacy issues related to\n         civil rights and civil liberties arising from Departmental activities, such as\n         collections, privacy violations, PII security incidents, development of policy,\n         procedures, and contract language, as required;\n\n     (10) Ensure all USDA personnel receive appropriate training and education regarding\n          their privacy protection responsibilities;\n\n     (11) Ensure Departmental preparedness for and responding to an incident or breach, to\n          include development, implementation, and testing of a breach response plan;\n\n     (12) Ensure Departmental, Mission Area, agency, and staff office incident management\n          and breach response plans and procedures are developed, disseminated, fully\n          implemented, and periodically tested (with test results and artifacts documented,\n          analyzed to identify weaknesses, and retained for audit and investigation purposes);\n\n                                             4\n\f     (13) Represent USDA at the Federal Privacy Council;\n\n     (14) Ensure Departmental development and evaluation of legislative, regulatory, and\n          related policies address privacy issues and involve privacy collaborations, as\n          needed;\n\n     (15) Review, approve, and maintain a list of all Departmental information systems that\n          process, store, collect PII, or facilitate the transfer of PII between information\n          systems;\n\n     (16) Ensure that Federal statutory and regulatory reporting requirements, OMB\n          guidelines, USDA Departmental directives, and other applicable guidance have\n          been met;\n\n     (17) Submit applicable reports as required on the USDA Privacy Program; and\n\n     (18) Designate and appoint the USDA CPO.\n\nc.   The USDA CPO will:\n\n     (1) Establish, coordinate implementation, and ensure compliance with USDA\n         Departmental privacy policy and supplemental guidance. The CPO establishes the\n         privacy policy, subject to review and approval by the CISO, and SAOP;\n\n     (2) Evaluate Departmental directives, rulemakings, technologies, policies, procedures,\n         guidelines, programs, projects, and systems (including pilot activities), whether\n         proposed or operational, for potential privacy impacts and advise USDA leadership\n         and Mission Area, agency, and staff office heads on implementing corresponding\n         privacy protections, providing approval as appropriate;\n\n     (3) Coordinate with Mission Area, agency, and staff office heads, Privacy Officers,\n         Privacy Act Officers, Privacy Analysts, and other Mission Area, agency, and staff\n         office heads PPOCs to ensure that the Department follows USDA privacy policies,\n         OMB memoranda, applicable privacy laws, and Federal Governmentwide privacy\n         policies regarding protecting PII;\n\n     (4) Chair the USDA Privacy Council meetings and ensure adherence to the Privacy\n         Council Charter, forthcoming;\n\n     (5) Serve as the DIB Secretary and ensure adherence to DIB Charter, forthcoming;\n\n     (6) Process privacy complaints from organizations and individuals regarding\n         Departmental activities and ensuring redress is provided, as appropriate;\n\n     (7) Review privacy incidents or matters relating to possible violations of privacy\n         arising from the administration of any Department program or operations;\n\n\n\n\n                                            5\n\f     (8) Ensure that the Department’s privacy reports are transmitted to OMB and Congress,\n         as applicable;\n\n     (9) Provide technical assistance to system and program managers, as needed, in the\n         development of privacy documentation; and\n\n     (10) Coordinate with the USDA CIO, the USDA CISO, and the Director of the Office of\n          Homeland Security (OHS) to provide guidance regarding information technology\n          and technology-related programs to develop and implement policies and procedures\n          to safeguard PII used or maintained by the Department in accordance with Federal\n          law and policy.\n\nd.   The USDA CISO will:\n\n     (1) Review and approve Departmental directives and waivers related to privacy\n         protection administration;\n\n     (2) Ensure the annual Information Security Awareness and Training incorporates\n         provisions for protecting privacy and privacy information;\n\n     (3) Ensure privacy documentation reviews for Privacy Threshold Analysis (PTA) and\n         Privacy Impact Assessment (PIA) are incorporated into the security assessment and\n         authorization process;\n\n     (4) Collaborate with CPO on PII practices involving information system security to\n         include, but not limited to, PII breaches, system reviews to include privacy and\n         security controls, and compliance; and\n\n     (5) Formulate budget allocations and provide staffing resources for privacy personnel\n         and the CPO, supporting the Departmental Privacy Office.\n\ne.   The Director, Office of Contracting and Procurement, will:\n\n     (1) Coordinate with the SAOP to ensure that contract provisions related to assisting\n         with a breach and breach notifications are uniform and consistently included in\n         agency contracts.\n\nf.   The Assistant Secretary for Civil Rights will:\n\n     (1) Coordinate with the SAOP on privacy issues related to civil rights and civil liberties\n         arising from Departmental activities, such as collections, privacy violations, PII\n         security incidents, development of policy, procedures, and contract language, as\n         required.\n\ng.   Mission Area Assistant CIOs will:\n\n     (1) Ensure all USDA personnel protect PII, regardless of format or media type;\n\n\n\n                                             6\n\f     (2) Ensure all USDA personnel are familiar with and adhere to USDA privacy\n         directives;\n\n     (3) Ensure completion of the required privacy compliance documentation in a timely\n         manner;\n\n     (4) Ensure all information necessary to meet the Department’s reporting requirements\n         regarding privacy-related USDA activities is provided to the CPO in a timely\n         manner;\n\n     (5) Assist the CPO in reviewing USDA activities related to privacy protections,\n         ensuring they are fully integrated into operations, that privacy incidents and privacy\n         complaints are being addressed, and that an avenue for redress is provided, as\n         appropriate;\n\n     (6) Provide financial resources and other support for their respective Mission Area,\n         agency, and staff office component Privacy Officers, Privacy Act Officers, Privacy\n         Analysts, and other PPOCs to ensure effective implementation of all aspects of\n         USDA privacy policy;\n\n     (7) Ensure that Mission Area, agency, and staff office contracts for activities that\n         involve PII or otherwise impact the privacy of individuals include appropriate\n         language requiring that Departmental contractors follow USDA privacy policy and\n         this directive; and\n\n     (8) Ensure Mission Area, agency, and staff office personnel are informed and aware of\n         the Departmental breach notification procedures as outlined in the USDA Incident\n         Response Plan (IRP), forthcoming.\n\nh.   Mission Area, Agency, and Staff Office System and Program Managers will:\n\n     (1) Be knowledgeable and follow the Departmental breach notification procedures as\n         outlined in the USDA Incident Response Plan (IRP), forthcoming;\n\n     (2) Prepare and submit privacy documentation for approval to the USDA CPO,\n         including any new or altered data to be collected such as changes to PTA and PIA\n         documents;\n\n     (3) Prepare and submit System of Records Notice (SORN) and supplementary\n         documentation to the USDA CPO for review;\n\n     (4) Actively reduce the collection of Social Security Numbers or Taxpayer\n         Identification Numbers unless stipulated by law and done in support of conducting\n         USDA business;\n\n     (5) Ensure compliance with other USDA privacy policies and the Privacy Policy\n         Statement; and\n\n\n                                             7\n\f       (6) Prepare and submit Computer Matching Agreement (CMA) and supplementary\n           documentation to the USDA CPO for review, in accordance with DR 3450-001,\n           Computer Matching Program Involving Personally Identifiable Information.\n\n  i.   Privacy Officers, Privacy Act Officers, Privacy Analysts, and other PPOCs will:\n\n       (1) Maintain documentation regarding system compliance with information privacy\n           laws, Federal regulations, and Departmental directives;\n\n       (2) Develop, review, and revise system PTA, PIA, SORN, CMAs, Cost Benefit\n           Analyses, and Memoranda of Understanding as applicable to the Departmental\n           Privacy Program for compliance with Federal regulations and applicable laws and\n           guidance;\n\n       (3) Review all systems annually to ensure system modifications or revisions involving\n           PII are reflected in the current version of the CMA, SORN, and PIA documents;\n\n       (4) Complete the annual USDA Protecting Personally Identifiable Information training\n           course in AgLearn or a vendor-provided course that has been approved by the CPO;\n           and\n\n       (5) Ensure that Mission Areas, agencies, and staff offices review and update their\n           system or application privacy documentation each fiscal year.\n\n  j.   All USDA Personnel will:\n\n       (1) Inform individuals from whom they collect information as to why the information is\n           needed, how it will be used, and the reasons it may be disclosed;\n\n       (2) Take PII training or approved alternative to ensure PII awareness;\n\n       (3) Ensure that information about individuals is used only for the stated reasons, unless\n           they receive the individual’s consent to disclose the information;\n\n       (4) Ensure that information about individuals is accurate, relevant, and up-to-date;\n\n       (5) Maintain appropriate administrative, technical, and physical safeguards to protect\n           the security and confidentiality of PII; and\n\n       (6) Comply with the policies outlined in this directive to safeguard PII information\n           from unauthorized disclosure and immediately report damaged, lost, or stolen\n           USDA PII data to the Department’s security incident response team as defined in\n           the USDA Incident Response Plan (IRP), forthcoming."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "89f23b4f-8798-5754-a183-ed661a15ad63",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Non-Compliance",
+        "controls": [
+          {
+            "id": "dr3515-002-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Non-Compliance",
+            "parts": [
+              {
+                "id": "dr3515-002-7-stmt",
+                "name": "statement",
+                "prose": "Under the Privacy Act of 1974, a person can be prosecuted for asking for or taking\n  information under false pretenses. Knowingly and willingly giving someone else’s PII to\n\n                                               8\n\f  anyone who is not entitled to it is also a violation. Failure to comply with the Privacy Act of\n  1974 can result in a misdemeanor criminal charge, as well as a fine of up to $5,000 for each\n  offense.\n\n  a.   DM 3300-026, Planning and Managing Wireless Technologies, Sections 5f, 5g, and 5h,\n       set forth USDA’s policies and standards on employee responsibilities and conduct\n       relative to the use of wireless technologies.\n\n  b.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, sets forth the\n       USDA’s policies, procedures, and standards on employee responsibilities and conduct\n       relative to the use of computers and telecommunications equipment, with further\n       delineation provided in DR 3300-001, Telecommunications & Internet Services and Use.\n\n  c.   DR 4070-735-001, Section 21, Disciplinary or Adverse Action, states:\n\n       (1) A violation of any of the responsibilities and conduct standards contained in the\n           above directive may be cause for disciplinary or adverse action; and\n\n       (2) Disciplinary or adverse action will be affected in accordance with applicable law\n           and regulations.\n\n  d.   Department Personnel Manual, Chapter 751, Discipline, Appendix A, USDA Guide for\n       Disciplinary Penalties, sets forth penalties for the unauthorized disclosure or use of (or\n       failure to safeguard) information protected by the Privacy Act of 1974 or other official,\n       sensitive, or confidential information, may be cause for disciplinary action from letter of\n       reprimand to removal."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "31f189ff-b1e9-5150-a7fd-bfcaa42912c4",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3515-002-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3515-002-8-stmt",
+                "name": "statement",
+                "prose": "All USDA personnel are required to conform to this policy.\n\n  a.   All Mission Areas, agencies, and staff offices are required to conform to this policy.\n       There is no waiver from compliance with the provisions of the Privacy Act of 1974, as\n       amended. However, if a specific policy requirement, not affiliated with the provisions\n       of the Privacy Act of 1974, cannot be met as explicitly stated in this DR, a waiver must\n       be requested. Note that an approved waiver does not result in compliance with policy.\n       Requests for waivers:\n\n       (1) Are an acknowledgement of non-compliance with policy and that an acceptable\n           plan to remediate the weakness has been provided and will be implemented; and\n\n       (2) Must be documented as indicated in the standard operating procedure (SOP) issued\n           by the Compliance and Policy Branch, CAPE-SOP-003, Plan of Action and\n           Milestones Management Standard Operating Procedure, Revision 1.1.\n\n\n\n\n                                               9\n\f  b.   Policy waiver request memorandum will be addressed to the USDA CISO and submitted\n       to ISC.Outreach@usda.gov for review and decision. Unless otherwise specified,\n       approved policy waivers must be reviewed and renewed every fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "df0f1955-ebe5-50b8-be12-432a20139109",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3515-002-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3515-002-9-stmt",
+                "name": "statement",
+                "prose": "All questions regarding this DR should be directed to the USDA Privacy mailbox at\n  USDAPrivacy@usda.gov.\n\n\n\n                                          -END-\n\n\n\n\n                                            10\n\f                             APPENDIX A\n\n                ACRONYMS AND ABBREVIATIONS\n\n\nCIO        Chief Information Officer\nCISO       Chief Information Security Officer\nCMA        Computer Matching Agreement\nCPO        Chief Privacy Officer\nDIB        Data Integrity Board\nDG         Departmental Guidebook\nDM         Departmental Manual\nDR         Departmental Regulation\nFIPS PUB   Federal Information Processing Standards Publication\nFISMA      Federal Information Security Modernization Act\nNIST       National Institute of Standards and Technology\nOHS        Office of Homeland Security\nOMB        Office of Management and Budget\nPIA        Privacy Impact Assessment\nPII        Personally Identifiable Information\nPPOC       Privacy Point of Contact\nPTA        Privacy Threshold Analysis\nP.L.       Public Law\nSAOP       Senior Agency Official for Privacy\nSOP        Standard Operating Procedure\nSOR        System of Record\nSORN       System of Records Notice\nSP         Special Publication\nU.S.C.     United States Code\nUSDA       United States Department of Agriculture\n\n\n\n\n                                  A-1\n\f                                       APPENDIX B\n\n                                      DEFINITIONS\n\n\na.   Breach. The loss of control, compromise, unauthorized disclosure, unauthorized\n     acquisition, unauthorized access, or any similar occurrence where (1) a person other than\n     an authorized user accesses or potentially accesses personally identifiable information or\n     (2) an authorized user accesses or potentially accesses personally identifiable\n     information for other than authorized purpose. (Source: OMB, M-17-12, Preparing for\n     and Responding to a Breach of Personally Identifiable Information)\n\nb.   Computer Matching Agreement (CMA). A written agreement that establishes the\n     conditions, safeguards, and procedures under which a Federal organization agrees to\n     disclose data where there is a computerized comparison of two or more automated\n     Systems of Records (SOR). In conjunction with a CMA, an Interagency Agreement is\n     also prepared when the SORs involved in the comparison are the responsibility of\n     another Federal Agency. (Source: Adapted from Privacy Act of 1974)\n\nc.   Computer Matching Program. A procedure in which a computer is used to compare two\n     or more automated systems of records or a system of records with a set of non-Federal\n     records to find individuals who are common to more than one system or set. The\n     procedure includes all of the steps associated with the match, including obtaining the\n     records to be matched, actual use of the computer administrative and investigative action\n     on the hits, and disposition of the personal records maintained in connection with the\n     match. It should be noted that a single matching program may involve several matches\n     among several participants. There are exclusions to matching programs such as matches\n     done to produce aggregate statistical data without any personal identifiers and matches\n     done by an agency using its own records. (Source: Privacy Act of 1974)\n\nd.   Data Integrity Board (DIB). Oversees and coordinates various provisions of the Privacy\n     Act of 1974 as it relates to the Department’s participation in matching programs.\n     (Source: Privacy Act of 1974)\n\ne.   Incident. An occurrence that (1) actually or imminently jeopardizes, without lawful\n     authority, the integrity, confidentiality, or availability of information or an information\n     system; or (2) constitutes a violation or imminent threat of violation of law, security\n     policies, security procedures, or acceptable use policies. (Source: Federal Information\n     Security Modernization Act (FISMA) of 2014))\n\nf.   Information System. A discrete set of information resources organized for the\n     collection, processing, maintenance, use, sharing, dissemination, or disposition of\n     information. Information systems also include specialized systems such as\n     industrial/process controls systems, telephone switching and private branch exchange\n     systems, and environmental control systems. (Source: Departmental Guidebook (DG)\n     0100-002, USDA Departmental Directives Definitions Glossary)\n\n\n\n                                             B-1\n\f     Interagency Agreement. A written agreement entered into between two Federal\n     agencies, or major organizational units within an agency, which specifies the goods to be\n     furnished or tasks to be accomplished by one agency (the servicing agency) in support of\n     the other (the requesting agency). (Source: DG 0100-002)\n\ng.   Maintain. Includes collect, use, or disseminate. (Source: Privacy Act of 1974)\n\nh.   Personally Identifiable Information (PII). Any information about an individual\n     maintained by an agency, including (1) any information that can be used to distinguish\n     or trace an individual‘s identity, such as name, social security number, date and place of\n     birth, mother‘s maiden name, or biometric records; and (2) any other information that is\n     linked or linkable to an individual, such as medical, educational, financial, and\n     employment information. (Source: DG 0100-002)\n\ni.   Redress. Each agency that maintains a system of records shall – upon request by any\n     individual to gain access to his record in the system, permit him upon his request, a\n     person of his own choosing to accompany him, to review the record and have a copy\n     made of all or any portion thereof in a form comprehensible to him, except that the\n     agency may require the individual to furnish a written statement authorizing discussion\n     of that individual’s record in the accompanying person’s presence; permit the individual\n     to request amendment of a record pertaining to him. (Source: Privacy Act of 1974)\n\nj.   System of Records (SOR). A group of any records under the control of any agency from\n     which information is retrieved by the name of the individual or by some identifying\n     number, symbol, or other identifying piece of information assigned to the individual.\n     (Source: Privacy Act of 1974)\n\nk.   System of Records Notice (SORN). Statement providing public notice of the existence\n     and character of a group of records under the control of any agency, from which\n     information is retrieved by the name of the individual or by some identifying number,\n     symbol, or other identifying piece of information assigned to the individual. (Source:\n     Privacy Act of 1974)\n\n\n\n\n                                            B-2\n\f                                     APPENDIX C\n\n                         AUTHORITIES AND REFERENCES\n\n\nClinger-Cohen Act of 1996, 40 U.S.C. § 11101 et seq., February 10, 1996\n\nComputer Matching and Privacy Protection Act of 1988, Public Law (P.L.) 100-503, October\n18, 1988\n\nConfidential Information Protection and Statistical Efficiency Act of 2002, 44 U.S.C. § 3501,\nDecember 17, 2002\n\nE-Government Act of 2002, 44 U.S.C. § 3501, December 17, 2002\n\nFederal Information Security Modernization Act (FISMA) of 2014, 44 U.S.C. § 3551-3559\nDecember 18, 2014\n\nElectronic Freedom of Information Act Amendments of 1996, 5 U.S.C. § 552, October 2,\n1996\n\nFederal Records Act of 1950, 44 U.S.C. § 3101, September 5, 1950,\n\nNIST, Computer Security Resource Center, Glossary\nNIST, Federal Information Processing Standards Publication (FIPS PUB) 197, Advanced\nEncryption Standard (AES), November 26, 2001\n\nNIST, FIPS PUB 140-2, Security Requirements for Cryptographic Modules, December 3,\n2002\n\nNIST, Special Publication (SP) 800-53, Revision 4, Security and Privacy Controls for\nFederal Information Systems and Organizations, January 22, 2015\n\nNIST, SP 800-122, Guide to Protecting the Confidentiality of Personally Identifiable\nInformation (PII), April 6, 2010\n\nOMB, Circular A-108, Federal Agency Responsibilities for Review, Reporting, and\nPublication under the Privacy Act, revised January 4, 2017\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016\n\nOMB, Memorandum M-01-05, Guidance on Inter-Agency Sharing of Personal Data –\nProtecting Personal Privacy, December 20, 2000\n\nOMB, M-03-22, OMB Guidance for Implementing the Privacy Provisions of the E-\nGovernment Act of 2002, September 26, 2003\n\nOMB, M-05-08, Designation of Senior Agency Officials for Privacy, February 11, 2005\n\n                                          C-1\n\fOMB, M-06-16, Protection of Sensitive Agency Information, June 23, 2006\n\nOMB, M-11-02, Sharing Data While Protecting Privacy, November 3, 2010\n\nOMB, M-16-04, Cybersecurity Strategy and Implementation Plan (CSIP) for the Federal\nCivilian Government, October 30, 2015\n\nOMB, M-16-24, Role and Designation of Senior Agency Officials for Privacy, September 15,\n2016\n\nOMB, M-17-12, Preparing for and Responding to a Breach of Personally Identifiable\nInformation, January 3, 2017\n\nOMB, Privacy Act Implementation – Guidelines and Responsibilities, 40 Federal Register\n28.948 and 28.952, July 9, 1975\n\nPrivacy Act of 1974, 5 U.S.C. § 552a, as amended, December 31, 1974\n\nUSDA, AgLearn Protecting Personally Identifiable Information training course\n\nUSDA, CAPE-SOP-003, Plan of Action and Milestones Management Standard Operating\nProcedure, Revision 1.1, November 14, 2015\n\nUSDA, DG 0100-002, USDA Departmental Directives Definitions Glossary, September 26,\n2018\n\nUSDA, DM 3300-026, Planning and Managing Wireless Technologies, January 23, 2020\n\nUSDA, DR 3300-001, Telecommunications & Internet Services and Use, March 18, 2016\n\nUSDA, DR 3445-001, Media Protection, October 30, 2019\n\nUSDA, DR 3450-001, Computer Matching Program Involving Personally Identifiable\nInformation, October 29, 2020\n\nUSDA, DR 3450-002, Freedom of Information Act Implementing Regulations, February 7,\n2003\n\nUSDA, DR 3505-005, Cybersecurity Incident Management, November 30, 2018\n\nUSDA, DR 3545-001, Information Security Awareness and Training Policy, October 22,\n2013\n\nUSDA, DR 3565-003, Plan of Action and Milestones Policy, September 25, 2013\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, Department Personnel Manual, Chapter 751, Appendix A, Guide for Disciplinary\nPenalties, June 24, 1994\n\n                                         C-2\n\fUSDA, DIB Charter, forthcoming\n\nUSDA, Freedom of Information Act Service Center web page\n\nUSDA, Incident Response Plan (IRP), forthcoming\n\nUSDA, Privacy Council Charter, forthcoming\n\nUSDA, Privacy Policy Statement web page\n\n\n\n\n                                       C-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "872a1481-7171-56f2-b417-2a68b00a073f",
+          "title": "USDA Directives — DR3515-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3515-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

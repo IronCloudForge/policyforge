@@ -1,0 +1,225 @@
+{
+  "catalog": {
+    "uuid": "cc7bbccc-f38e-5528-8832-ffb096c07ed7",
+    "metadata": {
+      "title": "USDA DR2300-004: Emergency Payments for Evacuation",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2022-01-27",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2300-004"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2022-01-27"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2300-004",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer, Fiscal Policy",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2300-004",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer, Fiscal Policy"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "0ada7044-df94-56c8-b4d0-5812f8c5ee44",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2300-004-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2300-004-1-stmt",
+                "name": "statement",
+                "prose": "The Departmental Regulation (DR) provides a coordinated and uniform United States\n     Department of Agriculture (USDA) policy pursuant to the issuance of emergency payments\n     prompted by an order to evacuate from an area threatened by unusual or emergency\n     circumstances."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5ffec30e-398f-5130-9577-835d6eafe1d5",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr2300-004-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr2300-004-2-stmt",
+                "name": "statement",
+                "prose": "a.   This regulation is effective immediately and supersedes DR 2300-004, USDA\n          Evacuation Policies and Procedures, dated March 6, 2006.\n\n     b.   The subject title of this DR has been changed for clarity to “Emergency Payments for\n          Evacuation.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e8870cd5-6a36-5e9c-ac89-1281d744ef2e",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr2300-004-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr2300-004-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all Mission Areas, agencies, and staff offices.\n\n  b.   This DR primarily addresses the Emergency Payments for Evacuation (EPE) from an\n       area threatened by unusual or emergency circumstances.\n\n  c.   This DR provides a coordinated and uniform USDA policy per the issuance from an area\n       threatened or emergency circumstances of an order to evacuate and two types of\n       payments: Advance Net Salary Payment under 5 Code of Federal Regulations (CFR) §\n       550.404, Computation of advance payments and evacuation payments; time periods, and\n       Subsistence Payments under 5 CFR § 550.406(c) that may be made to evacuated USDA\n       employees and their dependents.\n\n  d.   This DR also describes procedures to calculate the maximum reduction for the meal(s)\n       provided due to the age of a dependent or the length in a subsistence and how to\n       complete the claim reimbursement form."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fe13b5c1-559a-5acf-911b-d84e3934053b",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr2300-004-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr2300-004-4-stmt",
+                "name": "statement",
+                "prose": "The USDA may provide emergency payments to employees who are ordered to evacuate\n  from their regular worksites and directed to an alternative location, including a home or\n  location under quarantine or confinement. The alternative location may be designated as a\n  safe haven during the period of evacuation to protect employees from being exposed to\n  additional viruses, or mutations of a pandemic virus, without regard to whether the Mission\n  Area, agency, or staff office and the employee have a telework agreement in place at the time\n  the order to evacuate is issued."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "72c0c570-5f70-5190-8255-e23116805ad8",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr2300-004-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr2300-004-5-stmt",
+                "name": "statement",
+                "prose": "Due to the issuance of an order to evacuate, USDA has reviewed the evacuation regulations\n  and other applicable laws and has set forth the following two types of payments that may be\n  made to evacuated USDA employees and their dependents. These payments consist of\n  advance pay and subsistence payments, subject to a few caveats. These are the only\n  payments that will be made to USDA employees and their dependents under this authority.\n\n  a.   Advance Net Salary Payments\n\n       USDA may make two types of salary payments:\n\n       (1) One advance payment of an employee’s net salary, under 5 CFR § 550.404, “shall\n           cover a time period not to exceed 30 days or a lesser number of days, as determined\n           by the authorizing Agency official.” The advance must be approved by the\n           authorized Agency official as determined by the Office of Personnel Management\n\n\n\n                                                 2\n\f         (OPM). Mission Areas, agencies, and staff offices should refer to OPM regulations\n         for information on pay benefits for Federal employees affected by severe weather\n         conditions or other emergency situations. The National Finance Center (NFC) will\n         process an Electronic Funds Transfer (EFT) payment to the employee’s payroll\n         account. If an employee’s financial institution is unable to process the EFT\n         payment, the employee may request payment to an alternate EFT account.\n\n     (2) Replacement of salary payments: If the employee’s financial institution is unable to\n         process EFT payments, the employee may request payment to an alternate EFT\n         account. The unprocessed EFT payment will then be cancelled.\n\nb.   Repayment or Repayment Forgiveness\n\n     (1) At the earliest possible date after the evacuation is terminated (or earlier if the\n         circumstances justify), after the employee returns to his or her assigned duty station,\n         or when the employee is reassigned officially, the payroll office with jurisdiction\n         over the employee's account must review each employee's account for the purpose\n         of making adjustments. The employee's pay shall be adjusted based on the rates of\n         pay, allowances, or differentials, if any, to which he or she would otherwise have\n         been entitled under all applicable statutes other than 5 United States Code (U.S.C.)\n         § 5527, Regulations. Any adjustments in the employee's account shall also reflect\n         advance payments made to the employee.\n\n     (2) After an employee's account is reviewed, if it is found that the employee is indebted\n         for any part of the advance payment made to him or her, or his or her dependent(s)\n         or designated representative, recovery of the indebtedness shall be affected by the\n         payroll office with jurisdiction over the employee's account, unless a waiver of\n         recovery has been approved. Repayment of the indebtedness may be made either in\n         full or in partial payments, as determined by the head of the agency or designated\n         official.\n\n     (3) Recovery of indebtedness for advance payment shall not be required when it is\n         determined by the head of the agency or designated official that the recovery would\n         be against equity or good conscience or against the public interest. Findings that\n         formed the basis for waiver of recovery shall be filed in the employee's personnel\n         folder on the permanent side.\n\n     (4) For the period covered by any payment made under this subpart, the employee shall\n         be considered as performing active Federal service in his or her position without a\n         break in service.\n\nc.   Subsistence Payments\n\n     (1) Subsistence payments may be provided from the date of departure from the area\n         being evacuated to the date of arrival at the designated safe haven in accordance\n\n\n\n\n                                               3\n\f         with 5 CFR § 550.405(a). A designated safe haven is defined as a designated area\n         to which an employee or dependent will be or has been evacuated.\n\n     (2) On the date following arrival at the agency designated safe haven, subsistence\n         payments may continue until the date that the evacuation order is terminated, or 180\n         days after the effective date of the order to evacuate, whichever is earlier. An\n         employee must be returned to his/her regular duty station, or appropriate action\n         must be taken to reassign him/her to another duty station, as in accordance with 5\n         CFR § 550.406(c).\n\n     (3) The maximum per diem, and one-half the maximum per diem for dependents under\n         age 12, may be paid to the employee and his or her designated representative for up\n         to 30 days. After 30 days, 60 percent of the maximum per diem may be paid for up\n         to another 150 days. The per diem rates are set by the General Services\n         Administration (GSA). An example of the per diem rates and percentages paid are\n         provided in detail below.\n\n     (4) Supervisors or higher-level officials may authorize subsistence payments to\n         employees and their dependents. Payments should be authorized (for both\n         employees and dependents) in the Concur Government Edition system used by\n         USDA.\n\nd.   Additional Information and Restrictions\n\n     (1) Transportation: Travel expenses for the employee and dependents will be\n         determined, in accordance with the Federal Travel Regulation (FTR), from the\n         evacuated area to the designated safe haven and for their return to the previously\n         evacuated area, as authorized.\n\n     (2) Lodging-plus: Actual amount of lodging plus a set allowance for meals and\n         expenses (per diem). USDA will pay actual lodging costs up to 300% plus the\n         Meal and Incidental Expense (M&IE) at the per diem amount.\n\n     (3) Per Diem Percentages Allowed:\n\n         (a) Adult 1st 30 days: Employees and dependents that are 12 years and older are\n             entitled to 100 percent of the maximum per diem.\n\n         (b) Adult 31-180 days: Employees and dependents that are 12 years and older are\n             entitled to 60 percent of the maximum per diem.\n\n         (c) Children 1st 30 days: Dependents under the age of 12 are entitled to 50\n             percent of the maximum per diem.\n\n         (d) Children 31-180 days: Dependents under the age of 12 are entitled to 30\n             percent of the maximum per diem.\n\n\n\n                                               4\n\f(4) Dependent: As defined under the Office of Personnel Management (OPM)\n    regulations a dependent is a relative of the employee residing with the employee\n    and dependent on the employee for support.\n\n(5) Vouchering:\n\n    (a) Employees: Employees should receive travel authorizations for their personal\n        subsistence expenses. Vouchers should be completed using the normal travel\n        voucher processes.\n\n         1   Consult your supervisor or administrative staff to determine travel\n             authorization and voucher processes.\n\n         2   USDA’s Concur Government Edition should be used to submit, authorize,\n             and voucher travel expenses.\n\n         3   Note that the authorizations should be completed to allow only those\n             expenses authorized by 5 CFR § 550.405.\n\n    (b) Dependents: Subsistence expenses will be reimbursed using a GSA Optional\n        Form (OF)-1164, Claim for Reimbursement for Expenditures on Official\n        Business. The OF-1164 must be approved by the employee’s supervisor or\n        designated authority.\n\n(6) Paying Subsistence Expenses (see Example Scenario in Appendix A):\n\n    (a) Prepaid card (dependent expenses only)\n\n         1   Prepaid cards are limited to the balance authorized.\n\n         2   Prepaid cards can include the subsistence payments of dependents.\n             Employees should use the travel card or travel advance processes.\n\n         3   The amount issued on the Prepaid card must be subtracted from the\n             reimbursement requested on an OF-1164. See page D-1 of Appendix D,\n             Example Scenario, for the recommended format.\n\n         4   Supervisors or a designated authority may request Prepaid cards through\n             the Office of the Chief Financial Officer’s (OCFO) Financial Management\n             Service at (800) 1-800-421-0323 from 8 a.m. to 8 p.m. central time.\n\n\n\n\n                                         5\n\f         (b) Travel card (employees only)\n\n              1     If the employee needs to make Automated Teller Machine (ATM)\n                    withdrawals and does not have a Personal Identification Number (PIN),\n                    contact US Bank customer service at 1-888-994-6722 to obtain PIN.\n\n              2     The amount reimbursed on the travel card may not exceed the amount\n                    authorized for subsistence payments.\n\n              3     Employees using the travel card will need to provide US Bank with their\n                    new temporary address and are expected to pay in a timely manner.\n\n         (c) Travel advance (employees without a travel card)\n\n              1     Consult your supervisor or administrative staff to obtain a travel advance\n                    through USDA’s travel system.\n\n              2     Travel advances should be repaid via the travel voucher.\n\ne.   Restrictions\n\n     (1) Receipts documenting actual lodging and transportation costs will be required. If\n         receipts are unavailable, supervisors can accept alternate documentation at their\n         discretion. (Example: Employee lost receipt due to the need to evacuate,\n         documentation of the charges from US Bank billing statements can be used.)\n\n     (2) Subsistence per diem can be used for any purpose. If lodging expenses are not\n         charged to the employee (or family), no lodging reimbursement will be provided.\n         This includes lodging provided by evacuation shelters, family, and charities.\n\n     (3) If the employee leaves the designated safe haven or performs unofficial temporary\n         duty travel, subsistence payments to the employee will be suspended for this period.\n         Payments will continue for dependents that remain at the designated safe haven and\n         will resume for the employee when they return to the Mission Area, agency, or staff\n         office designated safe haven. Administrative or sick leave does not interrupt\n         subsistence payments.\n\n     (4) If dependents of the employee leave the designated safe haven, subsistence\n         payments will be suspended for this period. Payments will resume once the\n         dependent returns to the designated safe haven. Payments will continue for the\n         employee and dependents that remain at the designated safe haven.\n\n     (5) Subsistence payments will terminate for both the employee and dependents when\n         the evacuation is terminated or when an employee is assigned or returned to a\n         permanent duty station (relocation).\n\n\n\n\n                                               6\n\f    (6) The per diem amount claimed must be reduced for meals provided by the\n        government or complimentary lodging meals. Use the appropriate schedule to\n        calculate the reduction for each meal provided (current schedule, as of the\n        publication date of this regulation, follows). If the maximum per diem rate is\n        reduced due to the age of a dependent or the length in subsistence, the schedule\n        below should be reduced by the same percentage.\n\n\n                                     TABLE 1\n              Evacuation Subsistence Expense Allowance for Evacuation\n             Employees and Adult Dependents (12+Years Old) – Day 1-30\n\nPer Diem Breakdown by Agency Designated Safe Haven\nMeal                   Location 1   Location 2       Location 3   Location 4   Location 5   Location 6\nBreakfast              $6.00        $7.00            $7.00        $9.00        $9.00        $10.00\nLunch                  $6.00        $8.00            $8.00        $9.00        $11.00       $12.00\nDinner                 $16.00       $18.00           $20.00       $22.00       $24.00       $26.00\nIncidental             $3.00        $3.00            $3.00        $3.00        $3.00        $3.00\nTotal Daily Per Diem   $31.00       $36.00           $38.00       $43.00       $47.00       $51.00\n\n\n                                     TABLE 2\n              Evacuation Subsistence Expense Allowance for Evacuation\n            Employees and Adult Dependents (12+Years Old) – Day 31-180\n\nPer Diem Breakdown by Agency Designated Safe Haven\nMeal                   Location 1   Location 2       Location 3   Location 4   Location 5   Location 6\nBreakfast              $3.60        $4.20            $4.20        $5.40        $5.40        $6.00\nLunch                  $3.60        $4.80            $5.40        $5.40        $6.60        $7.20\nDinner                 $9.60        $10.80           $12.00       $13.20       $14.40       $15.60\nIncidental             $1.80        $1.80            $1.80        $1.80        $1.80        $1.80\nTotal Daily Per Diem   $18.60       $21.60           $22.80       $25.80       $28.20       $30.60\n\n\n                                     TABLE 3\n              Evacuation Subsistence Expense Allowance for Evacuation\n             Employees and Adult Dependents (12+Years Old) – Day 1-30\n\nPer Diem Breakdown by Agency Designated Safe Haven\nMeal                   Location 1   Location 2       Location 3   Location 4   Location 5   Location 6\nBreakfast              $3.00        $3.50            $3.50        $4.50        $4.50        $5.00\nLunch                  $3.00        $4.00            $4.00        $4.50        $5.50        $6.00\nDinner                 $8.00        $9.00            $10.00       $11.00       $12.00       $13.00\nIncidental             $1.50        $1.50            $1.50        $1.50        $1.50        $1.50\nTotal Daily Per Diem   $15.50       $18.00           $19.00       $21.50       $23.50       $25.50\n\n\n\n\n                                                 7\n\f                                         TABLE 4\n                  Evacuation Subsistence Expense Allowance for Evacuation\n                 Employees and Adult Dependents (12+Years Old) – Day 1-30\n\n   Per Diem Breakdown by Agency Designated Safe Haven\n   Meal                   Location 1   Location 2       Location 3   Location 4   Location 5   Location 6\n   Breakfast              $1.80        $2.10            $2.10        $2.70        $2.70        $3.00\n   Lunch                  $1.80        $2.40            $2.40        $2.70        $3.30        $3.60\n   Dinner                 $4.80        $5.40            $6.00        $6.60        $7.20        $7.80\n   Incidental             $0.90        $0.90            $0.90        $0.90        $0.90        $0.90\n   Total Daily Per Diem   $9.30        $10.80           $11.40       $12.90       $14.10       $15.30\n\n\nThe GSA updates the Per Diem Rate Breakdown annually. Use the following GSA Per Diem\nM&IE Rate Breakdown website for the current Per Diem Rate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "00ec8df9-7c94-5dc7-a84d-d6333ae2b9f6",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr2300-004-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr2300-004-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Senior Accountable Travel Officer (SATO), or a delegate officer, will review\n        payments and approve the payments.\n\n   b.   NFC personnel will process EFT payment to the employee’s payroll account.\n\n   c.   Mission Area, agency, and staff office Payroll Office Staff will review each employee’s\n        account for the making adjustments after evaluation.\n\n   d.   Mission Area, agency, and staff office Directors, or a delegated officer, and Supervisors\n        will communicate regularly with their employees who are performing work during\n        emergencies to ensure they understand their work assignments and management's\n        expectations during the period of the evacuation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "087bc89a-923c-5f4d-acac-45adfe6dae90",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr2300-004-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr2300-004-7-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices may direct questions and inquiries\n   regarding this DR 2300-004 to the OCFO, Fiscal Policy Division (FPD) via email at\n   TPM@usda.gov.\n\n\n                                             -END-\n\n\n\n\n                                                    8\n\f                              APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nATM      Automated Teller Machine\nCFR      Code of Federal Regulations\nDR       Departmental Regulation\nEFT      Electronic Funds Transfer\nFPD      Fiscal Policy Division (OCFO Component)\nFTR      Federal Travel Regulation\nGSA      General Services Administration\nM&IE     Meal and Incidental Expense\nNFC      National Finance Center\nOCFO     Office of the Chief Financial Officer\nOF       Optional Form\nOPM      Office Of Personnel Management\nPIN      Personal Identification Number\nSATO     Senior Accountable Travel Officer\nU.S.C.   United States Code\nUSDA     United State Department of Agriculture\n\n\n\n\n                                   A-1\n\f                                         APPENDIX B\n\n                                         DEFINITIONS\n\n\nAdvance Net Salary Payments. The amount of advance payments shall cover a time period not\nto exceed 30 days or a lesser number of days, as determined by the authorizing agency official.\n(Source: 5 CFR part 550, Subpart D)\n\nAgency. Organizational units of the Department, other than staff offices as defined below,\nwhose head reports to officials within the Office of the Secretary, Deputy Secretary, Under\nSecretaries, Assistant Secretaries, and Assistant to the Secretary. (Source: 5 CFR § 550.402)\n\nMission Area. A group of agencies with related functions that report to the same Under or\nAssistant Secretary. Research, Education, and Economics (REE) is an example of a Mission\nArea. (Source: USDA, DR 0100-001, Departmental Directives System)\n\nNational Finance Center (NFC). The organization that processes Electronic Funds Transfer\n(EFT) payments to the employee’s payroll account. (Source: National Finance Center website)\n\nRepayment Forgiveness. After the employee returns to his or her assigned duty station, the\npayroll office having jurisdiction over the employee's account, review each employee's account\nfor the purpose of adjusting. (Source: 5 CFR part 550, Subpart D)\n\nReplacement of salary payments. Financial institution is unable to process EFT payments, the\nemployee may request payment to an alternate EFT account or may request a Prepaid Card.\n(Source: 5 CFR part 550, Subpart D)\n\nSafe haven. The area to which an employee or dependent will be or has been evacuated.\n(Source: 5 CFR § 550.402)\n\nStaff Office. Departmental administrative offices whose heads report to officials within the\nOffice of the Secretary. (Source: USDA, DR 0100-001)\n\nSubsistence Payments. The payments provided from the date of departure from the area being\nevacuated to the date of arrival at the agency designated safe haven, including any period of\ndelay enroute that is beyond an evacuee’s control. (Source: 5 CFR Part 550, Subpart D)\n\n\n\n\n                                                B-1\n\f                                        APPENDIX C\n\n                           AUTHORITIES AND REFERENCES\n\n\n5 CFR § 550.404, Computation of advance payments and evacuation payments; time periods\n\n5 CFR § 550.405, Determination of special allowances\n\n5 CFR § 550.406, Work assignments during evacuation; return to duty\n\n5 CFR Part 550, Subpart D, Payments During Evacuation\n\n5 CFR Part 752, Adverse Actions\n\n5 U.S.C. §§ 5522-5527, Advancement, Allotment, and Assignment of Pay\n\nFederal Travel Regulation (FTR)\n\nGSA, Form OF-1164, Claim for Reimbursement for Expenditures on Official Business,\nNovember 2017\n\nGSA, Per Diem M&IE Rate Breakdown website\n\nOPM, Fact Sheet, Evacuation Payments website\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018\n\nUSDA, DR 2340-001, Payment of MEDEVAC and Medical Expenses of Employees on Overseas\nTemporary Duty Assignment, October 1, 2020\n\nUSDA, National Finance Center website\n\n\n\n\n                                               C-1\n\f                                         APPENDIX D\n\n                                    EXAMPLE SCENARIO\n\n\n1. Employee is evacuated to the Location 6 safe haven. Travel from the evacuation area begins\n   on 2/15/2021 and ends on 2/16/2021. Transportation expenses of three hundred dollars\n   ($300) were incurred (mileage of personally owned vehicle). Subsistence at the designated\n   safe haven begins 2/17/2021.\n\n2. On the evening of 2/15/2021, the employee and dependents (spouse and three children ages\n   11, 12, and 16) stay at a relative or friend’s house (cost $0); 2/16/2021 was spent at a motel\n   (two rooms for a total of $125). The employee receives a Prepaid card worth three thousand\n   dollars ($3,000) as an advance for the family’s subsistence expenses.\n\n3. The employee or family stay at the agency designated a safe haven location for 81 days. The\n   family rents an apartment for two thousand dollars ($2,000) per month. During that period,\n   some family members leave according to the schedule below:\n\n   a.   Days 7 – 12: Employee performs official travel to Washington, DC.\n\n   b.   Days 31 – 52: The three children visit grandparents in Portland, Oregon, (outside the\n        designated safe haven area).\n\n   c.   Days 31 – 40: Employee and spouse travel back to permanent duty station to survey the\n        damage to their personal property.\n\n4. During the evacuation and while at the designated safe haven location, the following meals\n   are provided at no cost to the employee and dependents:\n\n   a.   Evacuation day #1 (2/15/2021); Red Cross provided breakfast and lunch.\n\n   b.   Day #2 at the designated safe haven location (2/18/2021); the employer provides dinner\n        for all employees and their dependents.\n\n   c.   Day #5 at designated safe haven (2/21/2021); the employer provides lunch at the\n        alternate worksite. Employee had lunch, but dependents were not provided lunch.\n\n   The employee would be reimbursed the following:\n\n\n\n\n                                                 D-1\n\f                                      TABLE 5\n             Evacuation Subsistence Example for three adults and one child\n\nDays for          Number of     Lodging   Meal      Less Provided            Totals\nAllowance         Days          Allowance Allowance Meals\nDay 1             1             $-        $178.50   $(77.00)                 $101.50\nDay 2             1             $125.00   $178.50   $-                       $303.50\nDays 3-8          6             $-        $1,071.00 $(91.00)                 $980.00\nDays 9-14         6             $-        $1,071.00 $-                       $1,071.00\nDays 15-32        17            $-        $3,070.20 $-                       $3,070.20\nDays 33-42        10            $-        $-        $-                       $-\nDays 43-54        12            $-        $336.60   $-                       $336.60\nDays 55-83        29            $         $3,105.90 $-                       $3,105.90\n\n\n\n\n                                           D-2\n\f              FIGURE 1\nExample of Completed Optional Form 1164\n\n\n\n\n                   D-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "c53d17eb-577e-5132-96f0-419cfa255777",
+          "title": "USDA Directives — DR2300-004",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2300-004",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

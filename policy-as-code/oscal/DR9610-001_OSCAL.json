@@ -1,0 +1,274 @@
+{
+  "catalog": {
+    "uuid": "d1248200-d6d0-5f07-a7f7-006a8ae71ce0",
+    "metadata": {
+      "title": "USDA DR9610-001: Security, Suitability, and Incident Response for High and Maximum Containment Facilities Policy",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2022-07-28",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR9610-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2022-07-28"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-9610-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Agricultural Research Service, July 28, 2027",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-9610-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Agricultural Research Service, July 28, 2027"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "51d86c7f-5b34-590b-b200-fadbc2a5b72b",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr9610-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr9610-001-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes United States Department of Agriculture\n          (USDA) policy to secure pathogens held at USDA high and maximum containment\n          facilities and facilities holding regulated biological select agents and toxins (BSAT).\n          The details of implementation of this policy are in USDA, Departmental Manual, (DM)\n          9610-001, Security, Suitability, and Incident Response for High and Maximum\n          Containment Facilities Procedures.\n\n     b.   Security of pathogens held at non-high and maximum containment facilities is covered\n          in another technical facility security manual USDA, DM 9610-002, Security Policies\n          and Procedures for Laboratories and Technical Facilities (Excluding Biosafety Level\n          (BSL)-3 Facilities).\n\n     c.   In the near future DM 9610-002 will be updated to be consistent with this directive.\n\f  d.   This directive aligns with other USDA safety, physical security, incident response, and\n       information security policies, and meets the requirements of the following policy\n       documents:\n\n       (1) 9 Code of Federal Regulations (CFR) § 121, Possession, Use, and Transfer of\n           Select Agents and Toxins;\n\n       (2) 7 CFR § 331, Possession, Use, and Transfer of Select Agents and Toxins;\n\n       (3) 42 CFR § 73, Select Agents and Toxins;\n\n       (4) Department of Homeland Security (DHS), Cybersecurity & Infrastructure Security\n           Agency (CISA), Interagency Security Committee (ISC) Standard, The Risk\n           Management Process for Federal Facilities, 2nd Edition; and\n\n       (5) Public Law (P.L.) 107-56, Uniting and Strengthening America by Providing\n           Appropriate Tools Required to Intercept and Obstruct Terrorism (USA PATRIOT\n           Act)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "39a9adab-588b-585b-b46f-c709d8306d7a",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr9610-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr9610-001-2-stmt",
+                "name": "statement",
+                "prose": "This directive is effective upon publication and remains in effect until it is superseded or\n  expires."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af112777-b250-5aae-9102-5238c8a058a2",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr9610-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr9610-001-3-stmt",
+                "name": "statement",
+                "prose": "a.   This policy applies to all high containment laboratories, employees, and contractors\n       working for or on behalf of USDA.\n\n  b.   This DR contains a uniform set of USDA policies which are intended to cover USDA\n       laboratories that work with or have the capacity to work with pathogens requiring high\n       containment (i.e., High Consequence Biological Agents (HCBA)) and BSAT. Each\n       high and maximum containment facility will create or modify an existing plan for\n       physical security that is distinct from their own biorisk management or incident response\n       plans. The plans must adhere to the Centers for Disease, Control, and Prevention\n       (CDC), Security Plan Guidance, 42 CFR § 73.11, 7 CFR § 331.11, and 9 CFR § 121.\n       11.\n\n  c.   The USDA conducts research and regulatory activities, including detection and\n       diagnosis, to protect American agriculture, forestry, and human health from pests and\n       pathogens. USDA scientists utilize pathogens in their research and diagnostic activities\n       that could constitute a threat to either human, animal, and plant health, or productivity of\n       the agriculture system if purposely or inadvertently released into the environment.\n\n\n\n\n                                                2\n\f  d.   The policies in this DR are subject to periodic review as directed by USDA policy, or\n       more frequently if conditions warrant earlier review."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "db91db4b-84e6-5bb9-b5b4-5ced8c01b542",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr9610-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr9610-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   This policy will define USDA requirements to secure BSAT or other critical HCBA.\n\n  b.   The USDA agencies and staff offices, centers, and laboratories foster a culture of safety.\n       All USDA employees and contractors at biocontainment facilities are ultimately\n       responsible for safety and security. The USDA employs biorisk management, safety,\n       and security professionals as technical resources who are responsible for managing and\n       directing the safety and security program(s) of USDA biocontainment laboratories.\n       Supervisors and managers at all levels within USDA are responsible for implementing\n       operational safety and security programs, with direct oversight assigned to researchers\n       and diagnosticians."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "85037173-6ee8-5dd6-a755-ae0d25d23960",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr9610-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr9610-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   Ensure appropriate levels of protection against unauthorized access, theft, diversion, loss\n       of custody of biologically hazardous agents, or BSAT through the use of graded\n       protection and in accordance with the potential consequences of release and based on a\n       site-specific physical security risk assessment. Security program elements must include:\n\n       (1) Materials inventory and accountability;\n\n       (2) Physical security;\n\n       (3) Cybersecurity;\n\n       (4) Personnel suitability and insider threat awareness;\n\n       (5) Incident response;\n\n       (6) Training and appropriate follow-up activities; and\n\n       (7) Likelihood and consequences of release.\n\n  b.   Ensure alignment of those entities that possess, use, or transfer BSAT with applicable\n       regulations (7 CFR Part 331 (Plant); 9 CFR Part 121 (Animal); and 42 CFR Part 73\n       (Human)), and best practices in biological safety, industrial hygiene, physical security,\n       and biorisk management.\n\n\n\n\n                                               3\n\f  c.   Ensure specialized equipment compliance with Section 508 accessibility requirements\n       by forwarding all purchases to the USDA Office of the Chief Information Officer\n       (OCIO). See DR 4030-001, Section 508 Program."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "987ba6ba-932b-53f2-a66e-c7326a040039",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr9610-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr9610-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Secretary, or their designated responsible staff will:\n\n       (1) Develop, publish, and actively maintain policies, regulations, and compliance\n           requirements for safety, biorisk management, biosecurity, physical security,\n           incident response, personnel suitability, or information security, including actively\n           providing channels for agency and staff office input into and approval of the same;\n           and\n\n       (2) Provide management and oversight activities as required to ensure effective safety,\n           biorisk management, physical security, incident response, personnel suitability, and\n           information security program implementation:\n\n           (a) Reviewing and monitoring compliance to established policy requirements and\n               standards with minimal disruption to business functions or mission\n               requirements; and\n\n           (b) Reporting compliance and deviations per Office of Management and Budget\n               (OMB) requirements.\n\n  b.   Agency and staff officials will:\n\n       (1) Develop and implement internal procedures and controls in support of the\n           requirements and standards of this policy;\n\n       (2) Establish effective communication between internal stakeholders and an identified\n           Point of Contact (POC) in the Department, agencies, and staff offices;\n\n       (3) Incorporate the policies, requirements, and standards into agency and staff office\n           capital planning and investment control processes;\n\n       (4) Provide resources for appropriate training programs, including developing tools\n           (e.g., training modules) for use by location staff to institute the mandated training\n           programs; and\n\n       (5) Direct random reviews of materials accountability records.\n\n  c.   Center Directors, Laboratory Chiefs or Directors, and Research Leaders, or their\n       delegated responsible staff (as appropriate) will:\n\n\n\n\n                                                4\n\f     (1) Individually or collectively ensure effective safety, biorisk management, security,\n         and incident response implementation at their facility or location, including access\n         control;\n\n     (2) Provide resources for implementation of a robust safety and security program,\n         including, but not limited to, training on, and monitoring of, safety and security\n         policies and programs;\n\n     (3) Determine and document the level of competency of trained individuals on a\n         regular basis and institute additional training as needed;\n\n     (4) Maintain a current, centralized master database for materials accountability;\n\n     (5) Ensure applicable Departmental, agency, staff office, and required regulatory\n         reporting requirements are completed in a timely fashion;\n\n     (6) Assume or delegate the role of Incident Commander when necessary, consistent\n         with Homeland Security Presidential Directive (HSPD)-5, Management of\n         Domestic Incidents, and HSPD-8, National Preparedness; and\n\n     (7) Conduct drills or exercises on a regular basis to test and evaluate the effectiveness\n         of the security plan. Organizations shall document the results of the exercise, to\n         include procedures confirmed or problems identified. Refer to the CDC, Drills and\n         Exercises Guidance, 7 CFR § 331.11, 9 CFR § 121.11, 42 CFR § 73.11 (Security),\n         7 CFR § 331.12, 9 CFR § 121.12, 42 CFR § 73.12 (Biosafety), 7 CFR § 331.14, 9\n         CFR § 121.142, 42 CRF § 73.14 (Incident Response).\n\nd.   Principal Investigators, Lead Scientists, or their delegated responsible staff as\n     appropriate will:\n\n     (1) Individually and collectively ensure effective safety, biorisk management,\n         personnel suitability, physical security, incident response, and information security\n         implementation at their facility or location;\n\n     (2) Maintain inventory and materials accountability records; and\n\n     (3) Ensure applicable Departmental, agency, staff office, and other required regulatory\n         reporting requirements are completed in a timely fashion.\n\ne.   All location staff with programmatic duties for safety or security such as Location\n     Biorisk Managers, Quarantine Officers, Collateral Duty Safety Officers, Personnel\n     Suitability (Human Resources) Specialists, Physical Security Specialists, Information\n     Management Directors, and System Administrators will:\n\n\n\n\n                                              5\n\f       (1) Individually or collectively ensure effective safety, biorisk management, personnel\n           suitability, physical security, incident response, and information security\n           implementation at their facility or location;\n\n       (2) Work with local line managers to ensure laboratories are adhering to Departmental,\n           agency, staff office, and site policy on safety, biorisk management, personnel\n           suitability, physical security, incident response, and information security programs;\n           and\n\n       (3) Serve as a resource for safety, biorisk management, personnel suitability, physical\n           security, incident response, and information security program implementation,\n           quality control, inspections, and training.\n\n  f.   All USDA staff and contractors will:\n\n       (1) Actively participate as appropriate to ensure effective safety, biorisk management,\n           personnel suitability, physical security, incident response, and information security\n           implementation at their facility or location; and\n\n       (2) Work with local line managers as appropriate to support their location’s adherence\n           to Departmental, agency, staff office, and site policy on safety, biorisk\n           management, biosecurity, personnel suitability, physical security, incident response,\n           and information security programs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cf21e8b6-84e4-5370-822c-04c9ab8cef05",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr9610-001-7",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr9610-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA agencies and staff offices must conform to this policy; however, in the event\n       that a specific policy requirement cannot be met as explicitly stated, agencies and staff\n       offices must submit a waiver request. The waiver request must explain the reason for\n       the request, identify mitigating controls or actions that meet the intent of the policy, and\n       identify how the mitigating controls or actions provide a similar or greater level of safety\n       and security or compliance than the policy requirement.\n\n  b.   Requests for waivers will be considered on a case-by-case basis, and in the majority of\n       cases, can be resolved between the field and staff levels. Agencies and staff offices\n       should address all policy waiver request memorandums to their individual safety, biorisk\n       management, physical security, incident response, personnel security, or cybersecurity\n       POCs as appropriate.\n\n  c.   Unless otherwise specified, agencies and staff offices must review and renew approved\n       policy waivers every fiscal year. Approved waivers must be tracked as a plan of action\n       and milestones item if the mitigation proposed was working toward policy compliance\n       over time. When completed and instituted, approved waivers for specialized equipment\n       and facilities requirements or enhancements with a continuing need will simply be\n       tracked on an approved list.\n\n\n\n                                                6\n\f  d.   The appropriate agency or staff office-level office must monitor and approve waivers to\n       this policy internally. Consultation with additional Departmental resources or subject\n       matter experts on changing conditions as waivers are monitored will be pursued on a\n       case-by-case basis.\n\n  e.   The written waiver request (request for exception) must be in the form of a decision\n       memorandum and must include:\n\n       (1) Being addressed to the appropriate agency or staff office resource (e.g., Associate\n           Administrator of National Programs, Associate Administrator of Research\n           Operations, etc.) through the lead security professional (Director level);\n\n       (2) Name of submitting agency or staff office;\n\n       (3) Name, contact information, signature of submitting person; and\n\n       (4) Description of the policy exception requested:\n\n           (a) Justification to show good cause for the exception. The request should\n               document the justifications for the exception; and\n\n           (b) The impact of granting versus not granting the request."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2996328a-d3b9-511e-b831-45f7e4052ecd",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr9610-001-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr9610-001-8-stmt",
+                "name": "statement",
+                "prose": "Address inquiries concerning this DR to the Agriculture Research Service (ARS) Homeland\n  Security Division (HSD), via email at, ARSHomelandSecurityDivision@usda.gov mailbox.\n\n\n                                            -END-\n\n\n\n\n                                              7\n\f                                APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nAPHIS      Animal and Plant Health Inspection Service\nARS        Agriculture Research Services\nBMBL       Biosafety in Microbiological and Bio Medical Laboratories\nBSAT       Biological Select Agents and Toxins\nBSL        Biosafety Level\nCCL        Commerce Control List\nCDC        Centers for Disease, Control, and Prevention\nCFR        Code of Federal Regulations\nCISA       Cybersecurity and Infrastructure Security Agency\nDHS        Department of Homeland Security\nDM         Departmental Manual\nDR         Departmental Regulation\nEO         Executive Order\nFIPS PUB   Federal Information Processing Standards Publication\nFSAP       Federal Select Agent Program\nHCBA       High Consequence Biological Agents\nHHS        Health and Human Services\nHMR        Hazardous Materials Regulations\nHSD        Homeland Security Division\nHSPD       Homeland Security Presidential Directive\nIATA       International Air Transport Association\nICAO       International Civil Aviation Organization\nISC        Interagency Security Committee\nIT         Information Technology\nNARA       National Archives and Records Administration\nNIH        National Institutes of Health\nNIST       National Institutes of Standards and Technology\nOCIO       Office of the Chief Information Officer\nOHS        Office of Homeland Security\nOHSEC      Office of Homeland Security and Emergency Coordination (renamed OHS in\n           2018)\nOMB        Office of Management and Budget\nOSHA       Occupational Safety and Health Administration\nPATRIOT    Providing Appropriate Tools Required to Intercept and Obstruct Terrorism\nP.L.       Public Law\nPOC        Point of Contact\nPDD        Presidential Decision Directive\nPPD        Presidential Policy Directive\nPPQ        Plant Protection and Quarantine\nSP         Special Publication\nU.S.C.     United States Code\n\n\n\n                                     A-1\n\fUSDA    United States Department of Agriculture\nUSPHS   United States Public Health Service\nWHO     World Health Organization\n\n\n\n\n                                  A-2\n\f                                        APPENDIX B\n\n                            AUTHORITIES AND REFERENCES\n\n\n5 CFR § 731, Suitability\n\n5 CFR § 732, National Security Positions\n\n7 CFR § 2, Delegations of Authority by the Secretary of Agriculture and General Officers of the\nDepartment\n\n7 CFR § 2.95, Director, Office of Homeland Security\n\n7 CFR § 330.200, Subpart B – Movement of Plant Pests, Biological Control Organisms, and\nAssociated Articles\n\n7 CFR § 331, Possession, Use, and Transfer of Select Agents and Toxins\n\n9 CFR § 121, Possession, Use, and Transfer of Select Agents and Toxins\n\n9 CFR § 122, Organisms and Vectors\n\n15 CFR § 742, Control Policy, Commerce Control List (CCL), Based Control\n\n29 CFR § 1910.1030, Occupational Safety and Health Administration (OSHA), Bloodborne\nPathogens\n\n32 CFR § 147, Adjudicative Guidelines for Determining Eligibility for Access to Classified\nInformation\n\n39 CFR § 111, General Information on Postal Service\n\n41 CFR § 101, Subtitle C – Federal Property Management Regulations System\n\n42 CFR § 70, U.S. Public Health Service (USPHS), Interstate Quarantine\n\n42 CFR § 71, Foreign Quarantine\n\n42 CFR § 71.54, Import Regulations for Infectious Biological Agents, Infectious Substances, and\nVectors\n\n42 CFR § 73, Select Agents and Toxins\n\n49 CFR §§ 171-177, Subchapter - Hazardous Materials Regulations (HMR)\n\n\n\n\n                                              B-1\n\f49 CFR § 173.134, Class 6, Division 6.2, Definitions, Exemptions\n\n44 United States Code (U.S.C.), Chapter 35, Section 3551, et seq., Page 161, Subchapter II,\nInformation Security\n\nCDC, Drills and Exercises Guidance, 7 CFR § 331.11, 9 CFR § 121.11, 42 CFR § 73.11\n(Security), 7 CFR § 331.12, 9 CFR § 121.12, 42 CFR § 73.12 (Biosafety), 7 CFR § 331.14, 9\nCFR § 121.142, 42 CRF § 73.14 (Incident Response), August 2017\n\nCDC, Guidance on the Inventory of Select Agents and Toxins, 7 CFR Part 331, 9 CFR Part 121,\n42 CFR Part 73, December 2020\n\nCDC, Security Plan Guidance, 42 CFR § 73.11, 7 CFR § 331.11, and 9 CFR § 121. 11, February\n2020\n\nCode of Federal Regulations (Annual Edition)\n\nDHS, Interagency Security Committee (ISC), Best Practices for Armed Security Officers in\nFederal Facilities, 2nd Edition, April, 2013\n\nDHS, ISC, Best Practices for Mail Screening and Handling Processes: A Guide for the Public\nand Private Sectors, 1st Edition, September 27, 2012\n\nDHS, ISC, Items Prohibited from Federal Facilities, February 2013\n\nDHS, ISC, Policies, Standards, Best Practices, Guidance, and White Papers website\n\nDHS, ISC, The Risk Management Process for Federal Facilities: An Interagency Security\nCommittee Standard, 2nd Edition, November 2016\n\nExecutive Order (EO) 12923, Continuation of Export Control Regulations, June 30, 1994;\ncontinuation of the principles of the expired Export Administration Act of 1979\n\nFederal Select Agent Program (FSAP), 2020 Annual Report of the Federal Select Agent\nProgram, 2020\n\nHealth and Human Services (HHS), Publication No. (CDC) 21-1112, Biosafety in\nMicrobiological and Biomedical Laboratories (BMBL), 6th Edition, Revised June 2020\n\nHomeland Security Presidential Directive (HSPD)-5, Management of Domestic Incidents,\nFebruary 28, 2003\n\nHSPD-8, National Preparedness, December 17, 2003\n\nHSPD-12, Policy for a Common Identification Standard for Federal Employees and\nContractors, August 27, 2004\n\n\n\n                                               B-2\n\fInternational Air Transport Association (IATA), Dangerous Goods Regulations, 40th Edition,\n1999\n\nInternational Civil Aviation Organization (ICAO), Technical Instructions for the Safe Transport\nof Dangerous Goods by Air, 2017-2018 Edition\n\nNational Archives and Records Administration (NARA), Office of Chief Records Officer,\nGeneral Records Schedule 5.6: Security Records, Section 090, Records of routine security\noperations, April 2020\n\nNational Institutes of Health (NIH), NIH Guidelines for Research Involving Recombinant or\nSynthetic Nucleic Acid Molecules, March 2022\n\nNational Institute of Standard and Technology (NIST), Federal Information Processing\nStandards Publication (FIPS PUB) 140-3, Security Requirements for Cryptographic Modules,\nMarch 22, 2019\n\nNIST, FIPS PUB 199, Standard for Security Categorization of Federal Information and\nInformation Systems, February 2004\n\nNIST, FIPS PUB 200, Minimum Security Requirements for Federal Information and Information\nSystems, March 2006\n\nNIST, Computer Security Resource Center, Glossary, retrieved on March 22, 2022\n\nNIST, Special Publication (SP) 800-37, Revision 2, Risk Management Framework for\nInformation Systems and Organizations, December 2018\n\nNIST SP 800-53, Revision 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020, including updates as of December 10, 2020\n\nNIST, SP 800-60, Volume 1, Revision 1, Guide for Mapping Types of Information and\nInformation Systems to Security Categories, August 2008\n\nNIST, SP 800-70, Revision 4, National Checklist Program for IT Products – Guidelines for\nChecklist Users and Developers, February 2018\n\nNational Security Act of 1947, dated July 26, 1947, as amended\n\nOffice of the Director of National Intelligence, Security Executive Agent Directive 6,\nContinuous Evaluation, January 12, 2018\n\nOffice of Management and Budget (OMB), Circular A130, Appendix III, Security of Federal\nAutomated Information Resources website\n\n\n\n\n                                               B-3\n\fPresidential Decision Directive (PDD)-12, Security Awareness and Reporting of Foreign\nContacts, August 5, 1993 website\n\nPresidential Policy Directive (PPD)-21, Critical Infrastructure Security and Resilience, February\n12, 2013\n\nPublic Law (P.L.) 107-56, Uniting and Strengthening America by Providing Appropriate Tools\nRequired to Intercept and Obstruct Terrorism (USA PATRIOT Act) Act of 2001, October 26,\n2001\n\nP.L. 107-188, Public Health Security and Bioterrorism Preparedness and Response Act of 2002,\nJune 12, 2002\n\nOffice of the Director of National Intelligence, Security Executive Agent Directive 6,\nContinuous Evaluation, January 12, 2018\n\nUSDA, National Import Export Services, APHIS Veterinary Services, National Import Export\nServices (formerly the National Center for Imports and Exports), Animal Products Permitting\nand Negotiation Services (formerly the Products Program) website\n\nUSDA, Animal and Plant Health Inspection Service (APHIS), Plant Protection and Quarantine\n(PPQ) Program, Plant Health (PPQ) website\n\nUSDA, DM 3510-000, Information Technology (IT) Restricted Space, August 19, 2004\n\nUSDA, DM 3510-001, Chapter 2, Part 1, Physical Security Standards for Information\nTechnology (IT) Restricted Space, August 19, 2004\n\nUSDA, DM 4620-002, Common Identification Standard for U.S. Department of Agriculture,\nDecember 9, 2021\n\nUSDA, DM 9610-001, Security, Suitability, and Incident Response for High and Maximum\nContainment Facilities Procedures, forthcoming\n\nUSDA, DM 9610-002, Security Policies and Procedures for Laboratories and Technical\nFacilities (Excluding Biosafety Level (BSL)-3 Facilities), April 30, 2003\n\nUSDA, DR 1650-002, Building Safety/Security Occupant Emergency Program, October 7,1992\n\nUSDA, DR 1800-001, Incident Preparedness, Response, and Recovery, February 9, 2022\n\nUSDA, DR 3300-001, Telecommunications & Internet Services and Use, March 18, 2016\n\nUSDA, DR 3440-002, Control and Protection of “Sensitive Security Information,” January 30,\n2003\n\n\n\n\n                                               B-4\n\fUSDA, DR 3441-001, Sensitive Compartmented Information Security Program, January 18,\n2012\n\nUSDA, DR 3500-3599, Cybersecurity\n\nUSDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019\n\nUSDA, DR 3505-005, Cybersecurity Incident Management Procedures, November 30, 2018\n\nUSDA, DR 3520-002, Configuration Management, July 17, 2019\n\nUSDA, DR 3540-003, Security Assessment and Authorization, August 12, 2014\n\nUSDA, DR 3545-001, Information Security Awareness and Training Policy, October 22, 2013\n\nUSDA, DR 3565-003, Plan of Action and Milestone Policy, September 25, 2013\n\nUSDA, DR 4000-4999, Human Resources Management\n\nUSDA, DR 4030-001, Section 508 Program, September 8, 2014\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, DR 4400-007, Biorisk Management Policy, September 3, 2020\n\nUSDA, DR 4600-003, Defensive Counterintelligence and Insider Threat Programs, July 12,\n2021\n\nUSDA, DR 4600-004, Foreign Visits and Assignments Vetting, May 27, 2021\n\nUSDA, DR 4610-001, Security Screening Unit Procedures, December 9, 2021\n\nUSDA, DR 4620-002, Common Identification Standard for U.S. Department of Agriculture, June\n24, 2021\n\nUSDA, DR 9630-001, Policies and Procedures on Biohazardous Waste Decontamination,\nManagement, and Quality Controls at Laboratories and Technical Facilities, June 18, 2009\n\nUSDA, Director, Office of Homeland Security and Emergency Coordination (OHSEC),\nMemorandum from Mr. Todd H. Repass, Jr., Prioritization/Protection of USDA Facilities,\nJanuary 23, 2012\n\nUSDA, OHSEC Personnel and Document Security Division website\n\nUS Department of Commerce, Bureau of Industry and Security, Commerce Control List\n\n\n\n\n                                            B-5\n\fWorld Health Organization (WHO), Guidelines for the Safe Transport of Infectious Substances,\n2021-2022\n\nWHO, Laboratory Biosafety Manual, 4th Edition, December 21, 2020\n\n\n\n\n                                            B-6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "da6c6962-a39b-5b66-9ebd-77f697bbb1ee",
+          "title": "USDA Directives — DR9610-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-9610-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

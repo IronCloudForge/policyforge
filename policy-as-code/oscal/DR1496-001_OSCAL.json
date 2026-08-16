@@ -1,0 +1,240 @@
+{
+  "catalog": {
+    "uuid": "b4d4ad52-28a7-572c-8f19-f378f805fd3f",
+    "metadata": {
+      "title": "USDA DR1496-001: Digital Strategy Governance",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2012-11-21",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1496-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2012-11-21"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1496-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Communications",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1496-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Communications"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "39e5dfda-358d-57d0-b371-5de766a19e26",
+        "class": "section",
+        "title": "Special Instructions/Cancellation",
+        "controls": [
+          {
+            "id": "dr1496-001-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellation",
+            "parts": [
+              {
+                "id": "dr1496-001-3-stmt",
+                "name": "statement",
+                "prose": "This policy will complement the following USDA regulations:\n\n         a.   DR 1440-002, Communications Coordination and Review Policy\n         b.   DR 1490-002, Creative Media and Broadcast Policy\n         c.   DR 1495-001, New Media Roles, Responsibilities and Authorities\n         d.   DR 3140-002, USDA Internet Security Policy\n         e.   DR 3150-001, Internet Domain Name Policy\n         f.   DR 3410-001, Information Collection Activities – Collection of\n              Information From the Public\n         g.   DR 3430-001, Web Site Development and Maintenance\n         h.   DR 3515-001, Use of Web Measurement and Customization Technologies\n         i.   DR 3600-000, USDA Information and Technology Transformation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "375a6c17-220d-518a-bbad-1376f896370d",
+        "class": "section",
+        "title": "Authorities And References",
+        "controls": [
+          {
+            "id": "dr1496-001-4",
+            "class": "policy-requirement",
+            "title": "Authorities And References",
+            "parts": [
+              {
+                "id": "dr1496-001-4-stmt",
+                "name": "statement",
+                "prose": "a. OMB “Digital Government: Building a 21st Century Platform to Better\n             Serve the American People.” May 23, 2012.\n          b. OMB Memorandum M-10-06 “Open Government Directive.” December\n             8, 2009.\n          c. 7 CFR Part 2 “Revision of Delegations of Authority.” Federal Register\n             Vol. 76, No. 208, October 27, 2011."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "112f81c2-22db-55a8-a1d7-e5474711d4af",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr1496-001-5",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr1496-001-5-stmt",
+                "name": "statement",
+                "prose": "a. Customer – For purposes of this document, customers may be internal to\n              USDA, or external (e.g., individual citizens, academia, state, local and\n              tribal governments, grant or loan recipients, media).\n\n           b. Digital Information – Information that the government provides digitally.\n              Information, as defined by OMB Circular A-130, is any communication or\n              representation of knowledge such as facts, data, or opinions in any\n              medium or form, including textual, numerical, graphic, cartographic,\n              narrative, or audiovisual forms.\n\n           c. Digital Services - The delivery of digital information (e.g., data or\n              content), and transactional services (e.g., online forms, applications)\n              across a variety of platforms, devices and delivery mechanisms (e.g.,\n              websites, mobile applications, and social media).\n\n           d. High-Value – Information or services are considered “high-value” as they\n              can be used to increase agency accountability and responsiveness, improve\n              public knowledge USDA and its operations, further our core mission,\n              create or stimulate economic opportunity, or respond to needs and demand\n              as identified through customer interaction.\n\n                                          2\n\fDR 1496-001                                                                  November 21, 2012\n\n\n\n\n              e. Open Data or Content – Digital information that is structured and made\n                 available in a way that makes it accessible for meaningful use beyond its\n                 system of origin, be that internal to the Department or external to the\n                 public. This term expands upon the definition of “openness” in OMB\n                 Memorandum M-10-06 Open Government Directive, which specifically\n                 concerns the release of information to the public: “Agencies shall respect\n                 the presumption of openness by publishing information online…To the\n                 extent practicable and subject to valid restrictions, agencies should publish\n                 information online in an open format that can be retrieved, downloaded,\n                 indexed and searched by commonly used web search applications. An\n                 open format is one that is platform independent, machine readable, and\n                 made available to the public without restrictions that would impede the re-\n                 use of that information.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b7e468cd-ca6d-524f-bd08-9af61043c19a",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr1496-001-6",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr1496-001-6-stmt",
+                "name": "statement",
+                "prose": "This policy applies to all USDA digital communication activities including\n         websites (USDA.gov, agency, and other partner websites) and social media. It is\n         applicable to all digital communications content, whether accessed by desktops,\n         mobile devices, or other methods, including web content, data, and apps.\n\n         This policy applies to USDA employees, contractors, grantees, institutions, and\n         partners who are responsible for creating and managing digital content, tools,\n         and processes on behalf of the Department."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b44f4525-9a0d-5082-b993-3db70b2357cf",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1496-001-7",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1496-001-7-stmt",
+                "name": "statement",
+                "prose": "USDA will establish a collaborative, customer-focused, and data-driven digital\n         services delivery framework to:\n\n         a.      Enable USDA customers and employees to access high-quality digital\n                 content, information, and services more efficiently and effectively\n                 anywhere, anytime, on any device;\n         b.      Establish more agile acquisition and budget processes that support the\n                 procurement and management of digital technologies in a manner that: is\n                 affordable; reduces time to delivery; considers the use of shared,\n                 government-wide acquisition vehicles; and, complies with Federal\n                 guidelines for information, data and content management including\n                 adequate security and privacy controls;\n         c.      Identify, unify, and make more efficient current fragmented digital\n                 services policies and practices; and ensure that continuous improvement is\n                 part of future digital policy development;\n         d.      Ensure that digital service development, design and delivery meets the\n                 widest possible scope of national, regional, and local customer\n                 requirements, including USDA employees;\n\n                                               3\n\fDR 1496-001                                                               November 21, 2012\n\n\n         e.   Establish a collaborative, repeatable oversight process that incorporates\n              measures against performance goals for customer satisfaction, alignment\n              with Federal guidelines, incorporation into the USDA Enterprise\n              Architecture, cost savings, and time to delivery; and,\n         f.   Ensure that high-value data is open, accurate, clearly described, structured,\n              machine-readable, and incorporates adequate security and privacy controls\n              by default."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ccb89155-16fc-5e9e-8881-927f096a3495",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr1496-001-8",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr1496-001-8-stmt",
+                "name": "statement",
+                "prose": "This policy is further delineated in a procedural manual published as a\n         companion document within the Regulation series."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3dfb8a54-7562-55db-bf96-b996d7fd3b5f",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr1496-001-9",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr1496-001-9-stmt",
+                "name": "statement",
+                "prose": "This policy assigns the responsibilities for effectively governing USDA digital\n         communication investments and activities as follows:\n\n         a.   USDA Director of OC will:\n\n\n              (1)   Serve as the primary business lead for strategic digital services;\n              (2)   Coordinate the execution of strategies that meet the needs and\n                    preferences of internal and external customers;\n              (3)   Coordinate content management across agencies;\n              (4)   Represent the voice of the customer;\n              (5)   Fully participate in digital strategy development;\n              (6)   Serve as the coordinator between and among the Agency and Office\n                    webmasters and public affairs directors; and,\n              (7)   Review and approve all investments supporting digital\n                    communication services and activities, in coordination with the\n                    USDA CIO.\n\n         b.   USDA CIO will:\n\n\n              (1)   Serve as the technical lead for digital service platform and\n                    infrastructure development, provisioning and management for\n                    innovative digital services;\n              (2)   Coordinate with OC to gather requirements for technical service\n                    delivery;\n\n                                            4\n\fDR 1496-001                                                                  November 21, 2012\n\n\n              (3)   Lead digital services portfolio development and management;\n              (4)   Coordinate across agencies and offices to develop and maintain data\n                    structure management process;\n              (5)   Fully participate in the digital strategy development;\n              (6)   Provide a secure and rapidly scalable infrastructure to support\n                    mobility;\n              (7)   Serve as the coordinator with Agency and Office Chief Information\n                    Officers; and\n              (8)   Review and approve all USDA digital strategy investments pursuant\n                    to the requirements of the Clinger-Cohen Act (CCA) and other\n                    applicable laws and regulations.\n\n         c.   USDA Agencies and Staff Offices will:\n\n\n              (1)   Participate fully in the USDA Digital Strategy effort and serve as the\n                    business leads to provide requirements for the development and\n                    implementation of digital services and investments;\n              (2)   Identify opportunities for innovation and requirements for digital\n                    services and investments;\n              (3)   Implement this policy within their respective organizations by\n                    developing and coordinating an integrated operational digital service\n                    framework; and\n              (4)   Establish partnerships with USDA functional counterparts, including\n                    Web, information technology, portfolio management and public\n                    affairs.\n\n\n                                         -END-\n\n\n\n\n                                            5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "fe5a7912-34c7-5844-844d-13b0af5a5df2",
+          "title": "USDA Directives — DR1496-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1496-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

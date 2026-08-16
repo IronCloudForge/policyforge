@@ -1,0 +1,121 @@
+{
+  "catalog": {
+    "uuid": "beb40676-7c0a-5eab-8a74-ca4df563b54d",
+    "metadata": {
+      "title": "USDA DR5200-001: Personal Property Management Property Passes",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2084-04-09",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR5200-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2084-04-09"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-5200-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-5200-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "7f0bddea-21b9-5dfc-b9fb-cf55c1e977e4",
+        "class": "section",
+        "title": "Log Book Pages",
+        "controls": [
+          {
+            "id": "dr5200-001-3",
+            "class": "policy-requirement",
+            "title": "Log Book Pages",
+            "parts": [
+              {
+                "id": "dr5200-001-3-stmt",
+                "name": "statement",
+                "prose": "Use only the front side of each lined page in the log book.\nNumber the pages in sequence at the top right hand corner. Do not\nuse or number the back side of the pages.\n\nDivide the pages into five (5) columns headed as follows:\n\nProperty Date Name of Property\nPass No. Issued Pass Holder Property Description Owner.\n\nSee figure B-2 for sample format.\n\n4 ENTRIES IN LOG BOOK\n\na Property Pass Numbers. Each time a property pass is issued, a\nnumber must be assigned to the pass and recorded in the log.\nThis number includes sequential digits assigned by each agency\nfollowed by the calendar year in which the pass was issued\n(e.g. 001-83 then 002-83 and so on).\n\nb Other Entries. Information for all other entries made to the\ncolumns of the log book should be obtained from the\nappropriate sections of the property pass.\n\n5 DISPOSITION OF LOG BOOK WHEN FULL\n\nWhen a log book is full, the log book shall be retained until all\nthe Government property out on property pass issuance is returned\nor otherwise accounted for. Then the issuing authority shall\nrequest that the completed property log be reviewed and audited by\nthe designated property officer. Each completed property log book\nmust have a signed and dated audit notation by the designated\nproperty officer.\n\nIf the auditing property officer finds the log book in proper\norder and all Government property accounted for, the property\nofficer shall note his/her findings on the blank back of the log\nbook cover, sign and date the log book's close out audit, and then\nenter the close out date behind the words END on the front cover.\nOnly the designated agency property officer has the authority to\ntake a property book out of service and mark the END date.\n\nWhile the issuing authority is waiting the return of government\nproperty in a full property book, he/she may start the second\nproperty log book to record new issuances but shall retain the\nprior log book until all government property issued on the old log\nbook is returned or accounted for.\n\nB-2\n\n \n\n \n\fApril 9, 1984\n\nFIGURE B-1\nSAMPLE FORMAT FOR COVER OF LOG BOOK\n\nos\nBee\n\nvee eRON\nSPE\n\n \n\nex\n\ni ay Rs\nTALEO:\n: a\nSAA RN\n\nDR 5200- 1\nAppendix B\n\n \n\n \n\f \n\n9, 1984\n\n \n\nDR 5200-1\nAppendix B\nFIGURE B-2\nSAMPLE FORMAT FOR LOG BOOK PAGES\nProperty Date Name of Property\nPass No. Issued Pass Holder Property Description Owner\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nB-4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "d7662054-a6d5-5f02-8ba9-ac01c2df2a54",
+          "title": "USDA Directives — DR5200-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-5200-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

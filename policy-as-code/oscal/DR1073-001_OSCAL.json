@@ -1,0 +1,250 @@
+{
+  "catalog": {
+    "uuid": "8c045577-eae2-53c1-a306-ec1d16a6d2bf",
+    "metadata": {
+      "title": "USDA DR1073-001: Combined Federal Campaign",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2023-06-21",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1073-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2023-06-21"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1073-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Assistant Secretary for Administration, June 21, 2028",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1073-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Assistant Secretary for Administration, June 21, 2028"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "0796f396-b589-5c7c-befa-b81b30aa9221",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1073-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1073-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes guidance for implementing a standardized\n     approach to managing the United States Department of Agriculture’s (USDA) Combined\n     Federal Campaign (CFC) to ensure that yearly financial goals are met by the close of the\n     Office of Personnel Management (OPM)-established open solicitation period in an efficient\n     and accountable manner."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7bbc44ea-2798-56a7-a18f-003b12411d2c",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr1073-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr1073-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This revision supersedes DR 1073-001, Combined Federal Campaign, dated June 15,\n          2011.\n\n     b.   This policy is effective immediately and will remain in effect until it is superseded or\n          expires."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "320d2a51-e54f-5b40-a84d-55d35a108306",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr1073-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr1073-001-3-stmt",
+                "name": "statement",
+                "prose": "This directive applies to all USDA Mission Areas, agencies, staff offices, and employees in\n  all locations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b09fea2d-6033-5c02-8475-9751dd66fc2a",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr1073-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr1073-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   CFC and Feds Feed Families (DR 4230-001, Volunteer Programs) are the only officially\n       sanctioned fundraising campaigns in the Federal workplace. OPM defines the CFC\n       open solicitation period. USDA active and retired employees and Federal contractors\n       may make a one-time or recurring donation of money or time to a CFC-recognized\n       charity. Newly hired USDA employees may generally make a pledge or volunteer their\n       time to any CFC-recognized charity within the first 30 days of employment.\n\n  b.   CFC campaign runs every year from September 1st to December 15th, or by the OPM-\n       established open solicitation period.\n\n  c.   The CFC is managed regionally. The CFC National Capital Area (NCA) is designated\n       as CFC Zone 32. See Appendix C, Authorities and References for links to CFC and\n       other CFC Zones."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8ad579fc-06ba-5371-8c35-8ba85a816081",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1073-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1073-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   USDA Mission Areas, agencies, and staff offices may choose to implement an\n       organization-wide campaign, or a CFC-zone based campaign. The Co-Vice Chair,\n       Campaign Manager, and the USDA CFC Office will provide operational and\n       communications support including data and financial reporting consistent with CFC\n       availability.\n\n  b.   The Secretary of Agriculture is USDA’s CFC Campaign Chair and the Deputy Secretary\n       is the Vice Chair. The Chair and Vice Chair provide visible leadership support to the\n       campaign through event participation, participate in Mission Area, agency, and\n       Departmental staff office campaign events, and communicate periodic messages to\n       motivate and thank employees.\n\n  c.   Subcabinet Officials in the designated Mission Areas and the Assistant Secretary for\n       Administration (ASA) serve as Co-Vice Chair on a rotating basis, in the following order:\n\n       (1) Rural Development (RD);\n\n       (2) Farm Production and Conservation (FPAC);\n\n       (3) Natural Resources and Environment (NRE);\n\n\n\n\n                                              2\n\f     (4) Departmental Administration (DA);\n\n     (5) Food Safety;\n\n     (6) Marketing and Regulatory Programs (MRP);\n\n     (7) Food, Nutrition, and Consumer Services (FNCS);\n\n     (8) Research, Education, and Economics (REE);\n\n     (9) Office of the Secretary (OSEC – Staff Offices); and\n\n     (10) Trade and Foreign Agricultural Affairs (TFAA).\n\nd.   The Co-Vice Chair leads all aspects of the USDA CFC office and campaign.\n\ne.   The Co-Vice Chair will:\n\n     (1) Begin planning the CFC no later than June 1 and will kick off the CFC campaign on\n         or about September 1 or designated kick-off date by OPM by sharing an all-\n         employee communication from the Secretary inviting employees to make\n         contributions through their local CFC campaign;\n\n     (2) Sponsor one Departmentwide event in October and November;\n\n     (3) Establish a CFC financial goal and implement necessary steps to meet it by the end\n         of the solicitation period. Once the financial goal is met, the Co-Vice Chair may\n         reduce resources devoted to the campaign; however, CFC processes must be\n         supported until the CFC Campaign officially ends;\n\n     (4) Sponsor one closing and awards ceremony within 2 weeks of the end of the open\n         solicitation period;\n\n     (5) Make available $50,000 to the USDA CFC office to purchase CFC supplies and\n         other event or communications-related materials in compliance with Federal and\n         USDA procurement regulations;\n\n     (6) Use existing legacy systems, standard administrative operating procedures, and\n         clearance protocols in the U.S. Department of Agriculture Combined Federal\n         Campaign (CFC) Handbook (the USDA CFC Handbook); and\n\n     (7) Be encouraged to identify and recommend opportunities for improving or\n         expanding existing legacy systems, standard operating procedures, or other office\n         protocols in the USDA CFC Handbook to ensure an ongoing commitment to\n         managing the CFC in the most efficient long-term manner.\n\n\n\n\n                                            3\n\f  f.   DA will make office space and supplies available to the Co-Vice Chair and Campaign\n       Manager to manage the CFC, as appropriate.\n\n  g.   DA or the Co-Vice Chair will make surplus property available to the USDA CFC office\n       to furnish and equip the office, as needed.\n\n  h.   The designated Mission Area will collaborate with applicable Departmental Offices,\n       such as the Director, Office of Ethics (OE); the Director, Office of Communications\n       (OC); the Chief Information Officer (CIO); and OSEC as needed to implement the\n       USDA CFC campaign.\n\n  i.   All USDA Mission Areas, agencies, and staff offices will:\n\n       (1) Identify, by August 1, one or more CFC Coordinators to plan, lead, and implement\n           respective campaigns and collaborate with the USDA CFC Team; and\n\n       (2) Identify, by August 31, Key Workers to ensure a successful campaign."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "68325172-af1a-5b26-ad50-a5d47874ed6a",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr1073-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr1073-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture will:\n\n       (1) Serve as the CFC Campaign Chair;\n\n       (2) Provide visible leadership support to the campaign through event participation,\n           participating in Mission Area, agency, and Departmental staff office campaign\n           events, and communicating periodic messages to motivate and thank employees;\n           and\n\n       (3) Monitor progress toward the USDA fundraising goal.\n\n  b.   The Deputy Secretary of Agriculture will:\n\n       (1) Serve as the CFC Campaign Vice-Chair;\n\n       (2) Provide visible leadership support to the campaign through event participation,\n           participating in Mission Area, agency, and Departmental staff office campaign\n           events, and communicating periodic messages to motivate and thank employees;\n           and\n\n       (3) Monitor progress toward the USDA fundraising goal.\n\n\n\n\n                                              4\n\fc.   The designated Mission Area Campaign Co-Vice-Chair, per Section 3c, will:\n\n     (1) Lead the Department’s overall CFC campaign and monitor progress toward the\n         fundraising goal;\n\n     (2) Be responsible for the duties delineated in Section 5e;\n\n     (3) Designate, by June 1, a Campaign Manager to provide strategic guidance and\n         oversight of campaign implementation and related activities;\n\n     (4) Staff an office dedicated exclusively to the campaign’s daily operations, to be\n         overseen by the Campaign Manager. The USDA CFC Office must include one\n         Campaign Manager, one Deputy Campaign Manager, at least one Campaign\n         Specialist, and one Campaign Communication Specialist;\n\n     (5) Work directly with the Chair and Vice Chair to raise awareness, build momentum,\n         and invite employee involvement;\n\n     (6) Provide the Chair, Vice Chair, Subcabinet officials, Agency Heads, and\n         Departmental staff offices with bi-weekly pledges progress when data is provided\n         by CFC which is expected to start on September 15 through November 15, and\n         weekly thereafter until the end of the solicitation period;\n\n     (7) Lead the identification of the CFC Loaned Executive according to CFC guidance.\n         The CFC Loaned Executive is a USDA employee who is detailed full-time to CFC\n         NCA Headquarters for 6 to 9 months; and\n\n     (8) Announce the following year’s Co-Vice Chair and, if known, Campaign Manager\n         during the closing and awards ceremony.\n\nd.   The USDA CFC Office will:\n\n     (1) Serve as the primary point of contact at USDA for the CFC Headquarters, manage\n         the day-to-day CFC NCA campaign, and support all other USDA CFC\n         Coordinators and employees outside the NCA;\n\n     (2) Craft and execute a communications strategy to raise awareness of the USDA’s\n         CFC and invite USDA’s NCA employees to pledge money or volunteer hours with\n         CFC recognized charities;\n\n     (3) Organize Department-level and CFC NCA virtual and on-site events to raise\n         awareness and invite employees to pledge money or volunteer hours with CFC\n         recognized charities;\n\n     (4) Coordinate solicitation efforts on a Departmental level by collaborating with CFC\n         Coordinators;\n\n\n\n                                            5\n\f     (5) Monitor and report progress toward the USDA’s CFC fundraising goal to the Chair,\n         Vice-Chair, Co-Vice Chair, Mission Areas, agencies, staff offices, and CFC\n         Coordinators; and\n\n     (6) Provide operational and communication support including data and financial\n         information consistent with CFC availability.\n\ne.   The Campaign Manager will:\n\n     (1) Be staffed by a Senior Executive Service (SES), Senior Level (SL), Scientific or\n         Professional (ST), or General Schedule (GS)-15 individual;\n\n     (2) Provide strategic guidance and oversight of campaign implementation and related\n         activities;\n\n     (3) Lead the USDA CFC Office and work within USDA staffing policies and practices\n         to identify individuals who will staff the USDA CFC Office;\n\n     (4) Oversee duties associated with the staff designated to the USDA CFC Office;\n\n     (5) Serve as primary liaison to CFC Coordinators;\n\n     (6) Serve as primary liaison between USDA’S CFC Office and Mission Area and\n         Departmental leadership;\n\n     (7) Collaborate with USDA Mission Area, agency, and staff office Heads to\n         accomplish campaign goals;\n\n     (8) Coordinate Department-level events with the offices of the Secretary, Under\n         Secretaries, Assistant Secretaries, and staff office Heads;\n\n     (9) Ensure ethical and financial integrity of campaign operations and activities;\n\n     (10) Attend pre-campaign operations, training, and other activities convened with other\n          Federal departments and agencies;\n\n     (11) Develop and implement a campaign plan with CFC Loaned Executive to ensure a\n          fair and equitable campaign that operates within all Federal regulations and ensures\n          a 100-percent informed opportunity for all employees;\n\n     (12) Provide the Chair, Vice Chair, Subcabinet officials, agency Heads, and\n          Departmental offices with bi-weekly pledges progress as soon as CFC provides the\n          pledge report and weekly thereafter until the end of the solicitation period; and\n\n     (13) Manage campaign logistics which includes:\n\n\n\n                                            6\n\f         (a) Recruit CFC Coordinators and help to recruit CFC Key Workers;\n\n         (b) Lead campaign meetings;\n\n         (c) Order and distribute materials;\n\n         (d) Execute a communications strategy;\n\n         (e) Manage awareness events;\n\n         (f) Coordinate and manage campaign progress and report on monetary and\n             volunteer pledges; and\n\n         (g) Host a kick-off and awards campaign.\n\nf.   The Deputy Campaign Manager will:\n\n     (1) Be typically staffed by GS-13-15 leader (recommend one individual starting July);\n\n     (2) Support the Campaign Manager;\n\n     (3) Assist the Campaign Manager in developing a campaign plan;\n\n     (4) Help manage campaign logistics;\n\n     (5) Provide feedback to the Campaign Manager;\n\n     (6) Provide general support to CFC specialists, analysts, CFC Coordinators, CFC Key\n         Workers, and others as appropriate; and\n\n     (7) Track and compile a consolidated list of Mission Area, agency, and staff office\n         events.\n\ng.   The Campaign Specialist(s) will:\n\n     (1) Be typically staffed by a GS-13-15 leader (recommend two individuals starting July\n         1);\n\n     (2) Support the Campaign Manager;\n\n     (3) Monitor and report progress toward meeting CFC fundraising goals to Campaign\n         Manager and CFC Coordinators;\n\n     (4) Assist in coordinating Department-level events with the Under Secretary’s and\n         Secretary’s offices;\n\n\n\n                                            7\n\f     (5) Schedule and conduct periodic meetings with CFC Coordinators;\n\n     (6) Support CFC Coordinators with campaign management and training;\n\n     (7) Update and finalize the CFC Department, Agency, Office (DAO) report; and\n\n     (8) Coordinate with internal and external speakers for events.\n\nh.   The Campaign Communications Specialist will:\n\n     (1) Be typically staffed by a GS-13-15 leader (recommend one individual starting July\n         1);\n\n     (2) Support the Campaign Manager;\n\n     (3) Develop and implement a communications strategy designed to inform USDA\n         employees about CFC fundraising goals, events, and invite them to pledge money\n         or volunteer hours to CFC recognized charities;\n\n     (4) Draft material for the Chair, Vice Chair, Co-Vice Chair, and Campaign Manager to\n         use during speaking events and other communication;\n\n     (5) Develop, maintain, and promote the USDA Combined Federal Campaign website;\n\n     (6) Organize and manage planning efforts for Department-level CFC events;\n\n     (7) Communicate and coordinate with CFC Headquarter representatives and local\n         charities for Department-level events;\n\n     (8) Provide communications materials to the designated contacts in the Secretary’s\n         Office and Under Secretary’s Offices for approval;\n\n     (9) Coordinate with internal USDA offices to implement events;\n\n     (10) Coordinate with internal and external speakers for events;\n\n     (11) Track and compile list of Mission Area, agency, and staff office-level CFC events;\n          and\n\n     (12) Assist CFC Coordinators with Mission Area, agency, and staff office-level CFC\n          events, as necessary.\n\ni.   If requested by CFC, the Loaned Executive will:\n\n     (1) Be typically staffed by a GS-13-15 leader;\n\n\n\n                                            8\n\f     (2) Be detailed to the CFC NCA Headquarters for 6 to 9 months. Loaned Executives\n         whose details are extended beyond January 31, subject to USDA approval, will\n         assist OPM in reviewing charity applications for participation in the CFC;\n\n     (3) Act as an ambassador for the CFC;\n\n     (4) Manage all aspects of the CFC for their assigned accounts, which includes multiple\n         Cabinet-level Departments and Federal agencies;\n\n     (5) Brief senior organizational leadership prior to the campaign and provide periodic\n         progress updates;\n\n     (6) Conduct all required operational, technical, and administrative training for\n         Campaign Managers and CFC Key Workers across the NCA;\n\n     (7) Ensure Federal agencies are informed on campaign marketing strategies and\n         manage the delivery of campaign supplies and promotional items;\n\n     (8) Provide logistical support for CFC-related events and liaise with representatives\n         from CFC charities in the CFC campaign;\n\n     (9) Assist with CFC awareness event planning;\n\n     (10) Monitor organizational progress and recommend strategies to optimize\n          organizational campaign success; and\n\n     (11) Ensure recognition for CFC Campaign Managers, CFC Coordinators, and CFC Key\n          Workers through the campaign contest, organization-level awards program, and\n          individual awards and certificates.\n\nj.   CFC Coordinators will:\n\n     (1) Plan, lead, and implement their respective Mission Area, agency, or staff office\n         campaigns;\n\n     (2) Serve as a liaison and collaborate with the USDA CFC Team to ensure a successful\n         campaign;\n\n     (3) Recruit and oversee a Campaign Committee including CFC Key Workers and\n         volunteers to help implement campaign plans;\n\n     (4) Train CFC Key Workers and volunteers to ensure that all ethical guidelines are\n         strictly followed;\n\n     (5) Attend meetings with the Campaign Manager;\n\n\n\n                                             9\n\f     (6) Provide updates to the Campaign Manager throughout the solicitation period on\n         progress towards financial goals; and\n\n     (7) Provide timely close-out reports at the end of the solicitation period.\n\nk.   CFC Key Workers will:\n\n     (1) Support their respective CFC Coordinators;\n\n     (2) Complete assigned CFC campaign and related ethical training;\n\n     (3) Help raise awareness and invite co-workers to join the CFC community by inspiring\n         colleagues to give;\n\n     (4) Personally contact colleagues to host events and shares communications and\n         messaging throughout their respective areas; and\n\n     (5) Assist Federal employees with their CFC questions and pledges.\n\nl.   Mission Area, Agency, and Staff Office Heads will:\n\n     (1) Identify one or more CFC Coordinators to plan, lead, and implement their\n         respective campaigns;\n\n     (2) Identify CFC Key Workers to ensure a successful campaign;\n\n     (3) Support their respective CFC Coordinators and campaigns; and\n\n     (4) Monitor progress toward the USDA fundraising goal.\n\nm. The ASA will:\n\n     (1) Serve as the Co-Vice Chair when designated by the rotation schedule (see Section\n         5c);\n\n     (2) Make office space and supplies available to the Co-Vice Chair and Campaign\n         Manager to manage the CFC, as appropriate; and\n\n     (3) Make surplus property available to the USDA CFC to furnish and equip the office,\n         as needed.\n\nn.   The Director, OE will collaborate as needed with the Co-Vice Chair to implement the\n     CFC campaign.\n\n\n\n\n                                             10\n\f  o.   The Director, OC will collaborate as needed with the Co-Vice Chair to implement the\n       CFC campaign.\n\n  p.   The CIO will collaborate as needed with the Co-Vice Chair to implement the CFC\n       campaign."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "39a85d14-1d38-501b-b9a9-904537c8aa29",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr1073-001-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr1073-001-7-stmt",
+                "name": "statement",
+                "prose": "Inquiries regarding this DR should be directed to the Campaign Manager.\n\n\n                                          -END-\n\n\n\n\n                                            11\n\f                              APPENDIX A\n\n                  ACRONYMS AND ABBREVIATIONS\n\n\nASA      Assistant Secretary for Administration\nCFC      Combined Federal Campaign\nCFR      Code of Federal Regulations\nCIO      Chief Information Officer\nDA       Departmental Administration\nDAO      Department, Agency, Office\nDR       Departmental Regulation\nEEO      Equal Employment Opportunity\nE.O.     Executive Order\nFNCS     Food, Nutrition and Consumer Services\nFPAC     Farm Production and Conservation\nFR       Federal Register\nGS       General Schedule\nMRP      Marketing and Regulatory Programs\nNCA      National Capital Area\nNRE      Natural Resources and Environment\nOC       Office of Communications\nOE       Office of Ethics\nOPM      Office of Personnel Management\nOSEC     Office of the Secretary\nP.L.     Public Law\nRD       Rural Development\nREE      Research, Education, and Economics\nSES      Senior Executive Service\nSL       Senior Level\nST       Scientific or Professional\nTFAA     Trade and Foreign Agricultural Affairs\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                   A-1\n\f                                        APPENDIX B\n\n                                       DEFINITIONS\n\n\nCFC Coordinator. USDA Mission Areas, agencies, and staff offices identify a CFC Coordinator\nto lead the campaign at the Mission Area, agency, or staff office level and serve as liaison\nbetween the Mission Area, agency, or staff office and the USDA CFC Team. The CFC\nCoordinator recruits and oversees a Campaign Committee including Key Workers and volunteers\nto help implement campaign plans. CFC Coordinators train Key Workers and volunteers making\nsure all ethical guidelines are strictly followed. CFC Coordinators attend meetings with the\nCampaign Manager, provide updates throughout the solicitation period to the Campaign\nManager on progress towards financial goals, and provide timely close-out reports at the end of\nthe solicitation period. (Source: Adapted from USDA, USDA CFC Handbook)\n\nCFC Key Worker. Key Workers often have the most important impact throughout the\nsolicitation period. Key Workers help raise awareness and invite co-workers to join the CFC\ncommunity by inspiring colleagues to give. Key Workers personally contact colleagues to host\nevents and share communication and messaging throughout their respective areas. Key Workers\nassist Federal workers with their CFC questions and pledges encouraging employees to\nparticipate by making a monetary gift or pledging volunteer hours. In general, Key Workers\nhave taken training to help them succeed in their role. (Source: Adapted from USDA, USDA\nCFC Handbook)\n\n\n\n\n                                             B-1\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n5 Code of Federal Regulations (CFR) Part 950, Solicitation of Federal Civilian and Uniformed\nService Personnel for Contributions to Private Voluntary Organizations\n\nExecutive Order (E.O.) 12353, Charitable Fund-Raising, March 23, 1982, 47 Federal Register\n(FR) 12785 (March 25, 1982), 3 CFR, 1982 Comp., p. 139\n\nE.O. 12404, Charitable Fund-Raising, February 10, 1983, 48 FR 6685 (February 15, 1983)\n\nGiveCFC.org, Campaign Workers website\n\nGiveCFC.org, CFC Websites by Campaign Zone Map website\n\nGiveCFC.org, Combined Federal Campaign website\n\nGiveCFC.org, Local CFC Zones website\n\nOPM, Combined Federal Campaign website\n\nPublic Law (P.L.) 102-393 (codified at 5 United States Code (U.S.C.) § 1101, Office of\nPersonnel Management, Note)\n\nTreasury, Postal Service, and General Government Appropriations Act for FY 1988, Public Law\nP.L. 100-202, December 22, 1987\n\nUSDA, Combined Federal Campaign website\n\nUSDA, DR 4230-001, Volunteer Programs, October 30, 2016\n\nUSDA, OE, Ethics Issuance 03-2, Combined Federal Campaign Activities web page\n\nUSDA, OE, Rules of the Road, The Combined Federal Campaign web page\n\nUSDA, Office of Human Resources Management, Term Agreements website, Agency\nBargaining Agreements, as applicable\n\nUSDA, U.S. Department of Agriculture Combined Federal Campaign (CFC) Handbook (the\nUSDA CFC Handbook)\n\n\n\n\n                                              C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "95439645-8bc8-53ce-943d-22b1ccf871f6",
+          "title": "USDA Directives — DR1073-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1073-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

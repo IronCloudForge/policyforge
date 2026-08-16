@@ -1,0 +1,111 @@
+{
+  "catalog": {
+    "uuid": "e9017635-77c0-560e-b014-8d90c339ae9f",
+    "metadata": {
+      "title": "USDA DR1070-001: U.S. Department of Agriculture Policy Statement on Climate Change Adaptation (5/26/21)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "Unknown",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1070-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "Unknown"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1070-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Secretary, May 26, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1070-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Secretary, May 26, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "c03dfc60-db2c-50af-8d0b-6ef2b21e30bf",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr1070-001-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr1070-001-1-stmt",
+                "name": "statement",
+                "prose": "1                            U.S. DEPARTMENT OF AGRICULTURE\n 2                                  WASHINGTON, D.C. 20250\n 3\n                                                                  NUMBER:\n      DEPARTMENTAL REGULATION                                     DR 1070-001\n     SUBJECT: U.S. Department of Agriculture Policy               DATE:\n     Statement on Climate Change Adaptation                       May 26, 2021\n                                                                  EXPIRATION DATE:\n     OPI: Office of the Secretary\n                                                                  May 26, 2026\n 4\n 5\n 6\n 7\n 8   1. PURPOSE\n 9\n10     This Departmental Regulation (DR) provides guidance on the establishment and periodic\n11     revision of the United States Department of Agriculture’s (USDA) Climate Change\n12     Adaptation Plan.\n13\n14     Climate change poses a significant risk to the agriculture and forestry sectors and the\n15     communities that support and depend upon them. Through climate adaptation planning and\n16     implementation, USDA will identify how climate change is likely to affect its ability to\n17     achieve its mission, operations, and policy and program objectives. Climate change\n18     adaptation is a critical complement to mitigation; both are required to address the causes and\n19     consequences of climate change. Through climate adaptation planning, USDA will develop,\n20     prioritize, implement, and evaluate actions to minimize climate risks, and exploit new\n21     opportunities that climate change may bring. By integrating climate change adaptation\n22     strategies into USDA’s programs and operations, USDA better ensures that taxpayer\n23     resources are invested wisely, and that USDA services and operations remain effective under\n24     current and future climate conditions. Through climate adaptation planning, USDA is taking\n25     a leadership role in ensuring the vision of a resilient, healthy, and prosperous Nation in the\n26     face of a changing climate.\n27\n28\n29   2. ACTIONS ORDERED\n30\n31     This policy establishes the USDA directive to integrate climate change adaptation planning,\n32     implementing actions, and performance metrics into USDA programs, policies, and\n33     operations in accordance with executive orders and additional guidance from CEQ.\n34\n35     a.   The Chief Economist, with the full support and participation of USDA Mission Areas,\n36          agencies, and staff offices, will:\n37\n38          (1) Develop a USDA Climate Change Adaptation Plan in accordance with\n39              Departmental and Inter-agency guidance;\n40\n\f 1        (2) Issue guidance to Mission Areas, agencies, and staff offices to complete or update\n 2            their climate adaptation plans, as well as required interim deliverables; and\n 3\n 4        (3) Update the USDA Climate Change Adaptation Plan as appropriate and provide\n 5            progress reports on the status of implementation efforts annually.\n 6\n 7   b.   USDA Mission Area, agency, and staff office heads, in developing organization-specific\n 8        contributions, will:\n 9\n10        (1) Analyze how climate change may affect the ability of their organization to achieve\n11            its mission and policy, program, and operational objectives and authorities to:\n12\n13            (a) Identify potential impacts of climate change on their organization’s areas of\n14                responsibility;\n15\n16            (b) Prioritize, implement, and integrate response actions into their Mission Area’s,\n17                agency’s, or staff office’s operation, contingent on the availability of resources;\n18\n19            (c) Continuously assess and improve the capacity to adapt to current and future\n20                changes in the climate; and\n21\n22            (d) Prepare contributions to the Department’s Climate Change Adaptation Plan.\n23\n24        (2) Identify, as appropriate, key performance measures to evaluate progress in climate\n25            change adaptation in the annual Departmental and Mission Area, agency, and staff\n26            office budget material, to include measures in the Summary of Budget and\n27            Performance section of the explanatory notes, submitted as part of the\n28            Congressional justification.\n29\n30            (a) Identify, to the extent possible, the costs associated with the accomplishment of\n31                Mission Area, agency, or staff office performance measures and provide\n32                accessible information to producers; and\n33\n34            (b) Identify returns to Mission Area, agency, or staff office end-users for climate\n35                adaptation actions in terms of a list of expected accomplishments.\n36\n37        (3) Identify, as part of the annual budget process, to the Office of Budget and Program\n38            Analysis (OBPA), areas where budget adjustments would be necessary to carry out\n39            actions identified under this DR.\n40\n41        (4) Identify, as appropriate, for USDA’s Office of the General Counsel, areas where\n42            legal analysis is needed to carry out actions identified under this DR; and\n43\n44        (5) Identify the point of contact and coordinate actions with USDA’s Global Change\n45            Task Force, as appropriate.\n46\n\n\n\n                                                    2\n\f 1     c.   USDA Mission Areas, agencies, and staff offices will integrate information that reflects\n 2          the current understanding of global climate change and its projected impacts when\n 3          undertaking long-term planning exercises, setting priorities for scientific research and\n 4          investigations, developing performance metrics, and making decisions affecting Mission\n 5          Area, agency, or staff office resources, programs, and operations.\n 6\n 7\n 8   3. EFFECTIVE DATE AND TERMINATION\n 9\n10     a.   The provisions of this DR are effective immediately and will remain in effect until\n11          superseded or revoked.\n12\n13     b.   This policy supersedes and replaces DR 1070-001, U.S. Department of Agriculture\n14          (USDA) Policy Statement on Climate Change Adaptation, dated June 15, 2015.\n15\n16\n17\n18\n19                                                  /s/ THOMAS J. VILSACK\n20                                                  SECRETARY OF AGRICULTURE\n21\n\n\n\n\n                                                     3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "e9eb6b23-afe5-53f1-a667-ecaf047383cf",
+          "title": "USDA Directives — DR1070-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1070-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "catalog": {
+    "uuid": "d3f22681-fa71-5d98-a567-276dbed077d7",
+    "metadata": {
+      "title": "USDA DR3105-001: USDA Chief Information Officers Council",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2024-10-23",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3105-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2024-10-23"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3105-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3105-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "1e22b7a0-a66a-578e-be82-1dcb72dc5af9",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3105-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3105-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) maintains the United States Department of Agriculture\n     (USDA) Chief Information Officers (CIO) Council as a permanently chartered committee.\n     This DR defines the CIO Council’s scope, authority, membership, and voting guidelines."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "24003f63-238c-533d-b3c0-edd850787366",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3105-001-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3105-001-2-stmt",
+                "name": "statement",
+                "prose": "This policy applies to all USDA Mission Areas, agencies, staff offices, employees, and\n     contractors working for, or on behalf of, USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f53b8531-1e67-520a-9420-5bc3911dd91c",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3105-001-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3105-001-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 3105-001, USDA Chief Information Officers Council, dated\n          April 6, 2016.\n\f  b.   This DR is effective as of the publication date. It will remain in effect until superseded\n       or expiration.\n\n  c.   Nothing in this DR supplants the delegation of authorities and responsibilities of the\n       USDA CIO under 7 Code of Federal Regulations (CFR) § 2.32, Chief Information\n       Officer. Also, nothing in this DR supplants the delegation of authorities and\n       responsibilities of the USDA CIO under any other authorities otherwise provided by\n       law, Federal regulation, or USDA Departmental directive.\n\n  d.   The CIO Council’s bylaws set out the operating procedures of the CIO Council. A\n       current copy of these bylaws, Bylaws of the United States Department of Agriculture\n       Chief Information Officers Council, appears on the CIO Council’s shared site."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "418e5722-ebea-5bfa-a38a-8e5e27d06e34",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3105-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3105-001-4-stmt",
+                "name": "statement",
+                "prose": "This DR maintains the USDA CIO Council under the authority of:\n\n  a.   7 CFR § 2.32;\n\n  b.   The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) § 11101 et seq.;\n\n  c.   Office of Management and Budget (OMB) Circular A-130, Revised, Managing\n       Information as a Strategic Resource;\n\n  d.   The Paperwork Reduction Act of 1995, 44 U.S.C. § 3501 et seq.; and\n\n  e.   IT policies the USDA CIO deems relevant to the CIO Council."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "de14e3d5-9c93-51d5-9252-da556f292922",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3105-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3105-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   The CIO Council serves as one of the principal USDA IT advisory forums of the USDA\n       CIO. Its purpose is to improve the operational efficiency and strategic use of IT across\n       the USDA enterprise.\n\n  b.   The CIO Council advises the USDA CIO on the technical and managerial soundness of\n       the Department’s IT initiatives, policies, procedures, and standards.\n\n  c.   The CIO Council identifies opportunities to share information resources. It assesses the\n       needs of the Department’s IT workforce. It serves as a focal point for coordinating\n       responses to Departmentwide IT challenges. It partners with other governmental\n       councils to address issues and risks that require multidisciplinary and multilevel\n       solutions.\n\n\n\n\n                                               2\n\f  d.   The CIO Council advises the USDA CIO on IT matters that may become IT investments,\n       as defined by DR 3130-013, Information Technology Capital Planning and Investment\n       Control. IT initiatives that the CIO Council designates as enterprise initiatives will\n       remain subject to, and will conform to, DR 3130-010, United States Department of\n       Agriculture Enterprise Information Technology Governance, throughout their life cycle."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e0d8af4d-6f95-5f31-ab8e-6da890e8c486",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3105-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3105-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO will:\n\n       (1) Preside over the CIO Council;\n\n       (2) Appoint the OCIO Executive Secretariat; and\n\n       (3) Serve as a voting member.\n\n  b.   The Deputy CIO will serve as a CIO Council voting member.\n\n  c.   Mission Area Assistant CIOs will serve as CIO Council voting members.\n\n  d.   The Director of IT, Office of the Inspector General, will serve as a CIO Council voting\n       member.\n\n  e.   Office of the Chief Information Officer (OCIO) Associate CIOs (ACIO) will serve as\n       CIO Council advisory (non-voting) members.\n\n  f.   OCIO Division Officers will serve as CIO Council advisory (non-voting) members.\n\n  g.   The OCIO Executive Secretariat, appointed by the USDA CIO, will serve as a CIO\n       Council advisory (non-voting) member."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e5edd9a0-7a10-5e02-a1c1-2d15dc81d132",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3105-001-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3105-001-7-stmt",
+                "name": "statement",
+                "prose": "USDA Mission Areas, agencies, and staff offices can direct questions and inquiries regarding\n  this DR via email to sm.ocio.cio.feedback@usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                              3\n\f                             APPENDIX A\n\n                 ACRONYMS AND ABBREVIATIONS\n\n\nACIO     Associate Chief Information Officer\nCFR      Code of Federal Regulations\nCIO      Chief Information Officer\nDR       Departmental Regulation\nFITARA   Federal Information Technology Acquisition Reform Act\nIT       Information Technology\nOCIO     Office of the Chief Information Officer\nOMB      Office of Management and Budget\nP.L.     Public Law\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                  A-1\n\f                                          APPENDIX B\n\n                            AUTHORITIES AND REFERENCES\n\n\n7 CFR § 2.32, Chief Information Officer\n\nClinger-Cohen Act of 1996, 40 U.S.C. § 11101 et seq.\n\nFederal Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113-291,\nTitle VIII, Subtitle D, Sections 831-837, December 19, 2014\n\nOMB, Circular A-130, Revised, Managing Information as a Strategic Resource, July 28, 2016\n\nPaperwork Reduction Act of 1995, 44 U.S.C. § 3501 et seq.\n\nUSDA, Bylaws of the United States Department of Agriculture Chief Information Officers\nCouncil, February 15, 2018\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018\n\nUSDA, DR 3130-009, Non-Major Information Technology (IT) Investments, September 28, 2020\n\nUSDA, DR 3130-010, United States Department of Agriculture Enterprise Information\nTechnology Governance, April 20, 2021\n\nUSDA, DR 3130-013, Information Technology Capital Planning and Investment Control, May\n24, 2021\n\n\n\n\n                                             B-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "70582fda-c337-5ad3-8c06-343d0f40c50c",
+          "title": "USDA Directives — DR3105-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3105-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

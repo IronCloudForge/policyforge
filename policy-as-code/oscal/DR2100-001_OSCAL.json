@@ -1,0 +1,330 @@
+{
+  "catalog": {
+    "uuid": "ee0708c7-804d-5cb0-966d-6d5bb187f4ce",
+    "metadata": {
+      "title": "USDA DR2100-001: Financial Management Systems",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2022-02-23",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2100-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2022-02-23"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2100-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer, February 23, 2027",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2100-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer, February 23, 2027"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "5f3ef9ad-4224-5f60-8f00-172424eb7bbf",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2100-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2100-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) sets forth policies and procedures for evaluating and\n   reporting on United States Department of Agriculture (USDA) Financial Management (FM)\n   systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "69f68921-e1e6-53f5-a7f7-6c20d798bee6",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr2100-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr2100-001-2-stmt",
+                "name": "statement",
+                "prose": "a.     This DR supersedes DR 2100-001, Financial Management Systems, dated November\n          30, 2005.\n\n   b.     This DR will remain in effect until it is superseded or expires.\n\f  c.   All Mission Areas, agencies, and staff offices will align their policies and procedures\n       with this DR within 6 months of the effective date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b06965f9-44be-559e-a130-1ba18c278cf1",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr2100-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr2100-001-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all Mission Areas, agencies, and staff offices, and to all USDA FM\n       systems.\n\n  b.   The scope of this DR includes all USDA FM systems. FM systems provide data which\n       informs financial management decision-making. These systems must comply and\n       adhere to mandates dictated by the Office of Management and Budget (OMB)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8ccdaaf0-1e84-5ae2-84c1-e06ddebc7669",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr2100-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr2100-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   FM systems are applications that collect, record, classify, analyze, and report data to\n       inform program and administrative FM decision making. These applications process,\n       control, and account for financial transactions and resources, and are also used for\n       budgetary auditing, formulation, and execution functions.\n\n  b.   OMB Circular A-123, Management's Responsibility for Enterprise Risk Management\n       and Internal Control; and Appendix D to that circular, Compliance with the Federal\n       Financial Management Improvement Act of l996, requires Executive Departments to\n       comply with the Federal Financial Management Improvement Act of 1996 (FFMIA).\n\n  c.   Title VIII of Public Law (P.L.) 104-208 mandates that FM systems operate within\n       applicable Federal accounting standards and the U.S. General Standard Ledger.\n\n  d.   OMB Circular A-123 also provides a framework to assist in evaluating FM system\n       performance and determining compliance at the transaction level."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6266ec8e-0364-542d-a899-6dc64beec579",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr2100-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr2100-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   Mission Areas, agencies, and staff offices are required to conduct a recurring review of\n       their respective FM systems on a 3-year cycle. The reviews will ensure compliance with\n       applicable FM principles, standards, and related requirements as defined by OMB and\n       the Department of the Treasury (Treasury). These reviews will also ensure compliance\n       with:\n\n       (1) Internal Control standards as defined in OMB Circular A-123;\n\n       (2) Information resource management policy as defined in OMB Circular A-130,\n           Managing Information as a Strategic Resource; and\n\n\n\n                                               2\n\f       (3) Operating policies and requirements prescribed by OMB, the Treasury, and the\n           Department.\n\n  b.   The Chief Financial Officer (CFO) will ensure that the planning, development, review,\n       and reporting on all USDA FM systems are in accordance with Federal Financial\n       Management System Requirements (FFMSR)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af322365-d108-56ef-94ba-967f35fc5a28",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr2100-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr2100-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CFO will:\n\n       (1) Ensure that all USDA FM systems comply with FFMSR per OMB Circular A-123\n           and FFMIA.\n\n       (2) Establish a FM system review team comprised of Office of the Chief Financial\n           Officer (OCFO) representatives from the Associate Chief Financial Officer (ACFO)\n           organizations that will:\n\n           (a) Evaluate reviews of component agency FM systems to ensure completeness\n               and conformance;\n\n           (b) Participate in Mission Area, agency, and staff office reviews as directed or\n               requested; and\n\n           (c) Review OCFO-owned Departmental FM systems.\n\n       (3) Provide policy compliance oversight, technical assistance, and direction on issues\n           as necessary.\n\n       (4) Direct and perform a limited review of Mission Area, agency, and staff office\n           deliverables to include: P.L. No. 113-283 Federal Information Security\n           Modernization Act (FISMA); annual review results; and Plan of Action and\n           Milestones (POA&M) annually. Additional resources that may be used by OCFO\n           include: audit results (unless the information is sensitive with limited distribution)\n           and performance of Year-End Close activities. If weaknesses are discovered, the\n           ACFO organizations will assist the Mission Areas, agencies, and staff offices in\n           resolving them.\n\n  b.   The USDA Chief Information Officer (CIO) will:\n\n       (1) Assist OCFO in the review of Mission Area, agency, and staff office POA&Ms\n           when Information Technology (IT) weaknesses exist; and\n\n\n\n\n                                                3\n\f       (2) Assist Mission Areas, agencies, and staff offices in resolving discovered IT\n           weaknesses.\n\n  c.   Mission Area, Agency, and Staff Office Heads will:\n\n       (1) Ensure their Mission Area, agency, or staff office performs detailed reviews, testing\n           of systems and applications, and issues a Financial Management Systems Plan\n           (FMSP) outlining the results of the reviews as required by the FFMSR;\n\n       (2) Ensure a detailed comprehensive review is required and conducted at least every 3\n           years or each time substantial changes or upgrades are made to the application;\n\n       (3) Certify results of the reviews; and\n\n       (4) Adhere to all reporting requirements set forth in this DR.\n\n  d.   Mission Area, Agency, and Staff Office CFOs will:\n\n       (1) Perform annual detailed reviews of FM systems for all applications that do not meet\n           the FFMSR; and\n\n       (2) Participate in planning and evaluating reviews to ensure that application user needs\n           are met.\n\n  e.   Mission Area Assistant CIOs will perform annual detailed reviews of FM systems for all\n       applications that do not meet the FFMSR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "739f74fd-aa1e-5b96-a400-f17c89443799",
+        "class": "section",
+        "title": "Financial Management Systems Plan",
+        "controls": [
+          {
+            "id": "dr2100-001-7",
+            "class": "policy-requirement",
+            "title": "Financial Management Systems Plan",
+            "parts": [
+              {
+                "id": "dr2100-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   Each Mission Area, agency, and staff office will prepare and annually submit a FMSP\n       covering the fiscal year reporting period outlining the FM systems that have been tested\n       and the results. The plan must include:\n\n       (1) An inventory of applications with completed and scheduled review dates;\n\n       (2) An identification of the requirements that govern the design and operation of each\n           application;\n\n       (3) Description and procedures to be used for each limited and detailed review\n           including a separate description for partial systems; and\n\n       (4) POA&M to address required corrective actions.\n\n\n\n\n                                                 4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "48594364-baae-598f-a562-50a8d58fbc6c",
+        "class": "section",
+        "title": "Cybersecurity Assessment And Mangement Tool",
+        "controls": [
+          {
+            "id": "dr2100-001-8",
+            "class": "policy-requirement",
+            "title": "Cybersecurity Assessment And Mangement Tool",
+            "parts": [
+              {
+                "id": "dr2100-001-8-stmt",
+                "name": "statement",
+                "prose": "The Department’s FISMA Management and Reporting Tool will be the system of record in\n  which all information and documentation will be required to be stored."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c46d9891-dabb-55cd-815c-924d7ae954f2",
+        "class": "section",
+        "title": "Application Reviews",
+        "controls": [
+          {
+            "id": "dr2100-001-9",
+            "class": "policy-requirement",
+            "title": "Application Reviews",
+            "parts": [
+              {
+                "id": "dr2100-001-9-stmt",
+                "name": "statement",
+                "prose": "a.   Mission Areas, agencies, and staff offices must review, at a minimum, the following FM\n       systems:\n\n       (1) Mission Area, agency, and staff office-owned FM Systems, Acquisitions, and\n           Budget Execution and Formulation Systems;\n\n       (2) Direct Loans and Guaranteed Loans;\n\n       (3) Grants and Cooperative Agreements;\n\n       (4) Human Resources, Benefits, and Payroll Systems;\n\n       (5) Insurance;\n\n       (6) Inventory Supplies and Materials;\n\n       (7) Property Management, Seized Property, and Forfeited Assets;\n\n       (8) Revenue; and\n\n       (9) Charge Card Systems.\n\n  b.   The recurring cycle for reviews must not exceed 3 years."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8f3f8400-a60d-5bc4-942d-d7d8cadd89a4",
+        "class": "section",
+        "title": "Review And Corrective Methodology",
+        "controls": [
+          {
+            "id": "dr2100-001-10",
+            "class": "policy-requirement",
+            "title": "Review And Corrective Methodology",
+            "parts": [
+              {
+                "id": "dr2100-001-10-stmt",
+                "name": "statement",
+                "prose": "a.   Mission Areas, agencies, and staff offices will develop POA&Ms that adhere to FISMA\n       and must:\n\n       (1) Document any identified weaknesses;\n\n       (2) Identify planned corrective actions;\n\n       (3) Provide estimated corrective action completion dates; and\n\n       (4) Provide evidence of reviewing official approval.\n\n\n\n\n                                               5\n\f   b.   POA&M supporting documentation includes, but is not limited to, the results of the FM\n        systems reviews, audit findings, IT weaknesses, and performance of Year-End Close\n        activities including the project plan to correct the identified weaknesses."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "755f9b0a-fc28-5ba8-92fc-683edde5362f",
+        "class": "section",
+        "title": "Reporting Requirements",
+        "controls": [
+          {
+            "id": "dr2100-001-11",
+            "class": "policy-requirement",
+            "title": "Reporting Requirements",
+            "parts": [
+              {
+                "id": "dr2100-001-11-stmt",
+                "name": "statement",
+                "prose": "a.   All Mission Areas, agencies, and staff offices will adhere to the following reporting\n        requirements:\n\n        (1) No later than January 15, Mission Area, agency, and staff office Heads will submit\n            the annual FMSP and certification to OCFO.\n\n        (2) No later than March 1, OCFO will complete the review of each Mission Area,\n            agency, or staff office’s FM systems submission.\n\n        (3) No later than March 15, OCFO will select the Mission Areas, agencies, and staff\n            offices appropriate for onsite reviews.\n\n        (4) No later than May 1, OCFO will complete onsite reviews.\n\n        (5) No later than June 30, Mission Area, agency, and staff office Heads will verify that\n            deficiencies found during onsite reviews are identified with an action plan and a\n            specific date by which the corrective actions will be completed.\n\n   b.   Mission Area, agency, and staff office Heads will report all outstanding system non-\n        conformances as part of the OCFO annual certification statement data call."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cc036a6f-429c-5c18-989f-15be502eb3e6",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr2100-001-12",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr2100-001-12-stmt",
+                "name": "statement",
+                "prose": "Inquiries should be directed to OCFO’s ACFO for Financial Management Services at:\n   FMSC.help@usda.gov.\n\n\n\n\n                                                6\n\f                               APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nACFO     Associate Chief Financial Officer\nCFO      Chief Financial Officer\nCFR      Code of Federal Regulations\nCIO      Chief Information Officer\nCOTS     Commercial Off-the-Shelf\nCSAM     Cyber Security Assessment and Management\nDG       Departmental Guidebook\nDR       Departmental Regulation\nFFMIA    Federal Financial Management Improvement Act of 1996\nFFMSR    Federal Financial Management System Requirements\nFISMA    Federal Information Security Modernization Act of 2014\nFM       Financial Management\nFMSP     Financial Management Systems Plan\nGOTS     Government Off-the-Shelf\nIT       Information Technology\nOCFO     Office of the Chief Financial Officer\nOCIO     Office of the Chief Information Officer\nOMB      Office of Management and Budget\nP.L.     Public Law\nPOA&M    Plan of Action and Milestones\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                   A-1\n\f                                          APPENDIX B\n\n                                          DEFINITIONS\n\n\nApplications. Agency financial systems used for planning, budget formulation and execution,\nprogram and administrative accounting, and audit; as well as other systems for recording and\nclassifying financial data and reporting FM information, including purchasing, property,\ninventory, etc. (Source: USDA, Departmental Guidebook (DG) 0100-002, USDA Departmental\nDirectives Definitions Glossary)\n\nDetailed review. Substantive self-examination by managers, operators, and users of an\napplication made through use of an evaluation program, including transaction testing of an\noperating system, to determine compliance with FFMSR. Results of the review are to be kept\nuntil a subsequent review has been performed and documented. (Source: USDA, DG 0100-002)\n\nFederal Financial Management System Requirements (FFMSR). Guidance by OMB and\nTreasury to help achieve shorter-term, lower-cost, and more incremental FM system\nmodernization. The revised requirements are:\n\n(a) Focused on business rather than technology;\n\n(b) Neutral to the system solution [shared Federal or commercial service, custom commercial\n    off-the-shelf or Government off-the-shelf (COTS/GOTS) technology, automated or\n    manual];\n\n(c) Defined as Federal Government unique FM data input, business process, and data output;\n\n(d) Applicable to both administrative and program operation systems that perform FM business\n    processes (i.e., mixed systems); and\n\n(e) Referenced to their Federal Government authoritative sources.\n\n(Source: Treasury, Treasury Financial Manual, Chapter 9500, Revised Federal Financial\nManagement System Requirements for Fiscal Reporting)\n\nFinancial Management Information. Information on spending, collections, assets,\nliabilities, equity, and related budgetary transactions and balances, including data to develop\ninformation regarding unit costs, average pay rates, and user charges for decision making.\n(Source: USDA, DG 0100-002)\n\nFinancial Management System. Comprises an agency’s overall financial operation, reflecting\nthe people, processes, and technology to capture, classify, summarize, and report data in a\nmeaningful manner to support business decisions. It includes hardware, applications and\nsystem software, personnel, procedures, data, and reporting functions. The FM system can be\nfully integrated with other information systems (i.e., mixed systems) where transactions\n\n\n                                                B-1\n\fautomatically flow into an accounting general ledger. The FM system could also include manual\nprocesses to post transactions from other systems into the general ledger. (Source: Appendix D\nto Circular No. A-123, Compliance with the Federal Financial Management Improvement Act of\n1996)\n\nFinancial System. A set of applications that comprise the accounting portion of the FM system\nthat maintains all summary or detailed transactions resulting from budgetary and proprietary\nfinancial activity. (Source: Volume 1, Chapter 3: Federal Financial Management Improvement\nAct Compliance)\n\nLimited review. An informal yet structured procedure comprised of a questionnaire, checklist,\nand/or similar methodology, to ascertain if an application meets the objectives and requirements\noutlined by the FFMSR.\n\n\n\n\n                                               B-2\n\f                                       APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n2 Code of Federal Regulations (CFR), Grants and Agreements, Part 400, Uniform Administrative\nRequirements, Cost Principles, and Audit Requirements for Federal Awards\n\n31 U.S.C. 3512(a)-(c), Executive agency accounting and other financial management reports\nand plans\n\nAccounting and Auditing Procedures Act of 1950, P.L. 81-784, September 12, 1950\n\nDepartment of the Treasury, Treasury Financial Manual, Volume 1, Part 6, Chapter 9500,\nRevised Federal Financial Management System Requirements [FFMSR] for Fiscal Reporting,\n[date unavailable]\n\nFederal Financial Management Improvement Act of 1996 (FFMIA), P.L. 104-208,\nTitle VIII, September 30, 1996\n\nFederal Information Security Modernization Act of 2014 (FISMA), P.L. No. 113-283, codified at\n44 U.S.C. § 3551, et seq., December 18, 2014\n\nFederal Manager’s Financial Integrity Act of 1982 (FMFIA), P.L. 97-255, September 8, 1982\n\nOMB, 2 CFR Part 200, Guidance for Grants and Agreements, Federal Register, Vol.\n85, No. 14, Page 3766 et seq., January 22, 2020\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016\n\nOMB, Circular A-136, Financial Reporting Requirements, August 10, 2021, Revised\n\nOMB, Memorandum M-09-06, Implementation Guidance for the Federal Financial\nManagement Improvement Act, January 9, 2009\n\nOMB, Memorandum M-13-23, Appendix D to Circular No. A-123, Compliance with\nthe Federal Financial Management Improvement Act of l996, September 30, 2013\n\nOMB, Memorandum M-16-17, OMB Circular No. A-123, Management's Responsibility for\nEnterprise Risk Management and Internal Control, July 15, 2016\n\nOMB Memorandum M-17-26, Reducing Burden for Federal Agencies by Rescinding and\nModifying OMB Memoranda, June 15, 2017\n\nUSDA, DG 0100-002, USDA Departmental Directives Definitions Glossary, September 26,\n2018\n\n\n                                            C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "b4221a60-0f66-5aab-a4ab-a11e8200cf19",
+          "title": "USDA Directives — DR2100-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2100-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

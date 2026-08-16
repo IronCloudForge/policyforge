@@ -1,0 +1,292 @@
+{
+  "catalog": {
+    "uuid": "a020fdb9-8d20-5aa5-8c53-8ec13a3f4f30",
+    "metadata": {
+      "title": "USDA DR3130-012: Information Technology Cost Estimating",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2016-03-04",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3130-012"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2016-03-04"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3130-012",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Information Resource",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3130-012",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Information Resource"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "4548c91c-464d-56ad-b3d2-1efa2c3c9d0f",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3130-012-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3130-012-1-stmt",
+                "name": "statement",
+                "prose": "a.     This Departmental Regulation (DR) establishes the United States Department of\n          Agriculture (USDA) policy governing the use of information technology (IT) cost\n          estimating key principles and uniform best practice guidance for all major and non-\n          major USDA IT investments, projects, or systems. This DR incorporates leading\n          practices that create a “forcing function” of tasks, activities, or events that will drive the\n          USDA to take action and produce a unified set of IT cost estimating activities and\n          results. These practices, in conjunction with other investment-related knowledge,\n          including work breakdown structures (WBS), schedules, risks, and lessons learned, will\n          effectively inform USDA IT investment decision making.\n\n   b.     This DR also supports the new IT budget authority provisions provided by the Federal\n          Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, Title VIII,\n          Subtitle D, §831-837 (2014), which requires Federal Chief Information Officers (CIO)\n          to fully define and understand the costs of agency IT investments, products, and\n          services."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9a6bf74f-df1c-5465-a0b8-a7daaa3e1418",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3130-012-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3130-012-2-stmt",
+                "name": "statement",
+                "prose": "c.   This DR is effective immediately once published.\n\n  d.   All USDA agencies and staff offices shall align their policies with this DR within 12\n       months of the published date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1b17a1f0-2afd-51c2-a43b-b1abdd4eb251",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3130-012-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3130-012-3-stmt",
+                "name": "statement",
+                "prose": "a.   In accordance with a July 11, 2012, Government Accountability Office (GAO) report,\n       Information Technology Cost Estimation – Agencies Need to Address Significant\n       Weaknesses in Policies and Practices, GAO-12-629, the GAO recommended that the\n       Secretary of Agriculture, among other Agency or department heads listed in the report,\n       “direct responsible officials to modify policies governing cost estimating to ensure that\n       they address the weaknesses that we [GAO] identified.” To address this particular\n       weakness, the USDA shall establish policies governing the use of IT cost estimating\n       across the Department based on the GAO cost estimating guidelines and applied\n       commensurate with the USDA investments size, cost, and scope.\n\n  b.   Developing and validating high-quality IT cost estimates, per the guidance and practices\n       provided in the GAO Cost Estimating and Assessment Guide – Best Practices for\n       Developing and Managing Capital Program Costs, GAO-09-3SP, March 2009, all meet\n       the following characteristics:\n\n       (1) Credible: when assumptions and estimates are realistic. The cost estimate has been\n           cross-checked and reconciled with independent cost estimates, a level of confidence\n           has been identified and a sensitivity analysis, as defined in GAO-09-3SP, has been\n           conducted;\n\n       (2) Well documented: maintain supporting documentation that includes a narrative\n           explaining the process, sources, and methods used to create the IT cost estimate and\n           identifies the underlying data and assumptions used to develop the IT cost estimate;\n\n       (3) Accurate: when actual costs do not materially deviate from the assessment of costs\n           likely to be incurred;\n\n       (4) Comprehensive: when it accounts for all possible costs associated with an\n           investment or project, is structured in sufficient detail to ensure that costs are\n           neither omitted nor duplicated, and has been formulated by an estimating team with\n           disciplines aligned with the investment’s development methodology; and\n\n       (5) Current: cost estimates must be updated at regular intervals or after events that\n           impact the underlying assumptions of the estimate.\n\n\n\n                                                  2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fa96eb37-b0ae-5c78-9f41-07297fb952a1",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3130-012-4",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3130-012-4-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all USDA agencies and staff offices.\n\n  b.   This DR applies to all USDA major IT investments, as defined in DR 3130-008,\n       Definition of Major Information Technology (IT) Investments, and non-major IT\n       investments, as defined in DR 3130-009, Non-Major Information Technology (IT)\n       Investments, throughout their entire lifecycle, regardless of funding source, whether\n       owned and operated by USDA, or operated on behalf of USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "006dd9c8-5f22-555a-8843-31a52dc88486",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3130-012-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3130-012-5-stmt",
+                "name": "statement",
+                "prose": "a.   Follow the 12-step GAO cost estimating approach presented in Figure 1 below (source:\n       GAO-09-3SP, Chapter 1, Page 8, Figure 1) to capture the high-level business\n       requirements that drive the need for a proposed technology solution; support the\n       enterprise IT governance process; and minimize risk in the creation of high quality IT\n       cost estimates.\n\n\n                                              FIGURE 1\n\n\n                                THE COST ESTIMATING PROCESS\n\n\n\n\n  b.   Tailor this 12-step GAO methodology for ease of Department-wide adoption into these\n       five discrete steps:\n\n       (1) Mission Need Identification: define the mission objectives, business needs, and the\n           problem, gap, or issue that this IT investment, product, or service will resolve;\n                                                 3\n\f     (2) Capability Definition: implementing a standard IT cost estimating process will\n         provide for a meaningful comparison of capabilities between IT investment\n         alternatives;\n\n     (3) Solution Concept: design a solution concept that efficiently addresses business and\n         technical capabilities;\n\n     (4) Cost/Benefit Estimation: justify the cost and benefit basis; and\n\n     (5) Organizational Commitment – submit the results of the IT cost estimating analysis,\n         including investment mission alignment, cost and benefit estimate, risk, and\n         assumptions to the Associate Chief Information Officer (ACIO), Information\n         Resource Management (IRM) for review and approval.\n\nc.   Implement the following practices and foundational criteria to enforce recommended\n     cost analysis and estimating best practices to enable defensible IT investment proposals:\n\n     (1) Clear requirements for cost estimating: account for incremental and/or full\n         investment lifecycle costs that contribute to the probability of an investment’s\n         success and potentially reduce budget and schedule overruns;\n\n     (2) Compliance with cost estimating leading practices: require reviews of cost\n         estimates for major IT investments to ensure they are reliable and defensible;\n\n     (3) Process to collect and store cost-related data: develop a process to collect and store\n         actual cost-related data from past estimates to support future estimates;\n\n     (4) Training: training in the cost estimation approach as presented in this DR will be\n         offered to all personnel with program management and investment oversight\n         responsibilities;\n\n     (5) Management review and approval: require the IT cost estimates be reviewed and\n         submitted to the ACIO IRM before the annual IT portfolio reviews;\n\n     (6) Develop a cost element structure (CES): require the use of a cost element structure\n         (CES) to inform comprehensive cost and resource estimation for IT investments;\n         and\n\n     (7) Provide cost estimating methods, tools, and templates: manage the methods, tools,\n         and templates to maintain relevancy across the USDA for IT investment planning.\n\nd.   Agencies and staff offices may already have established cost estimating plans,\n     techniques, and procedures based on their specific requirements and established\n     methodologies, but all IT cost estimates should satisfy, at a minimum, the requirements\n\n\n\n                                               4\n\f       addressed in this DR. This DR adds additional controls without addressing the actual\n       methodologies applied."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "88fbb527-36e3-5d25-9d74-584e5f7d81a1",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3130-012-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3130-012-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) shall:\n\n       (1) Establish policies governing the use of cost estimating across the USDA, based on\n           the GAO-09-3SP cost estimating guidelines;\n\n       (2) Establish, implement, and maintain an effective USDA IT cost estimating process\n           with associated policies, guidance, tools, and training;\n\n       (3) Require that USDA IT investment cost estimates, as incorporated in the IT Portfolio\n           (formerly the Office of Management and Budget (OMB) Exhibit 53), be reviewed\n           by the USDA Chief Financial Officer (CFO) and Director, Office of Budget and\n           Program Analysis (OBPA) during the annual budget request, Passback, and\n           monthly submissions to OMB;\n\n       (4) Review cost estimates of IT-related costs in IT acquisitions;\n\n       (5) Establish an effective approach for developing high quality IT cost estimates that\n           promotes informed decision making, realistic budget formulation, and meaningful\n           progress measurement; and\n\n       (6) Conduct IT investment portfolio reviews with agencies and staff offices that include\n           IT cost estimates developed from key principles and best practices addressed in this\n           DR.\n\n  b.   The USDA CFO shall:\n\n       (1) Collaborate with the USDA CIO to confirm that the USDA IT Portfolio includes\n           appropriate cost estimates of all IT resources included in budget requests prior to\n           submission to OMB; and\n\n       (2) Ensure IT acquisitions and procurements are supported by sound, reasonable IT\n           cost estimates.\n\n  c.   The Director, OBPA shall:\n\n       (1) Collaborate with the USDA CIO and USDA CFO to affirm that the USDA IT\n           Portfolio includes appropriate cost estimates of all IT resources included in budget\n           requests prior to submission to OMB; and\n\n\n\n\n                                                 5\n\f     (2) Ensure IT acquisitions and procurements are supported by sound, reasonable IT\n         cost estimates.\n\nd.   The ACIO IRM shall:\n\n     (1) Ensure that agencies and staff offices are provided training opportunities in\n         developing IT cost estimating based on key principles and best practices presented\n         in this DR;\n\n     (2) Provide IT cost estimating tools, guidelines, and templates to agencies and staff\n         offices;\n\n     (3) Ensure IRM staff is available to assist agencies and staff offices with preparing IT\n         cost estimates; and\n\n     (4) Facilitate the annual IT investment portfolio reviews with agencies and staff offices\n         that include IT cost estimates developed from key principles and best practices\n         addressed in this DR.\n\ne. The Director, Capital Planning and IT Governance Division (CPIGD) shall:\n\n     (1) Assist agencies and staff offices with training and development of IT cost estimates;\n\n     (2) Provide IT cost estimating tools, guidelines, and templates to agencies and staff\n         offices;\n\n     (3) Ensure investment documentation outlines and provides supporting evidence of cost\n         estimating based upon the key principles and best practices addressed in this DR;\n\n     (4) Assist agencies and staff offices with preparing IT cost estimates as part of the\n         USDA Capital Planning and Investment Control (CPIC) process as outlined in the\n         USDA Information Technology Capital Planning and Investment Control Guide;\n         and\n\n     (5) Facilitate IT investment portfolio reviews with agencies and staff offices that\n         includes IT cost estimates developed from key principles and best practices\n         addressed in this DR.\n\nf. Agency and staff office CIOs shall:\n\n     (1) Provide IT cost estimates in accordance with key principles and best practices\n         provided in this DR as part of the annual USDA IT portfolio review process\n         conducted by the USDA CIO; and\n\n     (2) Submit to the ACIO, IRM IT cost estimates supporting documentation for the\n         USDA IT investment portfolio review and IT governance processes.\n\n                                               6\n\f  g. Agency and staff office IT Program/Project Managers shall:\n\n      (1) Prepare IT cost estimates in accordance with the principles and best practices\n          presented in this DR; and\n\n      (2) Take advantage of training opportunities for IT cost estimating, as needed, and use\n          any tools, guidelines, and templates provided by the ACIO, IRM."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cdb51303-59cf-574a-bd41-91f5c007ce86",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr3130-012-7",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr3130-012-7-stmt",
+                "name": "statement",
+                "prose": "Procedures and operational practices applicable to this DR shall be further delineated in a\n  Departmental Manual (DM) that will present detailed IT cost estimating processes and\n  procedures."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6092e5d0-9416-5099-8bc8-c19cdd4d2828",
+        "class": "section",
+        "title": "Acronyms And Abbreviations",
+        "controls": [
+          {
+            "id": "dr3130-012-8",
+            "class": "policy-requirement",
+            "title": "Acronyms And Abbreviations",
+            "parts": [
+              {
+                "id": "dr3130-012-8-stmt",
+                "name": "statement",
+                "prose": "ACIO               Associate Chief Information Officer\n  CES                Cost Element Structure\n  CFO                Chief Financial Officer\n  CIO                Chief Information Officer\n  CPIC               Capital Planning and Investment Control\n  CPIGD              Capital Planning and IT Governance Division\n  DM                 Departmental Manual\n  DR                 Departmental Regulation\n  FITARA             Federal Information Technology Acquisition Reform Act\n  GAO                Government Accountability Office\n  IRM                Information Resource Management\n  IT                 Information Technology\n  OBPA               Office of Budget and Program Analysis\n  OCIO               Office of the Chief Information Officer\n  OMB                Office of Management and Budget\n  P.L.               Public Law\n  USDA               United States Department of Agriculture\n  WBS                Work Breakdown Structure"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0e5fd53f-544b-5900-ba5c-8bfc48a49b44",
+        "class": "section",
+        "title": "Authorities And References",
+        "controls": [
+          {
+            "id": "dr3130-012-9",
+            "class": "policy-requirement",
+            "title": "Authorities And References",
+            "parts": [
+              {
+                "id": "dr3130-012-9-stmt",
+                "name": "statement",
+                "prose": "Federal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, Title\n  VIII, Subtitle D, §831-837 (2014)\n\n  GAO, GAO-09-3SP, GAO Cost Estimating and Assessment Guide – Best Practices for\n  Developing and Managing Capital Program Costs, March 2009\n\n                                                 7\n\f   GAO, GAO-12-629, Information Technology Cost Estimation – Agencies Need to Address\n   Significant Weaknesses in Policies and Practices, July 11, 2012\n\n   USDA, DR 3130-008, Definition of Major Information Technology (IT) Investments,\n   February 27, 2015\n\n   USDA, DR 3130-009, Non-Major Information Technology (IT) Investments, November 18,\n   2015\n\n   USDA, USDA Information Technology Capital Planning and Investment Control Guide,\n   May 1, 2013"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0ea2c06a-39b6-5054-9c2d-1a4bc2c0c63c",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3130-012-10",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3130-012-10-stmt",
+                "name": "statement",
+                "prose": "Direct all questions concerning this DR to Office of the Chief Information Officer (OCIO)\n   IRM, CPIGD at CapitalPlanningDivision@ocio.usda.gov.\n\n\n                                             -END-\n\n\n\n\n                                                8"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "1e8030f8-b5c2-55cf-9caa-4cc0ea2a0443",
+          "title": "USDA Directives — DR3130-012",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3130-012",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

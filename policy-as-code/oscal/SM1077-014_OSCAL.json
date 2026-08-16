@@ -1,0 +1,182 @@
+{
+  "catalog": {
+    "uuid": "28e6dd78-c197-5cea-8d15-d6582b45cac4",
+    "metadata": {
+      "title": "USDA SM1077-014: Interagency Commodity Estimates Committee",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2024-12-13",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1077-014"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2024-12-13"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1077-014",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1077-014",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "bb7732f6-bb39-535f-b943-8da230a50b6b",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "sm1077-014-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "sm1077-014-1-stmt",
+                "name": "statement",
+                "prose": "For over 50 years, the World Agricultural Supply and Demand Estimates (WASDE) report\n  has strengthened United States (U.S.) agriculture by providing essential information about\n  market conditions for key agricultural commodities traded in U.S. and global markets. These\n  monthly reports help to promote well-functioning markets by providing objective, reliable,\n  and unbiased assessments of agriculture supply and demand conditions in the U.S. and all\n  major trading partners.\n\n  The United States Department of Agriculture (USDA) is committed to maintaining the\n  quality, credibility, and integrity of this Principal Federal Economic Indicator by recognizing\n  the technical expertise required by those who work on it, the absence of political agendas or\n  conflicts of interest throughout the WASDE, the extraordinary need for data security and\n  trust in the officials assigned to this work, and the critical role of interagency coordination in\n  ensuring that each WASDE reflects a USDA consensus based on the best data and expertise\n  available across the Department.\n\n  The purpose of this Memorandum is to reaffirm USDA’s commitment to this important\n  work, reinforce the principles that ensure public confidence in the integrity of this and all\n  official government statistics, and reestablish the important interagency commitments that\n  make this work possible. This Memorandum includes mandates to the Chief Economist, the\n  Chairperson of the World Agricultural Outlook Board (WAOB), and the administrators of\n  the agencies that contribute to the Interagency Commodity Estimates Committee (ICEC)\n  process."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e867a7ce-dc15-5df4-8a77-67d4ec1bb47c",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "sm1077-014-2",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "sm1077-014-2-stmt",
+                "name": "statement",
+                "prose": "The WAOB was established on June 3, 1977, in Secretary's Memorandum 1920. The\n  WAOB's main responsibility (as codified at its inception in 1977 in 7 CFR Part 2, Subpart L)\n  is to coordinate and review all commodity and aggregate agricultural and food data and\n  analyses used to develop outlook and situation material within USDA. The WAOB was\n  established to enhance the consistency and reliability of all such data disseminated by the\n  Department to minimize market confusion and ensure that USDA “speaks with one voice”\n\f  regarding market conditions and outlook to avoid confusion and enhance market efficiency\n  and understanding.\n\n  The monthly WASDE report, prepared under the direction of the WAOB, provides the\n  official Departmental consensus of short-term (1-2 years) supply, demand, and price\n  forecasts for selected commodities traded in global markets. The WASDE report is not only\n  the key global assessment of current agricultural markets, but also underpins management\n  information used across the Department for budgeting, policy development, and program\n  evaluations.\n\n  WASDE forecasts are based on a comprehensive, interagency review and consensus building\n  process embodied in ICECs. The ICECs, chaired and managed by the WAOB, depend on\n  direct staff support, primarily from the Economic Research Service (ERS), the Foreign\n  Agricultural Service (FAS), the Farm Production and Conservation Business Center (FPAC-\n  BC), the Agricultural Marketing Service (AMS), and from other agencies as needed. The\n  ICECs ensure that the best information available across the Department is used in developing\n  commodity market appraisals and forecasts; objectivity, reliability, and credibility is\n  maintained, and the USDA’s consensus view is conveyed to stakeholders."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3d60d9cb-ad6b-5aa2-be02-5503720c5350",
+        "class": "section",
+        "title": "Continued Need For Market Information",
+        "controls": [
+          {
+            "id": "sm1077-014-3",
+            "class": "policy-requirement",
+            "title": "Continued Need For Market Information",
+            "parts": [
+              {
+                "id": "sm1077-014-3-stmt",
+                "name": "statement",
+                "prose": "Reliable federal statistics are an indispensable component of democratic society, and\n  agricultural statistics produced by USDA—including the WASDE report—are highly valued\n  for their critical role in informing business decisions, providing empirical, unbiased evidence\n  to support policy actions, and promoting the competitiveness of U.S. agriculture through\n  well-functioning markets. To perform these functions and maintain credibility in the eyes of\n  the public, the data must be widely viewed as objective, accurate, timely, and free of any\n  influence by political or outside agendas. This is achieved through the commitments of\n  USDA agencies to support and train the staff engaged in this work, along with strict\n  adherence to the practices and principles widely accepted by statistical agencies as necessary\n  to maintain public trust and data integrity.\n\n  The ICEC process enables the Department to meet its responsibilities of timely and unbiased\n  market forecasts through cross-agency involvement and to speak objectively and consistently\n  in providing market assessments for both internal and external use. Importantly, through\n  secure and precisely timed-release procedures, decision makers across the general public are\n  assured fair access to the latest market information and forecasts."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8f0365b8-95ea-5ac8-9769-850b8d8797da",
+        "class": "section",
+        "title": "Recommitment And Mandates",
+        "controls": [
+          {
+            "id": "sm1077-014-4",
+            "class": "policy-requirement",
+            "title": "Recommitment And Mandates",
+            "parts": [
+              {
+                "id": "sm1077-014-4-stmt",
+                "name": "statement",
+                "prose": "Given the importance of the market information contained within the WASDE report, I am\n  reaffirming the Department's commitment to the principals that build and maintain trust in\n  this data, and to the continued support of the interagency process under authorities delegated\n  to the Chairperson of the WAOB through the Chief Economist.\n\n\n\n                                                 2\n\fThe Department is committed to maintaining the objectivity and credibility of this\ninformation through adherence to several key principles, including, but not limited to:\n\na.   Professionalism and transparency.\n\n     The WASDE reports, compiled through the ICEC process, ensure that USDA “speaks\n     with one voice” regarding market conditions and outlook. These reports serve as the\n     official USDA estimates and are the basis for all public statements, testimony, and\n     internal analyses. Transparency enhances the credibility of the data by educating users\n     about the methodological procedures, information sources, and limitations of the data.\n\nb.   Independence from political and external influence.\n\n     All necessary measures are taken to eliminate conflicts of interest and ensure the data\n     are objective and unbiased. All staff assigned to this work must be career (non-political)\n     employees and cannot have other responsibilities related to political interests or\n     advocacy of policy outcomes that could depend on or be influenced by the data reported\n     in the WASDE. Ethical conduct will be upheld to the highest level, including avoiding\n     financial conflicts of interest and adherence to strict rules against accepting gifts—\n     including travel—from outside sources whose interests might be substantially affected\n     by these data.\n\nc.   Trust that the data is secure, properly handled, and not accessible to any user prior to the\n     official public release.\n\n     As a Principal Federal Economic Indicator, the WASDE is recognized as market\n     sensitive and therefore subject to strict controls over the way it can be handled and\n     released, including security measures to prevent the premature release of any\n     information that could reveal the content of an upcoming report. In addition to\n     maintaining a robust IT network that minimizes risk of unauthorized access and use of\n     encryption technologies when sharing sensitive files, information should only be shared\n     within an appropriately secure environment. To the maximum extent possible, meetings\n     to discuss WASDE data and analyses should be conducted in person, within the\n     designated secure areas of the WAOB or the ERS Kansas City facility. Participation on\n     an ICEC is generally not consistent with remote work positions.\n\nResponsible officials are directed, as follows, to provide the necessary leadership and support\nto sustain the ICEC process in ways consistent with the principles outlined above:\n\na.   The Chief Economist will continue to provide the support and resources necessary to the\n     WAOB to assure continued viability of the ICEC process. In this regard, the WAOB\n     and the contributing agencies must share the responsibilities of recruiting, developing,\n     and retaining personnel with the appropriate skills to sustain the ICEC process and\n     support the quality and integrity of the WASDE. With the participating agencies, the\n     Chief Economist will lead a periodic review and evaluation of the ICEC process,\n\n\n\n                                                3\n\f     staffing requirements, training needs, security requirements, and interagency\n     cooperation. The Chief Economist will also respond to agency requests for interim\n     reviews in the event agency issues raise immediate concerns over effective management\n     of the Departmental program.\n\nb.   The WAOB Chairperson will continue to exercise delegated authority to manage the\n     ICEC process to provide consistent, timely estimates and forecasts of supply, utilization,\n     and prices of agricultural commodities on a domestic and international basis. The\n     Chairperson can expect the Administrators of AMS, ERS, FPAC-BC, and FAS to\n     designate qualified representatives to be regular contributing members of the ICECs. As\n     needed, the Chairperson can call upon other Departmental agencies for specific\n     information and analysis as needed to develop commodity forecasts.\n\n     The Chairperson is responsible for ensuring the ICEC process is conducted in a manner\n     consistent with all relevant OMB Statistical Policy Directives and the principles outlined\n     above. The Chairperson is also delegated the authority to approve or remove personnel\n     assigned to the ICEC or make other changes deemed necessary to carry out the\n     responsibilities required to maximize public trust in the WASDE as a Principle Federal\n     Economic Indicator.\n\nc.   The ERS Administrator will assign at least one full-time analyst to each ICEC with\n     responsibility for monitoring and analyzing domestic markets, and additional analysts to\n     monitor and analyze international markets for each ICEC or across a small subset of\n     related commodities. ERS is the Department's independent economic research agency\n     and has a long history of commodity market analysis and holds significant market\n     expertise. ERS is expected to provide the ICECs with analytic support for domestic and\n     international forecasts, especially factors affecting product demand and price discovery.\n     ERS contributions will include commodity balance sheet summaries of acreage, yields,\n     production, utilization, trade, stocks and prices. In order to help interpret and forecast\n     commodity production, utilization, and trade in key countries and regions as identified\n     by ICEC participants, ERS is expected to maintain the capacity to provide quick-\n     turnaround analysis of market developments affecting domestic and overseas\n     agricultural production, consumption, and international trade, including price\n     implications. ERS will also provide the economic modeling framework necessary for\n     developing long-term commodity baseline projections. ERS analysts assigned to the\n     ICEC will coordinate and collaborate with ERS research staff as necessary to provide\n     the highest quality insights and analysis, but annual performance ratings and promotion\n     decisions must reflect the content and quality of their ICEC-related work, including the\n     production of data and Outlook reports issued by ERS.\n\nd.   The FPAC-BC Administrator will assign one or more analyst to each ICEC. FPAC-BC\n     supports U.S. producers through delivery of commodity programs, farmer operating and\n     emergency loans, land conservation programs, natural disaster programs, and domestic\n     and foreign food assistance. FPAC-BC is expected to provide forecasting information to\n     ICECs regarding farm program provisions and operations including participation,\n     government payments, all aspects of crop loan activity, and acreage in conservation\n\n\n\n                                               4\n\f       programs and to collaborate on the determination of how these developments affect\n       farmer decisions and commodity markets. FPAC-BC is also expected to provide, in a\n       timely manner, the complete set of data on domestic sugar supply and use reported by\n       refiners, processors, and other entities (sweetener market data). FPAC-BC analysts will\n       provide important collaboration for domestic commodity forecasts and commodity by\n       commodity insight into pricing patterns and market flows of commodities for the\n       different end uses.\n\n  e.   The FAS Administrator will assign one or more analyst to each ICEC. Foreign markets\n       are an integral component of U.S. agriculture's prosperity and are crucial for the future\n       of a flourishing U.S. agriculture and FAS holds unique expertise in this area. Drawing\n       on that expertise, FAS is expected to provide the ICECs with country-by-country\n       commodity-specific area, yield, production, stocks and utilization estimates, supported\n       by assessments from the network of FAS agricultural officials posted world-wide,\n       interpretation of remote sensing imagery, and other sources of information. FAS\n       analysts will further provide the ICECs with market insights, analysis and interpretations\n       of trade flows, trade disruptions, and opportunities based on on-going monitoring of a\n       multitude of sources. FAS will maintain the Production Supply and Distribution\n       database which is the public-facing repository of the official USDA global forecasts\n       created by the ICECs and/or approved by the WAOB. FAS is also expected to\n       contribute insights from its critical weekly export sales reporting program. FAS and\n       ERS are directed to collaborate on maintaining detailed, consistent trade data and\n       quarterly trade forecasts.\n\n  f.   The AMS Administrator will assign one or more analyst to each livestock ICEC and\n       other commodities as needed. AMS is uniquely positioned to closely monitor\n       commodity markets with significant involvement in standardization, grading, and\n       market news services; commodity purchases for Federal food programs; oversight of\n       marketing orders and agreements; administration of research and promotion programs;\n       and assessing the U.S. and world transportation situation. AMS is expected to provide\n       the ICECs with interpretations of recent changes in prices and marketing arrangements,\n       the relative importance of marketing methods, and transportation capacities and\n       performance.\n\n  g.   All agencies contributing to the ICEC process are responsible for proper training and\n       supervision of their ICEC representatives and will develop an effective staffing and\n       succession plan to ensure continuity of ICEC participation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a4f699f2-81a9-5fbe-a455-4b1020356e88",
+        "class": "section",
+        "title": "Effective Date And Termination",
+        "controls": [
+          {
+            "id": "sm1077-014-5",
+            "class": "policy-requirement",
+            "title": "Effective Date And Termination",
+            "parts": [
+              {
+                "id": "sm1077-014-5-stmt",
+                "name": "statement",
+                "prose": "a.   This Memorandum is effective immediately and will remain in effect for 1 year, or until\n       such earlier time as applicable Departmental regulations or guidance has been created or\n       revised to incorporate the provisions of this SM.\n\n\n\n\n                                                 5\n\fb.   This Memorandum does not create any substantive or procedural right or benefit\n     enforceable by law or equity, nor does it create any private right of action.\n\n\n\n\n                                            /s/ Thomas J. Vilsack\n                                            Secretary of Agriculture\n\n\n\n\n                                             6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "491ef9b1-cdf0-55eb-a49a-0fc9f3447539",
+          "title": "USDA Directives — SM1077-014",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1077-014",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "catalog": {
+    "uuid": "275e005c-2aeb-5601-864a-49e5928e550a",
+    "metadata": {
+      "title": "USDA DR3170-001: End User Workstation Configurations",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2022-10-13",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3170-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2022-10-13"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3170-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Client",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3170-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Client"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "3cc2f089-97e6-5826-8257-2d1f0316726b",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3170-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3170-001-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes approved workstations and associated\n          peripheral configurations for all users within the United States Department of\n          Agriculture (USDA). Using permitted workstation configurations ensures and promotes\n          greater cyber protection, compatibility, and interoperability for hardware and software\n          and provides consistency and standardization for the acquisition, configuration, and\n          administration of information technology (IT).\n\n     b.   Using acceptable workstation configurations supports and implements guidance issued\n          by the Office of Management and Budget (OMB), National Institute of Standards and\n          Technology (NIST), and other Federal oversight entities. Doing so facilitates the\n          uniform application of engineering, technical criteria, methods, processes, and practices\n          when evaluating and procuring new technologies; ensures that technologies align with\n          USDA enterprise architecture business goals and processes; and meets the requirements\n          of:\n\f       (1) OMB, Circular A-130, Managing Information as a Strategic Resource; and\n\n       (2) DR 3180-001, Information Technology Standards."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3a2172a8-df25-57a9-acc9-f24aa69a479b",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3170-001-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3170-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This policy applies to all USDA Mission Areas, agencies, staff offices, employees, and\n       contractors working for, or on behalf of, USDA.\n\n  b.   This DR does not apply to lab workstations or lab equipment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4c9cfd02-fe7e-5731-902e-71b1d8f4edbf",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3170-001-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3170-001-3-stmt",
+                "name": "statement",
+                "prose": "a.   This regulation supersedes DR 3170-001, End User Workstation Configurations, dated\n       January 11, 2021.\n\n  b.   In this document, workstations are defined as desktop computers, mobile devices (laptop\n       computers, mobile phones or tablets), and other computers and devices accessing the\n       USDA network."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "040e7698-6038-5638-b357-f6d75040d69a",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3170-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3170-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   Congressional mandates for IT architecture are contained in the Clinger-Cohen Act of\n       1996, 40 United States Code (U.S.C.) § 11101 et seq., updated and revised by the E-\n       Government Act of 2002, 44 U.S.C. § 3601, to help each Government agency build\n       enterprise architecture.\n\n  b.   OMB, Circular A-119, Federal Participation in the Development and Use of Voluntary\n       Consensus Standards and in Conformity Assessment Activities, requires that Federal\n       agencies use voluntary consensus standards to reduce the reliance of Federal agencies’\n       use of unique Government standards. Refer to DR 3180-001 for the definition of\n       standards.\n\n  c.   The Common Approach to Federal Enterprise Architecture presents an overall approach\n       to developing and using enterprise architecture in the Federal Government by promoting\n       increased mission effectiveness through the standardization of the development and use\n       of architectures within, and between, Federal agencies. Related implementation\n       guidance from OMB is contained in various documents, including:\n\n       (1) OMB, Circular A-11, Preparation, Submission, and Execution of the Budget;\n\n       (2) OMB, Circular A-130, Managing Information as a Strategic Resource;\n\n\n\n\n                                              2\n\f       (3) OMB, M-00-10, OMB Procedures and Guidance on Implementing the Government\n           Paperwork Elimination Act;\n\n       (4) OMB, M-05-22, Transition Planning for Internet Protocol Version 6 (IPv6);\n\n       (5) OMB, M-11-29, Chief Information Officer Authorities;\n\n       (6) OMB, M-12-10, Implementing PortfolioStat;\n\n       (7) OMB, Memorandum M-17-26, Reducing Burden for Federal Agencies by\n           Rescinding and Modifying OMB Memoranda; and\n\n       (8) Digital Government: Building a 21st Century Platform to Better Serve the\n           American People.\n\n  d.   The Federal Enterprise Architecture Framework, Version 2 (FEAF v2), is a suite of\n       tools to help Government planners implement The Common Approach to Federal\n       Enterprise Architecture. Workstation requirements will help users identify IT standards\n       based on rules or specifications designed to simplify, unify, or rationalize the design,\n       interoperability, portability, and scalability of IT infrastructure components (e.g.,\n       network, hardware, systems, and application software)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ca0b338a-4d5f-5973-9082-695e94e2b88f",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3170-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3170-001-5-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices will comply with the latest version of\n  NIST, Special Publication (SP) 800-53 r5, Security and Privacy Controls for Information\n  Systems and Organizations; the E-Government Act; Circular A-130; Circular A-119; and the\n  FEAF v2 artifacts specifically associated with the Application Reference Model (ARM) and\n  Infrastructure Reference Model (IRM), ensuring that configuration of workstations and\n  peripherals are maintained in accordance with these mandates.\n\n  Mission Areas, agencies, and staff offices will comply with this DR by using Departmental,\n  Mission Area, agency, or staff office blanket purchase agreements (BPA) consistent with\n  Federal Acquisition Regulation (FAR) § 13.303 that fulfill Common Criteria mandates and\n  are current with voluntary consensus standards. Software and hardware can be authorized for\n  use unless the software developer or hardware developer is prohibited by the law.\n\n  a.   When complying with Departmental or agency BPAs, Mission Areas, agencies, and staff\n       offices will:\n\n       (1) Establish and maintain uniform engineering and technical criteria;\n\n       (2) Establish and maintain methods, practices, and processes;\n\n\n\n\n                                              3\n\f       (3) Align with SP 800-53 r5 and Federal Information Security Modernization Act of\n           2014 (FISMA), 44 U.S.C. § 3551 et seq., security requirements;\n\n       (4) Establish and maintain net-centric and enhanced interoperable shared services;\n\n       (5) Develop and establish technical maturity among systems and applications within\n           budgeted limitations;\n\n       (6) Ensure alignment of investments, systems, and applications to include\n           infrastructure;\n\n       (7) Manage the replacement of workstations and associated peripherals that are aligned\n           with the current, in-force standards; and\n\n       (8) Promote best practices in alignment with business, performance, application,\n           infrastructure, data, and security configurations.\n\n  b.   Mission Areas, agencies, and staff offices will manage end user (e.g., employees,\n       contractors, USDA partners) computing device allotment and limit the issuance of\n       mobile devices to those with an official business need:\n\n       (1) End users are limited to one Government-furnished device (workstation or laptop)\n           per individual.\n\n       (2) End users are allowed only one mobile device, if supported by a business need. An\n           end user cannot have both a mobile phone and a tablet. An exception can be\n           requested for an end user or a group of end users with a demonstrated need, whose\n           position requires both a mobile phone and a tablet.\n\n       (3) To have a mobile phone or tablet requires the supervisor’s approval before either\n           can be issued.\n\n  c.   The point of contact for this policy is the Office of the Chief Information Officer\n       (OCIO), Client Experience Center (CEC) Governance Director, at\n       CEC.InternalComms@usda.gov."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "093ab0ca-a4a2-528d-88ab-4af9c8931324",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3170-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3170-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO), or delegated responsible staff, will:\n\n       (1) Be the final approving authority on the adoption of IT requirements and standards\n           for the Department; and\n\n       (2) Serve as the final approving authority for policy waivers and exceptions to the\n           workstation requirements as requested by Mission Areas, agencies, or staff offices.\n\n\n\n                                               4\n\fb.   The CEC Associate Chief Information Officer (ACIO) will:\n\n     (1) Develop policies, regulations, and compliance requirements for the IT environment\n         and provide channels for Mission Area, agency, and staff office input to, and\n         approval of, those policies, regulations, and compliance requirements;\n\n     (2) Monitor and provide recommendations for waivers to this policy to the CIO; and\n\n     (3) Provide management and oversight activities related to business, performance,\n         application, data, infrastructure, and security configurations, including but not\n         limited to:\n\n         (a) Reviewing and monitoring compliance with established policy requirements\n             and standards without interfering with or impairing business functions or\n             mission requirements; and\n\n         (b) Reporting compliance and deviations to OMB.\n\nc.   Mission Area Assistant CIOs and Agency and Staff Office IT Directors will:\n\n     (1) Implement the policies, requirements, and standards for the IT environment by:\n\n         (a) Reviewing existing internal procedures and controls and developing internal\n             procedures and controls in support of this policy;\n\n         (b) Establishing effective communication between internal stakeholders and an\n             identified point of contact in OCIO; and\n\n         (c) Incorporating the policies, requirements, and standards into Mission Area,\n             agency, and staff office capital planning and investment control (CPIC)\n             processes.\n\n     (2) Implement and maintain business, performance, application, data, infrastructure,\n         and security configuration settings by:\n\n         (a) Documenting all deviations from standard configurations with a detailed\n             rationale for the deviations and request for a waiver from the CEC ACIO;\n\n         (b) Requesting waivers from the CEC ACIO that substantiate all policy exception\n             requirements;\n\n         (c) Providing corrective action plans for the timely remediation of issues not\n             authorized as an approved deviation;\n\n\n\n\n                                             5\n\f           (d) Ensuring that all end user peripherals (e.g., storage, network, printers,\n               workstations, mobile devices) necessary for the mission of the user’s work pass\n               a comprehensive security scan. Lab workstations are out of scope for this\n               directive. If a peripheral fails a scan and cannot be updated to pass, it is\n               prohibited from being connected to USDA infrastructure, or a waiver must be\n               requested and approved, permitting the scan-failing peripheral to be used in the\n               end user’s environment;\n\n           (e) Procuring hardware and software from enterprisewide BPAs (this does not\n               apply to lab equipment); and\n\n           (f) Ensuring that Mission Areas, agencies, and staff offices support and participate\n               in the enterprise configuration and change management (ENTCCM) change\n               advisory boards (CAB).\n\n  d.   The ENTCCM CAB will:\n\n       (1) Focus on the change and configuration management for USDA enterprisewide end\n           user management. Assist in the maintenance, stability, reliability, and performance\n           of the infrastructure and applications; and\n\n       (2) Carefully identify, analyze, plan, manage, test, and document ongoing changes at\n           the USDA enterprise and Mission Area, agency, or staff office levels to minimize\n           the possibility of any changes negatively impacting the performance or availability\n           of the enterprise system."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "210fb7d6-e60f-5c32-8952-a98a443ae9e0",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3170-001-7",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3170-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy; however, if a specific policy requirement cannot be met as explicitly stated,\n       Mission Areas, agencies, and staff offices may submit a waiver request by an individual\n       or for a functional group, such as Meat Inspector. Submit waiver requests by email to\n       the Category Management Team (SM.OCIO.CIO.Category.Management@usda.gov)\n       with “DR 3170” in the subject line. In the body of the email, present a brief explanation\n       of the violation and explain how a waiver will help business continue.\n\n  b.   All appropriate OCIO offices will have the opportunity to comment and provide\n       recommendations prior to the CIO’s final decision.\n\n  c.   Unless otherwise specified, Mission Areas, agencies, and staff offices will review and\n       renew approved policy waivers every fiscal year. Approved waivers for specialized\n       equipment with a continuing need will be tracked on an approved list. The CEC ACIO\n       will monitor waivers and provide recommendations for waivers to this policy to the\n       CIO.\n\n\n\n\n                                              6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "801a76c4-77c1-5f1f-9961-edbb4196a852",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3170-001-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3170-001-8-stmt",
+                "name": "statement",
+                "prose": "Direct all questions concerning this DR by email to the Category Management Team\n  (SM.OCIO.CIO.Category.Management@usda.gov) with “DR 3170” in the subject line.\n\n\n                                       -END-\n\n\n\n\n                                          7\n\f                               APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nACIO      Associate Chief Information Officer\nARM       Application Reference Model\nBPA       Blanket Purchase Agreement\nCAB       Change Advisory Board\nCEC       Client Experience Center (OCIO component)\nCIO       Chief Information Officer\nCPIC      Capital Planning and Investment Control\nDR        Departmental Regulation\nENTCCM    Enterprise Configuration and Change Management\nFAR       Federal Acquisition Regulation\nFEAF v2   Federal Enterprise Architecture Framework, Version 2\nFISMA     Federal Information Security Modernization Act of 2014\nICS       Industrial Control Systems\nIPv6      Internet Protocol Version 6\nIRM       Infrastructure Reference Model\nIT        Information Technology\nNIST      National Institute of Standards and Technology\nOCIO      Office of the Chief Information Officer\nOMB       Office of Management and Budget\nSP        Special Publication\nU.S.C.    United States Code\nUSDA      United States Department of Agriculture\n\n\n\n\n                                    A-1\n\f                                           APPENDIX B\n\n                                          DEFINITIONS\n\n\nApplication Reference Model (ARM). A categorization of different types of software,\ncomponents, and interfaces. It includes software that supports or may be customized to support\nbusiness. It does not include operating systems or software used to operate hardware (e.g.,\nfirmware) because these are contained in the IRM. (Source: FEAF v2)\n\nCommon Criteria. This governing document provides a comprehensive, rigorous method for\nspecifying security function and assurance requirements for products and systems. (Source:\nNIST, SP 800-53 r5)\n\nInfrastructure Reference Model (IRM). The framework and taxonomy-based reference model\nfor categorizing IT infrastructure and the facilities that host and contain the IT infrastructure.\n(Source: FEAF v2)\n\nWorkstation. A desktop computer, a mobile device—such as a laptop computer, mobile phone,\nor tablet—or another computer or device that accesses the USDA network. (Source: NIST, SP\n800-82 r2, Guide to Industrial Control Systems (ICS) Security)\n\n\n\n\n                                                B-1\n\f                                       APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nClinger-Cohen Act of 1996, 40 U.S.C. § 11101 et seq., February 10, 1996\n\nThe Common Approach to Federal Enterprise Architecture, May 2, 2012\n\nDigital Government: Building a 21st Century Platform to Better Serve the American People,\nMay 23, 2012\n\nE-Government Act of 2002, 44 U.S.C § 3601, December 17, 2002\n\nFederal Acquisition Regulation (FAR) § 13.303, Blanket purchase agreements (BPAs)\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551 et seq.,\nDecember 18, 2014\n\nNIST, SP 800-53 r5, Security and Privacy Controls for Information Systems and Organizations,\nRevision 5, September 2020, includes updates as of December 10, 2020\n\nNIST, SP 800-82 r2, Guide to Industrial Control Systems (ICS) Security, Revision 2, May 2015\n\nOMB, Circular A-11, Preparation, Submission, and Execution of the Budget, August 2022\n\nOMB, Circular A-119, Federal Participation in the Development and Use of Voluntary\nConsensus Standards and in Conformity Assessment Activities, Revised, January 27, 2016\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, Revised, July 28, 2016\n\nOMB, Federal Enterprise Architecture Framework, Version 2 (FEAF v2), January 29, 2013\n\nOMB, M-00-10, OMB Procedures and Guidance on Implementing the Government Paperwork\nElimination Act, April 25, 2000\n\nOMB, M-05-22, Transition Planning for Internet Protocol Version 6 (IPv6), August 2, 2005\n\nOMB, M-11-29, Chief Information Officer Authorities, August 8, 2011\n\nOMB, M-12-10, Implementing PortfolioStat, March 30, 2012\n\nOMB, M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying OMB\nMemoranda, June 15, 2017\n\nUSDA, DR 3180-001, Information Technology Standards, January 5, 2021\n\n\n\n                                             C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "180e024f-5709-5291-a7be-8bc95bbcc9b7",
+          "title": "USDA Directives — DR3170-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3170-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

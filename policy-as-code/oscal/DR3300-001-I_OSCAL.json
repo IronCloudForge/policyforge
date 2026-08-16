@@ -1,0 +1,288 @@
+{
+  "catalog": {
+    "uuid": "a8258c29-a2fa-52f0-b17d-9cb83420e1bf",
+    "metadata": {
+      "title": "USDA DR3300-001-I: Internet",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2019-07-29",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-001-I"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2019-07-29"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-001-i",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Digital",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-001-i",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Digital"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b24072a0-5ba2-589c-957e-b7bd4790b67d",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3300-001-i-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3300-001-i-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes policy for the management and use of the\n     Internet in the United States Department of Agriculture (USDA)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5a6411ff-edd6-56d4-b90c-e87a08bacf9d",
+        "class": "section",
+        "title": "Special Instruction/Cancellations",
+        "controls": [
+          {
+            "id": "dr3300-001-i-2",
+            "class": "policy-requirement",
+            "title": "Special Instruction/Cancellations",
+            "parts": [
+              {
+                "id": "dr3300-001-i-2-stmt",
+                "name": "statement",
+                "prose": "a.   This regulation supersedes DR 3300-001-I, Internet, dated March 23, 1999.\n\n     b.   The term “agency,” or “agencies and staff offices,” unless otherwise noted in this\n          directive, will be considered to encompass the Mission Areas, agencies, and staff offices\n          of USDA.\n\f  c.   Agencies and staff offices may supplement this DR when developing their internal\n       operating procedures. Modifications to the intent or purpose of this DR are not\n       allowed. If agencies or staff offices publish a supplement to this DR, one copy of\n       each supplement shall be forwarded to the Office of the Chief Information Officer\n       (OCIO), Enterprise Network Services (ENS), Telecommunications Infrastructure\n       Management and Governance (TIMG) at ens.policy@ocio.usda.gov."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0ee881ac-cf74-5b33-bff1-ebc6930cdc0c",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3300-001-i-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3300-001-i-3-stmt",
+                "name": "statement",
+                "prose": "a.   The Internet is composed of a large number of interconnected worldwide networks\n       ranging from intra-building local area networks (LAN) to global wide-area networks.\n       Over the years, the Internet has expanded to include Government information,\n       educational information systems, archives, and business resources. The USDA\n       authorizes the use of the Internet to support Departmental, agency, and staff office\n       missions.\n\n  b.   The Internet is an integral part of service delivery at USDA as high-speed networking\n       technologies and developments have made it a desirable source for conducting research,\n       disseminating information, and communicating. Access to the Internet is provided\n       through the USDA Universal Telecommunications Network (UTN)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1d85603d-0456-510b-b520-d163d865b4c6",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3300-001-i-4",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3300-001-i-4-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, staff offices, contractors, data centers,\n  cloud service providers, cooperative partners, employees, and others working for, or on\n  behalf of, the USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9793137d-9ade-5366-95d5-c26439c515ba",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3300-001-i-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3300-001-i-5-stmt",
+                "name": "statement",
+                "prose": "USDA policy allows and encourages the use of Internet services to support Departmental,\n  agency, and staff office missions. Users of the Internet shall adhere to the following policy\n  regarding the content and management of Internet data and information.\n\n  a.   Appropriate Uses of the Internet\n\n       (1) The Internet may be used for, but is not limited to, the following purposes:\n\n            (a) The communication and exchange of data between state and local\n                governments, private sector organizations, and educational and research\n                institutions, both in the United States and abroad;\n\n            (b) The development of Internet-based projects;\n\n\n\n                                               2\n\f         (c) Interactive sharing of information without compromising USDA secured\n             data;\n\n         (d) The exchange of any non-sensitive data between USDA entities in support\n             of Departmental mission, agency and staff office missions, or other official\n             purposes; and\n\n         (e) The distribution and collection of information related to official program\n             delivery that is in compliance with Federal and Departmental guidelines.\n\n     (2) In accordance with the Federal Chief Information Officer (CIO) Council’s\n         Recommended Executive Branch Model Policy/Guidance on “Limited Personal\n         Use” of Government Office Equipment Including Information Technology\n         (Limited Personal Use), dated May 19, 1999, employees may use the Internet for\n         personal matters on an occasional basis provided that there is no loss of employee\n         productivity or interference with official employee duties.\n\nb.   Inappropriate Uses of the Internet\n\n     In accordance with the Limited Personal Use guidance, employees must not use the\n     Internet:\n\n     (1) To conduct activities that are illegal, inappropriate, or offensive to fellow\n         employees or the public. Such activities include, but are not limited to, hate speech\n         or material that ridicules others on the basis of race, creed, religion, color, sex,\n         disability, national origin, or sexual orientation;\n\n     (2) To create, download, view, store, copy, or transmit sexually explicit or sexually\n         oriented materials;\n\n     (3) To create, download, view, store, copy, or transmit materials related to illegal\n         gambling, illegal weapons, terrorist activities, and any other illegal activities or\n         activities otherwise prohibited;\n\n     (4) To conduct activities that could cause congestion, delay, or disruption of service to\n         any Government system or equipment. For example, video or other large file\n         attachments can degrade the performance of the entire network;\n\n     (5) For commercial purposes or in support of for-profit activities or other outside\n         employment or business activity (e.g., consulting for pay or sales of goods and\n         services);\n\n     (6) To engage in any outside fundraising activity, endorse any product or service,\n         participate in any lobbying activity, or engage in any prohibited partisan political\n         activity;\n\n\n\n                                              3\n\f     (7) To post Departmental information to external newsgroups, bulletin boards, or other\n         public forums without authority; and\n\n     (8) To conduct activities that could generate more than a minimal expense to the\n         Government.\n\nc.   Proper Representation\n\n     In accordance with the Limited Personal Use, it is the responsibility of employees to\n     ensure they are not giving the false impression that they are acting in an official capacity\n     when they are using Government equipment for non-Government purposes. If there is\n     an expectation that such a personal use could be interpreted to represent an agency or\n     staff office, then an adequate disclaimer must be used. One acceptable disclaimer is\n     “The contents of this message are mine personally and do not reflect any position of the\n     Government or my agency.”\n\nd.   Privacy\n\n     USDA employees have no reasonable expectation of privacy regarding any\n     communications involving, or data transiting or stored on, any Government\n     telecommunications system. At any time, the Government may for any lawful\n     government purpose monitor, intercept, search, and seize any communication, or data\n     transiting or stored, on a Government telecommunications system. Any\n     communications involving, or data transiting or stored, on any Government\n     telecommunications system may be disclosed or used for any lawful government\n     purpose. Use of Government telecommunications systems, including incidental and\n     personal use, whether authorized or unauthorized, implies the employee’s consent to\n     monitoring, which is final and irrevocable. Employees may not rely on any statements\n     or informal policies purporting to provide any expectation of privacy on Government\n     telecommunications systems, whether oral or written, by any other official, except\n     USDA’s Chief Information Officer.\n\ne.   USDA UTN\n\n     (1) The USDA UTN shall be used exclusively by USDA agencies and staff offices to\n         connect to the Internet except in instances where a waiver to the use of the UTN has\n         been granted by the ENS Director. Information about waivers is provided in\n         Section 7 of this DR.\n\n     (2) The USDA UTN shall use the most current General Services Administration (GSA)\n         approved contract for circuits to connect to the Internet and to transport inter-Local\n         Access and Transport Area (interLATA) data between USDA agencies and staff\n         offices via the Internet.\n\n\n\n\n                                              4\n\ff.   Transition to Internet Protocol version 6 (IPv6)\n\n     (1) The Office of Management and Budget (OMB), Memorandum for Chief\n         Information Officers of Executive Department and Agencies, Transition to IPv6,\n         dated September 28, 2010, specifies that the Federal Government must transition to\n         IPv6 in order to:\n\n         (a) Enable the successful deployment and expansion of key Federal information\n             technology (IT) modernization initiatives, such as Cloud Computing,\n             Broadband, and SmartGrid, which rely on robust, scalable Internet networks;\n         (b) Reduce complexity and increase transparency of Internet services by\n             eliminating the architectural need to rely on Network Address Translation\n             (NAT) technologies;\n\n         (c) Enable ubiquitous security services for end-to-end network communications\n             that will serve as the foundation for securing future Federal IT systems; and\n\n         (d) Enable the Internet to continue to operate efficiently through an integrated,\n             well-engineered networking platform and accommodate the future expansion\n             of Internet-based services.\n\n     (2) The Federal Acquisition Regulation (FAR), 48 Code of Federal Regulations\n         (CFR) Part 11.002 (g), sets the requirements for OMB’s goal that Federal\n         agencies include IPv6 compliance when buying networked IT products. In\n         accordance with the OMB memorandum and FAR, all contracts that include\n         the acquisition of IT using Internet Protocol (IP) must contain IPv6 contract\n         clause language. This language can be found in USDA Procurement\n         Advisory 127, Acquiring Information Technology - Recommended\n         Language to Comply with Internet Protocol version 6 (IPv6).\n\ng.   Internet Protocol Addressing\n\n     (1) To access the Internet via the USDA UTN, agencies and staff offices must\n         use officially registered USDA IP addresses as explained in DR 3300-001-\n         M, Internet Protocol (IP) Addresses.\n\n     (2) Official IP addresses uniquely distinguish each host or device connected to the\n         network. The OCIO, ENS is the IP addressing and domain name registration\n         authority for USDA.\n\n     (3) Agencies and staff offices shall not connect a host or other device that uses IP\n         and has an unregistered IP address to the Internet, the USDA UTN, or to any\n         network connected to either of these networks.\n\n     (4) Agencies and staff offices will modify their IP addressing plans to include the\n         planned efficiencies and to bring all existing IP addresses in compliance with\n         DR 3300-001-M.\n\n                                             5\n\f  h.   Security\n\n       (1) USDA connections to the internet allow many types of threat activities to be\n           executed against the USDA IT infrastructure. Threat activities range from social\n           threats such as phishing, spam, password guessing, visiting malware infected\n           websites, exploitation of application vulnerabilities and misconfigurations, and\n           data-malformation.\n\n       (2) To defend USDA IT assets against the diverse types of weaknesses and threats, a\n           series of cybersecurity policies are continually being created and updated. USDA\n           cybersecurity policies can be found in the USDA 3500 to 3599 Series cybersecurity\n           directives.\n\n  i.   Pursuant to the authority vested in the Inspector General Act of 1978, 5 United States\n       Code (U.S.C.) Appendix 3, Sections 1-12, the Office of the Inspector General is exempt\n       from the provisions in this directive for mission-related activities only."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4761655f-9d47-5438-8a0e-535703dd50ad",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3300-001-i-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3300-001-i-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO will:\n\n       (1) In accordance with the Federal Information Technology Acquisition Reform Act\n           (FITARA) of December 19, 2014:\n\n           (a) Establish processes to regularly engage with program managers to evaluate IT\n               resources supporting the strategic objectives of agency and staff offices;\n\n           (b) Define enterprise policy for the level of detail of planned expenditure reporting\n               for all transactions that include IT resources;\n\n           (c) Define the development processes, milestones, review gates, and the overall\n               polices for all capital planning, enterprise architecture (EA), project\n               management, and reporting for IT resources;\n\n           (d) Approve any movement of funds for IT resources that require Congressional\n               notification; and\n\n           (e) Conduct TechStat reviews, or use other applicable performance measurements\n               to evaluate the use of IT resources.\n\n       (2) Represent the USDA to the Federal CIO Council, GSA, and OMB regarding\n           requests for exceptions to mandatory telecommunications services contracts;\n\n\n\n\n                                              6\n\f     (3) Represent the USDA to oversight agencies, such as OMB, Government\n         Accountability Office (GAO), Department of Homeland Security (DHS),\n         Department of Commerce (DOC), and Federal Communications Commission\n         (FCC) on telecommunications-related issues;\n\n     (4) Respond to oversight agencies with timely and accurate USDA telecommunications\n         program and cost information;\n\n     (5) Serve as the USDA liaison with international, interLATA and intra-Local Access\n         and Transport Area (intraLATA) telecommunications service providers; and\n     (6) Serve as the USDA representative to the Diplomatic Telecommunications Service\n         Program Office (DTSPO).\n\nb.   The ENS Director will:\n\n     (1) Establish procedures for monitoring, measuring, and enforcing compliance with this\n         DR;\n\n     (2) Oversee agency and staff office compliance with USDA Internet policies and\n         procedures;\n\n     (3) Review security documentation to ensure that agency and staff office\n         verification of security controls provided by private Internet Service Providers\n         (ISP) is adequate;\n\n     (4) Maintain a database of approved private ISPs used by agencies and staff offices\n         in lieu of the USDA Access Network;\n\n     (5) Perform vulnerability and risks assessments on agency and staff office network\n         sites that connect to the USDA UTN;\n\n     (6) Process agency and staff office requests for IP network and subnetwork\n         addresses and autonomous system;\n\n     (7) Refer all IP address service requests not received from an agency or staff office\n         point-of-contact (POC) to the appropriate agency POC;\n\n     (8) Maintain a complete inventory of officially registered USDA IP network and\n         subnetwork addresses used by agencies and staff offices;\n\n     (9) Operate the primary name server for the USDA UTN;\n\n     (10) Process agency and staff office requests for domain names and domain\n          management and request the allocation of domain names from GSA in the order\n          of request receipt;\n\n\n\n                                             7\n\f     (11) In accordance with DR 3150-001, Internet Domain Name Policy, and DR 3300-\n          025, Secure Domain Name System, manage and maintain the Domain Name\n          System (DNS) for USDA, including a complete inventory of officially\n          registered domain names used by USDA agencies and staff offices;\n\n     (12) Manage the DNS for any agency or staff office that requests a specific domain\n          name but does not manage its own DNS;\n\n     (13) Monitor usage of the Internet and maintain usage statistics;\n\n     (14) Ensure USDA Internet access is protected by a firewall that meets requirements\n          specified in DR 3140-001, USDA Information Systems Security Policy.\n\n     (15) Manage USDA telecommunications services, equipment, and facilities in\n          accordance with prescribed laws, regulations, standards, and related USDA 3300\n          Series telecommunications directives;\n\n     (16) Review and render a decision for agency and staff office policy waiver requests;\n\n     (17) Maintain an electronic file of approved waivers;\n\n     (18) Work with agencies and staff offices to eliminate redundant or unused services and\n          equipment;\n\n     (19) Include telecommunications requirements and initiatives as part of the\n          telecommunications planning process;\n\n     (20) Use GSA and USDA mandated acquisition programs when agency and staff office\n          requirements can be met cost-effectively;\n\n     (21) Maintain inventories of USDA telecommunications resources to the extent\n          necessary to:\n\n         (a) Ensure adequate and appropriate telecommunications resources to support the\n             agency and staff office mission;\n\n         (b) Ensure accountability for USDA telecommunications property; and\n\n         (c) Meet Departmental and Governmental requests for periodic or special\n             inventory reports.\n\nc.   Mission Area Assistant CIOs and Agency and Staff Office IT Directors will:\n\n     (1) Ensure agency and staff office personnel comply with this directive;\n\n\n\n\n                                             8\n\f       (2) Ensure agency and staff office internal directives conform to this DR’s stated\n           requirements;\n\n       (3) Provide guidance to end users on the appropriate and secure use of Government\n           systems-interfacing telecommunications equipment;\n\n       (4) Include telecommunications requirements and initiatives as part of the\n           telecommunications planning process;\n\n       (5) Use enterprise telecommunications or regional contracts for Continental United\n           States (CONUS) and Outside the Continental United States (OCONUS)\n           telecommunications services;\n\n       (6) Establish controls for the strict management and oversight of all non-standard\n           options in telecommunications services contracts for which the Government will be\n           billed to avoid potential telecommunications fraud and abuse;\n\n       (7) Assign a Telecommunications Mission Area Control Officer (TMACO) to select\n           required telecommunications service from GSA Program contracts for the agency\n           or staff office. More information on this topic can be found in DR 3300-020,\n           Telecommunications Mission Area Control Officer Roles and Responsibilities;\n\n       (8) Obtain waivers and approvals from the ENS Director when agency and staff office\n           requirements cannot be met through mandated programs; and\n\n       (9) Provide the TMACO’s name and contact information to the DTSPO and USDA\n           CIO.\n\n  d.   The roles and responsibilities for TMACOs are provided in DR 3300-020."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f15abd7e-64bc-59ed-b6fa-4016aa10ac03",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Noncompliance",
+        "controls": [
+          {
+            "id": "dr3300-001-i-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Noncompliance",
+            "parts": [
+              {
+                "id": "dr3300-001-i-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, October 4,\n       2007, sets forth USDA’s policies, procedures, and standards on employee\n       responsibilities and conduct relative to the use of computers and telecommunications\n       equipment. DR 4070-735-001, Section 21, states:\n\n       1.   A violation of any of the responsibilities and conduct standards contained in this\n            directive may be cause for disciplinary or adverse action; and\n\n       2.   Disciplinary or adverse action shall be effected in accordance with applicable law\n            and regulations.\n\n  b.   Such disciplinary or adverse action shall be effected in accordance with applicable\n       law and regulations such as Office of Personnel Management (OPM) regulations,\n\n                                               9\n\f       OMB regulations, and the Standards of Ethical Conduct for Federal Employees of\n       the Executive Branch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2fec4a06-898c-5a7c-bd6c-ca56642a16fa",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3300-001-i-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3300-001-i-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA agencies and staff offices are required to conform to this policy. In the event\n       that a specific policy requirement cannot be met as explicitly stated, agencies and staff\n       offices may submit a waiver request to the ENS Director. The waiver request shall\n       explain the reason for the request, identify compensating controls/actions that meet the\n       intent of the policy, and identify how the compensating controls/actions provide a\n       similar or greater level of defense or compliance than the policy requirement.\n\n  b.   Mission Area Assistant CIOs and Agency and Staff Office IT Directors shall address all\n       policy waiver request memoranda to the ENS Director, and submit the waiver request to\n       ens.policy@ocio.usda.gov for review and determination.\n\n  c.   Waivers to stipulations of this directive that have been granted approval by the ENS\n       Director and that are associated with a National Institute of Standards and Technology\n       (NIST) Special Publication (SP) 800-53 Revision 4, April 2013, control shall be\n       recorded and tracked as a Plan of Action and Milestones (POA&M) item in the USDA\n       Federal Information Security Modernization Act of 2014 (FISMA) data management\n       and reporting tool.\n\n  d.   Waivers will expire at the end of the fiscal year or 6 months from the date of approval,\n       whichever is longer. Unless otherwise specified, agencies and staff offices shall review\n       and renew approved policy waivers every fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "60cef528-6f00-506f-a1c2-383c95b421a3",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3300-001-i-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3300-001-i-9-stmt",
+                "name": "statement",
+                "prose": "Questions and comments concerning the requirements of this regulation should be\n  directed to OCIO, ENS, TIMG at ens.policy@ocio.usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                              10\n\f                                        APPENDIX A\n\n                                       DEFINITIONS\n\n\na.   Continental United States (CONUS). The 48 contiguous United States and the District\n     of Columbia. (Federal Travel Regulation, 41 Code of Federal Regulations (CFR) 300,\n     as amended, July 29, 2015)\n\nb.   Domain. A set of subjects, their information objects, and a common security policy.\n     (NIST, Interagency or Internal Report (IR) 7298 Revision 2, Glossary of Key\n     Information Security Terms, May 2013)\n\nc.   Domain Name System (DNS). DNS services are used by a Cloud Service Provider\n     (CSP) to run DNS servers for networking (DR 3650-001, Cloud Computing,\n     September 9, 2015)\n\nd.   Enterprise Architecture (EA). The description of an enterprise’s entire set of\n     information systems: how they are configured, how they are integrated, how they\n     interface to the external environment at the enterprise’s boundary, how they are\n     operated to support the enterprise mission, and how they contribute to the enterprise’s\n     overall security posture. (NIST, IR 7298 Revision 2)\n\ne.   Information Technology (IT). Any services or equipment, or interconnected system(s)\n     or subsystem(s) of equipment, that are used in the automatic acquisition, storage,\n     analysis, evaluation, manipulation, management, movement, control, display, switching,\n     interchange, transmission, or reception of data or information by the agency where such\n     services or equipment are used by an agency if used by the agency directly or if used by\n     a contractor under a contract with the agency that requires either use of the services or\n     equipment or requires use of the services or equipment to a significant extent in the\n     performance of a service or the furnishing of a product. The term information\n     technology includes computers, ancillary equipment, peripheral equipment designed to\n     be controlled by the central processing unit of a computer, software, firmware and\n     similar procedures, services and related resources. (OMB, M-15-14, Management and\n     Oversight of Federal Information Technology, June 10, 2015)\n\nf.   InterLATA. A telecommunications transmission between two or more locations that are\n     in different Local Access and Transport Areas. (Federal Communications Commission,\n     Consumer Guides)\n\ng.   Internet. The Internet is the single, interconnected, worldwide system of commercial,\n     governmental, educational, and other computer networks that share (a) the protocol\n     suite specified by the Internet Architecture Board (IAB), and (b) the name and address\n     spaces managed by the Internet Corporation for Assigned Names and Numbers\n     (ICANN). (NIST, IR 7298 Revision 2)Internet Protocol (IP). Standard protocol for\n\n\n\n                                           A-1\n\f     transmission of data from source to destinations in packet-switched communications\n     networks and interconnected systems of such networks. (NIST, IR 7298 Revision 2)\n\nh.   Internet Protocol (IP) Address. A numeric address allocated to identify nodes on a\n     Transmission Control Protocol (TCP)/IP network. These addresses can be statistically\n     of dynamically allocated. The current addressing scheme on the Internet is known as\n     Internet Protocol version 4 (IPv4) and IPv6. (Departmental Manual 3595-001, USDA\n     Cyber Security Manual Series 3500 Appendix A Glossary, May 16, 2005)\n\ni.   IntraLATA. A telecommunications transmission between two or more locations that\n     are in the same Local Access and Transport Areas. (Federal Communications\n     Commission, Consumer Guides)\n\nj.   Non-Foreign Area. The states of Alaska and Hawaii, the Commonwealths of Puerto\n     Rico and the Northern Mariana Islands, Guam, the U.S. Virgin Islands, and the\n     territories and possessions of the United States (excludes the former Trust Territories of\n     the Pacific Islands, which are considered foreign areas for the purposes of the Federal\n     Travel Regulation). (Federal Travel Regulation)\n\nk.   Outside the Continental United States (OCONUS). See Non-Foreign Area.\n\nl.   TechStat. TechStat is a face-to-face, evidence-based review of an IT program with\n     OMB and agency leadership . TechStat sessions enable the government to turnaround,\n     halt, or terminate IT investments that do not produce dividends for the American people.\n     (The White House, U.S. CIO, 25 Point Implementation Plan to Reform Federal\n     Information Technology Management, December 9, 2010)\n\nm. Telecommunications. Preparation, transmission, communication, or related\n   processing of information (writing, images, sounds, or other data) by electrical,\n   electromagnetic, electromechanical, electro-optical, or electronic means. (NIST, IR\n   7298 Revision 2)\n\nn.   Telecommunications Services. The services and solutions that deliver or augment\n     communications between users up to and including interstate and international\n     communications. Telecommunications services refer to communications services or\n     solutions specified as a discrete offering or set of capabilities. (DR 3300-020,\n     Telecommunications Mission Area Control Officer Roles and Responsibilities, October\n     13, 2016)\n\no.   USDA Universal Telecommunications Network (UTN). The USDA UTN is a logical\n     scalable network that coexists with other logical networks and will serve the Internet\n     access component for a USDA Enterprise Network. USDA access to the Internet\n     gateway is in the Washington, DC, metropolitan area and Fort Collins, CO. A USDA\n     Enterprise Network will be owned, managed, and operated by the USDA use applicable\n     GSA contact circuitry for all InterLATA transport of data, including email, applications\n     enabled by email, and data exchange.\n\n                                            A-2\n\f                                 APPENDIX B\n\n                     ACRONYMS AND ABBREVIATIONS\n\n\nCFR         Code of Federal Regulations\nCIO         Chief Information Officer\nCONUS       Continental United States\nCSP         Cloud Service Provider\nDOC         Department of Commerce\nDHS         Department of Homeland Security\nDNS         Domain Name System\nDR          Departmental Regulation\nDTSPO       Diplomatic Telecommunications Service Program Office\nEA          Enterprise Architecture\nENS         Enterprise Network Services\nFAR         Federal Acquisition Regulation\nFCC         Federal Communications Commission\nFISMA       Federal Information Security Modernization Act\nFITARA      Federal Information Technology Acquisition Reform Act\nGAO         Government Accountability Office\nGSA         General Services Administration\nIAB         Internet Architecture Board\nICANN       Internet Corporation for Assigned Names and Numbers\ninterLATA   Inter-Local Access and Transport\nintraLATA   Intra-Local Access and Transport\nIP          Internet Protocol\nIPv4        Internet Protocol version 4\nIPv6        Internet Protocol version 6\nISP         Internet Service Provider\nIR          Interagency or Internal Report\nIT          Information Technology\nLAN         Local Area Network\nNAT         Network Address Translation\nNIST        National Institute of Standards and Technology\nOCIO        Office of the Chief Information Officer\nOCONUS      Outside the Continental United States\nOMB         Office of Management and Budget\nOPM         Office of Personnel Management\nP.L.        Public Law\nPOA&M       Plan of Action and Milestones\nPOC         Point-of-Contact\nSP          Special Publication\nTCP         Transmission Control Protocol\nTMACO       Telecommunications Mission Area Control Officer\nTIMG        Telecommunications Infrastructure Management and Governance\n\n                                    B-1\n\fU.S.C.   United States Code\nUSDA     United States Department of Agriculture\nUTN      Universal Telecommunications Network\n\n\n\n\n                                   B-2\n\f                                       APPENDIX C\n\n                           AUTHORITIES AND REFERENCES\n\n\nE-Government Act of 2002, 44 U.S.C. §3501 (2017)\n\nFederal Acquisition Regulation (FAR), 48 CFR § 11, et seq. (2018)\n\nFederal CIO Council, Recommended Executive Branch Model Policy/Guidance on \"Limited\nPersonal Use\" of Government Office Equipment Including Information Technology, May 19,\n1999\n\nFederal Communications Commission, Consumer Guides\n\nFederal Information Security Modernization Act of 2014 (FISMA 2014), 44 U.S.C. §3551, et\nseq., December 18, 2014 (2017)\n\nFederal Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113-\n291, Title VIII, Subtitle D, §831-837, December 19, 2014\n\nFederal Travel Regulation, 41 CFR 300, as amended (2018)\n\nInspector General Act of 1978, 5 U.S.C., Appendix 3, Sections 1-12, et seq.\n\nNIST, IR 7298 Revision 2, Glossary of Key Information Security Terms, May 2013\n\nNIST, SP 800-53 Revision 4, Security and Privacy Controls for Federal Information Systems\nand Organizations, April 2013\n\nOffice of Government Ethics, Standards of Ethical Conduct for Employees of the Executive\nBranch, November 18, 2016, Effective January 1, 2017\n\nOMB, M-15-14, Management and Oversight of Federal Information Technology, June 10,\n2015\n\nOMB, Memorandum for Chief Information Officers of Executive Departments and Agencies,\nTransition to IPv6, September 28, 2010\n\nThe White House, U.S. CIO, 25 Point Implementation Plan to Reform Federal Information\nTechnology Management, December 9, 2010\n\nUSDA, Office of Contracting and Procurement, Procurement Advisory 127, Acquiring\nInformation Technology - Recommended Language to Comply with Internet Protocol version\n6 (IPv6), November 7, 2016\n\n\n\n                                          C-1\n\fUSDA, Departmental Manual 3595-001, USDA Cyber Security Manual Series 3500\nAppendix A Glossary, May 16, 2005\n\nUSDA, DR 3140-001, USDA Information Systems Security Policy, May 15, 1996\n\nUSDA, DR 3150-001, Internet Domain Name Policy, December 5, 2006\n\nUSDA, DR 3300-001-M, Internet Protocol (IP) Addresses, March 23, 1999\n\nUSDA, DR 3300-020, Telecommunications Mission Area Control Officer Roles and\nResponsibilities, October 13, 2016\n\nUSDA, DR 3300-025, Secure Domain Name System, March 18, 2016\n\nUSDA, DR 3650-001, Cloud Computing, September 9, 2015\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, 3300 Series Telecommunications Directives\n\nUSDA, 3500 to 3599 Series Cybersecurity Directives\n\n\n\n\n                                        C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "5bd8d0d2-548f-5800-b3dd-c04c74be5934",
+          "title": "USDA Directives — DR3300-001-I",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-001-i",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

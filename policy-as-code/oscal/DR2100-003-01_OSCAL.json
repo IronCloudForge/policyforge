@@ -1,0 +1,106 @@
+{
+  "catalog": {
+    "uuid": "ec90cb04-6261-5b18-b69e-811b73dcea69",
+    "metadata": {
+      "title": "USDA DR2100-003-01: Amendment to OCFO Biennial Review of Charges for Things of Value",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2005-08-01",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2100-003-01"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2005-08-01"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2100-003-01",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer – Financial Operations",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2100-003-01",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer – Financial Operations"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "7afe5d3d-2005-5c20-b52b-aa85adc981eb",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr2100-003-01-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr2100-003-01-1-stmt",
+                "name": "statement",
+                "prose": "U.S. DEPARTMENT OF AGRICULTURE\n                                                 WASHINGTON, D.C. 20250\n\n\n\n      AMENDMENT NO. 1               TO DEPARTMENTAL REGULATION                                   Number:\n                                                                                                 2100-003-01\n\n\n      SUBJECT: OCFO Biennial Review of           DATE OF AMENDMENT: August 1, 2005\n      Charges for Things of Value\n\n\n                                                 OPI: Office of the Chief Financial Officer – Financial Operations\n                                                 – Quality Assurance Division\n\n\n\n  1        PURPOSE\n\n           This Amendment transmits revised page 5 of the subject Departmental Regulation.\n\n\n  2        EXPLANATION OF CHANGES\n\n           This change was required by audit findings and recommendations of the FY 2004\n           Consolidated Financial Statements.\n\n\n  3        CHANGED PAGES\n\n                       Removed                                  Inserted\n\n                 Page 5 dated January 23, 2002         Page 5 dated August 1, 2005\n\n\n\n\nDISTRIBUTION 21"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "0dcedb55-9c28-59ed-982c-bfcd54fec236",
+          "title": "USDA Directives — DR2100-003-01",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2100-003-01",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

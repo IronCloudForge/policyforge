@@ -1,0 +1,298 @@
+{
+  "catalog": {
+    "uuid": "52db1523-bfd7-52ec-85a6-41f1dd28ccd8",
+    "metadata": {
+      "title": "USDA DR3545-001: Information Security Awareness (ISA) Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2023-10-25",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3545-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2023-10-25"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3545-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3545-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "f286b563-b5f8-5f1c-872a-add813330471",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3545-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3545-001-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the United States Department of\n          Agriculture (USDA) requirements for the USDA Information Security Awareness (ISA)\n          Program.\n\n     b.   This DR guides all USDA personnel to complete ISA or non-information technology\n          (IT) security training and required role-based training (RBT) on an annual basis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d8bc698b-4606-513b-bbf1-b17daba9bcfb",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3545-001-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3545-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all Mission Areas, agencies, and staff offices, and all USDA\n          personnel requiring access to Federal information or USDA information and information\n\f       systems. The term “USDA personnel” includes USDA employees, appointees,\n       contractors, partners, interns, fellows, affiliates, and volunteers.\n\n  b.   Nothing in this policy alters the requirements for protecting national security systems or\n       information. This includes those identified in the Federal Information Security\n       Modernization Act of 2014 (FISMA), policies, and directives, as issued by the\n       Committee on National Security Systems (CNSS), or by the intelligence community."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "32cd20c9-b4ec-5857-8879-43a8dec948ae",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3545-001-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3545-001-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 3545-001, Information Security Awareness and Training\n       Policy, dated October 22, 2013.\n\n  b.   This DR is effective when published. It will remain in effect until superseded or\n       expired.\n\n  c.   USDA Mission Areas, agencies, and staff offices will align their procedures with this\n       DR within 6 months of the publication date.\n\n  d.   This DR meets the following requirements:\n\n       (1) Federal Information Security Modernization Act of 2014, 44 United States Code\n           (U.S.C.) §§ 3551-3559;\n\n       (2) Office of Management and Budget (OMB) Circular A-130, Managing Information\n           as a Strategic Resource;\n\n       (3) OMB Memorandum M-16-17, OMB Circular A-123, Management’s Responsibility\n           for Enterprise Risk Management and Internal Control;\n\n       (4) National Institute of Standards and Technology (NIST) Federal Information\n           Processing Standards Publication (FIPS PUB) 200, Minimum Security\n           Requirements for Federal Information and Information Systems;\n\n       (5) NIST Special Publication (SP) 800-16, Information Technology Security Training\n           Requirements: A Role- and Performance-Based Model;\n\n       (6) NIST SP 800-50, Building an Information Technology Security Awareness and\n           Training Program;\n\n       (7) NIST SP 800-53, Revision 5, Security and Privacy Controls for Information\n           Systems and Organizations; and\n\n       (8) USDA DR 3620-001, USDA AgLearn Services, Courseware, and Content.\n\n\n\n\n                                               2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5f463969-8c92-5e83-8b33-54027339d8cb",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3545-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3545-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   The ISA program derives from NIST and National Initiative for Cybersecurity\n       Education (NICE) framework standards in alignment with NIST SP 800-181, Revision\n       1, Workforce Framework for Cybersecurity (NICE Framework). The ISA Program\n       provides essential knowledge and methods to protect information systems and data.\n       USDA personnel must complete ISA training or non-IT security training before they\n       receive USDA system access.\n\n  b.   USDA personnel with significant information security responsibilities (SISR) must also\n       complete RBT. This will support their job competency and help them develop skills\n       tailored to their role.\n\n  c.   This DR will guide USDA on implementing the ISA Program for security and privacy\n       training. The Departmental Training System of Record (DTSR) delivers and documents\n       training completed by USDA personnel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "98247ac3-83e3-525a-a738-1becbe93ee0d",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3545-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3545-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   The ISA Program will require all USDA personnel to complete ISA training or non-IT\n       security training, annually. USDA personnel who fail to meet this requirement will lose\n       access to USDA systems. Upon successful completion of training, access will resume.\n\n  b.   The ISA Program will:\n\n       (1) Expose USDA personnel to tools that promote ISA. These may include staff\n           meetings and forums, digital signage, phishing exercises, and warning messages;\n\n       (2) Document and analyze lessons learned, control activities, procedures, and tasks;\n\n       (3) Use qualitative and quantitative data to assess the effectiveness of the program; and\n\n       (4) Guide process improvement.\n\n  c.   The ISA Program training courses will:\n\n       (1) Inform USDA personnel of the Federal laws, regulations, guidelines, and\n           Departmental directives relating to information security and privacy; and\n\n       (2) Promote a culture of situational and security awareness.\n\n  d.   The DTSR will:\n\n       (1) Serve as the primary host for ISA training and RBT;\n\n\n\n\n                                                3\n\f       (2) Store all records of completion, Rules of Behavior, etc.;\n\n       (3) Document the ISA training status of all USDA personnel;\n\n       (4) Generate FISMA training metrics; and\n\n       (5) Retain records in accordance with USDA DR 3080-001, Records Management and\n           the National Archives and Records Administration, General Records Schedule\n           (GRS)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a36148cc-925c-58b3-8afc-eb5c09a9a6d7",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3545-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3545-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will:\n\n       (1) Direct the development of the ISA Program to ensure that all USDA personnel\n           receive annual RBT;\n\n       (2) Inform the Secretary of Agriculture, senior executives and managers, system\n           owners, and other stakeholders annually on the progress of the ISA Program\n           implementation as required by NIST SP 800-50;\n\n       (3) Ensure that the ISA Program has adequate funding to maintain training for USDA\n           personnel; and\n\n       (4) Coordinate with the Director of AgLearn to ensure that the DTSR is available and\n           maintained.\n\n  b.   The USDA Chief Information Security Officer (CISO) will:\n\n       (1) Develop and manage the ISA Program as part of the USDA IT Security Program.\n           The USDA CISO may assign a designee to carry out and oversee this function;\n\n       (2) Direct reviews of the ISA program metrics and the ability of USDA personnel to\n           meet the requirements;\n\n       (3) Deploy funds and resources needed to maintain the ISA Program in the DTSR;\n\n       (4) Ensure that ISA and security RBT course content is updated as needed;\n\n       (5) Ensure each Mission Area, agency, and staff office maintains oversight and\n           compliance with training requirements and this DR; and\n\n       (6) Document and provide annual reports to the CIO on the status and maturity of the\n           ISA Program.\n\n\n\n\n                                              4\n\fc.   The USDA Mission Area Assistant CIOs will:\n\n     (1) Ensure their Mission Area personnel complete the Departmental ISA training and\n         any RBT as required by FISMA; and\n\n     (2) Ensure that the completion of ISA training and RBT is tracked in the DTSR.\n\nd.   USDA Mission Area Assistant CISOs will coordinate with the USDA CISO to manage\n     the ISA Program at the Mission Area level.\n\ne.   Mission Area, Agency, and Staff Office Information Systems Security Managers (ISSM)\n     will:\n\n     (1) Ensure that all USDA personnel receive the ISA training and RBT for those with\n         SISR;\n\n     (2) Coordinate with the Mission Area Assistant CIO and procurement personnel to\n         ensure that relevant procurement documents include the USDA training\n         requirement language; and\n\n     (3) Generate metrics in the DTSR to show who has and has not completed the training.\n         Use the metrics to measure the effectiveness of the program.\n\nf.   The Director of AgLearn or their designee will:\n\n     (1) Ensure that the DTSR is available and maintained;\n\n     (2) Ensure that the associated personnel training data is accurate and complete;\n\n     (3) Maintain supporting documentation of the data recorded in the DTSR system;\n\n     (4) Ensure that USDA personnel who complete security training using an alternate\n         method (e.g., paper-based training) record course completion in the DTSR;\n\n     (5) Support the ISA Program in accordance with DR 3620-001;\n\n     (6) Document and analyze lessons learned on their programs, control activities,\n         procedures, and tasks; and\n\n     (7) Use this qualitative and quantitative data to assess effectiveness and to guide\n         process improvement.\n\ng.   Contracting Office Representatives will ensure that all contract personnel at USDA\n     complete the ISA training and RBT;\n\n\n\n\n                                             5\n\f  h.   USDA Managers and Supervisors will:\n\n       (1) Ensure that their personnel complete annual ISA or non-IT security training and any\n           RBT; and\n\n       (2) Ensure that their personnel report any known violation of this DR to their Mission\n           Area, agency, or staff office ISSM.\n\n  i.   All USDA Personnel will:\n\n       (1) Complete annual ISA training and any RBT as required; and\n\n       (2) Report any known violation of this ISA program directive to their Mission Area,\n           agency, or staff office ISSM or supervisor."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1af6adee-ba58-54b9-914c-0687f44e716b",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Noncompliance",
+        "controls": [
+          {
+            "id": "dr3545-001-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Noncompliance",
+            "parts": [
+              {
+                "id": "dr3545-001-7-stmt",
+                "name": "statement",
+                "prose": "DR 4070-735-001, Employee Responsibilities and Conduct, Section 16: Computers, sets\n  forth USDA-developed policies, procedures, and standards on the use of computers and\n  telecommunications equipment. In addition, DR 4070-735-001, Section 21: Disciplinary or\n  Adverse Action, states:\n\n  a.   Any violation of the responsibilities or standards in this DR may be cause for\n       disciplinary or adverse action; and\n\n  b.   Any disciplinary or adverse action taken will be consistent with the applicable laws and\n       regulations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "331ec68f-5272-515c-904d-326696777cca",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3545-001-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3545-001-8-stmt",
+                "name": "statement",
+                "prose": "USDA Mission Areas, agencies, and staff offices will conform to this policy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6c6e8b92-2e5b-582e-b346-01ad251b9ab5",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3545-001-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3545-001-9-stmt",
+                "name": "statement",
+                "prose": "Send any questions or concerns about this DR to the Office of the Chief Information Officer\n  (OCIO) Information Security Center (ISC) via email at SMD-PCB-Policy@usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                               6\n\f                                APPENDIX A\n\n                    ACRONYMS AND ABBREVIATIONS\n\n\nCFR        Code of Federal Regulations\nCIO        Chief Information Officer\nCISO       Chief Information Security Officer\nCNSS       Committee on National Security Systems\nDR         Departmental Regulation\nDTSR       Departmental Training System of Record\nE.O.       Executive Order\nFIPS PUB   Federal Information Processing Standards Publication\nFISMA      Federal Information Security Modernization Act\nGRS        General Records Schedule\nISA        Information Security Awareness\nISC        Information Security Center (OCIO component)\nISSM       Information Systems Security Manager\nIT         Information Technology\nNICE       National Initiative for Cybersecurity Education\nNIST       National Institute of Standards and Technology\nOCIO       Office of the Chief Information Officer\nOMB        Office of Management and Budget\nPII        Personally Identifiable Information\nRBT        Role-Based Training\nSISR       Significant Information Security Responsibilities\nSP         Special Publication\nU.S.C.     United States Code\nUSDA       United States Department of Agriculture\n\n\n\n\n                                      A-1\n\f                                         APPENDIX B\n\n                                        DEFINITIONS\n\n\nInformation Security. The protection of information and information systems from unauthorized\naccess, use, disclosure, disruption, modification, or destruction. This is to protect information\nconfidentiality, integrity, and availability. (Adapted from: 44 U.S.C. § 3542, Definitions)\n\nInformation System. A discrete set of information resources organized for the collection,\nprocessing, maintenance, use, sharing, dissemination, or disposition of information. (Adapted\nfrom: OMB, Circular A-130)\n\nTraining. Teaching people the knowledge and skills that will enable them to perform their jobs\nmore effectively. (Adapted from: NIST, SP 800-16)\n\n\n\n\n                                              B-1\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n5 U.S.C. § 2105, Employee\n\n44 U.S.C. § 3542, Definitions\n\nAcquisition.gov, Federal Acquisition Regulation, June 28, 2023\n\nCNSS, Introducing the CNSS Library, May 6, 2016\n\nE-government Act of 2002, 44 U.S.C. § 101, Joint Committee on Printing: Membership\n\nExecutive Order (E.O.) 12968, Access to Classified Information, August 2, 1995\n\nE.O. 13556, Controlled Unclassified Information, November 4, 2010\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §§ 3551-3559\n\nFederal Information Technology Acquisition Reform Act, Public Law 113-291, December 19,\n2014\n\nThe Government Employees Training Act, 5 U.S.C. §§ 4101-4121\n\nNARA, General Records Schedules (GRS) website\n\nNIST, Computer Security Resource Center, Glossary\n\nNIST, FIPS PUB 200, Minimum Security Requirements for Federal Information and Information\nSystems, March 2006, as amended\n\nNIST, Information Technology Laboratory Bulletin, How to Identify Personnel with Significant\nResponsibilities for Information Security, June 2010\n\nNIST, NIST Privacy Framework: A Tool for Improving Privacy through Enterprise Risk\nManagement, Version 1.0, January 16, 2020\n\nNIST, SP 800-16, Information Technology Security Training Requirements: A Role- and\nPerformance-Based Model, April 1998, as amended\n\nNIST, SP 800-30, Revision 1, Guide for Conducting Risk Assessments, September 2012, as\namended\n\n\n\n\n                                             C-1\n\fNIST, SP 800-50, Building an Information Technology Security Awareness and Training\nProgram, October 2003, as amended\n\nNIST, SP 800-53, Revision 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020, includes updates as of December 10, 2020, as amended\n\nNIST, SP 800-181, Revision 1, Workforce Framework for Cybersecurity (NICE Framework),\nNovember 2020, as amended\n\nOffice of Government Ethics, 5 Code of Federal Regulations (CFR) § 2635, et seq., Standards of\nEthical Conduct for Employees of the Executive Branch\n\nOffice of Personnel Management, 5 CFR § 930.301, Information Systems Security\nAwareness Training Program, as amended\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016, as\namended\n\nOMB, M-16-17, OMB Circular A-123, Management’s Responsibility for Enterprise Risk\nManagement and Internal Control, July 15, 2016\n\nOMB, M-17-12, Preparing for and Responding to a Breach of Personally Identifiable\nInformation, January 3, 2017\n\nUSDA, DR 3080-001, Records Management, August 16, 2016, as amended\n\nUSDA, DR 3300-001, Telecommunications & Internet Services and Use, March 18, 2016, as\namended\n\nUSDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019,\nas amended\n\nUSDA, DR 3505-005, Cybersecurity Incident Management, November 30, 2018, as amended\n\nUSDA, DR 3515-002, Privacy Policy and Compliance for Personally Identifiable Information\n(PII), October 30, 2020, as amended\n\nUSDA, DR 3530-006, Scanning and Remediation of Configuration and Patch Vulnerabilities,\nJune 5, 2019, as amended\n\nUSDA, DR 3620-001, USDA AgLearn Services, Courseware, and Content, September 9, 2019,\nas amended\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007, as\namended\n\n\n\n\n                                             C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "3f871ad6-f78f-5c2e-b1da-2499711c9ea1",
+          "title": "USDA Directives — DR3545-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3545-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

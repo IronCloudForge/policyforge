@@ -1,0 +1,301 @@
+{
+  "catalog": {
+    "uuid": "1837801b-66e6-55bd-966b-538d8d74eed4",
+    "metadata": {
+      "title": "USDA DR1042-042: Agricultural Statistics Board",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2009-05-29",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1042-042"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2009-05-29"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1042-042",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "National Agricultural Statistics Service",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1042-042",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "National Agricultural Statistics Service"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "4cb5be47-55e9-5e7c-bbef-be23e0ae00b6",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1042-042-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1042-042-1-stmt",
+                "name": "statement",
+                "prose": "a. This regulation describes responsibilities of the Agricultural Statistics Board (ASB) to\n      prepare and issue the official National and State forecasts and estimates of the\n      Department relating to crop production, stocks of agricultural commodities, livestock and\n      livestock products, dairy and dairy products, poultry and poultry products, agricultural\n      prices, economic information, agricultural wage rates, chemical usage, and such other\n      subjects as the Administrator of the National Agricultural Statistics Service may direct.\n\n   b. NASS Headquarters and Field Offices will gather information for official forecasts and\n      estimates from farmers and ranchers and from processors, dealers, cooperating State and\n      local officials, government agencies and from other sources; and from peanut processors,\n      holders, dealers, owners, manufacturers of peanut products, and grower cooperative\n      associations (7 U.S.C. 951 et. seq.). Information will be collected by telephone, mail or\n      internet questionnaire, personal enumeration, or by other appropriate means."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8972c5f2-5429-5acd-b366-eecd4c545298",
+        "class": "section",
+        "title": "Cancellation",
+        "controls": [
+          {
+            "id": "dr1042-042-2",
+            "class": "policy-requirement",
+            "title": "Cancellation",
+            "parts": [
+              {
+                "id": "dr1042-042-2-stmt",
+                "name": "statement",
+                "prose": "This regulation supersedes DR 1042-42 dated August 29, 2002."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b4d1acb1-6305-59b6-8bb1-fc4ded15a443",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1042-042-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1042-042-3-stmt",
+                "name": "statement",
+                "prose": "The Agricultural Statistics Board will prepare and issue prescribed reports in a timely\n   manner and use diligence in preventing unauthorized access to confidential information."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "411efd7e-c05f-5b8c-83e2-806f2e2c6c79",
+        "class": "section",
+        "title": "Abbreviations",
+        "controls": [
+          {
+            "id": "dr1042-042-4",
+            "class": "policy-requirement",
+            "title": "Abbreviations",
+            "parts": [
+              {
+                "id": "dr1042-042-4-stmt",
+                "name": "statement",
+                "prose": "ASB - Agricultural Statistics Board\n   NASS - National Agricultural Statistics Service\n   FO - Field Office\n   WAOB - World Agricultural Outlook Board\n   ICEC - Interagency Commodity Estimates Committee\n\fDR 1042-042                                                                   May 29, 2009"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "30299fd3-5bb8-5500-8736-af4ac36a9978",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr1042-042-5",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr1042-042-5-stmt",
+                "name": "statement",
+                "prose": "a. ASB. The Agricultural Statistics Board for any commodity is comprised of the\n      Chairperson, Executive Director, Chief of the appropriate Commodity Branch, and\n      designated statisticians from Headquarters and Field Offices. The Chairperson will\n      preside over all Board meetings outlined in 7.b, c, and d. In the absence of the\n      Chairperson, the Executive Director will preside over the meetings outlined in 7.b, c, and\n      d; otherwise a Statistics Division Branch Chief may preside over board meetings as\n      designated by the Chairperson.\n\n   b. Sensitive But Unclassified Data (SBU). These are Field Office analyses and preliminary\n      estimates of acreage, yield, production, stocks, and inventories used in the preparation of\n      reports for agricultural commodities produced in the States identified below. These\n      commodities are traded on futures exchanges and production is concentrated in a small\n      number of States. Access to analyses and preliminary estimates from these States would\n      allow a person to anticipate ASB reports pertaining to the designated commodities.\n\n       The following commodities and States are covered by this definition:\n\n       (1) Corn in Illinois, Kansas, Indiana, Iowa, Minnesota, Missouri, Nebraska, Ohio, South\n           Dakota, and Wisconsin.\n\n       (2) Soybeans in Arkansas, Illinois, Indiana, Iowa, Kansas, Minnesota, Missouri,\n           Nebraska, North Dakota, Ohio, and South Dakota.\n\n       (3) Cotton in Arkansas, Georgia, Louisiana, Mississippi, North Carolina, and Texas.\n\n       (4) Winter wheat in Colorado, Illinois, Kansas, Missouri, Montana, Nebraska, Ohio,\n           Oklahoma, Texas, and Washington.\n\n       (5) Durum wheat in North Dakota.\n\n       (6) Other spring wheat in Minnesota, Montana, and North Dakota.\n\n       (7) Oranges in Florida.\n\n       (8) Cattle inventory in California, Colorado, Iowa, Kansas, Missouri, Nebraska,\n           Oklahoma, South Dakota, Texas, and Wisconsin.\n\n       (9) Hogs in Illinois, Indiana, Iowa, Kansas, Minnesota, Missouri, Nebraska, North\n           Carolina, Ohio, and Oklahoma.\n\n\n\n\n                                               2\n\fMay 28, 2009                                                                            DR 1042-042\n\n\n\n\n   c. Reports. ASB publications of agricultural estimates and/or other data. These reports are\n      authorized by law, regulation, or the Administrator of NASS.\n\n   d. Estimates. Official National and State statistics relating to agricultural facts that have\n      already occurred such as present inventories and acreages or crop production at the end\n      of season.\n\n   e. Forecasts. Official National and State statistics relating to expected agricultural\n      happenings such as yield and production forecasts during the growing season.\n\n   f. ASB Lockup Area. Restricted access areas occupied by statisticians and other employees\n      while preparing ASB reports."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fa7cd6ef-e664-57f7-a098-ece3e13b5cf1",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr1042-042-6",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr1042-042-6-stmt",
+                "name": "statement",
+                "prose": "a. Chairperson of the ASB. The Deputy Administrator for Programs and Products of NASS\n      is designated as the Chairperson of the ASB. In the absence of the Chairperson,\n      Section 5.a defines the Aacting@ designee. The duties of the Chairperson are as follow:\n\n       (1) Presides over all ASB meetings.\n\n       (2) Approves instructions, techniques, and procedures to be followed in analyzing\n           pertinent data and preparing official estimates.\n\n       (3) Approves each report.\n\n       (4) Releases each report or gives notice of any delay.\n\n   b. Executive Director of the ASB. The NASS Director of the Statistics Division is\n      designated as the Executive Director of the ASB. The duties of the Executive Director\n      are as follow:\n\n       (1) Assumes duties of ASB Chairperson during his/her absence.\n\n       (2) Selects members for each ASB report;\n\n           (a) For reports to be signed by the Secretary of Agriculture (see Section 9.a), the\n               Executive Director will select a minimum of four additional members including\n               members from NASS Field Offices as appropriate; and\n\n           (b) For other ASB reports, members will be selected as deemed necessary by the\n               Executive Director.\n\n       (3) Prepares agendas and issue notices of ASB meetings.\n\n\n\n                                              3\n\fDR 1042-042                                                                     May 29, 2009\n\n\n       (4) Approves instructions and procedures related to the operations of the ASB.\n\n       (5) Approves the Annual Release Schedule.\n\n   c. Secretary of the ASB. A NASS statistician in Headquarters, designated by the\n      Administrator. The duties of the Secretary are as follow:\n\n       (1) Assists the Chairperson and Executive Director in preparing instructions and\n           compiling statistical data.\n\n       (2) Prepares the Annual Release Schedule.\n\n       (3) Arranges for receipt of sensitive but unclassified data and ensures their security.\n\n       (4) Ensures that facilities for ASB meetings and publication are secure.\n\n       (5) Prepares and releases ASB reports.\n\n       (6) Manages press access.\n\n   d. U.S. Government Employees. All employees and contractors will follow established\n      guidelines to prevent unauthorized disclosure of information."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "20ef9cc4-cc1d-5452-b90e-e1a3fe43a92b",
+        "class": "section",
+        "title": "Data And Report Security",
+        "controls": [
+          {
+            "id": "dr1042-042-7",
+            "class": "policy-requirement",
+            "title": "Data And Report Security",
+            "parts": [
+              {
+                "id": "dr1042-042-7-stmt",
+                "name": "statement",
+                "prose": "a. All Data. Information in all ASB reports will be withheld from unauthorized disclosure\n      and publication until the day and hour of public issuance. The Chairperson or designee\n      may notify FOs, in advance of publication, of any changes made by the ASB to estimates\n      submitted by their offices, except as to commodities and reports described in Section 7.b.\n\n   b. Yield Forecast Data. Information for Crop Production yield forecasts for corn, winter\n      wheat, durum wheat, other spring wheat, cotton, soybeans, and oranges in the States\n      defined in Section 5.b will be withheld from unauthorized disclosure and publication\n      until the day and hour of public issuance. In addition, the yield forecasts for these crops\n      will only be determined in the ASB Lockup area after the area has been secured. This\n      precludes any contact with the named FOs after the final data analysis begins. The yield\n      forecasts to be prepared under these conditions are:\n\n       (1) Winter Wheat       -       May - August\n\n       (2) Spring Wheat       -       July - August\n\n       (3) Corn               -       August – November\n\n       (4) Soybeans           -       August - November\n\n\n\n                                               4\n\fMay 28, 2009                                                                             DR 1042-042\n\n\n       (5) Cotton             -       August - December\n\n       (6) Oranges           -       October and December\n       (January - August reports will be prepared following procedures in c & d below.)\n\n   c. Prospective Plantings, Acreage, Annual Production, and Stocks.\n\n       The Chairperson will preside over ASB meetings where U.S. level prospective plantings,\n       acreage, annual production, and stocks estimates for corn, winter wheat, durum wheat,\n       other spring wheat, cotton, and soybeans are analyzed and determined. Field office\n       personnel may be called upon by the Chairperson to provide additional analysis.\n\n   d. Cattle and Hogs.\n\n       The Chairperson will preside over all ASB meetings where U.S. level semi-annual\n       inventory of cattle and quarterly inventory of hogs and pigs are analyzed and determined.\n       Field office personnel may be called upon by the Chairperson to provide additional\n       analysis.\n\n   e. Statutory Provisions Relating to Unauthorized Disclosure of Crop Information and\n      Issuance of False Statistics.\n\n       (1) Title 18, U.S. Code, Section 1902. Disclosure of crop information and speculation\n           thereon. “Whoever, being an officer, employee or person acting for or on behalf of\n           the United States or any department or agency thereof, and having by virtue of his\n           office, employment or position, become possessed of information which might\n           influence or affect the market value of any product of the soil grown within the\n           United States, which information is by law or by the rules of such department or\n           agency required to be withheld from publication until a fixed time, willfully imparts,\n           directly or indirectly, such information, or any part thereof, to any person not entitled\n           under the law or the rules of the department or agency to receive the same; or, before\n           such information is made public through regular official channels, directly or\n           indirectly speculates in any such product by buying or selling the same in any\n           quantity, shall be fined under this title or imprisoned not more than ten years, or\n           both.”\n\n           “No person shall be deemed guilty of a violation of any such rules, unless prior to\n           such alleged violation he shall have had actual knowledge thereof.”\n\n       (2) Title 18, U.S. Code, Section 2072. False crop reports. “Whoever, being an officer\n           or employee of the United States or any of its agencies, whose duties require the\n           compilation or reports of statistics or information relating to the products of the soil,\n           knowingly compiles for issuance, or issues, any false statistics or information as a\n           report of the United States or any of its agencies, shall be fined under this title or\n           imprisoned not more than five years, or both.”\n\n\n\n                                               5\n\fDR 1042-042                                                                    May 29, 2009\n\n\n       (3) Title 7, U.S. Code, Section 2276. Confidentiality of information\n\n          (a) Authorized disclosure. “In the case of information furnished under a provision\n              of law..., neither the Secretary of Agriculture, any other officer or employee of the\n              Department of Agriculture or agency thereof, nor any other person may—\n\n              (1) use such information provided for a purpose other than the development or\n                  reporting of aggregate data in a manner such that the identity of the person\n                  who supplied such information is not discernible and is not material to the\n                  intended uses of such information; or\n\n              (2) disclose such information to the public, unless such information has been\n                  transformed into a statistical or aggregate form that does not allow the\n                  identification of the person who supplied particular information.”\n\n          (b) Duty of Secretary; immunity from disclosure; necessary consent.\n\n              (1) “...no department, agency, officer, or employee of the Federal Government,\n                  other than the Secretary of Agriculture, shall require a person to furnish a\n                  copy of statistical information provided to the Department of Agriculture.\n\n              (2) A copy of such information:\n\n                 1   shall be immune from mandatory disclosure of any type, including legal\n                     process; and\n                 2   shall not, without the consent of such person, be admitted as evidence or\n                     used for any purpose in any action, suit, or other judicial or administrative\n                     proceeding.”\n\n          (a) Violations; penalties. “Any person who shall publish, cause to be published, or\n              otherwise publicly release information collected pursuant to a provision of law...\n              in any manner or for any purpose ...shall be fined not more than $10,000 or\n              imprisoned for not more than 1 year, or both.”\n\n       (2) Public Law 107-347, Section 512. Limitations on use and disclosure of data and\n           information.\n\n          (a) “Use of statistical data or information.—Data or information acquired by an\n              agency under a pledge of confidentiality and for exclusively statistical purposes\n              shall be used by officers, employees, or agents of the agency exclusively for\n              statistical purposes.”\n\n          (b) “Disclosure of statistical data or information.—\n\n              (1) Data or information acquired by an agency under a pledge of confidentiality\n                  for exclusively statistical purposes shall not be disclosed by an agency in\n\n\n                                              6\n\fMay 28, 2009                                                                           DR 1042-042\n\n\n                  identifiable form, for any use other than an exclusively statistical purpose,\n                  except with the informed consent of the respondent.\n\n               (2) A disclosure pursuant to paragraph 1 is authorized only when the head of the\n                   agency approves such disclosure and the disclosure is not prohibited by any\n                   other law.\n\n               (3) This section does not restrict or diminish any confidentiality protections in\n                   law that otherwise apply to data or information acquired by an agency under a\n                   pledge of confidentiality for exclusively statistical purposes.\n\n               (4) Rule for use of data or information for nonstatistical purposes.—A statistical\n                   agency or unit shall clearly distinguish any data or information it collects for\n                   nonstatistical purposes (as authorized by law) and provide notice to the public,\n                   before the data or information is collected, that the data or information could\n                   be used for nonstatistical purposes.\n\n               (5) Designation of agents.—A statistical agency or unit may designate agents, by\n                   contract or by entering into a special agreement containing the provisions\n                   required under section 502(2) for treatment as an agent under that section,\n                   who may perform exclusively statistical activities, subject to the limitations\n                   and penalties described in this title.”\n\n       (3) Public Law 107-347, Section 513. Fines and penalties. “Whoever, being an officer,\n           employee, or agent of an agency acquiring information for exclusively statistical\n           purposes, having taken and subscribed the oath of office, or having sworn to observe\n           the limitations imposed by Section 512 (see below), comes into possession of such\n           information by reason of his or her being an officer, employee, or agent and, knowing\n           that the disclosure of the specific information is prohibited under the provisions of\n           this title, willfully discloses the information in any manner to a person or agency not\n           entitled to receive it, shall be guilty of a class E felony and imprisoned for not more\n           than 5 years, or fined not more than $250,000, or both.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a6860a5d-2d1f-505a-8879-d2eefd4e19da",
+        "class": "section",
+        "title": "Transmission And Handling Of Sensitive But Unclassified (Sbu)",
+        "controls": [
+          {
+            "id": "dr1042-042-8",
+            "class": "policy-requirement",
+            "title": "Transmission And Handling Of Sensitive But Unclassified (Sbu)",
+            "parts": [
+              {
+                "id": "dr1042-042-8-stmt",
+                "name": "statement",
+                "prose": "DATA\n\n   a. Transmission to Washington, D.C. Supporting comments and data analysis for sensitive\n      but unclassified commodities, from each FO, will be transmitted electronically to\n      Washington, D.C., in encrypted or otherwise secure form.\n\n   b. Handling Procedures in Washington, D.C. All electronic transmissions of crop yield\n      forecast data defined in Section 7.b will be captured in machine media, remain encrypted,\n      and placed in a secure and controlled storage area. The Secretary of the ASB or designee\n      will be the only person able to decrypt the data once the ASB Lockup area is secured.\n\n   c. Safeguarding Information in the ASB Lockup Area.\n\n\n                                              7\n\fDR 1042-042                                                                   May 29, 2009\n\n\n\n\n       (1) Immediately before the Board convenes for Crop Production forecasts, the ASB\n           Secretary will have a Federal Protective Officer stationed at the entrance of the ASB\n           Lockup area. Within the ASB Lockup area, all windows will be sealed, all doors\n           secured, and all means of communication disconnected or confiscated to prevent\n           outside contact. No wireless communication devices will be allowed inside the ASB\n           Lockup area.\n\n       (2) After the ASB Lockup area has been secured, the ASB Secretary or designee will\n           proceed with decryption of SBU data.\n\n       (3) The officer outside the ASB Lockup area shall not permit any communication\n           between persons inside the area and persons outside except as provided below. The\n           officer shall unlock the door only to permit:\n\n          (a) Entrance of the Secretary or Acting Secretary of Agriculture, authorized NASS\n              employees, and other persons with written permission passes from the\n              Chairperson;\n\n          (b) Delivery of written communications and supplies for ASB use;\n\n          (c) Notification to the officer from the ASB Secretary to convey emergency\n              instructions essential to report completion; and\n\n          (d) Departure of:\n\n              (1) Any person in the case of extreme emergency, in which event an officer will\n                  accompany and remain with such person outside the ASB Lockup area until\n                  the release of the report; or\n\n              (2) All persons in case of fire or other serious emergency, in which event all\n                  persons having data access will be removed to secure quarters, accompanied\n                  by an officer, and remain in those quarters until the release of the report,\n                  either in its entirety or as a U.S. Summary.\n\n       (4) The Chairperson may release estimates and forecasts to WAOB and ICEC analysts\n           before official release as inputs to WAOB reports under the following conditions:\n\n          (a) WAOB and ICEC analysts use the information only within the secure space\n              approved by the Secretary of the ASB, and the WAOB follows the same security\n              procedures as the ASB to prevent unauthorized disclosure.\n\n          (b) The WAOB report is released on the same day and time as the ASB reports, and\n              under similar security procedures.\n\n\n\n\n                                              8\n\fMay 28, 2009                                                                          DR 1042-042"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c492e00b-d2f7-5de0-b209-ed56bd72240f",
+        "class": "section",
+        "title": "Reports And Schedule Of Reports",
+        "controls": [
+          {
+            "id": "dr1042-042-9",
+            "class": "policy-requirement",
+            "title": "Reports And Schedule Of Reports",
+            "parts": [
+              {
+                "id": "dr1042-042-9-stmt",
+                "name": "statement",
+                "prose": "a. Reports to be Approved by the Secretary of Agriculture. The following ASB reports will\n      be signed and approved by the Secretary or Secretary designate, the Chairperson, and\n      ASB members, before being issued or published:\n\n       (1) Crop Production - Monthly;\n\n       (2) Crop Production - Annual Summary;\n\n       (3) Grain Stocks reports containing corn, wheat, and soybeans;\n\n       (4) Small Grains - Annual Summary;\n\n       (5) Winter Wheat Seedings - Annual Summary;\n\n       (6) Prospective Plantings;\n\n       (7) Acreage report;\n\n       (8) Cattle - January and July Inventory reports; and\n\n       (9) Quarterly Hogs and Pigs - Inventory reports.\n\n   b. Other ASB Reports. These include all other reports designated by the Administrator.\n      Such reports shall be approved by the Chairperson before issue.\n\n   c. Annual Release Schedules. On or before the first day of December the schedule for the\n      ensuing year of dates and hours of release for all ASB reports designated as Principal\n      Economic Indicators of the United States will be approved by the Secretary of\n      Agriculture. Subsequently, a listing of all ASB reports will be published with dates and\n      times of issuance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "39c40f4f-3705-5215-a2b0-144f70adac34",
+        "class": "section",
+        "title": "Release Of Reports",
+        "controls": [
+          {
+            "id": "dr1042-042-10",
+            "class": "policy-requirement",
+            "title": "Release Of Reports",
+            "parts": [
+              {
+                "id": "dr1042-042-10-stmt",
+                "name": "statement",
+                "prose": "a. Report Dissemination. ASB reports will be made available to the public at scheduled\n      release times. Dissemination routes include printed copies made available to the public\n      and press, reports posted to NASS or USDA sponsored websites, data published to the\n      NASS online Quick Stats database, email notifications, or various other methods as\n      dictated by current technology.\n\n   b. Press Access Room. The ASB Chairperson will designate suitable space for press\n      personnel desiring to transmit reports upon official release. This room shall be located\n      within the secured ASB Lockup area.\n\n\n\n\n                                              9\n\fDR 1042-042                                                                   May 29, 2009\n\n\n   c. Pre-Release Access. Press personnel will be allowed access to the Press Access Room as\n      early as one and one half hour before the scheduled release time, depending on the\n      complexity of reports to be released. They will be provided with paper and machine\n      media copies of the reports. No communication lines will be activated until just before\n      official release and no wireless devices will be allowed in the Press Access Room. At the\n      exact time provided for the official issuance, the ASB Secretary will permit transmission\n      of press service material.\n\n   d. Delay in Releasing Reports. If a report is not completed and approved for issuance at the\n      designated time, the Chairperson, not less than 10 minutes before the release time, will\n      inform the officer of the time when the report will be released. The officer will\n      immediately notify the representative designated by the Chairperson, who, in turn, shall\n      notify the Secretary of Agriculture."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e5ecabe6-51f7-5d91-b32b-37239223f783",
+        "class": "section",
+        "title": "Employee Certification Of Knowledge Of Regulation",
+        "controls": [
+          {
+            "id": "dr1042-042-11",
+            "class": "policy-requirement",
+            "title": "Employee Certification Of Knowledge Of Regulation",
+            "parts": [
+              {
+                "id": "dr1042-042-11-stmt",
+                "name": "statement",
+                "prose": "The NASS Associate Administrator or authorized representative will obtain from each NASS\n   employee or other person having access to sensitive but unclassified report data, in advance\n   of access, a certification that the person has read this regulation and will be governed by it.\n\n\n                                             -END-\n\n\n\n\n                                             10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "f1b21cb9-28c8-5886-956a-20d20eff1281",
+          "title": "USDA Directives — DR1042-042",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1042-042",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

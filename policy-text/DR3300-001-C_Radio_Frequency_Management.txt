@@ -1,0 +1,595 @@
+                             U.S. DEPARTMENT OF AGRICULTURE
+                                    WASHINGTON, D.C. 20250
+
+                                                                    NUMBER:
+     DEPARTMENTAL REGULATION                                        DR 3300-001-C
+                                                                    DATE:
+     SUBJECT: Radio Frequency Management                            September 27, 2019
+     OPI: Office of the Chief Information Officer, Digital          EXPIRATION DATE:
+     Infrastructure Services Center, Enterprise Network Services    September 27, 2024
+
+
+
+Section                                                                                      Page
+
+1.    Purpose                                                                                   1
+2.    Special Instructions/Cancellations                                                        1
+3.    Delegation of Authority                                                                   2
+4.    Scope                                                                                     2
+5.    Policy                                                                                    2
+6.    Roles and Responsibilities                                                                6
+7.    Policy Exceptions                                                                         9
+8.    Inquiries                                                                                10
+
+Appendix A - Acronyms and Abbreviations                                                       A-1
+Appendix B - Definitions                                                                      B-1
+Appendix C - Authorities and References                                                       C-1
+
+
+
+1. PURPOSE
+
+      This Departmental Regulation (DR) establishes the United States Department of Agriculture
+      (USDA) policy for radio frequency management.
+
+
+2. SPECIAL INSTRUCTIONS/CANCELLATIONS
+
+      a.   This DR supersedes DR 3300-001-C, Radio Frequency Management, dated July 10,
+           2019.
+
+      b.   This DR will be in effect until superseded or the expiration date.
+
+      c.   All Mission Areas, agencies, and staff offices will align their policies and procedures
+           with this DR within 6 months of the publication date.
+
+      d.   All Mission Areas, agencies, and staff offices may supplement this DR when developing
+       their internal guidance. Modifications to the intent or purpose of this DR are not
+       allowed. If Mission Areas, agencies, and staff offices publish internal guidance that
+       supplements this DR, one copy of each supplement will be forwarded to the Office of
+       the Chief Information Officer (OCIO), Digital Infrastructure Services Center (DISC),
+       Enterprise Network Services (ENS), Telecommunications Infrastructure Management
+       and Governance (TIMG) at ens.policy@ocio.usda.gov.
+
+
+3. DELEGATION OF AUTHORITY
+
+  a.   Per 7 Code of Federal Regulations (CFR) Section 2.60(a)(27), the Chief of the Forest
+       Service (FS) has been delegated authority by the Under Secretary for Natural Resources
+       and Environment to administer the radio frequency licensing work of the Department.
+
+  b.   The FS Chief has delegated staff from the FS-Chief Information Office to serve on the
+       following committees:
+
+       (1) Interdepartment Radio Advisory Committee (IRAC);
+
+       (2) Frequency Assignment Subcommittee (FAS);
+
+       (3) Technical Subcommittee (TSC); and
+
+       (4) Spectrum Planning Subcommittee (SPS) of the National Telecommunications and
+           Information Administration (NTIA).
+
+
+4. SCOPE
+
+  This DR applies to those USDA Mission Areas, agencies, and staff offices using radio
+  communications and spectrum management.
+
+
+5. POLICY
+
+  a.   USDA Mission Areas, agencies, and staff offices will contact FS-Frequency
+       Management to obtain spectrum management support and frequency ranges for radio
+       equipment.
+
+  b.   USDA wireless systems will be designed to use current technology, be spectrum
+       efficient, and share resources among Mission Areas, agencies, or staff offices whenever
+       it is cost effective and when savings can be achieved.
+
+  c.   USDA Mission Areas, agencies, and staff offices will adhere to Federal regulations and
+       procedures for spectrum management when establishing and operating wireless
+       communications systems and services.
+
+
+
+                                              2
+d.   USDA Mission Areas, agencies, and staff offices with missions that require a land
+     mobile radio program will develop a strategic plan that describes their Frequency
+     Modulated Land Mobile Radio (FM LMR) use. The plan will be reviewed, updated, and
+     submitted annually to the ENS Director.
+
+e.   Any device which radiates electromagnetic energy through free space must be
+     authorized prior to procurement or used by USDA Mission Areas, agencies, and staff
+     offices. Frequency authorization must be obtained before funds can be obligated for the
+     procurement of communications equipment requiring radio frequency authorization for
+     use. Operations on an assigned frequency must be within the parameters of the
+     frequency assignment. Cellular telephones and other leased personal communications
+     services (PCS) are exempt from this requirement as they are licensed through the
+     Federal Communications Commission (FCC) to the service provider.
+
+f.   Applications or modifications for frequency assignment will be submitted to the USDA
+     FAS Representative. Mission Areas, agencies, and staff offices will contact the USDA
+     FAS Representative for training and software requirements.
+
+     (1) Requests for Radio Frequency Assignments (RFA)
+
+         (a) Frequency requirements for new systems or major system upgrades must be
+             planned in advance. Requests for frequency assignments will be forwarded to
+             the USDA FAS Representative at least 1 year in advance of any planned
+             procurements. NTIA has final approval for the frequency assignment requests.
+
+         (b) A separate formal frequency assignment request is required for each frequency
+             to be installed in a base station, repeater, group of mobile radios, or group of
+             portable radios in a system.
+
+         (c) Sharing of existing USDA systems among Mission Areas, agencies, or staff
+             offices will be considered prior to developing a new system or expanding an
+             existing system. Such sharing may be required when spectrum availability is
+             limited, unavailable, or the traffic does not justify a separate system. NTIA’s
+             Manual of Regulations and Procedures for Federal Radio Frequency
+             Management ("Redbook") mandates that Mission Areas, agencies, and staff
+             offices consider the use of commercial services in any system planning.
+
+         (d) If the FS-Freedom of Information Act (FOIA) Office determines that an RFA
+             is exempt from disclosure under Freedom of Information Act of 1996, 5 United
+             States Code (U.S.C.) § 552, as amended, the RFA will be accompanied by a
+             justification letter stating the specific exemption(s) from disclosure under
+             FOIA. The USDA IRAC Representative notifies NTIA of this exemption.
+
+     (2) Five-Year Review
+
+         All RFAs will reflect the actual installed configuration. In accordance with the
+         NTIA Redbook, all RFAs must be reviewed and updated every 5 years. The FAS
+
+                                            3
+    Representative reviews and updates the RFAs and forwards the results to NTIA.
+
+(3) Cooperative Communications
+
+    (a) All wireless operations require radio frequency authorizations from NTIA.
+
+    (b) Prior arrangements for sharing USDA wireless systems with other non-USDA
+        entities must be coordinated with the USDA FAS Representative.
+
+    (c) Arrangements permitting cooperative communications of mutual benefit
+        among Mission Areas, agencies, or staff offices on each other’s authorized
+        radio frequencies may be made by a memorandum of understanding (MOU)
+        between Federal units or a cooperative agreement (between Federal and non-
+        Federal units) signed by the responsible official having jurisdiction.
+        Cooperative agreements require specific statutory authority. All cooperative
+        agreements must be shared with the FAS Representative.
+
+    (d) Copies of the Mission Area, agency, or staff office MOU must be on file with
+        the Mission Area, agency, or staff office and the USDA FAS Representative.
+        A formal MOU between units within USDA Mission Areas, agencies, or staff
+        offices is not required.
+
+    (e) Arrangements among Mission Areas, agencies, or staff offices within USDA,
+        or with external agencies (Federal or non-Federal), must be forwarded to the
+        USDA FAS Representative when authorizations or licenses are required.
+
+(4) Citizens Band Radio and Family Radio Service (FRS) Use
+
+    (a) USDA Mission Areas, agencies, and staff offices must adhere to the
+        regulations governing Citizens Band (CB) Radio Service in the NTIA Redbook
+        when there is a need to communicate between Federal Government and non-
+        Federal Government stations.
+
+    (b) CB communications between Federal Government entities are prohibited.
+
+    (c) Acquisition of FRS is prohibited, and no waivers will be granted.
+
+(5) Programming and Frequency Changes in USDA Radio Systems
+
+    (a) USDA Mission Area, agency, and staff office Spectrum Management Liaison
+        Officers may delegate to the radio system operator the authority to program or
+        change frequencies for which the system operator is responsible and has copies
+        of RFAs, MOUs, or Cooperative Agreements. Individuals who are delegated
+        the authority to reprogram or change frequencies in transmitters must have:
+
+        1    A formal delegation that includes the specific frequencies that they are
+             authorized to program or change; and
+
+
+                                       4
+        2    Knowledge of the terms and limitations of the RFA or license for each
+             specific frequency being changed or programmed.
+
+    (b) USDA radio equipment will not be programmed to operate outside the
+        constraints of the RFA, license, or arrangement.
+
+(6) Interference
+
+    Interference with frequencies authorized for use by USDA radio systems will be
+    reported to the USDA FAS Representative for resolution if the problem cannot be
+    resolved locally.
+
+(7) FOIA Exemptions
+
+    The NTIA will release information concerning frequency assignments to the
+    requester unless the FS-FOIA Office designates the assignment as FOIA-exempt.
+    Most USDA frequency assignments are not exempt from release under FOIA.
+
+(8) Shared Radio Systems
+
+    (a) The NTIA Redbook mandates that the sharing of Government-owned radio
+        resources with other Federal Agencies is required when deemed to be cost-
+        effective and savings can be achieved.
+
+    (b) USDA Mission Areas, agencies, staff offices, or other Federal Agencies may
+        be required to share systems with other USDA Mission Areas, agencies, or
+        staff offices in areas where frequencies are not available, or the traffic does not
+        justify separate systems.
+
+    (c) USDA Mission Areas, agencies, and staff offices will not provide radio
+        communications services to non-Federal entities or to the private sector except
+        as provided in specific laws and regulations. Such use will be approved by the
+        USDA IRAC Representative prior to providing such services.
+
+    (d) USDA Mission Area, agency, and staff office requirements for use of non-
+        Federal radio systems, such as microwave (other than common carrier), will be
+        coordinated with the USDA IRAC Representative.
+
+(9) Technical Assistance
+
+    Technical assistance and advice pertaining to system design, equipment selection,
+    sources of supply, and technical specifications may be obtained through the USDA
+    TSC Representative.
+
+
+
+
+                                        5
+       (10) Procurement of Radio Equipment and Services
+
+           All radio equipment will meet NTIA standards unless waived by the USDA IRAC
+           Representative.
+
+       (11) Disposition of Radio Equipment
+
+           USDA Mission Areas, agencies, and staff offices will perform actions to ensure
+           excessed radio transmitting equipment can no longer transmit on the frequencies
+           originally assigned (e.g., erasing the program, removing the frequency determining
+           device) prior to declaring the equipment as excess property or otherwise
+           transferring or disposing of the equipment pursuant to the Agriculture Property
+           Management Regulation.
+
+
+6. ROLES AND RESPONSIBILITIES
+
+  a.   The USDA Chief Information Officer (CIO) will:
+
+       (1) Provide leadership and direction for Departmentwide radio communications
+           initiatives;
+
+       (2) Provide advice and assistance to Mission Areas, agencies, and staff offices
+           regarding radio telecommunications services and facilities; and
+
+       (3) Apportion and collect the annual NTIA spectrum fees, and prepare and track
+           corresponding paperwork.
+
+  b.   The ENS Director will:
+
+       (1) Establish procedures for monitoring, measuring, reporting, and enforcing
+           compliance with this DR;
+
+       (2) Oversee Mission Area, agency, and staff office compliance with this policy;
+
+       (3) Serve, or delegate a representative to serve, on NTIA’s Policy and Plans Steering
+           Group (PPSG);
+
+       (4) Review and render decisions on Mission Area, agency, and staff office
+           telecommunications policy waiver requests; and
+
+       (5) Maintain an electronic file of approved waivers.
+
+  c.   The FS Chief will:
+
+       (1) Represent USDA on the IRAC, SPS, and the FAS of the NTIA;
+
+
+
+                                              6
+     (2) Establish and ensure compliance with policies, standards, and procedures for
+         allotting and assigning frequencies within USDA;
+
+     (3) License and assign radio frequencies for use by USDA Mission Areas, agencies,
+         and staff offices, and maintain the records related to these actions; and
+
+     (4) Inspect USDA’s radio operations to ensure compliance with national and
+         international regulations and policies for radio frequency use.
+
+d.   Mission Area Assistant CIOs, and Agency and Staff Office Information Technology
+     (IT) Directors will:
+
+     (1) Designate a Spectrum Management Liaison Officer to represent the Mission Area,
+         agency, or staff office in all matters pertaining to radio communications and
+         frequency management if the Mission Area, agency, or staff office uses transmitting
+         devices requiring frequency assignments;
+
+     (2) Notify the IRAC Representative when there is a change in Spectrum Management
+         Liaison Officers;
+
+     (3) Include the radio program in the budget planning process as identified in Office of
+         Management and Budget (OMB), Circular A-11, Preparation, Submission, and
+         Execution of the Budget; and
+
+     (4) Prepare and maintain a strategic plan when the radio program within a Mission
+         Area, agency, or staff office expands and becomes a significant capital asset
+         (significant procurement, operating, or maintenance cost). The definition of a
+         significant capital asset can be found in DR 3130-008, Definition of Major
+         Information Technology Investments. This plan will be provided to the ENS
+         Director and the USDA IRAC Representative upon origination and at each update.
+
+e.   The USDA IRAC Representative will:
+
+     (1) Ensure compliance with this policy, consistent with the delegations to the FS Chief
+         in 7 CFR § 2.60(a)(27).
+
+     (2) Engineer, select, and acquire frequencies to support validated requirements;
+
+     (3) Authorize USDA Mission Areas, agencies, and staff offices to use specific radio
+         frequencies if their application for a radio frequency meets the spectrum
+         requirements of the NTIA;
+
+     (4) Provide interagency coordination and negotiation on frequencies, as required by
+         NTIA;
+
+     (5) Resolve interface problems encountered or created by USDA Mission Areas,
+         agencies, and staff offices when such problems are caused by assignment
+
+                                            7
+         incompatibilities and cannot be resolved by the operating unit;
+
+     (6) Review and provide comments on frequency applications submitted by Government
+         and civilian agencies in order to protect USDA frequency assignments;
+
+     (7) Serve as a member on all NTIA committees and subcommittees dealing with
+         frequency management;
+
+     (8) Provide guidance to USDA Mission Areas, agencies, and staff offices in the
+         development of frequency plans that support future systems;
+
+     (9) Maintain frequency engineering and control records of USDA frequency resources;
+         and
+
+     (10) Provide training to USDA Mission Areas, agencies, and staff offices in basic
+          frequency management.
+
+f.   The USDA FAS Representative will:
+
+     (1) Be responsible for frequency assignment actions, support, and interference
+         resolutions for all devices that require assigned frequencies to operate;
+
+     (2) Process requests for RFAs for all USDA Mission Areas, agencies, and staff offices;
+         and
+
+     (3) Establish procedures to protect against harmful interference that could result in loss
+         of life or property, and coordinate any required resolution.
+
+g.   The USDA TSC Representative will:
+
+     (1) Provide technical advice on electromagnetic compatibility of new Government
+         systems that operate nationwide and answering questions that USDA has on
+         systems that may affect USDA operations; and
+
+     (2) Provide technical assistance and training on spectrum management to USDA
+         Mission Areas, agencies, and staff offices.
+
+h.   The USDA SPS Representative will be responsible for assisting in the development of
+     recommendations regarding spectrum support for new systems submitted by Federal
+     Agencies.
+
+i.   Mission Area, Agency, and Staff Office Spectrum Management Liaison Officers will:
+     (1) Serve as principal point of contact (POC) for all matters relating to radio
+         communications and frequency management;
+
+     (2) Review and recommend to the USDA IRAC Representative, on an ongoing basis,
+
+
+                                             8
+           revisions to the NTIA Redbook. NTIA accepts comments on the NTIA Redbook at
+           any time;
+
+       (3) Be familiar with NTIA policies; and
+
+       (4) Manage all radio frequencies used by the Mission Area, agency, or staff office.
+           This management includes:
+
+           (a) Maintaining a file of all current RFAs for the Mission Area, agency, or staff
+               office;
+
+           (b) Submitting Mission Area, agency, or staff office requests for RFAs to the FAS
+               Representative;
+
+           (c) Disseminating RFAs to the Mission Area, agency, or staff office;
+
+           (d) Reporting and/or resolving radio interference or noncompliance with
+               regulations;
+
+           (e) Coordinating radio planning efforts with the Mission Area, agency, or staff
+               office responsible for preparation of the Mission Area, agency, or staff office
+               IT Strategic Plan; and
+
+           (f) Preparing and maintaining a strategic plan for FM LMR within the Mission
+               Area, agency, or staff office. This plan is required by OMB each year.
+
+
+7. POLICY EXCEPTIONS
+
+  a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this
+       policy. In the event that a specific policy requirement cannot be met, Mission Area,
+       agency, and staff office system owners may submit a policy waiver request to the ENS
+       Director at ens.policy@ocio.usda.gov. The waiver request will explain the reason for
+       the request, identify compensating controls/actions that meet the intent of the policy, and
+       identify how the compensating controls/actions provide a similar or greater level of
+       defense or compliance than the policy requirement.
+
+  b.   Mission Area Assistant CIOs and Agency and Staff Office IT Directors will address all
+       policy waiver request memoranda to the ENS Director, and submit the waiver request to
+       ens.policy@ocio.usda.gov for review and determination.
+
+  c.   Waivers to stipulations of this directive that have been granted approval by the ENS
+       Director and that are associated with a National Institute of Standards and Technology
+       (NIST) control will be recorded and tracked as a Plan of Action and Milestones
+       (POA&M) item in the USDA Federal Information Security Modernization Act of 2014
+       (FISMA), 44 U.S.C. § 3551, et seq., data management and reporting tool.
+
+
+
+                                               9
+  d.   Waivers will expire at the end of the fiscal year or 6 months from the date of approval,
+       whichever is longer. Unless otherwise specified, Mission Areas, agencies, and staff
+       offices will review and renew approved policy waivers every fiscal year.
+
+
+8. INQUIRIES
+
+  Questions and comments concerning the requirements of this regulation should be
+  directed to OCIO, DISC, ENS, TIMG at ens.policy@ocio.usda.gov.
+
+
+                                            -END-
+
+
+
+
+                                              10
+                            APPENDIX A
+
+                ACRONYMS AND ABBREVIATIONS
+
+
+CB          Citizens Band
+CFR      Code of Federal Regulations
+CIO      Chief Information Officer
+DISC     Digital Infrastructure Services Center
+DOC      Department of Commerce
+DR       Departmental Regulation
+ENS      Enterprise Network Services
+FAS      Frequency Assignment Subcommittee
+FCC      Federal Communications Commission
+FISMA    Federal Information Security Modernization Act
+FITARA   Federal Information Technology Acquisition Reform Act
+FM LMR   Frequency Modulated Land Mobile Radio
+FOIA     Freedom of Information Act
+FRS      Family Radio Service
+FS       Forest Service
+IRAC     Interdepartment Radio Advisory Committee
+IT       Information Technology
+MOU      Memorandum of Understanding
+NIST     National Institute of Standards and Technology
+NTIA     National Telecommunications and Information Administration
+OCIO     Office of the Chief Information Officer
+OMB      Office of Management and Budget
+PCS      Personal Communications Services
+POA&M    Plan of Action and Milestones
+POC      Point of Contact
+PPSG     Policy and Plans Steering Group
+RFA      Radio Frequency Assignment
+SPS      Spectrum Planning Subcommittee
+TIMG     Telecommunications Infrastructure Management and Governance
+TSC      Technical Subcommittee
+U.S.C.   United States Code
+USDA     United States Department of Agriculture
+
+
+
+
+                                 A-1
+                                      APPENDIX B
+
+                                     DEFINITIONS
+
+
+Federal Communications Commission (FCC). The regulatory organization that is
+responsible for managing all non-Federal radio spectrum use in the United States.
+(Source: Incorporation by Reference of the Manual of Regulations and Procedures for
+Federal Radio Frequency Management, 47 CFR § 300.1)
+
+Frequency Assignment Subcommittee (FAS). An IRAC subcommittee comprised of
+representatives from Federal Agencies that use the spectrum. FAS assists NTIA, on behalf of
+IRAC, in assigning and coordinating frequencies for use by Federal radio stations. FAS also
+develops procedures for the processing of requests for frequency assignments. (Source: 47
+CFR § 300.1)
+
+Interdepartment Radio Advisory Committee (IRAC). IRAC serves in an advisory capacity to
+the Administrator of NTIA (with reference to Federal radio stations) in assigning
+frequencies, developing and executing policies, programs, procedures, and technical criteria
+pertaining to the allocation, management, and use of the spectrum. (Source: 47 CFR §
+300.1)
+
+National Telecommunication and Information Administration (NTIA). The Federal
+Government radio spectrum manager and the principal Executive Branch advisor on
+telecommunications policy. (Source: 47 CFR § 300.1)
+
+Policy and Plans Steering Group (PPSG). In order to enlist the leadership of Federal
+Agencies in the resolution of spectrum policy matters, the Department of Commerce (DOC)
+established the PPSG in January 2005. This advisory group is composed of top leadership
+officials, at an assistant secretary-level or equivalent, from the Federal Agencies that are
+major users of radio spectrum. The PPSG advises NTIA’s Administrator on spectrum policy
+and strategic plans. The PPSG has committed to resolve major contentious spectrum issues
+affecting Federal and non-Federal spectrum users. (Source: 47 CFR § 300.1)
+
+Spectrum Management. Spectrum management is the planning and implementation of
+programs to promote effective, efficient, and prudent use of the radio spectrum in the best
+interests of the United States, taking care to conserve it for uses where other means of
+communication are not available or feasible. This includes, but is not limited to, planning for
+where in the spectrum specific uses can be placed most effectively, planning for
+incorporation of new technology, planning for sharing of common facilities and uses, and
+developing regulations to assure efficient, effective, and interference-free communications.
+(Source: 47 CFR § 300.1)
+
+Spectrum Planning Subcommittee (SPS). An IRAC subcommittee comprised of
+representatives from Federal Agencies that use the spectrum. The IRAC develops both
+recommendations and plans for spectrum use for submittal to NTIA, on behalf of IRAC,
+regarding Mission Area, agency, or staff office requests for spectrum support for new
+
+                                           B-1
+systems. (Source: 47 CFR § 300.1)
+
+Technical Subcommittee (TSC). An IRAC subcommittee comprised of representatives from
+Federal Agencies that use the spectrum. The TSC assists NTIA, on the behalf of IRAC, in
+developing policies, programs, procedures, and technical criteria regarding the allocation,
+management, and use of the spectrum. (Source: 47 CFR § 300.1)
+
+
+
+
+                                          B-2
+                                      APPENDIX C
+
+                         AUTHORITIES AND REFERENCES
+
+
+Delegations of Authority by the Under Secretary for Natural Resources and
+Environment, 7 CFR § 2.60(a)(27) (2019)
+
+DOC, NTIA, Manual of Regulations and Procedures for Federal Radio Frequency
+Management ("Redbook"), May 2013, revised September 2017
+
+Federal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551, et
+seq., December 18, 2014 (2017)
+
+Federal Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113-
+291, Title VIII, Subtitle D, § 831-837, December 19, 2014
+
+Freedom of Information Act of 1996 (FOIA), 5 U.S.C. § 552, et seq. (2017)
+
+Incorporation by Reference of the Manual of Regulations and Procedures for Federal Radio
+Frequency Management, 47 CFR § 300.1, (2018)
+
+OMB, Circular A-11, Preparation, Submission, and Execution of the Budget, July 2017
+
+USDA, Agriculture Property Management Regulation, Chapter 110, Subchapter B, Part 102-
+36, May 2014
+
+USDA, DR 3130-008, Definition of Major Information Technology Investments, February
+27, 2015
+
+
+
+
+                                         C-1
+

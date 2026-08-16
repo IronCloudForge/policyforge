@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/violation",
+  "title": "Violation",
+  "description": "A compliance violation object produced by the OPA `violations` set comprehension when a mandatory requirement in `input.assertions` is absent or false. Each violation is one element in the `violations` set returned by a Rego module's evaluation.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]+-req-\\d{3}$",
+      "description": "Requirement ID that was not satisfied. Matches `Requirement.id`.",
+      "examples": ["dr0100_001-req-001"]
+    },
+    "directive": {
+      "type": "string",
+      "description": "Directive label (e.g. DR0100-001). Copied from `directive.label` for traceability in aggregated violation reports.",
+      "examples": ["DR0100-001"]
+    },
+    "section": {
+      "type": "string",
+      "description": "Section title where the unmet requirement originated. Copied from `requirement.section_title`.",
+      "examples": ["Responsibilities"]
+    },
+    "requirement": {
+      "type": "string",
+      "description": "Full requirement text. Copied from `requirement.text` for human-readable violation reporting.",
+      "examples": ["All Departmental directives must be submitted electronically using the Directives Management System."]
+    },
+    "keyword": {
+      "type": "string",
+      "enum": ["shall", "must", "required", "prohibited"],
+      "description": "Mandatory keyword class that triggered the requirement extraction."
+    },
+    "nist_families": {
+      "type": "array",
+      "description": "NIST SP 800-53 Rev5 control families applicable to the directive containing this requirement. Enables family-level gap analysis across the violation set.",
+      "items": {
+        "type": "string",
+        "enum": ["AC","AT","AU","CA","CM","CP","IA","IR","MA","MP","PE","PL","PM","PS","PT","RA","SA","SC","SI","SR"]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": ["id", "directive", "section", "requirement", "keyword", "nist_families"],
+  "additionalProperties": false
+}

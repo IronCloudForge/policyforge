@@ -1,0 +1,687 @@
+                            U.S. DEPARTMENT OF AGRICULTURE
+                                  WASHINGTON, D.C. 20250
+
+                                                               NUMBER:
+          DEPARTMENTAL MANUAL                                  DM 3465-001
+                                                               DATE:
+ SUBJECT: Geospatial Metadata Standards                        August 25, 2023
+ OPI: Office of the Chief Information Officer, Enterprise      EXPIRATION DATE:
+ Geospatial Management Office                                  August 25, 2026
+
+
+
+Section                                                                                 Page
+
+1.   Purpose                                                                               1
+2.   Scope                                                                                 1
+3.   Special Instructions/Cancellations                                                    2
+4.   Procedures                                                                            2
+5.   Roles and Responsibilities                                                            6
+6.   Procedures Exceptions                                                                 9
+7.   Inquiries                                                                            10
+
+Appendix A – Acronyms and Abbreviations                                                  A-1
+Appendix B – Definitions                                                                 B-1
+Appendix C – Authorities and References                                                  C-1
+
+
+
+1. PURPOSE
+
+     a.   This Departmental Manual (DM) provides procedures to accompany Departmental
+          Regulation (DR) 3465-001, Enterprise Geospatial Data Management.
+
+     b.   This DM enhances data sharing and reuse throughout the data lifecycle for discovery,
+          access, and interoperability with machine-readable, searchable standard metadata using
+          the Federal Geographic Data Committee (FGDC)-Endorsed Metadata Standards, per the
+          FGDC Geospatial Standards web page.
+
+
+2. SCOPE
+
+     This DM supports DR 3465-001. It applies to all United States Department of Agriculture
+     (USDA) Mission Areas, agencies, staff offices, programs, teams, organizations, appointees,
+     and employees, including contractors and grantees receiving Federal funds that utilize and
+     collect geospatial data.
+3. SPECIAL INSTRUCTIONS/CANCELLATIONS
+
+  a.   Use this DM along with DR 3465-001.
+
+  b.   This DM is effective immediately when published.
+
+  c.   All Mission Areas, agencies, and staff offices will align processes, procedures, and
+       application of metadata standards with this DM for geospatial authoritative data (GAD)
+       within 6 months of publication.
+
+
+4. PROCEDURES
+
+  a.   This section describes how a FGDC-Endorsed Metadata Standard is interpreted for
+       USDA-funded geospatial metadata to increase its value for both USDA and other
+       geospatial data creators and users.
+
+  b.   Establishment of the USDA geospatial metadata standard:
+
+       (1) The metadata standard adopted by USDA must meet the following criteria.
+
+           (a) The metadata standard must be endorsed and recommended by the FGDC; and
+
+           (b) The implementation must fully support the metadata standard.
+
+                1   Every metadata element and attribute defined in the metadata standard
+                    must be available for the creation, maintenance, import, and export of
+                    metadata.
+
+                2   This requirement ensures that no metadata content is lost during the
+                    transfer of a record between systems fully supporting the metadata
+                    standard.
+
+       (2) The preferred FGDC-Endorsed Metadata Standard is the USDA representation of
+           geospatial metadata, serving as the authoritative version of the metadata, if a
+           derived or exported format differs.
+
+  c.   USDA-Specific Metadata:
+
+       (1) USDA Mission Areas, agencies, and staff offices may add requirements for
+           metadata elements.
+
+
+
+
+                                              2
+     (2) USDA Mission Areas, agencies, and staff offices will use this DM as their internal
+         policy. They may create a more restrictive policy, but they will not create a policy
+         that is less restrictive or less comprehensive than, or not compliant with, this DM.
+
+     (3) USDA metadata must adhere to FGDC-Endorsed Metadata Standards, regardless of
+         the tools used to create, maintain, manage, or use metadata.
+
+     (4) Allowable changes to the official metadata standard will include, but are not limited
+         to:
+
+         (a) Requiring metadata that is optional in the metadata standard; and
+
+         (b) Requiring the use of specific lists of values to use for particular elements.
+             Well-known and widely used lists are preferrable to creating a new list.
+
+              1    USDA Mission Areas, agencies, and staff offices may define quality
+                   requirements for the content of elements to improve Findable, Accessible,
+                   Interoperable, and Reusable (FAIR) characteristics;
+
+              2    USDA Mission Areas, agencies, and staff offices may enforce additional
+                   interrelationships between elements and element values;
+
+              3    USDA Mission Areas, agencies, and staff offices may require metadata at
+                   various stages of the geospatial data lifecycle; and
+
+              4    Categories or types of geospatial data may have different metadata
+                   requirements from other geospatial data.
+
+d.   All geospatial metadata must be valid. For geospatial metadata, valid means that:
+
+     (1) The metadata contains the required metadata elements;
+
+     (2) The format meets the structure and content defined by FGDC-Endorsed Metadata
+         Standards;
+
+     (3) Interrelationships between elements specified in the metadata standard are enforced;
+         and
+
+     (4) The metadata from USDA Mission Areas, agencies, and staff offices must meet the
+         applicable criteria identified in Section 4c(4).
+
+e.   Metadata Workflows:
+
+     (1) Geospatial data creators must minimize duplicate submission of metadata to
+         geospatial catalogs, geospatial portals, and other collections and inventories, and
+         must choose one of the following:
+
+
+
+                                             3
+         (a) FGDC GeoPlatform.gov;
+
+         (b) General Services Administration (GSA) Data.gov; or
+
+         (c) Any USDA data catalog identified by the Office of the Chief Information
+             Officer’s (OCIO) Enterprise Geospatial Management Office (EGMO).
+
+     (2) Geospatial data creators may be required to output FGDC-endorsed metadata in
+         various other formats to facilitate intersystem services and readability.
+
+f.   Metadata Access:
+
+     (1) Metadata must be available when data is downloaded, obtained from a web service,
+         or otherwise distributed.
+
+         (a) Metadata must be available in an FGDC-Endorsed Metadata Standard format.
+
+         (b) For metadata standards-based geospatial data formats that permit the inclusion
+             of metadata with the data, the metadata must be included. For download
+             formats that do not embed metadata, the link for the data download is to be
+             accompanied by an equally prominent link to download the metadata in the
+             required FGDC-Endorsed Metadata Standard. Additional links to metadata in
+             other formats are acceptable only if the required metadata standard is also
+             available.
+
+     (2) If metadata (and data) are available using web services, open standard services must
+         be used even if proprietary services are also implemented.
+
+     (3) Metadata must be downloadable in FGDC-Endorsed Metadata Standard formats
+         from the geospatial catalogs.
+
+     (4) Geospatial metadata must accompany geospatial data during the Federal records
+         management processes identified in DR 3080-001, Records Management.
+
+     (5) Common metadata-derived products may be identified as required or optional.
+         Potential purposes may include but are not limited to:
+
+         (a) Web page content for optimizing search engine indexing of data; and
+
+         (b) Alternative display formats for metadata viewed on a web page.
+
+g.   Metadata Creation and Curation:
+
+     (1) Valid metadata is needed for GAD.
+
+
+
+
+                                            4
+         (a) The OCIO EGMO Geospatial Information Officer (GIO) may authorize and
+             allow use of certain data before comprehensive metadata is finalized.
+
+         (b) Valid metadata must meet USDA requirements before their release.
+
+     (2) Metadata must be included with the data when retention of the data is required.
+         This includes litigation holds, Freedom of Information Act (FOIA) (5 United States
+         Code (U.S.C.), § 552, Public information; agency rules, opinions, orders, records,
+         and proceedings) requests, or other administrative or legal mandates. This may
+         require retention of data and metadata for specific versions or revisions of the data
+         or products.
+
+     (3) Updates to published metadata must be documented within the metadata record to
+         inform geospatial data creators and users of the change.
+
+     (4) Due diligence must be used when moving metadata records to ensure that links to
+         related metadata within the control of the Department, Mission Area, agency, or
+         staff office remain valid.
+
+     (5) Curation may be required for the development and maintenance of shared, reusable
+         metadata building blocks and other approaches to reduce metadata creation effort
+         and improve consistency with shared metadata building blocks.
+
+h.   Acquired Geospatial Data:
+
+     (1) Geospatial data paid for in whole or in part from other sources must comply with
+         FGDC-Endorsed Metadata Standards. USDA-funded data includes contracts to
+         acquire data, purchase of existing data, cooperative agreements, grants, cost
+         sharing, and other means of procurement.
+
+     (2) Address metadata requirements with respect to:
+
+         (a) Variations in the funding source and acquisition vehicle;
+
+         (b) USDA funding a portion of the acquisition costs;
+
+         (c) The type and urgency of data;
+
+         (d) Allocation of metadata creation between the provider and acquiring entity;
+
+         (e) Use of no-cost data that is not accompanied by FGDC-Endorsed Metadata
+             Standards; and
+
+         (f) Other significant characteristics.
+
+
+
+
+                                             5
+       (3) Mission Areas, agencies, and staff offices will use Geospatial Data Act (GDA)
+           (codified at 43 U.S.C. Ch. 46, Geospatial Data) instructions for new contracts and
+           agreements for new metadata requirements.
+
+
+5. ROLES AND RESPONSIBILITIES
+
+  The roles and responsibilities identified in this DM align to DR 3465-001.
+
+  a.   The USDA Chief Information Officer (CIO) will:
+
+       (1) Delegate executive leadership for geospatial technology, data, and information
+           solutions to the USDA GIO;
+
+       (2) Approve revisions; and
+
+       (3) Review and approve processes, procedures, and metadata standards for waiver or
+           exception requests. As the owner of this DM, the CIO will have the final review
+           and approval authority for any waiver or exception requests.
+
+  b.   The USDA GIO will:
+
+       (1) Serve as the senior executive responsible for Departmental geospatial strategy,
+           planning, coordination, assessment, and synchronization of all USDA geospatial
+           data activities assigned to the GIO per Office of Management and Budget (OMB)
+           Circular A-16, Revised, Coordination of Geographic Information and Related
+           Spatial Data Activities, requirements;
+
+       (2) Have authority, responsibility, and coordination for USDA’s geospatial information
+           technology (IT) portfolio;
+
+       (3) Oversee and facilitate USDA internal and external implementation of the geospatial
+           IT and geospatial data policies, governance, directives, requirements, management,
+           product, and service standardization;
+
+       (4) Review geospatial procedural DMs. Ensure that they provide specific guidance.
+           The CIO will approve these prior to publication;
+
+       (5) Serve as the policy-level official representing USDA at the FGDC;
+
+       (6) Appoint Mission Area, agency, and staff office representatives to serve on FGDC
+           coordination groups, governance, and working groups;
+
+       (7) Maintain a knowledge base of USDA geospatial portfolio investments;
+
+
+
+
+                                              6
+     (8) Oversee the enterprise geospatial capital planning process per DR 3130-013,
+         Information Technology Capital Planning and Investment Control; and
+
+     (9) Oversee the enterprise geospatial investment control process per DR 3130-010,
+         United States Department of Agriculture Enterprise Information Technology
+         Governance; and advocate for Mission Area, agency, and staff office geospatial
+         portfolio budgets and acquisition plans;
+
+     (10) Advocate for the use, value, and benefits of geospatial innovation and information
+          supporting decision makers, citizens, partners, and others;
+
+     (11) Collaborate with the CIO, EGMO Program Manager (PM), the USDA Chief Data
+          Officer, and other OCIO Service Center Associate CIOs (ACIO) to implement
+          strategic initiatives;
+
+     (12) Provide the Departmental response to external geospatial portfolio data calls; and
+
+     (13) Review and provide a recommendation to the CIO on any submitted and completed
+          waivers to the primary requesting office for any requirement that is not in
+          compliance with this DM. The CIO, as the policy owner, will make the final
+          decision.
+
+c.   The EGMO PM will:
+
+     (1) Initiate reviews and updates to this DM in a timely manner;
+
+     (2) Act as the primary Departmental PM for geospatial matters, overseeing and
+         coordinating various programs, projects, and staff;
+
+     (3) Support and coordinate the geospatial portfolio with USDA Mission Areas,
+         agencies, and staff offices; and
+
+     (4) Collaborate with USDA Mission Areas, agencies, and staff offices researching new
+         geospatial technologies and potential implementations across Mission Areas,
+         agencies, and staff offices to meet geospatial data management requirements.
+
+d.   The USDA Chief Data Officer will collaborate with the CIO, the GIO, the EGMO PM,
+     and OCIO Service Center ACIOs on geospatial matters to implement strategic
+     initiatives.
+
+e.   USDA Mission Area, Agency, and Staff Office Geospatial Leads will:
+
+     (1) Use FGDC-Endorsed Geospatial Data Standards per the GDA, and as stated on the
+         FGDC Geospatial Standards web page;
+
+
+
+
+                                             7
+     (2) For all geospatial data, follow USDA-specific requirements for metadata content, to
+         include future DMs and guidelines;
+
+     (3) Ensure that metadata is certified and documented:
+
+         (a) The specific Mission Area, agency, or staff office owner will certify all
+             metadata as compliant with data standards;
+
+         (b) Metadata will include identification that confirms its nature as authoritative
+             data;
+
+         (c) Metadata will be documented in an authoritative system that can be queried to
+             find the data themes in OMB Circular A-16; and
+
+         (d) All metadata will be certified and documented even if the underlying data is
+             subject to restrictions on public release;
+
+     (4) Make the metadata available through the FGDC’s GeoPlatform, unless legally
+         restricted;
+
+     (5) Be accountable for monitoring and reporting geospatial data quality, governance,
+         metadata, and lifecycle management to ensure alignment to DR 3465-001;
+
+     (6) Establish responsibility for the performance of metadata duties such as writing,
+         revising, versioning, validating, reviewing, and approving release; and
+
+     (7) Submit Mission Area, agency, or staff office-specific metadata requirements and
+         guidance (if any) to the EGMO PM for review and approval.
+
+f.   USDA Mission Area, Agency, and Staff Office Geospatial Data Creators will:
+
+     (1) Use FGDC-Endorsed Geospatial Data Standards per the GDA, and as stated on the
+         FGDC Geospatial Standards web page;
+
+     (2) For all geospatial data, follow USDA-specific requirements for metadata content, to
+         include future DMs and guidelines;
+
+     (3) Ensure that metadata is certified and documented:
+
+         (a) The specific Mission Area, agency, or staff office geospatial data owner will
+             certify all metadata as compliant with data standards;
+
+         (b) Metadata will include identification that confirms its nature as authoritative
+             data;
+
+
+
+
+                                            8
+           (c) Metadata will be documented in an authoritative system that can be queried to
+               find the data themes in OMB Circular A-16; and
+
+           (d) All metadata will be certified and documented even if the underlying data is
+               subject to restrictions on public release;
+
+       (4) Make the metadata available through the FGDC’s GeoPlatform, unless legally
+           restricted.
+
+  g.   USDA Mission Area, Agency, and Staff Office Heads and Mission Area Assistant CIOs
+       will:
+
+       (1) Align processes, procedures, and application of metadata standards with this DM
+           for GAD within 6 months of publication;
+
+       (2) Establish processes and infrastructure necessary to maintain, disseminate, preserve,
+           and identify GAD;
+
+       (3) Ensure that geospatial data are managed in a coordinated and documented manner
+           that meet the requirements of this DM; and
+
+       (4) Ensure that geospatial data management roles and functions are defined and
+           assigned for their Mission Area, agency or staff office, and that GAD are
+           understood and managed throughout the data lifecycle.
+
+
+6. PROCEDURES EXCEPTIONS
+
+  a.   If a specific process, procedure, or metadata standards requirement cannot be met as
+       explicitly stated, Mission Areas, agencies, and staff offices may submit a waiver request.
+       The waiver request will:
+
+       (1) Identify the sponsoring Mission Area, agency, or staff office executive;
+
+       (2) Explain the reason for the request;
+
+       (3) Identify compensating controls and actions that meet or exceed the intent of the
+           process, procedure, or metadata standards; and
+
+       (4) Identify how the compensating controls and actions provide a similar or greater
+           level of quality, mitigation, or compliance than the process, procedure, or metadata
+           standards requirement.
+
+  b.   Mission Areas, agencies, and staff offices must address all process, procedure, or
+       metadata standards waiver request documentation to the USDA GIO and submit the
+       request to usdageospatial@usda.gov.
+
+
+
+                                                 9
+  c.   The CIO, as the owner of this DM, will have the final review and approval authority for
+       any waiver or exception requests.
+
+
+7. INQUIRIES
+
+  Information regarding this DM, policy recommendations, updates, or changes, and
+  relationships to other Administration, Departmental, Mission Area, agency, staff office, and
+  Federal geospatial-related policy, directives, and memoranda are to be directed to the USDA
+  GIO, located in the OCIO EGMO at usdageospatial@usda.gov.
+
+
+                                           -END-
+
+
+
+
+                                             10
+                              APPENDIX A
+
+                 ACRONYMS AND ABBREVIATIONS
+
+
+ACIO     Associate Chief Information Officer (OCIO Service Centers)
+CIO      Chief Information Officer
+CUI      Controlled Unclassified Information
+DM       Departmental Manual
+DR       Departmental Regulation
+EGMO     Enterprise Geospatial Management Office (OCIO component)
+FAIR     Findable, Accessible, Interoperable, and Reusable (data)
+FGDC     Federal Geographic Data Committee
+FOIA     Freedom of Information Act
+FY       Fiscal Year
+GAD      Geospatial Authoritative Data
+GDA      Geospatial Data Act
+GIO      Geospatial Information Officer
+GSA      General Services Administration
+IT       Information Technology
+NGDA     National Geospatial Data Asset
+NIST     National Institute of Standards and Technology
+OCIO     Office of the Chief Information Officer
+OMB      Office of Management and Budget
+PII      Personally Identifiable Information
+P.L.     Public Law
+PM       Program Manager
+U.S.C.   United States Code
+USDA     United States Department of Agriculture
+USGS     United States Geological Survey
+
+
+
+
+                                   A-1
+                                          APPENDIX B
+
+                                         DEFINITIONS
+
+
+Certified and Documented. All metadata will be certified as compliant with data standards by
+the specific Mission Area, agency, or staff office owner. Metadata will include identification
+that confirms its nature as authoritative data. Metadata will be documented in an authoritative
+system that can be queried to find the data themes in OMB Circular A-16. All metadata will be
+certified and documented even if the underlying data is subject to restrictions on public release.
+(Source: Adapted from OMB, Circular A-16)
+
+Federal Geospatial Data Committee (FGDC)-Endorsed Metadata Standards. A list of FGDC
+approved metadata standards. The GDA directs the FGDC to select and endorse the required
+metadata standards to be followed by specified Federal agencies, including USDA. The GDA
+establishes the FGDC as the lead entity in the Executive Branch of Government for the
+development, implementation, and review of policies, practices, and standards relating to
+geospatial data. These responsibilities are reinforced by Circular A-16 and Circular A-119,
+Federal Participation in the Development and Use of Voluntary Consensus Standards and in
+Conformity Assessment Activities. The FGDC has endorsed other geospatial standards and can
+update its endorsements to keep up with technology and geospatial standards without waiting for
+Congress to include the changes in a new law. (Source: Adapted from FGDC, FDGC
+Geospatial Standards)
+
+Findable, Accessible, Interoperable, and Reusable (FAIR). FAIR data principles provide a set of
+mileposts for data producers and publishers. They guide the implementation of the most basic
+levels of good data management and stewardship practice. The end result, when implemented,
+will be more rigorous management and stewardship of these valuable digital resources. These
+are data principles agreed upon by a diverse set of stakeholders, representing academia, industry,
+funding agencies, and scholarly publishers. The 2016 Scientific Data publication The FAIR
+Guiding Principles for Scientific Data Management and Stewardship is the first formal
+publication of these data principles and explains the rationale behind FAIR and offers examples
+of implementation. (Source: Adapted from Scientific Management, The FAIR Guiding
+Principles for Scientific Data Management and Stewardship)
+
+Geospatial Authoritative Data (GAD). Any geospatial data that meets one or more of the
+following: is required by statute, is used to support policy, is used to manage programs, is used
+to inform the public, is shared outside of USDA, or is considered a high-value asset. For many
+geographic information system practitioners, the term usually means that the data was produced
+or is approved by some authority. Authoritative data is officially recognized data provided by an
+authoritative source. The data may be original, or it may come from one or more external
+sources, all of which are validated for quality and accuracy. (Source: Adapted from FGDC,
+Authority and Authoritative Sources: Clarification of Terms and Concepts for Cadastral Data,
+Version 1.1)
+
+
+
+
+                                               B-1
+Geospatial Catalog. Any searchable collection of geospatial metadata records compliant with
+FGDC-Endorsed Metadata Standards.
+
+Geospatial Lead. The USDA Mission Area, agency, staff office, or service lead responsible for
+geospatial data. This could be the Chief Data Officer, Mission Area Assistant CIO, GIO, or
+another lead as determined by the Mission Area, agency, or staff office.
+
+Geospatial Portfolio. USDA geospatial assets that can be brought to bear to address an issue.
+These assets include funding, data, infrastructure, hardware, software, applications, personnel,
+services, and products.
+
+Information. Any communication or representation of knowledge, such as facts, data, or
+opinions in any medium or form, including textual, numerical, graphic, cartographic, narrative,
+or audiovisual forms. (Source: FGDC web page, Lexicon of Geospatial Terminology,
+Information definition)
+
+Metadata. Information describing the characteristics of data including, for example, structural
+metadata describing data structures (e.g., data format, syntax, and semantics), and descriptive
+metadata describing data contents (e.g., information security labels). (Source: NIST, Computer
+Security Resource Center, Topics, Glossary, Metadata definition)
+
+National Geospatial Data Asset (NGDA). In November 2010, OMB released Memorandum M-
+11-03, Issuance of OMB Circular A-16 Supplemental Guidance. Its primary focus was on
+geospatial data as a capital asset and providing the foundation for a portfolio management
+approach to a NGDA Portfolio. The portfolio consists of NGDA Themes and their associated
+NGDA Datasets. An NGDA Dataset is an asset that has been designated as such by the FGDC
+Steering Committee and meets at least one of the following criteria:
+
+   a. Used by multiple [Federal] agencies or with agency partners such as State, Tribal and
+      local Government;
+
+   b. Applied to achieve Presidential priorities as expressed by OMB;
+
+   c. Required to meet shared mission goals of multiple Federal agencies; or
+
+   d. Expressly required by statutory mandate.
+
+   (Source: OMB, M-11-03, Issuance of OMB Circular A-16 and Supplemental Guidance)
+
+
+
+
+                                               B-2
+                                        APPENDIX C
+
+                            AUTHORITIES AND REFERENCES
+
+
+5 U.S.C. § 101, Executive Departments
+
+FGDC, Authority and Authoritative Sources: Clarification of Terms and Concepts for Cadastral
+Data, Version 1.1, August 2008
+
+FGDC, FGDC Geospatial Standards web page
+
+FGDC, FGDC.gov website
+
+FGDC, FGDC Structure and Federal Agency and Bureau Representation web page
+
+FGDC, FGDC Technical Guidance: Data.gov and The GeoPlatform Metadata
+Recommendations, December 13, 2022
+
+FGDC, GeoPlatform.gov website
+
+FGDC, Geospatial Standards web page
+
+FGDC, Lexicon of Geospatial Terminology, Information definition web page
+
+FOIA Improvement Act, Public Law (P.L.) 114-185, June 30, 2016
+
+Freedom of Information Act (FOIA), 5 U.S.C. § 552, Public information; agency rules, opinions,
+orders, records, and proceedings
+
+Freedom of Information Act (FOIA), P.L. 89-487, July 4, 1966
+
+Geospatial Data Act (GDA) of 2018, 43 U.S.C. Ch. 46, Geospatial Data, as amended
+
+GSA, Data.gov, June 7, 2023
+
+National Archives, Federal Records Management, Records Management Regulations, Policy,
+and Guidance, March 3, 2023
+
+National Institute of Standards and Technology (NIST), Computer Security Resource Center,
+Glossary, Information definition web page
+
+NIST, Computer Security Resource Center, Topics, Glossary, Metadata definition web page
+
+OMB, Circular A-16, Revised, Coordination of Geographic Information and Related Spatial
+Data Activities, August 19, 2002
+
+
+
+                                             C-1
+OMB, Circular A-119, Federal Participation in the Development and Use of Voluntary
+Consensus Standards and in Conformity Assessment Activities, January 27, 2016
+
+OMB, Memorandum M-11-03, Issuance of OMB Circular A-16 Supplemental Guidance,
+November 10, 2010
+
+USDA, DR 1110-002, Management’s Responsibility for Internal Control, March 5, 2021
+
+USDA, DR 3080-001, Records Management, August 16, 2016
+
+USDA, DR 3090-001, Litigation Retention Policy for Documentary Materials including
+Electronically Stored Information, May 28, 2008
+
+USDA, DR 3130-010, United States Department of Agriculture Enterprise Information
+Technology Governance, April 20, 2021
+
+USDA, DR 3130-013, Information Technology Capital Planning and Investment Control, May
+24, 2021
+
+USDA, DR 3440-001, USDA Classified National Security Information Program, June 9, 2016
+
+USDA, DR 3440-002, Control and Protection of “Sensitive Security Information,” January 30,
+2003
+
+USDA, DR 3440-003, Controlled Unclassified Information (CUI) Program, September 13, 2021
+
+USDA, DR 3450-002, Freedom of Information Act Implementing Regulations, February 7, 2003
+
+USDA, DR 3465-001, Enterprise Geospatial Data Management, March 15, 2023
+
+USDA, DR 3515-002, Privacy Policy and Compliance for Personally Identifiable Information
+(PII), October 30, 2020
+
+USDA, Geospatial Strategic Plan, 2020
+
+USDA, Information Technology Strategic Plan FY [Fiscal Year] 2022-2026, June 2022
+
+USDA, Strategic Plan Fiscal Years 2022-2026, March 2022
+
+United States Geological Survey (USGS), Stewardship: Data Steward Roles and
+Responsibilities
+
+USGS, Stewardship – Data Steward Roles and Responsibilities website
+
+
+
+
+                                            C-2
+Wilkinson, M., Dumontier, M., Aalbersberg, I., et al., Scientific Data, The FAIR Guiding
+Principles for Scientific Data Management and Stewardship, March 15, 2016
+
+
+
+
+                                              C-3
+

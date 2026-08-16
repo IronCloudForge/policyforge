@@ -1,0 +1,230 @@
+{
+  "catalog": {
+    "uuid": "ba06a2a5-8eff-52f5-8dd0-bbe49c7c37cd",
+    "metadata": {
+      "title": "USDA DR3185-002: Enterprise Architecture IT Asset Definitions",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-09-22",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3185-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-09-22"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3185-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3185-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "6baf090e-beba-5347-bdce-495ac2632798",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3185-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3185-002-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the Enterprise Architecture Information\n          Technology (IT) Asset Definitions within the United States Department of Agriculture\n          (USDA).\n\n     b.   Application of these definitions supports and implements guidance issued by the Office\n          of Management and Budget (OMB) and the National Institute of Standards and\n          Technology (NIST).\n\n          (1) OMB, Circular A-130, Management of Federal Information Resources;\n\n          (2) NIST, SP 800-37 Rev. 2, Risk Management Framework for Information Systems\n              and Organizations: A System Life Cycle Approach for Security and Privacy; and\n\n          (3) NIST, Special Publication (SP) 800-53 Rev. 4, Security and Privacy Controls for\n              Federal Information Systems and Organizations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ad36b4bd-c68f-53ec-901c-37458bbd53ec",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3185-002-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3185-002-2-stmt",
+                "name": "statement",
+                "prose": "This is a new regulation and will follow the normal review and update cycle."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0b2761ff-3ab4-5487-8553-cecde41ba900",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3185-002-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3185-002-3-stmt",
+                "name": "statement",
+                "prose": "The USDA acknowledges the need to manage its IT asset definitions and taxonomy. This\n  DR will provide guidance for the Mission Areas, agencies, and staff offices regarding IT\n  assets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "503fadd3-dc99-5378-972c-63cce6fc1642",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3185-002-4",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3185-002-4-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, and staff offices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5a806d02-2a72-58bf-929a-96dca02555ac",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3185-002-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3185-002-5-stmt",
+                "name": "statement",
+                "prose": "a.   This DR establishes the guidance on how to apply IT Asset definitions found in A-130,\n       NIST SP 800-37, and NIST SP 800-53. The system application guidance listed below\n       was established by an Integrated Project Team and approved by the Enterprise\n       Architecture Committee (EAC).\n\n  b.   This DR does not change the official definitions found in A-130, NIST SP 800-37, or\n       NIST SP 800-53. It is intended to help Mission Areas, agencies, and staff offices\n       interpret these definitions when categorizing their own IT Assets.\n\n  c.   USDA System Application Guidance\n\n       (1) System: A system groups together similar and related applications, and their\n           platforms, that work together to deliver enhanced business capabilities.\n\n       (2) Applications: An application is a piece of software which a customer uses to\n           perform at least one business capability within USDA. An application is a\n           collection of code and application components which provide an interface to the\n           business user in which a two-way exchange of information occurs.\n\n       (3) Application Components: Application components are the lower level\n           decomposition of capabilities within an application that work together to deliver a\n           function such as, but not limited to a software package, a web service, or a web\n           resource that encapsulates a set of related functions.\n\n       (4) Platform: A platform is an integrated software development hosting environment\n           that systems, applications, websites, components, data, etc. are built upon.\n\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "758a87ac-8e13-5fd1-b85a-a8d55ff07e0e",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3185-002-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3185-002-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will review and approve IT asset-related\n       definitions.\n\n  b.   The Associate Chief Information Officer (ACIO), Information Resource Management\n       Center (IRMC) will:\n\n       (1) Provide management and oversight activities related to the IT asset definitions\n           listed in this DR; and\n\n       (2) Develop requirements and guidance for using these definitions.\n\n  c.   The Chief Enterprise Architect (CEA) will chair the EAC and will provide\n       recommendations to the CIO.\n\n  d.   The USDA EAC will collaborate with Mission Areas, agencies, and staff offices to\n       create, maintain, and update IT asset definitions.\n\n  e.   Mission Area, Agency, and Staff Office Enterprise Architects will:\n\n       (1) Establish guidance for using IT asset definitions; and\n\n       (2) Develop internal controls and procedures in support of this DR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dc576e86-88d9-59e6-aacf-18cd9a262a2f",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3185-002-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3185-002-7-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices will direct all questions and inquiries to\n  the Office of the Chief Information Officer (OCIO), IRMC, Enterprise Architecture Division\n  (EAD) via email at enterprise.architecture@ocio.usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                              3\n\f                            APPENDIX A\n\n                ACRONYMS AND ABBREVIATIONS\n\n\nACIO   Associate Chief Information Officer\nCIO    Chief Information Officer\nDR     Departmental Regulation\nEAC    Enterprise Architecture Committee\nEAD    Enterprise Architecture Division\nIRMC   Information Resource Management Center\nIT     Information Technology\nNIST   National Institute of Standards and Technology\nOCIO   Office of the Chief Information Officer\nOMB    Office of Management and Budget\nPBX    Private Branch Exchange\nSP     Special Publication\nUSDA   United States Department of Agriculture\n\n\n\n\n                                  A-1\n\f                                         APPENDIX B\n\n                                        DEFINITIONS\n\n\nApplication. A software program hosted by an information system. (Source: NIST, SP 800-37,\nRevision 2)\n\nInformation System. A discrete set of information resources organized for the collection,\nprocessing, maintenance, use, sharing, dissemination, or disposition of information.\n\nNote: Information systems also include specialized systems such as industrial/process controls\nsystems, telephone switching and private branch exchange (PBX) systems, and environmental\ncontrol systems. (Source: NIST, SP 800-53 Revision 4)\n\n\n\n\n                                              B-1\n\f                                       APPENDIX C\n\n                           AUTHORITIES AND REFERENCES\n\n\nNIST, SP 800-37 Rev. 2, Risk Management Framework for Information Systems and\nOrganizations: A System Life Cycle Approach for Security and Privacy, December 20, 2018\n\nNIST, SP 800-53 Rev. 4, Security and Privacy Controls for Federal Information Systems and\nOrganizations, January 22, 2015\n\nOMB, Circular A-130, Management of Federal Information Resources, November 28, 2000\n\nUSDA, DR 3185-001, Enterprise Architecture, July 29, 2019\n\n\n\n\n                                            C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "65751fd9-100f-5a1f-948a-f2c29c2d1cd3",
+          "title": "USDA Directives — DR3185-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3185-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

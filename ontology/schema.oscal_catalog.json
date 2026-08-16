@@ -1,0 +1,300 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/oscal-catalog",
+  "title": "OscalCatalog",
+  "description": "Top-level wrapper for a USDA Policy Forge OSCAL 1.1.2 catalog document. Each file in USDA_OSCAL_SOURCE_CODE is one catalog representing a single directive. Conforms to the NIST OSCAL 1.1.2 catalog model (https://pages.nist.gov/OSCAL/reference/latest/catalog/).",
+  "type": "object",
+  "properties": {
+    "catalog": { "$ref": "#/$defs/Catalog" }
+  },
+  "required": ["catalog"],
+  "additionalProperties": false,
+
+  "$defs": {
+
+    "Catalog": {
+      "title": "Catalog",
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Deterministic UUID v5 generated with the URL namespace and seed 'usda-policy-forge:catalog:{label}'. Stable across pipeline re-runs."
+        },
+        "metadata": { "$ref": "#/$defs/Metadata" },
+        "groups": {
+          "type": "array",
+          "description": "One group per numbered section or appendix extracted from the directive. Group id is {pkg_name}-{section_number}.",
+          "items": { "$ref": "#/$defs/Group" },
+          "minItems": 1
+        },
+        "back-matter": { "$ref": "#/$defs/BackMatter" }
+      },
+      "required": ["uuid", "metadata", "groups"],
+      "additionalProperties": false
+    },
+
+    "Metadata": {
+      "title": "Metadata",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Directive label followed by em-dash and title. Example: 'DR0100-001 — Preparing Departmental Directives'."
+        },
+        "last-modified": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO-8601 timestamp of when the pipeline generated this catalog file."
+        },
+        "version": {
+          "type": "string",
+          "description": "Directive effective date in ISO-8601 date format, or 'Unknown'. Encodes the policy version.",
+          "examples": ["2018-01-04", "Unknown"]
+        },
+        "oscal-version": {
+          "type": "string",
+          "const": "1.1.2",
+          "description": "NIST OSCAL schema version this catalog conforms to."
+        },
+        "props": {
+          "type": "array",
+          "description": "Structured metadata properties. Always includes: label, directive_type, opi, source_url, and one entry per nist_family.",
+          "items": { "$ref": "#/$defs/Prop" }
+        },
+        "links": {
+          "type": "array",
+          "description": "One link with rel='reference' pointing to the USDA directives portal source URL.",
+          "items": { "$ref": "#/$defs/Link" }
+        },
+        "roles": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Role" }
+        },
+        "parties": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Party" }
+        },
+        "responsible-parties": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/ResponsibleParty" }
+        }
+      },
+      "required": ["title", "last-modified", "version", "oscal-version", "props"],
+      "additionalProperties": false
+    },
+
+    "Prop": {
+      "title": "Prop",
+      "description": "A structured metadata property. Used in catalog metadata to carry directive-specific fields that have no OSCAL native equivalent.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Property name. Known values in Policy Forge catalogs: label, directive_type, opi, source_url, nist_family.",
+          "examples": ["label", "directive_type", "opi", "source_url", "nist_family"]
+        },
+        "value": {
+          "type": "string",
+          "description": "Property value. For nist_family, the two-letter NIST control family code."
+        },
+        "class": {
+          "type": "string",
+          "description": "Optional classifier. Used with nist_family props to hold the NIST SP 800-53 Rev5 full family name.",
+          "examples": ["Access Control", "Audit and Accountability"]
+        }
+      },
+      "required": ["name", "value"],
+      "additionalProperties": false
+    },
+
+    "Link": {
+      "title": "Link",
+      "type": "object",
+      "properties": {
+        "href": { "type": "string", "format": "uri" },
+        "rel": { "type": "string", "examples": ["reference"] },
+        "media-type": { "type": "string", "examples": ["text/html"] }
+      },
+      "required": ["href", "rel"],
+      "additionalProperties": false
+    },
+
+    "Role": {
+      "title": "Role",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "examples": ["document-author", "primary-contact"] },
+        "title": { "type": "string" }
+      },
+      "required": ["id", "title"],
+      "additionalProperties": false
+    },
+
+    "Party": {
+      "title": "Party",
+      "type": "object",
+      "properties": {
+        "uuid": { "type": "string", "format": "uuid" },
+        "type": { "type": "string", "enum": ["person", "organization"] },
+        "name": { "type": "string" },
+        "short-name": { "type": "string" }
+      },
+      "required": ["uuid", "type", "name"],
+      "additionalProperties": false
+    },
+
+    "ResponsibleParty": {
+      "title": "ResponsibleParty",
+      "type": "object",
+      "properties": {
+        "role-id": { "type": "string" },
+        "party-uuids": {
+          "type": "array",
+          "items": { "type": "string", "format": "uuid" },
+          "minItems": 1
+        }
+      },
+      "required": ["role-id", "party-uuids"],
+      "additionalProperties": false
+    },
+
+    "Group": {
+      "title": "Group",
+      "description": "An OSCAL group representing one numbered section or appendix of the directive. Groups are ordered in document reading order.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Group identifier. Format: {pkg_name}-{section_number}. Example: dr0100_001-1, dr0100_001-A.",
+          "examples": ["dr0100_001-1", "dm3505_005-A"]
+        },
+        "class": {
+          "type": "string",
+          "description": "Section class. 'section' for numbered sections; 'appendix' for appendixes.",
+          "enum": ["section", "appendix"]
+        },
+        "title": {
+          "type": "string",
+          "description": "Section or appendix heading text.",
+          "examples": ["Purpose", "Background", "Responsibilities", "Appendix A — Definitions"]
+        },
+        "controls": {
+          "type": "array",
+          "description": "OSCAL controls — one per policy requirement (SHALL/MUST/REQUIRED/PROHIBITED sentence) extracted from this section.",
+          "items": { "$ref": "#/$defs/Control" }
+        }
+      },
+      "required": ["id", "class", "title", "controls"],
+      "additionalProperties": false
+    },
+
+    "Control": {
+      "title": "Control",
+      "description": "An OSCAL control representing a single mandatory policy requirement. Control ID corresponds to the Rego requirement ID for cross-artifact traceability.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Control identifier. Matches Requirement.id in the Rego module. Format: {pkg_name}-req-{NNN}.",
+          "pattern": "^[a-z][a-z0-9_]+-req-\\d{3}$",
+          "examples": ["dr0100_001-req-001"]
+        },
+        "class": {
+          "type": "string",
+          "const": "requirement",
+          "description": "Always 'requirement' in Policy Forge catalogs."
+        },
+        "title": {
+          "type": "string",
+          "description": "Short title derived from the first 80 characters of the requirement text.",
+          "maxLength": 83
+        },
+        "parts": {
+          "type": "array",
+          "description": "Control parts. Exactly one part with name='statement' containing the full requirement prose.",
+          "items": { "$ref": "#/$defs/Part" },
+          "minItems": 1,
+          "maxItems": 1
+        }
+      },
+      "required": ["id", "class", "title", "parts"],
+      "additionalProperties": false
+    },
+
+    "Part": {
+      "title": "Part",
+      "description": "An OSCAL part holding the requirement's prose statement.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Part identifier. Format: {control_id}-stmt.",
+          "pattern": "^[a-z][a-z0-9_]+-req-\\d{3}-stmt$",
+          "examples": ["dr0100_001-req-001-stmt"]
+        },
+        "name": {
+          "type": "string",
+          "const": "statement",
+          "description": "Always 'statement' in Policy Forge catalogs."
+        },
+        "prose": {
+          "type": "string",
+          "description": "Full text of the mandatory requirement sentence.",
+          "minLength": 10
+        }
+      },
+      "required": ["id", "name", "prose"],
+      "additionalProperties": false
+    },
+
+    "BackMatter": {
+      "title": "BackMatter",
+      "description": "OSCAL back-matter block. Contains one resource per directive pointing back to the USDA directives portal source URL.",
+      "type": "object",
+      "properties": {
+        "resources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Resource" },
+          "minItems": 1
+        }
+      },
+      "required": ["resources"],
+      "additionalProperties": false
+    },
+
+    "Resource": {
+      "title": "Resource",
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Deterministic UUID v5 with seed 'usda-policy-forge:resource:{label}'."
+        },
+        "title": {
+          "type": "string",
+          "description": "Directive label. Example: 'DR0100-001'."
+        },
+        "rlinks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/RLink" },
+          "minItems": 1
+        }
+      },
+      "required": ["uuid", "title", "rlinks"],
+      "additionalProperties": false
+    },
+
+    "RLink": {
+      "title": "RLink",
+      "type": "object",
+      "properties": {
+        "href": { "type": "string", "format": "uri" },
+        "media-type": { "type": "string", "const": "text/html" }
+      },
+      "required": ["href", "media-type"],
+      "additionalProperties": false
+    }
+  }
+}

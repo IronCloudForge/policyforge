@@ -1,0 +1,244 @@
+{
+  "catalog": {
+    "uuid": "7fee011f-7672-555f-bbf9-926dc77d19ff",
+    "metadata": {
+      "title": "USDA DR4430-792-001: Employee Assistance Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2012-03-12",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4430-792-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2012-03-12"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4430-792-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human, Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4430-792-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human, Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b273839a-fcc7-59d6-bc2e-38b6b3df4c2c",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4430-792-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4430-792-001-1-stmt",
+                "name": "statement",
+                "prose": "This regulation establishes requirements for Department of Agriculture (USDA) agencies\n      to develop and implement an Employee Assistance Program (EAP)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "29c29c5f-b39e-5daa-b1e5-830abf7896a8",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr4430-792-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr4430-792-001-2-stmt",
+                "name": "statement",
+                "prose": "a.      This regulation supersedes Departmental Regulation (DR) 4430-792-1 dated\n              August 1, 2003.\n\n      b.      The principal changes to DR 4430-792-1 are as follows:\n\n              (1)   Changed responsibilities to reflect current duties due to reorganization.\n\n              (2)   Changed the definition of EAP to a more inclusive program that emphasizes\n                    both prevention and intervention to enhance organizational productivity.\n\n              (3)   Deleted the restriction on agencies not being authorized to use appropriated\n                    funds to meet personal needs of family members (household members\n                    residing in the home of the employee including authorized same-sex\n                    domestic partners) as family members are authorized to utilize the EAP\n                    if their problems are related to the employee’s problems for drug and\n                    alcohol abuse even though the employee is not a client of the EAP.\n                    However, family members of Federal employees may not participate in any\n\f                other EAP health service programs, as the use of appropriated funds for\n                family members is not authorized by Title 5 United States Code (U.S.C. §\n                7901). Clarified the definition of a family member\n\n          (4)   Clarified that failure of an employee to voluntarily participate in counseling\n                or in a rehabilitative program at the informal referral of a supervisor cannot\n                be used as a basis for taking disciplinary action except in cases of drug use\n                and/or refusal to take a drug test.\n\n     c.   Supplementation: Agencies and staff offices may supplement this directive with\n          prior approval of the Director, OHRM. Supplemental regulations issued by\n          agencies or staff offices may not conflict with the contents of this directive.\n          Agencies and staff offices must provide copies of any supplemental regulations to\n          employees as required."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "907ca14e-ac5e-584e-a370-6fbe882abcd7",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4430-792-001-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4430-792-001-3-stmt",
+                "name": "statement",
+                "prose": "a.   Agencies must provide appropriate programs and services to employees whose\n          emotional, personal, alcohol, and/or drug problems may affect their work\n          performance or conduct.\n\n     b.   Agencies may join a consortium, negotiate their own contracts, join existing EAP\n          agreements, or provide in-house counseling which meets the requirements of Title\n          5 Code of Federal Regulations (CFR), Part 792. The Office of Human Resources\n          Management (OHRM) Employee Relations Office will assist agencies in program\n          development.\n\n     c.   To the extent feasible, and when it will enhance the performance of the\n          employee, agencies are encouraged to extend these services to families of\n          employees. Family members whose problems are related to the employee’s\n          problems for drug and alcohol abuse may receive service even though the\n          employee is not a client of the EAP as authorized by 5 U.S.C. § 7361-7362.\n          However, family members of Federal employees may not participate in any other\n          EAP health service programs, as the use of appropriated funds for family\n          members is not authorized (5 U.S.C. § 7901).         ."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bc3774c0-b204-53cc-bbee-a29e9f296710",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4430-792-001-4",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4430-792-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   EAP is a worksite based program designed to assist in the identification and\n          resolution of work-related and non-work-related productivity problems\n          associated with employees impaired by personal concerns including, but not\n          limited to, health, marital, family, financial, alcohol, drug, legal, emotional, or\n          other personal concerns which may adversely affect employee job performance.\n          The specific core activities of EAPs include:\n\n\n\n\n                                            2\n\f     (1) Services for individuals (such as identification and resolution of job-\n         performance issues related to an employee’s personal concerns, and\n         assessment, referral, and follow-up);\n\n     (2) Services for managers and supervisors (such as assistance in referring\n         employees to the EAP, supervisor training, and management consulting);\n\n     (3) Services for organizations (such as violence prevention/crisis\n         management, group interventions, and employee orientation); and\n\n     (4) Administrative services (such as the development of EAP policies and\n         procedures, outreach, evaluation, and referral resources development).\n\nb.   EAP Consortium is a group of federal agencies contracting with one agency or\n     contractor to provide employee assistance services.\n\nc.   EAP Coordinator is the individual designated by USDA Mission Area/Agency\n     Heads and Staff Office Directors as responsible for implementing and operating\n     the EAP within their agency.\n\nd.   EAP member is an employee covered under an Agency EAP.\n\ne.   Employee is an individual meeting the criteria described in 5 U.S.C. 2105.\n\nf.   Extending services to families means allowing counseling of family members\n     (including same-sex domestic partners as defined by OPM memorandum in\n     paragraph 5j) where the treatment or counseling concerns the alcohol, and/or\n     drug problems of the employee himself/herself, and for employees where the\n     counseling relates to the alcohol, and/or drug problems of the family member.\n     The family members are covered under the contract the Agency/Mission Area\n     enters into with the EAP provider.\n\n     Family members are:\n\n     (1)   Spouse – legally married spouse of an EAP member.\n\n     (2)   Children – dependents of the EAP member.\n\n     (3)   Domestic partner – partner who resides in the home of an EAP member.\n\n     (4)   Household members – any legal dependent regardless of home address, or\n           significant other living in the employee’s household.\n\n     (5) Student – dependent children of the EAP member who attend school but do\n         not reside with the eligible EAP member.\n\n\n\n                                      3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b4b1248a-df95-5638-8753-e73bef6caf2a",
+        "class": "section",
+        "title": "Authorities",
+        "controls": [
+          {
+            "id": "dr4430-792-001-5",
+            "class": "policy-requirement",
+            "title": "Authorities",
+            "parts": [
+              {
+                "id": "dr4430-792-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   Comptroller General (CG) Decision B-187074, dated November 7, 1977, holds\n          that under 5 U.S.C. 7901, an agency may expend appropriated funds for the\n          procurement of diagnostic and preventive psychological counseling services.\n          Such services should not include treatment, but rather problem identification,\n          referral for treatment or rehabilitation and follow-up to aid an employee in\n          effective readjustment on the job during and after treatment.\n\n     b.   Public Law 99-570 (5 U.S.C. §§7361-7362), The Federal Employee Substance\n          Abuse Education and Treatment Act of 1986, and Title 5 Code of Federal\n          Regulations (CFR) Part 792, requires Federal agencies to establish appropriate\n          prevention, treatment, and rehabilitation programs and services for alcohol and\n          drug abuse problems for Federal civilian employees.\n\n     c.   5 U.S.C § 7901 authorizes the head of an agency to establish health services\n          programs for employees, also forms the basis for expanding counseling programs\n          from those dealing solely with substance abuse to broad range programs which\n          provide counseling for other personal problems, e.g., family, financial, marital,\n          etc.\n\n     d.   5 U.S.C. §§ 7361-7362 authorized agencies to provide counseling services, to the\n          extent feasible, to family members of employees who have alcohol and drug\n          problems, and to employees with family members who have substance abuse\n          problems.\n\n     e.   Executive Order 12564 dated September 15, 1986, “Drug-Free Federal\n          Workplace,” established the goal of a Drug-Free Workplace through education\n          and training programs, drug testing programs, and employee assistance programs.\n\n     f.   Department of Agriculture’s Plan for a Drug Free Workplace certified to\n          Congress by the Department of Health and Human Services on April 27, 1988, as\n          meeting the requirements of Public Law 100-71 (codified at 5 U.S.C. Section\n          7301), and Executive Order 12564 on Drug-Free Workplace Programs. The\n          Secretary of Agriculture and the Department of Health and Human Services have\n          approved all subsequent changes and modifications made to the 1988 certified\n          plan.\n\n     g.   42 CFR Part 2, Confidentiality of Alcohol and Drug Abuse Patient Record,\n          prohibits disclosure of information without the patient’s written consent.\n\n     h.   5 U.S.C. 552a establishes requirements governing the maintenance of records by\n          agencies pertaining to individuals and access to these records by the individual(s)\n          to whom they pertain.\n\n\n\n\n                                           4\n\f     i.   Presidential Memorandum, dated June 2, 2010,-“Extension of Benefits to Same-\n          Sex Domestic Partners of Federal Employees.”\n\n     j.   Guidance in memorandum from the Director of OPM dated June 2, 2010 –\n          “Implementation of the President’s Memorandum Regarding Extension of\n          Benefits to Same-Sex Domestic Partners of Federal Employees.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f9ecda47-fb9f-5322-a965-fe188f9eb558",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4430-792-001-6",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4430-792-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Assistant Secretary for Administration (ASA) will: Advise the Secretary of\n          Agriculture, Mission Area/Agency Heads, and Staff Office Directors in the\n          development and implementation of policies, programs, and oversight of EAPs.\n\n     b.   The Director, Office of Human Resources Management (OHRM) will:\n\n          (1)   Advise the ASA in planning, developing, and implementing policies,\n                programs, and systems to manage EAPs; and,\n\n          (2)   Provide and interpret USDA policies and standards for EAPs.\n\n     c.   The Employee Relations Officer, OHRM will:\n\n          (1)   Provide oversight of EAPs; and,\n\n          (2)   Provide agency officials with technical assistance and consultative\n                services for complex EAP issues.\n\n     d.   The Mission Area/Agency Heads/Staff Office Directors will:\n\n          (1)   Designate an EAP coordinator to coordinate the program with both external\n                sources and internal USDA offices;\n\n          (2)   Issue policy statements and implementing instructions;\n\n          (3)   Develop and maintain programs for short-term counseling (not to exceed\n                6 to 8 visits) and/or referral services for employees with personal (e.g.,\n                emotional, financial, legal), alcohol, and/or drug abuse problems;\n\n          (4)   Provide for education and awareness programs to inform employees of the\n                counseling and referral services and to emphasize prevention, early\n                intervention, and treatment; and,\n\n          (5)   Provide for training to help managers and supervisors recognize (NOT\n                diagnose) early signs of potential problems, which could involve\n                alcohol/drug abuse, and to understand confrontation and referral procedures.\n\n\n\n\n                                            5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f39f50c1-1e11-53ad-9cf2-f84be187199f",
+        "class": "section",
+        "title": "Program Administration",
+        "controls": [
+          {
+            "id": "dr4430-792-001-7",
+            "class": "policy-requirement",
+            "title": "Program Administration",
+            "parts": [
+              {
+                "id": "dr4430-792-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   Employee Participation:\n\n          (1)   Employees may voluntarily participate in EAP or their supervisor may refer\n                them for counseling on personal, alcohol, and/or drug problems that\n                adversely affect work performance or conduct.\n\n          (2)   Except as otherwise provided in paragraph 7a(4)(b), failure to voluntarily\n                participate in counseling or in a rehabilitative program at the referral of a\n                supervisor cannot be used as the basis for taking disciplinary action against\n                an employee.\n\n          (3)   Employees who fail to improve their conduct or performance, after a\n                referral to the EAP may have a conduct or performance-based action\n                initiated against them.\n\n          (4)   The EAP is not responsible for the implementation or operation of the\n                USDA drug testing program. The EAP is there to provide counseling and\n                assistance as follows:\n\n                (a)   Employees who use illegal drugs may self-refer to the EAP under the\n                      Safe Harbor provision in the USDA Plan for a Drug Free Workplace.\n                      This provision protects employees from disciplinary actions that may\n                      otherwise be taken against employees found to be using drugs\n                      illegally. In order to qualify for this provision, the employee must:\n                      voluntarily admit their drug use to appropriate supervisors or\n                      management officials before being identified through other means;\n                      obtains and completes counseling and rehabilitation through the EAP;\n                      and thereafter refrains from illegal drug use. The Safe Harbor\n                      provision does not protect employees from disciplinary actions and/or\n                      random testing if they refuse to notify their supervisors that they are\n                      seeking help for their drug problems.\n\n                (b)   Employees with a verified positive result to a drug test will be referred\n                      to the EAP. The EAP will then perform its normal functions of\n                      counseling and assisting employees in dealing with the drug problem.\n                      As provided by the Department’s Plan for a Drug-Free Workplace,\n                      employees may be subject to disciplinary action, including removal\n                      from service, for refusing to obtain counseling or rehabilitation after\n                      having been found to use drugs.\n\n          (5)   Costs associated with treatment (beyond the assessment sessions provided\n                by the EAP counselor) are the responsibility of the employee. Employees\n                can use their Federal employee health benefits plan for financial assistance\n                with covered services.\n\n                                            6\n\f     (6)   Employees are on official duty when they meet with the EAP, provided that\n           they obtain prior consent from their supervisor. The impact of the\n           employee’s absence on the workplace will be considered by the supervisor\n           in making this accommodation. In an emergency, supervisory approval\n           may be obtained after using the EAP. The supervisor may allow the\n           employee up to one hour (or more as necessitated by travel time) of\n           excused absence for each counseling session during the assessment/referral\n           phase. Confirmation of attendance will be provided by the EAP in\n           accordance with confidentiality procedures in paragraph 7(b). If an\n           employee does not want their supervisor to know of their attendance, they\n           must arrange for appointments outside of normal duty hours or while on any\n           leave except sick leave. Thereafter, absences during duty hours for\n           rehabilitation or treatment at community resources must be charged\n           to the appropriate leave category in accordance with law and leave\n           regulations.\n\nb.   Confidentiality: Given the personal nature of visits to the EAP, employees are\n     naturally concerned about the privacy and confidentiality of information\n     maintained by the EAP. When an employee comes to the EAP for assistance, the\n     EAP staff will provide him/her with a written notice concerning the confidential\n     nature of EAP records along with the conditions where information discussed in\n     counseling may be disclosed. EAP client information and records are protected\n     from disclosure under 5 U.S.C. § 552a, the Privacy Act of 1974. In addition,\n     records of individuals with alcohol and drug issues are subject to extra\n     restrictions, which are provided under 42 CFR, Part 2: “Confidentiality of\n     Alcohol and Drug Abuse Patient Records” regulations. Depending on the\n     location in which EAP services are provided and the professional credentials of\n     the EAP counselor, additional protection of client information may be provided\n     by state and professional association laws, regulations and procedures. Generally,\n     these laws and regulations prohibit EAP staff from sharing any information\n     about clients to anyone outside of the EAP, without the specific written consent of\n     the client. The EAP maintains a Privacy Act System of Records Notice that\n     details the procedures for maintaining the confidentiality of client information and\n     records. Prior to any counseling (even telephonically which is only done in an\n     emergency) confidentiality is discussed and agreed upon by the client.\n\nc.   When can information about an employee’s participation in the EAP be\n     disclosed?\n\n     (1) Disclosure with consent: Obtain the employee’s written consent before\n         releasing any information, except where disclosure without consent of the\n         client is allowed (7c (2)). This applies to all releases, including those to\n         supervisors, treatment facilities, and family members, without regard to the\n         type of problem(s) the individual is experiencing.\n\n\n\n\n                                       7\n\f            (2) Disclosure without consent: Disclosure without consent is only permissible\n                in a few specific instances, such as: To medical personnel in a medical\n                emergency; In response to an order of a court of competent jurisdiction; To\n                comply with Executive Order 12564, “Drug Free Federal Workplace.”\n\n            Unauthorized release of any information covered under this provision could result\n            in fines up to $5,000. Under certain circumstances, however, a counselor may\n            disclose information without the patient’s written consent. For example, any\n            instances of suspected child abuse and neglect may be reported to appropriate\n            State or local authorities. Also, when a patient commits, or threatens to commit, a\n            crime that would harm themselves or someone else, or cause substantial property\n            damage, law enforcement personnel may be informed.\n\n            Employees may be referred to the EAP by supervisors because of work\n            performance and/or conduct issues. Information about an employee’s visit to the\n            EAP will not be released to a supervisor without the employee’s written consent,\n            regardless of the nature of the referral, except in very limited situations (e.g.,\n            when an employee uses the EAP during work hours, the EAP will confirm that\n            the employee attended an EAP session). Employees are not required to release\n            information about their visits to the EAP to supervisors. When they choose to do\n            so, they will sign a consent form that allows for the release of limited information.\n\n     c.     Records: The Privacy Act (5 U.S.C. 552a) and confidentiality regulations (42\n            CFR Part 2) provide guidelines for maintaining USDA EAP consortium and\n            agency EAP records. These laws and regulations establish the circumstances\n            justifying release of these records. Employees receiving counseling services must\n            receive a copy of the EAP provider Privacy Act Statement pertaining to EAP\n            records. An example of the information required in the Privacy Act Statement\n            and confidentiality guidelines is provided in Appendix A.\n\n            Note: The same confidentiality and privacy guidelines cover employee family\n            members who are authorized to utilize the EAP services."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d09e4220-c371-550f-acdc-91a28ed0af03",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr4430-792-001-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr4430-792-001-8-stmt",
+                "name": "statement",
+                "prose": "Direct all inquiries to the Office of Human Resources Management, Employee Relations\n     Office, Room 302W Whitten Federal Building, 1400 Independence Ave. SW,\n     Washington, D.C. 20250; telephone number (202) 720-3585.\n\n                                           -END-\n\n\n\n\n                                              8\n\f                                          APPENDIX A\n\n   PRIVACY ACT STATEMENT and CONFIDENTIALITY INFORMATION (EXAMPLE)\n\nWe know it is a difficult decision to see an EAP counselor for the first time. Employees are\nsometimes concerned about the privacy of what they say. We would like to assure you that your\nEAP record is confidential and explain some of the laws and regulations that protect it. Your\nEAP counselors are committed to upholding the highest professional standards in maintaining\nyour privacy.\n\nThe principal purpose of maintaining information about you is to document your assessment,\nintervention and follow-up activities. The information is also used to monitor your progress. The\ninformation provided by you is voluntary. Limited information, however, may impact the EAP\ncounselor's ability to provide full services.\n\nThe Privacy Act covers all EAP records. In addition, EAP records of clients with alcohol and\ndrug problems are subject to extra restrictions described in the \"Confidentiality of Alcohol and\nDrug Abuse Patient Records\" regulations. In some cases, EAP records may also be subject to the\nPrivacy rule under the Health Insurance Portability and Accountability Act (HIPAA). Generally,\nthese laws and regulations prohibit EAP staff from sharing any information about you outside the\nEAP.\n\nThere are some situations, however, when information about you can be released. We are\nrequired by law and regulation to inform you about these situations. We can disclose\ninformation:\n\n           There are three types of disclosure:\n               a Disclosure with consent - employee's written consent is obtained before any\n                 information is released, except where disclosure without the consent of the\n                 client is allowed.\n               b Disclosure without consent - only permissible in a few instances, such as the\n                 following:\n\n                  (1)   to medical personnel in a medical emergency or when the disclosure is\n                        made in a non-identifiable form to qualified personnel for research,\n                        audit or program evaluation;\n                  (2)   in response to an order of a court of competent jurisdiction;\n                  (3)   to comply with Executive Order 12564, \"Drug Free Federal\n                        Workplace\";\n                  (4)   an EAP is required by law to report incidents of suspected child abuse\n                        and neglect (in some States, elder and spouse abuse) to the appropriate\n                        State and local authorities;\n                  (5)   an EAP may make a disclosure to appropriate individuals, such as law\n                        enforcement authorities and persons being threatened, if the client has\n\n\n                                                  A-1\n\f                         committed, or threatens to commit, a crime that would physically harm\n                         someone. This can be done only if the disclosure does not identify the\n                         EAP client as an alcoholic or drug abuser;\n                   (6)   to a private firm, individual, or group providing EAP functions\n                         contractually. The contractor shall be required to maintain all\n                         confidentiality safeguards and surrender these records to the EAP\n                         Administrator at the time of contract termination;\n\n                   (7)   when your direct supervisor needs to confirm that you have made or\n                         kept EAP appointments during regular duty hours or sick leave (no\n                         other information will be given without proper consent); and\n\n                   (8) if you are tested and receive a verified positive drug test result (under the\n                       Drug Free Workplace Program), in which case your direct supervisor\n                       must be informed.\n\n               c Secondary disclosure - any information disclosed with the employee's consent\n                 must be accompanied by a statement that prohibits further disclosure unless\n                 the consent expressly permits further disclosures.\n           Clients of the EAP have the right to access their own EAP records.\n           All EAP records are the property of the Federal department or agency sponsoring the\n           program.\n\n\nI understand that the initial EAP assessment is free of charge. If short-term counseling is\ndetermined to be clinically appropriate, the EAP counselor or local affiliate (if applicable) will\nalso provide this service at no cost up to the maximum allowed by their contract with USDA.\nHowever, I acknowledge and understand that the EAP contractor or its affiliates are not\nresponsible for the treatment costs and/or services for which I may be referred beyond the local\nEAP counselor or local affiliate counselor. I understand that it is my sole responsibility to pay\nfor all such services including all charges not covered by insurance plans.\n\nI have read the foregoing Privacy Act Statement and Confidentiality Information, and I\nunderstand and agree to it.\n\n\nClient Name (Printed)\n\n\nClient Signature                                                            Date\n\n\nEAP Counselor                                                               Date\n\n\n                                                A-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "7ec54ccb-fcf5-5d89-99dd-7e1f21cda4a8",
+          "title": "USDA Directives — DR4430-792-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4430-792-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

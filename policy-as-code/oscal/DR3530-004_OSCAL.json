@@ -1,0 +1,293 @@
+{
+  "catalog": {
+    "uuid": "1fb46af4-8389-5d2c-930f-0edac1975177",
+    "metadata": {
+      "title": "USDA DR3530-004: Firewall Security",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2026-06-09",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3530-004"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2026-06-09"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3530-004",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3530-004",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "f6f9900e-854d-516b-960b-ca39e9436fd5",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3530-004-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3530-004-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the parameters for firewall configuration and\n     provides guidance for the development of associated processes and procedures within the\n     United States Department of Agriculture (USDA).\n\n     Firewalls are a key component of the defense-in-depth security strategy for all information\n     technology (IT) systems, networks, servers, and applications in USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "34527a17-871f-54ab-b1f0-09ad7d6d2af0",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3530-004-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3530-004-2-stmt",
+                "name": "statement",
+                "prose": "This policy applies to the USDA Enterprise perimeter, USDA managed data centers,\n     Demilitarized Zone (DMZ), and cloud service gateways (CSG) to control data flow between\n\f  USDA and external entities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e3b79058-ce23-5d02-875e-16e30a3c67a2",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3530-004-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3530-004-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes Departmental Manual (DM) 3530-004, Firewall Technical Security\n       Standards, dated February 17, 2005.\n\n  b.   This DR is effective immediately when published and will remain in effect until it is\n       superseded, or it expires.\n\n  c.   This DR addresses and meets the requirements of:\n\n       (1) the Federal Information Security Modernization Act of 2014 (FISMA), 44 United\n           States Code (U.S.C.) §§ 3551-3559;\n\n       (2) DR 3185-004, Enterprise Zero Trust Architecture;\n\n       (3) DR 3520-002, Configuration Management;\n\n       (4) 7 Code of Federal Regulations (CFR) § 2.32, Chief Information Officer;\n\n       (5) 44 U.S.C. § 3506(b)(2), Federal Agency Responsibilities;\n\n       (6) National Institute of Standards and Technology (NIST), Special Publication (SP)\n           800-53 Rev. 5, Security and Privacy Controls for Information Systems and\n           Organizations; and\n\n       (7) NIST, SP 800-41 Rev. 1, Guidelines on Firewalls and Firewall Policy.\n\n  d.   All USDA Mission Areas, agencies, and staff offices will align their USDA-supported\n       firewall specifications and procedures with this DR within 6 months of the publication\n       date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "94e85f31-f5af-5124-8e60-586070411241",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3530-004-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3530-004-4-stmt",
+                "name": "statement",
+                "prose": "a.   Information Security Modernization Act (FISMA) requires Federal agencies to use\n       information security protections commensurate with the risk posed to Federal\n       information and information systems. Firewalls are devices or programs that restrict or\n       permit the flow of specific network traffic between networks or hosts. They allow for\n       the enforcement of security postures across the enterprise computing environment.\n       USDA is implementing an enterprise zero trust architecture (ZTA), and firewalls are just\n       one layer of a multilayer security strategy.\n\n  b.   USDA follows the specific firewall standards established by NIST in SP 800-41\n       Revision 1. USDA refers to this guidance to implement all firewall standards.\n\n\n                                              2\n\f  c.   USDA uses Managed Trusted Internet Protocol Service (MTIPS) and CSG capabilities\n       to connect USDANet to external networks operated by organizations other than USDA.\n       This includes the cloud service providers (CSP) and commercial networks that remote\n       employees use to access USDANet. There are multiple MTIPS and CSG locations\n       which host firewalls and remote access services that protect the USDANet perimeter."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f25c8433-c7c6-53e4-9546-61581833382d",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3530-004-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3530-004-5-stmt",
+                "name": "statement",
+                "prose": "a.   It is USDA policy that direct connection of agriculture networks, to or from the internet\n       or extranet, must go through approved USDA firewalls.\n\n  b.   USDA IT resources must be protected from external threats using zero trust principles\n       including micro-segmentation, policy enforcement points, continuous monitoring and\n       threat detection or other USDA-approved DMZ network isolation protection methods.\n\n  c.   All USDA Mission Areas, agencies, and staff offices will only use USDA-supported\n       firewalls. They will ensure USDA-supported firewalls operate according to USDA\n       policies between external networks run by organizations other than the USDA and the\n       USDA enterprise network.\n\n  d.   All USDA firewalls will be configured to comply with:\n\n       (1) SP 800-41 Rev. 1, Guidelines on Firewalls and Firewall Policy;\n\n       (2) The applicable controls in SP 800-53 Rev. 5 (specifically, Access Control (AC)-4\n           Information Flow Enforcement); and\n\n       (3) DR 3505-003, Access Control for Information and Information Systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f8dcd8a3-28f0-5d62-b1e5-6d0210a8517d",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3530-004-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3530-004-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Security Officer (CISO) will create, implement, and\n       verify adherence to cybersecurity policies.\n\n  b.   The USDA Office of the Chief Information Officer (OCIO) Digital Infrastructure\n       Services Center (DISC) Network Enterprise Division Director will:\n\n       (1) Follow NIST’s technical firewall standards for USDA’s IT environment;\n\n       (2) Review and confirm that all USDA agency firewalls standards and protocols\n           comply with this DR and USDA ZTA security controls;\n\n\n\n\n                                               3\n\f     (3) Perform an annual review to find and remove any inactive or dormant firewall\n         rules;\n\n     (4) Actively engage with the OCIO Configuration Control Board (CCB) in the\n         preparation of exception packages, as required; and\n\n     (5) Coordinate with agencies or Mission Areas to promote and implement the defense-\n         in-depth environment within USDA.\n\nc.   The USDA Mission Area Assistant Chief Information Security Officers (ACISO) or\n     USDA Mission Area Assistant Chief Information Officers (ACIO) will:\n\n     (1) Ensure the provisions of this DR are implemented in all USDA agency or Mission\n         Area IT environments;\n\n     (2) Oversee that all relevant USDA IT personnel are acquainted with the provisions of\n         this DR placing particular emphasis on the Information Systems Security Manager\n         (ISSM) and System/Network Administrators (SA/NA);\n\n     (3) Confirm that all USDA agency security plans and internal operating procedures\n         include instructions for the secure use of approved firewall protocols;\n\n     (4) Confirm that all network traffic is denied unless explicitly allowed;\n\n     (5) Ensure that any changes made to firewall and gateway standards undergo review by\n         the agency Configuration Control Board (CCB) and are approved by the Designated\n         Approval Authority (DAA);\n\n     (6) Ensure that USDA agency personnel promptly respond to security alerts from\n         firewalls;\n\n     (7) Prepare formal exception requests for firewalls that do not meet the requirements of\n         this DR, in conformance with Section 8, Policy Exceptions; and\n\n     (8) Actively engage with the Associate CIO responsible for CSP to establish a defense-\n         in-depth strategy to protect all of USDA’s IT assets.\n\nd.   The USDA Agency ISSMs will:\n\n     (1) Include the requirements of this DR in USDA agency security plans and internal\n         operating procedures to ensure secure use of approved firewall protocols and\n         standards;\n\n     (2) Participate, via the USDA agency CCB, in the review of changes to firewalls\n         standards;\n\n\n\n\n                                             4\n\f       (3) In conjunction with the USDA agency SA/NA, ensure that all remote connections\n           are centrally managed, and users of remote services are fully authenticated;\n\n       (4) In coordination with the USDA agency SA/NA, respond promptly to high-security\n           alert notifications from firewalls, taking appropriate remedial action to protect\n           USDA information assets;\n\n       (5) Conduct periodic reviews, at least quarterly, of all firewalls and gateways to\n           determine compliance with protocols and standards; and\n\n       (6) Participate in the preparation of waiver packages, as required.\n\n  e.   USDA Agency SA/NAs will:\n\n       (1) Include all standards and approved protocols in internal operating procedures for\n           firewalls; and\n\n       (2) Promptly respond to high-security alert notifications from USDA agency firewalls\n           and, in coordination with the ISSM, take appropriate remedial action to protect\n           USDA information assets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5df9645c-1441-5311-8799-f314462e0593",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Noncompliance",
+        "controls": [
+          {
+            "id": "dr3530-004-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Noncompliance",
+            "parts": [
+              {
+                "id": "dr3530-004-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16: Computers,\n       sets forth USDA-developed policies, procedures, and standards on employee\n       responsibilities and conduct regarding the use of computers and telecommunication\n       equipment. In addition, DR 4070-735-001, Section 21: Disciplinary or Adverse Action,\n       states:\n\n       (1) Any violation of the responsibilities or standards contained in this DR may be cause\n           for disciplinary or adverse action; and\n\n       (2) Any disciplinary or adverse action taken will be consistent with the applicable laws\n           and regulations.\n\n  b.   Such disciplinary or adverse action will be consistent with applicable laws and\n       regulations such as Office of Personnel Management regulations, Office of Management\n       and Budget (OMB) regulations, and the Office of Government Ethics, 5 CFR §\n       2635.101, et seq., Standards of Ethical Conduct for Employees of the Executive Branch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b10bdfad-e269-5825-8b67-5491a8c3425f",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3530-004-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3530-004-8-stmt",
+                "name": "statement",
+                "prose": "All Mission Areas, agencies, and staff offices will conform to this policy. Any Mission Area,\n  agency, or staff office that cannot meet a specific policy requirement must request a policy\n  exception.\n\n\n                                               5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b4f66d20-a1a7-5bbb-aa05-ea9ceeab294b",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3530-004-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3530-004-9-stmt",
+                "name": "statement",
+                "prose": "Address inquiries concerning this DR to OCIO, CPOC via CPOC-CyberPolicy@usda.gov.\n\n\n                                       -END-\n\n\n\n\n                                         6\n\f                                  APPENDIX A\n\n                     ACRONYMS AND ABBREVIATIONS\n\n\nAC      Access Control\nCCB     Configuration Control Board\nCFR     Code of Federal Regulations\nCIO     Chief Information Officer\nCISO    Chief Information Security Officer\nCPOC    Cybersecurity and Privacy Operations Center\nCSG     Cloud Service Gateway\nCSP     Cloud Service Providers\nDAA     Designated Approval Authority\nDISC    Digital Infrastructure Services Center\nDM      Departmental Manual\nDMZ     Demilitarized Zone\nDR      Departmental Regulation\nEIS     Enterprise Infrastructure Solutions\nFISMA   Federal Information Security Modernization Act\nGSA     General Services Administration\nIETF    Internet Engineering Task Force\nISSM    Information Systems Security Manager\nIT      Information Technology\nNA      Network Administrator\nNIST    National Institute of Standards and Technology\nMTIPS   Managed Trusted Internet Protocol Service\nOCIO    Office of the Chief Information Officer\nOMB     Office of Management and Budget\nOPI     Office of Primary Interest (also known as the policy owner or sponsor)\nRAS     Remote Access Services\nRFC     Request for Comments\nSA      System Administrator\nSA/NA   System/Network Administrator\nSP      Special Publication\nTIC     Trusted Internet Connections\nUSDA    United States Department of Agriculture\nZTA     Zero Trust Architecture\n\n\n\n\n                                       A-1\n\f                                          APPENDIX B\n\n                                         DEFINITIONS\n\n\nConfiguration Control Board (CCB). A group of qualified people with responsibility for the\nprocess of regulating and approving changes to hardware, firmware, software, and\ndocumentation throughout the development and operational life cycle of an information system.\n(Source: NIST, SP 800-128, Guide for Security-Focused Configuration Management of\nInformation Systems)\n\nDefense-in-Depth Strategy. An information security strategy that integrates people, technology,\nand operations capabilities to establish variable barriers across multiple layers and missions of\nthe organization. (Source: NIST SP 800-53, Revision 5)\n\nDemilitarized Zone (DMZ). An interface on a routing firewall that is similar to the interfaces\nfound on the firewall’s protected side. Traffic moving between the DMZ and other interfaces on\nthe protected side of the firewall still goes through the firewall and can have firewall protection\npolicies applied. (Sources: NIST, SP 1800-21C, Mobile Device Security: Corporate-Owned\nPersonally-Enabled (COPE); NIST, SP 800-41, Revision 1)\n\nDesignated Approval Authority (DAA). Official with the authority to formally assume\nresponsibility for operating a system at an acceptable level of risk. This term is synonymous\nwith authorizing official, designated accrediting authority, and delegated accrediting authority.\n(Source: Committee on National Security Systems (CNSSI), Glossary)\n\nEnterprise Zero Trust Architecture (Enterprise ZTA). Provides a collection of concepts designed\nto minimize uncertainty in enforcing accurate, least privilege per-request access decisions in\ninformation systems and services in the face of a network viewed as contested. (Source: NIST,\nCSWP 20, Planning for a Zero Trust Architecture)\n\nFirewall. An inter-network gateway that restricts data communication traffic to and from one of\nthe connected networks (the one said to be “inside” the firewall) and thus protects that\nnetwork’s system resources against threats from the other network (the one that is said to be\n“outside” the firewall). (Source: NIST, SP 800-82r3, Guide to Operational Technology (OT)\nSecurity)\n\nGateway. An intermediate system (interface, relay) that attaches to two (or more) computer\nnetworks that have similar functions but dissimilar implementations and that enables either one-\nway or two-way communication between the networks.\n\nManaged Trusted Internet Protocol Service. Services under GSA’s Enterprise Infrastructure\nSolutions (EIS) contract vehicle that provide TIC solutions to government clients as a managed\nsecurity service. (Source: CISA Trusted Internet Connections (TIC) 3.0)\n\nRemote Access. The ability for an organization’s users to access its non-public computing\nresources from external locations other than the organization’s facilities. (Source: NIST SP\n\n                                                 B-1\n\f800-46, Revision 2, Guide to Enterprise Telework, Remote Access, and Bring Your Own\nDevice (BYOD) Security)\n\n\n\n\n                                             B-2\n\f                                          APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n7 CFR § 2.32, Chief Information Officer\n\n44 U.S.C. § 3506(b)(2), Federal Agency Responsibilities\n\nCybersecurity & Infrastructure Security Agency, Trusted Internet Connections (TIC) web page\n\nDepartment of Homeland Security, Trusted Internet Connections (TIC) Reference\nArchitecture Document, Version 2.2, June 19, 2017\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §§ 3551-3559\n\nFIPS PUB, 140-3, Security Requirements for Cryptographic Modules, March 22, 2019\n\nFIPS PUB, 186-5, Digital Signature Standard (DSS), February 3, 2023\n\nInternet Engineering Task Force (IETF), Request for Comments (RFC) 6303, Locally Served\nDNS Zones, July 2011\n\nIETF, RFC 6761, Special-Use Domain Names, February 2013\n\nNIST, SP 800-41, Revision 1, Guidelines on Firewalls and Firewall Policy, September 2009\n\nNIST, SP 800-46, Revision 2, Guide to Enterprise Telework, Remote Access, and Bring Your\nOwn Device (BYOD) Security, July 2016\n\nNIST, SP 800-53, Revision 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020, includes updates as of December 10, 2020\n\nNIST, SP 800-57, Revision 1, Recommendation for Key Management, Part 3: Application-\nSpecific Key Management Guidance, January 2015\n\nNIST, SP 800-81-2, Secure Domain Name System (DNS) Deployment Guide, September\n2013\n\nNIST, SP 800-128, Guide for Security-Focused Configuration Management of Information\nSystems, August 2011, includes updates as of October 10, 2019\n\nOffice of Government Ethics, 5 CFR § 2635.101, et seq., Standards of Ethical Conduct for\nEmployees of the Executive Branch\n\nOMB, Circular A-130, Appendix III, Security of Federal Automated Information Resources,\n\n\n\n                                             C-1\n\fNovember 2000\n\nOMB, Circular A-130, Appendix IV, Analysis of Key Sections, November 2000\n\nOMB, Circular M-08-23, Securing the Federal Government’s Domain Name System\nInfrastructure, August 22, 2008\n\nUSDA, DR 3185-004, Enterprise Zero Trust Architecture, September 9, 2024\n\nUSDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019\n\nUSDA, DR 3520-002, Configuration Management, July 17, 2019\n\n\n\n\n                                             C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "22560c91-9c3f-55bc-9419-a4be554b513f",
+          "title": "USDA Directives — DR3530-004",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3530-004",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

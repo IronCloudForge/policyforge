@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/requirement",
+  "title": "Requirement",
+  "description": "A single mandatory policy requirement extracted from a USDA directive. Extracted by keyword-anchored sentence boundary detection on SHALL / MUST / IS REQUIRED TO / ARE REQUIRED TO / WILL BE REQUIRED TO / ARE PROHIBITED FROM / ARE PROHIBITED. Each element is one item in the `requirements` array of a Rego module.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]+-req-\\d{3}$",
+      "description": "Unique requirement identifier. Format: {pkg_name}-req-{NNN}. pkg_name is the Rego package suffix (e.g. dr0100_001). NNN is zero-padded sequence within the directive. Part files continue numbering (e.g. -req-076 in _part2).",
+      "examples": ["dr0100_001-req-001", "dm3505_005-req-042", "dm3440_001-req-076"]
+    },
+    "section": {
+      "type": "string",
+      "description": "Section number key matching the `sections` object key where this requirement was found.",
+      "examples": ["2", "4", "A", "B"]
+    },
+    "section_title": {
+      "type": "string",
+      "description": "Human-readable section or appendix heading corresponding to the `section` key.",
+      "examples": ["Responsibilities", "Policy", "Appendix A — Definitions"]
+    },
+    "text": {
+      "type": "string",
+      "description": "Full sentence (or near-sentence fragment) containing the mandatory keyword, as extracted from the directive source text. Whitespace-normalized.",
+      "minLength": 10
+    },
+    "keyword": {
+      "type": "string",
+      "enum": ["shall", "must", "required", "prohibited"],
+      "description": "Normalized trigger keyword class. 'shall' captures 'shall'; 'must' captures 'must'; 'required' captures 'is required to', 'are required to', 'will be required to'; 'prohibited' captures 'are prohibited from', 'are prohibited'."
+    },
+    "mandatory": {
+      "type": "boolean",
+      "const": true,
+      "description": "Always true. All extracted requirements are mandatory. Non-mandatory guidance is not captured in the requirements array."
+    }
+  },
+  "required": ["id", "section", "section_title", "text", "keyword", "mandatory"],
+  "additionalProperties": false,
+  "examples": [
+    {
+      "id": "dr0100_001-req-001",
+      "section": "2",
+      "section_title": "Special Instructions/Cancellations",
+      "text": "All Departmental directives must be submitted electronically using the Directives Management System.",
+      "keyword": "must",
+      "mandatory": true
+    }
+  ]
+}

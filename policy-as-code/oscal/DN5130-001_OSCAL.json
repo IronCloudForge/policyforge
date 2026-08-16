@@ -1,0 +1,220 @@
+{
+  "catalog": {
+    "uuid": "741d0183-206c-5355-9ce1-06458a46c9e5",
+    "metadata": {
+      "title": "USDA DN5130-001: Real Property Disposals",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-04-01",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DN5130-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Notice"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-04-01"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dn-5130-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Property and Fleet Management, April 1, 2021",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dn-5130-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Property and Fleet Management, April 1, 2021"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "21d6d2eb-9eea-5f96-945e-fdd72788b253",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dn5130-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dn5130-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Notice (DN) instructs USDA Mission Area, agencies, and staff offices to\n     enter planned disposals of real property assets into the Corporate Property Automated\n     Information System (CPAIS)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "50d6fb84-3cb6-5fc5-a202-86919065ca35",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dn5130-001-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dn5130-001-2-stmt",
+                "name": "statement",
+                "prose": "This DN applies to all USDA Mission Areas, agencies, and staff offices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6f040250-76f7-5dc6-8750-e94baad4c560",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dn5130-001-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dn5130-001-3-stmt",
+                "name": "statement",
+                "prose": "This DN is effective upon issuance and will expire within 1 year of its issuance date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "45a5a32f-0f55-50d0-a8a6-a0c9d93faf37",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dn5130-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dn5130-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   All agencies must enter planned real property asset disposals into CPAIS by April 30,\n          2020.\n\f  b.   Agencies will include disposals of owned property, leased property, and General\n       Services Administration (GSA) Occupancy Agreements that are planned for disposal\n       through fiscal year 2023. Planned disposals that are already in CPAIS will also be\n       updated.\n\n  c.   Agencies must update the Status field in the “Maintain Properties” form. The status\n       field for Owned property must be changed to a status with “Excess” in the status name.\n       The status fields for Leased property or GSA Assignments must be changed to a status\n       with “Planned Closure” in the status name."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "36b1b42c-86d1-5fcc-9f56-26bc149c4fc2",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dn5130-001-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dn5130-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Property Management Division Chief will approve of any policy exceptions.\n\n  b.   The USDA Asset Manager will:\n\n       (1) Provide overall guidance and support to agencies and staff offices; and\n\n       (2) Serve as the primary point of contact for inquiries.\n\n  c.   Mission Area, Agency, and Staff Office Heads will ensure that all planned disposals are\n       properly reported in CPAIS by the due date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a9e0cf49-88e9-5b1d-bb62-34f1b8a5bf6c",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dn5130-001-6",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dn5130-001-6-stmt",
+                "name": "statement",
+                "prose": "If an agency cannot meet a policy requirement as explicitly stated in the notice, an exception\n  may be requested. Written requests should be directed to Anne Anderson at\n  anne.anderson@usda.gov."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b57e2bc5-2ac9-5c00-be20-7d516f107520",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dn5130-001-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dn5130-001-7-stmt",
+                "name": "statement",
+                "prose": "Questions and comments about this DN should be directed to Tony Doxtater, Asset Manager,\n  at 202-239-4560 or at tony.doxtater@usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                                 2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "cdac924e-e15e-5c28-a6cf-44732c285cf8",
+          "title": "USDA Directives — DN5130-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dn-5130-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

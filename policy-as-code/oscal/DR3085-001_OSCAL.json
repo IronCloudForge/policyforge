@@ -1,0 +1,320 @@
+{
+  "catalog": {
+    "uuid": "90a2192c-0d15-506f-8e1b-1f2998d75c17",
+    "metadata": {
+      "title": "USDA DR3085-001: Vital Records Management Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2011-08-19",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3085-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2011-08-19"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3085-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3085-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "06451357-2d0a-560f-8aa1-dbe2521ab97d",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3085-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3085-001-1-stmt",
+                "name": "statement",
+                "prose": "This regulation outlines the policies and responsibilities for identifying and\n     protecting records necessary for USDA to continue its essential functions and\n     activities during and following an emergency, disaster, or event that could cause the\n     disruption of normal operations. It augments information in DR 1800-1,\n     Departmental Emergency Programs Responsibilities and the USDA Headquarters\n     Continuity of Operations (COOP) Plan. The primary authority for establishing a\n     vital records management program within the Federal Government is 36 Code of\n     Federal Regulations (CFR), Subchapter B – Records Management, Part 1223,\n     Managing Vital Records."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f1049279-6fe3-5d54-a6f6-445448663e26",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3085-001-2",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3085-001-2-stmt",
+                "name": "statement",
+                "prose": "Preservation of vital records is a government-wide requirement imposed through a\n     variety of laws and facilitated by the National Archives and Records Administration\n     (NARA) guidance. Each Federal agency is required by statute and by regulation to\n     establish and maintain a vital records management program. An effective vital\n     records management program is essential to successful records management. Vital\n     records include records and information necessary to continue the essential\n     functions and activities of an agency in case of an emergency or disaster; and to\n     protect the legal and financial rights of the agency, its employees, and the public."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e937700-1dce-5258-9a91-1f499c14001d",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3085-001-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3085-001-3-stmt",
+                "name": "statement",
+                "prose": "USDA is committed to working with its employees to protect and safeguard vital\n     records. This regulation sets forth USDA’s policy and responsibilities in\n     developing a vital records management program. The intent is to ensure that USDA\n     critical records are identified, maintained and protected and no loss of critical\n     information occurs during or after an emergency or disaster.\n\n     a.    Each USDA agency and staff office head will establish a vital records\n           management program in accordance with this regulation and DR 1800-1.\n\n     b.    Each USDA agency and staff office head will select and safeguard records\n           required to ensure the continuity of essential USDA functions during and\n\f          following an emergency, disaster, or event that could cause the disruption of\n          normal operations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "75d3ba71-99aa-5c51-ab28-19039c7d080f",
+        "class": "section",
+        "title": "Authority",
+        "controls": [
+          {
+            "id": "dr3085-001-4",
+            "class": "policy-requirement",
+            "title": "Authority",
+            "parts": [
+              {
+                "id": "dr3085-001-4-stmt",
+                "name": "statement",
+                "prose": "This regulation is published in accordance with the authority vested in the Secretary\n     of Agriculture under 44 U.S.C. 2104 and 3101; and 44 U.S.C. Chapter 35; and\n     delegated to the Chief Information Officer (7 CFR 2.89)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6ba3c182-4468-5c4a-9f56-d3f76d7253b3",
+        "class": "section",
+        "title": "Abbreviations",
+        "controls": [
+          {
+            "id": "dr3085-001-5",
+            "class": "policy-requirement",
+            "title": "Abbreviations",
+            "parts": [
+              {
+                "id": "dr3085-001-5-stmt",
+                "name": "statement",
+                "prose": "CAT        COOP Crisis Action Team\n     CFR        Code of Federal Regulations\n     CIO        Chief Information Officer\n     COOP       Continuity of Operations\n     DR         Departmental Regulation\n     ERF        Emergency Relocation Facility\n     FEMA       Federal Emergency Management Agency\n     FRA        Federal Records Act\n     FOIA       Freedom of Information Act\n     NARA       National Archives and Records Administration\n     OCIO       Office of the Chief Information Officer\n     POC        Point of Contact\n     U.S.C.     United States Code"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4ae0b52c-1a97-5bc5-97c1-829c924f5e97",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr3085-001-6",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr3085-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   DR 3080-001, Records Management, April 11, 2007\n\n     b.   DR 3090-001, Litigation Retention Policy for Documentary Materials\n          including Electronically Stored Information, March 28, 2008\n\n     c.   DR 1800-1, Departmental Emergency Programs Responsibilities, March 28,\n          2001\n\n     d.   DR 3440-001, USDA Classified National Security Information Program\n          Regulation, January 9, 2008\n\n     e.   DM 3440-001, USDA Classified National Security Information Program\n          Manual, May 1, 2008\n\n     f.   National Archives and Records Administration Guide, \"Vital Records and\n          Records Disaster Mitigation and Recovery\"\n\n     g.   36 CFR, Chapter 12, Subchapter B – Records Management, Part 1223,\n          Managing Vital Records\n\n\n\n                                            2\n\f     h.   44 U.S.C. 3101, Records Management by Agency Heads; General Duties"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b123920a-5016-5fa1-b902-1048ff05eb24",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr3085-001-7",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr3085-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   Secretary of Agriculture\n\n          As the head of the Department, the Secretary of Agriculture is vested with the\n          authority to make and preserve records containing adequate and proper\n          documentation of the organization, functions, policies, decisions, procedures,\n          and essential transactions of the agency. (44 U.S.C. 3101.)\n\n     b.   USDA’s Chief Information Officer (CIO)\n\n          The Secretary of Agriculture has delegated to the CIO, through the Assistant\n          Secretary for Administration, oversight responsibility for the\n          Department-wide records management disposition program (7 CFR\n          2.89(a)(10); 2.89(a)(11)(x). Oversight of the Vital Records Management\n          Program is within the scope of this delegation. This responsibility includes\n          the following:\n\n          (1)    Review proposed USDA reporting and record keeping requirements,\n                including those contained in rules and regulations, to ensure that they\n                impose the minimum burden upon the public and have practical utility\n                for USDA;\n\n          (2)   Assist the Office of Management and Budget in the performance of its\n                functions assigned under the:\n\n                   (a) Data Quality Act (Pub. L. No. 106-554 § 515) and under the\n                       Paperwork Reduction Act (44 U.S.C. 3501-3520), including\n                       review of USDA information activities,\n\n                   (b) E-Government Act of 2002, Pub. L. No. 107-347, 44 U.S.C.\n                       Chapter 36;\n\n          (3)   Administer the Departmental Records Management Program.\n\n          (4)   Administer the Departmental Vital Records Management Program in\n                compliance with the National Archives and Records Administration and\n                other oversight Agencies.\n\n     c.   The Departmental Vital Records Officer, Office of the Chief Information\n          Officer\n\n          (1)   Develops Departmental level USDA specific Vital Records Management\n                Program requirements, policies, management procedures and guidance\n                in compliance with the National Archives and Records Administration\n\n                                           3\n\f     (2)   Develops and distributes guidance related to identification,\n           maintenance, and protection of rights and interest records.\n\n     (3)   Conducts an annual review of USDA vital records management policies\n           and procedures to ensure compliance with NARA regulations and\n           assigns tasks to ensure compliance.\n\n     (4)   Ensures Agency and Staff Office compliance through periodic audits\n           and reports to Agency and Staff Office Heads on findings.\n\n     (5)   Maintains liaisons with the NARA and other Federal agencies on\n           matters affecting vital records.\n\nd.   Agency and Staff Office Records Officers\n\n     (1)   Guide and assist in inventorying agency records.\n\n     (2)   Assist agency and staff office vital records coordinators to identify vital\n           records.\n\n     (3)   Provide guidance on maintenance practices in determining the\n           appropriate method of protecting their vital records.\n\n     (4)   Conduct general records management training.\n\n     (5)   In conjunction with the agency and staff office vital records coordinators\n           and the mission area, agency and staff office COOP POC ensures that\n           copies of vital records are properly managed throughout their life cycle\n           as they are updated, stored and replaced in accordance with established\n           requirements.\n\ne.   Agency Heads and Staff Office Heads\n\n     (1)   Designate a vital records coordinator to implement, maintain and\n           oversee the vital records management program.\n\n     (2)   Ensure agency and staff office vital records management programs are is\n           in compliance with Departmental, organization specific, and NARA\n           requirements and guidelines.\n\n     (3)   Identify and select those records essential to agency-wide effectiveness\n           during and after an emergency or disaster. This includes selecting the\n           appropriate media for storing records.\n\n\n\n\n                                       4\n\f     (4)   Ensure that vital records are protected against damage and loss.\n\n     (5)   Ensure that records, selected for inclusion in the vital records\n           management program, are current, complete, protected, and readily\n           available to facilitate the continuity of USDA operations during and\n           after an emergency or disaster.\n\n     (6)   Ensure that their staff are aware of and execute appropriate measures to\n           identify and protect vital records.\n\nf.   Office of Homeland Security and Emergency Coordination, COOP Planning\n     Division\n\n     (1)   Ensures that the COOP POC and CAT members comply with the USDA\n           HQ COOP Plan.\n\ng.   Agency and Staff Office COOP POC\n\n     (1)   Coordinate with the COOP Planning Division regarding the transfer of\n           vital records and duplicated vital records to the COOP ERF and\n           Devolution Site storage facility. Ensure the stored vital records\n           inventory is maintained up to date and complete at all times.\n\n     (2)   Manage the transfer of vital records and duplicated vital records to the\n           agency and staff office COOP ERF and Devolution Site storage facility.\n           Ensure the stored vital records inventory is maintained up to date and\n           complete at all times.\n\n     (3)   In conjunction with the agency and staff office vital records coordinators\n           and the agency records officer ensures that copies of vital records are\n           properly managed throughout their life cycle as they are updated, stored,\n           and replaced in accordance with established requirements.\n\n     (4)   Maintain copies of completed transmittal forms and the vital records\n           inventory for the agency.\n\n     (5)   Certify the currency of their organization’s vital records inventory\n           located at the OSEC ERF and Devolution Site, and the organization’s\n           own ERF and Devolution Site to the agency records officer following\n           completion of a scheduled quarterly vital records inventory review and\n           update.\n\n     (6)   Ensure a select master set of Federal, USDA and agency directives,\n           handbooks, forms and other issuances, both administrative and technical,\n           are available electronically and in hard copy at their agency’s ERF and\n           Devolution Site.\n\n\n\n                                      5\n\f     (7)   Provide locations of vital records and procedures for assessing and\n           utilizing them.\n\nh.   Agency and Staff Office Vital Records Coordinators\n\n     (1)   Are responsible for the direct management and implementation of\n           USDA and organization specific Vital Records Management Program\n           policies, management procedures and access instructions, and all\n           applicable guidance promulgated by NARA and the Federal\n           Government.\n\n     (2)   Work with the agency and staff office records officers to ensure the\n           proper identification and selection of vital records, use of suitable\n           storage media, and the maintenance of appropriate inventories.\n\n     (3)   Are directly responsible for the currency, completeness, accessibility,\n           proper storage, and protection against damage and loss of the vital\n           records inventory at USDA HQ, their organization’s ERFs and\n           Devolution Sites, and if applicable at the OSEC ERF and Devolution\n           Site.\n\n     (4)   In coordination with program managers, IT managers, employees,\n           contractors, and volunteers as applicable, complete review and updates\n           of the organization’s vital records inventory once a quarter at a\n           minimum and otherwise as needed. Upon completion of the review,\n           provide a copy of the inventory certified as current to the Records\n           Officer and COOP POC.\n\n     (5)   Ensure that agency and staff office personnel are aware of and execute\n           appropriate measures to identify and protect vital records.\n\n     (6)   Ensure vital records are readily available to facilitate USDA continuity\n           of operations during and following an emergency, disaster, or event that\n           could cause the disruption of normal operations.\n\n     (7)   Conduct an annual comprehensive vital records program inventory\n           review, documented with the date the review was conducted and the\n           name of the reviewer.\n\n     (8)   Conduct initial on-boarding and annual vital records briefings, and\n           training sessions of COOP personnel, and ensure that their agency or\n           staff office personnel are aware of and execute appropriate measures to\n           identify and protect vital records.\n\n\n\n\n                                       6\n\f     i.   Program Managers\n\n          (1)   Ensure vital records are identified, updated and protected.\n\n          (2)   Ensure that their staffs are aware of and execute appropriate measures to\n                identify and protect vital records.\n\n     j.   Information Technology Managers\n\n          (1)   Provide information technology (IT) support sufficient to support the\n                effective and efficient production, storage, maintenance and retrieval of\n                vital records in electronic formats.\n\n          (2)   Provide technical advice and guidance by reviewing and assisting with\n                hardware and software required to support the vital records program.\n\n          (3)   Take steps to eliminate IT vulnerabilities that could threaten agency vital\n                records.\n\n          (4)   Procure, install, and upgrade, as appropriate, IT systems, software and\n                equipment sufficient to support the vital records program including the\n                implementation of redundant IT systems.\n\n          (5)   Ensure the appropriate replication and recovery of databases containing\n                vital information.\n\n     k.   All Employees, Contractors and Volunteers\n\n          (1)   Assist in the identification and protection of vital records.\n\n          (2)   Assist the Vital Records Coordinator in identifying new vital records\n                and those records no longer considered vital."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5e416dba-ff69-5f36-b5c5-110f52a9712b",
+        "class": "section",
+        "title": "Identifying Vital Records",
+        "controls": [
+          {
+            "id": "dr3085-001-8",
+            "class": "policy-requirement",
+            "title": "Identifying Vital Records",
+            "parts": [
+              {
+                "id": "dr3085-001-8-stmt",
+                "name": "statement",
+                "prose": "The identification and management of vital records is an essential part of the\n     Federal agency’s emergency preparedness responsibility. An agency must provide\n     for the protection and accessibility of its vital records and information necessary to\n     conduct its essential functions under all conditions at its normal operating sites,\n     ERFs and Devolution Sites. Agency and Staff Offices must also preserve as vital\n     records evidence of the organization, functions, policies, decisions, procedures,\n     operations and other activities of the Government.\n\n     Designation of vital records is a discretionary decision based on the agency mission,\n     emergency functions, and emergency plans of operations. A document’s\n     designation as a permanent record has no bearing on its designation as a vital\n     record. Vital records generally fall into one of two categories:\n\n                                             7\n\fa.   Type I Emergency Operating Records that are those records needed to resume\n     and continue operations during an emergency or disaster. They are also\n     necessary for the resumption of normal operations after an emergency.\n     Records that are normally considered vital include, but are not limited to:\n\n     (1)  Statements of agency missions in an emergency;\n     (2)  Primary Mission Essential Functions (PMEFs) documentation;\n     (3)  Mission Essential Functions (MEFs) documentation;\n     (4)  Delegations of authority and Orders of Succession;\n     (5)  Regulations or announcements to be issued immediately at the beginning\n          or end of an emergency or disaster;\n     (6) Lists of employees assigned emergency duties;\n     (7) Information concerning the whereabouts of vital records;\n     (8) Building plans;\n     (9) Agency program records needed to carry out essential functions;\n     (10) System manuals.\n     (11) Staffing assignments and related policy or procedural records and\n          standard operating procedures (SOPs);\n     (12) Devolution Plans;\n     (13) Reconstitution Plans.\n\nb.   Type II Legal and Financial Rights Records that are needed to re-create legal\n     and financial operations, as well as to safeguard the interests of the\n     organizations, its employees, and its clients. Legal and Financial Rights\n     records are not vital records unless the agency is the statutory office of\n     record. Legal and Financial Rights records include, but are not limited to:\n\n     (1)  Information about agency personnel, property, damage, and assessment\n          data;\n     (2) Fiscal records such as periodic summaries of financial status and records\n          of monies received by and owed to the Government;\n     (3) Accounts receivable and payable;\n     (4) Land titles, leases and contracts;\n     (5) Personnel Records;\n     (6) Payroll Records;\n     (7) Memoranda of Understanding;\n     (8) Grant files;\n     (9) Social Security records;\n     (10) Payroll records;\n     (11) Retirement records;\n     (12) Insurance records;\n     (13) Property management and inventory;\n     (14) Any additional Legal and Financial Rights Records considered critical\n          for continued performance of essential functions.\n\n\n\n\n                                      8\n\f     Mirroring these two types of vital records, a vital records management program\n     should enable accomplishment of two things. First, the program will provide a\n     USDA agency with the information needed to conduct business under other than\n     normal operating conditions and to resume normal business afterwards. Second, the\n     program enables agency officials to identify and protect the most important records\n     relating to the legal and financial rights of the agency and those affected by the\n     agency’s actions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c6c9f68e-ef74-5cfc-bfab-1ed4ff70f7d1",
+        "class": "section",
+        "title": "Program Elements",
+        "controls": [
+          {
+            "id": "dr3085-001-9",
+            "class": "policy-requirement",
+            "title": "Program Elements",
+            "parts": [
+              {
+                "id": "dr3085-001-9-stmt",
+                "name": "statement",
+                "prose": "a.   Practicality of the Program\n\n          An agency’s program should meet its needs during an emergency, within\n          budgetary limitations. The cost and complexity of ensuring the availability of\n          every document that might conceivably be needed in an emergency would be\n          prohibitive. In order to make a vital records inventory manageable and useful\n          in an emergency, it is essential to distinguish between important records and\n          truly vital records. Therefore, only those records needed during and after an\n          emergency should be designated as vital records. In selecting such records,\n          agencies need to keep in mind that individuals using the records during an\n          emergency may not be the same individuals who normally use them.\n          Important records may support a business operation, but loss of such records\n          will not stop mission-critical operations. Records that are truly vital, by\n          contrast, are essential for mission-critical, business operations and are\n          irreplaceable. That is, the contents of vital records cannot be recreated, and\n          the operations supported by these records cannot be performed without them.\n\n          It is particularly important that the vital records program be kept practical\n          because:\n\n          (1)   It is an essential part of the emergency preparedness program designed\n                to ensure the continuity of the Department under the most adverse\n                circumstances. Overall preparedness may suffer if necessary\n                information is not available when it is most needed; and\n\n          (2)   This program must be kept current indefinitely. If the program is overly\n                elaborate, cumbersome, or costly, it will inevitably become outdated.\n                The procedures for ensuring vital records are available must be routine.\n\n\n\n\n                                            9\n\f      b.   Providing Copies of Vital Records\n\n           Vital records will normally be maintained as duplicate copies of original\n           records in paper or machine-readable form, whichever is most appropriate.\n           These copies can be stored at designated Emergency Relocation Facilities and\n           Devolution Sites or other designated locations depending upon the size and\n           volume of the records, the frequency with which records need updating, the\n           costs involved, and any security precautions that must be applied.\n\n      c.   Machine-Readable Records\n\n           Growth of automatic data processing systems has made it necessary to\n           safeguard quantities of electronic media used for information storage. If vital\n           records are maintained on electronic media, a copy of the program manual or\n           other information required to use the records should be stored with them.\n\n           Because of the fragile nature of information stored on electronic media,\n           agencies must ensure that electronic media stored at vital records locations are\n           protected against loss. Such protection should consist of periodic recalls and\n           inspections of these records. Information stored on electronic media may\n           have to be replaced, recopied, or in other ways restored if the inspection\n           results in the detection of an unacceptable number of errors or if the\n           equipment the records were originally created on changes.\n\n           The major disadvantage of storing vital records in machine-readable form is\n           that the equipment needed to access the information may not be available or\n           may not be in working order in emergencies. Contingency plans must provide\n           for emergency processing at an alternate site and assure that needed records\n           are available.\n\n      d.   Indexing Records\n\n           As records are duplicated, they should be properly indexed to ensure easy\n           access to specific information. Time is a crucial factor in reconstructing a\n           database or a system of records that has been damaged or destroyed by a\n           disaster. Therefore, regular systematic indexing of all stored information is a\n           necessity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f566c5cc-19ed-511f-9180-26c0bd55f327",
+        "class": "section",
+        "title": "Storage",
+        "controls": [
+          {
+            "id": "dr3085-001-10",
+            "class": "policy-requirement",
+            "title": "Storage",
+            "parts": [
+              {
+                "id": "dr3085-001-10-stmt",
+                "name": "statement",
+                "prose": "a.   Selecting a Storage Site\n\n           In choosing an off-site storage location, do not pick one too close to your\n           office or building. If duplicate records are stored too close, the same disaster\n           that affects the original records may also destroy the duplicate records.\n\n\n\n\n                                            10\n\f            Locations where vital records will be stored must provide adequate\n            protection and accessibility. Records will be stored to ensure ease of access,\n            retrieval, and control. Classified records must be handled in accordance with\n            DR 3440-001, USDA Classified National Security Information Program\n            Regulations and DM 3440-001, USDA Classified National Security\n            Information Program Manual.\n\n      b.   Legal and Financial Rights Records\n\n           Federal Records Centers, regardless of geographic location, are available for\n           agencies desiring to store their legal and financial rights records. In addition\n           to storage space for paper records, most Federal Records Centers have\n           environmentally controlled space suitable for the storage of vital records on\n           magnetic tape and photographic film.\n\n      c.   Emergency Operating Records\n\n           Emergency operating records should be handled in accordance with each\n           agency's internal emergency preparedness programs and forwarded to the\n           Emergency Operating Facilities.\n\n      d.   Rotation of Records\n\n           All vital records, whether legal and financial rights or emergency operating\n           records, must be periodically updated to ensure that they remain current,\n           complete, and accessible."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7efd1922-574c-52db-8d7e-7130c631de0c",
+        "class": "section",
+        "title": "Disposition Of Records",
+        "controls": [
+          {
+            "id": "dr3085-001-11",
+            "class": "policy-requirement",
+            "title": "Disposition Of Records",
+            "parts": [
+              {
+                "id": "dr3085-001-11-stmt",
+                "name": "statement",
+                "prose": "Maintain original vital records specified in the USDA records disposition schedule.\n       Delete duplicate copies of vital records stored in separate locations when obsolete\n       or superseded, and replace with updated revisions. Officials may not dispose of\n       records prior to the authorized disposal date or retained beyond that date except in\n       situations in which records might be relevant to pending or threatened litigation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "242e1e9c-4824-5fdd-a05a-4ae0512b8ec7",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr3085-001-12",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr3085-001-12-stmt",
+                "name": "statement",
+                "prose": "Agency or Staff Office. A major line or program organization of the Department\n      headed by an Administrator (or equivalent) who reports to the Secretary, Deputy\n      Secretary, an Under or Assistant Secretary, or a General Officer.\n\n      Archive. A collection of non-current Federal records that has been removed\n      permanently from an agency and transported physically (in an acceptable) format to\n      NARA. At that point, NARA assumes legal responsibility for the preservation of\n      the records because of their continuing or enduring value.\n\n      Department. The U.S. Department of Agriculture; also referred to as USDA.\n\n                                            11\n\fDisaster. An unexpected occurrence inflicting widespread destruction and distress\nand having long-term adverse effects on agency operations.\n\nDisposition. A comprehensive term that includes:\n\n(1)   Destruction (disposal) of temporary records no longer needed for the conduct\n      of business;\n\n(2)   Transfer of inactive records to a Federal Records Center;\n\n(3)   Transfer of permanent records, determined to have sufficient historical or\n      other value to warrant continued preservation, to NARA; and,\n\n(4)   Donation of temporary records to an eligible person or organization after the\n      authorized retention period has expired and after NARA has approved the\n      donation.\n\nEmergency. A situation or occurrence that warrants immediate action to save lives\nand protect property, public health, and safety. To some degree an emergency\ndisrupts USDA operations. Examples of an emergency are:\n\n(1)   Natural Disaster\n(2)   Man-made and Technological Hazards\n(3)   Terrorism\n\nEmergency Operating Records. Emergency operating records are those types of\nvital records essential to the continued functioning or reconstitution of an\norganization during and after an emergency. Included are emergency plans and\ndirective(s), orders of succession, delegations of authority, staffing assignments,\nselected program records needed to continue the most critical agency operations, as\nwell as related policy or procedural records that assist agency staff in conducting\noperations under emergency conditions and for resuming normal operations after an\nemergency.\n\nInformation Accessibility. The application or configuration of Federal Information\nProcessing resources in a manner that accommodates the functional limitations of\nindividuals with disabilities so as to promote productivity and provide access to\nwork-related or public information resources.\n\nInformation Systems. The organized collection, processing, transmission, and\ndissemination of information in accordance with defined procedures, whether\nautomated or manual.\n\nLegal and Financial Rights Records. Legal and financial rights records are that type\nof vital records essential to protect the legal and financial rights of the Government\nand of the individuals directly affected by its activities. Examples include accounts\n\n                                      12\n\freceivable records, social security records, payroll records, retirement records, and\ninsurance records. These records were formerly defined as “rights-and-interests”\nrecords.\n\nLitigation Hold. The obligation of agencies, managers, and individual employees to\nensure the preservation of documentary materials that might be or might become\nrelevant to pending or threatened litigation. If the documentary material was\ncreated in electronic format, it must be preserved in that original native format (See\nDR 3090-001).\n\nMetadata. Data that describe other data. The term may also refer to any computer\nfile or database that holds information about another database’s structure,\nprocessing, changes, etc. Data dictionaries and data repositories are examples of\nmetadata.\n\nPermanent Records. Records appraised by NARA as having sufficient historical or\nother value to warrant continued preservation by the Federal Government beyond\nthe time they are needed for administrative, legal, or fiscal purposes.\n\nProgram Official. An official with primary responsibility for developing and/or\nimplementing a policy, program, or function.\n\nRecords. Includes \"All books, papers, maps, photographs, machine-readable\nmaterials, or other documentary materials, regardless of physical form or\ncharacteristics, made or received by an agency of the United States Government\nunder Federal law or in connection with the transaction of public business and\npreserved or appropriate for preservation by that agency or its legitimate successor\nas evidence of the organization, functions, policies, decisions, procedures,\noperations, or other activities of the Government or because of the informational\nvalue of data in them. Library and museum material made or acquired and\npreserved solely for reference or exhibition purposes, extra copies of documents\npreserved only for convenience of reference, and stocks of publications and of\nprocessed documents are not included.\" (44 U.S.C. 3301).\n\nRecords Management. The planning, controlling, directing, organizing, training,\npromoting, and other managerial activities related to the creation, maintenance, use,\nand disposition of records to achieve adequate and proper documentation of Federal\npolicies and transactions, and effective and economical management of agency\noperations.\n\nRecords Disposition Schedule. A document, approved by NARA, which provides\nauthority for the final disposition of recurring or nonrecurring records. Includes\nStandard Form 115, Request for Records Disposition Authority, and the General\nRecords Schedules (GRS). Records shall not be destroyed except as authorized by\nan approved records schedule.\n\n\n\n\n                                       13\n\fTemporary Records. Records approved by NARA for disposal, either immediately\nor after a specified retention period. Also called disposable records or\nnonpermanent records.\n\nTrustworthiness of a Record. To demonstrate proof, records must have the qualities\nof trustworthiness, that is, records with the following characteristics:\n\n(1)   Authenticity – an accurate account of an activity, transaction, or decision\n(2)   Reliability – content can be trusted as a full and accurate representation\n(3)   Integrity – an assurance that the information has not been changed\n      subsequently\n(4)   Usability – the information can be located, retrieved, presented, and\n      interpreted\n\nVital Records. Essential agency records that are needed to meet operational\nresponsibilities under national security emergencies or other emergency conditions\n(emergency operating records) or to protect the legal and financial rights of the\nGovernment and those affected by Government activities (legal and financial rights\nrecords).\n\n\n\n\n                                       14"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "6def4d84-c149-5cc1-9283-24adcbdea96c",
+          "title": "USDA Directives — DR3085-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3085-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

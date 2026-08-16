@@ -1,0 +1,159 @@
+{
+  "catalog": {
+    "uuid": "4701802d-0208-579a-8297-46f4d7816481",
+    "metadata": {
+      "title": "USDA DR5160-003: Identification Signs",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2014-09-03",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR5160-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2014-09-03"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-5160-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Procurement &, Property Management, Property",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-5160-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Procurement &, Property Management, Property"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "45d6f304-9b41-51b4-a2f4-d571888f6201",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr5160-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr5160-003-1-stmt",
+                "name": "statement",
+                "prose": "The purpose of this regulation is to prescribe the policy and guidelines for the posting\n         of identification signs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eb263f64-ad71-5b51-99ec-e3259906d788",
+        "class": "section",
+        "title": "Special Instructions/Cancellation",
+        "controls": [
+          {
+            "id": "dr5160-003-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellation",
+            "parts": [
+              {
+                "id": "dr5160-003-2-stmt",
+                "name": "statement",
+                "prose": "a.    This regulation supersedes DR 5160-003, dated November 25, 2002.\n\n         b.    This updates the Division name in (6), on the last page from “Design Center” to\n               “Brand, Events, Exhibits, and Editorial Review Division (BEEERD).”\n\n         c.   This replaces the sign design guide formerly identified as “Appendix A” with a\n              “USDA Facility Signage Guide.” This is posted under “Guidance Documents” on\n              the BEEERD web page."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9cce6259-95e6-5baf-abd8-7bf2db7d54fe",
+        "class": "section",
+        "title": "Posting And Exceptions",
+        "controls": [
+          {
+            "id": "dr5160-003-3",
+            "class": "policy-requirement",
+            "title": "Posting And Exceptions",
+            "parts": [
+              {
+                "id": "dr5160-003-3-stmt",
+                "name": "statement",
+                "prose": "For the convenience of the public, the buildings, offices and stations of USDA will be\n         marked by signs or lettering on the buildings and doors. Signs will be erected at the\n         principal entrances of buildings, stations, etc. Principal buildings of such stations will\n         also be identified.\n\n         a.   Uniformity. Department signs will be uniform and conform to the standard\n              design as shown in the USDA Facility Signage Guide. Existing signs need not be\n              changed to conform to the standard design until it is necessary to replace them.\n              When such replacements are made, they will be in accordance with the standard\n              design. Contact the Director, BEEERD for more information.\n\n         b.   USDA Signature Lockup. The Official USDA Symbol with the Department name\n              will be included and used as the Department’s signature. It will be designated for\n\f     display on signage as deemed appropriate. The USDA Seal has been withdrawn\n     from use as the designated Departmental Identifier. The Seal will maintain a role\n     within the Department’s information system. It will be relegated for use on legal\n     documents, in the Office of the Secretary, and for other protocol functions as\n     originally mandated by Congress.\n\nc.   Associated Regulations. These regulations complement existing directives such\n     as Departmental Regulation (DR) 5160-001, Official Symbol and Seal of the\n     Department, and DR 1430-002 Use of Logos/Marks at the United States\n     Department of Agriculture.\n\nd.   Exceptions. The following exceptions to the standard sign are permitted.\n\n     (1)    When local environment dictates a more appropriate type of sign, such as\n            rustic signs in national forests, raised bronze or carved stone letters on\n            buildings, etc. On such signs, however, if the name of an agency of the\n            Department is used, it must follow the Department’s name, for example:\n            “U.S. Department of Agriculture, Name of Agency”.\n\n     (2)    Special purpose signs such as those intended to control, warn or direct, or\n            those which identify physical features, etc., when the name of a\n            Department or agency is not involved.\n\n     (3)    For activities carried on cooperatively with another agency outside of the\n            Department. However, on such signs where the name of the Department\n            appears, the following words “U.S. Department of Agriculture, Name of\n            Agency” must also appear.\n\n     (4)    Individual buildings, where the principal entrance to a station of the\n            Department is properly identified. Such buildings may carry only the\n            name of the activity involved.\n\n     (5)    Federal buildings occupied with other Government agencies or leased\n            buildings where the Department is not the sole tenant. While exterior\n            signs need not be displayed, appropriate office identification will be\n            presented by door lettering and signs as follows:\n\n            (a)    The words “U.S. Department of Agriculture” will come first in\n                   letters not smaller or less conspicuous than those elsewhere in the\n                   lettering, except in buildings devoted exclusively to activities of\n                   the Department.\n\n            (b)    If the name of the Department comes first it must be followed by\n                   the Agency name in letters the same size or smaller than those used\n                   in the name.\n                                     2\n\f           (c)    The display of decals or signs conforming to the standard\n                  identification sign specified in the USDA Facility Signage Guide\n                  will meet the requirements of this regulation.\n\n    (6)    When clearly justified by special circumstance, the Director, Brand,\n           Events, Exhibits, and Editorial Review Division (BEEERD), Office of\n           Communications, may waive the requirements of this regulation in writing\n           upon request by the Agency Head through the Director, Office of\n           Procurement and Property Management. A detailed drawing or copy of\n           the proposed sign should be submitted with the requesting memorandum\n           from the Agency Head or designee.\n\n    (7)    The Federally-owned USDA headquarters buildings in Washington, DC\n           are exempt from these guidelines with regard to exterior building\n           identification signage only. The General Services Administration,\n           Commission of Fine Arts, and the National Capital Planning Commission\n           dictate the exact format of exterior identification signs for these buildings.\n           Contact the Director, Office of Operations, USDA, with questions\n           regarding this exception or for additional information.\n\ne   Building Directories. The words “U.S. Department of Agriculture” will precede\n    agency listing in letters not smaller or less conspicuous than used in agency\n    listing.\n\n                                   -END-\n\n\n\n\n                                     3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "20efe4da-ec75-5894-9cd4-0f09bf31c38a",
+          "title": "USDA Directives — DR5160-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-5160-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

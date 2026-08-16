@@ -1,0 +1,524 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix usda:  <https://usda.gov/policy-forge/ontology/> .
+@prefix nist:  <https://csrc.nist.gov/ns/oscal/1.0/> .
+
+# ---------------------------------------------------------------------------
+# Ontology declaration
+# ---------------------------------------------------------------------------
+
+usda:
+  a owl:Ontology ;
+  owl:versionIRI <https://usda.gov/policy-forge/ontology/2026-08> ;
+  owl:versionInfo "1.0.0" ;
+  dc:title "USDA Policy Forge Ontology" ;
+  dc:description """OWL 2 ontology for the USDA Policy Forge system. Models 314 USDA
+Departmental Directives as structured knowledge: directive metadata, policy sections,
+mandatory requirements, compliance violations, and NIST SP 800-53 Rev5 control family
+mappings. Grounded in the NIST OSCAL 1.1.2 catalog model and aligned with Dublin Core,
+SKOS, and PROV-O.""" ;
+  dc:creator "USDA OCIO DISC — Paul Zedeck, GS-14 Cloud Security Architect" ;
+  dc:rights "United States Department of Agriculture. Government work — not subject to copyright within the United States." ;
+  dcterms:created "2026-08-15"^^xsd:date ;
+  dcterms:modified "2026-08-15"^^xsd:date ;
+  dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  owl:imports <http://purl.org/dc/terms/> ;
+  rdfs:seeAlso <https://pages.nist.gov/OSCAL/reference/latest/catalog/> ;
+  rdfs:seeAlso <https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final> .
+
+
+# ===========================================================================
+# CLASS HIERARCHY
+# ===========================================================================
+
+# ---------------------------------------------------------------------------
+# Top-level: Directive
+# ---------------------------------------------------------------------------
+
+usda:Directive
+  a owl:Class ;
+  rdfs:label "USDA Directive"@en ;
+  rdfs:comment """A formal USDA policy instrument. Subclasses distinguish the five directive
+types encoded by label prefix: DR, DM, SM, DN, DG. Each directive is identified by a unique
+label (e.g. DR0100-001) and carries an effective date, an Office of Primary Interest (OPI),
+and one or more NIST SP 800-53 Rev5 control family mappings."""@en ;
+  skos:definition "A USDA Departmental Directive — a binding or guidance policy document issued by the Secretary of Agriculture or a Departmental officer."@en ;
+  dcterms:conformsTo <https://www.usda.gov/directives/> .
+
+usda:DepartmentalRegulation
+  a owl:Class ;
+  rdfs:subClassOf usda:Directive ;
+  rdfs:label "Departmental Regulation (DR)"@en ;
+  rdfs:comment "A USDA Departmental Regulation. Label prefix: DR. Binding policy issued at the Departmental level. Example: DR0100-001."@en ;
+  skos:altLabel "DR"@en .
+
+usda:DepartmentalManual
+  a owl:Class ;
+  rdfs:subClassOf usda:Directive ;
+  rdfs:label "Departmental Manual (DM)"@en ;
+  rdfs:comment "A USDA Departmental Manual. Label prefix: DM. Detailed procedural guidance supplementing DRs. Example: DM3505-005."@en ;
+  skos:altLabel "DM"@en .
+
+usda:SecretarysMemorandum
+  a owl:Class ;
+  rdfs:subClassOf usda:Directive ;
+  rdfs:label "Secretary's Memorandum (SM)"@en ;
+  rdfs:comment "A policy memorandum issued by the Secretary of Agriculture. Label prefix: SM."@en ;
+  skos:altLabel "SM"@en .
+
+usda:DepartmentalNotice
+  a owl:Class ;
+  rdfs:subClassOf usda:Directive ;
+  rdfs:label "Departmental Notice (DN)"@en ;
+  rdfs:comment "A time-limited USDA policy notice. Label prefix: DN. Typically expires within one year of issuance."@en ;
+  skos:altLabel "DN"@en .
+
+usda:DepartmentalGuideline
+  a owl:Class ;
+  rdfs:subClassOf usda:Directive ;
+  rdfs:label "Departmental Guideline (DG)"@en ;
+  rdfs:comment "A USDA Departmental Guideline providing non-binding best-practice guidance. Label prefix: DG."@en ;
+  skos:altLabel "DG"@en .
+
+# ---------------------------------------------------------------------------
+# PolicySection
+# ---------------------------------------------------------------------------
+
+usda:PolicySection
+  a owl:Class ;
+  rdfs:label "Policy Section"@en ;
+  rdfs:comment """A numbered section or lettered appendix within a USDA directive. Corresponds
+to an OSCAL Group in the catalog model and to an entry in the `sections` Rego constant keyed
+by section number string."""@en ;
+  skos:example "Section 2 — Responsibilities in DR0100-001"@en .
+
+# ---------------------------------------------------------------------------
+# PolicyRequirement
+# ---------------------------------------------------------------------------
+
+usda:PolicyRequirement
+  a owl:Class ;
+  rdfs:label "Policy Requirement"@en ;
+  rdfs:comment """A mandatory policy obligation extracted from a USDA directive body. Identified
+by the presence of a mandate keyword: SHALL, MUST, IS REQUIRED TO, ARE REQUIRED TO, WILL BE
+REQUIRED TO, ARE PROHIBITED FROM, ARE PROHIBITED. Corresponds to a Rego requirement element
+and an OSCAL Control."""@en ;
+  skos:definition "A single mandatory sentence or near-sentence obligation extracted from a USDA directive using keyword-anchored sentence boundary detection."@en .
+
+# ---------------------------------------------------------------------------
+# MandatoryKeyword
+# ---------------------------------------------------------------------------
+
+usda:MandatoryKeyword
+  a owl:Class ;
+  rdfs:label "Mandatory Keyword"@en ;
+  rdfs:comment "Controlled vocabulary of normalized trigger keyword classes used in requirement extraction."@en ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:oneOf (
+      usda:Keyword_shall
+      usda:Keyword_must
+      usda:Keyword_required
+      usda:Keyword_prohibited
+    )
+  ] .
+
+usda:Keyword_shall
+  a usda:MandatoryKeyword, owl:NamedIndividual ;
+  rdfs:label "shall"@en ;
+  rdfs:comment "Keyword class capturing the word 'shall'."@en .
+
+usda:Keyword_must
+  a usda:MandatoryKeyword, owl:NamedIndividual ;
+  rdfs:label "must"@en ;
+  rdfs:comment "Keyword class capturing the word 'must'."@en .
+
+usda:Keyword_required
+  a usda:MandatoryKeyword, owl:NamedIndividual ;
+  rdfs:label "required"@en ;
+  rdfs:comment "Keyword class capturing 'is required to', 'are required to', 'will be required to'."@en .
+
+usda:Keyword_prohibited
+  a usda:MandatoryKeyword, owl:NamedIndividual ;
+  rdfs:label "prohibited"@en ;
+  rdfs:comment "Keyword class capturing 'are prohibited from', 'are prohibited'."@en .
+
+# ---------------------------------------------------------------------------
+# OfficeOfPrimaryInterest
+# ---------------------------------------------------------------------------
+
+usda:OfficeOfPrimaryInterest
+  a owl:Class ;
+  rdfs:label "Office of Primary Interest (OPI)"@en ;
+  rdfs:comment """The USDA organizational unit responsible for authoring, maintaining, and
+updating a directive. Extracted from the directive header's OPI field."""@en ;
+  rdfs:subClassOf foaf:Organization ;
+  skos:altLabel "OPI"@en .
+
+# ---------------------------------------------------------------------------
+# NistControlFamily
+# ---------------------------------------------------------------------------
+
+usda:NistControlFamily
+  a owl:Class ;
+  rdfs:label "NIST Control Family"@en ;
+  rdfs:comment "A NIST SP 800-53 Rev5 control family, identified by its two-letter abbreviation."@en ;
+  skos:definition "One of the 20 control families in NIST SP 800-53 Revision 5 used to classify USDA directives by security and privacy domain."@en .
+
+# NIST control family individuals
+usda:NIST_AC  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "AC — Access Control"@en ; skos:notation "AC" .
+usda:NIST_AT  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "AT — Awareness and Training"@en ; skos:notation "AT" .
+usda:NIST_AU  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "AU — Audit and Accountability"@en ; skos:notation "AU" .
+usda:NIST_CA  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "CA — Assessment, Authorization, and Monitoring"@en ; skos:notation "CA" .
+usda:NIST_CM  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "CM — Configuration Management"@en ; skos:notation "CM" .
+usda:NIST_CP  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "CP — Contingency Planning"@en ; skos:notation "CP" .
+usda:NIST_IA  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "IA — Identification and Authentication"@en ; skos:notation "IA" .
+usda:NIST_IR  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "IR — Incident Response"@en ; skos:notation "IR" .
+usda:NIST_MA  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "MA — Maintenance"@en ; skos:notation "MA" .
+usda:NIST_MP  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "MP — Media Protection"@en ; skos:notation "MP" .
+usda:NIST_PE  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "PE — Physical and Environmental Protection"@en ; skos:notation "PE" .
+usda:NIST_PL  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "PL — Planning"@en ; skos:notation "PL" .
+usda:NIST_PM  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "PM — Program Management"@en ; skos:notation "PM" .
+usda:NIST_PS  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "PS — Personnel Security"@en ; skos:notation "PS" .
+usda:NIST_PT  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "PT — PII Processing and Transparency"@en ; skos:notation "PT" .
+usda:NIST_RA  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "RA — Risk Assessment"@en ; skos:notation "RA" .
+usda:NIST_SA  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "SA — System and Services Acquisition"@en ; skos:notation "SA" .
+usda:NIST_SC  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "SC — System and Communications Protection"@en ; skos:notation "SC" .
+usda:NIST_SI  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "SI — System and Information Integrity"@en ; skos:notation "SI" .
+usda:NIST_SR  a usda:NistControlFamily, owl:NamedIndividual ; rdfs:label "SR — Supply Chain Risk Management"@en ; skos:notation "SR" .
+
+# ---------------------------------------------------------------------------
+# OscalCatalog
+# ---------------------------------------------------------------------------
+
+usda:OscalCatalog
+  a owl:Class ;
+  rdfs:label "OSCAL Catalog"@en ;
+  rdfs:comment """An NIST OSCAL 1.1.2 catalog document generated for a single USDA directive.
+Each catalog file in USDA_OSCAL_SOURCE_CODE is an instance of this class. The catalog carries
+the same policy sections and requirements as the corresponding Rego module, structured per the
+NIST OSCAL schema."""@en ;
+  dcterms:conformsTo <https://pages.nist.gov/OSCAL/reference/latest/catalog/> .
+
+# ---------------------------------------------------------------------------
+# OpaRegoModule
+# ---------------------------------------------------------------------------
+
+usda:OpaRegoModule
+  a owl:Class ;
+  rdfs:label "OPA Rego Module"@en ;
+  rdfs:comment """An OPA (Open Policy Agent) Rego module in package usda.policy.{pkg_name}
+generated for a single USDA directive. Contains the directive constant, sections constant,
+requirements array, compliant rule, violations set, and summary rule. Files in
+USDA_OPA_REGO_SOURCECODE ending in .rego (but not _part*.rego or _usda_policy_index.rego)
+are instances of this class."""@en .
+
+usda:OpaPartModule
+  a owl:Class ;
+  rdfs:subClassOf usda:OpaRegoModule ;
+  rdfs:label "OPA Rego Overflow Part Module"@en ;
+  rdfs:comment """An overflow continuation file (_partN.rego, N >= 2) generated when a directive
+has more than 75 mandatory requirements. Part modules carry a `part_number` and `primary_package`
+constant linking back to the base module, plus a requirements slice (requirements 76..N)."""@en .
+
+
+# ===========================================================================
+# OBJECT PROPERTIES
+# ===========================================================================
+
+usda:hasSection
+  a owl:ObjectProperty ;
+  rdfs:label "has section"@en ;
+  rdfs:comment "Relates a Directive to one of its PolicySections. Inverse of usda:sectionOf."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range usda:PolicySection ;
+  owl:inverseOf usda:sectionOf .
+
+usda:sectionOf
+  a owl:ObjectProperty ;
+  rdfs:label "section of"@en ;
+  rdfs:comment "Relates a PolicySection back to its containing Directive."@en ;
+  rdfs:domain usda:PolicySection ;
+  rdfs:range usda:Directive .
+
+usda:hasRequirement
+  a owl:ObjectProperty ;
+  rdfs:label "has requirement"@en ;
+  rdfs:comment "Relates a Directive to a mandatory PolicyRequirement extracted from its body."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range usda:PolicyRequirement .
+
+usda:inSection
+  a owl:ObjectProperty ;
+  rdfs:label "in section"@en ;
+  rdfs:comment "Relates a PolicyRequirement to the PolicySection from which it was extracted."@en ;
+  rdfs:domain usda:PolicyRequirement ;
+  rdfs:range usda:PolicySection .
+
+usda:hasOPI
+  a owl:ObjectProperty ;
+  rdfs:label "has OPI"@en ;
+  rdfs:comment "Relates a Directive to its Office of Primary Interest."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range usda:OfficeOfPrimaryInterest .
+
+usda:mapsToNISTFamily
+  a owl:ObjectProperty ;
+  rdfs:label "maps to NIST family"@en ;
+  rdfs:comment "Relates a Directive to one or more NIST SP 800-53 Rev5 NistControlFamily instances inferred from keyword analysis."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range usda:NistControlFamily .
+
+usda:hasKeyword
+  a owl:ObjectProperty ;
+  rdfs:label "has keyword"@en ;
+  rdfs:comment "Relates a PolicyRequirement to its normalized MandatoryKeyword class."@en ;
+  rdfs:domain usda:PolicyRequirement ;
+  rdfs:range usda:MandatoryKeyword .
+
+usda:supersedes
+  a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty ;
+  rdfs:label "supersedes"@en ;
+  rdfs:comment "Relates a newer Directive to an older Directive it replaces. Declared in the source text as 'Cancellations' or 'This directive supersedes...'."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range usda:Directive .
+
+usda:supersededBy
+  a owl:ObjectProperty ;
+  rdfs:label "superseded by"@en ;
+  rdfs:comment "Inverse of usda:supersedes."@en ;
+  owl:inverseOf usda:supersedes .
+
+usda:hasPart
+  a owl:ObjectProperty ;
+  rdfs:label "has part module"@en ;
+  rdfs:comment "Relates a base OpaRegoModule to one or more OpaPartModule overflow files for the same directive."@en ;
+  rdfs:domain usda:OpaRegoModule ;
+  rdfs:range usda:OpaPartModule .
+
+usda:primaryPartOf
+  a owl:ObjectProperty ;
+  rdfs:label "primary part of"@en ;
+  rdfs:comment "Inverse of usda:hasPart. Relates an OpaPartModule back to its base module."@en ;
+  owl:inverseOf usda:hasPart .
+
+usda:hasOscalCatalog
+  a owl:ObjectProperty ;
+  rdfs:label "has OSCAL catalog"@en ;
+  rdfs:comment "Relates a Directive to its corresponding OscalCatalog document."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range usda:OscalCatalog .
+
+usda:hasRegoModule
+  a owl:ObjectProperty ;
+  rdfs:label "has Rego module"@en ;
+  rdfs:comment "Relates a Directive to its corresponding OpaRegoModule."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range usda:OpaRegoModule .
+
+
+# ===========================================================================
+# DATA PROPERTIES
+# ===========================================================================
+
+usda:directiveLabel
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "directive label"@en ;
+  rdfs:comment "Unique directive identifier. Pattern: (DR|DM|SM|DN|DG)\\d{4}-\\d{3,4}(-[A-Z0-9]+)? Example: DR0100-001."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range xsd:string .
+
+usda:directiveTitle
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "directive title"@en ;
+  rdfs:comment "Official title of the directive as extracted from its document header."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range xsd:string .
+
+usda:effectiveDate
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "effective date"@en ;
+  rdfs:comment "Date on which the directive became (or becomes) effective, in xsd:date format."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range xsd:date .
+
+usda:expirationDate
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "expiration date"@en ;
+  rdfs:comment "Date on which the directive expires (if explicitly stated in the header)."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range xsd:date .
+
+usda:sourceURL
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "source URL"@en ;
+  rdfs:comment "Authoritative USDA directives portal URL for the directive's source document."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range xsd:anyURI .
+
+usda:oscalUUID
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "OSCAL UUID"@en ;
+  rdfs:comment "Deterministic UUID v5 assigned to an OSCAL catalog or resource, generated from the URL namespace and seed 'usda-policy-forge:catalog:{label}'."@en ;
+  rdfs:range xsd:string .
+
+usda:packageName
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "OPA package name"@en ;
+  rdfs:comment "Rego package suffix for the directive module. Derived from label with lowercase and hyphens/dots replaced by underscores. Example: DR0100-001 → dr0100_001."@en ;
+  rdfs:domain usda:OpaRegoModule ;
+  rdfs:range xsd:string .
+
+usda:partNumber
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "part number"@en ;
+  rdfs:comment "1-based part number in an OpaPartModule (always ≥ 2; the base module is implicitly part 1)."@en ;
+  rdfs:domain usda:OpaPartModule ;
+  rdfs:range xsd:positiveInteger .
+
+usda:sectionNumber
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "section number"@en ;
+  rdfs:comment "Section identifier string as it appears in the directive (e.g. '1', '2', 'A', 'B'). Serves as the key in the `sections` Rego constant."@en ;
+  rdfs:domain usda:PolicySection ;
+  rdfs:range xsd:string .
+
+usda:sectionTitle
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "section title"@en ;
+  rdfs:comment "Heading text for the policy section or appendix."@en ;
+  rdfs:domain usda:PolicySection ;
+  rdfs:range xsd:string .
+
+usda:sectionExcerpt
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "section excerpt"@en ;
+  rdfs:comment "First ~500 characters of the section body, truncated with '...' if longer."@en ;
+  rdfs:domain usda:PolicySection ;
+  rdfs:range xsd:string .
+
+usda:requirementId
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "requirement ID"@en ;
+  rdfs:comment "Unique requirement identifier. Format: {pkg_name}-req-{NNN}. Example: dr0100_001-req-001."@en ;
+  rdfs:domain usda:PolicyRequirement ;
+  rdfs:range xsd:string .
+
+usda:requirementText
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "requirement text"@en ;
+  rdfs:comment "Full extracted sentence or near-sentence containing the mandatory obligation."@en ;
+  rdfs:domain usda:PolicyRequirement ;
+  rdfs:range xsd:string .
+
+usda:requirementKeyword
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "requirement keyword"@en ;
+  rdfs:comment "Normalized keyword class string: 'shall', 'must', 'required', or 'prohibited'."@en ;
+  rdfs:domain usda:PolicyRequirement ;
+  rdfs:range xsd:string .
+
+usda:isMandatory
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "is mandatory"@en ;
+  rdfs:comment "Always true for PolicyRequirement instances in Policy Forge. All extracted requirements are mandatory."@en ;
+  rdfs:domain usda:PolicyRequirement ;
+  rdfs:range xsd:boolean .
+
+usda:requirementCount
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "requirement count"@en ;
+  rdfs:comment "Total number of mandatory requirements in a Directive or OpaRegoModule."@en ;
+  rdfs:range xsd:nonNegativeInteger .
+
+usda:sectionCount
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "section count"@en ;
+  rdfs:comment "Number of sections and appendixes extracted from a Directive."@en ;
+  rdfs:domain usda:Directive ;
+  rdfs:range xsd:nonNegativeInteger .
+
+usda:opiName
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "OPI name"@en ;
+  rdfs:comment "Full name of the Office of Primary Interest as extracted from the directive header."@en ;
+  rdfs:domain usda:OfficeOfPrimaryInterest ;
+  rdfs:range xsd:string .
+
+usda:nistFamilyCode
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "NIST family code"@en ;
+  rdfs:comment "Two-letter NIST SP 800-53 Rev5 control family abbreviation (e.g. 'AC', 'CM', 'SI')."@en ;
+  rdfs:domain usda:NistControlFamily ;
+  rdfs:range xsd:string .
+
+usda:nistFamilyName
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "NIST family name"@en ;
+  rdfs:comment "Full NIST SP 800-53 Rev5 control family name (e.g. 'Access Control', 'Configuration Management')."@en ;
+  rdfs:domain usda:NistControlFamily ;
+  rdfs:range xsd:string .
+
+
+# ===========================================================================
+# ALIGNMENT WITH EXTERNAL VOCABULARIES
+# ===========================================================================
+
+# Dublin Core alignment
+usda:directiveLabel  rdfs:subPropertyOf dcterms:identifier .
+usda:directiveTitle  rdfs:subPropertyOf dcterms:title .
+usda:effectiveDate   rdfs:subPropertyOf dcterms:issued .
+usda:expirationDate  rdfs:subPropertyOf dcterms:valid .
+usda:sourceURL       rdfs:subPropertyOf dcterms:source .
+usda:supersedes      rdfs:subPropertyOf dcterms:replaces .
+usda:supersededBy    rdfs:subPropertyOf dcterms:isReplacedBy .
+
+# SKOS alignment
+usda:Directive       rdfs:subClassOf skos:Concept .
+usda:NistControlFamily rdfs:subClassOf skos:Concept .
+usda:requirementText rdfs:subPropertyOf skos:definition .
+
+# PROV-O alignment
+usda:OscalCatalog    rdfs:subClassOf prov:Entity .
+usda:OpaRegoModule   rdfs:subClassOf prov:Entity .
+
+
+# ===========================================================================
+# ANNOTATION PROPERTIES (documentation)
+# ===========================================================================
+
+usda:regoConstant
+  a owl:AnnotationProperty ;
+  rdfs:label "Rego constant"@en ;
+  rdfs:comment "Names the Rego constant or rule this OWL entity corresponds to."@en .
+
+usda:oscalElement
+  a owl:AnnotationProperty ;
+  rdfs:label "OSCAL element"@en ;
+  rdfs:comment "Names the OSCAL JSON element this OWL entity corresponds to."@en .
+
+usda:jsonSchemaRef
+  a owl:AnnotationProperty ;
+  rdfs:label "JSON Schema ref"@en ;
+  rdfs:comment "$id URI of the corresponding JSON Schema definition in USDA_POLICY_ONTOLOGY."@en .
+
+# Attach cross-references
+usda:Directive           usda:jsonSchemaRef "https://usda.gov/policy-forge/schemas/directive" .
+usda:PolicySection       usda:jsonSchemaRef "https://usda.gov/policy-forge/schemas/section-entry" .
+usda:PolicyRequirement   usda:jsonSchemaRef "https://usda.gov/policy-forge/schemas/requirement" .
+usda:OscalCatalog        usda:jsonSchemaRef "https://usda.gov/policy-forge/schemas/oscal-catalog" .
+usda:Directive           usda:oscalElement "catalog/metadata" .
+usda:PolicySection       usda:oscalElement "catalog/groups/group" .
+usda:PolicyRequirement   usda:oscalElement "catalog/groups/group/controls/control" .
+usda:PolicyRequirement   usda:regoConstant "requirements[_]" .
+usda:Directive           usda:regoConstant "directive" .
+usda:PolicySection       usda:regoConstant "sections[section_number]" .
+
+# End of usda_policy.ontology.ttl

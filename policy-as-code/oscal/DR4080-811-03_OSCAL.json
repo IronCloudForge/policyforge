@@ -1,0 +1,116 @@
+{
+  "catalog": {
+    "uuid": "c4dcf236-6328-5c52-870a-4d183710c8d1",
+    "metadata": {
+      "title": "USDA DR4080-811-03: Child Care Centers (09/5/03)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2003-09-05",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4080-811-03"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2003-09-05"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4080-811-03",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Resources, Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4080-811-03",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Resources, Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "d4f14706-05f9-50e0-9fdf-469486c8677d",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr4080-811-03-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr4080-811-03-1-stmt",
+                "name": "statement",
+                "prose": "U.S. DEPARTMENT OF AGRICULTURE\n                                       WASHINGTON, D.C. 20250\n\n                         DEPARTMENTAL REGULATION                              Number: 4080-811-3\n\n    SUBJECT:                                          Date September 5, 2003\n    Child Care Centers\n                                                      OPI: Office of Human Resources\n                                                      Management\n1        PURPOSE\n\n         This Regulation sets forth the Department-wide policy on Child Care Centers\n         for infants, toddlers, pre-school and school-age children of Department of\n         Agriculture (USDA) employees.\n\n2        POLICY\n\n         It is USDA’s policy to support quality Child Care Centers for infants, toddlers,\n         pre-school and school-age children of USDA employees.\n\n3        DEFINITIONS\n\n         a      Child care provider - An individual or entity that provides or proposes to\n                provide child care services for USDA Federal employees. Child care\n                providers are independent of USDA and services and fees will vary from\n                child care provider to child care provider.\n\n         b      Child Care Center - Space provided for a child care provider to provide\n                child care services (1) on property owned by the Government which is\n                either controlled by or in the custody of USDA, or (2) on leased property\n                in which USDA employees are located. Child Care Center also includes\n                space located on property controlled by the General Services\n                Administration (GSA) on which property USDA employees are located\n                and care centers sponsored by the Forest Service (FS) including home-\n                based child care.\n\n         c      Home-based child care - Child care provided by a child care provider\n                within the personal residence of the child care provider to children other\n                than those of the child care provider.\n\n         d      National Association for the Education of Young Children (NAEYC) -\n                NAEYC is a nonprofit professional organization of more than 90,000\n                members dedicated to improving the quality of care and education\n                provided to our nation’s young children. The Association administers\n                the National Academy of Early Childhood Programs, a voluntary,\n                national, Accreditation system for high-quality early childhood\n                programs.\n\fDR 4080-811-3                                             September 5, 2003\n\n      e     National Association for Family Child Care (NAFCC) -\n            NAFCC is a nonprofit organization dedicated to promoting quality child\n            care by strengthening the profession of family child care. The\n            Association promotes a professional accreditation program, which\n            recognizes and encourages quality care for children.\n\n      f     National Capital Region (NCR) - Consists of the District of Columbia,\n            the counties of Montgomery and Prince George’s in Maryland, the city\n            of Alexandria and the counties of Arlington, Fairfax, Loudoun, and\n            Prince William in Virginia.\n\n      g     Washington Area Headquarters - Is composed of the Headquarters\n            Complex (Jamie L. Whitten Building, South Cotton Annex, and Yates\n            Building), space leased by GSA on behalf of USDA in the NCR, and the\n            George Washington Carver Center in Beltsville, Maryland.\n\n4     AUTHORITIES\n\n      a     40 U.S.C. 590.\n      b     41 CFR Part 102-79.\n      c     Office of Personnel Management (OPM) Guide for the Implementation\n            of Child Care Tuition dated March 2003.\n      d     DR 4080-811-1 dated August 23, 2002, subject: USDA Child Care\n            Tuition Assistance Program.\n      e     OPM Memorandum dated October 29, 1999, subject: Special\n            Solicitations Care Centers Located at Federal Installations.\n      f     40 U.S.C. 592(e), Recycling Programs.\n      g     Presidential Memorandum dated March 10, 1998, subject: Steps to\n            Improve Federally Sponsored Child Care.\n      h     42 U.S.C. 13041, Section 231 of the Crime Control Act of 1990.\n      i     DR 5200-3 dated April 18, 2003, subject: Gift Acceptance Policy.\n\n5     REFERENCES\n\n      a     GSA Facility Management Child Care Resource Book dated July 1999.\n      b     GSA Child Care Center Design Guide, Public Buildings Service\n            (PBS-P140) dated July 1998.\n      c     41 CFR Part 102-79, Assignment and Utilization of Space.\n      d     GSA Board of Directors Child Care Resource Book dated July 1999.\n      e     GSA Office of Child Care – http://www.gsa.gov/childcare.\n      f     OPM Office of Work/Life Programs – http://www.opm.gov\n\n\n\n\n                                       2\n\fSeptember 5, 2003                                        DR 4080-811-3\n\n6     RESPONSIBILITIES\n\n      a      The Assistant Secretary for Administration (ASA) will:\n\n             (1)    Provide advice to the Secretary of Agriculture, mission area/\n                    agency heads, and staff office directors on the policy and\n                    oversight of Child Care Centers identified in 3b; and,\n\n             (2)    Consider authorizing a percentage of the recycling funds\n                    received from GSA for use as child care tuition scholarships\n                    for eligible USDA employees who have children attending\n                    an eligible child care center in 3b.\n\n      b      The Director, Office of Human Resources Management (OHRM) will:\n\n             (1)    Advise the ASA on the development, and implementation of the\n                    policy for Child Care Centers; and,\n\n             (2)    Provide and interpret USDA policy as to the management of\n                    Child Care Centers.\n\n      c      The Director, Safety, Health and Employee Welfare Division (SHEWD),\n             (OHRM) will:\n\n             (1)    Develop Department-wide policy and guidance and provide\n                    oversight of the Child Care Centers;\n\n             (2)    Provide agency officials with technical assistance and\n                    consultative services on complex child care issues and on the\n                    process for obtaining accreditation through NAEYC or NAFCC,\n                    whichever is applicable; and,\n\n             (3)    Represent USDA at external child care seminars and conferences\n                    that are related to accreditation.\n\n      d      The Director, Office of Ethics (OE) will: Provide agency officials with\n             guidance considering the application of ethical rules to USDA\n             fundraising activities for the purpose of providing child care tuition\n             scholarships to eligible USDA employees whose children are enrolled\n             and in attendance at a Child Care Center identified in 3b.\n\n\n\n\n                                         3\n\fDR 4080-811-3                                           September 5, 2003\n\n     e     The Director, Office of Operations (OO) will:\n\n           (1)    Provide technical guidance and oversight of Child Care Centers\n                  in the NCR, to include design and new construction, expansion\n                  and alteration to existing facilities for improved child care\n                  settings; maintenance and repair; equipment; and licensing;\n\n           (2)    Serve as the contracting officer’s representative when a\n                  contractor is issued to provide child care services in a Child Care\n                  Center located in the NCR.\n\n           (3)    Conduct safety reviews, health inspections and program\n                  assessments for Child Care Centers located in the NCR;\n\n           (4)    Ensure an evacuation plan is developed for Child Care Centers\n                  located in the NCR;\n\n           (5)    Conduct an annual survey of parent satisfaction; and,\n\n           (6)    Attend GSA NCR quarterly child care meetings.\n\n     f     The Director, Office of Procurement and Property Management (OPPM)\n           will:\n\n           (1)    Provide Department-wide guidance and assistance on\n                  establishing a Child Care Center in a government-owned or\n                  leased space;\n\n           (2)    Provide contracting support when a contractor is used to provide\n                  child care services in the NCR; and,\n\n           (3)    Represent USDA at external child care seminars and conferences\n                  that are related to real property and contracting.\n\n     g     Mission Areas/Agencies/Staff Offices will:\n\n           (1)    Establish a Child Care Center policy in accordance with\n                  applicable laws, guidelines, and this regulation. Provide a copy\n                  of the Child Care Center policy to OHRM.\n\n           (2)    Notify and consult with OPPM and OO when considering the\n                  establishment of a Child Care Center in the NCR;\n\n\n\n\n                                       4\n\fSeptember 5, 2003                                         DR 4080-811-3\n\n(3)    Notify and consult with GSA when considering the establishment\n       of a Child Care Center in GSA-owned or leased space;\n\n(4)    Notify and consult with mission area/agency/staff office facility,\n       leasing, and contracting staff when considering the establishment\n       of a Child Care Center in USDA-owned or leased space;\n\n(5)    Consider using a contractor to provide child care services in\n       agency-owned or leased space, as appropriate;\n\n(6)    Assist the child care provider with the marketing of the Child\n       Care Center to the workforce;\n\n(7)    Support fundraising activities, within the policy cited at 4e and in\n       accordance with DR 5200-3, to provide child care tuition\n       scholarships to eligible USDA employees with children enrolled\n       and in attendance at Child Care Centers listed in 3b. Also,\n       fundraising activities must be in conformance with the GSA\n       Board of Directors Child Care Resource Book dated July 1999,\n       Appendix J – Fundraising Guide. The fundraising activity must\n       carefully abide by the prohibitions against coercion of\n       employees, especially subordinates, and solicitations from\n       prohibited sources to USDA; and,\n\n(8)    Consider providing child care tuition assistance in accordance\n       with DR-4080-811-01.\n\n(9)    Oversee the daily operations of Child Care Centers;\n\n(10)   Conduct criminal history background checks on ALL Child\n       Care Center staff members, to include janitorial staff.\n\n(11)   Conduct safety reviews, health inspections and program\n       assessments. (See 7f below.)\n\n(12)   Ensure that an evacuation plan is developed for a Child Care\n       Center;\n\n(13)   Respond to inquiries related to child care service issues;\n\n(14)   Develop a budget for replacement of equipment and other\n       items in a Child Care Center;\n\n\n\n\n                            5\n\f            (15)   Respond to inquiries related to facilities issues;\n\n\nDR 4080-811-3                                            September 5, 2003\n\n            (16)   Conduct an annual survey of parents’ satisfaction; and\n\n            (17)   Ensure facility management responsibilities referenced in section\n                   5 are followed.\n\n7     MANAGEMENT OF A CHILD CARE CENTER\n\n      a     Licensing – All child care providers providing child care services in a\n            Child Care Center must be licensed by the appropriate state and/or local\n            agency governing the operation of a child care service in that geographic\n            area. Any agreement, lease, or permit for a child care provider to\n            provide child care services in a Child Care Center should be made\n            contingent upon the child care provider obtaining and maintaining the\n            requisite licenses.\n\n      b     Permit – USDA will lease or grant a permit for the use of space for a\n            Child Care Center in USDA-owned or controlled space used by a child\n            care provider. Mission areas/agencies/staff offices should contact their\n            procurement and property offices to ensure compliance with applicable\n            procedures for lease or permitting of the space. This includes the\n            execution of a licensing agreement with GSA, where appropriate.\n\n      c     Liability – Liability insurance is the responsibility of the child care\n            provider. Evidence of insurance is a prerequisite for obtaining a lease\n            or permit from USDA.\n\n      d     Occupancy of Centers. At least 50 percent of the children in attendance\n            at a Child Care Center located in USDA-owned or controlled space must\n            be dependents of Federal employees. However, if there are not sufficient\n            dependents of Federal employees available, then the child care provider\n            may accept children of non-federal employees on a temporary basis, but\n            their enrollment time may not exceed one year when federal employees\n            are on the waiting list.\n\n      e     Accreditation of Child Care Provider.\n\n            (1)    A child care provider must apply and be accredited by either the\n                   NAEYC or the NAFCC, whichever is applicable, within the\n                   timeframes established by these Associations.\n\n\n\n\n                                         6\n\fSeptember 5, 2003                                             DR 4080-811-3\n\n      (2)    A child care provider shall begin the accreditation process\n             with the NAEYC or NAFCC accreditation body, whichever\n             is appropriate for the Child Care Center, immediately upon the\n             date of occupancy; and,\n\n      (3)    A child care provider shall take all actions necessary to be\n             accredited within 2 years, but not later than 3 years from the date\n             of operation a child care provider must be accredited. Any\n             agreement, lease, or permit for a child care provider to operate a\n             Child Care Center should be made contingent upon the child care\n             provider being accredited within such timeframe.\n\nf     Inspections and Program reviews. Safety inspections will be conducted\n      at least annually and health inspections bi-annually. Inspections may be\n      accomplished by a mission area/agency/staff office staff member, an\n      outside source, or a local, Federal, or state representative. Health\n      assessments will address health practices and conditions, and infant,\n      toddler, and special needs care.\n\ng     Recordkeeping. Records must be maintained, in accordance with the\n      Privacy Act, 5 U.S.C. 552a, by the child care provider on children\n      attending the Child Care Center (e.g., attendance, medical, emergency\n      contact information and payment information), as well as records of\n      accident occurrences, safety and health inspections, licensing, liability\n      insurance, accreditation, and parent survey results. The requirement to\n      ensure records are established and maintained in accordance with the\n      Privacy Act, 5 U.S.C. 552, and should be a part of the child care\n      provider’s agreement.\n\nh     Reporting.\n\n      (1)    An accreditation status report is required from mission\n             area/agency/staff office semi-annually until initial accreditation is\n             obtained. Thereafter, annually on July 31st. The report will be\n             submitted to the Director, OHRM with the following\n             information:\n\n             (a)     Name of Child Care Center;\n\n             (b)     Address;\n\n             (c)     Total occupancy;\n\n\n\n\n                                   7\n\f                     (d)    Date accreditation process began; and,\n\n\nDR 4080-811-3                                              September 5, 2003\n\n                     (e)    Date of final accreditation.\n\n              (2)    Complaints will be addressed through an established process,\n                     which includes notification of local and Federal partners,\n                     exploration of the concern, and corrective action within the\n                     specific time frames.\n\n       i      Fund-raising. Fund-raising activities may take place in accordance with\n              the OPM memorandum referenced in 4e, except during the Combined\n              Federal Campaign period September 1 through December 15th of each\n              year, for the purpose of providing child care tuition scholarships to\n              eligible USDA employees whose children are enrolled and in attendance\n              at a Child Care Center identified in 3b above. In addition, fund raising\n              activities must conform to requirements established in the GSA Board of\n              Directors Child Care Resource Book dated July 1999, Appendix J –\n              Fundraising Guide, referenced in 5d.\n\n   8   INQUIRIES\n\n       Direct all inquiries to the Office of Human Resources Management, Safety,\n       Health and Employee Welfare Division; Room 3021 South Building,\n       Washington, D.C. 20250; telephone number (202) 720-8248.\n\n                                           -END-\n\n\n\n\n                                          8\n\f9"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "64205a4d-b78d-5af3-8ee7-1b1d7e047cf4",
+          "title": "USDA Directives — DR4080-811-03",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4080-811-03",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "catalog": {
+    "uuid": "591a5a8e-3f3e-55c5-a270-0708a1931b8c",
+    "metadata": {
+      "title": "USDA DR3620-001: USDA AgLearn Services, Courseware and Content",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2019-09-09",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3620-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2019-09-09"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3620-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer & Office of, Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3620-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer & Office of, Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "7b5b8a75-f7ef-5cf0-b0d4-fb0ca9fcb081",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3620-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3620-001-1-stmt",
+                "name": "statement",
+                "prose": "a.     The United States Department of Agriculture’s (USDA) Agriculture Learning\n          (AgLearn) System is a strategic component of USDA’s eGovernment initiative and\n          enterprise architecture providing a common learning management system and related\n          services. AgLearn contributes to meeting the goals and objectives outlined in USDA\n          Strategic Plan, FY 2018-2022, Goal 1, Objectives 1.1 and 1.2.\n\n   b.     This Departmental Regulation (DR) documents USDA’s AgLearn policy, framework,\n          roles, and responsibilities. Policies in this DR are defined around Federal authorities to\n          develop and implement training policies as well as USDA’s enterprise architecture and\n          investment strategies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b57ce65c-9f53-546a-8029-85cd3961e20d",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3620-001-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3620-001-2-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, and staff offices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "17399a10-3d3e-5bfb-bf5b-5fc095eea14f",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3620-001-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3620-001-3-stmt",
+                "name": "statement",
+                "prose": "This DR supersedes DR 3620-001, USDA eLearning Services, Courseware and Content,\n  dated October 29, 2004."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "66551e7b-5b9f-5e1e-a9f1-725ac19ab868",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3620-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3620-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   AgLearn services provide USDA Mission Areas, agencies, and staff offices with a\n       consolidated, cost effective, enterprisewide learning service for employees, contractors,\n       partners, volunteers, affiliates, students, and customers. AgLearn provides USDA\n       Mission Areas, agencies, and staff offices and their customers with a one-stop access to\n       training products and services at reduced overall costs. AgLearn is a component within\n       the Office of the Chief Information Officer (OCIO).\n\n  b.   AgLearn supports the E-Government Act of 2002, 44 United States Code (U.S.C.) §\n       3501, by promoting the use of the internet and emerging technologies within\n       Government, reducing costs and burdens for Government, promoting more informed\n       decision making, and providing access to high-quality Government information and\n       services across multiple channels. Thus, making the Federal Government more\n       transparent and accountable.\n\n  c.   AgLearn supports the Strategic Human Capital Management Framework prescribed in 5\n       Code of Federal Regulations (CFR) 250, Subpart B and USDA’s human capital strategic\n       efforts as a means to attract, develop, and retain a high-performing and diverse\n       workforce, as well as close mission critical skill gaps."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "81717ed7-6d39-55ae-b280-a0dec5457edd",
+        "class": "section",
+        "title": "Approval Requirements",
+        "controls": [
+          {
+            "id": "dr3620-001-5",
+            "class": "policy-requirement",
+            "title": "Approval Requirements",
+            "parts": [
+              {
+                "id": "dr3620-001-5-stmt",
+                "name": "statement",
+                "prose": "The Director of AgLearn will coordinate with the Office of Human Resources Management\n  (OHRM) when procuring training delivery systems and online courseware libraries.\n  Specifically, the following apply to the purchase of online training and related services:\n\n  a.   Mission Areas, agency and staff office AgLearn Lead Administrators are the liaisons to\n       OHRM and OCIO for the purchase of courseware libraries.\n\n  b.   All Mission Areas, agencies, and staff offices must purchase online courseware libraries\n       through the purchasing authority of the Director of AgLearn. Purchase of online\n       courseware libraries from other sources may be made only with the written approval of\n       the Director, OHRM, and the USDA Chief Information Officer (CIO). Such approval\n       may be granted only in those instances where courses desired by Mission Areas,\n       agencies, and staff offices are not available through AgLearn.\n\n\n\n\n                                                 2\n\f  c.   Procurement offices will not process requests or actions for online courseware or\n       Learning Management Systems (LMS) unless the action is accompanied by written\n       approval from the Director, OHRM, and the CIO.\n\n  d.   The Director of AgLearn will be informed and consulted with when any USDA\n       organization purchases or deploys any type of electronic training delivery system or\n       service."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3b8fe3b0-234f-5b72-8b39-9cbaf969e330",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3620-001-6",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3620-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   AgLearn is the official system of record for training and contains training history of\n       USDA employees, contractors, partners, political appointees, volunteers, affiliates,\n       students, and customers. As stated in Reporting, 5 CFR § 410.601 (c), all Federal\n       Agencies are required to establish a schedule of training records. USDA adheres to the\n       National Archives and Records Administration (NARA), General Records Schedule 2.6.\n       Training records at USDA will be disposed of after 6 years. Mission Areas, agencies,\n       and staff offices may submit a request to the Director of AgLearn to retain training\n       records longer than the Disposition Authority stated on the NARA schedule of\n       Governmentwide records if the records are required for business use.\n\n  b.   All USDA Mission Areas, agencies, and staff offices will have access to AgLearn.\n       AgLearn provides the mechanism to deliver, track, and record training, examinations,\n       and surveys completed by USDA employees, partners, and contract staff. Available\n       through the internet and fully integrated with USDA eAuthentication service, it is a\n       secure service that is accessible in and outside of USDA and is available 24 hours each\n       day.\n\n  c.   All Federal Agencies, as stated in Reporting, 5 CFR § 410.601 (a), are required to\n       capture and record training records, expenditures, and activities and submit to Office of\n       Personnel Management’s (OPM) Data, Analysis & Documentation, Enterprise Human\n       Resources Integration (EHRI) data warehouse. AgLearn follows OPM’s Data, Analysis\n       & Documentation, Data Policy & Guidance, Guide to Human Resource Reporting when\n       reporting all completed training activities to EHRI. All AgLearn Leads and\n       Administrators are to ensure all employee training activities are captured in AgLearn.\n\n  d.   AgLearn users have access to the OPM Standard Form (SF) 182, Authorization,\n       Agreement and Certification of Training form. This is a Governmentwide training form\n       used to request, approve, and certify completion of training activities. The SF-182\n       includes the mandatory training data elements USDA must report to OPM.\n\n  e.   As an official USDA corporate system, any course content on AgLearn will be training\n       that is appropriate to be documented as part of an individual’s USDA training record.\n       Content may include online training, classroom training, webinars, examinations,\n       surveys, handbooks, books, and videos. Custom developed courses or commercial off-\n       the-shelf (COTS) courseware must meet specific industry standards to work properly on\n\n\n\n                                                3\n\f     AgLearn. These are currently Aviation Industry Computer-Based Training Committee\n     (AICC) or Shareable Content Object Reference Model (SCORM) standards.\n\nf.   Mission Areas, agency and staff office Course Owners will review all courses for\n     relevancy and content 2 years after its posting date thereafter. The course owners must\n     review courses every 2 years thereafter. The Director of AgLearn retains the right to\n     remove courses at his or her discretion and will notify the course owner immediately if\n     course removal occurs.\n\ng.   The Director of AgLearn sets an end-of-life date on all online courses. The default end-\n     of-life date is 5 years from the date of the course publication unless a different date is\n     requested at the time of submission.\n\nh.   All USDA online courses, videos, and books must adhere to the policies set forth in\n     Section 508 of the Rehabilitation Act of 1973 (29 U.S.C. § 794d). Any online course,\n     video, or book that is not Section 508 compliant is subject to removal from AgLearn.\n     For more information, refer to DR 4030-001, Section 508 Program.\n\ni.   USDA requires all supervisors, managers, and executives to complete a 360-degree\n     assessment at least every 3 years. Supervisors, managers, and executives should use\n     AgLearn to complete 360-degree assessments to meet this requirement in DR 4040-412-\n     001, Leadership Competency Framework and Assessments.\n\nj.   Content available through AgLearn may be made available to users of AgLearn,\n     including the public or restricted to specific groups of employees or customers. The\n     owner of the content or learning activity typically makes access decisions.\n\nk.   USDA employees have access to an online Individual Develop Plan (IDP) or Executive\n     Development Plan (EDP) through AgLearn. USDA requires the following employees to\n     complete an IDP: Presidential Management Fellows, Senior Executive Service\n     Candidate Development Program participants, all non-bargaining unit employees, and\n     any employee who requests an IDP. All Senior Executives, Senior Level, Scientific, and\n     Senior Science and Technology Services groups are required to complete an EDP. For\n     more information on IDPs, refer to DR 4040-410, Creating Individual Development\n     Plans (IDP). For more information on EDPs, refer to DR 4740-003, Executive\n     Continual Learning Program.\n\nl.   USDA Mission Areas, agencies, and staff offices will ensure any custom online content\n     they have developed complies with published AgLearn standards.\n\nm. Source data is processed through the Identity, Credential, and Access Management\n   (ICAM) and Enterprise Entitlement Management System (EEMS). This automated\n   provisioning of user data is completed daily. All user data will be processed in AgLearn\n   through this enterprise solution.\n\n\n\n\n                                               4\n\f  n.   Every user type in AgLearn is required to use an eAuthentication-managed account for\n       access to AgLearn.\n\n  o.   Administrative roles are granted as part of the authoritative data source enforcement and\n       Federal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551,\n       compliant access control practices. An administrator may never change a user’s account\n       status in AgLearn. All user account changes related to active status or disabled status\n       must be completed at the authoritative data source (e.g., the USDA Human Resources\n       (HR) systems).\n\n  p.   USDA’s non-Federal users have limited access to AgLearn. All contractors, volunteers,\n       and partners are required to complete annual information security awareness training as\n       described in DR 3545-001, Information Security Awareness and Training Policy. Some\n       course content in AgLearn is not available to contractors. Contractor organizations\n       should provide fully trained employees to perform the work and offer continual learning\n       and development for employees to maintain and improve their knowledge and skills\n       outside of AgLearn."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "90dc9782-eb06-58e2-b7e1-12d79350066f",
+        "class": "section",
+        "title": "Roles And Responsibilties",
+        "controls": [
+          {
+            "id": "dr3620-001-7",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilties",
+            "parts": [
+              {
+                "id": "dr3620-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO will:\n\n       (1) Provide leadership for overall technical and operational direction of AgLearn; and\n\n       (2) Provide written approval of the purchase of online courseware libraries from other\n           sources, in coordination with the Director of AgLearn and the Director of OHRM,\n           in those instances where courses desired by Mission Areas, agencies, and staff\n           offices are not available through AgLearn as stated in Section 5b of this DR.\n\n  b.   The Director of OHRM will:\n\n       (1) Provide the overall leadership for USDA’s learning and development strategy;\n\n       (2) Provide written approval of the purchase of online courseware libraries from other\n           sources, in coordination with the CIO and the Director of AgLearn, in those\n           instances where courses desired by Mission Areas, agencies, and staff offices are\n           not available through AgLearn as stated in Section 5b of this DR;\n\n       (3) Provide leadership for incorporating AgLearn services into the training and human\n           resource operations at USDA Mission Areas, agencies, and staff offices. Specific\n           areas may include developing and issuing guidance about the use of AgLearn for\n           training requests, IDPs, EDP, SF-182s, training records, and 360-degree\n           competency assessments.\n\n\n\n\n                                                5\n\fc.   The Director of AgLearn will:\n\n     (1) Provide strategic, technical, and operational leadership for AgLearn;\n\n     (2) Be informed and consulted with when any USDA organization purchases or\n         deploys any type of electronic training delivery asset or service;\n\n     (3) Coordinate with OHRM when procuring training delivery systems and online\n         courseware libraries;\n\n     (4) Provide written approval of the purchase of online courseware libraries from other\n         sources, in coordination with the CIO and the Director of OHRM, in those instances\n         where courses desired by Mission Areas, agencies, and staff offices are not\n         available through AgLearn as stated in Section 5b of this DR;\n\n     (5) Set an end-of-life date on all online courses; and\n\n     (6) Retain the right to remove courses at his/her discretion and will notify the course\n         owner immediately if this occurs.\n\nd.   Mission Area, Agency, and Staff Office AgLearn Lead Administrators will:\n\n     (1) Act as the liaison between their Mission Area, agency, or staff office and the\n         Director of AgLearn as stated in Section 5a of this DR;\n\n     (2) Purchase online courseware libraries through the purchasing authority of the\n         Director of AgLearn as stated in Section 5b of this DR;\n\n     (3) Promote AgLearn within their respective Mission Areas, agencies, or staff offices;\n\n     (4) Provide advice and guidance for current and new course content; and\n\n     (5) Ensure, in coordination with their Mission Area, agency, or staff office AgLearn\n         Administrators, that all employee training activities are captured in AgLearn.\n\ne.   Mission Area, Agency, and Staff Office Course Owners will:\n\n     (1) Review all courses for relevancy and content 2 years after the initial posting date\n         and every 2 years thereafter; and\n\n     (2) Make access decisions (e.g., available to all users of AgLearn, including the public\n         or restricted to specific groups of employees or customers) for AgLearn learning\n         activities.\n\n\n\n\n                                               6\n\f  f.   Mission Area, Agency, and Staff Office Procurement Offices will only process requests\n       or actions for online courseware or LMS if the action is accompanied by written\n       approval from the USDA CIO, the Director of AgLearn, and the Director of OHRM."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bc692553-2466-5a8d-b12d-5208331cf5af",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3620-001-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3620-001-8-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices will direct questions and inquiries\n  regarding this DR to the OCIO AgLearn Office via email at TeamAgLearn@usda.gov.\n\n\n                                             -END-\n\n\n\n\n                                               7\n\f                      APPENDIX A\n\n          ACRONYMS AND ABBREVIATIONS\n\n\nADL       Advanced Distributed Learning\nAgLearn   Agriculture Learning System\nAICC      Aviation Industry Computer-Based Training Committee\nATD       Association for Talent Development\nASTD      American Society for Training and Development\nCBT       Computer-Based Training\nCFR       Code of Federal Regulations\nCIO       Chief Information Officer\nCOTS      Commercial Off-The-Shelf\nDR        Departmental Regulation\nEDP       Executive Development Plan\nEEMS      Enterprise Entitlement Management System\nEHRI      Enterprise Human Resources Integration\nFISMA     Federal Information Security Modernization Act of 2014\nHR        Human Resources\nICAM      Identity, Credential, and Access Management\nIDP       Individual Development Plan\nIT        Information Technology\nLMS       Learning Management System\nNARA      National Archives and Records Administration\nOCIO      Office of the Chief Information Officer\nOHRM      Office of Human Resources Management\nOPM       Office of Personnel Management\nSCORM     Shareable Content Object Reference Model\nSF        Standard Form\nU.S.C.    United States Code\nUSDA      United States Department of Agriculture\n\n\n\n\n                           A-1\n\f                                  APPENDIX B\n\n                                  DEFINITIONS\n\n\na. Aviation Industry Computer-Based Training Committee (AICC). An\n   international association of technology-based training professionals that develop\n   guidelines for the development, delivery, and evaluation of computer-based\n   training (CBT) and related training technologies. (Source: Advanced Distributed\n   Learning (ADL))\n\nb. AICC Standard. A standard for developing CBT that has been expanded for use\n   by all industries for promoting interoperability and data exchange between\n   standard online courseware and learning management systems and players.\n   (Source: ADL)\n\nc. Commercial Off-the-Shelf Online Courseware. Commercial off-the-shelf (COTS)\n   courses that are taken by computer and are available from vendors without\n   customization or changes. (Source: Federal Acquisition Regulation, 48 CFR\n   Section 2.101)\n\nd. Content. Information captured digitally and imparted to learners. Formats for\n   electronic learning content include text, audio, video, animation, simulation, and\n   more. (Source: Association for Talent Development, ASTD Handbook Glossary)\n\ne. Learning Management System (LMS). Software that automates the\n   administration of training. The LMS registers users, tracks courses in a catalog,\n   records data from learners and provides reports to management. An LMS is\n   typically designed to handle courses by multiple publishers and providers. It\n   usually doesn’t include its own authoring capabilities. An LMS focuses on\n   managing courses created by a variety of other sources. (Source: ASTD\n   Handbook Glossary)\n\nf. Section 508. All electronic and information technology developed, procured,\n   maintained or used by the Federal Government must be accessible to individuals\n   with disabilities. (Source: Rehabilitation Act of 1973, 29 U.S.C. § 794d)\n\ng. Shareable Content Object Reference Model (SCORM). Standard for developing\n   online content developed by ADL Co-Lab and built upon the work of the AICC\n   and other standards as a way to make electronic learning content interchangeable\n   with learning delivery systems. The SCORM standard focuses on content\n   aggregation and reusability and includes aspects that pertain to learning\n   management systems, content authoring tools, instructional designers, content\n   developers, and training providers. (Source: ADL)\n\n\n\n\n                                        B-1\n\f                                         APPENDIX C\n\n                             AUTHORITIES AND REFERENCES\n\n\nAdvanced Distributed Learning website\n\nAssociation for Talent Development, ASTD Handbook Glossary\n\nE-Government Act of 2002, 44 U.S.C. § 3501, (2017)\n\nFederal Acquisition Regulation, 48 CFR § 2.101, (2018)\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551,\n(2017)\n\nGovernment Employees Training Act, 5 U.S.C. Chapter 41, (2017)\n\nNational Archives and Records Administration (NARA), General Records Schedule 2.6\n\nOPM, Data, Analysis & Documentation, Enterprise Human Resources Integration,\nDecember 2013\n\nOPM, Data, Analysis & Documentation, Data Policy & Guidance, Guide to Human\nResource Reporting, July 31, 2013\n\nOPM, SF-182, Authorization, Agreement and Certification of Training, December 2006\n\nSection 508 of the Rehabilitation Act of 1973, 29 U.S.C. § 794d (2015)\n\nStrategic Human Capital Management, 5 CFR 250, Subpart B, (January 1, 2018)\n\nSupervisory, Management, and Executive Development, 5 CFR 412, (January 1, 2018)\n\nTraining, 5 CFR 410, (January 1, 2018)\n\nReporting, 5 CFR § 410.601, ( January 1, 2018)\n\nUSDA, DR 3545-001, Information Security Awareness and Training Policy, October 22,\n2013\n\nUSDA, DR 4030-001, Section 508 Program, September 8, 2014\n\nUSDA, DR 4040-410, Creating Individual Development Plans (IDP), February 7, 2011\n\nUSDA, DR 4740-003, Executive Continual Learning Program, July 25, 2014\n\n                                            C-1\n\fUSDA, DR 4040-412-001, Leadership Competency Framework and Assessments, July 25,\n2014\n\nUSDA, USDA Strategic Plan, FY 2018-2022\n\n\n\n\n                                       C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "58042bf1-2cfb-5dd1-975f-ce23c73e6f58",
+          "title": "USDA Directives — DR3620-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3620-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

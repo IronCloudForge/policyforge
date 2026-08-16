@@ -1,0 +1,302 @@
+{
+  "catalog": {
+    "uuid": "04b0ba98-bb73-5fcc-9302-c7d66c634b92",
+    "metadata": {
+      "title": "USDA DR3130-013: Information Technology Capital Planning and Investment Control",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-05-24",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3130-013"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-05-24"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3130-013",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer – Information   EXPIRATION DATE:",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3130-013",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer – Information   EXPIRATION DATE:"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "cb2a6e20-877a-5aee-8f2e-a7169aa6c8d9",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3130-013-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3130-013-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n   (USDA) policy, roles and responsibilities, and authorities for implementing the Information\n   Technology (IT) Capital Planning and Investment Control (CPIC) program and associated\n   supporting guidance. Additionally, this DR establishes USDA policy for complying with the\n   statutory requirements to ensure IT investments are adequately implementing incremental\n   development, and for the USDA Chief Information Officer’s (CIO) approval of the use of\n   funds before awarding orders, renewals, modification of contracts and agreements for IT\n   equipment, supplies, software, and support services."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "170ccd33-a198-55b8-8cf4-6eefd09a1015",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3130-013-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3130-013-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 3130-013, Information Technology Capital Planning, and\n       Investment Control, dated July 8, 2016.\n\n  b.   This DR supersedes DR 3130-006, USDA Earned Value Management, dated June 10,\n       2015.\n\n  c.   All Mission Areas, agencies, and staff offices must align their policies and procedures to\n       comply with this DR within 6 months of the date of publication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f7f22d48-1789-5402-baae-c8bc23bc072f",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3130-013-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3130-013-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all USDA Mission Areas, agencies, staff offices, employees, and\n       contractors conducting business for and on behalf of the USDA through contractual\n       relationships when using USDA IT resources.\n\n  b.   All content in this DR must be incorporated and compliance enforced in IT procurement\n       contracts for IT goods and services associated with USDA IT investments, as\n       appropriate.\n\n  c.   This DR applies to all USDA IT investments throughout their entire life cycle,\n       regardless of funding source, whether owned and operated by USDA or operated on\n       behalf of USDA.\n\n  d.   USDA Mission Areas, agencies, and staff offices may use this DR as their internal CPIC\n       and acquisition policy or may create a more restrictive policy, but may not create a\n       policy that is less restrictive or less comprehensive than, or not compliant with, this DR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b1034f53-d30c-56c3-8fc8-db5d026f1d86",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3130-013-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3130-013-4-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA manages hundreds of IT investments across the Department and its agencies\n       and staff offices to support and enable the execution of the various business missions,\n       spending over $2B a year on IT initiatives. CPIC is a structured and integrated approach\n       to managing IT investments. CPIC ensures that IT investments align with the USDA\n       mission, strategic goals, and objectives, and support business needs, while reducing risks\n       and maximizing returns throughout the investment’s life cycle. Because information\n       technology services account for significant capital and operational expenses in USDA,\n       aligning and adhering to the USDA formal IT governance processes and related policies\n       is essential to ensure that proper oversight and accountability is given to business, IT\n       acquisitions and IT requirements which ultimately drive planning and execution\n       decisions for the development and management of information technology resources.\n       Formalizing governance processes also helps ensure that technology and business\n       leaders agree on what is an appropriate level of risk in the information technology that\n\n\n\n                                               2\n\f     powers day-to-day operations. IT governance exists to inform and align decision\n     making for information technology planning and execution, align policy and operations\n     to meet business objectives, ascertain that risks are managed appropriately, improve\n     transparency of shared data, and verify that resources are being used responsibly and\n     strategically.\n\nb.   The Clinger-Cohen Act (CCA) of 1996, Public Law (P.L.) 104-106, Division D, created\n     the Office of the Chief Information Officer (OCIO) in Federal agencies. The Act\n     established CPIC and mandated significant improvements in how Federal agencies plan,\n     select, fund, control, and evaluate IT investments.\n\n     The Act also requires Federal agencies to undertake Enterprise Architectures (EA)\n     designed to guide the IT investment decision process. Office of Management and\n     Budget's (OMB) Circular A-130, Managing Information as a Strategic Resource,\n     provides general guidance for the CCA and related Acts. The Circular includes a focus\n     on linking budget formulation and execution and achieving Federal agency missions and\n     specific program outcomes.\n\n     The CCA makes the heads of executive agencies responsible for the management of IT\n     investments. Affirming that management must:\n\n     (1) Design and implement a process to maximize value and assess and manage the risks\n         of the IT acquisitions of the Federal agency;\n\n     (2) Provide for the selection of IT investments, the management of those investments,\n         and the evaluation of the results of those IT investments;\n\n     (3) Use a process that will be integrated with the processes for making budget,\n         financial, and program management decisions;\n\n     (4) Establish goals for improving the efficiency and effectiveness of Federal agency\n         operations and, as appropriate, the delivery of services to the public through the\n         effective use of IT; and\n\n     (5) Establish a process to analyze, track and evaluate the risks and results of all major\n         capital investments for information systems for the life of the system.\n\nc.   The CCA further mandates that CPIC processes must:\n\n     (1) Provide for the selection, control, and evaluation of Federal agency IT investments;\n\n     (2) Be integrated with the processes for budget, financial, and programmatic decision-\n         making;\n\n     (3) Include minimum criteria for considering whether to undertake an IT investment;\n\n\n\n\n                                             3\n\f     (4) Identify IT investments that would result in shared benefits or costs for other\n         Federal agencies or State or local governments;\n\n     (5) Provide for identifying quantifiable measurements for IT investment net benefits\n         and risks; and\n\n     (6) Provide the means for senior management to obtain timely information regarding an\n         investment's progress.\n\nd.   The annually updated OMB Circular A-11, Preparation, Submission, and Execution of\n     the Budget, provides specific guidance for content and presentation of the IT Portfolio\n     Summary Details (formerly the IT Capital Asset Plan and Business Cases-Exhibit\n     300(s)), the IT Portfolio Summary (formerly the Exhibit 53) and how Federal agencies\n     are to use, analyze, and report performance-based acquisition management per the\n     Federal Acquisition Regulation (FAR).\n\ne.   Under provisions included in the Federal Information Technology Acquisition Reform\n     Act (FITARA), P.L. 113-291, Title VIII, Subtitle D, §§ 831-837, the USDA CIO must:\n\n     (1) Advise and assist the Secretary and other USDA senior executives in managing IT\n         resources effectively, efficiently, and consistently with USDA priorities;\n\n     (2) Use performance measures to monitor and evaluate USDA IT investments;\n\n     (3) Advise senior management on whether to continue, modify, or dispose of an IT\n         investment;\n\n     (4) Promote effective and efficient development and operation of all major IT business\n         processes within USDA; and\n\n     (5) Review and approve all IT contracts or other agreements for IT investments before\n         such agreements are completed or IT contracts are awarded.\n\n     To support these FITARA requirements, the USDA CIO must use the IT governance\n     process and the acquisition approval request (AAR) process to review and approve IT\n     contracts and other formal agreements. The USDA CIO will also work with the\n     Director, Office of Contracting and Procurement (OCP) and the Chief Financial Officer\n     (CFO) to determine if any new contract clauses need to be developed, as well as what is\n     the most effective method of communicating this new requirement to USDA contracting\n     officers throughout the Department. The USDA CIO will work with the USDA CFO\n     and the Director, Office of Budget and Program Analysis (OBPA), to prepare the annual\n     appropriated budget request.\n\nf.   As also referenced in FITARA, the USDA CIO may use the IT governance process to\n     review IT contracts and other agreements. The USDA CIO may delegate review and\n\n\n\n\n                                             4\n\f       approval of IT contracts, and other agreements for IT investments, to a direct report or to\n       a USDA CIO officially appointed designee.\n\n  g.   Additionally, OMB is aligning categorization of costs with policies around CIO\n       authorities, commodity IT management, category management, and data center\n       optimization among others. Taking a Category Management approach to buying smarter\n       and more like a single enterprise and utilize Category Management strategies,\n       procurement platforms (i.e., enterprise contracts, blanket procurement agreements, etc.),\n       and practices to eliminate redundancies, increase efficiency, and deliver more value and\n       savings from the Government's acquisition programs.\n\n  h.   Acquisition strategies, plans, and approvals must be conducted in accordance with the\n       USDA Contracting Desk Book (specifically Part 407, Acquisition Planning, and Subpart\n       407.1 Acquisition Plans). Acquisition strategies and plans must be collaboratively\n       drafted to facilitate the attainment of the acquisition objectives as required by FAR\n       Subpart 7.105, Contents of written acquisition plans, and the Federal CIO Council\n       TechFAR Handbook for Procuring Digital Services (“TechFAR Handbook\").\n\n  i.   By law USDA is required to establish policy that incorporates CPIC oversight controls\n       consistent with the CCA, as well as language and provisions outlined in the annual\n       USDA appropriations act, and FITARA.\n\n  j.   Title V of the Federal Acquisition Streamlining Act of 1994 (FASA) (41 U.S.C. § 3103),\n       requires Federal agency heads to approve or define the cost, performance, and schedule\n       goals for major acquisitions and aim to achieve, on average, 90% of the cost,\n       performance and schedule goals established.\n\n  k.   The Technology Business Management (TBM) Taxonomy is the cornerstone of the\n       OMB CPIC Budget Guidance. This taxonomy provides a common language across IT,\n       Budget, Acquisitions, and Business stakeholders."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "de6a17e7-1e65-5265-876c-84a9ee340029",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3130-013-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3130-013-5-stmt",
+                "name": "statement",
+                "prose": "a.   USDA will establish, maintain, and continuously update the CPIC program by\n       implementing legislative regulations, OMB guidelines, and USDA guidance for all\n       USDA IT major and non-major investments, as defined in DR 3130-008, Definition of\n       Major Information Technology Investments, and DR 3130-009, Non-Major Information\n       Technology (IT) Investments, respectively. CPIC processes must be fully aligned with\n       DR 3130-010, United States Department of Agriculture Enterprise Information\n       Technology Governance, and integrated into the USDA's Integrated IT Governance\n       Framework: Guidebook (“IITGF Guidebook”). Departmental Manual (DM) 3560-001,\n       Security Requirements for CPIC further strengthen IT cybersecurity requirements\n       associated with this DR and the CPIC program.\n\n\n\n\n                                               5\n\fb.   The USDA CIO reviews and approves the acquisition strategy, acquisition plan, and\n     acquisition request (as described in FAR Subpart 7.105, Contents of written acquisition\n     plans) or interagency agreement (such as those used to support purchases through\n     another Mission Area, agency, or staff office) that includes IT as required by the OMB\n     Memorandum M-15-14, Management and Oversight of Federal Information\n     Technology.\n\nc.   It is a policy that the USDA CPIC program will:\n\n     (1) Demonstrate and document alignment of the IT Portfolio to USDA's mission and\n         business objectives, and with the strategic and tactical goals identified in the current\n         editions of the USDA Information Technology Strategic Plan FY2019-FY2022 and\n         the USDA Strategic Plan FY2018-FY2022, or subsequently published strategic\n         plans;\n\n     (2) Ensure adequate business planning and justification in the selection and control of\n         USDA IT investments;\n\n     (3) Implement EA transition plans by selecting IT investments that will move towards\n         the achieving the target EA;\n\n     (4) Ensure an integrated management system that coordinates the work scope,\n         schedule, and cost goals of a program or contract, and objectively measures\n         progress toward these goals;\n\n     (5) Implement a decision-making process by approved governance policies that\n         appropriately balances investment benefits, costs, risks, and business priorities;\n\n     (6) Monitor and report performance by measuring the actual achievement of cost,\n         schedule, and performance milestones against approved performance measurement\n         baselines for IT investments;\n\n     (7) Support timely and effective monitoring and reporting of initiatives performance to\n         established management and governance bodies as presented in DR 3130-010;\n\n     (8) Ensure that IT acquisitions, as referenced in FITARA, are approved by the USDA\n         CIO or delegated approval authority before fund obligation;\n\n     (9) Implement a scoring process to monitor and evaluate the performance of all IT\n         investments based on the data and supporting documentation provided and on\n         established IT investment scoring criteria;\n\n     (10) Support the process to review the IT portfolios of all Mission Areas, agencies, and\n          staff offices;\n\n\n\n\n                                              6\n\f       (11) Ensure Program and Project Managers involved in CPIC activities are provided\n            adequate training; and\n\n       (12) Assess the current maturity of the USDA IT Portfolio, so that sound decisions can\n            be made concerning the potential elimination of duplicate investments and propose\n            solutions to move towards a shared solution environment across the IT portfolio.\n\n  d.   The USDA CPIC program will leverage and integrate with any existing USDA policies,\n       processes, procedures, and best practices surrounding EA, AARs, IT security, financial\n       management, budget formulation and execution, risk management framework (RMF), IT\n       governance, category management, and performance planning.\n\n       Specifically for USDA IT investments, the CPIC program will:\n\n       (1) Reduce risk by avoiding or isolating custom-designed components;\n\n       (2) Structure IT investment acquisitions into modular development with a narrow scope\n           and brief duration;\n\n       (3) Require IT investments be consistent with the principles of the USDA EA;\n\n       (4) Employ the Agriculture System Development Life Cycle (AgSDLC) discipline, as\n           presented in the IITGF Guidebook, to plan and execute investments (projects);\n\n       (5) Align with the USDA strategic and annual performance plans; and\n\n       (6) Adhere to USDA cybersecurity standards and policies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "235d300b-1058-51d8-9217-e89768221262",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3130-013-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3130-013-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO, or designee, will:\n\n       (1) Serve, or designate a representative to serve, as the principal liaison to OMB\n           regarding USDA CPIC functions and outputs;\n\n       (2) Approve new or existing IT initiatives that utilize incremental development\n           methodology for their implementations;\n\n       (3) Certify incremental development of IT Investments;\n\n       (4) Establish, implement, and maintain an effective USDA CPIC and TBM program;\n\n       (5) Establish new or maintain existing IT investment and acquisition review thresholds,\n           based on criteria to include, but not limited to the initial, annual, total life cycle,\n           risk, and performance cost metrics;\n\n\n\n                                               7\n\f(6) Serve as the signatory for all official CPIC-related correspondences with OMB;\n\n(7) Integrate the CPIC framework and data into the USDA IT governance processes to\n    the greatest extent possible;\n\n(8) Provide online tools to support CPIC reporting activities;\n\n(9) Per DR 3130-011, Information Technology Program and Project Manager\n    Certification Requirements ensure that individuals assigned to manage USDA IT\n    investments are trained, qualified, and, as appropriate, certified as IT Project\n    Managers;\n\n(10) Periodically review the health of USDA IT portfolio;\n\n(11) Assist program, Mission Area, agency, and staff office representatives with meeting\n     OMB reporting requirements on behalf of the Department;\n\n(12) Incorporate Mission Areas, agency, and staff office CPIC-related program\n     deliverables into the USDA IT governance process for further deliberation by the\n     Integrated Advisory Board (IAB) and the Executive Information Technology\n     Investment Review Board (E-Board) as detailed in DR 3130-010;\n\n(13) In coordination with the Director of the Office of Congressional Relations, consult\n     with House and Senate Agriculture Committees to align provisions of the USDA\n     Farm Bill legislation to promote opportunities for shared services among USDA\n     programs;\n\n(14) Collaborate with the USDA CFO and OBPA Director in preparing the annual\n     appropriated budget request;\n\n(15) The USDA CIO will review and make signed decisions on all IT AARs in\n     accordance with Agriculture Appropriation Act;\n\n(16) Ensure that the following factors are a part of the Acquisition Strategies and Plans,\n     in accordance with OMB Memorandum M-15-14, Management and Oversight of\n     Federal Information Technology (Section K1, CIO Roles and Responsibilities):\n\n    (a) Appropriateness of contract type;\n\n    (b) Appropriateness of IT-related portions of the statement of needs, Statement of\n        Work (SOW), Performance Work Statement (PWS), or Statement of\n        Objectives (SOO);\n\n    (c) Appropriateness of the above concerning the mission and business objectives\n        supported by the IT strategic plan;\n\n\n\n                                        8\n\f         (d) Alignment with mission and program objectives in consultation with program\n             leadership; and\n\n         (e) Approve the use of all IT funds before awarding orders or contracts for IT\n             equipment, supplies, software, or services.\n\nb.   The USDA Deputy CIO will have the authority to act on behalf of the USDA CIO\n     during the absence or unavailability of the CIO, including the authority to sign AARs\n     $50M or higher.\n\nc.   Mission Area Assistant CIOs, or their designated representatives, will:\n\n     (1) Monitor the progress of each IT investment under their purview and provide\n         direction as needed;\n\n     (2) Identify and recruit employees with the knowledge, experience, and skill sets\n         needed to support an IT investment (i.e., Investment, Program and Project\n         Managers);\n\n     (3) Certify incremental development of IT Investments on behalf of the USDA CIO;\n\n     (4) Consult with the USDA OCIO about opportunities for shared services among\n         internal programs or with Mission Area, agency, and staff office partners;\n\n     (5) Engage USDA agency and staff office IT Directors in identifying short-term IT\n         solutions that can be delivered to customers on an incremental and modular basis;\n\n     (6) Assess whether IT investments and programs implementing IT solutions are aligned\n         with mission requirements, and develop plans in consultation with their agency and\n         staff office IT Directors to take corrective actions where misalignments may occur;\n\n     (7) Adhere to the USDA CPIC and TBM program, structure, and framework for all\n         USDA IT investments;\n\n     (8) Approve the use of all IT funds before awarding orders or contracts for technology\n         (IT) equipment, supplies, software, and services;\n\n     (9) Act on behalf of the USDA CIO to approve acquisitions under $25K;\n\n     (10) Report all acquisitions under $25K to the USDA CIO;\n\n     (11) Work with the USDA CIO to align their agency and staff office CPIC processes and\n          procedures with Departmental policies and Federal regulations and guidelines;\n\n\n\n\n                                            9\n\f     (12) Identify opportunities to utilize shared IT services, including the sharing of IT\n          assets across Mission Area, agency, and staff office lines;\n\n     (13) Work with Program Managers to identify short-term IT solutions that can be\n          delivered to customers on an incremental and modular basis;\n\n     (14) Establish a process to improve or terminate poorly performing IT investments;\n\n     (15) Develop plans of action and milestones that clearly describe corrective actions that\n          can be taken to revitalize poorly performing projects;\n\n     (16) Provide IT discipline expertise such as cybersecurity oversight throughout the\n          program;\n\n     (17) Help Program and Project Managers identify and recruit employees with the\n          knowledge, experience, and skill sets needed to successfully manage IT\n          investments;\n\n     (18) Serve as the agency and staff office decision authority and signatory for CPIC\n          packages submitted to the Department;\n\n     (19) Monitor and report performance by measuring the actual achievement of cost,\n          schedule, and performance milestones against approved performance measurement\n          baselines for IT investments;\n\n     (20) Serve as the primary point of contact with the Department regarding the planning\n          and execution of CPIC functions; and\n\n     (21) Report all cost savings and avoidance and reinvestment plans to the Department for\n          IT initiatives.\n\nd.   The USDA OCIO Information Resource Management Center (IRMC) Associate Chief\n     Information Officer (ACIO) will:\n\n     (1) Ensure that Mission Ares, agencies, and staff offices have training opportunities and\n         assistance in capturing the IT investment data needed for discussion in the portfolio\n         reviews;\n\n     (2) Lead an effective USDA CPIC and TBM program;\n\n     (3) Support the process and coordinate with the OBPA Director to capture IT\n         investment data that comprise the annual appropriated IT budget request to be\n         approved by the USDA CIO for the USDA response to OMB Circular A-11;\n\n     (4) Ensure OCIO IRMC ACIO staff is available to assist Mission Areas, agencies, and\n         staff offices in preparing the IT investment business cases; and\n\n\n\n                                             10\n\f     (5) Approve the use of funds before awarding orders or contracts for IT equipment,\n         supplies, software, or services in the $25K to the less than $50M range.\n\ne.   The OCIO IRMC Deputy Associate Chief Information Officer (DACIO) will have the\n     authority to act on behalf of the OCIO IRMC ACIO during the absence or unavailability\n     of the ACIO and will be authorized to sign AARs in the $25K to the less than $50M\n     range.\n\nf.   The OCIO IRMC Director, Capital Planning, and IT Governance Division (CPITGD),\n     will:\n\n     (1) Serve as the principal liaison to OMB regarding USDA CPIC functions and\n         outputs;\n\n     (2) Lead and maintain an effective USDA CPIC and TBM program;\n\n     (3) Implement and assist in conducting IT Portfolio reviews with Mission Areas,\n         agencies, and staff offices;\n\n     (4) Ensure compliance with the latest OMB IT Budget Capital Planning Guidance;\n\n     (5) Manage a team of CPIC liaisons that are aligned to specific Mission Areas,\n         agencies, and staff offices to lend support and assistance as needed;\n\n     (6) Provide training and assistance to Mission Areas, agencies, and staff offices in\n         capturing the IT investment data needed for presentation and discussion at IT\n         portfolio reviews;\n\n     (7) Receive, review, and provide an initial approval determination to any waiver\n         request memoranda submitted by a Mission Area, agency, or staff office;\n\n     (8) Support tools used to capture IT investment data that will be presented in the USDA\n         response to OMB Circular A-11;\n\n     (9) Assist and guide Mission Areas, agencies, and staff offices with preparing the IT\n         investment business cases; and\n\n     (10) Utilize the Integrated IT Governance Framework, IT Investment Rating Criteria,\n          AAR, and other CPIC processes as an opportunity for evaluating and determining\n          acceptable IT Acquisition Plans and Strategies.\n\ng.   USDA Mission Area, Agency, and Staff Office Investment Managers will:\n\n     (1) Possess the requisite certifications required to manage IT investments;\n\n\n\n\n                                            11\n\f       (2) Comply with all Federal and USDA CPIC and TBM guidelines;\n\n       (3) Comply with the latest OMB IT Budget Capital Programming Guidance;\n\n       (4) Plan, execute, monitor and report the IT investment to achieve approved cost,\n           schedule, and scope baselines;\n\n       (5) Manage IT investment risk and alert the CPITGD CPIC liaisons of significant\n           issues and planned corrective action;\n\n       (6) Ensure that IT investment project teams comply with CPIC legislation, regulations,\n           and other USDA guidance;\n\n       (7) Adhere to and execute CPIC procedures detailed in the USDA Information\n           Technology Capital Planning and Investment Control Guide (the “AgITCPIC\n           Guide”) to ensure that CPIC milestones are met;\n\n       (8) Support the established USDA IT governance framework, processes, and structure,\n           for USDA IT investments;\n\n       (9) Share information with Mission Area, agency, or staff office budget offices to\n           ensure that project resources are appropriately reflected in budget materials; and\n\n       (10) Report all cost savings and avoidance and reinvestment plans to the Department for\n            IT initiatives."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "02b682dd-8f74-5d74-be3a-5c9059ff8422",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr3130-013-7",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr3130-013-7-stmt",
+                "name": "statement",
+                "prose": "A forthcoming Information Technology Capital Planning and Investment Control procedural\n  DM will address CPIC and AAR requirements, standards, procedures, and processes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "85f67c14-8f4c-5180-986a-2ae7501e8b21",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3130-013-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3130-013-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy. If a specific policy requirement cannot be met, the Mission Area, agency, or\n       staff office may submit a waiver request memorandum. Waiver requests must explain\n       the reason for the request, identify compensating controls and actions that meet the\n       intent of the policy, and identify how the compensating controls and actions provide a\n       similar or greater level of compliance than the policy requirement. The waiver request is\n       to be submitted before the Mission Area, agency, or staff office undertaking the IT\n       action, and the Mission Area, agency, or staff office must not move forward with the IT\n       action until it receives a response on the waiver request.\n\n\n\n\n                                              12\n\f   b.   Mission Areas, agencies, and staff offices must address all policy waiver request\n        memoranda to the Director, CPITGD at capitalplanningdivision@usda.gov.\n\n   c.   Mission Areas, agencies, and staff offices will receive an initial determination in writing\n        from OCIO IRMC."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4e39c145-2ab6-544f-a832-85bf68660a82",
+        "class": "section",
+        "title": "Compliance",
+        "controls": [
+          {
+            "id": "dr3130-013-9",
+            "class": "policy-requirement",
+            "title": "Compliance",
+            "parts": [
+              {
+                "id": "dr3130-013-9-stmt",
+                "name": "statement",
+                "prose": "On an ongoing basis, the OCIO IRMC ACIO, or designee, will monitor, measure, audit,\n   report, and enforce compliance with provisions of this DR. Specific performance measures\n   collected by the OCIO IRMC ACIO, or designee, will monitor how provisions in this DR\n   have:\n\n   a.   Increased transparency of the USDA IT investment decisions;\n\n   b.   Demonstrated an increase in IT development, modernization, and enhancement\n        investments with a decrease in IT investment operations and maintenance spending; and\n\n   c.   Reduced the number of IT investment corrective action plans and associated investment\n        risks."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b263bff9-c25d-5116-96c9-fb8c90157f9b",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3130-013-10",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3130-013-10-stmt",
+                "name": "statement",
+                "prose": "Direct all questions concerning this DR to the USDA OCIO IRMC ACIO at\n   capitalplanningdivision@usda.gov.\n\n\n                                             -END-\n\n\n\n\n                                                13\n\f                                APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nAAR        Acquisition Approval Request\nACIO       Associate Chief Information Officer\nAGAR       Agriculture Acquisition Regulation\nAgITCPIC   Agriculture Information Technology Capital Planning and Investment Control\nAgSDLC     Agriculture System Development Life Cycle\nCCA        Clinger-Cohen Act\nCFO        Chief Financial Officer\nCIO        Chief Information Officer\nCPIC       Capital Planning and Investment Control\nCPITGD     Capital Planning and Information Technology Governance Division\nDACIO      Deputy Associate Chief Information Officer\nDM         Departmental Manual\nDME        Development, Modernization and Enhancement\nDR         Departmental Regulation\nEA         Enterprise Architecture\nE-Board    Executive Information Technology Investment Review Board\nFAR        Federal Acquisition Regulation\nFASA       Federal Acquisition Streamlining Act\nFITARA     Federal Information Technology Acquisition Reform Act\nFTE        Full Time Equivalent\nFY         Fiscal Year\nGAO        Government Accountability Office\nIAB        Integrated Advisory Board\nIITGF      Integrated Information Technology Governance Framework\nIRMC       Information Resource Management Center\nIT         Information Technology\nOBPA       Office of Budget and Program Analysis\nOCFO       Office of the Chief Financial Officer\nOCIO       Office of the Chief Information Officer\nOCP        Office of Contracting and Procurement\nO&M        Operations and Maintenance\nOMB        Office of Management and Budget\nP.L.       Public Law\nPWS        Performance Work Statement\nRMF        Risk Management Framework\nRMO        Risk Management Office\nSOW        Statement of Work\nSOO        Statement of Objectives\nTBM        Technology Business Management\nTechFAR    Technical Federal Acquisition Regulation\nU.S.C.     United States Code\n\n\n\n                                     A-1\n\fUSDA   United States Department of Agriculture\n\n\n\n\n                                 A-2\n\f                                          APPENDIX B\n\n                                          DEFINITIONS\n\n\nAcquisition Approval Request (AAR). The IT AAR Process is the mechanism by which the\nUSDA OCIO monitors and reviews Mission Area, agency, and staff office-level IT spending.\nThe IT AAR Process establishes USDA procedures for complying with the statutory requirement\nfor approval of the use of funds prior to awarding orders or contracts for IT equipment, supplies,\nsoftware, or services. This review process applies to all types of IT acquisitions, contracts, and\nagreements over $25,000. (Source: USDA, OCIO, IRMC, CPITGD, Acquisition Approval\nRequest (AAR) Guidance for AAR Managers, October 2020)\n\nCapital Planning and Investment Control (CPIC). This term refers to a decision-making process\nthat ensures IT Investments integrate strategic planning, budgeting, procurement, and\nmanagement of IT in support of Agency missions and business needs. The CPIC process has\nthree distinct phases: Select, Control, and Evaluate. (Source: The Clinger-Cohen Act of 1996,\n40 United States Code (U.S.C.) 11101, et seq., February 10, 1996, as amended)\n\nCIO Evaluation. Refers to the CIO’s best judgment of the current level of risk for an Investment\nin terms of its ability to accomplish its goals. The evaluation should be informed by the\nfollowing factors, including, but not limited to risk management, requirements management,\ncontractor oversight, historical performance, human capital and other factors that the CIO deems\nimportant to the forecasting future success. Each evaluation should include narrative to address\nand explain the rating. This is particularly important whenever the rating has changed since the\nlast evaluation. (Source: OMB, FY 2021 IT Budget – Capital Planning Guidance)\n\nInformation Technology (IT). This term refers to any equipment or interconnected system or\nsubsystem of equipment that is used in the automatic acquisition, storage, manipulation,\nmanagement, movement, control, display, switching, interchange, transmission, or reception of\ndata or information by an executive Agency. IT is related to the terms capital asset, IT\nInvestment, program, project, sub-project, service, and system. It also includes computers,\nancillary equipment (including imaging peripherals, input, output, and storage devices necessary\nfor security and surveillance), peripheral equipment designed to be controlled by the central\nprocessing unit of a computer, software, firmware and similar procedures, services (including\nsupport services), and related resources; but does not include any equipment acquired by a\nFederal contractor incidental to a Federal contract (40 U.S.C. § 11101, Definitions); however\nOMB policy includes this: \"supercomputers, software for mission systems, telecommunications,\nand satellite signal processing.” (Source: USDA, OCIO, IRMC, CPITGD, USDA DME and\nO&M Definitions (and Additional IT-Related Definitions), October 2017)\n\nIT Investment. Refers to the expenditure of IT resources to address mission delivery and\nmanagement support. An IT Investment may include a project or enhancement, or maintenance\nof a single IT asset or group of IT assets with related functionality, and the subsequent operation\nof those assets in a production environment. All IT Investments should have a defined life cycle\nwith start and end dates, with the end date representing the end of the currently estimated useful\n\n\n\n                                                B-1\n\flife of the Investment, consistent with the Investment’s most current alternatives analysis if\napplicable. When the asset(s) is essentially replaced by a new system or technology, the\nreplacement should be reported as a new, distinct Investment, with its own defined life cycle\ninformation.\n\nLifecycle Costs. Refers to all Investment costs (including Government Full Time Equivalents\n(FTE)) from the commencement of the Investment through its estimated useful life (or the\ncomposite estimated useful life of the assets within the Investment), independent of the funding\nsource (e.g., revolving fund, appropriated fund, working capital fund, trust fund). (Source:\nOMB, Circular A-131, Value Engineering, December 26, 2013)\n\nMajor IT Investment. An IT Investment in Part 1 and Part 2 of the IT Portfolio requiring special\nmanagement attention because of its importance to the mission or function to the government;\nsignificant program or policy implications; high executive visibility; high development,\noperating, or maintenance costs; unusual funding mechanism; or definition as major by the\nAgency’s CPIC process. OMB may work with the Agency to declare IT Investments as major\nIT Investments. Agencies must consult with assigned OMB desk officers and Resource\nManagement Offices (RMO) regarding which Investments are considered “major.” Investments\nnot considered “major” are “non-major.” (Source: OMB, FY 2021 IT Budget – Capital\nPlanning Guidance; see also DR 3130-008, Definition of Major Information Technology\nInvestments)\n\nNon-Major IT Investment. This term refers to any IT Investment in the Agency's IT Portfolio\nthat does not meet the definition of “major IT Investment” (01), \"Funding Transfer Investment\"\n(04) or \"IT Migration Investment\" (03). All non-major IT Investments must be reported in the\nAgency IT Investment Portfolio. For more details see section 10 of CPIC IT Portfolio Guidance.\n(Source: OMB, FY 2021 IT Budget – Capital Planning Guidance; see also DR 3130-009, Non-\nMajor Information Technology (IT) Investments)\n\nPortfolio. A collection of IT Investments, which consist of related programs and/or projects that\nare grouped together to facilitate effective management of that work to meet strategic business\nobjectives. (Source: USDA, OCIO, IRMC, CPITGD, USDA DME and O&M Definitions (and\nAdditional IT-Related Definitions), October 2017)\n\nProgram. A program is a group of related projects managed in a coordinated manner to obtain\nbenefits not available from managing them individually. (Source: USDA, OCIO, IRMC,\nCPITGD, USDA DME and O&M Definitions (and Additional IT-Related Definitions), October\n2017)\n\nProject. A project can be defined as a temporary endeavor undertaken to create a unique product\nor service. Projects are different from other ongoing operations in an organization, because\nunlike operations, projects have a definite beginning and an end – they have a limited duration.\n(Source: OMB, FY 2021 IT Budget – Capital Planning Guidance)\n\n\n\n\n                                               B-2\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nAgriculture Improvement Act of 2018 (also known as the “2018 Farm Bill”), P.L. 115–334,\nDecember 20, 2018\n\n“Farm Bill,\" Current Year\n\nAgriculture, Rural Development, Food, and Drug Administration, and Related Agencies\nAppropriations Act, 2015, P.L. 113-235, Division A, December 16, 2014\n\n“Agriculture, Rural Development, Food, and Drug Administration, and Related Agencies\nAppropriations Act,” Current Year\n\nThe Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) 11101, et seq., February 10,\n1996, as amended\n\nFederal Acquisition Regulation (FAR), Part 7 – Acquisition Planning\n\nFederal Acquisition Streamlining Act of 1994 (FASA), P.L. 103-355, October 13, 1994\n\nFederal CIO Council (CIO.gov), TechFAR Handbook for Procuring Digital Services (“TechFAR\nHandbook”)\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, Title VIII,\nSubtitle D, §§ 831-837, December 19, 2014\n\nGovernment Accountability Office (GAO), GAO-04-394G, Information Technology Investment\nManagement: A Framework for Assessing and Improving Process Maturity, Version 1.1, March\n1, 2004\n\nGAO, GAO-09-3SP, GAO Cost Estimating and Assessment Guide – Best Practices for\nDeveloping and Managing Capital Program Costs, March 2009\n\nGAO, GAO/NSIAD-97-22BR, Acquisition Reform: Implementation of Title V of the Federal\nAcquisition Streamlining Act of 1994, October 31, 1996\n\nOMB, Circular A-11, Preparation, Submission, and Execution of the Budget, December 2020\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016\n\nOMB, Circular A-131, Value Engineering, December 26, 2013\n\nOMB, FY 2021 IT Budget – Capital Planning Guidance\n\n\n\n                                             C-1\n\fOMB, Memorandum M-10-27, Information Technology Investment Baseline Management\nPolicy, June 28, 2010\n\nOMB, Memorandum M-11-29, Chief Information Officer Authorities, August 8, 2011\n\nOMB, Memorandum M-13-09, Fiscal Year 2013 PortfolioStat Guidance: Strengthening\nFederal IT Portfolio Management, March 27, 2013\n\nOMB, Memorandum M-15-14, Management and Oversight of Federal Information Technology,\nJune 10, 2015\n\nOMB, Memorandum M-16-02, Category Management Policy 15-1: Improving the Acquisition\nand Management of Common Information Technology: Laptops and Desktops, October 16, 2015\n\nOMB, Memorandum M-16-12, Category Management Policy 16-1: Improving the Acquisition\nand Management of Common Information Technology: Software Licensing, June 02, 2016\n\nOMB, Memorandum M-16-20, Category Management Policy 16-3: Improving the Acquisition\nand Management of Common Information Technology: Mobile Devices and Services, August\n04, 2016\n\nUSDA, Agriculture Acquisition Regulation (AGAR), Section 407.103, Agency-head\nresponsibilities, November 14, 1996\n\nUSDA, DM 3130-xxx, Information Technology Capital Planning and Investment Control\nProcedures, forthcoming\n\nUSDA, DM 3560-001, Security Requirements for CPIC, February 17, 2005\n\nUSDA, DR 3130-008, Definition of Major Information Technology Investments, August 3, 2020\n\nUSDA, DR 3130-009, Non-Major Information Technology (IT) Investments, September 28, 2020\n\nUSDA, DR 3130-010, United States Department of Agriculture Enterprise Information\nTechnology Governance, April 20, 2021\n\nUSDA, DR 3130-011, Information Technology Program and Project Manager Certification\nRequirements, February 4, 2016\n\nUSDA, Information Technology Capital Planning and Investment Control (AgITCPIC), March\n1, 2019, updated as Version 2.1, September 1, 2019\n\nUSDA, Information Technology Strategic Plan FY2019-FY2022, Version 1.0, October 2019\n\n\n\n\n                                           C-2\n\fUSDA, Integrated IT Governance Framework: Guidebook (\"IITGF Guidebook\"), Version 3.3,\nJune 2018\n\nUSDA, OCIO, USDA Strategic Plan FY2018-FY2022, 2018\n\nUSDA, OCIO, IRMC, CPITGD, Acquisition Approval Request (AAR) Guidance for AAR\nManagers, Version 2.4, October 2020\n\nUSDA, OCIO, IRMC, CPITGD, USDA DME and O&M Definitions (and Additional IT-Related\nDefinitions), October 2017\n\nUSDA, OCP, USDA Contracting Desk Book, Version 2.10, March 1, 2021\n\n\n\n\n                                          C-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "0078fb92-8aec-5e92-bd15-0432a4e3a5df",
+          "title": "USDA Directives — DR3130-013",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3130-013",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

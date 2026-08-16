@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/index",
+  "title": "USDA Policy Forge — Schema & Ontology Index",
+  "description": "Master index of all JSON Schema and OWL/Turtle files in USDA_POLICY_ONTOLOGY. Lists every schema with its $id, the artifact(s) it validates, and its correspondence in the OWL ontology and Rego/OSCAL artifact set.",
+  "generated": "2026-08-15",
+  "oscal_version": "1.1.2",
+  "opa_rego_version": "v1",
+  "nist_sp": "800-53 Rev5",
+  "json_schema_draft": "2020-12",
+  "files": [
+    {
+      "filename": "schema_index.json",
+      "type": "index",
+      "title": "Schema & Ontology Index",
+      "schema_id": "https://usda.gov/policy-forge/schemas/index",
+      "description": "This file. Master cross-reference for all schemas and the ontology."
+    },
+    {
+      "filename": "schema.harvest_manifest.json",
+      "type": "json-schema",
+      "title": "Harvest Manifest",
+      "schema_id": "https://usda.gov/policy-forge/schemas/harvest-manifest",
+      "validates": [
+        "#PolicyForge - Platform Implementation/harvest_manifest.json"
+      ],
+      "owl_class": "usda:Directive (label + sourceURL + title)",
+      "rego_constant": null,
+      "oscal_element": "catalog/metadata (title, props[label], links[source_url])",
+      "notes": "Top-level array. One entry per directive. Drives both the OSCAL and Rego pipelines."
+    },
+    {
+      "filename": "schema.directive.json",
+      "type": "json-schema",
+      "title": "Directive Metadata",
+      "schema_id": "https://usda.gov/policy-forge/schemas/directive",
+      "validates": [
+        "USDA_OPA_REGO_SOURCECODE/*.rego → directive constant"
+      ],
+      "owl_class": "usda:Directive",
+      "rego_constant": "directive := { label, title, directive_type, effective_date, opi, nist_families, source_url }",
+      "oscal_element": "catalog/metadata (title, version, props)",
+      "notes": "Present in every base .rego file and every _partN.rego file. directive_type is derived from the label prefix."
+    },
+    {
+      "filename": "schema.section_entry.json",
+      "type": "json-schema",
+      "title": "Policy Section Entry",
+      "schema_id": "https://usda.gov/policy-forge/schemas/section-entry",
+      "validates": [
+        "USDA_OPA_REGO_SOURCECODE/*.rego → sections object values"
+      ],
+      "owl_class": "usda:PolicySection",
+      "rego_constant": "sections[section_number] := { title, excerpt }",
+      "oscal_element": "catalog/groups/group (id, class, title)",
+      "notes": "Section keys are string numbers ('1', '2', 'A', 'B'). Excerpt is first 500 chars of body text."
+    },
+    {
+      "filename": "schema.requirement.json",
+      "type": "json-schema",
+      "title": "Policy Requirement",
+      "schema_id": "https://usda.gov/policy-forge/schemas/requirement",
+      "validates": [
+        "USDA_OPA_REGO_SOURCECODE/*.rego → requirements array elements"
+      ],
+      "owl_class": "usda:PolicyRequirement",
+      "rego_constant": "requirements[_] := { id, section, section_title, text, keyword, mandatory }",
+      "oscal_element": "catalog/groups/group/controls/control + parts/part[name=statement]",
+      "notes": "Base files capped at 75 requirements. Overflow continues in _partN.rego files (same schema, IDs continue from -req-076 onward)."
+    },
+    {
+      "filename": "schema.violation.json",
+      "type": "json-schema",
+      "title": "Compliance Violation",
+      "schema_id": "https://usda.gov/policy-forge/schemas/violation",
+      "validates": [
+        "OPA evaluation output → violations set elements"
+      ],
+      "owl_class": null,
+      "rego_constant": "violations contains violation if { ... }",
+      "oscal_element": null,
+      "notes": "Produced at evaluation time, not stored on disk. Aggregated by _usda_policy_index.rego → all_violations."
+    },
+    {
+      "filename": "schema.summary.json",
+      "type": "json-schema",
+      "title": "Directive Summary",
+      "schema_id": "https://usda.gov/policy-forge/schemas/summary",
+      "validates": [
+        "USDA_OPA_REGO_SOURCECODE/*.rego → summary rule value",
+        "OPA evaluation output → all_summaries set elements"
+      ],
+      "owl_class": "usda:Directive (projection)",
+      "rego_constant": "summary := { label, title, directive_type, effective_date, opi, nist_families, requirement_count, section_count }",
+      "oscal_element": "catalog/metadata (aggregate)",
+      "notes": "Lightweight projection used by _usda_policy_index.rego → all_summaries for cross-directive dashboards."
+    },
+    {
+      "filename": "schema.opa_input.json",
+      "type": "json-schema",
+      "title": "OPA Compliance Evaluation Input",
+      "schema_id": "https://usda.gov/policy-forge/schemas/opa-input",
+      "validates": [
+        "OPA input document passed at evaluation time (opa eval -d ... --input input.json)"
+      ],
+      "owl_class": null,
+      "rego_constant": "input.organization.agency  |  input.assertions[req.id]",
+      "oscal_element": null,
+      "notes": "Use with OPA --schema flag: opa eval --schema USDA_POLICY_ONTOLOGY/schema.opa_input.json. The assertions object must enumerate all requirement IDs for the directives being evaluated."
+    },
+    {
+      "filename": "schema.opa_part_file.json",
+      "type": "json-schema",
+      "title": "OPA Overflow Part File Extensions",
+      "schema_id": "https://usda.gov/policy-forge/schemas/opa-part-file",
+      "validates": [
+        "USDA_OPA_REGO_SOURCECODE/*_part*.rego → part_number and primary_package constants"
+      ],
+      "owl_class": "usda:OpaPartModule",
+      "rego_constant": "part_number := N  |  primary_package := \"usda.policy.{pkg}\"",
+      "oscal_element": null,
+      "notes": "Applies only to overflow files (_part2.rego onward). 15 directives have part files; DM3440-001 has parts 2–6 (408 total requirements). 22 part files total."
+    },
+    {
+      "filename": "schema.oscal_catalog.json",
+      "type": "json-schema",
+      "title": "OSCAL 1.1.2 Catalog Document",
+      "schema_id": "https://usda.gov/policy-forge/schemas/oscal-catalog",
+      "validates": [
+        "USDA_OSCAL_SOURCE_CODE/*_OSCAL.json"
+      ],
+      "owl_class": "usda:OscalCatalog",
+      "rego_constant": null,
+      "oscal_element": "catalog (root)",
+      "notes": "330 catalog files. Full NIST OSCAL 1.1.2 catalog structure with internal $defs for Metadata, Prop, Link, Group, Control, Part, BackMatter, Resource, RLink. Validated against NIST official schema at https://pages.nist.gov/OSCAL/reference/latest/catalog/json-schema/."
+    },
+    {
+      "filename": "usda_policy.ontology.ttl",
+      "type": "owl-turtle",
+      "title": "USDA Policy Forge OWL 2 Ontology",
+      "schema_id": "https://usda.gov/policy-forge/ontology/",
+      "validates": null,
+      "owl_class": "owl:Ontology",
+      "rego_constant": null,
+      "oscal_element": null,
+      "namespaces": {
+        "usda": "https://usda.gov/policy-forge/ontology/",
+        "nist": "https://csrc.nist.gov/ns/oscal/1.0/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+      },
+      "classes": [
+        "usda:Directive",
+        "usda:DepartmentalRegulation",
+        "usda:DepartmentalManual",
+        "usda:SecretarysMemorandum",
+        "usda:DepartmentalNotice",
+        "usda:DepartmentalGuideline",
+        "usda:PolicySection",
+        "usda:PolicyRequirement",
+        "usda:MandatoryKeyword",
+        "usda:OfficeOfPrimaryInterest",
+        "usda:NistControlFamily",
+        "usda:OscalCatalog",
+        "usda:OpaRegoModule",
+        "usda:OpaPartModule"
+      ],
+      "object_properties": [
+        "usda:hasSection", "usda:sectionOf",
+        "usda:hasRequirement", "usda:inSection",
+        "usda:hasOPI", "usda:mapsToNISTFamily",
+        "usda:hasKeyword",
+        "usda:supersedes", "usda:supersededBy",
+        "usda:hasPart", "usda:primaryPartOf",
+        "usda:hasOscalCatalog", "usda:hasRegoModule"
+      ],
+      "data_properties": [
+        "usda:directiveLabel", "usda:directiveTitle",
+        "usda:effectiveDate", "usda:expirationDate",
+        "usda:sourceURL", "usda:oscalUUID",
+        "usda:packageName", "usda:partNumber",
+        "usda:sectionNumber", "usda:sectionTitle", "usda:sectionExcerpt",
+        "usda:requirementId", "usda:requirementText", "usda:requirementKeyword",
+        "usda:isMandatory", "usda:requirementCount", "usda:sectionCount",
+        "usda:opiName", "usda:nistFamilyCode", "usda:nistFamilyName"
+      ],
+      "named_individuals": [
+        "usda:Keyword_shall", "usda:Keyword_must",
+        "usda:Keyword_required", "usda:Keyword_prohibited",
+        "usda:NIST_AC", "usda:NIST_AT", "usda:NIST_AU", "usda:NIST_CA",
+        "usda:NIST_CM", "usda:NIST_CP", "usda:NIST_IA", "usda:NIST_IR",
+        "usda:NIST_MA", "usda:NIST_MP", "usda:NIST_PE", "usda:NIST_PL",
+        "usda:NIST_PM", "usda:NIST_PS", "usda:NIST_PT", "usda:NIST_RA",
+        "usda:NIST_SA", "usda:NIST_SC", "usda:NIST_SI", "usda:NIST_SR"
+      ],
+      "external_alignments": [
+        "dcterms:identifier (← usda:directiveLabel)",
+        "dcterms:title (← usda:directiveTitle)",
+        "dcterms:issued (← usda:effectiveDate)",
+        "dcterms:valid (← usda:expirationDate)",
+        "dcterms:source (← usda:sourceURL)",
+        "dcterms:replaces (← usda:supersedes)",
+        "dcterms:isReplacedBy (← usda:supersededBy)",
+        "skos:Concept (← usda:Directive, usda:NistControlFamily)",
+        "skos:definition (← usda:requirementText)",
+        "prov:Entity (← usda:OscalCatalog, usda:OpaRegoModule)",
+        "foaf:Organization (← usda:OfficeOfPrimaryInterest)"
+      ],
+      "notes": "Load in Protégé, Apache Jena, or any OWL 2 DL reasoner. Turtle syntax. Validated with OWL 2 DL profile (no punning issues; NamedIndividuals for NIST families and keywords use rdf:type both owl:NamedIndividual and their class)."
+    }
+  ],
+  "corpus_stats": {
+    "directives": 330,
+    "oscal_catalog_files": 330,
+    "rego_base_files": 330,
+    "rego_part_files": 22,
+    "rego_index_file": 1,
+    "total_rego_files": 353,
+    "directives_with_overflow": 15,
+    "max_requirements_single_directive": 408,
+    "max_requirements_directive_label": "DM3440-001"
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "catalog": {
+    "uuid": "6828e272-5a27-55be-8f8b-87565cd626cb",
+    "metadata": {
+      "title": "USDA DR4740-004: Training Officers Consortium",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2014-07-25",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4740-004"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2014-07-25"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4740-004",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4740-004",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "8e7b3d63-6367-5617-b77e-e3dd3aa95a6a",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4740-004-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4740-004-1-stmt",
+                "name": "statement",
+                "prose": "This departmental regulation establishes the mission, membership, roles and responsibilities,\n     operating procedures, and funding principles for the USDA Training Officers Consortium.\n     The Consortium provides enterprise governance for Department-wide non-technical training\n     and employee development goals, strategies, initiatives, and processes. The Consortium is a\n     decision-making body. The Consortium does not usurp the USDA’s Chief Human Capital\n     Officer (CHCO) or the Chief Learning Officer (CLO) from executing his or her statutory\n     responsibilities. This policy represents agreement among all USDA agencies and offices to\n     collaborate on non-technical training and employee development, and that decisions and\n     projects affecting USDA’s non-technical training and employee development must be\n     endorsed and supported subject to the approval process described herein."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "831b646e-5306-5412-8526-5f3daff3dc65",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr4740-004-2",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr4740-004-2-stmt",
+                "name": "statement",
+                "prose": "a. 5 USC Chapter 41, Training effective January 7, 2011.\n     http://www.law.cornell.edu/uscode/text/5/part-III/subpart-C/chapter-41\n\n  b. 5 CFR 410 (establishes regulations that Federal agencies are to follow in carrying out\n     their training programs) effective January 1, 2012. http://www.ecfr.gov/cgi-bin/text-\n     idx?c=ecfr&tpl=/ecfrbrowse/Title05/5cfr410_main_02.tpl\n\n  c. 5 CFR 412 (Supervisory, Managerial, and Executive Development, includes requirements\n     to provide supervisory training within one year of initial appointment, and at least every\n     three years; the required features and approval process for the Senior Executive Service\n     Candidate Development Program; and the requirement for continual development of\n     members of the senior executives) effective January 1, 2012. http://www.ecfr.gov/cgi-\n     bin/text-idx?c=ecfr&rgn=div5&view=text&node=5:1.0.1.2.59&idno=5\n\n  d. GAO-04-546G, Human Capital, A Guide for Assessing Strategic Training and\n     Development Efforts in the Federal Government effective March 1, 2004.\n     http://www.gao.gov/new.items/d04546g.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c18bfbea-f98b-58b3-bcbd-d1cba32f64d1",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr4740-004-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr4740-004-3-stmt",
+                "name": "statement",
+                "prose": "This directive upgrades the Training Officers Consortium Charter into a Departmental\n  Regulation hereby making the policy therein mandatory.\n\n  This directive supersedes USDA DR 4120-002."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4e4ed1f5-d83c-5c35-8968-c45f17a4af86",
+        "class": "section",
+        "title": "Mission",
+        "controls": [
+          {
+            "id": "dr4740-004-4",
+            "class": "policy-requirement",
+            "title": "Mission",
+            "parts": [
+              {
+                "id": "dr4740-004-4-stmt",
+                "name": "statement",
+                "prose": "The mission of the Consortium is to ensure high quality and consistent delivery of non-\n  technical training and employee development services across all USDA mission areas,\n  agencies, and offices. The Consortium also ensures that non-technical training in USDA is\n  non-duplicative and that training opportunities are available to all USDA employees. The\n  Consortium serves as a steering group and a decision making body for non-technical training\n  and employee development initiatives, policies, and programs to ensure that there is\n  consistency, quality, and access throughout the Department. This group plays a vital role in\n  addressing the human capital needs of USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "06cbb910-7392-5f3c-a619-f4caaac57d6f",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4740-004-5",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4740-004-5-stmt",
+                "name": "statement",
+                "prose": "a. Non-technical Training. Employee development, training, and education that is cross\n     cutting for USDA Mission Areas, agencies, and offices, such as customer service and\n     communications skills development, administrative skills development, team skills\n     development, supervisory training, management training, leadership development,\n     mentoring, coaching, and individual development plans.\n\n                                              2\n\f  b. Human Capital. The collective value of the knowledge, skills, abilities, and\n     competencies of the employees at all levels throughout the organization embodied in the\n     ability to perform work to produce value. Human capital is vitally important for an\n     organization's success, and it increases through education and experience. Human capital\n     planning is the method by which an agency designs a coherent framework of human\n     capital policies, programs, and practices to achieve a shared vision integrated with the\n     agency’s strategic plan. Implementation of the strategic human capital plan is a key step\n     in an agency’s progress to build a highly effective, performance-based organization by\n     recruiting, acquiring, motivating, training and rewarding a high-performing, top quality\n     workforce. The plan becomes the roadmap for continuous improvement and the\n     framework for transforming the culture and operations of the agency.\n\n  c. Proxy. Written authorization from an absent member that confers limited permission to\n     another member to vote on behalf of, and in accordance with the direction of, the\n     principal.\n\n  d. Technical Training. Science-based or mission-specific technical training that only\n     applies to a particular agency or office. Examples include firefighting for the Forest\n     Service, diagnosing foreign animal diseases or invasive pests for APHIS, grain inspection\n     for GIPSA, and food inspection for FSIS. These components of training and education\n     are excluded from the Consortium because, due to their uniqueness, there are no\n     opportunities to share training resources across agencies and offices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "da7064fd-4b91-523e-b98b-a0859a0b5358",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4740-004-6",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4740-004-6-stmt",
+                "name": "statement",
+                "prose": "a. The Consortium governs the full spectrum of non-technical training and employee\n     development elements including but not limited to: new and experienced supervisory\n     training; skills development and talent management including mentoring, Individual\n     Development Plans, and curriculum to develop targeted occupational groups such as\n     Administrative Professionals; student intern training and development; new employee\n     training and onboarding; a full range of non-technical skills development under talent\n     management, such as communications, customer service, conflict resolution, and\n     administrative competencies.\n\n     (1) The Consortium focuses on training and educational issues that have significant\n         impact on the Department’s workforce and resources.\n\n     (2) The Consortium may establish and charge ongoing or special purpose teams and ad\n         hoc workgroups to address specific issues and develop recommendations or options.\n\n     (3) The Consortium will research, identify, and share best practices and benchmarking\n         studies to continually improve USDA non-technical training and employee\n         development and to ensure that training dollars are used effectively.\n\n\n                                              3\n\f     (4) The Consortium members will actively participate in projects led by the Virtual\n         University to assess training needs, and to measure and track progress toward goals\n         and objectives, and to demonstrate the results of training.\n\n     (5) The Consortium members will work together to promote the efficiency and\n         effectiveness of training, and to maximize the use of training resources."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea54c73b-7e51-5a60-8bf8-1b9fea0a783c",
+        "class": "section",
+        "title": "Membership",
+        "controls": [
+          {
+            "id": "dr4740-004-7",
+            "class": "policy-requirement",
+            "title": "Membership",
+            "parts": [
+              {
+                "id": "dr4740-004-7-stmt",
+                "name": "statement",
+                "prose": "a. Members of the Training Officers Consortium include:\n\n     (1) USDA Virtual University Provost, Chairperson\n\n     (2) USDA Virtual University Deputy Provost, Vice Chairperson\n\n     (3) Agency Training Officers, Members\n\n     (4) Training Officers of USDA Staff Offices (e.g., OIG, ASCR), Members\n\n     (5) AgLearn representative, Member\n\n     (6) Designees may vote by proxy on behalf of the respective member with advanced\n         approval of the Chairperson.\n\n     (7) Other Non-Voting Members include:\n\n         (a) USDA Virtual University Senior Staff Specialists, Advisors and Working Group\n             Leaders\n\n         (b) OHRM Senior Staff Specialists, as needed, Advisory Support\n\n  b. Agency Training Officers will be designated by Agency Administrators and Staff Office\n     heads. It is recommended that this designation be role-based."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6349fcba-0c45-5572-a2b8-1dbacd7de644",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr4740-004-8",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr4740-004-8-stmt",
+                "name": "statement",
+                "prose": "a. The USDA Training Officers Consortium shall:\n\n     (1) Work collaboratively with all Consortium members to establish common, non-\n         duplicative USDA non-technical training programs serving all USDA employees.\n\n     (2) Provide input into non-technical training and employee development policies\n         developed by the USDA Virtual University, and oversee the implementation of\n         finalized policies.\n\n                                             4\n\f   (3) Review and provide input on key non-technical training and employee development\n       initiatives that arise from external sources, such as the Office of Personnel\n       Management and the Office of Management and Budget.\n\n   (4) Take appropriate actions to ensure organizational commitment to the success of the\n       governance process, including providing sponsorship of key programs and initiatives.\n\n   (5) Provide recommendations for funding decisions regarding investments, projects, and\n       decisions affecting USDA non-technical training and employee development with an\n       emphasis on meeting overall USDA mission goals.\n\n   (6) Provide strategic input for consideration by Team AgLearn regarding training needs,\n       program feedback, and customer input.\n\nb. The Chairperson shall:\n\n   (1) Provide executive level direction to the Consortium and preside at Consortium\n       meetings.\n\n   (2) Propose annual goals and objectives for the Consortium, and track and report\n       accomplishments.\n\n   (3) Ensure the Consortium votes to agree upon recommendations and prioritizations\n       provided by the USDA Virtual University concerning policies, initiatives,\n       investments, projects, and programs.\n\n   (4) Make final decisions on issues in the absence of group consensus.\n\n   (5) Ensure that implications are fully discussed and vetted during the decision making\n       process.\n\n   (6) Delegate full decision-making authority to the Vice Chairperson in cases where the\n       Chairperson is not able to participate in Consortium meetings.\n\nc. The general membership shall:\n\n   (1) Represent both a corporate or holistic USDA-wide perspective as well as their\n       organization’s interest in policies, projects, and initiatives.\n\n   (2) Propose agenda items prior to Consortium meetings.\n\n   (3) Review and assess proposed policies, programs, and initiatives.\n\n   (4) Identify appropriate issues and concerns for discussion and resolution by the\n       Consortium.\n\n                                           5\n\f     (5) Review the recommendations provided by the Virtual University staff.\n\n     (6) Provide advice and guidance to the Chairperson on corporate non-technical training\n         and employee development issues.\n\n     (7) Actively support special purpose and ad hoc teams or work groups charged by the\n         Consortium through serving as a champion and by contributing staff time and other\n         resources.\n\n     (8) Institutionalize the decisions and implementing the policies and programs developed\n         by the Consortium.\n\n  d. The Virtual University staff shall:\n\n     (1) Solicit agenda items from Consortium members.\n\n     (2) Prepare and distribute the agenda and materials in advance of meetings to ensure time\n         for members to prepare.\n\n     (3) Schedule meetings, record proceedings, and draft and distribute meeting\n         documentation.\n\n     (4) Lead working groups to develop materials and documents in accordance with the\n         goals, objectives, and plans of the Consortium.\n\n     (5) Maintain official files and ensure that decisions are documented.\n\n     (6) Serve as the gatekeeper for all proposals to ensure that decisions are made consistent\n         with the processes described herein.\n\n     (7) Provide status reports and track milestones, deliverables, and decisions and report on\n         progress."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c026001e-a3b6-524e-ab07-04041103ccd9",
+        "class": "section",
+        "title": "Operating Procedures",
+        "controls": [
+          {
+            "id": "dr4740-004-9",
+            "class": "policy-requirement",
+            "title": "Operating Procedures",
+            "parts": [
+              {
+                "id": "dr4740-004-9-stmt",
+                "name": "statement",
+                "prose": "a. The Consortium will meet at least quarterly to discuss and plan actions on proposals\n     provided by the Virtual University; and to provide advice, input, and decisions on a\n     variety of corporate training and employee development issues, policies, programs, and\n     projects. The Consortium may meet on an ad hoc basis for issues that arise that require\n     immediate attention. Any member can request an ad hoc meeting by contacting the\n     Chairperson.\n\n  b. The Consortium will establish an annual set of goals and objectives designed to ensure\n     that there is consistency, quality, and access throughout the Department for non-technical\n\n                                              6\n\f     training and employee development issues. This set of goals and objectives will be used\n     for planning purposes by the Consortium.\n\n  c. All Consortium members or designated alternates attend meetings of the Consortium.\n     Alternate members must be authorized to make decisions on matters being presented, and\n     are expected to participate fully regarding agenda items on behalf of their respective\n     member.\n\n  d. The Virtual University shall take responsibility for preparing all routine materials,\n     including the issuance of the agenda, distribution of materials, handling scheduling of\n     meetings, and distributing meeting documentation.\n\n  e. The Virtual University will issue meeting agendas and provide summaries of the\n     meetings, including providing resolution and discussion points. Members sponsoring\n     agenda items are responsible for providing their own background and presentation\n     materials. Meeting documentation includes minutes, decision documents, executive\n     action memoranda, and project review decisions.\n\n  f. This Charter will be reviewed annually in September, and adjusted as needed. Changes\n     to this Charter require approval of the Training Officers Consortium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cb817e02-4f8b-51c3-9b78-2fa6d5f1bf5a",
+        "class": "section",
+        "title": "Decision Process",
+        "controls": [
+          {
+            "id": "dr4740-004-10",
+            "class": "policy-requirement",
+            "title": "Decision Process",
+            "parts": [
+              {
+                "id": "dr4740-004-10-stmt",
+                "name": "statement",
+                "prose": "a. The Consortium will consider recommendations and decisions presented to it and make\n     decisions to implement, not implement, or give direction to revise.\n\n  b. The Consortium strives for decision by consensus. If consensus cannot be reached after\n     full and open discussion, then decisions will be put to a vote by simple majority. Only\n     members (or their designated alternate) may vote. Each member has only one vote.\n\n  c. Decisions by the Consortium to implement a specific recommendation or option serves as\n     agency approval and a commitment by the members to ensure that decisions are fully and\n     effectively implemented their respective organizations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f41985da-f6b4-55e2-904d-ffd652155b6c",
+        "class": "section",
+        "title": "Funding",
+        "controls": [
+          {
+            "id": "dr4740-004-11",
+            "class": "policy-requirement",
+            "title": "Funding",
+            "parts": [
+              {
+                "id": "dr4740-004-11-stmt",
+                "name": "statement",
+                "prose": "Consortium members are responsible for ensuring that the implementation of policies,\n  programs, and decisions are funded appropriately and that training funds in their respective\n  organizations are used in a cost-effective manner."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2e8ff436-a2dc-5d39-8104-751209c58b2a",
+        "class": "section",
+        "title": "Communications",
+        "controls": [
+          {
+            "id": "dr4740-004-12",
+            "class": "policy-requirement",
+            "title": "Communications",
+            "parts": [
+              {
+                "id": "dr4740-004-12-stmt",
+                "name": "statement",
+                "prose": "Communications regarding the work or results of the Consortium will be issued by the\n\n                                              7\n\f  Virtual University. The Virtual University may issue communications with a request for\n  members to share with mission area or agency employees."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ac1064ee-1527-5a11-9d5d-e8a9407e81ce",
+        "class": "section",
+        "title": "Scale Of Effort",
+        "controls": [
+          {
+            "id": "dr4740-004-13",
+            "class": "policy-requirement",
+            "title": "Scale Of Effort",
+            "parts": [
+              {
+                "id": "dr4740-004-13-stmt",
+                "name": "statement",
+                "prose": "The Consortium will address, at a minimum, the following programs and initiatives.\n\n  a. Probationary supervisor training (5 CFR 412.202(b))\n\n  b. Transition from supervisor to manager training and development (5 CFR 412.202(c))\n\n  c. Transition from manager to executive training and development (5 CFR 412.202(c))\n\n  d. Mentoring\n\n  e. Experienced supervisor and manager training and development (5 CFR 412.202(b))\n\n  f. Guidance on the use of OPM competencies (5 CFR 412.201(b))\n\n  g. Leadership development training (5 CFR 412.202(a))\n\n  h. Training evaluation and assuring accountability (5 CFR 410.202 and 5 CFR 412.201(c)\n\n  i. Optimizing customer service\n\n  j. Coaching (5 CFR 412.201(b))\n\n  k. Other cross cutting employee development and mandatory training\n\n\n                                          -END-\n\n\n\n\n                                             8"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "ce1aaca2-aeea-56b3-989f-d9bea0517c27",
+          "title": "USDA Directives — DR4740-004",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4740-004",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

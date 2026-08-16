@@ -1,0 +1,216 @@
+{
+  "catalog": {
+    "uuid": "217c35b3-9010-5524-b16a-a29721b150bf",
+    "metadata": {
+      "title": "USDA DR2250-001: Imprest Fund Authorities and Requirements",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-09-30",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2250-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-09-30"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2250-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer – Fiscal Policy   EXPIRATION DATE:, Division",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2250-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer – Fiscal Policy   EXPIRATION DATE:, Division"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b4c31a19-09eb-57ab-9edb-9ffff3515f7c",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2250-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2250-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) requires that the Mission Areas and agencies of the\n      United States Department of Agriculture (USDA) eliminate Mission Area and agency\n      imprest funds except where waivers are approved. This DR provides waiver request and\n      approval policy. This DR applies to both domestic and international imprest funds."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "87d12041-012a-55b5-8f76-bd20611cc741",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr2250-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr2250-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 2250-001, Imprest Fund Authorities and Requirements, dated\n           August 11, 2003.\n\n      b.   This DR replaces the semi-annual reporting requirement with a three-year reporting\n           requirement. Since the Management of Federal Agency Disbursements, 31 Code of\n           Federal Regulations (CFR) 208.4, Waivers, does not require semi-annual reporting, these\n           changes will allow for better management of employee resources and reduces the\n           reporting burden.\n\f  c.   This DR is effectively immediately and remains in effect until superseded or expiration.\n\n  d.   All Mission Areas and agencies will align their policies and procedures with this DR\n       within 6 months of the publication date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9f25b252-4508-5664-8545-622891ad10f6",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr2250-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr2250-001-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to USDA Mission Areas and agencies that must operate imprest funds."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2be76e37-7b6c-51e9-b207-065cba13cae1",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr2250-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr2250-001-4-stmt",
+                "name": "statement",
+                "prose": "USDA Mission Areas and agencies are required to eliminate Mission Area and agency\n  imprest funds except for waived payments described below. Mission Areas and agencies\n  may establish, maintain, and operate an imprest fund only if they meet the waiver criteria\n  described in the US Department of Treasury’s, Treasury Financial Manual (TFM), Chapter\n  3000, § 30170, Authority to Disburse Imprest Funds, Imprest Fund Implementation\n  Guidance, and 31 CFR § 208.4. A Mission Area’s or agency’s primary payment\n  mechanisms should be electronic funds transfer (EFT), as required by 31 CFR § 208. In\n  addition, imprest funds may be approved for change making purposes when justified and no\n  other source is available for change making. The maximum per-transaction spending limit\n  for normal day-to-day cash expenditures is $500 or equivalent. Claims in excess of $500\n  must have approval from the Mission Area or Agency Head.\n\n  Purchase cards, convenience checks, and third-party drafts must not be used to establish,\n  maintain, or replenish imprest funds. Purchase cards, convenience checks, and third-party\n  drafts shall not be used to obtain cash for imprest funds directly, through employees, or\n  through third parties.\n\n  USDA Mission Areas and agencies that justify and receive approval for waivers must\n  implement an internal Mission Areas or agency process and related procedures for\n  establishing, maintaining, and operating imprest funds. The process and procedures must be\n  in compliance with this DR and Treasury’s Imprest Fund Implementation Guidance, and 31\n  CFR § 208.4. The internal Mission Area or agency imprest fund process must have the\n  Office of the Chief Financial Officer’s (OCFO) oversight to ensure uniformity and\n  consistency of imprest fund requests, operation, and reporting.\n\n  The OCFO Fiscal Policy Division (FPD) Director’s approval of imprest fund waivers is\n  based on the submission of a Mission Area’s or agency’s request, justification, and\n  certification. The absence of any of the three items will jeopardize the approval of a waiver.\n  All imprest fund waivers approved by OCFO’s FPD Director are active for 3 years.\n\n\n\n\n                                               2\n\fa.   Request for Waivers: USDA Mission Area Chief Financial Officers (CFO) and agency\n     equivalents must submit imprest fund waiver requests to the Director of OCFO’s Fiscal\n     Policy Division. Imprest funds may only be used when:\n\n     (1) A payment by EFT is waived in accordance with the provisions of 31 CFR § 208.4;\n         and\n\n     (2) At least one other requirement described below in (a) through (e):\n\n         (a) Payments involve national security interests, military operations, or national\n             disasters;\n\n         (b) Payments are made in furtherance of a law enforcement action;\n\n         (c) The amount owed is less than $25;\n\n         (d) The political, financial, or communications infrastructure of a foreign country\n             does not support payment by a non-cash mechanism; and\n\n         (e) Payments are made in emergencies or in mission critical circumstances that are\n             of such an unusual and compelling urgency that the Federal Government would\n             otherwise be seriously injured, unless payment is made by cash.\n\nb.   Justification of Imprest Funds: Imprest fund waiver justifications must be completed by\n     the Mission Area CFO or agency equivalent. The justifications must be by individual\n     fund and include the following:\n\n     (1) Imprest Fund location and if applicable, reference number;\n\n     (2) The OCFO prior year approved balance;\n\n     (3) Requested current fiscal year balance;\n\n     (4) Number of Sub-Cashiers and amount of each;\n\n     (5) Types of payments made from the fund; and\n\n     (6) Treasury waiver(s) and reasons justifying the imprest fund.\n\nc.   Certification of Imprest Funds: Mission Area CFOs and agency equivalents must certify\n     annually whether their Mission Area or agency imprest funds are managed and operated\n     in accordance with this DR and 31 CFR § 208.4. The certification may be all\n     encompassing if all imprest funds are in compliance. If there are imprest funds not in\n     compliance, the certification should identify and itemize the funds not in compliance,\n     the reason(s) for noncompliance, and estimated compliance date:\n\n\n\n                                            3\n\f       (1) Certification of full reconciliation of fund balances;\n\n       (2) The completion of cash verifications and audits; and\n\n       (3) The revocation of Mission Area and agency cashiers that no longer have the\n           authority to disburse funds."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2351227e-d4e0-554b-8bd3-3951aa56214a",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr2250-001-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr2250-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   Applicable USDA Mission Areas CFOs and agency equivalents will:\n\n       (1) Request imprest fund waivers in accordance with the Treasury’s Imprest Fund\n           Implementation Guidance, 31 CFR § 208.4, and this DR.\n\n       (2) Complete imprest fund waiver justifications once every 3 years; providing Mission\n           Areas and agencies submit an annual statement affirming that there have been no\n           significant changes in their imprest funds in the subsequent years. These annual\n           statements must include:\n\n           (a) The number of Mission Area or agency imprest funds;\n\n           (b) Total balance outstanding; and\n\n           (c) Total number and dollar amount of transactions during the year. If there has\n               been significant changes, Mission Areas and agencies must resubmit their\n               waiver justification. Mission Areas and agencies are required to submit their\n               certification annually. (The above deliverables will be due to the OCFO FPD\n               on April 30th of the appropriate year.);\n\n       (3) Ensure personnel are in full compliance with all applicable Treasury and\n           Departmental imprest fund regulations; and\n\n       (4) Implement an internal Mission Area or agency process and related procedures for\n           establishing, maintaining, and operating imprest funds with oversight from Mission\n           Area or agency headquarters.\n\n  b.   The OCFO FPD Director will:\n\n       (1) Review and analysis of requests, justifications, certifications, imprest fund balances,\n           and annual statements;\n\n       (2) Request annual statement for review and analysis;\n\n       (3) Approve waivers in accordance with the Treasury’s Imprest Fund Implementation\n           Guidance, 31 CFR § 208.4, and this DR; and\n\n                                               4\n\f      (4) Provide Departmental oversight and monitoring to ensure Mission Area and agency\n          compliance with this DR. Oversight includes maintaining a tracking tool to ensure\n          the 3-year reporting requirement is being met."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2f905089-f605-52bd-968e-759094fbf4c7",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr2250-001-6",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr2250-001-6-stmt",
+                "name": "statement",
+                "prose": "Inquiries should be directed to the OCFO, FPD at SM.OCFO.FPDOCFO@usda.gov.\n\n\n\n                                         -END-\n\n\n\n\n                                            5\n\f                                APPENDIX A\n\n                  ACRONYMNS AND ABBREVIATIONS\n\n\nCFO    Chief Financial Officer\nCFR    Code of Federal Regulations\nDR     Departmental Regulation\nEFT    Electronic Funds Transfer\nFPD    Fiscal Policy Division\nOCFO   Office of the Chief Financial Officer\nTFM    Treasury Financial Manual\nUSDA   United States Department of Agriculture\n\n\n\n\n                                     A-1\n\f                                     APPENDIX B\n\n                                     DEFINITIONS\n\n\na. Electronic Funds Transfer. Any transfer of funds, other than a transaction originated by\n   cash, check, or similar paper instrument that is initiated through an electronic terminal,\n   telephone, computer, or magnetic tape, for the purpose of ordering, instructing, or\n   authorizing a financial institution to debit or credit an account. The term includes but is\n   not limited to, Automated Clearing House transfers, Fedwire transfers, and transfers\n   made at automated teller machines and point-of-sale terminals. The term electronic funds\n   transfer includes a credit card transaction. (Source: 31 CFR § 208.2, Definitions)\n\nb. Imprest Fund. Fixed-cash or petty cash fund in the form of currency or coin that has been\n   advanced to a cashier as “Funds Held Outside of Treasury.” (Source: TFM Chapter\n   3000, § 30170)\n\n\n\n\n                                           B-1\n\f                                    APPENDIX C\n\n                         AUTHORITIES AND REFERENCES\n\n\n\na.   Management of Federal Agency Disbursements, 31 CFR § 208, July 1, 2019\n\nb.   U.S. Department of Treasury, Imprest Fund Implementation Guidance, 2019\n\nc.   U.S. Department of Treasury, Treasury Financial Manual (TFM), Chapter 3000,\n     Requirements for Scheduling Payments Disbursed by the Bureau of the Fiscal Service, §\n     30170, Authority to Disburse Imprest Funds\n\n\n\n\n                                         C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "2427d9dc-ff4f-5f1d-83e5-307d17a9b91b",
+          "title": "USDA Directives — DR2250-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2250-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "catalog": {
+    "uuid": "657b2040-a105-5960-8cc9-4983c1bd79ec",
+    "metadata": {
+      "title": "USDA DR3505-003: Access Control for Information and Information Systems",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2019-07-17",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3505-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2019-07-17"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3505-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Information   EXPIRATION DATE:",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3505-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Information   EXPIRATION DATE:"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "7da3fff2-d084-5656-87ce-f289550f6459",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3505-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3505-003-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the United States Department of\n       Agriculture (USDA) policy for implementing, managing, and enforcing logical access to\n       information systems and granting accounts the least privileges necessary to carry out\n       assigned duties or actions.\n\n  b.   It is USDA policy to comply with Federal requirements by establishing, implementing,\n       and enforcing access control policies and procedures.\n\n  c.   This policy complies with the requirements of the Federal Information Security\n       Modernization Act of 2014 (FISMA), 44 United States Code (U.S.C.) § 3551, et seq.,\n       and National Institute of Standards and Technology (NIST) Federal Information\n       Processing Standards Publication (FIPS PUB) 200, Minimum Security Requirements for\n       Federal Information and Information Systems. The access control family of controls in\n       the NIST Special Publication (SP) 800-53, Revision 4, Security and Privacy Controls\n       for Federal Information Systems and Organizations, provide the basis for this policy.\n\n  d.   This policy serves as guidance for agencies to develop and implement access control\n       procedures that comply with Federal and Departmental requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "def58196-7a67-5064-89ee-0f05f1b88af4",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3505-003-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3505-003-2-stmt",
+                "name": "statement",
+                "prose": "a.   This policy supersedes:\n\n       (1) DR 3505-003, Access Control Policy, February 10, 2015, in its entirety; and\n\n       (2) DR 3505-002, Wireless Networking Security Policy, August 11, 2009, in its\n           entirety.\n\n  b.   This policy is effective immediately and remains in effect until superseded or expired.\n\n  c.   All agencies will align their access control policies and procedures with this DR within 6\n       months of the publication date.\n\n  d.   Terminology used in this DR is defined in Appendix B, Definitions, and Appendix E,\n       Discussion on Logical Access Control Terms.\n\n  e.   Defense Information Systems Agency (DISA) Security Technical Implementation Guide\n       (STIG) and United States Government Common Baseline (USGCB) configuration\n       checklists are available from the NIST, National Checklist Program Repository. When\n       this DR requires application of a setting to comply with a DISA STIG setting, an\n       equivalent setting from a USGCB checklist is also permitted, without waiver.\n\n  f.   In this DR, the terms “agency,” “agencies,” “USDA agency,” or “USDA agencies,”\n       when used generically, will be understood to include USDA Mission Areas, agencies,\n       and staff offices collectively, unless otherwise specified.\n\n                                               2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "84746441-ccdc-5fa0-81c4-f4af4cc4b160",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3505-003-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3505-003-3-stmt",
+                "name": "statement",
+                "prose": "This policy provides guidance for developing and implementing logical access controls for\n  USDA information systems and components of USDA information systems. Controlling\n  individual and software access and privileges to information and information systems is\n  required to protect USDA personnel, missions, and business processes against malicious and\n  unauthorized activities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7e73a1c2-9f8c-5a98-bdb4-d6d601acba96",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3505-003-4",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3505-003-4-stmt",
+                "name": "statement",
+                "prose": "a.   This policy applies to:\n\n       (1) All USDA agencies, employees, contractors, affiliates, interns, volunteers, and\n           fellows who work for, or on behalf of, USDA;\n\n       (2) All Federal information, in any medium or form, generated, collected, provided,\n           transmitted, stored, maintained, or accessed by, or on behalf of, USDA;\n\n       (3) All information systems or services (including cloud-based services) owned, used,\n           or operated by USDA, USDA contractors, or other organizations on behalf of, or\n           funded by, USDA; and\n\n       (4) Interconnections between or among these information systems.\n\n  b.   This policy is closely related to other USDA policies, programs, and procedures,\n       including:\n\n       (1) DR 3xxx-xxx, Bring Your Own Device, forthcoming;\n\n       (2) DR 35xx-xxx, Identification and Authentication, forthcoming;\n\n       (3) DR 3520-002, Configuration Management, August 12, 2014;\n\n       (4) DR 3580-004, Securing Remote Access to USDA Information Systems and Client\n           Devices, November 30, 2018;\n\n       (5) DR 3580-005, Securing Client Devices for International Travel, November 30,\n           2018; and\n\n       (6) DR 3640-001, Identity, Credential, and Access Management, December 9, 2011.\n\n  c.   Nothing in this policy will alter the requirements for the protection of information\n       associated with national security systems such as those identified in FISMA, policies\n       and standards issued by the Committee on National Security Systems (CNSS), or\n       intelligence community policies, directives, and instructions.\n\n\n\n\n                                              3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9a10536c-d6b0-5626-bc92-9ef48f052610",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3505-003-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3505-003-5-stmt",
+                "name": "statement",
+                "prose": "a.   Agencies will develop, implement, and maintain agency processes and procedures\n       aligned with this DR to manage access to USDA information and information systems,\n       ensuring the procedures:\n\n       (1) Grant access only to individuals who have an established need-to-know and who\n           meet the minimum interim or full background investigation requirements consistent\n           with the system and level of access being requested;\n\n       (2) Include monitoring and periodic validation of accounts and privileges;\n\n       (3) Specify remedial actions for violations; and\n\n       (4) Are reviewed annually and updated, if necessary.\n\n  b.   Logical access controls must:\n\n       (1) Be implemented in compliance with Federal, Departmental, and, if applicable,\n           agency policies; and\n\n       (2) Restrict access to USDA information, information technology (IT) resources,\n           information systems, and their components to authorized subjects.\n\n  c.   Agencies may develop and implement information security policies that meet or exceed\n       the corresponding Departmental policy requirements. Agency policies cannot be less\n       stringent than Departmental policy requirements. Specific policy requirements that\n       cannot be fully implemented require an approved waiver (see section 25, Policy\n       Exceptions.)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "04e4c27d-110c-51d6-9e65-99d26b8e82a0",
+        "class": "section",
+        "title": "Account Management",
+        "controls": [
+          {
+            "id": "dr3505-003-6",
+            "class": "policy-requirement",
+            "title": "Account Management",
+            "parts": [
+              {
+                "id": "dr3505-003-6-stmt",
+                "name": "statement",
+                "prose": "a.   Agencies will:\n\n       (1) Ensure that system security plans (SSP) reference processes for authorizing\n           accounts and assigning access privileges;\n\n       (2) Identify and document the account types that are permitted for each USDA\n           information system;\n\n       (3) Ensure user accounts issued by USDA are managed based on user identity and\n           position data (e.g., the user role on the information system) from an authoritative\n           source;\n\n       (4) Ensure that USDA information system user account records are:\n\n\n\n\n                                               4\n\f         (a) Subject to electronic discovery (ediscovery) in accordance with DR 3090-001,\n             Litigation Retention Policy for Documentary Materials including\n             Electronically Stored Information; and\n\n         (b) Archived in accordance with the National Archives and Records\n             Administration (NARA) General Records Schedule 3.2: Information Systems\n             Security Records.\n\n     (5) Assign one or more USDA personnel to serve as the account manager and System\n         Owner’s representative for each USDA information system, with the responsibility\n         for authorizing account actions, such as creating, modifying, disabling, and deleting\n         accounts; and\n\n     (6) Establish conditions for role, account, and group membership for each USDA\n         information system, adhering to the principles of least privilege for each.\n\nb.   Account management processes will ensure that the system owner or designated\n     representative verifies that:\n\n     (1) The information provided with each account access request (including\n         modifications) is correct and accurate;\n\n     (2) Federal, Departmental, and agency access requirements (including interim\n         standards, if applicable) have been met to grant the requested access;\n\n     (3) If any access requirements (e.g., background investigation, position suitability or\n         fitness) have not been met, access to the information system will not be granted, or\n         if already granted, will be disabled;\n\n     (4) Requests to add or change information system user account accesses or privileges\n         meet the requirements of the information system, as defined by the system owner;\n         and\n\n     (5) Account requests are submitted promptly to:\n\n         (a) Create accounts, add group members, and assign access privileges;\n\n         (b) Modify user accounts, group memberships, and access privileges when a user’s\n             work assignment changes the type of information or information system the\n             user needs to access; or\n\n         (c) Disable accounts and remove group memberships when a user transfers or\n             terminates employment, in accordance with agency procedures.\n\nc.   Before authorizing the requested access, account managers will:\n\n     (1) Validate the required description and justification of each role, account, or group\n         privilege requested;\n\n                                             5\n\f     (2) For new user requests, verify the individual’s current background investigation\n         status (including adjudication, if applicable), background investigation type, and the\n         date that it was completed;\n\n     (3) For all requests, validate that the identified background investigation:\n\n         (a) Meets the minimum (or interim) requirements for the system and level of\n             access requested;\n\n         (b) Is still valid and does not require re-investigation or has otherwise lapsed; and\n\n         (c) Verify through the Office of Homeland Security (OHS) or personnel security\n             staff, that:\n\n              1.   The full investigation has been submitted to the Office of Personnel\n                   Management (OPM) for adjudication; and\n\n              2.   If granting limited interim access to begin work pending adjudication of\n                   the required background investigation, that a fingerprint check is\n                   completed with no derogatory results, in accordance with Departmental\n                   Manual (DM) 4620-002, Common Identification Standard for U.S.\n                   Department of Agriculture Employees and Contractors.\n\n     (4) For new users, verify that individuals have completed computer security awareness\n         training for the current fiscal year, prior to authorizing user access, and current\n         users complete this training annually thereafter, in accordance with DR 3545-001,\n         Information Security Awareness and Training Policy;\n\n     (5) Verify annually that individuals requesting or currently holding privileged accounts\n         have completed any required specialized role-based training;\n\n     (6) Verify that individuals have formally agreed to abide by the system’s rules of\n         behavior and terms of use for the current fiscal year, both initially and annually\n         thereafter; and\n\n     (7) Verify that individuals will use multifactor authentication methods identified in\n         Section 7a(2) to access USDA information systems.\n\nd.   Account managers will only authorize requests to create, modify, disable, or delete\n     information system accounts or access privileges following formal authorization by the\n     system owner, employee manager, or contracting officer’s representative (COR).\n\ne.   Agency monitoring processes will:\n\n     (1) Include audits of all accounts, groups, and roles to ensure account management\n         procedures produce accurate and timely changes. The objectives of the monitoring\n         and audit activities are to:\n\n\n                                             6\n\f         (a) Validate with the system owner the continued business needs for each user to\n             access active accounts or groups and ensure that accounts and groups are\n             disabled or removed when no longer needed; and\n\n         (b) Reconcile active accounts, groups, and roles with account or role requests, and\n             immediately correct or revoke any accounts or privileges not approved through\n             the account management process. If necessary, make corrective changes to the\n             procedures, documentation process, or require additional process training for\n             personnel responsible for enforcing the process.\n\n     (2) The frequency for audits will be as follows:\n\n         (a) Privileged user accounts/groups each quarter (or a portion of the\n             accounts/groups more frequently);\n\n         (b) Non-privileged user accounts/groups at least annually; and\n\n         (c) Any other accounts (e.g., shared, system, service) or groups not included in\n             Sections 6e(2)(a) and (b), at least annually.\n\nf.   USDA information systems with a high-impact categorization will use account\n     monitoring capabilities to identify and alert on malicious, risky, or atypical account\n     activity.\n\ng.   USDA information systems with a moderate- or high-impact categorization will employ\n     an automated mechanism in the process that provides notifications to the account\n     manager to support the management of information system accounts and to audit\n     account usage.\n\nh.   All USDA information systems will employ an automated mechanism in processes that:\n\n     (1) Disable temporary and emergency accounts within 5 workdays of when they are no\n         longer in use or when they have expired;\n\n     (2) Disable public-facing, non-USDA personnel accounts within time periods set by the\n         agency (each information system may have a different time period);\n\n     (3) Disable all other inactive privileged accounts within 30 calendar days, and non-\n         privileged accounts within 60 calendar days. Information systems with a business\n         need to keep non-privileged accounts inactive longer will be documented in the\n         SSP; and\n\n     (4) Create audit records of account creation, modification, enabling, disabling, and\n         removal actions, and notifies the account manager of these actions.\n\ni.   Agency procedures will require that the credentials (e.g., password) for shared accounts\n     be changed immediately when a member of the group is removed.\n\n\n                                             7\n\f  j.   USDA information systems with a high-impact categorization will have a process for\n       disabling an account and privileges within a defined amount of time that a user’s access\n       is identified as posing a significant risk to the organization, the information system,\n       other organizations, or the Nation, based on reliable evidence or intelligence. The\n       amount of time for disabling accounts is determined by the agency, based in part on their\n       infrastructure and capabilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "52a3893d-aa85-541f-bfcf-65d3736c673a",
+        "class": "section",
+        "title": "Access Enforcement",
+        "controls": [
+          {
+            "id": "dr3505-003-7",
+            "class": "policy-requirement",
+            "title": "Access Enforcement",
+            "parts": [
+              {
+                "id": "dr3505-003-7-stmt",
+                "name": "statement",
+                "prose": "a.   USDA information systems will employ discretionary and mandatory access\n       enforcement mechanisms to implement access control policies to ensure that:\n\n       (1) Only authorized subjects may access objects in accordance with information system\n           access control policies. For example, only authorized individuals and software\n           components may access specific information and information resources; and\n\n       (2) User access to a USDA information system is authenticated using a multifactor\n           authentication method in accordance with DR 3640-001.\n\n  b.   USDA personnel will use a Personal Identity Verification (PIV) card, PIV-Interoperable\n       card, or PIV-derived credentials to access USDA information systems, per Office of\n       Management and Budget (OMB) mandates. Agencies may choose to implement a\n       multifactor authentication solution for the non-USDA workforce, in accordance with DR\n       3640-001.\n\n  c.   Agencies will use SSPs to identify and document system functions, privileged\n       commands, accesses, and other specified actions that require dual authorization; and\n       enforce the dual authorization controls for those actions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "06614ff1-afd9-5e27-a0ab-7bda0b10615e",
+        "class": "section",
+        "title": "Information Flow Enforcement",
+        "controls": [
+          {
+            "id": "dr3505-003-8",
+            "class": "policy-requirement",
+            "title": "Information Flow Enforcement",
+            "parts": [
+              {
+                "id": "dr3505-003-8-stmt",
+                "name": "statement",
+                "prose": "Information systems with moderate- or high-impact categorization will implement\n  information flow control measures to:\n\n  a.   Enforce where and how information is allowed to travel within an information system\n       and between interconnected information systems;\n\n  b.   Enforce remote access restrictions;\n\n  c.   Encrypt sensitive Controlled Unclassified Information (CUI) such as personally\n       identifiable, export controlled, and other protected information from being transmitted as\n       cleartext; and\n\n  d.   Prevent unauthorized communication between designated sources and destinations (e.g.,\n       individuals, devices, networks).\n\n\n\n                                               8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "43ef7b49-c89c-585e-a8a8-e7eb5b32233c",
+        "class": "section",
+        "title": "Separation Of Duties",
+        "controls": [
+          {
+            "id": "dr3505-003-9",
+            "class": "policy-requirement",
+            "title": "Separation Of Duties",
+            "parts": [
+              {
+                "id": "dr3505-003-9-stmt",
+                "name": "statement",
+                "prose": "Agencies will implement the following requirements for information systems categorized as\n  moderate- or high-impact:\n\n  a.   Document critical functions or privileged actions that require two or more individuals to\n       implement;\n\n  b.   Separate duties to reduce the potential risks of any one individual abusing their\n       authorized privileges for malicious purposes, by limiting the range of privileged actions\n       an individual can perform unilaterally;\n\n  c.   Enforce information system access authorizations to separate duties for mission\n       functions and information system support functions; and\n\n  d.   Ensure that privileged users permitted to manage access control functions cannot alter\n       audit functions or audit records."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e8d81e89-0fc8-5b31-bfd6-db8255a8c7f7",
+        "class": "section",
+        "title": "Least Privilege",
+        "controls": [
+          {
+            "id": "dr3505-003-10",
+            "class": "policy-requirement",
+            "title": "Least Privilege",
+            "parts": [
+              {
+                "id": "dr3505-003-10-stmt",
+                "name": "statement",
+                "prose": "a.   Individuals and system processes will have only the minimum privileges necessary to\n       accomplish their assigned tasks.\n\n  b.   USDA information systems categorized as moderate- or high-impact will implement the\n       principles of least privilege, ensuring that:\n\n       (1) Principals of least privilege are applied throughout the information system lifecycle\n           (e.g., development, implementation, operational, and disposal phases);\n\n       (2) Privileged users permitted to access security functions in hardware, software, or\n           firmware, and security relevant information will use non-privileged accounts or\n           roles when accessing non-security features;\n\n       (3) Privileged accounts and groups are only used to perform privileged job functions;\n\n       (4) USDA information systems create audit records when a privileged command is\n           performed, or a privileged account makes a security-related change to a USDA\n           information system, such as creating an account or group, assigning roles and\n           privileges to an account or group, or changing account or group privileges; and\n\n       (5) Configuration settings in USDA information systems prevent non-privileged users\n           and accounts from executing privileged functions, including disabling,\n           circumventing, or altering security safeguards and countermeasures, such as\n           performing system integrity checks or cryptographic key management activities.\n\n  c.   For USDA information systems with a high-impact categorization, agencies will:\n\n\n\n                                               9\n\f       (1) Only authorize remote network access to privileged commands for compelling\n           operational needs;\n\n       (2) Document the specific privileged commands authorized to be executed remotely;\n           and\n\n       (3) Provide the rationale for each authorized circumstance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "71dc0f2f-2da3-56bb-a29e-64dd51326986",
+        "class": "section",
+        "title": "Unsuccessful Login Attempts",
+        "controls": [
+          {
+            "id": "dr3505-003-11",
+            "class": "policy-requirement",
+            "title": "Unsuccessful Login Attempts",
+            "parts": [
+              {
+                "id": "dr3505-003-11-stmt",
+                "name": "statement",
+                "prose": "a.   USDA information systems will use the most current DISA STIG settings to:\n\n       (1) Limit the number of unsuccessful login attempts at either the operating system\n           level, the application level, or both; and\n\n       (2) Set time limits for the maximum consecutive invalid login attempts.\n\n  b.   When the maximum number of consecutive unsuccessful login attempts is exceeded\n       during the specified timeframe:\n\n       (1) The account, application, or client device will automatically lock and remain locked\n           for the time specified by the DISA STIG setting or until released by an\n           administrator; and\n\n       (2) Agencies may establish a process to manually unlock accounts prior to the\n           expiration of the lockout period after sufficient user identification has been\n           established.\n\n           Note: The PIV issuance office manages the settings and recovery process for PIV\n           credentials; therefore, settings related to PIV credentials are outside the scope of\n           this policy.\n\n       (3) USDA mobile devices will be configured to purge information stored on them:\n\n           (a) Unless the devices access network resources from a remote location via the\n               USDA virtual private network (VPN) and those devices employ the same\n               controls as those applied to local devices; and\n\n           (b) The devices are protected with sufficiently strong encryption mechanisms."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "00347b78-7771-5ea0-9079-3905b1ad555b",
+        "class": "section",
+        "title": "System Use Notification",
+        "controls": [
+          {
+            "id": "dr3505-003-12",
+            "class": "policy-requirement",
+            "title": "System Use Notification",
+            "parts": [
+              {
+                "id": "dr3505-003-12-stmt",
+                "name": "statement",
+                "prose": "a.   USDA information systems will display a USDA-approved notification banner at logon\n       before granting individuals access to information systems owned by, or operated on\n       behalf of, USDA. An example of a notification banner, approved by the Office of the\n       General Counsel (OGC), is in Appendix D.\n\n\n                                               10\n\fb.   The notification banner will remain on the screen until the individual acknowledges the\n     usage conditions and takes explicit action to log on to the USDA information system.\n\n     Note: Information systems accessible through single sign-on sessions (e.g., SharePoint)\n     may not need to display an additional notification banner.\n\nc.   The banner will provide privacy and security notices consistent with requirements in\n     applicable Federal laws, EOs, directives, policies, regulations, standards, and other\n     guidance.\n\nd.   The notification banner will inform the user that:\n\n     (1) They are accessing a U.S. Government information system;\n\n     (2) Usage of the information system may be monitored, recorded, and subject to audit\n         by the U.S. Government and that users should have no expectation of privacy;\n\n     (3) Unauthorized use of U.S. Government information systems is prohibited and\n         subject to criminal and civil penalties;\n\n     (4) Use of the system indicates consent to monitoring and recording; and\n\n     (5) Proceeding to the login screen constitutes the individual’s acceptance of all terms\n         and conditions in the banner.\n\ne.   Agencies will configure systems to deny access to any individual who refuses to accept\n     the terms and usage conditions presented in the banner.\n\nf.   For publicly accessible USDA information systems:\n\n     (1) Agencies may define additional conditions for displaying a notification banner;\n\n     (2) The information system will display a public use notification banner before\n         granting further access to the information system; and\n\n     (3) The notification banner will include:\n\n         (a) A statement that the user is accessing a U.S. Government information system;\n\n         (b) System use information and specified usage conditions;\n\n         (c) A description of authorized uses of the system; and\n\n         (d) Notice of the U.S. Government’s right to monitor, record, or audit activities on\n             the system, consistent with privacy accommodations for such systems, and\n             citations to relevant governing authorities.\n\ng.   Notification banners that deviate from the example in Appendix D must be submitted to\n     the USDA OGC for approval prior to implementation.\n\n                                            11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d5cf5d5c-6902-50d5-a892-cd37d42eaccc",
+        "class": "section",
+        "title": "Concurrent Session Control",
+        "controls": [
+          {
+            "id": "dr3505-003-13",
+            "class": "policy-requirement",
+            "title": "Concurrent Session Control",
+            "parts": [
+              {
+                "id": "dr3505-003-13-stmt",
+                "name": "statement",
+                "prose": "This control addresses concurrent sessions on a single information system (with a high-\n  impact categorization). It does not address concurrent sessions by a single user to multiple\n  information systems.\n\n  USDA information systems with a high-impact categorization will:\n\n  a.   Prevent non-privileged user accounts from logging into more than one concurrent\n       privileged session;\n\n  b.   Prevent non-privileged user accounts from logging into more than two concurrent non-\n       privileged sessions; and\n\n  c.   Permit privileged user accounts to concurrently login to no more than one privileged and\n       two non-privileged sessions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "85932de3-f0ff-555f-81ea-9d4fa219a3b0",
+        "class": "section",
+        "title": "Session Lock",
+        "controls": [
+          {
+            "id": "dr3505-003-14",
+            "class": "policy-requirement",
+            "title": "Session Lock",
+            "parts": [
+              {
+                "id": "dr3505-003-14-stmt",
+                "name": "statement",
+                "prose": "Information systems typically implement session locks at the operating system level using\n  screen savers; however, applications can also provide session locking capabilities. Users\n  should only use session locks for short periods of inactivity and log off the system for long\n  periods, such as at the end of the workday.\n\n  a.   USDA information systems will be configured to ensure that after the DISA STIG-\n       specified timeframe of inactivity, an information system or client device automatically\n       initiates a session lock to prevent further access.\n\n  b.   Agencies will either require individuals to initiate a session lock, such as a screen lock,\n       when they leave their client device unattended or agency-owned client devices to initiate\n       a session lock when the user removes the PIV card from the client device.\n\n  c.   USDA information systems and client devices will maintain the session lock until the\n       user re-authenticates to the information system or device using established USDA\n       identification and authentication procedures in accordance with DR 3640-001.\n\n  d.   During a session lock, USDA information systems and client devices will conceal\n       information previously visible on display screens by displaying publicly viewable\n       images that will not contain CUI. The publicly viewable images may be static or\n       dynamic, such as screen savers, blank screens, photographic images, or display non-\n       sensitive device information such as the current time and remaining battery life.\n\n  e.   Agencies may not exempt session lock requirements for all accounts on an information\n       system or service. When there is a mission need to exempt specific accounts from\n       implementing session lock requirement, agencies will document those accounts and\n       rationale in the SSP.\n\n\n                                               12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b63ca168-8419-5367-b445-04718ac7b8e5",
+        "class": "section",
+        "title": "Session Termination",
+        "controls": [
+          {
+            "id": "dr3505-003-15",
+            "class": "policy-requirement",
+            "title": "Session Termination",
+            "parts": [
+              {
+                "id": "dr3505-003-15-stmt",
+                "name": "statement",
+                "prose": "Session termination ends all processes associated with a user’s logical session except for\n  those processes that the user specifically created to continue after terminating the session.\n  Logical sessions are terminable without terminating the network session.\n\n  The following requirements apply to USDA information systems with a moderate- or high-\n  impact categorization:\n\n  a.   Agencies will specify in the SSP the conditions and trigger events that result in the\n       termination of a user’s session;\n\n  b.   USDA information systems will automatically terminate and require re-authentication to\n       re-establish a user-initiated logical session:\n\n       (1) After 30 minutes of inactivity; and\n\n       (2) After the occurrence of agency-specified conditions or trigger events.\n\n  c.   Agencies will not waive session termination requirements systemwide. If there is a\n       mission need to exempt one or more system accounts from implementing session\n       termination, the agency will request a waiver for the specific accounts or devices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3ee3255b-8fff-5c28-a1ea-29aae515b7f7",
+        "class": "section",
+        "title": "Permitted Actions Without Identification Or Authentication",
+        "controls": [
+          {
+            "id": "dr3505-003-16",
+            "class": "policy-requirement",
+            "title": "Permitted Actions Without Identification Or Authentication",
+            "parts": [
+              {
+                "id": "dr3505-003-16-stmt",
+                "name": "statement",
+                "prose": "a.   Agencies will identify actions that users may perform on information systems without\n       requiring user identification and authentication and document them in SSPs. Actions\n       that may not require identification and authentication include accessing publicly\n       available USDA websites, answering incoming phone calls, replying to text messages on\n       USDA-issued mobile devices, and receiving fax transmissions on networked fax\n       machines or all-in-one printers.\n\n  b.   Agencies will identify and document in the SSP any action that may exist that are\n       exempt from the identification and authentication requirements under certain\n       circumstances, such as in an emergency."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c75544e0-0785-50e2-a270-da60905b02c4",
+        "class": "section",
+        "title": "Remote Access",
+        "controls": [
+          {
+            "id": "dr3505-003-17",
+            "class": "policy-requirement",
+            "title": "Remote Access",
+            "parts": [
+              {
+                "id": "dr3505-003-17-stmt",
+                "name": "statement",
+                "prose": "Remote access encompasses any connection to a USDA information system or component\n  originating from outside of a USDA owned and operated network infrastructure, such as\n  accesses for telework and mobile work.\n\n  a.   Access to USDA information systems using Government furnished laptops and mobile\n       devices while on domestic travel will meet the requirements in DR 3580-004, or while\n       on international travel will meet the requirements in DR 3580-005.\n\n\n\n                                               13\n\f  b.   Agencies will identify the approved remote access methods for users to access agency\n       information systems.\n\n  c.   Agencies will establish usage restrictions, configuration and connection requirements,\n       and implementation guidance for the permitted remote access methods and document\n       them in the SSP.\n\n  d.   Remote access requirements will not apply to users accessing USDA public web servers\n       and other publicly accessible systems.\n\n  e.   Agencies will ensure that USDA information systems that allow remote access include\n       automated monitoring capabilities to detect and control access attempts by auditing\n       remote access connection activities on a variety of devices.\n\n  f.   Agencies will ensure that remote access methods:\n\n       (1) Employ NIST FIPS PUB 140-2, Security Requirements for Cryptographic Modules\n           certified encryption and mutual authentication;\n\n       (2) Route all remote access sessions through a limited number of USDA Trusted\n           Internet Connection network-access control points;\n\n       (3) Permit connections to USDA remote client devices only after verifying the client\n           device has been scanned for malware;\n\n       (4) Employ a multifactor authentication method identified in Section 7a(2); and\n\n       (5) Transmit and transfer data via an encrypted VPN in compliance with DM 3530-\n           005, Encryption Security Standards.\n\n  g.   Agencies will document and set conditions (e.g., VPN, encrypted channel) for the\n       execution of privileged commands and access to security-relevant information via\n       remote access methods."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "89ad43a2-8289-51d5-b611-8467bca29483",
+        "class": "section",
+        "title": "Wireless Access",
+        "controls": [
+          {
+            "id": "dr3505-003-18",
+            "class": "policy-requirement",
+            "title": "Wireless Access",
+            "parts": [
+              {
+                "id": "dr3505-003-18-stmt",
+                "name": "statement",
+                "prose": "a.   Before allowing wireless connections, each wireless technology used to access a USDA\n       information system will:\n\n       (1) Be authorized by the Mission Area Assistant Chief Information Officer (CIO), or\n           designee;\n\n       (2) Identify usage restrictions, configuration and connection requirements, and\n           implementation guidance and document them in the SSP; and\n\n       (3) Only permit wireless access authentication protocols that provide mutual device\n           authentication and protect the confidentiality and integrity of user authentication\n\n\n                                              14\n\f           credentials by implementing encryption technologies in accordance with DM 3530-\n           005.\n\n  b.   Agencies will identify and explicitly authorize users approved to independently\n       configure wireless networking capabilities, such as:\n\n       (1) Permitting users to configure their USDA client device to connect to home\n           networks and to peripheral devices as indicated in DR 3580-004; and\n\n       (2) Permitting network administrators to configure USDA wireless access points and\n           wireless settings for USDA backbone servers and devices.\n\n  c.   Access enforcement mechanisms will be configured to prevent unauthorized changes to\n       wireless networking capabilities (see DR 3580-004 for additional guidance to allow\n       users some capabilities to manage wireless protocols).\n\n  d.   USDA client devices will be configured with the strongest Bluetooth security and\n       encryption modes supported by the device, as discussed in NIST SP 800-121, Revision\n       2, Guide to Bluetooth Security, and have auto-pairing functionality disabled.\n\n  e.   USDA client devices will be configured to prohibit connections to multiple networks\n       simultaneously (e.g., disable a laptop’s wireless capability when it is connected to a\n       wired network).\n\n  f.   USDA information systems that are wireless-capable, categorized as high impact, and\n       located within Government owned or controlled buildings will implement strategies to\n       minimize the unauthorized access to or use of Institute of Electrical and Electronics\n       Engineers (IEEE) 802.11 wireless communications from outside of USDA facilities, by:\n\n       (1) Calibrating radio antennas to reduce transmission power and signal strength;\n\n       (2) Employing electromagnetic shielding measures to control wireless emanations; or\n\n       (3) Using beam-forming antennas."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "46e381a6-ab85-5f04-a908-182e0c9b6bfe",
+        "class": "section",
+        "title": "Access Control For Mobile Devices And Laptops",
+        "controls": [
+          {
+            "id": "dr3505-003-19",
+            "class": "policy-requirement",
+            "title": "Access Control For Mobile Devices And Laptops",
+            "parts": [
+              {
+                "id": "dr3505-003-19-stmt",
+                "name": "statement",
+                "prose": "The requirements in this section apply to USDA-owned or USDA-controlled client devices\n  issued by agencies. Section 20 provides access requirements for client devices that are not\n  USDA-owned or controlled.\n\n  a.   Agencies will:\n\n       (1) Establish usage restrictions; device identification, integrity, and configuration\n           requirements in accordance with DR 3520-002; authentication and connection\n           requirements; and implementation guidance for each type of laptop and mobile\n           device consistent with DR 3580-004;\n\n\n                                              15\n\f       (2) Implement anti-malware software and firewalls in accordance with DR 3575-002,\n           System and Information Integrity, including updating anti-malware software and\n           scanning for malware;\n\n       (3) Scan for misconfigurations and current and missing software updates and patches in\n           accordance with DR 3530-006, Scanning and Remediation of Configuration and\n           Patch Vulnerabilities; and\n\n       (4) Disable unauthorized or unnecessary mobile capabilities, such as wireless and\n           infrared device capabilities.\n\n  b.   Agencies will ensure that all Government furnished laptops and mobile devices that\n       connect to USDA information systems employ encryption in accordance with DR 3580-\n       004."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f93cb709-53d1-5668-a7fc-35b7546504e1",
+        "class": "section",
+        "title": "Use Of External Information Systems",
+        "controls": [
+          {
+            "id": "dr3505-003-20",
+            "class": "policy-requirement",
+            "title": "Use Of External Information Systems",
+            "parts": [
+              {
+                "id": "dr3505-003-20-stmt",
+                "name": "statement",
+                "prose": "External information systems include personally owned devices, such as bring your own\n  device (BYOD). Agencies that allow BYOD will adhere to the requirements in DR 3xxx-\n  xxx, the BYOD policy.\n\n  a.   Requirements in this section do not apply to external information systems that access\n       public interfaces to USDA information systems, including publicly accessible USDA\n       websites.\n\n  b.   Information systems managed by other Federal Agencies or other governmental\n       organization (e.g., state, local, tribal) will be treated as external information systems\n       when they do not have an established trust relationship (e.g., memorandum of agreement\n       or interconnection security agreement) with USDA.\n\n  c.   All non-Government furnished information systems will be treated as external\n       information systems and adhere to the requirements in DR 3580-004, prior to allowing\n       access to USDA information systems.\n\n  d.   Agencies will only permit authorized individuals to access an external information\n       system or to process, store, or transmit organization-controlled information when an\n       approved information system connection or processing agreement has been established\n       with the external information system provider.\n\n  e.   Agencies will prohibit the connection of USDA-controlled removable media to external\n       information systems.\n\n  f.   Additional guidance about removable media can be found in DR 3580-005.\n\n\n\n\n                                              16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "990cc3e1-345a-5b58-a0b3-47d94a0e371d",
+        "class": "section",
+        "title": "Information Sharing",
+        "controls": [
+          {
+            "id": "dr3505-003-21",
+            "class": "policy-requirement",
+            "title": "Information Sharing",
+            "parts": [
+              {
+                "id": "dr3505-003-21-stmt",
+                "name": "statement",
+                "prose": "a.   Factors for agencies to consider when developing information sharing procedures\n       include:\n\n       (1) Ensure personnel involved in the information sharing process are trained on their\n           roles (i.e., for marking, handling, or sharing sensitive information or CUI), as\n           needed;\n\n       (2) Agency procedures may require qualified personnel to review or approve\n           information prior to being released, or may require a signed memorandum of\n           agreement with an external party prior to sharing the information;\n\n           Note: The NARA website, CUI Registry: Limited Dissemination Controls,\n           provides dissemination principles. Other NARA website references in Appendix A\n           provide training about CUI that may be useful in information sharing procedures.\n\n       (3) Agency procedures may also, for example, require information systems to display\n           or print information markings, enforce dual authorization requirements prior to\n           electronically transferring information, or enforce sharing restrictions based on\n           signed agreements.\n\n  b.   Agencies with information systems categorized as moderate or high impact will\n       additionally develop and implement procedures to:\n\n       (1) Facilitate information sharing by enabling authorized users to determine whether\n           requests for access to information they control meet the criteria for granting access\n           to others (i.e., determine whether information with a restriction such as privileged\n           medical, contract sensitive, or classified can be shared with a person internal or\n           external to USDA); and\n\n       (2) Implement manual processes or automated mechanisms to assist users in making\n           information sharing and collaboration decisions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a670c8ae-709d-5728-a714-9415aa238d90",
+        "class": "section",
+        "title": "Publicly Accessible Content",
+        "controls": [
+          {
+            "id": "dr3505-003-22",
+            "class": "policy-requirement",
+            "title": "Publicly Accessible Content",
+            "parts": [
+              {
+                "id": "dr3505-003-22-stmt",
+                "name": "statement",
+                "prose": "a.   Agencies will explicitly designate individuals authorized to post information on publicly\n       accessible USDA information systems.\n\n  b.   Agencies will develop and implement processes to:\n\n       (1) Train authorized users to ensure that publicly accessible information does not\n           contain non-public information;\n\n       (2) Ensure only authorized users post information approved for public release;\n\n\n\n\n                                              17\n\f       (3) Ensure information intended for public release is reviewed prior to it being posted\n           on a publicly accessible information system;\n\n       (4) Conduct monthly reviews of publicly accessible information systems for non-public\n           information; and\n\n       (5) Remove non-public information from publicly accessible systems when discovered,\n           maintain a log of the information removed, and institute measures to prevent a\n           recurrence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "507d8997-2f82-518e-91f8-d3179da56d02",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3505-003-23",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3505-003-23-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO will:\n\n       (1) Ensure that Departmental policy and delegations of authority for access control are\n           developed and implemented in support of this DR; and\n\n       (2) Ensure agencies have adequate resources to carry out access control requirements.\n\n  b.   The USDA Chief Information Security Officer (CISO) will:\n\n       (1) Ensure the development and maintenance of Departmental access controls in\n           accordance with this DR;\n\n       (2) Maintain oversight to ensure the Department and agencies develop, maintain, and\n           comply with policies, procedures, and access control techniques; and\n\n       (3) Ensure Mission Area Assistant CIOs, CISOs, and Information Systems Security\n           Program Managers (ISSPM) receive updated Federal and Departmental access\n           control requirements and guidance.\n\n  c.   Mission Area Assistant CIOs will:\n\n       (1) Assign responsibilities to support and implement this policy;\n\n       (2) Ensure policies, procedures, guidance, processes, and checklists, as appropriate, are\n           developed;\n\n       (3) Ensure the resources needed to maintain secure local and remote access capability\n           are included in each USDA agency IT budget; and\n\n       (4) Approve the use of wireless technologies, mobile devices, and accessories used to\n           connect with information systems.\n\n  d.   CISOs and ISSPMs will:\n\n       (1) Provide guidance and enforce the policies, procedures, processes, and checklists\n           developed to comply with this policy;\n\n                                              18\n\f     (2) Ensure the access control procedures, processes, and checklists are reviewed and, if\n         necessary, updated;\n\n     (3) Ensure that access controls are reviewed, appropriately tested, and, if necessary,\n         promptly corrected;\n\n     (4) Ensure the security controls to external information systems maintain an acceptable\n         level of risk to information and information systems;\n\n     (5) Ensure access control requirements are documented and submitted to the USDA\n         CISO for inclusion in Departmentwide compliance reporting, as needed;\n\n     (6) Ensure access control standards including methods, technology, devices,\n         configurations, and tools balance risk and business needs;\n\n     (7) Advise system owners about the secure implementation of wireless technologies;\n\n     (8) Ensure that staff involved with controlling access to information and information\n         systems are appropriately trained in accordance with DR 3545-001 and authorized\n         to perform those duties;\n\n     (9) Ensure auditing is enabled and audit records are created for all account and\n         privilege activities; and\n\n     (10) Ensure that privileged users cannot make unauthorized changes to audit settings.\n\ne.   System Owners or Account Managers will:\n\n     (1) Ensure the processes to create, maintain, revoke, and verify access controls and\n         privileges implement the security concepts of need-to-know, least privilege, and\n         separation of duties to produce accurate and desired results, and comply with this\n         policy;\n\n     (2) Maintain information for all applicable system accounts, and ensure account\n         deactivation when individuals no longer require access;\n\n     (3) Approve the roles, accounts, groups, and appropriate privileges assigned to each to\n         implement on information systems;\n\n     (4) Coordinate with information stewards to decide who has access to the information\n         system and determine the types of privileges and access rights;\n\n     (5) Approve any accounts exempt from the automatic disabling function;\n\n     (6) Establish criteria for authorizing and reviewing account types, privileges, roles, and\n         account and group memberships;\n\n     (7) Ensure that USDA information systems implement appropriate access control\n         mechanisms, including both discretionary and mandatory access controls;\n\n                                            19\n\f     (8) Ensure assignment of, or changes to, user access and privileges to information\n         systems are implemented only with approved authorizations;\n\n     (9) Ensure that privileged accounts are associated with a specific user unless a shared\n         system or service account is required and is specifically authorized;\n\n     (10) Ensure that users, including information system support staff, are trained before\n          being granted access to the information system, in accordance with DR 3545-001;\n\n     (11) Ensure users formally agree to abide by the system’s rules of behavior and terms of\n          use prior to gaining information system access; and\n\n     (12) Ensure that staff involved with access controls are appropriately trained and are\n          authorized to manage access.\n\nf.   Information Stewards will:\n\n     (1) Provide input to system owners regarding:\n\n         (a) The roles that have access to information and their privileges; and\n\n         (b) The security requirements and controls needed to protect information where it\n             is processed, stored, or transmitted.\n\n     (2) Establish rules for appropriate use and protection of information in information\n         sharing environments and retain that responsibility even when the information is\n         shared with, or provided to, other organizations.\n\ng.   Managers or Supervisors will:\n\n     (1) Request new, modified, or terminated access to information systems for employees\n         and other USDA personnel; and\n\n     (2) Apply the security concepts of need-to-know, least privilege, and separation of\n         duties when requesting creation or modification of user account accesses and\n         privileges.\n\nh.   CORs will:\n\n     (1) Maintain an accurate position description for each contract position;\n\n     (2) Submit, in advance of contractor work or access, the necessary information to\n         initiate or verify the contractor’s background investigation, commensurate with the\n         sensitivity described in the position description and the systems and level of access\n         the contractor will require;\n\n     (3) Request new, modified, or terminated access for contractor personnel to\n         information systems; and\n\n\n                                            20\n\f       (4) Apply the security concepts of need-to-know, least privilege, and separation of\n           duties when requesting creation or modification of user account accesses and\n           privileges.\n\n  i.   System and Network Administrators will:\n\n       (1) Implement and maintain access controls in accordance with this policy and any\n           updated guidance from Federal authoritative sources;\n\n       (2) Monitor the effectiveness of access controls, take corrective action when\n           appropriate, and submit monitoring reports as required;\n\n       (3) Review system audit records for indications of inappropriate usage and report\n           findings to designated organizational officials, as specified in internal procedures;\n           and\n\n       (4) Generate and archive documentation upon request or as established in procedures to\n           provide evidence of compliance with this policy.\n\n  j.   Users will:\n\n       (1) Have and maintain a current, favorably adjudicated background investigation in\n           accordance with Federal requirements prior to gaining access to an information\n           system;\n\n       (2) Complete annual training for information security awareness and protecting\n           personally identifiable information, per DR 3545-001, and sign the rules of\n           behavior and an acceptable use agreement;\n\n       (3) Complete annual specialized role-based information security training specific to\n           their roles or duties, if designated as having significant security responsibilities;\n\n       (4) Review DR 4070-735-001, Employee Responsibilities and Conduct, annually;\n\n       (5) Notify their supervisor if an access control vulnerability or policy violation is\n           discovered or suspected;\n\n       (6) Report any suspicious or unusual activity to their supervisor as soon as possible;\n           and\n\n       (7) Conduct remote network access activities securely and in compliance with\n           applicable Departmental and agency policies and procedures."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11240993-2333-5e91-8e23-b97b7874ee2a",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Non-Compliance",
+        "controls": [
+          {
+            "id": "dr3505-003-24",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Non-Compliance",
+            "parts": [
+              {
+                "id": "dr3505-003-24-stmt",
+                "name": "statement",
+                "prose": "DR 4070-735-001, Section 16, sets forth USDA policies, procedures, and standards on\n  employee responsibilities and conduct regarding the use of computers and\n\n\n                                               21\n\f   telecommunications equipment. In addition, DR 4070-735-001, Section 21, Disciplinary or\n   Adverse Action, states:\n\n   a.   A violation of any of the responsibilities and conduct standards contained in this\n        directive may be cause for disciplinary or adverse action; and\n\n   b.   Disciplinary or adverse action will be affected in accordance with applicable law and\n        regulations.\n\n   Such disciplinary or adverse action will be in accordance with applicable law and regulations\n   such as OPM and OMB regulations, and the Standards of Ethical Conduct for Federal\n   Employees of the Executive Branch, 5 Code of Federal Regulations (CFR) Part 2635."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f5b3e2e5-9b75-559e-a555-73ed6cd93323",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3505-003-25",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3505-003-25-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA agencies are required to conform to this policy. If a policy requirement\n        cannot be met as explicitly stated, a waiver may be requested. Note that an approved\n        waiver does not bring the system into compliance with policy. Requests for waivers:\n\n        (1) Are an acknowledgement of a system’s non-compliance with policy and that an\n            acceptable plan to remediate the weakness has been provided and will be\n            implemented; and\n\n        (2) Must be documented as indicated in CAPE-SOP-003, Plan of Action and\n            Milestones Management Standard Operating Procedure, Revision 1.1.\n\n   b.   Policy waiver request memorandum will be addressed to the USDA CISO and submitted\n        to ISC.Outreach@usda.gov for review and decision. Unless otherwise specified,\n        approved policy waivers must be reviewed and renewed every fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a786c1b9-f5d9-531e-a250-8a497214bf25",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3505-003-26",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3505-003-26-stmt",
+                "name": "statement",
+                "prose": "Address inquiries concerning this DR to Office of the Chief Information Officer (OCIO),\n   Information Security Center (ISC) via email to the cscc@usda.gov mailbox.\n\n\n                                               -END-\n\n\n\n\n                                               22\n\f                                APPENDIX A\n                                     -\n                        AUTHORITIES AND REFERENCES\n\n\nAdministrative Personnel, Title 5, CFR 731, (2018)\n\nThe Atomic Energy Act 1954, as Amended, Public Law 114-92 (2015)\n\nCNSS Instruction 4009, Committee on National Security Systems (CNSS) Glossary, April 6,\n2015\n\nDepartment of Homeland Security, Homeland Security Presidential Directive 12 (HSPD-12),\nPolicy for a Common Identification Standard for Federal Employees and Contractors,\nAugust 27, 2004\n\nEO 13467, Reforming Processes Related to Suitability for Government Employment, Fitness\nfor Contractor Employees, and Eligibility for Access to Classified National Security\nInformation, June 30, 2008\n\nEO 13488, Granting Reciprocity on Excepted Service and Federal Contractor Employee\nFitness and Reinvestigating Individuals in Positions of Public Trust, January 16, 2009\n\nEO 13526, Classified National Security Information, December 29, 2009\n\nEO 13556, Controlled Unclassified Information, November 9, 2010\n\nEO 13764, Amending the Civil Service Rules, Executive Order 13488, and Executive Order\n13467 To Modernize the Executive Branch-Wide Governance Structure and Processes for\nSecurity Clearances, Suitability and Fitness for Employment, and Credentialing, and Related\nMatters, January 17, 2017\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551, et seq.,\nDecember 18, 2014\n\nIEEE, Standards Association, 802.11 wireless local area network standards\n\nNARA, CUI: Additional Tools\n\nNARA, CUI Registry: Limited Dissemination Controls\n\nNARA, CUI Training Tools\n\nNARA, General Records Schedule 3.2: Information Systems Security Records, September\n2016\n\nNARA, Marking Controlled Unclassified Information, Version 1.1, December 6, 2016\n\nNIST, Access Control Policy Testing\n\n                                         A-1\n\fNIST, FIPS PUB 140-2, Security Requirements for Cryptographic Modules, (includes\nchange notices as of December 3, 2002), May 25, 2001\n\nNIST, FIPS PUB 199, Standards for Security Categorization of Federal Information and\nInformation Systems, February 2004\n\nNIST, FIPS PUB 200, Minimum Security Requirements for Federal Information and\nInformation Systems, March 2006\n\nNIST, National Checklist Program Repository\n\nNIST, National Institute of Standards and Technology Interagency Report (NISTIR) 6192, A\nRevised Model For Role-Based Access Control, July 9, 1998\n\nNIST, NISTIR 7298, Revision 2, Glossary of Key Information Security Terms, May 2013\n\nNIST, NISTIR 7316, Assessment of Access Control Systems, September 2006\n\nNIST, NISTIR 7874, Guidelines for Access Control System Evaluation Metrics, September\n2012\n\nNIST, NISTIR 7966, Security of Interactive and Automated Access Management Using\nSecure Shell (SSH), October 2015\n\nNIST, NISTIR 7987, Revision 1, Policy Machine: Features, Architecture, and Specification,\nOctober 2015\n\nNIST, NISTIR 8112, Attribute Metadata, A Proposed Schema for Evaluating Federated\nAttributes, January 2018\n\nNIST, SP 800-46, Revision 2, Guide to Enterprise Telework, Remote Access, and Bring Your\nOwn Device (BYOD) Security, July 29, 2016\n\nNIST, SP 800-53, Revision 4, Security and Privacy Controls for Federal Information\nSystems and Organizations, April 2013, with updates as of January 22, 2015\n\nNIST, SP 800-57, Recommendation for Key Management – Part 2: Best Practices for Key\nManagement Organization, August 2005\n\nNIST, SP 800-70, Revision 4, National Checklist Program for IT Products – Guidelines for\nChecklist Users and Developers, February 2018\n\nNIST, SP 800-100, Information Security Handbook: A Guide for Managers, March 2007\n\nNIST SP 800-121, Revision 2, Guide to Bluetooth Security, May 2017\n\nNIST, SP 800-128, Guide for Security-Focused Configuration Management of Information\nSystems, August 2011\n\n\n                                         A-2\n\fNIST, SP 800-162, Guide to Attribute Based Access Control (ABAC) Definition and\nConsiderations, February 2019\n\nNIST, SP 800-178, A Comparison of Attribute Based Access Control (ABAC) Standards for\nData Service Applications: Extensible Access Control Markup Language (XACML) and Next\nGeneration Access Control (NGAC), October 2016\n\nNIST, SP 800-192, Verification and Test Methods for Access Control Policies/Models, June\n2017\n\nOffice of Government Ethics, Standards of Ethical Conduct for Federal Employees of the\nExecutive Branch, 5 CFR 2635, et seq.\n\nOPM, Investigation Process Details\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 2016\n\nOMB, M-11-11, Continued Implementation of Homeland Security Presidential Directive\n(HSPD) 12–Policy for a Common Identification Standard for Federal Employees and\nContractors, February 3, 2011\n\nOMB, M-14-03, Enhancing the Security of Federal Information and Information Systems,\nNovember 18, 2013\n\nOMB, M-17-12, Preparing for and Responding to a Breach of Personally Identifiable\nInformation, January 3, 2017\n\nOMB, Memorandum M-05-24, Implementation of Homeland Security Presidential Directive\n(HSPD) 12 - Policy for a Common Identification Standard for Federal Employees and\nContractors, August 5, 2005\n\nUSDA, CAPE-SOP-003, Plan of Action and Milestones Management Standard Operating\nProcedure, Revision 1.1, November 2015\n\nUSDA, CAPE-SOP-004, USDA Six Step Risk Management Framework (RMF) Process\nGuide, Revision 3.0, December 2016\n\nUSDA, DM 3530-005, Encryption Security Standards, February 17, 2005\n\nUSDA, DM 4620-002, Common Identification Standard for U.S. Department of Agriculture\nEmployees and Contractors, January 14, 2009\n\nUSDA, DR 3xxx-xxx, Bring Your Own Device, forthcoming\n\nUSDA, DR 3090-001, Litigation Retention Policy for Documentary Materials including\nElectronically Stored Information, May 28, 2008\n\nUSDA, DR 35xx-xxx, Identification and Authentication, forthcoming\n\n\n                                         A-3\n\fUSDA, DR 3530-006, Scanning and Remediation of Configuration and Patch\nVulnerabilities, June 5, 2019\n\nUSDA, DR 3520-002, Configuration Management, August 12, 2014\n\nUSDA, DR 3545-001, Information Security Awareness and Training Policy, October 22,\n2013\n\nUSDA, DR 3565-003, Plan of Action and Milestones Policy, September 25, 2013\n\nUSDA, DR 3575-002, System and Information Integrity, August 16, 2018\n\nUSDA, DR 3580-004, Securing Remote Access to USDA Information Systems and Client\nDevices, November 30, 2018\n\nUSDA, DR 3580-005, Securing Client Devices for International Travel, November 30, 2018\n\nUSDA, DR 3640-001, Identity, Credential, and Access Management, December 9, 2011\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, DR 4080-811-002, Telework Program, January 4, 2018\n\nUSDA, DR 4620-002, Common Identification Standard for U.S. Department of Agriculture,\nSeptember 29, 2014\n\nUSDA, DR 4720-001, USDA Onboarding Requirements, June 3, 2011\n\n\n\n\n                                       A-4\n\f                                      APPENDIX B\n                                           -\n                                      DEFINITIONS\n\n\nAccess Control. The process of granting or denying specific requests: (1) for obtaining and\nusing information and related information processing services; and (2) to enter specific\nphysical facilities (e.g., Federal buildings, military establishments, and border crossing\nentrances). (Source: CNSS, CNSSI 4009)\n\nAccess Control Policies. Specify how to control accesses between subjects (e.g., individuals\nor software acting on behalf of individuals) and objects (e.g., information, information\nsystems, and components of information systems) in information systems.\n\nAuthentication. Verifying the identity of a user, process, or device as a prerequisite to\nallowing access to resources in an information system. (Source: NIST, SP 800-53, Revision\n4)\n\nAuthorization. Access privileges granted to a user, program, or process or the act of granting\nthose privileges. (Source: CNSS, CNSSI 4009)\n\nAutomated Mechanism. A software function with characteristics that results in increasing\nthe efficiency, chance of a desired outcome, or reducing the risk of failure or manipulation, in\nan entire, or a part of, a process.\n\nBring Your Own Device (BYOD). A non-organization-controlled telework client device.\nThese client devices are controlled by the teleworker, who is fully responsible for securing\nthem and maintaining their security. (Source: NIST SP 800-46, Revision 2)\n\nClient Device.\n\na.   A system used by a remote worker to access an organization’s network and the systems\n     on that network. (Source: NIST, SP 800-46, Revision 2)\n\nb.   Two categories of client devices defined by NIST and this policy: PCs (e.g., desktops\n     and laptops) and mobile devices (e.g., smartphones and tablets).\n\nc.   See related terms “mobile device” and “personal computer.”\n\nControlled Unclassified Information (CUI). Information that requires safeguarding or\ndissemination controls pursuant to and consistent with applicable law, regulations, and\ngovernment wide policies but is not classified under Executive Order 13526 or the Atomic\nEnergy Act, as amended. (Source: EO 13556, Controlled Unclassified Information)\n\nDiscovery. Discovery is the process of identifying, locating, securing, and producing\nevidence, including testimony, things, information, and materials for utilization in the legal\nprocess. The term is also used to describe the process of reviewing all materials which may\nbe potentially relevant to the issues at hand and/or which may need to be disclosed to other\n\n                                              B-1\n\fparties, and of evaluating evidence to prove or disprove facts, theories, or allegations. There\nare several formalized methods of conducting discovery, the most common of which are\ninterrogatories, requests for production of documents and depositions. (Source: USDA, DR\n3090-001)\n\nDiscretionary Access Control. Leaves a certain amount of access control to the discretion of\nthe object’s owner, or anyone else who is authorized to control the object’s access. The\nowner can determine who should have access rights to an object and what those rights should\nbe. (Source: NIST, SP 800-192)\n\nDual Authorization. See Dual Control.\n\nDual Control. A process that uses two or more separate entities (usually persons) operating\nin concert to protect sensitive functions or information. No single entity is able to access or\nuse the materials, e.g., cryptographic keys. (Source: NIST, SP 800-57)\n\nElectronic Discovery (ediscovery). The process of collecting, preparing, reviewing, and\nproducing Electronically Stored Information (ESI) in the context of the legal process. See\nDiscovery. (Source: USDA, DR 3090-001)\n\nExternal Information System (or Component). An information system or component of an\ninformation system that is outside of the authorization boundary established by the\norganization and for which the organization typically has no direct control over the\napplication of required security controls or the assessment of security control effectiveness.\n(Source: NIST, SP 800-53, Revision 4)\n\nFederal Information. Information created, collected, processed, maintained, disseminated, or\ndisposed of by or for the Federal Government, in any medium or form. (Source: OMB,\nCircular A-130)\n\nFederal Information System. An information system used or operated by an executive\nagency, by a contractor of an executive agency, or by another organization on behalf of an\nexecutive agency. (Source: NIST, SP 800-53, Revision 4)\n\nGroup. An object in an authentication system where a collection of accounts is associated\nthat shares common access attributes or privileges based on job function. For example,\npersonnel that maintain an application have their accounts associated with an administrator\ngroup and are granted the attributes and privileges assigned to the group.\n\nHigh-Impact System. An information system in which at least one security objective (e.g.,\nconfidentiality, integrity, or availability) is assigned a FIPS PUB 199 potential impact value\nof high. (Source: NIST, FIPS PUB 200)\n\nImpact. The effect on organizational operations, organizational assets, individuals, other\norganizations, or the Nation (including the national security interests of the United States) of\na loss of confidentiality, integrity, or availability of information or an information system.\n(Source: NIST, SP 800-53, Revision 4)\n\n\n                                              B-2\n\fInformation System. A discrete set of information resources organized for the collection,\nprocessing, maintenance, use, sharing, dissemination, or disposition of information. Note:\nInformation systems also include specialized systems such as industrial/process controls\nsystems, telephone switching and private branch exchange systems, and environmental\ncontrol systems. (Source: NIST, SP 800-53, Revision 4)\n\nInformation System Component. A discrete, identifiable information technology asset (e.g.,\nhardware, software, firmware) that represents a building block of an information system.\nInformation system components include commercial information technology products.\n(Source: NIST, SP 800-128)\n\nLeast Privilege. The principle that a security architecture should be designed so that each\nentity is granted the minimum system resources and authorizations that the entity needs to\nperform its function. (Source: CNSS, CNSSI 4009)\n\nLow-Impact System. An information system in which all three security objectives (e.g.,\nconfidentiality, integrity, and availability) are assigned a FIPS PUB 199 potential impact\nvalue of low. (Source: NIST, FIPS PUB 200)\n\nMalicious Code. Software or firmware intended to perform an unauthorized process that will\nhave adverse impact on the confidentiality, integrity, or availability of an information system.\nA virus, worm, Trojan horse, or other code-based entity that infects a host. Spyware and\nsome forms of adware are also examples of malicious code. (Source: NIST, SP 800-53,\nRevision 4)\n\nMalware. See Malicious Code. (Source: NIST, SP 800-53, Revision 4)\n\nMandatory Access Control. Access control policy decisions are made by a central authority,\nnot by the individual owner of an object. Users cannot change access rights. An example of\nmandatory access control occurs in military security, where an individual data owner does\nnot decide who has a top-secret clearance, nor can the owner change the classification of an\nobject from top-secret to secret. (Source: NIST, SP 800-192)\n\nMedia. Physical devices or writing surfaces including but not limited to magnetic tapes,\noptical disks, magnetic disks, Large Scale Integration memory chips, and printouts (but not\nincluding display media) onto which information is recorded, stored, or printed within an\ninformation system. (Source: NIST, NISTIR 7298, Revision 2)\n\nMobile Device. A small mobile computer such as a smartphone or tablet. (Source: NIST,\nSP 800-46, Revision 2)\n\nMobile Work. Work which is characterized by routine and regular travel to conduct work in\ncustomer or other worksites as opposed to a single authorized alternative worksite. Examples\ninclude site audits, site inspections, investigations, property management, and work\nperformed while commuting, traveling between worksites, or on temporary duty. Mobile\nwork is not considered telework; however, mobile workers may be eligible to participate in\ntelework, as applicable. (Source: USDA, DR 4080-811-002)\n\n\n                                              B-3\n\fModerate-Impact System. An information system in which at least one security objective\n(e.g., confidentiality, integrity, or availability) is assigned a FIPS PUB 199 potential impact\nvalue of moderate, and no security objective is assigned a FIPS PUB 199 impact value of\nhigh. (Source: NIST, FIPS PUB 200)\n\nMultifactor Authentication. Authentication using two or more factors to achieve\nauthentication. Factors include: (1) something you know (e.g. password or personal\nidentification number (PIN)); (2) something you have (e.g., cryptographic identification\ndevice, token); or (3) something you are (e.g., biometric). (Source: NIST, NISTIR 7298,\nRevision 2)\n\nNeed-to-Know. A method of isolating information resources based on a user’s need to have\naccess to that resource in order to perform their job but no more. The terms need-to-know\nand least privilege express the same idea. Need-to-know is generally applied to people,\nwhile least privilege is generally applied to processes. (Source: NIST, NISTIR 7298,\nRevision 2)\n\nNetwork Access. Access to an organizational information system by a user (or a process\nacting on behalf of a user) communicating through a network (e.g., local area network, wide\narea network, Internet). (Source: NIST, SP 800-53, Revision 4)\n\nNon-USDA personnel. Personnel that are not members of “USDA personnel” but use or\nmaintain information systems for, or on behalf of, USDA. For example, state or local\ngovernment or citizens that are users of USDA information systems; administrators of cloud\nsystems that are operated for, or on behalf of, USDA.\n\nObject. Passive information system-related entity (e.g., devices, files, records, tables,\nprocesses, programs, domains) containing or receiving information. Access to an object by a\nsubject implies access to the information it contains. Also, see Subject. (Source: NIST, SP\n800-53, Revision 4)\n\nPersonal Computer (PC). A desktop or laptop computer. (Source: NIST, SP 800-46,\nRevision 2)\n\nPrivileged Account. An information system account with authorizations of a privileged user.\n(Source: NIST, SP 800-53, Revision 4)\n\nPrivileged Command. A human-initiated command executed on an information system\ninvolving the control, monitoring, or administration of the system including security\nfunctions and associated security-relevant information. (Source: NIST, SP 800-53, Revision\n4)\n\nPrivileged User. A user that is authorized (and therefore, trusted) to perform security-\nrelevant functions that ordinary users are not authorized to perform. (Source: NIST, SP 800-\n53, Revision 4)\n\n\n\n\n                                              B-4\n\fRemote Access. The ability for an organization’s users to access its non-public computing\nresources from external locations other than the organization’s facilities. (Source: NIST, SP\n800-46, Revision 2)\n\nRemote Access Method. Mechanisms that enable users to perform remote access. There are\nfour types of remote access methods: tunneling, portals, remote desktop access, and direct\napplication access. (Source: Adapted from NIST, SP 800-46, Revision 2)\n\nRemote Client Device. A device in the two categories of client devices (PCs and mobile\ndevices) defined by NIST used to access USDA information systems remotely. The term is\nused in place of NIST’s “telework client device.”\n\nRole. A mechanism that represents a job function used to determine which group, or groups,\n(see “Group,” above) will be assigned to the user. In role-based access control information\nsystems the role conveys attributes (e.g., a collection of permission or privileges) to the user\nassigned that role, but in this DR the term “group” is used as the conveyance of attributes or\nprivileges.\n\nSecurity Controls. The management, operational, and technical controls (i.e., safeguards or\ncountermeasures) prescribed for an information system to protect the confidentiality,\nintegrity, and availability of the system and its information. (Source: NIST, FIPS PUB 199)\n\nSecurity Functions. The hardware, software, and/or firmware of the information system\nresponsible for enforcing the system security policy and supporting the isolation of code and\ndata on which the protection is based. (Source: NIST, SP 800-53, Revision 4)\n\nSecurity Technical Implementation Guide (STIG). Based on Department of Defense (DoD)\npolicy and security controls. Implementation guide geared to a specific product and version.\nContains all requirements that have been flagged as applicable for the product that has been\nselected on a DoD baseline. (Source: CNSS, CNSSI 4009)\n\nSeparation of Duties. A security principle that divides critical functions among different staff\nmembers to ensure that no one individual has enough information or access privilege to\nperpetrate damaging fraud. (Source: NIST, SP 800-57)\n\nService Account. A mechanism that is created by the installation of an operating system or\nan application, or is created by an administrator, to enable operating system or application\ncomponents to execute. This category of account should not be interactive as its purpose or\nintended use is for software components, not users.\n\nSession Lock. A session lock is a temporary action taken when a user stops work and moves\naway from the immediate physical vicinity of the information system but does not want to\nlog out because of the temporary nature of the absence. The session lock is implemented at\nthe point where session activity can be determined. This is typically at the operating system\nlevel but may be at the application level. A session lock is not a substitute for logging out of\nthe information system, for example, if the organization requires users to log out at the end of\nthe workdays. (Source: NIST, SP 800-53, Revision 4, see control AC-11 - supplemental\nguidance)\n\n                                              B-5\n\fShared Account. A single mechanism that provides common access rights and privileges to\nmultiple users of an information system. A shared account is also referred to as a “group\naccount.” Users that need the shared account to gain access attributes and privileges are\nprovided with the shared account password. In general, a shared account does not uniquely\nidentify users of the account. Usually, other security practices are employed to uniquely\nidentify personnel that are logged into the shared account. Shared accounts include\nguest/anonymous accounts, emergency program staff accounts, and some types of\nadministrative accounts.\n\nSubject. Generally, an individual, process, or device causing information to flow among\nobjects or change to the system state. See Object. (Source: NIST, SP 800-53, Revision 4)\n\nSystem Account. A mechanism that cannot, or should not, be deleted. This category of\naccount usually comes from the vendor, with the system or application may be called a\n“built-in” or “default account.” This type of account is interactive but should have any\ndefault or vendor-created password changed to a strong password and then be disabled or set\nso that it is not used except in an emergency.\n\nSystem Security Plan (SSP). Formal document that provides an overview of the security\nrequirements for the information system and describes the security controls in place or\nplanned for meeting those requirements. (Source: NIST, NISTIR 7298, Revision 2)\n\nTelework. The term “telework” or “teleworking” refers to a work flexibility arrangement\nunder which an employee performs the duties and responsibilities of such employee’s\nposition, and other authorized activities, from an approved worksite other than the location\nfrom which the employee would otherwise work. Telework may be authorized for an entire\nduty day or a portion of one. Telework does not include the following:\n\n    (1) Work performed while on official travel status;\n\n    (2) Work performed while commuting to/from work; or\n\n    (3) Mobile work. (Source: USDA, DR 4080-811-002)\n\nTelework Client Device. A PC or mobile device used by a teleworker for performing\ntelework.\n\nUnited States Government Configuration Baseline (USGCB). The USGCB provides security\nconfiguration baselines for information technology products widely deployed across the\nFederal Agencies. The USGCB baseline evolved from the Federal Desktop Core\nConfiguration mandate. The USGCB is a Federal Governmentwide initiative that provides\nguidance to Agencies on what should be done to improve and maintain effective\nconfiguration settings focusing primarily on security. (Source: NIST, NISTIR 7298,\nRevision 2)\n\nUSDA Employee. A Federal civil servant employed by, detailed or assigned to, USDA,\nincluding members of the Armed Forces.\n\n\n                                             B-6\n\fUSDA Personnel. USDA employees, contractors, affiliates, interns, fellows, and volunteers\nwho work for, or on behalf of, USDA, and whose work is overseen by USDA employees.\n\nUser. Individual, or (system) process acting on behalf of an individual, authorized to access\nan information system. (Source: NIST, SP 800-53, Revision 4)\n\nUser Account. A mechanism that provides a single individual with access rights and\nprivileges to an information system. Upon authenticating to a user account, a person (the\nuser) is uniquely identified to an information system and is granted the access rights and\nprivileges assigned to that specific account.\n\nVirtual Private Network (VPN). A virtual network, built on top of existing physical\nnetworks that provides a secure communications tunnel for data and other information\ntransmitted between networks. (Source: NIST, SP 800-46, Revision 2)\n\nWireless Technologies. Wireless protocols used by client devices (e.g., IEEE 802.11,\ncellular), and those used by computer accessory devices such as keyboards, speakers,\ntrackballs, and mice (e.g., Bluetooth, infrared, radio frequency).\n\n\n\n\n                                             B-7\n\f                             APPENDIX C\n                                  -\n                      ACRONYMS AND ABBREVIATIONS\n\n\nBYOD         Bring Your Own Device\nCFR          Code of Federal Regulations\nCIO          Chief Information Officer\nCISO         Chief Information Security Officer\nCNSS         Committee on National Security Systems\nCNSSI        Committee on National Security Systems Instruction\nCOR          Contracting Officer’s Representative\nCUI          Controlled Unclassified Information\nDISA         Defense Information Systems Agency\nDM           Departmental Manual\nDoD          Department of Defense\nDR           Departmental Regulation\nediscovery   Electronic Discovery\nEO           Executive Order\nESI          Electronically Stored Information\nFIPS PUB     Federal Information Processing Standards Publication\nFISMA        Federal Information Security Modernization Act\nHSPD         Homeland Security Presidential Directive\nIEEE         Institute of Electrical and Electronics Engineers\nISC          Information Security Center\nISSPM        Information Systems Security Program Manager\nIT           Information Technology\nNARA         National Archives and Records Administration\nNIST         National Institute of Standards and Technology\nNISTIR       National Institute of Standards and Technology Interagency Report\nOCIO         Office of the Chief Information Officer\nOGC          Office of the General Counsel\nOHS          Office of Homeland Security\nOMB          Office of Management and Budget\nOPM          Office of Personnel Management\nPC           Personal Computer\nPIN          Personal Identification Number\nPIV          Personal Identity Verification\nSOP          Standard Operating Procedure\nSP           Special Publication\nSSP          System Security Plan\nSTIG         Security Technical Implementation Guide\nU.S.C.       United States Code\nUSDA         United States Department of Agriculture\nUSGCB        United States Government Configuration Baseline\nVPN          Virtual Private Network\n\n\n                                         C-1\n\f                         APPENDIX D\n                              -\n           SYSTEM USE NOTIFICATION BANNER EXAMPLE\n\n\nNotice! Authorized Use Only.\n\nYou are accessing a U.S. Government information system, which includes: (1) this\ncomputer, (2) this computer network, (3) all computers connected to this network, and\n(4) all devices and storage media attached to this network or to a computer on this\nnetwork. This information system is provided for U.S. Government authorized use only.\n\nUnauthorized or inappropriate use of this system is prohibited and may result in\ndisciplinary action, as well as civil and criminal penalties.\n\nBy using this information system, you understand and consent to the following:\n\n    You have no reasonable expectation of privacy regarding any communication or\n    data transiting or stored on this information system. At any time, the Government\n    may, for any lawful Government purpose monitor, record, search, and seize any\n    communication or data transiting or stored on this information system.\n\n    Any communications or data transiting or stored on this information system may be\n    disclosed or used for any lawful Government purpose.\n\nYour consent is final and irrevocable. You may not rely on any statements or informal\npolicies purporting to provide you with any expectation of privacy regarding\ncommunications on this system, whether oral or written, by your supervisor or any other\nofficial, except USDA’s Chief Information Officer.\n\nClicking OK affirms your legal consent and agreement to the above notice.\n\n\n\n\n                                        D-1\n\f                               APPENDIX E\n                                   -\n              DISCUSSION OF LOGICAL ACCESS CONTROL TERMS\n\n\nThis section organizes and explains some logical access control terms used in this DR and\ndefined in Appendix B.\n\na.   “Access control policies” specify how to control accesses between subjects (e.g.,\n     individuals or software acting on behalf of individuals) and objects (e.g., information,\n     information systems, and components of information systems) in information systems;\n\nb.   Account Terms:\n\n     Four terms are used in this DR to describe accounts. Section 6a(2) of this DR requires\n     these account types, when used in an information system, be identified in the system\n     security plan (SSP) along with the conditions for their use.\n\n     (1) A “user account” is a mechanism that provides a single individual with access\n         rights and privileges to an information system. Upon authenticating to a user\n         account, a person (the user) is uniquely identified to an information system and is\n         granted the access rights and privileges assigned to that specific account;\n\n     (2) A “shared account” (often referred to as a “group account”) is a single mechanism\n         that provides common access rights and privileges to multiple users of an\n         information system. Users that need the shared account to gain access attributes\n         and privileges are provided with the shared account password. In general, a shared\n         account does not uniquely identify users of the account. Usually, other security\n         practices are employed to uniquely identify personnel that are logged into the\n         shared account;\n\n         Shared accounts include guest/anonymous accounts, emergency program staff\n         accounts, and some types of administrative accounts;\n\n     (3) A “system account” is a mechanism that cannot, or should not, be deleted. This\n         category of account usually comes from the vendor, with the system or application\n         may be called a “built-in” or “default account.” This type of account is interactive\n         but should have any default or vendor-created password changed to a strong\n         password and then be disabled or set so that it is not used except in an emergency;\n\n     (4) A “service account” is a mechanism that is created by the installation of an\n         operating system or an application, or is created by an administrator, to enable\n         operating system or application components to execute. This category of account\n         should not be interactive as its purpose or intended use is for software components,\n         not users.\n\nc.   Role-Based Access Terms:\n\n\n                                              E-1\n\f     The terms “role” and “group” describe how administrators efficiently manage accounts\n     and attributes by joining each user account to a mechanism, rather than assigning\n     attributes to each user, shared, system, or service account.\n\n     NISTIR 7298, Revision 2, defines “role” as “a group attribute that ties membership to\n     function. When an entity assumes a role, the entity is given certain rights that belong to\n     that role. When the entity leaves the role, those rights are removed. The rights given are\n     consistent with the functionality that the entity needs to perform the expected tasks.”\n\n     Note that in NIST’s definition, a role is an attribute of a group that ties group\n     membership to a function. This DR provides more detailed definitions for the way\n     privileges are associated with job functions.\n\n     In this DR:\n\n     (1) A “role” is a mechanism that represents a job function used to determine which\n         group, or groups, will be assigned to the user. In some information systems a role\n         may convey attributes or privileges, but in this DR a “group” conveys attributes or\n         privileges; and\n\n     (2) A “group” refers to an object in an authentication system where a collection of\n         accounts is associated that shares common access attributes or privileges based on\n         job function. For example, personnel that maintain an application have their\n         accounts associated with an administrator group and are granted the attributes and\n         privileges assigned to the group.\n\n     Both NIST’s and this DR’s definition of role indicate that a user’s job function is the\n     driver in determining which privileges are assigned to a user. The user’s role indicates\n     which groups, and therefore which privileges, are assigned to the user after\n     authentication.\n\nd.   User Terms:\n\n     (1) “User” is an individual, or (system) process acting on behalf of an individual,\n         authorized to access an information system. (Source: NIST SP 800-53, Revision\n         4); and\n\n     (2) “Privileged User” is a user that is authorized (and, therefore, trusted) to perform\n         security-relevant functions that ordinary users are not authorized to perform.\n         (Source: NIST SP 800-53, Revision 4).\n\n     A user becomes a privileged user when assigned to a role that is permitted to perform\n     security-relevant functions, and by logging into an account, or when assigned to a group\n     (after authentication) that permits execution of a privileged command.\n\n\n\n\n                                              E-2\n\fe.   The following terms are derived from the definitions above:\n\n     (1) An information system “user account” (e.g., standard, non-privileged account)\n         permits authorized access to an information system and prevents a user (e.g.,\n         standard user) from performing security-relevant functions.\n\n     (2) An information system “user group” permits authorized access to an information\n         system and prevents a user (e.g., standard user) from performing security-relevant\n         functions.\n\n     (3) A “privileged account” is an information system account with approved\n         authorizations of a privileged user.\n\n         In other words, an information system privileged account permits an authorized\n         user to perform security-relevant functions.\n\n         A privileged account may be either a privileged network account or a privileged\n         local system account.\n\n     (4) An information system “privileged group” permits an authorized user to perform\n         security-relevant functions.\n\n\n\n\n                                             E-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "5d761678-c6e1-5e7d-b3bb-1760751906a4",
+          "title": "USDA Directives — DR3505-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3505-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

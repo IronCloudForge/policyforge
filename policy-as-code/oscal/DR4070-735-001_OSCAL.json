@@ -1,0 +1,173 @@
+{
+  "catalog": {
+    "uuid": "ced8c5b3-a783-52c0-99ef-92e53055e682",
+    "metadata": {
+      "title": "USDA DR4070-735-001: Employee Responsibilities and Conduct",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2007-10-04",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4070-735-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2007-10-04"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4070-735-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Capital Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4070-735-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Capital Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "46a711b5-2f39-580c-92f1-175548e8a812",
+        "class": "section",
+        "title": "Sale Of Personal Property",
+        "controls": [
+          {
+            "id": "dr4070-735-001-13",
+            "class": "policy-requirement",
+            "title": "Sale Of Personal Property",
+            "parts": [
+              {
+                "id": "dr4070-735-001-13-stmt",
+                "name": "statement",
+                "prose": "a.     Personal property offered for sale by USDA may be purchased by employees\n              only when the sale of such property is based upon competitive bids.\n\n       b.     No purchase may be made by an employee who:\n\n              (1)    Was formerly accountable for the property;\n\n              (2)    Formerly used the property; or\n\n              (3)    Was in any way connected with its condemnation, declaration as\n                     excess, or sale.\n\n              The above prohibitions do not apply in the following situations:\n\n              (1)    Surplus perishable products may be sold to employees at the best price\n                     obtainable in quantities not exceeding the needs of their immediate\n                     households;\n\n              (2)    Surplus Government property may be sold to employees when it is\n                     being sold to the general public; and\n\n              (3)    Special clothing and other articles or personal equipment purchased for\n                     the exclusive use of and fitted to an individual employee may, when not\n                     otherwise usable by USDA and in all respects are surplus to the needs\n                     of the Government, be sold to such employees at the best price\n                     obtainable in the event of their separation from USDA or permanent\n                     assignment to duties not requiring such clothing or equipment.\n\n\n\n\n                                             8\n\fOctober 4, 2007                                                              DR 4070-735-001\n\n\n14.     USE OF GOVERNMENT VEHICLES\n\n        a.        Every employee is prohibited, unless specifically authorized by the agency in\n                  accordance with Departmental Regulation 5400-5, “Use of Government\n                  Vehicles for Home to Work”, from storing Government-owned or\n                  Government-leased motor vehicles at or near their private residence or at other\n                  unauthorized locations including, but not limited to, homes of relatives or\n                  friends, or from using such vehicles for transportation between their residence\n                  and place of employment.\n\n        b.        No employee shall use Government-owned or Government-leased vehicles to\n                  transport unauthorized passengers.\n\n        c.        Every employee is required to wear seat belts whenever riding as an operator\n                  or as a passenger in a truck, automobile, or other passenger vehicle in the\n                  performance of official duties or while on official time.\n\n        d.        Unless authorized to do so in the performance of official duties, every\n                  employee is prohibited from using Government-owned or Government-leased\n                  vehicles to transport firearms or explosives.\n\n\n15.     FOREIGN ASSIGNMENTS\n\n        An employee serving on foreign assignment must fully comply with Department of\n        State’s regulations governing the post to which he or she is assigned.\n\n\n16.     COMPUTERS AND TELECOMMUNICATIONS EQUIPMENT\n\n        a.        Unless an employee has specific authorization, he or she is prohibited from\n                  accessing any USDA or Federal government electronic, laser, or magnetic\n                  system of storing information, or computer software, not expressly identified\n                  for public or general access. This prohibition includes, but is not limited to\n                  computers of all types, floppy diskettes, compact or laser discs, and magnetic\n                  tapes. Employees without specific authorization may be subject to disciplinary\n                  or adverse action regardless of whether they use, damage, or make alterations\n                  to the stored information.\n\n        b.        Every employee must adhere to the requirements of Departmental Manual\n                  3525-000, “Internet and E-Mail Security” and other policies and regulations\n                  involving the use of information technology, telecommunications resources,\n                  and equipment owned and leased by USDA. Every employee must comply\n                  with acceptable use policies for telecommunication equipment as contained in\n                  Departmental Regulation 3300-001, “Telecommunications and Internet\n                  Services and Use”, and in Departmental Regulation 1710-001, “Interception\n\n\n\n                                              9\n\fDR 4070-735-001                                                              October 4, 2007\n\n\n              and Monitoring of Conversations.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "28e2195d-6f03-54c7-961d-fdcca6d13311",
+        "class": "section",
+        "title": "Personally Identifiable Information",
+        "controls": [
+          {
+            "id": "dr4070-735-001-17",
+            "class": "policy-requirement",
+            "title": "Personally Identifiable Information",
+            "parts": [
+              {
+                "id": "dr4070-735-001-17-stmt",
+                "name": "statement",
+                "prose": "a. Every employee who has access to personally identifiable information (PII) of\n          other employees, contractors, or the general public through the course of his or her\n          employment at USDA is required to safeguard and protect such information from\n          unauthorized disclosure.\n\n       b. Every employee is required to immediately report any known or suspected breach\n          of the PII safeguards or policies, or actual unauthorized disclosure of PII to his or\n          her supervisor."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "82ef8aab-4e29-5ed6-a2d0-610396f772de",
+        "class": "section",
+        "title": "Retaliation And Reprisal",
+        "controls": [
+          {
+            "id": "dr4070-735-001-18",
+            "class": "policy-requirement",
+            "title": "Retaliation And Reprisal",
+            "parts": [
+              {
+                "id": "dr4070-735-001-18-stmt",
+                "name": "statement",
+                "prose": "No employee may retaliate against another, by word or action, for filing complaints\n       about safety problems, for filing grievances under either the negotiated or\n       administrative grievance system, for filing complaints of discrimination, for assisting\n       the investigators of USDA, or for engaging in any other protected activity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5b34ee72-6eb5-56c5-ac74-c0b9d2408d84",
+        "class": "section",
+        "title": "Reporting Misconduct",
+        "controls": [
+          {
+            "id": "dr4070-735-001-19",
+            "class": "policy-requirement",
+            "title": "Reporting Misconduct",
+            "parts": [
+              {
+                "id": "dr4070-735-001-19-stmt",
+                "name": "statement",
+                "prose": "a.     Every employee is required to report actions by other employees that they\n              know, or have a reasonable basis to believe, are violations of law or regulation.\n              A report may be made to the USDA Office of Inspector General, the\n              employee’s supervisor, or any appropriate USDA management official.\n\n       b.     Violations include, but are not limited to:\n\n              (1)     Fraud, waste, and abuse of Government resources;\n\n              (2)     Criminal activity of any kind;\n\n              (3)     Violations of Federal personnel rules;\n\n              (4)     Sexual harassment;\n\n              (5)     Prohibited personnel practices; and\n\n              (6)     Violations of this directive, the Standards, or the USDA Supplement.\n\n\n\n\n                                              10\n\fOctober 4, 2007                                                                DR 4070-735-001\n\n\n\n20.     MISCELLANEOUS CONDUCT PROVISIONS\n\n        a.        Fiscal Responsibility. Any money, property, or other item of value received by\n                  or coming into the custody of an employee in connection with the discharge of\n                  his or her duties must be accounted for, deposited, appropriately secured,\n                  properly maintained, or otherwise disposed of in accordance with established\n                  procedures. Fiscal responsibility includes the proper use of Government-\n                  issued credit cards and the timely payment of claims.\n\n        b.        Cooperation with Oversight Agencies. Every employee is required under\n                  Subchapter A., Part 5, Regulations, Investigation, and Enforcement (Rule V) to\n                  provide OPM, the Merit Systems Protection Board (MSPB), and the Office of\n                  Special Counsel (OSC), and their authorized representatives, all information\n                  and testimony in regard to matters arising under laws, rules, and regulations\n                  administered by OPM, MSPB, and OSC, the disclosure of which is not\n                  otherwise prohibited by law or regulation.\n\n        c.        Cooperation with USDA Investigations. Every employee is required to provide\n                  all information he or she possesses to authorized representatives of USDA\n                  when called upon, if the inquiry relates to official matters and the information\n                  is obtained in the course of employment or as a result of relationships incident\n                  to such employment. Such activities include participating in interviews\n                  requested by authorized representatives of USDA and furnishing signed,\n                  sworn/affirmed statements to the authorized representatives. Failure to respond\n                  to requests for information, including the furnishing of signed sworn/affirmed\n                  statements in a timely manner, or failure to appear as a witness in official\n                  proceedings may result in disciplinary action. (Nothing set forth herein shall be\n                  deemed to infringe upon an employee's right to invoke the protection of the\n                  Fifth Amendment to the United States Constitution with respect to self-\n                  incrimination in a criminal investigation or for a bargaining unit employee to\n                  request union representation in accordance with his or her rights under 5 USC\n                  §7114 (a)(2)(B) – Weingarten Rights.)\n\n        d.        Details, Reassignments and Transfers. Supervisors have the authority to\n                  transfer, detail, and reassign an employee whenever necessary to meet\n                  operational needs, subject to applicable regulations and collective bargaining\n                  agreement provisions. Every employee has an obligation to accept a transfer,\n                  detail, or reassignment. Failure to accept a transfer, detail, or reassignment\n                  may result in an adverse action including separation of the employee.\n\n        e.        Firearms and Weapons. In accordance with 18 USC §930 and its exceptions,\n                  every employee is prohibited from knowingly possessing or causing the\n                  presence of a firearm or other dangerous weapons in a Federal facility (i.e. a\n\n\n\n\n                                               11\n\fDR 4070-735-001                                                               October 4, 2007\n\n\n              building or part thereof, owned, or leased by the Federal government, where\n              Federal employees are regularly present for the purpose of performing their\n\n              official duties), or in a Federal court facility.\n\n       f.     Prohibited Personnel Practices. Every employee who has the authority to take,\n              direct others to take, recommend, or approve any personnel action (Prohibited\n              Personnel Practices, 5 USC §2302 (b)), is prohibited from:\n\n              (1)     Discriminating on the basis of race, color, religion, sex, age, national\n                      origin, disability, marital status, or political affiliation;\n\n              (2)     Soliciting or considering employment recommendations based on\n                      factors other than personal knowledge or records of job-related abilities\n                      or characteristics;\n\n              (3)     Coercing the political activity of any person;\n\n              (4)     Deceiving or willfully obstructing any person from competing for\n                      employment;\n\n              (5)     Influencing any person to withdraw from job competition for the\n                      purpose of improving or injuring the prospects of any other person for\n                      employment;\n\n              (6)     Granting any preference or advantage not authorized by law, rule, or\n                      regulation to improve or injure the prospects of any particular person\n                      for employment;\n\n              (7)     Engaging in nepotism (hiring, promoting, or advancing relatives);\n\n              (8)     Taking reprisal for whistleblowing;\n\n              (9)     Taking reprisal for the exercise of an appeal right;\n\n              (10)    Discriminating based on personal conduct which does not adversely\n                      affect the performance of the employee, applicant, or others;\n\n              (11)    Violating veteran’s preference requirements; or\n\n              (12)    Violating any law, rule, or regulation implementing or directly\n                      concerning merit system principles.\n\n\n\n\n                                                12\n\fOctober 4, 2007                                                               DR 4070-735-001\n\n\n21.     DISCIPLINARY OR ADVERSE ACTION\n\n        a.        A violation of any of the responsibilities and conduct standards contained in\n                  this directive may be cause for disciplinary or adverse action.\n\n        b.        Disciplinary or adverse action shall be effected in accordance with applicable\n                  law and regulations.\n\n\n                                               -END-\n\n\n\n\n                                               13"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "951d3aed-9c65-59db-9940-31a8f1376467",
+          "title": "USDA Directives — DR4070-735-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4070-735-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

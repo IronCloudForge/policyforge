@@ -1,0 +1,259 @@
+{
+  "catalog": {
+    "uuid": "784af826-00f8-5ee6-9796-122c20b96d9f",
+    "metadata": {
+      "title": "USDA DR3180-001: Information Technology Standards",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-01-05",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3180-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-01-05"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3180-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, January 5, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3180-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, January 5, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "264394e1-f4cd-5287-8486-d8c11231ee56",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3180-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3180-001-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the standards for the acquisition,\n          configuration, and administration of information technology within the United States\n          Department of Agriculture (USDA).\n\n     b.   Application of the standards accompanying this regulation supports and implements the\n          guidance issued by the Office of Management and Budget (OMB), National Institute of\n          Standards and Technology (NIST), and other Federal oversight entities; facilitates the\n          uniform application of engineering and technical criteria, methods, processes, and\n          practices when evaluating and procuring new technologies; ensuring new technologies\n          align with USDA enterprise architecture business goals and processes; and meets the\n          requirements of the following policy documents:\n\n              OMB, Circular A-130, Management of Federal Information Resources; and\n\f           OMB, Circular A-119, Federal Participation in the Development and Use of\n           Voluntary Consensus Standards and in Conformity Assessment Activities.\n\n  c.   The benefits of standardization to the department, mission areas, agencies, staff offices,\n       and users are:\n\n           Provides cost savings and improved integration through elimination or\n           consolidation of duplicative processes, systems, and technologies;\n\n           Ensures acquisition and use of standard information technologies and cloud services\n\n           Ensures correctness, completeness, and currency of the Standard Profiles through\n           the definition of roles, responsibilities, and processes;\n\n           Enhances interoperability between programs, systems, and services; and\n\n           Improves consistency, accuracy, and timeliness of information shared across the\n           USDA enterprise."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3f3453d2-22e1-53da-a7c9-4a0f37db90d9",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3180-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3180-001-2-stmt",
+                "name": "statement",
+                "prose": "This regulation supersedes DR 3180-001, Information Technology Standards, dated May 12,\n  2015."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3c064f0c-37e2-5ef7-9b8a-6278cc39b989",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3180-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3180-001-3-stmt",
+                "name": "statement",
+                "prose": "This regulation applies to all USDA Mission Areas, agencies, staff offices, employees, and\n  contractors working for or on behalf of USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d4834e15-9bfb-5fda-b7a6-6767a3ccbafc",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3180-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3180-001-4-stmt",
+                "name": "statement",
+                "prose": "IT standards are rules or specifications designed to simplify, unify, or rationalize the design,\n  interoperability, portability, and scalability of IT infrastructure components (e.g., network,\n  hardware, systems, cloud services, and software).\n\n  The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) § 11101, et seq., (formerly\n  known as the Information Technology Management Reform Act (ITMRA)), was enacted to\n  improve the way the federal government acquires, uses and disposes of information\n  technology (IT).\n\n  The E-Government Act of 2002, Public Law (P.L.) 107-347, 116 Stat. 2899 (codified at\n  various sections of title 44) drives the design and development of an enterprise architecture\n  within Federal Agencies. OMB Circular A-130 requires that Federal agencies build and\n\n\n\n                                                2\n\f  maintain both a Profile of Standards and Technical Reference Model (TRM). The TRM has\n  become the Application Reference Model (ARM) and Infrastructure Reference Model (IRM)\n  in the Federal Enterprise Architecture Framework (FEAF v2) that support IT investment\n  management and development of enterprise architecture.\n\n  OMB Circular A-119 requires Federal agencies to use voluntary consensus standards in lieu\n  of government-unique standards, with the intention of reducing to a minimum the reliance by\n  agencies on government-unique standards.\n\n  The Common Approach to Federal Enterprise Architecture presents an overall approach to\n  developing and using Enterprise Architecture in the Federal Government by promoting\n  increased levels of mission effectiveness by standardizing the development and use of\n  architectures within and between Federal Agencies. Related implementation guidance from\n  the OMB is contained in various documents, including Circular A-11, Preparation,\n  Submission and Execution of the Budget ; Circular A-130; Memorandum M-97-16,\n  Information Technology Architectures; M-00-10, Procedures and Guidance on Implementing\n  the Government Paperwork Elimination Act; M-05-22, Transition Planning for Internet\n  Protocol Version 6 (IPv6); M-12-10, Implementing PortfolioStat; and the Digital\n  Government Strategy. The FEAF v2 is the suite of tools to help government planners\n  implement the Common Approach."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3571cb1b-ec1d-5b98-b600-6b513bdd46b3",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3180-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3180-001-5-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies and staff offices must comply with the E-Government\n  Act of 2002, OMB Circular A-130, OMB Circular A-119, and the FEAF v2, specifically the\n  IRM artifact I-3 (Technical Standard Profile).\n\n  This regulation requires that all Mission Areas, agencies and staff offices under the\n  administrative oversight of the USDA Office of the Chief Information Officer (OCIO) adhere\n  to the USDA Standards Profile Forecast for systems, products, and applications. At a\n  minimum, the USDA Standards Profile Forecast must be utilized when building out specific\n  systems profiles. The other profiles attached to this directive must be utilized to identify\n  specific and unique standards to each Mission Areas and their respective systems. All\n  Mission Areas, agencies and staff offices must report to the USDA OCIO any deficiencies\n  and provide status updates. The standards that are cited in the linked appendices will help\n  Mission Areas, agencies and staff offices align their systems and applications to recognized,\n  authoritative standards.\n\n  a.   Mission Areas, agencies, and staff offices will adhere to the following requirements\n       when determining applicable standards for their respective systems:\n\n            Establish uniform engineering and technical criteria;\n\n            Establish methods, practices, and processes;\n\n\n\n\n                                               3\n\f           Align with NIST and Federal Information Security Modernization Act of 2014\n           (FISMA), 44 U.S.C. § 3551, et seq., security requirements;\n\n           Establishing net-centric and interoperable shared services throughout the agency\n           and USDA;\n\n           Develop and establish technical maturity among systems and applications;\n\n           Ensure alignment of investments, systems, and applications to include\n           infrastructure;\n\n           Manage the replacement of systems, applications, hardware, software, and other\n           technologies that are in alignment with the current in force standards; and\n\n           Promote best practice alignment with business, performance, application,\n           infrastructure, data and security configurations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c6b3b95a-496b-5971-ae38-fc586225fd1e",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3180-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3180-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will:\n\n           Be the final approving authority on the adoption of all IT related standards for\n           USDA infrastructure, with the goal of maximizing the benefit of technology\n           purchases, and minimizing investment and operating expense; and\n\n           Be the final reviewer and approver of exceptions to the IT standards when requested\n           by the Mission Areas, agencies, and staff offices.\n\n  b.   The Information Resource Management Center (IRMC) Associate Chief Information\n       Officer (ACIO) will:\n\n           Develop policies, regulations, and requirements for the IT environment.\n\n           Provide management and oversight activities related to business, performance,\n           application, data, infrastructure, and security configurations, including but not\n           limited to:\n\n           (a) Reviewing and monitoring compliance with established policy requirements\n               and standards; and\n\n           (b) Reporting compliance and deviations to OMB.\n\n  c.   Mission Area Assistant CIOs will:\n\n           Implement the policies, requirements, and standards for the IT environment by:\n\n\n\n                                               4\n\f           (a) Developing internal procedures and controls in support of this regulation, as\n               necessary;\n\n           (b) Establishing effective communication between internal stakeholders and\n               OCIO; and\n\n           (c) Incorporating the policies, requirements, and standards into Mission Area\n               capital planning and investment control (CPIC) processes.\n\n           Implement and maintain business, performance, application, data, infrastructure and\n           security configuration settings by:\n\n           (a) Documenting all deviations from standard configurations with a detailed\n               rationale for the deviations, and request for a waiver from USDA ACIO OCIO-\n               IRMC;\n\n           (b) Providing corrective action plans for the timely remediation of issues not\n               authorized as an approved deviation;\n\n           (c) Consider the use of enterprisewide Blanket Purchase Agreements (BPA) when\n               Procuring hardware, software, and IT services or GSA schedule contracts;\n\n           (d) Utilizing the Acquisition Approval Request (AAR) process, prior to any IT\n               related procurements of $25,000 or higher with the following consideration.\n               The AAR must identify whether the acquisition of hardware, software or\n               contractor support being procured meets the applicable standards, identifies the\n               BPAs to be used, and provides a detailed rationale if the products and services\n               being procured do not meet the applicable standards;\n\n           (e) Ensure adherence and compliance with NIST and (Federal Information\n               Processing Standards) FIPS standards prior to utilizing ISO standards. NIST\n               and FIPS standards should be used in preference to ISO standards. ISO\n               standards would only apply if there are no applicable NIST or FIPS standards;\n               and\n\n           (f) Use the EA tool, Enterprise Architecture Visioning Environment (EAVE) to\n               build out their respective profiles and forecast or provide an API to their EA\n               repositories to provide the link needed to build out their profiles."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cdf16a52-a6d4-538f-8070-5a1f8af8cafb",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3180-001-7",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3180-001-7-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices are required to conform to this\n  regulation; however, if a specific regulation requirement cannot be met as explicitly stated,\n  Mission Areas, agencies, and staff offices may submit a waiver request. Approved waivers\n\n\n\n                                               5\n\f  will be tracked as Plans of action and Milestones (POA&M) items. The waiver request must\n  explain the reason for the request, identify compensating controls and actions that meet the\n  intent of the regulation, and identify how the compensating controls and actions provide a\n  similar or greater level of defense or compliance than the regulation requirement. Mission\n  Areas, agencies, and staff offices must address all policy waiver request memoranda to the\n  USDA ACIO-OCIO-IRMC and submit the request to the Enterprise Architecture Division\n  for review and decision via email to enterprise.architecture@ usda.gov.\n\n  Unless otherwise specified, Mission Areas, agencies, and staff offices will review and renew\n  approved policy waivers every fiscal year. The ACIO OCIO-IRMC will monitor and\n  approve waivers to this policy within 10 working days. If the ACIO OCIO-IRMC has not\n  responded to the requesting Mission Area Assistant CIO or designee, the USDA OCIO will\n  consider the waiver approved. The ACIO OCIO-IRMC will not disapprove waiver requests\n  without documented consultation with, and concurrence from, the requesting Mission Area\n  Assistant CIO or designee.\n\n  The written exception will be in the form of a decision memorandum and will include:\n\n  a.   Indication of Request for Exception;\n\n  b.   Name of submitting agency or staff office;\n\n  c.   Name and contact information of submitting person; and\n\n  d.   Information technology description (hardware and software exception):\n\n  e.   Justification to show good cause for the exception. The request should document the\n       justifications for the exception; and\n\n  f.   The impact of granting versus not granting the request."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0e09769f-471e-5663-87a5-1b9bbc9b4972",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3180-001-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3180-001-8-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices are to direct all questions and inquiries\n  to the Office of the Chief Information Officer (OCIO), Information Resource Management\n  Center (IRMC), EAD via email at enterprise.architecture@usda.gov.\n\n\n                                              -END-\n\n\n\n\n                                                6\n\f                                APPENDIX A\n\n                    ACRONYMS AND ABBREVIATIONS\n\n\nAAR         Acquisition Approval Request\nACIO        Associate Chief Information Officer\nARM         Application Reference Model\nBPA         Blanket Purchase Agreement\nCIO         Chief Information Officer\nCPIC        Capital Planning and Investment Control\nDDMS        Department of Defense Discovery Metadata Specification (DoD Discovery\n            Metadata Specification)\nDoDAF       Department of Defense Architecture Framework\nDR          Departmental Regulation\nEAVE        Enterprise Architecture Visioning Environment\nFEAF        Federal Enterprise Architecture Framework\nFIPS        Federal Information Processing Standards\nFISMA       Federal Information Security Modernization Act\nIEC         International Electrotechnical Commission\nIETF        Internet Engineering Task Force\nIRM         Infrastructure Reference Model\nISO         International Organization for Standardization\nIT          Information Technology\nITMRA       Information Technology Management Reform Act\nJPEG        Joint Photographic Experts Group\nMPEG        Moving Picture Experts Group\nNCE         Net-Centric Environment\nNIST        National Institute of Standards and Technology\nNITF        National Imagery Transmission Format\nOCIO        Office of the Chief Information Officer\nOCIO-IRMC   Office Chief Information Officer-Information Resource Management Center\nOMB         Office of Management and Budget`\nOWL         Web Ontology Language\nP.L.        Public Law\nPOA&M       Plan Of Action and Milestones\nRFC         Request for Comments\nTRM         Technical Reference Model\nUCORE       Universal Core\nU.S.C.      United States Code\nUSDA        United States Department of Agriculture\nXML         Extensible Markup Language\n\n\n\n\n                                     A-1\n\f                                          APPENDIX B\n\n                                          DEFINITIONS\n\n\nApplication Reference Model (ARM). The Application Reference Model (ARM) is the\nframework for categorizing Federal IT systems and application components to help identify\nopportunities for sharing, reuse, and consolidation or renegotiation of licenses. This information\nwill often be used in conjunction with the other Reference Models to identify these opportunities.\nApplication is defined as: Software components (including websites, databases, email, and other\nsupporting software) resting on Infrastructure that, when aggregated and managed, may be used\nto create, use, share, and store data and information to enable support of a business function.\nThe ARM is a categorization of different types of software, components and interfaces. It\nincludes software that supports or may be customized to support business. It does not include\noperating systems or software that is used to operate hardware (firmware) because these are\ncontained in the IRM. (Source: Federal Enterprise Architecture Framework, v 2.0)\n\nInformation Technology (IT). The term \"information technology\" means any equipment or\ninterconnected system or subsystem of equipment, that is used in the automatic acquisition,\nstorage, manipulation, management, movement, control, display, switching, interchange,\ntransmission, or reception of data or information by an executive agency. For purposes of the\npreceding sentence, equipment is used by an executive agency if the equipment is used by the\nexecutive agency directly or is used by a contractor under a contract with the executive agency\nwhich (a) requires the use of such equipment, or (b) requires the use, to a significant extent, of\nsuch equipment in the performance of a service or the furnishing of a product. The term\n\"information technology\" includes computers, ancillary equipment, software, firmware and\nsimilar procedures, services (including support services), and related resources. (Source: OMB,\nCircular A-130 Revised, Management of Federal Information Resources)\n\nInfrastructure Reference Model (IRM). The Infrastructure Reference Model (IRM) is the\nframework and taxonomy-based reference model for categorizing IT infrastructure and the\nfacilities that host and contain the IT infrastructure. For the purposes of IRM, Infrastructure is\ndefined as “The generic (underlying) platform consisting of hardware, software, and delivery\nplatform upon which specific or customized capabilities (solutions, applications) can be\ndeployed.” The purpose of the IRM is to provide the foundation for classifying the technology\ninfrastructure and the physical infrastructure that is needed to support it. The IRM supports\ndefinition of infrastructure technology items and best practice guidance to promote positive\noutcomes across technology implementations. (Source: Federal Enterprise Architecture\nFramework, v 2.0)\n\nIT Standards Profile/Technical Standards Profile. The IT Standards Profile collates the various\nsystems and services, standards, and rules that implement and constrain the choices that can be\nor were made in the design and implementation of an Architectural Description. It delineates the\nsystems, services, Standards, and rules that apply. The technical standards govern what\nhardware and software may be implemented and on what system. The standards that are cited\nmay be international such as ISO standards, national standards, or organizational specific\n\n\n\n                                                B-1\n\fstandards. With associated standards with other elements of the architecture, a distinction is\nmade between applicability and conformance. If a standard is applicable to a given architecture,\nthat architecture need not be fully conformant with the standard. The degree of conformance to a\ngiven standard may be judged based on a risk assessment at each approval point. Note that an\nassociation between a Standard and an architectural element should not be interpreted as\nindicating that the element is fully compliant with that Standard. Further detail would be needed\nto confirm the level of compliance. Standards Profiles for a particular architecture must maintain\nfull compatibility with the root standards they have been derived from. In addition, the IT\nStandards Profile model may state a method of implementation for a Standard, as compliance\nwith a Standard does not ensure interoperability. The Standards cited are referenced as\nrelationships to the systems, services, system functions, service functions, system data, service\ndata, hardware and software items, or communication protocols. (Source: The DoDAF\nArchitecture Framework, Version 2.02)\n\nNet-Centric Environment (NCE). The Net-Centric Environment is a framework for full human\nand technical connectivity and interoperability that allows all users and mission partners to share\nthe information they need, when they need it, in a form they can understand and act on with\nconfidence; and protects information from those who should not have it. (Source: Net-Centric\nEnvironment Joint Functional Concept, Version 1.0)\n\nStandards Defined. The term “standard,” or “technical standard” as cited in National\nTechnology Transfer and Advancement Act of 1995, includes all of the following: (1) common\nand repeated use of rules, conditions, guidelines, or characteristics for products or related\nprocesses and production methods; and related management systems practices; and (2) the\ndefinition of terms; classification of components; delineation of procedures; specification of\ndimensions, materials, performance, designs, or operations; measurement of quality and quantity\nin describing materials, products, systems, services, or practices; test methods and sampling\nprocedures; or descriptions of fit and measurements of size or strength. A standard is a\ndocument, established by consensus that provides rules, guidelines or characteristics for\nactivities or their results (as defined in ISO/IEC Guide 2:2004). It is a basis for comparison; a\nreference point against which other things can be evaluated. A standard is a formal document\nthat establishes uniform engineering or technical criteria, methods, processes and practices. A\nstandard is an exact value, a physical entity, or an abstract concept, established and defined by\nauthority, custom, or common consent to serve as a reference, a model, or a rule in measuring\nquantities or qualities, establishing practices or procedures, or evaluating results. It is a fixed\nquantity or quality. A data standard is an established structured representation for data exchange.\nIt is documented by a specification for an explicit set of requirements and may have associated\neXtensible Markup Language (XML) artifacts (e.g., schema, OWL, schematron, stylesheet).\nData standards containing one or more associated XML artifacts are designated technical data\nstandards (e.g., JPEG, MPEG, NITF, DDMS, UCORE). Data standards not containing XML\nartifacts are designated abstract data standards (e.g., IETF RFC 3339, ISO Technical Committee\n211, ISO 8601, ISO 3166). (Source: ISO/IEC Guide 2:2004, Standardization and related\nactivities)\n\nTechnical Reference Model (TRM). The Technical Reference Model (TRM) is a component-\ndriven, technical framework categorizing the standards and technologies to support and enable\nthe delivery of Service Components and capabilities. The TRM has been split into the ARM and\n\n\n                                               B-2\n\fIRM as defined above by the release of FEAF v2. (Source: Federal Enterprise Architecture\nFramework, v 2.0)\n\n\n\n\n                                            B-3\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nThe Clinger-Cohen Act of 1996, 40 U.S.C. § 11101, et seq., February 10, 1996\n\nCommon Approach to Federal Enterprise Architecture, May 2, 2012\n\nDepartment of Defense, The DoDAF Architecture Framework, Version 2.02, August 2010\n\nDigital Government: Building a 21st Century Platform to Better Serve The American People,\nMay 23, 2012\n\nE-Government Act of 2002, P.L. 107-347, 116 Stat. 2899, December 17, 2002\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551, et seq.,\nDecember 8, 2014\n\nInternet Engineering Task Force/Request for Change (IETF/RFC) 3339, Date and Time on the\nInternet: Timestamps, July 2002\n\nInternational Organization for Standardization (ISO) 3166, Codes for the Representation of\nNames of Countries and their Subdivisions\n\nISO 8601:2004, Data Elements and Interchange Formats -- Information Interchange --\nRepresentation of Dates and Times\n\nISO/IEC Guide 2:2004, Standardization and related activities -- General vocabulary\n\nISO Technical Committee 211, Geographic Information/Geomatics\n\nNational Technology Transfer and Advancement Act of 1995; P.L. 104-113, 110 Stat. 775,\nMarch 7, 1996 (codified in various sections of 15 U.S.C)\n\nNet-Centric Environment Joint Functional Concept, Version 1.0, October 31, 2005\n\nOMB, Circular A–11, Preparation, Submission, and Execution Of The Budget, July 2013\n\nOMB, Circular A-119, Revised, Federal Participation in the Development and Use of Voluntary\nConsensus Standards and in Conformity Assessment Activities, February 10, 1998\n\nOMB, Circular A-130, Revised, Management of Federal Information Resources, February 8,\n1996\n\nOMB, Federal Enterprise Architecture Framework, v 2.0 (FEAF v 2.0), January 29, 2013\n\n\n\n                                              C-1\n\fOMB, Memorandum M-97-16, Information Technology Architectures, June 18, 1997\n\nOMB, Memorandum M-00-10, OMB Procedures and Guidance on Implementing the\nGovernment, April 25, 2000\n\nOMB, Memorandum M-05-22, Transition Planning for Internet Protocol Version 6 (IPv6),\nAugust 2, 2005\n\nOMB, Memorandum M-12-10, Implementing PortfolioStat, March 30, 2012\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018\n\nUSDA, USDA Standards Profile web page\n\n\n\n\n                                           C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "bf11e7b8-4b76-5438-8534-4cfb402ac373",
+          "title": "USDA Directives — DR3180-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3180-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

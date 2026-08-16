@@ -1,0 +1,192 @@
+{
+  "catalog": {
+    "uuid": "ff2c83cd-8a53-5a14-b656-267935ae764e",
+    "metadata": {
+      "title": "USDA DR3440-001: USDA Classified National Security Information Program Regulation",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2016-06-09",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3440-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2016-06-09"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3440-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Emergency Coordination",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3440-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Emergency Coordination"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "dad1bf58-96db-5e35-b5cc-0f0b4bbc86b5",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3440-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3440-001-1-stmt",
+                "name": "statement",
+                "prose": "This regulation prescribes Departmental roles and responsibilities for the classification,\n  declassification, and safeguarding of classified national security information, and\n  promulgates a revised Departmental Manual (DM) 3440-001, USDA Information Security\n  Program Manual."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fad50a81-acff-52d5-80ba-712323a38670",
+        "class": "section",
+        "title": "Cancellation",
+        "controls": [
+          {
+            "id": "dr3440-001-2",
+            "class": "policy-requirement",
+            "title": "Cancellation",
+            "parts": [
+              {
+                "id": "dr3440-001-2-stmt",
+                "name": "statement",
+                "prose": "This regulation supersedes Departmental Regulation (DR) 3440-001, dated October 5, 2011."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a3c14429-5e9c-56f3-9280-52c5e32e874e",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3440-001-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3440-001-3-stmt",
+                "name": "statement",
+                "prose": "The Secretary of Agriculture has been delegated the Original Classification Authority (OCA)\n  by Presidential Order (75 Federal Register [FR] 735), effective December 29, 2009, and may\n  classify USDA information as either Confidential or Secret.\n\n  Executive Order (E.O.) 13526 “Classified National Security Information” (hereafter, E.O.\n  13526) and 32 Code of Federal Regulations (CFR) Part 2001 “Classified National Security\n  Information Implementing Directive No.1” (hereafter 32 CFR Part 2001) establish the\n  minimum standards and procedures for protecting classified national security information\n  (hereafter, classified information). Security procedures and guidance are detailed in DM\n  3440-001 “Classified National Security Information Program Manual.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01232333-978d-5036-9247-adc391ec989f",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3440-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3440-001-4-stmt",
+                "name": "statement",
+                "prose": "Departmental Agencies and Offices must comply with E.O. 13526, 32 CFR Part 2001, and\n  this DR. This DR is applicable to USDA employees, contractors and individuals who serve\n  in advisory, consultant, or non-employee affiliate capacities who have been granted access to\n  classified information. It is the Policy of USDA that:\n\n  a. The Secretary may base a classification determination on one (1) or more of the\n     following categories:\n\n     (1) Military plans, weapons systems, or operations;\n\f   (2) Foreign government information;\n\n   (3) Intelligence activities (including covert action), intelligence sources or methods or\n       cryptology;\n\n   (4) Foreign relations or foreign activities of the United States, including confidential\n       sources;\n\n   (5) Scientific, technological, or economic matters relating to the national security;\n\n   (6) Vulnerabilities or capabilities of systems, installations, infrastructures, projects,\n       plans or protection services relating to the national security; and\n\n   (7) The development, production or use of weapons of mass destruction.\n\nb. Information may be originally classified under the terms of E.O. 13526, only if all the\n   following conditions are met:\n\n   (1) An original classification authority is classifying the information;\n\n   (2) The information is owned by, produced by or for, or is under the control of the\n       United States Government;\n\n   (3) The information falls within one (1) or more of the categories of information listed\n       above in paragraph 4 (a); and\n\n   (4) The original classification authority determines that the unauthorized disclosure of\n       the information reasonably could be expected to result in damage to the national\n       security, which includes defense against transnational terrorism, and the original\n       classification authority is able to identify or describe the damage.\n\nc. Classified national security information consists of information that has been determined\n   pursuant to E.O. 13526 to require protection against unauthorized disclosure and is\n   marked to indicate its classified status when in documentary form in accordance with\n   E.O. 13526 and DM 3440-001. Minimum safeguarding of classified information requires\n   storage in a General Services Administration (GSA) approved security container.\n   Security containers meeting the standards and specifications established by GSA may be\n   procured through the Federal Supply System.\n\nd. If there is any significant doubt about the need to classify information, it shall not be\n   classified. This provision does not:\n\n   (1) Amplify or modify the substantive criteria or procedures for classification; or\n\n   (2) Create any substantive or procedural rights subject to judicial review.\n\ne. USDA Agencies shall prevent unnecessary access to classified information by\n   establishing a need for access to classified information, limiting access to a minimum\n\n                                                2\n\f       consistent with operational and security requirements and needs, and ensuring classified\n       information is not released to, or shared with, persons who do not possess an active\n       security clearance equal to or higher than the classification level of the material in\n       question. Whenever practicable, use a classified addendum whenever classified\n       information constitutes a small portion of an otherwise unclassified document or prepare\n       a product to allow for dissemination at the lowest level of classification possible or\n       unclassified form.\n\n  f. USDA will ensure declassification of information as soon as feasible, but not longer than\n     25 years from the time of classification. Declassification is accomplished using the\n     systematic, automatic, and mandatory declassification processes outlined in E.O. 13526.\n\n  g. Continuous security awareness training is required of all employees holding national\n     security clearances. Training will be coordinated and presented by the Office of\n     Homeland Security and Emergency Coordination (OHSEC), Personnel and Document\n     Security Division (PDSD).\n\n  h. Destruction and disposal of classified information must be done in compliance with E.O.\n     13526 and 32 CFR Part 2001. Confidential and Secret information can be shredded using\n     a National Security Agency (NSA) approved shredder. NSA approved shredders may be\n     procured through the Federal Supply System.\n\n  i. Incidents involving the mishandling of classified information must be reported to the\n     Agency’s Information Security Coordinator and the PDSD Classified National Security\n     Program Branch immediately upon discovery."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d3fd161c-3530-5d9e-966a-564c20420b8a",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3440-001-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3440-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture is delegated as the OCA for USDA. The Secretary must\n       designate a Senior Agency Official (SAO) responsible for the development and\n       administration of the Classified National Security Information Program (CNSIP). This\n       designation is currently in a delegation of authority made to the Assistant Secretary for\n       Departmental Management and has been re-delegated to the Director of OHSEC. The\n       Senior Agency Official is required to maintain a Top Secret clearance.\n\n  b.   The Senior Agency Official is the primary liaison between USDA and the Information\n       Security Oversight Office (ISOO). This position is responsible for identifying necessary\n       resources to manage the CNSIP and providing program oversight.\n\n  c.   Subcabinet Officers, Agency Administrators, and Office Directors, whose organizations\n       require access to classified material are responsible for:\n\n       (1) Designating an Information Security Coordinator to serve as a liaison to PDSD;\n\n       (2) Providing subject matter experts to assist with the development of\n           recommendations for the Secretary to exercise the OCA;\n\n\n\n                                                 3\n\f     (3) Ensuring classified information is created, marked, stored, transmitted, and\n         destroyed in accordance with this DR and DM 3440-001;\n\n     (4) Ensuring the number of persons granted access to classified information is limited\n         to those with a “need-to-know” to effectively carry out USDA program\n         responsibilities;\n\n     (5) Ensuring employees who hold a security clearance receive initial security\n         indoctrination training, annual security refresher training, derivative classification\n         training, and a debriefing after classified information access is no longer required;\n\n     (6) Providing PDSD an annual updated list of individual within their Agency who is\n         authorized to apply derivative classification marking;\n\n     (7) Ensuring their organization conduct, complete and report the finding of the self-\n         inspection to PDSD no later than the second week of August annually; and\n\n     (8) Ensuring the performance standards includes the designation and management of\n         classified information as a critical element, or an item to be evaluated in the rating\n         of:\n\n          (a) Original classification authority;\n\n          (b) Security managers or security specialist; and\n\n          (c) Of all personnel who duties significantly involve the creation or handling of\n              classified information and personnel who regularly apply derivative\n              classification markings.\n\nd.   The Director of OHSEC is responsible for:\n\n     (1) Establishing and administering the USDA CNSIP in accordance with E.O. 13526,\n         32 CFR Part 2001, and this DR;\n\n     (2) Maintaining an oversight role to ensure consistent and effective implementation of\n         the Information Security Program throughout USDA;\n\n     (3) Serving as the Deciding Official for the suspension, denial, and revocation of\n         security clearances involving USDA personnel;\n\n     (4) Granting a waver for individuals who fail to complete required training for original\n         classification and derivative classification authority due to unavoidable\n         circumstances;\n\n     (5) Suspending classification authority of those individuals who fail to complete\n         mandatory training for original classification to include declassification or\n         derivative classification and has not been granted a waiver;\n\n\n                                                4\n\f     (6) Ensuring USDA Classification Guide is reviewed at a minimum of once every five\n         (5) years, or upon regulatory changes;\n\n     (7) Establishing a system for processing, tracking and recording formal classification\n         challenges made by authorized holders;\n\n     (8) Advising authorized holders of their rights to appeal to the Interagency Security\n         Classification Appeals Panel (ISCAP) the decisions of the Agency on their\n         challenge;\n\n     (9) Ensuring PDSD reports the annual completion of self-inspections report by\n         Agencies that receive, generate, process and store classified information;\n\n     (10) Verifying the accuracy of information provided on the self-inspections reports prior\n          to submitting report to ISOO;\n\n     (11) Coordinating with the SAO the submission of the annual report to ISOO; and\n\n     (12) Reporting security violations and/or improper declassifications to the Director of\n          ISOO.\n\ne.   The Chief Information Officer is responsible for:\n\n     (1) Certifying and accrediting USDA computer systems for processing collateral\n         classified information;\n\n     (2) Coordinating with PDSD requests for processing collateral classified information\n         on USDA computers and establishing secure networks; and\n\n     (3) Incorporating, where appropriate, applicable USDA information security policies\n         and procedures into USDA policies and standards for Information Technology\n         systems protection.\n\nf.   PDSD is responsible for implementing E.O. 13526, 32 CFR Part 2001, DR 3440-001\n     and DM 3440-001. This includes:\n\n     (1) Day-to-day management of the Department’s information security program;\n\n     (2) Issuing and/or updating Department-wide information security policies, and\n         procedures;\n\n     (3) Reviewing and updating the Security Classification Guide a minimum of every five\n         (5) years, or upon regulatory changes and incorporate original classification\n         decisions as soon as practicable;\n\n     (4) Coordinating the Security Classification Guide updates with users and subject\n         matter experts;\n\n\n\n                                               5\n\f     (5) Coordinating and providing initial security indoctrination training, annual refresher\n         training, and security debriefings;\n\n     (6) Developing and coordinating statistical data use by Agencies and Staff Offices for\n         self-inspection report;\n\n     (7) Approving rooms for the storage, discussion, and processing of classified\n         information up to and including Sensitive Compartmented Information;\n\n     (8) Receiving reports of incidents of suspected mishandling or inadvertent disclosure of\n         classified information and conducting requisite security inquiries when appropriate;\n\n     (9) Providing mandatory training for Original Classification Authorities each year and\n         training every two (2) years for those personnel who create derivatively marked\n         classified documents in accordance with §2001.71(c) and (d) of 32 CFR 2001;\n\n     (10) Recommending suspension of access to classified information for individuals who\n          failed to complete mandatory training; and\n\n     (11) Providing support via training or individual support to Agencies requesting\n          guidance on the development and marking of derivatively classified documents\n          with respect to Part 2 of E.O 13526 and § 2001.22 of 32 CFR Part 2001.\n\ng.   Information Security Coordinators are responsible for being the primary liaison between\n     their Agency and PDSD. They are responsible for ensuring their Agency meets the\n     requirements identified in this DR and DM 3440-001. Information Security\n     Coordinators shall maintain a minimum of a Secret security clearance. Their\n     responsibilities include:\n\n     (1) Advising their Agency on properly marking, storing, processing, disclosing,\n         transmitting, and destroying classified information;\n\n     (2) Conducting self-inspections within the Agency to ensure they are properly handling\n         classified information;\n\n     (3) Coordinating information security refresher training;\n\n     (4) Gathering information annually for ISOO reports;\n\n     (5) Assisting with classification, declassification, and challenges to classification;\n\n     (6) Reporting security violations and concerns to PDSD; and\n\n     (7) Maintaining a list of all individuals within their Agency with authority to apply\n         derivative classification markings.\n\nh.   Employees, contractors, and individuals maintaining a security clearance for working\n     with classified information at USDA are responsible for the following:\n\n                                                6\n\f(1) Adhering to the provisions of this DR and DM 3440-001;\n\n(2) Immediately reporting security irregularities and security violations to their\n    respective information security coordinators and supervisors;\n\n(3) Completing the initial security indoctrination training, annual security refresher\n    training, security debriefings and derivative classification training as required;\n\n(4) Requesting a waiver for completing mandatory training in the required time and\n    ensuring training is completed as soon as practicable. Requests must be submitted\n    in writing with justification for waiver; and\n\n(5) Exercising their right to challenge classified information they believe to be\n    improperly classified and the right to appeal the agency’s decision to the ISCAP.\n\n\n                                       -END-\n\n\n\n\n                                          7"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "91f41928-6e10-5bee-9144-6b3c5e300658",
+          "title": "USDA Directives — DR3440-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3440-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

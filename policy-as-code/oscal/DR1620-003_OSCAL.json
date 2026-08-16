@@ -1,0 +1,235 @@
+{
+  "catalog": {
+    "uuid": "e3b87ad5-e4ac-5007-8d8a-2b6903311860",
+    "metadata": {
+      "title": "USDA DR1620-003: Facilities and Space Management",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-03-31",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1620-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-03-31"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1620-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Property and Environmental Management, March 31, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1620-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Property and Environmental Management, March 31, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "a85ca85b-a93c-507d-9050-1ac27655ef16",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1620-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1620-003-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental regulation (DR) establishes the United States Department of Agriculture’s\n     (USDA) policy for managing its facilities and space."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "78f6532f-3de6-57fe-9a7d-fe1ca1af1559",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr1620-003-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr1620-003-2-stmt",
+                "name": "statement",
+                "prose": "a. This regulation is effective immediately when published. All agencies and staff offices\n        must align their policies and procedures with this DR within 6 months of the publish date.\n\n     b.   This regulation supersedes the following DRs:\n\n          (1) DR 1600-001, Posting Office – Hours Field Locations, dated April 4, 2002;\n\n          (2) DR 1600-002, Posting of Notices and Information Bulletins, dated April 4, 2002;\n\f       (3) DR 1620-002, USDA Space Management Policy, dated May 17, 2004;\n\n       (4) DR 5160-002, Erection of Memorials, Plaques, and Cornerstones; Naming of\n           USDA Facilities, dated May 29, 2013; and\n\n       (5) DR 5160-006, Display and Use of the Flag (FAQs), dated December 29, 2015.\n\n  c.   This regulation supersedes the following USDA supplements to the Federal\n       Management Regulation (FMR), as amended:\n\n       (1) Agricultural Property Management Regulation (AgPMR) 110-51, Property\n           Accountability and Control;\n\n       (2) AgPMR110-74, Facility Management;\n\n       (3) AgPMR110-76, Design and Construction; and\n\n       (4) AgPMR110-84, Annual Real Property Inventories.\n\n  d.   This regulation supersedes AgPMR Advisory 12-03, Five Year Real Property Inventory\n       Certification, dated August 3, 2012.\n\n  e.   This regulation supersedes the USDA Leased Space Management Handbook, dated\n       March 9, 2018.\n\n  f.   Procedures for carrying out this regulation can be found in the forthcoming\n       Departmental Manual (DM) and Departmental Guidebook (DG)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "03da8fa2-2e81-53b9-b156-24d9b5e2ace1",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr1620-003-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr1620-003-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, and staff offices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fee557a2-85cc-5bb0-9c0f-cc95d9207582",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1620-003-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1620-003-4-stmt",
+                "name": "statement",
+                "prose": "a.   The Assistant Secretary for Administration (ASA) serves as the USDA’s Senior Real\n       Property Officer (SRPO). The Office of Property and Environmental Management\n       (OPEM) oversees all of USDA’s real property management. OPEM serves as the\n       primary liaison between the General Services Administration (GSA) and USDA. The\n       OPEM Property Management Division (PMD) Chief serves as the USDA Real Property\n       Director (RPD). The lowest level official in the agency with full responsibility over the\n       agency's real property portfolio serves as the Agency Real Property Director (ARPD).\n\n\n\n\n                                               2\n\fb.   Capital Plan (CP) – The USDA CP process described in DR 5100-004, Real Property\n     Management, will include information on USDA leases, Occupancy Agreements (OA),\n     agreements, etc. See further policy in the forthcoming DR 5100-004.\n\nc.   Real Property Asset Data – Agencies and staff offices track, manage, measure and report\n     real property holdings in the Department’s enterprise asset management system\n     (EAMS). See further policy in DR 5100-004.\n\nd.   Annual Real Property Inventories – The USDA process to conduct annual real property\n     inventories described in the forthcoming DR 5100-004, Real Property Management,\n     includes information on USDA leases, OAs, agreements, etc. See further policy in\n     forthcoming DR 5100-004, Real Property Management.\n\ne.   Collocations\n\n     (1) When two or more USDA offices are collocated, facility management operations\n         are coordinated through the Food and Agriculture Council (FAC). There is a\n         preference for issues to originate at the lowest possible level, whether it is the Local\n         Food and Agriculture Council (LFAC), State Food and Agriculture Council\n         (SFAC), or the National Food and Agriculture Council (NFAC). Issues that can’t\n         be resolved at the local level are escalated to the SFAC. Issues that cannot be\n         resolved at the state level are escalated to the initiating agency’s ARPD and to\n         OPEM for coordination. OPEM will present the issue to the NFAC for final\n         decision. See the SFAC Handbook issued by the NFAC for guidance to address\n         issues such as:\n\n         (a) Resolving interagency space issues;\n\n         (b) Requesting approval for decollocation from another USDA agency;\n\n         (c) Requesting approval to move, establish, consolidate, close, or reclassify an\n             office; and\n\n         (d) Handling other SFAC roles as outlined.\n\n     (2) Final decisions made by the NFAC must be followed by all USDA agencies, as\n         directed.\n\n     (3) For each collocated office location, the LFAC will designate a local employee to\n         serve as a Local Point of Contact (LPOC) for the building. The LPOC does not\n         have to be from the same agency as the lead leasing agency or the agency that owns\n         the space. The LPOC is a critical role in project execution as the onsite point of\n         contact for successful delivery, acceptance, and inspection of the space. It is not\n         intended for the LPOC to be a decision-maker, but rather an administrative resource\n         for the decision makers. Following is a sample of duties and expectations:\n\n\n\n\n                                              3\n\f         (a) Provision of support for pre‐award activities related to leases including the\n             determination of space needs, the conduct of market surveys, and evaluation\n             lease offers, if required;\n\n         (b) Assistance with monitoring, inspection, and acceptance of construction;\n\n         (c) Assistance with moving and building access activities;\n\n         (d) Coordination of routine facilities services and operations;\n\n         (e) Assurance of facility compliance including the posting of mandatory posters\n             and documents;\n\n         (f) Coordination of emergency operations;\n\n         (g) Coordination of agreements associated with space; and\n\n         (h) Communication of LPOC activities to all local agencies.\n\n     (4) For leased locations, the LPOC must sign a Procurement Integrity Certification to\n         carry out some of the duties. As LCOs are responsible for maintaining the integrity\n         of a procurement, Lease Contracting Officers (LCOs) must approve the LPOC\n         designated by the LFAC. If the LCO does not approve of the LPOC, or if at any\n         time the LCO determines that an LPOC cannot maintain the integrity of the\n         procurement, the LFAC will designate a new LPOC at the request of the LCO.\n\nf.   Resource Sharing\n\n     (1) Agencies will share resources to the maximum extent practicable. This includes\n         office space, equipment, personnel, office supplies, and other resources. In\n         addition, resource sharing with other Federal and non-Federal partners is\n         encouraged when they are collocated with USDA agencies, as authorized by law.\n\n     (2) Agencies will enter into agreements to pay for their shares of the costs. Collocation\n         agreements must be entered into the Department’s EAMS. The system uses the\n         data entered to calculate each agency’s rental obligation based on its percentage of\n         total rentable square footage (SF) occupied. Shared space on a collocation\n         agreement should be split based on the percentage of personnel who utilize the\n         space.\n\n     (3) All sharing agreements must be coordinated through the LFAC and SFAC.\n\n     (4) When billing another agency for costs associated with a collocation agreement,\n         agencies must do so on a quarterly basis. Agencies receiving these bills must pay\n         the bills within 30 days of receipt of an accurate bill.\n\n\n\n\n                                            4\n\fg.   Posting Office Hours – The office hours for all USDA offices that service the public will\n     be posted. Signs shall be placed in windows, on doors, or in any other conspicuous area\n     that will be readily seen by the public. If no one is in the office due to sickness,\n     telework schedules, field activities, etc., the signs must provide customers with a name\n     and contact information for the personnel who can provide assistance. Offices that do\n     not service the public are excluded. Where collocation of agencies exists, the LFAC\n     should adopt a standard set of office hours. Within the National Capital Region (NCR),\n     the Office of Operations (OO) handles the posting of office hours for all buildings.\n\nh.   Naming of Offices\n\n     (1) USDA Offices shall have two parts to the name:\n\n         (a) Part 1 – Geographical – Such as a city, county, state, forest or grassland, etc.\n             USDA Service Centers will be named and referred to by the city in which they\n             reside.\n\n         (b) Part 2 – Type of Office – Such as Service Center, National Forest, Plant\n             Protection and Quarantine. If there are two different types of office in the\n             same location, the “Type of Office” shall be the “USDA Office.”\n\n     (2) Except as otherwise prescribed by law, no facility or project, such as research\n         laboratory, national forest, resettlement project, building or station, shall be named\n         after a living person.\n\n     (3) Except as otherwise prescribed by law, no national forest or grassland shall be\n         named after a deceased person until 100 years have elapsed since death and the\n         name is firmly established in history or legend.\n\ni.   Permanent memorials and plaques\n\n     (1) Permanent memorials and plaques may be erected on buildings or building sites\n         owned by USDA with the prior approval of the Director, OPEM. A “permanent”\n         item is defined as an item that, if removed, it would damage or destroy the item or\n         the building or site.\n\n     (2) Erection of permanent memorials and plaques on buildings and building sites will\n         be limited to the:\n\n         (a) Recognition of an outstanding cooperation by a group;\n\n         (b) Memorialization of a deceased person whose contribution to the activity or the\n             Department is worthy of special recognition; or\n\n         (c) Detail of historical association or tradition pertaining to the site or the\n             community in general.\n\n\n\n                                              5\n\f     (3) The memorial or plaque must be of such material, proportion, and detail that it will\n         harmonize with its surroundings in a dignified manner. The inscription shall be\n         held to the minimum necessary to effectively accomplish the purpose of the plaque.\n         It may be supplemented by appropriate artistic embellishment. Living individuals\n         may not be referred to by name, but existing organizations may be.\n\n     (4) Permission to erect the memorial of plaque by private persons or groups may be\n         granted only on a revocable basis.\n\n     (5) Memorials and plaques in the NCR must comply with the Commemorative Works\n         Act of 1986, Public Law (P.L.) 99-652, which bars the construction of\n         commemorative works on the National Mall and the National Capital Area unless\n         they are approved by the National Capital Memorial Advisory Commission.\n\nj.   Cornerstones may be erected on buildings or building sites owned by USDA with the\n     prior approval of the Director, OPEM. Cornerstones shall be of such material,\n     proportion, and detail that they harmonize with the building in a dignified and\n     appropriate manner. Cornerstones may bear only the name of the building or station; the\n     name of the President of the United States; the name and title of the Secretary of\n     Agriculture; the name of the Architect; the name of the general contractor; and the date\n     of erection.\n\nk.   Non-permanent memorials, plaques, and other memorializing items may be installed on\n     buildings, sites, or structures that are leased, owned, or assigned by GSA with the\n     approval of the LFAC. Examples of these non-permanent items are donor boards or\n     display with name plate that can be mounted on the wall or structure. These items\n     should be able to be removed without destroying the item, building or structure.\n\nl.   The USDA OO manages and oversees all aspects of real property management and\n     operations for USDA facilities in the NCR except for locations whereby there is mutual\n     agreement between OO and the agency for the agency to manage and oversee the\n     facility. In those locations managed by OO, agencies may not occupy space without\n     approval from OO. OO gives agency approval to occupy space through the issuance of\n     OAs that outline the roles and responsibilities of OO and the agency. Upon direction\n     from OO, agencies must vacate occupied space within 120 days.\n\nm. Posting Notices – Notices will only be placed on bulletin boards that have been\n   approved by the building manager or owner of the building. No notices may be fastened\n   or affixed to the walls in public areas. The LFAC will maintain the board to keep it neat\n   and orderly. Within the NCR, OO handles this function.\n\n     (1) The following items are permitted to be posted:\n\n         (a) Information concerning recognized non-profit, communitywide activities. This\n             may include prices;\n\n\n\n                                            6\n\f         (b) Information on organizations or events recognized as profit making activities,\n             such as concerts, lectures, etc., if the activities are recreational or educational in\n             nature. This may include prices;\n\n         (c) Official business notices of the occupant agency;\n\n         (d) Information concerning Department employee organizations, including prices\n             of recreational activities. Do not include discount price lists or other retail\n             material;\n\n         (e) Notices of Federal employees by concessionaires and employee organizations\n             recognized by the occupant agency;\n\n         (f) Personal notices of agency employees, such as the sale of any employee’s\n             home, requests for carpool participation, etc. Advertisements are to be dated\n             and not to exceed 3x5 inches in size. Advertisements by employees offering\n             services or items for sale when such services or items can be obtained from\n             commercial sources on a continuous basis are not permitted;\n\n         (g) Recognized labor organization notices and issuances on space provided by the\n             agency pursuant to agreement between the agency and recognized labor\n             organization; and\n\n         (h) Other materials approved by the LFAC (or OO in the NCR).\n\n     (2) Notices that display a specific date must be taken down within 30 calendar days\n         after the date in the notice.\n\nn.   Applicability of FMR to USDA Real Property. The provisions of 41 CFR 102-74 on\n     Facility Management will be complied with for all buildings and real property that are\n     under the control of the Department of Agriculture but are not operating under or subject\n     to the authorities of the GSA Administrator.\n\no.   Concession Services\n\n     (1) In the NCR, the Director, USDA OO must approve all concession services for\n         USDA facilities.\n\n     (2) Concession services are permitted in USDA facilities when:\n\n         (a) Adequate commercial facilities are not readily available.\n\n         (b) A responsible Agency Official determines in writing that:\n\n              1    The services are needed for the expeditious conduct of official business;\n\n\n\n                                              7\n\f              2    The services cannot be provided by the blind in accordance with the\n                   Randolph-Sheppard Act, 20 U.S.C. § 107 et seq.; or\n\n              3    The services cannot be provided by an entity participating in the\n                   AbilityOne program from the U.S. AbilityOne Commission.\n\n     (3) Concession Services are also permitted in USDA facilities when the services are an\n         official activity of a recognized welfare and recreation organization as defined by\n         DR 4020-251-001, Welfare and Recreation Organizations.\n\n     (4) Permits are approved by the federal property manager when the office is not\n         collocated and by the LFAC when the office is collocated. Disagreements on\n         permits between agencies in a collocated office can be escalated to the SFAC and to\n         the NFAC as necessary. Additional approval is necessary when USDA is in:\n\n         (a) Space controlled or leased by another Federal agency – Approval must be\n             obtained from that agency;\n\n         (b) Leased space – Approval must be obtained from the lessor and the lease\n             contracting officer; or\n\n         (c) Free Space – Approval must be obtained from the donor.\n\np.   Flags\n\n     (1) The following three flags are authorized for display within the Department:\n\n         (a) The flag of the United States of America;\n\n         (b) The flag of the Secretary of Agriculture; and\n\n         (c) The flag of the USDA.\n\n     (2) Any half-staffing actions should contain instructions for when the flag will be flown\n         at half-staff. However, if the action is not clear, the following policy will be\n         followed:\n\n         (a) The flags must be flown each day for the specified number of calendar days,\n             even if they would not normally be flown on some of the days. This policy is\n             applicable only if operating personnel normally scheduled to work are\n             available to perform this function. If no one is available to perform this\n             function, then that day will not be counted.\n\n         (b) The day of death counts as the first day, even if the flags were not placed at\n             half-staff that day because death occurred after the normal time to lower the\n\n\n\n                                            8\n\f              flags for the day or notification was received too late to half-staff. In those\n              instances, the flags would be half-staffed beginning on the day following the\n              death.\n\n         (c) If notification of death is received on a day that the flags are normally not\n             flown, the flags must be flown at half-staff on that day and on the following\n             day. However, if notification is received too late to half-staff the flags on the\n             day of death, the flags are flown at half-staff only on the following day.\n\n         (d) Concurrent occasions to half-staff. If during a period when the flags are\n             already at half-staff, notification of another death is received, the half-staff\n             period will run concurrently, not consecutively.\n\n     (3) Collocated Facilities. Where USDA occupies two or more buildings on a single\n         site, the display of one flag on or near the main administration building is enough.\n         Where USDA is collocated with another Federal Department or Agency, the host\n         agency’s policy on flag display prevails. Where USDA is collocated with the\n         military or a military installation, military flag protocol is the governing authority.\n         Where USDA is in GSA assigned space, GSA’s policy on flag display prevails.\n\n     (4) The Flag of the Secretary of Agriculture. The official flag of the Secretary of\n         Agriculture is the symbol of the rank of the cabinet office. It is to be displayed only\n         in the Secretary’s office or at Department functions attended by the Secretary.\n         When the Secretary is transported via a vessel or automobile, a smaller version of\n         the Secretary’s flag may be displayed on such vessel or automobile. Refer to\n         Appendix D for an illustration and description of the Secretary’s flag.\n\n     (5) The Flag of the USDA. The official flag of the United States Department of\n         Agriculture is the symbol of the mission and activities of the Department. The flag\n         illustrated and described in Appendix E is the official flag of the USDA. It may be\n         used at functions attended by the Deputy Secretary, the Under Secretaries, or\n         Agency Heads, or in any USDA owned or leased facility.\n\nq.   Waivers, Modifications, and Record-keeping for the GSA, Architectural Barriers Act\n     Accessibility Standards, (ABAAS).\n\n     (1) Agencies and staff offices will submit any requests for waivers or modifications to\n         the ABAAS to the Director of OPEM as required by FMR § 102-76, Design and\n         Construction. If approved, OPEM will then coordinate the submission to GSA for\n         final approval by the GSA Administrator.\n\n     (2) Documentation of Architectural Barriers Act (ABA), 42 U.S.C. §§ 4151-4157,\n         Recordkeeping Compliance. The signing official for each contract, grant or loan\n         for the design, construction or alteration of a Federal facility must meet the\n         recordkeeping responsibilities as listed in FMR § 102-76.95, What recordkeeping\n         responsibilities do Federal agencies have?\n\n\n\n                                              9\n\f  r.   Sustainable Practices and Environmental Management in Buildings and Facilities.\n       Agencies and staff offices must ensure that all real property actions involving owned,\n       leased, or assigned buildings and facilities follow the sustainability and environmental\n       management policy located in DR 1058-001, USDA Sustainable Operations Council –\n       Implementing Executive Order 13423, Strengthening Federal Environmental, Energy,\n       and Transportation Management, and DR 5600-005, Environmental Management."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dd702e14-3101-50c3-872d-1b797c8820af",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr1620-003-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr1620-003-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Assistant Secretary for Administration (ASA) will:\n\n       (1) Serve as USDA’s Senior Real Property Officer (SRPO);\n\n       (2) Coordinate all real property program planning activities for the agency and its\n           components;\n\n       (3) Ensure Departmentwide planning requirements are implemented by all agency\n           components;\n\n       (4) Coordinate all real property program elements for the Department and its\n           components, including real property planning, budget formulation and execution;\n\n       (5) Strategize sustainability in the USDA real property inventory;\n\n       (6) Ensure the accuracy, completeness, and continual improvement of the data the\n           agency annually submits to the Federal Real Property Profile (FRPP) database; and\n\n       (7) Represent the Department on the Federal Real Property Council (FRPC).\n\n  b.   The Director, OPEM, will:\n\n       (1) Oversee the Department’s real property program;\n\n       (2) Issue official reports and issues regulations and other policy in support of USDA’s\n           real property program;\n\n       (3) Approve permanent memorials, plaques, and cornerstones; and\n\n       (4) Render decisions and submit any ABAAS waivers to GSA.\n\n  c.   The Chief, Property Management Division (PMD), OPEM, will:\n\n       (1) Serve as USDA’s designated point of contact for all annual real property\n           inventories;\n\n\n\n                                              10\n\f     (2) Carry out wide-ranging real property asset and space management duties and\n         responsibilities. These include:\n\n         (a) Establish and implement Departmentwide real property asset management\n             guidance and policy (e.g., DRs, DMs, DGs);\n\n         (b) Serve as the process owner for data managed by the Department’s enterprise\n             asset management system;\n\n         (c) Disseminate real property information to the agencies;\n\n         (d) Oversee special projects like large multi-agency consolidations and\n             collocations;\n\n         (e) Approve and coordinate requests for decollocation with the NFAC;\n\n         (f) Certify and submit the annual FRPP data submittal; and\n\n     (3) Serve as the USDA Real Property Director.\n\nd.   The Director, Office of Operations (OO), will:\n\n     (1) Oversee the implementation of this policy for all USDA space located in the NCR;\n\n     (2) Coordinate all space actions; and\n\n     (3) Maintain accurate and complete data in the Department’s enterprise asset\n         management system.\n\ne.   Agency Heads must:\n\n     (1) Certify their agency’s annual real property inventory;\n\n     (2) Implement this policy within their agency;\n\n     (3) Maintain accurate and complete data in the Department’s EAMS;\n\n     (4) Perform reconciliation on their rent bills from GSA once per month; and\n\n     (5) Designate one point of contact for their annual real property inventories.\n\nf.   Agency Real Property Directors (ARPDs) will:\n\n     (1) Ensure their agency maintains accurate and complete data in the Department’s\n         enterprise asset management system; and\n\n\n\n                                             11\n\f     (2) Coordinate and submit information to OPEM for processing and approval related to\n         requests for exceptions to collocation and decollocation.\n\ng.   The National Food and Agriculture Council (NFAC) will:\n\n     (1) Be comprised of the Administrators of all USDA agencies with field structure;\n\n     (2) Resolve interagency space issues that cannot be resolved at lower levels; and\n\n     (3) Make decisions on decollocation requests processed through OPEM.\n\nh.   The State Food and Agriculture Council (SFAC) will:\n\n     (1) Be comprised of the senior officials of each USDA agency that has a presence in\n         the State;\n\n     (2) Provide leadership to implement this policy within their respective States;\n\n     (3) Resolve interagency space differences that cannot be resolved at the local level; and\n\n     (4) Develop joint recommendations for decollocation requests before submission to the\n         initiating agency's ARPD.\n\ni.   The Local Food and Agriculture Council (LFAC) will:\n\n     (1) Be comprised of designated representatives of each participating USDA agency at a\n         site;\n\n     (2) Implement this policy and provide technical and administrative direction necessary\n         to assure the most efficient and effective operation of collocated offices;\n\n     (3) Designate a Local Point of Contact for the facility;\n\n     (4) Adopt local regular office hours; and\n\n     (5) Approve notices for posting.\n\nj.   Local Points of Contact (LPOC) will:\n\n     (1) Be designated by the LFAC; and\n\n     (2) Assist the SFAC, LFAC, and LCO (in leased space) in providing support for real\n         property acquisition, management and disposal.\n\n\n\n\n                                            12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "890faaaf-fe94-593d-8fd2-ffe5e7962f4d",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr1620-003-6",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr1620-003-6-stmt",
+                "name": "statement",
+                "prose": "Unless specifically stated to submit exceptions elsewhere, requests for exceptions to any\n  policy set forth in this DR must include adequate documentation and a justification stating\n  why the policy cannot be met. Submit them to the Chief, Property Management Division,\n  Office of Property and Environmental Management, USDA, 1400 Independence Avenue\n  SW, Washington DC 20250."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3667c1a5-3877-51d9-83d0-7ed191c6d053",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr1620-003-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr1620-003-7-stmt",
+                "name": "statement",
+                "prose": "Direct all inquiries about this DR to the Chief, Property Management Division, Office of\n  Property and Environmental Management, USDA, 1400 Independence Avenue SW,\n  Washington DC 20250 or 202-205-4008.\n\n\n                                           -END-\n\n\n\n\n                                              13\n\f                              APPENDIX A\n\n                  ACRONYMS AND ABBREVIATIONS\n\n\nABA      Architectural Barriers Act\nABAAS    Architectural Barriers Act Accessibility Standards\nAgPMR    Agricultural Property Management Regulation\nARPD     Agency Real Property Director\nASA      Assistant Secretary for Administration\nCFR      Code of Federal Regulations\nCP       Capital Plan\nDG       Departmental Guidebook\nDM       Departmental Manual\nDR       Departmental Regulation\nEAMS     Enterprise Asset Management System\nFAC      Food and Agriculture Council\nFAQ      Frequently Asked Question\nFMR      Federal Management Regulation\nFRPC     Federal Real Property Council\nFRPP     Federal Real Property Profile\nFSA      Farm Service Agency\nFY       Fiscal Year\nGSA      General Services Administration\nLFAC     Local Food and Agriculture Council\nLCO      Lease Contracting Officer\nLPOC     Local Point of Contact\nNCR      National Capitol Region\nNFAC     National Food and Agriculture Council\nOA       Occupancy Agreement\nOO       Office of Operations\nOPEM     Office of Property and Environmental Management\nP.L.     Public Law\nPMD      Property Management Division\nRPD      Real Property Director\nSF       Square Footage\nSFAC     State Food and Agriculture Council\nSRPO     Senior Real Property Officer\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                    A-1\n\f                                         APPENDIX B\n\n                                         DEFINITIONS\n\n\nAgency Location. An established physical office setting where a unit of a USDA agency\nperforms specific services or functions. USDA employees may perform functions at work sites\nthat are not in office settings and that are not agency locations. These work sites specifically\ninclude local Soil and Water Conservation District offices, private residences, site inspection\nfacilities at privately owned processing plants, and temporary or transient work sites such as\ninspection or investigative circuits. Employees working at these sites report to a specific\nsupervisory agency location that differs from their work site.\n\nCollocated Office. A USDA office housing two or more USDA agencies or staff offices.\n\nCollocation. The process of housing of two or more USDA agencies or staff offices together in\none complex. Collocated agencies can be housed contiguously or in several noncontiguous\nspaces throughout several buildings in one complex or campus.\n\nConsolidation. Combining two or more agency locations of a single USDA agency into one\nUSDA office.\n\nDecollocation. The process of separating agencies from a collocated arrangement (see State\nFAC Handbook).\n\nEnterprise Asset Management System. The computer system designated by the Department used\nto track, manage, measure and report their real property holdings.\n\nFederal Real Property Profile (FRPP). Annual Departmental real property inventory report\nrequired by OMB, which the Office of Property and Environmental Management (OPEM)\nsubmits to GSA during the first quarter of every fiscal year (FY). Reflects data in the\nDepartment’s enterprise asset management system for the preceding FY.\n\nField Office. All offices other than headquarters offices. Included are regional, State, area,\ndistrict and local offices (including USDA Service Centers), whether their function is program\ndelivery, administrative or special purpose, e.g., technical support or research.\n\nLead Leasing Agency. USDA agency that executes and controls a lease that houses other USDA\nagencies. Usually the agency that occupies the largest square footage (SF).\n\nLocal Food and Agriculture Council (LFAC). The LFAC is comprised of designated\nrepresentatives of each participating USDA agency at the site.\n\nNational Capital Region (NCR). This is comprised of the District of Columbia; Montgomery\nand Prince Georges counties in Maryland; the cities of Alexandria, Fairfax, and Falls Church, as\nwell as Fairfax, Arlington, Loudoun, and Prince William counties in Virginia.\n\n\n\n                                               B-1\n\fNational Food and Agriculture Council (NFAC). The NFAC is comprised of the Administrators\nof all USDA agencies with field structures.\n\nNon-Federal Partners. Non-Federal partners are specific groups, e.g., Soil and Water\nConservation Districts, individual county committees of the Farm Service Agency (FSA), etc.\nthat have a formal established relationship with a USDA agency with written agreements\ncovering shared programs/resources.\n\nState Food and Agriculture Council (SFAC). The SFAC is comprised of the senior officials of\neach USDA agency that has a presence in the State.\n\nUSDA Office. A physical site where one or more USDA agencies maintain an agency location.\nAgency locations within a USDA office may be in adjacent space, space on different floors in\nthe same building, space in adjacent buildings, or space in different buildings that are part of a\nsingle complex or campus.\n\n\n\n\n                                               B-2\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nArchitectural Barriers Act (ABA) of 1968, 42 U.S.C. §§ 4151-4157, August 12, 1968\n\nCommemorative Works Act of 1986, P.L. 99-652, November 14, 1986; codified at 40 U.S.C. §§\n8901-8909\n\nGSA, Architectural Barriers Accessibility Act Standards website\n\nGSA, Federal Management Regulation (FMR), 41 CFR § 102, Subchapter C, Real Property\n\n    41 CFR § 102-74, Facility Management\n\n    41 CFR § 102-76, Design and Construction\n\n    41 CFR § 102-76.95, What recordkeeping responsibilities do Federal agencies have?\n\nGSA, Leasing Desk Guide\n\nRandolph-Sheppard Act, P.L. 74-732, 20 U.S.C. § 107 et seq., 1936, as amended\n\nUSDA, DG 16xx-xxx, Facilities and Space Management Handbook, forthcoming\n\nUSDA, DM 16xx-xxx, Facilities and Space Management Procedural Manual, forthcoming\n\nUSDA, DR 1043-012, The Food and Agriculture Council, January 11, 1983\n\nUSDA, DR 1058-001, USDA Sustainable Operations Council – Implementing Executive Order\n13423, Strengthening Federal Environmental, Energy, and Transportation Management, January\n16, 2009\n\nUSDA, DR 4020-251-001, Welfare and Recreation Organizations, July 27, 2005\n\nUSDA, DR 5100-004, Real Property Management, April 1, 2021\n\nUSDA, DR 5600-005, Environmental Management, September 24, 2012\n\nUSDA, link to the State FAC Handbook\n\nUSDA, USDA Directives website\n\n\n\n\n                                             C-1\n\f                                      APPENDIX D\n\n             OFFICIAL FLAG OF THE SECRETARY OF AGRICULTURE\n\n\n\n\na.   The flag pictured above is the Official flag of the Secretary of Agriculture. It was\n     authorized by Secretary Claude R. Wickard on June 9, 1941. The official description is\n     as follows:\n\n     The color of the flag of the Secretary of Agriculture will be of blue silk, four feet four\n     inches on the pike by five feet six inches fly. In each of the four corners will be a white\n     5-pointed star, 6-1/2 inches in diameter, with one pointed upward. The centers of the\n     stars will be 8-1/2 inches from the long edges and 12 inches from the short edges of the\n     colors. In the center of the color will be the Official Seal of the U.S. Department of\n     Agriculture, adopted June 21, 1895, 31 inches in diameter, in proper colors, which\n     consist of a shield azure with a shock of corn upon a base vert, in back of an American\n     plough proper, within an annulet argent, outer edges roped, inner edges beaded, charged\n     with the inscription “United States Department of Agriculture,” and in base a scroll\n     bearing the legend “1862 Agriculture is the Foundation of Manufacture and Commerce\n     1889” or; the area between the shield and annulet to be azure, diapered with 44 mullets\n     argent; the device and stars embroidered. The color will be trimmed on three edges with\n     a knotted fringe of silk 2-1/2 inches wide. Attached below the spear head of the flag\n     will be a cord 8 feet 6 inches in length, with a tassel at each end. Cord and tassels will\n     be of blue and white silk strands.\n\nb.   The flag of the Secretary of Agriculture was designed by Paul P. Moller of the Exhibits\n     Service of the Office of Information and approved by the Heraldic Division of the\n     Quartermaster General’s Office, War Department, on June 9, 1941.\n\nc.   Dimensions of Vessel or Automobile Flags. A smaller flag is authorized for use on\n     vessels or automobiles transporting the Secretary of Agriculture. The recommended size\n     for a vessel flag is approximately 36 inches in width and 46 inches in length. An\n     automobile flag should be about 16 inches in width and 20 inches in length. The seal\n     and stars are to be reduced proportionately when these smaller flags are manufactured.\n\n\n\n                                            D-1\n\f                                       APPENDIX E\n\n         OFFICIAL FLAG OF THE U.S. DEPARTMENT OF AGRICULTURE\n\n\n\n\na.   The Official flag of the U.S. Department of Agriculture, pictured above, is described as\n     follows:\n\n     The color of the flag of the Department of Agriculture will be blue. In the center will be\n     the Official Seal of the Department of Agriculture, adopted June 21, 1895, in proper\n     colors, which consists of a shield azure with a shock of corn upon a base vert, in back of\n     an American plough proper, within an annulet argent, outer edges roped, inner edges\n     beaded, charged with the inscription “United States Department of Agriculture,” and in\n     base a scroll bearing the legend “1862 Agriculture is the Foundation of Manufacture and\n     Commerce 1889” or; the area between the shield and annulet to be azure diapered with\n     44 mullets argent.\n\nb.   The dimensions of the flag shall be as follows:\n\n     (1) For indoor display, four feet four inches on the pike by five feet six inches fly (4’4”\n         x 5’6”).\n\n     (2) For indoor display, a fringe may be used.\n\n     (3) For outdoor display, five feet on the pike by nine feet fly (5’0” x 9’0”).\n\n\n\n\n                                            E-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "164da271-e03d-5280-bcdd-6aa686a4600e",
+          "title": "USDA Directives — DR1620-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1620-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

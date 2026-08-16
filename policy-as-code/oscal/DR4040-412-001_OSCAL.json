@@ -1,0 +1,292 @@
+{
+  "catalog": {
+    "uuid": "84d75827-8691-553f-8ab4-06d20ae2ea82",
+    "metadata": {
+      "title": "USDA DR4040-412-001: Leadership Competency Framework",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2014-07-25",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4040-412-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2014-07-25"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4040-412-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4040-412-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "398468ed-8d28-5c21-bb5a-4ef3dcd2c79b",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4040-412-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4040-412-001-1-stmt",
+                "name": "statement",
+                "prose": "This regulation establishes the USDA Leadership Competency Framework to support\n   leadership development of USDA employees.\n\n   A clearly defined leadership model will help USDA employees and supervisors develop their\n   leadership skills. All USDA employees should have a common set of leadership\n   competencies that are used throughout the Department for individual leadership development\n   needs and as part of any leadership development program delivered by USDA agencies.\n\n   By using a common leadership competency framework USDA personnel will be better able\n   to assess their leadership capabilities for developmental purposes and to support the\n   Department’s workforce and succession planning efforts.\n\n   This Departmental Regulation will:\n\n   a. Ensure consistent use of leadership competencies and assessments throughout the USDA.\n\n   b. Minimize duplication of effort among USDA agencies in developing and managing\n      leadership competency assessments.\n\n   c. Establish a standard framework for employee development based on the Office of\n      Personnel Management leadership competencies (see Appendix I)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "09e0c11a-008c-5cd9-b094-8bda375eaea6",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr4040-412-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr4040-412-001-2-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation supersedes DR 4040-412-001, Leadership Competency\n   Framework. (December 12, 2006)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aa431c7b-b730-5de3-9e86-7144f9289470",
+        "class": "section",
+        "title": "Authorities And References",
+        "controls": [
+          {
+            "id": "dr4040-412-001-3",
+            "class": "policy-requirement",
+            "title": "Authorities And References",
+            "parts": [
+              {
+                "id": "dr4040-412-001-3-stmt",
+                "name": "statement",
+                "prose": "a. The Government Employees Training Act, Title 5, United States Code, Chapter 41 and\n     related guidance issued by the Office of Personnel Management;\n\n  b. Title 5, Code of Federal Regulations (CFR), Part 410, Training;\n\n  c. Title 5, CFR, Part 412, Executive, Management, and Supervisory Development;\n\n  d. Departmental Regulation 3630-001, USDA eLearning Services, Courseware and Content;\n     and\n\n  e. Departmental Regulation 4040-410, Individual Development Plans."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3a5cde60-ad8e-5029-af97-feee19c6c8e8",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4040-412-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4040-412-001-4-stmt",
+                "name": "statement",
+                "prose": "The USDA will use a standard competency model for leadership development called the\n  Leadership Competency Framework (Appendix A).\n\n  a. The Leadership Competency Framework will be based on the Office of Personal\n     Management (OPM) Executive Core Qualifications and leadership competencies to serve\n     as a guide in developing approaches and tools for expanding the workforce’s capacity\n     and capabilities.\n\n  b. The Leadership Competency Framework has been approved by the USDA Training\n     Officers Consortium pursuant to Section 10.c.(1) in this Departmental Regulation.\n\n  c. All USDA mission areas, agencies, and staff offices will use the USDA Leadership\n     Competency Framework as the basis for leadership development activities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a85093c7-8cf2-5720-a168-65ee1f3e4d98",
+        "class": "section",
+        "title": "Requirement To Take A 360-Degree Assessment",
+        "controls": [
+          {
+            "id": "dr4040-412-001-5",
+            "class": "policy-requirement",
+            "title": "Requirement To Take A 360-Degree Assessment",
+            "parts": [
+              {
+                "id": "dr4040-412-001-5-stmt",
+                "name": "statement",
+                "prose": "All supervisors, managers, and executives who are full-time, career or career-conditional\n  employees are required to take a 360-degree assessment at least every three years to guide\n  their leadership development.\n\n  a. After October 1, 2015, all supervisors must complete a 360-degree assessment at least\n     once every three years.\n\n  b. The assessment may be completed as a stand-alone activity or as part of a leadership\n     development program.\n\n\n\n\n                                              2\n\f  c. A Mission Area Human Resource Director (MAHRD), Director of a staff office, or\n     designee may grant an extension to supervisors to complete the requirement under the\n     following conditions:\n\n     (1) Required service of more than 12 months as part of a military deployment;\n\n     (2) As required or permissible under a superseding authority.\n\n     (3) The MAHRD must notify the Office of Human Resources Management (OHRM)\n         and document the conditions of the extension granted including the required date\n         for completing the requirement.\n\n  d. To receive credit for meeting the requirements of this regulation, the supervisor must\n     participate in a feedback session designed to support the individual’s developmental\n     planning.\n\n     (1) Feedback sessions must be delivered through a process approved by the OHRM or\n         delivered using the process appropriate for an assessment that has been approved by\n         a MARHD under Section 6.b. of this Regulation.\n\n     (2) Computer-generated reports or training recommendations are not considered feedback\n         sessions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fd80ba42-1d2a-5484-abda-2182b6bc0a1d",
+        "class": "section",
+        "title": "Qualifying Assessments.",
+        "controls": [
+          {
+            "id": "dr4040-412-001-6",
+            "class": "policy-requirement",
+            "title": "Qualifying Assessments.",
+            "parts": [
+              {
+                "id": "dr4040-412-001-6-stmt",
+                "name": "statement",
+                "prose": "a. Supervisors must use the 360-degree assessments available through AgLearn and\n     approved by the Department for the purposes of meeting the requirements in Section 5 of\n     this regulation.\n\n  b. MAHRDs, OHRDs, or their designee may authorize and approve the use of other\n     assessments for the purposes of this regulation provided that the assessment:\n\n     (1) Is a 360-degree instrument.\n\n     (2) Is offered with feedback by a qualified facilitator to support professional\n         development.\n\n     (3) Assesses leadership competencies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9fde852e-27d3-526a-9c9d-8339342fcf5e",
+        "class": "section",
+        "title": "Use Of Assessment Data For Planning",
+        "controls": [
+          {
+            "id": "dr4040-412-001-7",
+            "class": "policy-requirement",
+            "title": "Use Of Assessment Data For Planning",
+            "parts": [
+              {
+                "id": "dr4040-412-001-7-stmt",
+                "name": "statement",
+                "prose": "Aggregated data from multi-rater assessments may be used for planning purposes by the\n  Department, agencies, and programs to calculate norms, establish baseline competency\n  levels, develop workforce and/or succession plans, and meet Federal regulatory requirements\n  on reporting organizational competency levels.\n                                               3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "91e29392-b069-5c75-8233-e2a3f0cc14ef",
+        "class": "section",
+        "title": "Confidentiality",
+        "controls": [
+          {
+            "id": "dr4040-412-001-8",
+            "class": "policy-requirement",
+            "title": "Confidentiality",
+            "parts": [
+              {
+                "id": "dr4040-412-001-8-stmt",
+                "name": "statement",
+                "prose": "a. Assessments delivered to meet requirements in this regulation are for an employee’s\n     developmental needs. The assessments may not be used as input for any personnel\n     actions including, but not limited to, performance assessments, evaluations,\n     compensation, or incentives.\n\n  b. Only people responsible for administering and delivering 360-degree assessments will\n     have access to the results, and the results of individual 360-degree assessments will not\n     be shared except under the following circumstances:\n\n     (1) Appearance of imminent risk of serious harm to the individual or others;\n\n     (2) Threats of workplace violence;\n\n     (3) Evidence of fraud; or,\n\n     (4) As required by Federal statute.\n\n  c. Information disclosed in feedback sessions is to be held confidential by the person\n     facilitating and delivering feedback sessions.\n\n  d. Access to systems and data folders is limited to personnel assigned to administer the\n     assessment system.\n\n  e. Rater responses must be anonymous except that responses from a subject’s immediate\n     supervisor may be seen by the subject.\n\n  f. Supervisors may not take any adverse action or retaliate against an employee as a result\n     of feedback provided by the employee as part of a 360 assessment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "93e88f4f-f3e6-5efb-a8d6-25d00284572d",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4040-412-001-9",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4040-412-001-9-stmt",
+                "name": "statement",
+                "prose": "a. 360-Degree Assessment. A comprehensive assessment and evaluation tool and process\n     used to capture valuable input from multiple internal and external sources about an\n     employee’s competency levels. These sources may include the employee, supervisor,\n     peers, direct reports, and/or customers.\n\n  b. Competency. An observable, measurable set of related knowledge, skills, and\n     capabilities needed to successfully produce required outcomes directly related to job\n     performance; specifically, the leadership competencies defined by OPM.\n\n\n\n\n                                               4\n\f  c. Employee Development Guide. A document that defines the OPM core leadership\n     competencies important for all USDA employees at their specific positional level in the\n     organization that lists recommendations for training.\n\n  d. Executives. Employees in Senior Executive Service (including Senior Leaders) who lead\n     the Agency and set organizational goals.\n\n  e. Feedback Session. A process to help the assessment subject understand the assessment\n     results to support developmental planning. Feedback sessions may be delivered\n     individually or as part of a group, in person or electronically. Feedback sessions must be\n     interactive.\n\n  f. Leadership Competency Framework. A list of the competencies needed for successful\n     performance at each of five leadership levels: 1) All Employee, 2) Team Leader, 3)\n     Supervisor, 4) Manager, and 5) Executive. The Leadership Competency Framework is\n     progressive through the five levels of leadership with competencies at each level serving\n     as the foundation for the next level of leadership.\n\n  g. Managers. Employees who accomplish work by directing the duties of an organizational\n     unit with accountability for the success of specific line or staff functions. Managers also\n     monitor and evaluate the progress of the organizational unit toward meeting goals and\n     making adjustments in objectives, work plans, schedules, and commitment of resources.\n     Generally, managers supervise supervisors.\n\n  h. Multi-rater/Multi-level Assessment. An alternative name for 360-degree assessment.\n\n  i. Subject. The individual being rated as part of an assessment.\n\n  j. Subordinate Supervisors. Any supervisory employees (including managers and\n     executives) who are the direct reports of a manager or executive.\n\n  k. Supervisors: Supervisors are permanent, full-time Federal employees who are responsible\n     for delivering at least one employee’s performance review. For the purposes of this\n     regulation, only employees who are coded as “2” in the USDA Enterprise Human\n     Resources data system are subject to this policy’s assessment requirement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5e612e7c-6038-5d3e-b2b1-fec20d004951",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4040-412-001-10",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4040-412-001-10-stmt",
+                "name": "statement",
+                "prose": "a. Agency Heads shall ensure that there is adequate support for implementing policies and\n     programs for all supervisors to meet the requirements outlined in this Regulation.\n\n  b. MAHRDs and OHRDs shall:\n\n\n\n                                               5\n\f   (1) Ensure that persons selected into supervisor, manager, and executive positions are\n       made aware of this requirement at their appointment, that the requirement is\n       documented, and that steps are taken to address any supervisor’s failure to complete\n       the program.\n\n   (2) Report annually to the OHRM on compliance with 360-degree leadership\n       competency assessment requirements.\n\nc. USDA Training Officers Consortium (TOC) shall review and approve the design for\n   approaches, programs, and assessments developed to support this Regulation.\n\nd. USDA OHRM shall:\n\n   (1) Develop and maintain the Department-wide 360-degree leadership competency\n       assessment program, to include approaches for orientating participants and raters,\n       feedback sessions for participants, and guidance on acceptable assessments.\n\n   (2) Ensure that 360-degree leadership competency assessment approach meets the\n       standards established by the Office of Personnel Management, this regulation, and the\n       TOC, as well as standards for sound test design.\n\n   (3) Provide to MAHRDs a reporting template on compliance with 360-degree leadership\n       competency assessment requirements.\n\n   (4) Coordinate with Team AgLearn to develop and implement approaches to market and\n       educate users on implementing this regulation, as well as monitoring compliance with\n       this regulation.\n\n   (5) Collect and maintain Departmental records on 360-degree leadership competency\n       assessment for the purpose of compliance with the Human Capital Assessment and\n       Accountability Framework and other organizational needs.\n\ne. Executives and Managers shall:\n\n   (1) Ensure that all supervisors have satisfactorily completed an approved 360-degree\n       leadership competency assessment within the required time-period.\n\n   (2) Evaluate the developmental needs of subordinate supervisors and ensure that their\n       Individual Development Plans reflect development needs identified in the\n       assessments.\n\nf. Director of AgLearn shall:\n\n   (1) Include Leadership Competency Framework in Departmental e-learning strategies.\n\n\n\n\n                                            6\n\f   (2) Provide guidance to the USDA Office of Human Resources Management on\n       supporting the requirements of this Regulation.\n\n\ng. AgLearn Administrators shall:\n\n   (1) Support employees in recording their training, development, and assessment activities\n       in AgLearn\n\n   (2) Create reports that document completion of the requirements in this Regulation.\n\n                                        -END-\n\n\n\n\n                                           7\n\f                                      Appendix A\n\n                      Leadership Competency Framework\n\n\nLeading & Managing Organizations – Executive Level – Core competencies include\nEntrepreneurship, External Awareness, and Vision\n\nLeading & Managing Programs – Manager Level – Core competencies include Creativity\nand Innovation, Financial Management, Partnering, Political Savvy, Strategic Thinking,\nTechnology Management\n\nLeading and Managing People – Supervisor Level – Core competencies include\nAccountability, Conflict Management, Developing Others, Human Capital Management\n\nManaging Projects – Team Leader Level – Core competencies include Decisiveness,\nInfluencing/Negotiating, Team Building, Technical Credibility\n\nManaging Yourself – All employees – Core competencies include Continual Learning,\nCustomer Service, Flexibility, Integrity/Honesty, Interpersonal Skills, Oral Communication,\nProblem Solving, Public Service Motivation, Resilience, Written Communication\n\n\n\nLeadership Competency Definitions\n\nAccountability: Holds self and others accountable for measurable high-quality, timely, and\ncost-effective results. Determines objectives, sets priorities, and delegates work. Accepts\nresponsibility for mistakes. Complies with established control systems and rules.\n\nConflict Management: Encourages creative tension and differences of opinions. Anticipates\nand takes steps to prevent counter-productive confrontations. Manages and resolves conflicts\nand disagreements in a constructive manner.\n\nContinual Learning: Assesses and recognizes own strengths and weaknesses; pursues self-\ndevelopment.\n\nCreativity and Innovation: Develops new insights into situations; questions conventional\napproaches; encourages new ideas and innovations; designs and implements new or cutting\nedge programs/processes.\n\nCustomer Service: Anticipates and meets the needs of both internal and external customers.\nDelivers high-quality products and services; is committed to continuous improvement.\n\n\n                                           A-1\n\fDecisiveness: Makes well-informed, effective, and timely decisions, even when data are\nlimited or solutions produce unpleasant consequences; perceives the impact and implications\nof decisions.\n\nDeveloping Others: Develops the ability of others to perform and contribute to the\norganization by providing ongoing feedback and by providing opportunities to learn through\nformal and informal methods.\n\nEntrepreneurship: Positions the organization for future success by identifying new\nopportunities; builds the organization by developing or improving products or services.\nTakes calculated risks to accomplish organizational objectives.\n\nExternal Awareness: Understands and keeps up-to-date on local, national, and international\npolicies and trends that affect the organization and shape stakeholders' views; is aware of the\norganization's impact on the external environment.\n\nFinancial Management: Understands the organization's financial processes. Prepares,\njustifies, and administers the program budget. Oversees procurement and contracting to\nachieve desired results. Monitors expenditures and uses cost-benefit thinking to set priorities.\n\nFlexibility: Is open to change and new information; rapidly adapts to new information,\nchanging conditions, or unexpected obstacles.\n\nHuman Capital Management: Builds and manages workforce based on organizational goals,\nbudget considerations, and staffing needs. Ensures that employees are appropriately\nrecruited, selected, appraised, and rewarded; takes action to address performance problems.\nManages a multi-sector workforce and a variety of work situations.\n\nInfluencing/Negotiating: Persuades others; builds consensus through give and take; gains\ncooperation from others to obtain information and accomplish goals.\n\nIntegrity/Honesty: Behaves in an honest, fair, and ethical manner. Shows consistency in\nwords and actions. Models high standards of ethics.\n\nInterpersonal Skills: Treats others with courtesy, sensitivity, and respect. Considers and\nresponds appropriately to the needs and feelings of different people in different situations.\n\nOral Communication: Makes clear and convincing oral presentations. Listens effectively;\nclarifies information as needed.\n\nPartnering: Develops networks and builds alliances; collaborates across boundaries to build\nstrategic relationships and achieve common goals.\n\n\n\n\n                                            A-2\n\fPolitical Savvy: Identifies the internal and external politics that impact the work of the\norganization. Perceives organizational and political reality and acts accordingly.\n\nProblem Solving: Identifies and analyzes problems; weighs relevance and accuracy of\ninformation; generates and evaluates alternative solutions; makes recommendations.\n\nPublic Service Motivation: Shows a commitment to serve the public. Ensures that actions\nmeet public needs; aligns organizational objectives and practices with public interests.\n\nResilience: Deals effectively with pressure; remains optimistic and persistent, even under\nadversity. Recovers quickly from setbacks.\n\nStrategic Thinking: Formulates objectives and priorities, and implements plans consistent\nwith the long-term interests of the organization in a global environment. Capitalizes on\nopportunities and manages risks.\n\nTeam Building: Inspires and fosters team commitment, spirit, pride, and trust. Facilitates\ncooperation and motivates team members to accomplish group goals.\n\nTechnical Credibility: Understands and appropriately applies principles, procedures,\nrequirements, regulations, and policies related to specialized expertise.\n\nTechnology Management: Keeps up-to-date on technological developments. Makes effective\nuse of technology to achieve results. Ensures access to and security of technology systems.\n\nVision: Takes a long-term view and builds a shared vision with others; acts as a catalyst for\norganizational change. Influences others to translate vision into action.\n\nWritten Communication: Writes in a clear, concise, organized, and convincing manner for\nthe intended audience.\n\n\n\n\n                                            A-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "2a3dde79-03cd-5323-954a-1f1e0794cc59",
+          "title": "USDA Directives — DR4040-412-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4040-412-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

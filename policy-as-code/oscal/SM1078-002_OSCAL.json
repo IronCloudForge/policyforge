@@ -1,0 +1,192 @@
+{
+  "catalog": {
+    "uuid": "3722fe9b-6a67-5daa-9b43-ee664390faaf",
+    "metadata": {
+      "title": "USDA SM1078-002: Elimination of Federal Advisory Committees within the Department of Agriculture",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2025-02-20",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1078-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2025-02-20"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1078-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1078-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "9c66de23-7fed-564e-a38e-8cda02070ccd",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "sm1078-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "sm1078-002-1-stmt",
+                "name": "statement",
+                "prose": "On February 19, 2025, the President issued an Executive Order, Commencing the Reduction\n  ofthe Federal Bureaucracy, which set forth the Administration's policy ofreducing the size\n  of the Federal government in order to minimize waste, fraud, abuse, and inflation and to\n  promote American freedom and innovation. To that end, the President's order directed the\n  termination of several Federal Advisory Committees and ordered the identification of\n  additional unnecessary Federal Advisory Committees for termination."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d589c643-bf29-5b16-b505-763ca207675e",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "sm1078-002-2",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "sm1078-002-2-stmt",
+                "name": "statement",
+                "prose": "Consistent with the President's Executive Order and pursuant to my authority as the Secretary\n  of the Department of Agriculture, 41 CFR 102-3.55(a)(2), and all other applicable authorities,\n  I find that the following Federal Advisory Committees are unnecessary and accordingly\n  terminate them to the maximum extent consistent with law:\n\n  •   Advisory Committee on Agriculture Statistics\n  •   Advisory Committee on Universal Cotton Standards\n  •   Agricultural Technical Advisory Committee for Trade in Animal and Animal Products\n  •   Agricultural Technical Advisory Committee for Trade in Fruits and Vegetables\n  •   Agricultural Technical Advisory Committee for Trade in Grains, Feed, Oilseeds and\n      Planting Seeds\n  •   Agricultural Technical Advisory Committee for Trade in Processed Foods\n  •   Agricultural Technical Advisory Committee for Trade in Sweeteners and Sweetener\n      Products\n  •   Agricultural Technical Advisory Committee for Trade in Tobacco, Cotton, Peanuts, and\n      Hemp\n  •   Black Hills National Forest Advisory Board\n  •   Fruit and Vegetable Industry Advisory Committee\n  •   General Conference Committee of the National Poultry Improvement Plan\n\f  •     National Advisory Committee on Meat and Poultry Inspection\n  •     National Advisory Committee on Microbiological Criteria for Foods\n  •     National Animal Welfare Advisory Committee\n  •     National Wildlife Services Advisory Committee\n  •     Northwest Forest Plan Area Advisory Committee"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d245a5c0-eaa0-5a14-bf63-cd57d47c0b5b",
+        "class": "section",
+        "title": "Existing Directives",
+        "controls": [
+          {
+            "id": "sm1078-002-3",
+            "class": "policy-requirement",
+            "title": "Existing Directives",
+            "parts": [
+              {
+                "id": "sm1078-002-3-stmt",
+                "name": "statement",
+                "prose": "This Secretary Memorandum revokes Departmental Regulation 1043-027, dated February\n      7, 2011, in its entirety due to updates to policies and Executive Orders.\n\n      Prior delegations of authority, administrative regulations, and other directives not\n      inconsistent with the provisions of this Memorandum will remain in full force and effect."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4f288c9b-44c3-514b-9359-a22eb2502ba6",
+        "class": "section",
+        "title": "Incidental Transfers",
+        "controls": [
+          {
+            "id": "sm1078-002-4",
+            "class": "policy-requirement",
+            "title": "Incidental Transfers",
+            "parts": [
+              {
+                "id": "sm1078-002-4-stmt",
+                "name": "statement",
+                "prose": "The Assistant Secretary for Administration, the Chief Financial Officer, and the Director,\n      Office of Budget and Program Analysis, are authorized to approve such transfers of funds,\n      terminations, personnel, employment authority, space, records, property, and incidentals as\n      may be necessary to implement the provisions of this Memorandum."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8b2cbdb1-bcdb-5dae-a5f4-044bbe1b9e13",
+        "class": "section",
+        "title": "Effective Date And Termination",
+        "controls": [
+          {
+            "id": "sm1078-002-5",
+            "class": "policy-requirement",
+            "title": "Effective Date And Termination",
+            "parts": [
+              {
+                "id": "sm1078-002-5-stmt",
+                "name": "statement",
+                "prose": "This delegation is effective immediately and will remain in effect for 1 year from\n      the effective date, or until such earlier time as the Department's published\n      delegations of authority have been revised to incorporate the provisions of this\n      Memorandum.\n\n\n\n\n                                              Isl Brooke L. Rollins\n                                              Secretary\n                                              U.S. Department of Agriculture\n\n\n\n\n                                                    2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "96f0ecd8-67ca-5f15-803a-a297570f73fb",
+          "title": "USDA Directives — SM1078-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1078-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

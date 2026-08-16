@@ -1,0 +1,187 @@
+{
+  "catalog": {
+    "uuid": "e5f6e62c-68cf-5515-978c-4a4f28a7c3f6",
+    "metadata": {
+      "title": "USDA DR1630-002: Use of Alcoholic Beverages and Narcotics in USDA Occupied Space",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2012-12-13",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1630-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2012-12-13"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1630-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Procurement &, Property Management, Property",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1630-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Procurement &, Property Management, Property"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "052395b4-221b-5029-a8a0-46522b3b196d",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1630-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1630-002-1-stmt",
+                "name": "statement",
+                "prose": "This regulation establishes policies and procedures on use of alcoholic beverages\n     and prohibits the use of narcotics, as defined in Federal Management Regulation\n     102-74.400, in space occupied or under the control of the Department."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c4a0dd14-5a1e-571f-8db9-8d435768fcf9",
+        "class": "section",
+        "title": "Special Instructions/Cancellation",
+        "controls": [
+          {
+            "id": "dr1630-002-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellation",
+            "parts": [
+              {
+                "id": "dr1630-002-2-stmt",
+                "name": "statement",
+                "prose": "This regulation replaces Departmental Regulation 1630-001 dated April 4, 2002."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a14719e7-e8b9-5bec-a11a-60dad57678f8",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1630-002-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1630-002-3-stmt",
+                "name": "statement",
+                "prose": "The use or possession of narcotics, as defined in Federal Management Regulation\n     102-74.400, and/or alcoholic beverages is prohibited within space occupied or under\n     the control of the Department.\n\n     The provisions of this regulation do not apply to government-furnished quarters.\n\n     An exemption to the prohibition on the use of alcoholic beverages within the\n     Washington, D.C. Complex may be granted by the Subcabinet Official of the\n     Agency sponsoring the event, if it is determined that the request is for an event that\n     is an appropriate official function.\n\n     An exemption to the prohibition on the use of alcoholic beverages in field locations\n     owned by USDA may be granted by the Agency Head or designee if it is determined\n     that the request is for an event that is an appropriate official function.\n\n     An exemption to the prohibition on the use of alcoholic beverages in field locations\n     leased by USDA or controlled by GSA may be granted by the Agency Head upon\n     concurrence by the lessor or the appropriate GSA official.\n\n     The official authorizing approval of the exemption is responsible for ensuring\n\f     measures are taken for compliance with applicable laws, such as the prohibition\n     against underage drinking, driving under the influence, and public intoxication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "310f1ed6-dab1-544d-b573-ffef462b1e1d",
+        "class": "section",
+        "title": "Request For Exemption",
+        "controls": [
+          {
+            "id": "dr1630-002-4",
+            "class": "policy-requirement",
+            "title": "Request For Exemption",
+            "parts": [
+              {
+                "id": "dr1630-002-4-stmt",
+                "name": "statement",
+                "prose": "Request for exemptions from prohibition against serving alcoholic beverages shall\n     be submitted with sufficient time to permit processing and mailing. The request\n     shall include the location of the function, the date, time, purpose and estimated\n     number of attendees, and be signed by the requesting official.\n\n     Washington, D.C. Complex requests are to be submitted to the appropriate\n     Subcabinet Official. The authorizing official will notify the requesting office in\n     writing whether or not the exemption is granted. In addition, if approved, a copy of\n     the exemption shall be sent to the Office of Operations, Protective Operations\n     Division Director for coordination with appropriate building management and\n     security officials prior to the event. A copy of the exemption will also be sent to\n     Departmental Management, Office of Procurement and Property Management,\n     Property Management Division Chief.\n\n     Field office requests are to be submitted to the appropriate Agency Head.\n     The authorizing official will notify the requesting office in writing whether or not\n     the exemption is granted. If approved, a copy of the exemption will be sent to the\n     building manager who will inform the appropriate officials responsible for security\n     of the facility. Additionally, a copy of the exemption will be sent to Department\n     Management, Office of Procurement and Property Management, Property\n     Management Division Chief."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "295143b8-da9e-5cd0-af85-2556f52ec62d",
+        "class": "section",
+        "title": "Limitations",
+        "controls": [
+          {
+            "id": "dr1630-002-5",
+            "class": "policy-requirement",
+            "title": "Limitations",
+            "parts": [
+              {
+                "id": "dr1630-002-5-stmt",
+                "name": "statement",
+                "prose": "The Director, Office of Operations, will provide exemptions to non-Agriculture\n     related groups using the Washington, D.C. Complex.\n\n     An exemption shall not be granted for events where minors will be present.\n\n     Agency Heads will set necessary limitations for field office use.\n\n\n                                          -END-"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "d9b3c169-b0ec-5113-b5b4-1ea7f47635f3",
+          "title": "USDA Directives — DR1630-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1630-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

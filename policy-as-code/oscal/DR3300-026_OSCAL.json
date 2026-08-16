@@ -1,0 +1,288 @@
+{
+  "catalog": {
+    "uuid": "34ac7e52-bedc-523e-ada5-2b7c4eb5d427",
+    "metadata": {
+      "title": "USDA DR3300-026: Planning and Managing Wireless Technologies (1/23/20)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "Unknown",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-026"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "Unknown"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Digital, Infrastructure Services Center, Enterprise Network Services",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-026",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Digital, Infrastructure Services Center, Enterprise Network Services"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "483d8f7d-6e2b-5b26-8260-c510e8e381df",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3300-026-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3300-026-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) policy for planning and managing USDA’s wireless networks and devices that use\n     USDA wireless networks."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "85f89b62-0f6c-54f6-a11b-052d38074a00",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3300-026-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3300-026-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR replaces Departmental Manual (DM) 3300-005, Policies for Planning and\n          Managing Wireless Technologies in USDA, dated November 10, 2010.\n\n     b.   This DR will be in effect until superseded or the expiration date.\n\n     c.   The term “wireless network” encompasses any network that uses the Institute of\n          Electrical and Electronics Engineers Standards Association (IEEE-SA) 802.11\n\f       Standards, such as Wireless Local Area Networks (WLAN) or Wireless Fidelity (Wi-\n       Fi).\n\n  d.   All Mission Areas, agencies, and staff offices will align their policies and procedures\n       with this DR within 6 months of the publication date.\n\n  e.   All Mission Areas, agencies, and staff offices may supplement this DR when developing\n       their internal guidance. Modifications to the intent or purpose of this DR are not\n       allowed. If Mission Areas, agencies, and staff offices publish internal guidance that\n       supplements this DR, one copy of each supplement will be forwarded to the Office of\n       the Chief Information Officer (OCIO), Digital Infrastructure Services Center (DISC),\n       Enterprise Network Services (ENS), Telecommunications Infrastructure Management\n       and Governance (TIMG) at ens.policy@usda.gov."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "db7de136-422e-5369-a8db-30f85f51b7d1",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3300-026-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3300-026-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to USDA wireless networks and devices (e.g., laptops) that use USDA\n       wireless networks.\n\n  b.   This DR excludes wireless devices (e.g., cellular phones) that are provisioned for use on\n       a third-party cellular network.\n\n  c.   This DR applies to all USDA Mission Areas, agencies, staff offices, employees,\n       contractors, data centers, cooperative partners, and others working for, or on behalf of,\n       the USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af7961ab-fbd0-5f14-8fa2-467ac62e8978",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3300-026-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3300-026-4-stmt",
+                "name": "statement",
+                "prose": "The widespread adoption of wireless technologies within USDA represents a paradigm shift\n  from telecommunications landline technologies. This shift introduces management\n  challenges due to the pervasive availability of wireless consumer products in the marketplace\n  and the tendency for USDA to treat wireless acquisitions as commodity buys. The most\n  significant business challenges associated with a commodity approach to buying wireless\n  technologies occur when the lack of a central acquisition strategy results in fractionalized\n  purchases of non-standard products and services. As this practice continues, the Department\n  loses visibility and control of wireless technologies. Thus, a policy is needed to ensure that\n  there is a more strategic, centralized management of wireless technologies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e26a0c44-d550-579f-92b3-1beddc10a864",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3300-026-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3300-026-5-stmt",
+                "name": "statement",
+                "prose": "a.   Mission Areas, agencies, and staff offices are required to receive approval from the\n       USDA Chief Information Officer (CIO) prior to the purchase of any wireless\n       networking technologies regardless of the dollar amount. These purchases include\n\n                                                 2\n\f     all software and equipment for the implementation of new wireless networks as well\n     as upgrades or changes to existing wireless networks. Mission Area, agency, and\n     staff office approval requests for wireless networks will describe business and\n     security requirements, include a cost trade-off analysis between the proposed\n     wireless network and a hardwired network with equivalent capabilities, and provide\n     total anticipated costs for each.\n\nb.   Mission Areas, agencies, and staff offices are required to submit an annual report to\n     the USDA OCIO telecommunications management staff that accounts for all\n     wireless networks and associated infrastructure, and ensure that the information\n     provided is mapped into the agency or staff office enterprise architecture (EA).\n     Mission Area, agencies, and staff offices will ensure technical personnel are\n     adequately trained to oversee the planning, development, implementation, and\n     management of wireless networks in order to be compliant with the USDA Quality\n     of Service (QoS)/Class of Service (CoS) Standard (eAuthentication access required).\n\nc.   All Internet Protocol (IP) based data transmission (e.g., email) to and from\n     Government networks will be registered with USDA Domain Name System (DNS)\n     servers and routed through the USDA secure internet gateways. Agencies and staff\n     offices will establish continuous access monitoring and reporting capabilities that\n     identify the media access control (MAC) address for authorized users and can be\n     referenced to the specific wireless device and to the user’s profile. Wireless usage\n     reports will be analyzed by Mission Area, agency, or staff office\n     telecommunications subject matter experts (SME) to:\n\n     (1) Ensure that networks are secure and engineered in a manner that maintains high\n         QoS to USDA customers;\n\n     (2) Identify usage trends to improve future acquisition decisions; and\n\n     (3) Determine corrective actions that address excessive, infrequent, or non-usage of\n         Government-issued devices.\n\nd.   USDA OCIO will establish enterprise contracts or place task orders through General\n     Services Administration (GSA) contracts for wireless technologies. Mission Areas,\n     agencies, and staff offices will limit wireless device purchases to those technologies\n     that are available through GSA contracts approved by the USDA CIO. Mission\n     Areas, agencies, and staff offices will appoint Telecommunications Mission Area\n     Control Officers (TMACO) to place orders for all wireless technologies.\n\ne.   USDA OCIO will facilitate the Departmental adoption of next generation wireless\n     technologies and eliminate redundant Mission Area, agency, or staff office pilot tests\n     of wireless networks. Mission Areas, agencies, and staff offices will follow OCIO\n     procedures for conducting and coordinating pilot tests and share test results with\n     each other through the OCIO established processes.\n\n\n\n                                               3\n\ff.   Appropriate Uses of USDA Wireless Technologies\n\n     (1) USDA wireless networks and devices may be used for, but are not limited\n         to, the following purposes:\n\n          (a) The communication and exchange of data between State and local\n              governments, private sector organizations, and educational and research\n              institutions, both in the United States and abroad;\n\n          (b) The development of internet-based projects;\n\n          (c) Interactive sharing of information without compromising USDA secured\n              data;\n\n          (d) The exchange of any non-sensitive data between USDA entities in support\n              of Mission Area, agency, and staff office missions, or other official\n              purposes; and\n\n          (e) The distribution and collection of information related to official program\n              delivery that is in compliance with Federal and Departmental guidelines.\n\n     (2) In accordance with the Federal CIO Council’s Recommended Executive Branch\n         Model Policy/Guidance on \"Limited Personal Use\" of Government Office\n         Equipment Including Information Technology (Limited Personal Use), May 19,\n         1999, employees may use Government wireless devices for personal matters on\n         an occasional basis provided that there is no loss of employee productivity or\n         interference with official employee duties.\n\ng.   Inappropriate Uses of USDA Wireless Technologies\n\n     In accordance with the Limited Personal Use guidance, employees will not use USDA\n     wireless networks and devices:\n\n     1.   To conduct illegal, inappropriate, or offensive activities to fellow employees or the\n          public. Such activities include, but are not limited to, hate speech or material that\n          ridicules others on the basis of race, creed, religion, color, sex, disability, or\n          national origin;\n\n     2.   To create, download, view, store, copy, or transmit sexually explicit or sexually\n          oriented materials;\n\n     (1) To create, download, view, store, copy, or transmit materials related to illegal\n         gambling, illegal weapons, terrorist activities, and any other illegal activities or\n         activities otherwise prohibited;\n\n\n\n\n                                                4\n\f       (2) To conduct activities that could cause congestion, delay, or disruption of service to\n           any Government system or equipment. For example, greeting cards, video, or other\n           large file attachments can degrade the performance of the entire network;\n\n       (3) For commercial purposes or in support of “for-profit” activities or other outside\n           employment or business activity (e.g., consulting for pay or sales of goods and\n           services);\n\n       (4) To engage in any outside fundraising activity, endorse any product or service,\n           participate in any lobbying activity, or engage in any prohibited partisan political\n           activity;\n\n       (5) To post Departmental information to external newsgroups, bulletin boards, or other\n           public forums without authority; and\n\n       (6) To conduct activities that could generate more than a minimal expense to the\n           Government.\n\n  h.   Proper Representation\n\n       (1) In accordance with the Limited Personal Use, it is the responsibility of employees\n           to ensure they are not giving the false impression that they are acting in an official\n           capacity when they are using Government office equipment for non-Government\n           purposes. If there is an expectation that such a personal use could be interpreted to\n           represent a Mission Area, agency, or staff office, then an adequate disclaimer must\n           be used. One acceptable disclaimer is “The contents of this message are mine\n           personally and do not reflect any position of the Government or my agency.”\n\n       (2) It is the responsibility of employees not to use or wear any official Government\n           logos, trademarks, seals, or insignias while displaying, portraying, or posting any\n           acts that would be detrimental to the Government, including any State, local, or\n           federally illegal activities, or any of the previously mentioned prohibited activities.\n\n  i.   Privacy\n\n       USDA employees will use Government wireless networks and devices with the\n       understanding that such use serves as consent to monitoring of any type of use,\n       including incidental and personal uses, whether authorized or unauthorized. In\n       addition, access of such systems is not anonymous. For example, for each use of the\n       internet over Government systems, these systems may capture information transmitted,\n       received, or stored on the system."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c782c1e9-a6fc-5ff4-b4d3-85dad38ba972",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3300-026-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3300-026-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO will:\n\n                                                  5\n\f     (1) Provide leadership to Mission Area, agency, and staff office programs for the\n         integration of wireless technologies into the existing USDA infrastructure;\n\n     (2) Set the priorities for USDA wireless programs, projects, and activities based on\n         Departmentwide business requirements and available resources;\n\n     (3) Obtain the financial and human resources to implement USDA wireless programs,\n         projects, and activities;\n\n     (4) Represent the USDA to oversight agencies on wireless technologies-related issues;\n\n     (5) Serve as the USDA representative to the Diplomatic Telecommunications Service\n         Program Office (DTSPO);\n\n     (6) Respond to oversight agencies, such as Office of Management and Budget (OMB),\n         Government Accountability Office (GAO), Department of Homeland Security\n         (DHS), Department of Commerce (DOC), and Federal Communications\n         Commission (FCC), with timely and accurate USDA telecommunications program\n         and cost information; and\n\n     (7) Perform management and oversight responsibilities in accordance with the Federal\n         Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113-\n         291, as applicable to this directive.\n\nb.   The ENS Director will:\n\n     (1) Establish policies and procedures for the management of wireless technologies\n         throughout USDA;\n\n     (2) Oversee Mission Area, agency, and staff office compliance with USDA wireless\n         technologies policies and procedures;\n\n     (3) Manage USDA wireless technologies in accordance with prescribed laws,\n         regulations, standards, and related USDA 3300 Series telecommunications\n         directives;\n\n     (4) Grant technical approval for acquisition of new wireless technologies when the\n         analysis of the request indicates that this is the best approach for USDA;\n\n     (5) Review and render a decision for Mission Area, agency, and staff office policy\n         waiver requests;\n\n     (6) Maintain an electronic file of approved waivers;\n\n     (7) Work with Mission Areas, agencies, and staff offices to eliminate redundant\n\n                                              6\n\f         or unused wireless technologies;\n\n     (8) Include wireless technology requirements and initiatives as part of the\n         telecommunications planning process;\n\n     (9) Use GSA and USDA mandated programs when Mission Area, agency, and staff\n         office requirements can be met cost effectively; and\n\n     (10) Maintain inventories of USDA wireless networks and devices to the extent\n          necessary to:\n\n         (a) Ensure that there are adequate and appropriate wireless networks and devices\n             to support the Mission Area, agency, and staff office mission;\n\n         (b) Ensure accountability for USDA wireless networks and devices; and\n\n         (c) Meet Departmental and Federal requests for periodic or special inventory\n             reports.\n\nc.   Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT)\n     Directors will:\n\n     (1) Ensure Mission Area, agency. and staff office personnel comply with this directive;\n\n     (2) Ensure Mission Area, agency, and staff office internal directives conform to this\n         DR’s stated requirements;\n\n     (3) Lead the cost-effective implementation of programmatic applications of wireless\n         technologies;\n\n     (4) Establish cooperative or collaborative programs with other Mission Areas, agencies,\n         and staff offices to promote the cost-effective adoption of wireless technologies\n         throughout USDA;\n\n     (5) Set priority levels for internal programs, projects, and activities, that include\n         wireless technologies, basing these priorities on business requirements and\n         available resources;\n\n     (6) Adhere to Federal and USDA wireless strategies, policies, standards, and best\n         practices;\n\n     (7) Align wireless technology planning, acquisition, design, integration, and\n         management plans with the current USDA Information Technology Strategic Plan,\n         USDA EA, USDA standards and Departmental directives, and Federal guidelines\n         promulgated by Office of Science and Technology Policy (OSTP), OMB, National\n         Telecommunications and Information Administration (NTIA), Federal CIO\n\n\n                                                7\n\f           Council, DHS, National Institute of Standards and Technology (NIST), FCC, and\n           other Federal organizations that manage wireless technologies;\n\n       (8) Assess, design, implement, manage, and maintain a wireless network architecture\n           that is compatible and fully integrated with the Universal Telecommunications\n           Network (UTN);\n\n       (9) Provide guidance to end users on the appropriate and secure use of Government\n           wireless technologies;\n\n       (10) Obtain waivers and approvals from the ENS Director when agency and staff office\n            requirements cannot be met through mandated programs;\n\n       (11) Assign TMACOs to select required wireless technology from GSA Program follow-\n            on contracts for the Mission Areas, agencies, and staff offices. More information\n            on this topic can be found in DR 3300-020, Telecommunications Mission Area\n            Control Officer Roles and Responsibilities;\n\n       (12) Include wireless technology requirements and initiatives as part of the\n            telecommunications planning process;\n\n       (13) Provide the TMACO’s name and contact information to the USDA CIO; and\n\n       (14) Maintain Mission Area, agency, and staff office inventories of USDA\n            wireless networks and devices to the extent necessary to:\n\n           (a) Ensure that adequate and appropriate wireless networks and devices support\n               the Mission Area, agency, or staff office mission;\n\n           (b) Ensure accountability for USDA wireless networks and devices; and\n\n           (c) Meet Departmental and Federal requests for periodic or quarterly inventory\n               reports.\n\n  d.   TMACOs will perform their roles and responsibilities as provided in DR 3300-020."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "db2cade2-497c-5d12-9637-e1f13c17d9ed",
+        "class": "section",
+        "title": "Compliance",
+        "controls": [
+          {
+            "id": "dr3300-026-7",
+            "class": "policy-requirement",
+            "title": "Compliance",
+            "parts": [
+              {
+                "id": "dr3300-026-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16 sets forth\n       USDA’s policies, procedures, and standards on employee responsibilities and conduct\n       relative to the use of computers and telecommunications equipment. DR 4070-735-001,\n       Section 21, states that a violation of any of the responsibilities and conduct standards\n       contained in this directive may be cause for disciplinary or adverse action; and\n\n  b.   Such disciplinary or adverse action will be effected in accordance with applicable law\n       and regulations such as Office of Personnel Management (OPM) regulations, OMB\n\n                                                 8\n\f       regulations, and the Standards of Ethical Conduct for Employees of the Executive\n       Branch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12d82447-fa52-500f-8d4f-8078c9351895",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3300-026-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3300-026-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy. If a specific policy requirement cannot be met as explicitly stated, Mission\n       Areas, agencies, and staff offices may submit a waiver request to the ENS Director for\n       review and determination. Submit the waiver request to ens.policy@usda.gov. The\n       waiver request will explain the reason for the request, identify compensating controls\n       and actions that meet the intent of the policy, and identify how the compensating\n       controls and actions provide a similar or greater level of defense or compliance than the\n       policy requirement.\n\n  b.   Waivers to stipulations of this directive that have been granted approval by the ENS\n       Director and that are associated with a NIST Special Publication (SP) 800-53 Revision\n       4, Security and Privacy Controls for Federal Information Systems and Organizations,\n       control will be recorded and tracked as a Plan of Action and Milestones (POA&M) item\n       in the USDA Federal Information Security Modernization Act of 2014 (FISMA), 44\n       United States Code (U.S.C.) Section 3551, data management and reporting tool.\n\n  c.   Waivers will expire at the end of the fiscal year or 6 months from the date of approval,\n       whichever is longer. Unless otherwise specified, Mission Areas, agencies, and staff\n       offices will review and renew approved policy waivers every fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b12d1cab-effd-59e8-90ed-a8bf56a76315",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3300-026-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3300-026-9-stmt",
+                "name": "statement",
+                "prose": "Questions and comments concerning the requirements of this regulation should be\n  directed to OCIO, DISC, ENS, TIMG at ens.policy@usda.gov.\n\n\n                                              -END-\n\n\n\n\n                                                 9\n\f                               APPENDIX A\n\n                  ACRONYMS AND ABBREVIATIONS\n\n\nCFR       Code of Federal Regulations\nCIO       Chief Information Officer\nCoS       Class of Service\nDHS       Department of Homeland Security\nDISC      Digital Infrastructure Services Center\nDM        Departmental Manual\nDNS       Domain Name System\nDOC       Department of Commerce\nDR        Departmental Regulation\nDTSPO     Diplomatic Telecommunications Service Program Office\nEA        Enterprise Architecture\nENS       Enterprise Network Services\nFCC       Federal Communications Commission\nFISMA     Federal Information Security Modernization Act\nFITARA    Federal Information Technology Acquisition Reform Act\nGAO       Government Accountability Office\nGSA       General Services Administration\nIEEE-SA   Institute of Electrical and Electronics Engineer – Standards Association\nIP        Internet Protocol\nIT        Information Technology\nMAC       Media Access Control\nNIST      National Institute of Standards and Technology\nNTIA      National Telecommunications and Information Administration\nOCIO      Office of the Chief Information Officer\nOMB       Office of Management and Budget\nOPM       Office of Personnel Management\nOSTP      Office of Science and Technology Policy\nP.L.      Public Law\nPOA&M     Plan of Action and Milestones\nQoS       Quality of Service\nSME       Subject Matter Expert\nSP        Special Publication\nTIMG      Telecommunications Infrastructure Management and Governance\nTMACO     Telecommunications Mission Area Control Officer\nU.S.C.    United States Code\nUSDA      United States Department of Agriculture\nUTN       Universal Telecommunications Network\nWi-Fi     Wireless Fidelity\nWLAN      Wireless Local Area Network\n\n\n\n\n                                       A-1\n\f                                      APPENDIX B\n\n                                     DEFINITIONS\n\n\na.   Domain Name System (DNS) Server. Any computer registered to join the DNS. A\n     DNS server runs special purpose networking software, features an internet protocol (IP)\n     address, and contains a database of network names and addresses for other internet\n     hosts. DNS servers can be configured to perform as an authoritative name server, a\n     recursive caching server, or both (Source: USDA, DR 3300-025, Secure Domain Name\n     System, March 18, 2016)\n\nb.   Enterprise Architecture (EA). The description of an enterprise’s entire set of\n     information systems: how they are configured, how they are integrated, how they\n     interface to the external environment at the enterprise’s boundary, how they are operated\n     to support the enterprise mission, and how they contribute to the enterprise’s overall\n     security posture. (Source: NIST, Information Technology Laboratory, Computer\n     Security Resource Center, Glossary)\n\nc.   Gateway. An intermediate system (interface, relay) that attaches to two (or more)\n     computer networks that have similar functions but dissimilar implementations and that\n     enables either one-way or two-way communication between the networks. (Source:\n     NIST, Information Technology Laboratory, Computer Security Resource Center,\n     Glossary)\n\nd.   Information Technology (IT). Any services or equipment, or interconnected system(s)\n     or subsystem(s) of equipment, that are used in the automatic acquisition, storage,\n     analysis, evaluation, manipulation, management, movement, control, display, switching,\n     interchange, transmission, or reception of data or information by the Agency where such\n     services or equipment are used by an Agency, if used by the Agency directly or if used\n     by a contractor under a contract with the Agency, that requires either use of the services\n     or equipment or requires use of the services or equipment to a significant extent in the\n     performance of a service or the furnishing of a product. The term information\n     technology includes computers, ancillary equipment (including imaging peripherals,\n     input, output, and storage devices necessary for security and surveillance), peripheral\n     equipment designed to be controlled by the central processing unit of a computer,\n     software, firmware and similar procedures, services (including provisioned services such\n     as cloud computing and support services that support any point of the lifecycle of the\n     equipment or service), and related resources. The term “information technology” does\n     not include any equipment that is acquired by a contractor incidental to a contract that\n     does not require use of the equipment. (Source: OMB, M-15-14, Management and\n     Oversight of Federal Information Technology, June 10, 2015)\n\ne.   Telecommunications. The preparation, transmission, communication, or related\n     processing of information (writing, images, sounds, or other data) by electrical,\n     electromagnetic, electromechanical, electro-optical, or electronic means. (Source:\n\n\n\n                                             B-2\n\f     NIST, Information Technology Laboratory, Computer Security Resource Center,\n     Glossary)\n\nf.   Wireless Technologies. Technologies that permits the transfer of information between\n     separated points without physical connection. Note: Currently wireless technologies\n     use infrared, acoustic, radio frequency, and optical. (Source: NIST, Information\n     Technology Laboratory, Computer Security Resource Center, Glossary)\n\n\n\n\n                                            B-2\n\f                                    APPENDIX C\n\n                        AUTHORITIES AND REFERENCES\n\n\nFederal CIO Council, Recommended Executive Branch Model Policy/Guidance on\n“Limited Personal Use” of Government Office Equipment Including Information\nTechnology, May 19, 1999\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §3551, et seq.,\nDecember 18, 2014\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, 128 Stat.\n3292, Title VIII, Subtitle D, §831-837, December 19, 2014\n\nFederal Travel Regulation, 41 Code of Federal Regulations (CFR) 300, July 1, 2018\n\nIEEE-SA, 802.11 Standards\n\nNIST, Information Technology Laboratory, Computer Security Resource Center, Glossary\n\nNIST, SP 800-53 Revision 4, Security and Privacy Controls for Federal Information Systems\nand Organizations, April 2013, includes updates as of January 22, 2015\n\nOffice of Government Ethics, Standards of Ethical Conduct for Employees of the Executive\nBranch, November 18, 2016, Effective January 1, 2017\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016\n\nOMB, M-15-14, Management and Oversight of Federal Information Technology, June 10,\n2015\n\nUSDA, DR 3300-020, Telecommunications Mission Area Control Officer Roles and\nResponsibilities, July 12, 2019\n\nUSDA, DR 3300-025, Secure Domain Name System, March 18, 2016\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct (October 4, 2007)\n\nUSDA, Quality of Service (QoS)/Class of Service (CoS) Standard, Version 1.0, January 10,\n2012\n\nUSDA, USDA Information Technology Strategic Plan 2014-2018\n\nUSDA, 3300 Series Telecommunications Directives\n\n\n\n                                           C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "9e17f5db-e453-5bf7-b78b-3247c4944678",
+          "title": "USDA Directives — DR3300-026",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-026",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

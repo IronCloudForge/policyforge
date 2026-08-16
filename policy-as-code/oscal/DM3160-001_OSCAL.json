@@ -1,0 +1,259 @@
+{
+  "catalog": {
+    "uuid": "98341bf7-cf17-5bcc-8f5f-6931746bb48d",
+    "metadata": {
+      "title": "USDA DM3160-001: Licensed Information Technology (IT) Software Procedures",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2019-06-11",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DM3160-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Manual"
+        },
+        {
+          "name": "effective-date",
+          "value": "2019-06-11"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dm-3160-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer – Client Experience",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dm-3160-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer – Client Experience"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "be078786-929f-5c4f-b4b5-f2ee8d770a79",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dm3160-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dm3160-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Manual (DM) establishes the process for how the United States\n     Department of Agriculture (USDA) manages licensed information technology (IT) software\n     and how to determine payment for fewer or additional licenses using an annual reconciliation\n     process, in accordance with the enterprise agreement between the vendor and USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d5eefefd-7745-503b-b149-bb5f62443120",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dm3160-001-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dm3160-001-2-stmt",
+                "name": "statement",
+                "prose": "This DM applies to USDA Mission Areas, agencies, staff offices, employees, appointees,\n     contractors, volunteers, and others working for, or on behalf of, USDA who manage USDA-\n     supplied computer hardware and software in the performance of their duties on behalf of\n     USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "497a0e3e-a91e-5612-835e-bf0cf5a10a35",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dm3160-001-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dm3160-001-3-stmt",
+                "name": "statement",
+                "prose": "a.   The Federal Government spends a significant amount annually on software acquisitions\n       to enable business or mission functions. It is incumbent on USDA to ensure practices as\n       a purchaser and user of licensed software are carried out effectively, efficiently, and in\n       compliance with all applicable legislation and copyrights, for example Federal\n       Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113-291\n       § 831-837; Federal Information Security Modernization Act of 2014 (FISMA), 44\n       United States Code (U.S.C.) § 3551, et seq.; and Office of Management and Budget\n       (OMB), Memorandum M-16-12, Category Management Policy 16-1: Improving the\n       Acquisition and Management of Common Information Technology: Software Licensing.\n\n  b.   USDA acquires software licenses and must only use the software and documentation in\n       accordance with applicable license agreements. USDA does not own such software or\n       its related documentation. Except as specifically authorized by a software licenser in an\n       agreement, USDA Mission Areas, agencies, staff offices, employees, appointees,\n       contractors, volunteers, and others who are working for, or on behalf of, USDA and are\n       authorized to use USDA-supplied licensed software in performing their functions are\n       prohibited from reproducing licensed software or related documentation.\n\n  c.   Licensed agreements, licensed software means that “free software” is prohibited from\n       installation on USDA systems without approved waiver requests. Penalties will apply to\n       any violation of this requirement.\n\n  d.   USDA Mission Areas, agencies, and staff offices are responsible for distributing and\n       maintaining software license agreements reflecting their purchased/installed software\n       licenses that should be available for reference to determine if copies can be made, for\n       example, for backup or archival purposes, and to assure compliance with all provisions\n       of the software agreement.\n\n  e.   USDA Mission Areas, agencies, staff offices, employees, and others working for, or on\n       behalf of, USDA and are authorized to purchase software outside of the standard\n       acquisition procedures for USDA are responsible for the licensing, compliance,\n       maintenance, service, and annual “true-up” for software purchases. The annual “true-\n       up” is a process for reconciling licenses purchased by USDA against those that are\n       installed on USDA computer systems.\n\n  f.   Respect for intellectual effort and creativity is vital. This principle applies to works of\n       all authors and publishers in media. Because software is easily reproduced, respect for\n       the work and creativity of others is especially critical. USDA has both a legal and\n       ethical responsibility to prevent unauthorized duplication and distribution of software.\n\n\n\n\n                                                2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "010781cd-a83a-5d6a-9966-11c79f04edf5",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dm3160-001-4",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dm3160-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   This DM is effective immediately and shall remain in effect until superseded or\n       expiration;\n\n  b.   The overarching policies and roles and responsibilities for this DM are provided in\n       Departmental Regulation (DR) 3160-001, Licensed Information Technology (IT)\n       Software;\n\n  c.   If a specific provision of this DM is superseded by another regulation or otherwise\n       invalidated by external laws, directives, or standard practices the remaining provisions\n       shall not be invalidated; and\n\n  d.   The term “agency” or phrase “agency and staff office,” unless otherwise noted in this\n       directive, will be considered to encompass the Mission Areas, agencies, and staff offices\n       of USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1a8812b4-6045-506e-9a14-60d2992c0e65",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dm3160-001-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dm3160-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   USDA Mission Area Assistant CIOs, Agency and Staff Office IT Directors, and\n       Contractor IT Leads will:\n\n       (1) Communicate the terms and restrictions of IT licensed software;\n\n       (2) Make clear USDA’s policy and penalties for the installation and use of free and/or\n           unauthorized free software; and\n\n       (3) Include a statement along with the yearly reconciliation process certification that\n           users of computer software have been made aware of the terms and conditions of an\n           acquired software product’s license agreement and to abide by such agreement and\n           the associated penalties for not adhering to the terms of agreement.\n\n  b.   USDA Mission Areas, agencies, staff offices, employees, appointees, contractors,\n       volunteers, and others working for, or on behalf of, USDA using reconciliation software\n       other than approved and authorized software programs or applications will receive\n       written approval from the USDA Client Experience Center (CEC) Category\n       Management Office (CMO) before using and submitting their reconciliation report.\n\n  c.   End users who provide information services and products, including instruction in the\n       use of software resources, will refrain from copying and distributing software and\n       related documentation, except as specifically authorized by licensed agreement, but also\n       clearly inform users they are responsible licensees of such proprietary products.\n\n\n\n\n                                               3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c860d3f2-cfa1-5146-895c-4ea11ee30c66",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dm3160-001-6",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dm3160-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   This section provides an overview of the procedures for managing USDA licensed IT\n       software and how to determine payment for additional licenses during the annual\n       reconciliation process, in accordance with the enterprise agreement between the vendor\n       and USDA to include the use of approved configuration management tools (or similar\n       approved products), to track and manage licensed software.\n\n  b.   To get an accurate picture of the versions and licenses deployed across the environment,\n       many USDA Mission Areas, agencies, and staff offices have enabled client software on\n       hardware devices that can be leveraged to pull asset reports that detail the versions and\n       quantities of software deployed on desktops, laptops, and servers. These reports are\n       used to develop and confirm procurement requirements to ensure that software contracts\n       are licensed appropriately.\n\n       Requirement: On an annual basis, each March, the USDA Office of the Chief\n       Information Officer (OCIO) approved reconciliation software is used to identify all\n       installed software products across USDA in support of the required yearly reconciliation\n       (or subsequent requirement name).\n\n  c.   As part of the reconciliation process, the Mission Area, agency, and staff offices\n       Contracting Officer’s Representative (COR) provides the CMO (or subsequent name)\n       with the initial number of installed enterprise software licenses. Mission Areas,\n       agencies, and staff offices must pay for any additional software licenses installed on\n       servers, desktops, laptops, or any device that exceeds the initial number of licenses\n       purchased and/or the additional licenses paid for from a previous reconciliation.\n\n       A major benefit to the reconciliation is that customers automatically receive software\n       upgrades.\n\n  d.   Annual Reconciliation Process Inputs\n\n       (1) USDA IT software license reconciliation numbers are based on enterprise software\n           agreements; and\n\n       (2) Yearly reconciliation pricing based on enterprise software agreements.\n\n  e.   Servers, Desktops, Laptops, and Tablets\n\n       USDA Mission Areas, agencies, and staff offices are responsible for installing server,\n       desktop, and laptop software and running annual software reconciliation reports that\n       compare installed software quantities against authorized software quantities. When\n       installed software quantities exceed the amount authorized under the contract USDA\n       Mission Areas, agencies, and staff offices are required to:\n\n       (1) Remove the exceeded quantities;\n\n\n                                               4\n\f     (2) Provide authorized funding to pay for the additional installed software; and\n\n     (3) Forward the authorized funding to the OCIO-CEC-Category Management Office\n         (hereby referred to as CMO staff).\n\nf.   CMO Staff\n\n     The CMO staff prepares the formal request with the authorized funding and coordinates\n     with USDA Mission Area Senior Contracting Officials (MASCO) to authorize and pay\n     for the additional licenses.\n\ng.   Annual Reconciliation Process Outputs\n\n     (1) USDA Mission Areas, agencies, and staff offices complete the formal request and\n         funding authorization which are then submitted to CMO staff at:\n         ITCategoryManagement@ocio.usda.gov.\n\n     (2) Reconciliation funding memorandums are retained by CMO staff overseeing\n         enterprise licensed software contracts.\n\nh.   Licensed Software Reconciliation Sub-Process Steps\n\n     (1) USDA Mission Areas, agencies, and staff offices shall provide oversight in:\n\n         (a) Performing an annual reconciliation process; and\n\n         (b) Running the approved software management tool(s) to determine how many\n             licensed IT software copies are installed.\n\n     (2) Determine the number of additional licenses to be purchased by referencing the\n         previous reconciliation licenses spreadsheet.\n\ni. Add the base licenses plus reconciliation licenses already purchased. If the configuration\n   report shows more licenses installed than paid for, then the USDA Mission Area, agency,\n   or staff office must pay the reconciliation amount.\n\nj. Exit Criteria for Yearly Reconciliation\n\n     The Yearly Reconciliation is completed when:\n\n     (1) An accurate count of approved and authorized software installed is completed;\n\n     (2) A comparison of reconciliation process software quantity with the software contract\n         is completed and provided to the CMO and the MASCO; and\n\n\n\n                                             5\n\f       (3) Payment is executed by the MASCO for overage or refund or credit requested for\n           being under the contract maximum.\n\n  k.   Supporting Documents\n\n       Users will find supporting documents at the Category Management Interest Group\n       SharePoint site.\n\n  l.   Verification\n\n       CMO staff will verify that the process is being performed by annually reviewing this\n       document and the artifacts that are the output of this document.\n\n  m. Validation\n\n       To validate this process, CMO staff will have the verification document peer reviewed\n       by relevant subject matter experts (SME) before approval. Afterward, its continued\n       validity will be determined during periodic management reviews.\n\n  n.   Training\n\n       CMO staff will include training in this process for appropriate staff as part of its\n       comprehensive training program.\n\n  o.   Sustainment\n\n       CMO staff will sustain this process by conducting routine management reviews of this\n       verification document during the period of performance to determine if the process\n       needs to be revised.\n\n  p.   CMO Staff Updates\n\n       (1) USDA, DM 3160-001, Licensed Information Technology (IT) Software Procedures;\n\n       (2) Category Management Reconciliation Licenses Spreadsheet; and\n\n       (3) Configuration or approved reports."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c9034f15-912f-5edd-a2e7-7eaca301518e",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Non-Compliance",
+        "controls": [
+          {
+            "id": "dm3160-001-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Non-Compliance",
+            "parts": [
+              {
+                "id": "dm3160-001-7-stmt",
+                "name": "statement",
+                "prose": "The reporting USDA Mission Area, agency, or staff office shall make clear its policy and\n  penalties for installing and using free and/or unauthorized software and management oversite\n  failures.\n\n\n\n\n                                                6\n\f  DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, sets forth USDA\n  policies, procedures, and standard practices on employee responsibilities and conduct\n  regarding the use of computers and telecommunications equipment. In addition, DR 4070-\n  735-001, Section 21, Disciplinary or Adverse Action, states:\n\n  a.   A violation of any of the responsibilities and conduct standards contained in this DR\n       may be cause for disciplinary or adverse action; and\n\n  b.   Disciplinary or adverse action shall be affected in accordance with applicable law and\n       regulations.\n\n  Such disciplinary or adverse action shall be effected in accordance with applicable law and\n  regulations such as the Code of Ethics for Government Employees, Office of Personnel\n  Management (OPM) regulations, OMB regulations, and Standards of Ethical Conduct for\n  Federal Employees of the Executive Branch, 5 CFR 2635."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "78d97155-9284-55bf-8819-6e26a8c4f996",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dm3160-001-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dm3160-001-8-stmt",
+                "name": "statement",
+                "prose": "Questions and comments concerning the requirements of this regulation should be directed to\n  OCIO-CEC-CMO at ITCategoryManagement@ocio.usda.gov.\n\n\n                                           - END -\n\n\n\n\n                                              7\n\f                          APPENDIX A\n\n              ACRONYMS AND ABBREVIATIONS\n\n\nCOR      Contracting Officer’s Representative\nCEC      Client Experience Center\nCFR      Code of Federal Regulations\nCMO      Category Management Office\nDM       Departmental Manual\nDR       Departmental Regulation\nFISMA    Federal Information Security Modernization Act\nFITARA   Federal Information Technology Acquisition Reform Act\nIT       Information Technology\nMASCO    Mission Area Senior Contracting Officials\nOCIO     Office of the Chief Information Officer\nOMB      Office of Management and Budget\nOPM      Office of Personnel Management\nP.L.     Public Law\nSME      Subject Matter Expert\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                               A-1\n\f                                       APPENDIX B\n\n                            AUTHORITIES AND REFERENCES\n\n\nExecutive Order 13103, Computer Software Piracy, September 30, 1998\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551, et seq.,\nDecember 18, 2014 (2017)\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291 § 831-837,\nDecember 19, 2014\n\nOMB, Circular A-130, Appendix III, Responsibilities for Protecting Federal Information\nResources, July 28, 2016\n\nOMB, Memorandum M-16-12, Category Management Policy 16-1: Improving the Acquisition\nand Management of Common Information Technology: Software Licensing, June 2, 2016\n\nStandards of Ethical Conduct for Federal Employees of the Executive Branch, 5 CFR 2635\n(2018)\n\nUSDA, Category Management Interest Group SharePoint site\n\nUSDA, DR 3160-001, Licensed Information Technology (IT) Software, May 16, 2019\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\n\n\n\n                                             B-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "58c522ec-ae2d-547b-98bd-bf85e2bf5ba7",
+          "title": "USDA Directives — DM3160-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dm-3160-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

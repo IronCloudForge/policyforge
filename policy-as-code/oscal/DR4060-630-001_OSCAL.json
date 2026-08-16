@@ -1,0 +1,125 @@
+{
+  "catalog": {
+    "uuid": "c59c99b6-cf34-5a3f-b82d-e841ff9f7036",
+    "metadata": {
+      "title": "USDA DR4060-630-001: Creditable Service for Annual Leave Accrual",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2007-08-08",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4060-630-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2007-08-08"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4060-630-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Capital Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4060-630-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Capital Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "a49f835c-12fb-5743-b55a-0f7513e9046d",
+        "class": "section",
+        "title": "Disposition Of Accrued Leave Upon Separation Or Transfer",
+        "controls": [
+          {
+            "id": "dr4060-630-001-11",
+            "class": "policy-requirement",
+            "title": "Disposition Of Accrued Leave Upon Separation Or Transfer",
+            "parts": [
+              {
+                "id": "dr4060-630-001-11-stmt",
+                "name": "statement",
+                "prose": "Annual leave accrued by an employee remains to the credit of the employee, even\n       if he or she fails to complete 1 full year of continuous service with USDA. The\n       USDA agency must transfer the annual leave balance to the new employing\n       Department if the employee is transferring to a position to which annual leave\n       may be transferred, or provide a lump-sum payment for unused annual leave if the\n       employee is separating from Federal service or moving to a new position to which\n       annual leave cannot be transferred. The service computation date should be\n       adjusted in accordance with Section 11 of this regulation, as necessary."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aa25c2c9-f2e6-5722-98c8-9235f086bcf6",
+        "class": "section",
+        "title": "Nondiscrimination",
+        "controls": [
+          {
+            "id": "dr4060-630-001-12",
+            "class": "policy-requirement",
+            "title": "Nondiscrimination",
+            "parts": [
+              {
+                "id": "dr4060-630-001-12-stmt",
+                "name": "statement",
+                "prose": "Determinations for granting credit for prior work experience will be made in\n       accordance with the Department’s civil rights anti-discrimination policy that\n       states in part:\n\n       In accordance with Federal civil rights law and U.S. Department of\n       Agriculture (USDA) civil rights regulations and policies, the USDA, its\n       Agencies, offices, and employees, and institutions participating in or\n       administering USDA programs are prohibited from discriminating based on\n       race, color, national origin, religion, sex, disability, age, marital status,\n       family/parental status, income derived from a public assistance program,\n       political beliefs, or reprisal or retaliation for prior civil rights activity, in any\n       program or activity conducted or funded by USDA (not all bases apply to\n       all programs).\n\n\n                                             -END-\n\n\n\n\n                                                6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "14879044-5608-54b6-ba72-8bf7bc7999fa",
+          "title": "USDA Directives — DR4060-630-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4060-630-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

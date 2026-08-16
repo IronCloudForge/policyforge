@@ -1,0 +1,230 @@
+{
+  "catalog": {
+    "uuid": "462d90a4-492a-5aea-8dd9-5adc5a3c1c70",
+    "metadata": {
+      "title": "USDA DR1051-003: Citation of Science & Technology (S&T) Agreements in USDA S&T Arrangements",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-01-07",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1051-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-01-07"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1051-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Scientist (OCS), January 7, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1051-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Scientist (OCS), January 7, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "841fe6f1-a3a5-5cf3-bcbc-43c135fab51c",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1051-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1051-003-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) policy for the proper citation of U.S. bilateral science and technology (S&T)\n     agreements in USDA S&T arrangements with:\n\n     a.   Foreign governments;\n\n     b.   Foreign government instrumentalities; and\n\n     c.   Domestic partners that intend to utilize foreign governments or foreign government\n          instrumentalities as third parties."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7fe30e4d-6c9d-54bd-9903-f47a69a21756",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr1051-003-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr1051-003-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes Interim Policy, Citation of S&T Agreements in USDA S&T\n          Arrangements, dated October 1, 2019.\n\f  b.   This DR will be in effect until superseded or the expiration date.\n\n  c.   All Mission Areas, agencies, and staff offices (hereinafter “USDA agencies”) will align\n       their policies and procedures with this DR within 3 months of the publication date.\n\n  d.   All USDA Mission Areas, agencies, and staff offices may supplement this DR when\n       developing their internal guidance. Modifications to the intent or purpose of this DR are\n       not allowed. If USDA Mission Areas, agencies, or staff offices publish internal\n       guidance that supplements this DR, forward one copy of each supplement to the Office\n       of the Chief Scientist (OCS) at OCSPolicy@usda.gov."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "743baacd-660a-5081-b6dc-f98b7ff9a688",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr1051-003-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr1051-003-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA agencies and employees, and contractors. Such entities must\n  comply with the terms of this DR relating to their S&T arrangements with domestic partners\n  that intend to utilize foreign governments or foreign government instrumentalities as third\n  parties."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d520d40a-5266-5390-99dc-f1314c9a6056",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr1051-003-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr1051-003-4-stmt",
+                "name": "statement",
+                "prose": "USDA is committed to promoting and protecting USDA investments in science, technology,\n  and innovation. International S&T cooperation can accelerate discoveries that contribute to\n  the health and well-being of the American people, while informing and working to solve\n  global challenges. However, cooperation should be conducted in a manner that is mutually\n  beneficial, while protecting USDA investments and, subsequently, U.S. economic and\n  national security.\n\n  S&T cooperation between the United States and foreign governments is undertaken using a\n  variety of mechanisms, from formal arrangements between governments to informal\n  scientist-to-scientist collaborations. The U.S. Department of State manages bilateral S&T\n  agreements on behalf of the U.S. Government (USG). S&T agreements establish\n  coordination and oversight of engagement across the USG with their foreign counterparts,\n  and provide a range of benefits to U.S. businesses, academia, government, and the public, in\n  support of U.S. economic and national security.\n\n  Foreign governments often seek S&T agreements with the USG because the agreements are\n  legally binding and negotiated on behalf of the USG. S&T agreements provide a multitude\n  of benefits, including establishing a framework to foster international science collaboration\n  while protecting intellectual property, establishing benefit sharing, and preventing taxation of\n  research equipment. If properly cited in subordinate documents S&T agreements can reduce\n  the burden on USG Departments and Agencies. Comprehensive citation of S&T agreements\n  allows for consistent implementation of provisions across the USG and saves resources by\n  avoiding renegotiation of terms already covered by S&T agreements. As such, USDA has\n\n\n\n                                               2\n\f  decided it is in the best interest of USDA investments to ensure comprehensive citation of\n  S&T agreements in S&T arrangements when applicable."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "34d3a5d9-42ca-5490-ae57-1dde4365e4da",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1051-003-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1051-003-5-stmt",
+                "name": "statement",
+                "prose": "a.   This policy is applicable to all USDA S&T arrangements (new and renewals) with:\n\n       (1) Foreign governments;\n\n       (2) Foreign government instrumentalities; and\n\n       (3) Domestic partners that intend to utilize foreign governments or foreign government\n           instrumentalities as third parties.\n\n  b.   In addition to including the applicable citation language set out in Section 5.e below, the\n       S&T agreements cited must accompany the documentation signed by the parties. Please\n       contact OCS for the list of S&T agreements and files.\n\n  c.   Prior to the beginning of negotiations, USDA agencies must notify OCS of any intent to\n       enter into S&T arrangements that:\n\n       (1) Will utilize citation text D (see below); or\n\n       (2) Will be legally binding and subject to international law, as this type of engagement\n           requires authorization from State Department under the Circular 175 procedure.\n\n  d.   Citation Framework\n\n       Language used in USDA S&T arrangements to cite the relevant S&T agreement will\n       vary depending on the type of partner (foreign/domestic), type of arrangement\n       (international law/U.S. law), and legal status of the arrangement (legally/non-legally\n       binding). Citation language to be used in various scenarios is provided in Section 5e\n       below. The following sequence of questions will determine the proper citation language\n       to use:\n\n       (1) Q1: Is the USDA arrangement with a foreign government/foreign government\n           instrumentality?\n\n            (a) Yes, proceed to Q2.\n\n            (b) No, it is with a domestic entity that will utilize foreign governments or foreign\n                government instrumentalities to conduct activities and it is legally binding (use\n                citation text A).\n\n\n\n\n                                               3\n\f         (c) No, it is with a domestic entity that will utilize foreign governments or foreign\n             government instrumentalities to conduct activities and it is not legally binding\n             (use citation text B).\n\n     (2) Q2: Is the arrangement legally binding?\n\n         (a) Yes, it is subject to domestic law (use citation text C).\n\n         (b) No, it is non-legally binding (use citation text D).\n\n         (c) Yes, it is subject to international law (contact OCS).\n\ne.   Citation Text Options\n\n     (1) Citation Text A (Domestic Entity/U.S. law/Legally Binding)\n\n         This [insert USDA document name] is governed by U.S. law.\n\n         A Party that utilizes foreign governments or foreign government instrumentalities to\n         conduct activities pursuant to this [insert USDA document name] shall conduct\n         such activities consistent with the [insert S&T agreement reference].\n\n         A Party shall notify foreign governments and foreign government instrumentalities\n         that are conducting cooperative activities under this [insert USDA document name]\n         for or on behalf of that Party that cooperative activities must be conducted\n         consistent with [insert S&T agreement reference].\n\n     (2) Citation Text B (Domestic Entity/Non-Legally Binding)\n\n         Participants recognize that cooperative activities conducted under this [insert\n         USDA document name] by foreign governments or foreign government\n         instrumentalities fall within the scope and are subject to the provisions of the\n         [insert S&T agreement reference].\n\n         A Participant should notify foreign government instrumentalities that are\n         conducting cooperative activities under this [insert USDA document name] for or\n         on behalf of that Participant that the provisions of the [insert S&T agreement\n         reference] apply to such activities.\n\n     (3) Citation Text C (Foreign Government or Foreign Government Instrumentality/U.S.\n         law /Legally Binding)\n\n         This [insert USDA document name] is governed by U.S. law.\n\n         The Parties shall conduct such activities under this [insert USDA document name]\n         consistent with the [insert S&T agreement reference].\n\n\n\n                                             4\n\f           A Party shall notify entities that are conducting cooperative activities under this\n           [insert USDA document name] for or on behalf of that Party that cooperative\n           activities must be conducted consistent with [insert S&T agreement reference].\n\n       (4) Citation Text D (Foreign Government or Foreign Government Instrumentality/Non-\n           Legally Binding)\n\n           Participants recognize that cooperative activities conducted under this [insert\n           USDA document name] fall within the scope and are subject to the provisions of the\n           [insert S&T agreement reference].\n\n           A Participant should notify entities that are conducting cooperative activities under\n           this [insert USDA document name] for or on behalf of that Participant that the\n           provisions of the [insert S&T agreement reference] apply to such activities.\n\n       USDA agencies should contact OCS to obtain copies of the relevant S&T agreements\n       and for further guidance on properly referencing S&T agreements within the citations.\n\n  f.   Derogations from Policy\n\n       USDA agencies may derogate from this policy only after consultation with and upon\n       receiving concurrence from OCS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d3c78889-2e75-57cf-8740-1ce6d930f056",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr1051-003-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr1051-003-6-stmt",
+                "name": "statement",
+                "prose": "OCS will manage and oversee the implementation of the specified policy in USDA agencies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e70004e3-ea0d-5fdb-806d-b944260a962a",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr1051-003-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr1051-003-7-stmt",
+                "name": "statement",
+                "prose": "Direct questions and comments concerning the requirements of this regulation to OCS at\n  OCSPolicy@usda.gov.\n\n\n\n                                            -END-\n\n\n\n\n                                               5\n\f                              APPENDIX A\n\n                  ACRONYMS AND ABBREVIATIONS\n\n\nDR       Departmental Regulation\nOCS      Office of the Chief Scientist\nS&T      Science & Technology\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\nUSG      U.S. Government\n\n\n\n\n                                   A-1\n\f                                          APPENDIX B\n\n                                          DEFINITIONS\n\n\nArrangement. Term used to describe any and all forms of legally binding documents, whether\ngoverned by domestic, foreign or international law, and non-legally binding documents, signed\nby representatives of the USDA.\n\nForeign government instrumentality. Any agency, bureau, ministry, component, institution,\nassociation, or any legal, commercial, or business organization, corporation, firm, or entity that is\nsubstantially owned, controlled, sponsored, commanded, managed, or dominated by a foreign\ngovernment. Foreign states often act through instrumentalities, such as Universities.\n\nGoverned by domestic law versus international law. Arrangements entered into with domestic\npartners are presumed to be subject to domestic law, unless the Participants have clearly evinced\nan intention not to be legally bound. Arrangements entered into with foreign governments or\nforeign government instrumentalities that contain language indicating an intent to be legally\nbound are presumed to be subject to international law absent any provision in the arrangement\nwith respect to governing law. Arrangements entered into with foreign governments or foreign\ngovernment instrumentalities may be made subject to domestic law through inclusion of a\nspecific provision so providing. Such provision may, but does not need to, include citation to\napplicable sections of the United States Code (U.S.C.). High-level USDA international S&T\narrangements such as memorandums of cooperation and S&T agreements are traditionally\ngoverned by international law. Memorandums of understanding and letters of intent are non-\nlegally binding. Most project level documents are governed by domestic law and reference the\napplicable U.S.C. section (common within USDA: 7 U.S.C.§ 3318(b) (ARS), 7 U.S.C. § 3291\n(ARS), 7 U.S.C. § 7701 (APHIS), 16 U.S.C. §§ 2101-2114 (USFS), and 7 U.S.C. 3318(b)\n(USFS)).\n\nLegally binding. Parties have agreed that obligations under an arrangement are to be governed\nby international or domestic law. The arrangement contains language evincing the Parties’\nintention to be legally bound such as: will, shall, agree, commit, undertake, ensure, must,\ncommitment, agreement, treaty, convention, protocol, entry into force, and Parties. Legally\nbinding arrangements with foreign governments or foreign government instrumentalities are\npresumed to be governed by international law unless specifically stated otherwise.\n\nNon-legally binding. Participants have not agreed that an arrangement will be governed by law.\nFailure to implement or conduct activities anticipated in such an arrangement will not result in\nlegal consequences. Participants may discontinue activties described in the arrangements at any\ntime, as neither Participant is legally bound to conduct the activities cited in the arrangement.\nTerminology often used in non-legally binding documents include: recognize, intend, plan to,\nmay, should, expect, endeavor, reaffirm, understanding, statement, declaration, sides,\narrangement, mechanism, date activities commence, and Participants.\n\n\n\n\n                                                B-1\n\f                                         APPENDIX C\n\n                             AUTHORITIES AND REFERENCES\n\n\n7 U.S.C. § 3291, International agricultural research, extension, and teaching\n\n7 U.S.C. § 3318(b), Contract, grant, and cooperative agreement authorities\n\n7 U.S.C. § 7701, Plant Protection Act\n\n16 U.S.C. §§ 2101-2114, Cotton Research and Promotion\n\nDepartment of State, Circular 175 Procedure, Treaty Procedures\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018\n\n\n\n\n                                              C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "28ec2f6d-91b5-5b19-b9a4-8dd78d23da0f",
+          "title": "USDA Directives — DR1051-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1051-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

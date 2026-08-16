@@ -1,0 +1,316 @@
+{
+  "catalog": {
+    "uuid": "6dcb9027-4066-59b8-aa95-36555938b3bc",
+    "metadata": {
+      "title": "USDA DR3060-001: USDA Correspondence Management",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2010-11-10",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3060-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2010-11-10"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3060-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Executive Secretariat",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3060-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Executive Secretariat"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "82b5e776-c410-5044-ab97-869bcf6adcfc",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3060-001-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3060-001-3-stmt",
+                "name": "statement",
+                "prose": "a. Correspondence shall be used to communicate within and outside the Department. It\n        will not be used to establish, change, or rescind policies, procedures, or instructions\n        contained in Departmental or agency directives.\n\n     b. All correspondence shall use clear, accessible, and concise language and style. It\n        shall be written in a manner appropriate for the correspondent, accounting for level of\n        expertise, educational background, and any physical limitations to the extent possible.\n\n     c. Received correspondence shall be responded to in a timely and appropriate manner.\n        It shall answer the concerns and inquiries of the correspondent to the maximum\n        extent possible.\n\n     d. Each agency and staff office shall establish and maintain a correspondence\n        management system in accordance with this directive. All Priority Correspondence\n        shall be recorded in a single Departmental system."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5d200faa-d20b-5fba-a95a-c2f9d1f688fe",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr3060-001-4",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr3060-001-4-stmt",
+                "name": "statement",
+                "prose": "Other sources which provide general guidance on correspondence management, style\n     preferences, information security, etc., are:\n\n     a. DR 0100-1, Departmental Directives System;\n     b. DR3080-001, Records Management;\n     c. DR3090-001, Litigation Retention Policy for Documentary Materials including\n        Electronically Stored Information;\n     d. DR-4070-735-001, Employee Responsibilities and Conduct\n     e. DR3440-002, Control and Protection of Sensitive Security Information;\n     f. DR3440-001, Safeguarding Classified Information;\n     g. DR 3050-1, Mail Management;\n     h. DR3550-02, Sensitive But Unclassified (SBU) Information Protection;\n     i. DR5160-001, Official Seal of the Department;\n     j. Federal Plain Language Guidelines;\n     k. Federal Plain Language Guidelines: Writing Effective Letters supplement;\n     l. The Gregg Reference Manual;\n     m. Official Congressional Directory;\n     n. USDA Stationery Systems, Office of Communications (OC), USDA;\n     o. U.S. Government Correspondence Manual, Government Accountability Office\n        (GAO); and,\n\n                                              2\n\f     p. U.S. Government Style Manual, Government Printing Office (GPO)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8401a20c-b231-5b49-bde8-407a16016b35",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr3060-001-5",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr3060-001-5-stmt",
+                "name": "statement",
+                "prose": "a. Agency refers to a bureau, mission area, and departmental staff office, as defined in\n        DR1010-001, Organization.\n\n     b. Campaign Correspondence is a subset of correspondence. Campaign correspondence\n        refers to mass produced or organizationally instigated correspondence. Such\n        correspondence is usually electronic (email or fax), often generated from a Web site,\n        and typically advocates for a specific policy or action by the Department. This class\n        of correspondence does not include public comments made in response to a proposed\n        regulatory action.\n\n     c. Clearance is the formal act of approving the content within a document. It also refers\n        to the business process for ensuring the review and approval of documents.\n\n     d. Clearing Official refers to an official who has been requested to clear draft\n        correspondence by a Signing Official.\n\n     e. Controlled Correspondence is correspondence that is formally received, tracked, and\n        managed using a correspondence management system.\n\n     f. Correspondence refers to official written communications. Correspondence may be\n        internal or external in nature, and may be transmitted in person or through mail, fax,\n        or email.\n\n     g. Immediate Office of the Secretary refers to the office containing the Secretary,\n        Deputy Secretary, and their immediate staff.\n\n     h. Office of the Secretary refers to the office containing the Immediate Office of the\n        Secretary, the offices of all Under and Assistant Secretaries, and Departmental Staff\n        Offices which report directly to the Secretary.\n\n     i. Priority Correspondence is a subset of correspondence. All Priority Correspondence\n        shall be controlled correspondence. It includes:\n\n         (1) All correspondence received from elected or appointed Federal, State, local,\n             foreign, and Tribal officials, members of Congress, and Governors that is received\n             by the Office of the Secretary and senior agency officials.\n\n         (2) At the discretion of the addressee it may also be expanded to include other\n             categories of important correspondence, such as correspondence received from\n             major trade associations, academic institutions, or international organizations.\n\n\n                                              3\n\f     j. Protected Information refers to all information designated as classified, sensitive, or\n        personally identifiable. Distribution and disclosure of protected information within\n        correspondence is subject to additional regulations. For additional information see:\n\n         (1) Appendix A;\n\n         (2) DR3440-001, Safeguarding Classified Information;\n\n         (3) DR3440-002, Control and Protection of Sensitive Security Information;\n\n         (4) DR3550-02, Sensitive But Unclassified (SBU) Information Protection;\n\n         (5) Freedom of Information Act (5 U.S.C. 552); and,\n\n         (6) Privacy Act of 1974 (5 U.S.C. 552).\n\n     k. Secretarial Correspondence is correspondence addressed to the Secretary and Deputy\n        Secretary. All Secretarial Correspondence is controlled correspondence.\n\n     l. Signing Official refers to the official who is designated to sign an individual piece of\n        correspondence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "75981f7c-6def-5734-9138-de6a77dc17de",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr3060-001-6",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr3060-001-6-stmt",
+                "name": "statement",
+                "prose": "a. Under Secretaries, Assistant Secretaries, Agency Heads, and Staff Office Directors\n        shall:\n\n         (1) Designate a Controlled Correspondence Officer and a Correspondence Liaison to\n             serve as direct contact points with the Office of the Executive Secretariat (OES)\n             for Priority Secretarial Correspondence; and,\n\n         (2) Ensure agency personnel comply with deadlines for the preparation of responses\n             to received correspondence, as established by the Secretary.\n\n     b. The Agency Controlled Correspondence Officer (CCO) shall:\n\n         (1) Report to the Director of Public Affairs, or an equivalent position within the\n             organization, on matters related to Secretarial Correspondence;\n\n         (2) Internally track all controlled correspondence and ensure that a response to this\n             correspondence is provided within ten working days of receipt by the agency;\n             and,\n\n         (3) Serve as the primary point of contact to OES for all matters related to Secretarial\n             Correspondence.\n\n                                              4\n\fc. The Correspondence Liaison shall:\n\n   (1) Report to the Under Secretary, Assistant Secretary, Agency Head, or Staff Office\n       Director on matters related to Secretarial Correspondence;\n\n   (2) Periodically review the quality and timeliness of all controlled correspondence\n       managed or prepared by the agency;\n\n   (3) Lead internal efforts to improve the agency’s correspondence program.\n\nd. Departmental Agencies and Staff Offices shall:\n\n   (1) Consistent with Departmental standards, develop policies, standards, and\n       procedures for internal correspondence management;\n\n   (2) Establish management controls to ensure appropriate levels of quality and\n       timeliness, including the management and preparation of correspondence;\n\n   (3) Ensure all Priority Correspondence is entered into the Departmental\n       correspondence management system;\n\n   (4) Provide their staff with training in correspondence practices; and,\n\n   (5) Prepare and review all Secretarial Correspondence in a timely manner, including\n       special requests from the Immediate Office of the Secretary as requested by\n       OES.\n\ne. The Office of the Executive Secretariat (OES) shall:\n\n   (1) Serve as liaison between the Immediate Office of the Secretary and agencies\n       regarding Secretarial Correspondence matters;\n\n   (2) Manage the clearance process of Secretarial Correspondence and determine\n       whether changes or redrafting is necessary;\n\n   (3) Review draft Secretarial Correspondence for grammatical errors, format, and\n       consistency in the letters;\n\n   (4) Process and dispatch signed Secretarial Correspondence;\n\n   (5) Maintain a single Departmental correspondence management system and related\n       IT systems for controlling Secretarial and Priority Correspondence;\n\n\n\n\n                                        5\n\f   (6) Provide data to the Secretary and senior officials on agency performance with\n       regards to assigned Secretarial correspondence activities on a regular basis and\n       as requested;\n\n   (7) Maintain and publish an updated list of all Agency Correspondence Liaisons and\n       Correspondence Control Officers;\n\n   (8) Develop general policies, standards, reports, and procedures necessary for\n       maintaining an effective and efficient correspondence management program;\n\n   (9) Provide general assistance and advice on matters related to correspondence, as\n       requested by agencies; and,\n\n   (10) Review agency correspondence management programs and practices to evaluate\n        compliance with the provisions of this regulation.\n\nf. The Foreign Agricultural Service (FAS) shall:\n\n   (1) Serve as the official liaison for correspondence between USDA agencies and the\n       Department of State and its missions abroad, the U.S. Agency for International\n       Development, and the U.S. Trade Representative.\n\ng. The Office of the General Counsel (OGC) shall:\n\n   (1) Review all correspondence and associated reports and documents pertaining to\n       outstanding litigation by or against the Department, or which raise particular\n       legal questions;\n\n   (2) Review all correspondence to the Comptroller General; and,\n\n   (3) Review other priority correspondence upon the request of the Secretary.\n\nh. The Office of Budget and Program Analysis (OBPA), Office of the Chief Financial\n   Officer shall:\n\n   (1) Serve as official liaison between the Office of Management and Budget (OMB)\n       and USDA agencies;\n\n   (2) Review all correspondence between Members of Congress and USDA regarding\n       proposed legislation;\n\n   (3) Review all correspondence concerning the proposed and enacted budget of\n       USDA and its agencies, and associated budgetary and resource management\n       issues;\n\n\n\n                                       6\n\f        (4) Review all correspondence concerning proposed regulatory and legislative\n            issues; and,\n\n        (5) Review other priority correspondence upon the request of the Secretary.\n\n     i. The Office of Inspector General (OIG) shall:\n\n        (1) Serve as official liaison for correspondence between the Government\n            Accountability Office (GAO) and USDA agencies;\n\n        (2) Review all correspondence to the Comptroller General regarding audits and\n            investigations;\n\n        (3) Review all correspondence concerning OIG investigations and audits; and,\n\n        (4) Review all correspondence concerning ongoing and completed investigations of\n            employee misconduct.\n\n     j. The Office of Congressional Relations (OCR) shall:\n\n        (1) Review all Secretarial Correspondence to Members of Congress, Governors, and\n            State, county, and local officials.\n\n     k. The Office of Tribal Relations (OTR) shall:\n\n        (1) Review all Secretarial Correspondence to Tribal officials."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dc5a51ca-fa6c-5bcd-a326-01dcd91fa482",
+        "class": "section",
+        "title": "Controlled Correspondence",
+        "controls": [
+          {
+            "id": "dr3060-001-7",
+            "class": "policy-requirement",
+            "title": "Controlled Correspondence",
+            "parts": [
+              {
+                "id": "dr3060-001-7-stmt",
+                "name": "statement",
+                "prose": "a. All correspondence addressed to the Secretary is controlled correspondence unless\n        otherwise determined by the Director of OES. All priority correspondence shall also\n        be controlled correspondence.\n\n     b. Other officers and officials of USDA may determine which of their correspondence is\n        to be considered controlled correspondence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bc603f2e-1ea7-50ea-b99c-ce6fde3ba940",
+        "class": "section",
+        "title": "Signature Authority",
+        "controls": [
+          {
+            "id": "dr3060-001-8",
+            "class": "policy-requirement",
+            "title": "Signature Authority",
+            "parts": [
+              {
+                "id": "dr3060-001-8-stmt",
+                "name": "statement",
+                "prose": "a. All statements of current or planned policy will be signed by the Secretary or the\n        appropriate Under Secretary, Assistant Secretary, or Agency Head.\n\n     b. Unless otherwise designated in this directive or agency policy, the addressee of\n        received correspondence shall be the Signing Official. That official shall reserve the\n\n\n                                             7\n\f         right to delegate the signature authority to appropriate employees. All relevant policy\n         should be clearly understood prior to the delegation of signature authority."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d4959008-cc27-56fe-a9ca-81bee58c1fe2",
+        "class": "section",
+        "title": "Clearance",
+        "controls": [
+          {
+            "id": "dr3060-001-9",
+            "class": "policy-requirement",
+            "title": "Clearance",
+            "parts": [
+              {
+                "id": "dr3060-001-9-stmt",
+                "name": "statement",
+                "prose": "a. Clearance refers to the official process of submitting a draft document for review and\n         approval by a USDA official. With regards to correspondence, clearance may include\n         ensuring factual accuracy, proper grammar and formatting, legal sufficiency, and\n         alignment with relevant existing policy and priorities.\n\n      b. In addition to the roles and responsibilities established in this Directive, the Signing\n         Official shall have sole discretion to establish the clearance process for all\n         correspondence they sign. The process may include the names or titles of Clearing\n         Officials, the type of clearance (e.g. policy, legal, grammatical), and the timeframe\n         for completing the clearance.\n\n      c. As a courtesy, Clearing Officials will be afforded no less than two working days to\n         review all non-Priority correspondence.\n\n      d. Clearing Officials shall identify all clearances as approved, not approved, or approved\n         only with proposed changes. They may also document and return any edits,\n         comments, or additional information to the Signing Official as part of their clearance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cf1885ae-f225-58d4-a336-5c6bb8a020dd",
+        "class": "section",
+        "title": "Format",
+        "controls": [
+          {
+            "id": "dr3060-001-10",
+            "class": "policy-requirement",
+            "title": "Format",
+            "parts": [
+              {
+                "id": "dr3060-001-10-stmt",
+                "name": "statement",
+                "prose": "a. All correspondence shall conform to the grammatical and stylistic guidelines set forth\n         in referenced directives, specifications, and style guides. Questions may be addressed\n         to OES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c8943eb2-d188-5faf-a5e7-1a6bf511f977",
+        "class": "section",
+        "title": "Records Management",
+        "controls": [
+          {
+            "id": "dr3060-001-11",
+            "class": "policy-requirement",
+            "title": "Records Management",
+            "parts": [
+              {
+                "id": "dr3060-001-11-stmt",
+                "name": "statement",
+                "prose": "a. All correspondence shall be managed and preserved in accordance with the Federal\n         Records Act, Departmental and Agency regulations, applicable record schedules, and\n         all other applicable guidance.\n\n      b. Secretarial correspondence, and all associated records generated during the analysis,\n         drafting, and clearance of responses, are part of the Official Records of the Office of\n         the Secretary, and shall be stored, handled, and preserved in accordance with\n         guidance provided by OES."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "052c3a71-8516-525a-bdeb-f9af0cbead77",
+        "class": "section",
+        "title": "Restricted Information",
+        "controls": [
+          {
+            "id": "dr3060-001-12",
+            "class": "policy-requirement",
+            "title": "Restricted Information",
+            "parts": [
+              {
+                "id": "dr3060-001-12-stmt",
+                "name": "statement",
+                "prose": "8\n\f      a. The guidance provided in this paragraph must be implemented consistently with the\n         Freedom of Information Act and the Privacy Act and their implementing regulations,\n         Subparts A and G, Part 1 of Title 7, Code of Federal Regulations. In addition, matters\n         of policy and information of a policy nature shall be made public only by officials\n         with appropriate authority.\n\n      b. The following restrictions apply to the disclosure of information within\n         correspondence:\n\n             (1) Secretarial Correspondence. Correspondence prepared for the Secretary's\n                 signature may not be made public before it is signed and has been released\n                 through appropriate channels.\n\n             (2) White House Correspondence. Correspondence referred from the White\n                 House to this Department shall not be made public in whole or in part, nor\n                 shall employees quote from any of these letters, unless required by law.\n\n             (3) Pre-decisional Information. Correspondence shall not reveal sensitive pre-\n                 decisional information prior to the formal announcement of the decision. For\n                 instance, preliminary information regarding the President’s budget shall not be\n                 released prior to its full release by OMB."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "778073b9-a7dc-5f24-a12a-da43b78edc18",
+        "class": "section",
+        "title": "Protected Information",
+        "controls": [
+          {
+            "id": "dr3060-001-13",
+            "class": "policy-requirement",
+            "title": "Protected Information",
+            "parts": [
+              {
+                "id": "dr3060-001-13-stmt",
+                "name": "statement",
+                "prose": "a. From time to time correspondence may contain protected information. Documents\n         containing protected information should be handled in accordance with all relevant\n         regulations and laws. See DR3440-001, Safeguarding Classified Information;\n         DR3440-002, Control and Protection of Sensitive Security Information; DR3550-02,\n         Sensitive But Unclassified (SBU) Information Protection; and, Privacy Act of 1974 (5\n         U.S.C. 552).\n\n      b. Only individuals with appropriate clearances may receive documents containing\n         protected information. It is the responsibility of each agency to ensure\n         correspondence containing protected information is only distributed to individuals\n         with appropriate clearances.\n\n      c. Whenever possible, redacted versions of the correspondence should be distributed in\n         lieu of the original to reduce the risk of unauthorized redistribution.\n\n\n\n\n                                              9\n\f                                          APPENDIX A\n                             Identification of Protected Information\n\nThe following table provides a summary of the definitions of the classes of protected\ninformation; relevant regulations, directives, and acts of Congress; and, a brief summary of\nrestrictions on the distribution of information within each class.\n\nFor further information and complete guidelines on restrictions governing a specific class of\nprotected information, consult all appropriate Departmental Directives.\n\n\n\n\n                                               A‐1\n\f             Class                          Definition                        Controlling regulations             Allowable distribution\n\n\n\nClassified                   A document and the information there         DM3440-001                    On a need to know basis only to\n                             within that have been classified as Top                                    individuals who have been subject to an\n                             Secret, Secret or Confidential by a duly     7 CFR 10                      appropriate level of security\n                             authorized Classifier.                       48 FR 11404                   investigations by a Department Security\n                                                                                                        Officer. Documents are subject to\n                                                                                                        reproduction controls as described in\n                                                                                                        DM3440-001 510(4).\n\n\n\nSensitive                    Unclassified information of a sensitive    DR3440-002                      On a need to know basis. Any\n                             nature, that if publicly disclosed could                                   reproductions or distributions shall be\n                             be expected to have a harmful impact on DR3550-002                         appropriately marked to ensure the\n(a.k.a. Sensitive but        the security of Federal operations or                                      recipient recognizes the classification.\nUnclassified; Limited        assets, the public health or safety of the\nOfficial Use; Official Use   citizens of the United States or its\nOnly)                        residents, or the nation's long-term\n                             economic prosperity.\n\n\n\nPersonally Identifiable      Information about any US citizen or          5 USC 552a                    On a need to know basis to duly\nInformation (PII)            lawful resident alien, including, but not                                  authorized individuals. Any physical or\n                             limited to, their education, financial       OMB Memo M-99-05b             digital reproduction must be secured.\n                             transactions, medical history, and           OMB Memo M-06-15\n                             criminal or employment history and that\n                             contains their name, or an identifying\n                             number, symbol, or other particular\n                             assigned to the individual.\n\n\n\n\n                                                                        A‐2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "2579e972-e83c-594b-9a34-f7079b3e959d",
+          "title": "USDA Directives — DR3060-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3060-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

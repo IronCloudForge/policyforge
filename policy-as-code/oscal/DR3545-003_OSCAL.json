@@ -1,0 +1,303 @@
+{
+  "catalog": {
+    "uuid": "e9e2fb86-9989-5446-859a-ff9bcd6bb9bb",
+    "metadata": {
+      "title": "USDA DR3545-003: Suitability Requirements Permitting Personnel Access to Information Systems (9/16/21)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "Unknown",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3545-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "Unknown"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3545-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3545-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "f27d7e3c-1d11-5387-a89a-3580f1e8b8c7",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3545-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3545-003-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR):\n\n          (1) Is the United States Department of Agriculture (USDA) policy for assessing the\n              suitability of personnel to access USDA information resources;\n\n          (2) Sets the criteria for personnel to gain and maintain access to USDA information and\n              information systems; and\n\n          (3) Defines the standards by which personnel establish and maintain a level of trust\n              (e.g., suitability, fitness, and credentialing).\n\n     b.   This DR serves as the foundation for Mission Areas, agencies, and staff offices to\n          develop and implement their own personnel security procedures.\n\f  c.   This DR meets the requirements of:\n\n       (1) The Federal Information Security Modernization Act of 2014 (FISMA), 44 United\n           States Code (U.S.C.) § 3551, et seq.;\n\n       (2) The Office of Management and Budget (OMB), Circular A-123, Management’s\n           Responsibility for Enterprise Risk Management and Internal Control, Memorandum\n           M-16-17;\n\n       (3) OMB Circular A-130, Managing Information as a Strategic Resource;\n\n       (4) The National Institutes of Standards and Technology (NIST) Federal Information\n           Processing Standards Publication (FIPS PUB) 200, Minimum Security\n           Requirements for Federal Information and Information Systems; and\n\n       (5) The personnel security family of controls in NIST Special Publication (SP) 800-53,\n           Revision 5, Security and Privacy Controls for Information Systems and\n           Organizations.\n\n  d.   The USDA:\n\n       (1) Complies with Federal requirements to assess suitability and fitness of USDA\n           personnel to access USDA information and information systems;\n\n       (2) Confirms its management commitment to comply with the authorities governing\n           USDA personnel security for access to information and information systems;\n\n       (3) Supports personnel security activities for protecting USDA information and\n           information systems; and\n\n       (4) Continually manages risks to those systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d8383ab9-81c1-5249-aac7-99062c96c63a",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3545-003-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3545-003-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR is effective when published and will remain in effect until superseded or\n       expired.\n\n  b.   All Mission Areas, agencies, and staff offices will align their procedures with this policy\n       within 6 months of the publication date.\n\n  c.   This DR is a supplement to DR 4720-001, USDA Onboarding Requirements.\n\n  d.   Other related directives include:\n\n\n\n\n                                               2\n\f       (1) Departmental Manual (DM) 4620-002, Common Identification Standard for U.S.\n           Department of Agriculture Employees and Contractors;\n\n       (2) DR 3505-003, Access Control for Information and Information Systems;\n\n       (3) DR 3505-005, Cybersecurity Incident Management;\n\n       (4) DR 3640-001, Identity, Credential, and Access Management;\n\n       (5) DR 4600-001, USDA Personnel Security Clearance Program; and\n\n       (6) DR 4620-002, Common Identification Standard for U.S. Department of Agriculture."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2d3a0aa7-96b1-5cb7-9bfd-8b1d09e1d52d",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3545-003-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3545-003-3-stmt",
+                "name": "statement",
+                "prose": "a.   This policy applies to:\n\n       (1) All Mission Areas, agencies, staff offices, and all USDA personnel;\n\n       (2) Information, information systems, and cloud-based services used or operated by,\n           for, or on behalf of USDA. These include interconnections between or among these\n           information systems or services; and\n\n       (3) Facilities from which these information systems or services operate, including:\n\n           (a) Facilities owned or operated by USDA; or\n\n           (b) Facilities owned or operated on behalf of USDA by a contractor, subcontractor,\n               or other organization.\n\n  b.   This policy guides senior executives and managers to provide the resources necessary to\n       establish:\n\n       (1) Eligibility for employment;\n\n       (2) The identity, suitability, and fitness of personnel to perform work for, or on behalf\n           of, the USDA; and\n\n       (3) Procedures to issue USDA credentials for access to Federal buildings and USDA\n           information systems.\n\n  c.   Nothing in this policy alters the requirements for protecting national security systems or\n       information. This includes those identified in FISMA and the Committee on National\n       Security Systems (CNSS) policies and standards. It also includes intelligence\n       community policies, directives, and instructions.\n\n\n\n                                               3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "942162e8-e331-5435-977d-d375c3f33c81",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3545-003-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3545-003-4-stmt",
+                "name": "statement",
+                "prose": "USDA personnel hold roles with a variety of privileges and access. Personnel are vital in\n  protecting USDA information and information systems. Personnel must act responsibly with\n  their privileges and access. As such, USDA personnel must also guard against malicious use\n  or exploitation of legitimate access, per DR 4600-003, USDA Defensive Counterintelligence\n  and Insider Threat Programs.\n\n  The unauthorized disclosure, access, use, disruption, modification, destruction, or the loss of\n  control of sensitive information can erode public trust in USDA. It can also cause adverse\n  financial impacts to USDA.\n\n  Security techniques establish suitable levels of trust for USDA personnel. These techniques\n  include background investigations, assigning a risk designation to each position, completing\n  access agreements, managing privileges, and terminating access in a timely manner. All of\n  these can also minimize risks to USDA information and information systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "30a11494-e549-5ff8-b668-2ae8c33fc6f9",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3545-003-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3545-003-5-stmt",
+                "name": "statement",
+                "prose": "a.   Each Mission Area, agency, and staff office will:\n\n       (1) Develop and implement procedures that address personnel suitability standards\n           described in this DR for granting access to USDA information and information\n           systems;\n\n       (2) Review the procedures annually;\n\n       (3) Update them to reflect changes in policy;\n\n       (4) Disseminate them to stakeholders;\n\n       (5) Assign position risk designations and sensitivity levels for all Government and\n           contractor positions;\n\n       (6) Review the position designations at least annually; and\n\n       (7) Update them as needed using the Office of Personnel Management (OPM) Position\n           Designation Automated Tool (PDT).\n\n  b.   The procedures will:\n\n\n\n\n                                               4\n\f     (1) Require USDA personnel to obtain and maintain favorable background\n         investigations, based on the position sensitivity levels and risk designations;\n\n     (2) Ensure that USDA personnel receive favorable background investigations or\n         Federal Bureau of Investigation (FBI) fingerprint checks (per DM 4620-002) that\n         meet or exceed the requirements for the intended positions;\n\n     (3) Ensure USDA personnel submit their background investigation requests to Defense\n         Counterintelligence and Security Agency (DCSA);\n\n         Note: See the DCSA website Requesting Personnel Investigations via e-QIP, for\n         additional information.\n\n     (4) Allow for the reciprocal use of current and favorable background investigations\n         from other Federal agencies, as long as they meet or exceed the requirements for the\n         intended positions.\n\n     (5) Allow managers or Contracting Officer’s Representatives (COR) to request\n         approval for personnel to begin performing some duties, per DM 4620-002:\n\n         (a) After they submit their background investigation forms to the DCSA; and\n\n         (b) The FBI fingerprint check does not return derogatory information.\n\n     (6) Ensure managers follow the guidance in DR 3440-001, USDA Classified National\n         Security Information Program Regulation and DR 4600-001 if the position requires\n         access to classified information.\n\nc.   The procedures for granting access to USDA information or systems will include\n     processes to:\n\n     (1) Update background investigations when USDA personnel change positions (e.g.,\n         relocation or promotion) or the position requirements change (e.g., additional access\n         to more sensitive or classified materials), per DR 3440-001, DR 4600-001, and DR\n         3440-003, Controlled Unclassified Information (CUI) Program; and\n\n     (2) Add, remove, or change physical or logical access, as needed, when USDA\n         personnel change duties or locations within USDA.\n\nd.   The procedures will require all personnel to sign access agreements that:\n\n     (1) Define their personal responsibilities;\n\n     (2) Inform them of appropriate use, conduct, actions, and behavior permitted on, or\n         when using, Departmental information systems; and\n\n\n\n\n                                             5\n\f     (3) Serve to acknowledge that they understand these conditions.\n\ne.   Mission Areas, agencies, and staff offices will:\n\n     (1) Develop and document access agreements based on information type and sensitivity\n         level for each category of information or information system;\n\n     (2) Review the agreements at least annually and update them as needed;\n\n     (3) Ensure that USDA personnel:\n\n         (a) Acknowledge their understanding of the access agreement, by handwritten or\n             digital signature, prior to being granted access to information and information\n             systems; and\n\n         (b) Review and acknowledge the access agreement annually, or when the\n             agreement is updated.\n\n     (4) Describe acceptable and improper uses of information systems that include:\n\n         (a) A provision that USDA personnel are permitted access to, and use of, USDA\n             systems to carry out their USDA responsibilities; and\n\n         (b) A clear explanation that limited personal use of USDA information systems is\n             allowed but does not extend to improper use of the systems.\n\nf.   Mission Areas, agencies, and staff offices will develop procedures and implement\n     measures to prevent, detect, track, and report improper use.\n\ng.   The following activities are prohibited and amount to improper use of USDA\n     information systems:\n\n     (1) Intentionally changing or attempting to change information security controls that\n         protect against unauthorized access;\n\n     (2) Downloading unauthorized software, such as peer-to-peer sharing apps and illegal\n         or copyrighted materials;\n\n     (3) Distributing illegally-obtained files or software;\n\n     (4) Permitting or enabling unauthorized access to any USDA information system for\n         any purpose;\n\n     (5) Engaging in inappropriate activities or those likely to offend fellow employees or\n         the public. This includes:\n\n\n\n\n                                             6\n\f         (a) Accessing sexually explicit materials; and\n\n         (b) Using hate speech or remarks to ridicule others based on age, race, creed,\n             religion, skin color, sex, physical or mental handicap, or national origin.\n\n     (6) Accessing or attempting to access any USDA information system for unauthorized\n         purposes, such as:\n\n         (a) Invasion of privacy; and\n\n         (b) Obtaining information that the user is not authorized to access, use, disclose,\n             modify, or destroy.\n\nh.   The procedures for personnel departing USDA (permanently or temporarily) will\n     include the follow:\n\n     (1) Retrieve all USDA-issued property, assets, and systems;\n\n     (2) Transfer any sensitive information to an authorized individual;\n\n     (3) Disable all physical and logical access;\n\n     (4) Archive and disable information system accounts, per DR 3505-003; and\n\n     (5) Follow guidance in DR 4600-002, Procedures for the Denial or Revocation of\n         Access to National Security Information, when involving access to classified\n         information or systems.\n\ni.   Mission Areas, agencies, and staff offices will ensure that contracts and other\n     agreements with external providers include requirements to:\n\n     (1) Ensure that personnel security processes, such as on-boarding, off-boarding, and\n         reassignments, meet or exceed USDA personnel security requirements in this policy\n         and in DR 4020-250-002, Position Management and Vacancy Control;\n\n     (2) Notify USDA Contracting Officers and CORs of personnel changes to contracted\n         services (e.g., adding or removing personnel to contract support staff). This enables\n         timely granting, modifying, or suspension of access rights and privileges, and the\n         return of Government-furnished equipment; and\n\n     (3) Provide their documented personnel security processes, as evidence of compliance.\n\n\n\n\n                                             7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5f1cdc89-090e-5252-9b0f-46e23bf1ed20",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3545-003-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3545-003-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will:\n\n       (1) Ensure Mission Areas, agencies, and staff offices develop procedures to implement\n           this policy;\n\n       (2) Ensure personnel suitability, fitness, and credentialing goals for access to USDA\n           information and information systems meet Federal requirements and standards; and\n\n       (3) Coordinate, as needed, with the:\n\n           (a) Director of the Office of Homeland Security (OHS);\n\n           (b) Chief Security Director of the Office of Safety, Security, and Protection\n               (OSSP); and\n\n           (c) Mission Area Assistant CIOs to ensure procedures have been developed.\n\n  b.   The USDA Chief Information Security Officer (CISO) will:\n\n       (1) Lead the Departmental information security program;\n\n       (2) Develop and implement the USDA information security program plan;\n\n       (3) Ensure the program plan includes suitability standards defined in this DR and the\n           Personnel Security control family in NIST SP 800-53, Revision 5;\n\n       (4) Update the program and program plans, as needed, to meet changes to\n           requirements; and\n\n       (5) Ensure compliance with the information security program across the USDA.\n\n  c.   The Chief Security Director of the OSSP will:\n\n       (1) Ensure the protection of the Department’s physical facilities;\n\n       (2) Provide physical security assessments and review them on a recurring basis;\n\n       (3) Manage and maintain a comprehensive physical security program at USDA\n           facilities in the National Capital Region (NCR); and\n\n       (4) Manage the credentialing processes and goals for USDA personnel, ensuring the\n           Department meets Federal requirements and standards.\n\n\n\n\n                                              8\n\fd.   The Director of the OHS will:\n\n     (1) Guide personnel security staff (PSS) and provide information updates, as needed;\n\n     (2) Coordinate with PSS to ensure background investigations are current for all USDA\n         personnel serving in positions designated as moderate or high risk;\n\n     (3) Coordinate with Mission Area Assistant CIOs and Mission Area Human Resource\n         Directors (MAHRD) on matters of USDA personnel security;\n\n     (4) Serve as the Senior Agency Official (SAO) for USDA personnel security, unless\n         formally designated to another official; and\n\n     (5) When serving as the SAO for USDA personnel security, provide guidance to\n         mitigate actual or suspected insider threats.\n\ne.   The Director of the Office of Human Resource Management (OHRM) will:\n\n     (1) Coordinate with the Director of the OHS and the Chief Security Director of the\n         OSSP to ensure consistency between processes;\n\n     (2) Ensure OHRM processes for personnel actions (e.g., on-boarding, reassignments,\n         and off-boarding) integrate with OHS and OSSP processes, and;\n\n     (3) Implement automated and non-automated mechanisms for personnel termination\n         notification.\n\nf.   The MAHRDs, or similar role if an MAHRD is not assigned, will:\n\n     (1) Ensure that Mission Area personnel procedures are consistent with Departmental\n         requirements;\n\n     (2) Coordinate with Information Systems Security Managers (ISSM) and PSS to ensure\n         that Mission Area personnel procedures include OHS and OSSP guidance; and\n\n     (3) Coordinate the completion of all suitability tasks, defined in this DR, between\n         subordinate agencies and staff offices, the OSSP, and the OHS Personnel and\n         Document Security Division (PDSD).\n\ng.   PSS will:\n\n     (1) Develop, implement, and update relevant training materials;\n\n     (2) Provide input to USDA personnel security processes; and\n\n\n\n\n                                            9\n\f     (3) Coordinate with and provide guidance to Mission Area Assistant CIOs and\n         MAHRD on matters of USDA personnel security.\n\nh.   Mission Area Assistant CIOs will:\n\n     (1) Ensure that Mission Area Assistant CISOs and ISSMs maintain consistent\n         processes and procedures between their agencies, and staff offices;\n\n     (2) Ensure the processes and procedures:\n\n         (a) Meet Federal and Departmental requirements; and\n\n         (b) Enforce personnel security standards, as noted in this DR, for access to\n             information resources.\n\ni.   Mission Area Assistant CISOs and ISSMs will:\n\n     (1) Coordinate with their MAHRD to assign position sensitivity levels and risk\n         designations;\n\n     (2) Coordinate with CORs to ensure compliance with this policy and that contracts\n         include specific penalties for non-compliance;\n\n     (3) Ensure all USDA personnel and external providers comply with this policy and\n         other applicable Federal and USDA guidance for on-boarding, off-boarding, and\n         USDA personnel reassignments; and\n\n     (4) Coordinate with their MAHRD, as needed, to maintain accurate and current records\n         for personnel actions related to accessing facilities, information, and information\n         systems.\n\nj.   CORs will:\n\n     (1) Review the requirements and guidance from OHRM, OHS, OSSP, and this DR, to\n         ensure consistency in contract language;\n\n     (2) Ensure contract language requires contractors to have corporate processes that\n         establish employment suitability and fitness;\n\n     (3) Obtain documents from contractors, when warranted, as proof that:\n\n         (a) Their personnel security processes and guidance on ethical behavior are fully\n             implemented; and\n\n         (b) They are consistent with USDA requirements.\n\n\n\n\n                                           10\n\f     (4) Coordinate on-boarding and off-boarding of contractor personnel with the OHS, the\n         OSSP, and other stakeholder offices when necessary.\n\nk.   System Owners will:\n\n     (1) Implement a process to add, remove, or change accesses and privileges;\n\n     (2) Approve system access requests only after the requester completes all required\n         actions; and\n\n     (3) Support investigations of possible violations of the Rules of Behavior (RoB) or\n         misuse of USDA information systems.\n\nl.   Managers and Supervisors will:\n\n     (1) Coordinate with the appropriate ISSM, Mission Area Assistant CISO, or MAHRD\n         when defining or changing position risk and sensitivity designations;\n\n     (2) Ensure all USDA personnel under their direct supervision:\n\n         (a) Complete the annual security awareness and privacy training, per DR 3545-\n             001, Information Security Awareness and Training Policy (including\n             forthcoming update) and DR 3515-002, Privacy Policy and Compliance for\n             Personally Identifiable Information (PII);\n\n         (b) Acknowledge they understand the behavior and conduct standards;\n\n         (c) Sign all access agreements; and\n\n         (d) Maintain required background investigations.\n\n     (3) Guide USDA personnel about actions that may:\n\n         (a) Violate acceptable use;\n\n         (b) Constitute a misuse of USDA resources; or\n\n         (c) Be contrary to the standards of ethical conduct.\n\n     (4) Assist personnel with reporting suspected violations, adhering to guidance in DR\n         3505-005;\n\n     (5) Seek guidance from higher-level managers or other competent authorities in matters\n         of ethical conduct or acceptable use; and\n\n\n\n\n                                           11\n\f       (6) Coordinate with OHS, OHRM, OSSP, and contract managers, when needed, for\n           disciplinary or personnel termination actions.\n\n  m. USDA Personnel will:\n\n       (1) Complete the annual security awareness and privacy training, per DR 3545-001 and\n           DR 3515-002;\n\n       (2) Acknowledge they understand the RoB by signing an access agreement form prior\n           to accessing any USDA information systems;\n\n       (3) Adhere to the RoB and ethical conduct;\n\n       (4) Use caution before taking any action that may be a violation of the RoB, acceptable\n           use, or may run contrary to ethical conduct; and\n\n       (5) Report any suspected or perceived violations of the RoB to a manager."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2508b252-414f-57a7-b69a-e22d34044ced",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Non-Compliance",
+        "controls": [
+          {
+            "id": "dr3545-003-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Non-Compliance",
+            "parts": [
+              {
+                "id": "dr3545-003-7-stmt",
+                "name": "statement",
+                "prose": "DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, sets forth the USDA\n  policy for employee responsibilities and standards of conduct. This includes the use of\n  computers and telecommunications equipment (also see DR 3300-001, Telecommunications\n  & Internet Services and Use, section 2b and DR 3300-026, Planning and Managing Wireless\n  Technologies, section 5g for additional guidance). In addition, DR 4070-735-001,Section 21,\n  Disciplinary or Adverse Action, states:\n\n  a.   Any violation of the responsibilities or standards contained in this DR may be cause for\n       disciplinary or adverse action; and\n\n  b.   Any disciplinary or adverse action will be consistent with the applicable laws and\n       regulations.\n\n  These include the Standards of Ethical Conduct for Federal Employees of the Executive\n  Branch. 5 Code of Federal Regulations (CFR) Part 2635, as well as other OPM or OMB\n  regulations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "76312783-3d07-5915-83fa-03272b2613a0",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3545-003-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3545-003-8-stmt",
+                "name": "statement",
+                "prose": "a.   All Mission Areas, agencies, and staff offices will conform to this policy. They may\n       request a waiver if they cannot meet a policy requirement as explicitly stated. Note that\n       an approved waiver does not constitute compliance with policy. Requests for waivers:\n\n\n\n\n                                              12\n\f       (1) Acknowledge the non-compliance with policy;\n\n       (2) Commit to implement an acceptable plan to remediate the weakness; and\n\n       (3) Document the plan as indicated in DR 3565-003, Plan of Action and Milestones\n           Policy.\n\n  b.   Address policy waiver requests to the USDA CISO. Submit the requests for review and\n       decision to ISC.Outreach@usda.gov. Unless otherwise specified, review and renew\n       approved policy waivers each fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "627144f6-62fb-5c76-bbb4-cdcb98a89e07",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3545-003-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3545-003-9-stmt",
+                "name": "statement",
+                "prose": "Send any questions or concerns about this DR to the Office of the Chief Information Officer\n  (OCIO), Information Security Center (ISC) via email to cscc@usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                             13\n\f                                APPENDIX A\n\n                    ACRONYMS AND ABBREVIATIONS\n\n\nCFR        Code of Federal Regulations\nCIO        Chief Information Officer\nCISO       Chief Information Security Officer\nCNSS       Committee on National Security Systems\nCOR        Contracting Officer’s Representative\nCSRC       Computer Security Resource Center\nCUI        Controlled Unclassified Information\nDCSA       Defense Counterintelligence and Security Agency\nDM         Departmental Manual\nDR         Departmental Regulation\nE.O.       Executive Order\nFBI        Federal Bureau of Investigation\nFIPS PUB   Federal Information Processing Standards Publication\nFISMA      Federal Information Security Modernization Act\nISC        Information Security Center\nISSM       Information Systems Security Manager\nMAHRD      Mission Area Human Resources Director\nNCR        National Capital Region\nNIST       National Institute of Standards and Technology\nOCIO       Office of the Chief Information Officer\nOHRM       Office of Human Resource Management\nOHS        Office of Homeland Security\nOMB        Office of Management and Budget\nOPM        Office of Personnel Management\nOSSP       Office of Safety, Security, and Protection\nPDSD       Personnel and Document Security Division\nPDT        Position Designation Automated Tool\nPSS        Personnel Security Staff\nRoB        Rules of Behavior\nSAO        Senior Agency Official\nSOP        Standard Operating Procedure\nSP         Special Publication\nU.S.C.     United States Code\nUSDA       United States Department of Agriculture\n\n\n\n\n                                      A-1\n\f                                            APPENDIX B\n\n                                            DEFINITIONS\n\n\nExternal information system service provider. A provider of external information system\nservices to an organization through a variety of consumer-producer relationships including but\nnot limited to joint ventures; business partnerships; outsourcing arrangements (i.e., through\ncontracts, interagency agreements, lines of business arrangements); licensing agreements; or\nsupply chain exchanges. (Source: NIST, Computer Security Resource Center (CSRC),\nGlossary, Retrieved August 13, 2019)\n\nImproper usage. Any incident resulting from violation of an organization’s acceptable usage\npolicies by an authorized user. (Source: NIST, SP 800-61, Revision 2, Computer Security\nIncident Handling Guide, in the Executive Summary)\n\nInformation security. The protection of information and systems from unauthorized access, use,\ndisclosure, disruption, modification, or destruction to provide confidentiality, integrity, and\navailability. (Source: NIST, CSRC, Glossary, Retrieved August 13, 2019)\n\nInformation system. A discrete set of information resources organized for collecting, processing,\nmaintaining, using, sharing, disseminating, or disposing of information. (Source: 44 U.S.C. §\n3502, Definitions)\n\nMedia. Physical devices or writing surfaces including, but not limited to, magnetic tapes, optical\ndisks, magnetic disks, large-scale integration memory chips, and printouts (but excluding display\nmedia) onto which information is recorded, stored, or printed within an information system.\n(Source: NIST, CSRC, Glossary, Retrieved August 13, 2019)\n\nOrganization. An entity of any size, complexity, or positioning within an organizational\nstructure (e.g., Federal agencies, private enterprises, academic institutions, state, local, or tribal\ngovernments, or as appropriate, any of their operational elements). (Source: NIST, CSRC,\nGlossary, Retrieved August 13, 2019)\n\nReciprocity. Reciprocity, as it applies in background investigations, is the practice of accepting\nbackground investigations, suitability decisions and security decisions conducted by other\nauthorized Federal agencies. Consistency created by national background investigation\nstandards assists in avoiding duplication of work by allowing one agency to reciprocally accept a\nbackground investigation and favorable decision from another agency. See 5 CFR Part 731,\nSuitability; and Executive Order (E.O.) 13764, Amending the Civil Service Rules, Executive\nOrder 13488, and Executive Order 13467 To Modernize the Executive Branch-Wide Governance\nStructure and Processes for Security Clearances, Suitability and Fitness for Employment, and\nCredentialing, and Related Matters for exceptions and details. (Source: NIST, CSRC, Glossary,\nRetrieved August 13, 2019)\n\n\n\n\n                                                  B-1\n\fRisk. A measure of the extent to which an entity is threatened by a potential circumstance or\nevent, and typically is a function of: (a) the adverse impact, or magnitude of harm, that would\narise if the circumstance or event occurs; and (b) the likelihood of occurrence. (Source: OMB\nCircular A-130)\n\nUSDA employee. Refers to a Federal civil servant employed by, detailed or assigned to, USDA,\nincluding members of the Armed Forces. (Source: 5 U.S.C § 2105, Employee; E.O. 12968,\nAccess to Classified Information)\n\nUSDA personnel. Encompasses USDA employees, contractors, partners, affiliates, interns,\nfellows, and volunteers who work for, or on behalf of, USDA, and whose work is overseen by\nUSDA employees. (Source: DR 3505-003)\n\n\n\n\n                                               B-2\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nDCSA, Requesting Personnel Investigations via e-QIP, Website\n\nDefinitions, 44 U.S.C. § 3502\n\nDesignation of public trust positions and investigative requirements, 5 CFR § 731.106\n\nEmployee, 5 U.S.C § 2105\n\nE.O. 12968, Access to Classified Information, August 2, 1995\n\nE.O. 13526, Classified National Security Information, December 29, 2009\n\nE.O. 13764, Amending the Civil Service Rules, Executive Order 13488, and Executive Order\n13467 To Modernize the Executive Branch-Wide Governance Structure and Processes for\nSecurity Clearances, Suitability and Fitness for Employment, and Credentialing, and Related\nMatters, January 17, 2017\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551, et seq.,\nDecember 18, 2014\n\nNIST, CSRC, Glossary website\n\nNIST, FIPS PUB 200, Minimum Security Requirements for Federal Information and Information\nSystems, March 2006\n\nNIST, SP 800-37, Revision 2, Risk Management Framework for Information Systems and\nOrganizations: A System Life Cycle Approach for Security and Privacy, December 2018\n\nNIST, SP 800-53, Revision 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020, includes updates as of December 10, 2020\n\nNIST, SP 800-61, Revision 2, Computer Security Incident Handling Guide, August 2012\n\nOffice of Government Ethics, Standards of Ethical Conduct for Federal Employees of the\nExecutive Branch, 5 CFR Part 2635, et seq.\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016\n\nOMB, Memorandum M-16-17, OMB Circular No. A-123, Management’s Responsibility for\nEnterprise Risk Management and Internal Control, July 15, 2016\n\n\n\n\n                                              C-1\n\fOPM, Position Designation Automated Tool website\n\nSuitability, 5 CFR Part 731\n\nUSDA, DM 3440-001, USDA Classified National Security Information Program Manual, June\n9, 2016\n\nUSDA, DM 3505-005, Cybersecurity Incident Management Procedures, November 30, 2018\n\nUSDA, DM 4620-002, Common Identification Standard for U.S. Department of Agriculture\nEmployees and Contractors, January 14, 2009\n\nUSDA, DR 3300-001, Telecommunications & Internet Services and Use, March 18, 2016\n\nUSDA, DR 3300-026, Planning and Managing Wireless Technologies. January 23, 2020\n\nUSDA, DR 3440-001, USDA Classified National Security Information Program Regulation,\nJune 9, 2016\n\nUSDA, DR 3440-003, Controlled Unclassified Information (CUI) Program, September 13, 2021\n\nUSDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019\n\nUSDA, DR 3505-005, Cybersecurity Incident Management, November 30, 2018\n\nUSDA, DR 3515-002, Privacy Policy and Compliance for Personally Identifiable Information\n(PII), October 30, 2020\n\nUSDA, DR 3545-001, Information Security Awareness and Training Policy, October 22, 2013\n\nUSDA, DR 3565-003, Plan of Action and Milestones Policy, September 25, 2013\n\nUSDA, DR 3640-001, Identity, Credential, and Access Management, June 8, 2021\n\nUSDA, DR 4020-250-002, Position Management and Vacancy Control, October 18, 2010\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, DR 4600-001, USDA Personnel Security Clearance Program, July 2, 2013\n\nUSDA, DR 4600-002, Procedures for the Denial or Revocation of Access to National Security\nInformation, September 13, 2013\n\nUSDA, DR 4600-003, USDA Defensive Counterintelligence and Insider Threat Programs, July\n12, 2021\n\n\n\n\n                                            C-2\n\fUSDA, DR 4620-002, Common Identification Standard for U.S. Department of Agriculture, June\n24, 2021\n\nUSDA, DR 4720-001, USDA Onboarding Requirements, June 3, 2011\n\n\n\n\n                                           C-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "6945fdeb-5c81-52c7-b7ac-422a247edd4a",
+          "title": "USDA Directives — DR3545-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3545-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

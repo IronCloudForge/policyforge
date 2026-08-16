@@ -1,0 +1,255 @@
+{
+  "catalog": {
+    "uuid": "1ae965f3-4135-5545-9a28-e2c44fc634f1",
+    "metadata": {
+      "title": "USDA DR4400-007: USDA Biorisk Management Policy",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-09-03",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4400-007"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-09-03"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4400-007",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Animal and Plant Health Inspection Service",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4400-007",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Animal and Plant Health Inspection Service"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "804f3578-42e5-5b32-8d17-ace25e78f5ea",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4400-007-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4400-007-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the policy of the United States Department of\n     Agriculture (USDA) policy, requirements, and responsibilities for administering a\n     comprehensive biorisk management program across the Department."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8e247700-f2f1-5c67-94f0-157392e09e99",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4400-007-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4400-007-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all USDA Mission Areas, agencies, staff offices, employees,\n          appointees, contractors, and others who work for, or on behalf of, USDA.\n\n     b.   This DR provides guidance to USDA Mission Areas, agencies, and staff offices\n          conducting operations that require employees, contractors, cooperators, students, or\n          visitors who may have potential exposure to known or potentially hazardous biological\n          agents or toxins. Examples of such operations include, but are not limited to:\n\f       (1) Research and diagnostic laboratory operations, animal holding facilities (including\n           insectaries and aquatic species holding areas), plant propagation facilities (e.g.,\n           greenhouses, headhouses, and quarantine facilities), and field research settings\n           where hazardous biological agents or toxins are collected, propagated, manipulated,\n           stored, or studied.\n\n       (2) Environmental or other laboratory operations that receive samples suspected of\n           containing hazardous biological agents or toxins (biohazardous agents) to include\n           High Consequence Biological Agents (HCBA) or Biological Select Agents and\n           Toxins (BSAT). For example, a soil analysis laboratory where samples may\n           contain Bacillus anthracis spores or mycotoxin-producing fungi; or a chemical\n           residue analysis laboratory that tests animal sera and tissues, or biological and\n           microbial products (e.g., vaccines)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ffe3c1cf-b8a3-583b-91a6-3cc15c433b2e",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr4400-007-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr4400-007-3-stmt",
+                "name": "statement",
+                "prose": "a.   This regulation supersedes DR 4400-007, Biological Safety Program, dated May 19,\n       2006.\n\n  b.   This policy is effective immediately and remains in effect until superseded or expiration.\n\n  c.   All Mission Areas, agencies, and staff offices will align their policies and procedures\n       with this DR within 6 months of the publication date.\n\n  d.   The USDA Biorisk program management procedures and coordination processes will be\n       provided in the forthcoming Departmental Manual (DM) 4400-007, USDA Biorisk\n       Management Manual."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8e4f599b-cc31-591e-a56f-dcac6abe06c8",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4400-007-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4400-007-4-stmt",
+                "name": "statement",
+                "prose": "Life sciences research, disease diagnostic development, food safety, and the improvement of\n  our crops and livestock serve to actively foster the long-term health, security, wellness of the\n  public, animals (domestic and wildlife), plants, the environment, and our economy. The safe\n  and responsible execution of life sciences research and its ancillary disciplines have been\n  indispensable in maintaining and improving our Nation’s capabilities to identify and mitigate\n  the risks of infectious diseases and environmental risks, whether naturally occurring,\n  accidental, or intentional.\n\n  a.   It is USDA policy that each Mission Area, agency, and staff office that fits within the\n       scope of this policy develop and implement a comprehensive biorisk management policy\n       that will:\n\n\n\n\n                                                 2\n\f     (1) Require agencies to establish a process to assess and mitigate risks to an acceptable\n         level for research and diagnostic activities related to work with biological agents or\n         toxins, as explained later in this policy;\n\n     (2) Minimize occupational exposures to infectious materials including zoonotic,\n         opportunistic, or otherwise hazardous biological agents or toxins. These exposures\n         could originate from food, research or commercial agricultural animals, wildlife,\n         specimens collected from those sources or environmental sources, or waste\n         materials from those activities;\n\n     (3) Minimize occupationally-acquired infections;\n\n     (4) Minimize the release of infectious materials into the environment, movement or\n         cross-contamination of infectious biological agents or toxins within and between\n         laboratory and field research locations, production locations visited by USDA\n         employees, and agriculture commodities/products or plant nursery stocks;\n\n     (5) Ensure appropriate levels of physical protection against unauthorized access, theft,\n         diversion, or loss of custody of pathogens or other high-value research assets;\n\n     (6) Ensure adequate resources (e.g., staff, funding, training, equipment, and tools) are\n         dedicated to the development, management, operation, and evaluation of a\n         comprehensive biorisk management program at all levels, and\n\n     (7) Ensure Mission Areas, agencies, and staff offices biorisk management programs are\n         reviewed as defined by individual agencies and that the criteria for their review are\n         based on established guidelines (e.g., the Centers for Disease Control and\n         Prevention (CDC) Biosafety in Microbiological and Biomedical Laboratories,\n         current edition (BMBL)) or other national or international biorisk management\n         related consensus standards (some consensus standards may include, but are not\n         limited to, ISO/ANSI (International Organization for Standardization/American\n         National Standards Institute), OIE (World Organization for Animal Health), WHO\n         (World Health Organization), and NSF (National Sanitation Foundation)), as\n         appropriate, or scientifically sound criteria in addition to specific agency goals,\n         objectives, or criteria. The results of the reviews are documented and retained to\n         drive appropriate changes or adjustments to the relevant program with the goal of\n         continual improvement.\n\nb.   To ensure that Departmental leadership is provided with the necessary programmatic\n     reports and analyses to provide sufficient oversight of biorisk management policy across\n     USDA. Agency reports will be submitted at least annually and all significant incidents\n     will be submitted within 2 business days to the appropriate Mission Area Under\n     Secretary and to the USDA Joint Committee on Biorisk Management Policy (JCBMP)\n     Executive Secretary for review by the Operational Biorisk Subcommittee (OBC).\n     Significant incidents include:\n\n\n\n\n                                               3\n\f       (1) Two or more individuals exposed to an infectious or zoonotic agents, or toxins;\n\n       (2) Suspected or known occupational acquired infection (laboratory- or field-acquired\n           infection (LAI));\n\n       (3) Reportable environmental release or accidental infections of animals;\n\n       (4) Significant security breaches (e.g., theft);\n\n       (5) Regulatory citations (notice of violations); and\n\n       (6) Critical inspection findings (internal or external) that would require immediate\n           Departmental attention and/or action.\n\n  c.   The subcommittee will use these reports to evaluate trends and lessons learned, share\n       feedback with individual agencies and programs, and facilitate subsequent reviews as\n       required. Summaries of report findings and the results of these evaluations will be\n       shared at least annually with USDA senior leadership via the JCBMP."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0d9503cc-dc7d-5121-b943-f55bafa41361",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr4400-007-5",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr4400-007-5-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy. In the event that a specific policy requirement cannot be met as explicitly stated,\n       or conformance with a specific policy requirement will adversely affect an agency’s or\n       staff office’s ability to fulfill its normal operations or functions, agencies and staff\n       offices must submit a waiver request. The waiver request will explain the reason for the\n       request, identify compensating, mitigating controls or actions that meet the intent of the\n       policy, and identify how the compensating, mitigating controls or actions provide a\n       similar or greater level of safety and security or compliance than the policy requirement.\n\n  b.   Requests for waivers will be considered on a case-by-case basis and tracked by each\n       agency. In the majority of cases, waiver requests can be resolved between the field and\n       staff offices. Waiver requests must be submitted in the form of a decision\n       memorandum. Agencies and staff offices should address all policy waiver request\n       memorandums to their individual biosafety, physical security, incident response,\n       personnel security, and/or cybersecurity Point of Contact (POC), as appropriate. Each\n       agency will provide routine updates to the JCBMP’s OBC.\n\n  c.   Unless otherwise specified, agencies (e.g., Agency Biosafety Officer or designee) and\n       staff offices shall review and renew approved policy waivers every fiscal year.\n       Approved waivers shall be tracked by each agency as a plan of action and milestones\n       (POA&M) item if the mitigation proposed was working toward policy compliance over\n       time. Approved waivers for specialized equipment and/or facilities requirements or\n       enhancements with a continuing need will simply be tracked on an approved list.\n\n\n\n\n                                                  4\n\f  d.   The appropriate agency-level office (e.g., Agency Biosafety Officer or designee) shall\n       monitor and approve waivers to this policy internally. Consultation with additional\n       Departmental resources or subject matter experts on changing conditions as waivers are\n       monitored will be pursued on a case-by-case basis.\n\n  e.   The written waiver request decision memorandum will include:\n\n       (1) Request for Exception, addressed to the appropriate agency resource;\n\n       (2) Name of submitting agency or staff office;\n\n       (3) Name and contact information of submitting person; and\n\n       (4) Description of the policy exception request:\n\n             (a) Justification to show good cause for the exception. The request should\n                 document the justifications for the exception; and\n\n             (b) The impact of granting versus not granting the request."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0b48f64e-51b8-511c-a099-8b234751f215",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr4400-007-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr4400-007-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture will:\n\n       (1)   Ensure processes are in place for the development, publication, and active\n             maintenance of Departmental policies, regulations, and general requirements for\n             biorisk management;\n\n       (2)   Provide management and oversight activities to ensure that agencies are in\n             compliance with this DR in implementing its biorisk management program; and\n\n       (3)   Ensure that indicators, beliefs, and values developed in USDA policies and\n             regulations assert USDA ownership of its biorisk management activities. The\n             USDA JCBMP and its OBS were established to provide resources to the\n             Department.\n\n  b.   APHIS Administrator will:\n\n       (1) Be responsible for the management of the APHIS Biorisk Management Program, or\n           designee; and\n\n       (2) Review and update this Departmental Regulation, or designee, in collaboration with\n           the JCBMP.\n\n\n\n\n                                                 5\n\fc.   The USDA JCBMP Co-Chairs will:\n\n     (1) Be co-chaired by the Office of Chief Scientist (OCS) Director and Office of\n         Homeland Security (OHS) Director or their designees;\n\n     (2) Be governed by the provisions of the JCBMP Charter regarding membership,\n         operations, and administration;\n\n     (3) Provide compliance oversight and advice to agency’s biorisk management or safety\n         staff on biorisk management initiatives directed or recommended by the White\n         House, the Government Accountability Office (GAO) , the Federal Select Agent\n         Program (FSAP) which is co-managed by the CDC and USDA, and other expert\n         advisory panels;\n\n     (4) Review and provide clearance on USDA inputs related to biorisk management\n         national reports (e.g., Dual Use Research of Concern (DURC)) before they are\n         delivered to the White House, Congress, or interagency partners;\n\n     (5) Identify potential trends that may highlight recurring laboratory- or field-safety or\n         security issues, and share that information with laboratory personnel;\n\n     (6) Review and routinely report to senior Departmental officials summaries of\n         laboratory inspections (e.g., applicable regulatory agency inspections, and Agency\n         or Departmental internal inspections) and laboratory incidents or accidents as\n         defined in this DR;\n\n     (7) Report the status of agency biorisk management programs to Departmental\n         leadership; and\n\n     (8) Review and as necessary revise biorisk management program elements in response\n         to actual events, potential trends, inspection findings, or any other significant event\n         or initiative that relates to biological risk, personnel suitability, or information\n         security.\n\nd.   The USDA JCBMP OBC Co-Chairs will:\n\n     (1) Be Chaired or Co-Chaired by an agency Biosafety Officer(s) or designee;\n\n     (2) Be governed by the provisions of the JCBMP OBC Charter regarding membership,\n         operations, and administration;\n\n     (3) Serve as a Departmentwide resource for biosafety and biosecurity issues as they\n         relate to laboratory operations, and provide oversight to help ensure USDA\n         compliance with applicable laws, standards, and guidance;\n\n     (4) Facilitate assistance to USDA agencies when they develop and update their agency-\n         specific biorisk management policies, to include field-biosafety policies, as\n\n\n                                                6\n\f         applicable, that are relevant to laboratory operations, field studies and operations,\n         and identify best practices that should be standardized across all agencies;\n\n     (5) Report agency biorisk-related incidents and inspections to the JCBMP as directed;\n\n     (6) Develop and revise the Departmentwide biorisk management policy as directed by\n         the JCBMP; and\n\n     (7) Review and address any questions or inquiries related with this policy that are\n         received by the OPI.\n\ne.   USDA Mission Area, Agency Head, and Staff Office Directors will:\n\n     (1) Promote a safety culture throughout the organization that emphasizes biosafety,\n         biosecurity, and responsible conduct in the life sciences;\n\n     (2) Develop, publish, and actively maintain agency policies, regulations, and\n         compliance requirements for biorisk management;\n\n     (3) Provide support and resources necessary for a robust biorisk management structure\n         within their agency, including incorporating policies, requirements, and standards\n         into agency and staff office capital planning and investment control processes;\n\n     (4) Ensure that biorisk management expertise is made available at the agency level and\n         at facilities and locations that possess or use biological agents or toxins. When\n         dedicated biorisk management expertise is not feasible at a facility, location, or\n         worksite, ensure that a collateral duty safety officer is proficient in biorisk\n         management; and\n\n     (5) Clearly define and delineate Departmental and agency support in biorisk\n         management policy implementation (e.g., site-specific risk assessment, job hazard\n         analysis (JHA) and training, personnel suitability program support).\n\nf.   Deputy Administrators, Associate Deputy Administrators, Assistant Administrators, and\n     Deputy Assistant Administrators (according to agency structure) will:\n\n     (1) Promote an organizational culture that emphasizes biosafety, biosecurity, and\n         responsible conduct in the life sciences;\n\n     (2) Provide direct assistance to agency administrators to ensure that the agency\n         correctly implements and complies with the policies, procedures, and requirements\n         of all biorisk management and safety, health, and environmental programs;\n\n     (3) Develop comprehensive and integrated biorisk management policies, procedures\n         and programs; and\n\n\n\n\n                                               7\n\f     (4) Ensure that all managers and supervisors implement the requirements of biorisk\n         management and safety, health, and environmental programs, as applicable.\n\ng.   Principal Investigators, Lead Scientists, and Lab Managers and Supervisors will:\n\n     (1) Promote a culture that emphasizes biosafety, biosecurity, and responsible conduct\n         in the life sciences;\n\n     (2) Provide resources to implement a robust biorisk management program, including\n         but not limited to, training and monitoring of safety and security policies and\n         programs;\n\n     (3) Read and become thoroughly familiar with USDA biorisk management\n         Departmental directives; agency-specific biorisk management program policies,\n         procedures, and biosafety manuals; and applicable Federal, State, and local statutes\n         and regulations;\n\n     (4) Conduct comprehensive site-specific risk assessments that will inform the\n         application of biosafety, biosecurity, physical security, incident response, personnel\n         suitability, and/or information security policies and procedures as applicable (seek\n         out Departmental and agency expertise on these fields if it is not available at the\n         site);\n\n     (5) Ensure that employees receive initial and recurring specialized job training (e.g.,\n         environmental, safety, and security) appropriate to the work they are required to\n         perform;\n\n     (6) Conduct refresher training on required schedules and whenever job assignments\n         change, operational procedures change, or employees are not following correct\n         procedures;\n\n     (7) Provide employees time to participate in USDA-sponsored biorisk management and\n         safety, health, and environmental initiatives, including training, without restraint,\n         interference, coercion, discrimination, or reprisal;\n\n     (8) Assist agency leadership and safety and health staff in operating an effective biorisk\n         management program as it relates to their areas of supervision;\n\n     (9) Report, investigate, and document all job-related incidents in a timely manner and\n         in accordance with agency-specific policies, as documented in each location- or\n         facility-specific procedures.\n\n         (a) Including accidents, injuries, illnesses, and exposures (including suspected\n             exposures) to infectious biological agents (including zoonotic agents) and\n             biological toxins of concern; and\n\n\n\n\n                                               8\n\f         (b) Security-related incidents and environmental releases of biological agents of\n             agricultural concern, in a timely manner, in accordance with agency policy;\n\n         The investigation must include follow-up items and reviews of corrective actions to\n         ensure full and complete implementation of those actions;\n\n     (10) Brief employees on biorisk management policies and procedures applicable to their\n          specific worksite, and enforce such policies;\n\n     (11) Ensure that proper personal protective equipment (PPE) is available free of charge;\n          that employees are trained in its proper use, maintenance, or disposal; and that it is\n          worn whenever necessary;\n\n     (12) Encourage and promote employee suggestions on how to improve biorisk\n          management, safety, and health in the workplace, and take appropriate action on\n          those suggestions; and\n\n     (13) Develop a biorisk management plan, job hazard analysis, and standard operating\n          procedures (SOP) to implement agency policies for specific locations and facilities.\n          Supervisors should have the option of establishing requirements above the base\n          requirements defined in agency or location policies based on a scientifically valid,\n          site- or procedure-specific risk assessment.\n\nh.   Biorisk management staff members (which may include Biosafety Officers, safety and\n     health or scientific staff as an adjunct duty) will:\n\n     (1) Promote a culture that emphasizes the importance of biosafety, laboratory\n         biosecurity, biocontainment, and responsible conduct in the life sciences;\n\n     (2) Assist managers, supervisors, and employees to implement applicable statutes and\n         Departmental directives and agency-specific policies; to develop and implement\n         site-specific biorisk management plans, job hazard analyses, and risk assessments;\n         and to provide training and education;\n\n     (3) Maintain competence to perform duties described above by attending conferences\n         and training sessions (as funds are available) on biorisk management trends and\n         issues. Some knowledge, skills, and abilities that are minimal requirements may\n         include: performing or assisting with risk assessments and/or job hazard analyses;\n         knowing relevant standards and guidelines; selecting and operating protective\n         equipment; facility design; and disinfection, decontamination, and sterilization\n         methods;\n\n     (4) Conduct safety and health site assessments that include biorisk management-related\n         metrics. Assessments should provide guidance on achieving best practices and\n         monitoring compliance with regulatory requirements or agency or location policies\n         and procedures; and\n\n\n\n                                                9\n\f       (5) Assist line management to investigate and review incidents involving biological\n           materials to prevent future occurrences.\n\n  i.   Employees (laboratory, animal facility, field staff) will:\n\n       (1) Promote and embody a culture that emphasizes biosafety, biosecurity, and\n           responsible conduct in the life sciences;\n\n       (2) Comply with all applicable statutes, policies, and procedures that are specific to the\n           agency, location, or facility;\n\n       (3) Read and comply with all safety, health, and biorisk management policies and\n           procedures issued by the location or facility and/or supervisors;\n\n       (4) Report all job-related incidents to supervisor, or second line of management when\n           first line supervisor is not available, in a timely manner and in accordance with\n           agency-specific policy. Incidents may include:\n\n           (a) Accidents, injuries, illnesses, and exposures (including suspect or potential\n               exposures) to infectious biological materials and biological toxins; and\n\n           (b) Security-related incidents and/or environmental releases.\n\n       (5) Notify supervisors about the cause or causes of an incident and recommend\n           corrective actions, which may include training;\n\n       (6) Promptly report early signs and symptoms of any potentially job-related illnesses\n           and seek medical assistance when necessary;\n\n       (7) Properly use and maintain all applicable safety, environmental, and personal\n           protective equipment and clothing;\n\n       (8) Participate in all required USDA and agency-specific initiatives and training; and\n\n       (9) Make suggestions for improving biosafety, safety, health, and environmental\n           compliance as appropriate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7e32e019-840a-5652-9408-59f14cc27387",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr4400-007-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr4400-007-7-stmt",
+                "name": "statement",
+                "prose": "All USDA agencies and staff offices shall direct questions and inquiries regarding this DR\n  4400-007 to the USDA Animal and Plant Health Inspective Service (APHIS) Biosafety\n  Officer at 301-436-3117.\n\n\n\n\n                                                 10\n\f-END-\n\n\n\n\n 11\n\f                              APPENDIX A\n\n                 ACRONYMS AND ABBREVIATIONS\n\n\nABSA    American Biological Safety Association International\nANSI    American National Standards Institute\nAPHIS   Animal and Plant Health Inspection Service\nARS     Agriculture Research Service\nBMBL    Biosafety in Microbiological and Biomedical Laboratories\nBSAT    Biological Select Agent and Toxin\nBSL     Biosafety Level\nCDC     Centers for Disease Control and Prevention\nCFR     Code of Federal Regulations\nDNA     Deoxyribonucleic acid\nDOT     Department of Transportation\nDM      Departmental Manual\nDR      Departmental Regulation\nDURC    Dual Use Research of Concern\nEPA     Environmental Protection Agency\nFAO     Food and Agriculture Organization of the United Nations\nFS      Forest Service\nFSAP    Federal Select Agents Program\nFSIS    Food Safety Inspection Service\nGAO     Government Accountability Office\nHCBA    High Consequence Biological Agents\nHVAC    Heating, Ventilation, and Air Conditioning\nIATA    International Air Transportation Association\nISO     International Organization for Standardization\nJCBMP   Joint Committee on Biorisk Management Policy\nJHA     Job Hazard Analysis\nLAI     Laboratory-Acquired Infection\nNA      Nucleic Acid\nNIH     National Institutes of Health\nNSF     National Sanitation Foundation\nOBC     Operational Biorisk Subcommittee\nOCS     Office of the Chief Scientist\nOHS     Office of Homeland Security\nOIE     World Organization for Animal Health\nOSHA    Occupational Safety and Health Administration\nOSSP    Office of Safety, Security and Protection\nPOA&M   Plan of Action and Milestones\nPOC     Point of Contact\nSOP     Standard Operating Procedure\nRNA     Ribonucleic acid molecule\nPPE     Personal Protective Equipment\n\n\n\n                                   A-1\n\fUN      United Nations\nUSDA    United States Department of Agriculture\nUSPHS   United States Public Health Service\nWHO     World Health Organization\n\n\n\n\n                                   A-2\n\f                                      APPENDIX B\n\n                                      DEFINITIONS\n\n\na.   Accident. An unplanned event that results in an injury, illness, or damage to property or\n     the environment involving employees, volunteers, contractors, cooperators, emergency\n     personnel, visitors, or the public.\n\nb.   Biocontainment. A term used in describing safe methods, facilities features, and\n     containment or safety equipment for managing infectious materials in the laboratory\n     environment where these materials are being handled or maintained. The purpose of\n     containment is to reduce or eliminate exposure of laboratory workers, other persons, and\n     the outside environment to potential biohazardous agents or toxins.\n\nc.   Biohazard. Include certain types of recombinant Deoxyribonucleic Acid (DNA); or\n     synthetic nucleic acid (NA – DNA or Ribonucleic Acid (NA)); biological agents\n     infectious to humans, animals, or plants (e.g., parasites, viruses, bacteria, fungi, and\n     rickettsia); and biologically active agents (i.e., toxins, allergens, prions, and venoms)\n     that may cause disease in other living organisms or significantly affect the environment,\n     community, commerce, or trade agreements.\n\nd.   Biohazardous agent. An infectious agent or toxin, or hazardous biological agent, or part\n     thereof, regardless of origin (naturally occurring, bioengineered, or a synthesized\n     component of any such microorganism or infectious substance) that presents a real or\n     potential risk to humans, animals, or plants, either directly through infection, or\n     indirectly through environmental disruption.\n\ne.   Biological agent(s). Any microorganism (including, but not limited to, bacteria, viruses,\n     fungi, rickettsiae, or protozoa), or infectious substance, or any naturally occurring,\n     bioengineered, or synthesized component of any such microorganism or infectious\n     substance, capable of causing:\n     (1) Death, disease, or other biological malfunction in a human, an animal, a plant, or\n         another living organism;\n     (2) Deterioration of food, water, equipment, supplies, or material of any kind; or\n     (3) Deleterious alteration of the environment.\n\nf.   Biological Select Agent and Toxins. Biological agents and toxins that have the potential\n     to pose a severe threat to public health and safety, animal health and safety, plant health\n     and safety, or to the safety of animal or plant products, regulated under 9 CFR Part 121,\n     7 CFR Part 331, and 42 CFR Part 73.\n\ng.   Biorisk. Effect of uncertainty expressed by the combination of the consequences of an\n     event (including changes in circumstances) and the associated “likelihood” of\n     occurrence, where biological material is the source of harm.\n\n\n                                              B-1\n\fh.   Biorisk management. The effective management or mitigation of risks posed by\n     working with biohazardous agents includes a range of practices and procedures to ensure\n     biosafety, biocontainment, and biosecurity of those biohazardous agents. Biorisk\n     management includes the full spectrum of safety and security measures for laboratories,\n     including hazard identification and assessment, risk communication and training,\n     development of standard operating procedures, and use of personal protective\n     equipment, engineering controls, and facility design.\n\ni.   Biorisk management staff. A staff member with an education and professional\n     background in the life sciences and who may hold various titles such as biosafety\n     officer/specialist/manager, biocontainment officer/specialist/manager, or biosecurity\n     officer/specialist/manager. To be effective, biorisk management staff must develop\n     knowledge, skills, and abilities in the principles of epidemiology, disease transmission\n     routes and patterns, biological risk assessment, JHA and risk management strategies,\n     disinfection and sterilization methodology and kinetics, sampling methods and\n     environmental controls (engineering controls; facility design; Heating, Ventilation, and\n     Air Conditioning (HVAC) systems; and laboratory biosecurity). In some instances in\n     which a dedicated biorisk management staff person is not available, a staff member with\n     a background in occupational safety and health or general science disciplines may fill\n     this role as an adjunct or collateral duty provided the staff member has received\n     appropriate training and education.\n\nj.   Biosafety. The use of specific practices, safety equipment, and specially designed\n     facilities to ensure that workers, the community, and the environment are protected from\n     infectious agents, toxins, and biological hazards. A biosafety program will identify\n     biological hazards, assess the level of health-related risks of the biological hazards\n     present, and identify ways to reduce the health-related risks associated with the\n     biological hazards.\n\nk.   Biosafety levels (BSL). A combination of work practices and physical containment\n     requirements (facility and safety equipment) designed to reduce the risk of a\n     microorganism’s ability to cause injury through disease to workers, animals (wild and\n     domestic), the environment, and the public.\n\nl.   Biosecurity. Although this term has multiple definitions, for the purpose of this\n     document the term biosecurity will refer to the protection of biological agents or toxins\n     from loss, theft, diversion, or intentional misuse. This is consistent with current USDA\n     Directives, CDC’s BMBL, World Health Organization (WHO) Laboratory Biosafety\n     Manual, and American Biological Safety Association (ABSA) International usage of\n     this term.\n\nm. Culture of safety. The common shared and learned meanings, experiences, values, and\n   interpretations of all members of an organization that guide and affect attitudes, patterns\n   of behavior, attention and actions toward improving safety performance, and\n   commitment to risk control on a daily basis.\n\n\n\n                                              B-2\n\fn.   Deoxyribonucleic acid (DNA). A nucleic acid that carries the genetic information in\n     cells and some viruses, consisting of two long chains of nucleotides twisted into a\n     double helix and joined by hydrogen bonds between the complementary bases adenine\n     and thymine or cytosine and guanine. DNA sequences are replicated by the cell prior to\n     cell division and may include genes, intergenic spacers, and regions that bind to\n     regulatory proteins.\n\no.   Facility. Any USDA owned, leased, or shared space where a unit of a USDA agency\n     performs specific services or functions.\n\np.   Field research setting. A site where research is conducted on livestock, free-ranging fish\n     and wildlife populations, habitats and landscapes, watersheds, ecosystems, and other\n     natural resources, and where the field work includes the study and collection of\n     information to include biological sample collection outside a laboratory, library, or\n     interior workplace setting.\n\nq.   Federal Select Agent Program (FSAP). A program with shared responsibility by the\n     Animal and Plant Health Inspection Service (APHIS) and the Centers for Disease\n     Control and Prevention (CDC).\n\nr.   Field biosafety (outside of laboratory containment). A subset of field safety procedures\n     and protective equipment designed to reduce the risk of occupationally acquired\n     infection, cross-contamination of biological samples, and cross-contamination (through\n     mechanical transfer) to other environmental or field locations when work is conducted\n     outside the controlled laboratory environment and therefore may introduce new\n     infections to naïve animal populations.\n\ns.   High Containment Biological Agents and Toxins. Those biological agents and toxins,\n     including transboundary animal diseases and their vectors, which require high or\n     maximum containment facilities.\n\nt.   Incident. An occurrence (event), natural or man-made, that happens within the work\n     environment involving biological-associated hazards, including toxins. Incidents can\n     include, but are not limited to, unsafe occurrences and hazardous situations. This could\n     include preventable and non-preventable occurrences; occurrences involving\n     individuals/personnel or situational events not involving individuals/personnel; and may\n     or may not be accidental.\n\nu.   Job hazard analysis (JHA). A technique that focuses on job tasks as a way to identify\n     hazards before they occur. It focuses on the relationship between the worker, the task,\n     the tools, and the work environment. The goal is to identify hazards and eliminate or\n     reduce (risk mitigation) them to an acceptable level.\n\nv.   Laboratory biosecurity. See Biosecurity definition.\n\n\n\n\n                                             B-3\n\fw. Occupationally-acquired infection. An infection that is directly related to the exposure\n   of an individual to an infectious agent as a direct result of performing one’s job duties.\n\n     (1) Laboratory-acquired infection (LAI). An infection acquired through laboratory or\n         laboratory-related activities regardless of whether it results in symptomatic or\n         asymptomatic conditions.\n\n     (2) Field-acquired infection. An infection acquired through field research, diagnostic,\n         or response activities regardless of whether it results in symptomatic or\n         asymptomatic conditions.\n\nx.   Pathogen. A bacterium, virus, or other microorganism that can cause disease.\n\ny.   Personal protective equipment. Equipment worn to minimize exposure to hazards that\n     cause serious workplace injuries and illnesses. Such injuries and illnesses may result\n     from contact with biological, chemical, radiological, physical, electrical, mechanical, or\n     other workplace hazards. Personal protective equipment may include items such as\n     gloves; safety glasses and shoes; earplugs or muffs; hard hats; respirators; and coveralls,\n     vests, or full body suits.\n\nz.   Ribonucleic Acid (RNA). A polymeric molecule implicated in various biological roles\n     in coding, decoding, regulation, and expression of genes. RNA and DNA are nucleic\n     acids, and along with proteins and carbohydrates, constitute the three major\n     macromolecules essential for all known forms of life.\n\naa. Risk assessment. A process used to identify the hazardous characteristics of a biological\n    agent (known infectious, zoonotic, or environmental hazards), toxins, or material; the\n    activities that can result in a worker’s exposure to an agent or material and/or\n    environmental release of a biological agent that would negatively affect agriculture or\n    the environment (whether in a laboratory, vivarium, animal pen, greenhouse, or field\n    activity); the likelihood that such exposure will cause a negative effect such as a\n    laboratory-acquired infection or field-acquired infection; and the probable consequences\n    of such an event. The information identified by the risk assessment will provide a guide\n    for the selection of biosafety levels (laboratory setting or vivarium), appropriate work\n    practices, safety equipment (which includes personal protective equipment), and facility\n    safeguards at which research or diagnostic activities should be conducted. Likewise, a\n    job hazard analysis should be performed to identify and mitigate risks to known or\n    potentially infectious biological agents, toxins, or materials involving field activities\n    where facility safeguards are not feasible. A risk assessment should be performed to\n    provide the information needed to eliminate or reduce a particular risk to an acceptable\n    level. The assessment of risk needs to be carried out before work begins (and repeated\n    when changes are to be made in biohazardous agents or toxins, practices, employees, or\n    facilities/worksite) by a knowledgeable person using professional judgment.\n\nbb. Standard operating procedure (SOP). A set of step-by-step instructions compiled by an\n    organization to help workers carry out routine operations. SOPs aim to achieve\n\n\n\n                                              B-4\n\f    efficiency, quality output and uniformity of performance, while reducing\n    miscommunication and failure to comply with industry regulations.\n\ncc. Toxin. A broad range of substances of natural and xenobiotic methods that may cause\n    death or severe incapacitation at relatively low exposure levels. Biological toxins\n    include metabolites of living organisms, degradation products of dead organisms, and\n    materials rendered toxic by the metabolic activity of microorganisms. Examples of\n    toxins include Staphylococcus enterotoxins, saxitoxin, cholera toxin, botulinum toxin,\n    ricin, abrin, and mycotoxins.\n\n\n\n\n                                            B-5\n\f                                    APPENDIX C\n\n                          AUTHORITIES AND REFERENCES\n\n\n7 CFR Part 330.201, General: Application for Permits to Move Plant Pest\n\n7 CFR Part 331, Possession, Use, and Transfer of Select Agents and Toxins (Agriculture)\n\n9 CFR Part 121, Possession, Use, and Transfer of Select Agents and Toxins (Animals and\nAnimal Products)\n\n9 CFR Part 122, Organisms and Vectors\n\n42 CFR Part 71.54, USPHS Import Regulations for Infectious Biological Agents, Infectious\nSubstances, and Vectors\n\n42 CFR Part 73, Select Agents and Toxins (Public Health)\n\nAPHIS, User’s Guide for Introducing Genetically Engineered Plants and Microorganisms\n\nARS, ARS Manual 242.1, Chapter 9, Biohazard Containment Design, May 2012\n\nCDC, Biosafety in Microbiological and Biomedical Laboratories, 5th Edition, December\n2009\n\nCRC Press - Laboratory Biosecurity Handbook, 2nd Edition, 2007\n\nCWA, Cen Workshop Agreement 15793, Laboratory Biorisk Management, 2011\n\nDOT, 49 CFR Parts 171-180, Transporting Infectious Substances\n\nIATA, Dangerous Goods Regulations, 2019\n\nISO, 35001 Biorisk Management for laboratories and other related organizations; 2019\n\nNIH, NIH Guidelines for Research Involving Recombinant or Synthetic Nucleic Acid\nMolecules (NIH guidelines), April 2019\n\nOIE (World Organization of Animal Health), Manual of Diagnostic Tests and Vaccines for\nTerrestrial Animals - International Transfer and Laboratory Containment of Animal\nPathogens, 2018\n\nOSHA, Occupational, Safety and Health Administration, General Duty Clause\n\nUN-FAO, Laboratory Mapping Tool, 2016\n\n\n\n                                           C-1\n\fUSDA, DM 4400-007, USDA Biorisk Management Manual, forthcoming\n\nUSDA, DR 9610-001; USDA Policies and Procedures on Security, Suitability and Incident\nResponse for High Containment Facilities, forthcoming\n\nUSDA DM 9610-001; USDA Policies and Procedures on Security, Suitability and Incident\nResponse for High Containment Facilities, forthcoming\n\nUSDA, DM 9610-002, USDA Security Policies and Procedures for Laboratories and\nTechnical Facilities (Excluding Biosafety Level-3 Facilities), April 30, 2003, under revision\n\nUSDA, DR 9630-001, USDA Policies and Procedures on Biohazardous Waste\nDecontamination Management, and Quality Controls at Laboratories and Technical\nFacilities, June 18, 2009\n\nUSDA, Joint Committee on Biorisk Management Policy Charter\n\nUSDA, Joint Committee on Biorisk Management Policy Operational Biorisk Subcommittee\nCharter\n\nWHO, World Health Organization Laboratory Biosafety Manual, third edition, 2004, under\nrevision\n\n\n\n\n                                             C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "cccbfe45-4c5a-5ae7-852e-b65f93f51818",
+          "title": "USDA Directives — DR4400-007",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4400-007",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

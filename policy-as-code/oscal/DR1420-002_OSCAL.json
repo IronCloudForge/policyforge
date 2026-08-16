@@ -1,0 +1,544 @@
+{
+  "catalog": {
+    "uuid": "da0f701f-778f-5db8-9d5b-5fdf279a63ca",
+    "metadata": {
+      "title": "USDA DR1420-002: Printing Policy",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2016-09-08",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1420-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2016-09-08"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1420-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Printing Services Division, Office of Communications, OC",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1420-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Printing Services Division, Office of Communications, OC"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "f64cf051-9113-56c1-a71a-8bf8e7684bf8",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1420-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1420-002-1-stmt",
+                "name": "statement",
+                "prose": "This regulation describes policies and procedures for the production and procurement of\n  printing, microforming, and duplication of materials for USDA. The Secretary has\n  delegated authority to the Office of Communications (OC), at 7 CFR 2.36, to determine\n  policy and provide leadership and centralized operational direction for all USDA and\n  agency information activities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5801b452-d16d-5b41-8788-76f5d1fcd46d",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr1420-002-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr1420-002-2-stmt",
+                "name": "statement",
+                "prose": "This regulation cancels and replaces DR 1420-001, “Composition and Printing”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f163464d-f5ad-589f-92a8-3d4129f75cfd",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1420-002-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1420-002-3-stmt",
+                "name": "statement",
+                "prose": "The printing, microforming, and duplication of materials necessary to conduct the\n  programs of USDA and its agencies are integral parts of the coordinated information\n  process by which the Department keeps the public informed. A key objective of this\n  central printing activity is to use the most economical printing methods consistent with\n  the requirements of need, time, quality, distribution, and effectiveness."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2e4ed3a6-dc5d-5c00-97cc-489035e8fe63",
+        "class": "section",
+        "title": "Authority",
+        "controls": [
+          {
+            "id": "dr1420-002-4",
+            "class": "policy-requirement",
+            "title": "Authority",
+            "parts": [
+              {
+                "id": "dr1420-002-4-stmt",
+                "name": "statement",
+                "prose": "Special statutory and regulatory authorities provide the basis on which printing is\n  obtained.\n\n  a. Legal Requirements. Except as otherwise specified, funds available to the\n     Department of Agriculture may be used for printing and binding (7 U.S.C. § 2239).\n     All Federal printing must be procured through the Government Publishing Office\n     (GPO) (44 U.S.C. 501 and 502; section 207(a) of the Legislative Branch\n     Appropriations Act, 1993 (44 U.S.C. 501 note)). The exceptions are:\n\n     (1) when GPO cannot provide the printing service (48 C.F.R. § 8.802(a)(1); 44\n         U.S.C. 504);\n\n     (2) printing in field printing plants that have been approved by and are operated by a\n         Federal Department, independent office, or establishment (44 U.S.C. 501(2));\n\n     (3) the procurement of printing by a Federal Department, independent office, or\n         establishment from allotments for contract field printing (44 U.S.C. 501 (2));\n\n     (4) the procurement of any printing related to the production of Government\n         publications (including printed forms) (a) when the individual printing orders cost\n         $1,000 or less, if the work is not of a continuing or repetitive nature, or (b) when\n         printing from other sources is specifically authorized by law (section 207 of the\n         Legislative Branch appropriations Act, 1993 (44 U.S.C. § 501 note)).\n\n\n                                           2\n\fb. Exemptions\n   (1) The Foreign Agricultural Service has a waiver from the Government Print\n       Office (GPO) to use its funds for printing outside the United States, where it is\n       more cost effective to do so.\n\n   (2) The Secretary is authorized to use appropriated funds for meat inspection for the\n       purchase of printed tags, labels, stamps, and certificates, without regard to\n       existing laws applicable to public printing (7 U.S.C. § 431).\n\n   (3) The Secretary is authorized to use funds appropriated to carry out chapter 11 of title 7,\n       U.S.C. (honeybee activities), for printing and binding without regard to 44 U.S.C. § 501 (7,\n       U.S.C. § 285).\n\n   (4) The Commodity Credit Corporation (CCC) is authorized to procure printing directly from\n       commercial sources using CCC funds (15 U.S.C. §§ 714b (g), (j).\n\n\nc. FAR. FAR Subpart 8.8 (48 C.F.R. §§ 8.800-8.802) provides policy for the\n   acquisition of Government printing and related supplies.\n\nd. Joint Committee on Printing (JCP), Government Printing and Binding Regulations\n   copies are distributed within USDA by the OC, Printing Services Division.\n\ne. Secretary's OC Delegations. The Secretary has designated OC as the Central Printing\n   Authority (7 C.F.R. §2.36(a) (2) (v)). The Central Printing Authority shall have the\n   responsibility for the conduct of a coordinated program controlling the development,\n   production, procurement, and distribution of materials through the use of\n   conventional printing and binding methods or multiple-copy microform methods. It\n   also shall control duplicating and automatic copy-processing or copier-duplicating\n   equipment or machines that can be used for printing in volumes exceeding those of\n   duplicating work, (Government Printing & binding Regulations, section 30). That\n   control does not relate to office or desk-type copiers which are subject to Agriculture\n   Property Management Regulations. OC is the only contact for the Department and its\n   agencies with JCP and GPO. Conferences between agencies and GPO or contract\n   printers may be necessary to resolve major problems. OC shall determine when\n   agency participation is required on printing matters with GPO or printing contractors\n   and shall arrange such conferences.\n\nf. OC will designate sources of printing, copying, duplicating, and microforming\n   for the following:\n\n   (1) Information material for public use, including publications and periodicals\n       as described in DR 1410.001, Publications Review/ Clearance Policy;\n\n   (2) Administrative materials, including memorandums, letters, speeches,\n\n                                         3\n\f         newsletters, internal reports, program announcements, grade manuals,\n         regulations, regulatory guidelines, training materials, interoffice memo pads,\n         forms, and similar kinds of materials not defined as publications in DR 1410-\n         001."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b0cd1924-b8bf-5250-bee2-e9f2813e8c0a",
+        "class": "section",
+        "title": "Applicability And Scope",
+        "controls": [
+          {
+            "id": "dr1420-002-5",
+            "class": "policy-requirement",
+            "title": "Applicability And Scope",
+            "parts": [
+              {
+                "id": "dr1420-002-5-stmt",
+                "name": "statement",
+                "prose": "This regulation applies to all agencies and staff offices of the Department."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ee92f564-750b-527f-ba6b-9d9ebf0f1f28",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr1420-002-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr1420-002-6-stmt",
+                "name": "statement",
+                "prose": "a. The Director of OC is responsible for USDA’s printing policies. To carry out this\n     responsibility, the Director or the Director’s delegates shall:\n\n     (1) Review and approve final specifications for printing, marked copy, and other\n         instructions;\n\n     (2) Provide advice and direction on printing methods and procedures and hold\n         periodic meetings to explain new developments, improve procedures, and clarify\n         instructions and requirements;\n\n     (3) Notify agencies of changes in printing specifications and deviations from standard\n         practice when changes are necessary to meet schedules and deadlines;\n\n     (4) Approve proposals for equipment and plant sites relating to copying (when\n         defined as printing), duplicating, and microforming before notifying JCP;\n\n     (5) Approve Washington-based requests to use more than one color, full reverses, and\n         separate covers and case bindings, and to exceed printing limitations;\n\n     (6) Survey printing facilities in USDA and periodically review materials produced in\n         the field for production efficiency;\n\n     (7) Work closely with GPO to develop contracts for duplicating, and printing; serve\n         as the Department’s liaison with JCP, GPO, and other Government agencies on\n         printing matters; and interpret and administer the printing statutes, policies, and\n         regulations set forth by JCP and GPO.\n\n     (8) Use of Logos/Marks under Departmental Regulation 1430-002 outlines\n         requirements and procedures to be followed by USDA’s mission areas, agencies,\n         and staff offices in regard to the design and use of new and existing logos/marks\n         (words, acronyms, symbols, insignia, devices, and combinations thereof), in\n         program materials, by USDA’s mission areas, agencies, and staff offices to\n         identify themselves and their programs, initiatives, legislation, events, etc., or the\n         use on products and services by program participants to certify participation in or\n         compliance with Department programs.\n\n                                           4\n\f       This regulation applies to the use of the USDA Symbol and the Official USDA\n       Seal. The USDA Office of Communications “Visual Standards Guide” is the\n       Official USDA Symbol and the Official USDA Seal guidance for proper use.\n\n       See OC’s “Visual Standards Guide” dated October 2012. The USDA Visual\n       Standards Guide can be accessed at www.usda.gov/oc/ under the side bar\n       “Division” Click on: “Brand Events/Exhibits and Editorial Review” to download\n       a pdf copy of the guide.\n\n       Clearance for external use of the USDA name and logo must go through the\n       Office of Communications, Brand Events, Exhibits and Editorial Review and\n       Clearance Division.\n\nb. Office of Operations (OO), this agency is responsible for Departmental duplication\n   services. OO also will:\n\n   (1) Operate headquarters duplicating and copying facilities; and\n\n   (2) Work closely with OC to assure that copying and duplicating services are\n       provided in the most cost effective manner consistent with program requirements.\n\nc. Agencies of the Department. Heads of agencies and staff offices are responsible for\n   assuring that requests for all kinds of microforming, copying, duplication, artwork,\n   and printing required by their agencies and staff offices are properly prepared. These\n   responsibilities include appropriate specifications and instructions for quality control,\n   timely reproduction, and shipment of materials. Agency Heads must also make sure\n   that services and materials requested are held within limits necessary to carry on the\n   work of the Department effectively and are consistent with the economical use of\n   public funds. In addition, each agency will:\n\n   (1) Designate, in Washington, D.C., and, if necessary, in each field office that\n       procures printed materials, one or more individuals to serve as a printing officer.\n       (Some agency programs require close administrative office supervision over the\n       printing of forms and similar materials; others require information office\n       supervision over the printing of publications. Whether separate printing officers\n       are necessary or one can do both tasks is the prerogative of each agency.) The\n       officers based in the Washington area will represent their agencies with OC on\n       printing matters. Printing officers in the field shall work through their\n       headquarters in a manner determined by the agency administrator.\n       Responsibilities of printing officers shall include review of camera copy,\n       photographs, and color transparencies for quality control before forwarding to OC\n       for production.\n\n   (2) Provides annual data to OC as necessary on anticipated printing needs, with time\n       requirements, to assure requirements can be met by term contracts;\n\n                                         5\n\f     (3) Review agency printing problems and procedures regularly and consult OC on\n         matters that need resolution in order to achieve economical and timely\n         reproduction."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e8a2ccfc-e58f-534d-9e4a-507eeab25c8a",
+        "class": "section",
+        "title": "Economic Considerations",
+        "controls": [
+          {
+            "id": "dr1420-002-7",
+            "class": "policy-requirement",
+            "title": "Economic Considerations",
+            "parts": [
+              {
+                "id": "dr1420-002-7-stmt",
+                "name": "statement",
+                "prose": "All materials for which microforming and printing are necessary shall be reviewed for the\n  most economical methods of production consistent with requirements of time, quality,\n  distribution, and any other such matters affecting the job. Specific concerns shall be:\n\n  a. Size of Job - Number of copies to print is determined by audience size and needs.\n     Limitations are:\n\n     (1) Work reproduced on duplicating and copying machines shall not exceed 5,000\n         production units of any one page or 25,000 production units in the aggregate of\n         multiple pages; and\n\n     (2) Work initiated by agency field office shall not exceed 5,000 production units of\n         any one page without prior authority of their Washington, D.C., agency\n         administrator or, as in the case of publications, the agency headquarters\n         information office.\n\n  b. Two or More Colors - Printing in two or more colors increases costs. While most of\n     the Department's printing needs require only one color of ink, multicolor printing can\n     be used when it is needed to fulfill the purpose of the printed matter. Examples are\n     maps and technical diagrams needing clarity, photographs and drawings to depict\n     scientific accuracy, and materials to explain or draw attention to special programs\n     such as recruiting, educational matters, safety programs, and similar activities as\n     described in JCP regulations. Agency field offices shall submit justifications for\n     using more than one color to their Washington headquarters information director.\n     Washington offices shall submit their justifications to the Publications Review\n     Clearance Policy. (See DR 1410-001, section 9).\n\n\n  c. Illustrations and Photographs - Only illustrations that are functional and directly\n     related to the transaction of public business shall be printed. Aggrandizement of\n     individuals is prohibited (see JCP regulations).\n\n  d. Covers and Binding - A self-cover of the same paper stock as the inner pages is the\n     prescribed standard, especially if the publication is 32 pages or less and is not to be\n     subjected to hard use. If an originating agency believes a publication 32 pages or less\n     requires a separate cover, justification for approval must be submitted to OC in\n     writing. Agency field offices must obtain prior approval from their Washington\n     headquarters information office. Low-cost binding methods and materials to protect\n     the printed matter should be practical and economical. All requests for case-bound\n     covers require a written justification for approval by OC.\n                                           6\n\fe. Paper - Kinds of paper available for printing are listed in the paper catalog issued\n   periodically by GPO. Paper selection affects both the cost and the quality of printing.\n   The use of coated stock requires a written justification submitted for approval by OC.\n\nf. Composition - Type selection will be based on suitability to design, readability, and\n   economy and will follow the prescribed formats listed in the USDA Visual\n   Information Standards, located in The Office of Communications, Creative Media\n   and Broadcast Center, Design Services. If the submitted copy other than typewritten\n   copy was not obtained through JCP approved facilities, does not meet GPO and\n   USDA standards, or otherwise fails to meet printing laws and regulations, it can be\n   reset at the option of GPO or OC and the cost charged to the originating agency.\n\ng. Planning Printing Jobs - Jobs should be planned carefully as far in advance as\n   possible. Otherwise, there can be wasted effort, reduction of quality, and excessive\n   expense. Allow adequate lead time for the work to be done. Usually the shorter the\n   lead time, the greater the planning required. To assure effective planning, agencies\n   should:\n\n   (1) Analyze work to establish priorities, assign adequate staff, initiate time-\n       consuming actions early, eliminate nonessential steps, and set realistic release\n       dates;\n\n   (2) Plan to take advantage of printing contracts for fast service. Contracts have strict\n       specifications, so jobs must be suited to the contracts;\n\n   (3) Select the most practical and economical form of composition. Composition\n       often is the most time-consuming and costly step in the publishing process,\n       especially if many proofs need to move back and forth between printer and author\n       for reading and corrections. For effective planning on use of composition, follow\n       the formats in USDA Visual Information Standards, located in The Office of\n       Communications, Creative Media and Broadcast Center, Design Services;\n\n   (4) Keep jobs simple. Special design and layout add time and costs to the process, as\n       does use of more than one color, separate covers and special binding, die cuts, too\n       much white space, and blank pages;\n\n   (5) Avoid blank pages, as they generally add additional cost to a job. A written\n       justification in advance of camera-copy preparation is required for a request that\n       an entire publication be printed only on one side of each page;\n\n   (6) Avoid overtime costs. Surcharges for fast printing can significantly increase labor\n       costs, depending upon where the job is handled. Overtime requirements must be\n       worth the extra expense and must be fully justified; and\n\n   (7) Plan distribution in the beginning.\n\n                                         7\n\f  h. Rush Printing - When lead time is inadequate under normal procedures to meet an\n     agency's needs, the agency printing officer should immediately consult with the OC,\n     Printing Services Division. If camera-ready copy is not already prepared, the most\n     time-saving composition process for the job will be selected. When camera-ready\n     copy is available, procurement will be expedited by personal attention; the most\n     reliable and fastest printing process will be selected; overtime will be authorized if\n     essential, and arrangements will be made to obtain advance copies for special release,\n     when appropriate.\n\n  i. Corrections and Changes in Proofs - To avoid additional costs and delays in handling\n     proofs, all manuscripts or copy shall be carefully edited and prepared before\n     submission to the printer. When a manuscript has advanced to page proof,\n     nonessential improvements in language, form of expression, capitalization,\n     paragraphing, etc., shall be avoided as well as author's alterations. These types of\n     corrections and changes are expensive and create delays and therefore should be\n     made before copy goes to the printer.\n\n  j. Errata Sheets - Errata sheets should be issued only when errors are of such magnitude\n     as to affect the functional value of the subject material.\n\n  k. Form Style - All printing shall comply with the form determined by the Public Printer\n     (44 U.S.C. 1105) and by the USDA Visual Management Manual. The USDA Visual\n     Management Manual and the GPO Style Manual are the standard guides for USDA\n     publications and other printed materials.\n\n  l. Self-Mailer Techniques - When economically advantageous, the penalty or postage-\n     paid indicia shall be used directly on printed materials to avoid use of envelopes,\n     wrappers, or packages. Space also shall be allowed for the name and address of\n     individuals or organizations to which the material will be mailed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "140a369d-a4c9-5c6c-9180-7293b655aaee",
+        "class": "section",
+        "title": "Reprints And Reproducibles",
+        "controls": [
+          {
+            "id": "dr1420-002-8",
+            "class": "policy-requirement",
+            "title": "Reprints And Reproducibles",
+            "parts": [
+              {
+                "id": "dr1420-002-8-stmt",
+                "name": "statement",
+                "prose": "USDA policy encourages commercial groups and educational and nonprofit\n  organizations to reprint USDA publications in their entirety or in part to increase\n  dissemination of information at no cost to the Government. Federal publications are in\n  the public domain, unless copyrighted by a grantee or a contractor, and may be\n  reproduced by the public in whole or in part with or without credit. Any copyrighted\n  material in a Federal publication cannot be reprinted by the public without permission\n  from the copyright holder. A brief credit statement is encouraged, such as \"Reprinted\n  from (title of publication), published by the U.S. Department of Agriculture.\" Reprinted\n  publications should not be used to imply endorsement by the Department of any\n  commercial concern, product, or service nor shall USDA publications be combined with\n  non-USDA publications such that the combinations would imply or identify the\n  publication as a USDA publication.\n\n\n\n                                          8\n\f  (1) Purchase of Reproducibles - Engravings, electroplates, and offset negatives usually\n      can be purchased from the Superintendent, Departmental Account Representative\n      Division, GPO, Washington, D.C. 20401. Private concerns and individuals should\n      deal directly with that office, but agency requests should be submitted to OC. All\n      requests should include a copy of the publication or its full title, issue date, number,\n      and any other information that will help identify the material.\n\n  (2) Storage of Reproducibles - Except for publications available for distribution by\n      Members of Congress, agencies may request that reproducibles be returned with the\n      printed job."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ae706a2f-5465-56f1-874a-b865632ce6e6",
+        "class": "section",
+        "title": "Restrictions",
+        "controls": [
+          {
+            "id": "dr1420-002-9",
+            "class": "policy-requirement",
+            "title": "Restrictions",
+            "parts": [
+              {
+                "id": "dr1420-002-9-stmt",
+                "name": "statement",
+                "prose": "Much of the copying, duplicating, microforming, and printing procured through GPO\n  involve commercial printers. However, service contracts and grants shall not be used as\n  the primary source of such printing and related processes nor shall private or commercial\n  printing be done at any Government plant (see JCP regulations and 44 U.S.C. 1102 and\n  1118).\n\n  (1) Service Contracts - The procurement of writing, editing, preparation of manuscript\n      copy, or preparation of related illustrative material may be included in contracts for\n      service. A contractor also may print forms and instructional materials necessary to\n      respond to the terms of a contract, but a contractor cannot be the prime or substantial\n      source of printing unless authorized by OC and after notifying JCP. A contractor\n      may duplicate fewer than 5,000 units of one page or fewer than 25,000 units of more\n      than one page for a Department or agency. Agencies shall be responsible for seeing\n      that the limitations are not exceeded by the contractor.\n\n  (2) Grants - Grantees are subject to the same restrictions on printing as service\n      contractors and shall not become prime or substantial sources of printing. Thus, the\n      inclusion of printing is prohibited unless authorized by OC and JCP is formally\n      notified. A grantee, as part of a requirement, may duplicate fewer than 5,000 units of\n      one page or fewer than 25,000 units of more than one page. Department or agency\n      grants may, however, support non-government publications if grants were issued\n      pursuant to an authorization of law and were not made primarily or substantially for\n      printing materials. Writing, editing, preparation of manuscript copy, and preparation\n      of related illustrative material are permitted by grantees, as may be required in the\n      terms of the grant. Agencies shall be responsible for assuring that the limitations are\n      not exceeded by grantees.\n\n  (3) Private or Commercial Work - No private or commercial work may be performed at\n      any Government plant even though the Government is reimbursed. If appropriated\n      funds are used to create information for use in any kind of publication other than a\n      nonprofit, scientific journal, USDA must have first rights to print and bind that\n      information. It shall not be made available to a private publisher for first publication\n      without prior approval of OC and notification of JCP.\n\n                                            9\n\f  (4) Stationery and Letterhead - No embossed stationery other than that permitted in JCP\n      regulations shall be produced or procured at Government expense. All stationery\n      shall be designed and approved by the Creative Media Services, OC, prior to printing.\n\n  (5) Greeting Cards - Printing or engraving of greeting cards is considered to be personal\n      rather than an official need and shall not be done at Government expense.\n\n  (6) Calendars - Standardized Government desk and wall calendars may be ordered from\n      the General Services Administration. Other styles, sizes, and formats may not be\n      printed or purchased at Government expense.\n\n\n10. REQUESTS FOR PRINTING, BINDING and E-BOOKS\n\n  The OC, Printing Services Division, shall coordinate the procurement of all composition,\n  copying, duplicating, e-books, microforming, and printing.\n\n  The Director, Printing Services Division, shall process all requisitions to GPO for\n  composition and printing and arrange all negotiations with GPO and Washington-based\n  offices regarding all forms of composition and printing.\n\n  Washington-based offices of the Department shall conduct neither oral nor written\n  negotiations with GPO nor its contractors but shall conduct their negotiations with and\n  through the OC Printing Services Division. Washington-based procedures are:\n\n     (1) Printing through GPO - Orders for printing through GPO shall be submitted to\n         OC on Form AD-78. This form has essential specifications and serves as\n         permanent record and should not be folded or pinned to other materials. This\n         form will help to expedite the procurement and delivery of orders. From the AD-\n         78, printing specialists in OC will prepare any additional forms necessary, as\n         determined by the source from which printing will be obtained. OC will provide\n         the agencies with access to their printing data base so they will know where\n         printing is being obtained and will be aware of estimated costs. Special care\n         should be taken to include correct addresses for delivery of orders. (Street\n         addresses should be used at all times. Postal Service box addresses are\n         unacceptable by GPO;\n\n\n     (2) Printing in the Department Duplicating Facilities. Orders for printing in the\n         Department's duplicating facility shall be submitted to OC on Form AD-270.\n         Such requests for printing shall be made only when OC and the agency determine\n         that the size of the printing and the schedule are suitable. Agencies may receive a\n         waiver for orders exceeding the 25,000 unit limitation for printing done in the\n         USDA; and\n\n\n\n                                          10\n\f     (3) Printing Guidelines. For details on printing procedures and explanations of\n         methods used in determining the placement of work, see the Printing Monograph,\n         \"Printing and Composition Schedules and Contract Information,\" available in the\n         OC Printing Services Division."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "25b55c59-cfee-5f5f-883f-446836ddbc46",
+        "class": "section",
+        "title": "Ordering Forms",
+        "controls": [
+          {
+            "id": "dr1420-002-11",
+            "class": "policy-requirement",
+            "title": "Ordering Forms",
+            "parts": [
+              {
+                "id": "dr1420-002-11-stmt",
+                "name": "statement",
+                "prose": "Special attention is required for ordering overprinting of forms and for providing enough\n  lead time for printing of all forms.\n\n  (1) Overprinting – Some programs necessitate overprinting special information on\n      standard forms. Such deviations—including overprinting, serial numbering, or other\n      alterations—require prior approval of the General Services Administration, or in\n      certain cases, the Government Accountability Office or other appropriate agencies.\n      Agencies should request any alterations at the time the Form AD-78 is submitted to\n      the OC, Printing Services Division.\n\n  (2) Providing Lead Time – Orders to replenish supplies of stock forms, interleaved forms\n      (commonly called “snapouts”), and all new forms shall be placed whenever possible\n      with the OC, Printing Services Division, 90 days in advance for economical\n      procurement. Orders for book-bound snapouts and continuous forms must be placed\n      90 to 120 days in advance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4c9715a6-6cfd-5fde-aabb-7eaef923de7f",
+        "class": "section",
+        "title": "Shipments Of Printed Material From Printer To Field",
+        "controls": [
+          {
+            "id": "dr1420-002-12",
+            "class": "policy-requirement",
+            "title": "Shipments Of Printed Material From Printer To Field",
+            "parts": [
+              {
+                "id": "dr1420-002-12-stmt",
+                "name": "statement",
+                "prose": "GPO contractors can send bulk shipments directly to field offices. This capability should\n  be used when it will save space, time, transportation, and other distribution costs.\n  Distribution lists should accompany requests for printing and binding sent to OC. The\n  Printing Services Division will work with GPO for economical routing of shipments\n  within scheduled delivery dates."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2f3bc095-aced-59a9-b7b7-048ce8c017d6",
+        "class": "section",
+        "title": "Deliveries Of Printed Material In Washington, D.C.",
+        "controls": [
+          {
+            "id": "dr1420-002-13",
+            "class": "policy-requirement",
+            "title": "Deliveries Of Printed Material In Washington, D.C.",
+            "parts": [
+              {
+                "id": "dr1420-002-13-stmt",
+                "name": "statement",
+                "prose": "GPO delivers printed materials to one central point in the Department, which is the\n  Office of Operations, Loading Dock."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "46e7c1e4-c792-587f-b97d-80b9b2497639",
+        "class": "section",
+        "title": "Consolidated Orders",
+        "controls": [
+          {
+            "id": "dr1420-002-14",
+            "class": "policy-requirement",
+            "title": "Consolidated Orders",
+            "parts": [
+              {
+                "id": "dr1420-002-14-stmt",
+                "name": "statement",
+                "prose": "Periodically, the Department initiates requisitions to the Public Printer for Federal\n  publications printed by other branches of the Government. Department agencies should\n  notify OC of their needs when requested. In most instances, agencies will be requested to\n  submit AD-78 to the OC, Printing Services Division, for ordering the documents. A\n  consolidated order then will be placed with GPO."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ce6bba13-0a46-5c91-a8a4-09e7abb811ed",
+        "class": "section",
+        "title": "Blanket Clearance For Recurring Printing",
+        "controls": [
+          {
+            "id": "dr1420-002-15",
+            "class": "policy-requirement",
+            "title": "Blanket Clearance For Recurring Printing",
+            "parts": [
+              {
+                "id": "dr1420-002-15-stmt",
+                "name": "statement",
+                "prose": "11\n\f  OC, at its discretion, may give written advance clearance for up to one year for certain\n  recurring jobs. Application for advance clearance should be made on Form AD-59, with\n  a copy of the manuscript or a copy of the latest edition of the recurring publication\n  attached. Items given such clearance will be post-audited."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "66daf469-124f-5f7d-a7f0-7352e9ef8faa",
+        "class": "section",
+        "title": "Acquisition, Use, Inventory, Rental, And Disposal Of Equipment",
+        "controls": [
+          {
+            "id": "dr1420-002-16",
+            "class": "policy-requirement",
+            "title": "Acquisition, Use, Inventory, Rental, And Disposal Of Equipment",
+            "parts": [
+              {
+                "id": "dr1420-002-16-stmt",
+                "name": "statement",
+                "prose": "Various methods of reporting use and inventories of printing and related equipment are\n  described in JCP regulations. Procedures for handling these matters within the\n  Department include:\n\n  (1) Annual Plant Reports. The approved National Cartography and Geospatial Center,\n      Fort Worth, Texas, will submit an annual report to the OC, Printing Services\n      Division. This report shall be made on JCP Forms 4 and 5. Date due in OC is 5\n      weeks after September 30, of each year;\n\n  (2) Advance Approvals. Purchases, rentals, exchanges, or transfers of any composition,\n      microforming, or printing equipment require justification, the approval of OC, and\n      notification of JCP (see section 9d). Duplicating equipment capable of producing an\n      image size larger than 10 3/4\" x 14 1/4\" requires similar approvals. Copying\n      equipment which can produce quantities of production units comparable to\n      duplicating equipment (5,000 units of any one page and work exceeding 25,000\n      production units in the aggregate of multiple pages) also requires justification and\n      advance approval from OC;\n\n  (3) Justification Requirements. Agency request for equipment requires the approval of\n      OC and notification of JCP. To save time, prior consultation with the Printing\n      Services Division is advisable. Content of requests shall include a statement of need,\n      a complete description (quantity, make, size, condition, cost or estimated value, etc.),\n      location, and a statement that the needed service is otherwise unavailable. If the\n      proposed equipment is a replacement, the request shall indicate that the old\n      equipment will be disposed of in accordance with JCP regulations.\n\n  (4) Completion of Transaction. When delivery and installation of approved equipment\n      have been completed, the agency shall notify the Director, OC, Printing Services\n      Division, in writing of completed transaction;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2ffe8cc0-daa0-5565-94b4-847b065f6148",
+        "class": "section",
+        "title": "Preparing Copy",
+        "controls": [
+          {
+            "id": "dr1420-002-17",
+            "class": "policy-requirement",
+            "title": "Preparing Copy",
+            "parts": [
+              {
+                "id": "dr1420-002-17-stmt",
+                "name": "statement",
+                "prose": "General-procedures for submission of manuscripts for publication review are described in\n  DR 1410-001, section 9. To facilitate handling of all types of material for printing, OC\n  will provide information on copy or tape preparation, methods of reproduction, and costs\n  and speed of reproduction. OC shall determine if copy is properly prepared for printing\n  and shall make final approval of layouts, illustrations, and other materials for submission\n  to the printer. No officer or employee of the Department, however, may agree or offer to\n\n                                           12\n\f  participate in any arrangement for obtaining composition or printing by a contractor in\n  order to avoid clearance in the Department or to avoid obtaining composition or printing\n  through Department channels."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e94c3e88-73a6-510f-b8c8-e2156cb0f868",
+        "class": "section",
+        "title": "Submission Of Copies Of Publications Printed In The Department",
+        "controls": [
+          {
+            "id": "dr1420-002-18",
+            "class": "policy-requirement",
+            "title": "Submission Of Copies Of Publications Printed In The Department",
+            "parts": [
+              {
+                "id": "dr1420-002-18-stmt",
+                "name": "statement",
+                "prose": "DUPLICATING FACILITY AND FIELD OFFICES\n\n  USDA is required to submit monthly to the Superintendent of Documents copies of\n  publications printed or duplicated by USDA facilities in Washington and in the field.\n  The National Agricultural Library and the Library of Congress also require copies of all\n  printed and duplicated publications. Requirements for submission of copies from agency\n  headquarter offices include:\n\n  (1) Copies Produced in Washington, D.C. Duplicating Facility. Five copies of each\n      publication produced by agencies in the facility in Washington will be furnished by\n      OO to the OC, Printing Services Division. These copies will be used for reporting to\n      the Superintendent of Documents and for supplying copies to the Library of\n      Congress. OO furnishes copies directly to (See DR 1020-001, National Agricultural\n      Library (NAL).); and\n\n  (2) Copies Produced Under Cooperative Agreements and Contracts. Agencies shall\n      establish procedures to assure that six copies of each publication produced under\n      cooperative agreement or by contract are forwarded to the OC, Printing Services\n      Division. One copy of the six produced by cooperative agreement shall carry the\n      notation \"Produced under cooperative agreement.\" OC will forward two copies to\n      NAL and four copies to the Library of Congress."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0aeb373b-1bcc-5051-b4df-164a5950c576",
+        "class": "section",
+        "title": "Regional And Field Printing And Duplicating",
+        "controls": [
+          {
+            "id": "dr1420-002-19",
+            "class": "policy-requirement",
+            "title": "Regional And Field Printing And Duplicating",
+            "parts": [
+              {
+                "id": "dr1420-002-19-stmt",
+                "name": "statement",
+                "prose": "a. Limitations. GPO Regional Printing Procurement Offices are the authorized offices\n     where the Department's agency regional and field offices must procure contract field\n     printing. The following limits also apply:\n\n     (1) Field Printing. Materials printed in the field must be used in the geographical\n         area of origin, unless approved by OC through the agency's information head.\n         Agency field offices should submit justifications for use of more than one color to\n         their Washington headquarters information director. Field facilities of staff\n         offices should submit justifications to OC, Printing Services Division;\n\n     (2) Procurement. Agencies shall procure all field printing through GPO Regional\n         Printing Procurement Offices, unless the work is authorized by Headquarters to be\n         done in a printing plant of a Federal Agency (see JCP regulations for regional\n         boundaries and DR 1410, section 9a(7) . Should an agency desire to establish a\n         field printing plant, justification for application shall be submitted to OC. OC\n         will notify JCP;\n\n\n\n                                         13\n\f     (3) Authorized Ordering Officials. Agencies shall supply to the OC, Printing\n         Services Division, the names of personnel authorized to sign orders for printing\n         through GPO procurement offices. Changes in those names must be reported\n         immediately to the Printing Services Division; and\n\n     (4) Methods of Ordering. Procedures for ordering field printing are outlined in the\n         Agency Procedural Handbook issued by GPO (Publication 305.1) which is\n         available from the Printing Services Division.\n\n  b. Required Reports - Although further detail on reports is supplied in JCP regulations,\n     specific concerns for field offices include:\n\n     (1) OC Report to JCP. This report covers all printing procured from GPO Regional\n         Printing Procurement Offices. Use AD-575 and include all work requested on\n         Standard Form 1 and work requested on GPO-2511. The AD-575 shall be sent to\n         the OC, Printing Services Division, no later than 5 weeks after September 30;\n\n     (2) JCP Form No. 2. This form covers all transactions concerning composition,\n         printing, binding, and blank book work which are procured directly from\n         commercial sources. Report semiannually, in duplicate. Negative reports are not\n         required. Due 5 weeks after March 31 and September 30;\n\n     (3) Notice of Transaction Authorized by JCP. This letter must be completed by The\n         Office of Communications, Printing Services, and returned immediately upon\n         completion of an authorized transaction: and\n\n     (4) Procedure. All reports shall be sent to The Office of Communications, Printing\n         Services Division, by the agency's Washington office for forwarding to JCP.\n         Copies of all JCP forms are available from the Printing Division."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8d3131de-3319-5cdf-b2ec-5da599e00b35",
+        "class": "section",
+        "title": "Review Of Printing Procurement Activities And Printing Plants",
+        "controls": [
+          {
+            "id": "dr1420-002-20",
+            "class": "policy-requirement",
+            "title": "Review Of Printing Procurement Activities And Printing Plants",
+            "parts": [
+              {
+                "id": "dr1420-002-20-stmt",
+                "name": "statement",
+                "prose": "The OC, Printing Services Division, will make periodic reviews of Department printing\n  activities in Washington and in the field to ensure that such printing is produced in the\n  most efficient manner and in conformance with Government laws and regulations related\n  to printing. After each review, the Printing Division will prepare a report with\n  recommendations for use by the agency or office involved. Installations may request a\n  review of their operations by writing to the Director, Office of Communications, Printing\n  Services Division."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8069b76b-76b7-5334-ba40-41da96f752e0",
+        "class": "section",
+        "title": "Waivers",
+        "controls": [
+          {
+            "id": "dr1420-002-21",
+            "class": "policy-requirement",
+            "title": "Waivers",
+            "parts": [
+              {
+                "id": "dr1420-002-21-stmt",
+                "name": "statement",
+                "prose": "In certain instances GPO, or its contractors, cannot provide or procure printed matter\n  needed by a Department or agency. When agencies believe they have material which\n  meets such conditions, they may provide a justification to OC, for a waiver. When\n\n                                          14\n\f  waivers are granted, agencies shall assure that the publications carry proper USDA\n  identification, that the publications remain in the public domain and cannot be\n  copyrighted, and that adequate quantities are printed for distribution to depository\n  libraries."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4d87e205-0c0c-516c-bfab-613e6c409444",
+        "class": "section",
+        "title": "Type And Design Considerations",
+        "controls": [
+          {
+            "id": "dr1420-002-22",
+            "class": "policy-requirement",
+            "title": "Type And Design Considerations",
+            "parts": [
+              {
+                "id": "dr1420-002-22-stmt",
+                "name": "statement",
+                "prose": "Policies on design standards and guides for identifications, logos, and symbols are\n  provided in the USDA Visual Information Standards, located in The Office of\n  Communications, Creative Media and Broadcast Center, Design Services. Printing\n  officials should consider the following specific approaches in order to meet the policies\n  set forth in those paragraphs:\n\n     (1) Consult with the Creative Media and Broadcast Center on selecting type for credit\n         lines to avoid overemphasis. Generally, a reduced or subordinate size of type to\n         that in the text and the legends will suffice;\n\n     (2) Obtain from the Creative Media and Broadcast Center standardized designs or\n         formats for recurring jobs that seldom or never require type changes other than in\n         titles."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "588133ef-80b3-5c1d-adc8-8f792f163529",
+        "class": "section",
+        "title": "Quality Levels",
+        "controls": [
+          {
+            "id": "dr1420-002-23",
+            "class": "policy-requirement",
+            "title": "Quality Levels",
+            "parts": [
+              {
+                "id": "dr1420-002-23-stmt",
+                "name": "statement",
+                "prose": "The final responsibility for achieving printing quality is set forth by GPO in their Quality\n  Assurance through Attributes Program. The primary responsibility for assigning quality\n  levels will rest with the ordering agency. The level of quality desired shall be given on\n  AD-78. If no quality level is requested, OC, Printing Services Division will assign one\n  and notify the agency. Levels of quality available include:\n\n  (1) Level 1 (Best Quality) - These products require the best available materials, printing,\n      workmanship, quality control and commensurate production time. Products in this\n      level have single or multicolor detailed halftones, very fine line drawings, and\n      reproductions up to 300 line screen halftones. The highest quality original copy,\n      composition, reproduction proofs, and typography are required. Supplied films must\n      be certified suitable for printing. Maximum fidelity in detail, color, and resolution to\n      original copy is a prime requirement and must be maintained throughout production.\n      Finishing must be held to the highest standards of accuracy, durability, and\n      appearance;\n\n  (2) Level 2 (Better Quality) - These products require high quality printing, materials,\n      workmanship, quality control, and commensurate production time. Products in this\n      level have single or multicolor 150 lines or finer halftone screen reproductions of\n      single or multicolor subject matter. A high quality of original copy, films,\n      composition, reproduction proofs, and typography are required. Close fidelity and\n      resolution to original copy and/or films is required. Finishing must be held to high\n      standards of accuracy, durability, and appearance;\n\n                                           15\n\f  (3) Level 3 (Good Quality) - These products require above average materials, printing,\n      workmanship, quality control, and commensurate production time. Products in this\n      level require clean, sharp printing of single or multicolor work (general process\n      work), and halftone reproductions up to 150 line screen. Above average quality\n      original copy, films, composition, reproduction proofs, and typography are required.\n      Finishing must be held to above average standards of accuracy, durability, and\n      appearance;\n\n  (4) Level 4 (Basic Quality) - These products require average quality printing, materials,\n      workmanship, quality control, and commensurate production time. Products in this\n      level are generally informational and have general black-and-white or line color (non-\n      process) and occasional halftone reproductions. Average quality original copy, films,\n      composition, proofs, and typography are required. Average fidelity and resolution to\n      original copy and/or films is required. Finishing must be of an accuracy, durability,\n      and appearance that do not impair the function of the product; and\n\n  (5) Level 5 (Duplicating Quality). These products require printing with no information\n      loss from original copy. These products may be reproduced from any readable copy.\n      Finishing must not impair the function of the product."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8dba7ad5-f635-59dd-b6f8-c1d0aa2cf0f6",
+        "class": "section",
+        "title": "Classification Of Defects",
+        "controls": [
+          {
+            "id": "dr1420-002-24",
+            "class": "policy-requirement",
+            "title": "Classification Of Defects",
+            "parts": [
+              {
+                "id": "dr1420-002-24-stmt",
+                "name": "statement",
+                "prose": "GPO classifies a defect as any nonconformance to specific requirements. Each product\n  class has a separate classification of defects. Defects are measurable in terms of\n  requirements. Determinations to resolve conflicts between contractors and agencies shall\n  be handled through OC, Printing Services Division according to procedures established\n  by GPO. Defects include:\n\n  (1) Critical Defects. These are defects which render the products unusable for\n      their intended end use, for example, a missing signature in a book;\n\n  (2) Major Defects. These are defects which would normally be spotted by the lay\n      observer and which could justifiably result in customer complaints. A printed\n      piece containing a major defect is still usable for the purpose intended but may\n      make such use more difficult than it should be, for example, a badly printed page\n      in a book but which is still readable; and\n\n  (3) Minor Defects. These are defects that would normally pass unnoticed by the lay\n      observer in the routine use of the print and would not be the source of comment,\n      complaint, or inconvenience unless present in large number, for example, a broken\n      letter or a small hickey.\n\n\n                                       -END-\n\n\n                                          16\n\f                                    APPENDIX A\n\n                              REPORTS AND FORMS\n\n\n\nJCP Report 1 - Printing Plants except Plants Primarily Concerned in Map and/or Chart\nReproduction\n\nJCP Report 2 - Commercial Printing Report Notice of Completion of Transaction\nAuthorized by JCP\n\nAD-59 - Request for Manuscript Review\n\nAD-78 - Request for Printing and Binding\n\nAD-270 - Request for Reproduction Service\n\nAD-700 - Procurement Request\n\nGPO-2511 - Print Order\n\nSF-l - Printing and Binding Requisition\n\n\n\n\n                                          A-1\n\f                         APPENDIX B\n\n             ACRONYMS AND ABBREVIATIONS\n\n\n\nAGPMR   Agriculture Property Management Regulations\nDR      Departmental Regulation\nFAR     Federal Acquisition Regulation\nGPO     Government Publishing Office\nJCP     Joint Committee on Printing, U.S. Congress\nNAL     National Agricultural Library\nOC      Office of Communications\nOO      Office of Operations\nNRCS    Natural Resources Conservation Service\n\n\n\n\n                              B-1\n\f                                         APPENDIX C\n\n                                         DEFINITIONS\n\n“Printing” as defined in section 207 (a) (3) of the Legislative Branch Appropriations Act, 1993\n(44 U.S.C. § 501 note), “includes the processes of composition, platemaking, presswork,\nduplicating, silk screen processes, binding. microforming, and the end items of such processes.”\n\nTerms used in printing and related activities are based on the JCP regulations. JCP regulations\nclassify certain basic equipment for copying, composition, platemaking, and presswork, binding,\nand related activities. Equipment classifications are related to printing definitions and indicate\nthe kinds of equipment requiring OC approval and formal notification of JCP. Other terms\npertinent to the Department's printing activities include:\n\nMicroform\n\nA miniaturized image format for mass or general distribution used as a substitute for\nconventionally printed material, except microfilming of administrative records, accounting\nreports, and similar items. Microform duplicating is the production of up to 250 duplicates, or\nunits from original microform; more than 250 duplicates constitute printing and must be\ncontracted through the Government Printing Office. One microform production unit is one roll\nof microfilm 100 feet in length or one microfiche;\n\nDuplicating\n\nReproduction involving stencils, masters, and plates to be used on single unit equipment not\nlarger than 11 x 17 inches and with a maximum image of 10 3/4 x 14 1/4 inches. Jobs may not\nexceed 5,000 production units of any one page or 25,000 production units in the aggregate of\nmultiple pages [(see sections 2-1)]. This definition includes reproduction by electrostatic copy\nmachines capable of production of the volume listed above;\n\nProduction Unit\n\nA single sheet, from 8 1/2 x 5 1/2 inches up to 8 1/2 x 11 inches, printed on one side only in one\ncolor of ink. A sheet within these dimensions printed on both sides or on one side in two colors\nof ink are two production units. Total number of production units is the product of the number\nof copies and the number of sheets within the dimensions, which are printed in one or two colors.\nA page no larger than 8 1/2 x 5 1/2 inches is considered one-half of a production unit; an 8 1/2 x\n3 2/3-inch page, one- third of a production unit; and an 8 1/2 x 2 3/4-inch page, one-fourth of a\nproduction unit;\n\nPrinting Plant\n\nRefers to a plant approved by JCP and located on property owned or controlled by the\nGovernment to produce printing as defined by JCP regulations;\n\n\n\n                                               C-1\n\fMap and Chart Printing Plants\n\nCalled \"cartographic plants\" for Departmental purposes, these plants are authorized by JCP to\nproduce only multicolor flat and/or folded maps. The National Cartography and Geospatial\nCenter, Fort Worth, Texas, is authorized to procure map work directly from commercial sources\nand from GPO;\n\nCamera-Ready Copy\n\nA term commonly used among printers, designers, and editors to identify material prepared for\nphotomechanical reproduction. The material can include words composed by a typesetting\nmachine, an office machine, or an electronic character- generating device, as well as illustrations\nprepared by an artist or photographer. Preparation of camera-ready copy is the last step in the\nassembly of material prior to delivery to a printer. The printer prepares negatives from the\ncamera-ready copy for transferring an image to printing plates. Other terms used for camera-\nready copy include: \"camera copy,\" \"camera-ready art,\" line art,\" \"reproduction copy,\" \"boards,\"\n\"mechanicals,\" \"shooting art,\" and \"shooting copy.\" Storage or disposal is the responsibility of\nthe originating agency; and\n\nCopying\n\nRefers to the duplication or reproduction of an original work, or a facsimile of an original work,\nwith the aid of a machine or device. Number of copies made generally provides the criteria for\ndetermining whether the reproduction process is to be considered printing or \"office work.\" For\ninstance, copying machines capable of reproducing more than 5,000 production units of any one\npage and 25,000 production units in the aggregate of multiple pages are classified as printing\nequipment.\n\n\n\n\n                                               C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "aa248454-7dd1-5c4d-b6fb-9fc9ae9722d9",
+          "title": "USDA Directives — DR1420-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1420-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

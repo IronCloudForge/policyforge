@@ -1,0 +1,245 @@
+{
+  "catalog": {
+    "uuid": "90f3c7ab-51cc-50e8-b49d-45f860d41d44",
+    "metadata": {
+      "title": "USDA DR3300-025: Secure Domain Name System",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2016-03-18",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-025"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2016-03-18"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-025",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Enterprise Network",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-025",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Enterprise Network"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "1cffd6e9-fa17-5b37-8fbd-232f90bad217",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3300-025-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3300-025-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the minimum requirements for implementing\n     Domain Name System (DNS) and Domain Name System Security Extensions (DNSSEC)\n     services across all United States Department of Agriculture (USDA) networks."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7613bf25-3ef4-59a4-9e96-8489960124d1",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3300-025-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3300-025-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to USDA agencies, staff offices, employees, and contractors\n          responsible for operating and managing DNS equipment and services.\n\n     b.   For any DNS standards not addressed in this policy, refer to the following guidance\n          documents for additional direction and information: Domain Name System (DNS)\n          Security Reference Architecture, Version 1.0; National Institute of Standards and\n          Technology (NIST) Special Publication (SP) 800-81-2, Secure Domain Name System\n\f       (DNS) Deployment Guide; NIST SP 800-57 Revision 1, Recommendation for Key\n       Management, Part 3: Application-Specific Key Management Guidance; Federal\n       Information Processing Standards (FIPS) Publication (PUB) 140-2, Security\n       Requirements for Cryptographic Modules; and FIPS PUB 186-4, Digital\n       Signature Standard (DSS).\n\n  c.   This policy complies with the statuatory responsibilities identified in the Federal\n       Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3541, et seq.\n\n  d.   This policy adheres to the requirements established in the Office of Management and\n       Budget (OMB) Circular A-130, Appendix III, Security of Federal Automated\n       Information Resources and Appendix IV, Analysis of Key Sections."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9cfb71d2-5512-511f-a9b2-65cbdf55e8b6",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3300-025-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3300-025-3-stmt",
+                "name": "statement",
+                "prose": "a.   General Guidance\n\n       The following guidance applies to all DNS servers, including USDA enterprise DNS\n       servers and agency and staff office administered DNS servers:\n\n       (1) DNS servers shall meet all criteria defined in this policy and must be registered\n           with the USDA Office of the Chief Information Officer (OCIO), Enterprise\n           Network Services (ENS) Directorate and the Agriculture Security Operations\n           Center (ASOC) in order to operate as a public facing name server.\n\n       (2) The DNS roles of authoritative name server and recursive caching name server shall\n           be separate. If these roles cannot be separate, an additional statement describing the\n           configuration must be included with the information submitted for registration and\n           USDA Chief Information Security Officer (CISO) authorization.\n\n       (3) In order to comply with OMB, Department of Homeland Security (DHS), and NIST\n           guidance, the USDA enterprise DNS solution shall:\n\n            (a) Conform with DHS’s Trusted Internet Connections Reference Architecture\n                Document, Version 2.0 for DNS solutions;\n\n            (b) Provide a DNS service that can be offered to USDA agencies and staff offices;\n                and\n\n            (c) Comply with relevant NIST, OMB, FIPS, and DHS standards, guidelines, and\n                other processes and controls identified in this policy.\n\n\n\n\n                                                 2\n\fb.   USDA Enterprise DNS Services\n\n     ENS shall implement, operate, and manage the USDA enterprise DNS solution. This\n     solution shall fully interoperate (without errors) with the Trusted Internet Connections\n     (TICs) and the USDA enterprise network.\n\nc.   Public Facing Authoritative Name Servers\n\n     Public facing authoritative name servers shall:\n\n     (1) Prohibit recursive queries from external clients;\n\n     (2) Implement DNSSEC signatures for authentication of zone data as mandated in\n         OMB Memorandum M-08-23, Securing the Federal Government’s Domain Name\n         System Infrastructure, and in accordance with NIST SP 800-81-2 and NIST SP 800-\n         57 Revision 1 for zones classified as external in the context of NIST SP 800-53\n         Revision 4, Security and Privacy Controls for Federal Information Systems and\n         Organizations;\n\n     (3) Provide DNS services via both Internet Protocol version 4 (IPv4) and Internet\n         Protocol version 6 (IPv6);\n\n     (4) Log queries, access attempts, and provide appropriate audit information to ASOC\n         Security Information and Event Management (SIEM) devices, as directed by the\n         USDA CISO. These logs shall be transmitted using the system log (syslog)\n         protocol, and as official records, be managed in accordance with Information\n         Technology and Operations Management (ITOM)-11, ITOM-13, and ITOM-23 of\n         the United States Department of Agriculture Record Group 16 File Plan;\n\n     (5) Secure any zone data transferred between name servers using a secure method such\n         as Transaction Signatures (TSIG), as discussed in NIST SP 800-81-2, or methods\n         providing an equivalent or greater level of data security;\n\n     (6) Use appropriate address match lists for split DNS views, if defined, to properly\n         segment queries and zone definitions by relevant security contexts;\n\n     (7) Be configured using the NIST SP 800-81-2 recommended configuration checklist\n         as a guideline; and\n\n     (8) Be registered with ENS and ASOC as an authorized USDA public facing\n         authoritative server.\n\nd.   Public Facing Recursive Caching Servers\n\n     Public facing recursive caching servers shall:\n\n\n\n                                               3\n\f     (1) Restrict recursive queries to internal clients only;\n\n     (2) Attempt DNSSEC validation for all queried names;\n\n     (3) Provide DNS services via both IPv4 and IPv6;\n\n     (4) Log queries, access attempts, and provide appropriate audit information to ASOC\n         SIEM devices, as directed by the USDA CISO. The logs should be transmitted in\n         syslog format and be retained by the owner of the system for a minimum of 30\n         days;\n\n     (5) Provide DNS filtering or security controls such as DNS blackholing, DNS\n         blacklisting, DNS firewall services, or other controls as deemed appropriate by the\n         USDA CISO;\n\n     (6) Be configured using the NIST SP 800-81-2 recommended configuration checklist\n         as a guideline;\n\n     (7) Be registered with ENS and ASOC as authorized USDA public facing recursive\n         caching resolvers; and\n\n     (8) Not host authoritative zones, except for the following:\n\n         (a) Locally hosted zones as recommended in the Internet Engineering Task Force\n             (IETF) Locally Served DNS Zones, or when necessary to achieve the goals or\n             objectives defined in the IETF Special-Use Domain Names;\n\n         (b) Zones hosted in a split view configuration if required by multiple security\n             contexts; and\n\n         (c) Zones necessary to implement a security control as required in section 3d(5).\n\ne.   Internal or Private Servers\n\n     Internal or private servers shall:\n\n     (1) Restrict access to internal queries only;\n\n     (2) Forward all unresolvable queries to an authorized public facing recursive caching\n         resolver or to an enterprise internal authoritative server;\n\n     (3) Attempt DNSSEC validation for external names and for internal names where\n         appropriate;\n\n     (4) Provide DNS services on both IPv4 and IPv6 where possible, as directed by OMB\n         mandates and other USDA directives;\n\n                                                4\n\f       (5) Electronically log queries to create an audit trail between the original client query\n           and the resolved DNS response, as directed by the agency or staff office Chief\n           Information Officers (CIOs) or the USDA CISO; and\n\n       (6) Be configured using the NIST SP 800-81-2 recommended configuration checklist\n           as a guideline.\n\n  f.   External or Commercial DNS Servers\n\n       DNS services provided to USDA by external, commercial, or other non-USDA sources\n       shall meet the requirements of this policy. External servers hosting public facing USDA\n       zones must be approved by the USDA CISO as authorized USDA public facing servers\n       and must be included on the authorized USDA DNS server list maintained by ENS.\n\n  g.   External or Public Facing Domains\n\n       DNS domains or zones that are external or public facing only shall be hosted on DNS\n       servers that are policy compliant and are authorized USDA public facing servers that\n       meet the requirements identified in section 3c."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2344bda-1c49-5499-bc4d-dffcb24cc8aa",
+        "class": "section",
+        "title": "Compliance And Internal Controls",
+        "controls": [
+          {
+            "id": "dr3300-025-4",
+            "class": "policy-requirement",
+            "title": "Compliance And Internal Controls",
+            "parts": [
+              {
+                "id": "dr3300-025-4-stmt",
+                "name": "statement",
+                "prose": "In order to ensure that the requirements of policy statements defined in section 3 are met, the\n  following internal controls shall be used:\n\n  a.   Measures to Ensure DNSSEC Compliance\n\n       (1) The ENS Director shall review the weekly DHS National Cybersecurity\n           Assessment and Technical Services (NCATS) report detailing issues found with\n           USDA second level non-DNSSEC compliant domains.\n\n       (2) Upon determining that a DNS domain is noncompliant through a review of the\n           weekly NCATS report or by other means, ENS shall correct all subdomains hosted\n           on the enterprise DNS. Agencies and staff offices shall correct any noncompliant\n           domains that they host. ENS shall advise and assist agencies and staff offices in\n           correcting their noncompliant domains.\n\n       (3) Agency or staff office domains that remain noncompliant after 45 days following\n           notification shall require the domain owner to either move the domain to a server\n           where it can become DNSSEC compliant, or pursue steps in section 6 to obtain a\n           temporary policy exception waiver until the issue can be corrected.\n\n\n\n\n                                                 5\n\fb.   Measures to Track USDA Public Facing Servers\n\n     (1) The ENS Director shall compile and maintain a list of DNS servers that are\n         authorized by the USDA CISO as policy compliant USDA public facing DNS\n         servers. The data collected to populate the DNS server list not only serves as an\n         indicator of the level of compliance, but also provides valuable operational data for\n         interactions between the enterprise DNS servers and other authorized DNS servers.\n\n     (2) In order to ensure continued validity of the authorized server list, the ENS Director\n         shall coordinate, quarterly, with the ENS or agency technical point of contact\n         (POC) or administrative POC, as appropriate, to verify the information is correct for\n         a random sample of servers from the list.\n\n     (3) ASOC shall continuously monitor inbound and outbound DNS traffic at the USDA\n         network perimeter and identify servers that are sending or receiving DNS queries or\n         answers to or from external destinations.\n\n     (4) At the discretion of the USDA CISO, DNS servers not present on the authorized\n         public facing server list may be blocked at the USDA perimeter firewall and be\n         prevented from sending or receiving DNS messages.\n\nc.   Delegations for Public Facing Zones\n\n     (1) Section 3g specifies that all public facing or “external” zones be hosted on an\n         authorized public facing server. All public facing zones or subdomains delegated\n         from the enterprise USDA DNS servers to another DNS server shall be hosted on\n         an authorized USDA public facing server.\n\n     (2) The ENS Director shall validate annually or at the Key Signing Key (KSK) update\n         interval, whichever is more frequent, that public facing subdomains are delegated to\n         servers that are on the authorized USDA public facing server list.\n\n     (3) Zones delegated to servers not present on the authorized USDA public facing server\n         list shall either be moved to an authorized server or agencies shall pursue steps\n         identified in section 6 to obtain a temporary policy exception waiver until the\n         identified issue can be corrected.\n\nd.   Other Controls\n\n     The ENS Director and USDA CISO may implement additional monitoring tools or\n     controls, or conduct network access tests, to further validate compliance with elements\n     in this policy. Continued failure to meet the requirements of this policy may result in\n     affected servers being removed from the authorized server list or loss of access through\n     the USDA perimeter firewall.\n\n\n\n\n                                               6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ce2c463b-8ec2-5df4-8535-c76a73006537",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3300-025-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3300-025-5-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO shall provide oversight to promote and ensure agency and staff office\n       compliance with this policy.\n\n  b.   The USDA CISO shall:\n\n       (1) Issue access control policy for data and system access, and ensure compliance\n           through assessment and authorization concurrency reviews;\n\n       (2) Define audit log and security control specifications as referenced in sections 3c(4),\n           3d(4), 3d(5), and 3e(5), and coordinate such guidance with agency and staff offices;\n\n       (3) Enforce DNS policy for the USDA through the use of compliance reviews,\n           automated tools, or other appropriate methodologies;\n\n       (4) Review and respond to requests for waivers to this policy;\n\n       (5) Authorize use of USDA public facing name servers; and\n\n       (6) Determine whether DNS servers not on the authorized server list shall be allowed\n           through the USDA perimeter firewall.\n\n  c. The ENS Director shall:\n\n       (1) Provide oversight for the implementation and operation of the USDA enterprise\n           DNS;\n\n       (2) Work with agencies and staff offices to provide support, guidance, and delegated\n           DNS services on the enterprise platform;\n\n       (3) Develop and provide a DNS service to and for the agencies and staff offices in\n           order to facilitate consolidation of agency and staff office DNS services on the\n           enterprise DNS;\n\n       (4) Compile and maintain a current list of authorized public facing name servers. This\n           list shall be reviewed and updated quarterly or at DNSSEC KSK rollover periods,\n           whichever is more frequent;\n\n       (5) Ensure any DNS server hosting a public facing zone delegated from the USDA\n           enterprise DNS is a public facing server authorized by the USDA CISO;\n\n       (6) Review the weekly DHS NCATS report, which details issues found with USDA\n           second level non-DNSSEC compliant domains;\n\n       (7) Issue guidance for DNS access control and configuration;\n\n                                                7\n\f           (8) Provide technical assistance and support on DNS and DNSSEC configurations to\n               the agency or staff office POC implementing this policy;\n\n           (9) Maintain a current copy of the DNS authorized server list; and\n\n           (10) Maintain all necessary documentation provided by agency and staff offices for\n                public facing server registration.\n\n      d.   Agency and Staff Office CIOs shall:\n\n           (1) Implement, comply with, and maintain this policy within their respective agency or\n               staff office; and\n\n           (2) Provide all necessary documentation to the ENS Director and USDA CISO for\n               public facing server registration."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f5ef3492-8c9e-50e3-8404-f2f33e4d1442",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3300-025-6",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3300-025-6-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA agencies and staff offices are required to conform to this policy. In the event\n           that a policy requirement cannot be met as explicitly stated, the agency or staff office\n           CIO must submit a waiver request to the USDA CISO.\n\n      b.   The waiver request shall explain the reason for the request, identify compensating\n           controls/actions that meet the intent of the policy, and identify how the compensating\n           controls/actions provide a comparable or greater level of defense or compliance than\n           required by the policy. Agency and staff office CIOs will submit all policy waiver\n           requests to the USDA CISO for review and decision.\n\n      c.   Approved waivers from the USDA CISO must be associated with a NIST control that is\n           recorded and tracked as a Plan of Action and Milestones (POA&M) item in the USDA’s\n           FISMA data management and reporting tool. Waivers will expire at the end of the fiscal\n           year or six months from the date of approval, whichever is longer. Unless otherwise\n           specified, agencies and staff offices shall review and renew approved policy waivers\n           every fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4ca34b04-11d3-5616-a32e-4b833d551185",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3300-025-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3300-025-7-stmt",
+                "name": "statement",
+                "prose": "Questions and comments concerning the requirements of this regulation should be directed to\n      OCIO-ENS, Telecommunications Management & Governance (TMG) at\n      ens.policy@ocio.usda.gov.\n\n\n                                                  -END-\n1\n\n                                                    8\n\f                                      APPENDIX A\n\n                                     DEFINITIONS\n\n\na.   Authoritative Name Server. An authoritative name server defines and originates DNS\n     resource records and is considered public facing if it responds to DNS queries from an\n     external network.\n\nb.   DNS Blackholing. An anti-spam technique in which an Internet service provider blocks\n     packets coming from a certain domain or address. Blackholing of specific domains can\n     prevent certain types of malware and denial of service attacks.\n\nc.   DNS Blacklisting. A security practice or procedure in which DNS requests for\n     malicious DNS names can be blocked, redirected, or dedicated to a security logging\n     device.\n\nd.   DNS Server. Any computer registered to join the DNS. A DNS server runs special-\n     purpose networking software, features an Internet Protocol (IP) address, and contains a\n     database of network names and addresses for other Internet hosts. DNS servers can be\n     configured to perform as an authoritative name server, a recursive caching server, or\n     both.\n\ne.   DNS Zone. A DNS zone is the contiguous portion of the DNS domain name space over\n     which a DNS server has authority. A zone is a portion of a namespace and not a\n     domain. A DNS zone can contain one or more contiguous domains. A DNS server can\n     be authoritative for multiple DNS zones. A non-contiguous namespace cannot be a\n     DNS zone.\n\nf.   DNS Zone Data. The zone file contains information about various resources in that\n     zone. The information about each resource is represented in a record called a Resource\n     Record (RR). Because a zone may contain several domains and several types of\n     resources within each domain, the format of each RR contains fields for making this\n     identification. The RR consists of the following major fields: domain or resource name,\n     time to live in seconds, class, type of resource, and information about the resource.\n\ng.   Internal or Private Server. A name server that does not respond to DNS queries from the\n     external network. Private name servers are positioned inside firewalls as close to\n     internal users as is practical.\n\nh.   Recursive Caching Server. A recursive caching name server is a server that does not\n     originate or host any authoritative zones, but is dedicated to issuing queries to other\n     name servers in order to resolve mappings defined by other name servers. A recursive\n     caching server is considered public facing if it generates DNS queries to and receives\n     responses from an external network.\n\n\n\n                                             A-1\n\fi.   Systems Log (Syslog) Protocol. Syslog protocol is used to convey event notification\n     messages. This protocol utilizes a layered architecture, which allows the use of any\n     number of transport protocols for transmission of syslog messages. It also provides a\n     message format that allows vendor-specific extensions to be provided in a structured\n     way.\n\nFurther definitions regarding roles of servers and their related functions can be found in the\nDHS publication, Domain Name System (DNS) Security Reference Architecture.\n\n\n\n\n                                              A-2\n\f                             APPENDIX B\n\n                    ACRONYMS AND ABBREVIATIONS\n\n\nASOC     Agriculture Security Operations Center\nCIO      Chief Information Officer\nCISO     Chief Information Security Officer\nDHS      Department of Homeland Security\nDNS      Domain Name System\nDNSSEC   Domain Name System Security Extensions\nDR       Departmental Regulation\nDSS      Digital Signature Standard\nENS      Enterprise Network Services\nFIPS     Federal Information Processing Standards\nFISMA    Federal Information Security Modernization Act\nIETF     Internet Engineering Task Force\nIP       Internet Protocol\nIPv4     Internet Protocol version 4\nIPv6     Internet Protocol version 6\nITOM     Information Technology and Operations Management\nKSK      Key Signing Key\nNCATS    National Cybersecurity Assessment and Technical Services\nNIST     National Institute of Standards and Technology\nOCIO     Office of the Chief Information Officer\nOMB      Office of Management and Budget\nPOA&M    Plan of Action & Milestones\nPOC      Point of Contact\nPUB      Publication\nRR       Resource Record\nSIEM     Security Information and Event Management\nSP       Special Publication\nSyslog   System Log\nTIC      Trusted Internet Connection\nTMG      Telecommunications Management & Governance\nTSIG     Transaction Signature\nUSDA     United States Department of Agriculture\n\n\n\n\n                                    B-1\n\f                                    APPENDIX C\n\n                        AUTHORITIES AND REFERENCES\n\n\nDHS, Domain Name System (DNS) Security Reference Architecture, Version 1.0, June 21,\n2011\n\nDHS, Trusted Internet Connections Reference Architecture Document, Version 2.0, October\n1, 2013\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3541, et seq.\n\nFIPS PUB 140-2, Security Requirements for Cryptographic Modules, May 25, 2001\n\nFIPS PUB 186-4, Digital Signature Standard (DSS), June 2013\n\nIETF Request for Comments 6303, Locally Served DNS Zones, July 2011\n\nIETF Request for Comments 6761, Special-Use Domain Names, February 2013\n\nNIST SP 800-53 Revision 4, Security and Privacy Controls for Federal Information Systems\nand Organizations, April 2013\n\nNIST SP 800-57 Revision 1, Recommendation for Key Management, Part 3: Application-\nSpecific Key Management Guidance, January 2015\n\nNIST SP 800-81-2, Secure Domain Name System (DNS) Deployment Guide, September\n2013\n\nOMB Circular A-130, Appendix III, Security of Federal Automated Information Resources,\nNovember 2000\n\nOMB Circular A-130, Appendix IV, Analysis of Key Sections, November 2000\n\nOMB Memorandum M-08-23, Securing the Federal Government’s Domain Name System\nInfrastructure, August 22, 2008\n\nUnited States Department of Agriculture Record Group 16 File Plan, April 7, 2014\n\n\n\n\n                                           C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "f95e452e-499c-58bc-ab1d-902e8eb47b96",
+          "title": "USDA Directives — DR3300-025",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-025",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

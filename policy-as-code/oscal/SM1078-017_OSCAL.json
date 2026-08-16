@@ -1,0 +1,245 @@
+{
+  "catalog": {
+    "uuid": "164b1f1d-9733-5073-a12c-a2a0e84f3d67",
+    "metadata": {
+      "title": "USDA SM1078-017: Improving the Performance of the National Wildland Fire System with Targeted Federal Reforms",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2025-09-15",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1078-017"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2025-09-15"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1078-017",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1078-017",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "2ef89ee9-3667-5b80-97de-e21348316f84",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "sm1078-017-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "sm1078-017-1-stmt",
+                "name": "statement",
+                "prose": "This Secretarial Memorandum advances the policies set forth in Executive Order 14308,\n      Empowering Commonsense Wildfire Prevention and Response, issued by President Donald\n      J. Trump on June 12, 2025, to confront the escalating threat of wildfire across the United\n      States.\n\n      The scale, intensity, and cost of wildfires in the United States have reached historic levels.\n      More Americans than ever before are impacted by the effects of wildfire and the risk posed\n      to our nation’s communities, infrastructure, and natural resources is unacceptable. The\n      federal government must do more to empower and enable state, Tribal, and local\n      governments capabilities in responding to and preparing for wildfire. Without bold reforms,\n      the nation will continue to face escalating wildfire risks at a growing cost to taxpayers with\n      insufficient coordination and preparedness, resulting in unacceptable consequences to our\n      communities, infrastructure, and bountiful natural resources.\n\n      To respond, the U.S. Department of Agriculture (USDA), in partnership with the\n      Department of the Interior (DOI), is committed to leading a bold transformation of the\n      federal wildfire system to help our communities, neighbors, and partners better prepare for,\n      respond to, and recover from wildfires.\n\n      This Memorandum directs reforms to improve performance, eliminate redundancies by\n      consolidating key administrative functions, and streamline the overall function of the\n      interagency wildfire response system. Together USDA and DOI will eliminate red tape,\n      apply consistent policy interpretation, strengthen partnerships with state, Tribal, and local\n      governments, and ensure our operational systems, from procurement to technology\n      development and integration, support our interagency workforce to meet the demands of\n      the modern wildfire environment.\n\n      USDA stands ready to work across President Trump’s cabinet and with trusted partners to\n      build a wildfire response system that is proactive, resilient, and focused on protecting\n      people and resources."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c08d268b-9298-5f6f-809e-3bf0c829d9ea",
+        "class": "section",
+        "title": "Authorities",
+        "controls": [
+          {
+            "id": "sm1078-017-2",
+            "class": "policy-requirement",
+            "title": "Authorities",
+            "parts": [
+              {
+                "id": "sm1078-017-2-stmt",
+                "name": "statement",
+                "prose": "This Memorandum is issued under the authority of the Organic Administration Act of 1897\n       (16 U.S.C. §§ 473-482, 551 ); Multiple-Use Sustained-Yield Act of 1960 (16 U.S.C. §§\n       528-531), Forest and Rangeland Renewable Resources Planning Act of 1974, as amended\n       (16 U.S.C. §§ 1601-1614), Service First authority (16 U.S.C. 8544), the Healthy Forests\n       Restoration Act (P.L. 108-148, as amended), as well as other statutory authorities governing\n       the management, administration, and protection of the National Forest System. Other\n       directions include but are not limited to E.O. 14308."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "51c4815f-6780-5d2c-9710-abf4c25977a4",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "sm1078-017-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "sm1078-017-3-stmt",
+                "name": "statement",
+                "prose": "The United States maintains the most advanced and capable wildfire response system in\n       the world, with the Forest Service playing a vital role in supporting and coordinating these\n       efforts. The Forest Services infrastructure, firefighting personnel, grant and community\n       assistance programs, incident management teams, and resource mobilization and\n       contracting mechanisms are vital to protecting our nation’s communities, and natural\n       resources.\n\n       Despite decades of investment, the current wildfire response system remains fragmented,\n       reactive, and burdened by outdated systems and processes. Aerial and ground wildland fire\n       response operations occur under inconsistent standards and duplicative contracting rules.\n       Research portfolios are generally siloed, often disconnected from operational needs.\n       Governance structures lack clear authority and accountability, while IT systems are\n       outdated and incompatible across jurisdictions. States, Tribes, and local government\n       agencies face delays in reimbursement, as well as complex, time-consuming agreement\n       negotiations and review processes.\n\n       Together, these challenges underscore the urgent need for consolidated governance,\n       streamlined operations across land ownerships, and an outcome-driven approach to\n       wildfire management across federal agencies. While USDA and DOI will better coordinate\n       and align efforts to serve the American people, to truly be successful we will require deeper\n       coordination between federal agencies, Tribal and state governments, and the private\n       sector.\n\n       This transformation is vital to improve performance and end the status quo of wildfire\n       preparedness and response. We must better protect our communities and natural resources\n       by ensuring that the federal wildfire response system is prepared, and proactive in the face\n       of escalating risk."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7bfee8f4-3421-5642-bb37-4ac3dd329bc1",
+        "class": "section",
+        "title": "Directives",
+        "controls": [
+          {
+            "id": "sm1078-017-4",
+            "class": "policy-requirement",
+            "title": "Directives",
+            "parts": [
+              {
+                "id": "sm1078-017-4-stmt",
+                "name": "statement",
+                "prose": "To achieve the purpose set forth above, this Memorandum directs the Forest Service to\n     identify and make the necessary revisions, as appropriate and consistent with applicable law,\n     to any regulations, guidance, policies, or practices necessary to implement these directives.\n\n                                                2\n\fThe Forest Service shall work with DOI, states, Tribes, and others as required to accomplish\nthe directives outlined below to ensure that the federal wildfire response system improves\nperformance, function, and level of service to the American people. The Forest Service will\nregularly report progress and, if needed, seek guidance through the Office of the Under\nSecretary to ensure alignment with strategic priorities and policy direction.\n\n   (a) To address inefficiencies and modernize operations, aviation, and coordination\n   systems, I hereby direct the Forest Service in coordination with DOI to take the\n   following actions:\n       (i) Immediately initiate modernization of the federal wildland fire aviation program\n       through unified aircraft and pilot inspection, carding, procurement, contracting,\n       standards, and acceptance processes; propose a timeline for implementation within\n       30 days.\n       (ii) Evaluate and restructure existing coordination and governance bodies to\n       eliminate redundancy and misalignment, and to consolidate or establish new\n       governance structures with clear authority, accountability, and annual performance\n       standards within 120 days.\n       (iii) Improve interagency interoperability through qualification and training\n       standardization, and skills crosswalks with the Department of Homeland Security,\n       Tribes, states, and local governments within 180 days.\n\n   (b) To strengthen interagency wildfire coordination and response, I hereby direct the\n   Forest Service in coordination with DOI to take the following actions:\n       (i) Revise the Master Interagency Agreement for Wildland Fire Management to\n       ensure consistent alignment in policy and program delivery across DOI and USFS\n       within 120 days.\n       (ii) Immediately initiate use of Service First authorities to begin establishment of\n       joint USDA and DOI procurement, contracting, and payment centers to the extent\n       possible for wildland fire management to consolidate payment and auditing systems\n       and accelerate reimbursement procedures to states, Tribes, contractors, and local\n       governments; propose a timeline for implementation within 90 days.\n       (iii) Work with interagency partners at the national and regional levels to evaluate\n       the efficiency and effectiveness of the current Geographic Area boundaries and\n       pursue necessary modifications within 120 days.\n       (iv) Initiate the consolidation and modernization of wildland fire Predictive Services\n       at the national and regional levels into a centralized Fire Intelligence function to\n       improve the nation’s mobilization of resources in advance of and in response to\n       wildfire; propose a timeline for implementation within 30 days.\n       (v) Standardize wildland fire position descriptions and establish a joint\n       Administratively Determined hiring program and pay plan within 180 days.\n\n   (c) To improve federal partnerships and reduce administrative burden, I hereby direct\n   the Forest Service in coordination with DOI to employ a broad, formal process for\n   soliciting input from key stakeholders such as, state, Tribal and local government and to\n   take the following actions:\n\n\n\n                                           3\n\f   (i) Complete revision of the Master Cooperative Wildland Fire Management and\n   Stafford Act Response Agreement template to simplify structure, streamline billing\n   and reimbursement, and expedite review of new wildfire coordinating agreements\n   within 120 days.\n   (ii) Immediately initiate the modernization, consolidation, and simplification\n   processes for grants, agreements, and assistance to increase accessibility, accelerate\n   reimbursement, and eliminate administrative delays; propose a timeline for\n   implementation within 30 days.\n\n(d) To ensure wildfire research and technology investments are fit for purpose and field\nready, I hereby direct the Forest Service, in coordination with DOI, to take the following\nactions:\n    (i) Establish a joint governance structure to coordinate wildfire-related research,\n    technology development, and IT modernization and integration across the federal\n    wildfire community within 60 days.\n    (ii) Conduct a joint review of wildfire research portfolios to identify duplication and\n    ensure alignment to support operational priorities, and firefighter and public safety\n    within 120 days.\n    (iii) Assess and make recommendations to modernize standards for Personal\n    Protective Equipment to ensure the long-term health and safety of wildland\n    firefighters within 270 days.\n    (iv) Initiate design of a unified Wildfire Enterprise IT architecture with secure,\n    interoperable systems accessible to federal, Tribal, state, and academic partners;\n    propose a timeline for implementation within 60 days.\n\n(e) To integrate pre- and post-fire activities into a comprehensive wildfire strategy, I\nhereby direct the Forest Service in coordination with DOI to take the following actions:\n    (i) Use a unified wildfire risk mapping tool to plan mitigation activities and\n    demonstrate wildfire risk reduction accomplishments across federal, Tribal, state,\n    local, and private lands; propose a timeline for implementation within 30 days.\n    (ii) Establish a 5-year emergency stabilization and rehabilitation framework\n    including recommended consistent appropriations language and shared authorities\n    within 270 days.\n    (iii) Update standards, processes, and policies to streamline permitting for bulk\n    power operations and maintenance on federal rights-of-way and associated lands\n    within 270 days.\n    (iv) Work with DOI and the Environmental Protection Agency to eliminate\n    regulatory barriers for prescribed fire and use of fire retardant, including revising the\n    exceptional events rule, and permitting requirements within 270 days.\n    (v) USDA's General Counsel will coordinate with the DOI Solicitor's Office\n    regarding post-fire litigation activities, as appropriate, to effectuate the goals\n    identified in the E O 14308.\n\n(f) To ensure the workforce of the Forest Service is prepared to address the modern\nwildfire challenges, I hereby direct the Chief of the Forest Service to take the following\nactions:\n\n                                         4\n\f         (i) Develop proposals for a restructuring of the internal wildland fire organization,\n         consolidating fire leadership that reports directly to, and is accountable to a Forest\n         Service Deputy Chief. Implementation of this revised structure will begin by April 1,\n         2026.\n         (ii) Assess wildland fire staffing, organization, position descriptions, and job\n         classifications to ensure consistency and develop recommendations for\n         standardization across the agency. Implementation of these recommendations will\n         begin by April 1, 2026."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d5ab8497-4c26-531a-8997-39db20b8441e",
+        "class": "section",
+        "title": "Implementation",
+        "controls": [
+          {
+            "id": "sm1078-017-5",
+            "class": "policy-requirement",
+            "title": "Implementation",
+            "parts": [
+              {
+                "id": "sm1078-017-5-stmt",
+                "name": "statement",
+                "prose": "The Under Secretary for Natural Resources and Environment is responsible for\n     implementing all aspects of this memorandum, in coordination as necessary with the\n     Department of the Interior. In the absence of an Under Secretary or Deputy, the Chief of\n     the Forest Service will carry out these responsibilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e3b9e6d-03ec-592c-9f08-9a8459b75f64",
+        "class": "section",
+        "title": "Effects Of This Memorandum",
+        "controls": [
+          {
+            "id": "sm1078-017-6",
+            "class": "policy-requirement",
+            "title": "Effects Of This Memorandum",
+            "parts": [
+              {
+                "id": "sm1078-017-6-stmt",
+                "name": "statement",
+                "prose": "This Memorandum is intended to improve the internal management and external\n     coordination of USDA's approach to wildfire response. This Memorandum and any\n     resulting report or recommendations are not intended to, and do not create, any right or\n     benefit, substantive or procedural, enforceable at law or equity by a party against the United\n     States, its departments, agencies, instrumentalities or entities, its officers or employees, or\n     any other person. To the extent there is any inconsistency between the provisions of this\n     Memorandum and any Federal laws or regulations, the laws or regulations will control."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65e68a19-6c07-5320-8907-68d4a6969709",
+        "class": "section",
+        "title": "Effective Date",
+        "controls": [
+          {
+            "id": "sm1078-017-7",
+            "class": "policy-requirement",
+            "title": "Effective Date",
+            "parts": [
+              {
+                "id": "sm1078-017-7-stmt",
+                "name": "statement",
+                "prose": "This Memorandum is effective immediately.\n\n\n\n\n                                            /s/ Brooke L. Rollins\n                                            Secretary\n                                            U.S. Department of Agriculture\n\n\n\n\n                                               5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "25f3efa4-be06-5c08-99e8-404fb2ca77b0",
+          "title": "USDA Directives — SM1078-017",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1078-017",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

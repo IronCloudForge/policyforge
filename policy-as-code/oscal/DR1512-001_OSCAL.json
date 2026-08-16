@@ -1,0 +1,472 @@
+{
+  "catalog": {
+    "uuid": "a6ea1196-da02-54ed-9100-5c7e751d3358",
+    "metadata": {
+      "title": "USDA DR1512-001: Regulatory Development and Review",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2022-02-04",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1512-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2022-02-04"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1512-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Budget and Program Analysis, February 4, 2027",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1512-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Budget and Program Analysis, February 4, 2027"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "c1831017-fba4-542f-8ce0-6e9d77c93dd4",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1512-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1512-001-1-stmt",
+                "name": "statement",
+                "prose": "This United States Department of Agriculture (USDA) Departmental Regulation (DR) is\n   intended as a guide for the development and review of all regulatory actions, including\n   significant guidance documents and relevant supporting documents. It covers the full\n   rulemaking cycle, starting when the need for a rule is first identified, to drafting, review,\n\f  initial publication in the Federal Register, receipt of public comment, and final publication\n  for inclusion in the Code of Federal Regulations (CFR). It includes rulemaking requirements\n  identified by statutes, Executive Orders (EO), Office of Management and Budget (OMB)\n  circulars and memoranda, and USDA requirements. Moreover, this DR is intended to ensure\n  that USDA regulatory actions:\n\n  a.   Promote public health, welfare, safety, and economic growth and do not impose undue\n       costs or burdens on the public;\n\n  b.   Promote human dignity and respect the civil rights of individuals;\n\n  c.   Respect the role of tribes and State and local governments;\n\n  d.   Are effective, consistent, and understandable.\n\n  Accordingly, the DR assigns regulatory development and review responsibilities to USDA\n  officials and Mission Areas, agencies, and staff offices to accomplish these goals.\n\n  This DR is intended only to improve the internal management of USDA. It is not intended to\n  and does not create any right or benefit, substantive or procedural, enforceable at law or at\n  equity by a party against USDA, its Mission Areas, agencies, staff offices, officers,\n  employees, or any other person."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "89e2af68-d3e2-55d9-8784-1eb13c7e26c4",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr1512-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr1512-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 1512-001, Regulatory Development and Review, dated\n       September 14, 2021.\n\n  b.   USDA has updated this DR to incorporate new statutes, EOs, OMB guidance, and\n       processes and procedures implemented since DR 1512-001 was last issued."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "72edb83b-2511-51b5-909f-f5ff68d48866",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr1512-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr1512-001-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, and staff offices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "80b31bfc-1216-5ab3-81bf-db24ec965aa2",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1512-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1512-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   USDA Mission Areas, agencies, and staff offices will use this DR in the development\n       and review of rules as defined by the Administrative Procedure Act (APA).\n\n  b.   Furthermore, this DR is intended to ensure consistency with OMB’s Office of\n       Information and Regulatory Affairs (OIRA)’s oversight of the Federal regulatory system\n       under EO 12866, Regulatory Planning and Review.\n\n\n\n                                               2\n\f  c.   Finally, this DR is intended to ensure compliance with statutes governing Federal\n       rulemaking, such as the Small Business Regulatory Enforcement Fairness Act of 1996\n       (SBREFA), a part of which contains the Congressional Review Act (CRA), Public Law\n       (Pub. L.) No. 104-121, March 29, 1996, codified at 5 United States Code (U.S.C.) § 801\n       et seq., and the Federal Crop Insurance Reform and Department of Agriculture\n       Reorganization Act of 1994 (FCIR and DAR Act), Pub. L. No. 103-354. Mission Areas,\n       agencies, and staff offices should consult with the Office of the General Counsel (OGC)\n       on the latest statutory requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7ed474f0-78c7-5123-9348-e88b7633aa90",
+        "class": "section",
+        "title": "Workplan",
+        "controls": [
+          {
+            "id": "dr1512-001-5",
+            "class": "policy-requirement",
+            "title": "Workplan",
+            "parts": [
+              {
+                "id": "dr1512-001-5-stmt",
+                "name": "statement",
+                "prose": "Drafting a regulatory workplan (“workplan,” Appendix E, Workplan Information\n  Requirements) is the first step required in USDA regulatory development, as it provides a\n  concise, easy-to-read summary of the rule. The workplan’s audience includes Departmental\n  reviewing officials and OIRA desk officers.\n\n  a.   The workplan:\n\n       (1) Allows the Office of the Secretary (OSEC) to review and approve or disapprove\n           Mission Area, agency, or staff office work on the rule. If OSEC approves:\n\n       (2) Allows Mission Areas, agencies, and staff offices to obtain a ROCIS (Regulatory\n           Information Service Center and Office of Information and Regulatory Affairs\n           Consolidated Information System) regulatory identification number (RIN) for any\n           new rulemaking for tracking in the spring and fall Unified Regulatory Agenda of\n           Regulatory and Deregulatory Actions (Regulatory Agenda); and\n\n       (3) Allows OIRA to designate the rule as significant or non-significant under EO 12866\n           (i.e., to determine whether OIRA, and other Federal agencies or offices such as the\n           U.S. Small Business Administration (SBA) through OIRA, will need to review the\n           rule and supporting documentation).\n\n  b.   Coordination\n\n       The Office of Budget and Program Analysis (OBPA)’s Legislative and Regulatory\n       Affairs Staff (LRAS) manages the workplan process at USDA under the direction of\n       OSEC. Workplan submissions to OBPA LRAS from Mission Areas, agencies, and staff\n       offices responsible for USDA’s regulatory programs, if approved by OSEC, also inform\n       USDA’s spring and fall Regulatory Agenda and annual regulatory plan (a statement of\n       rulemaking priorities) per EO 12866. Accordingly, workplan processing, review, and\n       approval by OSEC for purposes of submission to OIRA for a significance designation\n       are generally timed to coincide with OIRA’s spring and fall regulatory agenda data calls\n       in late February and late July, respectively. The timing of workplan submissions may\n       also coincide with major statutory reauthorizations, emergencies, or other circumstances.\n\n\n\n                                              3\n\fc.   Preparation\n\n     Written workplans must be prepared for the following stages of regulatory actions listed\n     below. Moreover, because OIRA workplan designations for a given rule can change\n     from the proposed or interim final to the final stage, a workplan is required for both\n     those stages.\n\n     (1) An advance notice of proposed rulemaking (ANPR):\n\n         Notifies the public that a Mission Area, agency, or staff office is considering\n         publishing a proposed rule and requests public comments on the scope of the\n         proposed rule, including answers to specific questions on the scope.\n\n     (2) A notice of proposed rulemaking (NPR):\n\n         Notifies the public that a Mission Area, agency, or staff office is proposing a rule\n         and requests public comment on the proposed rule. Unlike an ANPR, an NPR\n         provides the text of the proposed rule along with the background and need for the\n         proposed rule and issues involved in the rulemaking.\n\n     (3) An interim final rule:\n\n         Goes into effect upon publication for public comment based upon a finding by a\n         Mission Area, agency, or staff office that good cause exists to issue the interim final\n         rule.\n\n     (4) A direct final rule:\n\n         Goes into effect when the comment period has ended based upon a finding by the\n         Mission Area, agency, or staff office that the rule is routine and noncontroversial,\n         unless an adverse comment is received during the comment period. If an adverse\n         comment is received during the comment period, the Mission Area, agency, or staff\n         office must withdraw the direct final rule before the effective date.\n\n     (5) A final rule:\n\n         Is the final step in the rulemaking process in which the Mission Area, agency, or\n         staff office responds to public comment on a proposed or interim final rule and\n         makes any appropriate revisions before publishing a final rule in the Federal\n         Register. The final rule generally becomes effective 30 calendar days after\n         publication in the Federal Register.\n\nd.   OIRA Designation\n\n     Under EO 12866, OIRA can designate a rule as:\n\n\n\n                                             4\n\f(1) Non-significant\n\n    The rule and supporting documentation do not have to be reviewed further by\n    OIRA, or by other Federal agencies or offices through OIRA (e.g., SBA) and may\n    be submitted to the Federal Register for publication upon completion of USDA\n    clearance.\n\n(2) Significant\n\n    OIRA has determined that the rule will:\n\n    (a) Create a serious inconsistency or otherwise interfere with an action taken or\n        planned by another Federal agency;\n\n    (b) Materially alter the budgetary impact of entitlement, grants, user fees, or loan\n        programs or the rights and obligations of recipients of those programs; or\n\n    (c) Raise novel legal or policy issues arising out of legal mandates, the President’s\n        priorities, or the principles set forth in EO 12866, as amended.\n\n    Per EO 12866, as supplemented by EO 13563, Improving Regulation and\n    Regulatory Review, rules that have been designated as significant require an\n    economic cost-benefit analysis and, depending on the scope of the economic\n    effects, may require a threshold Regulatory Flexibility Act (RFA), 5 U.S.C. § 602 et\n    seq., analysis of the rule’s effects on small entities per the RFA, as amended by\n    SBREFA, and EO 13272, Proper Consideration of Small Entities in Agency\n    Rulemaking. If a threshold RFA analysis is conducted and supports a determination\n    that the rule will not have a significant economic impact on a substantial number of\n    small entities, an RFA analysis is not needed. If such a determination cannot be\n    supported, an initial RFA analysis must be completed for the proposed rule,\n    followed by a final RFA analysis reflecting public comment as part of the final\n    rulemaking.\n\n(3) Economically significant\n\n    (a) OIRA has determined that the rule will lead to an annual effect on the economy\n        of $100 million or more or adversely affect in a material way the economy, a\n        sector of the economy, productivity, competition, jobs, the environment, public\n        health or safety, or State, local, or tribal governments or communities.\n\n    (b) Rules that have been designated as economically significant require a\n        comprehensive regulatory impact analysis (RIA), including a cost-benefit\n        analysis.\n\n\n\n\n                                       5\n\f   (c) In addition to an RIA, rules that have been designated as economically\n       significant require a threshold RFA analysis per the RFA and EO 13272. If the\n       threshold RFA analysis supports a determination that the rule will not have a\n       significant economic impact on a substantial number of small entities, an RFA\n       analysis is not needed. If such a determination cannot be supported, an initial\n       RFA analysis must be completed for the proposed rule, followed by a final\n       RFA analysis reflecting public comment as part of the final rulemaking.\n\n(4) Major\n\n   (a) As defined by Pub. L. No. 103-354, § 304(b)(1) of the FCIR and DAR Act:\n\n       1    Proposed rules that the Secretary of Agriculture estimates will have an\n            annual economic impact of $100 million or more as measured in 1994\n            dollars; and\n\n       2    The primary purpose of which is to regulate issues of human health,\n            human safety, or the environment.\n\n   (b) As defined by the CRA:\n\n       1    OIRA has determined that the rule is economically significant; and\n\n       2    Represents a major increase in costs or prices for consumers, individual\n            industries, Federal, State, or local governmental agencies, or geographical\n            regions;\n\n            or\n\n       3    Has significant adverse effects on competition, employment, investment,\n            productivity, innovation, or on the ability of United States-based\n            enterprises to compete with foreign-based enterprises in domestic and\n            export markets.\n\n   (c) In addition to RIA and RFA analyses, rules designated as major under Pub. L.\n       No. 103-354 require a risk assessment.\n\n   (d) The definitions of major under the FCIR and USDAR Act and the CRA\n       subsume and augment the definition of economically significant.\n       Consequently, a rule that has not been designated as economically significant\n       is highly unlikely to be a major rule. In addition, all major rules are\n       economically significant, but not all economically significant rules are major.\n\n\n\n\n                                      6\n\fe.   Exemptions\n\n     (1) Workplans are not prepared for routine or non-sensitive rules, such as those that do\n         not have to be published for public comment because they involve minor, purely\n         technical, nondiscretionary revisions and those that are covered by an exemption\n         listed in Appendix D, Exemptions from EO 12866 Review. These USDA-specific\n         exemptions authorized by OIRA in 1994 include amendments to existing marketing\n         and promotion orders. New marketing and promotion orders are not exempt and\n         require a workplan and an OIRA designation. When in doubt regarding\n         exemptions, Mission Areas, agencies, and staff offices should contact OBPA-\n         LRAS.\n\n     (2) Workplans are also not required for routine Federal Register notices such as\n         announcements of meetings or public hearings, extensions of public comment\n         periods, or other informational notices and actions that are not designed to\n         implement, interpret, or prescribe law or policy or describe procedure or practice\n         requirements.\n\n     (3) When appropriate, a Mission Area, agency, or staff office, working through OBPA,\n         may petition OIRA for additional exemptions.\n\nf.   NEPA Compliance\n\n     (1) The National Environmental Policy Act (NEPA), 42 U.S.C. § 4321 et seq. requires\n         all Federal agencies to include in proposals for major Federal actions (40 CFR §\n         1508.1(q)) significantly affecting the quality of the human environment a detailed\n         statement on the environmental impact of the proposed action and alternatives to\n         the proposed action, i.e., an environmental impact statement (EIS).\n\n     (2) The definition of a major Federal action under NEPA differs from the definitions of\n         major under the FCIR and DAR Act and SBREFA in that there is no dollar\n         threshold for a major Federal action under NEPA. Not all major Federal actions\n         under NEPA will significantly affect the quality of the human environment; those\n         that do not significantly affect the quality of the human environment may require\n         only preparation of an environmental assessment (EA) or may be categorically\n         excluded (i.e., covered by a categorical exclusion (CE)) from documentation in an\n         EIS or EA.\n\n     (3) Some USDA Mission Areas, agencies, and staff offices whose rulemakings do not\n         involve environmental considerations are exempt from this requirement (see 7 CFR\n         § 1b.4, Exclusion of agencies, for the list of exempt USDA agencies and staff\n         offices). Even if an exemption applies, the agency or staff office head may\n         determine that a particular proposed rule would significantly affect the quality of\n         the human environment (see last sentence in 7 CFR § 1b.4).\n\n\n\n\n                                            7\n\f       (4) In addition, the U.S. Forest Service has promulgated NEPA regulations and\n           directives that include a CE covering most of the agency’s rules, even though they\n           often involve environmental considerations, because they are programmatic and do\n           not have any effects on the human environment until they are implemented."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "68be8218-35ed-5f10-ad6b-f6b98adfd1e5",
+        "class": "section",
+        "title": "Rule Development, Clearance, And Rocis",
+        "controls": [
+          {
+            "id": "dr1512-001-6",
+            "class": "policy-requirement",
+            "title": "Rule Development, Clearance, And Rocis",
+            "parts": [
+              {
+                "id": "dr1512-001-6-stmt",
+                "name": "statement",
+                "prose": "Once Mission Areas, agencies, and staff offices have a designation from OIRA and a RIN for\n  a rule, they can initiate additional actions that are required before clearance of the rule.\n\n  a.   Documents Typically Required for USDA Rules\n\n       The following table displays the documents typically required for USDA rules\n       depending on their designation.\n\n\n\n\n                                             8\n\f                                  TABLE 1 – Documents Required for USDA Rules\n\n\n                                       Civil Rights                  Regulatory\n                          Preamble\n                                         Impact       Cost-Benefit    Impact         Risk        NEPA\nDesignation    Workplan   and Rule\n                                        Analysis       Analysis       Analysis    Assessment   Compliance\n                            Text\n                                         (CRIA)                        (RIA)\n    Non-\n                 Yes        Yes            No             No            No           No            No\n Significant\n                                                                                               Yes, unless\n Significant     Yes        Yes            Yes            Yes           No           No\n                                                                                                exempt\nEconomically                                                                                   Yes, unless\n                 Yes        Yes            Yes            Yes           Yes          No\n Significant                                                                                    exempt\n  Major per\n                                                                                               Yes, unless\n Pub. L. No.     Yes        Yes            Yes            Yes           Yes          Yes\n                                                                                                exempt\n  103-354\n  Major per\n                                                                                               Yes, unless\n Pub. L. No.     Yes        Yes            Yes            Yes           Yes          No\n                                                                                                exempt\n  104-121\n\fb.   Rules that are Exempt from EO 12866 Review and Non-Significant Rules\n\n     (1) Mission Area, agency, or staff office:\n\n         (a) Drafts rule text and preamble; and\n\n         (b) Compiles any supporting documents and information for the rulemaking\n             record.\n\n     (2) Clearance:\n\n         (a) OGC;\n\n         (b) OBPA-LRAS;\n\n         (c) Mission Area; and\n\n         (d) OSEC (if needed).\n\n     (3) Publication and Compliance:\n\n         (a) Publication in the Federal Register and concurrently online;\n\n         (b) Regulations.gov (for public comment); and\n\n         (c) Compliance with the CRA for all interim final, direct final, and final rules.\n\nc.   Significant, Economically Significant, and Major Rules\n\n     (1) Mission Area, agency, or staff office:\n\n         (a) Drafts rule text and preamble; CRIA; RIA; if there are economic effects,\n             threshold or initial RFA analysis; and risk assessment, if applicable; and\n\n         (b) Compiles any supporting documents and information for the rulemaking\n             record.\n\n     (2) Clearance:\n\n         (a) OGC;\n\n         (b) Simultaneous 2-week review:\n\n              1    OBPA-LRAS;\n\n\n\n\n                                             10\n\f              2   OCE;\n\n              3   Office of the Chief Information Officer (OCIO);\n\n              4   Office of Tribal Relations (OTR);\n\n              5   Office of the Assistant Secretary for Civil Rights (OASCR); and\n\n              6   Mission Area;\n\n         (c) OSEC; and\n\n         (d) OIRA 90-day review. If OIRA has reviewed a proposed or interim final rule\n             and there has been no material change in the facts and circumstances upon\n             which the rule is based, the OIRA review period for the final rule is 45\n             calendar days. The OIRA review period may be extended once by the Director\n             of OMB by up to 30 calendar days. In addition, the OIRA review period may\n             be extended at the request of the Secretary of Agriculture.\n\n     (3) Publication and Compliance:\n\n         (a) Publication in the Federal Register and concurrently online;\n\n         (b) Regulations.gov (for public comment); and\n\n         (c) Compliance with the CRA for all interim final, direct final, and final rules.\n\nd.   ROCIS\n\n     ROCIS is an online database managed by the General Services Administration (GSA)\n     through which Federal agencies and departments submit rules and information collection\n     packages to OIRA for review. ROCIS also permits Federal agencies and departments to\n     update and submit their fall and spring Regulatory Agenda to OIRA. Finally, ROCIS\n     informs OIRA’s Reginfo.gov. In summary, ROCIS permits USDA Mission Areas,\n     agencies, and staff offices to:\n\n     (1) Obtain a RIN:\n\n         (a) A RIN is obtained for new rules after a significance designation by OIRA and\n             authorization by OBPA-LRAS.\n\n         (b) The unique eight-digit RIN, with the first four digits constituting the Mission\n             Area, agency, or staff office’s identifier code, stays with the rule from\n             proposed or interim final to final. Upon publication of the final rule, the RIN is\n             retired.\n\n\n\n\n                                            11\n\f         (c) The RIN helps track rules in the spring and fall Regulatory Agenda and in the\n             Federal Register.\n\n     (2) Submit significant rules to OIRA for review:\n\n         (a) OIRA has up to 90 calendar days to review a rule.\n\n         (b) Significant rules under OIRA review are posted at Reginfo.gov.\n\n     (3) Submit a spring and fall Regulatory Agenda for OIRA review:\n\n         (a) A successful ROCIS submission is contingent upon accurate completion of all\n             USDA Mission Area, agency, or staff office RIN data fields.\n\n         (b) Upon approval by OIRA, the Regulatory Agenda is posted on Reginfo.gov.\n\ne.   Additional Rulemaking Procedures\n\n     (1) Public Notice and Comment\n\n         Consistent with EO 12866, the comment period for proposed and interim final rules\n         generally should be 60 calendar days and no less than 30 calendar days. For more\n         complex rules, the comment period may be longer, even up to 180 calendar days.\n         Depending on the rule and associated circumstances, the comment period can vary.\n         Mission Areas, agencies, and staff offices should consult with OGC and policy\n         officials to determine the appropriate comment period.\n\n     (2) Rules That Go Into Effect Without Opportunity for Public Comment\n\n         An interim rule goes into effect upon publication without prior opportunity for\n         public comment based upon a finding of good cause by the Mission Area, agency,\n         or staff office, as provided in 5 U.S.C. § 553(b), that an exigency exists and that\n         implementing the rule after public comments are considered would be contrary to\n         the public interest. An example of such an exigency would be a public health or\n         safety crisis. An interim final rule is published for public comment, and timely,\n         relevant comments received on the interim final rule are considered in developing\n         the final rule. A final rule may be published without public comment based upon a\n         finding of good cause by the Mission Area, agency, or staff office, as provided by 5\n         U.S.C. § 553(b), that public comment is unnecessary per because the rule involves\n         minor, purely technical, nondiscretionary revisions. An example would be a rule\n         implementing a statutory formula for inflation-adjusted civil penalties. The finding\n         of good cause must be included in the Federal Register notice for an interim final\n         rule or a final rule published without public comment. Consultation with OGC is\n         recommended regarding applicability of these exceptions to the standard public\n         notice and comment process.\n\n\n\n\n                                           12\n\f       (3) EO 13175 – Tribal Consultation\n\n           USDA will consult with tribes on rules that have tribal implications. As stated in\n           EO 13175, Consultation and Coordination with Indian Tribal Governments: “Each\n           agency shall have an accountable process to ensure meaningful and timely input by\n           Tribal officials in the development of regulatory policies that have tribal\n           implications.” Additionally, as stated in DR 1350-002, Tribal Consultation,\n           Coordination, and Collaboration: “Each USDA agency shall provide an\n           opportunity for Tribes to participate in policy development to the greatest extent\n           practicable and permitted by law. Each Tribe will be provided the opportunity for\n           timely and meaningful government-to-government consultation regarding policy\n           actions which may have tribal implications.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "88c9b88d-663c-544e-96be-8e617fd35656",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr1512-001-7",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr1512-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   Agency and Staff Office Heads, acting in consultation with their Mission Areas, will:\n\n       (1) Designate a regulatory officer or coordinator as the point of contact within the\n           agency on regulatory matters;\n\n       (2) Approve all proposed rules and any applicable analyses in compliance with\n           applicable laws, EOs, OMB circulars, memoranda, and guidance, and USDA\n           requirements prior to forwarding the rules:\n\n           (a) To OGC for legal sufficiency clearance;\n\n           (b) To OBPA (after OGC clearance for legal sufficiency) to initiate Department-\n               level review and clearance. Submittals to OBPA must include OGC approval\n               for legal sufficiency. Significant, economically significant, and major rules\n               must have a Departmental clearance sheet included (see Appendix F,\n               Clearance Sheet for Significant, Economically Significant, and Major Rules);\n\n       (3) Approve exemptions from EO 12866 review for rules prior to forwarding them to\n           their Mission Areas for review and clearance;\n\n       (4) Approve significant guidance documents prior to forwarding them to OBPA review\n           and clearance;\n\n       (5) Update and complete all data fields in ROCIS for each Mission Area, agency, or\n           staff office RIN in compliance with OBPA and OIRA data calls for completing\n           spring and fall Regulatory Agenda and workplan cycles. Commensurate with these\n           data calls and USDA policy determinations, Mission Areas, agencies, and staff\n           offices must:\n\n           (a) Add new RINs in ROCIS as needed;\n\n\n\n                                              13\n\f    (b) Determine which RINs are active, inactive, or long-term or should be\n        withdrawn from ROCIS;\n\n    (c) Ensure that all RINs and annual regulatory plans account for international\n        cooperation in rulemaking as applicable, e.g., for rules with significant\n        international impacts, in accordance with EO 13609, Promoting International\n        Regulatory Cooperation;\n\n(6) Comply with the requirements of 7 CFR § 1.27, Rulemaking and other notice\n    procedures, of USDA’s regulations regarding rulemaking and other notice\n    procedures;\n\n(7) Provide timely and complete public online access to the rulemaking docket on\n    Regulations.gov, including all relevant scientific and technical findings, in a format\n    that can be easily searched and downloaded;\n\n(8) Manage the rulemaking docket, including posting of public comments, on the\n    Federal Docket Management System (FDMS);\n\n(9) Develop and maintain current plans for reviewing existing significant rules as\n    required by Section 5, Existing Regulations, of EO 12866 and Section 6,\n    Retrospective Analyses of Existing Rules, of EO 13563, Improving Regulation and\n    Regulatory Review, to ensure that reviews are conducted in a timely manner and\n    needed modifications are made to existing rules;\n\n(10) Maintain adequate records of the conclusion of reviews of existing significant rules,\n     including online release, per Section 6 of EO 13563;\n\n(11) Notify the Chief Counsel for Advocacy of the SBA of any proposed rule that may\n     have a significant economic impact on a substantial number of small entities per the\n     RFA either:\n\n    (a) When the rule is submitted to OIRA for EO 12866 or EO 13563 review, if\n        required; or\n\n    (b) At a reasonable time prior to the publication of the proposed rule, if EO 12866\n        or EO 13563 review is not required;\n\n(12) Ensure compliance with Section 212(a)(6) of the SBREFA, as amended by Pub. L.\n     No. 110-28, Small Business and Work Opportunity Act of 2007, regarding annual\n     reporting to Congress on publication of small entity compliance guides;\n\n(13) Conduct peer review of influential scientific information and highly influential\n     scientific assessments, which will be disseminated by the Mission Area, agency, or\n     staff office in compliance with USDA’s Peer Review Guidelines;\n\n\n\n                                       14\n\f     (14) Identify new or updated Mission Area, agency, or staff office-identified guidance\n          documents;\n\n     (15) Maintain an online portal for all guidance documents in effect; and\n\n     (16) Ensure ROCIS training through GSA for new Mission Area, agency, and staff\n          office users to coincide with spring and fall Regulatory Agenda cycles.\n\nb.   The Chief Information Officer will:\n\n     (1) Review all rules which contain information collection requirements for compliance\n         with the Paperwork Reduction Act of 1995 (PRA), 44 U.S.C. § 3501 et seq. The\n         PRA covers requests for information from the public such as forms, reports, and\n         surveys; recordkeeping requirements for businesses; third-party or public\n         disclosures such as nutrition labeling requirements for food; and any other\n         information collected from the public; and\n\n     (2) Assist Mission Areas, agencies, and staff offices with identification of information\n         collection requirements and with the submission of information collection requests\n         under the PRA to OMB via ROCIS for approval. DR 3410-001, Information\n         Collection Activities – Collection of Information from the Public, provides detailed\n         instructions concerning preparation, review, and clearance of information\n         collections.\n\nc.   Reviewing staff organizations will:\n\n     Utilize their expertise and exercise their independent oversight authority in drafting and\n     reviewing rules. The reviewing staff organizations consist of OGC, OCE, OBPA, OTR,\n     and OASCR.\n\n     (1) The Chief Economist will:\n\n         (a) Review regulatory cost-benefit analyses for economically significant, major,\n             and significant regulatory actions to ensure that:\n\n              1    The analytical techniques used are adequate;\n\n              2    The analysis is accurate and consistent;\n\n              3    If required, reasonable alternatives to the regulatory action have been\n                   considered and analyzed; and\n\n              4    Any required risk assessment has been conducted. For major proposed\n                   rules under Pub. L. No. 103-354, the Director of OCE’s Office of Risk\n                   Assessment and Cost-Benefit Analysis (ORACBA) will work with\n\n\n\n                                            15\n\f             Mission Areas, agencies, and staff offices to develop the required risk\n             assessment and the cost-benefit analysis and review and approve the\n             analysis and assessment to ensure that the requirements of Pub. L. No.\n             103-354 are met. If it is not practicable to conduct a risk assessment and\n             cost-benefit analysis, as required by Pub. L. No. 103-354, the Director of\n             ORACBA will provide, in the applicable proposed major regulation, an\n             explanation of why they were not conducted; and\n\n    (b) Review workplans that have been designated as economically significant or\n        major by OIRA.\n\n(2) The General Counsel will:\n\n    (a) Review rules for legal sufficiency. This review should include a review of the\n        justifications for reliance on the good cause exception for publication of an\n        interim final rule or final rule without public comment, or for publication of a\n        proposed rule with an abbreviated comment period. Regulatory actions should\n        also be reviewed for conformity with applicable statutes, regulations, and\n        USDA policy;\n\n    (b) Assist Mission Areas, agencies, and staff offices, as needed, in drafting rules;\n\n    (c) If an analysis of alternatives is required for significant and economically\n        significant rules, review the analysis (including legal issues);\n\n    (d) Review regulatory certifications in Federal Register notices for compliance\n        with applicable EOs; and\n\n    (e) Review and clear workplans drafted by Mission Areas, agencies, and staff\n        offices.\n\n(3) The Director of OBPA will:\n\n    (a) Ensure that all rules and all required analyses described in this DR are\n        consistent with applicable OMB circulars, memoranda, and guidelines,\n        statutes, EOs, USDA directives and guidelines, and any other applicable\n        requirements;\n\n    (b) Ensure that all rules are consistent with policy and budgetary constraints;\n\n    (c) Serve as the Departmental proxy between Mission Areas, agencies, or staff\n        offices and OIRA on all regulatory activities under OIRA review;\n\n    (d) Assist Mission Areas, agencies, and staff offices in the development and\n        clearance of all rules and significant guidance documents and associated\n        analyses;\n\n\n\n                                       16\n\f    (e) Facilitate the clearance of workplans and rules through OIRA:\n\n         1   Respond to inquiries from OIRA;\n\n         2   Contact OIRA staff, as needed, on the status of rules under review,\n             highlighting as necessary rules experiencing clearance delays;\n\n         3   Maintain records of transmittals to and clearances by OIRA; and\n\n         4   Promptly notify Mission Areas, agencies, and staff offices of OIRA’s\n             significance determination for any rule;\n\n    (f) Coordinate the development and submission of the spring and fall Regulatory\n        Agenda, including the annual regulatory plan;\n\n    (g) Submit all significant, economically significant, and major USDA rules and\n        guidance documents to OIRA for EO 12866 and EO 13563 review and\n        clearance via ROCIS;\n\n    (h) Under the direction and approval of OSEC, coordinate all OIRA requests for\n        USDA review of other Federal agencies’ and departments’ rules under EO\n        12866. These requests are submitted by OIRA to OBPA-LRAS via email to\n        OBPA-USDA-REG@usda.gov;\n\n    (i) Maintain electronic clearance records for all rules; and\n\n    (j) Assist Mission Areas, agencies, and staff offices with adding and approving\n        FDMS user accounts.\n\n(4) The Assistant Secretary for Civil Rights (ASCR) will:\n\n    (a) Upon review and recommendation from the OASCR staff, determine whether a\n        CRIA prepared by the Mission Area, agency, or staff office for a significant,\n        economically significant, or major rule fully addresses the civil rights\n        implications of the rule. DR 4300-004, Civil Rights Impact Analysis, requires\n        USDA to establish internal systems to identify and analyze the civil rights\n        implications and impacts of proposed policy actions before those actions are\n        approved and implemented. When an agency or staff office’s Under or\n        Assistant Secretary determines that a rule has a civil rights impact, a CRIA\n        must be completed per DR 4300-004 and the rule and CRIA must be submitted\n        to OASCR for review; and\n\n    (b) Provide technical assistance and advice to Mission Areas, agencies, and staff\n        offices regarding the civil rights impact of a rule.\n\n\n\n\n                                      17\n\f       (5) The Director of OTR will:\n\n           (a) Review and clear significant, economically significant, and major rules to\n               ensure that they meet the requirements of EO 13175 and USDA DR 1350-002;\n               and\n\n           (b) Provide technical assistance and advice to Mission Areas, agencies, and staff\n               offices regarding tribal consultation.\n\n       (6) OSEC will:\n\n           Review and clear significant, economically significant, and major rules before they\n           are submitted to OIRA for 90-day review and clearance and release for publication\n           in the Federal Register."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b76c5e79-79c3-5e2e-bac4-83b72b17c82f",
+        "class": "section",
+        "title": "Small Entity Considerations",
+        "controls": [
+          {
+            "id": "dr1512-001-8",
+            "class": "policy-requirement",
+            "title": "Small Entity Considerations",
+            "parts": [
+              {
+                "id": "dr1512-001-8-stmt",
+                "name": "statement",
+                "prose": "a.   The RFA requires Federal agencies to evaluate the economic impact of rules on small\n       entities. Mission Areas, agencies, and staff offices should refer to the SBA Office of\n       Advocacy’s A Guide for Government Agencies: How to Comply with the Regulatory\n       Flexibility Act.\n\n  b.   Subtitle A of the CRA requires that for each rule or group of related rules for which a\n       Mission Area, agency, or staff office is required to prepare a final RFA analysis, the\n       Mission Area, agency, or staff office must publish one or more guides, entitled “small\n       entity compliance guides,” to assist small entities in complying with the rule. The\n       guides must explain in plain language the actions a small entity must take to comply\n       with the rule. Each small entity compliance guide must be:\n\n       (1) Posted on a Mission Area, agency, or staff office website; and\n\n       (2) Distributed to known industry contacts, such as small entities, associations, or\n           industry leaders affected by the rule."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "553ff982-ebc2-5504-a91a-a04ad32288a2",
+        "class": "section",
+        "title": "Review Of Existing Regulations",
+        "controls": [
+          {
+            "id": "dr1512-001-9",
+            "class": "policy-requirement",
+            "title": "Review Of Existing Regulations",
+            "parts": [
+              {
+                "id": "dr1512-001-9-stmt",
+                "name": "statement",
+                "prose": "a.   Objectives\n\n       The objectives of review of existing regulations, as stated in EO 12866, EO 13563, and\n       EO 13610, Identifying and Reducing Regulatory Burdens, are to:\n\n       (1) Reduce the regulatory burden on the American people, their families, and their\n           communities, State and local governments, tribes, and industries;\n\n\n\n\n                                              18\n\f     (2) Determine whether rules promulgated by USDA have become unjustified or\n         unnecessary as a result of changed circumstances;\n\n     (3) Confirm that rules are compatible and not duplicative or inappropriately\n         burdensome in the aggregate;\n\n     (4) Ensure that all rules are consistent with current regulatory priorities and principles\n         set forth in EO 12866 and EO 13563 and with applicable law; and\n\n     (5) Otherwise improve the effectiveness of existing rules.\n\n     To achieve these objectives, existing regulations are to be reviewed on an ongoing basis.\n     Under and Assistant Secretaries are responsible for ensuring that these reviews are\n     accomplished.\n\nb.   Regulatory Review Plans\n\n     Mission Areas, agencies, and staff offices must maintain regulatory review plans which\n     establish priorities for review of existing rules. Generally, significant, economically\n     significant, and major rules should be given the highest level of priority in any review\n     plan. The regulatory review plans must provide for review of existing rules every 5\n     years. Regulatory review plans and revisions to regulatory review plans must be\n     approved by the appropriate Under or Assistant Secretary.\n\nc.   Criteria for Review\n\n     Mission Areas, agencies, and staff offices should review an existing rule in accordance\n     with the following factors:\n\n     (1) The continued need for the rule;\n\n     (2) Public comments or petitions concerning the rule received after its promulgation;\n\n     (3) The complexity of the rule;\n\n     (4) The extent to which the rule overlaps, duplicates, or conflicts with other Federal\n         rules, and, to the extent feasible, with State, tribal and local governmental\n         regulations;\n\n     (5) The length of time since the rule has been evaluated or the degree to which\n         technology, economic conditions, or other factors have changed in the areas\n         affected by the rule;\n\n     (6) The extent to which there is opportunity to reduce governmental or\n         nongovernmental burdens while still achieving statutory objectives and\n         requirements;\n\n\n\n                                             19\n\f       (7) Whether proper tribal consultation occurred when USDA promulgated the rule; and\n\n       (8) Any other factors deemed appropriate.\n\n  d.   Conclusion of Review\n\n       (1) The Mission Area, agency, or staff office head should determine, based on the\n           review, whether a rule should remain in effect without revision or be revised or\n           rescinded. A rulemaking file must be created for each review.\n\n       (2) If a determination is made that a rule should be revised or rescinded, the Mission\n           Area, agency, or staff office should initiate revision or rescission of the rule subject\n           to the requirements of this DR, including applicable Executive Orders and\n           preparation of a workplan and any analyses required for significant, economically\n           significant, and major rules."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e63d69d-27d8-5197-9041-d76048dab9e0",
+        "class": "section",
+        "title": "Congresssional Review Act",
+        "controls": [
+          {
+            "id": "dr1512-001-10",
+            "class": "policy-requirement",
+            "title": "Congresssional Review Act",
+            "parts": [
+              {
+                "id": "dr1512-001-10-stmt",
+                "name": "statement",
+                "prose": "a.   Mission Areas, agencies, and staff offices are responsible for compliance with the CRA.\n       Mission Areas, agencies, and staff offices must submit on the date of publication in the\n       Federal Register a copy of all final, direct final, and interim final rules, the RIA and\n       threshold or final RFA analysis (if applicable), and a completed CRA form to the:\n\n       (1) Government Accountability Office (GAO)\n\n           (a) Via email to: RulesC@GAO.gov;\n\n           (b) Including a portable document format (PDF) file of the completed and signed\n               OMB Submission of Federal Rules Under the Congressional Review Act form;\n               and\n\n           (c) With a copy to OBPA-USDA-REG@usda.gov.\n\n       (2) U.S. House of Representatives\n\n           (a) Via the U.S. Postal Service mailing address: Office of the Speaker of the\n               House, H-209, the Capitol, Washington, DC 20515; and\n\n           (b) With an original signature in blue ink from an authorized Mission Area,\n               agency, or staff office official.\n\n\n\n\n                                               20\n\f       (4) U.S. Senate\n\n           (a) Via the U.S. Postal Service mailing address: Office of the President of the\n               Senate, S-212, the Capitol, Washington, DC 20510; and\n\n           (b) With an original signature in blue ink from an authorized Mission Area,\n               agency, or staff office official.\n\n  b.   Reviewing and policy officials at USDA must be familiar with the CRA’s application in\n       its entirety, its provision for Congressional disapproval of an agency rule subject to the\n       CRA, and its applicability to Mission Area, agency, or staff office-issued guidance\n       documents. Please see OMB Memorandum M-19-14, Guidance on Compliance with the\n       Congressional Review Act.\n\n  c.   Generally, except as provided by 5 U.S.C. § 553(d) and when a good cause exemption\n       applies, non-major rules take effect 30 calendar days after the final rule is published in\n       the Federal Register. For a major rule, the effective date is delayed for 60 calendar days\n       after publication in the Federal Register, provided the agency has submitted the final\n       rule and supporting documentation to Congress and GAO on the date of publication of\n       the final rule."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "27b65118-0af3-5302-b60a-5ed110f6ebf1",
+        "class": "section",
+        "title": "Guidance Documents",
+        "controls": [
+          {
+            "id": "dr1512-001-11",
+            "class": "policy-requirement",
+            "title": "Guidance Documents",
+            "parts": [
+              {
+                "id": "dr1512-001-11-stmt",
+                "name": "statement",
+                "prose": "A guidance document is a Mission Area, agency, or staff office statement of general\n  applicability that is intended to have future effect on the behavior of regulated parties and\n  that sets forth a policy on a statutory, regulatory, or technical issue or the interpretation of a\n  statute or regulation. Guidance documents come in a variety of formats, including\n  interpretive memoranda, policy statements, manuals, bulletins, and advisories. While not\n  codified in the CFR, guidance documents can still have the legal effect of a legislative rule in\n  that they can impose requirements on the public or can create a serious inconsistency or\n  otherwise interfere with an action taken or planned by another Federal agency. Accordingly,\n  to ensure accountability, transparency, and consistency in issuance of guidance documents,\n  the following process at USDA is established for those “significant” guidance documents that\n  may have the legal effect of a legislative rule in that they may impose requirements on the\n  public or industry or that create a serious inconsistency or otherwise interfere with an action\n  taken or planned by another Federal agency:\n\n  a.   The Mission Area, agency, or staff office submits the significant guidance document to\n       OGC to determine whether legally binding;\n\n  b.   The Mission Area, agency, or staff office submits the significant guidance document to\n       OBPA-LRAS;\n\n  c.   OBPA-LRAS submits the guidance document package to OIRA for a significance\n       designation and copies OSEC; and\n\n\n\n                                               21\n\f  d.   OIRA submits its significance designation and, for a final guidance document, its CRA\n       designation to OBPA-LRAS.\n\n  For guidance documents designated as significant by OIRA, agencies must clear the\n  document through OBPA-LRAS. Typically, significant guidance documents will need\n  OBPA, OCE, and OSEC clearance before submission to ROCIS for OIRA’s 90-day review.\n  For more information on new and existing guidance documents, see OMB M-07-07, Issuance\n  of OMB’s “Final Bulletin for Agency Good Guidance Practices.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ae88d49f-c00e-5549-813e-c36718e74610",
+        "class": "section",
+        "title": "Administrative Record And Electronic Government Policy",
+        "controls": [
+          {
+            "id": "dr1512-001-12",
+            "class": "policy-requirement",
+            "title": "Administrative Record And Electronic Government Policy",
+            "parts": [
+              {
+                "id": "dr1512-001-12-stmt",
+                "name": "statement",
+                "prose": "a.   Administrative Record\n\n       Mission Areas, agencies, and staff offices within USDA must maintain an administrative\n       record (AR) for each of their rules. The AR for a rule should include but is not limited\n       to:\n\n       (1) Documents and information supporting the rule (including those in digital format)\n           that are prepared, reviewed, or received by Mission Area, agency, or staff office\n           personnel and are relied upon by decision-makers in conducting the rulemaking;\n\n       (2) Comments received on the rule;\n\n       (3) Communications concerning the rule, both inside and outside the Federal\n           Government;\n\n       (4) Summaries and transcripts of any meetings or hearings concerning the rule,\n           including consultation with tribes; and\n\n       (5) All Federal Register notices concerning the rule.\n\n       Mission Areas, agencies, and staff offices should maintain as reference materials all\n       policies, guidelines, directives, manuals, articles and books relevant to a rule. Guidance\n       documents that directly support a rule should be included in the AR. Documents not in\n       existence at the time a rulemaking decision is made should not be included in the AR.\n       As some of the documents produced may be privileged or otherwise should not be\n       included in the AR, OGC must be consulted on the contents and form of the AR prior to\n       dissemination outside USDA. Mission Area, agency, and staff office personnel may\n       also contact OGC prior to and during preparation of the AR regarding its contents and\n       preparation. In maintaining a current AR, Mission Area, agency, and staff office\n       personnel should consult with their records officer and refer to DR 3080-001, Records\n       Management.\n\n\n\n\n                                              22\n\f  b.   Electronic Government Policy\n\n       (1) The E-Government Act of 2002, Pub. L. No. 107-347, is the basis by which each\n           Mission Area, agency, or staff office must, to the maximum extent feasible, ensure\n           that its rules and significant guidance documents are available on the internet for\n           public access through Regulations.gov or a central USDA regulatory web page.\n           These internet postings should include, to the extent possible and consistent with\n           copyright laws, links to the documents relied upon by the Mission Area, agency, or\n           staff office in rulemaking decisions. If linking is not possible, include a complete\n           citation to the publication. Per the principles of transparency and openness in the\n           rulemaking process, Mission Areas, agencies, and staff offices should also promote\n           consistency in electronic dockets and their associated documents on\n           Regulations.gov.\n\n       (2) FDMS will be used by Mission Areas, agencies, and staff offices to manage their\n           electronic (e-) rulemaking and non-rulemaking dockets. Although this is a\n           centralized Governmentwide docket management system and records repository,\n           Mission Areas, agencies, and staff offices using FDMS are responsible for creating,\n           maintaining, and properly managing their own records within the system, including\n           the posting of any public comments. Mission Areas, agencies, and staff offices may\n           contact the e-Rulemaking help desk at (877) 378-5457 for assistance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ff5fe286-82e0-5f6b-b6f3-f49df29ff087",
+        "class": "section",
+        "title": "Interagency Regulatory Reviews",
+        "controls": [
+          {
+            "id": "dr1512-001-13",
+            "class": "policy-requirement",
+            "title": "Interagency Regulatory Reviews",
+            "parts": [
+              {
+                "id": "dr1512-001-13-stmt",
+                "name": "statement",
+                "prose": "OIRA frequently circulates other Federal agencies’ and departments’ significant rules and\n  guidance documents under its review for USDA review and comment. Such interagency\n  feedback can be critical to OIRA’s reviews. While OBPA coordinates this process for\n  USDA, relevant Mission Areas, agencies, and staff offices will be requested to review and\n  provide comment as needed, including participating in OIRA interagency conference calls.\n  The process for interagency regulatory reviews is as follows:\n\n  a.   OIRA submits a request to OBPA-USDA-REG@usda.gov;\n\n  b.   OBPA-LRAS submits a request to Mission Areas, agencies, and staff offices and assigns\n       a due date for comments;\n\n  c.   Relevant Mission Areas, agencies, and staff offices provide comments to OBPA-LRAS;\n       and\n\n  d.   OSEC reviews and approves comments for submission by OBPA-LRAS to OIRA.\n\n\n\n\n                                              23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c9c56bab-03a0-5133-bc90-7af209b901ee",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr1512-001-14",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr1512-001-14-stmt",
+                "name": "statement",
+                "prose": "Direct all inquiries regarding this DR to OBPA-LRAS at OBPA-USDA-REG@usda.gov or\n   (202) 720-1516.\n\n\n                                       -END-\n\n\n\n\n                                         24\n\f                               APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nAMS        Agricultural Marketing Service\nANPR       Advance Notice of Proposed Rulemaking\nAPA        Administrative Procedure Act\nAPHIS      Animal Plant Health Inspection Service\nAR         Administrative Record\nASCR       Assistant Secretary for Civil Rights\nCE         Categorical Exclusion\nCFR        Code of Federal Regulations\nCRA        Congressional Review Act\nCRIA       Civil Rights Impact Analysis\nCSFP       Commodity Supplemental Food Program\nDR         Departmental Regulation\nEA         Environmental Assessment\nEIS        Environmental Impact Statement\nEO         Executive Order\nFCIR and\nDAR Act    Federal Crop Insurance Reform and Department of Agriculture\n           Reorganization Act of 1994\nFDMS       Federal Docket Management System\nFGIS       Federal Grain Inspection Service (AMS Component)\nGAO        Government Accountability Office\nGSA        General Services Administration\nLRAS       Legislative and Regulatory Affairs Staff\nNARA       National Archives and Records Administration\nNEPA       National Environmental Policy Act\nNPR        Notice of Proposed Rulemaking\nOASCR      Office of the Assistant Secretary for Civil Rights\nOBPA       Office of Budget and Program Analysis\nOCE        Office of the Chief Economist\nOCIO       Office of the Chief Information Officer\nOGC        Office of the General Counsel\nOIRA       Office of Information and Regulatory Affairs (OMB Component)\nOMB        Office of Management and Budget\nORACBA     Office of Risk Assessment and Cost-Benefit Analysis (OCE Component)\nOSEC       Office of the Secretary\nOTR        Office of Tribal Relations\nPDF        Portable Document Format\nPub. L.    Public Law\nPRA        Paperwork Reduction Act\nRFA        Regulatory Flexibility Act\nRIA        Regulatory Impact Analysis\n\n\n\n                                    A-1\n\fRIN      Regulatory Identification Number\nRISC     Regulatory Information Service Center\nROCIS    Regulatory Information Service Center and Office of Information and\n         Regulatory Affairs Consolidated Information System\nRUS      Rural Utilities Service\nSBA      Small Business Administration\nSBREFA   Small Business Regulatory Enforcement Fairness Act\nSNAP     Supplemental Nutrition Assistance Program\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\nWIC      Women, Infants, and Children\n\n\n\n\n                                   A-2\n\f                                           APPENDIX B\n\n                                           DEFINITIONS\n\n\nAgency. Organizational units of the Department, other than staff offices as defined below,\nwhose heads report to officials within the Office of the Secretary, Deputy Secretary, Under\nSecretaries, Assistant Secretaries, and Assistant to the Secretary. (Source: USDA,\nDR 0100-001, Departmental Directives System)\n\nGuidance. Any statement of agency policy or interpretation concerning a statute, regulation, or\ntechnical matter within the jurisdiction of the agency that is intended to have general\napplicability and future effect, but which is not intended to have the force or effect of law in its\nown right and is not otherwise required by statute to satisfy the rulemaking procedures specified\nin 5 U.S.C.\n\nInformal Rulemaking. Rulemaking by a Government agency in accordance with the provisions\nof Section 553 of the Administrative Procedure Act — also called notice-and-comment\nrulemaking.\n\nLegislative Rule. A rule that has legal effect, i.e., a rule that imposes, eliminates, or modifies\nrequirements on the public.\n\nMission Area. A group of agencies with related functions that report to the same Under or\nAssistant Secretary. Research, Education, and Economics is an example of a Mission Area.\n(Source: USDA, DR 0100-001)\n\nNon-Legislative Rule. A rule that has no legal effect and merely interprets existing legal\nobligations (interpretative rule) or states the agency’s view on a matter of policy without creating\nlegal rights or obligations (general statement of policy).\n\nRule or Regulation. An agency statement of general applicability and future effect designed to\nimplement, interpret, or prescribe law or policy or describe its procedure or practice\nrequirements.\n\nStaff Office. Departmental administrative offices whose heads report to officials within the\nOffice of the Secretary. (Source: USDA, DR 0100-001)\n\nTribe. The governing body of any Indian or Alaska Native tribe, band, nation, pueblo, village,\ncommunity, component band, or component reservation, individually recognized (including\nparenthetically) in the list published most recently pursuant to Section 104 of the Federally\nRecognized Indian Tribe List Act of 1994. (Source: 25 U.S.C. § 5131, Publication of List of\nRecognized Tribes)\n\n\n\n\n                                                 B-1\n\f                                         APPENDIX C\n\n                              AUTHORITIES AND REFERENCES\n\n\n7 CFR § 1b.4, Exclusion of agencies\n\n7 CFR § 1.27, Rulemaking and other notice procedures\n\n7 CFR Part 810, Official United States Standards for Grain\n\n9 CFR Part 97, Overtime Services Relating to Imports and Exports\n\n9 CFR Part 354, Voluntary Inspection of Rabbits and Edible Products Thereof\n\n40 CFR § 1508.1, Definitions\n\n5 U.S.C. § 553, Rule Making\n\n5 U.S.C. § 601, Definitions\n\n5 U.S.C. § 604, Final Regulatory Flexibility Analysis\n\n25 U.S.C. § 5131, Publication of List of Recognized Tribes\n\nAdministrative Procedure Act (APA), 5 U.S.C. §§ 551-559\n\nE-Government Act of 2002, Pub. L. No. 107-347, December 17, 2002\n\nEO 12866, Regulatory Planning and Review, September 30, 1993\n\nEO 13175, Consultation and Coordination With Indian Tribal Governments, November 6, 2000\n\nEO 13272, Proper Consideration of Small Entities in Agency Rulemaking, August 13, 2002\n\nEO 13563, Improving Regulation and Regulatory Review, January 18, 2011\n\nEO 13609, Promoting International Regulatory Cooperation, May 1, 2012\n\nEO 13610, Identifying and Reducing Regulatory Burdens, May 10, 2012\n\nFederal Crop Insurance Reform and Department of Agriculture Reorganization Act of 1994, 7\nU.S.C. § 2204e, Office of Risk Assessment and Cost-Benefit Analysis\n\nFederally Recognized Indian Tribe List Act of 1994, Pub. L. No. 103-454, November 2, 1994\n\n\n\n\n                                              C-1\n\fNational Archives and Records Administration (NARA), Office of the Federal Register,\nDocument Drafting Handbook, August 2018 Edition, Revision 1.3, March 24, 2021\n\nNational Environmental Policy Act (NEPA), 42 U.S.C. § 4321 et seq.\n\nOMB Form: Submission of Federal Rules Under the Congressional Review Act, March 23, 1999\n\nOMB M-07-07, Issuance of OMB’s Final Bulletin for Agency Good Guidance Practices, January\n18, 2007\n\nOMB M-19-14, Guidance on Compliance with the Congressional Review Act, April 11, 2019\n\nOMB, OIRA, Memorandum for the President’s Management Council, Increasing Openness in\nthe Rulemaking Process – Improving Electronic Dockets, May 28, 2010\n\nOMB, OIRA, Reginfo.gov\n\nOMB, OIRA, Reginfo.gov, Reg Map Federal Rulemaking Process and Authorities website\n\nOMB, OIRA, Regulations.gov\n\nOMB, OIRA, Statements of Regulatory Priorities\n\nOMB, OIRA, Unified Regulatory Agenda of Regulatory and Deregulatory Actions\n\nPaperwork Reduction Act of 1995 (PRA), 44 U.S.C. § 3501 et seq.\n\nRegulatory Flexibility Act (RFA), 5 U.S.C. Chapter 6, The Analysis of Regulatory Functions\n\nSBA, Office of Advocacy, A Guide for Government Agencies: How to Comply with the\nRegulatory Flexibility Act, August 2017\n\nSmall Business Regulatory Enforcement Fairness Act of 1996 (SBREFA), 5 U.S.C. Chapter 8,\nCongressional Review of Agency Rulemaking\n\nSmall Business and Work Opportunity Act of 2007, Pub. L. No. 110-28, May 25, 2007, § 8302,\nEnhanced Compliance Assistance for Small Businesses\n\nSwine Health Protection Act, Pub. L. No. 96-468, October 17, 1980\n\nUSDA DR 0100-001, Departmental Directives System, January 4, 2018\n\nUSDA DR 1350-002, Tribal Consultation, Coordination, and Collaboration, January 18, 2013\n\nUSDA DR 3080-001, Records Management, August 16, 2016\n\n\n\n\n                                             C-2\n\fUSDA DR 3410-001, Information Collection Activities – Collection of Information from the\nPublic, January 26, 2022\n\nUSDA DR 4300-004, Civil Rights and Impact Analysis, October 17, 2016\n\n\n\nUSDA, Directives by Categories website\n\nUSDA, OCIO, Peer Review Guidelines\n\n\n\n\n                                            C-3\n\f                                        APPENDIX D\n\n                         EXEMPTIONS FROM EO 12866 REVIEW"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c1831017-fba4-542f-8ce0-6e9d77c93dd4",
+        "class": "section",
+        "title": "Agricultural Marketing Service",
+        "controls": [
+          {
+            "id": "dr1512-001-1-2",
+            "class": "policy-requirement",
+            "title": "Agricultural Marketing Service",
+            "parts": [
+              {
+                "id": "dr1512-001-1-2-stmt",
+                "name": "statement",
+                "prose": "a.   Agricultural Marketing Service (AMS) regulations that establish voluntary standards for\n       grading the quality of food.\n\n  b.   Administrative or \"housekeeping\" rules. Rules that are designed to improve operational\n       efficiency of programs through updating outmoded administrative practices or\n       procedures, correcting technical errors, clarifying language or other technical changes.\n\n  c.   Amendments to existing marketing and promotion orders and plans and proposed rules,\n       interim final rules, and final rules which issue or revise the rules and regulations which\n       are needed to carry out national research and promotion programs. This exemption is\n       only for amendments to existing programs, not the implementation of newly authorized\n       research and promotion programs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "89e2af68-d3e2-55d9-8784-1eb13c7e26c4",
+        "class": "section",
+        "title": "Animal Plant Health Inspection Service",
+        "controls": [
+          {
+            "id": "dr1512-001-2-2",
+            "class": "policy-requirement",
+            "title": "Animal Plant Health Inspection Service",
+            "parts": [
+              {
+                "id": "dr1512-001-2-2-stmt",
+                "name": "statement",
+                "prose": "a.   Animal Plant Health Inspection Service (APHIS) rules and notices concerning\n       quarantine actions and related measures to prevent the spread of animal and plant pests\n       and diseases.\n\n  b.   APHIS rules affirming actions taken on an emergency basis if no adverse comments\n       were received.\n\n  c.   Additions to or deletions from lists of ports approved for the importation or exportation\n       of certain animals or plants.\n\n  d.   Rules declaring foreign countries to be affected by or to be free from certain animal or\n       plant diseases or pests.\n\n  e.   Rules extending or reducing regulated areas associated with established domestic\n       quarantines, and rules releasing the quarantine when the danger from the infestation is\n       over.\n\n  f.   Revisions of 9 CFR Part 97, Overtime Services Relating to Imports and Exports, and\n       9 CFR Part 354, Voluntary Inspection of Rabbits and Edible Products Thereof, not\n       including changes to user fees.\n\n  g.   Additions to or deletions from lists of recognized breeds and books of record.\n\n\n\n\n                                              D-1\n\f  h.   Additions to or deletions from lists of States meeting criteria for receiving animals\n       imported from disease-affected countries.\n\n  i.   Additions to or deletions from lists of plant pests, plant diseases, or noxious weeds.\n\n  j.   Changes in plant or animal disease status of States or areas under domestic quarantines.\n\n  k.   Changes in status of States under the Swine Health Protection Act, Pub. L. No. 96-468.\n\n  l.   Additions to and deletions from lists of approved pesticides and other treatment\n       procedures for various regulated articles.\n\n  m. Additions to or deletions from lists of official tests for various animal diseases."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "72edb83b-2511-51b5-909f-f5ff68d48866",
+        "class": "section",
+        "title": "Federal Grain Inspection Service",
+        "controls": [
+          {
+            "id": "dr1512-001-3-2",
+            "class": "policy-requirement",
+            "title": "Federal Grain Inspection Service",
+            "parts": [
+              {
+                "id": "dr1512-001-3-2-stmt",
+                "name": "statement",
+                "prose": "Routine permissive marketing standards published by FGIS under the Agricultural Marketing\n  Act of 1946 and under the United States Grain Standards Act, Official United States\n  Standards for Grain."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "80b31bfc-1216-5ab3-81bf-db24ec965aa2",
+        "class": "section",
+        "title": "Food And Nutrition Service",
+        "controls": [
+          {
+            "id": "dr1512-001-4-2",
+            "class": "policy-requirement",
+            "title": "Food And Nutrition Service",
+            "parts": [
+              {
+                "id": "dr1512-001-4-2-stmt",
+                "name": "statement",
+                "prose": "a.   Notices that revise reimbursement rates and eligibility criteria for the School Lunch,\n       Child and Adult Care Food, and other nutrition programs.\n\n  b.   Supplemental Nutrition Assistance Program (SNAP) notices that set eligibility criteria\n       and deduction policy.\n\n  c.   Special Supplemental Food Program for Women, Infants and Children (WIC) Poverty\n       Income Guidelines.\n\n  d.   Commodity Supplemental Food Program (CSFP) Poverty Guidelines.\n\n  e.   National Advisory Council on Maternal, Infant and Fetal Nutrition Meeting Notice."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7ed474f0-78c7-5123-9348-e88b7633aa90",
+        "class": "section",
+        "title": "Federal Crop Insurance Corporation",
+        "controls": [
+          {
+            "id": "dr1512-001-5-2",
+            "class": "policy-requirement",
+            "title": "Federal Crop Insurance Corporation",
+            "parts": [
+              {
+                "id": "dr1512-001-5-2-stmt",
+                "name": "statement",
+                "prose": "Rules which are amendments to crop specific insurance policies, exclusive of the Small\n  Grains Crop Insurance Policy (wheat, oats, flax, barley, and rye), Cotton Crop Insurance\n  Policy, and Coarse Grains Crop Insurance Policy (soybeans, corn, and gain sorghum)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "68be8218-35ed-5f10-ad6b-f6b98adfd1e5",
+        "class": "section",
+        "title": "Rural Development",
+        "controls": [
+          {
+            "id": "dr1512-001-6-2",
+            "class": "policy-requirement",
+            "title": "Rural Development",
+            "parts": [
+              {
+                "id": "dr1512-001-6-2-stmt",
+                "name": "statement",
+                "prose": "Rural Utilities Service (RUS) rules concerning standards and specification for construction\n  and materials.\n\n\n\n\n                                              D-2\n\f                                          APPENDIX E\n\n                       WORKPLAN INFORMATION REQUIREMENTS\n\n\nThe following information must be included when submitting a workplan to OBPA-LRAS:\n\n1. Agency or staff office name.\n\n2. Under or Assistant Secretary’s recommended designation of significance (non-significant,\n   significant, economically significant, or major under Pub. L. No. 103-354).\n\n3. Signature of Under or Assistant Secretary and date.\n\n4. Signature of agency or staff office head and date.\n\n5. Descriptive title (include CFR part or subpart if applicable).\n\n6. Type of action (ANPR, proposed, interim final, final, direct final, other).\n\n7. Description of action and agency or staff office contact:\n\n   a.   Briefly describe what the current regulations require or allow and how you wish to\n        change them. If this action does not involve a change to the regulations, briefly describe\n        the action you wish to take.\n\n   b.   Briefly describe the justification for this action (what problem is being addressed, the\n        objectives of the action, the alternatives considered, and the expected results of the\n        action).\n\n   c.   Briefly discuss other issues associated with this action, including any significant changes\n        in program operations; effects on other Federal agencies and State and local\n        governments, and the extent of any related consultations; alternatives considered; time\n        constraints (state here if docket needs to be published by a specific date and why); and\n        why the action is important, sensitive, controversial, or precedent setting.\n\n   d.   Name, title, telephone number, and e-mail address of project manager or other lead\n        agency or staff office contact and backup contact, if available.\n\n8. Briefly discuss the potential economic effects of this action, including benefits and costs,\n   economic effects on small entities, and budgetary effects.\n\n9. Did the Mission Area, agency, or staff office consider the potential significant effects of this\n   action on the human environment, including significant effects on human health?\n\n\n\n\n                                                E-1\n\f10. EO 13175, Consultation and Coordination with Indian and Tribal Governments, states that\n    agencies must consult with Indian tribal governments about any actions that may have\n    substantial direct effects on one or more Indian tribes, on the relationship between the\n    Federal Government and Indian tribes, or on the distribution of power and responsibilities\n    between the Federal Government and Indian tribes. Please state whether this action will have\n    such substantial direct effects.\n\n11. The Paperwork Reduction Act of 1995 requires agencies to obtain approval from OMB\n    before implementing any new information collection. Will this action contain a new\n    information collection?\n\n12. State briefly which sections of the CFR will need to be changed as a result of this action (it is\n    not necessary to show how the sections will be amended).\n\n\n\n\n                                                E-2\n\f                                         APPENDIX F\n\n    CLEARANCE SHEET FOR SIGNIFICANT, ECONOMICALLY SIGNIFICANT, AND\n                             MAJOR RULES\n\n\nThe following signature block information must be included in a clearance sheet when\nsubmitting a Significant, Economically Significant, or Major Rule to OBPA-LRAS:\n\n1. Title of rule.\n\n2. Agency or staff office head signature block and date.\n\n3. OGC signature block and date.\n\n4. OBPA signature block and date.\n\n5. OCE signature block and date.\n\n6. OCIO signature block and date.\n\n7. OASCR signature block and date.\n\n8. OTR signature block and date.\n\n9. Mission Area signature block and date.\n\n10. OSEC signature block and date.\n\n\n\n\n                                              F-1\n\f                                        APPENDIX G\n\n                    CLEARANCE SHEET FOR NON-SIGNIFICANT RULES\n\n\nThe following signature block information must be included in a clearance sheet when\nsubmitting a Non-Significant Rule to OBPA-LRAS:\n\n1. Title of rule.\n\n2. Agency or staff office head signature block and date.\n\n3. OGC signature block and date.\n\n4. OBPA signature block and date.\n\n5. Mission Area signature block and date.\n\n6. OSEC signature block and date.\n\n\n\n\n                                              G-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "e891b7b6-5e2f-539a-a447-9c941edf08af",
+          "title": "USDA Directives — DR1512-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1512-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

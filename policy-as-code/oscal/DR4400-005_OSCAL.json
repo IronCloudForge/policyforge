@@ -1,0 +1,221 @@
+{
+  "catalog": {
+    "uuid": "3222d565-71ba-5d3f-93c5-94aabc0f2a8e",
+    "metadata": {
+      "title": "USDA DR4400-005: Radiation Safety Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-10-19",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4400-005"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-10-19"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4400-005",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Homeland Security, October 21, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4400-005",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Homeland Security, October 21, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "52972d4f-ceeb-5e82-9528-d343cdcf8e7c",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4400-005-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4400-005-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes requirements for the United States\n          Department of Agriculture (USDA) Radiation Safety Program (RSP).\n\n     b.   It is the policy of USDA to comply with Federal requirements to establish, implement,\n          and support the radiation safety program policy and procedures to continually manage\n          risk to USDA information resources (e.g., information, information systems, and\n          information services)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a64854b8-ffb0-5a8a-92b8-bb8c84edf4a5",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr4400-005-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr4400-005-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR updates and replaces DR 4400-005, Radiation Safety Program, dated October\n          16, 1995.\n\n     b.   This policy is effective immediately when published and will remain in effect until\n          superseded or expired.\n\f  c.   All USDA Mission Areas, agencies, and staff offices will align processes, procedures,\n       and any applicable policies with this DR within 6 months of the publication date, and\n       will review and update them as needed annually afterwards."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3319b44a-4fde-55a6-bc59-da1ea8094f97",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4400-005-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4400-005-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, staff offices, Federal employees, and\n  any category of non-Federal employee who performs duties in partnership with or on behalf\n  of USDA, such as a consultant, contractor, advisor, volunteer, student, or intern."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3f3c3ae2-8798-5660-855c-668150037395",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4400-005-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4400-005-4-stmt",
+                "name": "statement",
+                "prose": "a.   USDA will protect its employees, the public, and the environment from hazards\n       associated with USDA’s use of ionizing radiation sources, referred to after this as\n       radiation sources.\n\n  b.   USDA will comply with all applicable Federal, state, and local laws and regulations\n       governing the use of using radiation sources.\n\n  c.   Mission Areas, agencies, and staff offices will:\n\n       (1) Develop, document, and disseminate processes and procedures to facilitate the\n           implementation of this DR;\n\n       (2) Review this DR and related processes and procedures at least annually, updating\n           them as needed. If updated, disseminate them to personnel involved in the\n           acquisition process;\n\n       (3) Designate a senior management official to manage the implementation of this DR\n           and related procedures; and\n\n       (4) Develop, document, and implement remediation action for violations of this DR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aa5cef3b-c043-576e-8c00-b68a5929a886",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr4400-005-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr4400-005-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture has delegated authority for implementation of the USDA\n       RSP to the Assistant Secretary for Administration (ASA) per 7 Code of Federal\n       Regulations (CFR) § 2.24.\n\n  b.   The ASA will:\n\n       (1) Advise the Secretary of Agriculture and USDA Mission Area, agency, and staff\n           officials on the oversight and implementation of the RSP, and in planning,\n\n\n\n                                               2\n\f         developing, and implementing policies, programs, and systems for the safe\n         acquisition, use, and disposal of radiation sources as they affect the safety and\n         health of USDA employees;\n\n     (2) Ensure that the USDA Radiation Safety Officer (RSO) has authority to immediately\n         stop any activity involving the use of radiation sources, when justified, to maintain\n         radiation safety;\n\n     (3) Appoint the Director of the Office of Homeland Security (OHS), a senior leader\n         with Departmental Administration, to serve as the Departmental representative to\n         the Radiation Safety Committee (RSC), an internal oversight committee comprised\n         of USDA Mission Area, agencies, and staff offices that possess radiation sources;\n\n     (4) Appoint other individuals to serve on the RSC, as needed, to ensure effective\n         operation; and\n\n     (5) Ensure USDA Mission Area, agency, and staff offices compliance with all\n         applicable Federal, state, and local laws and regulations, and USDA RSP\n         requirements.\n\nc.   The Director, Office of Homeland Security, will:\n\n     (1) Advise the ASA and USDA Mission Area, agency, and staff officials on the\n         oversight and implementation of the RSP, and in planning, developing, and\n         implementing policies, programs and systems for the safe acquisition, use, and\n         disposal of radiation sources as they affect the safety and health of USDA\n         employees;\n\n     (2) Establish the Radiation Safety Division (RSD) within OHS and ensure its effective\n         operation and implementation of the RSP; and\n\n     (3) Appoint the RSD Division Chief as the USDA RSO.\n\nd.   The Heads of Mission Areas, agencies, and staff offices in which radiation sources are\n     used will:\n\n     (1) Ensure Mission Area, agency, and staff office employees comply with all applicable\n         Federal, state, and local laws and regulations, and USDA RSP requirements;\n\n     (2) Recognize the RSO’s authority to immediately stop any Mission Area, agency, or\n         staff office activity involving the use of radiation sources, when justified, to\n         maintain radiation safety;\n\n     (3) Establish Mission Area, agency, and staff office policy, guidance, and procedures\n         for implementing the RSP;\n\n\n\n\n                                             3\n\f     (4) Ensure that Mission Area, agency, and staff office employees who use radiation\n         sources are trained in RSP and their Mission Area, agency, or staff office radiation\n         safety policies and procedures;\n\n     (5) Ensure that managers of locations where radiation sources are used designate an\n         employee to serve as the Location Radiation Protection Officer (LRPO) to support\n         the RSP; and\n\n     (6) Nominate qualified individuals to serve as members of the RSC.\n\ne.   The RSC will:\n\n     (1) Establish RSP policies and procedures that ensure compliance with all applicable\n         Federal, state, and local laws and regulations governing the use of radiation sources;\n\n     (2) Evaluate the implementation and effectiveness of the RSP;\n\n     (3) Provide guidance to RSD operations, Mission Areas, agencies, and staff office\n         policies and programs, and RSP implementation at locations where radiation\n         sources are used by USDA employees; and\n\n     (4) Provide advice and assistance to the ASA, OHS Director, Mission Areas, agencies,\n         staff office heads, and staff officials on matters pertaining to radiation safety.\n\nf.   The Division Chief, OHS RSD, will:\n\n     (1) Serve as the USDA RSO and provide advice and assistance on matters pertaining to\n         radiation safety to USDA employees who use radiation sources;\n\n     (2) Assess and evaluate RSP implementation and compliance at USDA locations where\n         radiation sources are used through reviews of radiation safety information,\n         discussions with USDA employees, and onsite inspections;\n\n     (3) Review and maintain radiation safety records and other information submitted by\n         USDA employees or developed by the RSD to ensure compliance with RSP policy\n         and procedures and all applicable Federal, state, and local laws and regulations\n         governing the use of radiation sources;\n\n     (4) Immediately stop any activity involving the use of radiation sources, when justified,\n         to maintain radiation safety;\n\n     (5) Identify and recommend to the OHS Director and RSC adequate levels of staffing\n         and resources needed for the RSD to implement the RSP;\n\n     (6) Manage the operations of the RSD; and\n\n\n\n\n                                             4\n\f       (7) Provide advice and assistance to the ASA, Mission Areas, agencies, staff office\n           heads, and staff officials on matters pertaining to radiation safety.\n\n  g.   Mission Area, Agency, and Staff Office LRPOs will:\n\n       (1) Provide advice and assistance to USDA employees on matters pertaining to\n           radiation safety;\n\n       (2) Coordinate local radiation safety program activities, such as waste disposal and\n           training; and\n\n       (3) Assist the OHS RSD as needed.\n\n  h.   Mission Areas, Agencies, Staff Office Management, and Supervisory personnel will:\n\n       (1) Ensure that the employees they supervise comply with the RSP and Mission Area,\n           agency, or staff office rules and regulations for the safe use of radiation sources;\n           and\n\n       (2) Report accidents, known exposures, and environmental releases to the RSO to\n           identify causes and determine corrective actions to prevent recurrence.\n\n  i.   USDA employees will:\n\n       (1) Use radiation sources in a safe manner that protects themselves, other USDA\n           employees, the public, and the environment from exposure to unacceptable levels of\n           radiation; and\n\n       (2) Comply with the requirements of the USDA RSP and their Mission Area, agency,\n           or staff office radiation safety program."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d4bbc6ec-315b-5189-b94f-8cd75fb837f4",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr4400-005-6",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr4400-005-6-stmt",
+                "name": "statement",
+                "prose": "Direct all inquiries regarding this DR to the Office of Homeland Security, Radiation Safety\n  Division, George Washington Carver Center, 5601 Sunnyside Avenue, MS 5510, Beltsville,\n  MD 20705; telephone number 301-504-2440.\n\n\n                                            -END-\n\n\n\n\n                                               5\n\f                           APPENDIX A\n\n               ACRONYMS AND ABBREVIATIONS\n\n\nASA    Assistant Secretary for Administration\nCFR    Code of Federal Regulations\nDR     Departmental Regulation\nLRPO   Location Radiation Protection Officer\nNRC    Nuclear Regulatory Commission\nOHS    Office of Homeland Security\nRSD    Radiation Safety Division (OHS Component)\nRSC    Radiation Safety Committee\nRSO    Radiation Safety Officer\nRSP    Radiation Safety Program\nUSDA   United States Department of Agriculture\n\n\n\n\n                                A-1\n\f                                          APPENDIX B\n\n                                         DEFINITIONS\n\n\nIonizing Radiation. A form of radiation, which includes alpha particles, beta particles, gamma\nrays, x-rays, neutrons, high-speed electrons, high-speed protons, and other particles capable of\nproducing ions. Radiation, as used in this document, does not include non-ionizing radiation,\nsuch as lasers, radio, and microwaves, or visible, infrared, or ultraviolet light.\n\nRadiation Emitting Equipment. Equipment designed to emit ionizing radiation when energized\n(such as x-ray equipment).\n\nRadiation Source. A radioactive material or byproduct that is specifically manufactured or\nobtained for the purpose of using the emitted radiation. Such sources are commonly used in\nteletherapy or industrial radiography; in various types of industrial gauges, irradiators, and\ngamma knives; and as power sources for batteries (such as those used in spacecraft). These\nsources usually consist of known quantity of radioactive material, which is encased in a\nmanmade capsule, sealed between layers of nonradioactive material, or firmly bonded to a\nnonradioactive substrate to prevent radiation leakage. Other radiation sources include devices\nsuch as accelerators and x-ray generators.\n\nRadioactive Material. Matter that spontaneously emits ionizing radiation from the nucleus of its\natoms.\n\n\n\n\n                                               B-1\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n7 CFR § 2.24, Assistant Secretary for Administration\n\n7 CFR § 2.95, Director, Office of Homeland Security\n\n10 CFR Part 19, Notices, Instructions, and Reports to Workers: Inspection and Investigations\n\n10 CFR Part 20, Standards for Protection Against Radiation\n\n10 CFR Part 30, Rules of General Applicability to Domestic Licensing of Byproduct Material\n\n10 CFR Part 31, General Domestic Licenses for Byproduct Material\n\n10 CFR Part 37, Physical Protection of Category 1 and Category 2 Quantities of Radioactive\nMaterial\n\n49 CFR Subtitle B, Chapter 1, Subchapter C, Hazardous Materials Regulations, Parts 171-177\n\n49 CFR Subtitle B, Chapter 1, Subchapter C, Hazardous Materials Regulations, Part 178\n\nNuclear Regulatory Commission (NRC), NRC Regulations Title 10, Code of Federal\nRegulations website\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018\n\nUSDA, DR 4410-004, Safety Management Program, August 3, 2015\n\n\n\n\n                                             C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "cebabec3-ef02-5b16-ac49-787e60e2d373",
+          "title": "USDA Directives — DR4400-005",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4400-005",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

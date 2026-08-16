@@ -1,0 +1,288 @@
+{
+  "catalog": {
+    "uuid": "719fbcb7-3a14-5e65-b96e-f1f5277bbff5",
+    "metadata": {
+      "title": "USDA DR3300-001-J: Emergency Communications Programs",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-03-17",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-001-J"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-03-17"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-001-j",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Homeland Security, March 17, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-001-j",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Homeland Security, March 17, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "bd563f16-437b-5b3a-8541-5e46f7664b5d",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3300-001-j-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3300-001-j-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) defines the requirements for the management and\n          use of Emergency Communications Systems within the United States Department of\n          Agriculture (USDA).\n\n     b.   This policy ensures that USDA’s emergency responders and key officials can continue\n          to communicate in the event of natural disasters, acts of terrorism, and man-made\n          disasters by maintaining interoperable emergency communication systems. USDA will\n          leverage Federally-managed enterprise capabilities to assist in meeting emergency\n          communications."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2de85c4e-b7d1-5683-ad9b-4b934363777f",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3300-001-j-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3300-001-j-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all USDA Federal employees, and any category of non-Federal\n       person who performs duties in partnership with or on behalf of USDA, such as a\n       consultant, contractor, advisor, volunteer, student, or intern.\n\n  b.   This policy applies to all communications systems used to support critical functions\n       performed by the Department."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6b80657f-1bde-5e9d-94b4-9d59d17f172e",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3300-001-j-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3300-001-j-3-stmt",
+                "name": "statement",
+                "prose": "a.   This policy supersedes DR 3300-001-J, National Security and Emergency Preparedness\n       Telecommunications, dated March 23, 1999, in its entirety.\n\n  b.   This policy is effective immediately when published and will remain in effect until it is\n       superseded or expires.\n\n  c.   All USDA agencies will align processes, procedures, and any applicable policies with\n       this DR within 6 months of the publication date, reviewing and updating them as needed\n       annually thereafter.\n\n  d.   All Mission Areas, agencies, and staff offices must align their policies and procedures\n       with this DR within 6 months of the publication date. Mission Areas, agencies, and staff\n       offices that are in an agreement or contract that goes beyond 6 months may request a\n       waiver from the Director, Office of Homeland Security (OHS) to delay compliance until\n       the existing agreement ends."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6387a72e-20ec-5292-b5f6-8d3a7c7ef532",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3300-001-j-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3300-001-j-4-stmt",
+                "name": "statement",
+                "prose": "a.   The OHS is the primary office within USDA assigned to manage access to Interagency\n       Enterprise Level Emergency Communications Programs.\n\n  b.   Mission Areas, agencies, and staff offices that need access to emergency\n       communications platforms and/or services must request support through the OHS\n       National Security Systems Program (NSSP).\n\n  c.   Mission Areas, agencies, and staff offices will utilize Federal partner or Departmental\n       Enterprise Emergency Communications Systems prior to subscribing to or developing\n       another service. Approval by the Chief Security Director, Office of Safety, Security and\n       Protection (OSSP) and the USDA Chief Information Officer (CIO), Office of the Chief\n       Information Office (OCIO) is required prior to the acquisition of any new system.\n\n  d.   Personnel who support essential activities, emergency response, and continuity\n       operations will be provided Government Emergency Telecommunications Service\n\n\n\n                                                 2\n\f       (GETS), Wireless Priority Service (WPS), and/or FirstNet service as required to\n       complete their assigned duties.\n\n  e.   Personnel provided emergency communications devices or capabilities must participate\n       in routine and emergency testing of services. Failure to comply with testing programs\n       for two or more consecutive testing periods may result in cancellation of services.\n\n  f.   Mission Areas, agencies, and staff offices who operate communications systems utilized\n       for essential activities or emergency response must order Telecommunications Service\n       Priority (TSP) for critical circuits supporting the system.\n\n  g.   Departmental level continuity facilities will employ all required communications\n       capabilities prescribed in accordance with White House Office of Science and\n       Technology (OSTP)/Office of Management and Budget (OMB) Directive 16-1,\n       Minimum Communications Requirements for Federal Executive Branch Continuity\n       Communications Capabilities (OSTP/OMB D 16-1) and participate in all required\n       interagency testing programs.\n\n  h.   The alternate and devolution sites for Mission Areas, agencies, and staff offices must\n       have, at a minimum, the following capabilities:\n\n       (1) Satellite telephone with a fixed external antenna;\n\n       (2) Fax machine, utilizing an analog telephone line;\n\n       (3) Secure telephone, keyed at the appropriate classification level to support their\n           operations and reporting status, but minimally keyed for unclassified\n           communications;\n\n       (4) Alternate power supply/generator that provides backup power for critical facility\n           infrastructure (lights, heating, ventilation, and air conditioning) and communication\n           systems; and;\n\n       (5) Active TSP codes assigned for all mission critical data and voice communication\n           circuits."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4c6893bb-fadc-5530-a7f5-b573d111b0b5",
+        "class": "section",
+        "title": "Communications Systems And Services",
+        "controls": [
+          {
+            "id": "dr3300-001-j-5",
+            "class": "policy-requirement",
+            "title": "Communications Systems And Services",
+            "parts": [
+              {
+                "id": "dr3300-001-j-5-stmt",
+                "name": "statement",
+                "prose": "a.   OHS is the primary office within USDA assigned to manage access to interagency\n       enterprise level emergency communications programs.\n\n       (1) TSP is available on telecommunications circuits used to support any Primary\n           Mission Essential Function (PMEF), Mission Essential Function (MEF), Essential\n           Supporting Activity (ESA), and other functions that have been determined critical\n           to USDA’s ability to effectively perform its mission;\n\n\n\n                                                 3\n\f       (2) GETS and WPS services are available for personnel who support USDA critical\n           and emergency functions who require priority services during periods with\n           degraded or saturated telecommunications services;\n\n       (3) FirstNet communications are employed as appropriate to assist first responders, key\n           Departmental continuity personnel, and others supporting critical and emergency\n           functions; and\n\n       (4) Shared Resources (SHARES) High Frequency (HF) Radio Program, is a\n           communications system that supports national security and emergency preparedness\n           operations when traditional landline and cellular communications are unavailable.\n\n  b.   OSSP is the primary office within USDA assigned to manage Departmental Enterprise\n       Level Emergency Notification Systems.\n\n       (1) One or more Emergency Notification systems processes are available to provide\n           urgent notifications to Departmental personnel at the USDA Headquarters level in\n           the National Capital Region.\n\n       (2) Regional and local field offices are encouraged to leverage the enterprise system or\n           utilize a comparable process/system to ensure that all staff can receive urgent\n           notifications for their area.\n\n  c.   OHS and OCIO are responsible for ensuring that the minimum continuity\n       communications requirements for Federal Executive Departments and Agencies outlined\n       in OSTP/OMB D 16-1 are met."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "32c26ea0-421e-5f0f-bf40-4a9339227e97",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3300-001-j-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3300-001-j-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Director of OHS will:\n\n       (1) Ensure that emergency communication guidance is available to Departmental\n           Mission Areas, agencies, and staff offices;\n\n       (2) Coordinate with OCIO and OSSP to provide a Departmental Enterprise Emergency\n           Notification System; and\n\n       (3) Provide guidance, direction, and oversight for USDA’s participation with Federal\n           partner-provided emergency communications systems and services.\n\n  b.   The USDA CIO will:\n\n       (1) Assist OHS with the management and validation of communication circuits\n           enrolled in the TSP program;\n\n\n\n                                                4\n\f     (2) Coordinate with OHS on enterprise level communications support contracts to\n         ensure that emergency support capabilities are evaluated;\n\n     (3) Assist the OHS with the operation, maintenance, and testing of all of the\n         Department’s primary alternate location and devolution site’s Memorandum of\n         Understanding; and\n\n     (4) Coordinate with system owners to ensure that the communication systems approved\n         to operate within the Department have adequate disaster recovery plans\n\n     (5) Ensure Departmental communications portfolio management implementation of all\n         emergency communications systems;\n\n     (6) Assist Mission Area Assistant CIOs and agency site support personnel with\n         implementation of emergency communication requirements.\n\nc.   The Director of OSSP will:\n\n     (1) Serve as the Office of Primary Responsibility for the Departmental enterprise level\n         Emergency Notification System;\n\n     (2) Manage the selection and implementation of a Departmental Emergency\n         Notification System;\n\n     (3) Coordinate with the OCIO to determine an appropriate information technology\n         infrastructure that provides an acceptable level of resiliency for the Departmental\n         Emergency Notification System; and\n\n     (4) Coordinate with agencies and staff office to ensure that they have the capability to\n         develop and implement procedures to meet their respective notification\n         requirements.\n\nd.   The OHS NSSP Manager will:\n\n     (1) Manage USDA’s GETS/WPS Program;\n\n         (a) Serve as the USDA office approving, denying, and managing subscriptions;\n\n         (b) Train USDA personnel on the GETS/WPS program, including official use\n             policy;\n\n         (c) Represent USDA at interagency meetings/discussions; and\n\n         (d) Track the USDA official’s conduct of quarterly GETS/WPS testing.\n\n\n\n\n                                               5\n\f(2) Manage USDA’s TSP Program;\n\n    (a) Serve as the focal point for managing TSP codes;\n\n    (b) Advise Telecommunications Mission Area Control Officers of TSP code\n        assignment by DHS; and\n\n    (c) Coordinate with validation with DHS for TSP code validations assignments\n        accordance with OSTP/OMB D 16-1.\n\n(3) Serve as the Agency Point of Contact (POC) for the FirstNet Program;\n\n    (a) Define personnel eligibility requirements for the following two service\n        categories:\n\n        1    Primary Users\n\n             a    Sworn law enforcement officials.\n\n             b    Fire fighting officials.\n\n             c    Departmental level continuity officials.\n\n        2    Support Users\n\n             a    Public health officials.\n\n             b    Select agency and staff office continuity officials.\n\n             c    Designated on-call personnel that support “Primary Users” when\n                  activated.\n\n             d    Other personnel and/or devices that support USDAs critical response\n                  efforts during an emergency.\n\n    (b) Manage the process to elevate “Support Users” to “Primary Users” when\n        operations dictate.\n\n    (c) Establish procedures to request support from the FirstNet service provider for\n        service. Process should include instructions for both preplanned events and\n        emergency events that require additional communication support.\n\n    (d) Coordinate with OCIO, users, and application providers to ensure that\n        applications used on FirstNet have an authority to operate and an assigned\n        application manager if required.\n\n\n\n\n                                             6\n\f              Note: Several applications have been developed, reviewed, and certified to\n              operate on the FirstNet infrastructure. Most of these applications are not\n              FirstNet applications but are approved to operate on FirstNet devices. Many of\n              these applications have restrictions based on multiple factors as to who can\n              access the application. Users must request access to restricted applications\n              from the application manager.\n\n         (e) Coordinate with OCIO and the Procurement Operations Division to maintain a\n             contract to procure FirstNet.\n\n     (4) Manage USDA’s compliance with OSTP/OMB Directive 16-1;\n\n         (a) Represent USDA at Continuity Communications Manager Group meetings;\n\n         (b) Ensure that USDA maintains required systems and user proficiency;\n\n         (c) Manage USDA’s compliance with Interagency Testing Programs;\n\n              1    Coordinate testing for Departmental level continuity sites.\n\n              2    Respond to testing results.\n\n     (5) Manage the receipt and internal handling and distribution of the interagency\n         Continuity Communications Plan.\n\ne.   Mission Area, Agency, and Staff Office Heads will:\n\n     (1) Coordinate emergency communications needs with OHS;\n\n     (2) Identify an appropriate number of POCs to manage their organization’s GETS/WPS\n         subscriptions;\n\n     (3) Coordinate with OHS to manage their TSP codes for telecommunications circuits\n         requiring priority restoration services; and\n\n     (4) Designate an appropriate number of POCs to manage their organization’s FirstNet\n         subscriptions and any USDA developed application(s).\n\nf.   Authorized users will:\n\n     (1) Order and cancel service for emergency communications as changes occur;\n\n     (2) Report the loss, theft, or damage to any emergency communications equipment;\n\n     (3) Participate in testing as requested; and\n\n\n\n\n                                                 7\n\f       (4) Utilize priority services only when operationally necessary, for training or testing\n           purposes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "37a056fc-f0e6-569b-9f24-b4632d5ec971",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Non-Compliance",
+        "controls": [
+          {
+            "id": "dr3300-001-j-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Non-Compliance",
+            "parts": [
+              {
+                "id": "dr3300-001-j-7-stmt",
+                "name": "statement",
+                "prose": "DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, sets forth the\n  USDA’s policies, procedures, and standards on employee responsibilities and conduct\n  relative to the use of computers and telecommunications equipment. In addition, DR 4070-\n  735-001, Section 21, Disciplinary or Adverse Action, states:\n\n  a.   A violation of any of the responsibilities and conduct standards contained in this\n       directive may be cause for disciplinary or adverse action; and\n\n  b.   Disciplinary or adverse action will be effective in accordance with applicable laws and\n       regulations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3e4c0f3b-a319-563a-8590-8b91284cb533",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3300-001-j-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3300-001-j-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy. However, in the event that a specific policy requirement cannot be met as\n       explicitly stated, Mission Areas, agencies, and staff offices may submit a waiver request.\n\n  b.    The waiver request must explain the reason for the request, identify compensating\n       security controls and actions that meet the intent of the policy, and identify how the\n       compensating controls and actions provide a similar or greater level of defense or\n       compliance than the policy requirement.\n\n  c.   Mission Areas, agencies, and staff offices will address all policy waiver request\n       memoranda to the OHS Director and submit the request to OHSEC-NSSP-\n       SupportTeam@usda.gov for review and determination."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "de49b67e-ba74-54ca-aaf1-78e0015373cb",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3300-001-j-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3300-001-j-9-stmt",
+                "name": "statement",
+                "prose": "All questions regarding this DR should be directed to the USDA NSSP Support Team at\n  OHSEC-NSSP-SupportTeam@usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                                 8\n\f                         APPENDIX A\n\n              ACRONYMS AND ABBREVIATIONS\n\n\nCIO     Chief Information Officer\nDR      Departmental Regulation\nESA     Essential Supporting Activity\nGETS    Government Emergency Telecommunications Service\nHF      High Frequency\nMEF     Mission Essential Function\nNEF     National Essential Function\nNS/EP   National Security/Emergency Preparedness\nNSSP    National Security Systems Program\nOCIO    Office of the Chief Information Officer\nOHS     Office of Homeland Security\nOMB     Office of Management and Budget\nOSSP    Office of Safety, Security and Protection\nOSTP    Office of Science and Technology\nPMEF    Primary Mission Essential Function\nPOC     Point of Contact\nTSP     Telecommunications Service Priority\nWPS     Wireless Priority Service\nUSDA    United States Department of Agriculture\n\n\n\n\n                              A-1\n\f                                          APPENDIX B\n\n                                          DEFINITIONS\n\n\nAlternate Locations: Fixed, mobile, or transportable locations, other than the headquarters\nfacility, where D/A leadership and continuity personnel relocate in order to perform essential\nfunctions following activation of the continuity plan. These include locations to which agency\nleadership may devolve. These locations refer to not only locations sites but also work\narrangements such as telework and mobile work. (Source: FCD-1)\n\nCommunications: Voice, video, and data capabilities that enable organizational leadership and\nstaff to assure performance of essential functions. Robust communications enable leadership to\nreceive coordinated and integrated policy and operational advice and recommendations. This\nprovides government organizations and the private sector the ability to communicate internally\nand with other entities (including with other Federal organizations, SLTT governments, and the\nprivate sector) as necessary to perform essential functions. (Source: FCD-1)\n\nContinuity: The ability to provide uninterrupted services and support, while maintaining\norganizational viability, before, during, and after an event that disrupts normal operations.\n(Source: FCD-1)\n\nCritical Functions: A function that is necessary to the agency being able to effectively perform\nand maintain control of its mission and operations.\n\nDevolution: The transfer of statutory authority and responsibility from an organization’s primary\noperating staff and facilities to other staff and alternate locations to sustain essential functions\nwhen necessary. (Source: FCD-1)\n\nEmergency Functions: is the grouping of governmental and certain private sector capabilities\ninto an organizational structure to provide support, resources, program implementation, and\nservices that are most likely needed to save lives, protect property and the environment, restore\nessential services and critical infrastructure, and help victims and communities return to normal\nfollowing incidents\n\nEssential Functions: A subset of government functions that are determined to be critical\nactivities. These essential functions are then used to identify supporting tasks and resources that\nmust be included in the organization’s continuity planning process. In this FCD, the term\n“essential functions” refers to those functions an organization must continue in a continuity\nsituation, whether the functions are MEFs, PMEFs, or ESAs. (Source: FCD-1)\n\nFirstNet: FirstNet is an independent authority within the U.S. Department of Commerce.\nAuthorized by Congress in 2012, its mission is to develop, build and operate the nationwide,\nbroadband network that equips first responders to save lives and protect U.S. communities.\n\n\n\n\n                                                  B-1\n\fGovernment Emergency Telecommunications Service (GETS): The Government Emergency\nTelecommunications Service (GETS) supports national leadership; federal, state, local, tribal,\nand territorial governments; first responders; and other authorized national security and\nemergency preparedness (NS/EP) users. It is intended to be used in an emergency or crisis when\nthe landline network is congested and the probability of completing a normal call is reduced.\n(Source: www.cisa.gov)\n\nMission Essential Functions (MEFs): The essential functions directly related to accomplishing\nan organization’s mission as set forth in statutory or executive charter. Generally, MEFs are\nunique to each organization. (Source: FCD-1)\n\nPrimary Mission Essential Functions (PMEFs): Those mission essential functions\nthat must be continuously performed to support or implement the uninterrupted\nperformance of NEFs. (Source: OSTP/OMD D16-1)\n\nTelecommunications Service Priority (TSP): TSP is a program that authorizes national security\nand emergency preparedness (NS/EP) organizations to receive priority treatment for vital voice\nand data circuits or other telecommunications services. (Source: www.cisa.gov)\n\nWireless Priority Service (WPS): WPS supports national leadership; federal, state, local, tribal,\nand territorial governments; and other authorized national security and emergency preparedness\n(NS/EP) users. It is intended to be used in an emergency or crisis when the wireless network is\ncongested and the probability of completing a normal call is reduced. (Source: www.cisa.gov)\n\n\n\n\n                                                 B-2\n\f                                       APPENDIX C\n\n                           AUTHORITIES AND REFERENCES\n\n\nDR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nFederal Continuity Directive 1, Federal Executive Branch National Continuity Program and\nRequirements, January 17, 2017\n\nOSTP/OMB D-16-1, Minimum Requirements for Federal Executive Branch Continuity\nCommunications Capabilities, Dec 15, 2016\n(This document is FOUO and personnel wishing to review it should contact OHS NSSP at\nOHSEC-NSSP-SupportTeam@usda.gov or CPD Office cpd@usda.gov)\n\nUnited States Code, Title 6, Subchapter XIII Part 571-576 Emergency Communications,\nNovember 16, 2018\n\n\n\n\n                                              C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "a9cc5ab1-3ba6-542e-8c63-be8847d8fdb6",
+          "title": "USDA Directives — DR3300-001-J",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-001-j",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

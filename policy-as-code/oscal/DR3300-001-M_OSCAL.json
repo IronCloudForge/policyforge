@@ -1,0 +1,106 @@
+{
+  "catalog": {
+    "uuid": "3f46677f-fe4f-5303-a071-f172e22f71e3",
+    "metadata": {
+      "title": "USDA DR3300-001-M: Internet Protocol (IP) Addresses",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2099-03-23",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-001-M"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2099-03-23"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-001-m",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-001-m",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "6bc2b7ff-1876-5bb2-9d5a-1b2e8689aabe",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr3300-001-m-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr3300-001-m-1-stmt",
+                "name": "statement",
+                "prose": "DR 3300-1                                                                     March 23, 1999\n\n\n                                     APPENDIX       M\n\n\n\n                       INTERNET PROTOCOL (IP) ADDRESSES\n\n\n\n1      PURPOSE\n\n       This Appendix establishes the policy for the management and use of Internet\n       Protocol (IP) addresses within the United States Department of Agriculture\n       (USDA).\n\n\n\n2      BACKGROUND\n\n       This directive augments the USDA IP Addressing Plan and other internal and\n       external regulations that establish general policies governing all\n       telecommunications networks, systems, hosts, and routers using Internet Protocol\n       addressing. IP addresses are a Departmental resource that must be managed to\n       ensure that the Office of the Chief Information Officer (OCIO) achieves greater\n       assignment and routing efficiencies.\n\n       These addresses assigned to USDA are divided into three categories; the three\n       Class B network addresses used on the USDA Internet Access Network, an 8K\n       (8192) Classless Interdomain Routing (CIDR) block, and the other Class B and\n       Class C network addresses in use in the Department. In each of these categories,\n       addresses were delegated to USDA from the InterNIC and represent official\n       licenses to operate on the Internet. Because of this and the scarcity of the resource\n       in general, care must be taken in the allocation, use and management of these\n       addresses. Routing constraints and capabilities will be an important consideration\n       to be managed during the implementation of an Enterprise Network (EN).\n\n       Although the next generation of IP (Ipv6 or Ipng) will provide for a much larger\n       addressing space, its delay in implementation makes it imperative to continue to\n       efficiently manage USDA’s current IP address allocation. The importance of\n       assigning these addresses efficiently is necessary to provide the types of Internet-\n       based services which are continuing to be more important to USDA’s\n       constituents. The goal of achieving at least 25-50 percent assignment efficiency at\n       the host level must be obtained. With the implementation of an EN the importance\n       of assigning IP addresses efficiently within a geographically based topology is\n       critical. Agencies must work with the OCIO to ensure that variable length\n       addresses are used on Local Area Networks (LAN) to ensure that only the number\n       of needed addresses is assigned to each LAN. The use of classless routing\n\n\n                                             1\n\fDR 3300-1                                                                 March 23, 1999\n\n\n       protocols such as Open Shortest Path First can support splitting of Class C\n       network addresses between sites. Address distribution must be based on location\n       of a network supporting limited agency autonomy without compromising the\n       concept of a shared network.\n\n\n\n3      REFERENCES\n\n       Source                Publication           Title/Subject\n\n       Internet      Request for Comment Internet Protocol Network Information\n                     Center (RFC) 791 (InterNIC)\n\n       InterNIC              RFC 950               Internet Standard Subnetting\n                             Procedures\n\n       InterNIC              RFC 917               Internet Subnets\n\n       InterNIC              RFC 1069              IP ISO Addressing\n\n\n\n4      ABBREVIATIONS\n\n       AS            -       Autonomous System\n\n       CIDR          -       Classless Interdomain Routing\n\n       CIO           -       Chief Information Officer\n\n       CO            -       Certifying Official\n\n       EN            -       Enterprise Network\n\n       FTS2000       -       Federal Telecommunications System 2000\n\n       IAN           -       Internet Access Network\n\n       InterNIC      -       Internet Network Information Center\n\n       IP            -       Internet Protocol\n\n       ISSTD -       Information Systems Security and Telecommunications Division\n\n\n\n\n                                           2\n\fDR 3300-1                                                                March 23, 1999\n\n\n       ITU-TSS -     International Telecommunications Union- Telecommunications\n                     Standards Sector\n\n       NSAP          -      Network Service Access Point\n\n       NSEL          -      Network Selector\n\n       OCIO          -      Office of the Chief Information Officer\n\n       OSPF          -      Open Shortest Path First\n\n       PRMD          -      Private Management Domain\n\n       RD            -      Routing Domain\n\n       RFC           -      Request for Comment\n\n       TCP/IP        -      Transmission Control Protocol/Internet Protocol\n\n       TSO           -      Telecommunications Services and Operations\n\n       USDA          -      United States Department of Agriculture\n\n\n\n5      POLICY\n\n       a      Authority\n\n              (1)     The Chief Information Officer (CIO) is the central IP addressing\n              authority for USDA. The CIO delegates functional responsibility to the\n              Office of the Chief Information Officer Telecommunications Services and\n              Operations (OCIO/TSO) to ensure success of this program by:\n\n                     (a)    Managing USDA’s IP Addresses Resources;\n\n                     (b)    Providing IP Address Provisioning and IP Address\n                     Allocations;\n\n                     (c)    Providing administration and maintenance of the Network\n                     Information Base (NIB) database;\n\n                     (d)    Maintaining the USDA IP Addressing Registry;\n\n\n\n\n                                          3\n\fDR 3300-1                                                                  March 23, 1999\n\n\n                   (e)     Developing a transition plan to move the three Class B IP\n                   addresses assigned to the USDA Internet Access Network to the\n                   use of Class C addresses; and\n\n                   (f)     Ensuring all existing and future IP addresses will be\n                   registered with OCIO/TSO.\n\n       b    Domain Names\n\n            (1)     The use of the second level domain name, “usda.gov” has been\n            officially registered with the InterNIC and will be used in official agency\n            domain names of the form “...<q4>.<q3>.usda.gov”\n\n            (2)     To use a second-level domain name other than “usda.gov,” an\n            agency must send a request for approval to OCIO/TSO that contains\n            justification for its use.\n\n            (3)    Agencies using previously assigned second-level domain name,\n            “ag.gov,” and all third-level domain names must use “usda.gov” as the\n            second-level domain name as of January 1999.\n\n            (4)    Agencies will not connect a host or other device that uses IP and\n            has an unregistered IP address to the Internet, the USDA Internet Access\n            Network, or to any network connected to either of these networks.\n\n       c    Host Address Efficiency\n\n            (1)    Achieve 25-50 percent assignment and routing efficiencies\n            advocated by the InterNIC.\n\n       d    USDA Address Advertisement\n\n            (1)     The advertisement of USDA IP addresses will be made by the\n            OCIO/TSO. Agencies using private ISPs must obtain their addresses and\n            advertisement through the private ISP.\n\n\n\n6      RESPONSIBILITIES\n\n       a    Office of the Chief Information Officer will:\n\n            (1)    Develop and maintain Department-wide policies and guidelines for\n            implementing IP addresses according to the InterNIC recommendations\n            and standards; and\n\n\n\n\n                                          4\n\fDR 3300-1                                                                    March 23, 1999\n\n\n              (2)   Review and provide comments on all agencies supplements and\n              agency-unique directives relating to this policy.\n\n       b      Office of the Chief Information Officer-Telecommunications Services and\n       Operations will:\n\n              (1)   Assist the agencies in meeting addressing requirements as the\n              Department transitions to a geographically based Enterprise Network;\n\n              (2)     Maintain a USDA IP Addressing Plan. This plan will encompass\n              all addressing resources allocated to the Department, including a\n              geographic allocation plan for the unallocated portions of the Departments\n              8K (8192) Classless Inter-Domain Routing (CIDR) blocks of IP addresses.\n              The plan will be updated to meet the requirements of the USDA Enterprise\n              Network as it is developed.\n\n              (3)     Ensure that all addresses assigned under the allocation plan will be\n              advertised to the Internet through the Department’s Internet Access\n              Network and may not advertise their addresses through other Internet\n              service providers to include:\n\n                     (a)     Ensuring that the Departments 8K CIDR block will remain\n                     a single route advertisement to present a consistent external view\n                     to the Internet;\n\n                     (b)    Continually assessing the internal network topology to\n                     ensure that the advantages of routing efficiencies provided by the\n                     CIDR concept will be realized; and\n\n                     (c)    Reducing the number of internal routes thereby reducing\n                     the need to readdress end systems devices.\n\n              (4)     Coordinate the use from other USDA addressing resources or from\n              private network addresses described in RFC1918 to include:\n\n                     (a) Router-to-router Network Addressing will not be made from\n                     the 2.5K block; or\n\n                     (b)    If the OCIO/TSO determines that these network addresses\n                     need to be allocated from this 2.5K block of addresses, some of\n                     each sub-zone can be set aside for this purpose.\n\n              (5)     Determine if Class B and Class C Network addresses that are not\n              parts of the USDA 8K CIDR block used by agencies will remain on the\n              network.\n\n\n\n\n                                            5\n\fDR 3300-1                                                                 March 23, 1999\n\n\n            (6)    Coordinate with and assist the agencies in migrating to geography-\n            based IP addressing environment.\n\n            (7)     Receive and process agency IP Address Allocation request forms\n            for IP addresses; and\n\n            (8)     Maintain an electronic Network Information Base (NIB) data base\n            of IP Addresses, keeping it current and accurate by requesting yearly calls\n            for information from the agencies.\n\n       c    Agencies and Staff Offices will:\n\n            (1)   Designate an appropriate technical manager to be the IP\n            Addressing Custodian;\n\n            (2) Require the Custodian to develop an agency IP addressing plan that\n            efficiently distributes the IP addressing resource assigned to the agency.\n            The plan should contain procedures for accurately reporting the utilization\n            of the resource. This plan will be incorporated in the overall USDA IP\n            Addressing Plan maintained by the CIO;\n\n            (3)     Request assistance from OCIO/TSO, as necessary, in migrating\n            from existing, poorly utilized, address spaces to other portions of USDA’s\n            collective addressing space to include:\n\n                   (a) Establishing an active address management program to return\n                   resources no longer needed to the InterNIC.\n\n            (4)    Maintain and provide a complete electronic format inventory of IP\n            resources, including the following information for each network and/or\n            subnetwork address assigned:\n\n                   (a)     Network Address;\n\n                   (b)     Network Mask;\n\n                   (c)     Physical Location of the Network;\n\n                   (d)     Point-of-contact, responsible for network; management at\n                   the location to include a name, telephone number, e-mail address\n                   and a postal address; and\n\n                   (e)     The number of Host (or device) Addresses assigned;\n\n            (5)   Submit a request for IP Address Allocation to the USDA\n            Addressing Authority. Include justification for the resource being\n\n\n                                         6\n\fDR 3300-1                                                                  March 23, 1999\n\n\n            requested. For large address block requests, detail the request and\n            supporting justification to include:\n\n                   (a)     Total number and type of addresses being requested;\n\n                   (b)     Network description;\n\n                   (c) Total number of local area networks to be addressed;\n\n                   (d)     Number of devices in the network;\n\n                   (e) Future growth projections; and\n\n                   (f) Other supporting documentation to include any requirements\n                   analysis prepared for technical approval of the network;\n\n                   If the request represents an increase in existing address allocations,\n                   demonstration of efficient use of the existing resource should be\n                   provided. Currently the InterNIC expects a minimum of 25 percent\n                   utilization;\n\n            (6) Respond to queries concerning agency specific addresses. This may\n            include identifying an address and determining the individual responsible\n            for actions taken on the Internet or USDA networks using that address. All\n            information requested from outside the Department will be coordinated\n            through the OCIO. (See section “Agencies and Staff Offices will” in\n            Appendix I);\n\n            (7)   Develop and submit yearly an Individual Agency Network IP\n            Addressing Plan to include:\n\n                   (a)     Points-of-Contacts;\n\n                   (b)     Addressing Resource;\n\n                   (c)     Justification for Addressing Resource;\n\n                   (d)     Method of Address Distribution;\n\n                   (e)     Method of Recording Address Distribution;\n\n            (8)     Achieve at a minimum 25 percent IP address assignment\n            efficiency.\n\n\n\n\n                                         7\n\fDR 3300-1                                                                   March 23, 1999\n\n\n7      FORMS\n\n       Obtain IP address delegation from the USDA Addressing authority by submitting\n       form “USDA IP Network/Subnetwork Address Request Form.” (See Figure 1)\n\n\n\n       These forms are available from OCIO/TSO and may be obtained electronically\n       on-line and are located on the following computer host:\n\n              http://www.net.usda.gov/internet/resources/addresses/index.html\n\n\n\n8      DEFINITIONS\n\n       a       Address. The uniquely coded label assigned to an object, device, or item\n       of data to identify its location.\n\n       b       CIDR. CIDR is an IP addressing concept based on route aggregation.\n       Blocks of network addresses are grouped in binary (or power of two) groups\n       using network masks. In this way, large groups of addresses can be represented in\n       network routing tables as a single entry. This also yields management efficiencies\n       regarding security, accounting, and other network management activities. Within\n       the context of a network segment, each of these large groups can then be\n       subdivided along binary boundaries into smaller groups. The smaller groups then\n       can be allocated throughout the network segment and can even impact the way\n       allocations are made on individual LANs.\n\n       c       Domain. A defined set of applications, systems, users, or organizations\n       interrelated by virtue of being administered by a common authority.\n\n       d      InterNIC. The official network information center established by the\n       National Science Foundation (NSF) to provide and coordinate registration\n       services, directory and database services, and information services for the\n       NSFNET community of Internet users.\n\n\n\n\n                                            8\n\fDR 3300-1                                                                    March 23, 1999\n\n\n                                                Figure 1\n\n                         USDA IP Network/Subnetwork Address Request Form\n\n To request IP addresses for your subnetwork, please complete this form. Any\nsubnetworks servicing USDA personnel and personnel supporting the mission of USDA\nmay apply. If you have any questions, please contact us at the address listed below.\n\nRequest Date :\n\nAgency Information\nName :\nUnit(s) :\nAddress :\n\nAdministrative Authority Information Technical Contact(s) Information\nName:\nTitle:\nEmail:\nVoice:\nFax:\nPostal:\n\nIs your network currently connected to the Internet? [ ]Yes[ ] No\nIf so, please describe the connection point, method, and speed of access :\n\nDescription of Network (Use Attachment if necessary):\n\n\n---------- Please send the completed form to :\n\nEmail : Domain.Names@usda.gov\nFax : 970/498-1660\nAddress : USDA/OCIO/TSO\n3825 East Mulberry Street\nFort Collins, CO 80524\n--------------------------------------------------------------------\n\n\n\n\n                                                     9"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "0df34d74-4443-597d-b810-0866099a1920",
+          "title": "USDA Directives — DR3300-001-M",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-001-m",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

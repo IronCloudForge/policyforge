@@ -1,0 +1,250 @@
+{
+  "catalog": {
+    "uuid": "83dfea2b-2c46-575c-91fb-5f2f8e580ef8",
+    "metadata": {
+      "title": "USDA DR9700-002: Beginning Farmers and Ranchers Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-08-25",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR9700-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-08-25"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-9700-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Farm Service Agency, Office of Outreach, August 25, 2025",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-9700-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Farm Service Agency, Office of Outreach, August 25, 2025"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "cdcbc563-702f-511b-90e8-c3530f98c71c",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr9700-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr9700-002-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) integrated and coordinated policy for beginning farmer and rancher outreach\n     initiatives. The strategy will be led by the USDA National Beginning Farmer and Rancher\n     Coordinator and implemented in each State as required by the Agriculture Improvement Act\n     of 2018 (“Farm Bill”), P.L. 115-334, and Secretary's Memorandum (SM) 1076-030,\n     Implementation of the Agriculture Improvement Act of 2018."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "221ad5f7-9a1c-511d-afd6-f0059abe4ad3",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr9700-002-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr9700-002-2-stmt",
+                "name": "statement",
+                "prose": "a.   This policy is effective immediately and will remain in effect until it is superseded or\n          expiration.\n\n     b.   All Mission Areas, agencies, and staff offices must align their policies and procedures\n          with this DR within 3 months of the publication date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "25276152-c5c1-5afe-9bfd-68922ed76493",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr9700-002-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr9700-002-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, staff offices, programs, teams,\n  organizations, appointees, and employees. This includes contractors and grantees operating\n  on behalf of USDA with beginning farmer and rancher programs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cb6ae253-f0fb-54df-994d-e958f1e0c9ab",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr9700-002-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr9700-002-4-stmt",
+                "name": "statement",
+                "prose": "Support for beginning farmers and ranchers has long been a priority of the USDA. The Food,\n  Conservation, and Energy Act of 2008, P.L. No. 110-246, and the Agricultural Act of 2014,\n  P.L. 113-79, included significant new investments for beginning farmers and ranchers. In\n  2015 the Office of the Inspector General (OIG) published Audit Report 50601-0003-31,\n  USDA Beginning Farmers and Ranchers Programs. This report found that past efforts to\n  serve beginning farmers and ranchers had been limited as a result of no Departmentwide\n  directive requiring participation by Mission Areas, agencies, and staff offices in USDA’s\n  beginning farmer and rancher efforts.\n\n  The 2018 Farm Bill expanded opportunities and funding for beginning farmers and ranchers\n  throughout the Department’s programs. The Farm Bill, Section 12304, Beginning farmer\n  and rancher coordination, and SM 1076-030, established a National Beginning Farmer and\n  Rancher Coordinator position to implement the Beginning Farmer and Rancher program."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c1960811-f608-578d-8931-31f395c4a3cd",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr9700-002-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr9700-002-5-stmt",
+                "name": "statement",
+                "prose": "USDA will establish, and continuously implement targeted educational, marketing, outreach,\n  credit, risk management, conservation, technical assistance, and other programs that help\n  ensure that beginning farmers and ranchers can gain access to the resources they need for\n  success."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2b9a0330-4b40-5213-9d87-a5a5e6277962",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr9700-002-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr9700-002-6-stmt",
+                "name": "statement",
+                "prose": "a.   The National Beginning Farmer and Rancher Coordinator (“National Coordinator”), in\n       consultation with State Food and Agriculture Councils, will:\n\n       (a) Designate in each State a collateral duty State Beginning Farmer and Rancher\n           Coordinator (“State Coordinator”) from either the State office of the Farm Service\n           Agency (FSA), Natural Resources Conservation Service (NRCS), Rural\n           Development (RD) or regional office of the Risk Management Agency (RMA);\n\n       (b) Determine whether to approve a plan submitted by a State Coordinator;\n\n\n\n\n                                                2\n\f     (c) Establish a Beginning Farmer and Rancher Working Group to identify, assess and\n         improve Mission Area, agency, and staff office programs that serve beginning\n         farmers and ranchers. Working group members will consist of:\n\n         (1) The National Beginning Farmer and Rancher Coordinator – Chair and\n             Member;\n\n         (2) FSA Administrator or delegate – Member;\n\n         (3) NRCS Chief or delegate – Member;\n\n         (4) RMA Administrator or delegate – Member;\n\n         (5) RD Administrator or delegate – Member;\n\n         (6) National Institute of Food and Agriculture (NIFA) Administrator or delegate –\n             Member;\n\n         (7) Economic Research Service (ERS) Administrator or delegate – Member;\n\n         (8) Agricultural Marketing Service (AMS) Administrator or delegate – Member;\n\n         (9) National Agricultural Statistics Service (NASS) Administrator or delegate –\n             Member; and\n\n         (10) Office of Partnerships and Public Engagement (OPPE) Director or delegate –\n              Member;\n\n     (d) Leverage the Secretary’s Advisory Committee for Beginning Farmers and Ranchers\n         to frame priority issues;\n\n     (e) Work with NASS to develop and monitor statistics on beginning farmers and\n         ranchers;\n\n     (f) Establish key program performance indicators and include them in an annual plan;\n         and\n\n     (g) Assess and report on performance of utilization of USDA programs by beginning\n         farmers and ranchers.\n\nb.   Each collateral duty State Beginning Farmer and Rancher Coordinator will:\n\n     (1) Coordinate technical assistance at the State level to assist beginning farmers and\n         ranchers in accessing USDA programs,\n\n\n\n\n                                               3\n\f       (2) Develop and submit to the National Coordinator for approval a State plan to\n           improve the coordination, delivery and efficacy of USDA programs to beginning\n           farmers and ranchers at each county and area office in the State;\n\n           (a) Oversee the implementation of the approved State plan and submit annual plan\n               accomplishments to the National Coordinator;\n\n           (b) Work with State and county outreach coordinators to ensure appropriate\n               program information and technical assistance is available at outreach events\n               and activities; and\n\n           (c) Coordinate partnerships and joint outreach efforts with other organizations and\n               government agencies serving beginning farmers and ranchers.\n\n  c.   Mission Areas, agencies, and staff offices without a field-based presence will provide\n       measurable program or grant data benefitting beginning farmers and ranchers to the\n       National Coordinator annually."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f375e0e0-6bd5-5f49-83c3-5bb76aed0a17",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr9700-002-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr9700-002-7-stmt",
+                "name": "statement",
+                "prose": "Inquiries regarding this directive should be directed to the FSA Office of Outreach at 202-\n  690-1700, or via email to fsaoutreach@usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                                4\n\f                               APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nAMS    Agricultural Marketing Service\nDR     Departmental Regulation\nERS    Economic Research Service\nFSA    Farm Service Agency\nNASS   National Agricultural Statistics Service\nNIFA   National Institute of Food and Agriculture\nNRCS   Natural Resources Conservation Service\nOIG    Office of the Inspector General\nOPPE   Office of Partnerships and Public Engagement\nP.L.   Public Law\nRD     Rural Development\nRMA    Risk Management Agency\nSM     Secretary’s Memorandum\nUSDA   United States Department of Agriculture\n\n\n\n\n                                      A-1\n\f                                        APPENDIX B\n\n                            AUTHORITIES AND REFERENCES\n\n\nAgricultural Act of 2014, P.L. 113-79, February 7, 2014\n\nAgriculture Improvement Act of 2018, P.L. 115-334, December 20, 2018\n\nFood, Conservation, and Energy Act of 2008, P.L. No. 110-246, June 18, 2008\n\nUSDA, OIG, Audit Report 50601-0003-31, USDA Beginning Farmers and Ranchers Programs,\nMay 2015\n\nUSDA, SM 1076-030, Implementation of the Agriculture Improvement Act of 2018, July 1, 2019\n\n\n\n\n                                               B-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "0f45e17e-854f-562f-a9ad-1a678dc98549",
+          "title": "USDA Directives — DR9700-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-9700-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

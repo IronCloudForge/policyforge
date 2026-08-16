@@ -1,0 +1,259 @@
+{
+  "catalog": {
+    "uuid": "36e25c5b-762e-57bf-ad12-c70fbfa3df2d",
+    "metadata": {
+      "title": "USDA DR1497-001: Approval of Communications/Information Products and Services",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2014-10-29",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1497-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2014-10-29"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1497-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Communications",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1497-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Communications"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "bd131ded-8b68-58bd-94d1-d2e64c4001c1",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1497-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1497-001-1-stmt",
+                "name": "statement",
+                "prose": "This regulation provides the policies and procedures for obtaining prior approval from the Office of\n  Communications (OC) before the procurement process is initiated for the production or acquisition of\n  Communications/Information Products and Services (CIPS) by the mission areas, agencies and staff\n  offices that require CIPS in support of their various missions. To expedite the process, reduce\n  the burden on the agencies, and limit the time and paperwork required for OC to exercise its\n  delegated review and approval authority, agencies will submit their requests for approval of\n  proposed CIPS in the form of a statement of work. By using this format, OC’s review is\n  accomplished without requiring the agencies to prepare any paperwork other than that\n  already required by other regulations in order for agencies to obtain the approved CIPS\n  through the procurement process."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a722381d-fc22-58aa-9519-4a51d19b35b3",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1497-001-2",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1497-001-2-stmt",
+                "name": "statement",
+                "prose": "It is the policy of the Department of Agriculture that the Director of the Office of\n  Communications (OC): serves as the central information authority in the USDA, with\n  authority to determine the policy for all USDA and Agency communication activities in\n  order to provide leadership and centralized operational direction for all USDA public\n  information activities and ensure all materials shall effectively support USDA policies and\n  programs; exercises final review and approval of all public information material prepared by\n  the Department and its agencies and selects the most effective method and audience for\n  distributing this information; and provides centralized communications strategies for the\n  Secretary and agencies, including the creativity, production and oversight of communication\n  products.\n\f  Offices and agencies that require Communications/Information Products and Services\n  (CIPS) shall not submit purchase requests for CIPS covered by the regulation until given\n  approval by OC. Agencies may request a waiver to this policy by submitting requests in\n  writing with full justification to the Director of the OC or delegated representative. OC\n  approval of the exception must be obtained prior to submission of a purchase request(s).\n\n  Approval obtained under the regulation does not negate the requirement for obtaining\n  approval for the procurement of information technology as specified by Office of the Chief\n  Information Officer (OCIO)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a694205e-ca6b-5d8d-a02b-d2695d1ec868",
+        "class": "section",
+        "title": "Authorities And References",
+        "controls": [
+          {
+            "id": "dr1497-001-3",
+            "class": "policy-requirement",
+            "title": "Authorities And References",
+            "parts": [
+              {
+                "id": "dr1497-001-3-stmt",
+                "name": "statement",
+                "prose": "The Director of the Office of Communications establishes this regulation under the\n  authorities delegated in 7 CFR Subtitle A Section 2.36, \"Delegations Of Authority By The\n  Secretary Of Agriculture And General Officers Of The Department.\"\n\n  a. OMB “Digital Government: Building a 21st Century Platform to Better Serve the\n     American People.” May 23, 2012\n\n  b. DR 1420-002, Printing Policy, September 19, 2011\n\n  c. Departmental Regulation (DR) 1430-002, Use of Logos/Marks at the United States\n     Department of Agriculture, January 8, 2013\n\n  d. DR 1490-002, Creative, Media and Broadcast Policy, August 4, 2011\n\n  e. DR 1495-001, New Media Roles, Responsibilities and Authorities, May 23, 2011\n\n  f. DR 1496-001, Digital Strategy Governance, November 21, 2012\n\n  g. Digital Style Guide, January, 2013\n\n  h. Visual Standards Guide, January 2013\n\n  i. Web Standards and Style Guide, January 2013"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d362ab3e-5a5a-54f2-b823-02864767a0cb",
+        "class": "section",
+        "title": "Applicability And Scope",
+        "controls": [
+          {
+            "id": "dr1497-001-4",
+            "class": "policy-requirement",
+            "title": "Applicability And Scope",
+            "parts": [
+              {
+                "id": "dr1497-001-4-stmt",
+                "name": "statement",
+                "prose": "This regulation applies to all mission areas, agencies and staff offices of the USDA with\n  individual requirements for CIPS for which the cost to procure them is estimated to exceed\n  $25,000.\n\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9eaccf94-a330-5f04-8d83-3efba2c4b2e9",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr1497-001-5",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr1497-001-5-stmt",
+                "name": "statement",
+                "prose": "a. The Director of OC shall:\n\n     (1) Work with Departmental Management and USDA agencies and offices to establish\n         the requirements for Department-wide contracts for CIPS;\n\n     (2) Ensure that CIPS:\n\n         (a) Maximize the effectiveness of USDA communications and ensure that there is\n             consistency in all USDA communications products and programs;\n\n         (b) Maximize the efficiency and effectiveness of USDA Departmental and agency\n             communications resources to ensure the best use of taxpayer dollars;\n\n     (3) Review all “Requests for Approvals” for CIPS and:\n\n         (a) Approve requests and return them to the appropriate mission area, agency or staff\n             office official;\n\n         (b) Ensure that reviews of agency requests for approval are concluded in a timely\n             manner to avoid incurring rush, expedited, or non-standard charges due to there\n             being insufficient time to complete the project without requiring such non-\n             standard charges.\n\n     (4) Grant waivers to the requirements of this Departmental Regulation.\n\n  b. Mission Area, Agency and Staff Office Public Affairs Directors/Constituent\n     Communications personnel shall:\n\n     (1) Submit a “Request for Approval of Communications/Information Products and\n         Services” to the Director of the Office of Communications for CIPS estimated to\n         exceed $25,000 prior to submitting a procurement request to the applicable\n         contracting activity;\n\n     (2) Ensure that their organization's communications plans, including proposed\n         communications/information products and services, are prepared in collaboration\n         with the Office of Communications;\n\n     (3) Ensure that applicable requests for approval are submitted to the Office of\n         Communications for approval with a sufficient lead time to allow for a review process\n         of a minimum of five business days in order that when approval is granted, no rush,\n         expedited or other non-standard charges will be incurred; and\n\n     (4) Provide appropriate Contracting Activity with a copy of the “Request for Approval of\n\n\n                                             3\n\f         Communications/Informations Products and Services” after approval."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5a03fcbe-004c-5f66-9ebe-55f0f9bb84bf",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr1497-001-6",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr1497-001-6-stmt",
+                "name": "statement",
+                "prose": "Because the terms “communications” and “information” have multiple meanings depending\n  on the context, for example “telecommunications” or “information technology,” which are\n  different from the “communications/information” products and services covered by this\n  regulation, it is difficult to provide a short-hand definition of these terms for purposes of this\n  regulation. For that reason, a listing of communications/information products and services\n  covered by this regulation is provided in Appendix C for reference, to distinguish them from\n  other types of communications or information products and services."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "371e8f65-3d9d-51af-b8a0-fe13ecf3f137",
+        "class": "section",
+        "title": "Request For Waiver For Communications Products And Services",
+        "controls": [
+          {
+            "id": "dr1497-001-7",
+            "class": "policy-requirement",
+            "title": "Request For Waiver For Communications Products And Services",
+            "parts": [
+              {
+                "id": "dr1497-001-7-stmt",
+                "name": "statement",
+                "prose": "ESTIMATED TO EXCEED $25,000\n\n  a. When requesting a waiver of the requirement of this directive to submit to OC the\n     requirement for CIPS for a specific acquisition which is in excess of the $25,000 limit, a\n     request prepared in the format set forth in Appendix B shall be submitted to the Director,\n     Office of Communications, or delegated representative prior to the submission of a\n     procurement request to the applicable Contracting Activity.\n\n  b. The request for the specific requirement shall be signed by the mission area, agency or staff\n     office, Public Affairs Director or equivalent, as the authorized individual."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ae342b73-3959-5b3f-b172-5912c59e1d69",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr1497-001-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr1497-001-8-stmt",
+                "name": "statement",
+                "prose": "Direct inquiries regarding this regulation to the Deputy Director, Office of\n       Communications, (202) 720-4623.\n\n                                              -END-\n\n\n\n\n                                                 4\n\f                                          APPENDIX A\n  INFORMATION REQUIRED IN “REQUEST FOR APPROVAL OF COMMUNICATIONS\n    /INFORMATION PRODUCTS AND SERVICES” ESTIMATED TO EXCEED $25,000\n\n\nProvide memorandum to the Director of the Office of Communications giving:\n\n   1. Name, position title, organizational identity and telephone number of the senior program\n       official responsible for the procurement.\n\n   2. Program or initiative title and the specific communications objectives which the requested\n       communications/information products and/or services support.\n\n   3. A statement of work (SOW) describing the communications/information products or\n       services to be acquired during the contract life.\n\n\nThe request shall be signed by the mission area, agency or staff office, Public Affairs Director or\nequivalent, as the authorized individual.\n\n\nProvide three lines:\n\nApprove: _______________\n\nDisapprove: _____________\n\nDiscuss: ________________\n\n\n\n\n                                                A-1\n\f                                           APPENDIX B\n\n    INFORMATION REQUIRED IN SUBMISSION OF REQUEST FOR WAIVER FROM\n   APPROVAL OF COMMUNICATIONS/INFORMATION PRODUCTS AND SERVICES\n\nProvide a memorandum to the Director of the Office of Communications giving:\n\n   1. Name, position title, organizational identity and telephone number of the senior program\n       official responsible for the procurement.\n\n   2. Program or initiative title and the specific communications objectives which the requested\n       communications/information products and/or services support.\n\n   3. A statement of work (SOW) describing the communications/information products or\n       services to be acquired during the contract life.\n\n   4. Justification for the procurement of communications/information services or products\n       without prior OC review.\n\n\nThe request shall be signed by the mission area, agency or staff office, Public Affairs Director or\nequivalent, as the authorized individual.\n\n\nProvide three lines:\n\nApprove: _______________\n\nDisapprove: _____________\n\nDiscuss: ________________\n\n\n\n\n                                                B-1\n\f                                   Appendix C\n        Examples of Communications/Information Services and Products\n\nThis regulation adopts the broadest interpretation of the foregoing terms. Contact the\nDirector of CMBC or the Director’s designated representative if there is any question as\nto whether or not any procurement for communications services or products is covered by\nthis regulation.\n\nCommunications/Information Services and Products means the following services and\nproducts:\n\n   a. Communications Research and Planning is the full range of communications and\n      social marketing research services, including but not limited to:\n\n   (1) Review and analysis of current literature, including but not limited to digital\n       content and multimedia assets.\n   (2) Development of research strategies, tools, and methods of analysis\n   (3) Implementation of all appropriate research methodologies, including but not\n       limited to:\n\n       (a) Market identification and segmentation research;\n       (b) Focus groups;\n       (c) One-on-one interviewing;\n       (d) Opinion polling;\n       (e) Statistical surveys;\n       (f) Program evaluations;\n\n   (4) Compilation and analysis of data;\n   (5) Creative Communications insight development; and\n   (6) Strategic Communications planning.\n\nIt is understood that all activities will conform to Office of Management and Budget and\nDepartmental regulations.\n\n   b. Integrated Marketing defines those set of services and products required to\n      conceptualize, design, develop, and implement creative multimedia campaigns\n      that fully integrate a variety of marketing, advertising, constituent/stakeholder\n      relations, and media relations activities. They include all necessary goods,\n      services and distribution methods, required to promote public awareness of\n      USDA mission areas, agencies and staff offices’ mission and initiatives, enable\n      public understanding of complex technical, scientific, and at times, controversial\n      issues, and disseminate information to various audiences, where all services and\n\n\n                                        C-1\n\f   products conform to government accessibility standards, including but not limited\n   to:\n\n(1) Marketing objective determination;\n(2) Plan development;\n(3) Message creation;\n(4) Media selection;\n(5) Outdoor marketing and media services;\n(6) Interactive (Web-based) marketing;\n(7) Broadcast media (radio, television, and public service announcements);\n(8) Direct mail services;\n(9) Media planning and placement services;\n(10) Marketing program evaluation; and\n(11) Distribution method\n\nc. Outreach and Engagement are the products and services procured for the design\n   and execution of comprehensive outreach and engagement efforts targeted to\n   specific audiences in support of USDA mission areas, agencies and staff offices\n   program activities, as described in specific task orders. They include all necessary\n   communications materials required to inform and engage\n   constituents/stakeholders on various issues and to increase participation in the\n   collaborative decision-making process as USDA mission areas, agencies and staff\n   offices meet their mission objectives. Services and activities may include, but are\n   not limited to, town hall-style meetings, meeting facilitation, online forums, and\n   so forth.\n\nd. Media Relations is all necessary staff, equipment, and professional expertise to\n   help USDA mission areas, agencies and staff offices meet the specific media and\n   constituent/stakeholder relations requirements of outreach programs. This\n   includes all the products and services required to plan, design, develop, and\n   execute detailed media (traditional and new media) and constituent/stakeholder\n   relations strategies for reaching desired target audience. Services include, but are\n   not limited to:\n\n(1) Message and strategy development;\n(2) Media identification, segmentation, and analysis;\n(3) Media (traditional and social media) monitoring;\n(4) Media and public relations program development/execution;\n(5) Crisis communications; and\n(6) Materials development (including advertising, press kits, public service\n    announcements, etc.)\n\ne. Communications Materials and Product Development are the products and\n   services required to provide a full range of high-quality, creative graphic design,\n   photography, video production, and exhibit production services for the\n   development of a broad spectrum of information products (print collateral,\n\n\n                                    C-2\n\f       exhibits, videos, advertisements, presentations, etc.). It is understood that such\n       products and services will meet all applicable Federal and USDA standards and\n       expectations, including those for accessibility. Types of products and services\n       may include, but are not limited to:\n\n   (1) Developing conceptual designs and layouts;\n   (2) Providing copywriting and technical writing services;\n   (3) Developing custom or providing stock artwork (including photography);\n   (4) Preparing print-, fabrication-, or web-ready files;\n   (5) Conceptualizing, designing and producing exhibits and their accompanying\n       materials;\n   (6) Preview, set-up, and dismantling of exhibit;\n   (7) Shipping exhibit property to and from designated site(s);\n   (8) Script writing;\n   (9) Directing;\n   (10) Shooting;\n   (11) Arranging for talent/animation;\n   (12) Narration;\n   (13) Music and sound effects;\n   (14) Duplication;\n   (15) Distribution;\n   (16) Video scoring;\n   (17) Editing;\n   (18) Digital photography (black and white, color);\n   (19) Field and studio photography;\n   (20) On location/event still photography;\n   (21) Photographic research;\n   (22) Photographic printing;\n   (23) Framing/matting;\n   (24) Printing of marketing materials; and\n   (25) E-Publications.\n\nf. Web Design, Development, and Management are the products and services required\n   to develop strategies for USDA mission areas, agencies and staff offices to make\n   maximum use of the Internet and mobile devices as communication tools. The\n   USDA Digital Style Guide requires that prior to development of public–facing USDA\n   Websites or applications and any public–facing USDA Website or application\n   undergoing redesign, must have that design vetted through the Office of\n   Communications, Web Communications Division, to ensure adherence to the\n   common look and feel established in the USDA Digital Style Guide.\n\n   It is understood that all products and services will comply with regulations,\n   specifications and policies for IT systems security, privacy specifications and forms\n   management regulations set forth by the Government. Vendors will also be required\n   to comply with USDA-mandated web style guidelines in the development of any Web\n   sites.\n\n\n                                       C-3\n\fh. Social marketing are the digital communication services and activities that integrate\n   technology, social interaction, and content creation to collaboratively connect with\n   constituents/stakeholders in digital environments such as through mobile applications,\n   the Internet, or social networks. Typical activities may involve the consultation,\n   development and implementation of the following:\n\n   (1) Social marketing strategy and message development;\n   (2) Digital content creation or distribution;\n   (3) Analysis and performance measurement of social marketing activities; and\n   (4) Social media account management and oversight.\n\n\n\n\n                                       C-4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "502060ff-7fb6-5524-a584-ad5eebff49c3",
+          "title": "USDA Directives — DR1497-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1497-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

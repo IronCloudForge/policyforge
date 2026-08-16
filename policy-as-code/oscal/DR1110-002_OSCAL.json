@@ -1,0 +1,259 @@
+{
+  "catalog": {
+    "uuid": "5cd4d8f4-4ccb-5016-b29d-62cb016bd2f9",
+    "metadata": {
+      "title": "USDA DR1110-002: Management’s Responsibility for Internal Control",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-03-05",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1110-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-03-05"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1110-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer, Internal",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1110-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer, Internal"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "2993b25c-38dc-59ad-9257-3f79fa95f70f",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1110-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1110-002-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) policy for improving the accountability and effectiveness of Mission Area, agency,\n     and staff office programs, operations, and reporting."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1d3476f2-1fc2-56cd-a8ba-defe28828661",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr1110-002-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr1110-002-2-stmt",
+                "name": "statement",
+                "prose": "a.   This regulation supersedes DR 1110-002, Management’s Responsibility for Internal\n          Control, dated June 17, 2013.\n\n     b.   All Mission Areas, agencies, and staff offices will align their policies with this DR\n          within 6 months of the publication date.\n\n     c.   This DR is effective immediately when published. This DR will remain in effect until\n          superseded or the expiration date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1ffff4ac-a6f4-589b-b9b7-3a26338b7eb4",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr1110-002-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr1110-002-3-stmt",
+                "name": "statement",
+                "prose": "The DR applies to all USDA Mission Areas, agencies, and staff offices. It requires close\n  collaboration from agency leadership across all agency mission and support functions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "43416ebe-640b-5e7b-b911-7f351f3f9512",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr1110-002-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr1110-002-4-stmt",
+                "name": "statement",
+                "prose": "a.   The DR complies with requirements of the Federal Managers’ Financial Integrity Act of\n       1982 (FMFIA), Public Law (P.L.) No. 97-255, and the Federal Financial Management\n       Improvement Act of 1996 (FFMIA), P.L. No. 104-208.\n\n  b.   The DR incorporates changes based on:\n\n       (1) Government Accountability Office (GAO), GAO-14-704G, Standards for Internal\n           Control in the Federal Government (Green Book), dated September 10, 2014;\n\n       (2) Office of Management and Budget (OMB) Circular No. A-123, Management’s\n           Responsibility for Enterprise Risk Management (ERM) and Internal Control, dated\n           July 15, 2016; and\n\n       (3) OMB Memorandum M-18-16, Appendix A to OMB Circular No. A-123,\n           Management of Reporting and Data Integrity Risk, dated June 6, 2018."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1dcced3d-c765-583a-990f-5b19dd77d7ef",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1110-002-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1110-002-5-stmt",
+                "name": "statement",
+                "prose": "This DR gives guidance on internal control over program and administrative operations,\n  reporting, and compliance with applicable laws and regulations. It supports OMB’s\n  expansion of responsibilities for Federal managers beyond the Chief Financial Officer (CFO)\n  community. This policy ensures:\n\n  a.   Continuous monitoring of internal controls as part of daily program and administrative\n       operations;\n\n  b.   Strengthening of management accountability and improvement of program performance\n       and operations;\n\n  c.   Integration of efforts to meet the requirements of FMFIA and FFMIA;\n\n  d.   Compliance with the Department’s Data Quality Plan;\n\n  e.   Systems of internal control are established, maintained, evaluated, improved and\n       reported on;\n\n\n\n                                              2\n\f  f.   Controls are an integral part of the entire Department’s processes and systems;\n\n  g.   Internal controls, including entity-level controls (ELC) are understood, encouraged, and\n       carried out;\n\n  h.   Deficiencies in key controls, when detected, are tracked, monitored, and promptly\n       corrected;\n\n  i.   Results of evaluations are documented, maintained, and made available upon request;\n       and\n\n  j.   USDA agencies comply with all internal control reporting requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1b7615fa-60a8-5064-8ec8-61f9ab2d5a6c",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr1110-002-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr1110-002-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture will:\n\n       (1) Ensure the effectiveness of internal control systems throughout the Department; and\n\n       (2) Report annually to the President, Congress, and OMB on the status of systems of\n           internal control as well as plans and schedules for correcting any material\n           weaknesses.\n\n  b.   Under and Assistant Secretaries, Agency and Staff Office Heads will:\n\n       (1) Establish and maintain a system of internal control based on GAO’s Green Book\n           ensuring adequate controls for program and administrative operations, reporting,\n           and compliance are in place;\n\n       (2) Ensure agency coordination and accountability for identifying and correcting\n           material weaknesses (MW), significant deficiencies (SD), and\n           noncompliances/nonconformances;\n\n       (3) Designate a senior executive to represent the agency as part of the Department’s\n           oversight body;\n\n       (4) Oversee and assign staff to perform annual internal control assessments and\n           reviews;\n\n       (5) Ensure that sufficient resources are available to correct MWs, SDs, and\n           noncompliances and nonconformances;\n\n       (6) Ensure that corrective action plans (CAP) address the root cause of MWs, and SDs;\n\n\n\n\n                                              3\n\f     (7) Determine when acceptance of risks associated with control deficiencies is\n         appropriate;\n\n     (8) Categorize MWs, SDs, and noncompliances/conformances for the purpose of\n         prioritizing corrective action;\n\n     (9) Periodically review MWs, SDs, and corrective action status reports and make sure\n         that there is follow-up;\n\n     (10) Establish a quality assurance process to support reasonable assurance that control\n          objectives are being achieved;\n\n     (11) Ensure that strategic or annual performance plans address MWs and SDs that\n          impact key risks and objectives;\n\n     (12) Designate a Management Control Officer (MCO) to coordinate the internal control\n          program;\n\n     (13) Ensure Departmental internal control guidelines are followed;\n\n     (14) Ensure that managers and employees know the importance of internal controls as\n          well as specific program risks and objectives;\n\n     (15) Report the actions being taken to manage fraud risks to appropriate agency\n          officials;\n\n     (16) Ensure employees are being held accountable for their internal control\n          responsibilities through the performance management process; and\n\n     (17) Submit an annual certification statement to the CFO which forms the basis of the\n          Secretary’s annual assurance letter.\n\nc.   The Chief Financial Officer (CFO) will:\n\n     (1) Plan and provide guidance and oversight and report on results of the Department’s\n         annual assessment of internal control over reporting;\n\n     (2) Manage, coordinate, consolidate and report on internal control efforts within the\n         Department;\n\n     (3) Work with senior leadership to establish an oversight body for the Department’s\n         internal control program;\n\n     (4) Establish and maintain systems for monitoring the timely correction of MWs\n         reported to the President and Congress;\n\n\n\n\n                                             4\n\f     (5) Partner with Mission Areas, agencies, and staff offices to establish an internal\n         control-conscious environment;\n\n     (6) Issue internal control policies and procedures;\n\n     (7) Provide oversight and guidance to agencies concerning the maintenance of effective\n         controls; and\n\n     (8) Keep the Secretary and Sub-Cabinet officials abreast of the status of newly\n         identified and open material weaknesses.\n\nd.   The Inspector General will:\n             .\n     (1) Evaluate internal controls within the scope of their delegated authority and overall\n         program of audits and investigations;\n\n     (2) Identify specific deficiencies in internal control, noncompliances with laws and\n         regulations, and system noncompliances and conformances in audit reports; and\n\n     (3) Provide recommendations to management to improve business/administrative\n         operations and systems.\n\ne.   MCOs will:\n\n     (1) Coordinate the annual process to determine which programs or functions need a\n         formal review;\n\n     (2) Manage reviews of program and administrative operations and efforts to ensure\n         compliance with applicable laws and regulations;\n\n     (3) Coordinate the annual ELC assessment;\n\n     (4) Coordinate the agency plan for evaluation of its internal control system;\n\n     (5) Work to reduce duplicative efforts between audits, internal control reviews,\n         compliance reviews, and other evaluations;\n\n     (6) Identify programs and operations that may be susceptible to fraud or significant\n         improper payments;\n\n     (7) Plan, direct, and evaluate implementation of this DR;\n\n     (8) Work with the Office of Inspector General to resolve material internal control\n         deficiencies disclosed in audit reports;\n\n     (9) Monitor timely correction and validation of identified weaknesses, deficiencies, and\n         noncompliances/conformances ensuring senior level prioritization is met;\n\n\n\n                                             5\n\f       (10) Report to senior leadership MWs, SDs, noncompliances and nonconformances\n            disclosed in audit reports, internal reviews, and other applicable documents; and\n\n       (11) Maintain a system to track deficiencies and the status of corrective action\n            milestones and ensure that CAPs address the root cause of deficiencies and\n            noncompliances and conformances.\n\n  f.   All employees are responsible for the effective operation of controls established by\n       management."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0cefce27-f71c-5774-b677-ca0939a51c52",
+        "class": "section",
+        "title": "Reporting",
+        "controls": [
+          {
+            "id": "dr1110-002-7",
+            "class": "policy-requirement",
+            "title": "Reporting",
+            "parts": [
+              {
+                "id": "dr1110-002-7-stmt",
+                "name": "statement",
+                "prose": "a.   General\n\n       (1) FMFIA and FFMIA require USDA to provide an annual assurance statement to the\n           President and Congress. The CFO will issue an annual data call following the\n           requirements of OMB Circulars A-123 Financial Reporting Requirements, and\n           implementing Appendices A and D and A-136, Financial Reporting Requirements,\n           and implementing Appendix A.\n\n       (2) Agency certification statements must be categorized as one of the following:\n\n           (a) Unmodified Statement of Assurance (no material weaknesses or lack of\n               compliance reported);\n\n           (b) Modified Statement of Assurance, considering the exceptions explicitly noted\n               (one or more material weaknesses or lack of compliance reported); or\n\n           (c) Statement of no Assurance (no processes in place or pervasive material\n               weaknesses).\n\n  b.   Specific Requirements\n\n       (1) Agencies and staff offices will:\n\n           (a) Perform an annual ELC assessment;\n\n           (b) Provide OCFO quarterly reports on the status of material weaknesses in\n               internal control, and noncompliances and conformances; and\n\n           (c) Submit an annual certification statement and bridge memo to OCFO.\n\n       (2) The Secretary of Agriculture will provide an overall statement of assurance along\n           with a report on identified material weaknesses and corrective actions.\n\n\n\n\n                                               6\n\f      (3) The CFO will include the assurance statement in the Agency Financial Report no\n          later than 45 days after the end of each fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6587508e-92d2-5a5c-a304-38d718f0b56c",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr1110-002-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr1110-002-8-stmt",
+                "name": "statement",
+                "prose": "Direct all inquiries to the Office of the Chief Financial Officer, Internal Control Division\n  at InternalControlTeam@usda.gov.\n\n\n                                             -END-\n\n\n\n\n                                               7\n\f                             APPENDIX A\n\n                 ACRONYMS AND ABBREVIATIONS\n\n\nAICPA    American Institute of CPAs\nCAP      Corrective Action Plan\nCFO      Chief Financial Officer\nCRO      Chief Risk Officer\nDM       Departmental Manual\nDR       Departmental Regulation\nELC      Entity Level Control\nERM      Enterprise Risk Management\nFFMIA    Federal Financial Management Improvement Act\nFMFIA    Federal Managers’ Financial Integrity Act\nGAO      Government Accountability Office\nGPRA     Government Performance Results Act\nGPRAMA   Government Performance Results Act Modernization Act\nMCO      Management Control Officer\nMW       Material Weakness\nOCFO     Office of the Chief Financial Officer\nOMB      Office of Management and Budget\nP.L.     Public Law\nSD       Significant Deficiency\nUSDA     United States Department of Agriculture\n\n\n\n\n                                  A-1\n\f                                           APPENDIX B\n\n                                          DEFINITIONS\n\n\nCertification Statement. A direct conclusion as to whether an agency or staff office’s internal\ncontrols are effective in meeting the objectives of the Federal Managers Financial Integrity Act\n(FMFIA) and the Federal Financial Management Improvement Act (FFMIA). It is used to help\nform the basis for the Department’s overall Statement of Assurance. It includes a summary of\nreportable deficiencies that warrant reporting to the next level of management.\n\nThe certification statement includes management’s conclusion of:\n\na.   Whether its internal control system for each of the Government Accountability Office’s\n     (GAO) Internal Control Components and Principles (has or has not) been designed and\n     implemented and effectively or ineffectively operating in an integrated manner; and\n\nb.   Whether the overall system of internal control (is or is not) operating effectively.\n\n     (Source: Adapted from Federal Managers’ Financial Integrity Act of 1982 (FMFIA), P.L.\n     No. 97-255)\n\nControl Deficiency. Exists when the design, implementation, or operation of a control does not\nallow management or personnel, in the normal course of performing their assigned functions, to\nachieve control objectives and address related risks. (Source: OMB, Circular A-123,\nManagement’s Responsibility for Enterprise Risk Management (ERM) and Internal Control,\ndated July 15, 2016)\n\nEntity Level Controls (ELC). Controls that have a pervasive effect on an entity’s internal control\nsystem and pertain to multiple components. ELCs are a part of the control environment, risk\nassessment, information and communication, and monitoring components of GAO’s Standards\nfor Internal Control in the Federal Government (Green Book). ELCs also include controls\nrelated to the entity’s use of service organizations, management overrides and managing fraud\nrisk. ELCs create a control-conscious environment within the organization. The ELC must\ngenerally address all 17 principles established in the Green Book. (Source: GAO, Green Book)\n\nEvaluation of an Internal Control System. A review of program, administrative and operational\nprocesses and associated internal controls to determine compliance with laws, principles,\nstandards, and related requirements from GAO and the Office of Management and Budget. This\nevaluation may be formal or informal. (Source: Adapted from GAO, Green Book, Page 15)\n\nFraud. Obtaining something of value through willful misrepresentation. (Source: GAO, Green\nBook, Principle 8)\n\n\n\n\n                                                B-1\n\fInternal Control. A process effected by an entity’s oversight body, management, and other\npersonnel that provides reasonable assurance that the objectives of an entity will be achieved.\n(Source: GAO, Green Book)\n\nManagement Control Officer (MCO). Line management officials designated by senior-level\nmanagement to establish, maintain, evaluate, and report on internal controls. (Source:\nDepartmental Manual (DM) 1110-002, USDA Management Control Manual)\n\nMaterial Weakness (MW). A significant deficiency that the agency head determines to be\nsignificant enough to report outside the Department as a material weakness:\n\na.   A MW in internal control over operations might include conditions that impact the operating\n     effectiveness of ELCs; impairs fulfillment of essential operations or mission; deprives the\n     public of needed services; or significantly weakens established safeguards against fraud,\n     waste, loss, unauthorized use, or misappropriation of funds, property, other assets, or\n     conflicts of interest;\n\nb.   A MW in internal control over external financial reporting is a deficiency, or a combination\n     of deficiencies, in internal control, where there’s a reasonable possibility that a material\n     misstatement of the entity’s financial statements will not be prevented, detected, or\n     corrected timely;\n\nc.   A MW in internal control over reporting is a SD where the agency head determines it is\n     significant enough to impact internal or external decision making and reports it outside of\n     the Department; or\n\nd.   A MW in internal control over compliance is a condition where management lacks a process\n     that reasonably ensures preventing a violation of law or regulation that has a direct and\n     material effect on financial reporting or significant effect on other reporting or achieving the\n     Department’s objectives.\n\n     (Source: OMB, Memorandum M-16-17, Table 6, Summary of OMB Circular No. A-123\n     Reporting Requirements)\n\nNoncompliance. A failure to follow requirements or a violation of prohibitions included in the\napplicable law, regulation, contract, grant or agreement that is quantitatively or qualitatively\nsignificant, either individually or when aggregated with other noncompliances. Significant,\nwhen used in this context, refers to issues that merit attention by those charged with governance.\n(Source: GAO, Green Book)\n\nReasonable Assurance. A satisfactory level (not absolute) of confidence in achieving program,\nadministrative, and financial management objectives effectively and efficiently, and\nsafeguarding Government resources under given considerations of costs, benefits, and risks.\n(Source: Adapted from GAO, Green Book, and AICPA)\n\nRisk Assessment. Assesses the risks facing the entity as it seeks to achieve its objectives. It\n\n\n\n                                                B-2\n\fprovides the basis for developing appropriate risk responses. (Source: GAO, Green Book, Page\n7)\n\nSignificant Deficiency (SD). A deficiency (or combination of deficiencies) in internal control\nthat is less severe than a material weakness yet important enough to merit attention by those\ncharged with governance. It is internal to the Department and not required to be reported\nexternally. (Source: OMB, Memorandum M-16-17, Table 6, Summary of OMB Circular No. A-\n123 Reporting Requirements)\n\nStatement of Assurance. Represents the Secretary’s informed judgment as to the overall\nadequacy and effectiveness of internal control within USDA related to operations, reporting, and\ncompliance. (Source: OMB, Circular A-123)\n\nSystem Noncompliance/conformance. Financial management systems do not substantially\nconform to system requirements. Systems include both financial and financially related (or\nmixed) systems.\n\na.   FMFIA system nonconformance – Systems do not conform to Federal Financial\n     Management Systems Requirements for computer security and internal control.\n\nb.   FFMIA system noncompliance – Systems do not comply with Federal Financial\n     Management System requirements, applicable Federal Accounting Standards, or U.S.\n     Standard General Ledger at the transaction level.\n\n     (Source: OMB, Circular A-123)\n\n\n\n\n                                              B-3\n\f                                       APPENDIX C\n\n                           AUTHORITIES AND REFERENCES\n\n\nClinger-Cohen Act of 1996, P.L. No. 104-106, February 10, 1996\n\nFederal Financial Management Improvement Act of 1996 (FFMIA), P.L. No. 104-208,\nSeptember 30, 1996\n\nFederal Managers’ Financial Integrity Act of 1982 (FMFIA), P.L. No. 97-255,\nSeptember 8, 1982\n\nGovernment Accountability Office (GAO), GAO-14-704G, Standards for Internal Controls in\nthe Federal Government (Green Book), September 10, 2014\n\nGovernment Management Reform Act of 1994, P.L. No. 103-356, October 13, 1994\n\nGovernment Performance Results Act (GPRA) and Modernization Act (GPRAMA), P.L. No.\n111-352, January 4, 2011\n\nImproper Payments Elimination and Recovery Act of 2010, P.L. No. 111-204, July 22, 2010\n\nImproper Payments Elimination and Recovery Improvement Act of 2012, P.L. No. 112-248,\nJanuary 10, 2013\n\nImproper Payments Information Act of 2002, P.L. No. 107-300, November 26, 2002\n\nOMB, Circular No. A-130, Management of Federal Information Resources, Appendix III,\nSecurity of Federal Automated Information Resources, November 28, 2000\n\nOMB, Memorandum M-18-16, Appendix A to OMB Circular No. A-123, Appendix A,\nManagement of Reporting and Data Integrity Risk, June 6, 2018\n\nOMB, Circular No. A-123, Appendix B to Circular No. A-123, A Risk Management Framework\nfor Government Charge Card Programs, August 27, 2019\n\nOMB, Memorandum M-18-20, Transmittal of Appendix C to OMB Circular No. A-123,\nRequirements for Payment Integrity Improvement, June 26, 2018\n\nOMB, Memorandum M-13-23, Appendix D to Circular No. A-123, Compliance with the Federal\nFinancial Management Improvement Act of 1996, September 20, 2013\n\nOMB, Memorandum M-16-17, Circular No. A-123, Management’s Responsibility for Enterprise\nRisk Management and Internal Control, July 15, 2016\n\n\n\n\n                                            C-1\n\fOMB, Circular No. A-136, Revised, Financial Reporting Requirements, August 27, 2020\n\nReports Consolidation Act of 2000, P.L. No. 106-531, November 22, 2000\n\nUSDA, DM 1110-002, USDA Management Control Manual, November 29, 2002; sunset on\nFebruary 21, 2018 (Note: cited as a source for a definition in Appendix B)\n\n\n\n\n                                            C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "9a131bc5-dc29-5dfd-a498-16335489ae83",
+          "title": "USDA Directives — DR1110-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1110-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

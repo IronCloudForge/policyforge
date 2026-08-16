@@ -1,0 +1,192 @@
+{
+  "catalog": {
+    "uuid": "b44ed8a7-3851-5bde-a1a0-5ecf23da3840",
+    "metadata": {
+      "title": "USDA SM1077-010: Renewing the U.S. Department of Agriculture Bioeconomy Council and the Bioeconomy Coordination Committee",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2024-03-01",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1077-010"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2024-03-01"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1077-010",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1077-010",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "0211a328-1afb-56b4-b631-b5ca7ae2c67c",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "sm1077-010-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "sm1077-010-1-stmt",
+                "name": "statement",
+                "prose": "This Memorandum re-establishes the U.S. Department of Agriculture (USDA) Bioeconomy\n  Council (BC) and the Bioeconomy Coordination Committee (BCC). This step recognizes\n  the contribution of programs and efforts at USDA to expand the US bioeconomy, including\n  the production and use of renewable energy and biobased products. It also serves to ensure\n  a coordinated response to Executive Order (E.O.) 14081, Advancing Biotechnology and\n  Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy;\n  which seeks to advance biotechnology and biomanufacturing towards innovative solutions\n  in health, climate change, energy, food security, agriculture, supply chain resilience, and\n  national and economic security across the Department. Finally, it seeks to expand access to\n  new, more, and better markets that diversify revenue streams for farmers, ranchers, and\n  foresters, especially in rural communities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5dcf900a-cfae-50ed-9f66-292bd0f975e7",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "sm1077-010-2",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "sm1077-010-2-stmt",
+                "name": "statement",
+                "prose": "Secretary Vilsack originally established the BC in 2013 to support the many bioeconomy-\n  related provisions and programs set forth in the 2008 Farm Bill. These activities have\n  focused on biomass, bioengineering, biobased products, and bioenergy feedstocks, along\n  with the farms, forests, waste streams, infrastructure, technologies, and research and\n  development employed to deliver them. More recently, the focus has also included foods and\n  feeds produced via engineered biological processes, such as genetic engineering and cell-\n  cultivated meat (while generally excluding conventional foods and feeds). Through these\n  areas, agriculture and forestry serve as the foundation of the bioeconomy, and bioeconomy\n  applications involve most USDA Mission Areas and agencies.\n\n  In 2022, E.O. 14081 established ambitious but attainable goals designed to grow the\n  domestic American bioeconomy by harnessing biotechnology and biomanufacturing to help\n  make the United States more prosperous, healthier, and more secure. The E.O. broadly\n  defined biotechnology as technology that applies to or is enabled by life sciences innovation,\n  and biomanufacturing as the use of biological systems to develop products, tools, and\n  processes at commercial scale. The E.O. directed USDA to lead on several tasks in\n\f  biotechnology and biomanufacturing. These include a plan to ensure resilient biomass\n  supply chains and the climate-smart production, manufacturing, procurement and use of\n  biobased products."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "00c9cdc3-20dd-534f-9b58-14162906652b",
+        "class": "section",
+        "title": "Mission",
+        "controls": [
+          {
+            "id": "sm1077-010-3",
+            "class": "policy-requirement",
+            "title": "Mission",
+            "parts": [
+              {
+                "id": "sm1077-010-3-stmt",
+                "name": "statement",
+                "prose": "The BC’s mission is to advance the contributions of agriculture and forestry to the\n  bioeconomy and to promote the Nation’s energy security and economic growth by:\n  facilitating communication across USDA agencies; deploying and implementing the\n  Department’s energy, biobased products, and bioeconomy-related programs; and investing in\n  the bioeconomy to create more and better markets for farmers, ranchers, and foresters. To\n  realize this mission, the BC will promote collaboration across the Department to help ensure\n  that the Department’s numerous energy and bioeconomy-related programs are\n  complementary under a comprehensive energy and bioeconomy strategy that reflects\n  research and development, capacity building for rural economic opportunities in rural areas,\n  and market development. The strategy will also include outreach, education, and training,\n  and improved efficiency and use of renewable energy and biobased products by the\n  Department (and, to the extent possible, across the Federal Government). The BC will also\n  provide strategic direction and guidance in developing and overseeing short- and long-term\n  priorities on the bioeconomy for USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d73cfa5c-3987-5522-8ad2-2c515e66b03b",
+        "class": "section",
+        "title": "Actions Ordered",
+        "controls": [
+          {
+            "id": "sm1077-010-4",
+            "class": "policy-requirement",
+            "title": "Actions Ordered",
+            "parts": [
+              {
+                "id": "sm1077-010-4-stmt",
+                "name": "statement",
+                "prose": "a.   Establishment: This Memorandum serves to reconstitute the BC with its subordinate,\n       the BCC.\n\n  b.   Functions: The BC will promote coordination and collaboration across the Department\n       to help ensure that the Department’s numerous bioeconomy-related programs support\n       the Department’s strategic plan, priorities, and initiatives, and that the Department\n       effectively engages in implementation of bioeconomy-related interagency efforts such as\n       E.O. 14081 and forthgoing Governmentwide bioeconomy initiatives.\n\n  c.   Composition: The BC consists of the following members:\n\n       (1) Chair: Secretary of Agriculture\n       (2) Vice-Chair: Deputy Secretary of Agriculture\n       (3) Assistant Secretary for Congressional Relations\n       (4) Assistant Secretary for Administration\n       (5) General Counsel\n       (6) Director of Communications\n       (7) Director, Office of Homeland Security\n       (8) Under Secretary, Farm Production and Conservation\n       (9) Under Secretary, Trade and Foreign Agricultural Affairs\n       (10) Under Secretary, Rural Development\n\n\n\n                                               2\n\f       (11) Under Secretary, Research, Education, and Economics\n       (12) Under Secretary, Natural Resources and Environment\n       (13) Under Secretary, Marketing and Regulatory Programs\n       (14) Chief Economist\n       (15) Director, Office of Budget and Program Analysis\n       (16) Any other members specifically designated by the Secretary of Agriculture\n\n  d.   The BCC coordinates bioeconomy-related activities among USDA agencies and\n       performs duties as assigned by the Secretary, Deputy Secretary, and the BC. It also\n       serves as a forum for sharing information regarding bioeconomy-related activities that\n       occur outside of USDA but that involve USDA agencies, including E.O. 14081.\n       Members of the Council will ensure their agencies and Mission Areas are represented on\n       the BCC by identifying and appointing staff to participate in the BCC. Council\n       members may also designate BCC liaisons with other working groups to ensure\n       adequate communication and coordination. The Director of the Office of Energy and\n       Environmental Policy within the Office of the Chief Economist will serve as the chair of the\n       BCC."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9d7a1cdf-a6a9-5671-b17a-2f180f0e5e0e",
+        "class": "section",
+        "title": "Existing Directives",
+        "controls": [
+          {
+            "id": "sm1077-010-5",
+            "class": "policy-requirement",
+            "title": "Existing Directives",
+            "parts": [
+              {
+                "id": "sm1077-010-5-stmt",
+                "name": "statement",
+                "prose": "The provisions of this Memorandum are effective immediately and will remain in effect for\n  1 year or until such earlier time as applicable Departmental regulations or guidance has been\n  revised to incorporate the provisions of this SM.\n\n\n\n\n                                              /s/ Thomas J. Vilsack\n                                              Secretary of Agriculture\n\n\n\n\n                                                  3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "65e32a89-2dbe-5f8c-8365-f051bbd7595e",
+          "title": "USDA Directives — SM1077-010",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1077-010",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

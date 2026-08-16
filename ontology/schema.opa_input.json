@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/opa-input",
+  "title": "OpaComplianceInput",
+  "description": "The `input` document passed to OPA when evaluating any `usda.policy.*` Rego module. Callers supply organizational context and a flat map of requirement-ID → attestation booleans. Any requirement ID absent from `assertions` is treated as unattested (false), generating a violation.",
+  "type": "object",
+  "properties": {
+    "organization": {
+      "type": "object",
+      "description": "Organizational context used by the `directive_applies` rule.",
+      "properties": {
+        "agency": {
+          "type": "string",
+          "const": "USDA",
+          "description": "Must be 'USDA'. The `directive_applies` rule evaluates to true only when this value is present and equals 'USDA'."
+        },
+        "office": {
+          "type": "string",
+          "description": "Optional sub-agency or mission area abbreviation (e.g. 'OCIO', 'AMS', 'FSA').",
+          "examples": ["OCIO", "AMS", "FSA", "NRCS"]
+        },
+        "system_name": {
+          "type": "string",
+          "description": "Optional name of the system or program being evaluated for compliance.",
+          "examples": ["AgLearn", "eAuthentication", "FPAC Business Center"]
+        }
+      },
+      "required": ["agency"],
+      "additionalProperties": true
+    },
+    "assertions": {
+      "type": "object",
+      "description": "Flat map of requirement ID → boolean attestation. A value of `true` means the evaluating organization asserts it meets that requirement. A value of `false` or an absent key means non-compliance, producing a violation entry.",
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]+-req-\\d{3}$"
+      },
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "examples": [
+        {
+          "dr0100_001-req-001": true,
+          "dr0100_001-req-002": false,
+          "dr0100_001-req-003": true
+        }
+      ]
+    }
+  },
+  "required": ["organization", "assertions"],
+  "additionalProperties": true,
+  "examples": [
+    {
+      "organization": {
+        "agency": "USDA",
+        "office": "OCIO",
+        "system_name": "Policy Forge"
+      },
+      "assertions": {
+        "dr0100_001-req-001": true,
+        "dr0100_001-req-002": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "catalog": {
+    "uuid": "5ae8515d-0f9a-50e1-91d3-83f08630d8cb",
+    "metadata": {
+      "title": "USDA DR3185-003: Enterprise Architecture IT Asset Data Element Requirements",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-02-23",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3185-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-02-23"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3185-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Information,   EXPIRATION DATE:",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3185-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Information,   EXPIRATION DATE:"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "79307559-c2b6-5205-b766-12a7008aec6e",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3185-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3185-003-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the Enterprise Architecture (EA)\n          Information Technology (IT) Asset Data Element Requirements for the Enterprise\n          Architecture Visioning Environment (EAVE) for the United States Department of\n          Agriculture (USDA).\n\n     b.   This regulation supports the governance and the implementation of the guidance issued\n          by the United States Federal law, the Office of Management and Budget (OMB), and the\n          National Institute of Standards and Technology (NIST), and meets the requirements of\n          the following policy documents:\n\n             (1) The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) §11101 et seq.\n                 (formerly known as the Information Technology Management Reform Act\n                 (ITMRA)).\n\n             (2) OMB, Circular A-130, Management of Federal Information Resources, July 28,\n                 2018;\n\f           (3) NIST, Special Publication (SP) 800-53 Rev. 5, Security and Privacy Controls for\n               Information Systems and Organizations; and\n\n           (4) NIST, SP 800-37 Rev. 2, Risk Management Framework for Information Systems\n               and Organizations: A System Life Cycle Approach for Security and Privacy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "71c53744-b5a5-5ed6-a437-8dbb73faa1ad",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3185-003-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3185-003-2-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, staff offices, employees, and\n  contractors working for or on behalf of USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e1a067ed-b057-58fe-8cb6-a5e75b224a3f",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3185-003-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3185-003-3-stmt",
+                "name": "statement",
+                "prose": "This is a new regulation and will follow the 5-year review and update cycle."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3cacb88e-5b5d-505b-8356-1b4fc248399e",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3185-003-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3185-003-4-stmt",
+                "name": "statement",
+                "prose": "USDA acknowledges the need to manage the IT assets used to support its mission. This DR\n  provides guidance and standards for the Mission Areas, agencies, and staff offices regarding\n  the EA IT Asset Requirements. These requirements establish the baseline guidance for the\n  IT asset data elements being requested, captured, or modified within EAVE.\n\n  The stated IT asset data elements requirements provide a standardized baseline for collecting\n  and reporting asset data. The baseline will change as applicable Federal law, guidance and\n  standards change. Also, baseline changes may be necessary as EA asset requirements and\n  USDA Mission Area, and staff business process change. In addition, this regulation will\n  clarify compliance with internal mandates."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "15a4a359-646e-57db-9a9f-e3b456e6cd9b",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3185-003-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3185-003-5-stmt",
+                "name": "statement",
+                "prose": "a.   USDA’s Office of the Chief Information Officer (CIO) selected and implemented an\n       Enterprise Architecture tool referred to as EAVE. This tool will serve as the certified\n       repository for EA IT assets. The repository will be used to capture, modify, and display\n       IT asset data through dashboards, models, and analytical reports. Access to EAVE will\n       be approved by USDA Mission Areas, agencies, and staff offices and be extended to\n       approved staff within USDA Mission Areas, agencies, and staff offices.\n\n  b.   This DR provides baseline guidance for using EAVE. A Change Control Board (CCB)\n       process will be implemented to sustain EAVE as regulatory and organizational changes\n       occur. Members from Business and IT areas throughout USDA will comprise the Board\n       and its governance process will be specified within DR 3185-002, Enterprise\n       Architecture IT Asset Definitions policy.\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d98cb6bf-25e1-515b-bbe2-eebb6aaa18ac",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3185-003-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3185-003-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will:\n\n       (1) Be the final approving authority on the adoption of all EA IT Asset Requirements\n           for USDA, with the goal of maximizing the benefit of technology purchases, and\n           minimizing investment and operating expense; and\n\n       (2) Be the final reviewer and approver of exceptions to the EA IT Asset Requirements\n           when requested by the Mission Areas, agencies and staff offices.\n\n  b.   The Information Resource Management Center (IRMC) Associate Chief Information\n       Officer (ACIO) will:\n\n       (1) Develop policies, procedures, and requirements for the EA IT Asset Requirements.\n\n       (2) Provide management and oversight activities related to EA IT Asset Requirements,\n           including but not limited to:\n\n           (a) Reviewing and monitoring compliance with established policy requirements\n               and standards; and\n\n           (b) Reporting compliance and deviations to OMB.\n\n  c.   The Chief Enterprise Architect will:\n\n       (1) Manage and guide the required EA IT asset data requirement elements; and\n\n       (2) Manage the approval and disapproval process of EA IT asset requirement requests\n           or modifications from Mission Areas, agencies, and staff offices.\n\n  d.   The Mission Areas, Agency, and Staff Office Enterprise Architects, or designated\n       individuals, will:\n\n       (1) Assign an Enterprise Architect or designated individual point-of-contact to liaison\n           with the EAD team;\n\n       (2) Assess, analyze, and provide new, modified, and existing required EA IT asset data\n           requirement elements based on the EA IT Asset Policies;\n\n       (3) Analyze the disposition comments related to the new, modified, and existing\n           required EA IT asset data elements based on the EA IT Asset Requirements;\n\n\n\n\n                                              3\n\f      (4) Notify the Chief Enterprise Architect when development, modernization, and\n          enhancements have modified existing EA IT asset data elements based on the EA\n          IT Asset Requirements. The USDA system of record for IT Capital Planning and\n          the USDA system of record for Enterprise Architecture will interchange data.\n          OCIO EAD Director and OCIO IRMC CPIGD Director will coordinate schema\n          changes that are needed to carry out their mutual functions; and\n\n      (5) Access to EAVE will be approved by USDA Mission Areas, agencies, and staff\n          offices and be extended to approved staff within USDA Mission Areas, agencies,\n          and staff offices. Those requiring Architect access will be set up by EAD."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "30f6fb80-6a0b-51ce-9654-e44968ecb5f0",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3185-003-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3185-003-7-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices are to direct all questions and inquiries\n  to the Office of the Chief Information Officer (OCIO), Information Resource Management\n  Center (IRMC), Enterprise Architecture Division (EAD) via email at\n  enterprise.architecture@usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                              4\n\f                                APPENDIX A\n\n                     ACRONYMS AND ABBREVIATIONS\n\n\nACIO     Associate Chief Information Officer\nCCB      Change Control Board\nCIO      Chief Information Officer\nDR       Departmental Regulation\nEA       Enterprise Architecture\nEAD      Enterprise Architecture Division\nEAVE     Enterprise Architecture Visioning Environment\nIRMC     Information Resource Management Center\nIT       Information Technology\nITMRA    Information Technology Management Reform Act\nNIST     National Institute of Standards and Technology\nOCIO     Office of the Chief Information Officer\nOMB      Office of Management and Budget\nSP       Special Publication\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                     A-1\n\f                                        APPENDIX B\n\n                            AUTHORITIES AND REFERENCES\n\n\nThe Clinger-Cohen Act of 1996, 40 U.S.C. § 11101, et seq., February 10, 1996\n\nNational Institute of Standards and Technology (NIST), SP 800-37 Rev. 2, Risk Management\nFramework for Information Systems and Organizations: A System Life Cycle Approach for\nSecurity and Privacy, December 20, 2018\n\nNIST, SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020\n\nOffice of Management and Budget (OMB), Circular A-130, Managing Information as a\nStrategic Resource, July 28, 2016\n\nUSDA, DM 3185-001, Enterprise Architecture Procedures, forthcoming\n\nUSDA, DR 3130-010, United States Department of Agriculture Enterprise Information\nTechnology Governance, December 3, 2015\n\nUSDA, DR 3130-013, Information Technology Capital Planning and Investment Control, July 8,\n2016\n\nUSDA, DR 3185-001, Enterprise Architecture, July 29, 2019\n\nUSDA, DR 3185-002, Enterprise Architecture IT Asset Definitions, September 22, 2020\n\n\n\n\n                                             B-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "cd442043-05cc-5f31-b3cb-8f639aa398bb",
+          "title": "USDA Directives — DR3185-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3185-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "catalog": {
+    "uuid": "b93f6dd3-8b29-53b6-bd93-11f406f4ea51",
+    "metadata": {
+      "title": "USDA SM1078-021: Establishment of USDA General Terms and Conditions for Grants, Cooperative Agreements, and Similar Arrangements",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2025-12-31",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1078-021"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2025-12-31"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1078-021",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1078-021",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "438c0654-49c4-5257-a368-846e06177c28",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "sm1078-021-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "sm1078-021-2-stmt",
+                "name": "statement",
+                "prose": "This memorandum supersedes SM 1078-003, Directive on Conservation and Natural\n  Resources Priorities and SM 1078-004, Directive on Departmental Grant and\n  Cooperative Agreement Priorities, issued March 13, 2025."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9516881f-148c-5df0-bec1-5d3a57164354",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "sm1078-021-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "sm1078-021-3-stmt",
+                "name": "statement",
+                "prose": "The Federal government has a fundamental responsibility to serve as an effective steward\n  of taxpayer money. The American people must have confidence in the financial\n  management of awards, which are key tools used by USDA to catalyze economic growth,\n  maintain U.S. dominance in the creation of scientific knowledge, and improve lives\n  worldwide.\n\n  Effective stewardship of taxpayer funds also means supporting all Americans, and as\n  such, no USDA awards may fund or otherwise support diversity, equity, and inclusion\n  (\"DEI\") initiatives or any other initiatives that discriminate on the basis of immutable\n  characteristics. Such initiatives conflict with the Department's policy of prioritizing\n  merit, fairness, and excellence in furtherance of the Department's mission.\n\n  Furthermore, it is vital for the Department to have internal controls to ensure all awards\n  are free from fraud, abuse, and duplication, not funding activities that support climate\n  change or environmental justice initiatives contrary to law or the Department's policy\n  priorities, and safeguard the interests of the United States and its national security.\n\n  Standardization enables USDA to unleash prosperity through deregulation. As of the date\n  of this Memorandum, USDA's 21 awarding agencies and staff offices have issued a vast\n  landscape of terms and conditions, which spans 106 documents numbering 2,218 pages\n  which apply to 287 different grant, cooperative agreement, and mutual interest agreement\n  programs.\n\n  This can no longer continue. Such an unchecked paperwork burden has created barriers\n  practically impossible for the average person or small business to overcome. Years of\n  neglecting prudent financial management has limited USDA's ability to cultivate\n  economic development with new applicants instead of a select group of repeat players.\n\n  Now, USDA must take decisive action to centralize award policy, shining sunlight on a\n  simplified, core set of terms and conditions for the entire Department."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "74b90c26-c746-5db7-ab4c-713bb85adb95",
+        "class": "section",
+        "title": "Directives",
+        "controls": [
+          {
+            "id": "sm1078-021-4",
+            "class": "policy-requirement",
+            "title": "Directives",
+            "parts": [
+              {
+                "id": "sm1078-021-4-stmt",
+                "name": "statement",
+                "prose": "I hereby direct all USDA agencies and staff offices that issue awards to adopt and\n  implement-as expediently as possible, but no later than forty-five (45) calendar days\n  after the issuance of this Memorandum-the USDA General Terms and Conditions\n  (GT&Cs) issued by the Office of the Chief Financial Officer (OCFO) for all future\n  awards and for all significant modifications (as determined by OCFO) to existing and\n  future awards, to the maximum extent consistent with law. Agencies and staff offices\n\n\n\n                                           2\n\f  must remove conflicting or duplicative terms from their agency-specific terms and\n  conditions.\n\n  OCFO will establish and maintain a deviation process to authorize policies, procedures,\n  terms, or conditions that are inconsistent with the GT&Cs. Agencies and staff offices may\n  request written approval from OCFO to deviate from the GT&Cs on a case-by-case basis\n  at the award-specific, program-specific, or agency-wide level. Such request should\n  indicate the statutory or regulatory basis for the deviation request, or it should provide a\n  policy rationale approved by a senior policymaking official in the staff office, agency, or\n  mission area.\n\n  OCFO must coordinate deviation requests with the Office of the General Counsel (OGC),\n  Office of the Chief Scientist (OCS), and Office of Homeland Security (OHS) as\n  appropriate. OCFO should provide a response to the requesting unit within 15 calendar\n  days of the request. Under no circumstances shall an exception be permitted with respect\n  to matters involving technologies appearing on the Critical and Emerging Technologies\n  List.\n\n  Employees must make diligent efforts to ensure awarded projects are administered in\n  strict compliance with the GT&Cs and any applicable approved deviation(s). An\n  employee who is aware or has a reasonable basis to believe that a recipient or cooperator\n  is in noncompliance with any term or condition of an award must take reasonable and\n  appropriate action to address the noncompliance. Employees who fail to take such action\n  or otherwise fail to report the noncompliance to appropriate officials may be subject to\n  disciplinary or adverse action, up to and including removal from Federal service.\n\n  This Directive shall be implemented by all Departmental personnel responsible for\n  award-related activities, including but not limited to those responsible for planning,\n  budgeting, executing, and administering awards."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c882947d-aed7-5c94-8b38-d139cbae307a",
+        "class": "section",
+        "title": "Effective Date",
+        "controls": [
+          {
+            "id": "sm1078-021-5",
+            "class": "policy-requirement",
+            "title": "Effective Date",
+            "parts": [
+              {
+                "id": "sm1078-021-5-stmt",
+                "name": "statement",
+                "prose": "This memorandum is effective immediately.\n\n\n\n\n                                        Brooke L. Rollins\n                                        Secretary\n                                        U.S. Department of Agriculture\n\n\n\n\n                                           3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "9b03759a-b971-5bd4-833a-a3b06252d01a",
+          "title": "USDA Directives — SM1078-021",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1078-021",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

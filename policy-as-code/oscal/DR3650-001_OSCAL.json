@@ -1,0 +1,283 @@
+{
+  "catalog": {
+    "uuid": "8e224cc4-72fa-51f5-92f9-48aa56cad737",
+    "metadata": {
+      "title": "USDA DR3650-001: Cloud Computing",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2025-01-22",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3650-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2025-01-22"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3650-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Digital",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3650-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Digital"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "5a4bcf44-adb7-5b2f-b14b-506b4a10957e",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3650-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3650-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) policy for cloud computing and supports modern approaches, guidance, and\n     requirements for cloud computing, as outlined by:\n\n     a.   Applicable laws enacted by the United States Congress;\n\n     b.   Executive Orders (E.O.) issued by the President of the United States;\n\n     c.   Office of Management and Budget (OMB) cloud policies, including OMB\n          memorandums such as, M- 19-13, Category Management: Making Smarter Use of\n          Common Contract Solutions and Practices;\n\n     d.   The cloud service standards authored by the National Institute of Standards and\n          Technology (NIST) and the Cybersecurity and Infrastructure Security Agency (CISA);\n\f  e.   The 2019 Cloud Smart Federal cloud computing strategy;\n\n  f.   All applicable USDA directives, such as those in Appendix C; and\n\n  g.   USDA Strategic Plan Fiscal Years 2022-2026, Objective 6.3: Promote USDA\n       Operational Excellence Through Better Use of Technology and Shared Solutions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c531e08e-3562-5179-9258-1daa78d65638",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3650-001-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3650-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to any USDA information system operated by the Office of the Chief\n       Information Officer (OCIO), Mission Areas, agencies, staff offices, and any entity or\n       person working for or on behalf of USDA.\n\n  b.   This DR applies to all USDA cloud-capable information systems in USDA’s\n       information systems portfolio.\n\n  c.   All USDA cloud-capable information systems fall under the NIST definition of “cloud\n       computing” as outlined in NIST Special Publication (SP) 800-145, The NIST Definition\n       of Cloud Computing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "570ce339-7edb-52b0-a15f-9cd045c54c9c",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3650-001-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3650-001-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 3650-001, Cloud Computing, dated May 24, 2023.\n\n  b.   This DR does not apply to classified national security information.\n\n  c.   This DR adheres to the guidance in NIST SP 800-53, Revision 5, Security and Privacy\n       Controls for Information Systems and Organizations. It also adheres to the guidance in\n       NIST Federal Information Processing Standards Publication (FIPS PUB) 199, Standards\n       for Security Categorization of Federal Information and Information Systems.\n\n  d.   In December 2022, the FedRAMP Authorization Act was signed as part of the James M.\n       Inhofe National Defense Authorization Act for Fiscal Year 2023, Public Law (P.L.) 117-\n       263, as amended through P.L. 118-31. The FedRAMP Authorization Act codifies the\n       Federal Risk and Authorization Management Program (FedRAMP) as the authoritative\n       standardized approach to security assessment and authorization for cloud computing\n       products and services that process unclassified federal information.\n\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dca31d5d-1219-57ce-8cf8-1fdbe443bbbd",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3650-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3650-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   Cloud computing is the primary approach to transforming how the USDA delivers,\n       protects, and manages access to data and applications across all Mission Areas,\n       agencies, and staff offices. Cloud computing will be implemented to maximize\n       advantages including but not limited to cyber compliance, increased administrative\n       efficiency, elasticity and scalability, central access, and transparent cost.\n\n  b.   The USDA cloud computing environment ensures effective support for the full range of\n       missions and data classifications with a purposefully orchestrated multi-cloud, multi-\n       vendor strategy. This strategy focuses on limiting duplication, reducing inefficiencies,\n       and accelerating digital modernization efforts.\n\n  c.   All new software and software development will leverage the inherent characteristics of\n       cloud computing services, maximize use of cloud services, and support continuous\n       integration and continuous delivery to the maximum extent possible that both mission\n       requirements and technical capabilities allow.\n\n  d.   USDA will adopt the Cloud Smart strategies.\n\n  e.   Cloud computing services must comply with all current Federal laws and USDA\n       information technology (IT) security, privacy, and risk management policies.\n\n  f.   Cloud computing service acquisition vehicles must include service level agreements\n       (SLA). These SLAs must have clear, concise, and detailed language identifying the\n       cloud computing source responsibilities for accommodating the reporting and privacy\n       management requirements of the Federal Information Security Modernization Act of\n       2014 (FISMA), 44 United States Code (U.S.C.) § 3551, et seq. This must be done per\n       OMB M-24-04, Fiscal Year 2024 Guidance on Federal Information Security and\n       Privacy Management Requirements.\n\n  g.   As directed by E.O. 14028, Improving the Nation’s Cybersecurity, Federal Agencies\n       migrating to cloud deployments must apply zero trust principles and transition their\n       environments to Zero Trust architectures commensurate with their risk tolerance. For\n       more information on zero trust, see NIST Cybersecurity White Paper (CSWP) 20,\n       Planning for a Zero Trust Architecture: A Planning Guide for Federal Administrators.\n\n  h.   Cloud computing services must comply with DR 3180-001, Information Technology\n       Standards.\n\n  i.   Cloud computing services must comply with NIST SP 800-37, Revision 2, Risk\n       Management Framework (RMF) for Information Systems and Organizations: A System\n       Life Cycle Approach for Security and Privacy. Cloud computing services must also\n       comply with the associated OCIO Cybersecurity and Privacy Operations Center (CPOC)\n       Risk Management Framework 2.0, as amended.\n\n\n\n\n                                              3\n\f  j.   Cloud computing services must comply with DR 3540-003, Security Assessment and\n       Authorization.\n\n  k.   Cloud computing services must comply with policy and procedures in DR 3520-002,\n       Configuration Management.\n\n  l.   All Mission Areas, agencies, and staff offices must register and report all existing and\n       new cloud systems and services to the USDA Enterprise Architecture Vision\n       Environment (EAVE). To do this, please contact your Mission Area Assistant Chief\n       Information Officer (CIO) or Mission Area, agency, or staff office enterprise architect."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9042e1ae-240b-587d-b487-fc6b71db939a",
+        "class": "section",
+        "title": "Security",
+        "controls": [
+          {
+            "id": "dr3650-001-5",
+            "class": "policy-requirement",
+            "title": "Security",
+            "parts": [
+              {
+                "id": "dr3650-001-5-stmt",
+                "name": "statement",
+                "prose": "(1) All new application development efforts will bring security to the application and\n           data layer by incorporating modern software development best practices, such as\n           continuous monitoring and zero trust.\n\n       (2) All Mission Areas, agencies, and staff offices must abide by DR 3640-001, Identity,\n           Credential, and Access Management, pursuant to OMB M-19-17, Enabling Mission\n           Delivery through Improved Identity, Credential, and Access Management, to\n           employ identity, credential, and access management policies where applicable.\n\n       (3) USDA will expand its continuous diagnostic capabilities for cloud environments\n           per the Department of Homeland Security’s (DHS) Continuous Diagnostics and\n           Mitigation Program.\n\n       (4) As stated in E.O. 14028, Section 3(c): “As [Federal] agencies continue to use cloud\n           technology, they shall do so in a coordinated, deliberate way that allows the Federal\n           Government to prevent, detect, assess, and remediate cyber incidents. To facilitate\n           this approach, the migration to cloud technology will adopt Zero Trust Architecture,\n           as practicable.”\n\n       (5) USDA cloud authorizations to operate (ATO) based on FedRAMP have two types:\n\n           (a) FedRAMP ATOs that are specific to Mission Areas, agencies, or staff offices\n               that support a single USDA Mission Area, agency, or staff office under the\n               Associate Chief Information Officer (ACIO) as the Authorizing Official and\n               System Owner; and\n\n           (b) Enterprise FedRAMP ATOs that support two or more Mission Areas, agencies,\n               or staff offices under the OCIO Digital Infrastructure Services Center (DISC)\n               ACIO as the Authorizing Official and System Owner.\n\n\n\n\n                                               4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6793d2b5-db50-51d8-8397-29f7eeaf19eb",
+        "class": "section",
+        "title": "Acquisition",
+        "controls": [
+          {
+            "id": "dr3650-001-6",
+            "class": "policy-requirement",
+            "title": "Acquisition",
+            "parts": [
+              {
+                "id": "dr3650-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   All Mission Areas, agencies, and staff offices must comply with Section 834(c) of the\n       Federal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, Title\n       VIII, Subtitle D, Sections 831-837. They must comply with this by adhering to DR\n       3145-001, Oversight and Management of the Federal Information Technology\n       Acquisition Reform Act (FITARA), and OMB M-15-14 (CTO) need to give documented\n       approval of an IT purchase to remain compliant with the guidance on the GSA\n       Technology Transformation Service (TTS) Handbook’s web page Federal Information\n       Technology Acquisition Reform Act (FITARA).\n\n  b.   All Mission Areas, agencies, and staff offices must comply with DR 3130-009, Non-\n       Major Information Technology (IT) Investments, for non-major investments. They must\n       comply with DR 3130-010, United States Department of Agriculture Enterprise\n       Information Technology Governance, for major investments. This will ensure\n       successful outcomes that align with business needs while meeting approved costs,\n       schedule, and performance goals.\n\n  c.   All Mission Areas, agencies, and staff offices must employ high-quality IT cost\n       estimation practices per DR 3130-012, Information Technology Cost Estimating.\n\n  d.   All Mission Areas, agencies, and staff offices must comply with IT capital planning and\n       investment control (CPIC) practices per DR 3130-013, Information Technology Capital\n       Planning and Investment Control. They must embrace the Technology Business\n       Management (TBM) framework per the introduction and Sections 7, 11, and 13 of\n       OMB’s FY 2021 IT Budget – Capital Planning Guidance.\n\n  e.   All Mission Areas, agencies, and staff offices will refer to the Federal CIO Council’s\n       The Application Rationalization Playbook for best practices in evaluating existing\n       Departmental contracts and cloud computing solutions before acquiring or developing\n       new acquisition strategies or acquisition plans for services.\n\n  f.   For any acquisitions related to cloud services, USDA personnel must evaluate and\n       consider the available USDA STRATUS cloud acquisition vehicles. They must\n       incorporate this evaluation into the cloud abbreviated acquisition plan. They will\n       generate an analysis of alternatives and make it available to the STRATUS program\n       office. The order of precedence for procuring authorized cloud services is as follows:\n\n       (1) A FedRAMP-authorized cloud service provider (CSP);\n\n       (2) An existing USDA authorization to operate (ATO) for commercial cloud services;\n           and\n\n       (3) Sponsorship of a CSP for FedRAMP authorization through the initial Federal\n           Agency authorization process.\n\n\n\n                                              5\n\f  g.   All Mission Areas, agencies, and staff offices must coordinate with the Director of the\n       Office of Contracting and Procurement (OCP) to include the appropriate SLAs and\n       language in acquisition vehicles. For example, acquisition vehicles must comply with\n       USDA policy, as well as Section 508, E.O.s, and other Federal guidance. Using\n       appropriate language protects the interests of USDA and allows for adequate\n       administrative control, security monitoring, reporting, continuous visibility of assets,\n       vendor performance measurements, clearly defined roles and responsibilities,\n       remediation for noncompliance, and risk mitigation.\n\n  h.   All Mission Areas, agencies, and staff offices must follow the practice of category\n       management and adhere to DR 3160-001, Licensed Information Technology (IT)\n       Software, to procure common goods and services. Where possible, seek to eliminate\n       redundancies, increase efficiency, and deliver more value and savings, per M-19-13,\n       M-22-03, and DR 3107-001, Management of USDA IT Enterprise Initiatives."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "63c50cf0-c6e1-5a57-bf06-83110f62e647",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3650-001-7",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3650-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO will:\n\n       (1) Serve as the chief policy advisor to the Secretary on cloud computing policy;\n\n       (2) Develop and maintain Departmentwide policy for USDA information systems\n           operating on CSP offerings;\n\n       (3) Direct the USDA enterprise private cloud service development;\n\n       (4) Enforce compliance with the provisions of this policy;\n\n       (5) Review and be the final decision authority for all policy waiver requests (as\n           explained in Section 6: Policy Exceptions);\n\n       (6) Collaborate with the Director of the Office of Human Resource Management\n           (OHRM), who serves as the Chief Human Capital Officer (CHCO), and the Chief\n           Financial Officer (CFO) to periodically update the training and hiring practices;\n\n       (7) Provide to the Federal CIO annually a written list of all cloud services that the\n           Department has determined cannot meet or are not required to meet FedRAMP\n           security authorization requirements, and ensure that the list is jointly signed by the\n           USDA CIO and CFO;\n\n       (8) Ensure that the General Counsel is engaged for advice and counsel with respect to\n           the acquisition and offering of cloud services, when appropriate; and\n\n\n\n                                               6\n\f     (9) Work with other parts of the Department, namely the CFO, the Director of OHRM,\n         and the Director of OCP, to best align procurement and workforce management\n         practices to cloud computing.\n\nb.   The USDA CTO will:\n\n     (1) Review policy waiver requests and provide recommendations to the CIO; and\n\n     (2) Give documented approval of an IT purchase, in agreement with the CIO, to remain\n         compliant with the guidance of GSA TTS Handbook’s web page Federal\n         Information Technology Acquisition Reform Act (FITARA).\n\nc.   The DISC ACIO will:\n\n     (1) Serve as the Departmental Cloud Broker as described in NIST SP 500-291, Version\n         2, NIST Cloud Computing Standards Roadmap, Section 4.5: Cloud Broker;\n\n     (2) Serve as the cloud computing policy coordinator and technical advisor to the USDA\n         CIO;\n\n     (3) Develop and maintain the process for exceptions to this policy;\n\n     (4) Review policy waiver requests and provide recommendations to the CIO;\n\n     (5) Be the delegated signature authority for cloud computing correspondence from the\n         CIO to Mission Areas, agencies, and staff offices;\n\n     (6) Partner with Mission Areas, agencies, and staff offices to ensure the effective and\n         efficient use of cloud services;\n\n     (7) Maintain oversight and report to the CIO on the program compliance status of\n         USDA in commercial cloud deployments;\n\n     (8) Authorize and maintain for use enterprise FedRAMP commercial CSP ATOs;\n\n     (9) Direct the Security Governance Division to maintain USDA cybersecurity\n         assessment and management activities as necessary, ensuring the inheritance of\n         security controls from enterprise FedRAMP commercial CSP ATOs; and\n\n     (10) Engage in continuous monitoring of enterprise FedRAMP commercial CSPs as\n          prescribed by FedRAMP.\n\nd.   The DISC Enterprise Architect will:\n\n\n\n\n                                            7\n\f     (1) Be responsible for the design and architecture of USDA’s cloud program services\n         and infrastructure;\n\n     (2) Ensure that cloud services align with the requirements of the USDA Information\n         Technology Strategic Plan 2022-2026;\n\n     (3) Ensure that cloud services comply with USDA’s enterprise architecture\n         requirements;\n\n     (4) Select CSPs;\n\n     (5) Facilitate collaboration through USDA’s Cloud Working Group between the Cloud\n         Broker, Cloud Carrier, and System Owners; and\n\n     (6) Ensure that cloud services are integrated with USDA’s existing infrastructure.\n\ne.   The Director of DISC’s Enterprise Network Division will:\n\n     (1) Serve as Cloud Carrier, per NIST SP 500-291, Version 2, Section 4.6: Cloud\n         Carrier;\n\n     (2) Design, develop, and implement networking architectures that provide CSPs with\n         the necessary connectivity, availability, bandwidth, and latency to deliver cloud\n         services to Mission Areas, agencies, and staff offices;\n\n     (3) Require CSPs to meet the requirements of Trusted Internet Connection (TIC) 3,\n         consistent with DHS guidance and Zero Trust Architecture;\n\n     (4) Manage all domain name systems (DNS) as required by DR 3300-025, Secure\n         Domain Name System, and any domain name system security extensions\n         (DNSSEC) for the CSPs as part of the USDA enterprise network.\n\nf.   The Chief Information Security Officer (CISO) and CPOC’s ACIO will:\n\n     (1) Review policy waiver requests and provide recommendations to the CIO;\n\n     (2) Advise the CIO about cybersecurity strategies and methodologies for securing\n         USDA commercial cloud services;\n\n     (3) Maintain oversight and report to the CIO on the cybersecurity compliance status of\n         USDA in commercial cloud deployments; and\n\n     (4) Lead the USDA cybersecurity risk management program and serve as a deciding\n         official for enterprise wide, cybersecurity risk-based decisions per Risk Based\n         Decision (RBD) Standard Operating Procedure (SOP) RBD-SOP-3540-003B,\n\n\n\n                                            8\n\f         Revision 1.6, USDA Standard Operating Procedures on Risk-Based Decision\n         Management.\n\ng.   The Branch Chief of CPOC’s Risk Management Branch will:\n\n     (1) Determine whether CSP offerings have an acceptable risk level under the Impact-\n         Level Prioritization web page of USDA’s Risk Management Framework 2.0\n         website;\n\n     (2) Approve plans of action and milestones (POA&M) for the CSP offerings\n         determined not to have an acceptable risk level under USDA’s Impact-Level\n         Prioritization web page;\n\n     (3) Ensure that Departmental CSPs complete security monitoring, security auditing,\n         and remediation of security concerns in accordance with Federal and Departmental\n         guidelines;\n\n     (4) Ensure continuous monitoring, continuous security operations, and disaster\n         recovery of USDA IT systems and networks, where possible; and\n\n     (5) Monitor policy compliance and policy exception waivers and report cloud policy\n         deviations to the CIO within 10 business days of discovery for resolution.\n\nh.   The Chief Privacy Officer will ensure that cloud service offerings comply with Federal\n     and Departmental privacy requirements, regulations, and policies, including\n     DR 3445-001, Media Protection.\n\ni.   The ACIO of OCIO’s Information Resource Management Center (IRMC) will:\n\n     (1) Ensure that cloud service investments comply with Departmental enterprise IT\n         governance and CPIC policies, including DR 3130-010, DR 3130-013, and\n         DR 3145-001;\n\n     (2) Ensure that cloud service investments comply with the requirements of acquisition\n         approval requests (AAR), FITARA, OMB’s PortfolioStat (see CIO.gov’s web page\n         6.2 PortfolioStat), and OMB’s TechStat (see CIO.gov’s web page 6.3 TechStat);\n\n     (3) Ensure that cloud service deployments comply with the standards, requirements,\n         regulations, and policies of Federal and Departmental Section 508 and Web Content\n         Accessibility Guidelines (WCAG; see the World Wide Web Consortium [W3C]\n         website WCAG 2 Overview). This must occur per DR 4030-001, Section 508\n         Program;\n\n     (4) Ensure that cloud service deployments comply with Federal and Departmental\n         enterprise architecture regulations, policies, standards, and requirements. USDA\n         requirements include DR 3185-001, Enterprise Architecture; DR 3185-002,\n\n\n                                            9\n\f         Enterprise Architecture IT Asset Definitions; and DR 3185-003, Enterprise\n         Architecture IT Asset Data Element Requirements; and\n\n     (5) Ensure that cloud service deployments comply with Federal and Departmental\n         controlled unclassified information (CUI) regulations, policies, standards, and\n         requirements per DR 3440-003, Controlled Unclassified Information (CUI)\n         Program.\n\nj.   Mission Area Assistant CIOs will:\n\n     (1) Ensure that their Mission Areas, agencies, and staff offices comply with this DR\n         and other applicable Federal and USDA policies, regulations, and guidance\n         regarding cloud computing;\n\n     (2) Ensure that staff working for or on behalf of USDA understand their responsibilities\n         when implementing cloud computing services as the Cloud Consumer, per NIST SP\n         500-291, Version 2, Section 4.2: Cloud Consumer;\n\n     (3) Identify Mission Area, agency, and staff office personnel who are Information\n         Systems Security Managers, and task them with ensuring that CSPs are in full\n         compliance with FISMA; NIST FIPS PUB 199; and NIST SP 800-60, Revision 1,\n         Volume I: Guide for Mapping Types of Information and Information Systems to\n         Security Categories;\n\n     (4) Ensure that actions are taken to secure USDA information and information systems\n         as required under Federal and USDA policies and guidance;\n\n     (5) Ensure that contract language for acquiring services addresses security monitoring,\n         security auditing, and remediation of security concerns in accordance with Federal\n         and USDA regulations and standards;\n\n     (6) Record, track, and resolve all POA&Ms for CSP deployments in the USDA FISMA\n         data management and reporting tool;\n\n     (7) Provide the CIO with a written analysis each fiscal year (FY) on the progress of\n         moving IT systems into compliance with this policy. The analysis will identify,\n         prioritize, and provide rationale for each production environment system as to its\n         viability to move to the cloud within 2 to 5 years or not at all; and\n\n     (8) Authorize and maintain Mission-Area-specific FedRAMP commercial cloud\n         provider ATOs, along with associated security control inheritance.\n\n\n\n\n                                            10\n\fk.   System Owners in the Mission Areas, agencies, and staff offices will:\n\n     (1) Ensure through the Mission Area, Agency, and Staff Office Enterprise Architects\n         that all existing and new cloud systems are registered in the USDA EAVE system;\n\n     (2) Ensure that statements of work, SLAs, and procurement requests for all cloud\n         acquisition contracts include requirements for providing USDA with the proper\n         level of performance and continuous accountability, availability, awareness, policy\n         compliance, confidentiality, and integrity of the IT assets and data hosted on cloud\n         services;\n\n     (3) Ensure adequate budgeting for operating, managing, and securing the cloud services\n         as needed; and\n\n     (4) Document the configuration management and inventory management activities for\n         cloud services.\n\nl.   The Director of OHRM, who serves as the CHCO, will collaborate with the CIO and\n     CFO to periodically update the training and hiring practices to ensure that the IT\n     workforce has the skill sets needed to efficiently use cloud services.\n\nm. The CFO will:\n\n     (1) Annually, provide the Federal CIO with a written list of all cloud services that the\n         Department has determined either cannot meet FedRAMP security authorization\n         requirements or are not required to meet them according to the USDA CISO\n         through the USDA Risk Management Framework. The USDA CIO and CFO must\n         jointly sign this list; and\n\n     (2) Collaborate with the USDA CIO, the Director of OCP, and the CHCO to\n         periodically update the procurement and acquisition practices to ensure that the\n         Department has capital planning and talent acquisition strategies suitable for\n         effective cloud adoption and services.\n\nn.   The Director of OCP will:\n\n     (1) Ensure that all cloud contracts include cloud-appropriate acquisition language and\n         SLAs to comply with Federal and Departmental regulations and policies; and\n\n     (2) Ensure that the General Counsel is engaged, when appropriate, for advice and\n         counsel with respect to the acquisition and offering of cloud services.\n\no.   The Departmental Records Officer, within the Office of the General Counsel, Office of\n     Information Affairs, will ensure that cloud service offerings comply with Federal and\n     Departmental records management, eDiscovery, litigation hold, and National Archives\n\n\n                                            11\n\f       and Records Administration requirements, regulations, and policies. This includes\n       compliance with the following USDA policies:\n\n       (1) DR 3080-001, Records Management;\n\n       (2) DR 3085-001, Vital Records Management Program;\n\n       (3) DR 3090-001, Litigation Retention Policy for Documentary Materials including\n           Electronically Stored Information; and\n\n       (4) DR 3099-001, Records Management Policy for Departing Employees, Contractors,\n           Volunteers and Political Appointees.\n\n  p.   The General Counsel will provide legal services, legal oversight advice, and counsel\n       with respect to the acquisition and offering of cloud services and policy covered in this\n       DR.\n\n  q.   Mission Area, Agency, and Staff Office Enterprise Architects will assist Mission Areas,\n       agencies, and staff offices in registering and reporting all existing and new cloud\n       systems and services to the USDA EAVE."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "60d43db5-be8c-5b09-a550-9ea60f403e2d",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3650-001-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3650-001-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices must conform to this regulation.\n       However, if a specific regulation requirement cannot be met as explicitly stated, Mission\n       Areas, agencies, and staff offices may submit a waiver request. The waiver request must\n       explain the reason for the request, identify compensating controls and actions that meet\n       the intent of the regulation, and identify how the compensating controls and actions\n       provide a similar or greater level of defense or compliance than the regulation\n       requirement. Mission Areas, agencies, and staff offices will address all policy waiver\n       request memoranda to the USDA OCIO DISC ACIO at usda-cloud-policy@usda.gov.\n\n  b.   Policy waiver requests will be reviewed by the DISC ACIO, the CISO, and the CTO.\n       Each may provide recommendations to the USDA CIO for consideration. The CIO will\n       make the final waiver approval decision.\n\n  c.   Waivers granted approval by the USDA CIO must be associated with a NIST control\n       and recorded and tracked as a POA&M item in the USDA FISMA data management and\n       reporting tool. Waivers will expire at the end of the FY or 6 months from the date of\n       approval, whichever is longer. Unless otherwise specified, Mission Areas, agencies, and\n       staff offices must review and renew approved policy waivers every FY.\n\n\n\n\n                                              12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e59a177b-6365-52df-8d91-fbb483b7f813",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3650-001-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3650-001-9-stmt",
+                "name": "statement",
+                "prose": "Direct inquiries about this policy to the USDA OCIO DISC ACIO at usda-cloud-\n  policy@usda.gov.\n\n\n                                        -END-\n\n\n\n\n                                          13\n\f                                  APPENDIX A\n\n                      ACRONYMS AND ABBREVIATIONS\n\n\nAAR           Acquisition Approval Request\nACIO          Associate Chief Information Officer\nATO           Authorization to Operate\nCDM           Continuous Diagnostics and Mitigation\nCFO           Chief Financial Officer\nCHCO          Chief Human Capital Officer\nCIO           Chief Information Officer\nCISA          Cybersecurity and Infrastructure Security Agency\nCISO          Chief Information Security Officer\nCloud Smart   The Federal Cloud Computing Strategy\nCONOPS        Concept of Operations\nCPIC          Capital Planning and Investment Control\nCPOC          Cybersecurity and Privacy Operations Center (OCIO component)\nCSP           Cloud Service Provider\nCSWP          Cybersecurity White Paper\nCTO           Chief Technology Officer\nCUI           Controlled Unclassified Information\nDHS           Department of Homeland Security\nDISC          Digital Infrastructure Services Center (OCIO Component)\nDNS           Domain Name System\nDNSSEC        Domain Name System Security Extension\nDR            Departmental Regulation\nEAVE          Enterprise Architecture Vision Environment\nE.O.          Executive Order\nFedRAMP       Federal Risk and Authorization Management Program\nFIPS PUB      Federal Information Processing Standards Publication\nFISMA         Federal Information Security Modernization Act\nFITARA        Federal Information Technology Acquisition Reform Act\nFY            Fiscal Year\nGSA           General Services Administration\nIP            Internet Protocol\nIRMC          Information Resource Management Center (OCIO component)\nISCM          Information Security Continuous Monitoring\nIT            Information Technology\nNIST          National Institute of Standards and Technology\nOCIO          Office of the Chief Information Officer\nOCP           Office of Contracting and Procurement\nOHRM          Office of Human Resource Management\nOMB           Office of Management and Budget\nPII           Personally Identifiable Information\nP.L.          Public Law\n\n\n\n                                       A-1\n\fPOA&M    Plan of Action and Milestones\nRBD      Risk Based Decision\nSLA      Service Level Agreement\nSOP      Standard Operating Procedure\nSP       Special Publication\nTBM      Technology Business Management\nTIC      Trusted Internet Connection\nTTS      Technology Transformation Service\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\nWCAG     Web Content Accessibility Guidelines\n\n\n\n\n                                   A-2\n\f                                         APPENDIX B\n\n                                        DEFINITIONS\n\n\nCloud Broker. An entity that manages the use, performance, and delivery of cloud services and\nnegotiates relationships between cloud providers and cloud consumers. (Source: NIST SP 500-\n292, NIST Cloud Computing Reference Architecture)\n\nCloud Carrier. An intermediary that provides connectivity and transport of cloud services from\ncloud providers to cloud consumers. (Source: NIST SP 500-292)\n\nCloud Computing. A model for enabling ubiquitous, convenient, on-demand network access to a\nshared pool of configurable computing resources (i.e., networks, servers, storage, applications,\nand services) that can be rapidly provisioned and released with minimal management effort or\nservice provider interaction. (Source: NIST SP 800-145)\n\nCloud Consumer. A person or organization that maintains a business relationship with and uses\nservice from cloud providers. (Source: NIST SP 500-292)\n\nCloud Provider. A person, organization, or entity responsible for making a service available to\ncloud consumers. (Source: NIST SP 500-292)\n\nContinuous Diagnostics and Mitigation (CDM). The Continuous Diagnostics and Mitigation\nProgram is a dynamic approach to fortifying the cybersecurity of government networks and\nsystems. CDM provides Federal Departments and Agencies with capabilities and tools that\nidentify cybersecurity risk on an ongoing basis, prioritize these risks based upon potential\nimpacts, and enable cybersecurity personnel to mitigate the most significant problems first.\n(Source: DHS Continuous Diagnostics and Mitigation (CDM) Program)\n\nContinuous Monitoring. Maintaining ongoing awareness to support organizational risk decisions.\n(Source: NIST SP 800-137, Information Security Continuous Monitoring (ISCM) for Federal\nInformation Systems and Organizations)\n\nContractor Support. Contractor support encompasses on-site or off-site contractor technical or\nother support staff. (Source: M-24-04)\n\nDomain Name System (DNS). DNS is a distributed computing system that enables access to\nInternet resources by user-friendly domain names rather than Internet Protocol (IP) addresses, by\ntranslating domain names to IP addresses and back. (Source: NIST SP 800-81-2, Secure\nDomain Name System (DNS) Deployment Guide)\n\nExecutive Agency. An executive department specified in 5 U.S.C. § 101, Executive\nDepartments; a military department specified in 5 U.S.C. § 102, Military Departments; an\nindependent establishment as defined in 5 U.S.C. § 104(1), Independent Establishment; and a\n\n\n\n\n                                              B-1\n\fwholly owned Government corporation fully subject to the provision of 31 U.S.C. § 91,\nGovernment Corporations.\n\nFederal Information System. An information system used or operated by an executive agency,\nby a contractor of an executive agency, or by another organization on behalf of an executive\nagency. (Source: 40 U.S.C. § 11331, Responsibilities for Federal Information Systems\nStandards)\n\nFederal Information Technology Acquisition Reform Act (FITARA). As of December 2014,\nFITARA is a historic law that represented the first major overhaul of Federal IT in almost 20\nyears. Since FITARA’s enactment, OMB published guidance to Federal agencies to ensure that\nthis law is applied consistently Governmentwide in a way that is both workable and effective.\nThis guidance is now available as OMB M-15-14. FITARA does the following:\n\n   1.   Enhances the authority of the CIO;\n\n   2.   Enhances transparency and risk management in IT investments;\n\n   3.   Requires savings through IT portfolio review;\n\n   4.   Expands training and use of IT cadres;\n\n   5.   Consolidates Federal data centers;\n\n   6.   Maximizes the benefit of the Federal Strategic Sourcing Initiative; and\n\n   7.   Expands Governmentwide software purchasing programs.\n\n(Sources: CIO.gov Federal Information Technology Acquisition Reform Act (FITARA);\nFITARA)\n\nInformation. Information is categorized according to its information type. An information type\nis a specific category of information (e.g., privacy, medical, proprietary, financial, investigative,\ncontractor sensitive, security management) defined by an organization or, in some instances, by a\nspecific law, E.O., directive, policy, or regulation. (Source: NIST FIPS PUB 199)\n\nInformation Resources. Information and related resources, such as personnel, equipment, funds,\nand IT. (Source: Paperwork Reduction Act of 1995, 44 U.S.C. § 3501, et seq., SUBCHAPTER\nI—FEDERAL INFORMATION POLICY)\n\nInformation System Operated by a Contractor on Behalf of an Agency. An information system\noperated by a contractor on behalf of an agency must be treated in the same way as an agency-\noperated information system. The level of effort required for security authorization depends on\nthe impact level of the information contained in the system. The security authorization boundary\nfor these systems must be carefully mapped to ensure that:\n\n\n\n\n                                                B-2\n\f   1.   Federal information is adequately protected;\n\n   2.   Federal information is logically segregated from the contractor, state, or grantee\n        corporate infrastructure; and\n\n   3.   There is an interconnection security agreement in place to address connections from the\n        contractor, state, or grantee system containing the agency information to systems\n        external to the security authorization boundary. (Source: OMB M-12-20)\n\nInformation Systems. A discrete set of information resources organized for the collection,\nprocessing, maintenance, use, sharing, dissemination, or disposition of information. (Source:\nPaperwork Reduction Act)\n\nInformation Technology (IT). Any equipment or interconnected system or subsystem of\nequipment that is used in the automatic acquisition, storage, manipulation, management,\nmovement, control, display, switching, interchange, transmission, or reception of data or\ninformation by the executive agency. For the purposes of the preceding sentence, equipment is\nused by an executive agency if the equipment is used by the executive agency directly or is used\nby a contractor under a contract with the executive agency which:\n\n   1.   Requires the use of such equipment; or\n\n   2.   Requires the use, to a significant extent, of such equipment in the performance of a\n        service or the furnishing of a product.\n\nThe term “information technology” includes computers, ancillary equipment, software,\nfirmware, and similar procedures, services (including support services), and related resources.\n(Source: Clinger-Cohen Act of 1996, 40 U.S.C. § 11101, et seq., Subtitle III—Information\nTechnology Management)\n\nPortfolioStat. A tool that agencies use to assess the current maturity of their IT portfolio\nmanagement process, make decisions on eliminating duplication, augment current CIO-led CPIC\nprocesses, and move to shared solutions to maximize the return on IT investments across the\nportfolio. (Source: CIO.gov 6.2 PortfolioStat)\n\nPrivate Cloud. The cloud infrastructure is provisioned for exclusive use by a single organization\ncomprising multiple cloud consumers (e.g., business units). It may be owned, managed, and\noperated by the organization, a third party, or some combination of them, and it may exist on or\noff premises. (Source: NIST SP 800-145)\n\nService Provider. A service provider encompasses the typical outsourcing of system or network\noperations, telecommunication services, or other managed services (including those provided by\nanother agency or subscribing to software services). (Source: OMB M-12-20)\n\nTechStat. A face-to-face, evidence-based accountability review of an IT investment for Federal\nagencies. (Source: CIO.gov 6.3 TechStat)\n\n\n                                               B-3\n\fZero Trust Architecture. Provides a collection of concepts designed to minimize uncertainty in\nenforcing accurate, least privilege per-request access decisions in information systems and\nservices in the face of a network viewed as contested. (Source: NIST CSWP 20)\n\n\n\n\n                                              B-4\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n5 U.S.C. § 101, Executive Departments\n\n5 U.S.C. § 102, Military Departments\n\n5 U.S.C. § 104, Independent Establishment\n\n31 U.S.C. § 91, Government Corporations\n\n40 U.S.C. § 11331, Responsibilities for Federal Information Systems Standards\n\nCIO.gov, 6.2 PortfolioStat web page\n\nCIO.gov, 6.3 TechStat web page\n\nCIO.gov Federal Information Technology Acquisition Reform Act (FITARA) web page\n\nClinger-Cohen Act of 1996, 40 U.S.C. § 11101, et seq., Subtitle III—Information Technology\nManagement\n\nDHS, Continuous Diagnostics and Mitigation (CDM) Program website\n\nDHS, Continuous Diagnostics and Mitigation Program document\n\nE.O. 14028, Improving the Nation’s Cybersecurity, May 12, 2021\n\nFISMA, 44 U.S.C. § 3551, et seq., Subchapter II—Information Security\n\nFITARA, P.L. 113-291, Title VIII, Subtitle D, Sections 831-837, December 19, 2014\n\nGSA, FedRAMP, Program Basics web page\n\nGSA, TTS Handbook, Federal Information Technology Acquisition Reform Act (FITARA) web\npage\n\nNIST, CSWP 20, Planning for a Zero Trust Architecture: A Planning Guide for Federal\nAdministrators, May 6, 2022\n\nNIST, FIPS PUB 199, Standards for Security Categorization of Federal Information and\nInformation Systems, February 2004\n\nNIST, Glossary website\n\n\n\n                                             C-1\n\fNIST, SP 500-291, Version 2, NIST Cloud Computing Standards Roadmap, July 2013\n\nNIST, SP 500-292, NIST Cloud Computing Reference Architecture, September 2011\n\nNIST, SP 800-37, Revision 2, Risk Management Framework for Information Systems and\nOrganizations: A System Life Cycle Approach for Security and Privacy, December 2018\n\nNIST, SP-800-53, Revision 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020, includes updates as of December 10, 2020\n\nNIST, SP 800-60, Revision 1, Volume I: Guide for Mapping Types of Information and\nInformation Systems to Security Categories, August 2008\n\nNIST, SP 800-81-2, Secure Domain Name System (DNS) Deployment Guide, September 2013\n\nNIST, SP 800-137, Information Security Continuous Monitoring (ISCM) for Federal Information\nSystems and Organizations, September 2011\n\nNIST, SP 800-145, The NIST Definition of Cloud Computing, September 2011 (errata as of April\n27, 2012)\n\nOMB, CIO Council, The Application Rationalization Playbook, June 2019\n\nOMB, Cloud Smart web site\n\nOMB, FY 2021 IT Budget - Capital Planning Guidance, June 27, 2019\n\nOMB, M-12-20, FY 2012 Reporting Instructions for the Federal Information Security\nManagement Act and Agency Privacy Management, September 27, 2012\n\nOMB, M-15-14, Management and Oversight of Federal Information Technology, June 10, 2015\n\nOMB, M-19-02, Fiscal Year 2018-2019 Guidance on Federal Information Security and Privacy\nManagement Requirements, October 25, 2018\n\nOMB, M-19-13, Category Management: Making Smarter Use of Common Contract Solutions\nand Practices, March 20, 2019\n\nOMB, M-19-17, Enabling Mission Delivery through Improved Identity, Credential, and Access\nManagement, May 21, 2019\n\nOMB, M-24-04, Fiscal Year 2024 Guidance on Federal Information Security and Privacy\nManagement Requirements, December 4, 2023\n\n\n\n\n                                            C-2\n\fPaperwork Reduction Act of 1995, 44 U.S.C. § 3501, et seq., Subchapter I—Federal Information\nPolicy\n\nUSDA, DR 3080-001, Records Management, August 16, 2016\n\nUSDA, DR 3085-001, Vital Records Management Program, August 19, 2011\n\nUSDA, DR 3090-001, Litigation Retention Policy for Documentary Materials including\nElectronically Stored Information, May 28, 2008\n\nUSDA, DR 3099-001, Records Management Policy for Departing Employees, Contractors,\nVolunteers and Political Appointees, July 2, 2012\n\nUSDA, DR 3107-001, Management of USDA IT Enterprise Initiatives, May 12, 2016\n\nUSDA, DR 3130-009, Non-Major Information Technology (IT) Investments, September 28, 2020\n\nUSDA, DR 3130-010, United States Department of Agriculture Enterprise Information\nTechnology Governance, April 20, 2021\n\nUSDA, DR 3130-012, Information Technology Cost Estimating, March 4, 2016\n\nUSDA, DR 3130-013, Information Technology Capital Planning and Investment Control, May\n24, 2021\n\nUSDA, DR 3145-001, Oversight and Management of the Federal Information Technology\nAcquisition Reform Act (FITARA), May 7, 2021\n\nUSDA, DR 3160-001, Licensed Information Technology (IT) Software, May 16, 2019\n\nUSDA, DR 3180-001, Information Technology Standards, January 5, 2021\n\nUSDA, DR 3185-001, Enterprise Architecture, April 19, 2022\n\nUSDA, DR 3185-002, Enterprise Architecture IT Asset Definitions, September 22, 2020\n\nUSDA, DR 3185-003, Enterprise Architecture IT Asset Data Element Requirements, February\n23, 2021\n\nUSDA, DR 3300-025, Secure Domain Name System, March 18, 2016\n\nUSDA, DR 3440-003, Controlled Unclassified Information (CUI) Program, September 13, 2021\n\nUSDA, DR 3445-001, Media Protection, October 30, 2019\n\n\n\n\n                                            C-3\n\fUSDA, DR 3515-002 Privacy Policy and Compliance for Personally Identifiable Information\n(PII), October 30, 2020\n\nUSDA, DR 3520-002, Configuration Management, July 17, 2019\n\nUSDA, DR 3540-003, Security Assessment and Authorization, August 12, 2014\n\nUSDA, DR 3640-001, Identity, Credential, and Access Management, June 8, 2021\n\nUSDA, DR 4030-001, Section 508 Program, September 8, 2014\n\nUSDA, EAVE website\n\nUSDA, Information Technology Strategic Plan 2022-2026, June 2022\n\nUSDA, RBD-SOP-3540-003B, Revision 1.6, USDA Standard Operating Procedures on Risk-\nBased Decision Management, September 2021\n\nUSDA, Risk Management Framework 2.0, Impact-Level Prioritization web page\n\nUSDA, Risk Management Framework 2.0 website\n\nW3C, Web Accessibility Initiative (WAI), WCAG 2 Overview website, March 7, 2024\n\n\n\n\n                                           C-4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "03667a0f-a347-5623-af00-3662f27adf52",
+          "title": "USDA Directives — DR3650-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3650-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

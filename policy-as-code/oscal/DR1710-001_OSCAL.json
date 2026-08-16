@@ -1,0 +1,154 @@
+{
+  "catalog": {
+    "uuid": "98827b00-78e6-5b88-8708-2c919fc04a29",
+    "metadata": {
+      "title": "USDA DR1710-001: Interception and Monitoring of Conversations",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2084-02-06",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1710-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2084-02-06"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1710-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Inspector General",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1710-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Inspector General"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "0bee09c5-c97b-52a9-aafa-a4927e272867",
+        "class": "section",
+        "title": "Special Instructions/Rescissions",
+        "controls": [
+          {
+            "id": "dr1710-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Rescissions",
+            "parts": [
+              {
+                "id": "dr1710-001-2-stmt",
+                "name": "statement",
+                "prose": "a.      Agency and staff heads are responsible for informing their employees of the\n                  provisions of this regulation.\n\n                  b.      Directive Rescinded. Chapter 16, Section lO, Title l, Administrative\n                  Regulations, dated October 26, 1978 is superseded by this regulation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e0ca95ac-b079-5981-a893-e6d58508ce1e",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1710-001-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1710-001-3-stmt",
+                "name": "statement",
+                "prose": "a.        General. No officer or employee of the Department shall intercept (secretly\n                  listen to) telephone or non-telephone conversations by mechanical, electronic or other\n                  device or means.\n\n                  b. Exception - Consensual Monitoring.\n\n                                     (l)      Telephone Conversations. The Inspector General, or designee,\n                                    may authorize monitoring of telephone conversations with the consent\n                                    of a party to the conversation, when necessary in criminal\n                                    investigations. The Inspector General is responsible for the control of\n                                    such consensual monitoring by agents of the Department of\n                                    Agriculture. Advance written or oral (when necessitated by exigent\n                                    circumstances) authorization from the Inspector General is required\n                                    before such monitoring is conducted.\n\n                                    (2)     Non-telephone Conversations. The Inspector General, or\n                                    designee may authorize consensual monitoring of non-telephone\n                                    conversations when necessary in criminal investigations. The Inspector\n\fDR 1710-001                                                                                    February 6, 1984\n\n\n                                    General shall comply with Attorney General (Department of Justice)\n                                    guidelines and amendments thereto with respect to the authorizations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3a57145a-9287-5101-8054-e97e8ef5ff1e",
+        "class": "section",
+        "title": "Monitoring Telephone Calls",
+        "controls": [
+          {
+            "id": "dr1710-001-4",
+            "class": "policy-requirement",
+            "title": "Monitoring Telephone Calls",
+            "parts": [
+              {
+                "id": "dr1710-001-4-stmt",
+                "name": "statement",
+                "prose": "Except as provided in section 3 above, no officer or employee shall authorize, permit, or participate in the\nmonitoring of telephone conversations from, to, or within the Department, or with respect to official\nbusiness of the Department, for any purpose unless prior and adequate notice is given to, and agreement\nreceived from, all participants to the conversation. This prohibits listening in for any reason without the\nprior approval of all parties to the conversation.\n\n                  a.       Identification\n\n                                     (l)       Conference Call. If the telephone call is to be a conference\n                                    call, all participants in the conference will be fully identified prior to\n                                    the subject matter of the call being introduced.\n\n                                    (2)       Monitored Call. If the call is monitored by a secretary or any\n                                    other person for the purpose of taking either notes or a verbatim\n                                    transcript of the conversation, the secretary or other person will be\n                                    identified and the assent of all other parties to the conversation will be\n                                    obtained prior to the subject matter being discussed. The monitoring\n                                    shall be terminated as soon as the portion of the telephone conversation\n                                    agreed upon for monitoring is terminated.\n\n                  b.      Monitoring Device. If any electronic or mechanical device is used to monitor a\n                  telephone conversation, the conditions as outlined above will be adhered to.\n\n\n\n\n                                                      2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "a8c3cf43-ccf4-5642-a93c-cee5ebe41a71",
+          "title": "USDA Directives — DR1710-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1710-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

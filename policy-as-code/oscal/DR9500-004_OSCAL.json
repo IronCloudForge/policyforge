@@ -1,0 +1,192 @@
+{
+  "catalog": {
+    "uuid": "fb0af61a-ca90-54fb-b4d4-0f5f1d820e52",
+    "metadata": {
+      "title": "USDA DR9500-004: Fish and Wildlife Policy",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2008-04-28",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR9500-004"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2008-04-28"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-9500-004",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Wildlife and Fisheries Staff, Forest Service",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-9500-004",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Wildlife and Fisheries Staff, Forest Service"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "76355b09-0e25-5a5b-b8cc-1ae5d3a92ebb",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr9500-004-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr9500-004-1-stmt",
+                "name": "statement",
+                "prose": "The purpose of this regulation is to state the policies of the U.S. Department of\n     Agriculture with respect to management of fish and wildlife and their habitats and to\n     prescribe specific actions to implement the policies.\n\n     The Department's prime responsibility is to help maintain sufficient and efficient\n     production capability of farm, forest, water, and rangeland resources for the public\n     benefit, now and in the future, and to encourage and support proper use, management,\n     and conservation of those natural resources. Programs to meet this mission are carried\n     out through research, education, technical and financial assistance to landowners,\n     managers, producers, and consumers, and through management of public land for\n     which the Department is responsible, in cooperation with State and local agencies.\n\n     These programs affect habitats and populations of fish and wildlife. Balancing the\n     competing uses for habitats supporting fish and wildlife requires strong, clear policies,\n     relevant programs, and effective actions to sustain and enhance fish and wildlife in\n     desired locations and numbers. More than 2 billion acres of farm, forest, and rangelands\n     in the United States, plus associated water and wetlands provide habitats for over 3,000\n     species of birds, mammals, fishes, reptiles, and amphibians. Fish and wildlife are\n     important economic, aesthetic, ecological, educational, recreational, and scientific\n     resources. They provide opportunity for hunting, commercial and sport fishing,\n     trapping, and the countless aesthetic rewards of outdoor experiences. Collectively these\n     pursuits have created significant employment opportunity and have generated an\n     important outdoor recreation industry. Fish and wildlife have inherent values as\n     components and indicators of healthy ecosystems. They often demonstrate how altered\n     environments may effect changes in quality of life for humans. The U.S. Department of\n     Agriculture recognizes an important role in the stewardship of the Nation's heritage of\n     fish and wildlife for present and future generations.\n\fDR 9500-004                                                                     April 28, 2008"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "093a1f70-36b8-5490-8ff6-b7c0289403a8",
+        "class": "section",
+        "title": "Cancellation",
+        "controls": [
+          {
+            "id": "dr9500-004-2",
+            "class": "policy-requirement",
+            "title": "Cancellation",
+            "parts": [
+              {
+                "id": "dr9500-004-2-stmt",
+                "name": "statement",
+                "prose": "This regulation supersedes Secretary's Memorandum No. 9500-4 dated August 22,\n      1983."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "15c42b95-c118-5a8a-8221-1d300d373fc2",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr9500-004-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr9500-004-3-stmt",
+                "name": "statement",
+                "prose": "It is the policy of the Department to assure that the values of fish and wildlife are\n      recognized, and that their habitats, both terrestrial and aquatic, including wetlands,\n      are recognized, and enhanced, where possible, as the Department carries out its\n      overall missions.\n\n      The Department will support research and management programs that respond to\n      the economic, ecological, educational, recreational, scientific and aesthetic values\n      of fish and wildlife. A goal of the Department is to improve, where needed, fish and\n      wildlife habitats, and to ensure the presence of diverse, native and desired nonnative\n      populations of wildlife, fish, and plant species, while fully considering other\n      Department missions, resources, and services.\n\n      a.      Lands Administered by the Department\n\n              Lands administered by the Department include the National Forest System,\n              managed by the Forest Service (FS), and relatively small experimental or\n              research areas administered by FS, Agricultural Research Service (ARS), and\n              Natural Resource Conservation Service (NRCS).\n\n              Consideration will be given to fish and wildlife and their habitats in\n              developing programs for these lands. Alternatives that maintain or enhance\n              fish and wildlife habitat should be promoted. When compatible with use\n              objectives for the area, management alternatives which improve habitat will\n              be selected.\n\n      b.      Private and Other Non-Federal Lands\n\n              Departmental agencies will provide research, educational, technical, and\n              financial assistance to inform, encourage and assist landowners to understand,\n              apply, and improve management practices for fish and wildlife habitats on\n              private and other non-Federal forest, range, and agricultural lands. Fish and\n              wildlife are valuable products of agricultural, forestry, and range management\n              activities on private lands. The Department will work to achieve such\n              recognition by private landowners and users.\n\n\n\n\n                                                 2\n\fApril 28, 2008                                                                        DR 9500-004\n\n\n\n\n                 Within its authorities, the Department will assist with the improvement of\n                 opportunities for recreational uses of fish and wildlife such as hunting, fishing,\n                 trapping, and viewing and will seek to protect or enhance the economic,\n                 ecological, educational, aesthetic, and scientific values of wildlife and fish on\n                 private lands when compatible with the landowners' objectives and in\n                 accordance with Federal, State, and local laws and ordinances.\n\n       c.        Wildlife Jurisdiction and State Cooperation\n\n                 The U.S. Department of Agriculture recognizes the rights of the individual\n                 States to manage fish and wildlife populations under their jurisdictions.\n                 Departmental agencies will utilize their respective authorities to manage\n                 habitat on public lands, to assist landowners in managing habitat on private\n                 lands, and to encourage and assist the States, territories, and other Federal\n                 agencies in conducting resource inventories and evaluating the status and\n                 potential of fish and wildlife habitat.\n\n       d.        Threatened or Endangered Species\n\n                 The Department will conduct its activities and programs to assist in the\n                 identification and recovery of threatened and endangered plant and animal\n                 species and to avoid actions which may cause a species to become threatened\n                 or endangered. In cooperation with the States, critical habitat and other\n                 habitats necessary for the conservation of threatened and endangered species\n                 on lands administered by the Department will be evaluated and measures\n                 prescribed to prevent its destruction or adverse modification. The Department\n                 will consult as necessary with the Departments of the Interior and/or\n                 Commerce on activities that may effect threatened and endangered species.\n\n                 Agencies of the Department will not approve, fund or take any action that is\n                 likely to jeopardize the continued existence of threatened and endangered\n                 species or destroy any habitat necessary for their conservation unless\n                 exemption is granted pursuant to subsection 7(h) of the Endangered Species\n                 Act of 1973, as amended. The Department will cooperate with other Federal\n                 and State agencies in carrying out this regulation and will coordinate with the\n                 Secretaries of the Interior and Commerce in the administration of the\n                 Endangered Species Act and the animal and plant quarantine laws. However,\n                 nothing in this regulation shall be construed as superseding or limiting in any\n                 manner the functions of the Department under the plant and animal quarantine\n                 laws.\n\n\n\n\n                                                      3\n\fDR 9500-004                                                                      April 28, 2008\n\n\n\n\n              The Department will enforce, to the fullest extent possible, the regulations,\n              provisions, goals, and objectives of the Convention on International Trade in\n              Endangered Species of Wild Fauna and Flora (CITES), the Convention on\n              Nature Protection and Wildlife Preservation in the Western Hemisphere, and\n              the Lacey Act, as amended, involving the importation and exportation of\n              terrestrial plants.\n\n      e.      Economic Losses From Plant and Animal Pests\n\n              Programs of the Department will seek to alleviate damage by plant and animal\n              pests to farm crops, livestock, poultry, forage, forest and urban trees, wildlife\n              and their habitats. Departmental agencies, through management and research\n              programs, will develop or assist in developing new techniques and\n              methodologies for the prevention of damage to agricultural or forestry\n              production. They also will strive to reduce potential depredation through\n              improved management of USDA programs. Such techniques and\n              considerations will be incorporated into appropriate management and\n              education programs.\n\n              One goal is to minimize actual or potential conflicts between predators and\n              livestock. Another goal is to reduce depredation on crops, poultry, livestock,\n              forests, wildlife, other resources, and threats to human health, under registered\n              control methods. When control is necessary, the offending animals will be\n              removed as humanely and efficiently as possible, provided such action does\n              not threaten the continued existence of any species.\n\n              On land administered by the Department, direct predator and rodent damage\n              control programs will be coordinated with other Federal and State agencies.\n              The Department will coordinate with appropriate agencies of the Department\n              of the Interior and with the State agencies on predator-livestock research,\n              extension-education programs, and on damage control activities. In\n              accordance with Executive Order 112987 (Introduction of Exotic Species), the\n              Animal and Plant Health Inspection Service of the Department will cooperate\n              with the Department of the Interior in development and implementation of\n              appropriate procedures to restrict the introduction of undesirable exotic\n              species into natural ecosystems.\n\n              The Department will promote the concept and use of integrated pest\n              management practices in carrying out its responsibilities for pest control.\n\n\n\n\n                                                  4\n\fApril 28, 2008                                                                       DR 9500-004"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f9dea937-70da-58af-bb2a-fdb8c4fda8e5",
+        "class": "section",
+        "title": "Authorities",
+        "controls": [
+          {
+            "id": "dr9500-004-4",
+            "class": "policy-requirement",
+            "title": "Authorities",
+            "parts": [
+              {
+                "id": "dr9500-004-4-stmt",
+                "name": "statement",
+                "prose": "Implementation of this regulation will be developed in accordance with the\n       processes established by the Farmland Protection Policy Act (7 U.S.C. 4201-\n       4209), as added by the Agriculture and Food Act of 1981; the Forest and\n       Rangeland Renewable Resources Planning Act of 1974 (RPA), as amended (16\n       U.S.C. 1600-1614); the National Forest Management Act of 1976 (16 U.S.C.\n       1600 et. seq.); the Soil and Water Resources Conservation Act of 1977 (RCA),\n       as amended (16 U.S.C. 2001-2009); the Renewable Resources Extension Act of\n       1978 (RREA) (16 U.S.C. 1671-1676); the Federal Land Policy and Management\n       Act of 1976 (FLPMA) (43 U.S.C. 1701 et. seq.); the Multiple Use and Sustained\n       Yield Act of 1960 (16 U.S.C. 528 et. seq.); National Environmental Policy Act\n       of 1969 (42 U.S.C. 4321 et. seq.); the Endangered Species Act of 1973, as\n       amended, (16 U.S.C. 1531-1542); and other appropriate authorities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cb6e849b-56a4-5baa-89af-846dce0a947f",
+        "class": "section",
+        "title": "Responsibilities - Implementation And Coordination",
+        "controls": [
+          {
+            "id": "dr9500-004-5",
+            "class": "policy-requirement",
+            "title": "Responsibilities - Implementation And Coordination",
+            "parts": [
+              {
+                "id": "dr9500-004-5-stmt",
+                "name": "statement",
+                "prose": "a.        The Secretary of Agriculture is responsible for:\n\n                 (1)   Resolving issues and acting on recommendations raised to the\n                       Secretary's Policy and Coordination Council by the Department\n                       committees.\n\n                 (2)   Raising unresolved issues and recommending actions to the\n                       appropriate Cabinet Council.\n\n       b.        The Natural Resources and Environment Committee (NRE) will:\n\n                 (1)   Coordinate efforts supportive of the objectives of this regulation.\n\n                 (2)   Utilize the USDA Food and Agriculture Councils in each State to\n                       ensure participation of State fish and wildlife agencies and other\n                       local interests.\n\n                 (3)   Schedule reviews of each agency's procedure for implementation of\n                       the policies.\n\n                 (4)   Establish a USDA Fisheries and Wildlife Issues Working Group to\n                       provide multi-agency coordination and assist the Committee, as\n                       directed, in carrying out this regulation. The working group will\n                       include representatives from each of the following agencies: Animal\n                       and Plant Health Inspection Service, Agricultural Stabilization and\n                       Conservation Service, Agricultural Research Service, Cooperative\n                       State Research Service, Economic Research Service, Extension\n\n\n                                                      5\n\fDR 9500-004                                                                     April 28, 2008\n\n\n                    Service, Farmers Home Administration, Forest Service, Rural\n                    Electrification Administration, Natural Resource Conservation\n                    Service, Office of the General Counsel, and Office of Budget,\n                    Planning and Analysis. The working group will be cochaired by the\n                    representatives of the Forest Service and the Extension Service. The\n                    Forest Service will provide core staff support for the work group.\n\n      c.      The Fisheries and Wildlife Issues Working Group will:\n\n              (1)   Monitor implementation of this regulation, report inconsistencies and\n                    make recommendations to the NRE Committee on how to more\n                    efficiently carry out policy and improve agency coordination.\n\n              (2)   Coordinate with other Federal and State agencies in carrying out\n                    direction of the NRE Committee on issues addressed and maintain\n                    liaison with interest groups.\n\n      d.      Each USDA agency will review programs that will be affected by this\n              regulation annually, and make the necessary administrative changes to\n              bring agency programs into compliance with its provisions.\n\n      e.      Each USDA agency having programs that will be affected by this\n              regulation shall develop implementing procedures, consistent with any\n              guidelines provided by the NRE Committee, and shall provide, to all\n              offices of the agency, copies of this regulation, Departmental guidelines,\n              and agency procedures to implement the regulation.\n\n\n\n\n                                                  6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "8b85c41a-9c3d-5722-8783-2f7cea983420",
+          "title": "USDA Directives — DR9500-004",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-9500-004",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

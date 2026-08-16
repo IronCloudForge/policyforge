@@ -1,0 +1,221 @@
+{
+  "catalog": {
+    "uuid": "ed807fed-b8cb-559f-9bcf-049d34097298",
+    "metadata": {
+      "title": "USDA DR3130-010: United States Department of Agriculture Enterprise Information Technology Governance",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-04-20",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3130-010"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-04-20"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3130-010",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer – Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3130-010",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer – Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "4e9c2a0d-32d1-500f-bc8d-35bb99a363c3",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3130-010-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3130-010-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) serves as the policy for establishing and managing\n          the United States Department of Agriculture’s (USDA’s) Enterprise Information\n          Technology Governance (EITG) requirements, objectives, authorities, and roles and\n          responsibilities, for major information technology (IT) investments, as defined in DR\n          3130-008, Definition of Major Information Technology (IT) Investments. Specifically,\n          this DR establishes a policy that incorporates those management oversight controls and\n          processes that are consistent with The Clinger-Cohen Act of 1996 (CCA), 40 United\n          States Code (U.S.C.) § 11101 et seq.. This DR also incorporates the language and\n          provisions outlined in the USDA appropriations bill, Agriculture, Rural Development,\n          Food and Drug Administration, and Related Agencies Appropriations Act, 2015, Public\n          Law (P.L.) 113-235, Division A, and the Federal Information Technology Acquisition\n          Reform Act (FITARA), P.L. 113-291, Title VIII, Subtitle D, §§ 831-837.\n\n     b.   A key aspect of successful IT investment portfolio management and governance is\n          leveraging solid project management principles that incorporate the best government and\n          industry practices. This allows for a consistent and repeatable framework and\n\f       implemented policy for planning, managing, governing, and overseeing all major IT\n       investments over their entire life cycle.\n\n  c.   This policy provides for a Departmentwide governance and integrated IT investment and\n       project management framework that ensures all USDA major IT investments can\n       achieve consistently successful outcomes that better align with business needs and the\n       ability to meet approved cost, schedule, and performance goals and milestones.\n\n  d.   This policy establishes project management and accountability environment where\n       USDA major IT investments can achieve consistently successful outcomes. This\n       requires the utilization of automated workflows and repeatable processes that are in\n       alignment with Departmentwide, Mission Area, agency, and staff office specific\n       business goals and objectives. Implementation of this policy allows the USDA to\n       improve the quality of IT project planning and execution while reducing overall\n       investment risk. This Departmentwide approach to IT governance, coupled with project\n       management principles and best practices, places an emphasis on demonstrating\n       measurable results for each of its major IT investments. This will better justify\n       management and technical actions taken as major IT investments are developed and\n       maintained.\n\n  e.   This regulation prescribes the policies, responsibilities, and procedures for Mission\n       Areas, agencies, and staff offices to establish Investment Review Boards (IRB)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "235bbde3-b089-5e03-85de-3930ef05be87",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3130-010-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3130-010-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all USDA Mission Areas, agencies, staff offices, employees, and\n       contractors that manage and support USDA major IT investments.\n\n  b.   This DR applies to all USDA IT investments, throughout their lifecycle, regardless of\n       funding source, whether owned and operated by USDA or operated on behalf of USDA.\n\n  c.   This governance approach integrates and supports the following established USDA\n       business processes to ensure a comprehensive IT investment portfolio management\n       approach:\n\n       (1) Capital Planning and Investment Control (CPIC);\n\n       (2) Earned Value Management (EVM);\n\n       (3) Enterprise Architecture (EA);\n\n       (4) Project and Portfolio Management (PPM);\n\n       (5) Cybersecurity and privacy;\n\n\n\n\n                                               2\n\f       (6) Acquisition Approval Request (AAR);\n\n       (7) Risk Management Framework (RMF); and\n\n       (8) IT budget formulation and execution management."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aaababfb-0365-5f8c-862f-78f803605a71",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3130-010-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3130-010-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 3130-010, United States Department of Agriculture\n       Enterprise Information Technology Governance, dated December 3, 2015.\n\n  b.   This DR supersedes DR3100-002, Agency IRM Review Board, dated December 13,\n       1983.\n\n  c.   This DR supersedes DR3600-000, USDA Information and Technology Transformation,\n       dated November 02, 2004.\n\n  d.   All USDA major IT investments are governed by both the Mission Area, agency, or staff\n       office level and the Department’s Enterprise-level IRBs.\n\n  e.   All USDA non-major IT investments are governed at the Mission Area, agency, or staff\n       office level and utilizing IRBs that are in alignment with this Enterprise IT Governance\n       policy and the procedures Integrated Information Technology Governance Framework\n       (IITGF).\n\n  f.   All USDA non-major IT investments are further governed by DR 3130-009, Non-Major\n       Information Technology (IT) Investments.\n\n  g.   All Mission Areas, agencies, and staff offices will align their policies and procedures to\n       comply with this DR within 6 months of publication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "082aa365-c883-548c-bb13-7f3bcdc28367",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3130-010-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3130-010-4-stmt",
+                "name": "statement",
+                "prose": "a.   This USDA EITG policy provides direction enforcing the Mission Areas, agencies, and\n       staff offices’ responsibility for managing all of their IT resources to improve the\n       delivery of services to the public, to assist program management at both Departmental\n       and Mission Area, agency, and staff office levels, to provide cost-effective technical\n       solutions to satisfy program requirements, and to promote sharing of these resources to\n       the greatest extent possible.\n\n  b.   To ensure information management activities reflect the goals and priorities of Mission\n       Area, agency, and staff office programs, each Mission Area, agency, and staff office will\n       establish an IRB. These Boards will provide policy direction for IT investment activities\n       as well as review and approval of specific IT investment actions.\n\n\n\n                                               3\n\fc.   These requirements of this DR are implemented through the Integrated IT Governance\n     Framework (IITGF) Guidebook, which provides a consistent set of guidelines and best\n     practices for managing all USDA major IT investments that encompass the following:\n\n     (1) An approach for planning, managing, and governing each major IT investment over\n         its entire life cycle;\n\n     (2) Commitment to adhering to the investment life cycle phases as presented in the\n         USDA IITGF with associated EITG deliverables and prescribed investment life\n         cycle phase exit criteria; and\n\n     (3) IITGF decision gate reviews that assess the major IT investment progress against\n         established investment life cycle exit criteria, cost, schedule, and performance\n         milestones, before advancing to the next life cycle phase.\n\nd.   The Executive Information Technology Investment Review Board ((EITIRB), also\n     referred to as the “E-Board”) and the Integrated Advisory Board (IAB) serve as\n     executive-level governance bodies within the USDA that provide strategic and executive\n     leadership, and technical subject matter expertise, respectively, for governance reviews\n     and subsequent recommendations concerning major IT investments. The E-Board\n     membership consists of:\n\n     (1) The Deputy Secretary, serving as the E-Board Chair;\n\n     (2) Mission Area Under Secretaries;\n\n     (3) The Assistant Secretary for Administration, serving as the USDA Chief Acquisition\n         Officer (CAO);\n\n     (4) The Assistant Secretary for Civil Rights;\n\n     (5) The USDA Chief Information Officer (CIO);\n\n     (6) The USDA Chief Financial Officer;\n\n     (7) The Director, Office of Budget, and Program Analysis; and\n\n     (8) The Director, Office of Communications.\n\ne.   The Office of the Chief Information Officer (OCIO) will provide guidance and support\n     to Mission Areas, agencies, and staff offices to ensure that their IT Governance\n     processes align with Departmental requirements.\n\n\n\n\n                                            4\n\f  f.   To ensure that USDA operates the most efficient and effective EITG process, the\n       Department will periodically review and revise this policy and related guidance to\n       ensure that it reflects best practices across Federal agencies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "db1c0569-9e90-5f36-b8a4-eecd7f4af991",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3130-010-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3130-010-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary will:\n\n       (1) Support the establishment, operation, and management of this policy; and\n\n       (2) Serve as the final decision authority for recommendations from the E-Board\n           concerning major IT investments proceeding through the IITGF.\n\n  b.   b. The Deputy Secretary will:\n\n       (1) Serve as the Chair of the E-Board and make final recommendations to the Secretary\n           concerning major IT investments proceeding through the IITGF; and\n\n       (2) Consult with Mission Area Under Secretaries and the CIO as necessary to review\n           and prioritize the USDA major IT investment portfolio.\n\n  c.   Mission Area Under Secretaries will:\n\n       (1) Advise, assist, and provide recommendations to the Secretary, Deputy Secretary,\n           and the CIO regarding IT investment priorities;\n\n       (2) Serve as voting members of the E-Board;\n\n       (3) Support Mission Area personnel in the implementation of this policy and the IITGF\n           process;\n\n       (4) Support the governance of USDA major IT investments under their Mission Area\n           based on quantitative and qualitative assessment criteria; and\n\n       (5) Support goals for improving the effectiveness and efficiency of IT investments and\n           the EITG.\n\n  d.   The E-Board Chair will:\n\n       (1) Convene and preside at E-Board meetings and approve the agenda;\n\n       (2) Revise, by a majority vote of the E-Board members, the E-Board Charter;\n\n       (3) Ensure E-Board members receive and review IAB summary recommendations for\n           major IT investments proceeding through the IITGF;\n\n\n\n                                              5\n\f     (4) Facilitate the E-Board governance review and assessment process that culminates in\n         an E-Board Governance Assessment Scorecard; and\n\n     (5) Provide governance recommendations to the Secretary.\n\ne.   The E-Board will:\n\n     (1) Evaluate, assess, and recommend submitted major IT investments to ensure they are\n         managed as strategic business resources; and\n\n     (2) Ensure that proposed major IT investments:\n\n         (a) Contribute to the Secretary’s strategic vision and business requirements;\n\n         (b) Comply with business goals established for the USDA EA and CPIC\n             processes, as well as the risk management framework;\n\n         (c) Employ sound cybersecurity measures;\n\n         (d) Provide positive return on investment and acceptable project risk; and\n\n         (e) Utilize an appropriate acquisition strategy; and\n\n     (3) Submit governance recommendations concerning major IT investments to the\n         Secretary who will make the final governance decision.\n\nf.   The IAB Chair will:\n\n     (1) Reserve the authority to delegate functions and responsibilities as necessary to carry\n         out the IAB functions;\n\n     (2) Provide executive-level direction to the IAB members;\n\n     (3) Facilitate recommendations that align with the Secretary’s goals, objectives, and\n         priorities; and\n\n     (4) Request advice or expertise from outside the IAB as necessary.\n\ng.   The IAB will:\n\n     (1) Be chaired by the OCIO Information Resource Management Center (IRMC)\n         Associate Chief Information Officer (ACIO);\n\n     (2) Be comprised of technical subject matter experts representing Mission Areas,\n         agencies, and staff offices in the disciplines of:\n\n\n\n                                             6\n\f         (a) EA;\n\n         (b) CPIC;\n\n         (c) Cybersecurity and privacy;\n\n         (d) Records management;\n\n         (e) Section 508 accessibility;\n\n         (f) Human resources;\n\n         (g) Finance and budget;\n\n         (h) Acquisition;\n\n         (i) Data analytics;\n\n         (j) IT Modernization\n\n         (k) Enterprise applications; and\n\n         (l) Network support.\n\n         Additionally, the USDA Chief Information Officer Council (CIOC) and additional\n         members can be added as needed and approved by the IAB Chair;\n\n     (3) Review and provide recommendations of major IT Investment Tailoring Agreement\n         (ITA) requests as outlined in the IITGF taking into consideration the size of the\n         investments including the development and operations cost, risk management,\n         system development methodology, and scope of influence;\n\n     (4) Serve in an advisory role and submit technical, subject matter recommendations\n         regarding major IT investments to the E-Board; and\n\n     (5) Provide advice and recommendations to the CIO, as needed.\n\nh.   The USDA CIO will:\n\n     (1) Serve as the USDA senior official to advise the Secretary and Deputy Secretary on\n         EITG matters;\n\n     (2) Serve as the principal senior official for developing, establishing, executing, and\n         maintaining the IITGF process;\n\n\n\n\n                                             7\n\f     (3) Ensure that this policy is implemented and followed for all USDA major IT\n         investments; and\n\n     (4) Advise and assist the Under Secretaries, Mission Area Assistant CIOs, and the E-\n         Board in executing IT investment and governance oversight.\n\ni.   The OCIO IRMC ACIO will:\n\n     (1) Serve as the Chair of the USDA IAB;\n\n     (2) Develop, establish, execute, manage, implement, and support this policy and the\n         IITGF; and\n\n     (3) Oversee the IITGF implementation of USDA major IT investments by providing\n         training and disseminating EITG information to Departmental, Mission Area,\n         agency, and staff office employees.\n\nj.   The Director, OCIO IRMC Capital Planning and IT Governance Division (CPITGD),\n     will;\n\n     (1) Manage the day-to-day operations and processing of the EITG and IITGF;\n\n     (2) Support the IAB and E-Board as needed; and\n\n     (3) Assign an IT Governance Lead to fully support the IITGF implementation of\n         USDA major IT investments by providing timely and effective EITG training and\n         disseminating EITG information to USDA, Mission Area, agency, and staff office\n         employees.\n\nk.   Agency and staff office IT Directors will:\n\n     (1) Comply with the IITGF process and make any recommendations for improvements\n         to the CIO in writing;\n\n     (2) Ensure that agency or staff office internal IT investment governance management\n         review processes are not less restrictive than those presented in the IITGF;\n\n     (3) Require that agency or staff office Program and Project Managers submit\n         documentation accordingly to the IITGF;\n\n     (4) Recruit personnel to participate in EITG reviews; and\n\n     (5) Update the IAB and E-Board on the progress throughout the life cycle of major IT\n         investments.\n\nl.   Mission Area, agency, and staff office major IT investment Business Owners will:\n\n\n\n                                             8\n\f     (1) Identify the business needs and performance measures to be satisfied by the major\n         IT investment;\n\n     (2) Support IITGF decision gate reviews;\n\n     (3) Validate that the major IT investment continues to meet business requirements\n         throughout its life cycle; and\n\n     (4) Participate in user acceptance testing to validate that requirements are being met, as\n         needed.\n\nm. Mission Area, agency, and staff office major IT investment Program and Project\n   Managers will:\n\n     (1) Ensure that staff and contractors comply with the requirements of this DR for day-\n         to-day management and governance of their major IT investment;\n\n     (2) Ensure that all appropriate business stakeholders and technical experts are involved\n         throughout the life cycle of an IT project;\n\n     (3) Throughout the major IT investment life cycle, communicate evolving business\n         needs or changing conditions to support the continuation of the investment or its\n         retirement; and\n\n     (4) Provide governance documentation as provided for in the IITGF for the effective,\n         timely, and efficient review of major IT investments throughout the entire\n         investment life cycle;\n\n     (5) Coordinate with the IAB Chair, an ITA request to customize IITGF requirements,\n         decision gates, and associated deliverables, if applicable; and\n\n     (6) Comply with IITGF decision gate review requirements and ensure that the set of\n         deliverables for each decision gate is complete.\n\nn.   Mission Area, agency, and staff office IRBs will:\n\n     (1) Review and approve Mission Area, agency, or staff office IT budgets and Long-\n         Range IT Plans;\n\n     (2) Establish system development priority;\n\n     (3) Review and approve the IT portion of the Mission Area, agency, or staff office\n         acquisition or procurement plan;\n\n\n\n\n                                             9\n\f      (4) Assure that proper security requirements are met in accordance with Office of\n          management and Budget (OMB) Circular A-123, Management's Responsibility for\n          Enterprise Risk Management and Internal Control, and other Federal and\n          Departmental regulations;\n\n      (5) Assure that Mission Area, agency, or staff office's total data requirements are\n          considered in reviewing proposals for the development of information systems;\n\n      (6) Assure that when a major systems effort is initiated, a project manager is named\n          within clear delegations of authority and responsibility for decision-making during\n          the development of the system;\n\n      (7) Review and approve all major planned information resource management projects\n          or systems at initiation and major milestones during implementation. These\n          milestone reviews should be established by the Mission Area’s Governance Board\n          and align with the Department’s Enterprise Governance Framework milestones;\n\n      (8) Assure all appropriate oversight standards are being followed by properly\n          identifying major investments and elevating them to the Department for required\n          approvals;\n\n      (9) Identify poor performance and wasteful spending for non-major IT investments and\n          conduct Program Reviews and TechStats to turnaround troubled programs or\n          terminate failed programs timely manner; and\n\n      (10) Review all other major operating systems periodically to modify or eliminate\n           systems that are not meeting program requirements or that have reached the end of\n           life."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "37163858-71c9-5b2a-a92c-d8b0cbb677f2",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3130-010-6",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3130-010-6-stmt",
+                "name": "statement",
+                "prose": "Direct all questions concerning this DR to the OCIO IRMC ACIO at\n  capitalplanningdivision@usda.gov.\n\n\n                                          -END-\n\n\n\n\n                                            10\n\f                                APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nAAR        Acquisition Approval Request\nACIO       Associate Chief Information Officer\nAgITCPIC   Agriculture Information Technology Capital Planning and Investment Control\nCAO        Chief Acquisition Officer\nCCA        Clinger-Cohen Act\nCIO        Chief Information Officer\nCIOC       Chief Information Officer Council\nCPIC       Capital Planning and Investment Control\nCPITGD     Capital Planning and Information Technology Governance Division\nDM         Departmental Manual\nDME        Development, Modernization and Enhancement\nDR         Departmental Regulation\nEA         Enterprise Architecture\nEITG       Enterprise Information Technology Governance\nEITIRB     Executive Information Technology Investment Review Board (E-Board)\nEVM        Earned Value Management\nFITARA     Federal Information Technology Acquisition Reform Act\nFY         Fiscal Year\nGAO        Government Accountability Office\nIAB        Integrated Advisory Board\nIITGF      Integrated Information Technology Governance Framework\nIRB        Investment Review Board\nIRMC       Information Resource Management Center\nIT         Information Technology\nITA        Investment Tailoring Agreement\nOCIO       Office of the Chief Information Officer\nO&M        Operations and Maintenance\nOMB        Office of Management and Budget\nP.L.       Public Law\nPPM        Project and Portfolio Management\nRMF        Risk Management Framework\nRMO        Risk Management Office\nU.S.C.     United States Code\nUSDA       United States Department of Agriculture\n\n\n\n\n                                     A-1\n\f                                      APPENDIX B\n\n                                      DEFINITIONS\n\n\na.   Business Owner. The Business Owner is responsible for authorizing and ensuring that\n     funding and resources are in place to support the major IT investment.\n\nb.   Enterprise Architecture (EA). A strategic information asset base which defines the\n     mission, the information necessary to perform the mission, the technologies necessary to\n     perform the mission, and the transitional processes for implementing new technologies\n     in response to changing mission needs. The EA includes baseline architecture, target\n     architecture, and a sequencing plan. It is a framework for streamlining business\n     processes, information flows, applications, and infrastructure to support Agency and\n     interagency goals. (Source: OMB, Circular A-130, Managing Information as a\n     Strategic Resource)\n\nc.   Enterprise Information Technology (IT) Governance (EITG). A set of responsibilities\n     and practices exercised by a board and executive management with the goal of providing\n     strategic direction, ensuring that objectives are achieved, ascertaining that risks are\n     managed appropriately, and verifying that the enterprise’s resources are used\n     responsibly.\n\nd.   Governance. A set of processes that ensures the effective and efficient use of\n     information technology in enabling an organization to achieve its goals.\n\ne.   Information System. A discrete set of information resources organized for the\n     collection, processing, maintenance, use, sharing, dissemination, or disposition of\n     information. (Source: 44 U.S.C. § 3502(8), Definitions)\n\nf.   Information Technology (IT). This term refers to any equipment or interconnected\n     system or subsystem of equipment that is used in the automatic acquisition, storage,\n     manipulation, management, movement, control, display, switching, interchange,\n     transmission, or reception of data or information by an executive Agency. IT is related\n     to the terms capital asset, IT Investment, program, project, sub-project, service, and\n     system. It also includes computers, ancillary equipment (including imaging peripherals,\n     input, output, and storage devices necessary for security and surveillance), peripheral\n     equipment designed to be controlled by the central processing unit of a computer,\n     software, firmware and similar procedures, services (including support services), and\n     related resources; but does not include any equipment acquired by a Federal contractor\n     incidental to a Federal contract (40 U.S.C. § 11101, Definitions); however OMB policy\n     includes this: \"supercomputers, software for mission systems, telecommunications, and\n     satellite signal processing.” (Source: USDA, OCIO, IRMC, CPITGD, USDA DME and\n     O&M Definitions (and Additional IT-Related Definitions), October 2017)\n\ng.   IT Investment Management. A management process to identify, select, control, and\n     evaluate investments in information systems and resources. The process effectively and\n\n\n                                            B-1\n\f     efficiently links mission needs, information, and IT; integrates with organizational\n     planning, budgeting, procurement, management (financial, human resources, and\n     program), and assessment; coordinates with the Department’s current and targeted enterprise\n     architecture; and maximizes the value while assessing and managing the risks in the\n     selection, control, and evaluation of information resources.\n\nh.   IT Portfolio Management. The combination and management of all IT assets, resources,\n     and investments owned or planned by an organization to achieve its strategic goals,\n     objectives, and mission.\n\ni.   Integrated IT Governance Framework (IITGF). Is an integral part of enterprise IT\n     governance and consists of the leadership, structures, and processes that ensure that an\n     organization’s IT sustains and extends its strategies and objectives. Integrated IT\n     governance requires a structure and processes to support repeatable decision making,\n     alignment of IT activities to the enterprise’s strategic goals and objectives, and a clearer\n     understanding of authority and accountability.\n\nj.   Investment Tailoring Agreement (ITA). Tailoring consists of a request to the IAB for\n     customizing or waiving IITGF-specific phases, activities, decision gates, deliverables, or\n     investment governance reviews based on specific investment requirements or specific\n     business needs. Tailoring requests can be completed at any stage of the IITGF process\n     documented in the ITA deliverable. It is the agency or staff office project manager’s\n     responsibility to ensure that the major investment meets the required governance needs.\n\nk.   Life Cycle. A set of processes and their temporal relationships that describe a\n     continuous flow of actions and states associated with the existence of system. The linear\n     sequence of phases of a system’s existence that span an initiating action to a closing\n     action, with an implied future re-execution of the sequence. (Source: USDA, OCIO,\n     IRMC, CPITGD, USDA DME and O&M Definitions (and Additional IT-Related\n     Definitions), October 2017)\n\nl.   Major IT Investment. An IT Investment in Part 1 and Part 2 of the IT Portfolio requiring\n     special management attention because of its importance to the mission or function to the\n     government; significant program or policy implications; high executive visibility; high\n     development, operating, or maintenance costs; unusual funding mechanism; or\n     definition as major by the Agency’s CPIC process. OMB may work with the Agency to\n     declare IT Investments as major IT Investments. Agencies must consult with assigned\n     OMB desk officers and Resource Management Offices (RMO) regarding which\n     Investments are considered “major.” Investments not considered “major” are “non-\n     major.” (Source: OMB, FY 2021 IT Budget – Capital Planning Guidance; see also DR\n     3130-008, Definition of Major Information Technology Investments)\n\nm. Project. A project can be defined as a temporary endeavor undertaken to create a unique\n   product or service. Projects are different from other ongoing operations in an\n   organization, because unlike operations, projects have a definite beginning and an end –\n   they have a limited duration. (Source: USDA, OCIO, IRMC, CPITGD, USDA DME\n   and O&M Definitions (and Additional IT-Related Definitions), October 2017)\n\n\n                                             B-2\n\fn.   System. A system is a generic IT term used for brevity to mean either an application or\n     general support system. A collection of computing and/or communications components\n     and other resources that support one or more functional objectives of an organization.\n     (Source: USDA, OCIO, IRMC, CPITGD, USDA DME and O&M Definitions (and\n     Additional IT-Related Definitions), October 2017)\n\n\n\n\n                                          B-3\n\f                                       APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n40 U.S.C. § 11101, Definitions\n\n44 U.S.C. § 3502(8), Definitions\n\nAgriculture, Rural Development, Food and Drug Administration, and Related Agencies\nAppropriations Act, 2015, P.L. 113-235, Division A, December 16, 2014\n\nThe Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) § 11101 et seq., February10,\n1996\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, Title VIII,\nSubtitle D, §§ 831-837, 2014\n\nGovernment Accountability Office (GAO), GAO-04-394G, Information Technology Investment\nManagement: A Framework for Assessing and Improving Process Maturity, Version 1.1, March\n1, 2004\n\nGAO, GAO-09-3SP, Cost Estimating and Assessment Guide: Best Practices for Developing and\nManaging Capital Program Costs, March 2009\n\nOMB, Circular A-11, Preparation, Submission, and Execution of the Budget, Current Year\n\nOMB, Supplement to Circular A-11 Capital Programming Guide, Version 3.1, 2020\n\nOMB, Circular A-123, Management's Responsibility for Enterprise Risk Management and\nInternal Control, July 15, 2016\n\nOMB, Circular A-130, Management Information as a Strategic Resource, November 28, 2000\n\nOMB, FY 2021 IT Budget – Capital Planning Guidance\n\nOMB, Memorandum M-10-27, Information Technology Investment Baseline Management\nPolicy, June 28, 2010\n\nOMB, Memorandum M-11-29, Chief Information Officer Authorities, August 8, 2011\n\nOMB, Memorandum M-13-09, Fiscal Year 2013 PortfolioStat Guidance: Strengthening\nFederal IT Portfolio Management, March 27, 2013\n\nOMB, Memorandum M-15-14, Management and Oversight of Federal Information Technology,\nJune 10, 2015\n\n\n\n                                             C-1\n\fUSDA, Departmental Manual (DM) 3560-001, Security Requirements for CPIC, February 17,\n2005\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018\n\nUSDA, DR 3130-008, Definition of Major Information Technology Investments, August 13,\n2020\n\nUSDA, DR 3130-009, Non-Major Information Technology (IT) Investments, September 28, 2020\n\nUSDA, Executive Information Technology Investment Review Board (E-Board) Charter,\nforthcoming\n\nUSDA, Integrated Advisory Board (IAB) Charter, May 2014\n\nUSDA, USDA Information Technology Capital Planning and Investment Control (AgITCPIC)\nGuide, Version 2.0, March 1, 2019; updated to Version 2.1, September 1, 2019\n\nUSDA, Information Technology Strategic Plan FY2019-FY2022, Version 1.0, October 2019\n\nUSDA, Integrated IT Governance Framework: Guidebook, June 2018\n\nUSDA,USDA Strategic Plan FY2018-FY2022, 2018\n\nUSDA, OCIO, IRMC, CPITGD, USDA DME and O&M Definitions (and Additional IT-Related\nDefinitions), October 2017\n\n\n\n\n                                           C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "5ca48c1b-5dca-5941-9882-e9529d5a8e48",
+          "title": "USDA Directives — DR3130-010",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3130-010",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

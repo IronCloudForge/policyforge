@@ -1,0 +1,339 @@
+{
+  "catalog": {
+    "uuid": "23b46acd-4b5e-5c92-b7e9-1ad7d371d921",
+    "metadata": {
+      "title": "USDA DR4200-003: Anti-Harassment Program (2/24/26)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "Unknown",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4200-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "Unknown"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4200-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Assistant Secretary for Civil Rights, February 24, 2031",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CM",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4200-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Assistant Secretary for Civil Rights, February 24, 2031"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "cddf4787-51b0-5630-8baa-2efb4e303e72",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4200-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4200-003-1-stmt",
+                "name": "statement",
+                "prose": "a.     The purpose of this Departmental Regulation (DR) is to establish the Anti-Harassment\n          Program for the United States Department of Agriculture (USDA). The goal of this\n          program is to prevent workplace harassment, any form of unwelcome, persistent, and\n          unsolicited verbal, non-verbal, written, or physical conduct that is offensive and could\n          alter the affected individual’s terms and conditions of employment and mitigate harm to\n          any employee subjected to conduct that is or could develop into harassment or bullying.\n          The USDA is committed to fostering a model workplace free of conduct that negatively\n          affects employee, morale, engagement and productivity.\n\f  b.   This DR establishes policy to recognize and prevent harassment and bullying through\n       prompt and effective actions (including preventive actions) whenever and wherever it\n       occurs in the workplace. This DR includes guidance to USDA Mission Areas, agencies,\n       and staff offices on the means and procedures needed to establish programs and\n       procedures for receiving, coordinating, reviewing, processing, and resolving allegations\n       of harassing conduct."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9f0bca5c-c904-56a6-810d-983a17332717",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr4200-003-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr4200-003-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR is effective upon issuance and remains in effect until it is superseded or expires.\n\n  b.   Mission Areas, agencies, and staff offices must fully implement this DR no more than 1\n       year from its issuance.\n\n  c.   This DR does not replace existing Equal Employment Opportunity (EEO) complaint\n       procedures under 29 Code of Federal Regulations (CFR) Part 1614, Federal Sector\n       Equal Employment Opportunity. This DR establishes rules and guidelines distinct and\n       separate from any rights or obligations established by the Equal Employment\n       Opportunity Commission, Merit Systems Protection Board, Office of Special Counsel\n       (OSC), the administrative grievance system, or negotiated grievance procedures under a\n       collective bargaining agreement. Reporting harassment under this program does not\n       satisfy any of the requirements or timelines of any other process or course of action, nor\n       is it equivalent to filing an individual complaint of unlawful harassment in accordance\n       with EEO laws and regulations, nor does it initiate EEO counseling.\n\n  d.   Nothing in this DR is intended to negate or affect the Office of the Inspector General’s\n       (OIG) independence.\n\n  e.   Mission Areas, agencies, and staff offices may not issue policies or directives that\n       conflict with or limit this directive.\n\n  f.   Law enforcement will be contacted if there is an allegation of a violation of criminal\n       law."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "739648dd-d0e1-5084-912c-574efd692d4e",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4200-003-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4200-003-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all USDA Mission Areas, agencies, and staff offices as well as all\n       employees, contractors, volunteers, and those under formal partnership agreements\n       performing work on behalf of USDA.\n\n  b.   All USDA Mission Areas, agencies, and staff offices will establish an Anti-Harassment\n       Program consistent with this DR, with each program administered by an Anti-\n       Harassment Coordinator (AHC). The AHC will receive, assess, and address reports or\n       allegations of harassing conduct in collaboration with appropriate management officials\n\n\n\n                                               2\n\f       and respective servicing Mission Area, agency, and staff office Human Resource Offices\n       consistent with the terms and requirements set forth in this regulation.\n\n  c.   This DR does not apply to allegations against recipients, subrecipients, or beneficiaries\n       of USDA Federal financial assistance programs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eb13b472-4536-561b-a72c-9cd2e081846a",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4200-003-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4200-003-4-stmt",
+                "name": "statement",
+                "prose": "a.   USDA is committed to treating employees fairly, with dignity and respect, regardless of\n       their race, color, national origin, disability, sex, political beliefs, age, marital, familial, or\n       parental status, religion, pregnancy, childbirth, or related medical conditions, protected\n       genetic information, whether they previously engaged in EEO, Whistleblower, or other\n       protected activity; or because all or a part of an individual’s income is derived from any\n       public assistance program. USDA is further committed to providing a work\n       environment free of harassing conduct and bullying. Harassing behavior per Section 7c,\n       Assessing Harassing Behaviors, of this DR, will not be tolerated.\n\n  b.   Everyone within the USDA is expected to foster a workplace free of harassment by\n       modeling and engaging in conduct that is consistent with this DR.\n\n  c.   Harassing conduct is inappropriate and prohibited even if it does not rise to the level of\n       unlawful harassment actionable under Federal civil rights laws, and even if it is not\n       based on a legally protected classification.\n\n  d.   For purposes of the Anti-Harassment Program, harassment (including bullying) may\n       include any conduct that is offensive, hostile, abusive, demeaning, insulting, tormenting,\n       threatening, or intimidating. Harassment may be verbal, non-verbal, written, or physical\n       conduct.\n\n  e.   The goal of the Anti-Harassment Program is to educate our workforce about harassment\n       and help address and eliminate any potentially harassing conduct from the work\n       environment, including the virtual work environment. To that end, USDA is committed\n       to addressing conduct that could potentially develop into harassment in violation of\n       USDA Anti-Harassment Policy Statement if left unchecked, even when such conduct\n       does not warrant disciplinary action. To achieve this goal, USDA is establishing policy,\n       training, education, rules, and guidelines that enable employees, contractors, and\n       seasonal employees to report conduct perceived to be harassing to a management official\n       as soon as possible. This DR sets forth policy and guidelines for reporting, timely\n       inquiry, and appropriate corrective actions, including discipline or adverse actions, if\n       warranted.\n\n  f.   USDA’s standard of conduct applies to USDA employees while on official duty (in the\n       workplace, off-site or in a virtual environment) and while off duty when there is a nexus\n       to USDA and an impact on working relationships that could adversely affect an\n\n\n\n\n                                                  3\n\f       individual’s ability to perform official duties and USDA’s ability to accomplish its\n       mission.\n\n  g.   Reports of harassment will be handled in a confidential manner, to the extent allowed by\n       applicable law. Likewise, Mission Areas, agencies, and staff offices have a legal\n       obligation to protect the privacy and due process rights of those employees who are\n       accused of harassment. Reports of harassment will be disseminated only to those who\n       have a need to know, including officials designated or authorized to investigate\n       allegations, determine whether harassment occurred, develop recommendations, and\n       implement corrective measures.\n\n  h.   No individual will be adversely affected in their employment because they reported\n       alleged harassment. Mission Area, agency, and staff office leadership will not retaliate\n       against employees who experience, oppose, identify, allege, report, investigate, or\n       participate in investigations or inquiries regarding allegations of harassment.\n\n  i.   As it relates to grievances, complaints, and appeals due to harassment, the Anti-\n       Harassment Program does not include any new procedures to challenge or appeal the\n       findings of Mission Area, agency, or staff office inquiries or investigations, or the\n       actions of management that result from a harassment report."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6c8cfcab-3f3c-5191-b0e0-02801be905d7",
+        "class": "section",
+        "title": "Employee Notification Of Anti-Harassment Policy",
+        "controls": [
+          {
+            "id": "dr4200-003-5",
+            "class": "policy-requirement",
+            "title": "Employee Notification Of Anti-Harassment Policy",
+            "parts": [
+              {
+                "id": "dr4200-003-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Office of the Assistant Secretary for Civil Rights (OASCR), Mission Areas,\n       agencies, and staff offices must notify all personnel identified in Section 3a of this DR.\n       Copies may be distributed in printed format or e-mail, or employees and management\n       may be notified that this DR is available on USDA’s Directives by Category website.\n       Copies must also be provided in alternative formats or languages upon request and must\n       be Section 508 compliant. Employees must be notified of this DR and subsequent\n       changes to it within 90 calendar days of publication or at the time of the employee’s\n       appointment as part of their onboarding process.\n\n  b.   Employees will receive a copy of the Secretary’s USDA Anti-Harassment Policy\n       Statement annually.\n\n  c.   New employees will receive the USDA Anti-Harassment Policy Statement when\n       beginning employment, as a part of their onboarding process."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4f780f48-57e9-50bf-a0fb-dae4b1805024",
+        "class": "section",
+        "title": "Baseline Reporting Timeframes",
+        "controls": [
+          {
+            "id": "dr4200-003-6",
+            "class": "policy-requirement",
+            "title": "Baseline Reporting Timeframes",
+            "parts": [
+              {
+                "id": "dr4200-003-6-stmt",
+                "name": "statement",
+                "prose": "Mission Area, agency, and staff office Anti-Harassment Programs must include the following\n  actions as they relate to the following timeframes for reports of harassment:\n\n\n\n\n                                               4\n\fa.   Employees are encouraged to report harassment as soon as possible to a management\n     official, Mission Area’s, agency’s, or staff office’s Human Resource servicing office,\n     AHC, or hotline. Delayed reporting of harassment may impact USDA’s ability to\n     conduct a thorough inquiry or investigation and take corrective action. Reporting for\n     purposes of this DR does not impact, nor is it impacted by, any deadlines or time\n     restrictions under other administrative procedures, regulations, or statutes, including\n     EEO timelines, to address alleged harassment.\n\nb.   Managers and supervisors will utilize the following timeframes and actions when they\n     become aware of or receive a reported allegation:\n\n     Within 1 business day for all reports of sexual assault or sexual harassment, or 3\n     business days for all other reports of non-sexual harassment or bullying:\n\n     (1) Contact the respective AHC or the person acting in this capacity and Mission Area,\n         agency, or staff office servicing Human Resource Office or Employee Relations to\n         report the allegation of harassment;\n\n     (2) Document the allegation in writing and acknowledge receipt of the report to the\n         reporting party;\n\n     (3) Take immediate action to prevent or stop harassing behavior. Depending on the\n         situation, this could include verbally instructing employees to stop the behavior or\n         temporarily separating employees. The actions taken will depend on the severity\n         and the circumstances of the conduct alleged. Managers should consult with their\n         Employee and Labor Relations teams to determine appropriate actions; and\n\n     (4) Provide the reporting party and the affected person (who may or may not be the\n         same as the reporting party) with information on how to contact the servicing Civil\n         Rights Office and a referral to the Employee Assistance Program.\n\nc.   The AHC or the person acting in this capacity, upon receiving a report of harassment,\n     will:\n\n     (1) Within 1 business day, notify the appropriate offices, such as a Mission Area’s,\n         agency’s, or staff office’s Human Resource Office or Employee Relations for triage\n         of reported conduct for potential immediate administrative action.\n\n     (2) Within 3 business days of the report of the allegation:\n\n                       (a) Meet with the Mission Area’s, agency’s, or staff office’s Human\n                           Resource Office or Employee Relations representative to\n                           collaborate and jointly assess the allegation for the appropriate\n                           course of action.\n\n\n\n\n                                             5\n\f         (b) Initiate contact with the reporting party to acknowledge receipt and provide\n             information on the next steps and anticipated timelines for conducting an\n             interview as a part of an initial inquiry.\n\n         (c) Inform the affected person (who may or may not also be the reporting party) in\n             writing of the reported allegation, next steps, and anticipated timelines for\n             conducting an interview as a part of an initial inquiry, and their right to initiate\n             an EEO complaint within 45 calendar days of the alleged harassment by\n             contacting their Mission Area, agency, or staff office EEO Counselor.\n\n     (3) Within 10 calendar days of notification when the Mission Area, agency, or staff\n         office first learns of alleged harassment, conduct an initial inquiry of all harassment\n         allegations reported and in consultation with the Mission Area’s, agency’s, or staff\n         office’s Human Resource Office or Employee Relations representative, determine if\n         an initial inquiry is sufficient to determine whether the allegations are substantiated\n         and, if appropriate, to issue a recommended course of corrective action to\n         management.\n\n     (4) At the appropriate time, the alleged harasser may be informed of the report of an\n         allegation.\n\nd.   The Mission Area’s, agency’s, or staff office’s Human Resource Office or Employee\n     Relations representative, upon receiving a report of harassment, will:\n\n     (1) Within 1 business day, notify the AHC (or person acting in this capacity) of the\n         allegation and triage the alleged conduct to make an initial determination whether\n         existing facts and circumstances require immediate administrative or corrective\n         action in conjunction with the appropriate management officials.\n\n     (2) Within 3 business days, meet with the AHC (or person acting in this capacity) to\n         collaborate and jointly assess the allegation for appropriate courses of action.\n         Based on severity of the allegation, the Mission Area, agency, or staff office Human\n         Resource Office may initiate a Management Inquiry or Personnel Misconduct\n         Investigation independent of the Anti-Harassment Program and will inform the\n         AHC of initiation, progress, and findings.\n\n     (3) If a Management Inquiry or Personnel Misconduct Investigation is initiated, within\n         10 business days of completion of the inquiry or investigation, the Mission Area’s,\n         agency’s, or staff office’s Human Resource Office or Employee Relations will\n         review the results and, if corrective action is supported, advise managers and\n         supervisors involved on initiating appropriate action in a timely manner. Mission\n         Areas, agencies, and staff offices should take appropriate administrative or\n         disciplinary action for violations of the USDA Anti-Harassment Policy Statement,\n         even if the harassment does not rise to the level of severe or pervasive harassment,\n         to ensure a workplace free from harassing conduct.\n\n\n\n\n                                             6\n\f  e.   If harassment is initially reported to the Mission Area’s or agency’s Civil Rights Office,\n       the allegation will continue to be processed within the informal EEO process and also be\n       referred to the AHC within 1 business day for all sexual assault or sexual harassment\n       allegations, or within 3 business days for all other reports of bullying or harassment.\n\n  f.   If harassment is initially reported to staff within a Mission Area’s, agency’s, or staff\n       office’s Human Resource Office or Employee Relations, the office receiving the\n       allegation will report the allegation to the AHC within 1 business day for all reports of\n       sexual assault or sexual harassment, or within 3 business days for all other reports of\n       bullying or harassment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5f21b79c-f3e0-505c-bf0b-8cf3f1e58138",
+        "class": "section",
+        "title": "Reviewing And Assessing Harassment Allegations",
+        "controls": [
+          {
+            "id": "dr4200-003-7",
+            "class": "policy-requirement",
+            "title": "Reviewing And Assessing Harassment Allegations",
+            "parts": [
+              {
+                "id": "dr4200-003-7-stmt",
+                "name": "statement",
+                "prose": "a.   Mission Areas, agencies, and staff offices will determine the process for reviewing and\n       evaluating reports of alleged harassment in accordance with this DR. Reports of\n       harassment will be addressed through a prompt, thorough, and impartial factfinding,\n       conducted by a factfinder trained in conducting inquiries into harassment allegations,\n       with the identity of the reporting party kept confidential to the extent possible in the\n       factfinding.\n\n  b.   Mission Area, agency, and staff office leadership will designate an employee in a career\n       position to serve as or be delegated authority to perform the duties of an AHC on behalf\n       of the respective Mission Area, agency, or staff office Head. A secondary or “backup”\n       coordinator should also be identified and trained to avoid a single point of failure. These\n       coordinators will receive training annually and will:\n\n       (1) Conduct initial inquiries to make a preliminary determination if the alleged conduct\n           comes within the definition of harassment as defined in this DR and the Secretary’s\n           USDA Anti-Harassment Policy Statement; and\n\n       (2) Determine whether immediate remedial action is warranted and feasible. The facts\n           and evidence discovered in the initial inquiry may indicate a need for a\n           Management Inquiry or Personnel Misconduct Investigation in conjunction with\n           Mission Area, agency, or staff office Human Resource Office and Employee\n           Relations staff.\n\n  c.   Assessing Harassing Behaviors\n\n       (1) The difference between harassment and non-harassment in the workplace can be\n           difficult to define. In many instances, an employee’s conflict with coworkers or\n           supervisors may not be harassment. However, conflict can escalate into harassment\n           if not properly resolved.\n\n           The following table provides examples of what is and is not considered harassment\n           (unless alleged as part of a pattern of harassing behavior or as retaliation for\n           reporting or opposing harassment or discrimination):\n\n\n                                               7\n\fTable 1: Examples of Harassing and Non-Harassing Behaviors\n\n              Harassing Behaviors                      Non-Harassing Behaviors\n Threatening that rejection of sexual            Minor slights or annoyances\n overtures will affect appointments,\n promotions, transfers, or evaluations or\n affect any other employment-related actions\n Making sexually suggestive comments or          Normal stress associated with work\n gestures, including offensive comments,\n jokes, or suggestions about an employee’s\n gender or displaying nude or sexually\n suggestive objects, pictures, images, or\n cartoons\n Belittling persons based on protected           Minor disagreements with coworkers\n characteristics, including repeated jokes,\n teasing, mimicking, or commenting on an\n individual’s protected characteristic\n Retaliating against an employee who raises      Disagreement with a supervisor’s\n a harassment allegation                         instruction or policy\n Bullying, intimidating, or threatening          Objective and constructive feedback\n behavior                                        about work performance\n                                                 Changes in work assignments or work\n                                                 schedules\n                                                 Discipline for misconduct,\n                                                 performance-based actions, or other\n                                                 administrative action taken for a\n                                                 legitimate, non-discriminatory reason\n                                                 Being required to cooperate in an\n                                                 official inquiry or investigation\n                                                 Being accused of harassment or\n                                                 misconduct by another employee\n\n(2) Reports limited to the issues listed above, a single non-severe occurrence, or other\n    issues or allegations that do not rise to the level of harassment as defined in this DR\n    and the USDA Anti-Harassment Policy Statement, will usually be closed without\n    further action, and referred to the appropriate management official to address the\n    conflict through assistance of conflict management and prevention specialists who\n    are ADR trained, and to the servicing Mission Area, agency, or staff office’s\n    Human Resource Office or Employee Relations to assist in mitigating or resolving\n    the conflict.\n\n\n\n\n                                        8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f99629ff-b153-533a-a03d-15e5c277ccd8",
+        "class": "section",
+        "title": "Avoiding Conflicts Of Interest",
+        "controls": [
+          {
+            "id": "dr4200-003-8",
+            "class": "policy-requirement",
+            "title": "Avoiding Conflicts Of Interest",
+            "parts": [
+              {
+                "id": "dr4200-003-8-stmt",
+                "name": "statement",
+                "prose": "a.   The AHC, and the officials responsible for supporting and supervising the functioning of\n       the AHC, are responsible for the management functions of the Anti-Harassment\n       Program’s procedures and conducting fact findings regarding harassment reports. These\n       individuals will not also be responsible for administering, managing, advising, or\n       overseeing the EEO pre-complaint or complaint process or in grievance processing.\n\n  b.   Mission Area, agency, and staff office Anti-Harassment Programs must avoid conflicts\n       of interest in arranging for and conducting inquiries into reports of harassment. A\n       conflict of interest exists where the individual alleged to have engaged in the harassing\n       conduct is an employee of the component Anti-Harassment Program or is a senior\n       management official with direct or indirect oversight of the component Anti-Harassment\n       Program. The component AHC will determine whether a conflict of interest exists, such\n       that the component Anti-Harassment Program could not reasonably be expected to\n       conduct an impartial inquiry.\n\n  c.   Mission Areas, agencies, and staff offices will refer allegations that pose a conflict of\n       interest to the Office of Human Resource Management (OHRM) or to another\n       component Anti-Harassment Program. In such cases, consultation with the Office of the\n       General Counsel, Assistant Secretary for Administration, or USDA’s Chief Human\n       Capital Officer (CHCO) is required to identify an appropriate decision-maker."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c5317e89-ef95-555f-b1b1-2ba6674ccf42",
+        "class": "section",
+        "title": "Relationship With Other Procedures",
+        "controls": [
+          {
+            "id": "dr4200-003-9",
+            "class": "policy-requirement",
+            "title": "Relationship With Other Procedures",
+            "parts": [
+              {
+                "id": "dr4200-003-9-stmt",
+                "name": "statement",
+                "prose": "a.   Nothing contained in this DR affects an employee’s right to file a complaint directly\n       with the OSC alleging harassment or discrimination. The OSC investigates and\n       prosecutes allegations of prohibited personnel actions. Similarly, filing a complaint with\n       OSC does not prevent an employee from also filing a separate complaint with their own\n       Civil Rights Office.\n\n  b.   Per Departmental Personnel Manual (DPM) Chapter 751, Subchapter 3, Agency\n       Investigations of Employee Misconduct, allegations of misconduct by Presidential\n       appointees, Senior Executives, and above (or equivalent employees under pay systems),\n       and Schedule C employees must be referred to OIG for investigation. After review, OIG\n       will conduct an investigation or decline the case and refer it back to the Mission Areas,\n       agencies, or staff offices for appropriate investigative action.\n\n  c.   All allegations of harassment made in the EEO process will be immediately referred to\n       the AHC for processing, concurrent with the EEO process, regardless of any resolution\n       in the EEO process.\n\n  d.   The reporting of alleged harassment under this DR does not prevent an employee from\n       filing an administrative grievance per DR 4070-771-001, Administrative Grievance\n       System, or a negotiated grievance under a collective bargaining agreement.\n\n\n\n                                               9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "69a061fe-21c9-59ff-9903-682c4478fdea",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr4200-003-10",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr4200-003-10-stmt",
+                "name": "statement",
+                "prose": "a.   The Assistant Secretary for Civil Rights will:\n\n       (1) Provide overall leadership, coordination, and direction for USDA’s Anti-\n           Harassment Program;\n\n       (2) Issue Departmental policies, directives, procedures, rules, and regulations and\n           ensure that they follow Federal laws and regulations;\n\n       (3) Ensure Mission Areas, agencies, or staff offices support and adhere to all civil\n           rights policies, directives, findings, and decisions;\n\n       (4) Systematically review, evaluate, and hold Mission Area, agency, and staff office\n           Heads and Administrators accountable for civil rights performance;\n\n       (5) Ensure thorough training, dissemination of information, technical assistance, and\n           other appropriate methods are in place, so the Department’s civil rights employees\n           (including contract employees and consultants) demonstrate and maintain the\n           highest level of current technical competence, skills, knowledge, and abilities\n           pertaining to civil rights and EEO;\n\n       (6) Annually assess Mission Area, agency, and staff office compliance with this DR;\n           and\n\n       (7) Maintain a firewall, as required by the EEOC, between the Employee Complaints\n           Division and the Conflict Complaints Division of the Office of the Assistant\n           Secretary for Civil Rights and the Anti-Harassment Program in order to avoid\n           conflict of interest.\n\n  b.   Mission Areas and Agency Civil Rights Directors will:\n\n       (1) Maintain a firewall between the Anti-Harassment Program and the OASCR’s\n           Employee Complaints Division and Conflict Complaints Division; and\n\n       (2) Refer allegations of harassment to the AHC for processing within established\n           timeframes.\n\n  c.   Mission Area, Agency, and Staff Office Heads (or their designees) will:\n\n       (1) Perform oversight of the Anti-Harassment Program in their respective Mission\n           Area, agency, or staff office in accordance with the framework set forth in this DR;\n\n\n\n\n                                              10\n\f(2) Determine where the AHC and program should reside within their respective\n    Mission Area, agency, or staff office;\n\n(3) Ensure there is a firewall between the Anti-Harassment Program and the EEO\n    Complaint process, with the exception that the EEO office is required to refer\n    harassment allegations to the AHC;\n\n(4) Ensure employees have a process for reporting harassment complaints, separate\n    from the EEO process, and that employees are aware of the process;\n\n(5) Promote and model the policies and behaviors necessary to conform with the\n    Secretary’s USDA Anti-Harassment Policy Statement and emphasize to managers\n    and supervisors that harassment will not be tolerated in the Mission Area, agency,\n    or staff office;\n\n(6) Monitor Anti-Harassment Program activity;\n\n(7) Periodically develop and communicate Mission Area, agency, or staff office\n    organizational goals, initiatives, and priorities necessary to ensure compliance with\n    the USDA Anti-Harassment Policy Statement;\n\n(8) Allocate sufficient funding, staffing levels, and other resources to ensure\n    compliance with the USDA Anti-Harassment Policy Statement and establishment of\n    an AHC;\n\n(9) Require all allegations of assault or violence (both sexual and non-sexual) to be\n    reported to law enforcement, regardless of the recipient of such allegations.\n\n(10) Ensure all timeframes per Section 6, Baseline Reporting Timeframes, of this DR are\n     met;\n\n(11) Hold managers and supervisors accountable for substantiated cases of harassment,\n     bullying or sexual assault of which they were or should have been aware, and\n     accountable for their responsibility to prevent harassment and retaliation, and take\n     immediate and appropriate corrective action when harassment occurs;\n\n(12) Ensure no management official with a conflict of interest participates in or\n     influences any material aspect of the handling of a claim of harassment, other than\n     reporting harassment and providing information in response to an official inquiry or\n     investigation;\n\n(13) Ensure appropriate anti-harassment training is provided for managers, supervisors,\n     employees, contractors, volunteers, and those under formal partnership agreements\n     performing work on behalf of USDA within their organizations; and\n\n\n\n\n                                       11\n\f     (14) Ensure a tracking system is maintained to collect and analyze data on allegations of\n          harassment.\n\nd.   The OHRM Director, serving as the CHCO, will:\n\n     (1) Process allegations of harassment by employees of serviced staff offices;\n\n     (2) Determine where in OHRM the AHC for staff offices will reside and report;\n\n     (3) Provide, upon request, anti-harassment direction, and technical assistance, and\n         advice regarding DPM Chapter 751, Subchapter 3, and 5 CFR Part 752, Adverse\n         Actions;\n\n     (4) Provide training, in collaboration with OASCR, OIG, and the Office of the General\n         Counsel;\n\n     (5) Monitor Mission Area, agency, and staff office compliance with Departmental\n         policy and DR 4300-010, Civil Rights Accountability Policy and Procedures;\n\n     (6) Establish mandatory compliance reporting and audit Mission Area, agency, and\n         staff office programs, as it relates to this program;\n\n     (7) Evaluate and ensure compliance with applicable laws, rules, and regulations as it\n         relates to this program; and\n\n     (8) Review and develop recommendations for disciplinary actions which are outside\n         the Mission Area’s, agency’s, and staff office’s delegated authority.\n\ne.   Mission Area, Agency, and Staff Office Human Resource Directors will:\n\n     (1) Investigate all allegations of harassment that warrant investigation beyond the\n         initial inquiry;\n\n     (2) Recommend disciplinary and adverse actions to supervisors or managers for their\n         consideration within their delegation of authority;\n\n     (3) When warranted, ensure immediate and appropriate corrective or disciplinary\n         actions are enacted for established incidences of harassment or bullying;\n\n     (4) If applicable, ensure the AHC resides in Human Resource;\n\n     (5) Ensure, if applicable, the AHC submits quarterly reports to OASCR on harassment\n         report activity;\n\n     (6) Track harassment allegations and collaborate with the AHC, in addition to OHRM\n         and OASCR;\n\n\n\n                                            12\n\f     (7) Provide technical expertise and consultation to assist supervisors in determining\n         proper administrative action;\n\n     (8) Provide training to those responsible for investigating claims of harassment; and\n\n     (9) Ensure management is aware of bargaining unit employees’ right to request union\n         representation per 5 United States Code (U.S.C.) § 7114(a)(2)(B), Representation\n         Rights and Duties, and any applicable collective bargaining unit agreement.\n\nf.   AHCs will:\n\n     (1) Assess allegations of harassment from all individuals within the scope of this DR\n         (including USDA employees, applicants for employment, former employees, and\n         contractors);\n\n     (2) Initiate contact with the affected person(s) and the alleged harasser(s) to conduct an\n         interview with each of the parties and an initial inquiry into the allegation(s) within\n         established timeframes;\n\n     (3) Notify appropriate offices of the receipt of harassment allegations within\n         established timeframes;\n\n     (4) Maintain a firewall between the EEO office and the Anti-Harassment Program;\n\n     (5) Conduct a prompt, impartial initial inquiry and initiate further investigation, as\n         appropriate within 10 calendar days;\n\n     (6) Ensure an allegation of harassment is transferred to the appropriate investigative\n         body within the established timeframes, if further investigation is warranted beyond\n         the initial inquiry;\n\n     (7) Assess the need for interim remedial action, determine whether further investigation\n         is warranted, and determine if corrective action is appropriate in consultation with\n         Mission Area, agency, and staff office Human Resource or Employee Relations\n         Offices;\n\n     (8) Track harassment allegations and submit quarterly reports to Civil Rights Directors\n         and OASCR on the number and type of harassment alleged, whether investigations\n         were warranted, corrective actions taken, disciplinary actions taken, the source of\n         complaints, or other identified metrics;\n\n     (9) Track recommendations for corrective and disciplinary action and notify Mission\n         Area, agency, or staff office leadership about failures to effectuate any such\n         recommendations; and\n\n\n\n\n                                             13\n\f     (10) Close out the report and notify all appropriate parties of the disposition of the\n          allegations raised after all required actions have been completed per this DR with\n          respect to a report of harassment.\n\ng.   Managers and Supervisors will:\n\n     (1) Comply with the Secretary’s USDA Anti-Harassment Policy Statement and USDA\n         acceptable conduct standards, per DR 4070-735-001, Employee Responsibilities\n         and Conduct;\n\n     (2) Provide harassment prevention training to employees;\n\n     (3) Take reasonable steps to prevent harassment and retaliation, such as ensuring their\n         employees are well trained on their agency’s anti-harassment policies and\n         procedures; consistently undertaking actions that help ensure a prompt, thorough,\n         and impartial investigation of harassment allegations; and by taking immediate and\n         appropriate corrective action when harassment is found to have occurred;\n\n     (4) Communicate managerial responsibility to act on allegations of harassment;\n\n     (5) Act promptly and appropriately to stop harassing conduct and retaliation;\n\n     (6) Report to their designated AHC any incident of harassing conduct witnessed or\n         otherwise brought to their attention (see Section 6, of this DR);\n\n     (7) Take immediate interim action, if appropriate, to prevent or mitigate harassing\n         conduct during an inquiry or investigation into the allegations. Managers and\n         supervisors have an obligation to take immediate remedial action regardless of an\n         employee’s request for confidentiality or to remain anonymous;\n\n     (8) Take immediate and appropriate corrective, remedial, or disciplinary action after\n         considering recommendations from the Mission Area’s, agency’s, or staff office’s\n         Human Resource Office against employees found to have engaged in harassing\n         conduct and against persons who failed to take appropriate measures to prevent,\n         eliminate, or correct such harassing conduct;\n\n     (9) Maintain confidentiality to the extent possible, regarding the identity of those\n         individuals reporting allegations of harassing conduct, witnesses who provide\n         information about allegations of harassing conduct, and individuals against whom\n         allegations are made, consistent with the need to investigate alleged incidents of\n         harassing conduct, as required under applicable laws, statutes, and policies:\n\n         (a) Keep all information obtained regarding allegations of harassing behavior\n             confidential and disclose only on a need-to-know basis; and\n\n\n\n\n                                            14\n\f           (b) Keep records relating to harassment complaints confidential and disclose only\n               on a need-to-know basis.\n\n       (10) Utilize resources and assistance available to address harassing conduct in the\n            workplace;\n\n       (11) Ensure that if they have a conflict of interest, they will not participate in or\n            influence any material aspect of the handling of a claim of harassment other than\n            reporting harassment and providing information in response to an official inquiry or\n            investigation; and\n\n       (12) Ensure management abides by 5 U.S.C. § 7114(a)(2)(B) and any applicable\n            collective bargaining unit agreement that permits bargaining unit employees the\n            right to request union representation when the employee believes they may be\n            subject to discipline.\n\n  h.   Employees contractors, volunteers, and those under formal partnership agreements\n       performing work on behalf of USDA will:\n\n       (1) Not engage in any harassing conduct as defined in this DR;\n\n       (2) Comply with the Secretary’s USDA Anti-Harassment Policy Statement and USDA\n           acceptable conduct standards, per DR 4070-735-001;\n\n       (3) Comply with the Secretary’s USDA Anti-Harassment Policy Statement\n           requirements;\n\n       (4) Cooperate in any inquiry or investigation concerning allegations of harassing\n           conduct; and\n\n       (5) Take all mandatory anti-harassment training."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6f8edd8e-aafb-5d11-a6e1-5450a8b8adb9",
+        "class": "section",
+        "title": "Training",
+        "controls": [
+          {
+            "id": "dr4200-003-11",
+            "class": "policy-requirement",
+            "title": "Training",
+            "parts": [
+              {
+                "id": "dr4200-003-11-stmt",
+                "name": "statement",
+                "prose": "Annual anti-harassment training must be provided annually to all individuals listed in Section\n  3a of this DR, and must include, but is not limited to, the following elements:\n\n  a.   What is considered harassing conduct;\n\n  b.   The Secretary’s USDA Anti-Harassment Policy Statement and reporting procedures;\n\n  c.   The types of conduct that violate anti-harassment policies;\n\n\n\n\n                                               15\n\f   d.   USDA’s commitment to preventing harassing conduct in the workplace, promoting\n        inclusive and harassment-free work culture, and an understanding of appropriate\n        bystander intervention practices;\n\n   e.   The responsibilities of supervisors and managers when they learn of alleged harassing\n        conduct; and\n\n   f.   The responsibilities of employees, contractors, volunteers, and those under formal\n        partnership agreements performing work on behalf of USDA when they become aware\n        of harassing conduct, and the prohibition against retaliation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bd026b06-016f-5244-b516-34746ca0c1ae",
+        "class": "section",
+        "title": "Records",
+        "controls": [
+          {
+            "id": "dr4200-003-12",
+            "class": "policy-requirement",
+            "title": "Records",
+            "parts": [
+              {
+                "id": "dr4200-003-12-stmt",
+                "name": "statement",
+                "prose": "a.   An administrative investigation (i.e., Management Inquiry or Personnel Misconduct\n        Investigation) into allegations of employee misconduct covered under this Directive will\n        be carried out in accordance with DPM Chapter 751, Subchapter 3. Reports of inquiries\n        and investigations will be used for official purposes only and distribution is limited to\n        Mission Area, agency, and staff office officials with authority to act on findings to other\n        officials on a need-to-know basis. Accordingly, AHCs, Mission Area, agency and staff\n        office Human Resource Offices, Employee Relations, and managers or supervisors will\n        not provide copies of records or reports of inquiries and investigations or formal\n        recommendations, either as part of the closure process or upon request.\n\n   b.   Requests for administrative investigatory records may be made, as appropriate,\n        consistent with applicable laws, per DR 3450-002, Freedom of Information Act\n        Implementing Regulations or in a formal discovery process."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d7235e70-0850-57b2-8a4e-f16d78eb4cf0",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr4200-003-13",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr4200-003-13-stmt",
+                "name": "statement",
+                "prose": "Questions and inquiries regarding this DR may be submitted to the Center for Civil Rights\n   Operations (CCRO) Compliance Division via email at CCROCompliance@usda.gov.\n\n\n\n                                             -END-\n\n\n\n\n                                                16\n\f                                APPENDIX A\n\n                  ACRONYMS AND ABBREVIATIONS\n\n\nADR      Alternative Dispute Resolution\nAHC      Anti-Harassment Coordinator\nCCRO     Center for Civil Rights Operations\nCHCO     Chief Human Capital Officer\nCFR      Code of Federal Regulations\nDG       Departmental Guidebook\nDPM      Departmental Personnel Manual\nDR       Departmental Regulation\nEEO      Equal Employment Opportunity\nEEOC     Equal Employment Opportunity Commission\nE.O.     Executive Order\nGS       General Schedule\nMD       Management Directive\nOASCR    Office of the Assistant Secretary for Civil Rights\nOHRM     Office of Human Resource Management\nOSC      Office of Special Counsel\nOIG      Office of the Inspector General\nP.L.     Public Law\nREE      Research, Education, and Economics\nSES      Senior Executive Service\nSL       Senior Level\nSSTS     Senior Science and Technology Service\nST       Scientific and Professional\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                     A-1\n\f                                          APPENDIX B\n\n                                          DEFINITIONS\n\n\nAccountability. The obligation of holding agency officials, managers, supervisors, and other\nemployees responsible for complying with the requirements contained in this DR. (Source:\nUSDA, Departmental Guidebook (DG) 0100-002, USDA Departmental Directives Definitions\nGlossary)\n\nAdministrative Misconduct. Non-criminal misconduct, behavior, or actions of an employee,\nincluding those that violate policies, procedures, and standards on employee responsibilities and\nconduct per DR 4070-735-001, Employee Responsibilities and Conduct.\n\nAdverse Action. Adverse actions are defined by law at 5 U.S.C. Chapter 75, Adverse Actions,\nand include suspensions without pay, reductions in grade or pay, furloughs of 30 calendar days\nor less, and removal.\n\nAgency. Organizational units of the Department, other than staff offices, whose heads report to\nofficials within the Office of the Secretary, Deputy Secretary, Under Secretaries, Assistant\nSecretaries, and Assistant to the Secretary. (Source: USDA, DR 0100-001, Departmental\nDirectives System)\n\nAgency Head. The administrator, chief, or director of an agency who is the official named or\ndesignated to have primary responsibility for the management of the agency as delegated under 7\nCFR Part 2, Delegations of Authority by the Secretary of Agriculture and General Officers of the\nDepartment.\n\nAllegation. An assertion, declaration or statement made in a complaint that sets out or identifies\nwhat the alleging party expects to be proved. (Source: USDA, DG 0100-002)\n\nAlternative Dispute Resolution (ADR). ADR includes an array of techniques used to achieve\nconsensual resolution of disputes, generally with the assistance of a neutral third party. (Source:\nUSDA, DG 0100-002)\n\nAnti-Harassment Coordinator (AHC). Responsible for serving as the Point of Contact for the\nAHC process. Their role includes, but is not limited to, receiving harassment allegations on\nbehalf of the Mission Area, agency, or staff office, assisting managers and supervisors in\naddressing allegations of harassment, conducting training, and compiling records of harassment\nincidents with the objective of eliminating harassment within the Mission Area, agency, or staff\noffice.\n\nCompliance. Systematically evaluating whether and the extent to which USDA conducts its\nprograms and activities in a manner consistent with applicable Federal and USDA civil rights\nrequirements.\n\n\n\n\n                                                B-1\n\fConflict of Interest. Circumstances creating sufficient doubt about a management official's\nimpartiality (including a perception of impartiality) that should disqualify them from\nparticipating in or influencing any material aspect of the handling of a claim of harassment other\nthan reporting harassment and providing information in response to an official inquiry or\ninvestigation.\n\nCorrective Actions. Measures taken toward enhancing civil rights goals of USDA, which may\nbe disciplinary or adverse actions and may include training or other similar actions. (Source:\nUSDA, DR 4300-010)\n\nDecision. A determination issued by an entity with authority to issue legal or administrative\nopinions, arrived at after consideration of the facts and applicable law. (Source: USDA, DR\n4300-010)\n\nDisciplinary Action. An action taken with the intent to correct the conduct of an employee,\nwhich includes, among other actions, a letter of reprimand, suspension, reduction in grade or\npay, or removal from the Federal Service. (Source: USDA, DR 4300-010)\n\nEmployee. For the purpose of this directive, an individual employed in or under an agency who\nis appointed to a position with a scheduled tour of duty (5 CFR 550.202) or a non-employee over\nwhom an agency has control, which may include independent contractors and/or contract\nemployees.\n\nFederal Financial Assistance or Financial Assistance from USDA. Includes:\n\n   a.   Grants and loans of Federal funds;\n\n   b.   The grant or donation of Federal property and interests in property;\n\n   c.   The detail of Federal personnel;\n\n   d.   The sale and lease of, and the permission to use (on other than a casual or transient\n        basis), Federal property or any interest in such property or the furnishing of services\n        without consideration or at a nominal consideration, or at a consideration which is\n        reduced for the purpose of assisting the recipient, or in recognition of the public interest\n        to be served by such sale, lease or furnishing of services to the recipient; and\n\n   e.   Any Federal agreement, arrangement, or other contract which has as one of its purposes\n        the provision of assistance. (Source: 7 CFR § 15.2(g), Federal financial assistance or\n        financial assistance)\n\nFirewall. A procedure preventing the EEO Director from involvement in the day-to-day\nfunctions of the Anti-Harassment Program or to avoid a perceived or actual conflict of interest in\nspecific cases or in general; clear separation between the agency’s EEO complaint program and\nthe agency's defensive function which is essential to fair and impartial investigations;\n\n\n\n\n                                                B-2\n\fmaintaining the appropriate separation between the two or more processes to ensure the integrity\nof both processes, including providing clarity for employees on the distinction between the two.\n\nHarassment (including Bullying). Any form of unwelcome, persistent, and unsolicited verbal,\nnon-verbal, written, or physical conduct that is offensive and could alter the affected individual’s\nterms and conditions of employment. It includes conduct intended to torment or cause fear for\none’s personal safety. This includes but is not limited to any unwelcome or unwanted conduct\nthat denigrates or shows hostility or an aversion toward another person on the basis of any\ncharacteristic protected by law, which includes an individual’s race, color, sex, ethnic or national\norigin, age, religion, disability, marital status, pregnancy, childbirth, or related medical\nconditions, retaliation for previous EEO activity, genetic information or other personal\ncharacteristic protected by law.\n\nImpartial. Fair and equitable manner; unbiased, neutral, and non-discriminatory; no vested\ninterest.\n\nInquiry. An initial or basic informal review of an issue, inquiry, or allegation of harassment\n(whether illegal harassment or lower-level harassment) to identify the need for further\nassessment such as an investigation, EEO investigation, safety investigation, referral to OIG, etc.\n\nManagement Official. A management official as defined as an employee having authority to\nhire, transfer, suspend, furlough, recall, promote, discharge, assign, reward, or discipline other\nemployees; or having responsibility to direct them, adjust their grievances, or effectively\nrecommend such action if, in connection with the foregoing, the exercise of authority is not of a\nmerely routine or clerical nature but requires the use of independent judgment. (Source: USDA,\nDR 4300-010).\n\nMission Area. A group of agencies with related functions that report to the same Under or\nAssistant Secretary. Research, Education, and Economics (REE) is an example of a Mission\nArea. (Source: USDA, DR 0100-001)\n\nRetaliation. Retaliation is imposing any administrative action, failing to take action, or engaging\nin any form of harassment or bullying, against any employee for reporting matters covered under\nthis policy, for involvement in an inquiry related to such a report, or for exercising any other\nrights granted them by statute or policy.\n\nSenior Management Official. A Senior Executive Service (SES), Senior Level (SL), and\nScientific and Professional (ST) positions in the Competitive Service, and Senior Science and\nTechnology Service (SSTS) positions in the Excepted Service or a political appointee (includes\nSchedule C appointments and non-career SES). (Source: USDA, DR 4300-010)\n\nSexual Harassment. Unwelcome sexual advances, requests for sexual favors, and other verbal or\nphysical conduct of a sexual nature when:\n\n   a.   Submission to such conduct is made either explicitly or implicitly a term or condition of\n        an individual's employment; or\n\n\n\n                                                B-3\n\f   b.   Submission to or rejection of such conduct by an individual is used as a basis for\n        employment decisions affecting such individual; or\n\n   c.   Such conduct has the purpose or effect of unreasonably interfering with an individual's\n        work performance or creating an intimidating, hostile, or offensive working\n        environment.\n\nStaff Office. Departmental administrative offices whose heads report to officials within the\nOffice of the Secretary. (Source: USDA, DR 0100-001)\n\n\n\n\n                                               B-4\n\f                                         APPENDIX C\n\n                               AUTHORITIES AND REFERENCES\n\n\nAdverse Actions, 5 CFR Part 752\n\nAdverse Actions, 5 U.S.C. Chapter 75\n\nAge Discrimination in Employment Act of 1967, as amended, 29 U.S.C. § 621\n\nAmericans with Disabilities Act of 1990, as amended, 42 U.S.C. §§ 12101 et seq.\n\nBasis for Determining Federal Awards Expended, 2 CFR § 200.502\n\nCivil Service Reform Act of 1978, Public Law (P.L.) 95-454, October 13, 1978\n\nDefinitions, 7 CFR § 15.2(g)\n\nDelegations of Authority by the Secretary of Agriculture and General Officers of the\nDepartment, 7 CFR Part 2\n\nDepartmental Regulations, 5 U.S.C. § 301\n\nEqual Employment Opportunity Commission (EEOC), Notice 915.002, Enforcement Guidance:\nVicarious Employer Liability for Unlawful Harassment by Supervisors, June 18, 1999\n\nEEOC, EEO Management Directive (MD) - 715, Federal responsibilities under Section 717 of\nTitle VII and Section 501 of the Rehabilitation Act, October 1, 2003\n\nEEOC, Model EEO Programs Must Have An Effective Anti-Harassment Program website\n\nEEOC, Overview web page\n\nExecutive Order (E.O.) 11478, Equal Employment Opportunity in the Federal Government,\nAugust 8, 1969\n\nE.O. 13087, Further Amendment to EO 11478, Equal Employment Opportunity in the Federal\nGovernment, May 28, 1998\n\nFederal Financial Assistance, 2 CFR § 200.40\n\nFederal Sector Equal Employment Opportunity, 29 CFR Part 1614\n\nGenetic Information Nondiscrimination Act of 2008, P.L. 110-233, May 21, 2008\n\n\n\n\n                                               C-1\n\fPregnant Workers Fairness Act , 42 U.S.C. § 2000gg et seq., December 29, 2022\n\nPrivacy Act of 1974, 5 U.S.C. § 552a, December 31, 1974, as amended\n\nProhibited Personnel Practices, 5 U.S.C. § 2302(b)(10)\n\nRehabilitation Act of 1973, P.L. 93-112, September 26, 1973\n\nRepresentation Rights and Duties, 5 U.S.C. § 7114(a)(2)(B)\n\nRequirement to provide public notice of Federal financial assistance programs, 2 CFR §\n200.202\n\nSection 501 of the Rehabilitation Act of 1973, as amended, 29 U.S.C. § 791 et seq.\n\nTitle II of the Genetic Information Nondiscrimination Act of 2008, as amended,\n42 U.S.C § 2000ff(2)(B)(v)\n\nTitle VII of the Civil Rights Act of 1964, as amended, 42 U.S.C. § 2000e\n\nUSDA, DG 0100-002, USDA Departmental Directives Definitions Glossary, September 26,\n2018\n\nUSDA, Directives by Category website\n\nUSDA, DPM Chapter 751, Subchapter 3, Agency Investigations of Employee Misconduct\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018\n\nUSDS, DR 3450-002, Freedom of Information Act Implementing Regulations, February 7, 2003\n\nUSDA, DR 4030-001, Section 508 Program, September 8, 2014\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, DR 4070-771-001, Administrative Grievance System, November 27, 2020\n\nUSDA, DR 4200-001, Workplace Violence Prevention and Response Program, April 7, 2013\n\nUSDA, DR 4300-007, Processing Equal Employment Opportunity (EEO) Complaints of\nDiscrimination, August 4, 2021\n\nUSDA, DR 4300-010, Civil Rights Accountability Policy and Procedures, December 28, 2016\n\nUSDA, DR 4330-002, Nondiscrimination in Programs and Activities Receiving Federal\nFinancial Assistance from USDA, July 27, 2021\n\n\n\n                                              C-2\n\fUSDA, DR 4710-001, Alternative Dispute Resolution Program, April 5, 2006\n\n\n\n\n                                           C-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "6c9f7002-f964-5e2a-823d-5ccc3767d9c1",
+          "title": "USDA Directives — DR4200-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4200-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

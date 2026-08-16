@@ -1,0 +1,216 @@
+{
+  "catalog": {
+    "uuid": "cae39433-504a-5584-82bc-35baf13faa6d",
+    "metadata": {
+      "title": "USDA DR3060-002: Secretarially Signed Documents",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2010-07-17",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3060-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2010-07-17"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3060-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Executive Secretariat",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3060-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Executive Secretariat"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "cb8426e1-e465-5a97-b2a4-066b17f51be8",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3060-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3060-002-1-stmt",
+                "name": "statement",
+                "prose": "This regulation describes the process for transmitting official documents to the\n      Immediate Office of the Secretary for final review and signature by the Secretary or\n      Deputy Secretary of Agriculture. It does not alter or supersede the policies or procedures\n      for the handling of documents established in other Departmental Directives, except with\n      regard to the dispatch of the document to and from the Immediate Office of the Secretary."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "04411c49-fdb4-5439-8b61-2c651c702ac5",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3060-002-2",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3060-002-2-stmt",
+                "name": "statement",
+                "prose": "a. Official documents prepared for review and signature by the Secretary or Deputy\n         Secretary of Agriculture shall be transmitted to the Immediate Office of the Secretary\n         through the Office of the Executive Secretariat (OES), and once signed will be\n         returned to the appropriate official through OES.\n\n      b. This regulation does not apply to Sensitive Security Information or National Security\n         Classified documents, which shall be handled in accordance with DR3440-01, USDA\n         Classified National Security Information Program Regulation, and DR3440-02,\n         Control and Protection of Sensitive Security Information."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8d6c7497-4518-5cf9-9704-f04ce0f879a9",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr3060-002-3",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr3060-002-3-stmt",
+                "name": "statement",
+                "prose": "a.   DR0100-001, Departmental Directives System;\n      b.   DM1260-001, Legislative Reports and Proposals;\n      c.   DR1410-001, Publications Review/Clearance Policy;\n      d.   DR3060-001, Correspondence Management;\n      e.   DR3080-001, Records Management;\n      f.   DR3440-01, USDA Classified National Security Information Program; and,\n      g.   DR3440-02, Control and Protection of Sensitive Security Information."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0ed7a96e-863d-54fb-adb3-3166f72f0310",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr3060-002-4",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr3060-002-4-stmt",
+                "name": "statement",
+                "prose": "a. Agency refers to a bureau, mission area, and Departmental staff office, as defined in\n        DR1010-001, Organization.\n\n     b. Immediate Office of the Secretary refers to the office containing the Secretary,\n        Deputy Secretary, and their immediate staff.\n\n     c. Office of the Secretary refers to the office containing the Immediate Office of the\n        Secretary, the offices of all Under and Assistant Secretaries, and Departmental Staff\n        Offices which report directly to the Secretary.\n\n     d. Official Document refers to all documents prepared, developed, reviewed, or utilized\n        in the course carrying out official duties and responsibilities.\n\n     e. Secretarially Signed Document refers to official documents prepared by agencies,\n        Mission Areas, and offices for review and signature by the Secretary or Deputy\n        Secretary of Agriculture. Examples of Secretarially Signed Documents include\n        correspondence, decision memorandums, Departmental Directives, and certificates."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f2a222ab-1d6a-5f5c-b78a-ca89a023837e",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr3060-002-5",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr3060-002-5-stmt",
+                "name": "statement",
+                "prose": "a. Officials preparing official documents for review and signature by the Secretary or\n        Deputy Secretary shall:\n\n        (1) Deliver all documents for review and signature by the Secretary or Deputy\n            Secretary to the Office of the Executive Secretariat;\n\n        (2) Ensure all documents have been reviewed and cleared by all appropriate officials,\n            and that the document is accompanied by adequate supporting information to\n            enable the Secretary or Deputy Secretary to assess the full implications of signing\n            the document.\n\n     b. The Office of the Executive Secretariat (OES) shall:\n\n        (1) Track all documents submitted by Under Secretaries, Assistant Secretaries,\n            Agency Heads, and Staff Office Directors for review and signature by the\n            Secretary or Deputy Secretary;\n\n        (2) Transmit documents to the Immediate Office of the Secretary in a timely manner;\n\n        (3) Distribute returned documents in accordance with instructions from the Office of\n            the Secretary and the office that prepared the document; and,\n\n        (4) Maintain copies of all Secretarially Signed Documents as part of the Official\n            Records of the Office of the Secretary.\n\n\n                                             2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0739383e-4c40-539c-b9a7-d8be34204b67",
+        "class": "section",
+        "title": "Records Management",
+        "controls": [
+          {
+            "id": "dr3060-002-6",
+            "class": "policy-requirement",
+            "title": "Records Management",
+            "parts": [
+              {
+                "id": "dr3060-002-6-stmt",
+                "name": "statement",
+                "prose": "a. All documents shall be managed and preserved in accordance with the Federal\n        Records Act, Departmental and Agency regulations, applicable record schedules, and\n        all other applicable guidance.\n\n     b. Secretarially Signed Documents, and all associated records generated during the\n        analysis, drafting, and clearance of documents, are part of the Official Records of the\n        Office of the Secretary, and shall be stored, handled, and preserved in accordance\n        with guidance provided by OES, the Departmental Records Officer, and the General\n        Counsel.\n\n\n\n\n                                              3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "14c037aa-c6c6-5cac-9115-a9e4801bc619",
+          "title": "USDA Directives — DR3060-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3060-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

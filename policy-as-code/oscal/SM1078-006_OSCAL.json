@@ -1,0 +1,225 @@
+{
+  "catalog": {
+    "uuid": "bee5dda9-2b0c-5e2b-aaa4-1134fe35307f",
+    "metadata": {
+      "title": "USDA SM1078-006: Increasing Timber Production and Designating an Emergency Situation on National Forest System Lands",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2025-04-03",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1078-006"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2025-04-03"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1078-006",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1078-006",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "3d729e7c-321b-5479-80f1-58dfdefdba38",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "sm1078-006-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "sm1078-006-1-stmt",
+                "name": "statement",
+                "prose": "Executive Order (EO) 14225, Immediate Expansion ofAmerican Timber Production\n  (March 1, 2025), highlights the importance of timber production and how forest\n  management and wildfire risk reduction projects can save American lives and\n  communities. The United States has an abundance of timber resources that are more than\n  adequate to meet our domestic timber production needs, but heavy-handed federal\n  policies have prevented full utilization of these resources and made us reliant on foreign\n  producers. It is vital that we reverse these policies and increase domestic timber\n  production to protect our national and economic security. We can manage our forests to\n  better provide domestic timber supply, create jobs and prosperity, reduce wildfire\n  disasters, improve fish and wildlife habitats, and decrease costs of construction and\n  energy. This Secretarial Memorandum details the actions I am directing the Forest\n  Service to take in response to EO 14225."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1ac0aac7-fb5b-500f-8591-5a7fd36219f8",
+        "class": "section",
+        "title": "Authorities",
+        "controls": [
+          {
+            "id": "sm1078-006-2",
+            "class": "policy-requirement",
+            "title": "Authorities",
+            "parts": [
+              {
+                "id": "sm1078-006-2-stmt",
+                "name": "statement",
+                "prose": "This Memorandum is issued under the authority of the Organic Administration Act of\n  1897 (16 U.S.C. §§ 472-475, 477-482, 551); Multiple-Use Sustained-Yield Act of 1960\n  (16 U.S.C. §§ 528-531), Forest and Rangeland Renewable Resources Planning Act of\n  1974, as amended (16 U.S.C. §§ 1601-1613), and the Infrastructure, Investment, and Jobs\n  Act (16 U.S.C. 6592c); as well as other statutory authorities governing the management,\n  administration and protection of the National Forest System (NFS). Other authorities\n  include, but are not limited to, EO 14225."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9305d5d1-2904-53ef-805a-23cb2fd0aa05",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "sm1078-006-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "sm1078-006-3-stmt",
+                "name": "statement",
+                "prose": "National Forests are in crisis due to uncharacteristically severe wildfires, insect and\n  disease outbreaks, invasive species, and other stressors whose impacts have been\n  compounded by too little active management. For example:\n\n      •   The 2023 Wildfire Hazard Potential for the Unites States report identifies\n          66,940,000 acres of NFS lands under a very high or high fire risk.\n\n     •    Roughly 78,800,000 acres of NFS lands are already experiencing, or are at risk of\n          experiencing, insect and disease infestations.\n\n  These threats-combined with overgrown forests, a growing number of homes in the\n  wildland-urban interface, and more than a century of rigorous fire suppression- have all\n  contributed to what is now a full-blown wildfire and forest health crisis.\n\n  The Forest Service manages 144 million forested acres in 43 States. Forest plans identify\n  approximately 43 million acres suitable for timber production. Over the last five years,\n  the Forest Service has sold an average 3 billion board feet annually.\n\n  Immediate action is needed to mitigate risk, protect public health and safety and critical\n  infrastructure, support local and rural economies, and mitigate threats to natural resources\n  on NFS lands. We can do more to contribute to American prosperity and protect our\n  national and economic security."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "488efaab-7028-5b7d-a74e-5b1461638201",
+        "class": "section",
+        "title": "Directive",
+        "controls": [
+          {
+            "id": "sm1078-006-4",
+            "class": "policy-requirement",
+            "title": "Directive",
+            "parts": [
+              {
+                "id": "sm1078-006-4-stmt",
+                "name": "statement",
+                "prose": "a. EMERGENCY SITUATION DETERMINATION\n\n  To address this crisis, I am making an Emergency Situation Determination (ESD) under\n  section 40807 of the Infrastructure Investment and Jobs Act (IIJA). This ESD\n  encompasses 66,940,000 acres of NFS lands rated as very high or high wildfire risk that\n  are hereby determined to be an emergency situation as defined by IIJA. In addition, I\n  have determined that the 78,800,000 acres of NFS lands designated under Section 602 of\n  the Healthy Forest Restoration Act (HFRA), that are experiencing declining forest health;\n  at risk of experiencing substantially increased tree mortality over the next 15 years [from\n  time of designation] from insect and disease infestation; or containing hazard trees posing\n  an imminent risk to public health, infrastructure, and safety, are an emergency situation\n  as defined in the IIJA. There are approximately 33,846,000 acres of NFS lands which\n  overlap between wildfire and insect and disease risk. In total, this ESD designates\n  112,646,000 acres of NFS lands as an IIJA emergency situation, which is 59 percent of\n  all NFS lands. See Map #I Forest Health and Fuels Emergency Situation Determination.\n  I am also providing federally recognized Tribes, Alaska Native Corporations, and States\n  the ability to request additional areas to be included in this ESD under IIJA section 40807\n  through the Regional Forester to the Chief of the Forest Service for approval.\n\n                                            2\n\fActions taken pursuant to this ESD will support improving the durability, resilience, and\nresistance to fire, insects, and disease within forests and grasslands across the National\nForest System.\n\nConsistent with IIJA section 40807 and this determination, the Forest Service may carry\nout authorized emergency actions after an ESD is declared to achieve relief from threats\nto public health and safety, critical infrastructure, and/or mitigation of threats to natural\nresources on NFS lands. These actions will improve the durability, resilience, and\nresistance to fire, insects, and disease within national forests and grasslands across the\nNational Forest System. To be eligible to use this authority, at least 50 percent of the\ntreatment areas supporting this authorized emergency action must be within the\ndesignated areas.\n\nProposals using the special emergency action procedures at IIJA section 40807 shall:\n\n    •   Reduce wildland fire risk to communities, critical infrastructure, or key ecological\n        values; or\n    •   Reduce/mitigate post fire risks needed to protect communities, critical\n        infrastructure, or key ecological values; or\n    •   Reduce hazardous fuels by removing or modifying vegetation to lower the risk of\n        wildfires; or\n    •   Reduce the density of fire-dependent forests; or\n    •   Support the durability and resiliency of forests and grasslands; or\n    •   Reduce hazardous fuels to help make wildfire response, as well as ingress or\n        egress, safer and more effective; and\n    •   Be authorized by the Forest or Grassland Supervisor.\n\nAuthorized emergency actions to respond to emergency situations include the:\n\n    •   Salvage of dead or dying trees;\n    •   Harvest of trees damaged by wind or ice [Note: or other natural disasters];\n    •   Commercial and noncommercial sanitation harvest of trees to control insects or\n        disease, including trees already infested with insects or disease;\n    •   Reforestation or replanting of fire impacted areas through planting, control of\n        competing vegetation, or other activities that enhance natural regeneration and\n        restore forest species [Note: the restoration of forest species includes prevention,\n        suppression, and eradication of insect, disease and invasive species outbreaks];\n    •   Removal of hazardous trees in close proximity to roads and trails;\n    •   Removal of hazardous fuels;\n    •   Restoration of water sources or infrastructure [Note: the restoration of water\n        sources includes watersheds];\n    •   Reconstruction of existing utility lines; and\n    •   Replacement of underground cables.\n\n\n\n                                           3\n\fAny required environmental assessment or environmental impact statement for an\nauthorized emergency action requires analysis of only the proposed action and the no\naction alternative and is not subject to the project-level pre-decisional administrative\nreview (\"objections\") or any processes set forth in 36 CFR Part 218.\n\nb. OTHER EMERGENCY AUTHORITIES\n\nThe IIJA section 40807 authority is one of several tools that can be used to achieve\nexpedited compliance around emergencies. Within designated areas, the Forest Service\nshall deploy, or continue to deploy, other emergency authorities including:\n\n    •   Emergency and direct hire authorities (including hiring Tribal crews to implement\n        and monitor);\n    •   Expedited contracting authorities or mechanisms, including virtual incident\n        procurement (VIPR), sole source contracting, and USDA contracting authorities\n        and include Tribes within that effort;\n    •   Expedited grant and agreement authorities or mechanisms, including with Tribes;\n    •   Exemptions, waivers, expanded inclusions, and expedited mechanisms for\n        emergency programs on joint efforts with USDA agencies and Tribes;\n    •   Emergency consultation to comply with the Endangered Species Act;\n    •   Emergency and programmatic consultation to comply with the National Historic\n        Preservation Act (NHPA);\n    •   Emergency procedures to comply with the Clean Water Act (CWA); and\n    •   Expedited permitting, certification, and qualification processes as defined in\n        Fore st Service directives or as directed by the Chief.\n\nAdditional administrative authorities within the Forest Service Chief's discretion may\nalso be deployed to deliver emergency and expedited response. Nothing herein changes\nthe requirement for Tribal consultation but may require expedited consultation time\nframes under certain conditions. In scenarios where Tribal consultation time frames need\nto be expedited, the Forest Service shall notify Natural Resources and Environment.\n\nThe agency shall use IIJA Section 40807 where authorized emergency actions can\nfacilitate current and future post-disaster recovery actions within the scope of this\nEmergency Situation Determination.\n\nc. TIMBER PRODUCTION AND SOUND FOREST MANAGEMENT\n\nIn order to increase domestic jobs and prosperity, increase economic independence, and\nprotect our national security, the Forest Service will:\n\n    •   Issue new or updated guidance to increase timber production, decrease the time to\n        offer timber supply, and increase certainty in future timber supply. This guidance\n        should include use of Good Neighbor Authority, stewardship contracting, and\n        agreements or contracts under the Tribal Forest Protection Act;\n\n\n                                          4\n\f     •    Streamline, to the extent allowable by law, all processes related to timber\n          production, including project planning, decision-making, implementation\n          (including preparation, appraisals and measurements), and required certifications;\n     •    Develop a strategy to improve the efficiency of delivering the timber program and\n          increase quantity and consistency in volume offered; and\n     •    Identify legislative proposals that would improve timber production and sound\n          forest management.\n\n  d. SHARED STEWARDSHIP AGREEMENTS\n\n  The Forest Service will work with State and local partners and federally recognized\n  Tribes to collaboratively align with their respective priorities. Many States and Tribes\n  have Forest Action Plans that prioritize critical treatment needs, and this memo directs\n  the Forest Service to work with States and Tribes to also prioritize these areas and\n  projects. Given the urgency and cross-jurisdictional nature of the current crisis, the Forest\n  Service shall work quickly to proactively update and expand Shared Stewardship\n  Agreements to bring the full power of our partners to help address this emergency.\n  Immediate implementation of actions under this ESD should proceed concurrently with\n  the updating and creation of these agreements.\n\n  e. REPORTING\n\n  Each calendar year, the Forest Service shall report to Natural Resources and Environment\n  on the use of emergency authorities that will include those actions taken pursuant to this\n  Forest Health and Fuels Reduction Emergency Situation Determination detailing:\n\n      •   Status of any ongoing environmental analysis or compliance actions;\n      •   Listing of completed (signed decision) or future compliance actions;\n      •   Status of any ongoing consultation, including the National Historic Preservation\n          Act and Endangered Species Act;\n      •   Status of any ongoing coordination with local or state emergency management\n          offices or other federal agencies;\n      •   Status of coordination and consultation with federally recognized Tribal\n          governments and/or Alaska Native Corporations; and\n      •   Listing of any completed (implemented on the ground) or future mitigating\n          emergency actions, to include number of acres treated or anticipated to be treated."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "98cad937-5ffb-57b7-a05b-ac49480f6149",
+        "class": "section",
+        "title": "Implementation",
+        "controls": [
+          {
+            "id": "sm1078-006-5",
+            "class": "policy-requirement",
+            "title": "Implementation",
+            "parts": [
+              {
+                "id": "sm1078-006-5-stmt",
+                "name": "statement",
+                "prose": "The Under Secretary for Natural Resources and Environment is responsible for\n  implementing all aspects of this memo, in coordination with the Office of General\n  Counsel. In the absence of an Under Secretary, the Chief of the U.S. Forest Service will\n  carry out the responsibilities assigned in this Memo.\n\n\n\n\n                                            5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7419b11d-c66b-5206-850f-ffeec33332c7",
+        "class": "section",
+        "title": "Effects Of This Memo",
+        "controls": [
+          {
+            "id": "sm1078-006-6",
+            "class": "policy-requirement",
+            "title": "Effects Of This Memo",
+            "parts": [
+              {
+                "id": "sm1078-006-6-stmt",
+                "name": "statement",
+                "prose": "This memo is intended to improve the internal management of the Department and to\n  assure implementation of the above-referenced Executive Order. This memo and any\n  resulting report or recommendations are not intended to, and do not create, any right or\n  benefit, substantive or procedural, enforceable at law or equity by a party against the\n  United States, its departments, agencies, instrumentalities or entities, its officers or\n  employees, or any other person. To the extent there is any inconsistency between the\n  provisions of this memo and any federal laws or regulations, the laws or regulations will\n  control."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4063968e-b933-5692-a086-0a661220ed23",
+        "class": "section",
+        "title": "Effective Date",
+        "controls": [
+          {
+            "id": "sm1078-006-7",
+            "class": "policy-requirement",
+            "title": "Effective Date",
+            "parts": [
+              {
+                "id": "sm1078-006-7-stmt",
+                "name": "statement",
+                "prose": "This memo is effective immediately.\n\n\n\n\n                                       Isl Brooke L. Rollins\n                                       Secretary\n                                       U.S. Department of Agriculture\n\n\n\n\n                                           6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "9f68d7a9-b81e-5088-8427-0b7c6c50f98a",
+          "title": "USDA Directives — SM1078-006",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1078-006",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "catalog": {
+    "uuid": "4d0ef26b-06e0-58af-9f29-f791f85e8fa0",
+    "metadata": {
+      "title": "USDA DR5600-005: Environmental Management (2/28/22)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "Unknown",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR5600-005"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "Unknown"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-5600-005",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Property and Environmental Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-5600-005",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Property and Environmental Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "7d27accc-4236-5918-9278-9094b3a87f87",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr5600-005-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr5600-005-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) policy for protecting human health and the environment through pollution\n     prevention, control, and abatement measures. The DR also establishes policy to minimize\n     USDA’s potential liability by ensuring environmental cleanup and compliance with\n     applicable Federal, State and local laws. This DR does not establish policy related to\n     requirements under the National Environmental Policy Act (NEPA) or environmental\n     regulations related to natural and cultural resource management, except as those apply to\n     environmental response and cleanup actions. Appendix C, Authorities and References,\n     contains a list of key Federal environmental laws, regulations, and executive orders. All\n     States and many localities have related laws and ordinances."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "049e0dad-c06f-528c-a58a-901e923ffc21",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr5600-005-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr5600-005-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR, along with DR 5600-006, Sustainable Operations, supersedes DR 5600-005,\n          Environmental Management, dated September 24, 2012.\n\f  b.   Procedures related to this DR are provided in Departmental Manual (DM) 5600-001,\n       Environmental Pollution Prevention, Control, and Abatement Manual."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "59dae322-3319-59f7-b575-6120d02ba4b4",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr5600-005-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr5600-005-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, and staff offices:\n\n  a.   It applies to all USDA facilities and properties, owned or leased (hereafter referred to as\n       USDA properties); and all activities conducted on USDA properties.\n\n  b.   It applies to all activities performed by USDA’s employees and appointees.\n\n  c.   It applies to activities performed by USDA’s contractors, permittees, grantees, and\n       concession partners, when they are conducting those activities on USDA properties.\n\n  d.   It applies to activities performed on non-USDA properties by USDA’s contractors when\n       conducting or supporting environmental response or compliance actions under contract\n       to a Mission Area, agency, or staff office."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e799c06f-ed39-59d3-b403-30280783cfa1",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr5600-005-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr5600-005-4-stmt",
+                "name": "statement",
+                "prose": "USDA’s environmental management policy is as follows:\n\n  a.   General\n\n       (1) Protect human health and the environment.\n\n       (2) Comply with all applicable Federal, State, and local environmental laws and\n           requirements, including, but not limited to, the laws, regulations, and executive\n           orders listed in Appendix C.\n\n       (3) Respond to and clean up spills and releases and restore the environment.\n\n       (4) Consider disaster resilience and sustainable practices in all actions and implement\n           those practices when feasible.\n\n       (5) Establish and follow procedures to monitor and improve environmental compliance.\n\n       (6) Prepare Environmental Compliance Plans (ECP) to monitor and improve\n           environmental compliance that include:\n\n            (a) Training requirements for USDA staff with environmental duties;\n\n            (b) An audit plan and schedule; and\n\n\n\n                                               2\n\f         (c) Procedures for tracking audit findings, notices of violation (NOV), other\n             notices of noncompliance, and the corrective actions to resolve them.\n\n     (7) Conduct environmental compliance audits at least once every 5 years at Mission\n         Areas, agencies, and staff offices that store chemicals in facilities.\n\n     (8) Use Environmental Management Systems (EMS) where appropriate. Implement\n         and maintain effective management tools.\n\n     (9) Train staff in environmental compliance and response.\n\nb.   Environmental Preparedness and Emergency Response\n\n     (1) Partner with Federal, State, and local agencies on the National Response Team\n         (NRT) and Regional Response Teams (RRT).\n\n     (2) Support Federal, State, regional, and local efforts to plan for, respond to, and\n         recover from oil spills and hazardous substance releases.\n\n     (3) Conduct natural resource damage assessments and remediate and restore impacted\n         resources. Seek reimbursement from the potentially responsible parties (PRP).\n\n     (4) For oil spills to the waters of the United States, seek reimbursement for all relevant\n         activities and natural resource damages from the PRP. For costs not reimbursed by\n         a PRP, seek reimbursement from the Oil Spill Liability Trust Fund (OSLTF).\n\n     (5) Train USDA employees in preparedness and emergency response activities.\n\nc.   Environmental Cleanup\n\n     (1) Maintain a USDA-wide inventory of potentially contaminated sites and track\n         progress in addressing the sites identified as contaminated.\n\n     (2) Fund cleanup response actions.\n\n     (3) Perform investigations and cleanups or oversee cleanups using USDA’s authority\n         under the Comprehensive Environmental Response, Compensation, and Liability\n         Act (CERCLA), as amended.\n\n     (4) Perform investigations and cleanups under the Resource Conservation and\n         Recovery Act of 1976 (RCRA), as amended, 42 United States Code (U.S.C.) § 6901\n         or other state regulatory programs, when required by state or Federal regulatory\n         authorities.\n\n     (5) Use interim remedies where appropriate to manage risk.\n\n\n\n                                             3\n\f     (6) Consider agency-determined natural resource and land use goals when selecting\n         remedies.\n\n     (7) Prefer remedies that remove all waste and contaminants to minimize restrictions on\n         land use.\n\n     (8) Ensure PRPs perform cleanups or pay for USDA’s cleanup costs.\n\n     (9) When other entities, including Federal agencies, perform response actions on\n         USDA land or facilities:\n\n         (a) Use formal agreements that govern access to the land for assessment and\n             response actions;\n\n         (b) Review plans and decisions to ensure all proposed actions meet USDA’s\n             policies and requirements; and\n\n         (c) Use formal post-remediation operations and maintenance agreements for\n             remedies that leave waste in place to document the land use restrictions and\n             responsibilities of each party in maintaining controls.\n\n     (10) Assess natural resource damages and seek cost recovery from PRPs.\n\n     (11) Train USDA employees conducting environmental response actions.\n\nd.   Environmental Liability\n\n     (1) Perform environmental site assessments (ESA) and other environmental due\n         diligence for all real property acquisitions including the purchase, lease, transfer,\n         exchange, donation, or gift of real property.\n\n     (2) Include notification of hazardous substance activity and all other necessary\n         environmental information in the title report for all real property disposals, as\n         appropriate.\n\n     (3) Minimize liability and financial risk related to real property acquisitions and\n         conveyances.\n\n     (4) Support community revitalization efforts for brownfields, when appropriate.\n\n     (5) Prohibit the placement of new landfills on USDA land.\n\n\n\n\n                                              4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6920d94b-5550-509b-ae22-9173b508f972",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr5600-005-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr5600-005-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Assistant Secretary for Administration will oversee the USDA’s environmental\n       management program.\n\n  b.   The USDA Sustainable Operations Council will advise USDA’s environmental\n       management programs (see DR 1058-001, Sustainable Operations Council).\n\n  c.   The Director of the Office of Property and Environmental Management (OPEM) will:\n\n       (1) Develop and implement policy, standards, procedures, and guidance for:\n\n           (a) Environmental compliance;\n\n           (b) Preventing, controlling, and abating pollution;\n\n           (c) Waste management;\n\n           (d) Management of oils, hazardous substances, pollutants, and contaminants;\n\n           (e) Environmental due diligence for real property transactions;\n\n           (f) EMS; and\n\n           (g) Environmental program training for USDA managers and employees;\n\n       (2) Represent USDA on interagency teams and in responding to requests regarding\n           USDA’s environmental programs, including:\n\n           (a) Consult or work with other Federal agencies to develop policies for Federal\n               facilities’ compliance with applicable pollution control laws, including:\n\n               1    U.S. Environmental Protection Agency (EPA);\n\n               2    White House’s Council on Environmental Quality; and\n\n               3    Office of Management and Budget;\n\n           (b) Represent USDA on the NRT:\n\n               1    Participate in NRT member and subcommittee meetings;\n\n               2    Lead USDA planning and preparedness activities; and\n\n               3    Coordinate support for emergency spill response, when the NRT is\n                    activated;\n\n\n\n                                              5\n\f    (c) Coordinate USDA support to the Federal Emergency Management Agency\n        (FEMA) through Emergency Support Function (ESF) #10, Oil and Hazardous\n        Materials Response, when ESF#10 is activated;\n\n    (d) Coordinate USDA support for Brownfields redevelopment; and\n\n    (e) Coordinate, prepare, and submit USDA-wide reports to oversight entities;\n\n(3) Manage resources and provide support to the Mission Area, agency, and staff office\n    environmental programs, including:\n\n    (a) Prepare an annual budget request for program funding needs;\n\n    (b) Manage the Hazardous Materials Management Appropriation (HMMA);\n\n    (c) Manage the USDA Forest Service New World Mine Response and Restoration\n        account pursuant to Public Law 105-83 Section 502, Department of the Interior\n        and Related Agencies Appropriations Act, 1998, Protection and Preservation\n        of Yellowstone National Park-Acquisition of Crown Butte Mining Interests;\n\n    (d) Maintain a USDA-wide inventory of potentially contaminated sites and track\n        progress in addressing those sites identified as contaminated. These sites are\n        currently recorded in the National Environmental Accomplishment Tracking\n        (NEAT) system;\n\n    (e) Support the RRT members in planning for and responding to oil spills and\n        releases of hazardous substances, pollutants, and contaminants; and\n\n    (f) Take actions as may be necessary to require response action under CERCLA\n        Sections 106(a) and 122 (except subsection (b)(1)), with the affected agency\n        head and with the concurrence of the USDA Office of the General Counsel\n        (OGC). These actions include issuing administrative orders and agreements\n        with any person or entity;\n\n(4) Monitor Mission Area, agency, and staff office environmental programs and work\n    with them to improve identified deficiencies, including:\n\n    (a) Monitor CERCLA and RCRA cleanup projects;\n\n    (b) Monitor enforcement and track cost recovery efforts from PRPs;\n\n    (c) Oversee resolution of NOVs;\n\n    (d) Review agency ESA reports in compliance with EPA’s All Appropriate\n        Inquiries (AAI) Rule found in 42 United States Code (U.S.C) § 9601\n\n\n\n                                       6\n\f              (35)(B)(i)(I), Hazardous Substances Releases, Liabilities, and Compensation,\n              Definitions, for acquisitions or notification of hazardous substance activities\n              for disposals, in conjunction with the requirements provided in DR 5100-004,\n              Real Property Management when:\n\n              1    OPEM approval of the acquisitions and disposals is required as specified\n                   in DR-5100-004, Section 4a(6), including:\n\n                   a   All property acquisitions for unimproved land;\n\n                   b   All property acquisitions for improved land, valued at $1,500,000 or\n                       more; and\n\n                   c   All disposal of property valued over $50,000; and\n\n              2    OPEM review is required prior to the foreclosure on commercial, farm, or\n                   other non-residential properties covered by a USDA loan program; and\n\n         (e) Conduct periodic, comprehensive environmental management program\n             reviews.\n\nd.   USDA Mission Area, Agency, or Staff Office Heads, as appropriate, will:\n\n     (1) Ensure Mission Area, agency, and staff offices comply with pollution control laws,\n         regulations, and policies;\n\n     (2) Involve all relevant staff in USDA’s environmental management programs;\n\n     (3) Assign an Environmental Program Manager to lead reporting and compliance;\n\n     (4) Assign Remedial Project Managers (RPM) and On-Scene Coordinators (OSC) to\n         direct response efforts for releases of hazardous substances, pollutants, or\n         contaminants. The responsibilities for these positions are specified in 40 Code of\n         Federal Regulations (CFR) § 300.120, National Oil and Hazardous Substances\n         Pollution Contingency Plan (NCP), On-scene coordinators and remedial project\n         managers: general responsibilities;\n\n     (5) Provide appropriate training for OSCs, RPMs, and other response personnel to carry\n         out responsibilities, in accordance with 40 CFR § 300.120;\n\n     (6) Fund cleanup response actions;\n\n     (7) Identify PRPs and recover costs to pay for spill cleanup and response actions on\n         USDA property;\n\n     (8) Pursue PRPs to pay for natural resource damages on USDA property;\n\n\n\n                                            7\n\f(9) Recover eligible costs from the OSLTF for oil spill response activities and natural\n    resource damages that are not reimbursed by a PRP;\n\n(10) Prepare ESA reports compliant with EPA’s AAI rule (acquisitions) and provide\n     notifications of hazardous substance activity in the title reports (disposals) for real\n     property acquisitions and disposals;\n\n(11) Maintain a cumulative inventory of:\n\n    (a) Spills of oil and hazardous substances above reportable quantities;\n\n    (b) Locations on USDA-managed lands where hazardous substances have been\n        stored for at least 1 year; and\n\n    (c) Potential or known contaminated sites, resulting from historic releases;\n\n(12) Coordinate with OGC when:\n\n    (a) Pursuing PRPs to recover costs; and\n\n    (b) Preparing ESA reports and notifications of hazardous substance activity for\n        real property acquisitions and disposals;\n\n(13) Notify OPEM and OGC in writing of the following occurrences:\n\n    (a) Upon receipt of an NOV;\n\n    (b) When a spill or release of oil, hazardous substance, pollutant, or contaminant at\n        a reportable quantity occurs on USDA-managed land requiring any activation\n        of the RRT, including for calls regarding applying amendments or controlled\n        burns;\n\n    (c) When a USDA agency participates in an RRT activation for a spill on non-\n        USDA lands; and\n\n    (d) When entering into a partnership that results in a joint or sole responsibility for\n        long term maintenance and operation of hazardous substances, or waste\n        disposal sites (e.g., waste repositories or waste-water treatment systems);\n\n(14) Submit for OPEM and OGC review ESA reports on proposed USDA loan\n     foreclosures of commercial property, farms, and other non-residential property;\n\n(15) Submit for OPEM and OGC review and OPEM approval, as also required in the DR\n     5100-004:\n\n\n\n\n                                          8\n\f         (a) ESA reports for all property acquisitions for unimproved land;\n\n         (b) ESA reports for improved land, valued at $1,500,000 or more; and\n\n         (c) Notifications of hazardous substance activity to be included in the offer of\n             purchase and conveyance document on all disposal of property valued over\n             $50,000; and\n\n     (16) Report environmental program status to OPEM each fiscal year, in accordance with\n          OPEM’s year-end, data call.\n\ne.   The Chief, USDA’s Forest Service (FS), in addition to duties listed in Section 5d, will:\n\n     (1) Represent USDA on each of the 13 RRTs and fund expenses incurred by the USDA\n         FS employees’ preparedness activities in this role;\n\n     (2) Provide support to the EPA and the United States Coast Guard (USCG) when the\n         RRTs are activated under 40 CFR Part 300, the NCP;\n\n     (3) Provide support to FEMA through ESF #10, Oil and Hazardous Materials\n         Response, when activated;\n\n     (4) Coordinate with the USDA Mission Areas, agencies, and staff offices to provide\n         additional resources needed to support the RRT response effort, when activated;\n         and\n\n     (5) Track costs of USDA’s response actions for reimbursement by the OSLTF or the\n         potentially responsible party.\n\nf.   The Environmental Program Manager will:\n\n     (1) Support the head of their Mission Area, agency, or staff office, as appropriate, in\n         managing the Environmental Management Program;\n\n     (2) Coordinate with OPEM as the single point of contact for the Mission Area, agency,\n         or staff office environmental program;\n\n     (3) Create and maintain an ECP(s);\n\n     (4) Implement compliance review and audit procedures;\n\n     (5) Track and correct audit findings;\n\n     (6) Evaluate any NOVs and develop and implement corrective actions;\n\n     (7) Create EMSs at appropriate locations or facilities; and\n\n\n\n                                             9\n\f       (8) Maintain a site inventory and environmental accomplishment information in the\n           USDA’s inventory management system, currently NEAT.\n\n  g.   The USDA General Counsel will:\n\n       (1) Assist OPEM and USDA Mission Areas, agencies, and staff offices with response,\n           enforcement, and cost recovery activities;\n\n       (2) Provide legal review for proposed real property transactions involving known or\n           suspected contamination;\n\n       (3) Provide legal review for proposed USDA loan foreclosures involving known or\n           suspected contamination; and\n\n       (4) Advise OPEM and Mission Areas, agencies, and staff offices on environmental\n           compliance requirements and activities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "70975935-a365-50cd-920b-a146dcea0c32",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr5600-005-6",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr5600-005-6-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices must send inquiries regarding this DR\n  to OPEM at SM.OPEM.EMD@usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                             10\n\f                             APPENDIX A\n\n                 ACRONYMS AND ABBREVIATIONS\n\n\nAAI      All Appropriate Inquiries\nCAA      Clean Air Act\nCERCLA   Comprehensive Environmental Response, Compensation, and Liability Act\nCFR      Code of Federal Regulations\nCWA      Clean Water Act\nDM       Departmental Manual\nDR       Departmental Regulation\nECP      Environmental Compliance Plan\nEMS      Environmental Management System\nEPA      U.S. Environmental Protection Agency\nEPCRA    Emergency Planning and Community Right-to-Know Act\nESA      Environmental Site Assessment\nESF#10   Emergency Support Function 10 – Oil and Hazardous Materials Response\nFEMA     Federal Emergency Management Agency\nFIFRA    Federal Insecticide, Fungicide, and Rodenticide Act\nFR       Federal Register\nFS       Forest Service\nFWPCA    Federal Water Pollution Control Act\nHMMA     Hazardous Materials Management Appropriation\nISO      International Organization for Standards\nNCP      National Contingency Plan\nNEAT     National Environmental Accomplishment Tracking\nNEPA     National Environmental Policy Act\nNOV      Notice of Violation\nNPFC     National Pollution Funds Center\nNRT      National Response Team\nOGC      Office of the General Counsel\nOPA      Oil Pollution Act\nOPEM     Office of Property and Environmental Management\nOSC      On-Scene Coordinator\nOSLTF    Oil Spill Liability Trust Fund\nPPA      Pollution Prevention Act\nPRP      Potentially Responsible Party\nRCRA     Resource Conservation and Recovery Act\nRPM      Remedial Project Manager\nRRT      Regional Response Team\nSDWA     Safe Drinking Water Act\nTSCA     Toxic Substances Control Act\nU.S.C.   United States Code\nUSCG     United States Coast Guard\nUSDA     United States Department of Agriculture\n\n\n\n                                  A-1\n\f                                         APPENDIX B\n\n                                        DEFINITIONS\n\nAgency. Organizational units of the Department, other than staff offices as defined below,\nwhose heads report to officials within the Office of the Secretary, Deputy Secretary, Under\nSecretaries, Assistant Secretaries, and Assistant to the Secretary. (Source: USDA, DR 0100-\n001, Departmental Directives System)\n\nAll Appropriate Inquiries. An inquiry into the previous ownership and uses of a facility in\naccordance with generally accepted good commercial and customary standards and practices,\nthat are codified in 40 CFR § 312, Innocent Land Owners, Standards for Conducting All\nAppropriate Inquiries. (Source: 42 U.S.C. § 9601(35)(B)(i)(I), Hazardous Substances Releases,\nLiabilities, and Compensation, Definitions)\n\nBrownfields. A “brownfield site” means real property, the expansion, redevelopment, or reuse\nof which may be complicated by the presence or potential presence of a hazardous substance,\npollutant, or contaminant. (Source: 42 U.S.C. § 9601(39)(A), Hazardous Substances Releases,\nLiabilities, and Compensation, Brownfield Site)\n\nEnvironmental Management System (EMS). Part of an organization's management system used\nto develop and implement its environmental policy and manage its activities, products, or\nservices that can interact with the environment. (Source: International Organization for\nStandardization, International Standard ISO 14001:2015, Environmental Management Systems –\nRequirements for Guidance and Use)\n\nEnvironmental Program Manager. The single Mission Area, agency, or staff office point of\ncontact who leads the implementation of environmental regulations, DR 5100-004, Real\nProperty Management, and reporting activities on behalf of the Mission Area, agency(ies), or\nstaff office under their assignment.\n\nHazardous Substance. Elements, compounds, and wastes designated in Table 302.4—List of\nhazardous substances and reportable quantities. (Source: 40 CFR § 302.4, NCP, Designations\nof Hazardous Substances)\n\nMission Area. A group of agencies with related functions that report to the same Under or\nAssistant Secretary. Research, Education, and Economics is an example of a Mission Area.\n(Source: USDA, DR 0100-001)\n\nNotice of Violation (NOV). Any written notice from a Federal, State, or local entity with\nauthority to enforce environmental laws and regulations to a Mission Area, agency, or staff\noffice stating they have violated an environmental law or other requirement.\n\nOil. Oil of any kind or in any form, including petroleum, fuel oil, sludge, oil refuse, and oil\nmixed with wastes other than dredged spoil, but does not include any substance which is\nspecifically listed or designated as a hazardous substance under subparagraphs (A) through (F) of\n\n\n\n                                              B-1\n\fSection 101(14) of CERCLA of 1980 and which is subject to the provisions of that Act. (Source:\n33 U.S.C § 2701, Oil Pollution Liability and Compensation)\n\nOil Spill. Also, oil discharge. An occurrence or series of occurrences having the same origin,\ninvolving one or more vessels, facilities, or any combination thereof, resulting in the discharge or\nsubstantial threat of discharge of oil into or upon navigable waters of the United States, adjoining\nshorelines, or the exclusive economic zone. (Source: USCG, National Pollution Funds Center\n(NPFC) User Reference Guide, USCG NPFC website)\n\nOil Spill Liability Trust Fund (OSLTF). The fund authorized under the Oil Pollution Act of 1990\n(OPA), 33 U.S.C. § 2701, et seq. to pay for expeditious oil removal and uncompensated damages\nfrom oil spills. The USCG's NPFC is responsible for managing and administering the Fund,\nincluding adjudicating claims. (Source: USCG, NPFC User Reference Guide, USCG NPFC\nwebsite)\n\nPollutant or contaminant. Any element, substance, compound, mixture, or disease-causing\nagents defined by Section 101(33) of CERCLA of 1980. (Source: 40 CFR § 300.5, NCP,\nDefinitions)\n\nPotentially responsible party (PRP). Any person who may be liable pursuant to Section 107(a)\nof CERCLA of 1980, for response costs incurred and to be incurred by the United States not\ninconsistent with the NCP. (Source: 40 CFR § 304.12, Arbitration Procedures for Small\nSuperfund Cost Recovery Claims)\n\nReal Property. Means land, including land improvements, structures and appurtenances thereto,\nbut excludes moveable machinery and equipment. (Source: 41 CFR § 105-72.101, General\nDefinitions)\n\nRelease. Any spilling, leaking, pumping, pouring, emitting, emptying, discharging, injecting,\nescaping, leaching, dumping, or disposing into the environment (including the abandonment or\ndiscarding of barrels, containers, and other closed receptacles) of any toxic chemical. (Source:\n40 CFR § 372.3, Toxic Chemical Release Reporting: Community Right-To-Know)\n\nStaff Office. Departmental administrative offices whose heads report to officials within the\nOffice of the Secretary. (Source: USDA, DR 0100-001)\n\nWaters of the United States. Defined in Water Programs, Definition of Waters of the United\nStates, 40 CFR § 120.2 et seq.\n\n\n\n\n                                                B-2\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n33 U.S.C. § 2701, Oil Pollution Liability and Compensation\n\n40 CFR § 120.2, et seq., Water Programs, Definition of Waters of the United States\n\n40 CFR Part 300, National Oil and Hazardous Substances Pollution Contingency Plan (NCP)\n\n40 CFR Part 300.5, NCP, Definitions\n\n40 CFR § 300.120, NCP, On-scene Coordinators and Remedial Project Managers: General\nResponsibilities\n\n40 CFR § 302.4, Designation, Reportable Quantities, and Notifications, Designations of\nHazardous Substances\n\n40 CFR § 304.12, Arbitration Procedures for Small Superfund Cost Recovery Claims\n\n40 CFR § 307.14, CERCLA Claims Procedures: Definitions\n\n40 CFR § 312, Innocent Landowners, Standards for Conducting All Appropriate Inquiries\n\n40 CFR § 372.3, Toxic Chemical Release Reporting: Community Right-To-Know\n\n41 CFR § 105-72.101, General Definitions\n\n42 U.S.C. § 9601 (35)(B)(i)(I)); Hazardous Substances Releases, Liabilities, and Compensation,\nDefinitions\n\n42 U.S.C. § 9601 (39)(A), Hazardous Substances Releases, Liabilities, and Compensation,\nBrownfield site\n\nClean Air Act (CAA), as amended, 42 U.S.C. § 7401, et seq.\n\nComprehensive Environmental Response, Compensation, and Liability Act of 1980 (CERCLA;\nSuperfund), as amended.\n\nCERCLA of 1980, as amended, 42 U.S.C. § 9601, et seq.\n\nCERCLA 120(h), Properties transferred by Federal agencies, 42 U.S.C. § 9620(h), et seq.\n\nEmergency Planning and Community Right-to-Know Act (EPCRA), 42 U.S.C. § 11001, et seq.\n\n\n\n\n                                              C-1\n\fEPA, All Appropriate Inquiries Rule Fact Sheet, May 2015\n\nExecutive Order 11738, Providing for Administration of the Clean Air Act and the Federal\nWater Pollution Control Act with respect to Federal Contracts, Grants, or Loans, September 10,\n1973\n\nExecutive Order 12088, Federal Compliance with Pollution Control Standards, October 13,\n1978, revoked in part by Executive Order 13990, January 20, 2021\n\nExecutive Order 12580, Superfund Implementation, January 23, 1987; as amended by Executive\nOrder 13016, August 28, 1996; as further amended by Executive Order 13308, June 20, 2003\n\nExecutive Order 12777, Implementation of Section 311 of the Federal Water Pollution Control\nAct of October 18, 1972 and the Oil Pollution Act of 1990, October 18, 1991, 56 FR (Federal\nRegister) 54757, October 22, 1991, as amended by Executive Order 13638, March 15, 2013\n\nExecutive Order 12898, Federal Actions to Address Environmental Justice in Minority\nPopulations and Low-Income Populations, February 11, 1994; as amended by Executive Order\n12948, January 30, 1995\n\nExecutive Order 12948, Amendment to Executive Order No. 12898, January 30, 1995\n\nExecutive Order 13016, Amendment to Executive Order No. 12580, August 28, 1996\n\nExecutive Order 13308, Further Amendment to Executive Order 12580, as Amended, Superfund\nImplementation, June 20, 2003\n\nExecutive Order 13638, Amendments to Executive Order 12777, 78 FR 17589, March 15, 2013\n\nExecutive Order 13990, Protecting Public Health and the Environment and Restoring Science to\nTackle the Climate Crisis, January 20, 2021\n\nExecutive Order 14008, Tackling the Climate Crisis at Home and Abroad, Section 223,\nJustice40 Initiative, January 27, 2021\n\nFederal Insecticide, Fungicide, and Rodenticide Act (FIFRA), as amended, 7 U.S.C. § 136, et\nseq.\n\nFederal Water Pollution Control Act (FWPCA) (also known as “Clean Water Act (CWA)”), as\namended, 33 U.S.C. § 1251, et seq.\n\nFEMA, Emergency Support Function #10, Oil and Hazardous Materials Response\n\nInternational Organization for Standardization, ISO 14001:2015, Environmental Management\nSystems – Requirements for Guidance and Use, September 2015\n\n\n\n\n                                             C-2\n\fNational Environmental Policy Act (NEPA), as amended, 42 U.S.C. § 4321, et seq.\n\nOil Pollution Act (OPA), as amended, 33 U.S.C. § 2701, et seq.\n\nPollution Prevention Act (PPA), 42 U.S.C. § 13101, et seq.\n\nPublic Law 105-83 Section 502, Department of the Interior and Related Agencies\nAppropriations Act, 1998, Protection and Preservation of Yellowstone National Park –\nAcquisition of Crown Butte Mining Interests, November 14, 1997\n\nResource Conservation and Recovery Act of 1976 (RCRA), as amended, 42 U.S.C. § 6901, et\nseq.\n\nSafe Drinking Water Act (SDWA), as amended, 42 U.S.C. § 300f, et seq.\n\nToxic Substances Control Act (TSCA), as amended, 15 U.S.C. § 2601, et seq.\n\nUSCG, the OSLTF website\n\nUSCG, National Pollution Funds Center User Reference Guide, USCG NPFC website\n\nUSDA, DM 5600-001, Environmental Pollution Prevention, Control, and Abatement Manual,\nNovember 18, 2004\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018\n\nUSDA, DR 1058-001, Sustainable Operations Council, December 21, 2021\n\nUSDA, DR 5100-004, Real Property Management, April 1, 2021\n\nUSDA, DR 5600-006, Sustainable Operations, June 22, 2021\n\n\n\n\n                                             C-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "b037504d-0b15-5295-aca1-e4c3efe55169",
+          "title": "USDA Directives — DR5600-005",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-5600-005",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

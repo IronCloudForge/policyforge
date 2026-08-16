@@ -1,0 +1,530 @@
+                                U.S. DEPARTMENT OF AGRICULTURE
+                                      WASHINGTON, D.C. 20250
+
+                                                                  NUMBER:
+ DEPARTMENTAL REGULATION DR 3465-002
+ SUBJECT: Privacy, Civil Rights, and Civil Liberties with         DATE:
+ Unmanned Aerial Systems (UAS)                                    October 7, 2019
+ OPI: Office of the Chief Information Office, Enterprise          EXPIRATION DATE:
+ Geospatial Management Office                                     October 7, 2024
+
+
+
+Section                                                                                        Page
+
+1.        Purpose                                                                              1
+2.        Scope                                                                                1
+3.        Special Instructions/Cancellations                                                   2
+4.        Policy                                                                               2
+5.        Roles and Responsibilities                                                           5
+6.        Policy Exceptions                                                                    8
+7.        Inquiries                                                                            9
+
+APPENDIX A – Acronyms and Abbreviations                                                        A-1
+APPENDIX B – Authorities and References                                                        B-1
+
+
+
+1. PURPOSE
+
+     a.     This Departmental Regulation (DR) establishes the policy for the reporting and
+            management of Unmanned Aerial Systems (UAS) activities and the acquisition and
+            management of data acquired by UAS within the United States Department of
+            Agriculture (USDA).
+
+     b.     This DR defines the strategic direction necessary to ensure the safeguarding of privacy,
+            civil rights, and civil liberties of the citizens of the United States and USDA personnel
+            when using UASs.
+
+
+2. SCOPE
+
+     a.     This DR applies to all USDA Mission Areas, agencies, staff offices, programs, teams,
+            organizations, appointees, and employees. This includes contractors and grantees
+            operating on behalf of USDA.
+  b.   This DR applies to all USDA UAS investments throughout their entire life cycle,
+       regardless of funding source, whether owned and operated by USDA or operated on
+       behalf of USDA. UAS investments or services beyond USDA operational control and
+       conducted off of USDA owned lands by cooperating agencies and staff offices are
+       excluded.
+
+  c.   This DR applies to all USDA Information Technology (IT) investments throughout their
+       entire life cycle, regardless of funding source, whether owned and operated by USDA or
+       operated on behalf of USDA.
+
+  d.   This DR is to ensure smart management of UAS flown data to protect Personally
+       Identifiable Information (PII) and civil rights of in accordance to the DR 3080-001,
+       Records Management, and DR 3465-001, Enterprise Geospatial Data Management
+       (EGDM).
+
+  e.   This DR does not apply to investigative operations or operations entirely under
+       cooperator, entity under contract with the USDA who works with the USDA for by
+       directional benefits, operational control and does not apply to fire suppression activities
+       or to law enforcement activities commonly related to USDA Forest Service.
+
+
+3. SPECIAL INSTRUCTIONS/CANCELLATIONS
+
+  a.   This DR is effective as of the publication date of this document and will remain in effect
+       until superseded.
+
+  b.   All USDA Mission Areas, agencies, and staff offices must align their policies with this
+       DR within 6 months of the published date.
+
+
+4. POLICY
+
+  USDA will establish, maintain, and continuously update the UAS DR practices in accordance
+  with legislative regulations and Office of Management and Budget (OMB) guidelines for all
+  USDA IT major and non-major investments according to DR 3130-008, Definition of Major
+  Information Technology Investments, and DR 3130-009, Non-Major Information Technology
+  (IT) Investments.
+
+  a.   The USDA follows the guidelines of what is a UAS as defined by the Federal Aviation
+       Administration (FAA) Modernization and Reform Act of 2012, Public Law (P.L.) No.
+       112-95. Mission Areas, agencies, and staff offices will not deviate from this definition
+       as defined in this Act and/or future revisions of this Act.
+
+  b.   The USDA will follow future guidelines put forth from the FAA once reviewed for
+       fitness in the USDA environment.
+
+
+
+                                                  2
+c.   This DR expands the National Institute of Standards and Technology (NIST) definition
+     of PII as found in Special Publication (SP) 800-122, Guide to Protecting the
+     Confidentiality of Personally Identifiable Information (PII).
+
+     (1) The NIST definition of PII is as follows:
+
+         This document uses a broad definition of PII to identify as many potential sources
+         of PII as possible (e.g., databases, shared network drives, backup tapes, and
+         contractor sites). PII is ―any information about an individual maintained by an
+         agency [or Mission Area, or staff office], including:
+
+         (a) Any information that can be used to distinguish or trace an individual‘s
+             identity, such as name, Social Security number (SSN), date and place of birth,
+             mother‘s maiden name, or biometric records; and
+
+         (b) Any other information that is linked or linkable to an individual, such as
+             medical, educational, financial, and employment information. Five examples
+             of PII include, but are not limited to:
+
+              1    Name, such as full name, maiden name, mother’s maiden name, or alias;
+
+              2    Personal identification number, such as SSN, passport number, driver’s
+                   license number, taxpayer identification number, or financial account or
+                   credit card number;
+
+              3    Address information, such as street address or email address;
+
+              4    Personal characteristics, including photographic image (especially of face
+                   or other identifying characteristic), fingerprints, handwriting, or other
+                   biometric data (e.g., retina scan, voice signature, facial geometry); and
+
+              5    Information about an individual that is linked or linkable to one of the
+                   above (e.g., date of birth, place of birth, race, religion, weight, activities,
+                   geographical indicators, employment information, medical information,
+                   education information, financial information).
+
+     (2) The NIST definition does include facial geometry and voice signature but is
+         strongly written for the tabular database environment where as UAS captures
+         remotely sensed and imagery data. In order to protect the PII of U.S. citizens and
+         USDA personnel, the USDA will broaden the NIST definition to include:
+
+         (a) UAS that acquire imagery at a resolution that can be used to identify an
+             individual’s identity or read license plates must follow USDA guidelines to
+             protect PII. Face blurring will be required if people who are not part of the
+             acquisition team are imaged;
+
+
+
+                                                3
+        (b) USDA will not fly UAS sensors that can be used to record conversations
+            without a privacy determination;
+
+        (c) USDA may fly UAS instruments that can be used to augment communications
+            (this is a likely future application for wildland fire);
+
+        (d) USDA will not fly UAS instruments that can observe through houses or roofs
+            without a privacy determination by the Mission Area, agency, or staff office
+            conducting the flight using a Privacy Threshold Analysis (PTA); and
+
+        (e) If a Mission Area, agency, or staff office sources out the collection of UAS
+            data to “any” outside collection source, then the outside source collector must
+            follow all USDA PII policies and approval procedures.
+
+d. If it is determined that the data acquired during a UAS project does contain PII and a
+   determination from the Mission Area, agency, or staff office’s PTA was justified from
+   the Mission Area, agency, or staff office, the Mission Area, agency, or staff office will
+   only retain the data encrypted in a secure system with eAuthentication and it will not be
+   retained greater than 180 days unless retention of the information is determined to be
+   necessary to an authorized mission of the retaining Mission Area, agency, or staff office,
+   is maintained in a system of records covered by the Privacy Act, or is required to be
+   retained for a longer period by any other applicable law or regulation.
+
+   (1) UAS-collected information that is not maintained in a system of records covered by
+       the Privacy Act of 1974 will not be disseminated outside of the Mission Area,
+       agency, or staff office unless dissemination is required by law, or fulfills an
+       authorized purpose and complies with Mission Area, agency, or staff office
+       requirements.
+
+   (2) Additionally, if the PTA requires a Privacy Impact Assessment (PIA), it must be
+       performed and submitted to their Mission Area, agency, or staff office security
+       offices in accordance with the Departmental Manual (DM) 3515-002, Privacy
+       Impact Assessment. This will not apply to emergency response situations using
+       UAS and will be reviewed on a case-by-case situation by the USDA Geospatial
+       Program Manager.
+
+e. Accountability. All UAS projects need to be conducted in accordance with current
+   White House, FAA, USDA and Mission Area, agency, and staff office policy. To
+   provide for effective accountability, each USDA Mission Area, agency, and staff office
+   is responsible for collaborative oversight and tracking of UAS flight activities within
+   their respective agency. USDA Mission Areas, agencies, and staff offices employing
+   UAS or UAS-collected information shall comply with Departmental direction and take
+   appropriate steps to ensure effective oversight and accountability for their respective
+   UAS programs. Accordingly, USDA Mission Areas, agencies, and staff offices shall
+   ensure that:
+
+
+
+                                             4
+       (1) Oversight procedures are implemented for UAS use, including audits or
+           assessments, in compliance with Departmental policies and regulations.
+
+       (2) Mission Area, agency, and staff office personnel and contractors comply with UAS
+           program training requirements, rules of behavior, and procedures for reporting
+           suspected cases of misuse or abuse of UAS technologies.
+
+       (3) Policies and procedures are implemented that provide meaningful oversight of
+           individuals who have access to sensitive information (including any PII) collected
+           using UAS consistent with applicable Federal laws, regulations, and policies, as
+           well as Departmental policy guidance.
+
+       (4) Any data-sharing agreements or policies, data use policies, and records
+           management policies applicable to UAS conform to applicable laws, regulations,
+           and policies.
+
+       (5) Policies and procedures are implemented to authorize the use of UAS in response to
+           a request for UAS assistance in support of Federal, State, local, tribal, or territorial
+           government operations. Any authorized use, letter of authorization, or
+           memorandum of understanding must include the requirements of this policy and
+           appropriate safeguards to protect privacy, civil rights, and civil liberties.
+
+   f. Transparency. Policies and procedures are to be implemented to keep the public
+      informed about the USDA UAS program and to provide transparency in regard to where
+      USDA UAS are authorized to operate in the US National Air Space (NAS)
+      while not revealing information that could reasonably be expected to compromise law
+      enforcement or national security.
+
+       (1) Keep the public informed about the USDA UAS program as well as changes that
+           would significantly affect privacy, civil rights, or civil liberties.
+
+       (2) Make available to the public, on an annual basis, a general summary of USDA UAS
+           operations during the previous fiscal year, to include a brief description of types or
+           categories of missions flown, and the number of times the Mission Area, agency, or
+           staff office provided assistance to other agencies, or to State, local, tribal, or
+           territorial governments.
+
+   g. Mission Areas, agencies, and staff offices will implement a redress program if there are
+      public inquiries into the reported UAS activities.
+
+
+5. ROLES AND RESPONSIBILITIES
+
+  a.   The USDA CIO will:
+
+
+
+
+                                                  5
+     (1) Provide executive accountability for Departmental PII pertaining to the use of all
+         UASs and the data collected from this platform;
+
+     (2) Provide executive governance oversight over UAS technology-enabled business
+         processes, including all geospatial capital assets created, provisioned, and
+         consumed across the Department; and
+
+     (3) Delegate executive leadership for UAS technology, data, and information solutions
+         to the Enterprise Geospatial Program Manager.
+
+b.   The USDA Geospatial Information Officer (GIO) will:
+
+     (1) Have authority, responsibility, and accountability for USDA Departmental UAS
+         data retention and disposal of data containing PII;
+
+     (2) Be responsible for reviewing all waiver requests in association with this DR and
+         determining next steps of waiver.
+
+     (3) Act as the primary UAS point of contact at the Department level; and
+
+     (4) Be responsible for all inquiries into this DR.
+
+c.   The USDA Chief Information Security Officer (CISO) will:
+
+     (1) Review and act upon Plan of Action and Milestones (POA&M); and
+
+     (2) Report to the GIO any outstanding POA&Ms related to waivers of this DR on an
+         annual basis.
+
+d.   The USDA Enterprise Geospatial Program Manager will:
+
+     (1) Coordinate with the Remote Sensing Coordination Committee (RSCC) and the
+         UAS Subgroup within the RSCC;
+
+     (2) Act as the primary point of contact for a UAS public facing web site;
+
+     (3) Review all UAS uses in emergency response as requested for PIA responsibilities.
+
+     (4) Maintain copies of waivers and certificates of authorization issued by the FAA.
+
+f.   Mission Area Assistant CIOs, and Agency and Staff Office IT Directors will:
+
+     (1) Be accountable for monitoring and reporting of UAS technologies and spatial data
+         management practices, metadata and lifecycle management from the UAS
+         platforms; and
+
+
+
+                                               6
+     (2) Compose the annual geospatial data management report for the USDA CIO. Data
+         for report will be derived from FAA flight logs.
+
+g.   The USDA Remote Sensing Coordination Committee UAS Advisory Committee will:
+
+     (1) Provide advice to the USDA Enterprise Geospatial Program Manager concerning
+         UAS policy, operations, and procedures with the scope of RSCC’s contribution
+         including business technical requirements, portfolio management through the
+         USDA, USDA Information Technology Capital Planning and Investment Control
+         Guide, May 5, 2013, acquisition, solutions development, and archival infrastructure
+         and practices;
+
+     (2) Provide advice on governance oversight for the Department’s UAS imagery;
+
+     (3) Ensure coordination, visibility and adequate data lifecycle management of UAS
+         imagery assets for all USDA agencies and staff offices; and
+
+     (4) Research, review, and recommend UAS policy, data standards and best practices.
+
+h.   Agency and Staff Office Directors and Administrators will:
+
+     (1) Be responsible for ensuring UAS assets are managed in a coordinated, documented,
+         and predictable manner within their respective IT portfolios;
+
+     (2) Provide executive oversight, including assignment and support of four key
+         geospatial data management roles and functions within their respective agencies or
+         staff offices: UAS Data Owner, UAS Data Steward, UAS Data Custodian, and
+         UAS Data Stakeholder;
+
+     (3) In concert with flight operators, be responsible for ensuring all UAS flights are
+         conducted with air-worthy aircraft and trained Remote Pilots in Command; and
+
+     (4) Ensure confidential and protected data is handled appropriately and not disclosed to
+         unauthorized entities.
+
+i.   UAS Data Owners will:
+
+     (1) Have functional area authority within a business program and be responsible for
+         making decisions concerning the use of UAS datasets and imagery;
+
+     (2) Maintain a digital governance reference to all raw data use to derive geospatial
+         product and service, and be responsible for the management of those UAS assets;
+
+     (3) Ensure the quality, integrity, accuracy, timeliness, and completeness of the UAS
+         data;
+
+
+
+                                              7
+       (4) Be responsible for data collection, extraction, conversion, cleansing, and metadata
+           creation;
+
+       (5) Be responsible for data updating, Quality Assurance/Quality Control (QA/QC), data
+           distribution, and open data channel management; and
+
+       (6) Delegate these responsibilities to the Data Stewards as appropriate.
+
+  j.   UAS Data Stewards will:
+
+       (1) Be the designated Departmental experts for specific UAS data sets;
+
+       (2) Manage individual data sets to promote data accessibility and reusability across the
+           Department, and to meet the data content and data quality requirements of all users;
+
+       (3) Serve as a consultant to other program offices on the content, quality, and
+           applicability of their data; and
+
+       (4) Act as the liaison if UAS data contains PII for reporting of retention or disposal of
+           data.
+
+  k.   UAS Data Custodians will:
+
+       (1) Manage the enterprise storage and delivery of data provided by Data Owners and/or
+           Data Stewards; and
+
+       (2) Be responsible for ensuring the geospatial data security, integrity, and availability.
+
+  l.   UAS Data Stakeholders will:
+
+       (1) Have an interest, or share, in the use or creation of UAS data; and
+
+       (2) Record and document the original purpose, requirements and nature of the UAS
+           data intended for meeting specific mission and staff office, and other stakeholder,
+           goals and/or objectives. This documentation will be retained for a period of 7
+           years, or a longer retention period if deemed appropriate by the Data Stakeholder.
+
+
+6. POLICY EXCEPTIONS
+
+  a.   All USDA Mission Areas, agencies, staff offices, and entities will conform to this
+       policy. In the event that a specific policy requirement cannot be met as explicitly stated,
+       Mission Areas, agencies, staff offices, program offices, and contractor facilities may
+       submit a waiver request.
+
+
+
+
+                                                 8
+  b.   The waiver request must identify the sponsoring executive, explain the reason for the
+       request, identify compensating controls and actions that meet the intent of the policy,
+       and identify how the compensating controls and actions provide a similar or greater
+       level of quality, mitigation or compliance than the policy requirement.
+
+       Mission Areas, agencies, and staff offices will address all policy waiver request
+       memoranda to the USDA GIO and the Geospatial Program Manager. The waiver
+       request must explain the reason for the request, identify compensating controls and
+       actions that meet the intent of the policy, and identify how the compensating controls
+       and actions provide a similar or greater level of defense or compliance than the policy
+       requirement. The waiver request can also apply to an extension of the 180-day retention
+       policy but must identify why the data must be kept beyond the allotted time period if PII
+       is in the data.
+
+  c.   Unless otherwise specified, Mission Areas, agencies, and staff offices will review and
+       renew policy waivers every fiscal year, or as needed. Approved waivers must be tracked
+       as a POA&M item in the USDA Federal Information Security Modernization Act
+       (FISMA) data management and reporting tool database, and completion of this Mission
+       Area, agency, or staff office requirement must be certified in writing by the CISO.
+
+
+7. INQUIRIES
+
+  Information regarding this DR, policy recommendations, updates and/or changes, and
+  relationships to other Administration, Departmental, Mission Area, agency, staff office, and
+  Federal government policy, directives, and memoranda should be directed to the USDA GIO
+  located in Office of the Chief Information Officer (OCIO) Enterprise Geospatial
+  Management Office (EGMO).
+
+
+                                              -END-
+
+
+
+
+                                                 9
+                            APPENDIX A
+
+                ACRONYMS AND ABBREVIATIONS
+
+
+CIO      Chief Information Officer
+CISO     Chief Information Security Officer
+CRIA     Civil Rights Impact Analysis
+DM       Departmental Manual
+DR       Departmental Regulation
+EGDM     Enterprise Geospatial Data Management
+EGMO     Enterprise Geospatial Management Office
+FAA      Federal Aviation Administration
+FISMA    Federal Information Security Modernization Act
+GIO      Geospatial Information Officer
+ISO      International Organization for Standardization
+IT       Information Technology
+NIST     National Institute of Standards and Technology
+OCIO     Office of the Chief Information Officer
+OMB      Office of Management and Budget
+PTA      Privacy Threshold Analysis
+PIA      Privacy Impact Assessment
+PII      Personally Identifiable Information
+P.L.     Public Law
+PM       Presidential Memorandum
+POA&M    Plan of Action and Milestones
+QA/QC    Quality Assurance/Quality Control
+RSCC     Remote Sensing Coordination Committee
+SP       Special Publication
+SSN      Social Security Number
+UAS      Unmanned Aerial System
+U.S.C.   United States Code
+USDA     United States Department of Agriculture
+
+
+
+
+                                 A–1
+                                        APPENDIX B
+
+                            AUTHORITIES AND REFERENCES
+
+
+Authorities:
+
+   Federal Aviation Administration (FAA) Modernization and Reform Act of 2012, P.L. 112-95,
+   February 14, 2012
+
+   The Federal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §3551, et
+   seq.
+
+   Privacy Act of 1974, 5 U.S.C. §552a (2017)
+
+References:
+
+   International Organization for Standardization (ISO), Standard ISO 19115-2:2009,
+   Geospatial Information - Metadata Part 2: Extensions for Imagery and Gridded Data,
+   February 15, 2009
+
+   NIST, SP 800-122, Guide to Protecting the Confidentiality of Personally Identifiable
+   Information (PII), April 2010
+
+   OMB, Circular A-16 Revised, Coordination of Geographic Information and Related Spatial
+   Data Activities, August 19, 2002
+
+   OMB, Memorandum M-13-13, Open Data Policy-Managing Information as an Asset, May
+   9, 2013
+
+   USDA, DM 3515-000, Privacy Requirements, February 17, 2005
+
+   USDA, DM 3515-002, Privacy Impact Assessment, February 17, 2005
+
+   USDA, DR 3080-001, Records Management, May 23, 2013
+
+   USDA, DR 3085-001, Vital Records Management Program, August 19, 2011
+
+   USDA, DR 3130-008, Definition of Major Information Technology Investments, February
+   27, 2015
+
+   USDA, DR 3130-009, Non-Major Information Technology Investments, November 18, 2015
+
+   USDA, DR 3130-010, United States Department of Agriculture Enterprise Information
+   Technology Governance, December 3, 2015
+
+
+
+                                                B–1
+   USDA, DR 3130-013, Information Technology Capital Planning and Investment Control,
+   July 8, 2016
+
+   USDA, DR 3465-001, Enterprise Geospatial Data Management, August 5, 2016
+
+   USDA, DR 3515-xxx, Privacy Policy and Compliance for Personally Identifiable
+   Information, forthcoming
+
+Other Guidance:
+
+   USDA, Integrated IT Governance Framework: Guidebook, version 3.2, April 1, 2014
+
+   USDA, USDA Information Technology Capital Planning and Investment Control Guide,
+   May 5, 2013
+
+
+
+
+                                            B–2
+

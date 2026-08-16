@@ -1,0 +1,278 @@
+{
+  "catalog": {
+    "uuid": "d35bc648-e955-5331-b449-6a2bb5aca991",
+    "metadata": {
+      "title": "USDA DR3530-008: Mainframe Security",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2026-05-11",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3530-008"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2026-05-11"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3530-008",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Cybersecurity & Privacy Operations Center",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3530-008",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Cybersecurity & Privacy Operations Center"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "65e3bf8a-874b-51d7-8914-02011899369e",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3530-008-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3530-008-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) sets the policy for securing mainframes at the United\n      States Department of Agriculture (USDA)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9e49ae05-f6bc-5a34-91de-bed166800c88",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3530-008-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3530-008-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all:\n\n           (1) Mission Areas, agencies, and staff offices who own, operate, manage, or control\n               mainframes;\n\n           (2) Federal data in any medium or form that the USDA or those on behalf of the USDA\n               generates, collects, provides, transmits, stores, maintains, or accesses;\n\f       (3) Systems or services, including cloud-based, that the USDA or those on behalf of the\n           USDA use or operate. These include connections between or among data systems or\n           services; and\n\n       (4) Facilities from which USDA systems operate whether the USDA or another entity\n           on behalf of the USDA uses or operates them.\n\n  b.   Nothing in this policy alters the need to protect national security systems or data."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "02655592-c6d1-570d-9c8e-f0ec0d0191af",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3530-008-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3530-008-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes Departmental Manual (DM) 3530-002, IBM & IBM Compatible\n       Mainframe Security, dated July 15, 2004, in its entirety.\n\n  b.   This DR takes effect immediately when published. It stays in effect until superseded, or\n       it expires.\n\n  c.   All USDA Mission Areas, agencies, and staff offices who own or operate mainframes\n       will align their mainframe security procedures with this DR within 6 months of its\n       publication.\n\n  d.   This policy complies with:\n\n       (1) Committee on National Security Systems policies, directives, and instructions;\n\n       (2) The Federal Information Security Modernization Act of 2014, 44 U.S.C. § 3551, et\n           seq.;\n\n       (3) Federal requirements to set, implement, and enforce cybersecurity standards to\n           manage risks to USDA mainframe resources;\n\n       (4) Intelligence community policies, directives, and instructions;\n\n       (5) National Institute of Standards and Technology (NIST), Federal Information\n           Processing Standards Publication (FIPS PUB) 199, Standards for Security\n           Categorization of Federal Information and Information Systems;\n\n       (6) NIST, FIPS PUB 200, Minimum Security Requirements for Federal Information\n           and Information Systems;\n\n       (7) NIST, Special Publication (SP) 800-37, Revision 2, Risk Management Framework\n           for Information Systems and Organizations;\n\n       (8) NIST, SP 800-53, Revision 5, Security and Privacy Controls for Information\n           Systems and Organizations;\n\n       (9) NIST, SP 800-53A, Revision 5, Assessing Security and Privacy Controls in\n           Information Systems and Organizations; and\n\n                                                2\n\f       (10) Office of Management and Budget (OMB), A-130, Managing Information as a\n            Strategic Resource."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6fdd5f94-a7a9-5a34-89d6-80bbfcd08e41",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3530-008-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3530-008-4-stmt",
+                "name": "statement",
+                "prose": "USDA published DM 3530-002 in 2004. Since then, computing and cybersecurity have\n  evolved tremendously. As such, the USDA needed a foundational policy with guidance on\n  managing mainframe systems to conduct USDA business activities. This policy serves as that\n  baseline, with links to related policies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "da8ff59d-7b6e-5cc9-8c97-54ec0ac3134b",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3530-008-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3530-008-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Mission Area, agency, or staff office Mainframe System Owner, or designated\n       official, will assign a System Security Administrator (SSA) and backup SSAs as\n       necessary. There will be at least one SSA or backup SSA at each USDA site operating a\n       mainframe.\n\n  b.   The Mission Area, agency, or staff office Authorizing Official (AO) or designee will\n       approve or reject SSA and backup SSA appointments.\n\n  c.   Security and system administration are two distinct roles. The USDA security\n       management system separates these privileges at the group level. This means the roles\n       and tasks must remain split. Therefore, Mission Areas, agencies, and staff offices will\n       not assign mainframe security administration to a System Operator, a System or\n       Application Programmer, or a System or Database Administrator.\n\n  d.   Security and mainframe system administrators must work closely to maximize security\n       and performance.\n\n  e.   Mainframe security feature testing will include system tests and evaluation, such as\n       operating system tool functionality and security solution syntax.\n\n  f.   Refer to the following policies related to mainframe security:\n\n       (1) DR 3505-003, Access Control for Information and Information Systems for\n           guidance on managing access to mainframe systems;\n\n       (2) DR 3505-005, Cybersecurity Incident Management for guidance on managing\n           cyber-related incidents on mainframe systems;\n\n       (3) DR 3520-002, Configuration Management for guidance on configuring mainframe\n           systems;\n\n       (4) DR 3530-006, Scanning and Remediation of Configuration and Patch\n           Vulnerabilities for guidance on mainframe system vulnerability management;\n\n\n\n                                               3\n\f       (5) DR 3571-001, Information System Contingency Planning and Disaster Recovery\n           Planning for guidance on mainframe system contingency and recovery planning;\n\n       (6) DR 3575-002, System and Information Integrity for guidance on managing\n           mainframe system data integrity;\n\n       (7) DR 3575-004, Information Technology Security Baselines and Security Control\n           Tailoring for guidance on managing mainframe system data integrity; and\n\n       (8) DR 3185-004, Enterprise Zero Trust Architecture for guidance on zero trust\n           standards."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b67c0836-89ca-58dc-9700-5fc3f927fb28",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3530-008-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3530-008-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Security Officer (CISO) will create, implement, and\n       confirm adherence to cybersecurity policies.\n\n  b.   The Cybersecurity Defense Operations Division (CDOD), Cybersecurity Watch Branch\n       (CWB) will investigate malicious activity per DR 3505-005.\n\n  c.   The Mission Area Assistant Chief Information Officer with at least one mainframe in\n       their purview will:\n\n       (1) Verify that the onsite list of controlled unclassified data systems and applications\n           (operational, and under development) undergoes proper maintenance;\n\n       (2) Test the mainframe’s security features:\n\n           (a) Include system tests and evaluation, such as operating system tool functionality\n               and security solution syntax;\n\n           (b) Confirm the features work as claimed in the system’s documentation by testing\n               at least annually; and\n\n           (c) A third party must conduct the testing. The third party will act independent of\n               development testing and the development organization.\n\n  d.   The Mission Area Assistant CISO with at least one mainframe in their purview will:\n\n       (1) Review risk assessments on identified mainframe vulnerabilities; and\n\n       (2) Approve or deny requests to investigate suspicious activity of a targeted user’s data\n           files, roles, and account activity.\n\n  e.   AOs or designees will approve or reject the SSA and backup SSA appointment requests.\n\n  f.   Mainframe System Owners or their designees will submit SSA and backup SSA\n       appointments to their AO.\n\n                                               4\n\f  g.   The Information System Security Manager (ISSM) with at least one mainframe in their\n       purview or their designee will:\n\n       (1) Audit a mainframe user’s activities to compare them with their designated role in\n           security management systems, per DR 3505-003;\n\n       (2) Work with CDOD CWB on any confirmed malicious activity, per DR 3505-005;\n\n       (3) Obtain the Mission Area Assistant CISO’s approval before investigating suspicious\n           activity of a targeted user’s data files, roles, and account;\n\n       (4) Create and maintain an onsite list of controlled unclassified data systems and\n           applications (operational, and in development). The list must contain the name and\n           a brief description of the system and each application;\n\n       (5) Develop mainframe audit procedures. Integrate them with OMB-required internal\n           control procedures; and\n\n       (6) Write a risk assessment for identified vulnerabilities. Submit it to their Mission\n           Area Assistant CISO.\n\n  h.   SSAs will:\n\n       (1) Maintain user, role, group, and resource access for the mainframes in their purview;\n           and\n\n       (2) Conduct a daily review of system security violation reports:\n\n           (a) Review any suspicious mainframe activity;\n\n           (b) Perform a preliminary investigation to confirm or rule out malicious origins;\n               and\n\n           (c) Refer confirmed malicious activity to CDOD CWB and appropriate Mission\n               Area or agency personnel including their ISSM."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a07ca7d6-2438-5422-adec-fe35e712cbf4",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Noncompliance",
+        "controls": [
+          {
+            "id": "dr3530-008-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Noncompliance",
+            "parts": [
+              {
+                "id": "dr3530-008-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16: Computers, sets\n       forth USDA policy, procedures, and standards on employee responsibilities and conduct\n       regarding the use of computers and telecommunications equipment. In addition, Section\n       21: Disciplinary or Adverse Action states:\n\n       (1) Any violation of the responsibilities or standards contained in this DR may be cause\n           for disciplinary or adverse action; and\n\n       (2) Any disciplinary or adverse action taken will be consistent with the applicable laws\n           and regulations.\n\n                                               5\n\f  b.   Such disciplinary actions will follow applicable laws and regulations. These include\n       those from the Office of Personnel Management, OMB, and 5 CFR § 2635, Standards of\n       Ethical Conduct for Employees of the Executive Branch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ac39afe3-48eb-547e-8d72-7eba8cf78964",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3530-008-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3530-008-8-stmt",
+                "name": "statement",
+                "prose": "If Mission Areas, agencies, and staff offices cannot meet a specific policy requirement, they\n  can request a policy exception. To do so, email the Office of the Chief Information Officer\n  (OCIO), Cybersecurity & Privacy Operations Center (CPOC), Security Management\n  Division, Risk Management Branch at POAMProgram@usda.gov. Note that an approved\n  policy exception is an acceptance of risk but does not equal compliance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "798ab0fb-2cc3-5945-9919-0281475a7d43",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3530-008-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3530-008-9-stmt",
+                "name": "statement",
+                "prose": "Send any questions or concerns about this DR to OCIO CPOC via CPOC-\n  CyberPolicy@usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                              6\n\f                                APPENDIX A\n                     ACRONYMS AND ABBREVIATIONS\n\nCISO       Chief Information Security Officer\nCPOC       Cybersecurity & Privacy Operations Center\nDM         Departmental Manual\nDR         Departmental Regulation\nFIPS PUB   Federal Information Processing Standards Publication\nISSM       Information System Security Manager\nNIST       National Institute of Standards and Technology\nOCIO       Office of the Chief Information Officer\nOMB        Office of Management and Budget\nSP         Special Publication\nSSA        System Security Administrator\nUSDA       United States Department of Agriculture\n\n\n\n\n                                     A-1\n\f                                          APPENDIX B\n                              AUTHORITIES AND REFERENCES\n\n5 CFR § 2635, Standards of Ethical Conduct for Employees of the Executive Branch\n\n7 CFR § 2.32, Chief Information Officer\n\nCommittee on National Security Systems website, May 6, 2016\n\nComputer Fraud and Abuse Act of 1986, P.L. 99-474, October 16, 1986, as amended\n\nConsolidated Appropriations Act, 2016, P.L. 114-113, December 18, 2015, as amended\n\nE-Government Act of 2002, P.L. 107-347, December 17, 2002, as amended\n\nElectronic Communications Privacy Act of 1986, P.L. 99-508, October 21, 1986, as amended\n\nE.O. 14028, Improving the Nation’s Cybersecurity, May 12, 2021\n\nFederal Information Security Modernization Act of 2014, 44 U.S.C. § 3551, et seq.\n\nNational Cybersecurity Protection Act of 2014, P.L. 113-282, December 18, 2014, as amended\n\nNIST, FIPS PUB 199, Standards for Security Categorization of Federal Information and\nInformation Systems, February 2004\n\nNIST, FIPS PUB 200, Minimum Security Requirements for Federal Information and Information\nSystems, March 2006\n\nNIST, SP 800-37, Revision 2, Risk Management Framework for Information Systems and\nOrganizations, December 2018\n\nNIST, SP 800-53, Revision 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020, including updates as of December 10, 2020\n\nNIST, SP 800-53A, Revision 5, Assessing Security and Privacy Controls in Information Systems\nand Organizations, January 2020\n\nOMB, A-123, Management Accountability and Control, found on the Circulars web page;\nupdated by M-16-17; modified by M-17-26\n\nOMB, A-130, Managing Information as a Strategic Resource, July 28, 2016, as amended\n\nUSDA, DR 3185-004, Enterprise Zero Trust Architecture, September 9, 2024, as amended\n\nUSDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019,\nas amended\n\n\n                                             B-1\n\fUSDA, DR 3505-005, Cybersecurity Incident Management, November 30, 2018, as amended\n\nUSDA, DR 3520-002, Configuration Management, July 17, 2019, as amended\n\nUSDA, DR 3530-006, Scanning and Remediation of Configuration and Patch Vulnerabilities,\nJune 5, 2019, as amended\n\nUSDA, DR 3571-001 Information System Contingency Planning and Disaster Recovery\nPlanning, June 1, 2016, as amended\n\nUSDA, DR 3575-002, System and Information Integrity, August 16, 2018, as amended\n\nUSDA, DR 3575-004, Information Technology Security Baselines and Security Control\nTailoring, November 21, 2023, as amended\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007, as\namended\n\n\n\n\n                                           B-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "c5d34da0-6d21-534a-b265-abbe08a0cfac",
+          "title": "USDA Directives — DR3530-008",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3530-008",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

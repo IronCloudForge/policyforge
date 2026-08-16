@@ -1,0 +1,106 @@
+{
+  "catalog": {
+    "uuid": "d5129b67-c6b3-525b-bcee-be25446ef5ef",
+    "metadata": {
+      "title": "USDA DR1020-002: USDA Soil and Water Conservation Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2083-10-06",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1020-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2083-10-06"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1020-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "SEC (NRE), SCS (APD)",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1020-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "SEC (NRE), SCS (APD)"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "5529e3d6-fe62-5d23-96f2-dde7c34fcb5a",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr1020-002-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr1020-002-1-stmt",
+                "name": "statement",
+                "prose": "U. S. DEPARTMENT OF AGRICULTURE\n                                          WASHINGTON, D. C. 20250\n\n\n                                                                                                  Number:\n          DEPARTMENTAL REGULATION                                                                1020-002\n\nSUBJECT: USDA Soil and Water Conservation                           DATE:\nProgram                                                            October 6, 1983\n\n                                                                    OPI:\n                                                                   SEC (NRE), SCS (APD)\n\n    1   PURPOSE\n\n        This regulation assigns responsibility for administering the Soil and Water Resources\n        Conservation Act of 1977 (Public Law 95-192, 16 U.S.C. 2000 et seq.).\n\n\n\n\n2       SPECIAL INSTRUCTIONS/CANCELLATIONS\n\n        This regulation supersedes Secretary's Memorandum 1930, dated December 30, 1977, which is\n        canceled.\n\n\n\n\n3       POLICY\n\n        The Assistant Secretary for Natural Resources and Environment has Departmental leadership for\n        carrying out the provisions of the Soil and Water Resources Conservation Act of 1977.\n\n\n\n\n4       LEGISLATIVE REQUIREMENTS\n\n        The Act requires the Secretary to appraise on a continuing basis the status, condition, and trends of\n        the Nation's soil, water, and related resources. It also requires the Secretary to develop a national\n        soil and water conservation program and to report annually to the Congress on progress in\n        implementing the program.\n\n\n\n\n5       AUTHORITY\n\n        The Assistant Secretary for Natural Resources and Environment may use the agencies of the\n        Department as necessary to carry out the Department's functions under this Act."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "9fa6fa06-0a3e-572b-867b-b516c0345504",
+          "title": "USDA Directives — DR1020-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1020-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

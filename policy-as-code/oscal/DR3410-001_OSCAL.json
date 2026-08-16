@@ -1,0 +1,312 @@
+{
+  "catalog": {
+    "uuid": "68d1db5e-a443-5941-93ca-de0a6d8ef332",
+    "metadata": {
+      "title": "USDA DR3410-001: Information Collection Activities-Collection of Information from the Public",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2022-01-26",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3410-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2022-01-26"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3410-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3410-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "e341afbd-b5c4-5ded-b707-dac432eda8c6",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3410-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3410-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n   (USDA) policy for the management requirements associated with the clearance of an\n   information collection request (ICR). This guidance must be used when collecting\n   information from the public, including individuals, businesses, other private institutions, and\n   State and local governments."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "609848bb-2a69-575d-8af5-2fc6d2d0044b",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3410-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3410-001-2-stmt",
+                "name": "statement",
+                "prose": "a.     This DR supersedes DR 3410-001, Information Collection Activities – Collection of\n          Information from the Public, dated May 6, 2009.\n\f  b.   This policy is effective immediately and remains in effect until it is superseded or it\n       expires.\n\n  c.   All Mission Areas, agencies, and staff offices must align their policies and procedures\n       with this DR within 6 months of the publication date.\n\n  d.   This DR is not applicable to the collection of information from Federal employees or\n       military personnel as part of their work-related duties."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5b639467-7735-5f1b-943c-02cc44efdb3a",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3410-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3410-001-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, staff offices, employees, appointees,\n  contractors, and others who work for, or on behalf of, USDA that are involved with\n  developing or processing information collection requests."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d9bba606-67f8-5c21-8b69-284ca66b2dfa",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3410-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3410-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   The Paperwork Reduction Act of 1995 (PRA), Public Law (P.L.) 104-13 and its\n       implementing regulation, 5 Code of Federal Regulations (CFR) Part 1320, Controlling\n       Paperwork Burdens on the Public, were established in response to public complaints\n       about the amount of paperwork burden imposed by the Federal Government on members\n       of the public. Members of the public include, but are not limited to: individual people\n       (including contractors), businesses, associations, and partnerships, State, tribal, and local\n       governments, universities and foreign citizens, governments, and businesses.\n\n  b.   The goals of the PRA are to:\n\n       (1) Minimize the burden on the public when collecting information, especially by using\n           technology;\n\n       (2) Maximize the practical use of the information collected;\n\n       (3) Ensure that an information collection does not duplicate already existing\n           information, or duplicate effort;\n\n       (4) Maximize the cooperation amongst Federal program areas and agencies;\n\n       (5) Promote openness and accountability in the collection and use of information;\n\n       (6) Improve integrity, quality, security, and utility of information to all users within and\n           outside the Federal Government; and\n\n       (7) Improve Federal responsibility and accountability.\n\n\n\n\n                                                2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4ea5aecf-74fd-5fc8-9e0e-7f391420ee7b",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3410-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3410-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   The PRA requires every Federal agency, except those specifically exempted, to obtain\n       approval from the Office of Management and Budget (OMB) for any planned\n       information collections. Approved collections must be renewed at least every 3 years.\n\n  b.   Collected information must:\n\n       (1) Be essential to the Mission Area’s, agency’s, or staff office’s mission and have\n           demonstrated practical use for the office in performing its function; and\n\n       (2) Be collected in the most efficient, effective, and economical manner possible.\n\n  c.   Approval and clearance is required for voluntary collections, mandatory collections, and\n       collections required to obtain a Federal benefit (e.g., jobs, grants, permits.)\n\n  d.   An information collection needs clearance if Mission Areas, agencies, or staff offices are\n       collecting information in order to:\n\n       (1) Obtain facts or opinions from 10 or more persons within a 12-month period by the\n           use of standard questions or reporting requirements presented in forms, telephone or\n           personal interviews, surveys, questionnaires, and web pages; requests for narrative\n           responses to questions; requests for identical information, or almost any other\n           means;\n\n       (2) Require members of the public to provide information to the general public or to a\n           third party;\n\n       (3) Impose any requirements to label or mark items or packaging;\n\n       (4) Require use of technological methods, including automated techniques, to monitor\n           public compliance with Government requirements; or\n\n       (5) Require compilation or maintenance of records, either alone or in conjunction with,\n           the reporting of information.\n\n  e.   Examples of information collections that require OMB clearance are:\n\n       (1) Grant applications and reports if information is collected other than by use of, or in\n           addition to, Standard Forms (e.g., narrative proposals, supporting documentation,\n           performance reports);\n\n       (2) Written reports (e.g., special use, grantee performance reports);\n\n       (3) Surveys (e.g., in person, online, or telephone visitor surveys, customer surveys);\n\n\n\n                                               3\n\f     (4) Forms (e.g., visitor use reports, IRS 1040).\n\nf.   Examples of information collections that do not require OMB clearance are:\n\n     (1) Requests or collections from fewer than 10 members of the public;\n\n     (2) Open-ended requests for comments or feedback;\n\n     (3) Collections from Federal employees or military personnel as part of their work\n         duties;\n\n     (4) Discussions and questions from a public hearing, meeting, or online equivalent;\n\n     (5) Some Federal investigations and civil actions, antitrust actions, and intelligence\n         activities.\n\ng.   Mission Areas, agencies, and staff offices conducting or sponsoring an information\n     collection are responsible for obtaining OMB approval.\n\n     (1) An information collection is considered to be “conducted” if the information being\n         collected is done using USDA staff and resources.\n\n     (2) An information collection is considered to be “sponsored” if another agency is used\n         to collect information, enters into a contract or a cooperative agreement with\n         another person to collect information, or requires a person to provide information to\n         another person, or otherwise causes another person to obtain, retain, solicit, or\n         require the disclosure to third parties or the public of information by or for a USDA\n         organization.\n\nh.   USDA must provide members of the public with the option to submit information,\n     transact business, and maintain records by paper or electronically when feasible. This\n     will provide OMB with information on how to assess both compliance with PRA and the\n     E-Government Act of 2002, P.L. 107-347.\n\ni.   Mission Areas, agencies, and staff offices cannot ask members of the public to respond\n     to a collection that does not have OMB approval. If doing so, they are in violation of the\n     PRA. By failing to comply, Mission Areas, agencies, and staff offices:\n\n     (1) Could open USDA and the information collected to legal challenge; and\n\n     (2) Will have the violations of the PRA reported to Congress and the President in the\n         Information Collection Budget (ICB).\n\n\n\n\n                                             4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3d22a445-6975-5dd4-b994-85706d0da70d",
+        "class": "section",
+        "title": "Privacy Requirements",
+        "controls": [
+          {
+            "id": "dr3410-001-6",
+            "class": "policy-requirement",
+            "title": "Privacy Requirements",
+            "parts": [
+              {
+                "id": "dr3410-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   Title III of the E-Government Act, also known as the Federal Information Security\n       Modernization Act of 2014 (FISMA), requires Federal agencies to ensure the security of\n       the information and information systems that support the operations and assets of the\n       agency, including those provided or managed by another agency, contractor, or other\n       source.\n\n       Federal agencies and their contractors must comply with FISMA standards and\n       obtain an Authority to Operate (ATO) appropriate for the types of information which\n       reside on these information systems. They must also ensure that a Privacy Impact\n       Assessment (PIA) is competed for these systems as well.\n\n  b.   So that agencies and their contractors are aware of and prepare to meet the legal\n       requirements for their information systems before initiating a new information\n       collection, the following information should be completed:\n\n       (1) Both ATO and PIA (if PII is collected) requirements apply to information systems\n           of Federal agencies and their contractors (e.g., in the private sector and academia);\n\n       (2) An ATO that is commensurate with the appropriate FISMA compliance level(s) is\n           required, even if PII is not collected by an information collection; and\n\n       (3) An information collection cannot begin if the information system that will be used\n           to conduct or host the collected information does not have an appropriate ATO,\n           even if an agency obtains OMB clearance for the collection.\n\n  c.   USDA Mission Areas, agencies, and staff offices will demonstrate in their OMB\n       clearance package submissions that the ICR will result in information that complies with\n       OMB and USDA Information Quality Guidelines when collecting information that\n       requires OMB clearance under PRA. For additional information on PRA, see OMB’s\n       Federal Collection of Information web page. For additional information on Privacy, see\n       OMB’s Privacy web page."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "31c6eb14-b60c-5cb1-bb76-c8a204b7e33f",
+        "class": "section",
+        "title": "Reporting",
+        "controls": [
+          {
+            "id": "dr3410-001-7",
+            "class": "policy-requirement",
+            "title": "Reporting",
+            "parts": [
+              {
+                "id": "dr3410-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   OMB requires each Federal agency to submit an annual information collection budget\n       (ICB) estimating the hours of burden to be imposed on the public in the next fiscal year\n       and verifying accomplishments in prior years. Each year, OMB determines the ICB\n       format, reduction goals, and other required inputs.\n\n  b.   To achieve reduction goals, Mission Areas, agencies, and staff offices must carefully\n       review their rules and regulations. They also must be prepared to offset increases in\n       some collections by identifying decreases in others.\n\n\n\n\n                                               5\n\f  c.   Mission Areas, agencies, and staff offices should plan their ICR needs 6 months or more\n       in advance and expect strict adherence to the estimates for new ICRs that were\n       submitted in the ICB. They must be prepared to reduce other proposed or existing\n       collections if unexpected new collections are needed during the fiscal year to keep the\n       new burden at or below the approved levels.\n\n  d.   Mission Areas, agencies, and staff offices must provide a report for regulatory actions\n       requiring a paperwork burden (e.g., notice of proposed rulemaking, interim final rule, or\n       final rule.) Further information can be found in DR 1512-001, Regulatory Development\n       and Review.\n\n       (1) If a regulatory action involves paperwork burden, the Mission Area, agency, or staff\n           office must:\n\n           (a) Clear it with the appropriate program personnel and Mission Area, agency, or\n               staff office Agency Information Collection Officer (AICO);\n\n           (b) Prepare and input data into the Regulatory and Information Service Center\n               (RISC) Office of Information and Regulatory Affairs (OIRA) Consolidated\n               Information System (ROCIS); and\n\n           (c) Submit one electronic copy of the ICR to the Departmental Information\n               Collection Officer (DICO) at least 15 business days prior to the publication of\n               the regulatory action.\n\n       (2) The DICO must transmit the ICR to OMB through ROCIS or notify the sponsoring\n           Mission Area, agency, or staff office if the package needs editing or does not\n           contain all required information.\n\n       (3) If an ICR pertains to rulemaking, the Mission Area, agency, or staff office must\n           publish a notice in the Federal Register to inform the public of OMB’s decision on\n           the ICR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "af72b393-4827-5be9-97d6-c3d6c55cc3e4",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr3410-001-8",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr3410-001-8-stmt",
+                "name": "statement",
+                "prose": "Procedures and processes for the preparation of information collections can be found in DM\n  3410-xxx, [DM forthcoming - draft in progress]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "977194c1-76bd-5df7-b292-abc0f54a74a2",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3410-001-9",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3410-001-9-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary, USDA will:\n\n       (1) Comply with the requirements of the PRA and related policies as established by the\n           OMB Director; and\n\n\n\n                                               6\n\f     (2) Delegate the responsibility for information collection activities to a senior official\n         within USDA.\n\nb.   The USDA CIO will:\n\n     (1) Serve as the delegated senior official for information collection activities and report\n         directly to the Secretary;\n\n     (2) Serve as the focal point for all Departmentwide matters relating to ICRs, privacy,\n         paperwork reduction, and elimination;\n\n     (3) Establish an office to manage USDA’s compliance with and prompt, efficient, and\n         effective implementation of the information policies and information resources\n         management responsibilities, including the reduction of information collection\n         burdens on the public; and\n\n     (4) Ensure employees of the office are selected with special attention to the\n         professional qualifications required to administer the functions described under the\n         PRA.\n\nc.   The Associate Chief Information Officer (ACIO) for Information Resource Management\n     Center (IRMC) will designate individuals to serve as the DICOs.\n\nd.   DICOs will:\n\n     (1) Serve as the central point of contact for communications with OMB concerning the\n         ICR;\n\n     (2) Ensure that the ICR contains all required information;\n\n     (3) Serve as the liaisons to OMB on ICR management clearances and activities;\n\n     (4) Develop, establish, and publish Departmental ICR management policy, objectives,\n         standards, and guidelines for the establishment and use of ICRs in accordance with\n         governing statutes, regulations, policies, and procedures;\n\n     (5) Ensure that ICRs comply with the legal requirements of the PRA, E-Government\n         Act, and the Privacy Act, as applicable, to reduce, minimize, and control burden;\n         protect sensitive information; and maximize practical use and public benefit;\n\n     (6) Provide monthly reports to AICOs showing ICRs expiring within the next 12\n         months;\n\n\n\n\n                                              7\n\f     (7) Review each ICR to ensure consistency with USDA and OMB policy,\n         appropriateness of the statistical designs for proposed information collections,\n         practical utility of the information being collected, as well as:\n\n         (a) Ensure that an ICR is necessary; and\n\n         (b) Encourage consolidation of collections and forms when practicable;\n\n     (8) Review and submit new ICRs in ROCIS to OMB, and extensions and revisions of\n         currently approved ICRs before their expiration dates;\n\n     (9) Prepare and forward a notice with a 30-day comment period (calendar days) to the\n         Federal Register of all new and expiring ICRs. Upon publication of the notice,\n         submit the ICR to OMB in ROCIS for review and approval;\n\n     (10) Respond to inquiries from OMB, maintaining records of transmittals and\n          clearances, and notifying Mission Areas, agencies, and staff offices of OMB action;\n\n     (11) Ensure that each ICR is inventoried, displays an OMB control number, and\n          discloses all necessary information as described in 44 U.S.C. § 3506, Federal\n          agency responsibilities.\n\n     (12) Provide training and technical assistance to Mission Area, agency, and staff office\n          personnel in the development and clearance of ICR submissions; and\n\n     (13) Notify the Mission Area, agency, and staff office clearance contacts of the\n          requirements and current procedures to prepare and submit its ICB information to\n          the IRMC ACIO. The IRMC ACIO will consolidate responses and submit to OMB\n          in a timely manner to meet assigned due dates.\n\ne.   Mission Area Under Secretaries, and Agency and Staff Office Heads will:\n\n     (1) Establish and implement an effective Mission Area, agency, or staff office ICR\n         Management Program within their respective organizations to meet the\n         requirements of this DR;\n\n     (2) Designate an AICO who will serve as a single point of contact within their agency\n         on ICR matters. This individual interacts with program managers to ensure ICRs\n         are submitted in the timeframes required to prevent ICR violations or require\n         emergency or extension approvals from OMB. The Mission Area, agency, or staff\n         office will report any changes in this designation immediately to the DICOs within\n         OCIO, including the name, title, email address, and telephone number of the\n         designee;\n\n     (3) Ensure that Mission Area, agency, and staff office program managers understand\n         and comply with all laws including the PRA, E-Government Act, and the Privacy\n\n\n\n                                             8\n\f         Act as it relates to information collected from the public, including individuals and\n         entities;\n\n     (4) Ensure that new and existing ICRs meet the timeframes outlined in this DR; and\n\n     (5) Ensure that ICR needs within their agency are analyzed, including a periodic review\n         of all regulations that result in paperwork burden, to ensure that an ICR is\n         necessary.\n\nf.   AICOs will:\n\n     (1) Coordinate ICR management activities with the DICO;\n\n     (2) Ensure that each ICR meets the requirements of this regulation and 5 CFR 1320;\n\n     (3) Assist program managers or specialists by providing training, technical assistance,\n         and guidance in preparing ICRs to keep public burden to a minimum;\n\n     (4) Monitor Mission Area, agency, or staff office ICR activities to ensure compliance\n         with applicable statutes, regulations, policies, procedures, and standards on all\n         ICRs:\n\n         (a) Review and clear PRA section in regulatory actions for any paperwork burden;\n\n         (b) Review and monitor Mission Area, agency, or staff office ICRs to ensure that\n             the 60-day Federal Register notice is published 6 months prior to the expiration\n             date of an existing ICR, or the use date of a new ICR; and\n\n         (c) Begin inputting the ICR data into ROCIS and notify OCIO 4 months prior to\n             the ICR expiration date of an existing ICR, or the use date of a new ICR.\n\n     (5) Review the monthly reports generated by OCIO and OMB in ROCIS to coordinate\n         the preparation of renewal ICRs;\n\n     (6) Complete a ROCIS training course to obtain login privileges to access ROCIS;\n\n     (7) Identify and resolve PRA violations;\n\n     (8) Ensure that an up-to-date inventory is maintained for all Mission Area, agency, or\n         staff office ICRs, submissions, approvals, burden hours, total responses, and\n         supporting materials;\n\n     (9) Ensure Mission Area, agency, or staff office program managers are in compliance\n         with the PRA and verify their adherence to the Privacy Act and E-Government Act;\n\n\n\n\n                                             9\n\f     (10) Coordinate with the USDA Departmental Forms Management Officer (DFMO) to\n          ensure Agriculture Department (AD) and Standard Form (SF) compliance\n          requirements are met, or with the Mission Area, agency, and staff office forms\n          managers and webmasters for USDA component forms to ensure that all public use\n          forms, surveys, or non-forms (collections of standardized information on the\n          internet) contain instructions, the OMB approved control number, burden disclosure\n          statement, and the expiration date, unless otherwise exempted. This information\n          should be on the first page or as close to the front as possible, when posted on the\n          internet or used with a web-based system;\n\n     (11) Consult with the Mission Area, agency, or staff office records management officer\n          about ICRs to ensure records have an authorized disposition per the applicable\n          records retention schedule as indicated by DR 3080-001, Records Management; and\n\n     (12) As necessary, and at the request of the DICO, the Mission Area, agency, or staff\n          office AICO should provide the National Agricultural Statistics Service’s AICO\n          with a copy of any ICR containing statistical methodology for review and\n          comments before submitting to OCIO.\n\ng.   Program Managers will:\n\n     (1) Coordinate ICR activities with AICOs when developing a new or renewing an\n         existing ICR;\n\n     (2) Ensure that the ICR is necessary for the proper performance of the Mission Area,\n         agency, or staff office’s function and has practical use;\n\n     (3) Prepare and initiate publication of the 60-day Federal Register notice 6 to 8 months\n         prior to the expiration date of an existing ICR or the use date of a new ICR;\n\n     (4) Submit the ICR package to the AICO;\n\n     (5) Comply with the Privacy Act, E-Government Act, and PRA;\n\n     (6) Ensure all employees, and those who act on behalf of USDA (including\n         contractors), do not disclose PII. For more information regarding the handling of\n         PII, please refer to DR 3515-002, Privacy Policy and Compliance for Personally\n         Identifiable Information (PII);\n\n     (7) Institute procedures to protect the information’s confidentiality to the extent\n         permitted by law when respondents submit proprietary or other confidential\n         information;\n\n     (8) Coordinate ICRs with the USDA DFMO per DM 3020-001, Departmental Forms\n         Manual (see Section 7d), or with the Mission Area, agency, and staff office forms\n\n\n\n\n                                             10\n\f            managers and webmasters for USDA component forms, and USDA CIO for those\n            ICRs that will be posted on the internet;\n\n        (9) Prepare an ICR for any collection of information contained in a proposed rule; and\n\n        (10) Notify AICO of any upcoming proposed rules containing a collection of\n             information.\n\n   h.   The USDA Departmental Forms Management Officer (DFMO) will:\n\n        (1) Ensure the AD-687, Forms Action and Request Notice accompanies the\n            Departmental form submission and contains the appropriate approvals;\n\n        (2) Verify that Section 508 accessibility requirements are met; however, final Section\n            508 edits and corrections will remain the responsibility of the sponsoring Mission\n            Area, agency, or staff office’s Section 508 staff;\n\n        (3) Confirm form submissions meet grammar, spelling, and Plain Language\n            requirements;\n\n        (4) Ensure the appropriate legal disclaimer language is in place, in consultation with the\n            Office of the General Counsel (OGC);\n\n        (5) Ensure Privacy Act language is in place, in consultation with the Departmental\n            Privacy Office and OGC, if a submitted form is collecting PII;\n\n        (6) Validate form numbers, OMB control numbers, revision information, publication\n            dates, and expiration dates are accurate and meet any Departmental formatting\n            requirements;\n\n        (7) Finalize and publish forms to the Departmental forms website once they are\n            approved by OMB; and\n\n        (8) Contact the DICO to notify their AICOs about the form’s availability."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "162a889d-87c3-5a39-89f4-6555b95dc1b0",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3410-001-10",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3410-001-10-stmt",
+                "name": "statement",
+                "prose": "Direct all questions concerning this DR to the OCIO IRMC IMD via email to\n   usda.pra@usda.gov.\n\n\n                                             -END-\n\n\n\n\n                                               11\n\f                                APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nACIO     Associate Chief Information Officer\nAD       Agriculture Department\nAICO     Agency Information Collection Officer\nATO      Authority to Operate\nCFR      Code of Federal Regulations\nCIO      Chief Information Officer\nDFMO     Departmental Forms Management Officer\nDG       Departmental Guidebook\nDICO     Departmental Information Collection Officer\nDM       Departmental Manual\nDR       Departmental Regulation\nEIT      Electronic and Information Technology\nEO       Executive Order\nFISMA    Federal Information Security Modernization Act\nFRN      Federal Register Notice\nGAO      Government Accountability Office\nICB      Information Collection Request Budget\nICO      Information Clearance Officer\nICR      Information Collection Request\nIMD      Information Management Division\nIRMC     Information Resource Management Center\nIRS      Internal Revenue Service\nIT       Information Technology\nOBPA     Office of Budget and Program Analysis\nOCIO     Office of the Chief Information Officer\nOGC      Office of the General Counsel\nOIRA     Office of Information and Regulatory Affairs (OMB Component)\nOMB      Office of Management and Budget\nOPI      Office of Primary Interest\nPIA      Privacy Impact Assessment\nPII      Personally Identifiable Information\nP.L.     Public Law\nPRA      Paperwork Reduction Act\nRISC     Regulatory and Information Service Center\nROCIS    Regulatory and Information Service Center, Office of Information and\n         Regulatory Affairs Consolidated Information System\nSF       Standard Form\nSORN     System of Records Notice\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                     A-1\n\f                                         APPENDIX B\n\n                                         DEFINITIONS\n\n\na. Burden. The total time, effort, or financial resources expended by persons to generate,\n   maintain, or provide information to, or for a, Federal Agency, including:\n\n   (1) Reviewing instructions;\n\n   (2) Acquiring, installing, and using technology and systems;\n\n   (3) Adjusting the existing ways to comply with any previously applicable instructions and\n       requirements;\n\n   (4) Searching data sources;\n\n   (5) Completing and reviewing the collection of information; and\n\n   (6) Transmitting or otherwise disclosing the information. (Source: 44 U.S.C. § 3502,\n       Definitions)\n\nb. Electronic Government (E-Gov). The use by the Government of internet-based applications\n   and other digital technologies, combined with processes that implement these technologies,\n   to enhance the access to, and delivery of, Government information and services to the public,\n   other agencies and other Government entities; and leverage investments in information\n   technology to eliminate unnecessary duplication and improve effectiveness, efficiency, and\n   service quality. This includes addressing the people and process changes associated with\n   transformed business delivery. (Source: USDA, Departmental Guidebook (DG) 0100-002,\n   USDA Departmental Directives Definitions Glossary)\n\nc. Information Collection Budget (ICB). OMB’s annual report to Congress, providing a\n   detailed accounting of the ICR activities of the Federal Government in a given fiscal year.\n\nd. Information Collection Request (ICR). Obtaining, causing to be obtained, soliciting, or\n   requiring the disclosure to third parties or the public of facts or opinions regardless of the\n   form or format. Typical formats include, written report forms, application forms, schedules,\n   questionnaires, reporting or recordkeeping requirements, or similar methods calling for the\n   collection of information.\n\n   The following are methods used to collect information under an ICR:\n\n   (1) Mail (forms);\n\n   (2) Personal or telephone interviews or group interviews (such as focus group sessions);\n\n\n\n\n                                                 B-1\n\f   (3) Communication via a web-based application;\n\n   (4) Automated, electronic, mechanical, or other technological collection techniques (such as\n       electronic transmissions from airplanes or boats, to ground or satellite receiving\n       stations); or\n\n   (5) Any other approach through which the respondent or potential respondent can provide\n       the response, recordkeeping, or disclosure requested. (Source: 44 U.S.C. § 3502).\n\ne. Practical Utility. The ability of an agency to use information, particularly the capability to\n   process such information in a timely and useful fashion. (Source: 44 U.S.C. § 3502)\n\nf. Privacy Impact Assessment (PIA). A tool for identifying and assessing privacy risks\n   throughout the development life cycle of a program or system. A privacy impact assessment\n   states what personally identifiable information (PII) is collected and explains how that\n   information is maintained, how it will be protected and how it will be shared.\n\ng. Personally Identifiable Information (PII). Any information about an individual maintained by\n   an agency, including (1) any information that can be used to distinguish or trace an\n   individual‘s identity, such as name, social security number, date and place of birth, mother‘s\n   maiden name, or biometric records; and (2) any other information that is linked or linkable to\n   an individual, such as medical, educational, financial, and employment information. (Source:\n   Government Accountability Office (GAO) Report, GAO-08-536, Privacy – Alternatives\n   Exist for Enhancing Protection of Personally Identifiable Information, Footnote 1)\n\nh. Recordkeeping Requirement. A requirement imposed by or for an agency on persons to\n   maintain specified records, including a requirement to:\n\n   (1) Retain such records;\n\n   (2) Notify third parties, the Federal Government, or the public of the existence of such\n       records;\n\n   (3) Disclose such records to third parties, the Federal Government, or the public; or\n\n   (4) Report to third parties, the Federal Government, or the public regarding such records;\n       (Source: 44 U.S.C. § 3502)\n\ni. ROCIS. The electronic database system used to input the ICR documentation and\n   submission to OMB. (OMB, Privacy Impact Assessment - Regulatory Information Service\n   Center (RISC) RISC/OIRA Combined Information System (ROCIS))\n\nj. Section 508. Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. §\n   794(D)) requires that Federal agencies’ electronic and information technology (EIT) be\n   accessible to people with disabilities, including employees and members of the public.\n\n\n\n\n                                                B-2\n\f                                     APPENDIX C\n\n                         AUTHORITIES AND REFERENCES\n\n\nClinger-Cohen Act of 1996, Public Law (P.L.) 104-106, February 10, 1996\n\nControlling Paperwork Burdens on the Public, 5 Code of Federal Regulations (CFR) Part\n1320\n\nData Quality Act, P.L. 106-554, § 515, December 21, 2000\n\nE-Government Act of 2002, P.L. 107-347, December 17, 2002\n\nExecutive Order (EO) 12866, Regulatory Planning and Review, September 30, 1993, as\namended by EO 13422\n\nEO 13422, Further Amendment to Executive Order 12866 on Regulatory\nPlanning and Review, January 18, 2007\n\nFederal Information Security Modernization Act of 2014, P.L. 113-283, December 2014\n\nFreedom to E-File Act, P.L. 106-222, June 20, 2000\n\nGAO, Report GAO-08-536, Privacy – Alternatives Exist for Enhancing Protection of\nPersonally Identifiable Information, May 2008\n\nOMB, Circular A-130, Memorandum for Heads of Executive Departments and Agencies:\nManagement of Federal Information Resources, revised, November 28, 2000\n\nOMB, Memorandum M-03-22, OMB Guidance for Implementing the Privacy Provisions of\nthe E-Government Act of 2002, September 26, 2003\n\nOMB, Office of Management and Budget Information Quality Guidelines, October 1, 2002\n\nOMB, Privacy Impact Assessment - Regulatory Information Service Center (RISC)\nRISC/OIRA Combined Information System (ROCIS), May 30, 2018\n\nOMB, Statistical Policy, Directive No. 15, Standards for the Classification of Federal Data\non Race and Ethnicity, June 9, 1994\n\nPaperwork Reduction Act of 1995, P.L. 104-13, May 22, 1995\n\nPrivacy Act of 1974, codified at 5 U.S.C. § 552a, as amended\n\n\n\n\n                                            C-1\n\fPublic Printing and Documents, 44 U.S.C. § 3502, Definitions\n\nPublic Printing and Documents, 44 U.S.C. § 3506, Federal agency responsibilities\n\nSection 508, Rehabilitation Act of 1973, codified at 29 U.S.C. § 794d, Electronic and\ninformation technology\n\nUSDA, AD-687, Forms Action and Request Notice, March 1991\n\nUSDA, DG 0100-002, USDA Departmental Directives Definitions Glossary, September 26,\n2018\n\nUSDA, DM 3020-001, Departmental Forms Manual, September 16, 1991\n\nUSDA, DR 1512-001, Regulatory Development and Review, September 14, 2021\n\nUSDA, DR 3080-001, Records Management, September 16, 2016\n\nUSDA, DR 3515-002, Privacy Policy and Compliance for Personally Identifiable\nInformation (PII), October 30, 2020\n\nUSDA, DR 4030-001, Section 508 Program, September 8, 2014\n\nUSDA, OCIO, Information Quality Guidelines web page\n\n\n\n\n                                          C-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "58aac968-5d97-5d61-a892-54786f9e75b9",
+          "title": "USDA Directives — DR3410-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3410-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

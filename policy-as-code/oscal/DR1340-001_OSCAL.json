@@ -1,0 +1,121 @@
+{
+  "catalog": {
+    "uuid": "689fb7b5-682d-53d3-acca-719a9e6162ec",
+    "metadata": {
+      "title": "USDA DR1340-001: Memorandum Between USDA and Defense",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2083-07-07",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1340-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2083-07-07"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1340-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Conservation Planning and, Application Division, SCS",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1340-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Conservation Planning and, Application Division, SCS"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "4d913b5d-aaa6-54cd-8511-a1b52937c447",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr1340-001-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr1340-001-1-stmt",
+                "name": "statement",
+                "prose": "U.S. Department of Agriculture\n                                                Washington, D.C. 20250\n\n\n                                                                                                  NUMBER:\nDEPARTMENTAL REGULATION                                                                          1340-001\n\nSUBJECT:    Cooperation with Conservation Districts                   DATE:\n                                                                      July 7, 1983\n\n                                                                      OPI: Conservation Planning and\n                                                                      Application Division, SCS\n\n\n\n\n1 PURPOSE\n\n To encourage all agencies of the Department to cooperate with conservation districts in carrying out their\ndistrict programs for soil water, and related resource management.\n\n\n\n\n2 SPECIAL INSTRUCTIONS/CANCELLATIONS\n\nThe following Secretary's Memoranda are superseded by this regulation and are hereby rescinded:\n\n                  a         Secretary's Memorandum 1488, Cooperation with Soil and Water Conservation\n                  Districts\n\n                  b        Secretary's Memorandum 2006, Conservation Assistance to Indians on Tribal\n                  Lands\n\n\n\n\n3 BACKGROUND\n\n The primary responsibility for soil and water conservation rests with the people who own and/or operate\nthe land. USDA provides assistance through conservation districts as part of a nationwide soil and water\nconservation program on private and Indian lands. The districts, organized under State enabling laws,\nstimulate local initiative and are governed by elected or appointed local citizens.\n\n Since 1937, various States, territories, and Indian tribal governments have enacted conservation district\nlegislation. There are in existence under State, territorial, or tribal laws some 2,930 local conservation\ndistricts organized through the democratic procedures of petition and referendum. They encompass a total\narea of 2,215,000,000 acres of land. They include 95 percent of the Nation's privately owned agricultural\nand forest land and 94 percent of the farms and ranches. More than 17,000 local citizens are members of\nthe boards that govern these districts.\n\fDR 1340-001                                                                                     July 7, 1983\n\n\nEnabling laws provide for State conservation committees (or boards or commissions), the members of\nwhich are either named in the act by their position or are appointed by the Governor. As agencies of State\ngovernment, they guide the organization of districts and facilitate in their functioning.\n\n Each district has responsibility under law for developing a districtwide soil and water conservation\nprogram and for carrying it forward by helping private land owners and operators to plan, apply, and\nmaintain technically sound conservation programs for their land. Each district is autonomous and self-\ngoverned. It has the authority to enter into working agreements and arrangements with any agency,\ngovernmental or otherwise and with any person to carry out its program to accomplish its purpose.\n\n\n\n\n4 POLICY\n\nIt is USDA policy to cooperate with conservation districts by:\n\n                  a      Encouraging local citizens to organize districts for the privately and Indian\n                 owned land in the entire United States and its territories;\n\n                 b         Entering into working agreements and other appropriate arrangements with\n                 districts and States to provide assistance in carrying out their programs\n\n                 c        Encouraging land owners and operators to cooperate with their local districts;\n                 and\n\n                 d         Providing assistance through research, education, technical assistance, financial\n                 assistance, and credit to individuals and groups of farmers, ranchers, other land users, and\n                 units of government to help them carry out their soil, water, and related natural resource\n                 programs.\n\nThe Secretary of Agriculture has entered into a Memorandum of Understanding with each district. The\nvarious agencies of USDA are encouraged to enter into supplemental Memoranda of Understanding or\nother appropriate working agreements with these districts to help implement the district program.\n\n\n\n\n                                                     2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "2afb7223-796b-53c6-837d-5ce9d9054ccd",
+          "title": "USDA Directives — DR1340-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1340-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

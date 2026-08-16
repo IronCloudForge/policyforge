@@ -1,0 +1,207 @@
+{
+  "catalog": {
+    "uuid": "fd773f23-3a8f-5312-85d8-2d1f28fbc5f0",
+    "metadata": {
+      "title": "USDA DR5160-001: Official Symbol and Seal of the Department",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2013-09-19",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR5160-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2013-09-19"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-5160-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Procurement, and Property Management,",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-5160-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Procurement, and Property Management,"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "d5402b8f-6b3a-54cf-80e3-bda30664a2af",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr5160-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr5160-001-1-stmt",
+                "name": "statement",
+                "prose": "This regulation outlines requirements and procedures to be followed by agencies with regard\n    to the use and/or reproduction of the Official Symbol of the Department of Agriculture\n    (USDA) (See Appendix A) and the Official Seal of USDA (See Appendix B)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4d91e0a8-8cf3-5070-b251-67947e8bb472",
+        "class": "section",
+        "title": "Cancellation",
+        "controls": [
+          {
+            "id": "dr5160-001-2",
+            "class": "policy-requirement",
+            "title": "Cancellation",
+            "parts": [
+              {
+                "id": "dr5160-001-2-stmt",
+                "name": "statement",
+                "prose": "This regulation supersedes 5160-001, Official Symbol and Seal of the Department, dated\n    November 25, 2002."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8eafbebb-842a-5a49-9571-b83da5e01b62",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr5160-001-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr5160-001-3-stmt",
+                "name": "statement",
+                "prose": "The Official Symbol and Seal of USDA will be in the custody of the Director, Office of\n  Procurement and Property Management (OPPM) who will be responsible for the safeguarding\n  and proper use of both. The use of the Official Symbol of USDA must be in accordance with\n  the Visual Standards Guide provided by the Director, Office of Communications (OC). No\n  employee of the Department will affix the Official Seal to any document, nor will any\n  employee reproduce the impression of the seal or duplicate the seal in exact replica and size."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1898dec5-f9d8-57af-bbfd-cf2fe6fff4de",
+        "class": "section",
+        "title": "Use",
+        "controls": [
+          {
+            "id": "dr5160-001-4",
+            "class": "policy-requirement",
+            "title": "Use",
+            "parts": [
+              {
+                "id": "dr5160-001-4-stmt",
+                "name": "statement",
+                "prose": "a. USDA Signature. The Official Symbol will be used as the Department’s signature. It will\n     be displayed on information products produced by USDA throughout all media. The\n     symbol is to be used in the following manner:\n\n     (1) Displayed in Department auditoriums, lobbies, areas frequented by the public, and\n         other locations deemed appropriate, provided the hanging or attaching of such replicas\n         to walls is in accordance with approved practices for the building;\n\n     (2) Official compound site signage, location signage and directional signage in\n         accordance with Departmental Regulation, 5160-003, Identification Signs;\n\n     (3) Official exhibits and informational display materials of the Department;\n\n     (4) Furnished for use in appropriate public meetings or for other educational or public\n         purposes;\n\n     (5) Reproduced on all electronic digital publishing, video, Internet, and Intranet means;\n\n     (6) Reproduced on all agency informational and communication products in accordance with\n         the Visual Standards Guide provided by the Director, OC;\n\n     (7) Printed on employee’s business cards and used only when representing the\n         Department on official business; and\n\n     (8) The symbol is not to be used to constitute warranty of private sector products,\n         organizations, or their endeavors. It shall never be displayed or presented in a manner\n         that suggests the Department recommends one product or project over another without\n         written permission from the Director, Brand, Events, Exhibits and Editorial Review\n         Division (BEEERD), OC.\n\n  b. Verification of Official Legal Documents. The Official Seal will be used only to verify\n     legal documents of the Department under instructions issued by OC. Requests to affix the\n     seal to documents will be submitted in writing to the Director, BEEERD, OC, by Heads of\n     Agencies or their designee.\n\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a6f0b98b-d92e-54bd-88d5-b0469166dbb4",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr5160-001-5",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr5160-001-5-stmt",
+                "name": "statement",
+                "prose": "Inquiries regarding the symbol and seal and their appropriate use shall be referred to OPPM.\n\n\n\n                                           -END-\n\n\n\n\n                                              3\n\f                                             APPENDIX A\n\n             OFFICIAL SYMBOL OF THE DEPARTMENT OF AGRICULTURE\n\n\n\n\n                                 (Image for display purposes only. Do not copy.)\n\n\nIn an effort to reduce associated costs with administrative operations and signatures of products\nproduced by the Department, the current USDA symbol was created in conjunction with the\nDepartment’s reorganization in 1996. It represents all of USDA’s activities in its mission areas\nand agencies. The symbol resulted from a collaborative effort of private and public sector team\nmembers working through an objective process. Over 21,000 agriculture-related symbols were\nresearched and reviewed. Approximately 20 new symbol designs were created and modified\nbefore a working committee made its recommendations. The committee represented all mission\nareas within the Department from across the Nation and Washington, DC. From the\nrecommendations presented, the Secretary of Agriculture made the final selection in 1996 with\nconcurrence from all Assistant Secretaries.\n\nThe USDA symbol is the single, most visible asset of USDA. It immediately identifies USDA to\nthe world. The simple design portrays USDA as a modern organization rooted in tradition but\nfocused on the future of agriculture.\n\nThe symbol is designated for display on information products of the Department throughout all\nmedia. The symbol is not to be used to constitute warranty of private sector products,\norganizations, or their endeavors. It shall never be displayed or presented in a manner that\nsuggests that the Department recommends one product or project over another without written\npermission from the Director, BEEERD, OC.\n\nThe symbol is to be reproduced only from art supplied by OC (available in electronic format).\n\nThe symbol shall be reproduced in either one or two colors. The official colors for the USDA\nsymbol are dark blue (Pantone Matching System (PMS) 288) and dark green (PMS 343). When\nreproduced in one color, the symbol shall be black or the dominant color used in the information\nproduct. When the symbol is placed on a color field, it should be reversed to white.\n\nRefer to the ‘Visual Standards Guide’ for detailed information on the USDA symbol (e.g., color,\nposition and placement, visibility, preferred type fonts, etc.).\n\n\n\n\n                                                     A-1\n\f                                             APPENDIX B\n\n                OFFICIAL SEAL OF THE DEPARTMENT OF AGRICULTURE\n\n\n\n\n                                 (Image for display purposes only. Do not copy.)\n\n\nThe Official USDA Seal was created in 1894. It was adapted for use as a general identifier or\nsignature, within the publication of the Department’s Visual Management Manual in 1980. The\nseal is relegated for use on legal documents, in the Office of the Secretary, and for other protocol\nfunctions as originally mandated by Congress.\n\nBy an Act of Congress, approved August 8, 1894, the Secretary of Agriculture was authorized\nand directed to procure a proper seal to be known as the Official Seal of the Department of\nAgriculture. By an order dated June 21, 1895, Honorable J. Sterling Morton, at that time\nSecretary of Agriculture, proclaimed the adoption of an Official Seal for the Department of\nAgriculture in the following terms:\n\n   “ORDERED, That the Official Seal of the Department of Agriculture shall be (as described\n   in Heraldic terms), two and three-eighths inches in diameter (azure), a shock of corn (or),\n   upon a base (vert) an American plough proper. All within a double annulet (argent), outer\n   roped, inner beaded, charged with the inscription: UNITED STATES DEPARTMENT OF\n   AGRICULTURE, and at base, a scroll bearing the legend: “1862.AGRICULTURE IS THE\n   FOUNDATION OF MANUFACTURE AND COMMERCE. 1889.” (or), A diapered\n   background of 44 stars (argent) for the States of the Union.”\n\nRecords indicate that the design for the Official Seal of the Department of Agriculture was drawn\nby A. H. Baldwin, an artist in the employ of the Department, and submitted for criticism to\nBailey, Banks and Biddle, of Philadelphia, PA. Secretary Morton showed a great amount of\ninterest in the design of the Official Seal, even to the point of holding several conferences with\nDepartment officials and commercial concerns.\n\nA green or gold seal and green ribbon are used on many documents with the impression of the\nseal. There are no official requirements for the use of green; however, it is deemed to be\nappropriate for use by the Department.\n\n\n                                                     B-1\n\fThe dates on the scroll represent the year the Department was founded by act of Congress\n(1862), and the year the Department was made an Executive Office headed by a Secretary of\ncabinet rank (1889). The 44 stars represent the states in the Union in 1889.\n\n\n\n\n                                             B-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "6442c5f8-cc97-5610-b861-51d00ddf9516",
+          "title": "USDA Directives — DR5160-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-5160-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,339 @@
+                           U.S. DEPARTMENT OF AGRICULTURE
+                                 WASHINGTON, D.C. 20250
+
+                                                                  Number:
+      DEPARTMENTAL REGULATION                                     DR 3300-006
+
+                                                                  DATE:
+     SUBJECT:                                                     June 1, 2016
+     Network Class of Service and Quality of Service              OPI:
+                                                                  Office of the Chief
+                                                                  Information Officer,
+                                                                  Enterprise Network
+                                                                  Services
+
+
+
+Section                                                                                    Page
+
+1.   Purpose                                                                               1
+2.   Special Instructions/Cancellations                                                    2
+3.   Scope                                                                                 2
+4.   Background                                                                            2
+5.   Policy                                                                                3
+6.   Roles and Responsibilities                                                            3
+7.   Compliance                                                                            5
+8.   Policy Exceptions                                                                     5
+9.   Inquiries                                                                             5
+
+APPENDIX A Definitions                                                                     A-1
+APPENDIX B Acronyms and Abbreviations                                                      B-1
+APPENDIX C Authorities and References                                                      C-1
+
+
+
+1. PURPOSE
+
+     a.   This Departmental Regulation (DR) establishes the United States Department of
+          Agriculture (USDA) policy for the implementation of Class of Service (CoS) and
+          Quality of Service (QoS) on the Departmental enterprise network.
+
+     b.   This policy complies with the industry standards for CoS and QoS as defined and
+          established by the Internet Engineering Task Force (IETF) in the following Request for
+          Comments (RFC) documents: RFC 2474, Definition of the Differentiated Services Field
+          (DS Field) in the IPv4 and IPv6 Headers; RFC 2475, An Architecture for Differentiated
+          Services; RFC 2597, Assured Forwarding PHB Group; RFC 3168, The Addition of
+          Explicit Congestion Notification (ECN) to IP; RFC 3246, An Expedited Forwarding
+       PHB (Per-Hop Behavior); and RFC 3260, New Terminology and Clarifications for
+       Diffserv.
+
+  c.   Application of the CoS/QoS standards identified in the RFCs will provide USDA with a
+       set of unified and cohesive methodologies for delivering greater network bandwidth
+       optimization, reserving a minimum amount of bandwidth for critical agency
+       applications, and prioritizing network service for current and future applications.
+
+
+2. SPECIAL INSTRUCTIONS/CANCELLATIONS
+
+  a.   This DR is in effect at the date of signature and will remain in effect until superseded. If
+       any provision of this DR is superseded by an official USDA memorandum or otherwise
+       invalidated by external laws, directives, or standards, such invalidity does not affect
+       other provisions of this DR. In the event of reorganization of offices or mission areas,
+       USDA must ensure that each of the roles and responsibilities described in this DR are
+       specifically assigned to a new or existing organization or team.
+
+  b.   The terms CoS and QoS are defined differently by various industry vendors. For the
+       purposes of this DR, CoS and QoS are defined as the following:
+
+       (1) CoS refers to a grouping used by a Multi-Protocol Label Switching (MPLS)
+           network to identify how traffic passes through that network; and
+
+       (2) QoS refers to how software configurations are implemented in a traditional network
+           via switches and routers. QoS represents an effort to guarantee delivery of a given
+           capability at the level expected by the user community independent of the
+           underlying network. Each network service (e.g., data, voice, and video) has
+           different QoS expectations.
+
+
+3. SCOPE
+
+  This DR applies to all USDA agencies and staff offices, contractors, data centers, cloud
+  service providers, cooperative partners, employees, and other personnel working with any
+  USDA network.
+
+
+4. BACKGROUND
+
+  a.   The USDA enterprise network is an integrated and collaborative environment,
+       incorporating multiple requirements from a variety of functionality-based, engineered
+       solutions for the various USDA staff offices and agencies.
+
+  b.   USDA senior leadership envisions a unified communications technology backbone that
+       supports a broad range of integrated services across the enterprise network and offers
+
+
+                                                2
+       customers streamlined, intelligent communications options for accessing enterprise-
+       managed and standalone services.
+
+  c.   As USDA networks converge, many disparate users will share the same network
+       resources. Organizations that transition to a converged network realize savings in
+       information technology (IT) operational costs, improved performance through the
+       reduction of network security boundaries across trusted networks, and increased
+       efficiencies of available bandwidth across those networks. As more USDA agencies and
+       staff offices begin leveraging converged services across a single trusted network, it is
+       essential that high-priority traffic be identified and marked to ensure efficient
+       prioritization and use of bandwith as a resource. USDA intends to make full use of the
+       CoS and QoS industry standards across the Unified Telecommunications Network
+       (UTN) to accomplish this goal.
+
+
+5. POLICY
+
+  As CoS and QoS are implemented on any network circuit in USDA, the implementation must
+  comply with the current USDA Quality of Service (QoS)/Class of Service (CoS) Standard,
+  which is maintained and published by the Office of the Chief Information Officer (OCIO),
+  Enterprise Network Services (ENS) (eAuthentication access required). If an agency or staff
+  office chooses to implement CoS and QoS and deviate from the current USDA QoS/CoS
+  standard, the agency or staff office must submit a waiver request to the ENS Director for
+  review and approval prior to implementation. Additional information about waiver requests
+  can be found in section 8.
+
+
+6. ROLES AND RESPONSIBILITIES
+
+  a.   The USDA Chief Information Officer (CIO) shall:
+
+       (1) Ensure that agencies and staff offices comply with this DR; and
+
+       (2) Sponsor, establish, and maintain a USDA UTN Technical Review Board (TRB).
+
+  b.   The ENS Director shall:
+
+       (1) Publish and maintain a Departmental network standard for CoS and QoS;
+
+       (2) Complete a QoS design for USDA;
+
+       (3) Implement and operationally maintain the QoS design across the UTN backbone;
+
+       (4) Manage configuration, classification, identification and marking, policy, reporting,
+           and accounting functions to control and administer end-to-end traffic across the
+           USDA enterprise network;
+
+                                              3
+     (5) Review service level agreements (SLAs) and determine if credits or financial
+         adjustments are applicable;
+
+     (6) Review and render a decision for agency and staff office policy waiver requests;
+         and
+
+     (7) Maintain an electronic file of approved waivers.
+
+c.   The USDA UTN TRB shall:
+
+     (1) Review, approve, and update the USDA QoS/CoS standard, as needed;
+
+     (2) Develop and recommend a CoS and QoS standard to meet the demand of current
+         and future capabilities, services, and applications on the USDA enterprise network;
+         and
+
+     (3) Review and provide resources to assist agency and staff office implementation of
+         CoS and QoS.
+
+d.   Agency and Staff Office CIOs and Directors shall:
+
+     (1) Ensure agency and staff office telecommunications personnel comply with this
+         directive;
+
+     (2) Ensure agency and staff office internal directives conform to this DR’s stated
+         requirements;
+
+     (3) Ensure that data packets are identified, marked, and/or tagged correctly according to
+         the USDA QoS/CoS standard;
+
+     (4) Coordinate shared network circuit capacity planning and software configuration
+         with OCIO-ENS and other agencies and staff offices;
+
+     (5) Manage configuration, classification, identification and marking, policy, reporting,
+         and accounting functions to control and administer end-to-end traffic across the
+         agency or staff office network;
+
+     (6) Review SLAs and determine if credits or financial adjustments are applicable; and
+
+     (7) Obtain waivers and approvals from the ENS Director when agency and staff office
+         requirements cannot be met through mandated policies.
+
+
+
+
+                                            4
+7. COMPLIANCE
+
+  a.   Compliance with this DR shall be enforced in accordance with the USDA QoS/CoS
+       standard.
+
+  b.   Agencies and staff offices are authorized to deviate from the CoS and QoS standard
+       within their own network boundaries as long as they have an approved waiver from the
+       ENS Director and meet the standard when interfacing with shared network segments.
+
+  c.   Interoperability between an agency or staff office network and the OCIO Wide Area
+       Network (WAN) must ensure CoS and QoS communication is tagged bi-directionally at
+       any network routing device.
+
+
+8. POLICY EXCEPTIONS
+
+  a.   All USDA agencies and staff offices are required to conform to this policy. In the event
+       that a specific policy requirement cannot be met as explicitly stated, agencies and staff
+       offices may submit a policy waiver request in writing. The waiver request shall explain
+       the reason for the request, identify compensating controls/actions that meet the intent of
+       the policy, and identify how the compensating controls/actions provide a similar or
+       greater level of defense or compliance than the policy requirement.
+
+  b.   Agency and staff office system owners and CIOs shall address all policy waiver request
+       memoranda to the ENS Director and submit the waiver request to
+       ens.policy@ocio.usda.gov for review and determination.
+
+  c.   Waivers to stipulations of this directive that have been granted approval by the ENS
+       Director and that are associated with a National Institute of Standards and Technology
+       (NIST) IT security control shall be recorded and tracked as a Plan of Action and
+       Milestones (POA&M) item in the USDA Federal Information Security Management Act
+       (FISMA) data management and reporting tool.
+
+  d.   Waivers will expire at the end of the fiscal year or six months from the date of approval,
+       whichever is longer. Unless otherwise specified, agencies and staff offices shall review
+       and renew approved policy waivers every fiscal year.
+
+  e.   The ENS Director will provide a reason for any waiver request that is denied. If a
+       waiver request is denied, the agency or staff office is expected to comply with the
+       existing policy.
+
+
+9. INQUIRIES
+
+  Questions and comments concerning the requirements of this regulation should be
+  directed to OCIO-ENS, Telecommunications Management and Governance (TMG) at
+  ens.policy@ocio.usda.gov.
+
+                                               5
+        -END-
+1
+
+
+
+
+    6
+                                              APPENDIX A
+
+                                             DEFINITIONS
+
+
+a.   Class of Service (CoS). Refers to a grouping used by an MPLS network to identify how
+     traffic passes through that network.
+
+b.   Intelligence Communications. Refers to a network’s ability to determine best path as
+     well as traffic prioritization decisions for defined Internet Protocol (IP) services.
+
+c.   Quality of Service (QoS). Refers to how mechanisms are implemented in a traditional
+     network via switches and routers. QoS represents an effort to guarantee delivery of a
+     given capability at the level expected by the user community independent of the
+     underlying network. Each network service (e.g., data, voice, and video) has different
+     QoS expectations.
+
+d.   Telecommunications. Includes the transmission, emission, or reception of signals,
+     writing, images, sounds, or intelligence of any nature, by wire, cable, satellite, fiber
+     optics, laser, radio, or any other electronic, electric, electromagnetic, or acoustically
+     coupled means. The term includes the telecommunications facilities and equipment
+     necessary to provide telecommunications services. Telecommunications is a
+     component of the information resources management system. (DR 3300-020,
+     Telecommunications Mission Area Control Officer (TMACO) – Roles and
+     Responsibilities)
+
+
+
+
+                                              A-1
+                           APPENDIX B
+
+               ACRONYMS AND ABBREVIATIONS
+
+
+CIO     Chief Information Officer
+CoS     Class of Service
+DR      Departmental Regulation
+DS      Differentiated Services
+ECN     Explicit Congestion Notification
+ENS     Enterprise Network Services
+FISMA   Federal Information Security Management Act
+IETF    Internet Engineering Task Force
+IP      Internet Protocol
+IT      Information Technology
+MPLS    Multi-Protocol Label Switching
+NIST    National Institute of Standards and Technology
+OCIO    Office of the Chief Information Officer
+POA&M   Plan of Action and Milestones
+QoS     Quality of Service
+PHB     Per-Hop Behavior
+RFC     Request for Comments
+SLA     Service Level Agreement
+TMACO   Telecommunications Mission Area Control Officer
+TMG     Telecommunications Management and Governance
+TRB     Technical Review Board
+USDA    United States Department of Agriculture
+UTN     Unified Telecommunications Network
+WAN     Wide Area Network
+
+
+
+
+                                B-1
+                                        APPENDIX C
+
+                            AUTHORITIES AND REFERENCES
+
+
+DR 3300-020, Telecommunications Mission Area Control Officer (TMACO) - Roles and
+Responsibilities, August 30, 2010
+
+IETF, RFC 2474, Definition of the Differentiated Services Field (DS Field) in the IPv4 and
+IPv6 Headers, December 1998
+
+IETF, RFC 2475, An Architecture for Differentiated Services, December 1998
+
+IETF, RFC 2597, Assured Forwarding PHB Group, June 1999
+
+IETF, RFC 3168, The Addition of Explicit Congestion Notification (ECN) to IP, September
+2001
+
+IETF, RFC 3246, An Expedited Forwarding PHB (Per-Hop Behavior), March 2002
+
+IETF, RFC 3260, New Terminology and Clarifications for Diffserv, April 2002
+
+USDA, USDA Quality of Service (QoS)/Class of Service (CoS) Standard, Version 1.0,
+January 10, 2012
+
+
+
+
+                                          C-1
+

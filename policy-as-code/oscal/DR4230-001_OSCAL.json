@@ -1,0 +1,264 @@
+{
+  "catalog": {
+    "uuid": "285d97aa-2d99-54c3-946c-65d7328448a2",
+    "metadata": {
+      "title": "USDA DR4230-001: Volunteer Programs",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2016-10-20",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4230-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2016-10-20"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4230-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4230-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "60b3043d-d623-5d39-8350-e693fde01758",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4230-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4230-001-1-stmt",
+                "name": "statement",
+                "prose": "The purposes of this Departmental Regulation (DR) are to transmit policy for the acceptance\n     of volunteer services within the United States Department of Agriculture (USDA) under\n     proper authorities and establish requirements for agencies to publish their own guidelines\n     before using this authority. This regulation applies to individuals who are providing\n     volunteer services to the USDA who are:\n\n     a.    Currently employed by the USDA;\n\n     b.    Students; and\n\n     c.    Members of the public who are not employees of the USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "61b040f8-2495-5292-b32a-1f5049a8351e",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr4230-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr4230-001-2-stmt",
+                "name": "statement",
+                "prose": "This policy supersedes DR 4230-001, Volunteer Programs, dated June 5, 1997."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3e376b05-6d6d-553d-928c-42e782a83ddd",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr4230-001-3",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr4230-001-3-stmt",
+                "name": "statement",
+                "prose": "This DR must be used in conjunction with the following authorities:\n\n     a. Acceptance of Volunteer Service, 5 U.S.C. 3111\n\n     b. Annual Leave, 5 CFR 630, Subpart C\n\n     c. Child Labor Regulations, Orders and Statements of Interpretation, 29 CFR 570\n\n     d. Compensation for Work Injuries (Federal Employees' Compensation Act), 5 U.S.C. 81\n\n     e. Child Care Worker Employee Background Checks (Crime Control Act of 1990), P.L.\n        101-647, Subtitle E\n\n     f. Executive Order 10450, Security Requirements for Government Employment\n\n     g. Funds for Incidental Expenses and Promotional Items Relating to Volunteers, 7 U.S.C.\n        2272a\n\n     h. Flexible and Compressed Work Schedules, 5 CFR 610, Subpart D\n\n     i. Homeland Security Presidential Directive 12, Policy for a Common Identification\n        Standards for Federal Employees and Contractors\n\n     j. Office of Management and Budget Circular A-76, Performance of Commercial\n        Activities\n\n     k. Office of Personnel Management Guide to Processing Personnel Actions, Chapter 33\n\n     l. Political Activities (Hatch Act of 1939), (5 U.S.C. 7324)\n\n     m. Prohibited Personnel Practices, 5 U.S.C. 2302\n\n     n. Prohibition of Coercion, 5 U.S.C. 6132\n\n     o. Standards of Ethical Conduct for Employees of the Executive Branch, 5 CFR 2635\n\n     p. Tort Claims Procedure (Federal Tort Claims Act), 28 U.S.C. 171\n\n     q. USDA, DR 4060-630-002, Leave Administration - Excused Absence/Administrative\n        Leave\n\n     r. Volunteers for Department of Agriculture Programs, 7 U.S.C. 2272,\n\n     s. Volunteers in the National Forests Act of 1972, 16 U.S.C. 558a-558d\n\n                                                 2\n\f     t. Volunteer Service, 5 CFR 308"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6b072dc1-4ce1-56ce-8987-cd789e872302",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr4230-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr4230-001-4-stmt",
+                "name": "statement",
+                "prose": "Volunteering can be an effective and critical part of accomplishing government priorities.\n     Historically, Presidential initiatives have strongly encouraged Federal agencies to use\n     volunteers in order to align the American people’s commitment to National service.\n     Within the USDA, numerous laws exist that allow volunteer programs to be established.\n     Most specifically, Section 1526 of the Food and Agricultural Act of 1981 (1981 U.S. Farm\n     Bill), 7 U.S.C. 2272, Volunteers for Department of Agriculture Programs, permits the U.S.\n     Secretary of Agriculture to establish a program to use volunteers in carrying out programs of\n     the Department.\n\n     5 U.S.C. 3111, as implemented by 5 CFR 308, grants agencies the authority to establish\n     programs designed to provide educationally related work assignments for students in an\n     uncompensated status. Within USDA, the Forest Service has authority for the use of\n     volunteers under the Volunteers in the National Forests Act of 1972 (16 U.S.C. 558a-558d).\n     While there are numerous volunteer opportunities available, listed below are some examples\n     (not all-inclusive) of formal volunteer programs/initiatives open to USDA employees,\n     students, and members of the public:\n\n     a.   Cesar Chavez Charter School Fellowship\n\n     b.   Dig into Rare and Special Collections Volunteer Experience (DRSCVE)\n\n     c.   Feds Feed Families and Food Waste Challenge initiatives\n\n     d.   FSIS Volunteer Student Program (FSIS-VSP)\n\n     e.   Higher Education Institution - Student Volunteer Program (HEISVP)\n\n     f.   Law Volunteer Program\n\n     g.   National Day of Service\n\n     h.   NIFA Volunteer Program\n\n     i.   NRCS Earth Team Volunteers (NRCSETV)\n\n     j.   USDA National Arboretum"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "784e6769-1a1e-5641-9604-422f358e695d",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4230-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4230-001-5-stmt",
+                "name": "statement",
+                "prose": "It is USDA policy to allow mission areas, agencies, and staff offices to:\n\n                                                 3\n\f     a.   Establish volunteer programs;\n\n     b.   Offer volunteer opportunities to current USDA employees, students, and members of\n          the general public;\n\n     c.   Train and accept volunteer services without regard to Civil Service classification laws,\n          rules, and regulations pertaining to the services of groups and individuals not currently\n          employed by the USDA to serve without compensation ; and\n\n     d.   Accept volunteer services pursuant to a properly executed written agreement.\n\n     USDA agencies with specific statutory authority for the use of volunteers (e.g. Forest\n     Service’s Volunteer program) shall establish a corresponding volunteer program and\n     operating procedures in compliance with the provisions of this DR and in accordance with\n     all applicable laws. USDA Office of Human Resources Management (OHRM) maintains\n     oversight of the establishment of volunteer programs.\n\n     Current employees of USDA may perform volunteer services on their own personal time or\n     while on excused absence. USDA employees may be granted administrative leave if the\n     volunteer service meets the requirements of section 8.a. of this DR. Employees may not\n     perform their regular or recurring duties as a volunteer.\n\n     Performance of volunteer services is not considered an appointment to a Federal position\n     and U.S. citizenship is not required for volunteering. However, individuals who are not\n     U.S. citizens, but who reside in the U.S., must submit sufficient documentation to document\n     that they are: 1) lawful permanent residents of the United States; or 2) if serving as a\n     student volunteer associated with an institution of higher education, are lawfully admitted to\n     the United States on a valid student visa for study at an accredited educational institution."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "76182f4b-0ce1-5908-a1a8-27c59f9e0227",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4230-001-6",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4230-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   Employee: The term “employee” for the purposes of this DR means a civil service\n          employee defined in 5 U.S.C. 2105(a) as follows:\n\n          (1) Appointed in the civil service by one of the following acting in an official\n              capacity:\n\n              (a) The President;\n\n              (b) A Member or Members of Congress, or the Congress;\n\n              (c) A member of a uniformed service;\n\n              (d) An individual who is an employee under this section;\n\n              (e) The head of a Government controlled corporation; or\n                                                 4\n\f              (f) An adjutant general designated by the Secretary concerned under section\n                  709(c) of title 32;\n\n          (2) Engaged in the performance of a Federal function under authority of law or an\n              Executive act; and\n\n          (3) Subject to the supervision of an individual named by paragraph (1) of this\n              subsection while engaged in the performance of the duties of the position.\n\n          In addition, the relevant statute (e.g., FECA, FTCA) should be consulted for the\n          applicable definition of the term “employee,” as the definition varies depending on\n          context.\n\n     b.   Oppressive Child Labor: For the purposes of the Fair Labor Standards Act, this term is\n          defined as \"...[E]mployment of a minor in an occupation for which he does not meet the\n          minimum age standards of the Act...\" (29 CFR 570.1(b)).\n\n     c.   Student Volunteer: An individual who is enrolled not less than half-time in a high\n          school, trade school, technical or vocational institute, junior college, college, university\n          or other accredited educational institution. An individual who is a student is deemed not\n          to have ceased to be a student during an interim between school years if the interim is\n          not more than 5 months and if such individual shows to the satisfaction of the agency\n          that the individual has a bona fide intention of continuing to pursue a course of study or\n          training in the same or different educational institution during the school semester (or\n          other period into which the school year is divided) immediately after the interim. (5\n          CFR 308.101).\n\n     d.   Volunteer: Under 7 U.S.C. 2272, a volunteer is defined as an individual who willingly\n          (without duress or intimidation) offers or agrees to provide his or her time or services\n          without compensation, and who actually performs those services in a manner that\n          contributes to the furtherance of the programs of USDA agencies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f3650f87-cac7-586d-afaf-329af93d06a0",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4230-001-7",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4230-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   The Director, Office of Human Resources Management (OHRM),\n          Recruitment and Work/Life Division shall:\n\n          (1) Maintain program responsibility for USDA’s volunteer programs.\n\n          (2) Collect and maintain reports of volunteer services throughout USDA.\n\n     b.   Mission Areas, Agencies or Staff Office Heads shall, before using a volunteer:\n\n          (1) Establish guidelines and procedures for the use of volunteer services;\n\n                                                  5\n\f          (2) Ensure volunteer programs are in line with departmental guidance;\n\n          (3) Designate a Human Resources Officer (HRO) or Agency/Staff Office program\n              lead, at headquarters, who will have final authority over disputes or matters\n              relating to the appropriateness of assignments and who may serve as a volunteer,\n              including the conditions under which they may perform work; and\n\n          (4) Designate an Agency/Staff Office Coordinator who will oversee volunteer\n              activities.\n\n     c.   Agency/Staff Office Coordinators shall:\n\n          (1) Issue agency/staff office guidelines;\n\n          (2) Monitor the volunteer program;\n\n          (3) Serve as the point of contact for supervisors and volunteers;\n\n          (4) Communicate requirements and conditions of volunteer service to supervisors and\n              will answer any questions that arise;\n\n          (5) Work closely with agency/staff office HRO or the appropriate agency-designated\n              point of contact regarding the use of volunteer services; and\n\n          (6) Submit required reports of volunteer services."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d84acdc4-bd30-51b7-94d2-7ce95b710b5c",
+        "class": "section",
+        "title": "Program Requirements",
+        "controls": [
+          {
+            "id": "dr4230-001-8",
+            "class": "policy-requirement",
+            "title": "Program Requirements",
+            "parts": [
+              {
+                "id": "dr4230-001-8-stmt",
+                "name": "statement",
+                "prose": "a.   Current USDA Employees:\n\n          (1) An employee may be granted administrative leave for short periods of time to\n              participate in volunteer activities that are:\n\n              (a) Mission-related;\n\n              (b) Officially sponsored or sanctioned by the employing agency/staff office; or\n\n              (c) Deemed to enhance the professional development and/or skills of the\n                  employee in his or her current position.\n\n          (2) Agencies/Staff Offices are encouraged to support their employees’ volunteer\n              efforts that do not meet the criteria set forth in 8.a.(1) by ensuring that all\n              employees are aware of the various work scheduling and leave flexibilities that\n              USDA offers. In consideration of work operations and requirements and with the\n              approval of the supervisor, work schedules may be adjusted to accommodate the\n              volunteer activity. Supervisors must consider any applicable collective bargaining\n                                                 6\n\f         agreements when determining the appropriate employee scheduling to allow for\n         participation in volunteer activities.\n\n    (3) Support for employees’ participation in volunteer activities while on administrative\n        leave, other approved leave, or when work schedules may be adjusted must be\n        balanced with employees’ work requirements and the Agency’s/Staff Office’s\n        ability to conduct operations efficiently and effectively.\n\n    (4) USDA organizations can use volunteer opportunities as group activities to\n        facilitate team building and a sense of camaraderie within the organization.\n\n    For more information about the appropriate use of leave see DR 4060-630-002, Leave\n    Administration- Excused Absence/Administrative Leave.\n\nb. Non-Employees:\n\n   (1) Under 7 U.S.C. 2272, volunteer services performed by those not employed by\n       USDA will meet the following criteria:\n\n       (a) Services will be performed without compensation; and\n\n       (b) Volunteers will not be used to displace any employee of the Department of\n           Agriculture including the local, county, and State committees established under\n           16 U.S.C 590h(b).\n\n   (2) Volunteers providing services under 7 U.S.C. 2272 are not Federal employees for\n       any purpose except for the purposes identified under:\n\n       (a) 5 U.S.C. 81, relating to compensation and injury; and\n\n       (b) 28 U.S.C. 2672 – 2680, relating to tort claims.\n\n   (3) Supervisors must provide sufficient information to volunteers to ensure\n       understanding of program requirements and the conditions of service, including the\n       requirements for citizenship, permanent residence, or student visa status.\n       Supervisors should consult with appropriate resources to determine if the individual\n       is lawfully admitted in the U.S.\n\n   (4) Volunteers are subject to requirements of 5 CFR 2635 related to standards of ethical\n       conduct.\n\n   (5) The minimum age for serving as a volunteer is 14. Agencies should coordinate\n       activities for volunteers under the age of 18 for compliance with Federal, State or\n       local laws and standards regarding employment of minors. Where there is a conflict,\n       the most stringent standard is to be applied. This includes abiding by Office of\n       Personnel Management (OPM) regulations in 5 CFR 308 and Department of Labor\n       (DOL) regulations in 29 CFR 570, which place restrictions on the employment of\n                                           7\n\f       those under 18 years of age. Non-compliance with the DOL regulations may lead to\n       a finding that an employer is indulging in oppressive child labor. Agencies are\n       expected to maintain and become familiar with these regulations as they apply to\n       volunteers who are under 18 years of age.\n\nc. All Volunteers (Employees and non-Employees)\n\n   (1) Volunteer service, in general, may not displace any USDA employee nor may it be\n       used to perform any work which is inherently a government function as defined by\n       Office of Management and Budget (OMB) Circular A-76, Performance of\n       Commercial Activities. Student volunteer service, in particular, may not be used to\n       staff a position which is a normal part of the work force. Unless exceptions are\n       identified in agency policies, volunteers may assist in any agency program, but shall\n       not represent the agency in any legal matter or proceeding, or obligate any\n       government funds.\n\n   (2) Volunteers may be solicited and accepted from many sources, such\n       as www.volunteer.gov or www.serve.gov. OPM qualification standards do not\n       apply when considering individuals for volunteer service.\n\n   (3) Volunteers are subject to the requirements of Executive Order 10450, Security\n       Requirements for Government Employment and Homeland Security Presidential\n       Directive 12 (HSPD-12), as amended, relating to security and the requirement to be\n       issued security credentials. Criminal history background checks must be performed\n       by an agency on volunteer applicants who may be working with or near children on\n       Federal facilities. See Crime Control Act of 1990 (48 CFR 352.237-72.) More\n       extensive background and/or criminal history checks may be performed in other\n       situations where public safety warrants such investigations.\n\n   (4) Agencies must ensure that volunteers sign a volunteer agreement, such as the OF-\n       301A Volunteer Service Agreement—Natural and Cultural Resources, clearly\n       describing the terms and conditions of service. The agreement signed must describe\n       the duties to be performed, and the use of government equipment, if required as part\n       of the volunteer project. An agreement must be signed for all volunteer service,\n       regardless of how brief in duration the service may be.\n\n   (5) Volunteer service will not be documented on an SF-50, Notification of Personnel\n       Action, nor will records be kept in an Official Personnel Folder (OPF). Volunteers\n       must be notified in writing of the nature of their assignment with respect to service\n       credit for leave or other employee benefits and those documents will be kept in a\n       separate file. See OPM Guide to Processing Personnel Actions, Chapter 33 for more\n       information.\n\n   (6) Volunteers may be recognized for their contributions. Cash awards may not be\n       given; however, certificates of appreciation or similar forms of nonmonetary\n       recognition of nominal value are appropriate. Agencies are not authorized to\n       nominate non-employees for the President’s Volunteer Service Award through the\n                                           8\n\f    USDA employee recognition program. Volunteers may be directed to pursue\n    recognition through another Certifying Organization, if applicable. Go\n    to http://www.presidentialserviceawards.gov/ for more information.\n\n(7) USDA agencies and staff offices must track all volunteers’ (student and non-student)\n    participation in the USDA Volunteer Program. Data is collected for purposes of\n    identifying (a) cost savings, (b) outreach and inclusion efforts, and (c) impact for\n    marketing USDA as a possible employer of choice. Results will be included in\n    reports submitted to the Secretary’s office. Each agency/staff office must work with\n    their designated student program coordinator and/or volunteer coordinator to ensure\n    each volunteer is counted in monthly reports. The reporting format and instructions\n    will be included in the Volunteer Handbook. When completed, the report will be\n    submitted to the attention of: Student Employment Program Manager, Office of\n    Human Resources Management (OHRM), Recruitment and Work/Life Division.\n\n(8) Volunteer opportunities must be made available to all interested persons without\n    regard to race, color, creed, age (except as provided in section 8(b)(5) above), sex\n    (including pregnancy), disabling condition, or any non-merit factor.\n\n(9) Under 7 U.S.C. 2272a, agencies may use funds appropriated to USDA for incidental\n    expenses such as transportation, uniforms, lodging, and subsistence for volunteers\n    serving under the authority of 7 U.S.C. 2272 when such volunteers are engaged in\n    the work of the USDA; and for permissible promotional items of nominal value\n    relating to the USDA Volunteer Programs. Such items may include t-shirts or caps\n    that identify an individual as a USDA volunteer.\n\n\n                                      -END-\n\n\n\n\n                                         9"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "d78d9857-6d4d-54e9-816c-2e3f94602208",
+          "title": "USDA Directives — DR4230-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4230-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

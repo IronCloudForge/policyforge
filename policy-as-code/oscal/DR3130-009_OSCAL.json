@@ -1,0 +1,230 @@
+{
+  "catalog": {
+    "uuid": "67a8c238-3353-527b-91d3-6a647d8b91bd",
+    "metadata": {
+      "title": "USDA DR3130-009: Non-Major Information Technology (IT) Investments",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-09-28",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3130-009"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-09-28"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3130-009",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer-Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3130-009",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer-Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "56d6aabb-f803-5e62-89df-d0fde7eb3ee4",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3130-009-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3130-009-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) provides policy regarding the review and\n          management of non-major information technology (IT) investments for the United\n          States Department of Agriculture (USDA).\n\n     b.   This DR is in accordance with Office of Management and Budget (OMB) Circular A-11,\n          Preparation, Submission, and Execution of the Budget."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "597d8ff8-37a7-5573-9f0e-631d09a82b5b",
+        "class": "section",
+        "title": "Special Instructions/Cancellation",
+        "controls": [
+          {
+            "id": "dr3130-009-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellation",
+            "parts": [
+              {
+                "id": "dr3130-009-2-stmt",
+                "name": "statement",
+                "prose": "a.   This policy supersedes the previous version of DR 3130-009, Non-Major Information\n          Technology (IT) Investments, dated November 18, 2015.\n\n     b.   Within six months of the date of publication, all USDA Mission Areas, agencies, and\n          staff offices will align their policies and procedures to comply with this DR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bee6af90-b09c-5b14-9445-289f0128601b",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3130-009-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3130-009-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all USDA Mission Areas, agencies, and staff offices.\n\n  b.   This DR also applies to all USDA non-major IT investments, which are IT\n       investments not defined as a major IT investments in DR 3130-008, Definition of\n       Major Information Technology (IT) Investments, throughout their entire lifecycle,\n       regardless of funding source, whether owned and operated by USDA or operated on\n       behalf of the USDA.\n\n  c.   Non-major IT investments are governed at the Mission Area, agency, or staff office\n       level which should have an Information Resources Management or Governance\n       Review Board and process that aligns with the USDA’s Enterprise Information\n       Technology Governance Policy as provided in DR 3130-010, United States\n       Department of Agriculture Enterprise Information Technology Governance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a26c94d2-94e8-578d-bc67-690bac3256e5",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3130-009-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3130-009-4-stmt",
+                "name": "statement",
+                "prose": "a.   As noted in OMB Circular A-11, and Memorandum M-11-29, Chief Information Officer\n       Authorities, one key role of Agency Chief Information Officers (CIOs) is to manage and\n       employ a true portfolio management approach for all IT. Proper portfolio management\n       enables CIOs to focus on:\n\n       (1) Delivering IT solutions that support the mission and business effectiveness of their\n           agencies; and\n\n       (2) Overcoming bureaucratic impediments to deliver efficient IT solutions.\n\n       To that end, the USDA Chief Information Officer (CIO) will drive investment reviews\n       for IT investments and have responsibility for the entire USDA IT portfolio of major and\n       non-major investments.\n\n  b.   This approach to portfolio management is in alignment with:\n\n       (1) Clinger-Cohen Act of 1996: Information Technology Management, Title 40 U.S.C.\n           §11101 et seq.; and\n\n       (2) Federal Information Technology Acquisition Reform Act (FITARA), Pub. Law No.\n           113-291, Title VIII, Subtitle D, Sections 831-837, enacted December 19, 2014.\n\n       Provisions in this DR are also aligned with OMB’s Memorandum M-15-14,\n       Management, and Oversight of Federal Information Technology.\n\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d791f8ff-f4d3-5f11-9d94-5f3a08caff85",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3130-009-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3130-009-5-stmt",
+                "name": "statement",
+                "prose": "a.   As noted in the USDA Information Technology Capital Planning and Investment\n       Control (AgITCPIC) Guide, Mission Areas, agencies and staff offices will document,\n       manage, and report all non-major IT investments. Portfolio Management for non-major\n       IT investment will help ensure all USDA IT investments are reviewed on a recurring\n       basis by the USDA Office of the Chief Information Officer (OCIO) and reported to\n       OMB as part of the annual USDA IT budget submission.\n\n  b.   Mission Areas, agencies and staff offices are required to update and report on all non-\n       major Development, Modernization, and Enhancement (DME), Operations and\n       Maintenance (O&M), or mixed lifecycle IT investments on a bi-annual basis by\n       submitting the information as required in the Major IT Business Case and Major IT\n       Business Case Detail as provided for in OMB Circular A-11.\n\n  c.   OMB Circular A-11’s IT budget guidance for major IT investments should also be\n       followed for non-major IT investments to ensure the appropriate level of completion of\n       all business cases."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cf3741cc-ad57-564a-95d1-1374e38afbfd",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3130-009-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3130-009-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will:\n\n       (1) Oversee the USDA IT Portfolio of major and non-major investments;\n\n       (2) Establish, implement, and maintain an effective USDA Capital Planning Investment\n           Control (CPIC) program;\n\n       (3) Improve the way that the USDA plans, selects, funds, controls, and evaluates major\n           and non-major investments in the IT Portfolio;\n\n       (4) Establish and conduct an annual review of the USDA IT investment portfolio of\n           major and non-major IT investments that facilitates critical IT decision-making,\n           maximizes the return on investment, reduces redundancy and duplication, identifies\n           opportunities for commodity IT consolidation, tracks USDA’s implementation of\n           the Federal Cloud Computing Strategy, and ensures strategic alignment with the\n           USDA’s mission and business functions as well as OMB guidelines and\n           requirements; and\n\n       (5) Review, approve, and submit the USDA IT investment portfolio according to OMB\n           Circular A-11 and FITARA provisions.\n\n  b.   The USDA’s Chief Financial Officer (CFO), the Assistant Secretary for Administration\n       serving as the Chief Acquisition Officer (CAO), and the Director, Office of Budget and\n       Program Analysis (OBPA) serving as the Budget Officer will:\n\n                                               3\n\f     (1) Collaborate with the USDA CIO in reviewing agency and staff office IT funding\n         requests for non-major IT investments; and\n\n     (2) Participate in pre-budget submission and IT portfolio reviews for non-major IT\n         investments.\n\nc.   The Associate Chief Information Officer (ACIO), Information Resource Management\n     Center (IRMC) will:\n\n     (1) Ensure that Mission Areas, agencies and staff offices are provided training\n         opportunities and assistance in capturing the non-major IT investment data needed\n         for discussion in the IT portfolio reviews;\n\n     (2) Support the capture of non-major IT investment data that will be presented as part\n         of USDA’s preparation, submission, and execution of the IT budget; and\n\n     (3) Ensure ACIO IRMC staff is available to assist Mission Areas, agencies and staff\n         offices in preparing non-major IT investment business cases.\n\nd.   The Director, IRMC Capital Planning and IT Governance Division (CPITGD) will:\n\n     (1) Support and maintain an effective USDA CPIC program;\n\n     (2) Implement and assist in conducting IT portfolio reviews with Mission Areas,\n         agencies and staff offices;\n\n     (3) Provide training and assistance to Mission Areas, agencies and staff offices in\n         capturing the non-major IT investment data needed for presentation and discussion\n         at IT portfolio reviews;\n\n     (4) Support the capture of non-major IT investment data that will be presented as part\n         of USDA’s preparation, submission, and execution of the IT budget; and\n\n     (5) Assist and guide Mission Areas, agencies and staff offices in the preparation of\n         non-major IT investment business cases.\n\ne.   USDA Mission Area Assistant CIOs and Agency and Staff Office IT Directors will:\n\n     (1) Submit data on non-major IT investments through the CPITGD-supported tools;\n\n     (2) Prepare and submit to the Director, IRMC CPITGD, their non-major IT business\n         cases and the supplemental budget document required as part of the USDA IT\n         budget request process via CPITGD-supported tools;\n\n\n\n\n                                            4\n\f      (3) Approve IT budget planning and formulation requests for non-major IT investments\n          in collaboration with their Mission Area agency or staff office CFO or Budget\n          Officer; and\n\n      (4) Participate in the USDA IT portfolio reviews."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "53674899-2ff8-5806-b6af-dd481eeeee18",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3130-009-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3130-009-7-stmt",
+                "name": "statement",
+                "prose": "Questions and comments about the requirements of this regulation should be directed to\n  OCIO IRMC at Capitalplanningdivision@usda.gov.\n\n\n                                          -END-\n\n\n\n\n                                             5\n\f                               APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nACIO       Associate Chief Information Officer\nAgITCPIC   USDA Information Technology Capital Planning and Investment Control\n           (AgITCPIC) Guide\nASA        Assistant Secretary for Administration\nCAO        Chief Acquisition Officer\nCFO        Chief Financial Officer\nCIO        Chief Information Officer\nCPIC       Capital Planning and Investment Control\nCPITGD     Capital Planning and IT Governance Division\nDME        Development, Modernization, and Enhancement\nDR         Departmental Regulation\nFITARA     Federal Information Technology Acquisition Reform Act\nIRMC       Information Resource Management Center\nOBPA       Office of Budget and Program Analysis\nIT         Information Technology\nOCIO       Office of the Chief Information Officer\nO&M        Operations and Maintenance\nOMB        Office of Management and Budget\nP.L.       Public Law\nU.S.C.     United States Code\nUSDA       United States Department of Agriculture\n\n\n\n\n                                    A-1\n\f                                      APPENDIX B\n\n                           AUTHORITIES AND REFERENCES\n\n\nClinger-Cohen Act of 1996: Information Technology Management, Title 40 U.S.C. §11101 et\nseq., February 10, 1996\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, Title\nVIII, Subtitle D, Sections 831-837, December 19, 2014\n\nDepartmental Regulation, DR 3130-008, Definition of Major Information Technology (IT)\nInvestments, August 13, 2020\n\nDepartmental Regulation, DR 3130-013, Information Technology Capital Planning and\nInvestment Control, July 8, 2016\n\nDepartmental Regulation, DR 3130-010, United States Department of Agriculture\nEnterprise Information Technology Governance, December 3, 2015\n\nOffice of Management and Budget, Circular A-11, Preparation, Submission, and Execution\nof the Budget, current year\n\nOffice of Management and Budget, Memorandum M-11-29, Chief Information Officer\nAuthorities, August 8, 2011\n\nOffice of Management and Budget, Memorandum M-15-14, Management and\nOversight of Federal Information Technology, June 10, 2015\n\nOffice of Management and Budget, Federal Cloud Computing Strategy, 2019\n\nUnited States Department of Agriculture (USDA), USDA Information Technology Capital\nPlanning and Investment Control (AgITCPIC) Guide, March 1, 2019\n\n\n\n\n                                           B-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "bba1d6e7-116a-5fb8-b51e-d41b3a408943",
+          "title": "USDA Directives — DR3130-009",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3130-009",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

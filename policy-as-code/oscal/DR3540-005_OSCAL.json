@@ -1,0 +1,303 @@
+{
+  "catalog": {
+    "uuid": "3039aa13-bf00-5be2-b6c4-f3654c6344ce",
+    "metadata": {
+      "title": "USDA DR3540-005: Cybersecurity Risk Management Framework",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2026-06-23",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3540-005"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2026-06-23"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3540-005",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3540-005",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "67088b4f-a6e9-5f8a-9c4f-41744a8bd38b",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3540-005-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3540-005-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) sets the United States Department of Agriculture\n     (USDA) policy for a Cybersecurity risk management framework (RMF)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "35cf3c87-d176-52f6-93c3-4905db0a31a3",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3540-005-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3540-005-2-stmt",
+                "name": "statement",
+                "prose": "a.   This policy applies to all:\n\n          (1) Mission Areas, agencies, staff offices, and USDA personnel who work for or on\n              behalf of USDA. The term “USDA personnel” encompasses USDA employees,\n              appointees, contractors, partners, interns, fellows, affiliates, and volunteers;\n\f       (2) Federal data in any medium or form the USDA, or those working on behalf of the\n           USDA, generates, collects, provides, transmits, stores, maintains, or accesses;\n\n       (3) Systems or services, including cloud-based, that the USDA or those on behalf of the\n           USDA use or operate. These include connections between or among data systems\n           or services; and\n\n       (4) Facilities from which these systems operate, whether the USDA or another entity on\n           behalf of the USDA uses or operates them.\n\n  b.   Nothing in this policy alters the need to protect national security systems or data."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "93f88ab4-dbb5-50b5-94ff-2a41c343481c",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3540-005-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3540-005-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR takes effect immediately when published. It remains in effect until superseded\n       or expiration.\n\n  b.   All USDA Mission Areas, agencies, and staff offices will align their RMF plans within 6\n       months of its publication.\n\n  c.   This policy supersedes in their entirety:\n\n       (1) Departmental Manual 3575-001, Security Controls in the System Life Cycle /\n           Systems Development Life Cycle, May 27, 2005;\n\n       (2) Departmental Notice 3420-001, Implementation of Requirements in Authoritative\n           References, April 12, 2022;\n\n       (3) DR 3140-001, USDA Information Systems Security Policy, May 15, 1996;\n\n       (4) DR 3540-003, Security Assessment and Authorization, August 12, 2014; and\n\n       (5) DR 3565-003, Plan of Action and Milestones Policy, September 25, 2013.\n\n  d.   This DR complies with:\n\n       (1) The Committee on National Security Systems policies, directives, and instructions;\n\n       (2) Executive Order (E.O.) 13800, Strengthening the Cybersecurity of Federal\n           Networks and Critical Infrastructure;\n\n       (3) The Federal Information Security Modernization Act of 2014, 44 United States\n           Code (U.S.C.) § 3551, et seq.;\n\n       (4) Federal requirements to set, enact, and enforce risk management;\n\n\n\n                                                   2\n\f       (5) Intelligence community policies, directives, and instructions;\n\n       (6) National Institute of Standards and Technology (NIST) Federal Information\n           Processing Standards Publication (FIPS PUB) 200, Minimum Security\n           Requirements for Federal Information and Information Systems;\n\n       (7) NIST Special Publication (SP) 800-37, Revision 2, Risk Management Framework\n           for Information Systems and Organizations;\n\n       (8) NIST SP 800-53, Revision 5, Security and Privacy Controls for Information\n           Systems and Organizations; and\n\n       (9) Office of Management and Budget (OMB) M-24-15, Modernizing the Federal Risk\n           and Authorization Management Program (FedRAMP)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e0c7a0ce-24a3-53b7-83bb-82aea24b3fa8",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3540-005-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3540-005-4-stmt",
+                "name": "statement",
+                "prose": "FISMA directs all Federal agencies to protect Federal data and systems. Agencies must\n  adopt actions to offset potential risk and harm from unauthorized access, use, disclosure,\n  disruption, modification, or destruction. The USDA cybersecurity program aligns with NIST\n  Cybersecurity Framework (CSF) including its CSF Core, Profiles, and Tiers, and NIST Risk\n  Management Framework. USDA will use the NIST RMF 7-step process."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "29b1eb87-e48b-5e72-b553-5310854e526d",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3540-005-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3540-005-5-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA will use its Departmental RMF, managed by the Office of the Chief\n       Information Officer (OCIO) Cybersecurity and Privacy Operations Center (CPOC) to\n       manage cybersecurity risk.\n\n  b.   Each Mission Area, agency, and staff office will develop, document, and enact an RMF\n       plan within 6 months of this directive’s effective date. RMF plans will:\n\n       (1) Have clear definitions;\n\n       (2) Document the authorization boundary for internet-connected devices, operational\n           technology, and industrial control systems;\n\n       (3) Define the roles and responsibilities for key stakeholders overseeing operations and\n           maintenance of assigned data systems;\n\n       (4) Document the operational context and environment;\n\n       (5) Document all data system exchanges;\n\n\n\n                                              3\n\f     (6) Align with DR 3185-001, Enterprise Architecture;\n\n     (7) Include written enactment statements describing how required technical,\n         operational, and management security controls and associated security components\n         are implemented. Write the enactment statements:\n\n         (a) In plain language that details how someone can meet security and privacy\n             requirements; and\n\n         (b) In NIST-recommended, vendor-independent, machine-readable format and\n             schemas;\n\n     (8) Include a categorization for data the system processes, including tags to link the\n         data; and\n\n     (9) Contain all data system assessment documentation. This includes the system\n         security plan (SSP) and privacy plan. It also includes enactment statements via the\n         agency governance, risk, and compliance (GRC) tool.\n\nc.   USDA will track and remediate identified cybersecurity weaknesses through the plan of\n     action and milestone (POA&M) process. USDA will manage POA&Ms and risk-based\n     decisions (RBDs) in accordance with the POA&M and RBD standard operating\n     procedure (SOP).\n\nd.   USDA will ensure that FedRAMP-authorized cloud service offerings maintain\n     continuous monitoring and vulnerability management activities consistent with\n     FedRAMP ongoing authorization requirements.\n\ne.   OCIO will provide security and privacy common controls to Mission Areas, agencies,\n     and staff offices.\n\nf.   Mission Areas, agencies, and staff offices will maintain all assessment and authorization\n     (A&A) documentation in the GRC tool.\n\ng.   USDA will ensure that required FedRAMP authorization artifacts, including SSPs and\n     assessments, comply with applicable FedRAMP requirements. USDA entities can share\n     and build off other USDA entity’s approved documents. USDA entities will follow\n     OMB M-24-15 to reuse another entity’s approved documents.\n\nh.   Departmental GRC and system inventory tools will produce, transmit, and ingest\n     machine readable FedRAMP-related documents. The tools will use open security\n     controls assessment language or any succeeding formats FedRAMP identified.\n\n\n\n\n                                             4\n\f  i.   USDA will send a copy of the authorization letter and any FedRAMP-related documents\n       to the FedRAMP Program Management Office using machine readable formats.\n       Submissions will follow FedRAMP guidance.\n\n  j.   Report the costs related to issuing FedRAMP authorizations, following OMB budget\n       guidance.\n\n  k.   Relevant contracts will include General Services Administration language incorporating\n       the FedRAMP security authorization requirements.\n\n  l.   Mission Areas, agencies, and staff offices will create lessons learned from their\n       programs, control activities, procedures, and tasks. They will document and analyze\n       these documents annually, or as needed on a continuous basis. They will use this\n       qualitative and quantitative data to gauge effectiveness and guide process improvement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "37949fc3-0699-542d-875d-64b19b314656",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3540-005-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3540-005-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary or designee will ensure that RMF includes calculations for the potential\n       magnitude of harm. Harm occurs when USDA’s data or systems suffer unauthorized\n       access, use, disclosure, disruption, modification, or destruction of data or systems.\n\n  b.   The Chief Information Officer (CIO) will:\n\n       (1) Establish and oversee implementation of the Departmental cybersecurity risk\n           management strategy;\n\n       (2) Oversee information technology (IT)-related annual and multiyear plan, program,\n           and budget activities;\n\n       (3) Oversee IT-related management, governance, and oversight processes;\n\n       (4) Take on the role of Senior Agency Official for Privacy (SAOP). As SAOP, oversee\n           the conduct of privacy assessments and effective enactment of privacy controls\n           during system authorizations;\n\n       (5) Adequately fund all components of the Departmental cybersecurity program;\n\n       (6) Develop, issue, and maintain an enterprise architecture. Ensure that it considers\n           data security and collective risk across the enterprise. Apply guidance from NIST,\n           OMB, and the Federal CIO Council;\n\n       (7) Assist with USDA direction and guidance for security and privacy common\n           controls. This includes other risk management strategies, programs, and\n           governance bodies related to department risk, as applicable; and\n\n\n\n\n                                              5\n\f     (8) Submit an annual report on the efficacy of deployed controls in privacy and security\n         programs to all oversight bodies, as required. This includes the Office of Inspector\n         General (OIG), the Department of Homeland Security, OMB, and Congress.\n\nc.   The Director of the Office of Budget & Program Analysis, serving as the Chief Risk\n     Officer and Senior Accountable Official for Risk Management, will:\n\n     (1) Provide oversight of enterprise cybersecurity risk management and reporting; and\n\n     (2) Collaborate with the CIO to ensure cybersecurity risks are integrated into enterprise\n         risk management processes.\n\nd.   The Chief Information Security Officer (CISO) will:\n\n     (1) Incorporate RMF into the USDA cybersecurity program;\n\n     (2) Direct the cybersecurity program. Oversee the deployment of funds and resources\n         for cybersecurity risk management across the enterprise;\n\n     (3) Manage enterprise risk proportional to potential harm;\n\n     (4) Perform other control-specific functions assigned in directives related to this DR;\n\n     (5) Ensure compliance with all Federal guidance; and\n\n     (6) Along with the SAOP, oversee USDA’s direction and guidance on risk-related\n         privacy common controls in other risk management strategies, programs, and\n         governance bodies.\n\ne.   OCIO Center Associate CIOs will:\n\n     (1) Oversee the budget and business operations for systems and services; and\n\n     (2) Serve as authorizing official (AO) for their OCIO Centers. As the AO:\n\n         (a) Bear sole responsibility for accepting system risk. Bear sole responsibility for\n             granting authorization to operate (ATO) requests for designated time periods;\n\n         (b) Approve, review, and update all relevant data system authorization documents.\n             This will occur annually or after a significant change;\n\n         (c) Determine whether major changes in data systems or operational environments\n             impel reauthorization;\n\n         (d) Enact a quality control process for reviewing security control assessment plans.\n             The process can work on a risk-based rotation or as-needed basis. Such\n\n\n\n                                             6\n\f              reviews will ensure that test plans incorporate required controls for each\n              application’s baseline;\n\n         (e) If the AO changes, the new AO must review the risk documentation for each\n             system under their purview. The new AO will then issue an updated\n             authorization memorandum to cover the current ATO’s duration; and\n\n         (f) Maintain and update relevant documentation in USDA’s GRC tool.\n\nf.   The USDA Inspector General will:\n\n     (1) Evaluate the USDA data security program annually. Do this by testing the efficacy\n         of data security policies, procedures, and practices. Use a representative subset of\n         USDA’s systems and services to perform the test; and\n\n     (2) Coordinate with the CIO, the CISO, and other USDA officials, as appropriate, on\n         matters of data security.\n\ng.   The Director of the Office of Homeland Security will:\n\n     (1) Oversee and manage physical security risks; and\n\n     (2) Coordinate with the USDA CIO and CISO on physical cybersecurity risk\n         management.\n\nh.   The Chief Human Capital Officer of the Office of Human Resources Management will:\n\n     (1) Assist and advise agencies on data security position designations; and\n\n     (2) Define appropriate sanctions for personnel who violate data security policies.\n\ni.   The Chief Privacy Officer will:\n\n     (1) In coordination with the CISO, oversee development, approval, enactment,\n         maintenance, and management of privacy policies, program plans, and procedures;\n\n     (2) Select and enact privacy common controls and hybrid controls. Document them in\n         the GRC tool;\n\n     (3) Ensure that privacy common controls and hybrid controls undergo annual\n         evaluations;\n\n     (4) Oversee and direct the privacy program set up of continuous monitoring. The\n         purpose of continuous monitoring is to assess privacy controls, maintain ongoing\n         awareness, and manage privacy risks;\n\n\n\n\n                                             7\n\f     (5) Coordinate with the CISO, the Cyber Defense Operations Division (CDOD)\n         Director, and Mission Area Assistant CIOs and CISOs during privacy-related\n         incidents;\n\n     (6) Advise the SAOP on privacy matters. Report on the efficacy of privacy controls\n         deployed in USDA systems; and\n\n     (7) In coordination with the CISO, oversee USDA’s direction and guidance on risk-\n         related privacy common controls in other risk management strategies, programs,\n         and governance bodies.\n\nj.   Mission Area Assistant CIOs will:\n\n     (1) Advise the CIO and CISO on any issues of potential public concern, infrastructure\n         protection, or flaws;\n\n     (2) Establish the data security program and the associated operational data resources\n         plan under their purview;\n\n     (3) Make sure IT security risk evaluation, documentation, enactment, and management\n         transpire in their purview;\n\n     (4) Ensure sufficient funding for mitigations;\n\n     (5) Ensure compliance with all Federal and Departmental requirements;\n\n     (6) Review and update documentation at least annually;\n\n     (7) Designate RMF responsibilities. Ensure accountability for roles within their\n         Mission Area, including any deputies or alternates, or those acting in those roles;\n\n     (8) Ensure that Mission Area RMF roles meet requisite professional qualifications and\n         appropriate security clearance levels;\n\n     (9) Serve as AO for their Mission Area. The AO cannot delegate formal acceptance of\n         risks, approval of waiver requests, or ATO issuance;\n\n     (10) Confer with another AO for joint approval of high value assets that require two\n          AOs;\n\n     (11) Define and address data security impact, requirements, and concerns during IT gate\n          reviews;\n\n     (12) Ensure that each system’s documentation passes through a review, validation, and\n          approval. Provide the documentation in reports, as required;\n\n\n\n\n                                             8\n\f     (13) Develop and maintain a security architecture aligned with the USDA enterprise\n          architecture. Base it on current risk assessments and security requirements; and\n\n     (14) Oversee the budget and business operations for systems and services in their\n          purview.\n\nk.   Mission Area Assistant CISOs will:\n\n     (1) Along with the CISO, enact, manage, measure, and oversee all components of the\n         USDA cybersecurity program at the Mission Area level;\n\n     (2) Serve as the principal information security specialist and consultant to all personnel\n         and users within their purview;\n\n     (3) Support configuration management in alignment with enterprise architecture;\n\n     (4) Develop, enact, annually review, and update the tailored Mission Area information\n         security program plan and procedures;\n\n     (5) Use the GRC tool to manage and measure the tailored Mission Area information\n         security program efficacy;\n\n     (6) Manage the applicable security controls for each Mission Area system;\n\n     (7) Formally designate a System Owner and an Information System Security Manager\n         (ISSM) for each system annotating the function in the agency systems;\n\n     (8) Ensure that their critical infrastructure’s security and contingency plans incorporate\n         data security;\n\n     (9) Ensure that USDA internal and external systems and services use the same data\n         security and risk management standards;\n\n     (10) Conduct a full assessment of enacted controls and control enhancements to\n          determine effectiveness;\n\n     (11) Provide input to RMF activities and related documentation. These include system\n          life cycle support plans, operational procedures, and maintenance training materials;\n\n     (12) Participate in the risk governance process to provide security risks, mitigations, and\n          input on other technical risks;\n\n     (13) Prepare reports for security and privacy assessment findings;\n\n     (14) Submit required compliance reports to USDA senior officials, and OIG, OMB,\n          Government Accountability Office, and other oversight bodies upon request; and\n\n\n\n                                             9\n\f     (15) Ensure that all personnel in the Mission Area take annual information security\n          awareness training. Ensure that they also take, when appropriate, role-based\n          training.\n\nl.   AO Designated Representatives will:\n\n     (1) Assist the AO with direction and guidance on security and privacy common\n         controls pertinent to Departmental risk;\n\n     (2) Coordinate routine activities associated with RMF and A&A processes to protect\n         systems and services;\n\n     (3) Review risk-based decision requests and recommend approval or disapproval to the\n         AO; and\n\n     (4) Review SSPs and recommend approval or disapproval to the AO.\n\nm. Mission Area Privacy Officers will:\n\n     (1) Serve as the CPO’s main point of contact to enact the USDA Privacy Office’s\n         policies and directives;\n\n     (2) Prepare privacy compliance documentation as directed by the USDA Privacy Office\n         policy or required by law;\n\n     (3) Identify privacy issues related to Mission Area programs. Apply appropriate\n         privacy policies and federal privacy laws to the relative programs;\n\n     (4) Monitor the Mission Area’s compliance with all applicable federal privacy laws and\n         regulations; and\n\n     (5) Enact and manage the privacy incident management process for your Mission Area.\n\nn.   The OCIO CPOC, Security Management Division (SMD) will:\n\n     (1) Serve as the USDA FedRAMP Program Management Office;\n\n     (2) Regularly review continuous monitoring materials that cloud service providers\n         submit. Provide timely and actionable feedback as necessary to manage risk to\n         USDA; and\n\n     (3) Along with the CISO, enact, manage, and oversee the RMF activities, processes,\n         practices, and tasks defined in enterprise policies.\n\no.   The CPOC Cybersecurity Policy & Strategy Program will:\n\n\n\n                                            10\n\f     (1) Support oversight of the agency’s procedural alignment with enterprise security and\n         privacy policies;\n\n     (2) Oversee development of the USDA cybersecurity risk management strategy to\n         enact RMF-supporting control activities, procedures, and tasks; and\n\n     (3) Update policies and strategies to support cybersecurity program fulfillment.\n\np.   The Director of CDOD will:\n\n     (1) Respond appropriately to incidents and data breaches, coordinating with senior\n         officials as needed; and\n\n     (2) Assist with maintaining a USDA risk posture aligned with requirements.\n\nq.   The OCIO, CPOC Cybersecurity Infrastructure Division will assist with system,\n     network, and infrastructure security maintenance.\n\nr.   Enterprise Architects will:\n\n     (1) Enact an architecture strategy that enables effective security and privacy solutions;\n\n     (2) Assist with integration of the USDA risk management strategy with system-level\n         security and privacy requirements. Ensure alignment with program planning and\n         budgeting activities, the system development life cycle (SDLC), acquisition\n         processes, and systems engineering processes;\n\n     (3) Coordinate with Mission Area security and privacy architects to determine optimal\n         system or component placement in the enterprise architecture. Address security and\n         privacy issues between systems and enterprise architecture;\n\n     (4) Assist with decisions on appropriate control applications and initial configuration\n         baselines as they relate to the enterprise architecture; and\n\n     (5) In coordination with System Owners and AOs, facilitate authorization boundary\n         decisions and controls allocation to system elements.\n\ns.   Common Control Providers will:\n\n     (1) Enact, assess, and monitor common controls from a holistic organization\n         perspective;\n\n     (2) Document organization-defined common controls in security and privacy plans (or\n         equivalent documents that the USDA prescribes);\n\n\n\n\n                                            11\n\f     (3) Employ independent assessors to conduct control assessments; and\n\n     (4) Document assessment findings in control assessment reports.\n\nt.   ISSMs will:\n\n     (1) Set rules for data’s acceptable use, creation, storage, processing, sharing, and\n         protection within their purview;\n\n     (2) Carry out assigned RMF-related data security planning, management, and\n         operational responsibilities;\n\n     (3) Coordinate with System Owners to set roles, privileges, access levels, and required\n         controls. This work will protect the system’s generated, used, stored, transmitted,\n         or otherwise processed data; and\n\n     (4) Coordinate with and offer guidance to agency personnel on managing the life cycle\n         activities and data security.\n\nu.   System Owners will:\n\n     (1) Manage and coordinate SDLC activities for the assigned USDA system using\n         principles of criticality and sensitivity;\n\n     (2) Coordinate with system stakeholders to furnish RMF activities;\n\n     (3) Manage and coordinate RMF control processes, practices, and tasks when\n         deploying security and privacy controls documented in an SSP;\n\n     (4) Update SSPs to address:\n\n         (a) System changes;\n\n         (b) The operational environment;\n\n         (c) Possible application problems; or\n\n         (d) Control assessment issues;\n\n     (5) Review SSPs annually. Distribute copies of SSPs. Communicate SSP updates to\n         pertinent stakeholders;\n\n     (6) Protect SSPs with a moderate risk rating from unauthorized disclosure or\n         modification;\n\n\n\n\n                                             12\n\f(7) Clearly define their authorization boundary in SSPs and other applicable security\n    documentation;\n\n(8) Prepare authorization packages for annual AO review and for reauthorization of a\n    system every 3 years;\n\n(9) Define the roles and responsibilities of key stakeholders tasked with data systems\n    operation and maintenance;\n\n(10) Document each system’s operational context, environment, and data exchanges;\n\n(11) Align with DR 3185-001;\n\n(12) Include a data categorization that the system processes. Select appropriate tags to\n     link the data;\n\n(13) Develop written enactment statements. Include requisite technical, operational, and\n     management security controls. Include associated security components. Write the\n     enactment statements:\n\n    (a) In plain language that details how someone can meet security requirements;\n        and\n\n    (b) In NIST-recommended, vendor-independent, machine-readable format and\n        schemas;\n\n(14) Document and analyze qualitative and quantitative data derived from lessons\n     learned after deploying controls and assessments;\n\n(15) Store and access all documentation related to the data system assessment via the\n     agency’s GRC tool;\n\n(16) Manage POA&Ms and coordinate remediation activitiesin accordance with the\n     POA&M and RBD SOP;\n\n(17) Manage the development, documentation, and dissemination of maintenance\n     procedures;\n\n(18) Schedule, document, and review records of maintenance, repair, and replacement\n     on system components. Ensure that these align with manufacturer or vendor\n     specifications and organizational requirements;\n\n(19) Approve and monitor all maintenance activities. Do this whether these happen on-\n     site or remotely. Do this whether the system or system components receive service\n     on-site or off-site;\n\n\n\n\n                                       13\n\f       (20) Approve, control, and monitor the use of system maintenance tools; and\n\n       (21) Review previously approved system maintenance tools.\n\n  v.   Information System Security Officers will:\n\n       (1) Support the System Owner in all security functions assigned in this DR. Make sure\n           RMF and system life cycle activities, processes, practices and tasks undergo proper\n           enactment; and\n\n       (2) Support the System Owner in other duties assigned under other USDA directives\n           and Federal guidance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bbdcb197-cc4f-5c8d-9d39-137e41d29113",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Noncompliance",
+        "controls": [
+          {
+            "id": "dr3540-005-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Noncompliance",
+            "parts": [
+              {
+                "id": "dr3540-005-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, Computers, sets\n       forth policies, procedures, and standards on employee responsibilities and conduct as\n       regards using computers and telecommunication equipment. In addition, DR 4070-735-\n       001, Section 21, Disciplinary or Adverse Action, states:\n\n       (1) Any violation of the responsibilities or standards contained in this DR may be cause\n           for disciplinary or adverse action; and\n\n       (2) Any disciplinary or adverse action taken will be consistent with the applicable laws\n           and regulations.\n\n  b.   Such disciplinary actions will follow applicable laws and regulations. These include\n       those from the Office of Personnel Management, OMB, and 5 Code of Federal\n       Regulations § 2635, Standards of Ethical Conduct for Employees of the Executive\n       Branch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6df73217-9796-52ec-b7f1-06969c4fe0e6",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3540-005-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3540-005-8-stmt",
+                "name": "statement",
+                "prose": "All Mission Areas, agencies, and staff offices will conform to this policy. Any Mission\n  Area, agency, or staff office that cannot meet a specific policy requirement must request a\n  policy exception. To do so, email the OCIO CPOC, SMD, Risk Management Branch at\n  POAMProgram@usda.gov. Note that an approved risk-based decision is an acceptance of\n  risk but does not equal compliance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "368485dc-5986-5814-a650-7da7e8de1268",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3540-005-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3540-005-9-stmt",
+                "name": "statement",
+                "prose": "Send any questions or concerns about this DR to the OCIO, CPOC, via CPOC-Cyber\n  Policy@usda.gov.\n\n\n\n                                              14\n\f-END-\n\n\n\n\n 15\n\f                                APPENDIX A\n\n                    ACRONYMS AND ABBREVIATIONS\n\n\nA&A        Assessment and Authorization\nAO         Authorizing Official\nATO        Authorization to Operate\nCDOD       Cyber Defense Operations Division\nCIO        Chief Information Officer\nCISO       Chief Information Security Officer\nCPOC       Cybersecurity and Privacy Operations Center\nCSF        Cyber Security Framework\nDR         Departmental Regulation\nE.O.       Executive Order\nFedRAMP    Federal Risk and Authorization Management Program\nFIPS PUB   Federal Information Processing Standards Publication\nFISMA      Federal Information Security Modernization Act of 2014\nGRC        Governance, Risk, and Compliance\nISSM       Information System Security Manager\nIT         Information Technology\nNIST       National Institute of Standards and Technology\nNISTIR     National Institute of Standards and Technology Interagency Report\nOCIO       Office of the Chief Information Officer\nOIG        Office of Inspector General\nOMB        Office of Management and Budget\nRMF        Risk Management Framework\nSAOP       Senior Agency Official for Privacy\nSDLC       System Development Life Cycle\nSMD        Security Management Division\nSOP        Standard Operating Procedure\nSP         Special Publication\nSSP        System Security Plan\nU.S.C.     United States Code\nUSDA       United States Department of Agriculture\n\n\n\n\n                                      A-1\n\f                                           APPENDIX B\n\n                                          DEFINITIONS\n\n\nCommon Control Provider. An official responsible for the development, implementation,\nassessment, and monitoring of common controls. Common controls can include, e.g., security\ncontrols inherited by information systems. (Source: NIST SP 800-37, Revision 2)\n\nCommon Controls. A security control inherited by one or more organizational information\nsystems. (Source: NIST SP 800-37, Revision 2)\n\nContinuous Monitoring. Maintaining ongoing awareness of information security, vulnerabilities,\nand threats. This supports organizational risk management decisions. (Source: NIST SP 800-\n137)\n\nCriticality. An attribute of an asset that reflects its relative importance or necessity in achieving,\nor allowing the achievement of, stated goals. (Source: NIST SP 800-160, Volume 2, Revision 1,\nDeveloping Cyber-Resilient Systems: A Systems Security Engineering Approach)\n\nCyber Security Core. A taxonomy of high-level cybersecurity outcomes that can help any\norganization manage its cybersecurity risks. Its components are a hierarchy of Functions,\nCategories, and Subcategories that detail each outcome. (Source: NIST CSF 2.0)\n\nCyber Security Profile. A mechanism for describing an organization’s current and/or target\ncybersecurity posture in terms of the CSF Core’s outcomes. (Source: NIST CSF 2.0)\n\nCyber Security Tier. A characterization of the rigor of an organization’s cybersecurity risk\ngovernance and management practices. There are four Tiers: Partial (Tier 1), Risk Informed\n(Tier 2), Repeatable (Tier 3), and Adaptive (Tier 4). (Source: NIST CSF 2.0)\n\nRisk. The level of impact on agency operations, agency assets, or individuals resulting from\noperating an information system, given the potential impact of a threat and its likelihood.\nAgency operations can include mission, functions, image, or reputation. (Source: NIST SP 800-\n30, Revision 1, Guide for Conducting Risk Assessments)\n\nRisk Assessment. The process of identifying risks to agency operations, agency assets, or\nindividuals. This is done by determining the probability of occurrence, the resulting impact, and\nadditional security controls that would mitigate the impact. Agency operations can include\nmission, functions, image, or reputation. Risk assessment is part of risk management. It\nincorporates threat and vulnerability analyses. It is synonymous with risk analysis. (Source:\nNIST SP 800-18, Revision 1, Guide for Developing Security Plans for Federal Information\nSystems)\n\nSecurity Controls. The management, operational, and technical controls (i.e., safeguards or\ncountermeasures) prescribed for a system. Their purpose is to protect the confidentiality,\n\n\n\n                                                 B-1\n\fintegrity, and availability of the system and its components, processes, and data. (Source: NIST\nSP 800-82, Revision 3)\n\nSensitivity. The degree to which an IT system or application requires protection to ensure\nconfidentiality, integrity, and availability. This is determined by evaluating the nature and\ncriticality of the data processed, the relation of the system to the organization’s missions, and the\neconomic value of the system components. (Source: NIST SP 800-16, Volume 1, Revision 1,\nInformation Technology Security Training Requirements: A Role- and Performance-Based\nModel)\n\n\n\n\n                                                B-2\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nE.O. 13800, Strengthening the Cybersecurity of Federal Networks and Critical Infrastructure,\nMay 11, 2017\n\nE.O. 14028, Executive Order on Improving the Nation’s Cybersecurity, May 12, 2021\n\nE.O. 14144, Strengthening and Promoting Innovation in the Nation's Cybersecurity, January 16,\n2025\n\nE.O. 14306, Sustaining Select Efforts To Strengthen the Nation's Cybersecurity and Amending\nExecutive Order 13694 and Executive Order 14144, June 6, 2025\n\nFISMA, 44 U.S.C. §§ 3551-3559\n\nNIST, FIPS PUB 199, Standards for Security Categorization of Federal Information and\nInformation Systems, February 2004, as amended\n\nNIST, FIPS PUB 200, Minimum Security Requirements for Federal Information and Information\nSystems, March 9, 2006, as amended\n\nNIST, NIST Cybersecurity Framework, website\n\nNIST, NISTIR 7693, Specification for Asset Identification 1.1, June 2011\n\nNIST, NIST Risk Management Framework, November 30, 2016, updated December 13, 2023,\nwebsite\n\nNIST, SP 800-12, Revision 1, An Introduction to Information Security, June 2017\n\nNIST, SP 800-16, Volume 1, Revision 1, Information Technology Security Training\nRequirements: A Role- and Performance-Based Model, April 1998\n\nNIST, SP 800-18, Revision 1, Guide for Developing Security Plans for Federal Information\nSystems, February 2006, as amended\n\nNIST, SP 800-30, Revision 1, Guide for Conducting Risk Assessments, September 2012, as\namended\n\nNIST, SP 800-34, Revision 1, Contingency Planning Guide for Federal Information Systems,\nMay 2010, as amended\n\n\n\n                                             C-1\n\fE.O. 13800, Strengthening the Cybersecurity of Federal Networks and Critical Infrastructure,\nMay 11, 2017\n\n\n\nE.O. 14028, Executive Order on Improving the Nation’s Cybersecurity, May 12, 2021\n\nE.O. 14144, Strengthening and Promoting Innovation in the Nation's Cybersecurity, January 16,\n2025\n\nE.O. 14306, Sustaining Select Efforts To Strengthen the Nation's Cybersecurity and Amending\nExecutive Order 13694 and Executive Order 14144, June 6, 2025\n\nFISMA, 44 U.S.C. §§ 3551-3559\n\nNIST, FIPS PUB 199, Standards for Security Categorization of Federal Information and\nInformation Systems, February 2004, as amended\n\nNIST, FIPS PUB 200, Minimum Security Requirements for Federal Information and Information\nSystems, March 9, 2006, as amended\n\nNIST, NIST Cybersecurity Framework, website\n\nNIST, NISTIR 7693, Specification for Asset Identification 1.1, June 2011\n\nNIST, NIST Risk Management Framework, November 30, 2016, updated December 13, 2023,\nwebsite\n\nNIST, SP 800-12, Revision 1, An Introduction to Information Security, June 2017\n\nNIST, SP 800-16, Volume 1, Revision 1, Information Technology Security Training\nRequirements: A Role- and Performance-Based Model, April 1998\n\nNIST, SP 800-18, Revision 1, Guide for Developing Security Plans for Federal Information\nSystems, February 2006, as amended\n\nNIST, SP 800-30, Revision 1, Guide for Conducting Risk Assessments, September 2012, as\namended\n\nNIST, SP 800-34, Revision 1, Contingency Planning Guide for Federal Information Systems,\nMay 2010, as amended\n\nNIST, SP 800-37, Revision 2, Risk Management Framework for Information Systems and\nOrganizations: A System Life Cycle Approach for Security and Privacy, December 2018, as\namended\n\n\n                                             C-2\n\fNIST, SP 800-39, Managing Information Security Risk: Organization, Mission, and Information\nSystem View, March 2011, as amended\n\nNIST, SP 800-47, Revision 1, Managing the Security of Information Exchanges, July 2021, as\namended\n\nNIST, SP 800-53, Revision 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020,\n\nNIST, SP 800-60, Volume 1, Revision 1, Guide for Mapping Types of Information and\nInformation Systems to Security Categories, August 2008, as amended\n\nNIST, SP 800-60, Volume 2, Revision 1, Appendices to Guide for Mapping Types of Information\nand Information Systems to Security Categories, August 2008, as amended\n\nNIST, SP 800-82, Revision 3, Guide to Operational Technology (OT) Security, September 28,\n2023\n\nNIST, SP 800-137, Information Security Continuous Monitoring (ISCM) for Federal Information\nSystems and Organizations, September 2011, as amended\n\nNIST, SP 800-137A, Assessing Information Security Continuous Monitoring (ISCM) Programs:\nDeveloping an ISCM Program Assessment, May 21, 2020\n\nNIST, SP 800-160v1r1, Engineering Trustworthy Secure Systems, November 2022, as amended\n\nNIST, SP 800-160, Volume 2, Revision 1, Developing Cyber-Resilient Systems: A Systems\nSecurity Engineering Approach, December 2021\n\nNIST, SP 800-175B, Revision 1, Guideline for Using Cryptographic Standards in the Federal\nGovernment: Cryptographic Mechanisms, March 2020\n\nNIST, SP 800-213, IoT Device Cybersecurity Guidance for the Federal Government:\nEstablishing IoT Device Cybersecurity Requirements, November 2021\n\nNIST, SP 800-213a, IoT Device Cybersecurity Guidance for the Federal Government: IoT\nDevice Cybersecurity Requirement Catalog, November 2021\n\nOMB, A-123, Management Accountability and Control, found on the Circulars web page;\nupdated by M-16-17; modified by M-17-26\n\nOMB, A-130, Managing Information as a Strategic Resource, July 28, 2016\n\nOMB, M-02-01, Guidance for Preparing and Submitting Security Plans of Action and\nMilestones, October 17, 2001\n\n\n\n                                            C-3\n\fOMB, M-03-22, OMB Guidance for Implementing the Privacy Provisions of the E-Government\nAct of 2002, September 26, 2003\n\nOMB, M-16-17, OMB Circular No. A-123, Management's Responsibility for Enterprise Risk\nManagement and Internal Control, July 15, 2016\n\nOMB, M-24-15, Modernizing the Federal Risk and Authorization Management Program, July\n25, 2024\n\nUSDA, DR 0100-001, Departmental Directives System, January 4, 2018, as amended\n\nUSDA, DR 3105-001, USDA Chief Information Officers Council, October 23, 2024, as amended\n\nUSDA, DR 3130-013, Information Technology Capital Planning and Investment Control, May\n24, 2021, as amended\n\nUSDA, DR 3185-001, Enterprise Architecture, April 19, 2022\n\nUSDA, DR 3185-004, Enterprise Zero Trust Architecture, September 9, 2024\n\nUSDA, DR 3520-002, Configuration Management, July 17, 2019\n\nUSDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019\n\nUSDA, DR 3505-005, Cybersecurity Incident Management, November 30, 2018\n\nUSDA, DR 3530-006, Scanning and Remediation of Configuration and Patch Vulnerabilities,\nJune 5, 2019\n\nUSDA, DR 3545-001, Information Security Awareness (ISA) Program, October 25, 2023\n\nUSDA, DR 3650-001, Cloud Computing, May 24, 2023\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007, as\namended\n\nUSDA, Information Security Continuous Monitoring Strategy Fiscal Years 2025–2028,\nSeptember 2024\n\nUSDA, Plan of Action & Milestones and Risk-Based Decisions Standard Operating Procedures,\nMarch 19, 2026\n\nUSDA, Risk Management Framework Guide, June 10, 2025\n\n\n\n\n                                           C-4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "6acab76d-9312-5490-90c7-a05f7c1faa9f",
+          "title": "USDA Directives — DR3540-005",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3540-005",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

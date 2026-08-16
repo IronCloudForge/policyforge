@@ -1,0 +1,101 @@
+{
+  "catalog": {
+    "uuid": "8ae5fd46-e9ac-5d4a-abcb-00d311d58b21",
+    "metadata": {
+      "title": "USDA SM1078-012: Prioritizing Foreign Assistance from the USDA, which makes the United States of America Safer, Stronger, and More Prosperous",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2025-06-30",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1078-012"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2025-06-30"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1078-012",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1078-012",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "c383c596-6e34-5863-9d5f-0c2060a5270c",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "sm1078-012-2",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "sm1078-012-2-stmt",
+                "name": "statement",
+                "prose": "To affect these priority areas, USDA will:\n\n       I. Review and terminate foreign assistance projects that do not contribute to\n       making America safer, stronger, and more prosperous, specifically when it comes\n       to American farmers, ranchers, foresters, and agricultural producers. Any projects"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "66e855e3-f792-5d16-b640-4133571fe2dc",
+          "title": "USDA Directives — SM1078-012",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1078-012",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

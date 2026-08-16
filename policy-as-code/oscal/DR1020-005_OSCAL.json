@@ -1,0 +1,330 @@
+{
+  "catalog": {
+    "uuid": "eaa62eb0-2d4b-5fd8-abd8-5ebdb0918cc3",
+    "metadata": {
+      "title": "USDA DR1020-005: Native American Working Group",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2008-10-03",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1020-005"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2008-10-03"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1020-005",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "OGC, Office of the General Counsel",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1020-005",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "OGC, Office of the General Counsel"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "28463df4-11bf-572e-8d4f-23f0e864d0f3",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1020-005-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1020-005-1-stmt",
+                "name": "statement",
+                "prose": "The purpose of this regulation is to set forth the responsibilities of the Native American Working\n   Group (NAWG) and to identify the methods by which the NAWG will operate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "33e348e8-2a53-5297-895a-92314a709faa",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr1020-005-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr1020-005-2-stmt",
+                "name": "statement",
+                "prose": "This regulation supersedes Department Regulation No. 1020-005."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "33f6ed93-4c5f-5cac-984b-0af0a3016333",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1020-005-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1020-005-3-stmt",
+                "name": "statement",
+                "prose": "It is the policy of the United States Department of Agriculture (USDA) to improve opportunities\n   for all rural Americans by providing for effective and efficient coordination of Federal agricultural\n   and rural development including programs within each of the individual states, territories and\n   Native American tribes and nations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "354ca08c-201e-5821-9958-78af3ac6794d",
+        "class": "section",
+        "title": "Definition",
+        "controls": [
+          {
+            "id": "dr1020-005-4",
+            "class": "policy-requirement",
+            "title": "Definition",
+            "parts": [
+              {
+                "id": "dr1020-005-4-stmt",
+                "name": "statement",
+                "prose": "\"Native American\" means a member of any American Indian tribe, band, group, or nation,\n   including Alaska Indians, Aleuts, Eskimos, and Alaska Native villages of the United States."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d7b6e9b5-f383-5086-b676-d44ec8b07270",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr1020-005-5",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr1020-005-5-stmt",
+                "name": "statement",
+                "prose": "The Secretary established the NAWG on January 15, 1983, under the Office of Intergovernmental\n   Affairs, Office of Public Affairs, through the establishment of Departmental Regulation (DR)\n   1312-1, which contained the NAWG’s responsibility and make-up.\n\n   DR 1312-1, was revised on January 10, 1992, by DR 1020-005, which established the meeting and\n   reporting requirements. The Office of Native American Programs is the lead and has\n   responsibilities to coordinate Departmental activities for Native Americans and Alaska Natives."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1b7c9b9c-179d-5e58-a1e0-7ddd98c3b0b3",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr1020-005-6",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr1020-005-6-stmt",
+                "name": "statement",
+                "prose": "The NAWG shall provide such advice, support and other assistance to the Director of the Office of\n   Native American Programs (Director) as may be required to ensure effective coordination and\n\fDR 1020-005                                                                          October 3, 2008\n\n\n   guidance among agencies for all USDA policies and programs regarding tribal relations. The\n   NAWG may recommend to the Secretary through the Director, practices and methods for\n   coordinating USDA activities of interest to Indian tribes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0245345f-e40f-5393-805b-11df98e14f28",
+        "class": "section",
+        "title": "Operations",
+        "controls": [
+          {
+            "id": "dr1020-005-7",
+            "class": "policy-requirement",
+            "title": "Operations",
+            "parts": [
+              {
+                "id": "dr1020-005-7-stmt",
+                "name": "statement",
+                "prose": "a) The Director shall serve as the Chair of the NAWG. In addition, the Chair may establish such\n      subgroups, as the Chair deems necessary to carry out the activities of the NAWG.\n\n   b) The NAWG shall consist of voting members, or their alternatives appointed by the appropriate\n      agency administrator and non-voting ex-officio members."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "724639df-fa86-5cd9-9114-bf00e8f8edef",
+        "class": "section",
+        "title": "Relevant Agencies",
+        "controls": [
+          {
+            "id": "dr1020-005-8",
+            "class": "policy-requirement",
+            "title": "Relevant Agencies",
+            "parts": [
+              {
+                "id": "dr1020-005-8-stmt",
+                "name": "statement",
+                "prose": "a) Each agency shall appoint one voting member and may also appoint an alternative member.\n      The voting members or their alternates shall represent the following agencies:\n\n          1) Office of the Secretary\n                  • Director of the Office of Native American Programs, Chair\n\n          2) Natural Resources and Environment\n                  • Forest Service\n                  • Natural Resources Conservation Service\n\n          3) Farm and Foreign Agricultural Services\n                  • Foreign Agricultural Service\n                  • Farm Service Agency\n                  • Risk Management Agency\n\n          4) Rural Development\n                  • Rural Business Service\n                  • Rural Utilities Service\n                  • Rural Housing Service\n\n          5) Food, Nutrition, and Consumer Services\n                  • Center for Nutrition Policy and Promotion\n                  • Food and Nutrition Service\n\n          6) Food Safety\n                  • Food Safety and Inspection Service\n\n          7) Research, Education, and Economics\n                  • Agricultural Research Service\n                  • Cooperative State Research Education and Extension Service\n                  • Economic Research Service\n\n\n\n                                                 2\n\fOctober 3, 2008                                                                             DR 1020-005\n\n\n                     •   National Agricultural Statistics Service\n\n            8) Marketing and Regulatory Programs\n                   • Agricultural Marketing Service\n                   • Animal and Plant Health Inspection Service\n                   • Grain Inspection, Packers and Stockyards Administration\n\n    b) Each of the following officers is encouraged to appoint a non-voting ex officio member\n\n            1) General Counsel\n            2) Assistant Secretary for Administration\n            3) Assistant Secretary for Civil Rights\n            4) Assistant Secretary for Congressional Relations\n            5) Chief Financial Officer\n            6) Chief Information Officer\n            7) Director, Office of Budget and Policy Analysis\n            8) Director, Office of Communications"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "41486523-a493-5b32-a046-535038c8cc38",
+        "class": "section",
+        "title": "Vacancies",
+        "controls": [
+          {
+            "id": "dr1020-005-9",
+            "class": "policy-requirement",
+            "title": "Vacancies",
+            "parts": [
+              {
+                "id": "dr1020-005-9-stmt",
+                "name": "statement",
+                "prose": "In the event of a vacancy, the alternative member, if any, shall assume the member’s duties until\n    the affected agency listed above shall appoint a replacement senior-level official to serve as the\n    principal voting member on the working group. A replacement shall be named within thirty (30)\n    days of receiving notice of the vacancy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "735eec88-3329-500d-bc39-c72f01427b8f",
+        "class": "section",
+        "title": "Organization",
+        "controls": [
+          {
+            "id": "dr1020-005-10",
+            "class": "policy-requirement",
+            "title": "Organization",
+            "parts": [
+              {
+                "id": "dr1020-005-10-stmt",
+                "name": "statement",
+                "prose": "a) Chair – Director of the Office of Native American Programs.\n\n        Duties: Chairs NAWG meetings and serves as the official spokesperson for the NAWG; and\n        provides leadership over NAWG activities.\n\n    b) Vice Chair – Appointed by the Chair.\n\n        Duties: In the absence of the Chair, the Vice Chair assumes the duties and responsibilities of\n        the Chair.\n\n    c) Voting NAWG Members – Senior employees appointed from each agency listed in §8(a)\n       above.\n\n        Duties: Participate in NAWG meetings and sponsored activities; brief the NAWG on mission\n        area/agency issues and activities of relevance to the NAWG; other duties as assigned by the\n        Chair.\n\n    d) Non-voting NAWG Members – Members appointed from each office listed in §8(b) above.\n\n\n\n                                                    3\n\fDR 1020-005                                                                            October 3, 2008\n\n\n       Duties: Participate in NAWG meetings and sponsored activities; offer advice when\n       appropriate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4a86b796-169d-5872-9e8a-098a59c44b9a",
+        "class": "section",
+        "title": "Meeting",
+        "controls": [
+          {
+            "id": "dr1020-005-11",
+            "class": "policy-requirement",
+            "title": "Meeting",
+            "parts": [
+              {
+                "id": "dr1020-005-11-stmt",
+                "name": "statement",
+                "prose": "The NAWG will meet at the call of the Chair as a group at least quarterly to address the objectives\n   of the respective USDA activities involving tribal nations. A quorum, consisting of one-half plus\n   one of the voting members, shall be required to transact business. Voting shall be by consensus.\n   The Chair is authorized to meet with individual members of the NAWG as the Chair deems\n   necessary. Other persons, agencies, or groups may be invited to attend specific meetings when the\n   Chair deems it appropriate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7b2c99ed-cbac-557f-938e-a78e86b257bf",
+        "class": "section",
+        "title": "Reporting",
+        "controls": [
+          {
+            "id": "dr1020-005-12",
+            "class": "policy-requirement",
+            "title": "Reporting",
+            "parts": [
+              {
+                "id": "dr1020-005-12-stmt",
+                "name": "statement",
+                "prose": "Before the end of each fiscal year, the NAWG will summarize its activities during the preceding\n   year and will submit a report to the Secretary through the Director.\n\n\n                                               -END-\n\n\n\n\n                                                  4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "d9e1871d-1846-5dec-b03a-c97a74a5c732",
+          "title": "USDA Directives — DR1020-005",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1020-005",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

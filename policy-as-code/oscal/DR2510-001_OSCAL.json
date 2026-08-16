@@ -1,0 +1,235 @@
+{
+  "catalog": {
+    "uuid": "66f76031-81b0-50de-92f0-eef76b39775c",
+    "metadata": {
+      "title": "USDA DR2510-001: Claims Against the United States",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2015-06-04",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2510-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2015-06-04"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2510-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the General Counsel",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2510-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the General Counsel"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "d148c696-c95f-555b-9c27-0d804e1bf4eb",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2510-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2510-001-1-stmt",
+                "name": "statement",
+                "prose": "This revised regulation prescribes procedures for handling claims against the United States\n  pursuant to the Federal Tort Claims Act, Military Personnel and Civilian Employees’ Claims\n  Act, and 31 U.S.C. § 3723, which arise from Department of Agriculture programs and\n  activities. It does not set procedures for claims that must be handled under statutes granting\n  authority to specific agencies. The regulation is revised to adjust the responsibilities for\n  determining, settling, and paying claims submitted under the Federal Tort Claims Act, to\n  update procedures for handling claims under the Military Personnel and Civilian Employees’\n  Claims Act, and to update authorities and references throughout the regulation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "21fe1ba6-eae6-5eef-b2e7-4c1d5f9c6e1e",
+        "class": "section",
+        "title": "Cancellation",
+        "controls": [
+          {
+            "id": "dr2510-001-2",
+            "class": "policy-requirement",
+            "title": "Cancellation",
+            "parts": [
+              {
+                "id": "dr2510-001-2-stmt",
+                "name": "statement",
+                "prose": "Departmental Regulation 2510-001, Claims Against the United States, dated January 25,\n  1995, is cancelled."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aa9b4f8a-c092-55db-8dcb-973023cc9a0b",
+        "class": "section",
+        "title": "Claims Not Covered By This Regulation",
+        "controls": [
+          {
+            "id": "dr2510-001-3",
+            "class": "policy-requirement",
+            "title": "Claims Not Covered By This Regulation",
+            "parts": [
+              {
+                "id": "dr2510-001-3-stmt",
+                "name": "statement",
+                "prose": "Procedures for handling claims that must be submitted to the Secretary of Defense, Director\n  of the Office of Personnel Management, Administrator of the General Services\n  Administration, or the Director of the Office of Management and Budget for adjudication\n  under 31 U.S.C. § 3702(d) will be set forth in other regulations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "440ca1dd-7d04-5200-b35e-923fee45d402",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr2510-001-4",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr2510-001-4-stmt",
+                "name": "statement",
+                "prose": "a. In this regulation, “agency” and “staff office” have the meanings as defined in DR 0100-\n        001.\n\n   b. “Federal agency” means a department or entity in the executive branch of the Federal\n       Government and any of its subcomponents.\n\n   c. “Administrative Claim Report” means a report that provides a statement of the facts,\n       summary of legal issues, contact list for witnesses, supporting exhibits, and agency or\n       staff office record hold request by agency or staff office claims staff to agency or staff\n       office record holders.\n                                                 1\n\f   d. “Tort Contact” means the person designated by an agency or staff office to manage all\n       agency or staff office-related activities, including training and supervision of personnel.\n       The Tort Contact is the sole liaison with OGC, unless the agency or staff office chooses\n       to designate field personnel to serve as Tort Contacts. The Tort Contact should not\n       routinely delegate responsibility for dealing with OGC to subordinates or other agency\n       or staff office personnel. A staff office may designate an agency Tort Contact as its\n       Tort Contact.\n\n   e. “Quarters” means a house, apartment, or other residence assigned by the Government to\n       an employee of USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6ed6973a-f8bb-5a38-b92b-fd96c9bbe97d",
+        "class": "section",
+        "title": "Abbreviations",
+        "controls": [
+          {
+            "id": "dr2510-001-5",
+            "class": "policy-requirement",
+            "title": "Abbreviations",
+            "parts": [
+              {
+                "id": "dr2510-001-5-stmt",
+                "name": "statement",
+                "prose": "a. C.F.R. – Code of Federal Regulations\n\n   b. DR – Departmental Regulation\n\n   c. FTCA – Federal Tort Claims Act (28 U.S.C. §§ 1346(b), 2401(b), and 2671-2680)\n\n   d. MPCECA – Military Personnel and Civilian Employees Compensation Act (31 U.S.C. §\n       3721)\n\n   e. OGC – Office of the General Counsel\n\n   f. U.S.C. – United States Code\n\n   g. USDA – Department of Agriculture"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "73405f29-7256-5a1b-ac5c-dbcaf0a9ca93",
+        "class": "section",
+        "title": "General Reponsibilities",
+        "controls": [
+          {
+            "id": "dr2510-001-6",
+            "class": "policy-requirement",
+            "title": "General Reponsibilities",
+            "parts": [
+              {
+                "id": "dr2510-001-6-stmt",
+                "name": "statement",
+                "prose": "a. The General Counsel will:\n\n     (1) Consider, ascertain, adjust, determine, compromise, and settle claims pursuant to the\n         FTCA, 28 U.S.C. §§ 1346(b), 2401(b), 2671-2780, and the regulations of the\n         Attorney General contained in 28 C.F.R. Part 14 (7 C.F.R. § 2.31(a)); and\n\n     (2) Settle claims for not more than $1,000 pursuant to 31 U.S.C. § 3723 (7 C.F.R. §\n         2.31(o)).\n\n   b. Agency and Staff Office Heads will:\n\n     (1) determine, settle, and pay claims submitted by their employees under the MPCECA.\n\n\n\n                                                 2\n\f     (2) provide sufficient resources for the payment of claims that must be paid from agency\n         or staff office appropriations.\n\n     (3) establish a system for handling claims that is commensurate with the agency’s or\n         staff office’s potential claims liability, based on past experience as to the number,\n         magnitude, and complexity of claims arising from the agency’s or staff office’s\n         activities. The system must be designed to meet OGC and other claims management\n         requirements, and shall include, at a minimum, submission by the agency or staff\n         office to OGC of a well-organized, properly-documented administrative claim report.\n\n     (4) designate a Tort Contact. A staff office may designate an agency Tort Contact as its\n         Tort Contact.\n\n   c. Agency and Staff Office Tort Contacts will:\n\n     (1) provide advice, guidance, training, and supervision to agency and staff office\n         personnel on all claims arising under the FTCA and 31 U.S.C. § 3723.\n\n     (2) be responsible for providing the Administrative Claim Report to OGC, as well as\n         providing litigation-related documents, such as litigation hold information, draft\n         answers, and discovery responses, as directed by OGC.\n\n   d. Employees:\n\n     (1) shall respond to inquiries from, and furnish information to, claimants and prospective\n         claimants on procedures for filing claims and the claims review process, but may not,\n         other than in the proper discharge of their official duties, act as “agent or attorney for\n         prosecuting any claim against the United States, or [receive] any gratuity, or any\n         share of or interest in any such claim, in consideration of assistance in the\n         prosecution of such claim. . . .” (18 U.S.C. § 205)\n\n     (2) are prohibited from making a statement to a claimant or his or her agent or attorney\n         admitting liability or addressing the sufficiency of a claim."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "471cfb9a-bab2-524c-91c6-d08fdab9aa4c",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr2510-001-7",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr2510-001-7-stmt",
+                "name": "statement",
+                "prose": "a. CLAIMS UNDER THE FTCA\n\n     (1) Authority to Handle Claims\n\n          (a) The General Counsel is delegated authority to consider, ascertain, adjust,\n              determine, compromise and settle claims under the FTCA. (7 C.F.R. § 2.31(a))\n\n          (b) Claims demanding compensation in amounts in excess of (i) $500,000 arising\n              from motor vehicle accidents or similar personal injury claims and (ii) $100,000\n              arising from law enforcement activities, forest fires, aviation, and regulatory\n\n                                                 3\n\f        activities of the Marketing and Regulatory Programs mission area, are handled\n        by the Associate General Counsel and Assistant General Counsel for the\n        General Law and Research Division. Claims below the preceding thresholds are\n        handled by the Regional Attorneys at various OGC field offices. (See Appendix\n        A)\n\n    (c) All claims arising from a single occurrence should be added together for the\n        purpose of determining whether the thresholds in this delegation are met.\n\n    (d) Any OGC location that receives a tort claim from the public should refer that\n        claim directly to the appropriate USDA Agency Tort Contact for processing\n        under the DR, rather than referring the claim to another office within OGC. For\n        a list of tort contacts, click USDA Torts Contacts.\n\n(2) Agency and Staff Office Tort Contacts:\n\n    (a) shall review all submissions to OGC for adequacy, completeness, and\n        compliance with these procedures.\n\n    (b) shall be familiar with the FTCA and with litigation procedures, and shall receive\n        periodic training to keep current with developments in the field of claims\n        management.\n\n    (c) shall provide their name, address, telephone number and e-mail address, as well\n        as the same information for an alternate, to the Assistant General Counsel,\n        General Law and Research Division, and update as changes in personnel occur.\n\n(3) Investigations\n\n    When an agency or staff office receives a claim or learns of an incident likely to\n    result in a claim, it is responsible for ensuring that an investigation of the incident is\n    undertaken. The investigation should include collecting and saving any relevant\n    documents or tangible things related to the incident. Any such investigation is\n    conducted at the request of OGC, and any report derived from such investigation is\n    considered to be prepared at the direction of OGC and attorney work-product.\n\n(4) Time Requirements\n\n    (a) When an agency or staff office receives a claim or potential claim, it must be\n        date-stamped and signed immediately by the person who receives it. After\n        agency or staff office processing, a claim must be forwarded to OGC no later\n        than 4 months after it was received, unless a different deadline has been set by\n        the appropriate OGC office.\n\n\n\n\n                                            4\n\f    (b) If an incident involves multiple claimants, the claims generally should not be\n        forwarded to OGC until all claims from the same incident are received, or the\n        two-year statute of limitations has expired, whichever comes first.\n\n(5) Advice to Prospective Claimants\n\n    (a) When a private person complains of property damage, personal injury, or death\n        alleged to be caused by the negligent or wrongful act or omission of an agency\n        or staff office employee, and expresses an intention to seek monetary\n        compensation for damages from the Government, the agency or staff office must\n        inform the person of procedures for filing a claim under the FTCA and should\n        refer prospective claimants to 28 C.F.R. Part 14, and 7 C.F.R. § 1.51 for specific\n        guidance.\n\n    (b) Unless a private person appears to have incurred concrete damages and to have\n        expressed an intention to seek monetary compensation from the Government,\n        agency or staff office personnel should not encourage or require them to submit\n        FTCA claims. Mere expression of dissatisfaction with the conduct of agency or\n        staff office programs does not provide grounds for suggesting a claim under the\n        FTCA would be an appropriate method to indicate such dissatisfaction.\n\n    (c) The FTCA should not be suggested as an alternative remedy to parties who have\n        had an appeal denied pursuant to appeal rights that are part of an agency or staff\n        office program.\n\n    (d) Prospective claimants should be given a copy of SF-95, “Claim for Damage,\n        Injury, or Death.” Use of this form is optional. A claim, however, must be in\n        writing and should be prepared in accordance with 28 C.F.R. Part 14 and the\n        instructions set forth on the SF-95.\n\n    (e) A claim should be filed with the local office of the agency or staff office that\n        employs the allegedly responsible employee, or an agency or staff office-\n        designated centralized claims office.\n\n(6) Agency and Staff Office Processing of Claims\n\n    (a) As soon as a claim is received by an agency or staff office, it should be reported\n        to the Tort Contact for entry on a master calendar of tort claims. The claim\n        should then be examined to determine whether it meets all the requirements of\n        the FTCA and has been submitted in accordance with the requirements set forth\n        in 28 C.F.R. Part 14 and 7 C.F.R. § 1.51.\n\n    (b) If a claim does not meet all the requirements of the FTCA, the claimant should\n        be informed of the specific defect(s), with reference to 28 C.F.R. Part 14 and 7\n        C.F.R. § 1.51, and that OGC will not issue a determination on a claim until all\n        defects are cured.\n\n                                           5\n\f    (c) If a claim does meet all the requirements of the FTCA, its receipt should be\n        acknowledged and the claimant should be informed that the claim, following an\n        agency or staff office investigation, will be forwarded to OGC for a\n        determination. Agency and staff office personnel should never inform a\n        claimant that a purported claim meets FTCA requirements.\n\n    (d) Where a claim has been submitted by another person on the claimant’s behalf\n        (including by an attorney), the Tort Contact shall ensure that the package\n        submitted contains evidence of that individual’s authority to present a claim on\n        behalf of the claimant as attorney, agent, executor, administrator, parent,\n        guardian, or other representative. Following submission of such evidence, all\n        correspondence should be directed to the attorney or other representative, rather\n        than the claimant.\n\n(7) Administrative Claim Report\n\n    (a) When the claim is forwarded to OGC for determination, it must be accompanied\n        by a memorandum in narrative form setting forth the agency’s or staff office’s\n        position on the claim and must contain the following items:\n\n        1   a background description of the program involved, referencing statutory\n            authority and applicable regulations.\n\n        2   a complete description of the events in question, including references to\n            documents included in the response to every allegation made in the claim.\n\n        3   an analysis of who was at fault for the losses or damages alleged in the\n            claim, referencing the opinion of technical experts, who may be either non-\n            involved agency or staff office personnel or outside consultants, as\n            necessary.\n\n        4   an analysis of damages claimed.\n\n        5   any policy reasons for arguing for or against settlement.\n\n        6   details of any claims USDA or the Federal government (e.g., recovery of\n            expenses paid by Medicare) might have against the claimant, whether or not\n            they arose out of the incident which is the subject of the claim against\n            USDA.\n\n        7   contact information, including names, titles, telephone numbers, physical\n            addresses and email addresses, of any agency or staff office personnel likely\n            to have information relevant to the claim.\n\n\n\n\n                                          6\n\f        8   copies of all documents relevant to the issues involved in the claim,\n            including copies of the SF-95 or other claim filed by the claimant, all\n            documentation submitted by the claimant, and all correspondence between\n            the agency or staff office and the claimant (including Congressional\n            inquiries and responses, FOIA requests, appeals or agency responses). .\n\n    (b) The administrative claim report should be submitted to OGC in triplicate, with\n        one paper copy of the report and two electronic copies, organized in the same\n        manner as the paper copy. Original agency or staff office records should not be\n        forwarded to OGC unless specifically requested. However, they should be\n        preserved and remain available for use in litigation.\n\n(8) Determination of Claims\n\n    (a) OGC will determine whether claims should be allowed, compromised, or denied\n        and will notify claimants of its determination. If a claim is allowed in full or\n        compromised, OGC will notify the Tort Contact and the fiscal officer of the\n        agency or staff office involved.\n\n    (b) If a claim is denied, OGC will notify the claimant and his or her attorney or\n        legal representative, and provide a copy of such denial to the agency Tort\n        Contact. The notification will include a statement that if the claimant is\n        dissatisfied with USDA’s action, he or she may file suit in a United States\n        District Court not later than 6 months after the date of mailing of the\n        notification. (28 U.S.C. § 1346(b)).\n\n    (c) Prior to the commencement of suit and prior to the expiration of the 6-month\n        period, a claimant or a claimant’s legal representative may file a written request\n        with OGC for reconsideration of a final denial of a claim. (28 C.F.R. § 14.9(b))\n        Upon the timely filing of a request for reconsideration, OGC shall have 6\n        months from the date of filing in which to make a final disposition of the claim.\n        The claimant's option under 28 U.S.C. § 2675(a) shall not accrue until 6 months\n        after the filing of a request for reconsideration or upon denial of the\n        reconsideration request.\n\n(9) Payment of Claims\n\n    (a) Regardless of the amount originally claimed, awards of $25,000 or less may be\n        approved by USDA. Awards over $25,000 must be approved by the Attorney\n        General (28 U.S.C. § 2672). OGC will take necessary actions to obtain this\n        approval.\n\n    (b) Payments of $2,500 or less will be made from the appropriation of the agency or\n        staff office whose actions gave rise to the claim. Payments over $2,500 are paid\n        by the Judgment Fund Branch, Financial Management Service (FMS), United\n        States Department of Treasury.\n\n                                          7\n\f           1   Payment of $2,500 or less – After receipt of notice from OGC that it allows\n               a tort claim, the agency will prepare an SF-1145, “Voucher for Payment\n               Under Federal Tort Claims Act,” or other FMS approved payment form, and\n               send it to the claimant for signature. When it is returned, the agency or staff\n               office will process the form for payment out of the agency’s or staff office’s\n               appropriation. If a claimant is represented by an attorney, the form must\n               designate both the claimant and the attorney as payees, and include the\n               attorney’s address and other information for payment to the attorney.\n\n           2   Payment over $2,500 – OGC will forward to the agency or staff office\n               completed forms FMS 194, 196 and 197, and for payments in excess of\n               $25,000, a copy of the Department of Justice (DOJ) approval for settlement\n               or settlement agreement as directed by DOJ. The agency or staff office will\n               forward these forms to the Judgment Fund Branch for payment.\n\n  (10) Finality of Settlement\n\n      The acceptance by a claimant of any award, compromise, or settlement is final and\n      conclusive on the claimant, and constitutes a complete release of any claim against\n      the United States and against the Government employee whose act or omission gave\n      rise to the claim. (28 U.S.C. § 2672)\n\nb. CLAIMS UNDER 31 U.S.C. § 3723 (SMALL CLAIMS)\n\n  (1) Authority to Handle Claims – The General Counsel is delegated authority to settle\n      claims for not more than $1,000 that meet the requirements of 31 U.S.C. § 3723. (7\n      C.F.R. 2.31(o)) These claims are handled by the Associate General Counsel for the\n      General Law and Research Division, the Assistant General Counsel, General Law\n      and Research Division, and by Regional Attorneys at various OGC field locations.\n\n  (2) Procedure for Processing Claims – The same administrative procedure used to\n      process FTCA claims under Section 7a should be followed for Small Claims.\n\n  (3) Payment of Claims – Awards under 31 U.S.C. § 3723 will be paid from the\n      appropriation of the agency or staff office whose activities gave rise to the claim.\n      (31 U.S.C. § 1304).\n\nc. CLAIMS UNDER MPCECA\n\n  (1) Authority to Handle Claims – The head of each agency or staff office, or his or her\n      designee, is delegated authority to determine, settle, and pay claims submitted by\n      employees of USDA under 31 U.S.C. § 3721.\n\n  (2) Claims – A substantiated claim for loss of, or damage to, personal property incident\n      to service as a USDA employee where possession of such property is determined to\n\n                                             8\n\fbe reasonable, useful or proper under the circumstances, may be settled and paid\nunder the MPCECA up to a maximum amount of $40,000, or in extraordinary\ncircumstances, $100,000, and property may be replaced in kind at the discretion of\nthe agency or staff office.\n\n(a) Allowable Claims – A claim is allowable only if the employee was using the\n    property incident to his or her service to USDA, with the knowledge and consent\n    of his or her supervisor, and:\n\n    1   the damage or loss was not caused wholly or partially by the negligent or\n        improper action or inaction of the employee, his or her agent, family\n        members or private employees; and\n\n    2   the possession of the property lost or damaged, and the quantity and quality\n        possessed, is determined to have been reasonable, useful, or proper under the\n        circumstances: and\n\n    3   the claim is substantiated by proper and convincing evidence.\n\n(b) Types of Allowable Claims – The following are examples of the types of claims\n    that are allowable, but this is not an exclusive list and other types of claims are\n    allowable, unless specifically excluded under this section:\n\n    1   Property loss, damage, or theft in quarters or other authorized places\n        (including an alternate work location under an approved flexiplace\n        agreement even if it is located in an employee’s principal residence) while\n        such property is located at:\n\n        a   Quarters assigned to or provided in kind to an employee by the agency or\n            staff office.\n\n        b   Any warehouse, office, working area, or other place (except quarters)\n            authorized for the reception or storage or property.\n\n        c   Quarters outside the United States privately leased by employees.\n\n    2   Property damage to, or loss of property incident to transportation or storage\n        of such property pursuant to order or in connection with travel under orders,\n        including property in an employee’s custody or in the custody of a carrier, an\n        agent, or Federal agency if recovery cannot be had from an insurer or carrier.\n\n    3   Damage to, or loss of, property that results directly from enemy action or\n        threat of enemy action, or combat, guerilla, brigandage, or other belligerent\n        activity, or unjust confiscation by a foreign power or its nationals.\n\n\n\n\n                                       9\n\f    4   Damage to, or loss of, property that result directly from action to quiet a civil\n        disturbance, to alleviate a public disaster, or to save human life or\n        Government property.\n\n    5   Damage to, or loss of, property when used for the benefit of the Government\n        at the request of, or with the knowledge and consent of, superior authority,\n        up to the amount not compensated by private insurance.\n\n    6   Damage to, or loss of, clothing and accessories a person customarily wears\n        and devices such as eyeglasses, hearing aids, dentures and prosthetics.\n\n    7   Reimbursement for the payment of any sales tax or other such fees incurred\n        in connection with repairs to an item, including the costs for obtaining\n        estimates for repair only if it is clear that the claimant could not obtain an\n        estimate without paying a fee. In that case, the fee is allowable only in an\n        amount determined reasonable in relation to the value of the property or cost\n        of repairs.\n\n(c) Limitations on Allowable Claims– Claims of the type described below are only\n    allowable subject to the restrictions noted below:\n\n    1   Loss of money or currency, including coin collections, only when deposited\n        with the Government for safekeeping, or when lost because of fire, flood,\n        hurricane, other natural disaster, theft from quarters (as limited by section\n        7c(2)(b)1), or under other reasonable circumstances in which it would be in\n        the Government’s best interest to make payment. In cases involving theft\n        from quarters, the evidence must conclusively show that quarters were\n        locked at the time of the theft. Reimbursement for loss of money or\n        currency is limited to the amount determined to be reasonable for the\n        claimant to have in his or her possession at the time of the loss.\n\n    2   Loss or damage to property owned by the United States only when employee\n        is financially responsible for it to another Federal agency.\n\n    3   Claims for loss of, or damage to, cellular telephones, fax machines,\n        computers and related hardware and software except only when lost or\n        damaged incident to fire, flood, hurricane, other natural disaster, theft from\n        quarters (as limited by section 7c(2)(b)1), other reasonable circumstances in\n        which it would be in the Government’s best interest to make payment, or\n        unless being shipped as part of a change of duty station paid for by the\n        agency or staff office. In incidents of thefts from quarters, it must be\n        conclusively shown that the quarters were locked at the time of the theft.\n\n    4   Claims for damage to, or loss of, automobiles or motor vehicles only if\n        damage occurred under circumstances described in section 7c(2)(b)4.\n\n\n\n                                      10\n\f    5   When a claim is filed for property damage at a non-Government alternative\n        work location at which claimant is working pursuant to an approved\n        flexiplace work agreement, the claimant is required to present proof of\n        insurance coverage, deductible amount, and the amount, if any, the claimant\n        recovered from the insurer. If the claim is for an amount that exceeds the\n        deductible on the insurance policy, the maximum allowable recovery will be\n        the amount for the deductible. If the property is uninsured, the maximum\n        allowed will be $1000.00.\n\n(d) Claims not Allowable – Claims are not allowable for the following:\n\n    1   Property loss, damage or theft at quarters occupied by claimant within the\n        fifty states or the District of Columbia that were not assigned to the claimant\n        or otherwise provided in kind by the Government.\n\n    2   Loss or damage totaling less than $25.00.\n\n    3   Loss or damage incident to the operation of a motor vehicle unless allowable\n        under section 7c(2)(b)4.\n\n    4   Loss or damage to articles of extraordinary value (such articles should be\n        insured by owners).\n\n    5   Loss or damage of property used for private business or profit.\n\n    6   Loss due to theft unless due care was used to protect such protection.\n\n    7   Loss or damage to property acquired, possessed or transported in violation of\n        law or regulations.\n\n    8   Loss or damage of small articles of substantial value when shipped with\n        household goods or unaccompanied baggage.\n\n    9   Loss or damage of articles sent through United States or international mail\n        systems.\n\n    10 Loss or damage of articles being worn unless allowable under section\n       7c(2)(b)4.\n\n    11 Transportation losses, if recovery can be had from insurer or carrier, or if\n       claimant chose an unlicensed carrier.\n\n    12 Losses recoverable pursuant to contract, or recoverable from insurer.\n\n    13 Loss or damage caused in whole or in part by the negligent or wrongful act\n       of the claimant or the claimant’s agent.\n\n                                      11\n\f(e) Prohibited Claims – A claim may not be presented by or for the benefit of a\n    subrogee, assignee, conditional vendor, or other third party.\n\n(f) Claims involving Commercial Carriers or Private Insurance – Employees are\n    encouraged to carry private insurance against damage to or loss of personal\n    property in order to cover risks excluded or limited by statute or this regulation.\n    In the event that the property subject to the claim was lost or damaged while in\n    the possession of a commercial carrier or was insured, the following procedures\n    apply:\n\n    1   Whenever property is damaged, lost or destroyed while being shipped\n        pursuant to travel orders, the owner must file a written claim for\n        reimbursement with the last commercial carrier known or believed to have\n        handled the goods, or the carrier known to be in possession of the property\n        when the damage or loss occurred, according to the terms of its bill of lading\n        or contract, before submitting a claim against the Government under this\n        regulation.\n\n    2   Whenever property is damaged, lost or destroyed incident to service and is\n        insured in whole or in part, the employee must make a demand in writing\n        against the insurer for reimbursement under the terms and conditions of the\n        insurance coverage, before filing a claim against the Government under this\n        regulation.\n\n    3   Failure to make a demand on a carrier or insurer or to make all reasonable\n        efforts to protect and prosecute rights available against a carrier or insurer\n        and to collect the amount recoverable from a carrier or insurer may result in\n        reducing the amount recoverable from the Government by the maximum\n        amount that would have been recoverable from the carrier or insurer had the\n        claim been timely or diligently prosecuted.\n\n    4   Subsequent to filing a claim against the carrier or insurer, the employee may\n        submit a claim under this regulation, without waiting until the carrier or\n        insurer finally approves or denies the claim, subject to the following\n        conditions:\n\n        a   Upon submitting the claim, the employee must certify that he or she has\n            not recovered any payment from a carrier or insurer, and enclose all\n            pertinent correspondence.\n\n        b   If the carrier or insurer has not taken final action on the employee’s\n            claim, the employee must immediately advise the carrier or insurer\n            regarding the claim to the agency or staff office claims officer, and must\n            provide a copy of this notice to the agency or staff office claims officer.\n\n\n\n                                      12\n\f        c   The employee must advise the agency or staff office claims officer of\n            any action the carrier or insurer takes on the claim, and upon request,\n            must furnish all correspondence, documents and other evidence pertinent\n            to the matter to the agency or staff office claims officer.\n\n    5   The employee must assign to the United States, to the extent he or she\n        accepts any payment on the claim, all rights, title, interest in any claim he or\n        she may have against the carrier, insurer, or other party arising out of the\n        incident on which the claim against the United States is based. After\n        payment of the claim by the United States, the employee must, upon receipt\n        of any payment from a carrier or insurer, pay the proceeds to the United\n        States to the extent of the payment he or she received from the United States.\n\n    6   If the employee recovers for the damage or loss from the carrier or insurer\n        before his or her claim is settled under this regulation, the amount of\n        recovery will be applied to the claim as follows:\n\n        a   If the employee recovers an amount that is greater than or equal to his or\n            her total loss as determined under this regulation, no compensation will\n            be allowed under this regulation.\n\n        b   If the employee recovers an amount that is less than such total loss, the\n            allowable amount is determined by deducting the recovery from the\n            amount of such total loss. For this purpose, the total loss is determined\n            without regard to the maximum payment limitation set forth in section\n            7c(2). However, if the resulting amount after making this deduction\n            exceeds the maximum payment limitations, payment will only be\n            allowed up the maximum amount set forth in section 7c(2).\n\n    7   In a claim arising from damage to an automobile or other motor vehicle, in\n        no event may recovery exceed the reasonable deductible on the insurance\n        policy.\n\n(g) Deposit to Appropriations – Amounts received from third parties for damage to\n    or loss of an employee’s personal property for which payment has been made\n    under 31 U.S.C. § 3721 need not be deposited in the Treasury as miscellaneous\n    receipts, but may be deposited to the appropriation from which payment was\n    made.\n\n(h) Preservation of Records – Copies of reports and documents supporting a claim\n    should be retained until the two-year statutory limitation for the filing of claims\n    has expired.\n\n(i) Procedures for Filing a Claim:\n\n\n\n\n                                      13\n\f    1   The claim must be presented in writing, preferably using form AD-382,\n        “Employee Claim for Loss or Damage to Personal Property” and should be\n        submitted to the agency or staff office for which the employee works. If lieu\n        of form AD-382, a written claim should include the employee’s name,\n        agency or staff office, address, location where loss or damage occurred, date\n        of loss or damage, a demand for compensation in a sum certain, description\n        of the property, date property acquired, purchase price or value, value when\n        lost or damaged, estimated cost of repair (if any), a brief description of the\n        circumstances giving rise to the claim, and insurance information.\n\n    2   The claim must be presented to the agency or staff office within two years\n        after accrual of the claims, which occurs at the later of:\n\n        a   The time of the accident or incident causing the loss or damage;\n\n        b   The time the loss or damage should have been discovered by the\n            claimant by the exercise of due diligence; or\n\n        c   Where valid circumstances prevented the claim from being filed earlier,\n            the time that should be construed as the date of accrual because of a\n            circumstance that prevents the filing of the claim. If war or armed\n            conflict prevents a claim from being filed, the claim accrues on the date\n            hostilities terminate and the claim must be filed within two years of that\n            date.\n\n(j) Supporting Documentation – In addition to the information described in section\n    7c(2)(i)1 above, the following documentation should also be submitted when\n    applicable:\n\n    1   Receipts, cancelled checks, or other documentation showing acquisition of\n        the property.\n\n    2   At least two itemized repair estimates or estimates as to the replacement cost\n        of the property.\n\n    3   A statement from the employee’s supervisor as to whether possession of the\n        property was reasonable, useful or proper under the circumstances existing\n        at the time and place of the loss or damage.\n\n    4   Statements from other persons who have knowledge of the facts surrounding\n        the claim. Where an accident contributed to the damage or loss of property,\n        witness statements should be reported on SF-94, “Statement of Witness.”\n\n    5   A copy of the police report.\n\n\n\n\n                                       14\n\f   6   When the loss or damage occurred in quarters or other authorized places, the\n       claim should be accompanied by a statement indicating:\n\n       a   the location of the place where the loss or damage occurred.\n\n       b   a description of the measures taken to locate the property or minimize\n           the damage.\n\n       c   An explanation of the facts and circumstances surrounding the loss or\n           damage, and any other information obtained by investigation.\n\n       d   where the property was being used for the benefit of the Government, a\n           statement from the employee’s supervisor that the employee was\n           required to provide the property.\n\n(k) Computation of Award\n\n   1   The amount allowable for loss of or damage to any item of property may not\n       exceed the lowest of:\n\n       a   the amount requested for the item as a result of its loss, damage or the\n           cost of its repair;\n\n       b   the actual or estimated cost of repair;\n\n       c   the actual value at the time of its loss, damage or destruction. Actual\n           value is determined by using the current replacement cost or the\n           depreciated value of the item since it was acquired, whichever is lower,\n           less any salvage value of the item in question, if it is retained.\n\n   2   Depreciation in value is determined by considering the type of article\n       involved, its cost, its condition when damaged or lost, and the time elapsed\n       between the date of acquisition and the date of damage or loss.\n\n   3   Current replacement cost and depreciated value are determined by use of\n       publicly available adjustment rates or through use of other reasonable\n       methods at the discretion of the agency or staff office.\n\n   4   Replacement of lost or damaged property may be made in kind wherever\n       appropriate at the discretion of the agency or staff office.\n\n   5   At the discretion of the agency or staff office, the employee may be required\n       to turn over an item alleged to have been damaged beyond economical repair\n       to the United States, in which case no deduction for salvage value will be\n       made in the calculation of actual value.\n\n\n\n                                     15\n\f(l) Determination and Settlement of Claims – When the agency or staff office\n    receives a claim and any supporting documentation, a determination in writing\n    will be made as to the merits of the claim. If a claim is disallowed, the\n    determination will explain the agency’s or staff office’s reasons for disallowance\n    of the claim. If a claim is allowed in full or in part, the determination will notify\n    the claimant of this fact and will set forth the payment process. Settlement of\n    claims under this regulation are final and conclusive.\n\n(m) Reconsideration – A claimant may seek reconsideration with regard to any items\n    for which payment for which payment is denied, in whole or in part.\n    Reconsideration must be requested in writing and must be received by the\n    agency or staff office within 60 days after the date of denial of the claim. If\n    reconsideration is granted, the final determination on reconsideration is final and\n    conclusive. Requests for reconsideration must:\n\n    1   present information that was not offered in support of the initial adjudication\n        of the claim, and\n\n    2   set forth in detail the factual or legal basis for challenging the initial denial\n        of the claim.\n\n(n) Attorney’s Fees – No more than 10 percent of the amount in settlement of each\n    individual claim submitted and settled under this regulation shall be paid or\n    delivered to, or received by, any agent or attorney on account of services\n    rendered in connection with that claim. A person violating this section shall be\n    fined not more than $1000.00 (31 U.S.C. § 3721(i)).\n\n(o) False Claims – A person who files a false claim or makes a fraudulent statement\n    in a claim against the United States may be imprisoned for not more than 5 years\n    (18 U.S.C. §§ 287, 1001). In addition, that person may be liable for a civil\n    penalty of not less than $5000.00 and not more than $10,000.00 and damages of\n    triple the loss or damage sustained by the United States, as well as the costs of a\n    civil action brought to recover any penalty or damages.\n\n\n                                     -END-\n\n\n\n\n                                       16\n\f                                    Appendix A\n\n\nhttps://ems-team.usda.gov/sites/OGC/GLR/Shared%20Documents/Torts/Regional%20Assignme\nnt%20Table.pdf\n\n\n\n\n                                          A-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "581f0e85-da6e-578e-b364-8240881f9f12",
+          "title": "USDA Directives — DR2510-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2510-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

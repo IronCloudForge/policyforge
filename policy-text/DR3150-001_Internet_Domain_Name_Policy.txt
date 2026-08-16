@@ -1,0 +1,363 @@
+                              U.S. DEPARTMENT OF AGRICULTURE
+                                   WASHINGTON, D.C. 20250
+
+
+
+                                                                                   NUMBER:
+
+     DEPARTMENTAL REGULATION                                                       3150-001
+
+    SUBJECT:                                                   DATE:
+    Internet Domain Name Policy                                December 5, 2006
+                                                               OPI:
+                                                               Office of the Chief Information
+                                                               Officer (OCIO)
+
+
+
+1         PURPOSE
+
+          This Departmental Regulation (DR) establishes the policy for the management and use of
+          Internet Domain Names within the United States Department of Agriculture (USDA).
+
+
+2         BACKGROUND
+
+          This directive augments the USDA Internet Protocol (IP) Addressing Plan and other
+          internal and external regulations that establish general policies governing the issuance of
+          Internet Domain Names. Domain Names are a Departmental resource that must be
+          managed to ensure that USDA exercises appropriate control and implementation of
+          website content standards and applications.
+
+
+3         CANCELLATION
+
+          This DR cancels portions of DR 3300-1-M, Appendix M, Internet Protocol (IP)
+          Addresses, March 23, 1999, that relate to the Domain Name Approval process.
+
+
+4         DEFINITIONS
+
+          .gov           A first level internet domain name controlled by the General Services
+                         Administration (GSA).
+
+          usda.gov       A second level internet domain name for which control has been delegated
+                         by GSA to the Department of Agriculture.
+
+          Commercial Domain Name A domain name that is not maintained by USDA or GSA.
+DR 3150-001                                                                     December 5, 2006
+
+
+       FISMA         Federal Information Security Management Act of 2002. This Act
+                     addresses the development of a comprehensive framework to protect the
+                     government’s information, operations, and assets.
+
+
+5      POLICY
+
+       a      The use of the second level domain name, usda.gov, has been officially registered
+              with the InterNIC (Internet Network Information Center). Official agency
+              domain names must use the following format: domain-name.agency-
+              abbreviation.usda.gov. Exceptions to this policy must be approved by OCIO.
+
+       b      There is no registration fee for a usda.gov domain name.
+
+       c      All domain names approved prior to this policy are granted an exemption.
+
+       d      Only the agency/staff office CIO may request a .gov or a usda.gov domain name.
+
+       e      The use of commercial domain names is prohibited.
+
+       f.     The activation or use of any domain name is prohibited without the approval of
+              the USDA CIO and if warranted, the GSA registrar.
+
+       g      Agencies/staff offices must use the shared components of USDA’s infrastructure
+              to deploy internet/intranet applications as a condition of the domain name
+              approval process. Consequently, the domain name approval request must include
+              the agency’s commitment to use the shared services and products defined in
+              USDA’s Enterprise Architecture. These include, but are not limited to, USDA’s
+              eAuthentication Service, AgLearn, Web Style Standards, and other common
+              USDA or interdepartmental products and services.
+
+
+
+6      RESPONSIBILITIES
+
+       a      Office of the Chief Information Officer.
+
+              (1)   Manage the approval process for internet domain names.
+
+              (2)   Enforce the use of shared internal and interdepartmental products and
+                    services.
+
+              (3)   Recommend approval to GSA of an agency request for a .gov domain
+                    name.
+
+              (4)   Maintain the USDA domain name server.
+
+
+
+                                               2
+December 5, 2006                                                                     DR 3150-001
+
+
+               (5)   Check requests for availability of requested domain name(s). If available,
+                     the domain name will be reserved until the request is approved or denied.
+
+               (6)   Ensure that names are not activated until approved by the USDA CIO or
+                     the GSA registrar.
+
+       b       Agencies/Staff Offices.
+
+               (1)    Request approval from OCIO for a usda.gov domain name. Change
+                      requests are handled in the same manner.
+
+               (2)    Request approval from OCIO for a .gov domain name. The agency/staff
+                      office is responsible for the annual registration fee.
+
+               (3)    Ensure that the use of the website conforms to all Departmental policies,
+                      regulations, and guidelines.
+
+
+7      PROCESS
+
+       a       To request approval of a usda.gov domain name.
+
+               (1)    Submit a domain name request letter from the agency CIO to OCIO.
+                      (See Appendix A for the required letter and approval criteria.)
+
+               (2)    OCIO will approve/disapprove an agency request for a usda.gov domain
+                      name.
+
+               (3)    If disapproved, OCIO will explain to the requestor why it was disapproved
+                      and allow the requestor to change the request to gain approval.
+
+               (4)    OCIO will send a copy of the domain name approval letter to the requestor
+                      and to the OCIO domain name server office for activation.
+
+       b       To request approval of a .gov domain name.
+
+               (1)    Reserve the .gov domain name and provide contact information at the
+                      GSA registration website (www.dotgov.gov).
+
+               (2)    Submit a domain name request letter from the agency CIO to the USDA
+                      CIO. (See Appendix B for the required letter.)
+
+               (3)    The USDA CIO will prepare a recommendation letter to the GSA registrar
+                      requesting activation of the agency .gov domain name. (See Appendix C
+                      for the required letter.)
+
+
+
+                                               3
+DR 3150-001                                                                 December 5, 2006
+
+
+
+
+              (4)   OCIO will electronically forward the recommendation letter to the GSA
+                    registrar, the OCIO domain name server office, and to the agency
+                    requestor.
+
+
+
+                                         -END-
+
+
+
+
+                                            4
+April 15, 2009                                                                DR 3150-001
+                                                                              Appendix A
+
+                                         APPENDIX A
+
+                         DOMAIN NAME REQUEST INSTRUCTIONS
+
+Only the Chief Information Officer for the Agency/Staff Office may request a usda.gov domain
+name.
+
+Instructions
+Complete this request for a new or changed USDA domain name. All of the questions must be
+answered completely. Incomplete responses will result in disapproval of the request.
+
+PLEASE NOTE: All requests for domain names will be evaluated for compliance with USDA's
+Enterprise Architecture. Applications that duplicate the capabilities of existing Enterprise
+Initiatives will be required to use those capabilities. For example, using userid/passwords falls
+within the application of USDA’s eAuthentication service.
+
+Request Date: mm/dd/yyyy
+
+Requested Domain Name(s) and Associated IP Address(es)
+
+Domain Name:                                        IP Address
+domain-name.agency-abbreviation.usda.gov            nnn.nnn.nnn.nn
+
+Host Site (geographic location):
+
+Agency Information:
+
+Agency Name:
+Unit(s):
+Location:
+
+Administrative Authority             Technical Contact
+Information                          Information
+
+Name:                                Name:
+Title:                               Title:
+Email:                               Email:
+Voice:                               Voice:
+
+This request is for:
+
+( ) a server
+( ) an Intranet site
+( ) an Internet site
+( ) other. Please explain.
+
+
+
+
+                                              A-1
+DR 3150-001                                                                    April 15, 2009
+
+
+Please answer the following questions:
+
+A)     Please describe the functions that this domain will support, such as business processes,
+       information delivery or related activities.
+
+B)     Who are the target users (for example: citizens, business partners, other Government
+       entities, or employees)?
+
+C)     Does this domain require a userid/password? (Y/N) If so, are you using the USDA
+       eAuthentication service for this purpose?
+
+D)     Is this domain name part of an IT System? (Y/N) If so,
+       (1)      Is the system in the final stages of Development? Y/N
+       (2)      Has the system been entered in the Enterprise Architecture Repository (EAR)?
+                Y/N
+       (3)      C&A completion date.
+                (a)     If C&A is not completed, will the C&A will be completed (including
+                        concurrency review) prior to system implementation? Y/N
+       (4)      Has the system been entered into the Cyber Security Assessment and
+                Management system? (CSAM) Y/N
+       (5)      Has the system been categorized for the FIPS 199 security categorization? Y/N
+       (6)      Has the security plan been completed? Y/N
+       (7)      Identify the IT investment associated with the system:
+                a)      Name (as it appears in Worklenz)
+                b)      Worklenz Investment/System ID Number (see your capital planning
+                        officer)
+       (8)      Identify the IT acquisition approval (if applicable): Number & Date [contact
+                Leslie Nanney (OCIO)]
+
+E)     Has the Privacy Threshold Analysis been completed? Y/N
+       Does the associated system contain personally identifiable information? (Y/N) If so,
+       (1)    Has a privacy assessment been performed?
+       (2)    Privacy assessment completion date.
+
+F)     Does this domain comply with all of the USDA Architectural policies and standards
+       defined in the Directives in the 3600 series? (Y/N)
+
+Review by Agency/Staff Office Chief Information Officer (or designee):
+I certify that the answers to the above questions are accurate and complete.
+(Signature not required)
+
+Name of Certifying Official:
+Title:
+Date:
+
+Send domain name requests via e-mail to domain.names@usda.gov.
+
+
+
+                                              A-2
+December 5, 2006                                                          DR 3150-001
+                                                                           Appendix B
+
+             APPENDIX B - GOVERNMENT DOMAIN NAME REQUEST
+
+
+TO:            David M. Combs
+               Chief Information Officer
+
+From:          Name of Agency CIO
+               Agency Name
+
+SUBJECT:       Request for .gov domain name
+
+
+As the CIO for the (agency name), I formally request that authority over the (domain
+name) second-level domain name be delegated to the (agency name). By requesting this
+domain name, I acknowledge that I will be responsible for payment of the annual $125
+.GOV domain name fee. In addition, I will ensure the website content of the requested
+domain name conforms to the USDA and .GOV website content policies.
+
+(Explanation of how this website will be used and by whom. Explain why a .gov website
+name is needed as opposed to a usda.gov domain name.)
+
+The use of this domain is consistent with the USDA Internet policy.
+
+(Contact name) will be the Administrative Point of Contact (POC) for (domain name).
+If there are any questions, please contact her/him at (phone number) or via email at
+(email address).
+
+Thank you for your assistance in this matter.
+
+
+[Signature of Agency CIO]
+
+
+
+
+                                           B-1
+December 5, 2006                                                             DR 3150-001
+                                                                              Appendix C
+
+              APPENDIX C - USDA CIO RECOMMENDATION LETTER
+
+
+
+[USDA Letterhead]
+
+[Date]
+
+.gov Domain Registration
+10304 Eaton Place
+FTS/TOI
+Fairfax, VA 22030
+
+Dear Domain Manager:
+
+As Chief Information Officer, the cabinet-level CIO for the Department of Agriculture
+(USDA), I formally request that authority over the [xxxxx.gov] second-level domain
+name be delegated to the [Agency Name]. By requesting this domain name, I
+acknowledge that I will be responsible for payment of the annual $125 .GOV domain
+name fee. In addition, I will ensure the website content of the requested domain name
+conforms with the .GOV website content policy.
+
+This domain name will be used for [purpose].
+
+The use of this domain is consistent with the USDA Internet policy.
+
+[Mr./Ms. first name, last name] will be the Administrative Point of Contact (POC) for
+[xxxxxx.gov]. If there are any questions, please contact [him/her] at [phone number] or
+via email at [email address].
+
+Thank you for your assistance in this matter.
+
+Sincerely,
+
+[Signature]
+
+
+[Name]
+Chief Information Officer
+Office of the Chief Information Officer
+
+
+
+
+                                           C-1
+

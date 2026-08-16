@@ -1,0 +1,211 @@
+{
+  "catalog": {
+    "uuid": "9f2b1d9a-9c76-5344-8b71-573674a2f2ec",
+    "metadata": {
+      "title": "USDA DR4330-003: Nondiscrimination in USDA-Conducted Programs and Activities (10/5/15)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "Unknown",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4330-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "Unknown"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4330-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Assistant Secretary for Civil Rights",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4330-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Assistant Secretary for Civil Rights"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "286222c3-ba7b-5f3d-abfb-5f65c3c6fb6b",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4330-003-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4330-003-3-stmt",
+                "name": "statement",
+                "prose": "This regulation has as its primary focus the processing of discrimination complaints\n     pertaining to programs and activities conducted by USDA and its agencies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "80961dad-40cb-5e8c-a4cf-7c2a78fa8a18",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4330-003-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4330-003-4-stmt",
+                "name": "statement",
+                "prose": "It is USDA’s policy to ensure that no person in the United States is subject to prohibited\n     discrimination in programs and activities conducted in whole or in part by USDA based\n     on race, color, national origin, disability, sex, political beliefs, age, marital status,\n     family/parental status, religion, reprisal. or because all or a part of an individual’s income\n     is derived from any public assistance program. The policy, in part, is enforced by:\n\n     a.     USDA’s conduct of its programs and activities in a manner consistent with\n            applicable Federal and USDA civil rights requirements; and\n\n     b.     Timely and appropriate processing of program discrimination complaints filed\n            against USDA.\n\n     No person shall be subjected to reprisal or harassment because he/she filed a\n     discrimination complaint; participated in or contributed to the identification,\n     investigation, prosecution, or resolution of civil rights violations in or by any USDA-\n     conducted program or activity; or otherwise aided or supported the enforcement of\n     Federal or USDA civil rights laws, rules, regulations, or policies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f2b32b40-c339-57a5-9142-904886d8c957",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4330-003-5",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4330-003-5-stmt",
+                "name": "statement",
+                "prose": "a.     Agency. An organizational unit of the Department with delegated authority to\n            deliver USDA programs, activities, benefits, and services to the public. Heads of\n            agencies receive their delegated authority as prescribed in 7 C.F.R. Part 2. The\n            term “Agency” does not include Departmental Management or other staff offices.\n\n     b.     Alternative Dispute Resolution (ADR). Any resolution procedure in which\n            parties agree to use a third-party neutral to resolve complaints or issues in\n            controversy. ADR methods include, but are not limited to, mediation, facilitation,\n            fact finding, arbitration or use of ombudsman, or any combination thereof.\n\n     c.     Agency Position Statement (APS). A written statement providing the agency’s\n            position that binds the agency responding to the allegations made by the\n            complainant in the discrimination complaint. The APS must contain, at\n            minimum, a written statement summarizing the underlying, relevant facts and\n            responding to each of the complainant’s allegations, and must be signed by an\n            agency official who is authorized to provide a binding statement on behalf of the\n            agency. An APS must also contain all supporting documentation requested by the\n            Office of Assistant Secretary for Civil Rights (OASCR).\n                                               2\n\fd.   Assistant Secretary for Civil Rights or OASCR. The civil rights officer for\n     USDA responsible for the performance and oversight of all civil rights functions\n     within USDA, and who retains the authority to delegate civil rights functions to\n     heads of USDA agencies and offices.\n\ne.   Complainant. A person (or group of persons) who believes that he/she has been\n     subjected to prohibited discrimination by a USDA agency in the delivery of\n     program benefits or services, or while participating or attempting to participate in\n     activities and programs conducted by USDA.\n\nf.   Complaint. A written statement that contains the complainant’s name and address\n     and describes an agency’s alleged discriminatory action in sufficient detail to\n     inform the Assistant Secretary for Civil Rights (ASCR) of the nature and date of\n     an alleged civil rights violation. The statement must be signed by the\n     complainant(s) or someone authorized to sign on behalf of the complainant(s). To\n     accommodate the needs of persons with disabilities, special needs, or who have\n     Limited English Proficiency, a complaint may be in an alternative format.\n\ng.   Complaint Investigation. An impartial process designed to obtain the facts and\n     evidence relevant to a factual determination of whether the complainant was\n     subjected to the alleged discrimination in violation of USDA civil rights\n     regulations and applicable statutes.\n\nh.   Conducted Programs and Activities. Program services, benefits or resources\n     delivered directly to the public by USDA.\n\ni.   Days. Mean calendar days, not business days.\n\nj.   Discrimination. Unlawful treatment or denial of benefits, services, terms,\n     conditions, rights or privileges to a person or persons because of their race, color,\n     national origin, age, disability, sex, marital status, family/parental status, religion,\n     political beliefs, reprisal, or because all or a part of an individual’s income is\n     derived from any public assistance program. .\n\nk.   Final Agency Decision (FAD). A written statement signed by the ASCR or\n     his/her designee setting forth the issues and allegations, related facts and\n     evidence, and findings and conclusions identified in response to a complaint\n     investigation of a USDA agency or instrumentality. The FAD notifies the\n     complainant and appropriate agency representative(s) whether and to what extent\n     the agency has violated any civil rights requirements.\n\nl.   Settlement Agreement. A voluntary written agreement that resolves a complaint\n     wherein USDA or one of its agencies agrees to effect corrective or remedial\n     action.\nm.   USDA Program Discrimination Complaint Form. A form which assists USDA\n     customers in filing a discrimination complaint. A completed and signed USDA\n                                        3\n\f          Program Discrimination Complaint Form (AD-3027) satisfies the requirements\n          set forth in the definition of Complaint."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "73a76a20-2966-584c-b3f6-385feede4039",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr4330-003-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr4330-003-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture (Secretary) shall set the direction, provide\n          leadership, prescribe regulations, set overall civil rights policy, and ensure\n          programmatic civil rights compliance and enforcement throughout the\n          Department, including:\n\n          (1)    Ensuring the availability of resources adequate to support and carry out a\n                 broad range of civil rights compliance and enforcement activities\n                 throughout the Department; and\n\n          (2)    Accomplishing his/her responsibilities directly and through the broad\n                 delegation of authority for civil rights to OASCR and other USDA\n                 agencies, offices, and employees.\n\n     b.   OASCR shall provide the overall leadership, coordination, and direction in\n          USDA’s civil rights programs, including:\n\n          (1)    Providing oversight, leadership, coordination and direction for the USDA\n                 civil rights compliance and enforcement program;\n\n          (2)    Delegating to general officers of the Department and heads of\n                 Departmental agencies, under the direction of OASCR, to ensure oversight\n                 of Departmental civil rights activities and the responsibility for the day-to-\n                 day management and administration of the Department’s civil rights\n                 enforcement activities as OASCR deems appropriate or necessary;\n\n          (3)    Ensuring that agencies and their instrumentalities actively support and\n                 adhere to all civil rights policies, directives, findings and decisions;\n\n          (4)    Systematically reviewing, evaluating, and holding Agency Heads and\n                 Administrators to a high accountability standard for civil rights\n                 performance;\n\n          (5)    Having the sole responsibility to ensure the adequacy and sufficiency of\n                 investigations, adjudications, and resolution of complaints, and sole\n                 authority for determining whether discrimination has occurred in USDA\n                 conducted programs and activities, and ordering appropriate corrective or\n                 remedial action;\n\n          (6)    Issuing policies, directives, procedures, rules, and regulations to ensure\n                 that the Department fully achieves its civil rights compliance and\n                 enforcement obligations;\n                                            4\n\f     (7)    Recommending sanctions to secure agency compliance with applicable\n            civil rights laws;\n\n     (8)    Ensuring through training, dissemination of information, technical\n            assistance, and other appropriate methods, that the Department’s civil\n            rights employees (including contract employees and consultants)\n            demonstrate and maintain the highest level of current technical\n            competence, skills, knowledge, and abilities;\n\n     (9)    Providing leadership and proactively promoting civil rights at USDA, and\n            provide guidance and oversight to USDA agencies and customers;\n\n     (10)   Developing and implementing a comprehensive civil rights strategic plan\n            that encompasses the full scope of the Department’s civil rights\n            obligations, supplemented by an annual operating plan for strategy\n            accomplishment, and disseminate the plan throughout the Department; and\n\n     (11)   Serving as a clearinghouse for information dissemination and exchange\n            with USDA agencies, governmental and non-governmental civil rights\n            communities.\n\nc.   Agency\n\n     Each Agency Head shall:\n\n     (1)    Establish, maintain and ensure an effective, proactive civil rights\n            compliance and enforcement program in accordance with the policies,\n            guidelines, and directives promulgated by OASCR;\n\n     (2)    Provide adequate and appropriately trained and qualified staff and other\n            resources as necessary to ensure efficient and effective accomplishment of\n            the Department’s civil rights obligations;\n\n     (3)    Timely collect and make available all race, ethnicity, and gender data and\n            information on all program applicants and participants in conducted\n            programs as necessary and requested by OASCR to enable efficient and\n            effective monitoring and evaluation of the Department’s program of civil\n            rights compliance and enforcement;\n\n     (4)    Cooperate with and provide assistance as requested by OASCR in the\n            investigation of any complaints, including the timely submission of an\n            APS, ensuring access to information, and resolving any issues of non-\n            compliance;\n\n     (5)    Timely and effectively implement corrective actions and remedies in\n            response to a finding resulting from a FAD concluding that the agency has\n                                     5\n\f                 engaged in prohibited discriminatory policies, practices, or procedures in\n                 providing USDA programs or activities; and\n\n          (6)    Adhere to Departmental Regulations, Departmental Manuals, and all other\n                 policy guidance regarding complaint processing promulgated by OASCR.\n\n     d.   USDA Office of the General Counsel (OGC)\n\n          Upon request of OASCR, OGC shall:\n\n          (1)    Provide legal expertise, advice, and support to OASCR to ensure the\n                 accomplishment of the Department’s civil rights compliance and\n                 enforcement obligations;\n\n          (2)    Conduct legal sufficiency reviews of draft program complaint FADs and\n                 Settlement Agreements in such cases as OASCR deems advisable; and\n\n          (3)    Provide legal advice relating to other legal issues involved in complaints\n                 and civil rights compliance reviews."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f828eead-aa0e-5b10-a232-7458e51d4670",
+        "class": "section",
+        "title": "Complaint Processing",
+        "controls": [
+          {
+            "id": "dr4330-003-7",
+            "class": "policy-requirement",
+            "title": "Complaint Processing",
+            "parts": [
+              {
+                "id": "dr4330-003-7-stmt",
+                "name": "statement",
+                "prose": "a.   Complainant’s Right To File\n\n          (1)    Any person who believes that he/she or any specific class of individuals\n                 has been subjected to discrimination by any USDA agency in the delivery\n                 of USDA program services or benefits, or while participating in programs\n                 or activities conducted by USDA, may personally or through a\n                 representative file a complaint with OASCR.\n\n          (2)    Complainants may use the USDA Program Discrimination Complaint\n                 Form to ensure that they have provided the necessary information. The\n                 USDA Program Discrimination Complaint Form may be obtained from\n                 any USDA office or online from the OASCR website.\n\n          (3)    If a complaint alleging discrimination is submitted or filed with any\n                 agency within USDA other than OASCR, the receiving agency will refer\n                 the complaint to OASCR within five calendar days of the date the\n                 complaint was received.\n\n          (4)    Under certain circumstances, a complainant may file a complaint against\n                 USDA in federal court. Once a complainant has elected to file in court or\n                 the United States Attorney has brought litigation in federal court against a\n                 complainant on behalf of USDA, USDA will close administrative\n                 discrimination complaints that involve the same or essentially the same\n                 claims or issues. Complainants who file in court may not seek redress\n                                           6\n\f              through USDA’s administrative complaint process for the same or\n              essentially the same claims.\n\nb.   Timeliness\n\n     (1)      To be timely, complaints must be in writing, as defined above, and filed\n              within 180 calendar days from the date the complainant knew or should\n              have known of the alleged discrimination.\n\n     (2)      OASCR retains the authority to waive the timeliness requirement when it\n              finds that good cause is shown by the complainant.\n\nc.   Intake\n\n     (1)      OASCR will issue an acknowledgement to the complainant in writing\n              following OASCR’s receipt of the complaint.\n\n     (2)      OASCR will review each complaint to determine whether it is complete,\n              timely filed, within USDA jurisdiction, subject to the authorities enforced\n              by USDA, and whether the complaint must be resolved based on an\n              investigation or whether it is appropriate for an early resolution or pre-\n              investigation settlement process.\n\n     (3)      In situations where a complaint lacks information sufficient to determine\n              jurisdiction and acceptance, and is therefore incomplete, OASCR will\n              request additional information from the complainant, in writing. The letter\n              will advise the complainant of the information needed to complete the\n              complaint and that the information must be submitted within 30 calendar\n              days of the date of receipt of the letter.\n\n     (4)      If a complainant is not able to respond to the request for information\n              necessary to complete his/her complaint in a timely manner, the\n              complainant may request an extension of time for submitting the\n              information. If a complainant does not submit the information in a timely\n              manner, OASCR may administratively close the complaint. OASCR will\n              inform the complainant and agency in writing of an administrative closure.\n\n     (5)      OASCR will make appropriate referrals of any complaints that are not\n              within OASCR’s jurisdiction or which are the subject of concurrent\n              jurisdiction with another Federal, State, or local agency. The complainant\n              will be notified of the referral in writing.\n\n     (6)      If OASCR accepts the complaint, it will notify the complainant in writing.\n              The acceptance letter will, at a minimum, include:\n\n              (a)    the date the complaint was received;\n\n                                        7\n\f            (b)      the case number assigned;\n\n            (c)      any other information that may be specifically required by the\n                     appropriate statute;\n\n            (d)      a notice that the complainant may wish to consult with an attorney\n                     regarding their options;\n\n            (e)      information relating to ADR; and\n\n            (f)      an OASCR contact name and telephone number.\n\nd.   Alternative Dispute Resolution (ADR)\n\n     (1)    OASCR has the option to offer ADR to USDA customers or applicants at\n            any time OASCR determines ADR techniques may facilitate the\n            resolution of discrimination complaints, concerns or disputes regarding the\n            administration of programs conducted by USDA.\n\n     (2)    OASCR will offer ADR as an early resolution option to all USDA\n            customers who file a program discrimination complaint that is accepted\n            for processing. All program complaints will be referred to OASCR’s\n            division that is designated to provide ADR immediately after the\n            complaint has been accepted and before an investigation occurs. OASCR\n            retains the authority to extend the early resolution period for good cause.\n\n     (3)    OASCR has discretion to allow ADR for program complaints even after a\n            complaint has been forwarded for an investigation. USDA customers and\n            Agencies may request ADR for program complaints at any point before a\n            FAD is rendered.\n\n     (4)    Complaints resolved through ADR will be closed and all settlements\n            reached during ADR will be reduced to writing.\n\n     (5)    OASCR may conclude the ADR process at any time upon determining\n            that further efforts are not likely to lead to resolution.\n\n     (6)    OASCR will notify the USDA customer and the agency in writing upon\n            concluding the ADR process. In the case of an accepted program\n            complaint that could not be resolved through ADR, the notice will inform\n            the complainant of the next step in the complaint process.\n\ne.   Investigation\n\n     OASCR will complete a Complaint Investigation after acceptance of the\n     complaint.\n\n                                       8\n\ff.   Adjudication/FAD\n\n     (1)   OASCR will complete a FAD upon completion of the Complaint\n           Investigation.\n\n     (2)   If OASCR concludes or the agency presents adequate documentation that\n           a violation that existed at the onset of the investigation was corrected prior\n           to the conclusion of the investigation, the FAD may state that a violation\n           existed at the onset of the investigation, but was voluntarily corrected by\n           the agency.\n\n     (3)   The FAD will set forth either a “no finding” of discrimination or a\n           “finding” of discrimination accompanied by an Order of Relief setting\n           forth specific remedial actions including damages and other relief as\n           appropriate and authorized by law.\n\n     (4)   With the exception of complaints based on disability discrimination in\n           programs conducted by USDA, all FADs are final.\n\ng.   Closures\n\n     (1)   OASCR will close a complaint at any stage in the process upon a\n           determination of the ASCR or his/her designee that procedural grounds\n           exist warranting administrative closure including the following:\n\n           (a)    voluntary withdrawal;\n           (b)    settlement or voluntary resolution;\n           (c)    lack of jurisdiction;\n           (d)    failure to state a claim;\n           (e)    failure to pursue;\n           (f)    failure to file timely;\n           (g)    filing in court on the same or essentially similar claims;\n           (h)    lack of any further remedies;\n           (i)    any other authority provided in law;\n           (j)    failure to seek remedy available under statute, regulation, or court\n                  decision; and\n           (k)    continuation of a pattern of complaints previously filed by\n                  complainant or someone other than the complainant that have\n                  already been found to be without merit by OASCR or a court of\n                  competent jurisdiction; and/or\n           (l)    alleges dissatisfaction with the processing of a previously filed\n                  complaint.\n\n     (2)   OASCR will notify the USDA customer and agency of its closure\n           determination in writing.\n\nh.   Monitoring and Oversight\n                                     9\n\f     Following the issuance of a FAD with a finding of discrimination, or the\n     execution of a Settlement Agreement between the parties, OASCR will monitor\n     and evaluate the agency’s corrective action to ensure an outcome that reflects\n     compliance with the corrective action ordered in the FAD or agreed to in a\n     Settlement Agreement.\n\ni.   Notice of the Right to Appeal Decisions on Disability Complaints\n\n     (1)    Complainants who have alleged discrimination based on disability have\n            the right to appeal the disability portion only of the FAD to the ASCR.\n\n     (2)    Complainants must file an appeal of a FAD based on disability within 90\n            days of receipt of the “no finding” or “finding” of discrimination issued by\n            OASCR as required by 7 C.F.R. § 15e.170(g). The agency may extend\n            this time for good cause.\n\n     (3)    Timely appeals shall be accepted and processed. Appeal instructions will\n            be included in the FAD.\n\n     (4)    OASCR will notify the complainant of the results of the appeal within the\n            time limits specified in 7 C.F.R. § 15e.\n\nj.   Non-Compliance with Orders of Relief and Settlement Agreements\n     OASCR is responsible for monitoring implementation of orders of relief and\n     Settlement Agreements and assuring compliance with their terms and conditions.\n\n     (1)    The agency must timely comply with the corrective action requirements in\n            the order of relief and implement all terms within a Settlement Agreement\n            within the timeframes designated therein.\n\n     (2)    If the complainant believes that an agency has failed to comply with the\n            terms of an Order of Relief or Settlement Agreement, the complainant\n            shall notify OASCR, in writing, of the alleged non-compliance within 30\n            days of when the complainant knew or should have known of the alleged\n            non-compliance.\n\n     (3)    OASCR will gather and review compliance documentation from both the\n            complainant and the agency, and will issue a decision outlining the\n            findings.\n\n     (4)    The decision will set forth a Finding of Non-Compliance or No Finding of\n            Non-Compliance.\n\n     (5)    If OASCR determines the agency has materially breached a Settlement\n            Agreement or is in non-compliance with the order of relief and the breach\n            or non-compliance is not attributable to acts or omissions of the\n                                     10\n\f                   complainant, the decision will provide remedial action that must be taken\n                   to bring the agency into compliance or the decision may order that the\n                   complaint be reinstated for further processing from the point processing\n                   ceased.\n\n            (6)    There are no appeal rights from OASCR’s decision.\n\n     k.     Claims Involving the Equal Credit Opportunity Act of 1975 (ECOA)\n\n            (1)    Complainants who allege discrimination in USDA lending programs on\n                   the basis of race, color, religion, national origin, sex or marital status, or\n                   age (provided the applicant has the capacity to contract) may have claims\n                   under ECOA. ECOA claims must be filed in court within the period\n                   established by statute. The time period for filing in court can be found in\n                   Chapter 15, Section 1691e, paragraph (f) of the United States Code.\n                   Under the current ECOA, a complainant must file a claim in court no more\n                   than five years after the date the violation occurred.\n\n            (2)    Filing a complaint with USDA does not extend the time complainants\n                   have to file an ECOA claim in court. Complainants who do not file in\n                   court within the time period established by statute run the risk of losing\n                   the right to pursue a claim in court as determined by law.\n\n            (3)    Before filing an ECOA claim in court, complainants do not need to wait\n                   for a decision by USDA, obtain a notice of right to sue, or otherwise\n                   exhaust any administrative process. If a complainant files an ECOA claim\n                   in court, OASCR will close administrative discrimination complaints from\n                   the complainant that involve the same or essentially the same claims or\n                   issues."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fb410662-a166-5414-bfc4-ef2b794f6942",
+        "class": "section",
+        "title": "Instructional Manuals And Directives",
+        "controls": [
+          {
+            "id": "dr4330-003-8",
+            "class": "policy-requirement",
+            "title": "Instructional Manuals And Directives",
+            "parts": [
+              {
+                "id": "dr4330-003-8-stmt",
+                "name": "statement",
+                "prose": "OASCR will prepare and disseminate within OASCR and to agency civil rights offices,\n     official manuals on complaint processing in conducted programs. OASCR will issue\n     bulletins and other instructional documents as necessary to implement the provisions of\n     this regulation.\n\n\n\n\n                                             11\n\f                                   APPENDIX A\n\n                                  AUTHORITIES\n\na.   Statutory\n\n     (1)    Section 504 of the Rehabilitation Act of 1973.\n\n     (2)    5 U.S.C. 301, Authority to Prescribe Departmental Regulations.\n\n     (3)    Equal Credit Opportunity Act of 1974, Title VII of the Consumer\n            Protection Act of 1974.\n\n     (4)    Title VIII of the Civil Rights Act of 1968.\n\nb.   Regulatory and Executive Orders\n\n     (1)    7 C.F.R. Part 2, Subpart C, Section 2.25 - Delegations of Authority by the\n            Secretary of Agriculture to the Assistant Secretary for Civil Rights.\n\n     (2)    7 C.F.R. Part 15d, Nondiscrimination in Programs and Activities\n            Conducted by the United States Department of Agriculture.\n\n     (3)    7 C.F.R. Part 15e, Enforcement of Nondiscrimination on the Basis of\n            Handicap in Programs or Activities Conducted by the United States\n            Department of Agriculture.\n\n     (4)    12 C.F.R. Part 1002, Equal Credit Opportunity Regulation B.\n\n     (5)    Executive Order 13166, Improving Access to Services for Persons with\n            Limited English Proficiency, August 11, 2000.\n\nc.   Departmental Regulations/Policies\n\n     (1)    DR 4300-005, Agency Civil Rights Programs, dated January 14, 1998.\n\n     (2)    DR 4300-003, Equal Opportunity Public Notification Policy, dated June 2,\n            2015.\n\n     (3)    DR 4300-006, Civil Rights Policy for the U.S. Department of Agriculture,\n            dated June 30, 2000.\n\n     (5)    DR 4710-001, Alternative Dispute Resolution, dated April 5, 2006.\n\n     (6)    DR 4330-005, Prohibition against National Origin Discrimination\n            Affecting Persons with Limited English Proficiency in Programs and\n            Activities Conducted by USDA, dated June 4, 2013.\n                                    A-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "8dcb7fee-023f-53ab-97ce-b7bb85f5e0d0",
+          "title": "USDA Directives — DR4330-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4330-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

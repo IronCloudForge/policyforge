@@ -1,0 +1,307 @@
+{
+  "catalog": {
+    "uuid": "d83625a7-cb66-5037-b5ad-480711222739",
+    "metadata": {
+      "title": "USDA DR3540-003: DR3540-003",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2014-08-12",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3540-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2014-08-12"
+        },
+        {
+          "name": "source-url",
+          "value": "",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "166ccc01-c786-5986-84e3-26bcfbd04507",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3540-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3540-003-1-stmt",
+                "name": "statement",
+                "prose": "a. This Departmental Regulation (DR) establishes the Security Assessment and \n\n Authorization (A&A) policy of the United States Department of Agriculture (USDA or \n\n “Department”) for meeting the applicable laws, regulations, and standards of the Federal \n\n Government. \n\n \n\n b. This DR addresses guidance issued by the Office of Management and Budget (OMB), the \n\n National Institute of Standards and Technology (NIST), and the Federal Information \n\n Security Management Act of 2002 (FISMA) requiring federal agencies to develop and \n\n implement policies, plans, and procedures to continually assess the risk and magnitude of \n\n the harm that could result from the unauthorized access, use, disclosure, disruption, \n\n modification, or destruction of information or information systems. \n\n \n\n\f\n2 \n\n c. This policy establishes formal, documented security assessment and authorization (A&A) \n\n policies that address purpose, scope, roles, responsibilities, management commitment, \n\n coordination among organizational entities, and compliance. Formal documented \n\n procedures facilitating the implementation of the security A&A policy controls are \n\n contained in the Agriculture Security Operations Center (ASOC) Oversight and \n\n Compliance Division (OCD) standard operating procedure (SOP) OCD-SOP-004, USDA \n\n Six Step Risk Management Framework (RMF) Process Guide (RMF Process Guide.) \n\n \n\n d. It is the policy of USDA to comply with federal requirements to establish, implement, \n\n and support A&A to continually manage risk to USDA information systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a647ea14-fa11-54fd-9987-d5665284dee2",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3540-003-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3540-003-2-stmt",
+                "name": "statement",
+                "prose": "a. This policy applies to all USDA information technology (IT) programs and systems, \n\n including cloud services, that are developed, maintained, and operated by USDA \n\n agencies, staff offices, employees, contractors, and other individuals working for or on \n\n behalf of the USDA. \n\n \n\n b. This policy applies to systems operated by entities not under the jurisdiction of the USDA \n\n Secretary that are employed or contracted to process, transmit, or store USDA \n\n information through services such as (but not limited to), platform as a service (PaaS), \n\n infrastructure as a service (IaaS), and software as a service (SaaS.) \n\n \n\n c. This DR adheres to the guidance identified in NIST Special Publication (SP) 800-53 \n\n Revision 3, Recommended Security Controls for Federal Information Systems and \n\n Organizations, specifically the security assessment and authorization family of \n\n management controls applicable to all USDA systems with a Federal Information \n\n Processing Standard Publication (FIPS PUB) 199, Standards for Security Categorization \n\n of Federal Information and Information Systems security classification of low, moderate, \n\n or high."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b79e1713-7f55-59c4-9cd6-94842acf114e",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3540-003-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3540-003-3-stmt",
+                "name": "statement",
+                "prose": "This policy supersedes the following directives in their entirety, unless otherwise noted: \n\n \n\n a. Departmental Manual (DM) 3540-000, Risk Management Program, February 17, 2005; \n\n \n\n b. DM 3540-001, Risk Assessment Methodology, February 17, 2005; \n\n \n\n c. DM 3540-002, Risk Assessment and Security Checklists, August 19, 2004; \n\n \n\n d. DM 3555-000, Certification and Accreditation (C&A) of Information Systems, October \n\n 18, 2005; \n\n \n\n\f\n3 \n\n \n\ne. DM 3555-001, Certification and Accreditation Methodology, October 18, 2005; \n\n \n\nf. DM 3565-000, Cyber Security Plans, February 17, 2005; \n\n \n\ng. DM 3565-001, Annual Security Plan Guide for IT Systems, February 17, 2005; and \nh. DM 3575-000, Security Controls, May 27, 2005."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5f881118-7108-5864-beea-92e516692cf2",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3540-003-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3540-003-4-stmt",
+                "name": "statement",
+                "prose": "This DR addresses requirements and responsibilities mandated by FISMA under Section \n\n3544 (a) (2) (A-D). Federal agency responsibilities include: \n\n \n\na. Assessing the risk and magnitude of the harm that could result from the unauthorized \naccess, use, disclosure, disruption, modification, or destruction of such information or \ninformation systems; \n\n \n\nb. Determining the levels of information security appropriate to protect such information \nand information systems in accordance with standards issued under FIPS PUB 199 \ncategorization and required minimum security controls as defined in FIPS PUB 200, \nMinimum Security Requirements for Federal Information and Information Systems, for \ninformation security classifications and related requirements; \n\n \n\nc. Implementing policies and procedures to cost-effectively reduce risks to an acceptable \nlevel; and \n\n \n\nd. Periodically testing and evaluating information security controls and techniques to ensure \nthat they are effectively implemented."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0d829124-1ff8-591b-aa77-c0274adfc1b2",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3540-003-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3540-003-5-stmt",
+                "name": "statement",
+                "prose": "a. All USDA IT programs, systems, contractor provided systems, including cloud systems \nand services, require an authorization to operate (ATO) following the procedures outlined \nin the RMF Process Guide prior to being placed into operation. All systems shall be \nentered into the USDA FISMA data management and reporting tool (currently the Cyber \nSecurity Assessment and Management (CSAM) tool) by the end of the initiation phase of \nthe project. \n\n \n\nb. Authorized systems shall be continually monitored for risk using the ongoing assessment \nand authorization processes throughout the system lifecycle, based on the relevant \nprocedures associated with the system categorization as outlined in the RMF Process \nGuide, and re-authorized every three years. \n\n\f\n4 \n\nc. A&A documentation for all USDA systems, IT programs, and cloud services, including \nthose operated by contractor and cloud service providers, shall be maintained in the \nUSDA FISMA data management and reporting tool (CSAM) in accordance with the \nRMF Process Guide and its associated templates, as required by the system’s \ncategorization. \n\n \n\nd. All FISMA-reportable USDA system and IT program deficiencies shall be recorded in \nthe USDA FISMA data management and reporting tool. These deficiencies shall be \nmanaged in accordance with the USDA Plan of Action and Milestones (POA&M) \nguidance (located in the USDA Cyber Security 3500 Series of directives) and in \naccordance with OCD-SOP-003 Plan of Action and Milestones Management Standard \nOperating Procedure, Revision 1. \n\n \n\ne. All contracts and statements of work for USDA systems, IT programs, and cloud \n\nservices, including those operated by contractor and cloud service providers, shall include \na requirement for completion of the A&A process in accordance with the RMF Process \nGuide to ensure the appropriate security controls and configuration baselines are \nimplemented commensurate with the information system’s categorization. \n\n \n\nf. All interconnected systems, including those operated by contractor and cloud service \nproviders, shall contain nondisclosure language in the Interconnection Security \nAgreement (ISA) and Memorandum of Understanding/Agreement (MOU/A) and require \na nondisclosure agreement to be signed by all contractors who will access USDA \ninformation or information systems. The Whistleblower Protection Enhancement Act \n(WPEA) of 2012, 5 United States Code (U.S.C.) § 2301 et seq. (June 11, 2014) makes it \na prohibited personnel practice for Federal agencies to enter into any “nondisclosure \npolicy, form, or agreement” that does not include the following specific language: \n\n \n\n“These provisions are consistent with, and do not supersede, conflict with, or otherwise \nalter the employee obligations, rights, or liabilities created by existing statute or executive \norder relating to: \n\n \n\n(1) Classified information; \n\n\n \n\n(2) Communications to Congress; \n\n \n\n(3) The reporting to the Inspector General of a violation of any law, rule, or regulation, or \nmismanagement, a gross waste of funds, an abuse of authority, or a substantial and \nspecific danger to public health or safety; or \n\n \n\n(4) Any other whistleblower protection. The definitions, requirements, obligations, \nrights, sanctions, and liabilities created by controlling Executive orders and statutory \nprovisions are incorporated into this agreement and are controlling.” \n\n\f\n5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e9f3c2fe-8176-5325-b268-980e1b6edf51",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3540-003-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3540-003-6-stmt",
+                "name": "statement",
+                "prose": "a. The USDA Chief Information Officer (CIO) shall: \n\n \n\n(1) Develop and maintain a Departmentwide information security program, part of \nwhich defines assessment and authorization activities; \n\n \n\n(2) Ensure that information security policies, procedures, and control techniques to \naddress all A&A activities are developed and issued; \n\n \n\n(3) Ensure compliance with applicable information security requirements; and \n\n \n\n(4) Report annually to the Secretary of Agriculture, in coordination with other senior \nDepartmental officials, on the effectiveness of the Department’s information security \nprogram, including progress of remediation actions. \n\n \n\nb. The USDA Chief Information Security Officer (CISO) / ASOC Associate Chief \nInformation Officer (ACIO) shall: \n\n \n\n(1) Implement and manage the USDA Information Security Program to ensure \ncompliance with applicable Federal laws, Executive orders, directives, policies, and \nregulations. The USDA CISO / ASOC ACIO reports directly to the USDA CIO and \nis the principal advisor for information security matters; \n\n \n\n(2) Provide guidance, direction, and oversight for the security of processes and systems \nin USDA agencies and staff offices; \n\n \n\n(3) Maintain information security policies, procedures, and control techniques to address \nall applicable A&A requirements; \n\n \n\n(4) Provide direction, oversight, and concurrency review functions for the USDA A&A \nprocess, including maintaining and publishing the RMF Process Guide and \nschedules; \n\n \n\n(5) Review agency and staff office exception requests to this policy and make approval \nor denial determination per Section 8 of this DR; \n\n \n\n(6) Perform information security duties assigned by the CIO with the mission and \nresources to ensure compliance with information security requirements; \n\n \n\n(7) Establish, develop, and maintain a process for planning, implementing, evaluating, \nand documenting remediation actions to address deficiencies in the Department’s \ninformation security A&A policies, procedures, practices, and controls; \n\n\f\n6 \n\n(8) Support the USDA CIO in annual reporting to the Secretary of Agriculture on the \neffectiveness of the Department’s information security program, including progress \nof remediation activities; \n\n \n\n(9) Track the status of IT systems and the associated A&A functions to ensure that \nsystems are assessed, authorized and continually monitored; \n\n \n\n(10) Review risk-based decisions (RDB) and approve as needed; \n\n \n\n(11) Conduct concurrency reviews and issue concurrence memoranda prior to systems \nreceiving an ATO; \n\n \n\n(12) Establish, develop, and oversee the Department’s A&A process; \n\n \n\n(13) Ensure timely action(s) are taken to resolve all open POA&Ms; \n\n \n\n(14) Provide administration, technical support, and training in the use of the Department’s \nUSDA FISMA data management and reporting tool; and \n\n \n\n(15) Provide guidance, tools, schedules, and strategies to assist USDA agencies and staff \noffices in complying with the requirements of this policy. \n\n \n\nc. Agency and Staff Office CIOs shall: \n\n \n\n(1) Provide security for the information and information systems that support the \noperations and assets of the agency or staff office, including those provided or \nmanaged by another agency, staff office, contractor, or other source; \n\n \n\n(2) Ensure that their agency or staff office complies with USDA’s A&A policy and \nprocedures in support of this policy; \n\n(3) Initiate any needed waiver/exception requests to this policy per Section 8 of this DR; \n\n \n\n(4) Ensure that an authorizing official (AO) is designated for each IT system, and that \nthe AO understands and accepts the responsibility for system risk and operation; \n\n \n\n(5) Ensure all agency and staff office IT professionals understand their role in the A&A \nprocess, with special emphasis on system owners, developers, Information Systems \nSecurity Program Managers (ISSPMs) and system administrators; \n\n \n\n(6) Ensure corrective actions are taken to resolve or accept risk for all identified \nvulnerabilities related to their respective mission areas; \n\n \n\n(7) Ensure adequate resources and funding, as required by OMB, are allocated to the \nmitigation of security vulnerabilities; \n\n\f\n7 \n\n \n\n(8) Ensure timely action(s) are taken to resolve all POA&Ms; and \n\n \n\n(9) Ensure this policy is available to any individual who will be involved in the A&A \nprocess to ensure they understand and can fulfill their roles and responsibilities. \n\n \n\nd. Agency and Staff Office ISSPMs and CISOs shall: \n\n(1) Keep the agency or staff office head informed of status, actions, and unresolved \nissues for continuous A&A through agency and staff office-level communication \nchannels; \n\n \n\n(2) Support and facilitate the work of A&A teams to ensure that agency and staff office \nIT systems are assessed and authorized in accordance with NIST per the process \ndelineated in the RMF Process Guide; \n\n \n\n(3) Review and ensure that A&A packages are complete before they are submitted for \nconcurrency review; \n\n \n\n(4) Ensure that system and program risks are mitigated or compensated for by \nappropriate security controls based on FIPS PUB 199, categorization and required \nminimum security controls, as defined in FIPS PUB 200, and NIST SP 800-53, \nRevision 3; \n\n \n\n(5) Monitor A&A progress of agency and staff office systems and provide bi-weekly \nand ad hoc status to ASOC; \n\n \n\n(6) Participate in IT system and program configuration control boards to ensure that \nsystem changes are reviewed to determine if the changes require A&A action; \n\n \n\n(7) Ensure timely action(s) are taken to resolve all open POA&Ms: \n\n \n\n(8) Ensure all security control assessments are performed by an independent assessor; and \n\n \n\n(9) Disseminate, review, and provide input for this policy, as needed, to implement \nUSDA A&A successfully. \n\n \n\ne. Agency and Staff Office Information System Security Officers shall: \n\n(1) Ensure that system compliance with this policy and the RMF Process Guide; \n\n \n\n(2) Assist the system owner with the implementation and documentation of A&A \nactivities as outlined within this policy and RMF Process Guide, specifically \nperform oversight and ensure security controls are documented, tested, and \neffective; \n\n(3) Ensure that controls and/or compensating security controls are in place and effective; \nand \n\n\f\n8 \n\n \n\n(4) Ensure that compensating security controls are removed, according to established \nprocesses, when no longer needed. \n\n \n\nf. Agency and staff office system owners shall: \n\n \n\n(1) Manage the prompt resolution of identified information security weaknesses, \nsignificant deficiencies, and non-conformance conditions, including the \ndevelopment, maintenance, monitoring, and reporting of corrective actions; \n\n \n\n(2) Maintain accurate records of the status of the identified information security material \nweaknesses, deficiencies, and non-conformance throughout the entire corrective \naction process; and \n\n \n\n(3) Ensure that the tracking, remediation, verification, and closure of information \nsecurity weaknesses adhere to the USDA POA&M policies in the USDA Cyber \nSecurity 3500 Series of directives. \n\n \n\ng. AOs shall: \n\n \n\n(1) Review accreditation packages, specify any required changes, authorize systems for \noperation, and accept all operational risk; \n\n\n \n\n(2) Oversee and approve the implementation of the security controls for the system; \n\n \n\n(3) Review/validate risk, POA&M, and ATO constraints with the system owner and \nsubmit an RBD to ASOC OCD; \n\n \n\n(4) Generate authorization recommendations or denials with system owner involvement; \n\n \n\n(5) Review/validate risk, POA&M, system changes, and documentation of authorized \nsystems with the system owner throughout the lifecycle of the system; and \n\n \n\n(6) Determine whether a major change has been made to the system that impacts the risk \nand ATO status."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b61cc417-86a7-5684-9547-f3557441162e",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Non-Compliance",
+        "controls": [
+          {
+            "id": "dr3540-003-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Non-Compliance",
+            "parts": [
+              {
+                "id": "dr3540-003-7-stmt",
+                "name": "statement",
+                "prose": "DM 3300-005, Policies for Planning and Managing Wireless Technologies in USDA, \nChapter 3, sets forth USDA’s policies and standards on employee responsibilities and \nconduct relative to the use of wireless technologies. \n\n\f\n9 \n\nDR 4070-735-001, Employee Responsibilities and Conduct, Section 16, sets forth USDA’s \npolicies, procedures, and standards on employee responsibilities and conduct relative to the \nuse of computers and telecommunications equipment, with further delineation provided in \nDR 3300-001, Telecommunications and Internet Services and Use, Section 3. In addition, \nDR 4070-735-001, Section 21, Disciplinary or Adverse Action, states: \n\n \n\na. A violation of any of the responsibilities and conduct standards contained in this directive \nmay be cause for disciplinary or adverse action. \n\n \n\nb. Disciplinary or adverse action shall be effected in accordance with applicable law and \nregulations. \n\n \n\nSuch disciplinary or adverse action shall be effected in accordance with applicable law and \nregulations such as the Code of Ethics for Government Employees, Office of Personnel \nManagement regulations, OMB regulations, and Standards of Conduct for Federal \nEmployees."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "535f3d34-dcca-5a64-bc3e-211f2c4feacb",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3540-003-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3540-003-8-stmt",
+                "name": "statement",
+                "prose": "a. All USDA agencies and staff offices are required to conform to this policy. In the event \nthat a specific policy requirement cannot be met as explicitly stated, agencies and staff \noffices may submit a waiver request. The waiver request shall explain the reason for the \nrequest, identify compensating controls/actions that meet the intent of the policy, and \nidentify how the compensating controls/actions provide a similar or greater level of \ndefense or compliance than the policy requirement. Agencies and staff offices shall \naddress all policy waiver request memoranda to the USDA CISO / ASOC ACIO and \nsubmit the request to asoc.outreach@asoc.usda.gov for review and determination. \n\n \n\nb. Agencies and staff offices shall review and renew approved policy waivers every fiscal \nyear. Approved waivers shall be associated with a NIST security control and tracked as a \nPOA&M item in the Department’s FISMA data management and reporting tool. The \nUSDA CISO / ASOC ACIO shall render decision and monitor waivers to this policy. \n\n \n\n \n\n \n\n-END- \n\n\f\nA-1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01946b2e-065f-5bd6-a893-7c62f55ca4cc",
+        "class": "appendix",
+        "title": "Appendix A — Definitions",
+        "controls": [
+          {
+            "id": "dr3540-003-appendix-a",
+            "class": "policy-requirement",
+            "title": "Appendix A — Definitions",
+            "parts": [
+              {
+                "id": "dr3540-003-appendix-a-stmt",
+                "name": "statement",
+                "prose": "DEFINITIONS \n\n \n\na. Assessment. See Security Control Assessment. \n\n(Source: NIST Interagency or Internal Report (IR) 7298, Revision 2) \n\n \n\nb. Authorizing Official. Official with the authority to formally assume responsibility for \noperating an information system at an acceptable level of risk to agency operations \n(including mission, functions, image, or reputation), agency assets, or individuals. \nSynonymous with Accreditation Authority. \n\n(Source: NIST IR 7298, Revision 2) \n\n \n\nc. Authorization (to operate). The official management decision given by a senior organizational \nofficial to authorize operation of an information system and to explicitly accept the risk to \norganizational operations (including mission, functions, image, or reputation), organizational \nassets, individuals, other organizations, and the Nation based on the implementation of an \nagreed-upon set of security controls. \n\n(Source: NIST IR 7298, Revision 2) \n\n \n\nd. Cloud Services. Shared pool of configurable computing resources (e.g., networks, servers, \nstorage, applications, and services) that can be rapidly provisioned and released with minimal \nmanagement effort or service provider interaction. \n\n(Source: NIST SP 800-145) \n\n \n\ne. Cloud System. Collection of network-accessible computing resources that customers (i.e., \ncloud consumers) can access over a network. \n\n(Source: NIST SP 800-145) \n\n \n\nf. Independent Assessor. Any individual or group capable of conducting an impartial assessment of \nsecurity controls employed within or inherited by an information system. Impartiality implies that \nassessors are free from any perceived or actual conflicts of interest with respect to the \ndevelopment, operation, and/or management of the information system or the determination of \nsecurity control effectiveness. Independent security control assessment services can be obtained \nfrom other elements within the organization or can be contracted to a public or private sector \nentity outside of the organization. Contracted assessment services are considered independent if \nthe information system owner is not directly involved in the contracting process or cannot unduly \ninfluence the independence of the assessor(s) conducting the assessment of the security controls. \n\n(Source: NIST SP 800-37, Revision 1) \n\n\f\nA-2 \n\n \n\ng. Information Security. The protection of information and information systems from \nunauthorized access, use, disclosure, disruption, modification, or destruction in order to \nprovide confidentiality, integrity, and availability. \n\n(Source: NIST IR 7298, Revision 2) \n\n \n\nh. Information System/System. A discrete set of resources organized for the collection, \nprocessing, maintenance, use, sharing, dissemination, or disposition of information. \n(Source: NIST IR 7298, Revision 2) \n\n \n\ni. Infrastructure as a Service (IaaS). The capability provided to the consumer to provision \nprocessing, storage, networks, and other fundamental computing resources where the consumer \nis able to deploy and run arbitrary software, which can include operating systems and \napplications. The consumer does not manage or control the underlying cloud infrastructure, but \nhas control over operating systems, storage, deployed applications, and possibly select \nnetworking components (e.g., firewalls, load balancers). \n\n(Source: NIST SP 800-145) \n\n \n\nj. Interconnection Security Agreement (ISA). An agreement established between organizations that \nown and operate connected IT systems to document the technical requirements of the \ninterconnection. The ISA also supports an MOU/A between the organizations. \n\n(Source: NIST IR 7298, Revision 2) \n\n \n\nk. Memorandum of Understanding/Agreement (MOU/A). A document established between two \nor more parties to define their respective responsibilities in accomplishing a particular goal or \nmission. In this guide, an MOU/A defines the responsibilities of two or more organizations in \nestablishing, operating, and securing a system interconnection. \n\n(Source: NIST IR 7298, Revision 2) \n\n \n\nl. Platform-as-a-Service (PaaS). The capability provided to the consumer to deploy onto the cloud \ninfrastructure consumer-created applications using programming languages and tools supported \nby the provider (e.g., Java, Python, .NET). The consumer does not manage or control the \nunderlying cloud infrastructure, network, servers, operating systems, or storage, but the consumer \nhas control over the deployed applications and possibly application hosting environment \nconfigurations. \n\n(Source: NIST SP 800-145) \n\n \n\nm. Security Control Assessment. The testing and/or evaluation of the management, operational, and \ntechnical security controls in an information system to determine the extent to which the controls \nare implemented correctly, operating as intended, and producing the desired outcome with respect \nto meeting the security requirements for system and/or enterprise. (Source: NIST IR 7298, \nRevision 2) \n\n \n\nn. Security Controls. The management, operational, and technical controls (i.e., safeguards or \ncountermeasures) prescribed for an information system to protect the confidentiality, integrity, \nand availability of the system and its information. \n\n(Source: NIST IR 7298, Revision 2) \n\n\f\nA-3 \n\n \n\n \n\no. Service Providers. This category encompasses typical outsourcing of system or network \noperations, telecommunications services, or other managed services (including those \nprovided by another agency or staff office and subscribing to software services). \n\n(Source: NIST SP 800-37, Revision 1) \n\n \n\np. Software-as-a-Service (SaaS). The capability provided to the consumer to use the provider’s \napplications running on a cloud infrastructure and accessible from various client devices through \na thin client interface such as a Web browser (e.g., Web-based email). The consumer does not \nmanage or control the underlying cloud infrastructure, network, servers, operating systems, \nstorage, or individual application capabilities, with the possible exception of limited user-specific \napplication configuration settings. \n\n(Source: NIST SP 800-145) \n\n\f\nB-1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "22f1b0a8-98b3-5130-a91b-a2b1cf08e493",
+        "class": "appendix",
+        "title": "Appendix B — Acronyms And Abbreviations",
+        "controls": [
+          {
+            "id": "dr3540-003-appendix-b",
+            "class": "policy-requirement",
+            "title": "Appendix B — Acronyms And Abbreviations",
+            "parts": [
+              {
+                "id": "dr3540-003-appendix-b-stmt",
+                "name": "statement",
+                "prose": "ACRONYMS AND ABBREVIATIONS \n\n \n\nA&A Assessment and Authorization \n\nAO Authorizing Official \n\nACIO Associate Chief Information Officer \n\nASOC Agriculture Security Operations Center \n\nATO Authorization to Operate \n\nCIO Chief Information Officer \n\nCISO Chief Information Security Officer \n\nCSAM Cyber Security Assessment and Management Tool \n\nDM Departmental Manual \n\nDR Departmental Regulation \n\nFIPS Federal Information Processing Standards \n\nFISMA Federal Information Security Management Act of 2002 \n\nIaaS Infrastructure as a Service \n\nIR Interagency or Internal Report \n\nISA Interconnection Security Agreement \n\nISSPM Information Systems Security Program Manager \n\nIT Information Technology \n\nMOU/A Memorandum of Understanding/Agreement \n\nNIST National Institute of Standards and Technology \n\nOCD Oversight and Compliance Division \n\nOMB Office of Management and Budget \n\nPaaS Platform as a Service \n\nPOA&M Plan of Action and Milestones \n\nPUB Publication \n\nRBD Risk-Based Decision \n\nRMF Risk Management Framework \n\nSaaS Software as a Service \n\nSOP Standard Operating Procedure \n\nSP Special Publication \n\nU.S.C. United States Code \n\nUSDA United States Department of Agriculture \n\nWPEA Whistleblower Protection Enhancement Act \n\n\f\nC-1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ec445575-0a3d-5b5e-811c-ef615216b447",
+        "class": "appendix",
+        "title": "Appendix C — Authorities And References",
+        "controls": [
+          {
+            "id": "dr3540-003-appendix-c",
+            "class": "policy-requirement",
+            "title": "Appendix C — Authorities And References",
+            "parts": [
+              {
+                "id": "dr3540-003-appendix-c-stmt",
+                "name": "statement",
+                "prose": "AUTHORITIES AND REFERENCES \n\n \n\nDM 3300-005, Policies for Planning and Managing Wireless Technologies in USDA, \nNovember 10, 2010 \n\n \n\nDR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007 \n\n \n\nDR 3300-001, Telecommunications & Internet Services and Use, March 23, 1999 \n\n \n\nFederal Information Security Management Act of 2002 (FISMA), 44 U.S.C. § 3541 et seq. \n(2014) \n\n \n\nFIPS PUB 199, Standards for Security Categorization of Federal Information and \n\nInformation Systems, February 2004 \n\n \n\nFIPS PUB 200, Minimum Security Requirements for Federal Information and Information \n\nSystems, March 2006 \n\n \n\nNIST IR 7298, Revision 2, Glossary of Key Information Security Terms, May 2013 \n\n \n\nNIST SP 800-37, Revision 1, Guide for Applying the Risk Management Framework to \n\nFederal Information Systems, February 2010 \n\n \n\nNIST SP 800-53, Revision 3, Recommended Security Controls for Federal Information \n\nSystems and Organizations, August 2009 (updated errata as of May 1, 2010) NIST \nSP 800-145, The NIST Definition of Cloud Computing, September 2011 \n\nOCD-SOP-003, Plan of Action and Milestones Management Standard Operating Procedure, \nRevision 1, July 2013 \n\n \n\nOCD-SOP-004, USDA Six Step Risk Management Framework (RMF) Process Guide, \nRevision 2.38, December 2012 \n\n \n\nUSDA Cyber Security Directives, 3500 Series \n\n \n\nWhistleblower Protection Enhancement Act (WPEA) of 2012, 5 U.S.C. § 2301 et seq. (June \n\n11, 2014)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

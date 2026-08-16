@@ -1,0 +1,220 @@
+{
+  "catalog": {
+    "uuid": "1a7186d2-ca6d-5e82-bff5-47ca445d068e",
+    "metadata": {
+      "title": "USDA DR2130-006: Debt Management and Collections",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-08-27",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR2130-006"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-08-27"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-2130-006",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer, Fiscal Policy",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-2130-006",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer, Fiscal Policy"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "acc9330e-f854-5d17-bd47-8bea89178633",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr2130-006-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr2130-006-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) provides the policy and responsibilities of the United\n     States Department of Agriculture (USDA) for debt management and the collection of debt."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "03f1531e-76f5-5dc7-994e-98df07b4025c",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr2130-006-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr2130-006-2-stmt",
+                "name": "statement",
+                "prose": "a.   This regulation supersedes DR 2130-006, Debt Collection – Write Offs of\n          Uncollectible Claims, dated August 14, 1991; and\n\n     b.   This regulation supersedes DR 2520-001, Interest Rates on Delinquent Debts\n          dated November 27, 2006."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "92a1158b-5a01-5816-bea0-009512986f74",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr2130-006-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr2130-006-3-stmt",
+                "name": "statement",
+                "prose": "a.   This directive combines the Debt Management regulations outlined in the Department of\n       the Treasury (“Treasury”) guidance Managing Federal Receivables (TMFR); 7 Code of\n       Federal Regulations (CFR) Part 3, Debt Management; and Departmental policies for\n       debt collection write-offs of uncollectable claims, and interest rates on delinquent debt.\n\n  b.   If the head of a Mission Area, agency, or staff office of the Department adopts\n       regulations separate from this regulation pursuant to independent statutory debt\n       settlement authority, the procedures thereby established, rather than those set out in this\n       regulation, must be followed for the collection of the claims and debts to which the\n       separate regulations apply.\n\n  c.   The debts covered under this regulation relate to non-salary debts. For salary related\n       debts, refer to DR 2570-002, Waiver of Employee Claims from Erroneous Payments of\n       Pay and Allowances."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b4cf437f-1268-5fe6-9310-08844f5e7a65",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr2130-006-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr2130-006-4-stmt",
+                "name": "statement",
+                "prose": "a.   Prior to the enactment of the Federal Claims Collection Act of 1966 (FCCA), Public\n       Law (P.L.) 89-508, the authority to compromise and suspend or end collection action on\n       debts owed to and claims in favor of the Government rested solely with the Attorney\n       General of the United States. Under the FCCA, Federal agencies received the authority\n       to compromise debts and claims, as well as to suspend or end collection action on debts\n       and claims with principal amounts (i.e., exclusive of interest, penalties, and\n       administrative costs) of no more than $20,000 and that did not involve fraud,\n       misrepresentation, false claim, or mutual mistake of fact (31 United States Code\n       (U.S.C.) § 3711(a)(2); 31 U.S.C. § 3711(d)). Under Section 8(b), Claims of the\n       Government, of the Administrative Dispute Resolution Act, P.L. 101-552, enacted\n       November 15, 1990, this amount was increased to $100,000.\n\n       Absent statutory authority setting forth a higher Federal agency limit, the authority to\n       compromise, suspend or terminate Federal agency debts and claims in excess of\n       $100,000 remains with the Attorney General of the United States. The Attorney General\n       also retains sole authority to compromise and suspend or end collection action regarding\n       debts and claims involving fraud, misrepresentation, false claim, or mutual mistake of\n       fact.\n\n  b.   Additionally, the Debt Collection Act of 1982, P.L. 97-365, as amended (codified at 31\n       U.S.C. § 3717, Interest and penalty on claims), requires Federal agencies, unless\n       prohibited or restricted by statute or contract, to charge interest on outstanding debts\n       owed to the United States by persons including State or local governments.\n\n\n\n\n                                                2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "336b8ab2-7743-5745-bcae-14a933f9c8c2",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr2130-006-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr2130-006-5-stmt",
+                "name": "statement",
+                "prose": "a.   Manage and Report Debt:\n\n       Mission Areas, agencies, and staff offices must manage and report debt timely and in\n       accordance to guidelines.\n\n  b.   Debt Collection-Write Offs of Uncollectable Claims:\n\n       Mission Areas, agencies, and staff offices must implement write off procedures that\n       identify and remove uncollectible debts or claims from accounts receivable in a timely\n       manner after all currently available means of collection have been exhausted Mission\n       Areas, agencies, and staff offices must adhere to Treasury TMFR guidance, the Office of\n       Management and Budget (OMB) Circular A-129, Policies for Federal Credit Programs\n       and Non-Tax Receivables, and 7 CFR Part 3 as it relates to debt management.\n\n  c.   Regarding Interest Rates on Delinquent Debts:\n\n       (1) USDA Mission Areas, agencies, and staff offices must charge a minimum annual\n           interest on delinquent debts owed to the United States that is equal to the U.S.\n           Treasury Current Value of Funds Rate, published annually by the Secretary of the\n           Treasury in the Federal Register and available at the Treasury Interest Rates\n           website.\n\n       (2) A Mission Area, agency, or staff office may assess a higher rate of interest, such as\n           prompt payment interest rate, if it is reasonably determined that a higher rate is\n           necessary to protect the rights of the United States. The rate of interest remains\n           fixed for the duration of the delinquency.\n\n  d.   This policy does not apply to:\n\n       (1) Debts where a statute, regulation required by statute, loan agreement, or contract\n           either prohibits interest charges for delinquent debt or fixes interest to be charged;\n\n       (2) Debts arising under contracts that were executed before or were in effect on\n           October 25, 1982; or\n\n       (3) Debts with interest rates dictated by a higher statute."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5ab25b3b-0dd2-52d2-b6cf-00584206920a",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr2130-006-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr2130-006-6-stmt",
+                "name": "statement",
+                "prose": "a.   Mission Area, Agency, and Staff Office Heads will:\n\n       (1) Charge interest on delinquent debts unless prohibited by statutes or contracts;\n\n\n\n                                                3\n\f       (2) Develop and implement internal Mission Area, agency, or staff office strategies,\n           directives and procedures that reflect debt collection practices and internal controls\n           consistent with statutes, regulations, policies, and guidance in Sections 5, Policy;\n           Section 6, Roles and Responsibilities; and Appendix C, Authorities and References\n           of this DR;\n\n       (3) Review debt collection practices, techniques and controls periodically to determine\n           compliance with governing statutes, regulations, policies, standards and goals;\n\n       (4) Confer with Office of the Chief Financial Officer (OCFO) Fiscal Policy Division\n           (FPD) on changes in debt collection policies and procedures, controversial issues,\n           and problems prior to discussions with OMB and Treasury;\n\n       (5) Provide the necessary staffing to carry out a robust Debt Management Program, as\n           it relates to Treasury’s TMFR, USDA’s 7 CFR Part 3, and data calls realized;\n\n       (6) Provide to OCFO FPD the names, emails, and phone numbers of employees (points\n           of contact (POC)) assigned to carry out the duties associated with their Debt\n           Management Program; and\n\n       (7) Provide OCFO with updates to the POC list as attrition and organizational\n           realignments occur.\n\n  b.   The Chief Financial Officer (CFO) will:\n\n       (1) Provide oversight and department-wide compliance reviews to Mission Areas,\n           agencies, and staff offices as it relates to Treasury Guidance Managing Federal\n           Receivables USDA’s 7 CFR Part 3, and related Treasury data call requirements;\n\n       (2) Represent USDA as the central point of contact on matters related to debt collection\n           with OMB and Treasury;\n\n       (3) Work with Mission Areas, agencies, and staff offices through the Debt Collection\n           Improvement Act (DCIA) or Managing Federal Receivables Workgroup to define\n           and establish cost effective debt collection processes and procedures on delinquent\n           debts; and\n\n       (4) Communicate to Mission Areas, agencies, and staff offices information related to\n           regulations, requirements, and procedures promulgated by OMB and Treasury."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e62148a7-ab35-5b22-986f-a80a6dc71a23",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr2130-006-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr2130-006-7-stmt",
+                "name": "statement",
+                "prose": "Mission Areas, agencies, and staff offices should direct questions and inquiries regarding this\n  DR to the OCFO, FPD at SM.OCFO.FPDOCFO@usda.gov.\n\n\n\n                                               4\n\f-END-\n\n\n\n\n  5\n\f                               APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nCFO        Chief Financial Officer\nCFR        Code of Federal Regulations\nDCIA       Debt Collection Improvement Act\nDR         Departmental Regulation\nFCCA       Federal Claims Collection Act\nFPD        Fiscal Policy Division (OCFO Component)\nOBPA       Office of Budget and Program Analysis\nOCFO       Office of the Chief Financial Officer\nOMB        Office of Management and Budget\nP.L.       Public Law\nPOC        Point of Contact\nTMFR       Treasury Guidance: Managing Federal Receivables\nTreasury   United States Department of the Treasury\nU.S.C.     United States Code\nUSDA       United States Department of Agriculture\n\n\n\n\n                                    A-1\n\f                                          APPENDIX B\n\n                                         DEFINITIONS\n\n\nClose Out. An agency closes out a debt when it determines that further debt collection actions\nare prohibited (for example, a debtor is released from liability in bankruptcy) or the agency does\nnot plan to take any future actions (either active or passive) to try to collect the debt. At close\nout, an agency may be required to report to the IRS the amount of the debt as potential income to\nthe debtor on IRS Form 1099. (Source: U.S. Treasury Bureau of Fiscal Service, Treasury\nFinancial Manual, Glossary, undated)\n\nPrompt Payment Rule. If a vendor submits a proper and valid invoice to the right people in a\nfederal agency, the agency must pay the invoice on time. If not, the payment is late. (Source: 5\nCFR Part 1315, Prompt Payment)\n\nUncollectible Debt or Claim. An account of money or property determined by an appropriate\nofficial to be owed to the United States from any person, organization, or entity, except another\nFederal agency, which meets the requirements of the Federal Claims Collection Standards for\nsuspension or termination of collection activity, as described in 31 CFR Part 903.\n\nWrite Off. An accounting action that results in reporting the debt/receivable as having no value\non the agency’s financial and management reports. The agency may need Department of Justice\napproval to write off a debt since the agency is adjusting its accounting records. Additionally,\nstatutory authority may be required to write off debts owed by foreign governments. (Source:\nU.S. Treasury Bureau of Fiscal Service, Treasury Financial Manual)\n\n\n\n\n                                               B-1\n\f                                     APPENDIX C\n\n                         AUTHORITIES AND REFERENCES\n\n\n31 CFR Part 903, Standards for Suspending or Terminating Collection Activity\n\n7 CFR § 2.28, Chief Financial Officer\n\n7 CFR Part 3, Debt Management\n\n31 U.S.C. § 3711, Collection and compromise\n\n31 U.S.C. § 3717, Interest and penalty on claims\n\nAdministrative Dispute Resolution Act, P.L. 101-552, November 15, 1990\n\nDebt Collection Act of 1982, P.L. 97-365, October 25, 1982, as amended, codified at 31\nU.S.C. § 3717\n\nFederal Claims Collection Act of 1966 (FCCA), P.L. 89-508, July 19, 1966\n\nOMB, Circular A-129, Policies for Federal Credit Programs and Non-Tax Receivables,\nJanuary 2013\n\nTreasury, Bureau of the Fiscal Service, Interest Rates website\n\nTreasury, Bureau of the Fiscal Service, Managing Federal Receivables, March 2015\n\nUSDA, DR 2570-002, Waiver of Employee Claims from Erroneous Payments of Pay and\nAllowances, January 5, 2001\n\n\n\n\n                                           C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "7c449791-9885-524d-ab6b-385feda680f8",
+          "title": "USDA Directives — DR2130-006",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-2130-006",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

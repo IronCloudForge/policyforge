@@ -1,0 +1,131 @@
+{
+  "catalog": {
+    "uuid": "961b29ec-573a-5877-b15e-cd2e94c13288",
+    "metadata": {
+      "title": "USDA DR4360-001: Communicating With Under-served Communities",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2098-01-14",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4360-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2098-01-14"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4360-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Outreach",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4360-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Outreach"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "ba1de892-e1c8-5ce7-99f7-2d551daeb604",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr4360-001-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr4360-001-1-stmt",
+                "name": "statement",
+                "prose": "U.S. DEPARTMENT OF AGRICULTURE\n                                   WASHINGTON, D.C. 20250\n\n\n                                                                             NUMBER:\nDEPARTMENTAL REGULATION                                                      4360-001\nSUBJECT:                                                DATE:\nCommunicating With Under-served Communities             January 14, 1998\n\n                                                        OPI:   Office of Outreach\n\n\n\n\n1 PURPOSE\n\nTo establish Departmental policy to ensure that educational and technical assistance\nservices and communications materials are available to all customers in languages\nappropriate to the community being served, and that USDA offices use appropriate media\noutlets to distribute information to under-served communities.\n\n2 REPONSIBILITIES\n\n              a Communicating USDA Programs. Agency heads shall develop and\n              implement communications plans that include an outreach component.\n              Agency heads shall adequately fund these plans to meet all civil rights\n              obligations pertaining to developing publications and documents in\n              alternative formats (i.e., Braille, large print, cassette, open or closed\n              captioning), and in languages other than English, as deemed appropriate\n              for the agency mission.\n\n              When developing a communication strategy for the program or service\n              area, the plan must include media outreach to under-served customers\n              such as women, racial and ethnic minorities, and persons with disabilities.\n              Plans should also include providing information in other languages, public\n              service announcements in publications, and outreach to radio and TV\n              stations serving persons in other languages,\n\n              b Employee Training. Managers and supervisors shall ensure that all\n              employees are aware of policies, practices, and procedures guaranteeing\n              effective communication to all customers and others, and that each\n              employee holding a \"public contact position\" is aware of USDA's civil\n              rights obligation and commitment to ensuring equal opportunity to access\n              information and services. Managers and supervisors are responsible for\n              effectively implementing this requirement and will be held accountable in\n              their performance standards for their actions.\n\fDR 4360-001                                                                     January 14, 1998\n\n\n\n\n3 CROSS REFERENCE\n\nFurther information on communicating with persons with disabilities may be found in the\nDepartment's section 504 Handbook.\n\n4 INTERAGENCY COOPERATION\n\nTo reach limited resource customers and under-served communities, wherever possible,\nagencies shall collaborate and cooperate in producing information items and when\nconducting communication activities.\n\n5 NON-TRADITIONAL OUTREACH\n\nTo reach limited resource customers and under-served communities more effectively,\nagency heads will ensure that communications plans include informal communication\noutlets such as community leaders, schools, and associations.\n\n6 AIDS AND SERVICES\n\nAgencies shall provide appropriate auxiliary aids or services to people with impaired\nsensory, manual, or speaking skills, where reasonably necessary, such that agencies\nassure that these persons have an equal opportunity to benefit from the agency's services.\n\nIt is USDA's intent to meet all such reasonable requests for aids and services. Alternative\nformats include, but are not limited to, the provision of information in the language of the\ncommunity being served; formats such as Braille, large print, and cassette tape; use of a\nsign language interpreter; use of a language translator; room seating arrangements to\naccommodate lip-reading, visual impairments, and other special needs; verbal\ndescriptions of flipcharts, transparencies, and so forth, for people who have visual\nimpairments; and sites that are fully accessible to people with disabilities.\n\n\n\n7 USE OF THE INTERNET AND ELECTRONIC TECHNOLOGIES\n\nAll national publications shall be accessible on the Internet or available in other forms of\nelectronic technology. At a minimum, agencies are required to post a notice on their\nhomepage which:\n\n               a States the availability of the publication in other electronic formats (i.e.,\n               ASCII);\n\n               b States the availability of the publication in alternative formats (i.e.,\n               Braille, large print, cassette, and/or other languages); and;\n\n\n\n                                              2\n\fDR 4360-001                                                             January 14, 1998\n\n\n              c Provides ordering information for those requesting documents, which\n              includes an agency mailing address, facsimile, Telecommunications\n              Device for the Deaf, and voice telephone number.\n\n\n\n\n                                          3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "c50535cf-577b-508f-a848-a2adf2b0966e",
+          "title": "USDA Directives — DR4360-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4360-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

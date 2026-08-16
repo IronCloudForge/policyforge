@@ -1,0 +1,3390 @@
+1                              U.S. DEPARTMENT OF AGRICULTURE
+2                                    WASHINGTON, D.C. 20250
+3
+                                                                  NUMBER:
+          DEPARTMENTAL MANUAL                                     DM 4620-002
+     SUBJECT: Common Identification Standard for U.S.             DATE:
+     Department of Agriculture (USDA)                             April 20, 2026
+                                                                  EXPIRATION DATE:
+     OPI: Office of Safety, Security, and Protection (OSSP)
+                                                                  April 20, 2031
+ 4
+ 5
+ 6
+ 7   Section                                                                         Page
+ 8
+ 9   1. Purpose                                                                        2
+10   2. Scope                                                                          2
+11   3. Special Instructions/Cancellations                                             2
+12   4. Background                                                                     2
+13   5. Privacy Policy                                                                 3
+14   6. Credential Type Determination                                                  4
+15   7. Roles and Responsibilities                                                     8
+16   8. Credentialing Site Hosting Requirements                                       20
+17   9. Role Holder Requirements                                                      21
+18   10. Role Holder Training                                                         23
+19   11. Procedures                                                                   24
+20   12. USDA’s HSPD-12 Implementation                                                33
+21   13. Temporary Credentials                                                        33
+22   14. PIV Usage                                                                    34
+23   15. Inquiries                                                                    39
+24
+25   Table 1 – LincPass Matrix for U.S. Nationals                                      5
+26   Table 2 – LincPass Matrix for Non-U.S. Nationals                                  6
+27   Table 3 – Alternative Credential Matrix for U.S. Nationals                        6
+28   Table 4 – Alternative Credential Matrix for Non-U.S. Nationals                    7
+29   Table 3 – Role Holder Employment Type Matrix                                     23
+30   Table 4 – Training Requirements                                                  24
+31   Table 5 – ePACS Compliance Requirements                                          35
+32   Table 6 – USDA Credential Matrices                                              D-1
+33
+34   Figure 1 – Credential Type Decision                                               5
+35   Figure 2 – PIV and PIV-I Issuance Process                                        29
+36   Figure 3 – Front of PIV Credential                                              E-4
+37   Figure 4 – Back of PIV Credential                                               E-6
+38   Figure 5 – LincPass Topology                                                    E-7
+39   Figure 6 – Site Credential Topology                                             E-8
+40   Figure 7 – Visitor Site Badge Topology                                          E-9
+                                                     0
+ 1   Figure 8 – Paper Visitor Pass                                                                 E-10
+ 2   Figure 9 – AltLinc PIV-I Topology – Card Front                                                E-12
+ 3   Figure 10 – AltLinc PIV-I Topology – Card Back                                                E-13
+ 4
+ 5   Appendix A – Acronyms and Abbreviations                                                        A-1
+ 6   Appendix B – Definitions                                                                       B-1
+ 7   Appendix C – Authorities and References                                                        C-1
+ 8   Appendix D – USDA Credential Matrices                                                          D-1
+ 9   Appendix E – Examples of Credential Topologies                                                 E-1
+10   Appendix F – Memorandum for Mission Areas, Agencies and Staff Offices                          F-1
+11   Appendix G – Memorandum for Agency USDA Personnel Security Offices                             G-1
+12
+13
+14   1. PURPOSE
+15
+16      a.   This Departmental Manual (DM) provides procedures for United States Department of
+17           Agriculture (USDA) staff to meet the requirements of the Departmental Regulation
+18           (DR) 4620-002, Common Identification Standard for U.S. Department of Agriculture.
+19
+20
+21   2. SCOPE
+22
+23      a.   This DM applies to all USDA Mission Areas, agencies, and staff offices including the
+24           employees (as defined in 5 U.S.C. § 2105, Employee) and other categories of persons
+25           such as affiliates, contractors, fellows, interns, vendors, and volunteers who have a
+26           relationship with USDA under a contract, grant, or other agreement within them. For the
+27           remainder of this DM the other categories of persons who have a relationship with
+28           USDA under a contract, grant, or other agreement will be referred to collectively as
+29           “non-Federal employees”.
+30
+31
+32   3. SPECIAL INSTRUCTIONS/CANCELLATIONS
+33
+34      a.   This manual supersedes DM 4620-002, Common Identification Standard for U.S.
+35           Department of Agriculture, dated December 09, 2021.
+36
+37      b.   No provision in this DR shall have the effect of nullifying or limiting protections for
+38           equal employment opportunity as provided in Title VII of the Civil Rights Act, Equal
+39           Employment Opportunities, 42 U.S.C. § 2000e, et seq., and Executive Order (E.O.)
+40           11478, Equal Employment Opportunity in the Federal Government and E.O. 13087.
+41           USDA prohibits discrimination in all its programs and activities on the basis of race,
+42           color, sex, national origin, religion, age, disability, genetic information, marital status,
+43           parental status, political affiliation, receipt of public assistance, pregnancy, childbirth, or
+44           related medical conditions, or any other non-merit based factor. Persons with
+45           disabilities who require alternative means for communication of program information
+46           (e.g., Braille, large print, audiotape) should contact USDA's TARGET [Technology and
+
+                                                         1
+ 1          Accessible Resources Give Employment Today] Center at (202) 720-2600 (voice and
+ 2          Telecommunications Device for the Deaf (TDD)). To file a complaint of discrimination,
+ 3          write to USDA, Assistant Secretary for Civil Rights, Office of Civil Rights, Center for
+ 4          Civil Rights Enforcement,1400 Independence Avenue, S.W., Mail Stop 9440,
+ 5          Washington, DC 20250-9410 or call 1-800-795-3272 (voice) or (202) 720-6382 (TDD).
+ 6          USDA is an equal opportunity provider and employer.
+ 7
+ 8   4. BACKGROUND
+ 9
+10     Prior to the inception of HSPD-12, federal agencies used a wide range of methods to
+11     credential and authenticate federal employees and contractors as a requirement to enter
+12     federally controlled facilities and information systems. HSPD-12 required a Governmentwide
+13     Standard for secure and reliable forms of identification (ID) issued to Federal employees and
+14     contractors.
+15
+16     This DM provides procedures to keep USDA in compliance with federal policy and
+17     standards regarding the credentialing of Federal and non-Federal employees. The primary
+18     policies and standards to support the procedures in this DM are:
+19
+20     a.   Homeland Security Presidential Directive 12 (HSPD)-12, Policy for a Common
+21          Identification Standard for Federal Employees and Contractors, which mandated the
+22          development and implementation of a mandatory, Governmentwide Standard for secure
+23          and reliable forms of identification (ID) issued to Federal employees and contractors.
+24          HSPD-12 compliant identification:
+25
+26          (1) Is issued based on sound criteria for verifying an individual employee's identity;
+27
+28          (2) Is strongly resistant to identity fraud, tampering, counterfeiting, and exploitation;
+29
+30          (3) Can be rapidly authenticated electronically; and
+31
+32          (4) Is issued only by providers whose reliability has been established by an official
+33              accreditation process.
+34
+35     b.   The National Institute of Standards and Technology (NIST) Federal Information
+36          Processing Standards Publication (FIPS PUB) 201-3, Personal Identity Verification
+37          (PIV) of Federal Employees and Contractors which:
+38
+39          (1) Defines a reliable, Governmentwide PIV system for use in applications such as
+40              access to federally controlled facilities or information systems;
+41
+42          (2) Specifies a PIV system within which common identification badges can be created
+43              and later used to verify a claimed identity; and
+44
+45          (3) Requires identity proofing and background investigations (BI) to verify identity.
+46
+
+                                                       2
+ 1     c.   Office of Management and Budget (OMB) implementation Memoranda M-05-24,
+ 2          Implementation of Homeland Security Presidential Directive (HSPD) 12 – Policy for a
+ 3          Common Identification Standard for Federal Employees and Contractors, and M-19-17,
+ 4          Enabling Mission Delivery through Improved Identity, Credential, and Access
+ 5          Management, which provide guidance for implementing the requirements in FIPS PUB
+ 6          201-3 and HSPD-12. The guidance clarifies timelines, applicability, and the
+ 7          requirements of PIV.
+ 8
+ 9     d.   Office of Personnel Management (OPM) Credentialing Standards Procedures for
+10          Issuing Personal Identity Verification Cards under HSPD-12 and New Requirement for
+11          Suspension or Revocation of Eligibility for PIV Credentials
+12
+13
+14   5. PRIVACY POLICY
+15
+16     HSPD-12 explicitly states that “protect[ing] personal privacy” is a requirement of the PIV
+17     system. As a USAccess customer, USDA’s PIV process and system is in accordance with
+18     the spirit and letter of all privacy controls specified in FIPS PUB 201-3, as well as those
+19     specified in Federal privacy laws and policies including but not limited to the E-Government
+20     Act of 2002, the Privacy Act of 1974, and OMB Memorandum M-03-22, OMB Guidance for
+21     Implementing the Privacy Provisions of the E-Government Act of 2002, as applicable.
+22
+23
+24   6. CREDENTIAL TYPE DETERMINATION
+25
+26     The credential determination flowchart in Figure 1 can be generally used to determine the
+27     appropriate credential type necessary to meet credentialing standards. When following the
+28     decision chart in Figure 1 there are three main decision points to consider:
+29
+30          1. Determine the type(s) of access needed by the applicant. Credentialing determinations
+31             consider whether the applicant will require unaccompanied physical access to USDA
+32             facilities and/or if they will be accessing USDA information systems.
+33
+34          2. Determine whether the applicant is a non-U.S. National, also commonly referred to as
+35             a Foreign National. Non-U.S. Nationals have different investigative standards applied
+36             to them and close coordination with Personnel Security is required to determine
+37             whether the applicant is eligible to meet those standards prior to sponsorship for a
+38             credential.
+39
+40                 a. The following policies must be applied when performing credentialing and
+41                    adjudicative determinations for non-U.S. Nationals:
+42                        i. OHRM/OCP/OHS Memo - Hiring Non-United States (U.S.) Citizens
+43                           as Federal Employees or Federal Contractors – November 15, 2023
+44                       ii. OHS Memo - Investigation Requirements for Foreign Nationals Not
+45                           Meeting U.S. Residency Requirements for a Tier 1 – January 24, 2023
+
+
+
+                                                     3
+ 1                     iii. OPM Memo – Credentialing Standards Procedures for Issuing
+ 2                          Personal Identity Verification Cards under HSPD-12 and New
+ 3                          Requirement for Suspension or Revocation of Eligibility for Personal
+ 4                          Identity Verification Credentials – December 15, 2020
+ 5                     iv. Secretary Memo 1078-014 – America First Memorandum for USDA
+ 6                          Arrangements and Research Security – July 8, 2025
+ 7
+ 8      3. Determine the applicant’s expected term of employment/contract/relationship with
+ 9         USDA. This will determine if the applicant is considered short-term. This will depend
+10         on whether the duration of the relationship is greater than or less than 6 months.
+
+11
+
+12                               Figure 1 - Credential Type Decision
+
+
+
+
+13
+
+14   Any logical access granted in association with the credentials listed in this section must meet
+15   the requirements of DR 3505-003.
+16
+17   The only HSPD-12 compliant credential at USDA is the PIV, commonly referred to as the
+18   LincPass as described in Table 1.
+19
+
+
+
+
+                                                    4
+1                              Table 1 – LincPass Matrix for U.S. Nationals
+
+     USDA
+                  Credential
+     Credential                    Standard Usage                          BI Level Required          Issuer
+                  Type
+     Name
+                                                                           Interim
+                  HSPD-12                                                  Determination: FBI
+                                   Long term (6 months or greater)
+                  Compliant                                                Fingerprint Check &
+                                   employees and non-Federal
+                  Personal                                                 Scheduled Tier 1
+     LincPass                      employees requiring routine access to                              USAccess
+                  Identity                                                 (minimum)
+                                   federal facilities or information
+                  Verification
+                                   systems.
+                  (PIV)                                                    Final Determination:
+                                                                           Tier 1 (minimum)
+2
+3
+4
+5                         Table 2 - LincPass Matrix for Non-U.S. Nationals
+
+     USDA
+                  Credential
+     Credential                    Standard Usage                          BI Level Required          Issuer
+                  Type
+     Name
+                                                                           Fully adjudicated Tier 1
+                                                                           (minimum) or
+                                                                           equivalent Background
+                                                                           Investigation and
+                                                                           Employment
+                                                                           Authorization
+                                                                           Verification based on
+                                                                           the investigative
+                                                                           standards identified in
+                  HSPD-12
+                                   Long term (6 months or greater)         DM 4620-002 Section
+                  Compliant
+                                   employees and non-Federal               6(2)a
+                  Personal
+     LincPass                      employees requiring routine access to                              USAccess
+                  Identity
+                                   federal facilities or information       NOTE: Issuance under
+                  Verification
+                                   systems.                                Interim Determination
+                  (PIV)
+                                                                           is generally not
+                                                                           permitted for non-U.S.
+                                                                           Nationals except for
+                                                                           exempted categories of
+                                                                           FNs considered US
+                                                                           Persons in US
+                                                                           locations that meet the
+                                                                           residency standards
+                                                                           for a BI.
+6
+7   Alternative credentials listed in Table 2 may be issued in accordance with DR 4620-002 for
+8   circumstances where the requirements of HSPD-12 cannot be met.
+9
+
+
+
+
+                                                         5
+1                   Table 3 - Alternative Credential Matrix for U.S. Nationals
+
+    USDA
+    Credential   Credential Type    Standard Usage                BI Level Required              Issuer
+    Name
+                                    Short-term (less than 6
+                                    months) employees and
+                 PIV                                              FBI Fingerprint Check
+                                    non-Federal employees
+    AltLinc      Interoperable                                    (minimum)                      USAccess
+                                    requiring routine access to
+                 (PIV-I)
+                                    federal facilities or
+                                    information systems.
+                                    1. New
+                                    employees/contractors
+                                    awaiting the issuance of a                                   Mission
+                 Proximity/CIV      PIV requiring unescorted      FBI Fingerprint Check          Area,
+    Site Badge
+                 Card               physical access.              (minimum)                      agency,
+                                    2. Unescorted physical                                       staff office
+                                    access for short-term
+                                    intermittent access.
+                                    Escorted access for
+                                    visitors to a facility. Not
+    Visitor      PVC/Proximity/     intended for
+                                                                  None                           Local Site
+    Badge        CIV Card/Sticker   regular/routine access for
+                                    federal and non-federal
+                                    employees.
+    ID Badge     Non-PIV Agency     As defined in DR 4620-        Agency Specified               Mission
+                 Managed            002 – Section 3C - Law                                       Area,
+                 Credentials        Enforcement, Food                                            agency,
+                                    Inspection, Animal Care,                                     staff office
+                                    Protective Detail, etc…
+                                    Not applicable for
+                                    physical or logical access.
+    MobileLinc   PIV Derived        Logical access only.          Interim: FBI Fingerprint       OCIO
+                 (PIV-D)            Requires PIV for              Check & Scheduled Tier 1
+                                    issuance. A digital           (minimum)
+                                    credential stored             Final: Minimum Tier 1
+                                    electronically on mobile
+                                    device.
+    Alt MFA      Alternate Multi-   Logical access only.          Refer to BI requirements for   OCIO
+                 Factor             Usage for alternate           Active Directory accounts in
+                 Authentication     authentication when PIV       DR 3505-003
+                 Credentials        is unavailable.
+                 (Yubikey/
+                 Windows Hello
+                 for Business)
+2
+3
+
+
+
+
+                                                      6
+1                    Table 3 - Alternative Credential Matrix for Non-U.S. Nationals
+
+        USDA
+                     Credential
+        Credential                    Standard Usage                    BI Level Required             Issuer
+                     Type
+        Name
+                                      1. Facility access card for Non-
+                                                                        1. Investigative standards
+                                         U.S. Nationals unable to meet
+                                                                           identified in DM 4620-
+                                         investigative standards for
+                                                                           002 Section 6(2)a
+                                         PIV Tier 1 BI residing in U.S.
+                                                                        2. Investigative standards
+                                         based locations or U.S.
+                                                                           identified in DM 4620-
+                                         Territories until the 3-year
+                     PIV                                                   002 Section 6(2)a and
+                                         time in U.S. or U.S. Territory
+        AltLinc      Interoperable                                         approval by the Director   USAccess
+                                         can be met and a BI can be
+                     (PIV-I)                                               of the USDA Office of
+                                         completed.
+                                                                           Homeland Security and
+                                      2. Facility access card for non-
+                                                                           Under Secretary or
+                                         U.S. Nationals in foreign
+                                                                           responsible Mission
+                                         locations unable to meet
+                                                                           Area, Agency, or Staff
+                                         investigative standards for
+                                                                           Office head.
+                                         Tier 1 BI
+                                                                        Fully adjudicated Tier 1
+                                                                        (minimum) or equivalent
+                                                                                                      Mission
+                                      Fully vetted new                  Background Investigation
+                                                                                                      Area,
+                     Proximity/CIV    employees/contractors awaiting and Employment
+        Site Badge                                                                                    agency,
+                     Card             the issuance of a PIV requiring   Authorization Verification
+                                                                                                      staff
+                                      unescorted physical access.       based on the investigative
+                                                                                                      office
+                                                                        standards identified in DM
+                                                                        4620-002 Section 6(2)a
+                                      Escorted access for visitors to a
+                     PVC/Proximity/   facility. Not intended for        Coordination through the
+        Visitor
+                     CIV              regular/routine access for        OHS Foreign National          Local Site
+        Badge
+                     Card/Sticker     federal and non-federal           Visitor program
+                                      employees.
+ 2
+ 3   7. ROLES AND RESPONSIBILITIES
+ 4
+ 5     a.   The role holder actions defined in this section are to be completed in the following
+ 6          authoritative systems for USDA.
+ 7
+ 8          (1) Authoritative HR System – EmpowHR. Employment status changes made in the
+ 9              authoritative HR System are automatically fed into the Authoritative PIV Issuance
+10              System, Enterprise Physical Access Control System, and other IT systems for the
+11              automatic disabling of credentials, physical and logical access during suspension
+12              and termination actions. Processing for Federal and non-Federal employees must
+13              be completed in the following modules:
+14
+15                (a) PAR Processing – for Federal employee personnel
+16
+17                (b) Non-Employee Processing (commonly referred to as Person Model) – for
+18                    non-Federal employee personnel and pre-hire selectees for federal employment
+19
+20
+
+                                                          7
+ 1        (2) Authoritative PIV Issuance System – USAccess. GSA’s shared service system for
+ 2            the issuance of the PIV and PIV-I card utilized by USDA.
+ 3
+ 4   b.   Mission Areas, Agencies, and Staff Offices
+ 5
+ 6        The HSPD-12 program is governed by the USDA HSPD-12 Program Management
+ 7        Office (PMO). The PMO partners with Mission Area, agency, and staff offices in
+ 8        implementing HSPD-12 throughout USDA. HSPD-12 implementation is coordinated
+ 9        through a partnership between the PMO and the designated Mission Area, agency, or
+10        staff office Lead and Alternate.
+11
+12        The PIV process contains critical roles associated with the identity proofing,
+13        registration, and issuance process. These roles may be collateral duties assigned to
+14        personnel who have other primary duties. The PIV identity proofing, registration and
+15        issuance process must adhere to the principle of separation of duties to ensure that no
+16        single individual has the capability to issue a PIV credential without the cooperation of
+17        another authorized person.
+18
+19        The following roles must be employed for identity proofing, registration, and issuance.
+20
+21   c.   Applicant
+22
+23        The Applicant is an individual who requires a credential as a condition of employment
+24        with a Mission Area, agency, or staff office that will be entered into the authoritative
+25        PIV issuance system. Applicants will:
+26
+27        (1) Provide HR User and Sponsor with any necessary information;
+28
+29        (2) Provide Personnel Security with necessary information required to initiate or
+30            validate investigative checks;
+31
+32        (3) Submit fingerprints for a background check;
+33
+34        (4) Schedule an enrollment appointment at a USAccess credentialing station;
+35
+36        (5) Appear for the enrollment appointment at the time and place scheduled;
+37
+38        (6) Provide the Registrar with two U.S. Citizenship and Immigration Services (USCIS)
+39            Form I-9 listed identity documents;
+40
+41        (7) Submit to a digital photo taken by the Registrar;
+42
+43        (8) Submit ten digital fingerprints (rolls and slaps). If the capture of 10 fingerprints is
+44            not feasible due to missing or damaged fingers, this will be annotated in the system;
+45
+46        (9) Digitally sign the enrollment package;
+
+                                                    8
+ 1
+ 2        (10) Activate the credential via biometric verification and Personal Identification
+ 3             Number (PIN) creation;
+ 4
+ 5        (11) Ensure the credential is registered for logical and physical access;
+ 6
+ 7        (12) Ensure that the Sponsor or Agency Security Officer is notified if the card is lost or
+ 8             stolen immediately;
+ 9
+10        (13) Store credentials in a badge holder and fastened to either an item of clothing or
+11             lanyard;
+12
+13        (14) Wear credentials above the waist in such a manner that the ID photograph is clearly
+14             visible from the front at all times;
+15
+16        (15) Wear an armband holder or place the credential in a pocket, if it is permissible, if
+17             the applicant works in a hazardous environment where it would be unsafe to wear
+18             the credential in the manner outlined; and
+19
+20        (16) Properly wear and display the credential once the person leaves the hazardous work
+21             area (e.g., if the credential had been placed in the pocket, it must be properly worn
+22             and displayed again). Mission Area, agency, or staff offices must define the work
+23             areas in which it would be unsafe to wear the credential as outlined in this section.
+24
+25        (17) Return expired or terminated credentials to the Security Officer, local badging
+26             office, or mail to the address printed on the back of the PIV card.
+27
+28        (18) Never share their credential with another person
+29
+30        (19) Never use their credential to provide physical or logical access to someone other
+31             than themselves
+32
+33        (20) Never leave credential unattended in a workstation or in an unsecured location not
+34             on the person when not in use
+35
+36   d.   HR User
+37
+38        The HR User is responsible for creating and modifying an Applicant’s information in
+39        the authoritative HR system(s). Often the HR User and the Sponsor roles are held by the
+40        same person, but it is not required.
+41
+42   e.   Sponsor
+43
+44        The Sponsor is the Mission Area, agency, or staff office official who has undergone
+45        Sponsor training and is designated to perform Sponsor functions. The Sponsor is
+46        responsible for authorizing an individual to apply for a credential. In the case of non-
+47        Federal employees, the Sponsor should be the Contracting Officer’s Representative
+                                                     9
+ 1   (COR) or other designated program official as specified in the USDA Contracting Desk
+ 2   Book. To leverage existing roles in the LincPass process, MobileLinc responsibilities
+ 3   have been added to the Sponsor role.
+ 4
+ 5   Sponsors will:
+ 6
+ 7   (1) Validate that the Applicant’s information has been entered into the authoritative HR
+ 8       system;
+ 9
+10   (2) Ensure that applicant records for non-federal employees are linked to a specific
+11       contract number or unique agreement ID in the authoritative HR system. Creating a
+12       singular record as a catch all for multiple contracts/grants/agreements is prohibited.
+13
+14   (3) Ensure that the contracts, grants and agreements in the authoritative HR system are
+15       created with valid Period of Performance dates specified in the linked document;
+16
+17   (4) Ensure that contracts entered in the authoritative HR system are linked to a specific
+18       company/organization or sufficient detail is provided in the contract description or
+19       notes field;
+20
+21   (5) Determine the appropriate credential type by utilizing the information in Section 6 –
+22       Credential Type Determination;
+23
+24       (a) Coordinate with agency Personnel Security to determine highest achievable
+25           investigative standards, investigation completion status, and other required
+26           compliance steps as required in DM 4620-002 Section 6(2)a prior to entering
+27           Sponsorship for non-U.S. nationals;
+28
+29   (6) Modify the Applicant’s identity record in the authoritative database based on
+30       updates to user status and relevant information;
+31
+32   (7) Update and maintain the Applicant’s Sponsorship in the authoritative HR system;
+33
+34   (8) Maintain current employment status:
+35
+36       (a) Termination: As needed, set employment status to Terminated in the Human
+37           Resources (HR) record in the authoritative HR system; and
+38
+39       (b) Suspended: As needed, set the employment status to Suspended in the HR
+40           record in the authoritative HR system.
+41
+42       To ensure timely provisioning and de-provisioning of accounts (e.g., desktops,
+43       eAuthentication, building access, National Finance Center (NFC) applications,
+44       MobileLinc credential management accounts), Mission Area, agency, or staff
+45       offices must record hiring and termination events in the authoritative HR database
+46       as soon as possible.
+
+                                              10
+ 1
+ 2       Federal employee employment status changes and account de-provisioning not
+ 3       related to an imminent risk shall follow normal OHRM processes and timeframes
+ 4       for HR system update.
+ 5
+ 6       Non-Federal employee employment status changes and the de-provisioning of
+ 7       accounts not related to an imminent risk must be completed within 24 hours of
+ 8       separation. The Sponsor must notify personnel security of non-Federal employee
+ 9       termination so the date of separation can be recorded in webSETS.
+10
+11   (9) Trigger the following card actions as needed in the authoritative HR and PIV
+12       issuance systems:
+13
+14       (a) Suspense: Monitor card status and change to “Suspend”. If suspense is based
+15           on employment status, ensure the card status change is reflected in both the
+16           authoritative HR and PIV issuance systems. If suspense is a result of
+17           disciplinary action, manually update the card status to “Suspend” in the
+18           authoritative PIV issuance system first and notify the Agency Security Officer,
+19           subsequently making the update in the authoritative HR system. If possible,
+20           recover the suspended credentials and send to the Security Officer for secure
+21           storage pending resolution of issue(s).
+22
+23       (b) Termination: Monitor card status change to “Terminated”. If termination is
+24           based on employment status, ensure the card status change is reflected in the
+25           authoritative HR and PIV issuance systems after 30 days. All employment
+26           terminations in the authoritative HR system will begin as a temporary Suspend
+27           status to the USDA credential and PIV issuance employment status for 30 days
+28           prior to final terminated status taking affect from the employment Termination
+29           in the authoritative HR system. At the end of the 30-day suspension period, the
+30           card will automatically switch from suspended to terminated unless a system or
+31           manual action is taken to change the status to Active.
+32
+33       (c) If card Suspense/Termination is due to notification of imminent risk,
+34           immediately make the change directly in the authoritative PIV issuance system
+35           and notify the Agency Security Officer and HSPD-12 Adjudicator,
+36           subsequently making the change in the authoritative HR system.
+37
+38       (d) Re-enrollment: Initiate re-enrollments for current or previous cardholders in
+39           the event of a change in the Applicant’s identity information or an expired
+40           enrollment.
+41
+42       (e) Certificate Rekey: Ensure the HR record is accurate and trigger a card update
+43           or certificate rekey as appropriate due to data update. Note that normal 3-year
+44           certificate expirations will automatically be triggered by the USAccess system.
+45
+
+
+
+                                             11
+ 1            (f) Renewal: Ensure cards are renewed every 5 years per FIPS PUB 201-3 by
+ 2                initiating a renewal or reprint.
+ 3
+ 4            (g) Reissue: Enrollments expire after 12 years, and a re-enrollment is required
+ 5                prior to the issuance of a new PIV card. Initiate a Reissue request to start the
+ 6                re-enrollment and card issuance process.
+ 7
+ 8            (h) Reprint: Ensure cards are reprinted as needed due to damage or loss.
+ 9
+10   f.   PIV Registrar
+11
+12        The Registrar is an individual responsible for identity proofing the Applicant, as well as
+13        capturing biographic information, digital photo, and biometrics. Registrars will:
+14
+15        (1) Manage the schedule for enrollment workstations through the utilization of the
+16            online scheduling tool or by providing a direct phone number or email for
+17            applicants to make appointments; this includes cancelling appointments in a timely
+18            manner and providing direct reach out to applicants if same day cancellation is
+19            required.
+20
+21        (2) Answer any privacy or system related questions that an Applicant may have or refer
+22            them to the USDA HSPD-12 Helpdesk;
+23
+24        (3) Locate and open the Applicant’s information and verify the information with the
+25            Applicant;
+26
+27        (4) Refer the applicant to their Sponsor if applicant’s record cannot be found in the
+28            system to investigate and resolve the problem;
+29
+30        (5) Verify and scan the Applicant’s two identity source (I-9) documents;
+31
+32        (6) Verify and enter biometric information;
+33
+34        (7) Capture the Applicant’s facial image in the system via a digital photograph;
+35
+36        (8) Capture 10 digital fingerprints (rolls and slaps) into the system. If capture of 10
+37            fingerprints is not feasible due to missing or damaged fingers, annotate the record in
+38            the system;
+39
+40        (9) Verify the fingerprints images for quality issues and re-scan if needed in order to
+41            achieve the highest possible quality fingerprint capture.
+42
+43        (10) Flag any documentation issues for Agency Security Officer review during
+44             enrollment; and
+45
+46        (11) Digitally sign and save the enrollment package.
+
+                                                   12
+ 1
+ 2        (12) Respond to USDA HSPD-12 PMO and USAccess inquiries in a timely manner.
+ 3
+ 4        (13) Perform credential reroutes to other credentialing stations upon request of the
+ 5             USDA HSPD-12 PMO and USAccess.
+ 6
+ 7   g.   HSPD-12 Adjudicator
+ 8
+ 9        The HSPD-12 Adjudicator is a Federal employee of the sponsoring Mission Area,
+10        agency, and staff office who records the results of the Federal Bureau of Investigation
+11        (FBI) National Criminal History Check (FBI fingerprint check) and/or the requisite BI
+12        (T1 or higher) into the authoritative HR system. The HSPD-12 Adjudicator role
+13        referenced here is not to be confused with the suitability/fitness Adjudicator role as
+14        defined by OHS-PDSD. While both roles can be held by the same person, it is not
+15        required.
+16
+17        Final PIV adjudication is aligned with the OHS-PDSD personnel vetting
+18        (suitability/fitness) processes. Results of personnel vetting (suitability/fitness) process
+19        as determined by OHS-PDSD will be utilized as the final determination for PIV
+20        adjudication results. These results will be recorded in the web-based Security Entry
+21        Tracking System (webSETS), the system of record for background investigation
+22        determinations at USDA, or its successor.
+23
+24        HSPD-12 Adjudicators will:
+25
+26        (1) Enter fingerprint check results in the authoritative HR system. Entry of fingerprint
+27            check results separately from BI results will expedite printing of the LincPass and is
+28            highly recommended for U.S. Nationals. This will result in an interim PIV issuance,
+29            pending completion of the BI. If the results are favorable, and all other issuance
+30            rules are met this will allow the LincPass to print prior to the completion of the BI.
+31            If the results are unfavorable, this will terminate the card issuance process.
+32
+33            The interim determination process is generally not permitted for non-U.S. Nationals
+34            except for exempted categories of FNs considered US Persons in US locations that
+35            meet the residency standards for a BI.
+36
+37            To issue an interim PIV issuance the following steps must be complete:
+38
+39            (a) Presentation by the appointee or employee of two identity source documents, at
+40                least one of which is a Federal or State government-issued picture
+41                identification.
+42
+43            (b) Favorable review of the intended PIV recipient’s completed investigative
+44                questionnaire;
+45
+
+
+
+                                                     13
+ 1            (c) Initiation of the intended PIV recipient’s required BI (T1 or higher) request,
+ 2                meaning the request has been submitted to the Federal background
+ 3                investigation service provider (ISP), and the ISP has scheduled the
+ 4                investigation; and
+ 5
+ 6            (d) Favorable review of the results of the intended PIV recipient’s Federal Bureau
+ 7                of Investigation (FBI) National Criminal History Check (FBI fingerprint
+ 8                check) portion of the required BI.
+ 9
+10        (2) Confirm and enter the BI results in the authoritative HR system: entry of BI results
+11            will finalize the eligibility process for the Applicant. If the results are favorable,
+12            this will allow the Applicant to maintain their LincPass. If the results are
+13            unfavorable, this will terminate the card.
+14
+15        (3) Respond to inquiries on adjudication status from Applicants; and
+16
+17        (4) Report any changes in PIV eligibility to the applicant Sponsor and Agency Security
+18            Officer and update authoritative systems as necessary.
+19
+20   h.   Print Operator
+21
+22        The Print Operator is the individual responsible for processing credential production at a
+23        designated USDA Local Printing station. The Print operator verifies that the Applicant is
+24        the person to whom the credentials are to be printed. Print Operators will:
+25
+26        (1) Receive blank cardstock credentials from the HSPD-12 PMO and sign for packages
+27            (dependent on shipping model).
+28
+29        (2) Secure blank cardstock in a locked safe or lockable filing cabinet and monitor all
+30            credentials that are deposited or removed from the safe.
+31
+32        (3) Verify that the Card Serial Number and other Applicant information entered in the
+33            system and the information on the printed credential agrees.
+34
+35        (4) Hand the newly printed credential to the Activator for activation.
+36
+37        (5) If print errors occur, flag the credential in the system and note problems with card
+38            printing.
+39
+40        (6) Collect the misprinted credentials and keep a log.
+41
+42        (7) If applicable, destroy misprinted credentials or ship them to the Agency Security
+43            Officer as appropriate; and
+44
+45        (8) When requested, securely send credentials to another Activation Station.
+46
+
+                                                    14
+ 1   i.   Activator
+ 2
+ 3        The Activator is the individual responsible for processing credential activations. The
+ 4        Activator verifies that the Applicant is the person to whom the credentials are to be
+ 5        issued and guides the Applicant through the activation process.
+ 6
+ 7        Some activation stations use an unattended mode for activation, meaning that Applicants
+ 8        will use the system without assistance to activate their credentials. If there is an issue
+ 9        causing the unattended activation to fail, the Activator will assist the Applicant in
+10        completing the activation, or collect the credential, note the issue in the system, and flag
+11        the record for issue resolution.
+12
+13        The Activator can also assist in card maintenance activities such as certificate updates
+14        and PIN resets.
+15
+16        Activators will:
+17
+18        (1) Receive credentials from the authoritative PIV issuance systems centralized printing
+19            facility or another station and sign for packages (dependent on shipping model).
+20
+21        (2) Check credentials in using the Credential Inventory Tool (CIT) and send out
+22            electronic notifications to the Applicants either directly or through the CIT.
+23
+24        (3) Secure credentials in a locked safe or lockable filing cabinet and monitor all
+25            credentials that are deposited or removed from the safe.
+26
+27        (4) Hand the credential to the individual after document and visual verification.
+28
+29        (5) Verify that the Applicant information entered in the system and information
+30            displayed on the credential agrees.
+31
+32        (6) Flag the credential in the system and note problems with activation.
+33
+34        (7) Collect the credential if activation fails. In the event a card becomes damaged or
+35            defective, the Activator will utilize the CIT to queue the card for systematic
+36            destruction. The Activator will then physically destroy the card per guidance from
+37            the LincPass/AltLinc card destruction guide.
+38
+39        (8) In the event a card becomes damaged or defective, and the activator does not have
+40            the means to destroy the card, it can be returned via shipment through a shipping
+41            company (such as UPS/FedEx) or USPS with tracking and signature confirmation
+42            in a sealed non-transparent packaging to the USDA South Building – OSSP Facility
+43            Protection Division (FPD), 1400 Independence Ave SW, Rm 1408, Washington,
+44            DC 20250.
+45
+
+
+
+                                                    15
+ 1        (9) When requested, send credentials via shipment through a shipping company (such
+ 2            as UPS/FedEx) or USPS with tracking and signature confirmation in a sealed non-
+ 3            transparent packaging to another Activation Station.
+ 4
+ 5   j.   Agency Requestor
+ 6
+ 7        The Agency Requestor role is reserved for the HSPD-12 PMO and is responsible for the
+ 8        submission of change requests to the GSA USAccess Assured Identity Request Manager
+ 9        (ARM) tool.
+10
+11   k.   Agency Request Viewer
+12
+13        The Agency Request Viewer is reserved for the HSPD-12 PMO and has view only rights
+14        into the ARM tool.
+15
+16   l.   Credential Inventory Tool (CIT) Operator
+17
+18        The CIT Operator is responsible for the inventory and management of the physical
+19        credentials onsite at a credentialing station. The CIT operator will:
+20
+21        (1) Check in credentials within 1 business day of receipt.
+22
+23        (2) Send credential check-in emails to the applicant notifying them that the card is
+24            ready for activation.
+25
+26        (3) Ensure that site-specific instructions are accurate in the automated email template
+27
+28        (4) Mark credentials as terminated when processing for destruction
+29
+30   m. Finance POC
+31
+32        Role reserved for the HSPD-12 PMO with access to GSA USAccess invoice files. The
+33        Finance PO will review and reconcile the invoices and provide to the USDA OCFO for
+34        action.
+35
+36   n.   Report Viewer
+37
+38        The report viewer role can access the GSA USAccess reports portal. This role is
+39        read/view only and does not have the ability to make changes to USAccess data. The
+40
+41        The Report Viewer will:
+42
+43        (1) Follow proper handling procedures for reports that include Personal Identifying
+44            Information (PII).
+45
+
+
+
+                                                   16
+ 1        (2) Acknowledge that the reports are For Official Use Only (FOUO) and shall not be
+ 2            disclosed outside any agency who is affiliated with the GSA Managed Service
+ 3            without written assurance from the agency Privacy Officer or responsible office that
+ 4            the provisions of FOIA under Exemptions 2 of the Act 5 U.S.C. para 552(b)(2)
+ 5            (2000) have been observed.
+ 6
+ 7   o.   Agency Role Administrator
+ 8
+ 9        The Role Administrator is the individual responsible for managing the Mission Area,
+10        agency, and staff office Sponsors, HSPD-12 Adjudicators, Registrars, Security Officers
+11        and Activators. USDA has one Role Administrator who oversees all individual Mission
+12        Area, agency, and staff office Role Administrators. The Role Administrator will verify
+13        that the appropriate separation of duty policy is followed and will verify that all the
+14        training certification requirements have been met. Role Administrators will:
+15
+16        (1) Ensure separation of HSPD-12 duties.
+17
+18        (2) Ensure that role holders are adequately trained for their assigned role.
+19
+20        (3) Submit access requests to authoritative HR system for appropriate roles.
+21
+22        (4) Approve role holder portal privileges in the authoritative PIV issuance system for
+23            new role holders.
+24
+25        (5) Revoke role privileges and portal access for users in cases where the role will no
+26            longer be performed by the user or upon employment termination.
+27
+28        (6) Unlock accounts as needed if locked due to inactivity.
+29
+30   p.   Local Role Administrator
+
+31        The Local Role Administrator has the same responsibilities as the Role Administrator
+32        but with a limited scope of roles available to assign. The Local Role Administrator is a
+33        secondary agency role to the Role Administrator and will be able to assign and manage
+34        (including unlocking accounts) the following scoped roles:
+
+35        (1) Activator
+36
+37        (2) Adjudicator
+38
+39        (3) Credential Inventory Tool Operator
+40
+41        (4) Local Site Manager
+42
+43        (5) PIV Registrar
+44
+
+                                                   17
+ 1        (6) Print Operator
+ 2
+ 3        (7) Report Viewer
+ 4
+ 5        (8) Sponsor
+ 6
+ 7   q.   Agency Security Officer
+ 8
+ 9        The HSPD-12 Security Officer is the individual responsible for maintaining credential
+10        security and integrity of Applicant identity information. To leverage existing roles in the
+11        LincPass process, PIV-D credential responsibilities have been added to the Security
+12        Officer role. Security Officers will:
+13
+14        (1) When required, immediately change the status of a credential between active,
+15            suspended, or terminated due to security-related situations such as notification of
+16            imminent risk.
+17
+18            (a) If suspense or termination is a result of disciplinary action, or imminent
+19                danger, immediately manually update the card status in USAccess if the
+20                Sponsor has not done so.
+21
+22            (b) If possible, recover the credential immediately and store securely until
+23                destruction can occur.
+24
+25            (c) Notify the following groups of the imminent risk:
+26
+27                 1    HSPD-12 Sponsor and Adjudicator, if these POCs are not known please
+28                      contact the HSPD-12 Help Desk at USDAhspd12help@usda.gov;
+29
+30                 2    Security services at the impacted federal facility – in the case of the
+31                      National Capitol Region (NCR), contact OSSP at
+32                      securityservicehelp@usda.gov;
+33
+34                 3    Local law enforcement - 911 for emergency.
+35
+36                 4    Federal law enforcement through the fusion center (fusion center contact
+37                      information);
+38
+39                 5    OHS Insider Threat (insider@usda.gov), Counterintelligence
+40                      (CI@usda.gov), and Personnel Document Security Division
+41                      (CNSIS@usda.gov); and
+42
+43                 6    OHRM (humanresources@usda.gov) or applicable Mission Area, agency
+44                      and staff office Personnel Security staff if records are not held by OHRM;
+45
+46                 7    Workplace Violence Prevention Program Hotline (202-603-5366 ).
+
+                                                    18
+ 1
+ 2        (2) Report any potential security anomalies, suspicious behavior, concerns, or incidents
+ 3            regarding USDA employees or contractors to OHS PDSD at CNSIS@usda.gov and
+ 4            OHS Insider Threat Program at insider@usda.gov;
+ 5
+ 6        (3) Report any potential security anomalies, suspicious behavior, concerns, or incidents
+ 7            regarding foreign nationals to the OHS Counterintelligence Program at
+ 8            CI@usda.gov;
+ 9
+10        (4) Collect and destroy credentials. In the event a card becomes damaged or defective,
+11            destroy the card following the steps dictated in the USDA HSPD-12 LincPass
+12            Destruction Guide or return the card to USDA South Building – OSSP FPD, 1400
+13            Independence Ave SW, Rm 1408, Washington, DC 20250;
+14
+15        (5) In the event of duplicate records in the authoritative PIV issuance system, verify the
+16            Applicants’ identity information and purge erroneous records;
+17
+18        (6) When required, request that the Mission Area, agency, or staff office information
+19            technology (IT) support help desk personnel revoke the PIV-D credentials in the
+20            event of a lost or stolen device or a security incident; and
+21
+22        (7) Review and make determinations on any records flagged during the enrollment
+23            process for Security Officer review.
+24
+25   r.   Agency Site Manager
+26
+27        The Site Manager is responsible for managing credentialing center information and the
+28        schedule for USDA Credentialing stations. Site managers will:
+29
+30        (1) Manage site information, weekly site schedules, and site points of contact (POC)
+31            for all types of credentialing stations in the authoritative PIV issuance system’s site
+32            inventory tool;
+33
+34        (2) Validate the concurrence of ship-to location information between the authoritative
+35            HR system and the authoritative PIV issuance system, and correct conflicts as
+36            needed;
+37
+38        (3) Validate the concurrence of all types of credentialing stations between the
+39            authoritative PIV issuance system’s site inventory tool and the USDA Master
+40            Deployment Inventory; and
+41
+42        (4) Validate the concurrence of all types of credentialing stations between the
+43            authoritative PIV issuance system’s site inventory tool and center locator tool.
+44
+45   s.   Local Site Manager
+46
+
+                                                    19
+ 1          The Local Site Manager is similar to the Agency Site Manager role but has a limited
+ 2          scope of access to sites. The Local Site Manager is responsible for managing
+ 3          credentialing center information and the schedule for a specific subset of USDA
+ 4          Credentialing stations. Local Site managers will:
+ 5
+ 6          (1) Manage site information, weekly site schedules, and site points of contact (POC)
+ 7              for all types of credentialing stations in the authoritative PIV issuance system’s site
+ 8              inventory tool.
+ 9
+10
+11   8. CREDENTIALING SITE HOSTING RESPONSIBILITIES
+12
+13     a.   Unless the site has received a waiver from the HSPD-12 PMO, USDA credentialing
+14          sites must:
+15
+16          (1) Meet the USAccess site requirements as defined in the USAccess Program Ready
+17              Guide – available on request from the HSPD-12 Help Desk
+18
+19          (2) Register credentialing stations with an Agency or Local Site Manager
+20
+21          (3) Be listed in the GSA hosted Find A USAccess Center online tool
+22
+23          (4) Utilize the AI Scheduler online tool or post POC information on the fedidcard.gov
+24              Find A USAccess Center tool for appointment scheduling purposes
+25
+26          (5) Be listed as a Ship To location to receive direct shipments of PIV cards from
+27              USAccess central printing
+28
+29          (6) If designated as Shared Status, service all USAccess customer agency employees
+30              and contractors as schedule availability can accommodate.
+31
+32          (7) If designated as Dedicated Status, service all USDA employees and contractors,
+33              regardless of Mission Area, Agency, or Staff Office as schedule availability can
+34              accommodate.
+35
+36          (8) Respond to HSPD-12 PMO, USDA Helpdesk, and USAccess Helpdesk inquiries in
+37              a timely manner. Note that decisions to fulfill accommodation requests for non-
+38              USDA applicants at Dedicated sites, or for any applicant type outside of regularly
+39              scheduled site operations is at the site POC and registrar/activator’s discretion.
+40
+41          (9) Perform card reroutes as needed. Note that the site is not expected to pay shipping
+42              costs for card reroute requests. Requesting agency must provide a shipping label
+43              with request.
+44
+45          (10) Maintain the latest version of the USAccess software on the credentialing units
+46
+
+                                                      20
+ 1          (11) Maintain USAccess accounts to avoid lockout actions by logging into a USAccess
+ 2               portal at a minimum every 90 days
+ 3
+ 4          (12) Report all changes in operational status and site points of contact to the USDA
+ 5               HSPD-12 Helpdesk
+ 6
+ 7          (13) Utilize the Credential Inventory Tool to check-in PIV cards delivered to the site in a
+ 8               timely manner (within 2 business days)
+ 9
+10          (14) Maintain an accurate appointment schedule and perform direct reach out to
+11               applicants and cardholders in the event of a cancellation
+12
+13          (15) Regularly check TRACKS to stay informed on system issues and outages as well as
+14               to access GSA produced job aids
+15
+16          (16) Maintain membership to the USDA HSPD-12 Teams Site to receive newsflash
+17               communications and resource guides
+18
+19          (17) Abide by GSA USAccess system and program policy and guidelines
+20
+21          (18) Abide by all Federal, Departmental, and Agency privacy policies and guidelines
+22               while dealing with Personally Identifiable Information (PII)
+23
+24
+25   9. ROLE HOLDER REQUIREMENTS
+26
+27     a.   All USAccess role holders shall meet the following minimum requirements:
+28
+29          (1) Have a legitimate need for the role
+30
+31          (2) Be designated by the Agency or Local Role Administrator
+32
+33          (3) Be a U.S. Citizen
+34
+35          (4) Have an active LincPass
+36
+37          (5) Complete any required role-based training
+38
+39          (6) Have a completed or scheduled Tier 2 Background Investigation for all roles except
+40              the Adjudicator, Activator, and Credential Inventory Tool Operator
+41
+42              (a) The Activator and Credential Inventory Tool Operator only require a Tier 1
+43                  Background Investigation.
+44
+45              (b) Per Part 1400 of Title 5 in the Code of Federal Regulations (CFR), Designation
+46                  of National Security Positions, “Exercising investigative or adjudicative duties
+
+                                                      21
+ 1                 related to national security, suitability, fitness or identity credentialing” the
+ 2                 HSPD-12 Adjudicator is designated as a national security position and should
+ 3                 receive a Background Investigation commensurate with the level required by
+ 4                 the Position Designation Tool but as a minimum require:
+ 5
+ 6                 1    Personnel adjudicating Tier 1 and Tier 2 cases, a minimum Tier 3
+ 7                      investigation is required.
+ 8
+ 9                 2    Personnel adjudicating Tier 3, Tier 4, or Tier 5 cases, a Tier 5
+10                      investigation is required.
+11
+12   b.   The HSPD-12 Sponsor and HSPD-12 Adjudicator roles require corresponding roles in
+13        the authoritative HR system. The provisioning and management of roles in the
+14        authoritative HR system is the responsibility of the role holder’s Mission Area, agency,
+15        or staff office.
+16
+17   c.   Some HSPD-12 issuance roles are inherently governmental functions and require the
+18        role holder to be a federal employee. Other HSPD-12 roles allow a contractor to perform
+19        the function. Please see Table 3 below for employment requirements by role. Waivers
+20        or exemption from this policy are only approved for:
+21
+22        (1) Members of the HSPD-12 PMO contract support staff and helpdesk where role
+23            access is required for troubleshooting or view only support purposes.
+24
+25        (2) Role holders on a case-by-case basis as formally approved by the Chief Security
+26            Director of the Office of Safety, Security, and Protection.
+27
+
+
+
+
+                                                   22
+1                          Table 4 – Role Holder Employment Type Matrix
+
+             Role                         Can the role be held by a non-federal employee?
+             Activator                                            Yes
+             Agency Requestor                                      No
+             Agency Request Viewer                                Yes
+             Agency Role
+                                                                   No
+             Administrator
+             Agency Site Manager                                   Yes
+             Adjudicator                                           No
+             Agency Security Officer                               No
+             Credential Inventory
+                                                                   Yes
+             Tool Operator
+             Finance POC                                           Yes
+             Local Role Administrator                              No
+             Local Site Manager                                    Yes
+             PIV Registrar                                         Yes
+             Print Operator                                        Yes
+             Report Viewer                                         Yes
+             Sponsor                                               No
+ 2
+ 3
+ 4   10. ROLE HOLDER TRAINING
+ 5
+ 6     Training for certain HSPD-12 roles held in the USAccess system is required. Training is
+ 7     provided through the following methods:
+ 8
+ 9         (1) GSA USA Learning Web Based Training
+10
+11         (2) USDA AgLearn Web Based Training
+12
+13         (3) Guides and Job Aids available through the USDA HSPD-12 Teams Site
+14
+15         (4) Instructor-led training (virtual or in person)
+16
+17     The type of training and means of completion will depend on the role type requested and is
+18     defined in Table 4.
+19
+20
+
+
+
+
+                                                     23
+1                                  Table 5 – Training Requirements
+
+       Role                         Title of Training Required               Training Location
+       Activator          1. Activator                                       GSA PIV Training
+                                                                             (usalearning.gov)
+       Adjudicator        1. HSPD-12 Adjudication Training                   USDA AgLearn
+       Agency             1. Security Officer                                GSA PIV Training
+       Security Officer                                                      (usalearning.gov)
+       Credential         1. Credential Inventory Tool Job Aid               USDA HSPD-12
+       Inventory Tool                                                        Teams Site
+       Operator
+       PIV Registrar      1. 2-day Registrar training (virtual or in      1. Contact HSPD-12
+                              person) provided by GSA                        Helpdesk to
+                          Or, if #1 is not available and the registrar       register
+                          need is urgent it is acceptable to accept the   2. GSA PIV Training
+                          GoLearn training (option #2) as sufficient         (usalearning.gov)
+                          training to assign the role.
+                          2. Registrar Training
+                              Note: GSA also hosts a monthly online
+                              refresher training. For more information
+                              visit the HSPD-12 Teams Site.
+       Print Operator     1. Local Print Operator Guide                      USDA HSPD-12
+                          2. Local Print Troubleshooting Guide               Teams Site
+       Report Viewer      1. USAccess Reports Guide                          USDA HSPD-12
+                          2. Applicant Status Report Guide                   Teams Site
+       Sponsor –          1. HSPD-12 Sponsorship of Federal                  USDA AgLearn
+       Servicing              Personnel Training
+       Federal            2. HSPD-12 Post Sponsorship Training
+       Personnel
+       Sponsor –          1. Sponsorship of Non-Federal Personnel            USDA AgLearn
+       Servicing Non-     2. HSPD-12 Post Sponsorship Training
+       Federal
+       Personnel
+       Role               3. HSPD-12 Role Administrator Guide                USDA AgLearn
+       Administrator         Training
+       Local Role         4. HSPD-12 Role Administrator Guide                USDA AgLearn
+       Administrator         Training
+2
+3
+4   11. PROCEDURES
+5
+6     a.   Reciprocity of Credentialing Determinations
+7
+8          Per the OPM Credentialing Standards, USDA must not re-investigate or re-adjudicate
+9          individuals visiting or temporarily or permanently transferring from another Department
+
+
+                                                    24
+ 1        or Agency provided a final favorable PIV eligibility determination exists based on an
+ 2        investigation that is at an appropriate tier for the new position.
+ 3
+ 4   b.   PIV Issuance Guidelines
+ 5
+ 6        (1) PIV Applicability
+ 7
+ 8            (a) PIV requires the implementation of registration, identity proofing, and issuance
+ 9                procedures in line with the requirements of FIPS PUB 201-3.
+10
+11                 All individuals must follow the procedures outlined to apply for and receive
+12                 their credentials. USDA uses the USAccess program, a certified NIST Special
+13                 Publication (SP) 800-79-2, Guidelines for the Authorization of Personal
+14                 Identity Verification Card Issuers (PCI) and Derived PIV Credential Issuers
+15                 (DPCI), PIV Card Issuing Organization, for PIV issuance.
+16
+17            (b) A Social Security Number (SSN) is required for entry of applicant records into
+18                the authoritative HR systems. SSNs for non-citizens can be obtained through
+19                the Social Security Administration process outlined in Publication No. 05-
+20                10096. In the event the applicant is a foreign national locally employed by
+21                USDA and cannot obtain a SSN a Foreign ID must be obtained through the
+22                Department of State.
+23
+24        (2) Credentialing Standards
+25
+26            In accordance with OPM guidelines, a PIV credential will not be issued to an
+27            individual if any of the following applies:
+28
+29            (a) The individual is known to be or reasonably suspected of being a terrorist;
+30
+31            (b) The employer is unable to verify the individual’s claimed identity;
+32
+33            (c) The employer has a reasonable basis to believe the individual has submitted
+34                fraudulent information concerning his or her identity;
+35
+36            (d) The employer has a reasonable basis to believe the individual will attempt to
+37                gain unauthorized access to classified documents, information protected by the
+38                Privacy Act, information that is proprietary in nature, or other sensitive or
+39                protected information;
+40
+41            (e) The employer has a reasonable basis to believe the individual will use an
+42                identity credential outside the workplace or inappropriately; or
+43
+44            (f) The employer has a reasonable basis to believe the individual will use federally
+45                controlled information systems unlawfully, make unauthorized modifications
+
+
+
+                                                  25
+ 1           to such systems, corrupt or destroy such systems, or engage in inappropriate
+ 2           uses of such systems.
+ 3
+ 4   (3) Revocation and Suspense of PIV Eligibility
+ 5
+ 6       (a) Mission Area, agency, and staff offices must develop procedures which adhere
+ 7           to standards defined by OHS-PDSD to notify the cardholder’s HSPD-12 role
+ 8           holders (Sponsor, HSPD-12 Adjudicator, and Agency Security Officer) in the
+ 9           event of any incident or adverse credible information that would impact PIV
+10           eligibility.
+11
+12       (b) HSPD-12 role holders must follow the steps defined in the role holder’s
+13           responsibilities section of this document to ensure timely
+14           suspension/revocation of the PIV card due to the result of a change in
+15           eligibility.
+16
+17       (c) Making the required status and eligibility changes in the authoritative USDA
+18           systems, will automatically remove logical access to IT systems as well as
+19           physical access to Enterprise Physical Access Control Systems.
+20
+21       (d) USDA Mission Area, agency or staff offices may perform Barring Actions at
+22           their respective locations outside the National Capitol Region. These actions
+23           will be done in accordance with USDA Mission Area, agency or staff office
+24           policies and will be reported to OSSP.
+25
+26   (4) Background Investigation Requirements
+27
+28       BI standards and requirements are developed by OPM Suitability Executive Agent
+29       (SuitEA)with compliance oversight performed by OHS.
+30
+31   (5) Expiration Date Requirements
+32
+33       (a) LincPass Expiration Date
+34
+35           All PIV credentials issued to the USDA must have a printed expiration date.
+36           The printed expiration date on the LincPass is by default set for 5 years from
+37           the date the card was issued unless the appointment or hiring term is for a
+38           period less than 5 years. In this case the expiration date can be set for the end
+39           of the identified term. Certificates embedded on the card enabling digital
+40           signatures are only valid for 3 years. PIV credentials for non-Federal
+41           employees must be terminated at the end of the contract, grant, or agreement
+42           period of performance.
+43
+44       (b) AltLinc Expiration Date
+45
+
+
+
+                                             26
+ 1           The AltLinc is a short-term credential and has a maximum expiration date of 6
+ 2           months from the credential issuance.
+ 3
+ 4   (6) Contracting Impacts
+ 5
+ 6           All non-Federal employees must abide by the identity proofing and registration
+ 7           requirements outlined in this DM. USDA contract statements of work must
+ 8           indicate that all contractors requiring routine access to federally controlled
+ 9           facilities or information systems go through the identity proofing and
+10           registration process and have a successfully adjudicated background
+11           investigation commensurate with the duties of the position and requirements of
+12           the contract to serve on the contract.
+13
+14       (a) While there is no official USDA procurement policy requiring PIV language to
+15           be included in grants or agreements, in keeping with the policies and
+16           procedures for contracting, the process outlined in this manual must be
+17           followed for other non-contractor, non-Federal employees (e.g., affiliates,
+18           fellows, interns, or volunteers).
+19
+20       (b) Contractor LincPasses for U.S. nationals can be issued under an interim
+21           determination after a favorably adjudicated fingerprint check has been received
+22           by Mission Area, agency, and staff office Personnel Security Officer, and upon
+23           a scheduled background investigation commensurate with the duties of the
+24           position and requirements of the contract. The interim determination process is
+25           generally not permitted for non-U.S. Nationals except for exempted categories
+26           of FNs considered US Persons in US locations that meet the residency
+27           standards for a BI.
+28
+29       (c) Certain PIV language must be implemented in all contracts. This language is
+30           found in Federal Acquisition Regulation (FAR) 48 CFR Subpart 4.13,
+31           Personal Identity Verification of Contractor Personnel. HSPD-12 clauses
+32           include FAR 48 CFR Clause 52.204-9, Personal Identity Verification of
+33           Contractor Personnel. Agriculture Acquisition Regulation (AGAR) 404.13,
+34           Personal Identity Verification, AGAR clause 452.204-70, Personal Identity
+35           Verification of Contractor Employees, and the USDA Contracting Desk Book
+36           404.13, Personal Identity Verification, contain additional procurement
+37           guidance.
+38
+39       (d) The language provided in FAR Subpart 4.13, AGAR 404.13, and the USDA
+40           Contracting Desk Book 404.13 may be modified for use in any non-contract
+41           grants or agreements.
+42
+43   (7) Audit and Records Management
+44
+
+
+
+
+                                            27
+ 1            (a) The Office of the Inspector General (OIG) has responsibility for auditing
+ 2                identity proofing and registration records. As such, all Mission Area, agency,
+ 3                or staff offices should be prepared for such reviews.
+ 4
+ 5            (b) Mission Area, agency, or staff offices must comply with DR 3080-001,
+ 6                Records Management, for the creation, maintenance, use, and disposition of all
+ 7                records associated with the PIV process.
+ 8
+ 9        (8) Timely Issuance and Continuity of Credentials
+10
+11            To ensure timely issuance of credentials for newly onboarded employees, the
+12            Mission Areas, agency, and staff office personnel should:
+13
+14            (a) Enter the Personnel Action Request (PAR) for new hires (Nature of Actions
+15                100s) or non-federal employee identity (for Contractors), in EmpowHR, at
+16                least one full pay period prior to Entrance on Duty (EOD) date.
+17
+18            (b) Complete sponsorship for a specific credential type and set a valid ship to
+19                location a minimum of 1 business day prior to EOD.
+20
+21            (c) Request logical access account creation and complete provisioning prior to
+22                EOD.
+23
+24            (d) Routinely review USAccess issuance statuses of pre-hire selectees and clear all
+25                failed issuance rules that will prevent credential issuance on EOD.
+26
+27            To ensure continuity of credentials for employees transferring within the USDA,
+28            the Mission Areas, agencies, and staff offices should not terminate and collect
+29            credentials if there will not be a break in service. Nothing printed physically on the
+30            credential or contained in the digital certificates needs to be updated for an
+31            intradepartmental transfer and the credential can continue to be utilized. A new
+32            credential must be issued if the cardholder is changing employment types, such as
+33            contractor to employee, as employment type is distinguished visually on the
+34            credential.
+35
+36   c.   PIV Issuance Process
+37
+38        (1) LincPass Issuance Steps
+39
+40            Figure 2 provides an overview of the LincPass credentialing steps and associated
+41            processes for onboarding and card usage.
+42
+
+
+
+
+                                                   28
+ 1                Figure 2 – PIV and PIV-I Issuance Process
+
+
+
+
+ 2
+ 3
+ 4   (a) Pre-Sponsorship
+ 5
+ 6       1   The HR User creates or validates the required Applicant information in the
+ 7           authoritative HR system. If the agency utilizes the USA Staffing
+ 8           integration, the applicants may already have an existing selectee record, in
+ 9           which case the HR User verifies and updates the record as needed.
+10
+11   (b) Sponsorship
+12
+13       1   The earliest that Sponsorship can occur for Federal employees is after
+14           Tentative Offer Acceptance, however this is only possible for agencies
+15           that are participating in the USA Staffing 3rd party integration process.
+16
+17       2   The HSPD-12 Sponsor locates the Applicant’s record in the appropriate
+18           HR system, selects the appropriate card type option (i.e., LincPass,
+19           AltLinc, No LincPass/AltLinc) and enters Card Shipping Information.
+20
+
+
+                                        29
+ 1       3   The Applicant will be automatically notified by e-mail from
+ 2           hspd12admin@usaccess.gsa.gov with instructions on how to schedule an
+ 3           appointment to enroll.
+ 4
+ 5   (c) Enrollment
+ 6
+ 7       1   The Applicant schedules an appointment time and location in the GSA
+ 8           USAccess scheduling tool.
+ 9
+10       2   Upon the arrival of the Applicant to the enrollment station, the Registrar
+11           locates and opens the Applicant’s information and verifies the information
+12           with the Applicant.
+13
+14       3   The Registrar validates and scans the Applicant’s two identity source (I-9)
+15           documents.
+16
+17       4   The Registrar obtains Applicant’s fingerprints (rolls and slaps) and photo
+18           and verifies that the Applicant’s fingerprints can be matched to the
+19           scanned images that will be used to create the biometric template.
+20
+21       5   The Registrar verifies all information is correct and complete, endorsing
+22           with a digital signature.
+23
+24       6   The Registrar completes and saves Applicant’s enrollment file.
+25
+26   (d) PIV Adjudication
+27
+28       1   The HSPD-12 Adjudicator releases the fingerprints on file from the
+29           USAccess enrollment to the ISP, Defense Counterintelligence and
+30           Security Agency (DCSA), for the completion of a Special Agreement
+31           Check (SAC), also known as an FBI fingerprint check.
+32
+33       2   The HSPD-12 Adjudicator receives BI results from the ISP or the
+34           suitability/fitness Adjudicator if they are not performing both duties.
+35
+36       3   The HSPD-12 Adjudicator enters PIV Adjudication results in the
+37           authoritative HR system.
+38
+39   (e) Card Production and Issuance
+40
+41       1   Once the applicant has achieved an Active employment status and passed
+42           all USAccess issuance rules, the credential can be issued either through
+43           centralized or local printing.
+44
+45       2   Authoritative PIV Issuance System Centralized printing:
+46
+
+                                        30
+ 1           a Credentials are printed at GSA card production facility.
+ 2
+ 3           b Credentials are shipped to the designated shipping address.
+ 4
+ 5       3   USDA Local Printing:
+ 6
+ 7           a Credential is printed at a credentialing station with local print
+ 8             capabilities.
+ 9
+10   (f) Activation
+11
+12       1   Activator verifies identity of Applicant.
+13
+14       2   The Activator retrieves the credential from locked storage. Note that hand
+15           carried non-activated cards are not permitted by USDA unless the
+16           Applicant has received approval from their Agency Lead and that Agency
+17           Lead has contacted and coordinated the exception with the Activation
+18           site’s POC and/or the USDA HSPD-12 Agency Lead and has provided the
+19           Applicant with a signed Chain-of-Trust letter.
+20
+21       3   Activator compares the picture on the credential with the Applicant and
+22           provides the credential to the Applicant if they match. If the picture on the
+23           credential does not match, the Activator contacts their Security Officer for
+24           resolution.
+25
+26       4   If the Applicant biometric sample matches the biometric read from the
+27           credential, the Applicant is authenticated to be the owner of the credential.
+28           If the biometric sample does not match the biometric read from the
+29           credential, the Activator contacts their Security Officer for resolution.
+30
+31       5   The Applicant uses the credential number and system-generated Personal
+32           Identification Number (PIN; provided to Applicant in an e-mail) to log on
+33           to the self-service activation web application.
+34
+35       6   The Applicant provides the primary fingerprint using the biometric card
+36           reader for identity verification. A successful match will result in the
+37           credential being unlocked. An unsuccessful match will result in an
+38           Activator-assisted activation process. If the Activator-assisted activation
+39           is unsuccessful, the Activator contacts the USAccess Help Desk.
+40
+41       7   The Endorsement screen appears requiring the Applicant’s
+42           acknowledgement of agreement to terms and conditions for receipt of the
+43           credential.
+44
+45       8   The Applicant sets their new PIN which will be six to eight digits in
+46           length.
+
+                                         31
+ 1
+ 2            9   The system encodes the credential with the digital certificates and will
+ 3                display a confirmation when finished. The system will prompt the
+ 4                Applicant to remove the LincPass from the smart card reader.
+ 5
+ 6       (g) LincPass Maintenance
+ 7
+ 8            1   The Sponsor maintains the cardholder’s sponsorship information and
+ 9                updates as needed.
+10
+11            2   Applicants perform certificate updates and card activations as prompted
+12                by the USAccess system.
+13
+14            3   Sponsors will track and perform renewal and reissue actions to ensure
+15                timely card refreshes prior to expiration.
+16
+17            4   The Security Officer can manually suspend or terminate cards based on
+18                derogatory information, as well as reactivate cards as appropriate.
+19
+20            5   Physical Access Control System (PACS) and Logical Access Control
+21                System (LACS) access are granted or revoked as appropriate.
+22
+23            6   The cardholder maintains their LincPass activity and renews certificates as
+24                notified.
+25
+26            7   In the event a card becomes damaged or defective, cards must be returned
+27                to the Agency Security Officer or mailed to USDA South Building –
+28                OSSP FPD, 1400 Independence Ave SW, Rm 1408, Washington, DC
+29                20250.
+30
+31   (2) Credential Protection
+32
+33       Mission Area, agency, or staff offices with active roles in the HSPD-12 processes
+34       must ensure, at a minimum that the following items are secured in a lockable filing
+35       cabinet within a secured office or space:
+36
+37       (a) Card stock.
+38
+39       (b) Credentials awaiting destruction.
+40
+41       (c) ID Credentials not in the personal custody of authorized user.
+42
+43       (d) In case of emergency evacuation, stored credentials should be relocated to an
+44           alternate secure location.
+45
+
+
+
+                                             32
+ 1
+ 2   12. USDA’s HSPD-12 IMPLEMENTATION
+ 3
+ 4     USDA participates in the GSA Managed Service Office (MSO) USAccess program for
+ 5     issuance of the LincPass and AltLinc credentials. With the USAccess Program, the MSO
+ 6     offers a shared service that provides participating federal agencies and departments with all
+ 7     the key components necessary to manage the full lifecycle of a PIV credential. The service
+ 8     allows for a single authoritative PIV issuance system to sponsor, enroll, issue and maintain a
+ 9     common identity credential for each applicant, and includes built-in workflow processes at
+10     every stage of the credentialing process for USDA’s LincPass credential.
+11
+12     GSA MSO’s Shared Service Solution also includes Mobile and Fixed Credentialing Units as
+13     well as Light Activation Stations that provide USDA Mission Area, agency, or staff offices
+14     with the capability to complete credentialing services. USDA is responsible for maintaining
+15     and managing USDA’s footprint for credentialing stations but can also leverage shared
+16     locations managed by outside federal agencies and departments.
+17
+18     Pricing of services is available on request from the HSPD-12 Help Desk.
+19
+20
+21   13. TEMPORARY CREDENTIALS
+22
+23     USDA has identified categories of individuals, temporary employees or non-Federal
+24     employees, guests, and occasional visitors, who do not meet the requirements for PIV. These
+25     individuals, however, may need credentials to gain access to facilities on an unaccompanied
+26     or escorted basis. Mission Area, agency, or staff offices may choose to implement stricter
+27     requirements at their own discretion.
+28
+29     a.   Site Credential or Badge
+30
+31          A site credential is issued locally by the facility to persons that have met the adjudicative
+32          standards required who do not require a LincPass and do not require logical access but
+33          need unaccompanied physical access. Also, a site credential can be issued to individuals
+34          requiring a LincPass who have been favorably adjudicated and waiting for a LincPass
+35          credential to be issued. Refer to the USDA Credential Matrix for information regarding
+36          the issuance risk assessment. Issuers of site credentials or badges should utilize the AD-
+37          1197 form.
+38
+39     b.   Visitor Credential or Badge
+40
+41          A Visitor credential is issued locally to persons requiring temporary escorted physical
+42          access to controlled USDA facilities. Each USDA Mission Area, agency, or staff office
+43          will establish their own visitor procedures.
+44
+45     c.   AltLinc Credential
+
+
+
+                                                      33
+ 1
+ 2          (1) USDA has implemented a PIV-I solution for individuals who are short-term Federal
+ 3              employees or non-Federal employees assigned to or associated with the Mission
+ 4              Area, agency, or staff offices requiring limited access to federally controlled
+ 5              facilities and/or information systems for fewer than 6 months. USDA’s PIV-I
+ 6              credential has been named AltLinc, as it is an alternative credential to the existing
+ 7              LincPass credential.
+ 8
+ 9          (2) The AltLinc will be issued using the same process as the LincPass, except for the
+10              minimum adjudicative standard. Since, the length of time to complete a T1 often
+11              exceeds the time a short-term employee or non-Federal employee would require
+12              access, an FBI Fingerprint check is the minimum required standard. In addition, the
+13              AltLinc process will leverage the existing roles that have been established for the
+14              LincPass process and is issued by the GSA USAccess service.
+15
+16
+17   14. PIV USAGE
+18
+19     a.   Physical Access Control Systems (PACS)
+20
+21          (1) This summary outlines the strategic transition of the Electronic Physical Access
+22              Control System (ePACS) to meet the mandates of HSPD-12 and achieve FICAM
+23              (Federal Identity, Credential, and Access Management) compliance. The objective
+24              is to modernize the organization’s physical security infrastructure by ensuring that
+25              all facility access points utilize secure, interoperable, and identity-validated
+26              credentials (PIV/CAC) in alignment with federal standards.
+27
+28              (a) Core Mandates
+29
+30                   1    HSPD-12 (Homeland Security Presidential Directive 12): Requires a
+31                        common identification standard for federal employees and contractors.
+32                        This is realized through the PIV (Personal Identity Verification) card,
+33                        which provides a secure, reliable form of identification.
+34
+35                   2    FICAM Compliance: The roadmap for implementing HSPD-12. It ensures
+36                        that the ePACS can not only read a card but also validate its authenticity
+37                        against the issuing authority’s infrastructure in real-time.
+38
+39              (b) Key Components of a FICAM-Compliant ePACS
+40
+41                   1    To achieve compliance, the ePACS must integrate three primary
+42                        technological layers:
+43
+44                        a Identity Management (IDMS): Managing the lifecycle of the identity
+45                          (onboarding, vetting, and card issuance).
+46
+
+                                                     34
+1
+2                       b Validation System: A backend service that performs a Certificate
+3                         Revocation List (CRL) or Online Certificate Status Protocol (OCSP)
+4                         check to ensure the card has not been revoked or expired.
+5                       c Physical Access Control (PACS): The hardware (readers, panels) and
+6                         software that grant or deny entry based on the validation results.
+7
+8                          Table 6 - ePACS Compliance Requirements
+9
+     Component              Requirement for Compliance
+
+                            Must support transparent mode and be listed on the GSA Approved
+     Card Readers
+                            Products List (APL).
+
+                            Must support PKI-based authentication (CHUID, PIV Auth, and/or
+     Authentication
+                            CAK).
+
+                            Must accept valid PIV/CAC credentials from other federal agencies
+     Interoperability
+                            without re-badging.
+
+10
+11           (c) Critical Benefits
+12
+13               1      Enhanced Security: Eliminates the risks associated with easily cloned
+14                      legacy cards (e.g., 125kHz Proximity cards).
+15
+16               2      Interoperability: Allows "trust but verify" access for visiting federal
+17                      employees using their home agency credentials.
+18
+19               3      Automation: Reduces manual administrative overhead by automatically
+20                      disabling access when a credential is revoked at the source.
+21
+22               4      Audit Readiness: Provides a standardized, defensible audit trail for federal
+23                      oversight and compliance reviews.
+24
+25      (2) In concurrence with HSPD-12’s goal of rapid electronic authentication, USDA has
+26          developed and implemented a FIPS PUB 201-2 compliant enterprise Physical
+27          Access Control System (ePACS) infrastructure in order to rapidly provision and de-
+28          provision LincPasses (and all USDA issued electronic credentials) based on the PIV
+29          process. All authentication mechanism standards described in FIPS PUB 201-2
+30          have been met by the ePACS as mandated by the OMB. As of October 2011, all
+31          USDA PACS must be HSPD-12 compliant and interface with the USDA ePACS
+32          infrastructure. Mission Area, agency, or staff office PACS must interface with the
+33          USDA ePACS through one of the following options:
+34
+
+                                                    35
+ 1       (a) Integration Option A: HSPD-12 compatible Lenel Hardware and Software that
+ 2           communicates directly with the USDA ePACS Lenel Infrastructure.
+ 3
+ 4       (b) Integration Option B: Non-Lenel HSPD-12 compatible systems that are made
+ 5           to communicate with the USDA ePACS Lenel infrastructure using middleware
+ 6           or similar technology.
+ 7
+ 8       (c) Integration Option C: Non-Lenel HSPD-12 compatible systems that do not
+ 9           communicate with the USDA ePACS, but have a verified connection to an
+10           authoritative personnel database or data feed.
+11
+12   (3) If Integration Option B or C is selected, a full cost benefit analysis must be
+13       completed prior to procurement of the PACS equipment. This cost benefit analysis
+14       must take into account all facets of the PACS installation, including Infrastructure
+15       Hardware costs, Infrastructure Licensing Costs, undergoing full Security
+16       Assessment and Authorization (SA&A), receiving Authorization to Operate (ATO),
+17       Federal Information Security Modernization Act (FISMA) Audit and Reporting of
+18       the PACS System, authoritative database, feed, and middleware development and
+19       maintenance costs and PACS Infrastructure support costs. This cost benefit
+20       analysis must be submitted the ePACS PMO for review as well as the Mission Area
+21       Assistant Chief Information Officer (CIO) and the ePACS Agency Segment
+22       Administrator (ASA) for approval.
+23
+24   (4) Any Mission Area, agency, or staff office facility with a PACS should have met the
+25       mandated deadline of October 2011 for full compliance. The only non-compliant
+26       PACS within USDA which do not interface with ePACS will be legacy systems
+27       installed prior this deadline. Once these systems have reached end of life, they
+28       must be replaced with an HSPD-12 compliant system as defined in OMB
+29       Memorandum M-19-17.
+30
+31   (5) All USDA Mission Area, agency, or staff offices must establish implementation
+32       plans for the following scenarios at USDA leased and owned facilities:
+33
+34       (a) Converting an existing PACS to meet compliance.
+35
+36       (b) Purchase and installation of a new compliant PACS.
+37
+38   (6) The ePACS program is governed by the USDA ePACS Change Control Board
+39       (CCB) which is comprised of representatives from the OSSP Facility Protection
+40       Division as well as the Mission Area Assistant CIO from each Mission Area,
+41       agency, and staff office. Mission Area, agency, or staff office participation in the
+42       ePACS program requires the establishment of an MOU between the Mission Area,
+43       agency, or staff office and the PMO. The MOU defines Mission Area, agency, or
+44       staff office responsibility as well as the identification of the Agency Segment
+45       Administrators to serve as the liaison between the Mission Area, agency, or staff
+46       office and the PMO.
+
+                                              36
+ 1
+ 2   (7) To participate in the ePACS program, Mission Area, agency, or staff office
+ 3       hardware must comply with the hardware and network requirements and
+ 4       specifications defined in the ePACS documentation. For copies of this
+ 5       documentation please contact the OSSP FPD at usdahspd12help@usda.gov.
+ 6
+ 7   (8) Procedures for integrating PACS into ePACS are as follows:
+ 8
+ 9       (a) Contact the ePACS PMO before the integration of an existing PACS or new
+10           PACS installation for pre-planning and implementation guidance.
+11
+12       (b) If using Integration Option B or C, then prior to procuring PACS hardware and
+13           software for a new PACS installation the ePACS Cost Benefit Analysis
+14           template spreadsheet should be filled out to ensure USDA Mission Area,
+15           agency, or staff offices select the most cost-effective manner to meet HSPD-12
+16           and ePACS compliance while meeting their operational security needs.
+17           Contact the OSSP FPD at usdahspd12help@usda.gov for a copy of this
+18           spreadsheet.
+19
+20       (c) Notify the ePACS PMO of any PACS-related hardware and software that is
+21           involved in the integration with ePACS or planned to be added to ensure
+22           budget numbers are captured for software licensing for the following fiscal
+23           year.
+24
+25       (d) Vendors chosen to support USDA PACS facilities must be GSA approved
+26           HSPD-12 integrators, which are listed on the Approved Products List (APL).
+27           Review and comply with the GSA APL when ordering PACS hardware or
+28           software or services (integrators). The current APL is located at GSA, FIPS
+29           201 Evaluation Program website.
+30
+31       (e) Chosen PACS must meet HSPD-12 compliance and interoperability
+32           requirements as well as ePACS requirements.
+33
+34       (f) If using Integration Option A, all USDA Mission Area, agency, or staff offices
+35           must submit all ePACS Change Management Requests through their ePACS
+36           ASA member. Please contact the ePACS Help Desk at 1-833-682-4675 for
+37           Mission Area, agency, or staff office POC information or assistance.
+38
+39       (g) If using Integration Options B or C the compliant PACS must undergo the
+40           SA&A process with security assessments according to NIST, SP 800-53 Rev.
+41           5, Security and Privacy Controls for Information Systems and Organizations, if
+42           they are not integrated into the ePACS. Contact the OCIO Information
+43           Security Center (ISC) office for SA&A requirements and deadlines.
+44
+45   (9) Allowing non-USDA Mission Area, agency, or staff office PIV credentials in
+46       ePACS:
+
+                                            37
+ 1
+ 2            (a) Each Mission Area, agency, or staff office makes an access rights and privilege
+ 3                determination based on the non-USDA individual’s need for electronic
+ 4                physical access (e.g., detail to USDA; co-located space).
+ 5
+ 6                 If access is determined to be needed, the PIV credential must be manually
+ 7                 enrolled in ePACS as defined in ePACS documentation. For copies of this
+ 8                 documentation please contact the OSSP FPD at usdahspd12help@usda.gov.
+ 9
+10            (b) De-provisioning of the cards will also be a manual process until all Certificate
+11                Revocation Lists (CRLs) can be pushed down to ePACS. The manual de-
+12                provisioning process can be obtained by contacting the OSSP FPD at
+13                usdahspd12help@usda.gov.
+14
+15   b.   Logical Access Control Systems (LACS)
+16
+17        (1) PIV operations consist of the technical interoperability requirements of HSPD-12,
+18            specifically, the technical infrastructure for providing interoperable credentials for
+19            Federal employees and non-Federal employees. All authentication mechanisms
+20            described in FIPS PUB 201-3 are to be met with the use of integrated circuit cards.
+21            As part of the GSA USAccess program, USDA is included in the USAccess System
+22            of Records Notice (SORN), Federal Personal Identity Verification Identity
+23            Management System (PIV IDMS).
+24
+25        (2) FIPS PUB 201-3 describes minimum technical requirements for the PIV-compliant
+26            credentials. These requirements include interfacing specifications, cryptographic
+27            specifications, Public Key Infrastructure (PKI) and certificate specifications, card
+28            topology specifications, and biometric data specifications. The PIV-compliant
+29            credentials issued will be used to control physical access to all federally controlled
+30            facilities and logical access to all federally controlled information systems through a
+31            contact or contactless interface.
+32
+33        (3) See DR 3640-001 for guidance related to logical access.
+34
+35        (4) See DR 3505-003, Access Control for Information and Information Systems, for
+36            guidance related to exceptions to card utilization for logical access. Additionally,
+37            there is a “Waiver Request for Long-Term Expiration” template available for
+38            Mission Area, agency, or staff offices to request logical access waivers.
+39
+40        (5) USDA personnel with an active LincPass are eligible for Derived PIV credentials as
+41            part of the MobileLinc program if they have been assigned an authorized mobile
+42            device registered with the USDA Enterprise Mobility Management (EMM). Refer
+43            to ICAM’s Personal Identity Verification Derived Credentials Issuing Operations
+44            Plan for more information. You can also obtain additional information at the
+45            USDA MobileLinc Credential Portal website.
+46
+
+                                                   38
+1
+2   15. INQUIRIES
+3
+4      Questions regarding this DM should be directed to OSSP at 202-690-6777 or
+5      securityservicehelp@usda.gov.
+6
+7
+8                                             -END
+
+
+
+
+                                                  39
+ 1                                   APPENDIX A
+ 2
+ 3                       ACRONYMS AND ABBREVIATIONS
+ 4
+ 5
+ 6   ACL        Access Control List
+ 7   AD         Agriculture Department (Prefix for Departmental Forms)
+ 8   AGAR       Agriculture Acquisition Regulation
+ 9   APL        Approved Products List
+10   ASA        Agency Segment Administrator
+11   ATO        Authorization to Operate
+12   BI         Background Investigation
+13   CBP        U.S. Customs and Border Protection (DHS Component)
+14   CFR        Code of Federal Regulations
+15   CIO        Chief Information Officer
+16   CO         Contracting Officer
+17   COR        Contracting Officer’s Representative
+18   CVS        Central Verification System
+19   DCSA       Defense Counterintelligence and Security Agency
+20   DCSA/NS    Defense Counterintelligence and Security Agency/National Security
+21   DG         Departmental Guidebook
+22   DHS        Department of Homeland Security
+23   DM         Departmental Manual
+24   DPCI       Derived PIV Credential Issuers
+25   DPI        Dots Per Inch
+26   DR         Departmental Regulation
+27   EAD        Enterprise Active Directory
+28   eAPP       Electronic Application
+29   EMM        Enterprise Mobility Management
+30   E.O.       Executive Order
+31   ePACS      Enterprise Physical Access Control System
+32   ERT        Emergency Response Team
+33   FA         Facility Administrator
+34   FAR        Federal Acquisition Regulation
+35   FBI        Federal Bureau of Investigation
+36   FBI NCHC   Federal Bureau of Investigation National Criminal History Check
+37   FD         Federal Database
+38   FERO       Federal Emergency Response Official
+39   FIPS PUB   Federal Information Processing Standards Publication
+40   FISMA      Federal Information Security Modernization Act
+41   FPD        Facility Protection Division (OSSP Component)
+42   GSA        General Services Administration
+43   HR         Human Resources
+44   HSPD-12    Homeland Security Presidential Directive 12
+45   ICAM       Identity, Credential, and Access Management
+46   ID         Identification
+
+                                            A-1
+ 1   IDMS       Identity Management System
+ 2   ISC        Information Security Center (OCIO Component)
+ 3   ISP        Investigative Service Provider
+ 4   IT         Information Technology
+ 5   LACS       Logical Access Control System
+ 6   LMS        Learning Management System
+ 7   MOU        Memorandum of Understanding
+ 8   MSO        Managed Service Office
+ 9   NAC        National Agency Check
+10   NACI       National Agency Check with (Written) Inquiries
+11   NCR        National Capital Region
+12   NFC        National Finance Center
+13   NIST       National Institute of Standards and Technology
+14   OCIO       Office of the Chief Information Officer
+15   OF         Optional Form
+16   OFI        Office of Federal Investigations
+17   OHS        Office of Homeland Security
+18   OIG        Office of the Inspector General
+19   OMB        Office of Management and Budget
+20   OPM        Office of Personnel Management
+21   OSSP       Office of Safety, Security, and Protection
+22   PACS       Physical Access Control System
+23   PCI        Personal Identity Verification Card Issuers
+24   PDF        Portable Data File
+25   PDSD       Personnel and Document Security Division (OHS Component)
+26   PIN        Personal Identification Number
+27   PIV        Personal Identity Verification
+28   PIV-D      Personal Identity Verification Derived
+29   PIV-I      Personal Identify Verification Interoperable
+30   PIV IDMS   Personal Identity Verification Identity Management System
+31   PKI        Public Key Infrastructure
+32   P.L.       Public Law
+33   PM         Program Manager
+34   PMO        Program Management Office
+35   POC        Point of Contact
+36   PRA        Paperwork Reduction Act
+37   SA&A       Security Assessment and Authorization
+38   SAC        Special Agreement Check
+39   SAVE       Systematic Alien Verification for Entitlements
+40   SF         Standard Form
+41   SORN       System of Records Notice
+42   SP         Special Publication
+43   SSN        Social Security Number
+44   SWF        Small Web Format
+45   T1         Tier One
+46   U.S.C.     United States Code
+
+                                           A-2
+1   USCIS   U.S. Citizenship and Immigration Services (DHS Component)
+2   USDA    United States Department of Agriculture
+3   VPN     Virtual Private Network
+
+
+
+
+                                       A-3
+ 1                                              APPENDIX B
+ 2
+ 3                                             DEFINITIONS
+ 4
+ 5
+ 6   Appendix B provides the definitions for terms and terminology used throughout this document.
+ 7   The following definitions are derived from relevant policies and guidance.
+ 8
+ 9   Access control. The process of granting or denying requests to access physical facilities or areas,
+10   or to logical systems (e.g., computer networks or software applications). See also “logical access
+11   control system” and “physical access control system.”
+12
+13   Access (Routine). Entry into and use of a facility and/or information system on a regular basis
+14   without an escort and/or continuous monitoring by a USDA official. The Mission Area, agency,
+15   and staff office determination should be based upon the support to successfully complete USDA’s
+16   mission functions. Routine access requires a mandatory PIV or PIV-I credential to be issued.
+17
+18   Access (Unaccompanied). Entry into and use of a facility and/or information system without an
+19   escort and/or continuous monitoring by a USDA official. The Mission Area, agency, and staff
+20   office’s determination for unaccompanied access should be based upon the support to
+21   successfully complete USDA’s mission functions. Unaccompanied access requires a mandatory
+22   LincPass to be issued.
+23
+24   AD-1197 Form. Request for USDA Identification (ID) Badge form.
+25
+26   AltLinc. USDA has named their common identity PIV-I card the AltLinc, as it is designed to link
+27   a person’s identity to an identification card and the card to a person’s ability to access Federal
+28   buildings and computer systems. This card will be used to service short-term personnel (less than
+29   6 months) and personnel who fail to meet the HSPD-12 minimum investigative requirements. The
+30   spelling of the AltLinc PIV-I card is derived from the word alternative as it is meant to serve as an
+31   alternative to the LincPass.
+32
+33   Authorization. The official management decision given by a senior organizational official to
+34   authorize operation of an information system and to explicitly accept the risk to the organizational
+35   operations (including mission, functions, image, or reputation), organizational assets, individuals,
+36   other organizations, and the nation, based on the implementation of an agreed-upon set of security
+37   controls. (Source: NIST, Glossary, Retrieved May 3, 2021)
+38
+39   Barring. Prevention of entry onto federal property.
+40
+41   Biometric. A measurable physical characteristic used to recognize the identity of an individual.
+42   Examples include fingerprints, and facial images. A biometric system uses biometric data for
+43   authentication purposes.
+44
+45   Contractor. An individual under contract to USDA (for the purpose of HSPD-12
+46   implementation).
+
+                                                       B-1
+ 1
+ 2   eAPP. The Electronic Questionnaires for Investigations Processing is a Defense
+ 3   Counterintelligence and Security Agency (DCSA) system that allows for the secure transmission
+ 4   of security questionnaires between government agencies and DCSA.
+ 5
+ 6   eAuthentication. The process of establishing an individual’s identity and determining whether
+ 7   individual Federal employees or contractors are who they say they are.
+ 8
+ 9   Employee. Defined in 5 U.S.C. § 2105 “Employee,” within a department or agency. “Employee”
+10   means a person, other than the President and Vice President, employed by, detailed or assigned to,
+11   USDA, including members of the Armed Forces; an expert or consultant to USDA; an industrial
+12   or commercial contractor, licensee, certificate holder, or grantee of USDA, including all
+13   subcontractors; or any other category of person who acts on behalf of an agency as determined by
+14   the agency head
+15
+16   EmpowHR. An Oracle People Soft-based Human Capital Management System, EmpowHR is an
+17   integrated suite of commercial and Government applications that can be leveraged to automate
+18   common administrative tasks associated with HR management and reduce internal operational
+19   costs using industry best practices. EmpowHR is used by several USDA Mission Areas,
+20   agencies, or staff offices.
+21
+22   ePACS. An Enterprise Physical Access Control System to centralize and provide a means to
+23   distribute identity data related to LincPass credentialed individuals to all USDA PACS.
+24
+25   ePACS Agency Segment Administrator (ASA). An ePACS ASA is the overall Mission Area,
+26   agency, or staff office point of contact and liaison between the ePACS Program Management
+27   Office (PMO) and the segment’s Facility Administrators (FA) and end users. The ePACS ASA is
+28   responsible for monitoring the status of a Mission Area, agency, or staff office ePACS
+29   segment(s), attending CCB Meetings, a semi-annual user account review, assisting in distribution
+30   and communication of software upgrades, and system disruptions to their user base, processing
+31   Change Requests and User Account creation/change requests for said segments, and escalating
+32   system issues and problems from the FA to the ePACS PMO as needed
+33
+34   Executive Order 10450. Security Requirements for Government Employees.
+35
+36   Facility Administrator (FA). A Facility Administrator is the overall agency POC and liaison
+37   between the ePACS ASA and the segment’s end users, including Credential Operators and Site
+38   Guards. The FA is responsible for escalating system issues and problems from the Credential
+39   Operators and Site Guards to the ePACS ASA as needed.
+40
+41   Federal Bureau of Investigation (FBI) Fingerprint Check. FBI National Criminal History Check.
+42   This check is an integral part of the T1 and is the minimum requirement for PIV ID credential
+43   issuance.
+44
+45   FD-258 Form. Fingerprint Chart used to conduct contractor FBI fingerprint checks.
+46
+
+                                                      B-2
+ 1   Federal Facility or Information System Access. Authorization granted to an individual to
+ 2   physically enter federally controlled facilities, and to electronically (logically) access federally
+ 3   controlled information systems for approved purposes.
+ 4
+ 5   Identity Management System (IDMS). One or more systems or applications that manage the
+ 6   identity verification, validation and issuance process. The IDMS software is used by PIV
+ 7   Registrars to enroll Applicants.
+ 8
+ 9   Identity-proofing. The process of providing sufficient information (e.g., driver’s license, proof of
+10   current address) to a registration authority, or the process of verifying an individual’s information
+11   that he or she is that individual and no other.
+12
+13   Lenel OnGuard. The OnGuard application vendor, Lenel, offers advanced access control, alarm
+14   monitoring, digital video, intrusion detection, asset tracking, information security integration,
+15   credential production, and employee and visitor management functionality in an enterprise
+16   structure for data redundancy and data segregation by Mission Area, agency, or staff office and
+17   location.
+18
+19   Limited Access. Limited access to facilities includes unaccompanied access to general common
+20   areas and workspace only. Limited access to information systems includes access to applications
+21   such as USDA email, Time & Attendance, AgLearn, and Concur.
+22
+23   LincPass. USDA has named their common ID card the LincPass, as it is designed to link a
+24   person’s identity to an identification card and the card to a person’s ability to access Federal
+25   buildings and computer systems. The spelling of LincPass is a tribute to President Abraham
+26   Lincoln, who created USDA, also known as the People’s Department, in 1862.
+27
+28   Logical Access Control System (LACS). A protection mechanism that limits a user’s access to
+29   information and restricts their type of access to only what is appropriate for them. These systems
+30   may be built into an operating system, application, or an added system.
+31
+32   National Capital Region (NCR). This is comprised of the District of Columbia; Montgomery and
+33   Prince Georges counties, Maryland; the cities of Alexandria, Fairfax and Falls Church, Virginia;
+34   and Fairfax, Arlington, Loudoun, and Prince William counties, Virginia.
+35
+36   Non-Federal employee. A person with a relationship with the USDA other than employment,
+37   such as through a contract, grant, agreement, or memorandum of understanding, doing work for
+38   or on behalf of the USDA, such as a contractor, affiliate, fellow, intern, or volunteer.
+39
+40   OF-306 Form. Declaration for Federal Employment.
+41
+42   OPM OFI-79A Form. Report of Agency Adjudicator Action on OPM Personnel Investigations.
+43
+44   Person Model. Common name for EmpowHR Non-Employee Processing module. USDA’s
+45   secure and authoritative database for USDA identities and non-Federal employee information
+46   required by HSPD-12. Person Model is a module of EmpowHR that feeds non-Federal employee
+
+                                                         B-3
+ 1   information to the authoritative PIV issuance system, the General Services Administration (GSA)
+ 2   credentialing system. Sponsorship and Adjudication information for non-Federal employees is
+ 3   entered directly into Person Model.
+ 4
+ 5   Physical Access Control System (PACS). Protection mechanisms that limit a user’s access to
+ 6   physical facilities or areas to only what is appropriate for them. These systems typically involve a
+ 7   combination of hardware and software (e.g., a card reader), and may involve human control (e.g.,
+ 8   a security guard)
+ 9
+10   PIV Compliant Credential. An identity card (“smart card”) also known as LincPass issued to an
+11   individual that contains stored identity credentials so that the claimed identity of the cardholder
+12   can be verified against the stored credentials by another person or by an automated process.
+13
+14   Public Key Infrastructure (PKI). A set of policies, processes, server platforms, software and
+15   workstations used for the purpose of administering certificates and public-private key pairs,
+16   including the ability to issue, maintain, and revoke public key certificates. (Source: DG 0100-
+17   002)
+18
+19   Revocation. Referring to the termination of a credential. This refers to both the physical removal
+20   of the card from the cardholder’s possession and the electronic shut off of physical and logical
+21   access.
+22
+23   Routine access. A person that is accessing the facility or information system without an escort or
+24   continuous monitoring by a USDA official. The Mission Area, agency, or staff office
+25   determination should be based upon the support to successfully complete USDA’s mission critical
+26   functions and missions. This type of access requires a mandatory PIV ID credential to be issued.
+27
+28   Standard Form (SF)-85. OPM Questionnaire for Non-Sensitive Positions.
+29
+30   Standard Form (SF)-85P. OPM Questionnaire for Public Trust Positions.
+31
+32   Standard Form (SF)-86. OPM Questionnaire for National Security Positions.
+33
+34   Standard Form (SF)-87. Fingerprint Chart used to conduct FBI fingerprint checks for federal
+35   appointees and employees and Applicants for Federal employment.
+36
+37   Site Credential. A credential issued locally by the facility to persons that do not need a LincPass
+38   but need access to the facility or information system to conduct temporary work.
+39
+40   Short Term Employee. Temporary, Term, Student, or intern with employment less than 6 months
+41   that are paid or obtaining some sort of benefit directly from USDA.
+42
+43   Suspension. Referring to the temporary shut off of physical and logical access to the credential
+44   without terminating the card issuance.
+45
+
+
+
+                                                       B-4
+ 1   Tier 1 (T1) Investigation. Formerly National Agency Check and Inquiries (NACI) ), for positions
+ 2   designated as low risk, non-sensitive, and for physical and/or logical access.
+ 3
+ 4   USDA Credential Matrix. The tool to determine a person’s legitimate need for physical or logical
+ 5   access using a PIV or other types of credentials as outlined in HSPD-12 to USDA facilities and
+ 6   information systems, and the requirement to view sensitive information.
+ 7
+ 8   Visitor. An individual (typically not a federal or non-federal employee to USDA) who enters a
+ 9   federal facility for time-bound and/or purpose-specific visit and does not require credentials or
+10   authorizations for routine access.
+11
+12   Volunteer. Under 7 U.S.C. § 2272, a volunteer is defined as an individual who willingly (without
+13   duress or intimidation) offers or agrees to provide his or her time or services without
+14   compensation, and who performs those services in a manner that contributes to the furtherance of
+15   the programs of USDA Mission Area, agency, or staff offices.
+
+
+
+
+                                                       B-5
+ 1                                            APPENDIX C
+ 2
+ 3                                AUTHORITIES AND REFERENCES
+ 4
+ 5
+ 6   The processes and procedures outlined in this DM align with the directives and standards that are
+ 7   listed below:
+ 8
+ 9   5 CFR Part 315, Career and Career-Conditional Employment, Subpart H (Probationary
+10   Employees)
+11
+12   5 CFR Part 731, Suitability, Subparts D and E
+13
+14   5 CFR Part 752, Adverse Actions, Subparts D through F
+15
+16   7 CFR § 2.94, Chief Security Director, Office of Safety, Security, and Protection
+17
+18   7 CFR § 2.95, Director, Office of Homeland Security
+19
+20   5 U.S.C. § 2105, Employee
+21
+22   7 U.S.C. § 2272, Volunteers for Department of Agriculture programs
+23
+24   44 U.S.C. § 3552(b)(6)(A), Definitions; National security System
+25
+26   Agriculture Acquisition Regulation (AGAR) 404.13, Personal Identity Verification,
+27   https://www.acquisition.gov/agar
+28
+29   CBP, Form I-94, Arrival/Departure Record
+30
+31   E-Government Act of 2002, 44 U.S.C. § 3501, December 17, 2002, as amended
+32
+33   E.O. 10450, Security Requirements for Government Employees, April 27, 1953
+34
+35   E.O. 12968, Access to Classified Information, August 2, 1995
+36
+37   E.O. 13467, Amending Executive Order 13467 to Establish the Roles and Responsibilities of the
+38   National Background Investigations Bureau and Related Matters - 2.3(b) Reforming Processes
+39   Related to Suitability for Government Employment, Fitness for Contractor Employees, and
+40   Eligibility for Access to Classified National Security Information, June 30, 2008
+41
+42   Federal Acquisition Regulation (FAR), Acquisition.gov
+43
+44   FAR, 48 CFR Subpart 4.13, Personal Identity Verification
+45
+46   FAR, 48 CFR Clause 52.204-9, Personal Identity Verification of Contractor Personnel
+
+                                                      C-1
+ 1
+ 2   FBI, Form FD-258, Applicant Fingerprint Form, November 1, 2020
+ 3
+ 4   Federal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551 et seq.,
+ 5   December 18, 2014, as amended
+ 6
+ 7   GSA, Fed ID Card website
+ 8
+ 9   GSA, FIPS 201 Evaluation Program website
+10
+11   Homeland Security Presidential Directive 12 (HSPD-12), Policy for a Common Identification
+12   Standard for Federal Employees and Contractors, August 27, 2004
+13
+14   NIST, FIPS PUB 201-3, Personal Identity Verification (PIV) of Federal Employees and
+15   Contractors, January 2022
+16
+17   NIST, Glossary website
+18
+19   NIST, SP 800-37 Rev 2, Risk Management Framework for Information Systems and
+20   Organizations, December 2018
+21
+22   NIST, SP 800-53 Rev 5, Security and Privacy Controls for Information Systems and
+23   Organizations, September 2020
+24
+25   NIST, SP 800-63A-4, Digital Identity Guidelines: Enrollment and Identity Proofing, July 2025
+26
+27   NIST, SP 800-63B-4, Digital Identity Guidelines: Authentication and Lifecycle Management,
+28   July 2025
+29
+30   NIST, SP 800-63C-4, Digital Identity Guidelines: Federation and Assertions, July 2025
+31
+32   NIST, SP 800-63-4, Digital Identity Guidelines, July 2025
+33
+34   NIST, SP 800-73, Interfaces for Personal Identity Verification-Part 1: PIV Card Application
+35   Namespace, Data Model and Representation, July 2024
+36
+37   NIST, SP 800-76-2, Biometric Specifications for Personal Identity Verification, July 2013
+38
+39   NIST, SP 800-78-5, Cryptographic Algorithms and Key Sizes for Personal Identity Verification,
+40   May 2015
+41
+42   NIST, SP 800-79-2, Guidelines for the Authorization of Personal Identity Verification Card
+43   Issuers (PCI) and Derived PIV Credential Issuers (DPCI), July 2015
+44
+45   NIST, SP 800-85A-4, PIV Card Application and Middleware Interface Test Guidelines (SP 800-
+46   73-4 Compliance), April 2016
+
+                                                     C-2
+ 1
+ 2   NIST, SP 800-85B, PIV Data Model Test Guidelines, July 2006
+ 3
+ 4   NIST, SP 800-87, Rev. 2, Codes for the Identification of Federal and Federally-Assisted
+ 5   Organizations, April 2018
+ 6
+ 7   NIST, SP 800-96, PIV Card to Reader Interoperability Guidelines, September 2006
+ 8
+ 9   NIST, SP 800-116 Rev. 1, Guidelines for the Use of PIV Credentials in Facility Access, June
+10   2018
+11
+12   NIST, SP 800-156, Representation of PIV Chain-of-Trust for Import and Export, May 2016
+13
+14   NIST, SP 800-157, Guidelines for Derived Personal Identity Verification (PIV) Credentials,
+15   December 2014
+16
+17   OMB, Memorandum M-03-22, OMB Guidance for Implementing the Privacy Provisions of the
+18   E-Government Act of 2002, September 26, 2003
+19
+20   OMB, Memorandum M-05-24, Implementation of Homeland Security Presidential Directive
+21   (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
+22   Contractors, August 5, 2005
+23
+24   OMB, Memorandum M-19-17, Enabling Mission Delivery through Improved Identity,
+25   Credential, and Access Management, May 21, 2019
+26
+27   OPM, Form OF-306, Declaration for Federal Employment, February 2016
+28
+29   OPM, Form SF-75, Request for Preliminary Employment Data, August 1998
+30
+31   OPM, Form SF-85, Questionnaire for Non-Sensitive Positions, December 2013
+32
+33   OPM, Form SF 85P, Questionnaire for Public Trust Positions, December 2017
+34
+35   OPM, Form SF-86, Questionnaire for National Security Positions, November 2016
+36
+37   OPM Operating Manual, The Guide to Personnel Recordkeeping, June 1, 2011
+38
+39   OPM, Memorandum Final Credentialing Standards for Issuing Personal Identity Verification
+40   Cards under HSPD-12, July 2008
+41
+42   OPM, Memorandum, Credentialing Standards Procedures for Issuing Personal Identity
+43   Verification Cards under HSPD-12 and New Requirement for Suspension or Revocation of
+44   Eligibility for Personal Identity Verification Credentials (“OPM Credentialing
+45   Standards”),December 15, 2020
+46
+
+                                                    C-3
+ 1   Paperwork Reduction Act (PRA) of 1995, P.L. 104-13, May 22, 1995
+ 2
+ 3   Privacy Act of 1974, 5 U.S.C. § 552a, December 31, 1974, as amended
+ 4
+ 5   USCIS, Form I-9 Acceptable Documents
+ 6
+ 7   USCIS, Form I-551, Permanent Resident Card
+ 8
+ 9   USCIS, Form I-766, Employment Authorization Document
+10
+11   USCIS, Systematic Alien Verification for Entitlements (SAVE) system
+12
+13   USDA Contracting Desk Book 404.13, Personal Identity Verification, April 2025
+14
+15   USDA, DG 0100-002, Departmental Directives Definitions Glossary, September 26, 2018
+16
+17   USDA, DR 3080-001, Records Management, August 16, 2016
+18
+19   USDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019
+20
+21   USDA, DR 3505-005, Cyber Security Incident Management, November 30, 2018
+22
+23   USDA, DR 3540-003, Security Assessment and Authorization, August 12, 2014
+24
+25   USDA, DR 3640-001, Identity, Credential and Access Management, June 8, 2021
+26
+27   USDA, DR 4620-002, Common Identification Standard for U.S. Department of Agriculture, June
+28   24, 2021
+29
+30   USDA, ePACS SharePoint site
+31
+32   USDA, Form AD-1197, Request for USDA Identification (ID) Badge, September 2005
+33
+34   USDA, MobileLinc Credential Portal website
+35
+36   USDA, OHS PDSD web page
+
+
+
+
+                                                   C-4
+1                                             APPENDIX D
+2                           Table 7 - USDA CREDENTIAL MATRICES
+
+3                                 LincPass Matrix for U.S. Nationals
+
+    USDA
+                 Credential
+    Credential                    Standard Usage                         BI Level Required         Issuer
+                 Type
+    Name
+                                                                         Interim
+                 HSPD-12                                                 Determination: FBI
+                                  Long term (6 months or greater)
+                 Compliant                                               Fingerprint Check &
+                                  employees and non-Federal
+                 Personal                                                Scheduled Tier 1
+    LincPass                      employees requiring routine access                               USAccess
+                 Identity                                                (minimum)
+                                  to federal facilities or information
+                 Verification
+                                  systems.
+                 (PIV)                                                   Final Determination:
+                                                                         Tier 1 (minimum)
+                                  Short-term (less than 6 months)
+                 PIV              employees and non-Federal              FBI Fingerprint Check
+    AltLinc      Interoperable    employees requiring routine access     (minimum)                 USAccess
+                 (PIV-I)          to federal facilities or information
+                                  systems.
+                                  1. New employees/contractors
+                                                                                                   Mission
+                                  awaiting the issuance of a PIV
+                                                                                                   Area,
+                 Proximity/CIV    requiring unescorted physical          FBI Fingerprint Check
+    Site Badge                                                                                     agency,
+                 Card             access.                                (minimum)
+                                                                                                   staff
+                                  2. Unescorted physical access for
+                                                                                                   office
+                                  short-term intermittent access.
+                                  Escorted access for visitors to a
+                 PVC/Proximity/
+    Visitor                       facility. Not intended for
+                 CIV                                                     None                      Local Site
+    Badge                         regular/routine access for federal
+                 Card/Sticker
+                                  and non-federal employees.
+    ID Badge     Non-PIV          As defined in DR 4620-002 –            Agency Specified          Mission
+                 Agency           Section 3C - Law Enforcement,                                    Area,
+                 Managed          Food Inspection, Animal Care,                                    agency,
+                 Credentials      Protective Detail, etc…                                          staff
+                                  Not applicable for physical or                                   office
+                                  logical access.
+    MobileLinc   PIV Derived      Logical access only. Requires PIV      Interim: FBI              OCIO
+                 (PIV-D)          for issuance. A digital credential     Fingerprint Check &
+                                  stored electronically on mobile        Scheduled Tier 1
+                                  device.                                (minimum)
+                                                                         Final: Minimum Tier 1
+    Alt MFA      Alternate        Logical access only. Usage for         Refer to BI               OCIO
+                 Multi-Factor     alternate authentication when PIV      requirements for Active
+                 Authentication   is unavailable.                        Directory accounts in
+                 Credentials                                             DR 3505-003
+                 (Yubikey/
+                 Windows Hello
+                 for Business)
+4
+
+
+
+
+                                                     D-1
+1                                LincPass Matrix for Non-U.S. Nationals
+
+    USDA
+                 Credential
+    Credential                      Standard Usage                          BI Level Required          Issuer
+                 Type
+    Name
+                                                                           Fully adjudicated Tier 1
+                                                                           (minimum) or
+                                                                           equivalent Background
+                                                                           Investigation and
+                                                                           Employment
+                                                                           Authorization
+                                                                           Verification based on
+                                                                           the investigative
+                                                                           standards identified in
+                                                                           DM 4620-002 Section
+                 HSPD-12
+                                    Long term (6 months or greater)        6(2)a
+                 Compliant
+                                    employees and non-Federal
+                 Personal
+    LincPass                        employees requiring routine access     NOTE: Issuance              USAccess
+                 Identity
+                                    to federal facilities or information   under Interim
+                 Verification
+                                    systems.                               Determination is
+                 (PIV)
+                                                                           generally not
+                                                                           permitted for non-
+                                                                           U.S. Nationals except
+                                                                           for exempted
+                                                                           categories of FNs
+                                                                           considered US
+                                                                           Persons in US
+                                                                           locations that meet the
+                                                                           residency standards
+                                                                           for a BI
+                                                                          1. Investigative
+                                                                             standards identified in
+                                   1. Facility access card for Non-U.S.      DM 4620-002 Section
+                                      Nationals unable to meet               6(2)a
+                                      investigative standards for PIV     2. Investigative
+                                      Tier 1 BI residing in U.S. based       standards identified in
+                                      locations or U.S. Territories until    DM 4620-002 Section
+                 PIV
+                                      the 3-year time in U.S. or U.S.        6(2)a and approval by
+    AltLinc      Interoperable                                                                         USAccess
+                                      Territory can be met and a BI can      the Director of the
+                 (PIV-I)
+                                      be completed.                          USDA Office of
+                                   2. Facility access card for non-U.S.      Homeland Security
+                                      Nationals in foreign locations         and Under Secretary
+                                      unable to meet investigative           or responsible
+                                      standards for Tier 1 BI                Mission Area,
+                                                                             Agency, or Staff
+                                                                             Office head.
+2
+3
+
+
+
+
+                                                       D-2
+    USDA
+                 Credential
+    Credential                      Standard Usage                          BI Level Required          Issuer
+                 Type
+    Name
+                                                                          1. Fully adjudicated Tier
+                                                                             1 (minimum) or
+                                                                             equivalent
+                                                                             Background
+                                                                                                       Mission
+                                  1. Fully vetted new                        Investigation and
+                                                                                                       Area,
+                 Proximity/CIV       employees/contractors awaiting          Employment
+    Site Badge                                                                                         agency,
+                 Card                the issuance of a PIV requiring         Authorization
+                                                                                                       staff
+                                     unescorted physical access.             Verification based on
+                                                                                                       office
+                                                                             the investigative
+                                                                             standards identified in
+                                                                             DM 4620-002 Section
+                                                                             6(2)a
+                                  1. Escorted access for visitors to a    1. Coordination through
+                 PVC/Proximity/
+    Visitor                          facility. Not intended for              the OHS Foreign           Local
+                 CIV
+    Badge                            regular/routine access for federal      National Visitor          Site
+                 Card/Sticker
+                                     and non-federal employees.              program
+1
+
+
+
+
+                                                      D-3
+ 1                                           APPENDIX E
+ 2
+ 3                         EXAMPLES OF CREDENTIAL TOPOLOGIES
+ 4
+ 5
+ 6   1. FRONT REQUIREMENTS OF PIV CREDENTIAL
+ 7
+ 8     a.   Mandatory Items on the Front of the PIV Card
+ 9
+10          (1) Zone 1F – Photograph. The photograph must be placed in the upper left corner and
+11              be a full-frontal pose from top of the head to shoulder. A minimum of 300 dots per
+12              inch (dpi) resolution must be used. The background should follow
+13              recommendations set forth in SP 800-76-2, Biometric Specifications for Personal
+14              Identity Verification.
+15
+16          (2) Zone 2F – Name. The full name must be printed directly under the photograph in
+17              capital letters. The full name must be composed of a Primary Identifier (i.e.,
+18              surnames or family names) and a Secondary Identifier (i.e., pre-names or given
+19              names). The printed name must match the name on the identity source documents
+20              provided during identity proofing and registration to the extent possible. The full
+21              name must be printed in the <Primary Identifier>, <Secondary Identifier>, format.
+22              The entire full name should be printed on available lines of Zone 2F and either
+23              identifier could be wrapped. The wrapped identifier must be indicated with “>”
+24              character at the end of the line. The identifiers may be printed on separate lines if
+25              each fits on one line. Departments and agencies must use the largest font size of 7
+26              to 10-points that allows the full name to be printed. The font size 7-point allows
+27              space for 3 lines and must only be used if the full name does not fit on two lines
+28              with font size 8-point.
+29
+30          (3) Zone 8F – Employee Affiliation. An employee affiliation must be printed on the
+31              card. Some examples of employee affiliation are “Employee,” “Contractor,”
+32              “Active Duty,” and “Civilian.”
+33
+34          (4) Zone 10F – Agency, Department, or Organization. The organizational affiliation
+35              must be printed as depicted in Figure 3, Front of PIV Credential.
+36
+37          (5) Zone 14F – Card Expiration Date. The card expiration date must be printed on the
+38              card. The card expiration date must be in a YYYYMMMDD format whereby the
+39              MMM characters represent the three-letter month abbreviation as follows: JAN,
+40              FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The Zone
+41              14F expiration date must be printed in Arial 6 to 9-point bold.
+42
+43          (6) Zone 15F – Color-Coding for Employee Affiliation. Color-coding must be used for
+44              additional identification of employee affiliation as a background color for Zone 2F
+45              (name). The following color scheme must be used:
+46
+
+                                                     E-1
+ 1            (a) Blue – Foreign National
+ 2
+ 3            (b) White – Government Employee
+ 4
+ 5            (c) Green – Contractor
+ 6
+ 7            Foreign National color-coding has precedence over Government Employee and
+ 8            Contractor color-coding. These colors must be reserved and must not be employed
+ 9            for other purposes. Zone 15F may be a solid or patterned line at the Department or
+10            agency’s discretion.
+11
+12        (7) Zone 18F – Affiliation Color Code. The affiliation color code “B” for Blue, “W”
+13            for White, or “G” for Green must be printed in a white circle in Zone 15F. The
+14            diameter of the circle must not be more than 5 mm. Note that the lettering must
+15            correspond to the printed color in Zone 15F.
+16
+17        (8) Zone 19F – Card Expiration Date. The card expiration date must be printed in a
+18            MMMYYYY format in the upper right-hand corner. The Zone 19F expiration date
+19            must be printed in Arial 12-point Bold.
+20
+21   b.   Optional Items on the Front of the PIV Card – Available through the GSA USAccess
+22        Program
+23
+24        (1) Zone 4F – Agency Specific Text Area. If used, this area can be used for printing
+25            agency specific requirements, such as employee status.
+26
+27        (2) Zone 5F – Rank. If used, the cardholder’s rank must be printed in this area. Data
+28            format is at the Department or agency’s discretion.
+29
+30        (3) Zone 9F – Header. If used, the text “United States Government” must be placed as
+31            depicted in Figure 3. Departments and agencies may also choose to use this zone
+32            for other Department or agency-specific information, such as identifying a Federal
+33            emergency responder role.
+34
+35        (4) Zone 11F – Agency Seal. If used, the seal selected by the issuing Department,
+36            agency, or organization must be printed in the area depicted.
+37
+38        (5) Zone 12F – Footer. The footer is the location for the Federal Emergency Response
+39            Official identification label. If used, a Department or agency may print “Federal
+40            Emergency Response Official” as depicted in Figure 3, preferably in white lettering
+41            on a red background. Departments and agencies may also use Zone 9F to further
+42            identify the Federal emergency respondent’s official role. Some examples of
+43            official roles are “Law Enforcement,” “Fire Fighter,” and “Emergency Response
+44            Team (ERT).” When Zone 15F indicates Foreign National affiliation and the
+45            Department or agency does not need to highlight emergency response official
+46            status, Zone 12F may be used to denote the country or countries of citizenship. If
+
+                                                 E-2
+ 1            so used, the Department or agency must print the country name or the three-letter
+ 2            country abbreviation (alpha-3 format).
+ 3
+ 4        (6) Zone 17F – Agency Specific Data. In cases in which other defined optional
+ 5            elements are not used, Zone 17F may be used for other Department or agency-
+ 6            specific information.
+ 7
+ 8        (7) Zone 20F – Organizational Affiliation Abbreviation. The organizational affiliation
+ 9            abbreviation may be printed in the upper right-hand corner below the Zone 19F
+10            expiration date. If printed, the organizational affiliation abbreviation must be
+11            printed in Arial 12-point Bold.
+12
+13   c.   Optional Items on the Front of the PIV Card – Not Available through the GSA
+14        USAccess Program
+15
+16        (1) Zone 3F – Signature. If used, the Department or agency must place the cardholder
+17            signature below the photograph and cardholder name. The space for the signature
+18            must not interfere with the contact and contactless placement. Because of card
+19            surface space constraints, placement of a signature may limit the size of the optional
+20            two-dimensional bar code.
+21
+22        (2) Zone 6F – Portable Data File (PDF) Two-Dimensional Bar Code. If used, the PDF
+23            bar code placement must be as depicted in Figure 3 (i.e., left side of the card). If
+24            Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be
+25            affected. The card issuer should confirm that a PDF used in conjunction with a PIV
+26            Card containing a cardholder signature will satisfy the anticipated PDF data storage
+27            requirements.
+28
+29        (3) Zone 13F – Issue Date. If used, the card issuance date must be printed above the
+30            Zone 14F expiration date in YYYYMMMDD format.
+31
+32        (4) Zone 16F – Photo Border. A border may be used with the photo to further identify
+33            employee affiliation. This border may be used in conjunction with Zone 15F to
+34            enable Departments and agencies to develop various employee categories. The
+35            photo border must not obscure the photo. The border may be a solid or patterned
+36            line. For solid and patterned lines, red must be reserved for emergency response
+37            officials, blue for foreign nationals, and green for contractors. All other colors may
+38            be used at the Department or agency’s discretion.
+39
+40        (5) Zone 21F – Edge Ridging or Notched Corner Tactile Marker. If used, this area
+41            must incorporate edge ridging or a notched corner to indicate card orientation.
+42            Departments and agencies should ensure such alterations are closely coordinated
+43            with the card vendor or manufacturer to ensure the card material integrity and
+44            printing process is not adversely impacted.
+45
+
+
+
+                                                   E-3
+ 1          (6) Zone 22F –Laser Engraving Tactile Marker. If used, tactilely discernible marks
+ 2              must be created using laser engraving to indicate card orientation. There must be an
+ 3              opening in the lamination foil where laser engraving is performed. Departments
+ 4              and agencies should ensure such alterations are closely coordinated with the card
+ 5              vendor or manufacturer to ensure the card material integrity and printing process is
+ 6              not adversely impacted.
+ 7
+ 8
+ 9     Figure 3, Front of PIV Credential, below provides a graphic copy of the front of a PIV
+10     Credential Badge and explanation of the zones.
+11
+12
+13                               FIGURE 3 – Front of PIV Credential
+
+
+
+
+14
+15
+16
+17   2. BACK REQUIREMENTS OF PIV CREDENTIAL
+18
+19     a.   Mandatory Items on the Back of the PIV Card
+20
+21          (1) Zone 1B – Agency Card Serial Number. This item must be printed as depicted in
+22              Figure 4, Back of PIV Credential and contain the unique serial number from the
+23              issuing Department or agency. The format is at the discretion of the issuing
+24              Department or agency.
+25
+
+
+                                                   E-4
+ 1         (2) Zone 2B – Issuer Identification Number. This item must be printed as depicted in
+ 2             Figure 4 and consist of six characters for the Department code, four characters for
+ 3             the agency code, and a five-digit number that uniquely identifies the issuing facility
+ 4             within the Department or agency.
+ 5
+ 6        b.     Optional Items on the Back of the PIV Card – Available through the GSA USAccess
+ 7               Program
+ 8
+ 9             (1) Zone 4B – Return Address. If used, the “return if lost” language must be generally
+10                 placed on the back of the card.
+11
+12             (2) Zone 5B – Physical Characteristics of Cardholder. If used, the cardholder physical
+13                 characteristics (e.g., height, eye color, hair color) must be printed in the general area
+14                 illustrated in Figure 4.
+15
+16          (3) Zone 7B – Standard Section 499, Title 18 Language. If used, standard Section 499,
+17              Title 18, language warning against counterfeiting, altering, or misusing the card
+18              must be printed in the general area depicted in Figure 4.
+19
+20   c.        Optional Items on the Back of the PIV Card – Not Available through the GSA
+21             USAccess Program
+22
+23             (1) Zone 3B – Magnetic Stripe. If used, the magnetic stripe must be high coercivity
+24                 and placed in accordance Figure 4.
+25
+26             (2) Zone 6B – Additional Language for Emergency Response Officials. Departments
+27                 and agencies may choose to provide additional information to identify emergency
+28                 response officials or to better identify the cardholder’s authorized access. If used,
+29                 this additional text must be in the general area depicted and must not interfere with
+30                 other printed text or machine-readable components.
+31
+32             (3) Zone 8B – Linear 3 of 9 Bar Code. If used, a linear 3 of 9 bar code must be
+33                 generally placed as depicted in Figure 4. It must be in accordance with Association
+34                 for Automatic Identification and Mobility (AIM) standards. Beginning and end
+35                 points of the bar code will be dependent on the embedded contactless module
+36                 selected. Departments and agencies are encouraged to coordinate placement of the
+37                 bar code with the card vendor.
+38
+39             (4) Zone 9B – Agency-Specific Text. In cases in which other defined optional
+40                 elements are not used, Zone 9B may be used for other Department or agency-
+41                 specific information. For example, emergency response officials may use this area
+42                 to provide additional details.
+43
+44             (5) Zone 10B – Agency-Specific Text. Zone 10 is similar to Zone 9 in that it is another
+45                 area for providing Department or agency-specific information. For Zones 9 and 10,
+46                 Departments and agencies are encouraged to use this area prudently and minimize
+
+                                                         E-5
+ 1            printed text to that which is absolutely necessary. In the case of the Department of
+ 2            Defense, the back of the card will have a distinct appearance. This is necessary to
+ 3            display information required by the Geneva Accord and to facilitate legislatively
+ 4            mandated medical entitlements.
+ 5
+ 6   Figure 4, Back of PIV Credential, below provides an example of the back of a PIV
+ 7   Credential Badge and explanation of badge zones.
+ 8
+ 9
+10                             FIGURE 4 – Back of PIV Credential
+11
+12
+
+
+
+
+13
+14
+
+15
+
+
+
+
+                                                  E-6
+ 1   Figure 5, LincPass Topology, below provides an example of the LincPass topology. The
+ 2   LincPass name bar color coding is explained in the section below the LincPass badge.
+ 3
+ 4
+ 5                                  FIGURE 5 – LincPass Topology
+ 6
+
+
+
+
+ 7
+ 8
+ 9
+10
+11   3. USDA LINCPASS NAME BAR COLOR CODING
+12
+13      a.   Coding for Federal Employee – White. An individual employed by, detailed to, or
+14           assigned to USDA under the authority of 5 U.S.C. § 2105, Employee, and receives
+15           Government funding for services rendered.
+16
+17      b.   Coding for USDA Affiliation – Contractors: Green. An individual under contract (i.e.,
+18           prime or sub-contract) to USDA requiring routine unaccompanied access to USDA-
+19           controlled facilities and USDA-controlled information systems.
+20
+21      c.   Coding for USDA Affiliation – Associate or Dignitary: White. An individual under a
+22           grant or agreement to USDA requiring routine unaccompanied access to USDA-
+23           controlled facilities and USDA-controlled information systems.
+24
+25      d.   Coding for USDA Affiliation – Foreign National: Blue. An individual who is
+26           employed by, detailed to, or assigned to USDA but who is not a citizen or permanent
+27           resident alien of the U.S. The foreign national color coding takes precedence over the
+28           Federal Employee, Contractor, or Associate or Dignitary color designation.
+29
+
+
+                                                     E-7
+ 1   e.   Coding for USDA Affiliation—Federal Emergency Response Official (FERO). A
+ 2        FERO will be annotated with a red band in the footer. Mission Area, agency, or staff
+ 3        offices are responsible for determining who should be authorized the coding of FERO.
+ 4
+ 5   Figure 6, Site Credential Topology, below provides an example of a Site Credential badge
+ 6   topology.
+ 7
+ 8
+ 9                            FIGURE 6 – Site Credential Topology
+10
+11
+
+
+
+
+12
+13
+
+
+
+
+14
+
+                                                 E-8
+ 1
+ 2   Figure 7, Visitor Site Badge Topology, below provides an example of USDA Visitor Site Badge
+ 3   topology.
+ 4
+ 5
+ 6                             FIGURE 7 – Visitor Site Badge Topology
+ 7
+
+
+
+
+ 8
+ 9
+
+
+
+
+10
+11
+12
+13
+
+
+                                                   E-9
+ 1   Figure 8, Paper Visitor Pass, below provides an example of a paper Visitor Pass.
+ 2
+ 3
+ 4                                   FIGURE 8 – Paper Visitor Pass
+ 5
+
+
+
+
+ 6
+ 7
+ 8
+ 9   4. PIV-I TOPOLOGY
+10
+11      The PIV-I cards are visually different from a PIV card as shown below. PIV-I credential
+12      orientation is landscape vs. portrait orientation of PIV.
+13
+14
+15   5. FRONT REQUIREMENTS OF PIV-I CREDENTIAL
+16
+17      a.   Mandatory Items on the Front of the PIV-I Card
+18
+19           (1) Zone 1F-I – Photo
+20
+21           (2) Zone 2F-I – Full Name
+22
+23
+
+                                                    E-10
+ 1
+ 2
+ 3        (3) Zone 7F-I – Circuit Chip
+ 4
+ 5        (4) Zone 9F-I – Header (Static – “United States Government)
+ 6
+ 7        (5) Zone 10F-I – Agency, Department, or Organization Affiliation
+ 8
+ 9        (6) Zone 11F-I – Agency Seal
+10
+11        (7) Zone 14F-I – Expiration Date
+12
+13        (8) Zone 15F-I – Color Name Bar
+14
+15        (9) Zone 18F-I – Affiliation Color Code
+16
+17        (10) Zone 19F-I – Expiration Date
+18
+19        (11) Zone 20F-I – Organizational Affiliation Abbreviation
+20
+21   b.   Optional Items on the Front of the PIV-I Card – Available through the GSA USAccess
+22        Program
+23
+24        (1) Zone 4F-I – Agency Specific Text
+25
+26        (2) Zone 5F-I – Rank
+27
+28        (3) Zone 17F-I – Agency Specific Data
+29
+30   c.   Optional Items on the Front of the PIV-I Card – Not Available through the GSA
+31        USAccess Program
+32
+33        (1) Zone 3F-I – Signature
+34
+35        (2) Zone 6F-I – Portable Data File (PDF) Two-Dimensional Bar Code
+36
+37        (3) Zone 12F-I – Footer
+38
+39        (4) Zone 13F-I – Issue Date
+40
+41        (5) Zone 16F-I – Photo Border
+42
+43                      FIGURE 9 - AltLinc PIV-I Topology – Card Front
+44
+
+
+
+                                                 E-11
+1
+
+
+
+
+ 2
+ 3
+ 4
+ 5
+ 6   6. BACK REQUIREMENTS OF PIV-I CREDENTIAL
+ 7
+ 8     a.   Mandatory Items on the Back of the PIV-I Card
+ 9
+10          (1) Zone 1B-I – Serial Number
+11
+12          (2) Zone 2B-I – Issuer Identification Number
+13
+14          (3) Zone 3B-I – Magnetic Stripe
+15
+16          (4) Zone 4B-I – Return Address
+17
+18          (5) Zone 5B-1 – Physical Characteristics
+19
+20          (6) Zone 7B-I – Section 499, Title 18 Language
+21
+22          (7) Zone 8B-I – 3 of 9 Bar Code
+23
+24     b.   Optional Items on the Back of the PIV-I Card – Not Available through the GSA
+25          USAccess Program
+26
+
+                                                 E-12
+1   (1) Zone 6B-I – Additional Language for Emergency Response Officials
+2
+3
+4                FIGURE 10 - AltLinc PIV-I Topology – Card Back
+5
+
+
+
+
+6
+
+7
+
+
+
+
+                                        E-13
+ 1                                         APPENDIX F
+ 2
+ 3   MEMORANDUM FOR MISSION AREAS, AGENCIES AND STAFF OFFICES
+ 4
+ 5   THROUGH: Anita R. Adkins
+ 6   Director, Office of Human Resources Management (OHRM)
+ 7   Donald W. Baker Jr.
+ 8   Director, Office of Contracting and Procurement (OCP) (Acting)
+ 9
+10   FROM: Matt Allen
+11   Director, Office of Homeland Security (OHS)
+12
+13   SUBJECT: Hiring Non-United States (U.S.) Citizens as Federal Employees or
+14   Federal Contractors
+15
+16   Effective Date: The Memorandum supersedes memorandum dated April 17, 2023
+17
+18   Expiration Date: Effective until canceled, superseded or incorporated in Departmental
+19   Regulation
+20
+21   BACKGROUND: Executive Order 11935, Citizenship Requirements for Federal
+22   Employment (September 2, 1976) restricts appointing non-citizens in competitive service
+23   positions covered by Title 5, United States Code (U.S.C.). Since the passage of the
+24   Immigration Reform and Control Act of 1986, employers have been responsible for ensuring
+25   that the people they hire are eligible to work in the United States (U.S.). The Immigration
+26   and Nationality Act of 1990 added other requirements, one of which is that employers may
+27   not discriminate against employees by requesting more or different documents than required.
+28   The Immigration and Nationality Act, as modified, provides at 8 U.S.C. 1324(a), that it is
+29   unlawful for a person or other entity to employ an undocumented noncitizen. In 1996, Public
+30   Law (P.L.) 104-208 stated that the term “entity” includes an entry in any branch of the
+31   Federal Government. Regulations that implement immigration laws are published in Title 8,
+32   Code of Federal Regulations (CFR).
+33
+34   PURPOSE: The purpose of this memorandum is to implement 5 CFR 7.3, §213.3102(bb),
+35   and §338.101, in conjunction with the Immigration Reform and Control Act of 1986,
+36   Immigration and Nationality Act of 1990, P.L. 104-208, 8 U.S.C. 13249(a), 8, CFR 274(a),
+37   the Consolidated Appropriations Act (Fiscal Year 2022, Division E, Section 704) ban on
+38   paying certain non-citizen, general statutory restrictions that may be applicable to Mission
+39   Areas, Agencies and Staff Offices, and general statutory restrictions on the expenditure of
+40   funds.
+41
+42   This memorandum applies to all competitive service Federal positions and Federal contractor
+43   positions within the U.S. Department of Agriculture in the continental United States. This
+44   memorandum does not apply to non-U.S. citizens who are:
+45   a. A citizen of another country and the U.S. at the same time (dual U.S. citizenship or dual
+46   U.S. nationality).
+
+                                                  F-1
+ 1
+ 2   b. Hired for excepted service or Senior Executive Service Federal appointments in the
+ 3   continental U.S., as permitted by immigration law and any appropriations act ban.
+ 4
+ 5   c. Employed by a Federal contractor on a temporary H-1B (Specialty Occupation) visa in
+ 6   accordance with immigration laws.
+ 7
+ 8   d. Working with USDA through formal educational and professional exchange programs,
+ 9   such as USDA sponsored J-1 visa holders.
+10
+11   e. Supporting USDA through international agreements for resources, such as wildland
+12   firefighters with the Forest Service for not more than 120 days, with another country.
+13
+14   f. Deferred Action for Childhood Arrivals (DACA) recipients obtaining Federal internships
+15   through third-party organizations or fellowship programs.
+16
+17   g. Locally Employed Staff (LE Staff) providing support in U.S. embassies and consulates
+18   worldwide.
+19
+20   POLICY:
+21   It is the policy of the Federal Government to employ only U.S. citizens or persons owing
+22   permanent allegiance to the U.S. under 5 CFR 213.3102(bb)1a non-citizen may be hired in
+23   the absence of a qualified citizen when authorized by the Office of Personnel Management
+24   (OPM). §7.3(c) grants OPM the authority, as an exception to this rule and to the extent
+25   permitted by law, to authorize the appointment of noncitizens to positions in the competitive
+26   service when necessary to promote the efficiency of the service in specific cases or for
+27   temporary appointments. Non-citizens may only be employed in positions that do not involve
+28   significant authority and responsibility in connection with the management of the
+29   Department. The term “management” includes, but is not limited to, planning, programming,
+30   policy formulation, direction, supervision of operations, and control.
+31
+32   A non-citizen hired in the absence of a qualified citizen may only be given a Schedule A
+33   excepted appointment (5 CFR 213.3102(bb) and must be approved by OPM. The position
+34   must be withdrawn from the competitive service for the period it is filled by the non-citizen.
+35   T non-citizen hire will not acquire competitive status and may not be promoted or reassigned
+36   to another position in the competitive service, except in situations where a qualified citizen is
+37   not available.
+38
+39   Non-citizens may only be employed through Schedule A if all of the requirements of general
+40   statutory restrictions on the expenditure of funds, special statutory restrictions applicable to
+41   USDA, Immigration law, and the Appropriations Act ban on pay are met. Additionally, only
+42   OPM is authorized to approve exceptions to this rule and appoint noncitizens in the
+43   competitive service when the hire is a temporary appointment, or the position ensures the
+44   efficiency of the service (Title 5 CFR § 7.3).
+
+
+
+
+                                                   F-2
+ 1   Unlawful Employment of Aliens -- Criminal Penalties. Title 8 U.S.C. §1324a(a)(1)(A) makes
+ 2   it unlawful for any person or other entity to hire, recruit, or refer for a fee, for employment in
+ 3   the United States an alien knowing the alien is an unauthorized alien.
+ 4   Annual appropriations prohibit the use of funds for the compensation of any Federal
+ 5   government employee or officer in the continental United States unless that person is:
+ 6   a. A U.S. citizen,
+ 7
+ 8   b. A Lawful Permanent Resident (LPR) who is applying for naturalization,
+ 9
+10   c. A person admitted as a refugee or granted asylum who has filed a declaration of intent to
+11   become an LPR and eventually a U.S. citizen, or
+12
+13   d. A non-citizen, U.S. national who owes allegiance to the United States (e.g., a person born
+14   in American Samoa).
+15
+16   Mission Areas, Agencies, and Staff Offices shall adhere to the below position designation
+17   alignment standards:
+18   a. Low Risk (Non-Sensitive) duties may be performed by U.S. Citizens or non-U.S. Citizens.
+19   If the individual has not continuously resided in the U.S. or its territories for the last three or
+20   more years immediately preceding federal affiliation, they must have an alternative Special
+21   Agreement Check (SAC) completed. A Tier 1 must be initiated as soon as they meet the
+22   residency requirement.
+23
+24   b. Moderate Risk (Public Trust) duties may be performed by U.S. Citizens or LPRs with at
+25   least three or more years of U.S. residency from the date of legal entry to the U.S. in order to
+26   meet investigative requirements.
+27
+28   c. High Risk (Public Trust) duties may be performed only by U.S. Citizens.
+29
+30   Non-U.S. citizens must have the appropriate fully adjudicated background investigation
+31   before the establishment of a work start date.
+32   Current non-U.S. citizens in positions that do not align with this memorandum may be
+33   reviewed OHRM on a case-by-case basis while they continue working. If the individual
+34   moves positions, they are subject to the above restrictions.
+35
+36   CONTRACTOR EMPLOYMENT ELIGIBILITY VERIFICATION.
+37   Federal Acquisition Regulation (FAR) Subpart 22.18 section 22.1802:2
+38   2 https://www.acquisition.gov/far/part-22
+39   a. Statutes and Executive orders require employers to abide by the immigration laws of the
+40   United States and to employ in the United States only individuals who are eligible to work in
+41   the United States. The E-Verify program provides an Internet-based means of verifying
+42   employment eligibility of workers employed in the United States but is not a substitute for
+43   any other employment eligibility verification requirements.
+44
+45   b. Contracting officers shall include in solicitations and contracts, as prescribed at 22.1803,
+46   requirements that Federal contractors must-
+
+                                                    F-3
+ 1
+ 2   c. Enroll as Federal contractors in E-Verify;
+ 3
+ 4   d. Use E-Verify to verify employment eligibility of all new hires working in the United
+ 5   States, except that the contractor may choose to verify only new hires assigned to the contract
+ 6   if the contractor is-
+ 7
+ 8   i. An institution of higher education (as defined at 20 U.S.C. 1001(a));
+ 9
+10   ii. A State or local government or the government of a Federally recognized Indian tribe; or
+11
+12   iii. A surety performing under a takeover agreement entered into with a Federal agency
+13   pursuant to a performance bond;
+14   e. Use E-Verify to verify employment eligibility of all employees assigned to the contract;
+15   and
+16
+17   f. Include these requirements, as required by the clause at 52.222-54, in subcontracts for-
+18
+19   (i) Services, except for commercial services that are part of the purchase of a commercially
+20   available off-the-shelf (COTS) item (or an item that would be a COTS item, but for minor
+21   modifications), performed by the COTS provider, and are normally provided for that COTS
+22   item; and construction.
+23   Mission Areas, Agencies, and Staff Offices shall adhere to the below position designation
+24   alignment standards:
+25   a. Low Risk (Non-Sensitive) duties may be performed by U.S. Citizens or non-U.S. Citizens.
+26   If the individual has not continuously resided in the U.S. or its territories for the last three or
+27   more years immediately preceding federal affiliation, they must have an alternative Special
+28   Agreement Check (SAC) completed. A Tier 1 must be initiated as soon as they meet the
+29   residency requirement.
+30
+31   b. Moderate Risk (Public Trust) duties may be performed by U.S. Citizens or LPRs with at
+32   least three or more years of U.S. residency from the date of legal entry to the U.S. in order to
+33   meet investigative requirements.
+34
+35   c. High Risk (Public Trust) duties may be performed only by U.S. Citizens.
+36
+37   Non-U.S. citizens must have the appropriate fully adjudicated background investigation
+38   before the establishment of a work start date.
+39   Current non-U.S. citizens in positions that do not align with this memorandum may be
+40   reviewed OHRM and OCP respectively on a case-by-case basis in while they continue
+41   working. If the individual moves positions, they are subject to the above restrictions.
+42
+43   APPROVAL PROCESS for EMPLOYEES: In cases where no qualified U.S. citizens or
+44   nationals are available to fill a competitive service position, the respective servicing HR
+45   office must submit a request to OHRM for review and submission to OPM for approval to
+
+
+
+                                                     F-4
+ 1   remove the position from the competitive service and fill it with an eligible non-citizen,
+ 2   provided immigration law and other legal requirements are met. The request should contain:
+ 3   a. A thorough justification why a U.S. citizen cannot be hired to fill the position, including a
+ 4   detailed description of their efforts to recruit qualified U.S. citizens;
+ 5
+ 6   b. A detailed justification of the qualifications of the non-U.S. citizen;
+ 7
+ 8   c. A copy of the official position description;
+ 9
+10   d. A copy of the vacancy announcement; and
+11
+12   e. The applications from other candidates and a detailed justification explaining why they
+13   were not selected.
+14
+15   In cases where OPM grants approval, the position remains in the excepted service for the
+16   duration it is filled by the eligible non-U.S. citizen.
+17
+18   WAIVER PROCESS for CONTRACTORS: The E-Verify program provides an internet-
+19   based means of verifying the employment eligibility of workers employed in the United
+20   States. Without exception, non-U.S. citizens must be verified through the e-Verify program.
+21   Individuals hired to perform work under FAR Clause 52.222-54 and verified through E-
+22   verify may perform work in low and moderate risk positions without waiver. A waiver may
+23   not be granted for work in high-risk public trust positions.
+24
+25   POLICY EXCEPTIONS
+26   Although Federal appropriations laws and regulations significantly limit the availability of
+27   Federal employment for Deferred Action for Childhood Arrivals (DACA) recipients, these
+28   limitations do not entirely exclude them from performing any work in Federal government
+29   offices. DACA recipients may be employed in a Schedule C position. A Schedule C
+30   employee is determining nature or because it involves a close and confidential working
+31   relationship with the agency head or other top appointed official. Persons with this type of
+32   appointment range from secretaries and chauffeurs to policy advisors. Appointments to
+33   Schedule C positions require advance approval from the White House Office of Presidential
+34   Personnel and OPM. OPM does not review the qualifications of a Schedule C appointee;
+35   final authority on this matter rests with the appointing official [5 CFR 213.3301].
+36   one occupying a position that is excepted from the competitive service because of its policy-
+37   determining nature or because it involves a close and confidential working relationship with
+38   the agency head or other top appointed official. Persons with this type of appointment range
+39   from secretaries and chauffeurs to policy advisors. Appointments to Schedule C positions
+40   require advance approval from the White House Office of Presidential Personnel and OPM.
+41   OPM does not review the qualifications of a Schedule C appointee; final authority on this
+42   matter rests with the appointing official [5 CFR 213.3301].3
+43   The J-1 visa status permits a qualified nonimmigrant alien, i.e., an alien who is not a lawful
+44   permanent resident (also known as a “green card holder”), to temporarily reside in the United
+45   States to teach, study, observe, conduct research, consult, demonstrate special skills or
+
+
+
+                                                       F-5
+ 1   receive on-the-job training for periods ranging from a few weeks to several years at colleges
+ 2   and universities, hospitals, research institutions, as well as the private sector.
+ 3   The H-1B program applies to employers seeking to hire nonimmigrant aliens as workers in
+ 4   specialty occupations or as fashion models of distinguished merit and ability. A specialty
+ 5   occupation is one that requires the application of a body of highly specialized knowledge and
+ 6   the attainment of at least a bachelor’s degree or its equivalent. The intent of the H-1B
+ 7   provisions is to help employers who cannot otherwise obtain needed business skills and
+ 8   abilities from the US workers by authorizing the temporary employment of qualified
+ 9   individuals who are not otherwise authorized to work in the US. USDA Mission Areas,
+10   Agencies and Staff Offices are not prohibited awarding contracts to companies that hire
+11   immigrants on H-1B visas.
+12
+13   INQUIRIES: Questions regarding this memorandum can be directed to:
+14   OHRM: Michael Rafferty, Director, Human Resources Policy Division at:
+15   Michael.Rafferty@usda.gov
+16   OCP: Chief, Procurement Policy Division (PPD) at: Procurement.Policy@usda.gov
+17   OHS: Personnel Security Questions: PerSec@usda.gov//Foreign Visitor Questions:
+18   FVALiaison@usda.gov
+19   OPI: Office of Human Resources Management and Office of Contracting and Procurement.
+20
+
+
+
+
+                                                 F-6
+ 1                                          APPENDIX G
+ 2
+ 3   MEMORANDUM FOR AGENCY USDA PERSONNEL SECURITY OFFICES
+ 4
+ 5   FROM: Camellia Murdock
+ 6   Chief, Personnel and Document Security Division (PDSD)
+ 7
+ 8   SUBJECT: INVESTIGATION REQUIREMENTS FOR FOREIGN
+ 9   NATIONALS NOT MEETING U.S. RESIDENCY
+10   REQUIREMENTS FOR A TIER 1
+11
+12   BACKGROUND
+13   On December 15, 2020, the Office of Personnel Management (OPM), in its capacity
+14   as the Credentialing Executive Agent and Suitability Executive Agent, issued a
+15   memorandum titled, Credentialing Standards Procedures for Issuing Personnel
+16   Identity Verification Cards under HSPD-12 and New Requirements for Suspension
+17   or Revocation of Eligibility for Personal Identity Verification Credentials
+18   (Credentialing Standards).
+19
+20   The memorandum guidance covers all individuals including any person who
+21   performs, or who seeks to perform, work for or on behalf of the executive branch,
+22   such as Federal employees and contractors, or those who interact with the executive
+23   branch, such as guest researchers, volunteers, and seasonal employees, in a way that
+24   requires vetting.
+25
+26   The intent of the memorandum was to provide greater detail and clarity on several
+27   areas, to include existing policy on the investigation requirements and credentialing
+28   process for non-United States nationals (foreign nationals). Due to limitations in an
+29   Investigative Service Provider’s (ISP) ability to collect background investigation
+30   information in locations outside the United States, alternative investigative action is
+31   needed for a foreign national.
+32
+33   INVESTIGATION REQUIREMENTS
+34   Prior to releasing a background investigation on a foreign national, Personnel
+35   Security offices must review the “Where You Have Lived” section on the Standard
+36   Form 85, Questionnaire for Non-Sensitive Positions.
+37    A Tier 1 investigation can be requested on a foreign national who has been
+38   in the United States or a United States Territory for 3 or more years,
+39   continuously and immediately preceding the start of Federal affiliation.
+40    A Tier 1 investigation cannot be requested on a foreign national who has
+41   been in the United States or a United States Territory for less than 3 years
+42   preceding the start of Federal affiliation.
+43
+44   For foreign nationals who do not meet the above residency requirement for a Tier 1,
+45   Personnel Security offices must alternatively request a Special Agreement Check
+46   (SAC – OFI 86C, updated June 2022), case type 92, with our ISP, the Defense
+
+                                                   G-1
+ 1   Counterintelligence and Security Agency (DCSA), coded accordingly to obtain the
+ 2   following four checks:
+ 3   a. FBI fingerprint based National Criminal History Check (NCHC) – code
+ 4   B0 (numerical zero); must obtain a classifiable result. Resubmit new
+ 5   fingerprint chart if initial result is returned as unclassifiable.
+ 6   b. FBI Investigations Files (FBIF; Name Check) – code C0 (numerical zero)
+ 7   c. Name check against the Terrorist Screening Database (TSDB) – satisfied
+ 8   through the above classifiable FBI fingerprint check which includes a
+ 9   check of the Known and Suspected Terrorist File.
+10   d. US Citizenship and Immigration Services (USCIS) check against the
+11   Systematic Alien Verification for Entitlements (SAVE) program – code I0
+12   (numerical zero)
+13
+14   This alternative SAC option provided by DCSA is supported by PDSD and is
+15   effective immediately. PDSD will include this language in future Departmental
+16   Regulation (DR) updates.
+17
+18   The requesting agency is required to maintain the signed release for the individual
+19   from the SF85 to support the SAC. Personnel Security offices will document these
+20   checks as SACs (Inv Type field) on the Entry on Duty screen in the web-based
+21   Security Entry Tracking System (webSETS).
+22
+23   Foreign nationals who have a favorably adjudicated SAC will be issued an
+24   alternative identity credential until the individual has resided for 3 years in the
+25   United States or United States Territory, at which time a Tier 1 investigation can be
+26   requested.
+27
+28   In addition to the SAC submission, and to further support the overall risk
+29   determination on a foreign national, agencies are reminded to submit foreign
+30   national vetting (FNV) checks to the Office of Homeland Security (OHS) in
+31   accordance with DR 4600-004, Foreign National Visits and Assignments Vetting,
+32   which requires additional screening on a foreign national prior to their arrival or
+33   onboarding of a foreign national at a USDA facility, or working remotely, in the
+34   United States.
+35
+36   QUESTIONS
+37   For questions concerning Personnel Security requirements, please contact Dianica
+38   Knox at Dianica.knox@usda.gov.
+39   For questions concerning the FNV program, please contact Carrie Moore at
+40   carrie.moore@usda.gov.
+41
+
+
+
+
+                                                  G-2
+

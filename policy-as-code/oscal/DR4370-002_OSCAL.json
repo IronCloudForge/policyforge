@@ -1,0 +1,144 @@
+{
+  "catalog": {
+    "uuid": "b67ac422-996a-5d81-8af8-9e543587ffed",
+    "metadata": {
+      "title": "USDA DR4370-002: Providing a Receipt for Service or Denial of Service by the Farm Service Agency, the Natural Resources Conservation Service, the Rural Business Service, the Rural Housing Service, and the Rural Utilities Service.",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2011-11-28",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4370-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2011-11-28"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4370-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "upon request by any inquirer, applicant, or customer, denoting the date, place,",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4370-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "upon request by any inquirer, applicant, or customer, denoting the date, place,"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "30e87c74-03bc-5306-92e9-98349f3a8877",
+        "class": "section",
+        "title": "Abbreviations/Definitions",
+        "controls": [
+          {
+            "id": "dr4370-002-5",
+            "class": "policy-requirement",
+            "title": "Abbreviations/Definitions",
+            "parts": [
+              {
+                "id": "dr4370-002-5-stmt",
+                "name": "statement",
+                "prose": "Within the context of this DR, the following definitions apply:\n\n     a.     Agency. A major program organizational unit of the Department of Agriculture\n            (“USDA”) with delegated authorities to deliver rural development, agricultural or\n            food programs, activities, benefits, and services, i.e. the Farm Service Agency\n            (“FSA”), the Natural Resources Conservation Service (“NRCS”), the Rural\n            Business Service, the Rural Housing Service, and the Rural Utilities Service\n            (collectively, “the Rural Development Mission Area” or “RD”).\n\n     b.     Applicant. A person or legal entity who has submitted an application for benefits\n            or services provided by an Agency, whether such application is complete or\n            incomplete.\n\n     c.     Benefit. Any Federal financial assistance or support provided by an Agency to\n            the public.\n\n     d.     Customer. A person or legal entity that has requested or received any benefits or\n            services provided by an Agency.\n\n     e.     Date of the Request. The calendar day, month, and year on which an inquirer,\n            applicant, or customer asks for a benefit or service from an Agency.\n\n     f.     Inquirer. A person or legal entity who requests information about any benefit or\n            service provided by an Agency.\n\n     g.     Landowner. A person or legal entity who is in legal possession of real property.\n\n     h.     Legal entity. A corporation, partnership, joint operation, cooperative, limited\n            liability corporation, trust, or association doing business.\n\n     i.     Person. An individual, natural person. Person does not include a legal entity.\n\n     j.     Producer. A person or legal entity engaged in the production of agriculture.\n\n     k.     Place. The address of the inquirer, applicant, or customer requesting a Receipt for\n            Service, or the address of the area to which the benefit or service sought would be\n            applied.\n\n     l.     Receipt. The Department of Agriculture’s form, AD 2088, a document showing\n            compliance by the Agency with this DR and section 14003.\n\n     m.     Service. Any program, practice, or procedure provided to the public, including\n            technical assistance, by an Agency.\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6ebe693c-06ae-594a-b30b-cea631829a28",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr4370-002-6",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr4370-002-6-stmt",
+                "name": "statement",
+                "prose": "a.     Each Agency shall instruct its field employees by providing guidance about how\n            to comply with the Receipt for Service provision of the 2008 Farm Bill (section\n            14003 of the Food, Conservation and Energy Act of 2008 (7 U.S.C. §2279-1(e)).\n            Such guidance shall be consistent with this DR. Each Agency shall require that\n            when any inquirer, applicant, or customer who seeks information about or\n            requests any benefit or service provided by the Agency, upon request, he or she\n            shall be given a receipt (form AD-2088) by such Agency denoting the date, place,\n            subject of the request or inquiry, and the action taken, not taken, or recommended\n            by such Agency. Such a receipt shall be provided on the same date the inquiry or\n            request is made or received in person; in the case of inquiries or requests made by\n            FAX, email, or mail, including if such FAX, email, or mail is received during\n            non-business hours, the receipt shall be provided the next business day.\n\n     b.     The Office of Advocacy and Outreach shall maintain a toll-free telephone number\n            to allow any inquirer, applicant, or customer to report failure to comply with this\n            policy. Agencies shall display an informational poster in offices that provide the\n            toll-free number."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "036d6101-2da4-5c5f-978e-483f7fd1c4bc",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4370-002-7",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4370-002-7-stmt",
+                "name": "statement",
+                "prose": "Each Agency shall instruct its field staff on the Receipt for Service procedures reflected\n     in this DR and the use of form AD-2088 within 30 days of the issuance of this DR.\n\n     Failure to comply with the instructions in this DR could result in disciplinary action.\n\n                                            -END-\n\n\n\n\n                                              3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "03aa816b-a73b-5cf9-8d79-5808f77f2b38",
+          "title": "USDA Directives — DR4370-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4370-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

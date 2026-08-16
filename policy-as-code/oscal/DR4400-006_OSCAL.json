@@ -1,0 +1,364 @@
+{
+  "catalog": {
+    "uuid": "2f82ed3d-c6eb-5de8-b7d8-23df45c06791",
+    "metadata": {
+      "title": "USDA DR4400-006: USDA Smoking Policy",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2009-07-28",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4400-006"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2009-07-28"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4400-006",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Procurement &, Property Management, PMD",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4400-006",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Procurement &, Property Management, PMD"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "9e9193c8-30d9-5179-9481-df501af416af",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4400-006-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4400-006-1-stmt",
+                "name": "statement",
+                "prose": "This regulation sets forth the smoking policy for the Department of Agriculture\n   (USDA). Environmental tobacco smoke, also termed second-hand smoke, is\n   classified as a known human carcinogen by the Environmental Protection Agency.\n   In order to protect USDA employees, contractors, and visitors from the health hazards\n   of environmental tobacco smoke, this regulation prohibits smoking inside all USDA\n   facilities and motor vehicles."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f7e8cbeb-9a8b-5485-bc90-ba152b8401b3",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4400-006-2",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4400-006-2-stmt",
+                "name": "statement",
+                "prose": "It is USDA’s policy that smoking at USDA facilities is prohibited unless permissible\n   in areas that meet the conditions stipulated under SECTION 5b of this regulation, and\n   have been specifically designated as smoking areas by authorization of the head of\n   the facility’s lead agency. This regulation is effective immediately, in compliance\n   with 41 CFR, Part 102-74 and FMR Bulletin 2009-B1, Protecting Federal Employees\n   and the Public from Exposure to Tobacco Smoke in the Federal Workplace. Any\n   exceptions must be published in writing, approved by the head of the facility’s lead\n   agency and provide for the protection of nonsmokers from exposure to environmental\n   tobacco smoke. Changes in conditions of employment for bargaining unit employees\n   must be implemented pursuant to 5 U.S.C. Chapter 71."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5d62a26c-6ae7-5575-bf3d-2ec0acd2f9ef",
+        "class": "section",
+        "title": "Special Instructions/Cancellation",
+        "controls": [
+          {
+            "id": "dr4400-006-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellation",
+            "parts": [
+              {
+                "id": "dr4400-006-3-stmt",
+                "name": "statement",
+                "prose": "This regulation is a revision of DR 4400-6, and cancels DR 4400-6, USDA Smoking\n   Policy, dated December 16, 1996."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3c4efd24-8c94-564f-8f4c-532310dc38a9",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr4400-006-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr4400-006-4-stmt",
+                "name": "statement",
+                "prose": "On August 9, 1997, President Clinton signed Executive Order (EO) 13058, entitled\n   Protecting Federal Employees and the Public from Exposure to Tobacco Smoke in the\n   Federal Workplace. On October 20, 1997, the General Services Administration\n\fDR 4400-006                                                                           July 28, 2009\n\n\n   (GSA) issued GSA Bulletin FPMR D-245, Protecting Federal Employees and the\n   Public from Exposure to Tobacco Smoke in the Federal Workplace. In accordance\n   with the requirements of EO 13058, the GSA Bulletin FPMR D-245 prohibited the\n   smoking of tobacco products in all interior space owned, rented or leased by the\n   executive branch, except in specially equipped designated smoking areas, outdoor\n   areas in front of air intake ducts and certain other residential and non-federal\n   occupied space. The bulletin also required the heads of executive agencies to\n   evaluate the need to restrict smoking in courtyards and near doorways.\n\n   Studies conducted since the issuance of GSA Bulletin FPMR D-245 have concluded\n   that cigarette smoking is the number one preventable cause of morbidity and\n   premature mortality worldwide. Studies also have shown that the harmful effects of\n   smoking are not confined solely to the smoker, but extend to co-workers and\n   members of the general public that are exposed to secondhand smoke as well.\n\n   E.O. 13058 encourages the heads of executive agencies to evaluate the need to further\n   restrict smoking at doorways and in courtyards and authorizes the agency heads to\n   restrict smoking in these areas in light of this evaluation. On\n   December 22, 2008, GSA issued FMR Bulletin 2009-B1, which replaces GSA\n   Bulletin FPMR D-245. The new bulletin requires executive agencies to prohibit the\n   smoking of tobacco products in all interior space owned, rented or leased by the\n   executive branch of the Federal Government, and in any outdoor areas under\n   executive branch control in front of air intake ducts. In addition, smoking is\n   prohibited in courtyards and within 25 feet of doorways and air intake ducts on\n   outdoor space under the jurisdiction, custody or control of GSA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "004c435d-0e4f-5cee-a957-c2ca7f77b479",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4400-006-5",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4400-006-5-stmt",
+                "name": "statement",
+                "prose": "a. Areas Affected. This policy applies to:\n\n       (1) All buildings and facilities (or portions thereof, including garages) owned,\n           leased, or occupied by USDA nationwide and everyone who enters such\n           USDA buildings and facilities including, but not limited to, USDA\n           employees, contractor employees, and visitors; and\n\n       (2) All USDA owned, commercially leased or GSA motor vehicles and\n           everyone who occupies such USDA vehicles including, but not limited to,\n           USDA employees, contractor employees, and visitors.\n\n   b. Areas Exempted. The smoking prohibition does not extend to:\n\n       (1) Outside areas except as required for fire safety, and as defined under Section\n           8h designated as smoking areas. The designation of such an area as an\n           Outside Smoking Area is further subject to the conditions specified under\n\n\n\n\n                                            2\n\fJuly 28, 2009                                                                             DR 4400-006\n\n\n                Section 7b below and the fulfillment of all applicable safety regulations and\n                requirements.\n\n        (2) Space in buildings used as personal quarters."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "553851ce-0591-58ed-8cc3-2965b26c6637",
+        "class": "section",
+        "title": "Authority",
+        "controls": [
+          {
+            "id": "dr4400-006-6",
+            "class": "policy-requirement",
+            "title": "Authority",
+            "parts": [
+              {
+                "id": "dr4400-006-6-stmt",
+                "name": "statement",
+                "prose": "This regulation is issued in accordance with 5 U.S.C. 301; 5 U.S.C. 7901; 29 U.S.C.\n    668; EO 13058; 41 CFR 102-74.315; and FMR Bulletin B-3."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "954c3e55-f21e-513e-b24c-99c92310fe2c",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr4400-006-7",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr4400-006-7-stmt",
+                "name": "statement",
+                "prose": "a. Inside USDA Facilities. All interior space in USDA facilities shall be smoke free,\n       including garages attached to facilities.\n\n    b. Outside Smoking Areas. Outside smoking areas will be designated when\n       possible, in locations which are reasonably accessible to workers outside of\n       interior parking areas, garages, courtyards or patio areas under the custody,\n       control and jurisdiction of USDA. Outside smoking areas must be located a\n       minimum of 25 feet away from entrances to enclosed areas, common points of\n       ingress and egress to USDA facilities, windows, and all types of HVAC air\n       handling and circulation systems, fulfill all applicable safety requirements, and\n       provide proper ventilation as defined under Section 8f.\n\n    c. Receptacles. Appropriate ash and filter receptacles will be provided and\n       maintained at all established smoking areas. Additional receptacles may be placed\n       at entrances not designated as smoking areas. Such receptacles should display a\n       sign containing the no smoking symbol.\n\n    d. Multi-tenant Buildings. Multi-tenant buildings shall be smoke free within the\n       confines of the assigned space over which USDA agencies have exclusive\n       custody and control including corridors, rest rooms, cafeterias, stairways, and\n       other public space on floors or within blocks of space assigned to USDA\n       agencies.\n\n    e. Motor Vehicles. Smoking is prohibited in USDA owned and GSA or\n       commercially leased vehicles, which are leased for more than 60 days and are\n       within the custody and control of USDA.\n\n    f. State or Local Government Ordinance vs. USDA Policy Control.\n       USDA leased space located in a privately owned building is subject to state and\n       local government smoking restrictions, if the restrictions are more stringent than\n       the USDA policy.\n\n\n\n\n                                                3\n\fDR 4400-006                                                                             July 28, 2009"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1a30e299-e5b2-5949-a1ae-150df19c6191",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4400-006-8",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4400-006-8-stmt",
+                "name": "statement",
+                "prose": "a. Smoking. The carrying or inhaling of a lighted cigar, cigarette, pipe, or other\n      lighted tobacco product.\n\n   b. USDA facility. Federally owned, leased, or occupied buildings and space in\n      buildings under the custody and/or control of USDA including GSA-leased space\n      occupied by USDA.\n\n   c. GSA-Leased Space. Space in privately owned buildings, which is leased through\n      GSA for use by USDA.\n\n   d. Labor/management agreements. Union and bargaining unit representation for\n      USDA employees. Where there is an exclusive representative for the employees,\n      USDA shall meet its obligations under 5 U.S.C. Chapter 71.\n\n   e. Motor Vehicles. All types of motorized government-owned or leased vehicles\n      assigned to USDA including, but not limited to, automobiles, ships, and aircraft.\n\n   f. Proper Ventilation. An outside area (as defined in 8h below) that provides no\n      direct air intake into a building through means that include but are not limited to\n      doors, windows and all types of HVAC air handling and circulation systems. A\n      USDA employee or contractor who is an expert in a relevant technical field and is\n      familiar with the building's ventilation system shall determine whether an area\n      meets the conditions to be suitable for designation as a smoking area. Final\n      designation of a smoking area remains subject to the approval of the head of the\n      lead agency at the respective USDA facility.\n\n   g. Personal Quarters. Housing provided by the USDA for the exclusive use as the\n      employee's residence.\n\n   h. Outside. Open areas located a minimum of 25 feet away from entrances to\n      enclosed areas, common points of ingress and egress to USDA facilities,\n      windows, and all types of HVAC air handling and circulation systems.\n\n   i. Multi-tenant. Buildings or facilities that are not solely occupied by, or under the\n      sole custody or control of, USDA.\n\n   j. Agency-approved. Smoking cessation programs specifically authorized by the\n      employee's agency."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "88f00f90-8f67-580b-9a2f-e3fe9979dcb8",
+        "class": "section",
+        "title": "Abbreviations",
+        "controls": [
+          {
+            "id": "dr4400-006-9",
+            "class": "policy-requirement",
+            "title": "Abbreviations",
+            "parts": [
+              {
+                "id": "dr4400-006-9-stmt",
+                "name": "statement",
+                "prose": "a. AGPMR - Agriculture Property Management Regulations\n\n\n\n\n                                            4\n\fJuly 28, 2009                                                                             DR 4400-006\n\n\n    b. CFR - Code of Federal Regulations\n\n    c. DR- Departmental Regulation\n\n    d. EO - Executive Order\n\n    e. FMR - Federal Management Regulation\n\n    f. FPMR - Federal Property Management Regulations\n\n    g. FPI - Federal Prison Industries, Inc.\n\n    h. GSA - General Services Administration\n\n    i. HVAC - Heating, Ventilation, & Air Conditioning\n\n    j. U.S.C. - United States Code\n\n    k. USDA - United States Department of Agriculture\n\n    l. WASC - Washington Area Service Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "47e8fe85-889d-5859-a509-85bf18cc9feb",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4400-006-10",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4400-006-10-stmt",
+                "name": "statement",
+                "prose": "a. Under and Assistant Secretaries will support and ensure compliance with the\n       USDA smoking policy as outlined in this regulation and implement this policy at\n       facilities and in motor vehicles under their control.\n\n    b. Agency Administrators and Staff Office Heads will support and ensure\n       compliance with the USDA smoking policy as outlined in this regulation and\n       implement this policy at facilities and in motor vehicles under their control as\n       directed by their Mission Area or Staff Office Head. The lead agency at each\n       USDA facility is authorized to select outside locations for smoking.\n\n        Agency Heads are responsible for ensuring that property owners/managers or\n        appropriate GSA representatives are consulted, as required, prior to\n        implementation of this directive. They shall ensure that all employees receive\n        advance notice of policy changes, and changes in the designations and locations\n        of outside smoking areas. Agency Heads are also responsible for implementing\n        an effective plan to provide smoking areas where possible, and to provide\n        employees with smoking cessation materials or smoking-cessation program(s) as\n        described in SECTION 11 below.\n\n\n\n\n                                               5\n\fDR 4400-006                                                                          July 28, 2009\n\n\n   c. USDA Employees shall abide by the requirements of this regulation. Employees\n      may pursue available training, educational, and counseling services for smoking\n      cessation.\n\n   d. Contractors and Visitors shall abide by this regulation.\n\n   e. The Washington Area Service Center will oversee smoking areas within the DC\n      Complex. Questions or comments related to the implementation of this regulation\n      in the DC Complex may be directed to (202) 720-6858."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0efda501-8697-5b59-a41e-91d46ec06dd9",
+        "class": "section",
+        "title": "Smoking Cessation Programs",
+        "controls": [
+          {
+            "id": "dr4400-006-11",
+            "class": "policy-requirement",
+            "title": "Smoking Cessation Programs",
+            "parts": [
+              {
+                "id": "dr4400-006-11-stmt",
+                "name": "statement",
+                "prose": "USDA supports agency use of available funds to implement smoking cessation\n   programs and provide related materials as follows:\n\n   a. Agencies may use available funds for education, training, and counseling related\n      to smoking cessation programs.\n\n   b. Agencies should develop program guidelines that specify what the agency will\n      fund and the number of times employees can attend USDA sponsored smoking\n      cessation programs. Agencies may survey employees on an annual basis to assess\n      the need for smoking cessation materials or programs. Employee participation in\n      educational, counseling, or cessation programs related to smoking is strictly\n      voluntary. However, employees should participate in agency surveys to help\n      assess agency need for smoking cessation materials or programs.\n\n   c. When agency-approved smoking cessation programs are scheduled during duty\n      hours, agencies may provide employees with short periods of excused absence to\n      participate in such programs. (Such programs should not be recurring and should\n      not continue over an extended or indefinite period.) Agencies may contact\n      organizations such as the American Cancer Society and its Employee Assistance\n      Program or may use existing programs from local area sources for the employees."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7ab3c2a8-1e07-5944-9dfe-d0b54b6b4ab2",
+        "class": "section",
+        "title": "Enforcement",
+        "controls": [
+          {
+            "id": "dr4400-006-12",
+            "class": "policy-requirement",
+            "title": "Enforcement",
+            "parts": [
+              {
+                "id": "dr4400-006-12-stmt",
+                "name": "statement",
+                "prose": "The success of the USDA Smoking Policy will depend upon the thoughtfulness,\n   consideration, and cooperation of both smokers and as well as nonsmokers.\n\n   a. Supervisors have the responsibility to enforce this policy for employees under\n      their supervision, following established administrative procedures; including, but\n      not limited to, cautions, counseling, and disciplinary actions, as appropriate.\n      Supervisors will take direct action when personally observing violations, and will\n      follow-up, as necessary, on reports by others. The agency’s Employee Relations\n      unit will provide assistance to employees and supervisors upon request.\n\n\n                                            6\n\fJuly 28, 2009                                                                            DR 4400-006\n\n\n    b. Employees or anyone observing violations of this policy should report the\n       situation to the offender’s supervisor when practical to do so. When the\n       supervisor is not readily identifiable, violations should be reported to the security\n       office, or to any security officer or facility manager. Persons reporting violations\n       of this directive shall not be subject to retribution or reprisal.\n\n    c. Security Officers or Facility Managers may enforce the smoking policy where it is\n       impractical for a supervisor to exercise authority, such as in common areas.\n       Refusal to comply with a security officer’s order may result in removal from the\n       premises and/or notification of the offender’s supervisor for appropriate\n       administrative action."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "784b1368-10af-5945-ad4d-00e41f0b6331",
+        "class": "section",
+        "title": "Signs",
+        "controls": [
+          {
+            "id": "dr4400-006-13",
+            "class": "policy-requirement",
+            "title": "Signs",
+            "parts": [
+              {
+                "id": "dr4400-006-13-stmt",
+                "name": "statement",
+                "prose": "Suitable signs announcing a \"Smoke Free Environment\" shall be placed on or near\n    entrance doors of all USDA facilities and motor vehicles subject to this regulation.\n    Signs should be procured and installed in cooperation with the GSA Buildings\n    Manager in buildings managed by GSA. It should not be necessary to display a sign\n    in every room of each building.\n\n    In accordance with the Federal Acquisition Regulation, Part 8, the mandatory source\n    of supply for the purchase of the required signage is UNICOR, Federal Prison\n    Industries, Inc. (FPI). Prior approval from FPI is required before using any other\n    source of supply. Information for the process on ordering the signs can be accessed\n    from the following website: www.unicor.gov or call (800) 827-3168.\n\n\n\n                                      - END -\n\n\n\n\n                                             7"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "883a90e7-4119-5a4a-b580-4551e259e466",
+          "title": "USDA Directives — DR4400-006",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4400-006",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "catalog": {
+    "uuid": "d1de35a9-1b3f-5e7a-9e4f-57555928bb10",
+    "metadata": {
+      "title": "USDA DR5400-006: Use of Fleet Charge Card and Alternative Payment Methods",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2009-03-06",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR5400-006"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2009-03-06"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-5400-006",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-5400-006",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "4bdebe92-2af9-5955-99c0-dab05431aab4",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr5400-006-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr5400-006-1-stmt",
+                "name": "statement",
+                "prose": "This regulation prescribes U.S. Department of Agriculture (USDA) policies, procedures, and\n   responsibilities for use of the USDA fleet charge cards and alternative payment methods used\n   to fuel and maintain USDA fleet vehicles (e.g., sedans, station wagons, and trucks), non-fleet\n   vehicles (e.g., aircraft, motorcycles and boats), and non-fleet equipment (e.g., mowers,\n   tractors, all-terrain vehicles, snow mobiles, chain saws, generators). Other fleet issues, such\n   as use of alternative fuels, recycled products, safety, equipment, authorized vehicle uses, and\n   delegation of authorities, are addressed in the Agriculture Property Management Regulations\n   (AGPMR)– Aircraft Management 110-33 (available online at\n   www.usda.gov/da/property/part10233.pdf ) and the AGPMR – Motor Vehicle Management\n   110-34 (available online at www.usda.gov/da/pmd/AGPMR.pdf)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65333051-b5da-53c2-b04c-3b8fbb8f7bd5",
+        "class": "section",
+        "title": "Cancellations/Revisions",
+        "controls": [
+          {
+            "id": "dr5400-006-2",
+            "class": "policy-requirement",
+            "title": "Cancellations/Revisions",
+            "parts": [
+              {
+                "id": "dr5400-006-2-stmt",
+                "name": "statement",
+                "prose": "Department Regulation (DR) 5400-006 reflects issuance of the new USDA fleet charge cards\n   resulting from the USDA Charge Card Service Center (CCSC) transition to the vendor’s\n   Electronic Access System (EAS).\n\n   a. Cancellations.\n\n       (1)    This regulation cancels the previous DR 5400-006 dated August 25, 2006.\n       (2)    USDA no longer uses the Voyager fleet card and the Purchase Card Management\n              System (PCMS).\n\n   b. Revisions. The new fleet charge cards are active for all USDA vehicles, aircraft, boats,\n      and motorized equipment to purchase fuel and maintenance on November 30, 2008 at\n      12:00 a.m. EST.\n\n\n\n\n                                                1\n\fDR 5400-006                                                         March 6, 2009"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "35cfc3fb-9582-5bf9-996d-88495c65ba26",
+        "class": "section",
+        "title": "Acronyms",
+        "controls": [
+          {
+            "id": "dr5400-006-3",
+            "class": "policy-requirement",
+            "title": "Acronyms",
+            "parts": [
+              {
+                "id": "dr5400-006-3-stmt",
+                "name": "statement",
+                "prose": "Acronym     Definition\n  AFV         Alternative Fuel Vehicle\n  AFPC        Agency Fleet Program Coordinator\n  AGAR        Agriculture Acquisition Regulations\n  AGPMR       Agriculture Property Management Regulations\n  AIR         Aviation Into-plane Reimbursement\n  CCSC        Charge Card Service Center\n              Corporate Financial Management Systems Configuration Control\n  CFMSCCB\n              Board\n  CPAIS       Corporate Property Automated Information System\n  DESC        Defense Energy Support Center\n  DLA         Defense Logistics Agency\n  DPM         Departmental Program Manager\n  DR          Departmental Regulation\n  EAS         Electronic Access System\n  EMIS        Equipment Management Information System\n  EO          Executive Order\n  FAR         Federal Acquisition Regulations\n  FAST        Federal Automotive Statistical Tool\n  FMR         Federal Management Regulations\n  FPMR        Federal Property Management Regulations\n  GFC         Government Fuel Card\n  GSA         General Services Administration\n  LFPC        Local Fleet Program Coordinator\n  OIG         Office of Inspector General\n  OMB         Office of Management and Budget\n  OPPM        Office of Procurement and Property Management\n\n\n\n\n                                            2\n\fDR 5400-006                                                                   March 6, 2009\n\n\n\n  Acronym        Definition\n  PCMS           Purchase Card Management System\n  PIN            Personal Identification Number\n  PMD            Property Management Division\n  PMIS           Property Management Information System\n  PMO            Program Management Office\n  PROP           Personal Property System\n  R/AFPC         Regional/Area Fleet Program Coordinator\n  U.S.           United States\n  USDA           United States Department of Agriculture"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d32c451e-e3f9-5059-8ad8-759bc4acf964",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr5400-006-4",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr5400-006-4-stmt",
+                "name": "statement",
+                "prose": "a. Abuse. Abuse is the unauthorized use of a fleet charge card for the purchase of any item\n      other than fuel and maintenance services necessary to operate and maintain USDA\n      vehicles, aircraft, boats, and motorized equipment. Abuse also includes the use of the\n      fleet charge card to buy fuel and maintenance services, but at terms (e.g., price, quantity)\n      that are excessive and/or for a questionable Government need. Examples include\n      knowingly purchasing premium fuel rather than regular fuel for vehicles that do not\n      require premium fuel; and using full-service pumps when fueling a vehicle rather than\n      using a readily available self-service pump.\n\n   b. Agriculture Acquisition Regulations (AGAR). The AGAR prescribes policies and\n      procedures that implement and supplement the Federal Acquisition Regulation (FAR),\n      which is the primary regulation for use by all Federal agencies in the acquisition of\n      supplies and services with appropriated funds.\n\n   c. Agency Fleet Program Coordinator (AFPC). The AFPC is responsible for the overall\n      Fleet Charge Card Program in each agency and is the agency’s contact liaison to the\n      Departmental Program Manager (DPM). AFPCs may appoint assistants, deputies, or\n      Regional/Area Fleet Program Coordinators (R/AFPC) to assist with program\n      management. AFPCs or their deputies are responsible for appointing Local Fleet Program\n      Coordinators (LFPCs) to manage the day-to-day operations of their agencies’ Fleet\n      Charge Card Program.\n\n   d. Agriculture Property Management Regulations (AGPMR) - Management of Government\n      Aircraft 110-33. This document is a supplement to the Federal Management Regulation\n\n\n\n\n                                                3\n\fDR 5400-006                                                                  March 6, 2009\n\n\n       (FMR) 102-33 that includes USDA-specific policies and procedures for the management\n       of aircraft.\n\n   e. Agriculture Property Management Regulation (AGPMR) - Management of Government\n      Motor Vehicles 110-34. This document is a supplement to the FMR 102-34 that includes\n      USDA-specific policies and procedures for the management of motor vehicles.\n\n   f. Alerts. Alerts are messages sent to the DPM and agency coordinators regarding\n      questionable transactions and other events as defined by the DPM and agencies. Alerts\n      are part of the USDA Fleet Charge Card Program’s oversight procedures.\n\n   g. Alternative Payment Methods. These are payment methods available for use when the\n      merchant does not accept the fleet charge card. These methods include pre-paid cards\n      and declining balance cards. (Pre-paid and declining balance cards are also known as\n      debit cards.) These alternative payment methods should only be used in emergency\n      situations.\n\n   h. Aviation Into-Plane Reimbursement (AIR) Card. This is the charge card that should be\n      used to procure aviation fuel and related ground services. The Defense Logistics Agency\n      (DLA)/ Defense Energy Support Center (DESC)/ Government Fuel Card Program\n      Management Office (GFC PMO) is designated as the Program Management Office for\n      the AIR card.\n\n   i. Corporate Property Automated Information System (CPAIS). CPAIS is the web-based\n      property management system which will replace the Property Management Information\n      System (PMIS) Personal Property System (PROP) and the Forest Service’s Equipment\n      Management Information System (EMIS). CPAIS will be used to administer, control and\n      report motor vehicle inventory records.\n\n   j. Daily Transactions Limit. The Daily Transactions Limit is the total number of times a\n      fleet charge card can be used in one day to purchase fuel or maintenance.\n\n   k. Departmental Program Manager (DPM). The DPM is responsible for overall\n      management of the Fleet Charge Card Program at the Departmental level. This individual\n      is the Chief of the Office of Procurement and Property Management (OPPM) Property\n      Management Division (PMD).\n\n   l. Defense Logistics Agency (DLA)/ Defense Energy Support Center (DESC)/ Government\n      Fuel Card (GFC) Program Management Office (PMO). This is the PMO responsible for\n      the AIR card.\n\n   m. Electronic Access System (EAS). The EAS is the bank-owned and operated online\n      electronic system used to manage the USDA fleet charge cards, the features of which\n      includes but is not limited to ordering cards, disputing card transactions, reporting,\n      closing accounts, and much more. This system replaces PCMS.\n\n\n\n\n                                               4\n\fDR 5400-006                                                                    March 6, 2009\n\n\n   n. Federal Acquisition Regulations (FAR). The FAR establishes uniform policies and\n      procedures for acquisition by all executive agencies (FAR 1.101). The FAR is located in\n      Title 48, Chapter 1 of the Code of Federal Regulations.\n\n   o. Fleet Vehicle. A fleet vehicle refers to automobiles that utilize fuel such as sedans, station\n      wagons, and trucks. Regulations require agencies to submit annual reports listing the\n      vehicle type and location, the cost/amount of fuel consumed, and cost of\n      maintenance/repairs via the Federal Automotive Statistical Tool (FAST).\n\n   p. Fleet Charge Card User. This is the person who uses the fleet charge card, AIR card, or\n      the Multi Service charge card to fuel or maintain any USDA vehicle, aircraft, boat, and\n      motorized equipment.\n\n   q. Federal Management Regulation (FMR). The FMR is the successor regulation to the\n      Federal Property Management Regulation (FPMR). It contains updated regulatory\n      policies originally found in the FPMR.\n\n   r. Fraud. Fraud and fraudulent transactions are any acts of corruption or attempt to cheat\n      the Government or corrupt the Government’s agents, including but not limited to, the use\n      of Government charge cards to transact business that is not sanctioned, not authorized,\n      not in one’s official Government capacity, not for the purpose for which the card was\n      issued, or not as part of official Government business.\n\n   s. Local Fleet Program Coordinator (LFPC). The LFPCs are appointed locally by the\n      AFPCs or R/AFPCs. The LFPC is responsible for the day-to-day operations of the Fleet\n      Charge Card Program at each site. This includes fleet charge card user training (e.g.,\n      AGPMR, policy and procedures), oversight of fleet charge card transactions, review of\n      card limits, activation/deactivation of fleet charge card accounts, and maintenance of log\n      books.\n\n   t. Micro-Purchase. Purchases at or below the micro-purchase threshold as defined in the\n      FAR (FAR 2.101), or as otherwise provided by law.\n\n   u. Misuse. Use of a fleet charge card for other than the official government purpose(s) for\n      which it is intended.\n\n   v. Monthly Purchase Limit. The maximum total dollar amount that can be charged on a\n      fleet charge card within the 30-day billing cycle is the Monthly Purchase Limit. This\n      limit is card-specific and is based on the card’s Single Purchase Limit times the Daily\n      Transactions Limit times 30 (days in the billing cycle) [(Single Purchase Limit x Daily\n      Transactions Limit) x 30-Day Billing Cycle]. For example, ($100 x 3) x 30 = $9,000.\n\n   w. Non-Fleet Vehicles or Motorized Equipment. Non-fleet vehicles refer to aircraft, boats,\n      motorcycles and all-terrain vehicles that utilize fuel. Non-fleet equipment refers to\n      motorized equipment that uses fuel and includes equipment like mowers, tractors, snow\n      mobiles, chain saws, and generators. Agencies must report fuel consumption (cost and\n\n\n\n                                                5\n\fDR 5400-006                                                                     March 6, 2009\n\n\n       type) for non-fleet vehicles and motorized equipment via the Agency’s Annual Energy\n       Report.\n\n   x. Personal Identification Numbers (PINs). A PIN is a six-digit number assigned to a\n      specific fleet charge card user or driver in order to link card transactions to card users.\n\n   y. Regional/Area Fleet Program Coordinator (R/AFPC). The R/AFPC is assigned by an\n      AFPC to manage the Fleet Charge Card Program in his/her area. This person reports to\n      the AFPC on fleet charge card issues and oversees the LFPCs in his/her area.\n\n   z. Single Purchase Limit. A Single Purchase Limit is the maximum dollar amount that can\n      be charged on the fleet charge card for each transaction. It is card-specific and\n      established at the agency-level.\n\n   aa. Statistical Sampling. Statistical sampling is a process where fleet charge card\n       transactions are randomly selected for verification of legitimacy. This process is\n       instrumental to the oversight of the USDA Fleet Charge Card Program.\n\n   bb. Waste. Any activity taken with respect to the fleet charge card that fosters, or results in,\n       unnecessary costs or other program inefficiencies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fa2e2122-bf19-5bce-a379-e204fc00ad7e",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr5400-006-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr5400-006-5-stmt",
+                "name": "statement",
+                "prose": "This DR establishes USDA policy and instructions for use of the USDA fleet charge card, as\n   well as the AIR Card and the Multi Service charge card. These cards are to be used to\n   procure fuel and maintenance services necessary to operate and maintain USDA fleet and\n   non-fleet vehicles and motorized equipment. Fleet charge card users must obtain approval\n   from their LFPC, R/AFPC, or AFPC as appropriate for maintenance/repair purchases over\n   $3000. Additionally, these purchases must be approved by a warranted Contracting Officer\n   following standard procurement rules and regulations.\n\n   Fleet policies and procedures described in the AGPMR 110-33, AGPMR 110-34, Executive\n   Order (EO) 13423 – Strengthening Federal Environmental, Energy, and Transportation\n   Management must also be followed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "111afacd-2693-58bc-8247-b21f3ddab9ca",
+        "class": "section",
+        "title": "Program Objective",
+        "controls": [
+          {
+            "id": "dr5400-006-6",
+            "class": "policy-requirement",
+            "title": "Program Objective",
+            "parts": [
+              {
+                "id": "dr5400-006-6-stmt",
+                "name": "statement",
+                "prose": "The USDA Fleet Charge Card Program allows agencies to reduce administrative costs and\n   taxes through the use of fleet charge cards and alternative payment methods. In addition to\n   reducing costs, the fleet charge card enables the collection of detailed fleet management\n   information pertaining to fuel, maintenance and service.\n\n\n\n\n                                                 6\n\fDR 5400-006                                                                     March 6, 2009"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d7e5cb28-dcb3-598f-b517-67975e06099f",
+        "class": "section",
+        "title": "Authorized Use Of Fleet Charge Cards And Related Alternative",
+        "controls": [
+          {
+            "id": "dr5400-006-7",
+            "class": "policy-requirement",
+            "title": "Authorized Use Of Fleet Charge Cards And Related Alternative",
+            "parts": [
+              {
+                "id": "dr5400-006-7-stmt",
+                "name": "statement",
+                "prose": "PAYMENT METHODS\n\n   a. Authorized Use. The fleet charge card and related alternative payment methods are\n      authorized for use to procure fuel and services necessary to operate and maintain fleet\n      and non-fleet vehicles and motorized equipment. The following are examples of\n      authorized purchases:\n\n       (1) Fuel (all types)\n       (2) Transmission Fluids\n       (3) Oil/Oil Changes\n       (4) Windshield Wiper Blades\n       (5) Windshield Washer Fluid\n       (6) Anti-Freeze\n       (7) Car Washes\n       (8) Maintenance\n       (9) Tires/Tire Repair\n       (10) Tie-Down Fees\n       (11) Landing Fees\n       (12) De-Icing Services\n       (13) Docking Fees\n       (14) Auto Body Work\n       (15) Roadside assistance (e.g., towing, lockout service, battery charging, tire changing,\n            winching, fuel delivery,)\n\n   b. Unauthorized Use. Use of the fleet charge card or alternative payment method is strictly\n      prohibited for the following:\n\n       (1)    To purchase food, beverages, or other miscellaneous personal items.\n       (2)    To pay any State or local traffic or parking violations that are obtained while\n              driving a motor vehicle owned or leased by the Government.\n\n       Use of the cards for those types of purchases could result in disciplinary action.\n\n   c. Use of a purchase card instead of an authorized fleet charge card to buy fuel or\n      maintenance services for USDA fleet vehicles, non-fleet vehicles, and non-fleet\n      equipment is prohibited, unless authorized by the Charge Card Program Office or Fleet\n      Departmental Program Manager."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "edf006e4-af02-57e2-b81d-46e646936e77",
+        "class": "section",
+        "title": "Agency Internal Control Requirements",
+        "controls": [
+          {
+            "id": "dr5400-006-8",
+            "class": "policy-requirement",
+            "title": "Agency Internal Control Requirements",
+            "parts": [
+              {
+                "id": "dr5400-006-8-stmt",
+                "name": "statement",
+                "prose": "In order to protect USDA’s interest, it is extremely important that agencies establish adequate\n   internal controls to help ensure effective vehicle management and reduce waste, fraud, and\n   abuse. This includes, but is not limited to:\n\n\n\n\n                                                  7\n\fDR 5400-006                                                                   March 6, 2009\n\n\n   a. Ensuring only authorized employees use the fleet charge cards or alternative payment\n      methods.\n\n   b. Ensuring that employees are adequately trained in fleet charge card policies and\n      procedures.\n\n   c. Considering and imposing appropriate administrative and/or disciplinary actions for cases\n      of fraud and other blatant abuses of the fleet charge card and/or related alternative\n      payment methods.\n\n   d. Implementing guidelines for sensitive and pilferable property items that are stored for\n      future use (e.g., tires, windshield wipers, batteries,) that can be easily converted to\n      personal use.\n\n   e. Ensuring agency officials maintain Use Logs to capture fleet (e.g., vehicles, aircraft,\n      boats, and motorized equipment) usage information. (See Section 10i. Use Log for\n      detailed requirements.)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f293dd7a-2f94-5318-8664-fbbcd9d9e646",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr5400-006-9",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr5400-006-9-stmt",
+                "name": "statement",
+                "prose": "a. Fleet Charge Card for Official Use Only. The fleet charge card is for official\n      Government business only. Under no circumstances is the card to be used for personal\n      purchases or as identification for personal purchases.\n\n   b. Transactions Greater Than $3000. Transactions for maintenance or repairs greater than\n      $3000 must be approved by the agency’s LFPC, R/AFPC, or AFPC following agency\n      specific policies and procedures and by a warranted Contracting Officer following the\n      agency’s standard procurement rules and regulations. The fleet charge card should be\n      used as the primary payment method to ensure proper tracking of the maintenance or\n      repair of a USDA fleet or non-fleet vehicle and/or piece of motorized equipment through\n      the bank’s EAS.\n\n   c. Ethics Requirements. Office of Government Ethics Standards of Conduct for Executive\n      Branch employees applies to fleet charge card use. All transactions must be for official\n      Government business only. Fleet charge card users with questions regarding the\n      propriety of a particular transaction should consult their LFPC or agency ethics officer\n      for guidance and assistance prior to making the purchase\n\n   d. Fleet Charge Card PINs. Agencies have the option to use PINs as an additional method of\n      associating a fleet charge card user to a particular transaction. If an agency opts to use\n      PINs, the following information must be entered and maintained in the EAS:\n\n       (1)    Driver Number or PIN\n       (2)    Driver Name\n       (3)    Driver License Number\n\n\n\n                                                8\n\fDR 5400-006                                                                   March 6, 2009\n\n\n   e. Business Size. Purchases not exceeding $3,000 may be made from any size business\n      using the fleet charge card (FAR 13.003(b) (1)). However, it is USDA policy to increase\n      opportunities for small, small-disadvantaged, and small women-owned businesses. Card\n      users are, therefore, encouraged to acquire from these sources whenever possible.\n\n   f. Regulatory Applicability. Use of the fleet card must be consistent with the FAR, AGAR,\n      FMR, AGPMR, USDA Purchase Card and Alternative Payment Methods DR 5013-6,\n      Office of Government Ethics Standards of Conduct for Executive Branch Employees, and\n      the Office of Management and Budget (OMB) Circular A-123, which establishes the\n      regulations for the use and management of Government charge cards and agency\n      regulations.\n\n   g. Fueling Aircraft. USDA may use the mission-critical AIR Card instead of the fleet\n      charge card to purchase fuel and maintenance for aircraft and boats. The AIR Card\n      provides the Federal Government, state and local law enforcement agencies, and Foreign\n      Governments a means to procure aviation fuel and related ground services. The AIR card\n      may be used worldwide at commercial airports, as well as some military installations, to\n      purchase aviation fuel for all USDA aircraft. The DLA/DESC/GFC PMO is designated\n      as the program management office for the AIR card, and the AIR card is serviced by the\n      Multi Service Corporation, a DESC contractor.\n\n   Note: All regulations outlined in this DR for the fleet charge card are equally applicable to\n   the AIR Card."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e7ac679a-9a0d-57fa-999d-6defdbf81779",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr5400-006-10",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr5400-006-10-stmt",
+                "name": "statement",
+                "prose": "a. Fleet Charge Card Issuance. Agencies are to issue only one fleet charge card for each\n      fleet or non-fleet vehicle that requires fuel and maintenance. All fleet charge cards are\n      ordered through the bank’s EAS and are shipped to the LFPC. Cards are normally\n      received within seven to ten business days. In emergencies, cards are ordered through the\n      EAS and express shipped by the bank. This usually takes two to three business days.\n\n   b. Alternative Payment Methods. Alternative payment methods are only to be issued and\n      used for emergencies, such as when an LFPC is awaiting a replacement card for one that\n      was lost or stolen or during fire season to respond quickly to the situation.\n\n   c. Pool Cards. Fleet charge cards may be sparingly issued as “pool” cards for emergency\n      situations (e.g., pending receipt of a lost/stolen replacement card) and to accommodate\n      agencies with multiple pieces of equipment, such as, snowmobiles, all-terrain vehicles,\n      chainsaws, and lawn mowers housed at the same location. Pool cards may also be issued\n      for use in situations where agencies have their own fueling stations to fuel the vehicles,\n      but require a mechanism to procure maintenance and repairs services. A “pool” fleet\n      charge card could be used under those types of circumstances.\n\n   d. Card Receipt. All new or replacement cards are sent to the LFPC.\n\n\n\n                                                9\n\fDR 5400-006                                                                    March 6, 2009\n\n\n\n\n       (1)    LFPCs must call the bank’s customer service number to activate all new fleet\n              charge cards.\n       (2)    Replacement cards do not require activation, but the LFPC must inform the bank\n              via telephone confirmation to customer service that the cards were received.\n\n  e.   Lost or Stolen Cards. If a fleet charge card is lost, stolen or damaged, immediately report\n       it to the LFPC or the bank. The agency is responsible for all charges made until the card\n       is reported as lost/stolen. Call Customer Service at 1-888-994-6722 to report lost or\n       stolen cards. This will stop any further use of the card.\n\n       The bank will immediately establish a new account number, reissue a card, and tie all\n       transactions from the lost/stolen card to the new account number. The LFPC should then\n       monitor transactions on the replacement card account for a month to assure that all\n       charges are valid. Any fraudulent charge that is made after the card has been reported\n       lost/stolen must be disputed through the EAS. LFPCs and offices responsible for\n       oversight of fleet cards and motor vehicles should keep the telephone number on file to\n       help ensure prompt reporting.\n\n       If a lost fleet charge card is found, destroy the card, and then provide written\n       documentation to the LFPC that the card was found and destroyed. The card should\n       never be used after notifying the LFPC or the bank that it was lost or stolen.\n\n  f.   Card Disposal. When a fleet charge card is no longer needed (e.g., the vehicle, aircraft,\n       boat or other motorized equipment either has been sold or salvaged), the LFPC is\n       responsible for canceling the card through the EAS and ensuring the card is destroyed.\n\n  g.   Inquiries. Inquiries about fleet charge cards should be directed through agency channels -\n       the LFPC or R/AFPC to the AFPC to the DPM.\n\n  h.   Receipts. Users of the fleet charge cards or alternative payment methods must submit\n       receipts for purchases. The LFPC, an accountable property official, or other management\n       official responsible for the fleet and non-fleet vehicles and motorized equipment must\n       keep all receipts for a minimum of one calendar year in order to maintain an adequate\n       audit trail.\n\n  i.   Use Logs. Agencies are required to keep a log of vehicle, boat, aircraft, and motorized\n       equipment use to ensure a reasonable audit trail documenting vehicle/equipment use. At\n       a minimum, the logs must capture the following information to be considered a\n       “reasonable audit trail”:\n\n       (1)    Date\n       (2)    Driver or fleet card user name\n       (3)    Odometer Reading before and after use\n       (4)    Whether the vehicle was refueled (yes/no)\n       (5)    Whether maintenance or repairs were performed (yes/no)\n\n\n\n                                               10\n\fDR 5400-006                                                                  March 6, 2009\n\n\n\n\n  j.   Fleet Charge Card Oversight. Oversight of the USDA Fleet Charge Card Program is\n       essential to ensure that Government funds are used appropriately by mitigating waste,\n       fraud, and abuse and to ensure that the USDA Fleet is effectively managed through\n       correct fuel purchase, regular maintenance, and cost-effective repairs. Usage monitoring\n       and annual reporting are two mechanisms USDA employs as part of its oversight process.\n\n       (1) Usage Monitoring. OMB Circular A-123 Appendix B, dated April 28, 2006, requires\n           agencies to implement management controls, policies, and practices for ensuring\n           appropriate charge card usage. USDA’s DPM and AFPC’s monitor fleet charge card\n           transactions through the EAS and statistical sampling. Fleet charge card users must\n           provide information to any request made by coordinators, the DPM, Office of the\n           Inspector General (OIG), and/or any other duly authorized individual/organization\n           regarding questionable transactions (e.g., amount of fuel purchased exceeds vehicle\n           capacity, overly frequent maintenance or repairs on fleet and non-fleet vehicles and\n           motorized equipment).\n\n          LFPCs, R/AFPCs, and AFPCs are expected to routinely monitor (e.g., monthly, at a\n          minimum quarterly) fleet charge card transactions within their agencies to identify\n          questionable transactions. When questionable transactions are flagged, the\n          coordinators will investigate these transactions and determine if there are any fraud,\n          waste, or abuse issues that must be addressed. The coordinator should contact the\n          individual’s supervisor and Human Resources and follow the guidance established in\n          Appendix B of OMB Circular A-123 regarding charge card misuse or abuse.\n\n          In addition to routinely monitoring fleet charge card and alternative payment usage,\n          coordinators will also ensure LFPC or other appropriate agency officials maintain\n          receipts and Fleet Use Logs or records. This will help ensure agencies maintain a\n          reasonable audit trail of vehicle and fleet card use.\n\n       (2) Annual Reporting. In addition to routinely monitoring fleet charge card usage,\n           AFPCs will submit annual reports to the DPM about their agency’s Fleet Charge Card\n           Program. (See the USDA Charge Card Service Center (CCSC) Website for the name\n           and location of the DPM.) The following information should be included in the\n           reports:\n\n          (a) Total number of instances of inappropriate use of the fleet charge card or\n              alternative payment methods, including actions taken by the agency in handling\n              misuse or abuse cases.\n          (b) Any suggestions the agency has on improving the USDA Fleet Charge Card\n              Program.\n          (c) Future EAS fixes or enhancements\n\n          The DPM is responsible for forwarding agency reports to the USDA CCSC.\n\n\n\n\n                                              11\n\fDR 5400-006                                                                  March 6, 2009\n\n\n  k.   Security. Fleet charge cards must be secured at all times. LFPCs and other appropriate\n       agency officials must ensure that fleet cards are secure when not in use. Do not leave\n       cards unattended in vehicles.\n\n  l.   Training. Fleet program coordinators at all levels are required to become certified on the\n       fleet charge card policy through US Bank’s web-based training (WBT), which includes a\n       fleet policy module and certifying exam. Additionally, fleet coordinators are expected to\n       participate in the bank’s EAS fleet training to ensure that they can perform the duties\n       specified under their roles.\n\n       AFPCs must report to the DPM that their fleet coordinators have been certified on the\n       fleet policy and trained on the EAS. The CCSC will maintain these records as part of the\n       OMB A-123, Appendix B, “Improving the Management of Government Charge Card\n       Programs” training requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1b03d145-f3c1-5947-b5d6-370ccc102bab",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr5400-006-11",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr5400-006-11-stmt",
+                "name": "statement",
+                "prose": "There are certain roles and responsibilities associated with managing USDA’s fleet charge\n   cards starting at the Department level and working through the agency level to the individual\n   fleet charge card user.\n\n   a. OPPM. OPPM is responsible for the Fleet Charge Card Program. OPPM will:\n\n       (1)    Establish the USDA CCSC to manage the USDA Charge Card Program.\n       (2)    Issue Departmental policy and procedures on the USDA Charge Card Program.\n       (3)    Promote standardization, centralization, and automation of the program throughout\n              USDA.\n       (4)    Submit reports as appropriate to the OMB on USDA’s fleet charge card.\n       (5)    Assign the DPM to manage the Fleet Charge Card Program at the Departmental\n              level.\n\n   b. DPM. The Departmental Program Manager is responsible for overall management of the\n      Fleet Charge Card Program at the USDA. The DPM will:\n\n       (1)    Provide guidance and oversight for USDA’s Fleet Charge Card Program.\n       (2)    Issue Departmental policy and procedures on the use of the fleet charge card and\n              other alternative payment methods.\n       (3)    Review on a semi-annual basis all merchant category codes (MCC) available on\n              fleet charge cards; restrict, if necessary, any MCC not appropriate.\n       (4)     Establish Department-wide operating limits for the fleet charge card.\n       (5)    Submit an annual report on the overall status of the program to the USDA CCSC.\n\n   c. Agency Heads. Agency Heads will ensure that Departmental policies and procedures on\n      the use of the fleet charge card are adhered to within their respective agencies. Agencies\n      must ensure their employees receive information on how the Fleet Charge Card Program\n      operates and proper use of the fleet charge card. Agency Heads or their designees will:\n\n\n\n                                               12\n\fDR 5400-006                                                                      March 6, 2009\n\n\n\n\n       (1)    Designate employee(s) and alternate(s) to act as AFPCs. These individuals will\n              administer the Fleet Charge Card Program for their agency.\n       (2)    Ensure AFPCs are trained and aware of their program responsibilities.\n       (3)    Ensure that agency policies and procedures are in place for approving maintenance\n              and repair purchases over $3000.\n\n   d. AFPC. An AFPC is designated for each USDA agency or mission area and is\n      responsible for managing the Fleet Charge Card Program for the specific agency/mission.\n      The AFPC is the liaison between the agency and USDA’s DPM. AFPCs will:\n\n       (1)  Provide oversight of the fleet charge card usage.\n       (2)  Implement agency-unique fleet policies and procedures as needed.\n       (3)  Participate in meetings with the DPM to address fleet charge card issues and/or\n            problems.\n       (4) Assign deputies and/or R/AFPCs as needed to support the program in their agency.\n       (5) Assign LFPCs to handle the day-to-day fleet charge card operations.\n       (6) Establish R/AFPCs and LFPCs in the EAS.\n       (7) Ensure that LFPCs are certified on the policies and procedures associated with the\n            Fleet Charge Card Program.\n       (8) Ensure that LFPCs are trained on the EAS.\n       (9) Ensure managers/offices/drivers maintain a use log or record for all fleet usage (See\n            Section 10i. Use Logs for more information.).\n       (10) Provide the DPM with an annual report that includes the information established in\n            Section 10j.2. Annual Reporting of this regulation.\n       (11) Ensure that agency policy and procedures are followed regarding purchases for\n            maintenance or repairs valued over $3000.\n\n   e. LFPC. The LFPC is responsible for managing the day-to-day operations of fleet charge\n      card usage at his/her designated site. The LFPC works directly with the fleet charge card\n      users, ensuring that they have adequate training on proper use of the fleet charge card.\n      Additional LFPC duties include:\n\n       (1)    Establish and update fleet charge cards in the EAS.\n       (2)    Notify the bank immediately of any lost/stolen/damaged fleet charge cards.\n       (3)    Notify the bank of any billing discrepancies (e.g., disputes,) regarding charges\n              posted to an account.\n       (4)    Monitor fleet charge card purchases for fraud, waste, or abuse.\n       (5)    Ensure fleet charge card users are following agency policy and procedures for\n              maintenance and repair purchases valued over $3000.\n       (6)    Ensure managers/offices//drivers maintain a use log or record for all fleet usage.\n              (See Section 10i. Use Logs for more information.).\n       (7)    Report any misuse, fraud, or abuse of the fleet charge card to the appropriate\n              official (e.g., a supervisor, R/AFPC, AFPC,).\n       (8)    Ensure appropriate officials maintain receipts for all fleet charge card or alternative\n              payment methods for a minimum of one calendar year.\n\n\n\n                                                 13\n\fDR 5400-006                                                                   March 6, 2009\n\n\n       (9)    Submit an annual report to the AFPC that includes the information established in\n              Section 10j.2. Annual Reporting of this regulation.\n\n   f. Fleet Charge Card Users. The fleet charge card user must make all reasonable efforts to\n      find the nearest location accepting the fleet charge card when purchasing fuel and\n      maintenance on USDA vehicles and motorized equipment. In addition, the fleet charge\n      card user must check to see if the vehicle is an Alternative Fuel Vehicle (AFV). When\n      refueling an AFV, the card user should use an alternative fuel station that is “reasonably\n      available”. Page three of Guidance: Documentation Requirements for Waiver Requests\n      under EPACT 2005 Section 701, (available online at\n      www.eere.energy.gov/femp/pdfs/701_guidance.pdf) defines ‘reasonably available’ to be\n      within a 15-minute drive or five miles (one way). Charge cards users can go to the\n      USDA CCSC website to access the link to the Alternative Fueling Station Locator to help\n      locate alternative fueling stations.\n\n       Fleet charge card users will:\n\n       (1)    Enter an accurate odometer reading at the pump when prompted\n       (2)    Submit a receipt for all purchases made with a fleet charge card or alternative\n              payment method\n       (3)    Provide the LFPC the following information if a receipt is not available:\n              (a) Odometer reading\n              (b) Number of gallons\n              (c) Cost per gallon\n              (d) Type of fuel\n              (e) Total Cost\n              (f) Description of the maintenance/repair\n       (4)    Obtain approval for all maintenance and repair transactions over $3000 or your\n              agency-specific dollar value\n\n                                              -END-\n\n\n\n\n                                            14"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "13257b28-b1db-5c77-a7a5-0bd907d188f0",
+          "title": "USDA Directives — DR5400-006",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-5400-006",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

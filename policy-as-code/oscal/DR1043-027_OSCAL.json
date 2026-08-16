@@ -1,0 +1,97 @@
+{
+  "catalog": {
+    "uuid": "afbb5a7e-7fd5-57f3-bf5c-2d9d5c0c7707",
+    "metadata": {
+      "title": "USDA DR1043-027: DR1043-027",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2011-02-07",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1043-027"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2011-02-07"
+        },
+        {
+          "name": "source-url",
+          "value": "",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Animal and Plant",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Animal and Plant"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "dbcb0b37-5870-5a5c-8bc3-e206ab2ed5bb",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr1043-027-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr1043-027-1-stmt",
+                "name": "statement",
+                "prose": "U.S. DEPARTMENT OF AGRICULTURE \n\nWASHINGTON, D.C. 20250 \n\n \n\n \n\nDEPARTMENTAL REGULATION \n\n \n\nNumber: \n\n1043-027 \n\n \n\nSUBJECT: \n\nReestablishment of the National Wildlife Services Advisory \nCommittee \n\nDATE: \n\nFebruary 7, 2011 \n\nOPI:Animal and Plant \nHealth Inspection Service \n\n \n\n\n\n \n\n1. Committee Designation \n\n \n\nThe Committee’s official designated name is National Wildlife Services (WS) \nAdvisory Committee (Committee). \n\n \n\n2. Authority \n\n \n\nThe APHIS WS program operates under the Act of March 2, 1931, (7 U.S.C. 426 \n– 426b) and the Act of December 22, 1987 (7 USC 426c). \n\n \n\n3. Objectives and Scope of Activities \n\n \n\nThe purpose of the Committee is to advise the Secretary of Agriculture on \npolicies and program issues necessary to manage damage caused by depredating \nwildlife to protect America’s agricultural, industrial, and natural resources and to \nsafeguard public health and safety. The Committee is being established in \naccordance with the provisions of the Federal Advisory Committee Act (FACA), \nas amended, 5 U.S.C., App. \n\n \n\n4. Description of Duties \n\n \n\nThe reestablishment of this Committee is in the public interest in connection with \nthe duties and responsibilities assigned to the U.S. Department of Agriculture \n(USDA) by Public Law No. 99-190. The duties of the Committee involve \nadvising the Secretary on: \n\n \n\n(a) overall policy and guidance for the operation of the WS program; \n\n\n(b) resources to accomplish the WS mission; \n\n\n(c) impacts of depredating wildlife; \n\n\n(d) public health and safety problems created by birds and other wildlife; and \n\n\n(e) research activities and priorities to address wildlife damage management \nneeds. \n\n\n\n\n \n\n5. Agency or Official to Whom the Committee Reports \n\n \n\n\f\nThe Committee will report to the Secretary of Agriculture through the Under \nSecretary, Marketing and Regulatory Programs. \n\n \n\n6. Support \n\n \n\nThe Animal and Plant Health Inspection Service (APHIS) WS’ Operational \nSupport Staff Office will provide the necessary support for the Committee. \n\n \n\n7. Estimated Annual Operating Costs and Staff Years \n\n \n\nThe annual costs are estimated at $24,000 and .03 staff years. \n\n \n\n8. Designated Federal Officer \n\n \n\nThe Deputy Administrator for APHIS WS will serve as the Designated Federal \nOfficer (DFO) and will provide the necessary staff support for the Committee. \nThe DFO will approve or call all of the advisory committee’s and subcommittees’ \nmeetings, prepare and approve all meeting agendas, attend all committee and \nsubcommittee meetings, adjourn any meeting when the DFO determines \nadjournment to be in the public interest, and chair meetings when directed to do \nso by the official to whom the advisory committee reports. \n\n \n\n9. Number and Frequency of Meetings \n\n \n\nMeetings will be held annually or more often if the Secretary of Agriculture \ndeems it necessary. \n\n \n\n10. Duration \n\n \n\nThis Committee is a continuing committee. \n\n \n\n11. Termination \n\n \n\nTermination shall occur two years from the filing date. \n\n \n\n12. Membership and Designation \n\n \n\nMembership will be composed of twenty (20) persons representing a broad \nspectrum of agricultural, environmental, conservation, academic, animal welfare, \nand related interests. Equal opportunity practices, in line with USDA policies, \nwill be followed in appointing representative members to the Committee. To \nensure that the recommendations of the Committee have taken into account the \nneeds of a diverse group served by the Department, membership shall include, to \nthe extent practical, individuals with demonstrated ability to represent minorities, \nwoman, and persons with disabilities. \n\n \n\n\f\n \n\n13. Subcommittees \n\n \n\nThe Committee may request establishment and use subcommittees which are \ncreated by the Agency or DFO. Subcommittees will report back to the \nCommittee, and will not provide advice or work products directly to the \nDepartment or Agency. \n\n \n\n14. Recordkeeping \n\n \n\nThe records of the committee, formally and informally established \nsubcommittees, or other subgroups of the committee, shall be handled in \naccordance with General Records Schedule 26, Item 2 or other approved agency \nrecords disposition schedule. These records shall be available for public \ninspection and copying, subject to the Freedom of Information Act, 5 U.S.C. 552. \n\n \n\n15. Filing Date \n\n \n\n February 7, 2011"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

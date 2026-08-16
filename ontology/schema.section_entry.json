@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/section-entry",
+  "title": "SectionEntry",
+  "description": "One entry in the `sections` object constant of a Rego module. Keys are section number strings (e.g. '1', '2', 'A'). The sections object captures structural metadata for each numbered section or appendix extracted from the directive body.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Section or appendix heading text as it appears in the directive.",
+      "examples": ["Purpose", "Background", "Special Instructions/Cancellations", "Responsibilities"]
+    },
+    "excerpt": {
+      "type": "string",
+      "maxLength": 503,
+      "description": "First 500 characters of the section body (truncated with '...' if longer), serving as a content preview for search and ontology indexing."
+    }
+  },
+  "required": ["title", "excerpt"],
+  "additionalProperties": false,
+  "examples": [
+    {
+      "title": "Purpose",
+      "excerpt": "This regulation establishes policy and assigns responsibilities for preparing, reviewing, approving, and publishing Departmental directives..."
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "catalog": {
+    "uuid": "c4f30f1e-5fd3-5910-bc85-aa5f285b747b",
+    "metadata": {
+      "title": "USDA DR4030-337-004: Delegated Examining",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2013-03-11",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4030-337-004"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2013-03-11"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4030-337-4",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4030-337-4",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "455be0bb-6df6-5956-ad1a-874eb3259c66",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4030-337-004-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4030-337-004-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of\n     Agriculture’s (USDA) policies, procedures, and responsibilities to satisfy delegated\n     examining (DE) adherence to Merit System Principles and audit requirements in accordance\n     with the requirements set forth in Interagency Agreement DOA-1 between the Office of\n     Personnel Management (OPM) and USDA.\n\n     This Agreement delegates to USDA the authority to conduct competitive examinations for\n     positions in the competitive service, except for administrative law judges. Specifically,\n     USDA is authorized to fill competitive civil service positions with applicants from outside of\n     the Federal workforce; Federal employees who do not have competitive service status, or\n     Federal employees with competitive service status. While this delegation cannot be\n                                                 1\n\f  redelegated to any mission area, agency, or staff office, USDA may decide which activity\n  (i.e. component or office) may carry out this authority and the extent to which the activity\n  exercises it. To ensure consistency in the use of this authority across USDA, sub agencies\n  approved to carry out DE activity must strictly follow the policies outlined in this DR and not\n  develop any supplemental policies. Those sub agencies approved to use this authority are\n  required to develop standard operating procedures (SOPs) to carry-out DE operations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d14df375-ead9-5351-bf39-2a89b3550d7f",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr4030-337-004-2",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr4030-337-004-2-stmt",
+                "name": "statement",
+                "prose": "The OPM established provisions for Executive Branch agencies of the United States\n  Government to govern competitive procedures used in filling competitive service positions.\n  Provisions of Title 5 U.S.C §1104, as amended by Public Law 104-52 (1995), gives agencies\n  the authority to examine for all jobs in the competitive civil service, except for administrative\n  law judge positions. This policy supplements OPM’s Delegated Examining Operations\n  Handbook (DEOH), which provides detailed guidance for conducting competitive examining\n  activities. The Director, Office of Human Resources Management (OHRM), is delegated the\n  authority to ensure that delegated examining within USDA adheres to statutory requirements,\n  DOA-1, Federal-wide regulation, Merit System Principles, and this Regulation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3c7f703d-bc61-5584-858b-b59efd140aa5",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr4030-337-004-3",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr4030-337-004-3-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation must be used in conjunction with the following authorities, as\n  well as any applicable bargaining unit agreements:\n\n  a. Title 5, United States Code (U.S.C.), Section 1104 – Delegation of Authority for\n     Personnel Management;\n\n  b. 5 U.S.C. 3305 – Competitive Service; Examinations;\n\n  c. 5 U.S.C. 3309 – Additional Points in Examining for Preference Eligibles;\n\n  d. 5 U.S.C. 3313 – Competitive Service; Register of Eligibility;\n\n  e. 5 U.S.C. 3317 – Certification of Names for Appointment;\n\n  f. 5 U.S.C. 3318 – Competitive Service; Selection from Certificates;\n\n  g. 5 U.S.C. 3327 – Civil Service Employment Information;\n\n  h. 5 U.S.C. 3330, – Government-wide List of Vacant Positions;\n\n  i. Title 5, Code of Federal Regulations (CFR), Part 211 – Veterans Preference\n\n  j. Title 5, CFR, Part 330 – Recruitment, Selection, and Placement (General)\n\n                                                2\n\f  k. Title 5, CFR, Part 332 – Recruitment and Selection through Competitive Examination\n\n  l. Title 5, CFR, Part 337 – Examining System;\n\n  m. Title 5, CFR, Part 337, Subpart C – Alternate Rating and Selection Procedures;\n\n  n. Title 29, CFR, Part 1607 – Uniform Guidelines on Employee Selection Procedures;\n\n  o. Public Law 104-52 – Treasury, Postal Service, and General Government Appropriations\n     Act (1995);\n\n  p. Interagency Delegated Examining Agreement, DOA-1, with OPM, dated March 2, 2011;\n\n  q. OPM’s Delegated Examining Operations Handbook (DEOH); and\n\n  r. Departmental Regulation (DR) 4030-337-2, Category Rating, dated November 1, 2010."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cdc48c15-09cd-5868-b02b-592113e59867",
+        "class": "section",
+        "title": "Applicability",
+        "controls": [
+          {
+            "id": "dr4030-337-004-4",
+            "class": "policy-requirement",
+            "title": "Applicability",
+            "parts": [
+              {
+                "id": "dr4030-337-004-4-stmt",
+                "name": "statement",
+                "prose": "Delegated examining covers all requests for appointment of non-status applicants including\n  permanent appointments and temporary or term appointments, which are covered by the\n  delegated examining procedures.\n\n  Agencies operating under the USDA Demonstration Project that allows a particular method\n  for assessing applicants may continue to follow the exceptions provided in the applicable\n  legislation, consistent with all other statutory and regulatory requirements. All agencies,\n  whether under a Demonstration Project or delegated examining, must operate consistent with\n  the Merit System Principles and accountability and audit procedures."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5dfa297f-dcf1-5e41-931b-07285bae9e91",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4030-337-004-5",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4030-337-004-5-stmt",
+                "name": "statement",
+                "prose": "a. Departmental OHRM has responsibility and authority to:\n\n     (1)   Determine the location and extent of delegated examining activity within USDA,\n           and to provide oversight to ensure DE activity is conducted consistent with the\n           goals and values outlined below. OHRM retains authority to rescind authorization\n           to conduct DE activity within any agency at any location.\n\n     (2)   Provide overall policy, direction, guidance, and assistance to USDA’s Delegated\n           Examining Units (DEUs), especially oversight and accountability with regard to DE\n           reviews and any necessary corrective action(s). This includes responsibility for HR\n           direction in USDA, and adherence to multiple goals for DE activity within USDA\n           to include:\n\n                                             3\n\f         (a) compliance with all laws, regulations, and OPM requirements;\n\n         (b) compliance with Merit System Principles;\n\n         (c) efficiency, economy, and effectiveness of operations;\n\n         (d) customer satisfaction; and\n\n         (e) recruitment and hiring which supports USDA’s Human Capital Plan, and results\n             in a high-quality, diverse applicant pool to meet USDA’s mission needs.\n\n   (3)   Provide direction and assistance to the DEUs on major new laws, regulations, and\n         initiatives affecting delegated examining, e.g., category rating and direct-hire\n         authorities.\n\n   (4)   Ensure there is periodic communication between OHRM and the DEUs, and, as\n         necessary, work with the DEUs to resolve issues.\n\n   (5)   Review reports on DEU activity, to include: reviews and audits conducted\n         consistent with 5 CFR 250, required quarterly reports prepared by the DEU, and\n         reports on the required annual audits, required self audits and audit reports from\n         OPM. This includes follow-up as necessary with the DEUs to identify best\n         practices and help resolve problems and/or inappropriate actions.\n\n   (6)   Monitor DEU activity in OPM’s Delegated Examining Information System (DEIS),\n         to ensure that required reports are submitted by the DEUs on a timely basis.\n\n   (7)   Participate in OPM audits of USDA DEU activity whenever possible.\n\n   (8)   In addition to regularly scheduled accountability audits, OHRM will periodically\n         undertake activities such as, but not limited to, random reviews of:\n\n         (a) vacancy announcements to assess whether they meet all requirements, are\n             within prescribed length, are user-friendly, and constitute an effective\n             “marketing” tool; and\n\n         (b) delegated examining case files to assess compliance with\n             law/regulation/procedure, whether there are sufficient quantity and quality of\n             candidates, and to gauge selecting officials’ satisfaction with the process.\n\n   The Department will carry out these activities as a supplement to the required annual\n   external audit.\n\nb. Each DEU established within USDA has the responsibility and authority to:\n\n\n\n\n                                            4\n\f(1)   Ensure vacant positions are filled with the best-qualified persons from a sufficient\n      pool of diverse, well-qualified eligibles.\n\n(2)   Uphold and promote the laws, regulations, and policies of merit selection (5 USC\n      2301 and 2302).\n\n(3)   Conduct delegated examining activities to fill all authorized competitive service\n      positions. The DEU will assist proactively in the efforts to meet USDA’s goals\n      through recruiting a diverse, high-quality applicant pool, and hiring talent to\n      achieve the Department’s mission.\n\n(4)   Comply with all laws and Merit System Principles. Specifically, a DEU is\n      responsible to operate in compliance with this DR and with the provisions of\n      Interagency Agreement DOA-1, with 5 USC, 5 CFR, any other applicable\n      laws/regulations/Executive Orders/court orders, OPM’s DEOH, and any other\n      applicable USDA policies and procedures.\n\n(5)   Ensure all required records are maintained in compliance with the requirements in\n      the DEOH (currently listed in Appendix C of the DEOH). This includes the\n      responsibility for maintaining records showing that appropriate job analyses have\n      been conducted with subject-matter experts, showing the nexus between the job\n      analysis, and any selective factors and rating factors (the questions/crediting plan\n      system).\n\n(6)   Ensure that vacancy announcements are clear with regard to the definition of the\n      “specialized experience” required, as well as any selective factors.\n\n(7)   Monitor internal activities to ensure activities comply with established goals under\n      Hiring Reform initiatives, i.e. 80 day Time to Hire (T2H) model, manager\n      accountability and involvement, speed and quality of hiring. Monitor other factors,\n      e.g., success in attracting a diverse and high-quality group of applicants; use of\n      certificates (and reasons for unused certificates); customer satisfaction (manager\n      and applicants). Some of these evaluative processes may be done in partnership\n      with OHRM.\n\n(8)   Upon request, sign and return to OHRM a copy of the memorandum authorizing\n      delegated examining activity, thereby indicating understanding and acceptance of\n      the Department’s terms and conditions for delegated examining operations.\n\n(9)   Continuously maintain current and accurate information in the DEIS regarding the\n      names of employees conducting DE activity, including their dates of certification.\n\n(10) Prepare and submit to OPM the required quarterly reports in DEIS, on a timely\n     basis.\n\n\n\n\n                                         5\n\f   (11) Notify OHRM of the audit cycle (when annual audits will be conducted). If the\n        DEU is not scheduled for an annual audit by OPM or OHRM, the DEU must\n        conduct a “self-audit” annually and send reports to OHRM within 30 days of\n        completion. Staff conducting audits must be DE-certified.\n\n   (12) Request authority to utilize any OPM-developed Administrative Careers With\n        America (ACWA) assessment instruments by submitting to OHRM for\n        concurrence, who will then submit the request to OPM for approval.\n\n   (13) Notify OHRM if the DEU plans to use written tests, an OPM certified and approved\n        Test Administrator, and/or a Test Security Control Officer.\n\nc. Each Mission Area, agency, and staff office has responsibility for their respective agency\n   DEU(s), and authority to:\n\n   (1)   Provide required levels of staff and funding to ensure the DEU has resources\n         necessary to operate effectively.\n\n   (2)   Follow and uphold laws, regulations, and Merit System Principles.\n\n   (3)   Provide complete recruitment packages to the DEU, including information for\n         electronic outreach, as well as the position description and job analysis (staffing\n         plan).\n\n   (4)   Provide subject-matter experts and trained managers the opportunity to collaborate\n         with the DEU on the development of the job analysis and assessment instrument,\n         and to approve announcements.\n\n   (5)   Interview candidates and identify preferred candidates within the timetable\n         identified in the OPM hiring roadmap.\n\n   (6)   Take timely action on selection certificates and returning packages to the DEU.\n\n   (7)   Request approval to establish a DEU and conduct delegated examining by way of a\n         written request to OHRM. The request to establish a DEU must include the\n         following:\n\n         (a)   Name of the organization and geographic area to be covered for which\n               competitive examining will be provided;\n\n         (b)   The classification and organizational titles, pay plans, series, and grades for\n               the positions for which the DEU will examine;\n\n         (c)   The DEU point of contact, address, phone number, fax number, and email\n               address of the proposed DEU;\n\n\n\n                                             6\n\f           (d)   Evidence that all HR specialists that will be performing competitive\n                 examining work assigned to a DEU have been trained and certified in\n                 Delegated Examining by OPM.\n\n     (9)   Abolish a DEU through a written request to the Director, OHRM."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2fa3ebad-9e3f-5e95-87c2-7cf0a50b9661",
+        "class": "section",
+        "title": "Authorities Retained By Opm",
+        "controls": [
+          {
+            "id": "dr4030-337-004-6",
+            "class": "policy-requirement",
+            "title": "Authorities Retained By Opm",
+            "parts": [
+              {
+                "id": "dr4030-337-004-6-stmt",
+                "name": "statement",
+                "prose": "OPM approval or action is required in the following situations:\n\n  a. Ineligible determinations (including objections/pass overs) on preference eligibles based\n     on medical considerations.\n\n  b. Pass over determinations based on qualifications and/or suitability which would result in\n     the pass over of a Compensable Disability Preference veteran with a service-connected\n     disability of 30% or more (veterans’ preference code CPS).\n\n  c. Suitability determinations based on material, intentional false statement or deception or\n     fraud in examination or appointment.\n\n  Agencies shall submit these types of requests to OHRM. OHRM will review all supporting\n  documentation and submit the request to OPM under the signature of the Director, OHRM."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0a5e39a9-84d2-52a4-8102-a9283d1108b6",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4030-337-004-7",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4030-337-004-7-stmt",
+                "name": "statement",
+                "prose": "a. Applicant. A person who applies for a vacant position.\n\n  b. Appointing Officer. A person having authority, by law or by duly delegated authority, to\n     appoint, employ, or promote individuals to positions in an agency.\n\n  c. Appointing Authority. The legal or regulatory basis on which a specific appointment is\n     made to a Federal civilian position.\n\n  d. Auditing (of certificate). The process by which certifying action is taken on a returned\n     Certificate of Eligibles by the DEU to ensure compliance with all legal and regulatory\n     selection procedures and criteria. Note: See Section 15 for “Annual Self Audits” of\n     delegated examining operations.\n\n  e. Candidate. An applicant who meets the minimum qualifications requirements for a\n     position and is, therefore, eligible for consideration. See also “eligible.”\n\n  f. Career-Conditional Appointment. Appointment to a non-temporary position in the\n     competitive service pursuant to 5 CFR 315 with less than three years of creditable service\n     toward career tenure.\n\n                                              7\n\fg. Career Transition Assistance Program (CTAP). A program established by an agency\n   (Department) to assist its own surplus and displaced employees. (See 5 CFR 330)\n\nh. Competitive Examining. The process used to fill civil service positions with candidates\n   who apply from outside the Federal workforce. It also is used to enable current Federal\n   employees without civil service status to compete for a permanent appointment and to\n   enable employees with civil service status to compete for other Federal positions.\n\ni. Competitive Status. A person’s basic eligibility for assignment (for example, by transfer,\n   promotion, reassignment, demotion, or reinstatement) to a position in the competitive\n   service without having to compete with members of the general public in an open\n   competitive examination. When a vacancy announcement indicates that status candidates\n   are eligible to apply, career and career-conditional employees who have served at least 90\n   days after competitive appointment may apply. Once acquired, status belongs to the\n   individual, not to the position. (5 U.S.C. 3304(a)).\n\nj. Delegated Examining. Authority to fill competitive civil service positions pursuant to a\n   delegation agreement. Delegated examining authority is granted by OPM and must be\n   exercised in accordance with civil service laws and regulations.\n\nk. Delegated Examining Unit (DEU). A unit that is granted delegated examining authority\n   by the U.S. Office of Personnel Management (OPM).\n\nl. Documentation. The collection of sufficient information to enable reconstruction of an\n   examination during an audit. Such information includes, at a minimum, position\n   descriptions, job analysis, a rating schedule, resumes, applicant availability statements,\n   etc.\n\nm. Eligible. An applicant who satisfies the minimum qualifications requirements for the\n   position and, therefore, is eligible for consideration. See also “candidate.”\n\nn. Federal Job Opportunity Announcement (FJOA). A document that informs the public\n   about a job vacancy. A job announcement describes the requirements of the job, and\n   instructs applicants regarding how to apply for the vacancy. Job announcements must be\n   posted on USAJOBS as a means of satisfying the public notice requirement.\n\no. Interagency Career Transition Assistance Program (ICTAP). A career transition\n   assistance program established to provide Federal employees affected by Federal\n   downsizing re-employment priority for jobs in agencies other than the one in which they\n   were previously employed. (See 5 CFR 330).\n\np. Merit Promotion. An appointment made under the authority of 5 CFR 335, “Promotion\n   and Internal Placement.” With exception to certain preference eligibles and people\n   eligible under limited special hiring authorities, only employees with competitive status\n   may apply for positions under merit promotion authority.\n\n                                             8\n\fq. Minimum Qualifications. Qualifications that an applicant must possess, at a minimum, to\n   be eligible for hire or promotion under the competitive system. Minimum qualifications\n   typically are expressed in terms of years of job-related experience or education.\n   Applicants who do not meet the minimum qualification requirements for the position\n   receive no further consideration.\n\nr. Open Period. The period during which applications may be submitted for consideration\n   of a job announcement. The duration of the open period must be sufficient to provide\n   adequate public notice of the vacancy and must be reasonably expected to result in a\n   sufficiently diverse applicant pool; and must be clearly specified in the job\n   announcement. OPM recommends that agencies prescribe an open period of no fewer\n   than five (5) business days, unless otherwise justified for a shorter period.\n\ns. Preference Eligible. A veteran, spouse, widow, widower, or mother who meets the\n   definition in 5 U.S.C. § 2108.\n\nt. Priority Consideration. Special consideration priority given to a candidate who\n   previously was denied consideration due to erroneous or lost certification.\n\nu. Quality Rating Procedure. A rating procedure in which candidates are rated according to\n   prescribed quality levels based on the degree to which they possess qualifying experience\n   or training.\n\nv. Rating Procedure. A single, comprehensive, documented process with specific criteria\n   for making consistent, job-related determinations about the relative qualifications of\n   applicants for a position.\n\nw. Reemployment Priority List (RPL). A list of employees within the local commuting area\n   separated from the Department due to reduction in force (RIF) or a work-related injury.\n   If an employee on the RPL is well-qualified for a vacancy within his or her local\n   commuting area, you must (with few exceptions) select that employee before hiring\n   anyone from outside the agency. See 5 CFR 330.\n\nx. Status Applicant. An applicant serving in a career or career-conditional appointment in\n   the competitive service (has competitive status) or has reinstatement eligibility. Per\n   Public Law 105-277 FSA County Committee permanent employees will be considered to\n   have status when applying for USDA vacancies.\n\ny. Status Employee. A current Federal employee who has completed the service\n   requirement for career tenure in the competitive service.\n\nz. Suitability - Determination based on a person’s character or conduct that may have an\n   impact on the integrity or the efficiency of the service. Such determinations are typically\n   based on information gained through a background investigation.\n\n\n\n                                            9\n\f  aa. Veterans’ Preference. A special privilege that entitles qualifying veterans to certain\n      advantages in consideration for Federal employment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b6545a86-2d1e-588d-8007-492c40c67d55",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4030-337-004-8",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4030-337-004-8-stmt",
+                "name": "statement",
+                "prose": "It is USDA policy to:\n\n  a. Comply with all applicable laws, rules, and regulations, and OPM policies governing\n     Delegated Examining.\n\n  b. Provide DEUs with policy and guidance to facilitate and streamline the assessment,\n     referral, and selection of applicants for positions filled through the delegated examining\n     process.\n\n     USDA DEUs are required to develop standard operating procedures (SOPs) that ensure\n     adherence to both OPM and USDA regulations. At a minimum, these SOP’s will be in\n     line with the following policies:\n\n     (1)    Applicant’s request for reconsideration of rating decisions will be addressed in a\n            timely matter, giving consideration to when the certificate will be issued. If a\n            certificate has not been issued, the request should be addressed as soon as possible,\n            before a certificate is issued. If a certificate has already been issued and a\n            determination is made that the applicant should have been referred, the certificate\n            should be amended immediately. If a selection has already been made, then the\n            application should be given consideration as outlined in the procedures for “priority\n            consideration.”\n\n     (2)    10-point preference eligibles will be provided special filing and consideration\n            procedures anytime for a position for which non-temporary appointment was made\n            in the preceding three years for which a register is about to be established, or for\n            which a list of eligibles currently exists but is closed to new applicants.\n\n     (3)    Objections and pass over requests of veteran’s preference eligibles will be\n            processed in accordance with 5 USC 3318, 5 CFR 332.406, and the DEOH.\n            Procedures will identify the official delegated authority to approve requests.\n\n     (4)    An employee trained and certified to perform competitive examining under the DE\n            agreement and involved in the competitive examining process for a DEU will notify\n            his/her supervisor in writing when he/she intends to apply for a position to be filled\n            through his/her agency’s DE procedures, or a member of the employee’s household\n            intends to apply. The employee must be recused at the earliest time when the\n            employee (or a family member) identifies interest in the vacancy. Procedures must\n            be established to monitor or segregate this employee during the examining and\n            certification processes for the vacancy.\n\n\n\n                                               10\n\f     (5)   Justification to document rationale for a public notice period of less than five\n           business days must be in writing and maintained in the case file. Approval must be\n           documented by the Chief (or equivalent) of HR operations within the agency.\n\n     (6)   Documentation of current DE-certification of staff members will be maintained and\n           monitored to ensure timely recertification based on OPM requirements. No HR\n           staff member will engage in DE activity unless DE-certified.\n\n     (7)   Priority consideration will be provided as outlined in the DEOH, Chapter 4, Section\n           E. Priority consideration is a special placement priority that is given to an eligible\n           who was previously denied consideration due to an administrative error or a law or\n           regulatory violation.\n\n     Oversight and accountability for delegated examining, as for all HR activities, is a joint\n     responsibility resting with OHRM, agency management, HR offices, and DEUs. USDA\n     policy is that all DE activity shall be in full compliance in the execution of agency SOP’s\n     with Merit System Principles, laws, regulations, and OPM requirements. Additionally,\n     DE activity in USDA should provide for recruitment and hiring which supports the\n     Department’s Human Capital Plan and results in a high-quality diverse applicant pool to\n     meet the Department’s mission needs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b5bd9a86-3245-534b-9331-40670e95b429",
+        "class": "section",
+        "title": "Delegated Examining Operations",
+        "controls": [
+          {
+            "id": "dr4030-337-004-9",
+            "class": "policy-requirement",
+            "title": "Delegated Examining Operations",
+            "parts": [
+              {
+                "id": "dr4030-337-004-9-stmt",
+                "name": "statement",
+                "prose": "At a minimum, when using competitive examining procedures, a complete recruitment\n  package must be utilized by the servicing DEU to fill a position. The recruitment package\n  includes the SF-39, Request for Certificate of Eligibles, or a copy of the SF-52, Request for\n  Personnel Action, plus the position description, job analysis, crediting plan/rating schedule,\n  justification for using selective placement factors (if any), and a copy of the merit promotion\n  announcement, if applicable. In some cases, the HR Specialist and the hiring official will\n  collaborate on the development of the job analysis and crediting plan/rating schedule.\n\n  The DEU shall ensure the following requirements are met:\n\n  a. Adequate public notice is provided of the opportunity to compete for consideration, to\n     ensure selection is from among the best qualified available candidates on the basis of job-\n     related measures, and to fill positions from the general public and from the general\n     Federal workforce.\n\n  b. FJOA’s under DE are to be developed and posted in USAJOBS separate and apart from\n     those soliciting applications under Merit Promotion procedures. If an agency intends to\n     accept applications from all US Citizens, plus status candidates and other special hiring\n     authorities (VEOA), two announcements must be developed and posted.\n\n  c. FJOA’s are concise and do not exceed five pages and include the following content in\n     accordance with 5 CFR 330.104 and the DEOH handbook:\n\n                                              11\n\f   (1) Title, series, pay plan, and grade (or equivalent);\n\n   (2) Duty location;\n\n   (3) Opening and closing dates, plus any other information dealing with how the receipt\n       of applications will be handled, such as the use of early cut-off dates;\n\n   (4) Name of issuing agency and announcement number;\n\n   (5) Qualification requirements, including knowledge, skills, and abilities (KSAs), (or\n       competencies) and a specialized experience definition;\n\n   (6) Salary range of grade/pay band;\n\n   (7) Number of vacancies;\n\n   (8) Brief description of duties;\n\n   (9) Basis of rating;\n\n   (10) What to file;\n\n   (11) Instructions on how to apply; (including point of contact, telephone number and\n        email address, if appropriate)\n\n   (12) Information on how to claim veterans' preference, if applicable;\n\n   (13) The agency's definition of well-qualified and information on how CTAP and/or\n        ICTAP candidates may apply, including proof of eligibility required;\n\n   (14) Equal employment opportunity statement; and reasonable accommodation statement.\n\nd. Job analysis identifies the competencies or KSAs directly related to job performance.\n   These competencies/KSAs serve as the foundation for development of the appropriate\n   assessment. There are a variety of assessment tools or methods to use depending on the\n   position, i.e., job knowledge tests, rating schedules, ability tests, work samples,\n   situational judgment tests, and structured interviews. Employee selection procedures\n   must meet the requirements of 5 CFR, 300 and the standards established by the Uniform\n   Guidelines on Employee Selection Procedures.\n\ne. Applications are reviewed to ensure applicants meet requirements related to: age,\n   citizenship, selective service, minimum qualifications, and veterans’ preference.\n\nf. Rating and ranking of applications and suitability are completed before appointment into\n   the position for which selected.\n\n                                            12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "157088a1-6308-53ba-abce-a0cf3513bda3",
+        "class": "section",
+        "title": "Public Notice Requirement",
+        "controls": [
+          {
+            "id": "dr4030-337-004-10",
+            "class": "policy-requirement",
+            "title": "Public Notice Requirement",
+            "parts": [
+              {
+                "id": "dr4030-337-004-10-stmt",
+                "name": "statement",
+                "prose": "Public notice is required whenever an agency intends to consider applicants from outside the\n  Federal workforce to fill competitive civil service positions. Jobs announced outside of the\n  agency through DE procedures must be listed on the USAJOBS database. The specific\n  requirement for including items in the vacancy announcement is in the DEOH, Chapter 3,\n  Section C (Create a Job Announcement) and in Section 9 of this DR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7eaca11f-472e-5162-a28e-eb61808f34e1",
+        "class": "section",
+        "title": "Accepting Applications",
+        "controls": [
+          {
+            "id": "dr4030-337-004-11",
+            "class": "policy-requirement",
+            "title": "Accepting Applications",
+            "parts": [
+              {
+                "id": "dr4030-337-004-11-stmt",
+                "name": "statement",
+                "prose": "a. Agencies cannot restrict individuals who do not have internet access from being able to\n     apply. Job announcements must provide information about alternative filing methods and\n     an agency contact person to enable those who do not have internet access to apply.\n\n  b. Applications must be received by the closing date of the vacancy announcement, or\n     postmarked by the closing date, if receiving applications outside of an automated system."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e47abc19-666b-573c-99bf-0c533474871a",
+        "class": "section",
+        "title": "Priority Placement Programs",
+        "controls": [
+          {
+            "id": "dr4030-337-004-12",
+            "class": "policy-requirement",
+            "title": "Priority Placement Programs",
+            "parts": [
+              {
+                "id": "dr4030-337-004-12-stmt",
+                "name": "statement",
+                "prose": "Applications must be reviewed to determine which applicants are entitled to selection priority\n  based on the requirements of USDA’s career transition assistance plan (CTAP), USDA’s\n  interagency career transition assistance plan (ICTAP), or Reemployment Priority List (RPL).\n  For more information on CTAP, ICTAP, and RPL, including eligibility requirements, order\n  of selection, and exceptions, see 5 CFR Part 330 and DR 4030-330-001 (Special Placement\n  Programs)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "672664e0-0a81-5608-a980-375096fc867f",
+        "class": "section",
+        "title": "Category Rating",
+        "controls": [
+          {
+            "id": "dr4030-337-004-13",
+            "class": "policy-requirement",
+            "title": "Category Rating",
+            "parts": [
+              {
+                "id": "dr4030-337-004-13-stmt",
+                "name": "statement",
+                "prose": "a. It is USDA policy to use category rating as the only competitive examining process. The\n     category rating process ranks candidates that have been determined to meet minimum\n     qualification requirements into one of two or more predefined quality categories instead\n     of ranking them using the traditional numerical procedures.\n\n  b. The purpose of category rating is to increase the number of qualified applicants from\n     which a selecting official can choose while ensuring veterans’ preference rights. Ranking\n     using category rating procedures enables the selecting official to select applicants in the\n     highest quality category without regard to the “rule of three” procedures. As a reminder,\n     CPS and compensable preference (CP) eligibles must be placed at the top of the highest\n     category except for professional and scientific positions at the GS-9 level or higher.\n\n  c. For more information on USDA category rating see Departmental Regulation (DR) 4030-\n     337, Category Rating, dated November 1, 2010.\n\n                                             13\n\f  d. Certificate of eligibles will be issued for an initial 15 calendar days. DEU’s will indicate\n     on the certificate the due date for return from the selecting official. If more time is\n     needed for the selection process, a written request must be submitted to the DEU.\n     Extensions will be granted in 15 calendar day increments, not to exceed 90 calendar days.\n     The DEU shall advise the hiring manager of responsibilities to provide for an expedient\n     and efficient hiring process. If a certificate is returned unused, detailed reasons must be\n     obtained from the hiring manager and maintained in the case file."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8598a2a1-7e84-523b-a461-b0f4b4f07560",
+        "class": "section",
+        "title": "Positions Filled Using The Administrative Careers With America",
+        "controls": [
+          {
+            "id": "dr4030-337-004-14",
+            "class": "policy-requirement",
+            "title": "Positions Filled Using The Administrative Careers With America",
+            "parts": [
+              {
+                "id": "dr4030-337-004-14-stmt",
+                "name": "statement",
+                "prose": "(ACWA) HIRING PROGRAM\n\n  a. Agencies may request and use OPM-developed ACWA examining instrument in lieu of\n     developing an alternative ACWA assessment. Agencies must request the authority to\n     administer OPM ACWA assessments from OHRM. The request must include the name,\n     address, telephone number, and email address for a point of contact, and the type of OPM\n     examining instrument to be used. OPM recommends that alternative ACWA assessments\n     be reviewed by USDA’s Office of General Counsel for concurrence. Refer to DEOH,\n     Chapter 5, Section B (ACWA, Alternative Assessments and Other Hiring Programs) and\n     the DOA-1.\n\n  b. Category rating must be used to rank ACWA candidates. Agencies must follow DR\n     4030-337-2, Category Rating, dated November 1, 2010, to determine categories."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "989f989b-eccb-56e7-8002-d03c128f3f79",
+        "class": "section",
+        "title": "Self-Audits",
+        "controls": [
+          {
+            "id": "dr4030-337-004-15",
+            "class": "policy-requirement",
+            "title": "Self-Audits",
+            "parts": [
+              {
+                "id": "dr4030-337-004-15-stmt",
+                "name": "statement",
+                "prose": "a. Each DEU shall set up an SOP for conducting an annual “self-audit” of its delegated\n     examining operations as prescribed in Interagency Agreement, DOA-1. The audit must\n     be conducted by an HR Practitioner not involved in the DE activities of the office being\n     audited. Self-audits can only be conducted by persons who have received DE training\n     and whose certification is current. A DEU may use the services of another Department or\n     Agency as long as such a group is outside of the DEU’s chain of command and they meet\n     all DE training and certification requirements. A DEU must certify that required self-\n     audits have been completed and reported in OPM’s Delegated Examining Information\n     System (DEIS). Copies of self-audits shall be submitted to OHRM within 30 days of\n     their completion. The audit reports must include details of completed and/or planned\n     actions by the DEU to address any deficiencies. Failure to comply with this provision\n     shall be cause to suspend or terminate the DEU.\n\n  b. DEUs are to follow the “Model Agency-Based Accountability Coverage” framework of\n     the DEOH Appendix H, for annual self-audits. The audits will review at least 5% of\n     delegated examining cases conducted, or five case files, whichever is greater. The review\n     should try to include cases representative of a sample of occupations, and will include at\n     least one case for each HR Practitioner. All audit results and all responses to OPM audits\n\n                                              14\n\f     shall be prepared by the DEU and sent to OHRM. OHRM will: 1) provide guidance and\n     oversight on responses; 2) finalize responses; and 3) send responses to OPM under the\n     signature of the OHRM Director, or designee.\n\n  c. Exception.\n\n     When either OHRM or one of OPM’s Oversight and Accountability Groups conducts an\n     audit of a DEU, such audit will meet the annual self-audit requirement for that year.\n     However, DEUs should do a thorough review of their DE activity prior to the formal\n     audit by OHRM or OPM to ensure compliance with all DE requirements. The OHRM or\n     OPM audit should be reported with the appropriate quarterly data submitted through the\n     DEIS. DEUs should ensure OHRM receives a copy of OHRM or OPM’s audit reports\n     and the response to any outstanding required or recommended actions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7fde7d09-1189-5699-ae33-477d155bb71c",
+        "class": "section",
+        "title": "Quarterly Workload Reports And Deu Accountability",
+        "controls": [
+          {
+            "id": "dr4030-337-004-16",
+            "class": "policy-requirement",
+            "title": "Quarterly Workload Reports And Deu Accountability",
+            "parts": [
+              {
+                "id": "dr4030-337-004-16-stmt",
+                "name": "statement",
+                "prose": "a. A DEU must complete the quarterly workload report through the DEIS. These reports\n     are due by the 15th of the month following the end of the reporting quarter (i.e., January\n     15, April 15, July 15, and October 15.) If the DEU did not conduct any examining\n     activities during the quarter, the DEU must submit a negative response report. OHRM\n     will monitor DEIS for timely submission of agency quarterly reports.\n\n  b. DE authority for any unit under USDA’s agreement with OPM is contingent on the unit’s\n     ability to conduct competitive examining in accordance with the laws, regulations, and\n     requirements cited in this Departmental Regulation and the DEOH. Deficiencies such as\n     failure to timely and accurately complete quarterly workload reports through DEIS,\n     conduct self-audits, improper use of DE authority, and the history and severity of\n     deficiencies by either the DEU’s self-audits, USDA’s accountability audits, or OPM’s\n     reviews, and/or failure to take appropriate steps to address any required corrective\n     action(s) in a timely and effective manner may be grounds for the unit’s loss of authority\n     to conduct delegated examining.\n\n\n                                            -END-\n\n\n\n\n                                              15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "7a71b248-c578-5562-8d21-0b92c2643e5a",
+          "title": "USDA Directives — DR4030-337-004",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4030-337-4",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

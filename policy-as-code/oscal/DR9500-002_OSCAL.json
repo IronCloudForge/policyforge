@@ -1,0 +1,131 @@
+{
+  "catalog": {
+    "uuid": "069762b2-806c-5e72-8adc-adef8b8c94d2",
+    "metadata": {
+      "title": "USDA DR9500-002: Agriculture Pesticide Impact Assessment Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2083-03-07",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR9500-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2083-03-07"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-9500-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Agricultural Research Service",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-9500-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Agricultural Research Service"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "f843f014-09da-5428-ac16-c9b52deadbb9",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr9500-002-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr9500-002-1-stmt",
+                "name": "statement",
+                "prose": "U.S. Department of Agriculture\n                                        Washington, D.C. 20250\n\n\n\n                                                                                             Number:\n        DEPARTMENTAL REGULATION                                                              9500-002\n\nSUBJECT: USDA Participation in a National                             DATE:\nAgricultural Pesticide Impact Assessment Program                      March 7, 1983\n\n                                                                      OPI: Agricultural Research Service\n\n\n\n1      PURPOSE\n\n                       This regulation establishes a process for managing and coordinating\n              USDA/State (Land Grant University, Extension and State Regulatory Agency) activities\n              to develop information and analyze pesticide use and impacts of pesticide regulations on\n              agricultural products, product prices, and environmental issues.\n\n2      CANCELLATION\n\n                      This regulation supersedes Secretary's Memorandum 9500-1, December 2, 1981.\n\n3      POLICY\n\n                       Pesticides are essential to meet the Nation's needs for food, natural fibers and\n              wood products, to protect human health and manage natural resources and to carry out\n              regulatory responsibilities. Chemical pesticides must be used wisely, safely, and in\n              concert with other effective commodity protection practices. Also they must be used only\n              within limits consistent with the maintenance of human health, food safety, and\n              environmental quality. It is, therefore, the policy of the United States Department of\n              Agriculture to facilitate informed decisions on pesticides that promote and protect\n              agricultural productivity and benefit humans now and in the future without causing\n              unreasonable adverse effects.\n\n4      ABBREVIATIONS\n\n              APHIS -          Animal and Plant Health Inspection Service\n\n              ARS              -         Agricultural Research Service\n\n              CSRS             -         Cooperative State Research Service\n\n              ECOP             -         Extension Committee on Organization and Policy\n\n              EPA              -         Environmental Protection Agency\n\n              ERS              -         Economic Research Service\n\n              ES               -         Extension Service\n\fDR 9500-002                                                                               March 7, 1983\n\n\n              ESCOP -           Experiment Station committee on Organization and Policy\n\n              FAS               -        Foreign Agricultural Service\n\n              FIFRA -           Federal Insecticide, Fungicide, and Rodenticide Act\n\n              FS                -        Forest Service\n\n              NAPIAP            -        National Agricultural Pesticide Impact Assessment Program\n\n              OGC               -        Office of General Counsel\n\n              SCS               -        Soil Conservation Service\n\n              TAG               -        Technical Advisory Group\n\n              USDA              -        United States Department of Agriculture\n\n5      BACKGROUND\n\n                       Agriculture is confronted with important issues on the use of pesticides and pest\n              control practices. The EPA must by law review all existing pesticide registrations to\n              determine whether such registrations should be reregistered, modified, or canceled. EPA,\n              as required by FIFRA, as amended, has established procedures to provide for detailed\n              evaluation of all pesticides, including the risks and benefits from use. Under FIFRA and\n              the Memorandum of Understanding with the EPA, the USDA has responsibilities for\n              contributing to the EPA decisionmaking process on pesticide regulation. Valid scientific\n              information, objective analyses and interpretations concerning benefits and risks of\n              pesticides are required to meet these responsibilities.\n\n6      PROGRAM\n\n                       In the implementation of this policy on pesticides, the Department participates in\n              a coordinated USDA/State National Agricultural Pesticide Impact Assessment Program.\n              The NAPIAP is designed to provide the most accurate and objective data available for\n              defining and evaluating the benefits and risks of selected pesticides having agricultural\n              and/or forestry uses. This information is necessary to evaluate the effects of pesticide\n              regulation and use on agricultural productivity as well as the quality and use of soil and\n              water resources. Further, information is developed to determine the effectiveness of\n              regulations and the opportunity to simplify or eliminate regulations. Some important\n              aspects of the program include conducting research on exposure to pesticides and\n              environmental fate as well as collection accurate pesticide use information. Analyses and\n              evaluations rely on existing information and on review of environmental and human\n              health assessments by EPA. Because of data deficiencies and constantly changing pest\n              control options and problems, a continuing research program of biological effectiveness,\n              exposure and equipment improvement, economic data collecting and analyses, and\n              environmental risk and hazard assessment will be conducted by the USDA/States.\n\n7      ORGANIZATION\n\n                        A Steering Committee for USDA/State participation in NAPIAP is hereby\n              reestablished, and will report to the Executive Committee of the Research and Education\n              Committee of the Secretary's Policy and Coordination Council. Agency heads or their\n\n\n                                                 2\n\fDR 9500-002                                                                             March 7, 1983\n\n\n              designated representatives from APHIS, ARS, CSRS, ERS, ES, FAS, FS, OGC, and SCS\n              representatives, from ECOP and ESCOP, as well as the Executive Secretary, will be\n              members. The Steering Committee will be served by a TAG composed of representatives\n              named by member agencies.\n\n\n\n\n8      COMMITTEE CHAIRMANSHIP DESIGNATION\n\n                        The Chairman of the Steering Committee will be selected by the Steering\n              Committee from among its membership and may be rotated among members as\n              appropriate. On an annual basis recommendations for Steering Committee chairmanship\n              will be forwarded for concurrence to the Chairman of the Research and Education\n              Committee.\n\n                      The TAG will be coordinated and chaired by the Department's Pesticide\n              Assessment Coordinator. The Steering Committee may appoint ad hoc work groups as\n              necessary to carry out special assignments.\n\n9      RESPONSIBILITIES\n\n                                       a       The Steering Committee will:\n\n                                                                (1)      make all policy decisions\n                                               concerning the organization and functioning of\n                                               NAPIAP;\n\n                                                                  (2)     address all policy issues\n                                               on pesticides including approval of assessment\n                                               reports and USDA's responses to EPA's proposed\n                                               pesticide regulatory actions pursuant to section 6 of\n                                               FIFRA;\n\n                                                                  (3)      advise the assistant\n                                               secretaries, under secretaries, and the secretary as is\n                                               necessary on issues that warrant their concern,\n                                               including budget issues;\n\n                                                                 (4)      provide that appropriate\n                                               cooperative working relationships continue to be\n                                               maintained within the Department and between the\n                                               Department and the State Agricultural Experiment\n                                               Stations, State Extension Services, agricultural\n                                               components of State governments, EPA and other\n                                               concerned organizations;\n\n                                                                 (5)      provide resources for\n                                               conducting detailed assessments of specific pesticides\n                                               and commodities, concur in the five year program\n                                               plan and mutually decide on commitments required\n                                               by each participating agency to implement those\n                                               plans.\n\n\n\n\n                                               3\n\fDR 9500-002                                              March 7, 1983\n\n\n              b   The TAG will:\n\n                                 (1)      provide for the day-to-day\n                  management and coordination of the NAPIAP;\n\n                                    (2)     review all assessment\n                  reports and other program outputs, EPA position\n                  documents, proposed registration and policy\n                  documents, and make policy recommendations to the\n                  Steering Committee;\n\n                                     (3)      determine which\n                  pesticides, pesticide uses and commodities require\n                  assessment by the Department;\n\n                                     (4)     develop, and revise as\n                  necessary, a five year program plan and identify\n                  associated resource requirements;\n\n                                  (5)        prepare draft responses to\n                  EPA proposed actions;\n\n                                     (6)     facilitate implementation\n                  and coordination of assessment activities concerning\n                  specific pesticides and commodities.\n\n              c   The Pesticide Assessment Coordinator will:\n\n                                    (1)     as Executive Secretary of\n                  the Steering Committee, assure that policy issues are\n                  brought before the Committee for resolution;\n\n                                   (2)      as Chairman of the TAG\n                  provide the forum for coordinating the day-to-day\n                  management of the NAPIAP program;\n\n                                    (3)      with the assistance of the\n                  TAG, provide for the approval of assessment reports\n                  and preparation of Departmental responses to EPA\n                  proposed pesticide regulatory actions pursuant to\n                  section 6 of FIFRA;\n\n                                   (4)      with consensus of the\n                  TAG, respond on behalf of the Department to EPA\n                  proposed regulations pursuant to Section 25 of\n                  FIFRA;\n\n                                   (5)   serve as principal contact\n                  between USDA and EPA on matters related to\n                  NAPIAP and other EPA regulatory actions of a\n                  Departmental nature;\n\n\n\n\n                  4\n\fDR 9500-002                                                                               March 7, 1983\n\n\n                                                                  (6)     keep NAPIAP\n                                                 components fully informed of regulatory activity\n                                                 relating to NAPIAP responsibility.\n\n                                        d        Regional Coordinators will:\n\n                                                                    (1)       coordinate NAPIAP\n                                                 research efforts in the States within their respective\n                                                 regions;\n\n                                                                    (2)      function as part of the\n                                                 agricultural network, working with States in their\n                                                 region to furnish pesticide data and to provide\n                                                 comments on regulatory issues as requested by TAG.\n\n                                        e        State Liaison representatives will:\n\n                                                                   (1)       serve as the NAPIAP\n                                                 Representative of their State to express State and\n                                                 local concerns on pesticide issues and research needs;\n\n                                                                   (2)       provide for the furnishing\n                                                 of available biological, environmental, pesticide use,\n                                                 and economic data requested by the TAG and/or\n                                                 Steering Committee;\n\n                                                                     (3)      provide a link in\n                                                 facilitating the flow of information among the USDA\n                                                 NAPIAP components and State pesticide interests.\n\n10     DURATION\n\n                        The NAPIAP requires a substantial amount of resources and it is important that\n              the best possible use be made of currently available information, funds and personnel.\n              The NAPIAP is essential because of the continuing need for effective and economical\n              pest control in American agriculture. The program is expected to continue for many years\n              based on this need and the continued regulation of pesticide use. Flexibility in the\n              NAPIAP must be maintained to deal with changes in pest control technology as well as\n              changes in EPA schedules and policy.\n\n\n\n\n                                                5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "85f856a6-a303-5e8f-859f-0b4a38781358",
+          "title": "USDA Directives — DR9500-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-9500-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

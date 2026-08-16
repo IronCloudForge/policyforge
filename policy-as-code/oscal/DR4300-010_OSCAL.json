@@ -1,0 +1,263 @@
+{
+  "catalog": {
+    "uuid": "2c809c1e-0ef3-544e-93c6-af3f10888835",
+    "metadata": {
+      "title": "USDA DR4300-010: Civil Rights Accountability Policy and Procedures",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2016-12-28",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4300-010"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2016-12-28"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4300-010",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Civil Rights/Office of Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4300-010",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Civil Rights/Office of Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "a0364b5e-a0c7-52a0-a9e9-91615e2b24b5",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4300-010-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4300-010-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the civil rights accountability policy and\n     procedures for ensuring that appropriate disciplinary or corrective actions are taken when\n     discrimination, retaliation, civil rights violations, harassment, bullying, or related misconduct\n     occurs. The regulation strengthens existing civil rights policies within the U.S. Department\n     of Agriculture (USDA or the Department) and requires agencies to establish training,\n     alternative dispute resolution (ADR) strategies, and work to resolve complaints at the earliest\n     possible opportunity.\n\n     This DR establishes procedures that measure and evaluate both organizational and individual\n     accountability in providing fair treatment for all USDA customers and employees, while\n     ensuring its delivery of programs and the enforcement of civil rights."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3137ec6c-7f73-5514-be71-0ec32a50b943",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr4300-010-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr4300-010-2-stmt",
+                "name": "statement",
+                "prose": "This regulation replaces DR 4300-010, Civil Rights Accountability Policy and Procedures,\n  dated January 18, 2006."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c91922a2-f1f8-51eb-9b09-3286287ae0aa",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4300-010-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4300-010-3-stmt",
+                "name": "statement",
+                "prose": "All employees, including Agency Heads, Staff Office Directors, managers and supervisors\n  are responsible for a work environment free of discrimination or retaliation; have a duty to\n  uphold the civil rights of customers and employees; and must ensure programs are delivered\n  in compliance with USDA’s civil rights, nondiscrimination and equal employment\n  opportunity policies. As a basic requirement, the Office of the Assistant Secretary for Civil\n  Rights (OASCR), Departmental Management (DM), Agency Heads and Staff Office\n  Directors will ensure this regulation is effectively administered and reported by agencies and\n  Staff Offices in a timely manner.\n\n  To deter violations, agencies and Staff Offices are required to provide training and resources\n  to bring awareness to civil rights/equal employment opportunity and conflict management\n  techniques. They are also required to employ the ADR techniques consistent with DR 4710-\n  001, USDA Alternative Dispute Resolution. Disciplinary and corrective action in response to\n  findings of discrimination, retaliation, civil rights violations, non-compliance with civil rights\n  policies and agreements, violations of settlement agreements, or related misconduct in\n  employment and program matters should be taken pursuant to prevailing laws, rules, and\n  regulations.\n\n  Management officials will be held accountable for their failure, and the failure of their\n  employees, to actively support and adhere to USDA’s civil rights policies. Management\n  officials shall be held accountable for discrimination, retaliation, civil rights violations, or\n  related misconduct and will be evaluated in accordance with this policy and with the\n  governing Federal and USDA regulations regarding discipline and adverse actions.\n  Agency’s human resources (HR) and Office of Human Resources Management (OHRM) will\n  determine if disciplinary or other corrective action is warranted.\n\n  Also, management officials, including senior management officials, will be held accountable\n  for enforcing civil rights notifications and electronic postings to create awareness of civil\n  rights, conducting training, and taking appropriate action in response to findings of\n  discrimination, retaliation, harassment, bullying, civil rights violations or related misconduct.\n  Examples of such notifications and electronic postings include the Anti-Harassment policy,\n  ADR DR, the Secretary’s Civil Rights Policy Statement, Notification and Federal Employee\n  Antidiscrimination and Retaliation Act, and reasonable accommodation procedures.\n\n\n\n\n                                                2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "722bf32b-c65a-5eb8-a6ed-f750ecb9f04f",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4300-010-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4300-010-4-stmt",
+                "name": "statement",
+                "prose": "It is USDA’s policy to treat customers and employees fairly, with dignity and respect,\n  regardless of race, color, national origin, disability, sex, political beliefs, age, marital,\n  family/parental status, religion, protected genetic information, reprisal, or because all or a part\n  of an individual’s income is derived from any public assistance program (not all bases apply to\n  all programs).\n\n  Agency officials, managers, supervisors and other employees shall be held accountable for\n  providing training to their employees, and where appropriate, to program recipients on civil\n  rights programs, obligations and the strategic civil rights goals of USDA. In addition, they\n  will be held accountable for acts of discrimination, retaliation, civil rights violations, and/or\n  related misconduct."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "de8f32bd-e1ad-5cab-b251-afb96d6c2eed",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4300-010-5",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4300-010-5-stmt",
+                "name": "statement",
+                "prose": "a.   Accountability. The obligation of holding agency officials, management and senior\n       management officials, managers, supervisors, and other employees responsible for their\n       conduct or omissions that have contributed to civil rights violations, which may include,\n       but are not limited to, acts of discrimination, retaliation, or related misconduct.\n\n  b.   Adverse Action. Adverse actions are defined by law at 5 United States Code (U.S.C.)\n       Chapter 75, and include suspensions without pay, reductions in grade or pay, furloughs\n       of 30 days or less, and removal\n\n  c.   Agency. For purposes of this directive, agency is defined as a major program\n       organizational unit of the Mission Area with delegated authorities to deliver agricultural\n       or food programs, activities, benefits and services. The term “Agency” does not include\n       Departmental Management or other Staff Offices.\n\n  d.   Agency Head. The administrator, chief, or director of an Agency who is the official\n       named or designated to have primary responsibility for the management of the Agency\n       as delegated under Title 7, Code of Federal Regulations (CFR), Part 2.\n\n  e.   Alternative Dispute Resolution (ADR). Any number of conflict resolution techniques\n       that use a neutral third party to assist employees, managers, supervisors, agencies, and\n       USDA customers in resolving disputes.\n\n  f.   Case Report. Memorandum reporting the results of an analysis and findings, including a\n       brief statement of findings, and corrective actions required or disciplinary actions\n       proposed.\n\n  g.   Compliance Review. Inspections of agency employment and programs to determine\n       compliance with civil rights laws and regulations.\n\n\n                                                 3\n\fh.   Conciliation Agreement. Conciliation is a category of dispute resolution that includes\n     mediation and other similar resolution processes conducted between the participants or\n     groups in conflict. Participants may be located in more than one location and/or the\n     neutral conciliator may emphasize speaking with one participant at a time. Special\n     emphasis is placed on restoring relationships during the process. Conciliation is often\n     introduced to existing negotiations that may be deteriorating and in need of emphasis on\n     addressing relationship aspects between the parties.\n\ni.   Corrective Actions. Measures taken toward enhancing civil rights goals of USDA,\n     which may be disciplinary or adverse actions and may include training or other similar\n     actions.\n\nj.   Customer(s). A person or group of persons who receive or enjoy the benefits, services,\n     resources, and information or to participate in activities and programs conducted or\n     funded in whole or part by USDA.\n\nk.   Decision. A determination issued by an entity with authority to issue legal and/or\n     administrative opinions, arrived at after consideration of the facts and applicable law.\n\nl.   Disciplinary Action. An action taken with the intent to correct the conduct of an\n     employee, which includes, among other actions, a letter of reprimand, suspension,\n     reduction in grade or pay, or removal from the Federal Service.\n\nm. Final Agency Decision (FAD). A final written determination issued by OASCR in an\n   employment or program discrimination complaint.\n\nn.   Analyses and Findings. Review of a Covered Action to determine if any inappropriate\n     actions or inactions occurred and/or to identify systemic issues that contributed to the\n     issuance of a Covered Action and to evaluate whether corrective action or a proposal of\n     disciplinary action is appropriate.\n\no.   Management Official. A management official as defined in acts above who is also an\n     employee having authority to hire, transfer, suspend, furlough, recall, promote,\n     discharge, assign, reward, or discipline other employees; or having responsibility to\n     direct them, adjust their grievances, or effectively recommend such action if, in\n     connection with the foregoing, the exercise of authority is not of a merely routine or\n     clerical nature but requires the use of independent judgment.\n\np.   Senior Management Official. A Senior Executive Service (SES), Senior Level (SL), and\n     Scientific and Professional (ST) positions in the Competitive Service, and Senior\n     Science and Technology Service (SSTS) positions in the Excepted Service or a political\n     appointee (includes Schedule C appointments and non-career SES).\n\nq.   Settlement Agreement. A voluntary, written and signed agreement by which parties to a\n     dispute reflect the mutually agreed-to terms for resolving a dispute and bringing to an\n     end to the processing of an informal or formal complaint of discrimination.\n                                              4\n\f  r.   Staff Office. An administrative office with specialized support functions as defined by 7\n       CFR 2.4. All Staff Offices, with the exception of the National Appeals Division (NAD)\n       and the Office of the Inspector General (OIG) report directly to the Secretary of\n       Agriculture. NAD and OIG are in the Secretary’s reporting chain but have independent\n       authority and reporting responsibilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "38e87a12-abd6-5c81-9a46-5e9bb10f0b28",
+        "class": "section",
+        "title": "Notices To Employees",
+        "controls": [
+          {
+            "id": "dr4300-010-6",
+            "class": "policy-requirement",
+            "title": "Notices To Employees",
+            "parts": [
+              {
+                "id": "dr4300-010-6-stmt",
+                "name": "statement",
+                "prose": "OASCR, Agencies, and Staff Offices must provide notice of this regulation to each of its\n  employees and management. Copies may be distributed in printed format or e-mail, or\n  employees and management may be notified that this regulation is available on the USDA\n  website. Copies should also be provided in alternative formats or languages upon request\n  and must be 508 compliant. Employees shall be notified of this regulation and subsequent\n  changes to it within 90 days of publication or at the time of the employee’s appointment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dd0a3d4b-cbd8-5502-b689-1a3b23f10a1e",
+        "class": "section",
+        "title": "Covered Actions",
+        "controls": [
+          {
+            "id": "dr4300-010-7",
+            "class": "policy-requirement",
+            "title": "Covered Actions",
+            "parts": [
+              {
+                "id": "dr4300-010-7-stmt",
+                "name": "statement",
+                "prose": "Agencies and OHRM will initiate a review of each of the following actions (Covered\n  Actions) to determine whether disciplinary or other corrective actions are warranted:\n\n  a.   Finding of Discrimination in any Final Agency Decision (FAD) on Equal Employment\n       Opportunity and/or Program complaints of discrimination issued by OASCR (within 10\n       days of issuance);\n\n  b.   Decisions issued by an Administrative Judge of the Equal Employment Opportunity\n       Commission (EEOC) that include a finding of discrimination;\n\n  c.   Decisions issued by the EEOC Office of Federal Operations;\n\n  d.   Decision issued by the U.S. Merit Systems Protection Board that include findings of\n       discrimination on an affirmative defense;\n\n  e.   Findings or recommendations made by OASCR regarding the non-enforcement of civil\n       rights policies, laws, or regulations;\n\n  g.   Federal Court decisions, Employment and/or Program Discrimination complaints with a\n       finding of discrimination after a decision on whether or not an appeal is made or a final\n       decision is issued;\n\n  h.   As determined by OASCR, investigations, Compliance Reviews or audits of civil rights\n       or related activities performed by entities within or outside of USDA that include formal\n       findings of discrimination or misconduct related to civil rights;\n\n\n                                               5\n\f  i.    Settlement Agreements of EEO complaints (informal and formal);\n\n  j.    Settlement agreements resulting from MSPB cases that include allegations of an\n        affirmative defense.\n\n  k.    Settlement Agreements of Program Discrimination complaints (informal and formal)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "15709e2d-13d6-5079-96f9-edf2e2c988d9",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4300-010-8",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4300-010-8-stmt",
+                "name": "statement",
+                "prose": "a. ASCR shall:\n\n       (1) Order such corrective measures in EEO and program complaints as may be\n           considered necessary. Corrective measure may include recommending to the\n           OHRM and the affected agency or office that appropriate disciplinary action be\n           initiated when an employee has been found to have engaged in inappropriate actions\n           or inactions occurred and/or to identify systemic issues that contributed to the\n           issuance of a Covered Action; and\n\n       (2) Review all Covered Actions and determine whether an Agency or any individual\n           employee or Management Official should be commended for utilizing ADR in an\n           exemplary manner. Covered Actions shall be handled in a manner to ensure that the\n           confidentiality of any Settlement Agreement is protected except as required by law.\n           In addition, any request for additional documentation or inquiry by an HR Director\n           shall not contravene the confidentiality normally accorded to the ADR process,\n           pursuant to the Administrative Dispute Resolution Act of 1996, or any other\n           applicable privileges or restrictions on release of the agreement or other relevant\n           materials.\n\n  b. Agencies shall:\n\n       (1) Forward pertinent case record information to the HR Director for the Agency or\n           Staff Office and provide a copy of each Covered Action, along with a copy of the\n           pertinent complaint file(s) maintained by OASCR, to include any pertinent EEO\n           Counselor’s Report, Fact Finding Report(s), or Report(s) of Investigation, within 10\n           calendar days of the date on which OASCR received notice of the Covered Action;\n\n       (2) Forward to OASCR any Covered Actions not issued by OASCR, for official record\n           keeping, as expeditiously as possible, but no later than fifteen (15) calendar days\n           after receipt of the covered action;\n\n       (3) Conduct an initial level of review of the circumstances leading to a Covered Action\n           to determine if any inappropriate action(s) or inaction(s) occurred, and/or to identify\n           systemic issues that may warrant appropriate corrective action;\n\n\n\n                                                6\n\f   (4) Complete a Civil Rights Accountability Case Cover Sheet (See Appendix A) that\n       includes identification of the individual(s) whose actions or inactions gave rise to the\n       initiation of the informal action or formal complaint that resulted in the Covered\n       Action, identification of any systemic issues, and the findings relative to\n       administrative action(s) to address and correct the actions or inactions of individuals\n       and/or to correct systemic issues. Covered Actions shall be handled in a manner to\n       ensure that the confidentiality of any settlement or conciliation agreement is\n       protected except as required by law;\n\n   (5) Ensure that appropriate corrective action is initiated, where there has been a finding\n       of discrimination in a Covered Action, the occurrence of inappropriate\n       action(s)/inaction(s) or systemic issue(s) and to deter others from engaging in similar\n       conduct and to correct matters that may have an effect on USDA operations;\n\n   (6) Timely implement proposed disciplinary and corrective actions;\n\n   (7) Provide to OASCR and OHRM, the Civil Rights Accountability Case Cover Sheet\n       and any requested supporting documentation; and\n\n   (8) Prepare a written quarterly report setting forth the number and general description of\n       disciplinary or corrective actions taken pursuant to this regulation, including Section\n       9 (See Appendix B). The report shall set forth the specific nature of the disciplinary\n       or corrective action initiated and shall identify the Covered Action giving rise to the\n       inquiry that led to the disciplinary or corrective action. The fourth quarter report\n       shall be provided to OASCR and OHRM no later than January15th of each fiscal\n       year.\n\nc. OHRM shall:\n\n   (1) Conduct an independent preliminary review of all Covered Actions, including those\n       identified under Section 9 below, and determine whether additional documentation\n       such as the Counselor’s Report, informal and/or formal complaint of discrimination,\n       Report of Investigation, or other relevant materials are needed to conduct an inquiry.\n       Covered Actions shall be handled in a manner to ensure that the confidentiality of\n       any settlement agreement (or conciliation agreement) is protected except as required\n       by law. In addition, any request for additional documentation or inquiry by OHRM\n       shall not contravene the confidentiality normally accorded to the ADR process,\n       pursuant to the Administrative Dispute Resolution Act of 1996, or any other\n       applicable privileges or restrictions on release of the agreement or other relevant\n       materials;\n\n   (2) Conduct an assessment of each Covered Action to identify any inappropriate\n       action(s) or inaction(s) that occurred, and/or to identify ANY systemic issue(s) that\n       gave rise to the initiation of the informal action or formal complaint that gave rise to\n       the Covered Action; and\n\n\n                                             7\n\f     (3) Prepare a written report, at the end of each fiscal year, setting forth the number and\n         general description of disciplinary or corrective actions taken pursuant to this\n         regulation, including for Covered Actions pertaining to Senior Management\n         Officials pursuant to Section 9 below. The report shall set forth the specific nature\n         of the disciplinary or corrective action taken and shall identify the Covered Action\n         giving rise to the inquiry that led to the disciplinary or corrective action. The annual\n         report shall be provided to OASCR no later than January 15th of each year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a21eb7fa-e64f-539b-b17e-640d3219466d",
+        "class": "section",
+        "title": "Covered Actions Involving Senior Management Officials",
+        "controls": [
+          {
+            "id": "dr4300-010-9",
+            "class": "policy-requirement",
+            "title": "Covered Actions Involving Senior Management Officials",
+            "parts": [
+              {
+                "id": "dr4300-010-9-stmt",
+                "name": "statement",
+                "prose": "USDA will utilize the procedures described in this Directive for Covered Actions in which a\n  Senior Management Official(s) was involved in any Covered Action.\n\n\n                                            -END-\n\n\n\n\n                                               8\n\f                                       APPENDIX A\n\n                     Sample Civil Rights Accountability Case Cover Sheet\n\n\nCase Name:             Last Name, First Name, Middle Name\n\nCase Number:           USDA Agency Case No.; EEOC Docket No.; MSPB Docket No.\n\nCovered Action:        Identify the Covered Action being reviewed (e.g. FADi, SAii,\nPMIiii, etc.)\n\nAllegation(s):\nFAD – Describe only those claims where discrimination was found.\nSA – Describe the inappropriate action(s)/inaction(s) that led to the allegation(s).\nPMI – Synopsis of those allegations having an affirmative action nexus.\n\nIdentification of Individual(s) critical to Decision/Outcome:\nFAD – Identify by name, position, grade, & location the responsible individual(s) whose\naction(s) or inaction(s) gave rise to the initiation of the informal or formal complaint that\ngave rise to the Covered Action.\nSA – Identify by name, position, grade, & location the responsible individual(s) whose\naction(s)/inaction(s) were alleged to be inappropriate.\nPMI – Identify by name, position, grade, and location the responsible individual(s) whose\naction(s)/inaction(s) was alleged to be inappropriate.\n\nAnalysis of Inappropriate Conduct/Behavior/Systemic Issue:\nFAD - Briefly describe the specific inappropriate action(s)/inaction(s) that resulted in the\nfinding of discrimination.\nSA - What action(s)/inaction(s) adversely impacted the ability of the Agency to prevail\nbefore a 3rd party and/or what action(s)/inaction(s) was inappropriate and/or misconduct\nin nature?\nPMI - What action(s)/inaction(s) was inappropriate conduct/behavior?\n\nFAD/SA/PMI – What is the appropriate action(s) to correct the inappropriate\naction(s)/inaction(s) to deter similar inappropriate conduct/behavior in the future?\n\nIdentification of systemic issues, if any:\nFAD – What policy, practice, procedure resulted in the finding of discrimination?\nSA – What policy, practice, procedure requires attention/revision/review?\nPMI – What policy, practice, procedure requires attention/revision/review?\nNote: If no evidence of a systemic issue(s) is identified in the analysis, state so in the\nfinding.\n\n\n\n\n                                            A-1\n\f               Sample Civil Rights Accountability Case Cover Sheet Cont’d\n\nAgency Proposed Action:\nFAD/SA/PMI – Based on the assessment identify what, if any, corrective actions the\nAgency proposes to take to correct future occurrences. If no action was proposed, then\nstate why the Agency proposes no action.\n\nOutline of Actions Taken:\nFAD/SA/PMI – Describe what actions were taken and against whom, if any.\n\n\n\n\n[Specialist Name]                                             Date\n[Position, Agency}\n\n\n\n\ni\n  FAD – Final Agency Decision\nii\n   SA – Settlement Agreement\niii\n    PMI – Personnel Misconduct Investigation\n\n\n\n\n                                               A-2\n\f                                          APPENDIX B\n\n                       Sample Civil Rights Accountability Quarterly Report\n\n\nAgency/Staff Office:\n\nFiscal Year:                       Quarter:\n\n\nNumber of Covered Action Cases Reviewed:\n       -   Final Agency Decisions\n       -   EEOC Administrative Judge Decisions\n       -   EEOC OFC Decisions\n       -   MSPB Decisions\n       -   Federal Court Decisions\n       -   Settlement Agreements\n           o Employment Complaints\n           o Program Complaints\n       -   EEOC Administrative Judge Decisions\n       -   Personnel Misconduct Investigations\n\nNumber of Corrective Actions Initiated:\n       -   Training\n       -   Discipline\n       -   +14 day suspensions\n       -   -14 Day Suspension\n       -   Removals/Terminations\n       -   Official Reprimand\n       -   Warning/Caution\n       -   Other\n           o Describe:\n\n\n\n\n                                              B-1\n\f                                    APPENDIX C\n\n                        AUTHORITIES AND REFERENCES\n\n\n\nThe Civil Service Reform Act of 1978, Pub. L. 95–454, 92 Stat. 1111 (CSRA)\n\nDepartment Personnel Bulletin 751-3, Alternative Discipline, June 3, 1998\n\nDepartment Personnel Manual, Chapter 751, Appendix A - USDA Guide for Disciplinary\nPenalties\n\nDepartmental Regulations, 5 U.S.C. 301, January 3, 2012\n\nDR 4070-735-001, USDA Employee Responsibilities and Conduct, October 4, 2007\n\nDR 4300-006, USDA Civil Rights Policy, June 30, 2000\n\nDR 4300-007, Processing Equal Employment Opportunity (EEO) Complaints of\nDiscrimination, July 12, 2016\n\nDR 4710-001, USDA Alternative Dispute Resolution, April 5, 2006\n\n\n\n\n                                         C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "89eddf6b-cac6-53c2-9a46-c182cf558cc6",
+          "title": "USDA Directives — DR4300-010",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4300-010",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "catalog": {
+    "uuid": "992c4cbd-8d60-51b8-92c8-cb38c70861dc",
+    "metadata": {
+      "title": "USDA DR3300-001-G: Sharing Of Telecommunications Resources",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2019-09-12",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-001-G"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2019-09-12"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-001-g",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Digital, Infrastructure Services Center, Enterprise Network",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-001-g",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Digital, Infrastructure Services Center, Enterprise Network"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "1bf601d8-23b3-528e-9638-88ac678cb582",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3300-001-g-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3300-001-g-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) policy for sharing, optimizing, and consolidating telecommunications resources."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "53b8fcb4-e6a3-59ce-97ae-022f6bbee3a9",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3300-001-g-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3300-001-g-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR replaces DR 3300-1-G, Sharing of Telecommunications Resources, dated\n          March 23, 1999.\n\n     b.   This policy is effective immediately when published and will remain in effect until\n          replaced.\n\f  c.   All Mission Areas, agencies, and staff offices will align their policies and procedures\n       with this DR within 6 months of the publication date.\n\n  d.   Mission Areas, agencies, and staff offices may supplement this DR when developing\n       their internal operating procedures. Modifications to the intent or purpose of this DR are\n       not allowed. If Mission Areas, agencies, or staff offices publish a supplement to this\n       DR, one copy of each supplement will be forwarded to the Office of the Chief\n       Information Officer (OCIO), Digital Infrastructure Services Center (DISC), Enterprise\n       Network Services (ENS), Telecommunications Infrastructure Management and\n       Governance (TIMG) at ens.policy@ocio.usda.gov."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "55692d3f-f65a-57ac-8238-0c4169e9b74a",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3300-001-g-3",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3300-001-g-3-stmt",
+                "name": "statement",
+                "prose": "USDA must take advantage of every opportunity to aggregate and optimize the acquisition of\n  new telecommunications resources through the coordination of business processes and\n  telecommunications planning among all USDA Mission Areas, agencies, and staff offices.\n  The Clinger-Cohen Act, 40 United States Code (U.S.C.) Section 11101, et seq., mandates\n  that all Government Agencies refocus information technology (IT) management to directly\n  support each of their respective strategic missions, implement an investment review process\n  that drives budget formulation and execution for information systems, and rethink and\n  restructure the way they perform their functions before investing in IT to support that work."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11e650e1-89fb-5353-8c64-9adb290d3774",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3300-001-g-4",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3300-001-g-4-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, staff offices, contractors, data centers,\n  cloud service providers, cooperative partners, employees, and others working for, or on\n  behalf of, the USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fb9c8595-fa06-53c8-a678-59dcf1a8cd6d",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3300-001-g-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3300-001-g-5-stmt",
+                "name": "statement",
+                "prose": "In accordance with the Federal Shared Services Implementation Guide; Office of\n  Management and Budget (OMB) Memorandum M-11-29, Chief Information Officer\n  Authorities; and, Federal Information Technology Acquisition Reform Act (FITARA), Public\n  Law (P.L.) 113-291 §831-837, USDA will explore and implement opportunities to share,\n  optimize, and consolidate telecommunications resources that will result in:\n\n  a.   The use of telecommunications resources in a cost-effective and efficient manner;\n\n  b.   The elimination of inefficient spending that results from duplicative service offerings\n       and systems;\n\n  c.   The reduction of support costs of redundant IT resources;\n\n\n\n\n                                                 2\n\f  d.   The use of telecommunications resources to achieve optimum configuration of services\n       at each service delivery point; and\n\n  e.   Increased information sharing among Mission Areas, agencies, and staff offices that will\n       help ensure telecommunications resources and the data being transported using these\n       resources are adequately protected."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "468801f2-53a2-529b-bf75-4af98dd698c5",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3300-001-g-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3300-001-g-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Chief Information Officer (CIO) will:\n\n       (1) Assess current and future telecommunications needs;\n\n       (2) Provide Departmental leadership and identify cost reduction opportunities for\n           sharing, optimizing, and consolidating telecommunications resources throughout\n           USDA;\n\n       (3) Provide consultation and analytical support to Mission Areas, agencies, and staff\n           offices in developing and implementing plans of actions for sharing, optimizing,\n           and consolidating telecommunications;\n\n       (4) Provide guidance and direction on connectivity of telecommunications services to\n           USDA partners such as agricultural research universities;\n\n       (5) Review and approve Mission Area, agency, and staff office action plans for\n           implementing changes in telecommunications services within Group One cities (see\n           Appendix B for the list of Group One cities). Group One cities must be optimized\n           for network backbone concentration nodes for an Enterprise Network (EN);\n\n       (6) Include the sharing, optimization, and consolidation of telecommunications\n           resources as described in DR3130-013, Information Technology Capital Planning\n           and Investment Control;\n\n       (7) Ensure that sharing, optimization, and consolidation are a part of the performance\n           and results-based management process to establish goals for improving the\n           efficiency and effectiveness of operations and, as appropriate, the delivery of\n           services to the public through effective use of IT; and\n\n       (8) Perform management and/or oversight responsibilities in accordance with FITARA,\n           as applicable to this directive.\n\n  b.   The ENS Director will:\n\n       (1) Establish procedures for monitoring, measuring, and enforcing compliance with this\n           DR;\n\n\n\n                                                3\n\f     (2) Oversee Mission Area, agency, and staff office compliance with USDA\n         telecommunications policies and procedures;\n\n     (3) Manage USDA telecommunications services, equipment, and facilities in\n         accordance with prescribed laws, regulations, standards, and related USDA 3300\n         Series Telecommunications Management directives;\n\n     (4) Review and render decisions on Mission Area, agency, and staff office\n         telecommunications policy waiver requests;\n\n     (5) Maintain an electronic file of approved waivers;\n\n     (6) Identify Mission Area, agency, and staff office business and program requirements,\n         and work with the USDA CIO to develop standardized, cost-effective solutions\n         based on a common telecommunications architecture;\n\n     (7) Coordinate the designation of lead agencies, as required, prior to the\n         implementation of an EN;\n\n     (8) Work with Mission Areas, agencies, and staff offices to eliminate redundant or\n         unused services and equipment;\n\n     (9) Use General Services Administration (GSA) and USDA mandated programs,\n         products, and services when organizational requirements can be met cost-\n         effectively through the programs, products, and services; and\n\n     (10) Maintain inventories of USDA telecommunications resources to the extent\n          necessary to:\n\n         (a) Ensure adequate and appropriate telecommunications resources to support\n             Mission Area, agency, and staff office missions;\n\n         (b) Ensure accountability for USDA telecommunications property; and\n\n         (c) Meet Departmental and Federal requests for periodic or special inventory\n             reports.\n\nc.   Mission Area Assistant CIOs and Agency and Staff Office IT Directors will:\n\n     (1) Ensure Mission Area, agency, and staff office personnel comply with this directive;\n\n     (2) Ensure Mission Area, agency, and staff office internal directives conform to this\n         DR’s stated requirements;\n\n     (3) Seek and actively pursue opportunities for sharing, optimizing, and consolidating\n         telecommunications resources;\n\n\n                                               4\n\f       (4) Eliminate redundant, uneconomical, or unused services, and equipment;\n\n       (5) Designate a senior management official or a single point of contact (POC) to serve\n           as the Telecommunications Mission Area Control Officer (TMACO) to coordinate\n           optimization and consolidation of telecommunications services internally, with the\n           OCIO, and with other Mission Areas, agencies, and staff offices;\n\n       (6) Use GSA’s and USDA’s mandated programs when Mission Area, agency,\n           and staff office requirements can be met cost-effectively through use of the\n           programs;\n\n       (7) Notify OCIO, through the telecommunications planning process, of all initiatives to\n           share telecommunications resources;\n\n       (8) Obtain a waiver from TIMG to decline sharing, optimizing, and consolidating\n           opportunities within a Group One city; and\n\n       (9) Maintain Mission Area, agency, and staff office inventories of\n           telecommunications resources to the extent necessary to:\n\n           (a) Ensure adequate and appropriate telecommunications resources to support\n               Mission Area, agency, or staff office missions;\n\n           (b) Ensure accountability for USDA property; and\n\n           (c) Meet Departmental and Federal requests for periodic or quarterly inventory\n               reports.\n\n  d.   The roles and responsibilities for TMACOs are provided in DR3300-020,\n       Telecommunications Mission Area Control Officer Roles and Responsibilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2912617-2cb7-5297-873b-ba4daec4a63d",
+        "class": "section",
+        "title": "Compliance",
+        "controls": [
+          {
+            "id": "dr3300-001-g-7",
+            "class": "policy-requirement",
+            "title": "Compliance",
+            "parts": [
+              {
+                "id": "dr3300-001-g-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR4070-735-001, Employee Responsibilities and Conduct, Section 16, sets forth\n       USDA’s policies, procedures, and standards on employee responsibilities and conduct\n       relative to the use of computers and telecommunications equipment. DR 4070-735-001,\n       Section 21, states that a violation of any of the responsibilities and conduct standards\n       contained in this directive may be cause for disciplinary or adverse action.\n\n  b.   Such disciplinary or adverse action will be effected in accordance with applicable\n       laws and regulations such as Office of Personnel Management (OPM) regulations,\n       OMB regulations, and the Standards of Ethical Conduct for Federal Employees of the\n       Executive Branch.\n\n\n\n\n                                                5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0afcba30-c2a7-5c7e-9f14-f959c32c11d7",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3300-001-g-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3300-001-g-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy. If a specific policy requirement cannot be met as explicitly stated, Mission\n       Areas, agencies, and staff offices may submit a waiver request. The waiver request will\n       explain the reason for the request, identify compensating controls/actions that meet the\n       intent of the policy, and identify how the compensating controls/actions provide a\n       similar or greater level of defense or compliance than the policy requirement.\n\n  b.   Mission Area Assistant CIOs and Agency and Staff Office IT Directors will address all\n       policy waiver request memoranda to the ENS Director and submit the waiver request to\n       ens.policy@ocio.usda.gov for review and determination.\n\n  c.   Waivers to stipulations of this directive that have been granted approval by the ENS\n       Director and that are associated with a control identified in National Institute of\n       Standards and Technology (NIST) Special Publication (SP) 800-53 Revision 4, Security\n       and Privacy Controls for Federal Information Systems and Organizations, will be\n       recorded and tracked as a Plan of Action and Milestones (POA&M) item in the USDA\n       Federal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §3551, et\n       seq., data management and reporting tool.\n\n  d.   Waivers will expire at the end of the fiscal year or 6 months from the date of approval,\n       whichever is longer. Unless otherwise specified, Mission Areas, agencies, and staff\n       offices will review and renew previously approved policy waivers every fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9a7186fb-7da0-55ad-8fea-db78ec4a51c9",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3300-001-g-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3300-001-g-9-stmt",
+                "name": "statement",
+                "prose": "Questions and comments concerning the requirements of this regulation should be\n  directed to OCIO, DISC, ENS, TIMG at ens.policy@ocio.usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                                 6\n\f                              APPENDIX A\n\n                  ACRONYMS AND ABBREVIATIONS\n\n\nAPHIS    Animal and Plant Health Inspection Service\nARS      Agricultural Research Service\nCIO      Chief Information Officer\nDISC     Digital Infrastructure Services Center\nDR       Departmental Regulation\nEN       Enterprise Network\nENS      Enterprise Network Services\nFISMA    Federal Information Security Modernization Act\nFITARA   Federal Information Technology Acquisition Reform Act\nFNS      Food and Nutrition Service\nFS       Forest Service\nGSA      General Services Administration\nIR       Interagency or Internal Report\nIT       Information Technology\nNASS     National Agricultural Statistics Service\nNIST     National Institute of Standards and Technology\nNRCS     Natural Resources Conservation Service\nOCFO     Office of the Chief Financial Officer\nOCIO     Office of the Chief Information Officer\nOMB      Office of Management and Budget\nOPM      Office of Personnel Management\nP.L.     Public Law\nPOA&M    Plan of Action and Milestones\nPOC      Point of Contact\nRD       Rural Development\nSP       Special Publication\nTIMG     Telecommunications Infrastructure Management and Governance\nTMACO    Telecommunications Mission Area Control Officer\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                  A-1\n\f                                        APPENDIX B\n\n                                       DEFINITIONS\n\n\na.   Enterprise Network (EN). A computer network built by an organization to interconnect\n     its various sites to share computer resources.\n\nb.   Lead Agency. The agency at a consolidated location that is designated by OCIO to\n     oversee coordinating and implementing all telecommunications services at that site.\n\nc.   Sharing. Federal offices located in the same building or campus using a single\n     integrated telephone system, the same video teleconferencing facilities, or other\n     telecommunications resources.\n\ne.   Telecommunications. Preparation, transmission, communication, or related\n     processing of information (writing, images, sounds, or other data) by electrical,\n     electromagnetic, electromechanical, electro-optical, or electronic means. (Source:\n     NIST, NISTIR 7298 Revision 2)\n\nf.   Telecommunications Services. The services and solutions that deliver or augment\n     communications between users up to and including interstate and international\n     communications. Telecommunications services refer to communications services or\n     solutions specified as a discrete offering or set of capabilities. (Source: DR 3300-020)\n\ng.   USDA Group One Cities. The 23 cities that are network concentration nodes for an EN\n     and the lead agency for each of these cities are the following:\n\n     Albany, CA                           Agricultural Research Service (ARS)\n     Albuquerque, NM                      Forest Service (FS)\n     Atlanta, GA                          FS\n     Austin, TX                           National Agricultural Statistics Service (NASS)\n     Boise, ID                            FS\n     Chicago, IL                          Food and Nutrition Service (FNS)\n     Dallas/Fort Worth, TX                FNS\n     Denver, CO                           FS\n     Des Moines/Ames, IA                  Natural Resources Conservation Service (NRCS)\n     Fort Collins, CO                     OCIO\n     Jackson, MS                          NRCS\n     Kansas City, MO                      Rural Development (RD)\n     Minneapolis/St. Paul, MN             Animal and Plant Health Inspection Service\n                                          (APHIS)\n     New Orleans, LA                      Office of the Chief Financial Officer (OCFO)\n     Ogden, UT                            FS\n     Orlando, FL                          NASS\n     Phoenix, AZ                          FS\n\n                                             B-1\n\fPortland, OR           FS\nRaleigh/Durham, NC     NRCS\nSacramento/Davis, CA   FS\nSan Francisco, CA      FS\nSt. Louis, MO          RD\nWashington, DC         OCIO\n\n\n\n\n                         B-2\n\f                                    APPENDIX C\n\n                        AUTHORITIES AND REFERENCES\n\n\nClinger-Cohen Act, 40 U.S.C. §11101, et seq. (2017)\n\nFederal Chief Information Officer Council, Federal Shared Services Implementation\nGuide, April 16, 2013\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §3551, et seq.,\nDecember 18, 2014 (2017)\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, 128 Stat.\n3292, Title VIII, Subtitle D, §831-837, December 19, 2014\n\nNIST, IR 7298 Revision 2, Glossary of Key Information Security Terms, May 2013\n\nNIST, SP 800-53 Revision 4, Security and Privacy Controls for Federal Information Systems\nand Organizations, April 2013\n\nOffice of Government Ethics, Standards of Ethical Conduct for Employees of the Executive\nBranch, 5 Code of Federal Regulations (CFR) Part 2635 (2018)\n\nOMB, Memorandum M-11-29, Chief Information Officer Authorities, August 8, 2011\n\nUSDA, DR3130-013, Information Technology Capital Planning and Investment Control,\nJuly 8, 2016\n\nUSDA, DR3300-020, Telecommunications Mission Area Control Officer Roles and\nResponsibilities, October 13, 2016\n\nUSDA, DR4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, 3300 Series Telecommunications Management Directives\n\n\n\n\n                                           C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "d16bffde-78c7-5340-90c3-379d47d3eb94",
+          "title": "USDA Directives — DR3300-001-G",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-001-g",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

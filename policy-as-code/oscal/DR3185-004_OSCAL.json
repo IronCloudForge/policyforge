@@ -1,0 +1,283 @@
+{
+  "catalog": {
+    "uuid": "f6ee3a00-8bed-54cd-aed2-9c65843d8904",
+    "metadata": {
+      "title": "USDA DR3185-004: Enterprise Zero Trust Architecture (9/9/24)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "Unknown",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3185-004"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "Unknown"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3185-004",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3185-004",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "1369de3e-4a2d-5429-8a04-c0ec1c087628",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3185-004-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3185-004-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the United States Department of\n          Agriculture (USDA) policy for transition to a zero trust architecture (ZTA). It guides\n          the USDA to develop, implement, maintain, and document a federally compliant ZTA.\n\n     b.   This directive serves as the foundation for USDA Mission Areas, agencies, and staff\n          offices as they develop and implement their own ZTA procedures. Their ZTA\n          procedures will comply with Federal and Departmental requirements and with USDA’s\n          zero trust (ZT) posture."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e82aba7b-b88c-515a-b465-80c635e32655",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3185-004-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3185-004-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all:\n\f       (1) USDA Mission Areas, agencies, staff offices, and personnel who work for or on\n           behalf of USDA. The term “USDA personnel” includes USDA employees,\n           appointees, contractors, partners, interns, fellows, affiliates, and volunteers;\n\n       (2) Federal information per DR 3080-001, Records Management. This includes\n           information in any medium or form. This also includes information generated,\n           collected, provided, transmitted, stored, maintained, or accessed by or on behalf of\n           USDA;\n\n       (3) Information systems or services (including cloud-based services) USDA personnel\n           use or operate. This also includes systems or services other organizations use or\n           operate on behalf of the USDA, or those the USDA funds. These also include\n           interconnections between or among systems or services; and\n\n       (4) USDA facilities from which these information systems or services operate. The\n           USDA may own or operate these facilities. This also includes contractor-,\n           subcontractor-, or other organization-owned or operated facilities on behalf of\n           USDA.\n\n  b.   Nothing in this policy alters the requirements for protecting national security systems or\n       information. This includes those identified in the Federal Information Security\n       Modernization Act of 2014 (FISMA), 44 United States Code (U.S.C.) § 3551, et seq.\n       This also includes those identified in Committee on National Security Systems (CNSS)\n       policies, directives, instructions, and standards, as well as intelligence community\n       policies, directives, and instructions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5232a181-fdcf-5555-8ef0-b0dc542815bf",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3185-004-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3185-004-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR is effective immediately when published. This DR will remain in effect until it\n       is superseded or expires.\n\n  b.   All USDA Mission Areas, agencies, and staff offices will align their ZTA procedures\n       with this policy within 6 months of the publication date.\n\n  c.   This DR addresses and meets the requirements of:\n\n       (1) 7 Code of Federal Regulations (CFR) § 2.32, Chief Information Officer;\n\n       (2) 44 U.S.C. § 3506(b)(2), Federal Agency Responsibilities;\n\n       (3) FISMA, 44 U.S.C. § 3551, et seq.;\n\n       (4) National Institute of Standards and Technology (NIST) Special Publication (SP)\n           800-207, Zero Trust Architecture;\n\n\n\n                                               2\n\f       (5) Office of Management and Budget (OMB) Circular A-130, Managing Information\n           as a Strategic Resource;\n\n       (6) OMB Memorandum M-19-26, Update to the Trusted Internet Connections (TIC)\n           Initiative;\n\n       (7) OMB M-22-09, Moving the U.S. Government Toward Zero Trust Cybersecurity\n           Principles; and\n\n       (8) OMB M-23-10, The Registration and Use of .gov Domains in the Federal\n           Government."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5bd95f96-ec0b-5fdf-bb97-daf076b8b78e",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3185-004-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3185-004-4-stmt",
+                "name": "statement",
+                "prose": "OMB M-22-09 sets forth a Federal ZTA strategy requiring Federal agencies to meet specific\n  cybersecurity standards and objectives by the end of fiscal year 2024. These tasks reinforce\n  the government’s defenses against increasingly sophisticated and persistent cyber threat\n  campaigns. ZTA provides a defensible environment using five pillars. The five pillars are\n  Identity, Device, Network, Applications & Workloads, and Data. Within its core tenets,\n  ZTA assumes a threat within the network already exists. Therefore, no user, system, service,\n  or network may access any data without expanded, ongoing device and user authentication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f99f9b17-69c8-5d7a-8b0c-f6ef5d36c88c",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3185-004-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3185-004-5-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA ZTA policy provides requirements to enforce Mission Areas’, agencies’, and\n       staff offices’ responsibilities for managing all information technology (IT) resources.\n\n  b.   All Mission Areas, agencies, and staff offices will comply with all Federal laws,\n       policies, requirements, standards, and guidance. They will also follow USDA directives\n       and guidance on ZT.\n\n  c.   Mission Areas, agencies, and staff offices will document and analyze lessons learned on\n       their programs, security and privacy control activities, procedures, and tasks. They will\n       use this qualitative and quantitative data to assess effectiveness and guide process\n       improvement.\n\n  d.   The five pillars of the ZTA defensible environment include the following requirements:\n\n       (1) The ZTA Identity pillar principals require a centralized identity management\n           system that integrates into applications and common platforms. This is in\n           accordance with OMB M-22-09 and DR 3640-001, Identity, Credential, and Access\n           Management (ICAM). As part of the ZTA Identity pillar principals and mandated\n           requirements, all USDA staff, contract support, and system support automated\n\n\n\n                                               3\n\f    mechanisms must use USDA enterprise-managed identities. The centralized\n    identity management system includes the following components:\n\n    (a) An ICAM program.\n\n    (b) The ability to:\n\n         1   Maintain master user records for all agency users at the enterprise level;\n\n         2   Centrally manage the identities, entitlements, and roles of all USDA\n             persons (including USDA personnel, customers, citizens, and nonperson\n             entities);\n\n         3   Provide identity life cycle management and identity governance; and\n\n         4   Manage access control policies through automated provisioning,\n             management, and governance of both accounts and access entitlements\n             across the USDA enterprise and sub-agency IT systems.\n\n    (c) An eAuthentication service platform that:\n\n         1   Centralizes authentication, federation, identity verification, credentialing,\n             single sign-on, and authorization services for all internal employee-facing,\n             and external citizen-facing, web applications and services, and mobile\n             applications;\n\n         2   Supports external identity providers, including other Federal agencies who\n             partner with or obtain services from USDA, as well as citizen-facing\n             identity providers such as Login.gov; and\n\n         3   Serves as an identity provider to cloud and software-as-a-service\n             applications that USDA uses, or other Federal agency-owned applications\n             USDA personnel must access.\n\n    (d) Phishing-resistant approaches, such as personal identity verification (PIV) and\n        derived PIV credentials.\n\n    (e) Fast Identity Online 2 specifications, for use when a PIV or derived PIV is not\n        available. USDA may use these alternative credentials both in network logon\n        and in the USDA eAuthentication platform for applications.\n\n(2) The ZTA Device pillar requires ongoing, reliable, and complete asset inventories.\n    The approach to keep this information current and accurate comprises hardware\n    asset management (HWAM) and software asset management (SWAM) programs.\n    These programs have the following components and requirements:\n\n\n\n\n                                       4\n\f    (a) Effective asset management providing visibility of known vulnerabilities on all\n        USDA-owned devices and systems.\n\n    (b) Enforcement of technical controls authorizing and authenticating only known\n        or provisioned devices within the asset inventory.\n\n    (c) HWAM and SWAM data tagged according to the connected network and\n        associated with the relevant Mission Area corresponding to that network.\n\n    (d) HWAM and SWAM asset data and endpoint detection and response (EDR)\n        monitoring agent data. USDA’s security information and event management\n        tool receives the data for aggregation. USDA then transmits that data to the\n        Cybersecurity and Infrastructure Security Agency (CISA), conforming to its\n        Continuous Diagnostics and Mitigation program.\n\n    (e) An EDR agent on all managed devices, following these stipulations:\n\n        1    The EDR agent only supports managed devices.\n\n        2    The following devices do not qualify as managed devices. They need not\n             meet the EDR agent requirement:\n\n             a   Network switches, routers, firewalls, and other network Layers 2 and\n                 3 devices;\n\n             b   Printers and multifunction office machines;\n\n             c   Network performance and management devices;\n\n             d   Kiosks and point-of-sale payment systems;\n\n             e   Cameras, thermostats, lab devices, appliances (e.g., refrigerators), and\n                 other networked devices;\n\n             f   Facility access controllers, door controls, card readers, and keypads;\n                 and\n\n             g   Smart displays.\n\n(3) The ZTA Network pillar must resolve domain name system (DNS) queries using\n    encrypted DNS. The Network pillar enforces authenticated hypertext transfer\n    protocol secure (HTTPS) traffic. All USDA Mission Areas, agencies, and staff\n    offices must make technical accommodations to meet the following requirements:\n\n\n\n\n                                      5\n\f(a) USDA uses HTTPS for all traffic. This includes external web traffic,\n    application programming interface traffic, internal traffic, mobile applications,\n    and other endpoints.\n\n(b) Systems enable protective DNS.\n\n(c) All networks within USDA enterprise networks, systems, and applications will\n    undergo segmentation according to data sensitivity level or business functions.\n\n(d) The CISA-protected DNS service will replace vendor-managed DNS service.\n\n(e) Internal DNS infrastructure will use encrypted DNS.\n\n(f) Endpoint browsers will use DNS over HTTPS. They will also use DNS over\n    transport layer security (TLS). Group policy defines the allowable DNS\n    endpoint list:\n\n    1    Endpoints not connected to the USDA virtual private network (VPN)\n         service will use the CISA-protected DNS endpoints as their DNS servers;\n\n    2    Endpoints connected to the USDA VPN service will use the USDA\n         enterprise DNS servers as if they were connected inside USDA; and\n\n    3    Security measures will block all non-CISA DNS endpoints or non-USDA\n         enterprise DNS endpoints.\n\n(g) All data owners responsible for traffic traversing over port 80 (hypertext\n    transfer protocol (HTTP)) must configure their sites with certificates.\n\n(h) All USDA-owned .gov domains will conform to OMB M-23-10.\n\n(i) The software-defined wide area network (SD-WAN) and TIC 3.0 adoption\n    must distribute security at the network edge for all inbound and outbound\n    traffic. SD-WAN supports the following:\n\n    1    User and device authentication via multi-factor authentication (MFA)\n         before connecting;\n\n    2    Identity-based and role-based access policy; and\n\n    3    Segmented access via security group tagging and VPN segmentation.\n\n(j) Any implementation of deprecated cryptographic keys must be\n    decommissioned.\n\n\n\n\n                                   6\n\f    (k) Standard encryption protocols must be upgraded to the latest version if\n        applicable (i.e., TLS 1.3).\n\n    (l) When mission-critical legacy systems are unable to support the latest\n        encryption protocol, these systems will be macro- or micro-segmented through\n        networking protocols. Personnel must submit a plan to migrate any sensitive\n        data the legacy system stores or processes to an updated and encryption\n        capable system within 6 months. They will submit the plan to their Mission\n        Area Assistant Chief Information Security Officer (CISO).\n\n(4) The ZTA Applications & Workloads pillar requires hosted application\n    programming code analysis via automated inspection, when technically feasible.\n    When automated inspection is not technically feasible, manual expert analysis is\n    acceptable. Refer to OMB M-22-09 about immutable workloads. The Applications\n    & Workloads pillar has the following additional requirements:\n\n    (a) Code-based vulnerability analysis and inspection will occur prior to the release\n        of a new functionality into production environments.\n\n        1    Detected vulnerability reports will include at a minimum these data points:\n\n             a    Operating system;\n\n             b    Hosting platform;\n\n             c    Library dependencies;\n\n             d    Database access; and\n\n             e    Vulnerability impact (low, medium, high, or critical).\n\n        2    Personnel must resolve all vulnerabilities before a new functionality is\n             promoted to production.\n\n    (b) Conduct configuration scans on hosted applications. Ensure there are no\n        deviations from the approved baseline in any authorized micro-segment.\n\n    (c) All web-hosted or internet-accessible applications and their tools on each site\n        will:\n\n        1    Protect using a web application firewall;\n\n        2    Conduct dynamic application security testing via continual vulnerability\n             and configuration scans;\n\n\n\n\n                                       7\n\f         3    Scan for easily identifiable and reportable vulnerabilities. This meets\n              public vulnerability disclosure requirements per OMB M-20-32,\n              Improving Vulnerability Identification, Management, and Remediation.\n              This also meets Department of Homeland Security (DHS) Binding\n              Operational Directive (BOD) 20-01, Develop and Publish a Vulnerability\n              Disclosure Policy;\n\n         4    Maintain an accurate, comprehensive, and frequently updated inventory\n              for visibility of accessible attack surfaces. Incorporate the vulnerabilities\n              into the configuration management database. Integrate this into all USDA\n              Mission Areas, agencies, and staff offices; and\n\n         5    Conduct monthly vulnerability scans of the enterprise network from the\n              internet. Report scan results to the information security coordinator.\n\n    (d) The chartered Cloud Working Group (CWG) is the primary point of contact\n        and key stakeholder responsible for planning and testing automated dynamic\n        code analysis for hosted applications. The team consists of four sub-teams:\n        technical and tactical, strategy, policy, and acquisition.\n\n    (e) Across all Mission Areas, agencies, and staff offices, all vulnerability visibility\n        within data centers and cloud service providers will be granular, down to the\n        continuous integration and delivery pipelines.\n\n(5) The ZTA Data pillar requires data classification, robust data tagging, data at rest\n    and in-transit encryption, data governance, and data loss prevention. The Data\n    pillar has the following additional requirements:\n\n    (a) Personnel will categorize, by specific agency or theme, documents containing\n        sensitive information and created in Microsoft 365.\n\n    (b) A document categorization strategy group consists of:\n\n         1    Chief Data Officer;\n\n         2    Office of the General Counsel; and\n\n         3    Office of Homeland Security and Privacy.\n\n    (c) Mission Areas, agencies, and staff offices will analyze data, implement a\n        labeling schema, and protect sensitive data through direct encryption or by\n        storing the documents in a secure storage location.\n\n    (d) For systems storing sensitive data in the cloud, use independently managed\n        encryption and decryption services.\n\n\n\n\n                                        8\n\f           (e) CWG will help identify the capabilities, gaps, and methods to monitor\n               unexpected or anomalous decryption requests.\n\n           (f) Mission Areas, agencies, and staff offices will be responsible for developing,\n               implementing, and enforcing training specific to labeling and categorizing data\n               within their purview."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f1e01643-8b85-51c0-a3b9-5b3da6e9977b",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3185-004-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3185-004-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture will:\n\n       (1) Direct the heads of Mission Areas, agencies, and staff offices to implement ZTA\n           plans and procedures, provide qualified personnel, and provide other resources;\n\n       (2) Ensure responsible personnel notify and consult with internal and external parties in\n           the mandated time periods. Notifications include strategic decisions, enterprise ZT\n           capabilities, actual or suspected criminal activity or misuse, insider threats, and\n           incidents affecting national security systems. This must be in accordance with\n           Federal and Departmental requirements as part of the ZT implementation strategy;\n           and\n\n       (3) Ensure the USDA Chief Information Officer (CIO) and USDA CISO submit the\n           reports showcasing the progression of cybersecurity maturity.\n\n  b.   The CIO will:\n\n       (1) Direct the development of ZTA to ensure all USDA personnel only have access to\n           Federal information appropriate to their roles and duties;\n\n       (2) Ensure USDA personnel can meet Federal ZTA requirements; and\n\n       (3) Provide annual reports on ZTA effectiveness to the Secretary of Agriculture, senior\n           leadership, System Owners, data custodians, and other stakeholders. Provide\n           annual reports on the progress of the ZTA implementation. Ensure communication\n           of the concepts, goals, and strategy.\n\n  c.   The CISO will:\n\n       (1) Develop, implement, manage, monitor, and oversee the implementation of ZTA as\n           part of the USDA IT Security Program. Ensure it complies with Federal laws,\n           regulations, and guidelines, as well as USDA policies. The CISO may assign a\n           designee to carry out and oversee this function;\n\n       (2) Establish, coordinate, and manage a network of ZTA points of contact across all\n           Mission Areas;\n\n\n\n                                              9\n\f     (3) Ensure each Mission Area maintains oversight and compliance with ZTA\n         requirements and this DR; and\n\n     (4) Document and provide annual reports to the CIO on the status and maturity of the\n         ZTA.\n\nd.   Mission Area Assistant CIOs will:\n\n     (1) Ensure the provisions of this policy are implemented for the information resources\n         supporting the operations and assets under their control;\n\n     (2) Ensure personnel in their area of responsibility perform their ZTA responsibilities,\n         including notification and reporting, in a timely manner and in accordance with\n         Federal and Departmental requirements;\n\n     (3) Oversee the Mission Area ZTA implementation based on the Departmental program\n         and in compliance with FISMA. All ZT requirements must meet or exceed the\n         requirements of this DR;\n\n     (4) Fund, establish, implement, and maintain the Mission Area, agency, and staff office\n         ZT program to include resources, capabilities, ZT capability testing, and training of\n         incident management personnel;\n\n     (5) Ensure provision of management support and resources. Ensure assignment of\n         those resources to agency and staff office ZT personnel;\n\n     (6) Ensure their organization develops, documents, implements, reviews, updates, and\n         approves a ZT plan and associated procedures. Those documents must align with\n         Departmental policies, programs, and procedures and comply with Federal policies,\n         regulations, standards, and guidelines for incident reporting and management;\n\n     (7) Provide direction and guidance to Mission Area, agency, and staff office personnel\n         for:\n\n         (a) Compliance with Federal laws and requirements pertaining to ZTA and\n             reporting; and\n\n         (b) Compliance with Departmental ZT policy and procedure and other USDA\n             policies and procedures impacted by ZT implementation.\n\n     (8) Ensure USDA’s enterprise inventory system has a current and accurate inventory of\n         all IT devices and systems in the scope of its responsibility. Identify high value\n         assets to support ZTA.\n\n\n\n\n                                            10\n\fe.   Mission Area Assistant CISOs will coordinate with the CISO to implement, manage,\n     and oversee ZTA implementation at the Mission Area level.\n\nf.   Information System Security Managers (ISSM) will:\n\n     (1) Coordinate with personnel who prepare procurement documents to ensure the\n         documents contain ZTA requirements and implementation;\n\n     (2) Ensure their personnel take annual, role-based ZT training, when required; and\n\n     (3) Participate in ZT assessments and after-action reports, when required.\n\ng.   System Administrators responsible for maintaining ZTA will:\n\n     (1) Configure and update ZTA to secure critical assets and data from malicious activity.\n         This includes but is not limited to:\n\n         (a) Full adoption of MFA;\n\n         (b) Continuous access evaluation;\n\n         (c) Implementation of identity and access management;\n\n         (d) Mature device identity and access control;\n\n         (e) Configuration of network micro-segmentation as directed;\n\n         (f) Upgrades to TIC 3.0, or higher;\n\n         (g) Enforcement of encrypted DNS;\n\n         (h) Ensuring hosted applications enforce least privilege and separation of duties;\n\n         (i) Enabling data classification, robust data tagging, high-value data encryption,\n             and data loss protection; and\n\n         (j) Thorough testing of any service or security setting that could cause a risk to\n             confidentiality, integrity, or availability.\n\n     (2) Ensure the system reflects the correct number of assigned personnel;\n\n     (3) Ensure the accuracy of the system, software, and device list; and\n\n     (4) Maintain supporting documentation of the data recorded in the system.\n\nh.   System Owners will:\n\n\n\n                                            11\n\f     (1) Follow the procedures for incidents or violations of security and privacy policy per\n         DR 3505-005, Cybersecurity Incident Management. Work with ZT architects to\n         identify automated triggers that could dynamically block access if an automated\n         alert occurs; and\n\n     (2) Protect USDA information resources regularly with automated detection tools using\n         updated indicators from three main sources:\n\n         (a) Tool vendors;\n\n         (b) Cyber Defense Operations Division branches, specifically the Cybersecurity\n             Watch Branch (CWB) and the Cybersecurity Threat Hunt and Intelligence\n             Branch (CTHIB); and\n\n         (c) The United States Computer Emergency Readiness Team (US-CERT).\n\ni.   Contracting Officer Representatives will ensure all contract personnel follow ZT\n     requirements.\n\nj.   Contractors, Service Providers, or others acting for or on behalf of USDA will:\n\n     (1) Comply with all Federal and Departmental incident management policies,\n         regulations, guidelines, and procedures indicated in the document governing the\n         relationship;\n\n     (2) Protect USDA information resources regularly with automated detection tools.\n         Tools will use updated tool vendor, CTHIB, or US-CERT provided indicators.\n         Review the tool analysis results. Provide the results to CWB or other authorized\n         parties; and\n\n     (3) Report all suspected and actual incidents in the required time frame via methods\n         indicated in the document governing the relationship.\n\nk.   USDA Managers and Supervisors will:\n\n     (1) Ensure their personnel follow the ZTA requirements as a condition for gaining and\n         maintaining access to USDA systems per DR 3505-003, Access Control for\n         Information and Information Systems;\n\n     (2) Ensure their personnel report any known violation of this DR to their ISSMs; and\n\n     (3) Ensure their personnel review DR 4070-735-001, Employee Responsibilities and\n         Conduct, and DR 3300-001, Telecommunications & Internet Services and Use, with\n         their supervisor. Ensure this includes guidance on limited personal use of USDA\n         information systems.\n\n\n\n                                            12\n\f  l.   All USDA personnel will:\n\n       (1) Understand and comply with agency security and privacy policies and procedures;\n\n       (2) Comply with the rules of behavior for the systems and applications to which they\n           have access;\n\n       (3) Work with management to meet ZT requirements;\n\n       (4) Protect their agency’s information by monitoring their actions. These actions\n           include but are not limited to:\n\n           (a) Following proper password usage per DR 3505-003;\n\n           (b) Using updated antivirus software;\n\n           (c) Reporting any suspected incidents or violations of security and privacy policy\n               per DR 3505-005; and\n\n           (d) Following rules established to avoid social engineering attacks and to deter the\n               spread of spam, viruses, and worms.\n\n       (5) Review DR 4070-735-001 and DR 3300-001 with their supervisor. Ensure this\n           includes guidance on limited personal use of USDA information systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "57f654d4-5108-506d-81e0-e6dc3e63ee2b",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Noncompliance",
+        "controls": [
+          {
+            "id": "dr3185-004-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Noncompliance",
+            "parts": [
+              {
+                "id": "dr3185-004-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Section 16, Computers, sets forth USDA policy, procedures, and\n       standards on employee responsibilities and conduct regarding the use of computers and\n       telecommunications equipment.\n\n  b.   In addition, DR 4070-735-001, Section 21, Disciplinary or Adverse Action, states:\n\n       (1) Any violation of the responsibilities or standards contained in this DR may be cause\n           for disciplinary or adverse action; and\n\n       (2) Any disciplinary or adverse action taken will be consistent with the applicable laws\n           and regulations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01ff58cb-213e-59ec-a7cd-8bff8f3ded86",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3185-004-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3185-004-8-stmt",
+                "name": "statement",
+                "prose": "All Mission Areas, agencies, and staff offices will conform to this policy. If any Mission\n  Area, agency, or staff office cannot meet a specific policy requirement, you may request a\n\n\n\n                                              13\n\f  policy exception. To do so, contact the Office of the Chief Information Officer (OCIO)\n  Cybersecurity and Privacy Operations Center (CPOC) Security Management Division\n  (SMD) Risk Management Branch via email at POAMProgram@usda.gov. Note that an\n  approved policy exception is an acceptance of risk but does not constitute compliance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2a37fb3a-7ab2-5751-a2e1-e468621743ad",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3185-004-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3185-004-9-stmt",
+                "name": "statement",
+                "prose": "Send any questions or concerns about this DR to the OCIO CPOC Cyber Policy and\n  Strategy Program via smd-pcb-policy@usda.gov.\n\n\n                                          -END-\n\n\n\n\n                                            14\n\f                                APPENDIX A\n\n                    ACRONYMS AND ABBREVIATIONS\n\n\nBOD        Binding Operational Directive\nCFR        Code of Federal Regulations\nCIO        Chief Information Officer\nCISA       Cybersecurity and Infrastructure Security Agency\nCISO       Chief Information Security Officer\nCNSS       Committee on National Security Systems\nCNSSI      Committee on National Security Systems Instruction\nCPOC       Cybersecurity and Privacy Operations Center\nCTHIB      Cybersecurity Threat Hunt and Intelligence Branch\nCWB        Cybersecurity Watch Branch\nCWG        Cloud Working Group\nDHS        Department of Homeland Security\nDNS        Domain Name System\nDR         Departmental Regulation\nEDR        Endpoint Detection and Response\nE.O.       Executive Order\nFIPS PUB   Federal Information Processing Standards Publication\nFISMA      Federal Information Security Modernization Act\nHTTP       Hypertext Transfer Protocol\nHTTPS      Hypertext Transfer Protocol Secure\nHWAM       Hardware Asset Management\nICAM       Identity, Credential, and Access Management\nIETF       Internet Engineering Task Force\nISSM       Information System Security Manager\nIT         Information Technology\nMFA        Multi-factor Authentication\nNIST       National Institute of Standards and Technology\nNISTIR     National Institute of Standards and Technology Interagency Report\nNSM        National Security Memorandum\nOCIO       Office of the Chief Information Officer\nOMB        Office of Management and Budget\nOWASP      Open Web Application Security Project\nPIV        Personal Identity Verification\nP.L.       Public Law\nRFC        Request for Comments\nSD-WAN     Software-Defined Wide Area Network\nSMD        Security Management Division\nSP         Special Publication\nSWAM       Software Asset Management\nTIC        Trusted Internet Connection\nTLS        Transport Layer Security\n\n\n\n                                      A-1\n\fU.S.C.    United States Code\nUS-CERT   United States Computer Emergency Readiness Team\nUSDA      United States Department of Agriculture\nVPN       Virtual Private Network\nZT        Zero Trust\nZTA       Zero Trust Architecture\n\n\n\n\n                                   A-2\n\f                                           APPENDIX B\n\n                                          DEFINITIONS\n\n\nAccess Control. The process of granting or denying specific requests. Requests can be for\nobtaining and using information and related information processing services. Requests can also\nbe to enter specific physical facilities (e.g., Federal buildings, military establishments, and border\ncrossing entrances). (Source: CNSS CNSS Instruction (CNSSI) 4009, Committee on National\nSecurity Systems (CNSS) Glossary)\n\nAccess Control Policy. High-level requirements that specify how access is managed and who\nmay access information under what circumstances. (Source: NIST SP 800-192, Verification and\nTest Methods for Access Control Policies/Models)\n\nAuthentication. Verifying the identity of a user, process, or device. This is often a prerequisite\nto allowing access to resources in a system. (Source: NIST SP 800-53, Revision 5, Security and\nPrivacy Controls for Information Systems and Organizations)\n\nAuthorization. Access privileges granted to a user, program, or process. Alternatively, the act of\ngranting those privileges. (Source: CNSSI 4009)\n\nContinuous Delivery. The stage after continuous integration where code changes are deployed to\na testing or staging environment after the build stage. Continuous delivery to a production\nenvironment involves the designation of a release frequency. This can be daily, weekly,\nfortnightly, or some other period, based on the nature of the software or the market in which the\norganization operates. On top of automated testing, there is a scheduled release process, though\nthe application can be deployed at any time by clicking a button. The deployment process in\ncontinuous delivery is characterized as manual. However, tasks such as the migration of code to\na production server, the establishment of networking parameters, and the specification of runtime\nconfiguration data may be performed by automated scripts. (Source: NIST SP 800-204C,\nImplementation of DevSecOps for a Microservices-based Application with Service Mesh)\n\nContinuous Integration. Continuous integration involves developers frequently merging code\nchanges into a central repository where automated builds and tests run. Build is the process of\nconverting the source code to executable code for the platform on which it is intended to run. In\nthe continuous integration or delivery pipeline software, the developer’s changes are validated by\ncreating a build and running automated tests against the build. This process avoids the\nintegration challenges that can happen when waiting for release day to merge changes into the\nrelease branch. (Source: NIST SP 800-204C)\n\nDevice. In automated assessment, a type of assessment object that is either an IP addressable (or\nequivalent) component of a network or a removable component that is of security significance.\n(Source: NIST NIST Interagency Report (NISTIR) 8011, Volume 1, Automation Support for\nSecurity Control Assessments)\n\n\n\n\n                                                 B-1\n\feAuthentication. Provides secure, convenient access to multiple USDA applications, websites,\nprograms, and benefits that individual customers and employees are authorized to use. (Source:\nUSDA eAuthentication)\n\nLeast Privilege. The principle that a security architecture should be designed so that each entity\nis granted the minimum system resources and authorizations that it needs to perform its function.\n(Source: CNSSI 4009)\n\nMulti-factor Authentication (MFA). An authenticator that provides more than one distinct\nauthenticator factor. One example is a cryptographic authentication device with an integrated\nbiometric sensor that is required to activate the device. (Source: NIST SP 800-63-3, Digital\nIdentity Guidelines)\n\nPersonal Identity Verification (PIV). A physical artifact (e.g., identity card, “smart” card) issued\nto a government individual that contains stored identity credentials (e.g., photograph,\ncryptographic keys, digitized fingerprint representation). The claimed identity of the cardholder\ncan be verified against the stored credentials by another person (human readable and verifiable)\nor an automated process (computer readable and verifiable). PIV requirements are defined in\nNIST Federal Information Processing Standards Publication (FIPS PUB) 201-3, Personal\nIdentity Verification (PIV) of Federal Employees and Contractors. (Source: CNSSI 4009)\n\nSensitive Information. Information, whereby the loss, misuse, or unauthorized access to or\nmodification of, could adversely affect the National interest, the conduct of Federal programs, or\nthe privacy to which individuals are entitled under the Privacy Act of 1974, 5 U.S.C. § 552a,\nRecords Maintained on Individuals. Sensitive information does not include information that has\nbeen specifically authorized under criteria established by an Executive Order (E.O.) or an Act of\nCongress to be kept classified in the interest of National defense or foreign policy. (Source:\nNIST SP 800-150, Guide to Cyber Threat Information Sharing)\n\nVirtual Private Network (VPN). Protected information system link that uses tunneling, security\ncontrols, and endpoint address translation giving the impression of a dedicated line. (Source:\nCNSSI 4009)\n\nVulnerability. A known weakness in a system, system security procedures, internal controls, or\nimplementation by which an actor or event may intentionally exploit or accidentally trigger the\nweakness to access, modify, or disrupt normal operations of a system, resulting in a security\nincident or a violation of the system’s security policy. (Source: CNSSI 4009)\n\nZero Trust (ZT). A collection of concepts and ideas designed to minimize uncertainty in\nenforcing accurate, least privilege per-request access decisions in information systems and\nservices in the face of a network viewed as compromised. (Source: NIST SP 800-207)\n\nZero Trust Architecture (ZTA). An enterprise’s cybersecurity plan that utilizes ZT concepts and\nencompasses component relationships, workflow planning, and access policies. A ZT enterprise\nis the network infrastructure (physical and virtual) and operational policies that are in place for\nan enterprise as a product of a ZTA plan. (Source: NIST SP 800-207)\n\n\n\n                                                B-2\n\f                                          APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n7 CFR § 2.32, Chief Information Officer\n\n44 U.S.C. § 3506(b)(2), Federal Agency Responsibilities\n\nCISA, Cybersecurity & Infrastructure Security Agency website\n\nCNSS, CNSSI 4009, Committee on National Security Systems (CNSS) Glossary, March 7, 2022\n\nCNSS, Committee on National Security Systems website, May 6, 2016\n\nDHS, BOD 20-01, Develop and Publish a Vulnerability Disclosure Policy, September 2, 2020\n\nDOTGOV Online Trust in Government Act of 2020, Public Law (P.L.) 116-260, December 27,\n2020\n\nE.O. 13526, Classified National Security Information, December 29, 2009\n\nE.O. 13556, Controlled Unclassified Information, November 4, 2010\n\nE.O. 13587, Structural Reforms to Improve the Security of Classified Networks and the\nResponsible Sharing and Safeguarding of Classified Information, October 7, 2011\n\nE.O. 14028, Improving the Nation’s Cybersecurity, May 12, 2021\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. § 3551, et seq.\n\nGeneral Services Administration, Login.gov website\n\nInternet Engineering Task Force (IETF), Request for Comments (RFC): 1034, Domain Names –\nConcepts and Facilities, November 1987\n\nNIST, FIPS PUB 201-3, Personal Identity Verification (PIV) of Federal Employees and\nContractors, January 2022\n\nNIST, NISTIR 8011, Volume 1, Automation Support for Security Control Assessments, June\n2017\n\nNIST, SP 800-53, Revision 5, Security and Privacy Controls for Information Systems and\nOrganizations, September 2020 with updates as of December 10, 2020\n\nNIST, SP 800-61, Revision 2, Computer Security Incident Handling Guide, August 2012\n\n\n\n                                             C-1\n\fNIST, SP 800-63-3, Digital Identity Guidelines, June 2017\n\nNIST, SP 800-150, Guide to Cyber Threat Information Sharing, October 2016\n\nNIST, SP 800-192, Verification and Test Methods for Access Control Policies/Models, June\n2017\n\nNIST, SP 800-204C, Implementation of DevSecOps for a Microservices-based Application with\nService Mesh, March 2022\n\nNIST, SP 800-207, Zero Trust Architecture, August 2020\n\nNIST, SP 1800-16, Securing Web Transactions: TLS Server Certificate Management, June 2020\n\nOMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016\n\nOMB, M-16-04, Cybersecurity Strategy and Implementation Plan (CSIP) for the Federal\nCivilian Government, October 30, 2015\n\nOMB, M-19-02, Fiscal Year 2018-2019 Guidance on Federal Information Security and Privacy\nManagement Requirements, October 25, 2018\n\nOMB, M-19-26, Update to the Trusted Internet Connections (TIC) Initiative, September 12,\n2019\n\nOMB, M-20-32, Improving Vulnerability Identification, Management, and Remediation,\nSeptember 2, 2020\n\nOMB, M-21-30, Protecting Critical Software Through Enhanced Security Measures, August 10,\n2021\n\nOMB, M-21-31, Improving the Federal Government’s Investigative and Remediation\nCapabilities Related to Cybersecurity Incidents, August 27, 2021\n\nOMB, M-22-01, Improving Detection of Cybersecurity Vulnerabilities and Incidents on Federal\nGovernment Systems through Endpoint Detection and Response, October 8, 2021\n\nOMB, M-22-09, Moving the U.S. Government Toward Zero Trust Cybersecurity Principles,\nJanuary 26, 2022\n\nOMB, M-23-02, Migrating to Post-Quantum Cryptography, November 18, 2022\n\nOMB, M-23-10, The Registration and Use of .gov Domains in the Federal Government,\nFebruary 8, 2023\n\n\n\n\n                                             C-2\n\fOpen Web Application Security Project (OWASP), OWASP website\n\nPrivacy Act of 1974, 5 U.S.C. § 552a, Records Maintained on Individuals\n\nUSDA, DR 3080-001, Records Management, August 16, 2016\n\nUSDA, DR 3130-010, United States Department of Agriculture Enterprise Information\nTechnology Governance, April 20, 2021\n\nUSDA, DR 3170-001, End User Workstation Configurations, October 13, 2022\n\nUSDA, DR 3180-001, Information Technology Standards, January 5, 2021\n\nUSDA, DR 3300-001, Telecommunications & Internet Services and Use, March 18, 2016\n\nUSDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019\n\nUSDA, DR 3505-005, Cybersecurity Incident Management, November 30, 2018\n\nUSDA, DR 3520-002, Configuration Management, July 17, 2019\n\nUSDA, DR 3565-003, Plan of Action and Milestones Policy, September 25, 2013\n\nUSDA, DR 3640-001, Identity, Credential, and Access Management, June 8, 2021\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, eAuthentication website\n\nThe White House, National Security Memorandum (NSM)-10, National Security Memorandum\non Promoting United States Leadership in Quantum Computing While Mitigating Risks to\nVulnerable Cryptographic Systems, May 4, 2022\n\n\n\n\n                                             C-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "068d1a5e-77ce-5d51-8c6a-defffd92595c",
+          "title": "USDA Directives — DR3185-004",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3185-004",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

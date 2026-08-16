@@ -1,0 +1,353 @@
+{
+  "catalog": {
+    "uuid": "bc9b2b88-2bce-5eed-8b11-8f0f5bf4f910",
+    "metadata": {
+      "title": "USDA DR4030-337-002: Category Rating",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2010-11-01",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4030-337-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2010-11-01"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4030-337-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "regulations that:",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4030-337-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "regulations that:"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "aeb114b2-04e7-556a-aeb0-d02c4ab97648",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4030-337-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4030-337-002-1-stmt",
+                "name": "statement",
+                "prose": "This directive establishes the Department of Agriculture’s policy on the use of Category\n      Rating. Category rating is a method of evaluating applicants under the Department’s\n      existing Delegated Examining authority and as prescribed in the Office of Personnel\n      Management’s Delegated Examining Operations Handbook.\n\n      The purpose of category rating is to increase the number of qualified applicants from\n      which to choose while preserving veterans’ preference rights. Applicants with similar\n      levels of job-related competencies are placed into the appropriate quality categories, and\n      selection is made from the highest quality category."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cd579e62-c625-5627-9416-325e689ac49f",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr4030-337-002-2",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr4030-337-002-2-stmt",
+                "name": "statement",
+                "prose": "a.   On June 15, 2004, the Office of Personnel Management (OPM) published final\n          regulations that:\n\n          (1)    Permit Federal Departments and agencies to develop and use a category-\n                 based rating method as an alternative method to assess applicants for\n                 positions filled through delegated examining; and\n\n          (2)    Direct Departments and agencies to establish their own policies in order to\n                 use category rating.\n\n     b.   On May 11, 2010, the President issued a memorandum to Heads of Executive\n          Departments and Agencies directing them to use the category rating approach for\n          all delegated examining, rather than the “rule of three” approach for Federal\n          hiring, by November 1, 2010."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bb8fa164-562e-537c-84a9-7fcc79fe503a",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr4030-337-002-3",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr4030-337-002-3-stmt",
+                "name": "statement",
+                "prose": "a.   Chief Human Capital Officers Act of 2002 (Title XIII of the Homeland Security\n          Act);\n\n     b.   Title 5, United States Code, Parts 3317, 3318, and 3319;\n\n     c.   Title 5, Code of Federal Regulations (CFR), Part 337, Subpart C;\n\n     d.   Federal Register (FR), Vol. 69, No. 114, pages 33271 to 33277, dated June 15,\n          2004;\n\n     e.   FR, Vol. 68, No. 114, pages 35265 to 35270, dated June 13, 2003;\n\n     f.   Delegated Examining Operations Handbook, Chapter 5, Section B and Chapter 6;\n\n     g.   Uniform Guidelines on Employee Selection Procedures, Title 29, CFR, Part 1607\n          and Title 5, CFR Part 300; and\n\n     h.   Presidential Memorandum dated May 11, 2010, “Improving the Federal\n          Recruitment and Hiring Process.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a03e9b0c-04a7-53e6-b4e8-f6cd166b2354",
+        "class": "section",
+        "title": "Applicability",
+        "controls": [
+          {
+            "id": "dr4030-337-002-4",
+            "class": "policy-requirement",
+            "title": "Applicability",
+            "parts": [
+              {
+                "id": "dr4030-337-002-4-stmt",
+                "name": "statement",
+                "prose": "a.   This issuance:\n\n\n                                          2\n\f            (1)     Establishes a framework and overall USDA policy for the use of category\n                    rating.\n\n            (2)     Applies to all competitive service positions filled through delegated\n                    examining procedures, except positions filled using direct-hire authority.\n\n            (3)     Remains in effect until revised, cancelled, or superseded.\n\n     b.     Agencies operating under a Demonstration Project that mandates a particular\n            method for assessing applicants should continue to follow their current\n            legislation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f2b56a3a-ccad-5fd4-83ff-a218f7115a5f",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr4030-337-002-5",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr4030-337-002-5-stmt",
+                "name": "statement",
+                "prose": "Agency/Staff Office human resources offices that use category rating are responsible for:\n\n     a.     Complying with this policy and all OPM rules, regulations, and policies\n            governing category rating;\n\n     b.     Implementing this policy in their serviced agencies, and if needed, issuing\n            supplemental directives or guidance that describe any agency-specific policies\n            and procedures on category rating; and\n\n     c.     Ensuring that selecting officials who use category rating are adequately trained on\n            its use."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4bc16ad0-0347-5d0f-bf88-2aeefc3e5227",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4030-337-002-6",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4030-337-002-6-stmt",
+                "name": "statement",
+                "prose": "The following definitions provide meanings for words as they are to be interpreted in the\n     context of this directive.\n\n     a.     Agency. An organizational unit of the Department, other than a staff office as\n            defined below, whose head reports to an Under Secretary.\n\n     b.     Category Rating. A ranking and selection procedure used to assess applicants for\n            positions filled through competitive examining (the delegated examining process).\n            Under category rating, applicants are evaluated based on job-related criteria and\n            placed into predefined quality categories with individuals who possess similar\n            levels of job-related competencies or knowledge, skills, and abilities. Category\n            rating is synonymous with alternative rating as described in 5 U.S.C. §3319.\n\n     c.     Competency. A measurable pattern of knowledge, skills, abilities, behaviors and\n            other characteristics that an individual needs in order to perform work roles or\n                                               3\n\f            occupational functions successfully. Examples of competencies include: oral\n            communication; flexibility; customer service; and leadership.\n\n     d.     Delegated Examining. The process used to recruit, assess, rank, and select\n            individuals for positions in the competitive service. Agencies may conduct the\n            process only if granted the authority, in writing, by OPM. The delegated\n            examining process allows all qualified U.S. citizens to compete for a position,\n            including current and former Federal employees.\n\n     e.     Preference Eligible. A qualified applicant who is entitled to veteran’s preference\n            in the hiring process.\n\n     f.     Quality Categories. Groupings of applicants with similar levels of job-related\n            competencies.\n\n     g.     Staff Office. A Departmental Administrative Office whose head reports to the\n            Secretary or Assistant Secretary."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "96667892-da55-5389-9773-a9fee19c7d2c",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4030-337-002-7",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4030-337-002-7-stmt",
+                "name": "statement",
+                "prose": "It is USDA policy to:\n\n     a. Comply with all applicable laws, rules and regulations and OPM policies governing\n        category rating;\n\n     b. Provide Agency/Staff Office human resources offices with a category rating\n        framework to facilitate and streamline the assessment, referral, and selection of\n        applicants for positions filled through the delegated examining process."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "090ef8d1-16e3-5c7b-b41e-f399905a680c",
+        "class": "section",
+        "title": "Use Of Category Rating",
+        "controls": [
+          {
+            "id": "dr4030-337-002-8",
+            "class": "policy-requirement",
+            "title": "Use Of Category Rating",
+            "parts": [
+              {
+                "id": "dr4030-337-002-8-stmt",
+                "name": "statement",
+                "prose": "Category rating is used to fill permanent, term and temporary positions in the competitive\n     service under delegated examining procedures and required for use beginning November\n     1, 2010. Category rating is not required when using a direct hire authority."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "44245b60-4f58-5708-9ece-1d4baec71276",
+        "class": "section",
+        "title": "Quality Categories",
+        "controls": [
+          {
+            "id": "dr4030-337-002-9",
+            "class": "policy-requirement",
+            "title": "Quality Categories",
+            "parts": [
+              {
+                "id": "dr4030-337-002-9-stmt",
+                "name": "statement",
+                "prose": "Agency/Staff Office human resources offices may use two or three quality categories to\n     assess and rank applicants under category rating. Quality categories are:\n\n     a.     Defined through a job analysis process consistent with the Uniform Guidelines on\n            Employee Selection Procedures.\n                                             4\n\f      b.     Written to reflect the competencies that are needed to perform the job successfully\n             and to distinguish differences in the quality of applicants’ job-related\n             competencies.\n\n      c.     Defined before issuing the job announcement.\n\n      Appendix A shows examples of quality categories and assessment methods.\n      Agency/Staff Office human resources offices may develop and use other appropriate\n      methods for assessing applicants using category rating, provided two or three pre-defined\n      quality categories are used. (“Not Qualified” may not be one of the quality categories.\n      Only applicants who meet the basic qualification and eligibility requirements will be\n      further assessed and placed into a quality category.)\n\n      EXCEPTION: When using OPM’s Standing Registers, human resources offices must\n      follow OPM’s established quality categories for each register."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "25236816-04a5-5dd8-8737-d090d0d40b25",
+        "class": "section",
+        "title": "Job Announcement Requirements",
+        "controls": [
+          {
+            "id": "dr4030-337-002-10",
+            "class": "policy-requirement",
+            "title": "Job Announcement Requirements",
+            "parts": [
+              {
+                "id": "dr4030-337-002-10-stmt",
+                "name": "statement",
+                "prose": "Job announcements must include the following information for positions filled under\n      category rating procedures:\n\n      a.     A statement describing that category rating procedures will be used to rank and\n             select eligible applicants. This statement must be included in the “How You Will\n             Be Evaluated” or “Basis of Rating” or a comparable section of the job\n             announcement.\n\n      b.     A statement describing the quality categories. Categories will be defined as “Best\n             Qualified, Well Qualified, and Qualified” or “Best Qualified and Qualified.”\n\n      c.     A statement to describe how veterans’ preference is applied.\n\n\n11.   RANKING APPLICANTS AND APPLYING VETERANS’ PREFERENCE\n\n      Assessed applicants will be placed in the appropriate quality category and ranked\n      according to veterans’ preference eligibility and non-preference eligibility. Within each\n      category, all qualified preference eligibles are placed ahead of non-preference eligibles.\n      Preference eligibles do not receive additional points under category rating procedures.\n\n      a.     Within each quality category, first list qualified preference eligibles in\n             alphabetical order by preference type:\n\n             (1)     Compensable disability of 30 percent or more (CPS);\n                                             5\n\f           (2)    Compensable disability of at least 10 percent, but less than 30 percent\n                  (CP);\n\n           (3)    Compensable disability of less than 10 percent, derived preference, and\n                  other “10 point” preference eligibles (XP); and\n\n           (4)    Other preference eligibles not listed above (TP).\n\n      b.   Then, list non-preference eligibles in alphabetical order.\n\n      c.   For positions other than professional and scientific at the GS-09 level or higher,\n           qualified CPS and CP preference eligibles are placed at the top of the highest\n           quality category.\n\n      d.   For professional and scientific positions at the GS-9 level or higher, qualified CPS\n           and CP preference eligibles are placed at the top of the appropriate quality\n           category for which rated."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "62238760-6909-5e05-9450-14cf3dadf8a4",
+        "class": "section",
+        "title": "Referral And Selection Of Applicants",
+        "controls": [
+          {
+            "id": "dr4030-337-002-12",
+            "class": "policy-requirement",
+            "title": "Referral And Selection Of Applicants",
+            "parts": [
+              {
+                "id": "dr4030-337-002-12-stmt",
+                "name": "statement",
+                "prose": "a.   Under category rating, eligible applicants are referred in the following order:\n\n           (1)    Agency Career Transition Assistance Program (CTAP) and Interagency\n                  Career Transition Assistance Program (ICTAP) eligibles. Agencies\n                  should follow the procedures in their Career Transition Assistance Plan\n                  supplements to determine if these applicants are referred and considered\n                  before, or concurrently with, other applicants;\n\n           (2)    Eligible applicants who lost consideration due to erroneous certification;\n                  and\n\n           (3)    Eligible applicants in the highest quality category, using either option\n                  described below. (Agencies may make this determination on a case-by-\n                  case basis.)\n\n                  (a)     All eligible applicants in the highest quality category, with\n                          preference eligibles listed ahead of non-preference eligibles; or\n                  (b)     Only the preference eligibles in the highest quality category when\n                          the number of preference eligibles equals or exceeds the number of\n                          positions to be filled.\n\n\n\n                                             6\n\f           (4)    If there are fewer than 3 applicants in the highest quality category,\n                  applicants from the next lower category may be combined with those in\n                  the highest category. (See Section 13.)\n\n      b.   Selections must be made from the highest quality category.\n\n      c.   Any preference eligible in the highest quality category may be selected regardless\n           of the type of preference to which he/she is entitled.\n\n      d.   The Selecting Official cannot pass over a preference eligible to select a non-\n           preference eligible unless a written objection is submitted and sustained in\n           accordance with 5 U.S.C. 3318. Objections to preference eligibles shall be\n           processed in accordance with the procedures outlined within Chapter 6 of OPM’s\n           Delegated Examining Operations Handbook.\n\n      e.   Agency/Staff Office human resources offices may take action on any request to\n           pass over a preference eligible, except where OPM has retained this authority,\n           including for:\n\n           (1)    Preference eligibles with a 30% or more compensable disability (CPS)\n                  and;\n\n           (2)    Any preference eligible if the pass over request is based on a medical\n                  reason.\n\n           NOTE: Requests requiring OPM approval must be submitted to OHRM for\n                 review and concurrence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "67b6b9a6-3024-5f3d-814b-fba4a2b90012",
+        "class": "section",
+        "title": "Merging Quality Categories",
+        "controls": [
+          {
+            "id": "dr4030-337-002-13",
+            "class": "policy-requirement",
+            "title": "Merging Quality Categories",
+            "parts": [
+              {
+                "id": "dr4030-337-002-13-stmt",
+                "name": "statement",
+                "prose": "a.   If there are fewer than three available applicants in the highest quality category,\n           the two highest categories may be merged into one category. The newly merged\n           category becomes the new highest quality category from which selection can be\n           made. All preference eligibles in the merged category must be placed ahead of\n           non-preference eligibles.\n\n      b.   Merging is optional and can only be done when there are fewer than three\n           applicants in the highest quality category. There is no limit to the number of\n           times categories can be merged. The human resources specialist, in conjunction\n           with the selecting official, may decide to merge categories at two places in the\n           hiring process: (1) Before certifying/issuing the Certificate of Eligibles; or (2)\n           Before making a selection if there are fewer than three available applicants\n           remaining in the highest quality category.\n\n                                            7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "82807b0f-c7af-5a84-a1ae-69852942615c",
+        "class": "section",
+        "title": "Reporting Requirements",
+        "controls": [
+          {
+            "id": "dr4030-337-002-14",
+            "class": "policy-requirement",
+            "title": "Reporting Requirements",
+            "parts": [
+              {
+                "id": "dr4030-337-002-14-stmt",
+                "name": "statement",
+                "prose": "a.     Annual audits on all certificates will be conducted in accordance with guidance in\n             the OPM Delegated Examining Handbook and the USDA OHRM Human\n             Resources Accountability process.\n\n      b.     Agency and Staff Office human resources offices that use category rating must\n             submit the following to OHRM, on an annual basis, for three years following the\n             establishment of this category rating policy:\n\n             (1)    Number of employees hired under category rating;\n\n             (2)    The impact of category rating on the hiring of veterans and minorities,\n                    including members of the following groups: American Indian or Alaska\n                    Natives; Black or African American, and native Hawaiian or other Pacific\n                    Islanders; and\n\n             (3)    The way in which managers were trained in the administration of category\n                    rating.\n\n      c.     Unless notified otherwise, annual reports should be submitted as follows:\n\n\n              Reports covering the period:        Due to OHRM,\n                                                  Human Resources Policy Division\n              November 1, 2010 through\n              October 31, 2011                    November 30, 2011\n              November 1, 2011 through\n              October 31, 2012                    November 30, 2012\n              November 1, 2012 through\n              October 31, 2013                    November 22, 2013"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c660bc09-02bb-5b32-8b86-94d4a7dfdd4e",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr4030-337-002-15",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr4030-337-002-15-stmt",
+                "name": "statement",
+                "prose": "Requests for policy interpretations should be directed to OHRM, Human Resources\n      Policy Division.\n\n\n\n\n                                              8\n\f                                             APPENDIX A\n\n\n        SAMPLE ASSESSMENT METHODS UNDER CATEGORY RATING\n\nSeveral assessment methods may be used under category rating. The following are\nexamples and may be used at the discretion of the Agency/Staff Office human resources\noffice. Human resources offices may also develop and use other appropriate methods for\nassessing applicants using category rating, provided two or three pre-defined quality\ncategories are used.\n\nThe following examples use three quality categories, but can be modified to use two\nquality categories.\n\n\n    A. Total Score Method\n\nPlace eligible applicants into quality categories based on the numerical scores obtained\nthrough an applicant self-assessment system (e.g., Hiring Management or USA Staffing),\nor based on the rating received for each job related competency and transmuting the raw\nscore to a score that ranges from 70 to 100 points. The applicant’s total score used shall\nnot include additional points for veterans’ preference.* For example:\n\n    •    Best Qualified – Applicants who have a score between 95 and 100.**\n    •    Well Qualified – Applicants who have a score between 85 and 94.\n    •    Qualified – Applicants who have a score between 70 and 84.\n\n\n*The numerical score of a preference eligible would not be augmented with additional points for veterans’\npreference. Instead, preference eligibles are referred ahead of non-preference eligibles when placed into\nthe appropriate quality category.\n\n**The cut-off scores for quality categories may be raised or lowered, as appropriate to show\ndistinguishable differences in applicant quality levels. In addition, numerical cut-offs must be identified\nprior to issuing the job announcement. The minimum score for the “Qualified” category should be 70,\nwhich is consistent with traditional delegated examining procedures.\n\n\n\n\n                                                         A-1\n\f    B. Proficiency Level of Job Related Competencies - Option 1\n\nEligible applicants are placed into quality categories based on their scores in specific job\nrelated competencies. Those placed in the top category using this method are generally\nconsidered as being highly proficient in all the requirements of the job and can perform\neffectively in the position almost immediately or with a minimum amount of training\nand/or orientation.\n\nFor example: Applicants for a Human Resources Specialist job announcement will be\nrated on three competencies identified through the job analysis process: (a) Oral\nCommunication; (b) Written Communication, and (c) Technical Knowledge. Using a\nrating schedule developed for the position, assign a rating for each job related\ncompetency at a High level (5 points); Medium Level (3 points); or Low level (1 point).\n\nPlace eligible applicants into Quality categories that were pre-defined specifically for this job\nannouncement as follows:\n\n                                             Quality Categories\n                                  Human Resources Specialist, GS-201-12\nBest Qualified    Applicant received a rating of “5” level in both Technical Knowledge and Written\n                  Communication; and a rating of at least “3” in Oral Communication.\nWell-Qualified    Applicant received a rating of “5” level in Technical Knowledge; and at least a rating of “3” in\n                  both Written Communication and Oral Communication.\nQualified         Applicant met the basic eligibility and minimum qualifications requirements, but did not meet\n                  the definition of Well-Qualified or Best-Qualified described above.\n\n\n    C. Proficiency Level of Job Related Competencies – Option 2\n\nUsing a rating schedule developed for the position, rate each job related competency at a\nHigh level, Medium Level, or Low level. Job related competencies were determined to\nbe of comparable importance.\n\nPlace eligible applicants into quality categories based on the number of job related\ncompetencies rated at each level, as follows:\n\n                                             Quality Categories\n\nBest Qualified    Number of job related competencies rated at the “High” level is greater than, or equal to, the\n                  number of job related competencies rated at “Medium” level, with no job related competencies\n                  rated at the “Low” level.\nWell-Qualified    Number of job related competencies rated at the “Medium” level exceeds the number of job\n                  related competencies rated at the “High Level,” with no job related competencies rated at the\n                  “Low” level.\nQualified         Applicant met the basic eligibility and minimum qualifications requirements, but did not meet\n                  the definition of Well-Qualified or Best-Qualified described above.\n\n    D. Possession Only of Job Related Competencies – Option 1\n                                         A-2\n\fUse the job analysis process to (1) identify the job related competencies needed for successful\njob performance; and (2) identify indicators that show possession of each job related\ncompetency. In this option (and in Option E below), applicants are assessed only on possession\nof the job related competencies; their degree of proficiency is not rated.\n\nFor example: Applicants for a Human Resources Specialist job announcement will be\nassessed on three job related competencies identified through the job analysis process:\n(a) Oral Communication; (b) Written Communication, and (c) Technical Knowledge.\nBased on the relative importance of the competencies for successful job performance,\nquality categories were defined for this position as follows:\n\n                                             Quality Categories\n\nBest Qualified    Applicant demonstrates possession of all job related competencies identified as important for\n                  successful job performance, i.e., Oral Communication, Written Communication, and Technical\n                  Knowledge.\nWell-Qualified    Applicant demonstrates possession of Technical Knowledge and Oral Communication.\nQualified         Applicant meets the basic eligibility and minimum qualification requirements, but does not\n                  meet the definition of Well-Qualified or Best Qualified described above.\n\n\n\n    E. Possession Only of Job Related Competencies – Option 2\n\nIn this option, all of the job related competencies were determined to be of comparable\nimportance. Place applicants into quality categories based on the number of job related\ncompetencies they possess. For example:\n\n                                             Quality Categories\n\nBest Qualified    Applicant possesses all of the job related competencies identified as important for successful\n                  job performance.\nWell-Qualified    Applicant possesses a majority (i.e., more than half) of the job related competencies needed for\n                  successful job performance.\nQualified         Applicant meets the basic eligibility and minimum qualification requirements, but does not\n                  meet the definition of Well-Qualified or Best-Qualified described above.\n\n\n\n\n                                                    A-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "74bb227c-3b8c-52c5-b3c6-05511c429b48",
+          "title": "USDA Directives — DR4030-337-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4030-337-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

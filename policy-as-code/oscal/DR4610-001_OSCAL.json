@@ -1,0 +1,240 @@
+{
+  "catalog": {
+    "uuid": "53575166-8b2d-53d3-8ed0-ab5e7b2c2e11",
+    "metadata": {
+      "title": "USDA DR4610-001: Security Screening Unit Procedures",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-12-09",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4610-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-12-09"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4610-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Safety, Security, and Protection (OSSP), December 9, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4610-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Safety, Security, and Protection (OSSP), December 9, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "e00a1971-8807-51c7-acba-8700a2dd957f",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4610-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4610-001-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the policy and procedures to be followed\n          by the Departmental Administration, Office of Operations (OO), Mail and Reproduction\n          Management Division (MRMD); the OO Mail Services Branch; and the OSSP Security\n          Screening Unit (SSU).\n\n     b.   The SSU provides a central facility for screening all incoming mail and authorized\n          courier delivery items to the United States Department of Agriculture (USDA)\n          Headquarters in the National Capital Region (NCR), specifically the Whitten, South, and\n          Yates Buildings, and the George Washington Carver Center."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "26141021-6c55-595c-8bcd-cc75b0570927",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr4610-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr4610-001-2-stmt",
+                "name": "statement",
+                "prose": "This regulation supersedes DR 4610-001, Security Screening Unit Procedures, dated July 16,\n     1991."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fb369551-d778-5f35-9f3f-f9bcc0d37398",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4610-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4610-001-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all Mission Areas, agencies, and staff offices operating in the USDA\n  Headquarters."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6df0296f-ad0c-558f-95f2-b0da8bfdf253",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4610-001-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4610-001-4-stmt",
+                "name": "statement",
+                "prose": "a.   The OSSP SSU will screen, X-ray, or visually inspect all incoming deliveries of mail,\n       envelopes, and packages by couriers and messengers to the USDA Headquarters.\n\n  b.   All incoming deliveries by couriers and messengers, which include but are not limited to\n       packages and envelopes, will be delivered to the SSU located in room 0460-South\n       Building (4th wing basement near the Central Shipping and Receiving dock).\n\n  c.   The hours of operation are 0700-1800 Eastern Time, Monday through Friday, to exclude\n       Federal holidays.\n\n  d.   USDA Uniformed Officers at all entrances will direct all couriers and messengers to the\n       South Building, Court 4, C Street SW to gain access to the SSU.\n\n  e.   Mission Areas, agencies, and staff offices must follow the security screening protocol\n       based on the identified security level and Department of Homeland Security (DHS)\n       Interagency Security Committee (ISC) facility standards security requirements for the\n       specific facility, as proscribed by OSSP.\n\n  f.   For procedures on processing classified mail, see Departmental Manual (DM) 3440-001,\n       USDA Classified National Security Information Program."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4e31e138-0d44-5221-b7ff-59b6687e696f",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr4610-001-5",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr4610-001-5-stmt",
+                "name": "statement",
+                "prose": "Suspicious Mail Incident Response Procedures\n\n  a.   Initial Alert Procedures\n\n       Suspicious mail response procedures will vary by organization and will be based upon a\n       combination of factors such as the type of item discovered, the location of the mail\n       screening facility, internal facility configuration, the number of personnel in the facility,\n       and specific organization emergency response protocols. The following procedures\n       should be followed:\n\n       (1) Remain calm;\n\n       (2) Alert others in the immediate area that you have identified a suspicious item;\n\n\n\n                                                2\n\f     (3) Contact the USDA OSSP Security Control Center (SCC) at 202-720-0000. The\n         SCC will contact the Security Services Division (SSD) Director. Local law\n         enforcement and first responders will be notified as required;\n\n     (4) Do not attempt to move the suspicious item;\n\n     (5) Put the envelope or package on a stable surface if it is currently being carried or\n         handled by mail center personnel;\n\n     (6) Do not sniff, touch, or taste any contents that may have spilled;\n\n     (7) Do not open the letter or package. Do not shake or empty the contents of a\n         suspicious letter or package;\n\n     (8) Do not carry the letter or package or allow others to examine it;\n\n     (9) Report suspicious items with threatening content to the USDA Mail Center\n         Manager; and\n\n     (10) Report suspicious items to the USDA OO Mail Service Branch Chief and USDA\n          OSSP SSD Director for further inspection. The OSSP SSD Director will notify\n          local law enforcement as required. Building management should be contacted as\n          well.\n\nb.   Evacuation Procedures\n\n     (1) Specific evacuation procedures will vary from site-to-site and must be coordinated\n         in advance with organization management (to include property or facility managers,\n         as appropriate), safety, and security personnel.\n\n     (2) List all persons who were in the room or area when the suspicious letter or package\n         was recognized or who may have handled the letter or package. Be prepared to\n         provide the list to local public health authorities and law enforcement officials if\n         requested.\n\n     (3) When possible, write down the information regarding the appearance of the letter or\n         package and photograph the item with a digital camera.\n\n     (4) All suspicious items should be maintained as evidence as part of a criminal\n         investigation until released by the appropriate law enforcement agency.\n\n     (5) All incidents involving suspicious mail and packages must be reported immediately\n         to mail center management personnel and security, local law enforcement, and first\n         responders.\n\n\n\n\n                                             3\n\f     (6) Within the mail center, managers should provide employees an initial briefing and\n         regular updates during an ongoing incident. This is especially important when a\n         suspicious item has necessitated the evacuation of the mail center.\n\n     (7) As soon as possible, mail center personnel should be briefed on any required or\n         recommended medical treatment in accordance with guidance provided by\n         emergency medical personnel, first responders, and public health officials.\n\nc.   Specific Substance Initial Response Procedures\n\n     (1) Explosive Device\n\n         (a) Immediately leave the mail screening area and initiate local evacuation\n             procedures.\n\n         (b) If the mail or package is inside an X-ray scanner, leave it there.\n\n         (c) Do not use cell phones, radios, smart watches, mobile devices, etc., within the\n             immediate proximity of the suspicious package. Ensure that this prohibition is\n             part of all mail screening training; additional safety procedures will be\n             provided to all mailroom staff.\n\n     (2) Chemical Substance\n\n         (a) Leave the mail screening area.\n\n         (b) Close all doors to prevent others from entering the area.\n\n         (c) If possible, shut off any fans and the ventilation system of the local facility.\n\n     (3) Biohazard Substance\n\n         (a) Remain in the negative pressure mail screening environment until directed to\n             leave by first responders or Hazardous Materials (HAZMAT) personnel.\n\n         (b) If there is no negative pressure system, shut off any fans and the ventilation\n             system of the local facility and await arrival of first responders or HAZMAT\n             personnel.\n\n         (c) Follow guidance from emergency response personnel.\n\n     (4) Radiation or Nuclear Substance\n\n         (a) Leave the immediate area where the radiation source appears to be located.\n\n         (b) Do not touch any source material or the packaging materials surrounding it.\n\n\n\n                                             4\n\f  d.   Post-Event Follow-Up Procedures\n\n       (1) The USDA OO Mail Services Branch Chief and USDA OSSP SSD Director should\n           conduct a joint review of the incident and response actions with mail center\n           employees and first responders following the incident. The USDA OSSP SSD\n           Director will lead this review and issue after actions reports.\n\n       (2) Employees should be given an opportunity to speak with medical personnel, human\n           resources representatives, environmental health and safety professionals, and other\n           organization personnel as desired.\n\n       (3) The USDA OO Mail Service Branch Chief should also document and share\n           information about the incident with other Federal mail center managers as permitted\n           by organizational security protocols and general policies and procedures.\n\n       (4) Suspicious mail will simultaneously lead to an investigation by the local police, the\n           U.S. Postal Inspection Service (USPIS), or the Federal Bureau of Investigation\n           (FBI), or the DHS Federal Protective Service (FPS). Mail center personnel should\n           be reminded not to destroy evidence by vacuuming up white powder, shredding\n           suspicious letters, disposing of dangerous packages, or similar activities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "71b947c4-ae69-5a76-b8f8-2c2a40229b74",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr4610-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr4610-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Chief Security Director, OSSP, will:\n\n       (1) Provide executive leadership, guidance, and the needed staff and resources for the\n           SSU per 7 Code of Federal Regulations (CFR) § 2.94, Chief Security Director,\n           Office of Safety, Security, and Protection;\n\n       (2) Provide exception authorizations for couriers and messengers to enter the facilities;\n           and\n\n       (3) Implement and execute the necessary internal controls to proactively monitor,\n           measure, audit, report, and enforce compliance with the provisions of this directive.\n\n  b.   The Director, OSSP SSD, will:\n\n       (1) Receive and respond to reports of suspicious items requiring further inspection;\n\n       (2) Clear security personnel who discover suspicious items to leave the immediate area;\n\n       (3) Conduct a joint after-action review, in collaboration with the OO Mail Services\n           Branch Chief, of incident and response actions; and\n\n\n\n\n                                               5\n\f     (4) Train and remind SSU employees of incident response procedures.\n\nc.   The Chief Communications Officer, OSSP SCC, will:\n\n     (1) Receive and respond to initial reports of suspicious items; and\n\n     (2) Contact, notify, and coordinate with leadership, the SSD Director, building\n         management, local law enforcement, the USPIS, the FBI, DHS FPS, first\n         responders, emergency medical personnel, HAZMAT personnel, and public health\n         officials as required.\n\nd.   The Director, OO, will:\n\n     (1) Provide executive leadership, guidance, and the needed staff and resources for the\n         MRMD and the Mail Services Branch per Federal Management Regulation, 41\n         CFR Part 102-192, Mail Management; 7 CFR § 2.96, Director, Office of\n         Operations; and DR 3050-001, Mail Management; and\n\n     (2) Coordinate with the OSSP Chief Security Director, the SSD Director, and the SCC\n         Chief Communications Officer as needed.\n\ne.   The Director, OO MRMD, will:\n\n     Provide leadership, direction, and policy for the Departmental Mail Services Branch per\n     DR 3050-001, Section 6a.\n\nf.   The Chief, OO Mail Services Branch, also known as the Departmental Mail Manager,\n     will:\n\n     (1) Provide leadership and direction for the Mail Services Branch per DR 3050-001,\n         Section 6c;\n\n     (2) Receive and respond to reports of suspicious items requiring further inspection;\n\n     (3) Provide briefings to employees on ongoing incidents;\n\n     (4) Conduct a joint after-action review, in collaboration with the OSSP SSD Director,\n         of incident and response actions;\n\n     (5) Document and share incident information with other Federal mail center managers\n         as permitted by organizational security protocols; and\n\n     (6) Train and remind employees of incident response procedures.\n\n\n\n\n                                            6\n\f  g.   The OSSP SSU personnel will:\n\n       (1) X-ray all incoming mail and small packages;\n\n       (2) Visually inspect all incoming mail and small packages which are clearly labeled\n           “Do Not X-ray;”\n\n       (3) Sign for the delivery of and notify the addressee(s) that the package(s) have arrived.\n           The addressee will have the option to come to the SSU in person to retrieve the\n           package(s) or the package(s) will be delivered on the next scheduled mail run.\n           Exceptions will be couriers authorized by the OSSP Chief Security Director to enter\n           the facilities;\n\n       (4) Maintain a record of deliveries to the SSU;\n\n       (5) Inspect all incoming packages for damages caused by couriers that occur in transit\n           and record the details of the damage on the package receipt;\n\n       (6) Identify and mark all packages as being X-rayed or visually inspected prior to pick-\n           up or delivery to addressee; and\n\n       (7) Secure in place any weapons or unusual material discovered, and contact the\n           supervisor. Security personnel who discover suspicious items must remain in place\n           until cleared by the OSSP SSD Director.\n\n  h.   Departmental Mission Area, Agency, and Staff Office personnel will:\n\n       (1) Report in person to the SSU to receive packages directly from the couriers;\n\n       (2) Report in person to the SSU for deliveries which involve the exchange of money\n           (Cash on Delivery; C.O.D.) or require an official stamp (legal documents);\n\n       (3) Advise vendors and contacts to clearly label and identify any mail or small\n           packages which cannot be X-rayed;\n\n       (4) Advise their subscribers that newspapers are not subject to security screening; and\n\n       (5) Notify the SSU staff of any special arrangements for time sensitive deliveries (e.g.,\n           bid proposals)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7ca1855e-1f0d-53e8-8793-e52cd54562d0",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr4610-001-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr4610-001-7-stmt",
+                "name": "statement",
+                "prose": "Questions regarding this DR should be directed to OSSP at 202-401-6777 or\n  securityservicehelp@usda.gov.\n\n\n\n\n                                               7\n\f-END-\n\n\n\n\n8\n\f                            APPENDIX A\n\n                 ACRONYMS AND ABBREVIATIONS\n\n\nCFR      Code of Federal Regulations\nC.O.D.   Cash on Delivery\nDHS      Department of Homeland Security\nDM       Departmental Manual\nDR       Departmental Regulation\nFBI      Federal Bureau of Investigation\nFedEx    Federal Express\nFPS      Federal Protective Service (DHS Component)\nHAZMAT   Hazardous Materials\nISC      Interagency Security Committee (DHS Responsibility)\nMRMD     Mail and Reproduction Management Division (OO Component)\nNCR      National Capital Region\nOO       Office of Operations\nOSSP     Office of Safety, Security, and Protection\nSCC      Security Control Center\nSSD      Security Services Division (OSSP Component)\nSSU      Security Screening Unit (OSSP SSD Component)\nUPS      United Parcel Service\nUSDA     United States Department of Agriculture\nUSPIS    United States Postal Investigation Service\nUSPS     United States Postal Service\n\n\n\n\n                                 A-1\n\f                                        APPENDIX B\n\n                                        DEFINITIONS\n\n\nCourier. Mail delivery company and bicycle carriers to include: United States Postal Service\n(USPS), Federal Express (FedEx), United Parcel Service (UPS), DHL, etc.\n\n\n\n\n                                             B-1\n\f                                         APPENDIX C\n\n                             AUTHORITIES AND REFERENCES\n\n\n7 CFR § 2.90, Director, Office of Property and Fleet Management (Note: Renamed Office of\nProperty and Environmental Management effective March 26, 2021)\n\n7 CFR § 2.94, Chief Security Director, Office of Safety, Security, and Protection\n\n7 CFR § 2.96, Director, Office of Operations\n\nFederal Management Regulation, 41 CFR Part 102-192, Mail Management\n\nUSDA, DM 3440-001, USDA Classified National Security Information Program, June 9, 2016\n\nUSDA, DR 3050-001, Mail Management, May 22, 2012\n\n\n\n\n                                               C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "af7631c5-d50c-581b-b8e8-e672a454c55f",
+          "title": "USDA Directives — DR4610-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4610-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

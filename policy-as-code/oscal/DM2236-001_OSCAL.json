@@ -1,0 +1,225 @@
+{
+  "catalog": {
+    "uuid": "9b28787e-b8b1-5c61-9485-177b3d7a3b72",
+    "metadata": {
+      "title": "USDA DM2236-001: Shared Cost Programs",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-04-16",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DM2236-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Manual"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-04-16"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dm-2236-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Financial Officer, April 16, 2024",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dm-2236-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Financial Officer, April 16, 2024"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "cc168a52-8750-528e-a815-58427f837683",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dm2236-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dm2236-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Manual (DM) establishes the United States Department of Agriculture\n      (USDA) financial procedures regarding Shared Cost Programs (SCP)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0cf3cec1-bac3-581b-a2ff-f1e2696d5f69",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dm2236-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dm2236-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This manual supersedes DM 2236-001, Shared Cost Programs, dated March 14, 2014.\n\n      b.   Policies and procedures described herein apply to administration of SCP under authority\n           of 7 United States Code (U.S.C.) § 2263, Transfer of funds. They do not apply to\n           Working Capital Fund (WCF) or Central Cost Distribution Programs.\n\n      c.   For purposes of budget execution and financial transaction management, SCPs will be\n           administered using sales orders."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "98ce82c3-1c84-5035-9048-4a429644c78c",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dm2236-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dm2236-001-3-stmt",
+                "name": "statement",
+                "prose": "This procedural manual applies to the following individuals and organizations:\n\n  a.   The Office of the Chief Financial Officer (OCFO);\n\n  b.   Mission Areas, agencies, and staff offices; and\n\n  c.   Organizations managing SCP activities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b954174b-cf1b-5613-8414-1b895ea87712",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dm2236-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dm2236-001-4-stmt",
+                "name": "statement",
+                "prose": "Shared cost agreements may be entered into under the authority of 7 U.S.C. § 2263. This\n  language authorizes the Department of Agriculture to establish programs, financed by\n  reimbursement from Mission Areas, agencies, and staff offices of the Department, of general\n  benefit to the Department, its Mission Areas, agencies, staff offices, its stakeholders, and\n  other organizations with which the Department works to promote its various missions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fdba2f49-a921-58e3-80a4-d86bd71777cf",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dm2236-001-5",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dm2236-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   The Chief Financial Officer (CFO), or his/her designee, will:\n\n       (1) Certify and validate the accuracy of SCP allowances to SCP program managers and\n           Mission Area, agency, and staff office cost shares for each SCP activity;\n\n       (2) Coordinate and provide technical support to SCP program managers in budget\n           formulation, budget execution, and management of SCP finances; and\n\n       (3) Ensure billing for every activity performed is completed in a timely and accurate\n           fashion.\n\n  b.   Mission Area, Agency, and Staff Offices Customers will:\n\n       (1) Create and approve purchase orders in the Financial Management Modernization\n           Initiative (FMMI) system upon the posting of “Initial Estimates” to the Greenbook\n           (FUND) Web application, and within 7 days of the distribution of agreements to\n           customer Mission Areas, agencies, and staff offices; and\n\n       (2) Enter the purchase order number, line item number, Government Treasury Account\n           Symbol, and the amount funded in the Greenbook (FUND) Web application.\n\n  c.   Mission Area, Agency, and Staff Office SCP Program Managers and Program Owners\n       will:\n\n\n\n                                              2\n\f       (1) Administer programs and activities consistent with delegations of authority and\n           other authorities granted to those programs and activities;\n\n       (2) Submit resource estimates to the CFO (or his/her designee) in a manner, fashion,\n           and schedule to be established by the CFO (or his/her designee);\n\n       (3) Create sales orders in FMMI to establish funding at a level in accordance with the\n           SCP resource allowances and cost recovery method approved by the Secretary in\n           accordance with DR 2236-001;\n\n       (4) Liquidate obligations on existing purchase orders no later than 18 months after the\n           close of the fiscal year; and\n\n       (5) Provide periodic status of funds reports in a manner and according to a schedule set\n           forth by the OCFO. The status must include the current year and any prior years\n           that have not been fully closed, and for which there remain outstanding unliquidated\n           obligations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "712da315-5fb1-5c09-a510-d807782973ea",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dm2236-001-6",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dm2236-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   Shared cost agreements may be executed within USDA between different\n       appropriations. When one office provides a beneficial service to another office, the\n       office receiving the service will reimburse the providing office for the cost of that\n       service.\n\n       (1) USDA will use the Department of the Treasury, Bureau of the Fiscal Service (FS),\n           Form 7600A, General Terms & Conditions (GT&C), Interagency Agreement\n           (IAA), for shared cost agreements. The FS Form 7600A will be used to establish\n           sales orders and purchase orders for the service provider and purchaser respectively.\n\n       (2) Regular billings will be processed based upon amounts expended during the month.\n           The bills will be calculated using FMMI’s settlement process.\n\n  b.   Continuing Resolutions – Absence of Appropriations Enacted on October 1\n\n       (1) In the event appropriations for the fiscal year are not enacted by October 1 and\n           temporary spending measures have been enacted in their place (e.g., a continuing\n           spending resolution), customer agencies will be required to fund purchase orders as\n           follows:\n\n           (a) The number of days of funding provided in the continuing spending resolution\n               shall be divided by the number of days in the fiscal year to establish a funding\n               share factor for the SCP.\n\n\n\n\n                                               3\n\f           (b) This factor must be multiplied by the Mission Area, agency, or staff office cost\n               share computed for the fiscal year using OCFO updated cost recovery metrics\n               to arrive at the amount to be funded by the Mission Area, agency, or staff\n               office under the continuing spending resolution. Continuing resolution\n               Mission Area, agency, or staff office shares will be provided by OCFO when\n               requesting customer Mission Areas, agencies, or staff offices to fund\n               continuing resolution purchase orders and supersede Mission Area, agency, or\n               staff office calculations for continuing resolution purchase order amounts.\n               SCPs may appeal continuing resolution spending levels to the Secretary.\n\n           (c) Spending share factors must be adjusted by the OCFO in the event terms of\n               continuing resolutions are amended, new continuing spending resolutions are\n               enacted, or when SCP continuing resolution levels are appealed and a higher\n               spending level is approved by the Secretary.\n\n       (2) At such time that a permanent funding measure is enacted for the fiscal year, the\n           customer Mission Area, agency, or staff office must adjust or fund the purchase\n           order to fund the activity for the full fiscal year share allocated to it.\n\n  c.   For any SCP that uses, all or in part, full-time equivalents (FTE) as the basis for\n       allocating costs among customer Mission Areas, agencies, and staff offices, the source\n       data for full-time equivalents shall be the most recent enacted year’s data available and\n       published by the Office of Budget and Program Analysis in the Department’s Budget\n       Summary and Annual Performance Plan at the time of the budget formulation, less SCP\n       direct FTEs.\n\n  d.   The OCFO will be responsible for ensuring that settlement rules are checked and\n       validated in all sales orders so that they match the approved cost recovery methods and\n       allocations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4bdde8d8-0a62-5008-b1c7-d4c6d64bc30a",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dm2236-001-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dm2236-001-7-stmt",
+                "name": "statement",
+                "prose": "Mission Areas, agencies, and staff offices should direct questions and inquiries regarding this\n  DR to the OCFO at USDABudget@usda.gov.\n\n\n                                            -END-\n\n\n\n\n                                               4\n\f                              APPENDIX A\n\n                 ACRONYMS AND ABBREVIATIONS\n\n\nCFO      Chief Financial Officer\nDM       Departmental Manual\nDR       Departmental Regulation\nFMMI     Financial Management Modernization Initiative\nFS       Fiscal Service (Department of the Treasury Component)\nFTE      Full Time Equivalent\nIAA      Interagency Agreement\nOCFO     Office of the Chief Financial Officer\nSCP      Shared Cost Program\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\nWBS      Work Breakdown Structure\nWCF      Working Capital Fund\n\n\n\n\n                                   A-1\n\f                                       APPENDIX B\n\n                                      DEFINITIONS\n\n\nFinancial Management Modernization Initiative (FMMI). FMMI is the corporate financial\nand accounting system for USDA.\n\nPurchase Orders. Request or instruction from a purchasing organization or agency to a\nvendor (external supplier) or plant to deliver a certain quantity of material or perform certain\nservices at a certain point in time. This document represents a legal obligation of funds after\neither a contract has been signed or a service provider has agreed to provide goods or\nservices.\n\nSales and Distribution. Modular functionality in FMMI that supports customer business,\nsuch as the Order Fulfillment business process, reimbursable agreements, interagency orders,\nreceivable processing, revenue management, etc.\n\nSales Orders. A Financial Management Modernization Initiative (FMMI) document in the\nSales and Distribution module that represents a customer order (also known as a\n“reimbursable order”). This document creates spending authority (allotment) in FMMI.\n\nSettlement Rules. Rules governing the process of settling costs posted on projects' Work\nBreakdown Structure (WBS) elements to other WBS elements, cost centers, or General\nLedger accounts.\n\nShared Cost Programs (SCP). SCPs are programs authorized under 7 U.S.C. § 2263 and are\nperformed on behalf of the Department and/or its agencies, costs for which are recovered\nfrom USDA agencies via reimbursement mechanisms. They do not include Central Cost\nDistribution Programs or Working Capital Fund activities (WCF).\n\nWork Breakdown Structure (WBS). A cost object representing a project that support directs\ncharge and cost allocation for financial, procurement, and reimbursable processes. There is a\none-to-one relationship with a funded program.\n\n\n\n\n                                            B-1\n\f                                      APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\n7 U.S.C. § 2263, Transfer of funds\n\nDepartment of the Treasury, Bureau of the Fiscal Service, FS Form 7600A, General Terms &\nConditions (GT&C), May 2019\n\nDepartment of the Treasury, Greenbook (FUND) Web application\n\nUSDA, DR 2236-001, Shared Cost Programs, April 16, 2021\n\n\n\n\n                                            C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "e60e048a-5a15-5fd4-a79c-e3f1b4dbfea2",
+          "title": "USDA Directives — DM2236-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dm-2236-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

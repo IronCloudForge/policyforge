@@ -1,0 +1,106 @@
+{
+  "catalog": {
+    "uuid": "a5161485-aeb0-581f-ad81-89431cbd1de7",
+    "metadata": {
+      "title": "USDA DR9700-001: Small Farms and Beginning Farmers and Ranchers Policy",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2006-08-03",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR9700-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2006-08-03"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-9700-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Economist",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-9700-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Economist"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "10cd01db-2700-562c-99fc-83d4c4c1b241",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr9700-001-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr9700-001-1-stmt",
+                "name": "statement",
+                "prose": "U.S. DEPARTMENT OF AGRICULTURE\n                                  WASHINGTON, D.C. 20250\n\n\n                                                                                   Number:\n           DEPARTMENTAL REGULATION                                                 9700-001\nSUBJECT:                                                          DATE:\nSmall Farms and Beginning Farmers and Ranchers Policy             August 3, 2006\n                                                                  OPI:\n                                                                  Office of the Chief\n                                                                  Economist\n\n\n1      PURPOSE\n\n       This regulation sets forth the policy of the United States Department of\n       Agriculture (USDA) with regard to the importance and role of small farms,\n       ranches, woodlots, and beginning farmers and ranchers (hereafter referred to as\n       small farms and beginning farmers and ranchers) to U.S. agriculture and the\n       establishment of strategies, systems, and a Departmental framework for\n       achieving and maintaining the viability of small farms and beginning farmers\n       and ranchers.\n\n\n2      SPECIAL INSTRUCTIONS\n\n       Departmental Regulation (DR) 9700-1, dated September 8, 1999 is replaced by\n       this revised regulation, which revises DR 9700-1 to include beginning farmers\n       and ranchers.\n\n\n3      BACKGROUND\n\n       a      Small farms have been critical to American society throughout the\n              Nation's history. Today, as historically, the vast majority of all farms\n              in the United States are small. The viability and sustainability of these\n              farms is important to our Nation's economy, to the wise stewardship of\n              our biological and natural resources, and to the leadership and social\n              fabric of rural communities. Their economic contribution is important\n              to the Nation and is especially critical to the thousands of rural\n              communities where they pay taxes and to the thousands of businesses\n              they support.\n\n       b      Small farms play an important role in the U.S. agricultural sector. The\n              Economic Research Service (ERS) in its Farm Typology Group\n              Definition uses the definition of “small farm” developed by the\n              National Commission on Small Farms. The Commission used\n\fDR 9700-001                                                                   August 3, 2006\n\n\n              $250,000 in gross sales as its cutoff between small and large farms in\n              its report, A Time to Act (U.S. Dept. Agr., Nat’l. Comm. on Small\n              Farms, 1998), released in January 1998. This definition was instituted\n              in 1997 by the Secretary of Agriculture to examine issues facing small\n              farms. The definition is generally accepted by Congress, researchers,\n              land grant institutions, the small farm community and others. In 2004,\n              small farms accounted for 92 percent of all farms and ranches, owned\n              71 percent of the total productive assets in agriculture, operated 60\n              percent of all land used in agricultural production, and accounted for 26\n              percent of all agricultural receipts from crops and livestock. Small\n              farms took leadership in the development of organic production\n              systems in the United States. In the late 1990s, the organic and natural\n              foods market became the fastest growing sector of the U.S. food\n              market.\n\n       c      Owning and operating a small farm represents an avenue to economic\n              independence and entrepreneurial achievement for many Americans\n              from all walks of life. Small farms owners and operators are a diverse\n              group of Americans, including American Indians or Alaska Natives,\n              Asians, Blacks or African Americans, Ethnic Europeans, Hispanic or\n              Latino Origin, Native Hawaiians or Other Pacific Islanders, Spanish,\n              Whites, women, persons with disabilities, and others.\n\n       d      Small farms are operated by resourceful agriculturalists, who combine\n              entrepreneurship, business skills, family labor, and knowledge to\n              produce food and fiber, and wood products consumed by millions of\n              Americans and people around the world. However, not all small family\n              farms are alike. As of 2004, the Economic Research Service (ERS)\n              identified four primary groups of small family farms, each with\n              different resources, goals, and contributions to the Nation's agricultural\n              production. These groups are: 1) Primary occupation farms, which\n              account for 25 percent of all U.S. farms and are operated by farmers\n              who farm as their primary occupation; 2) Limited resource farms,\n              which make up 9 percent of farms and have low household income and\n              gross sales less than $100,000; 3) Retirement farms, which account for\n              16 percent of farms and are operated by individuals who identify\n              themselves as retired; and 4) Residential or lifestyle farms, which\n              constitute 40 percent of farms and are operated by people whose\n              primary occupation is something other than farming.\n\n              Limited resource, retirement, and residential or lifestyle farms\n              accounted for about 8 percent of the value of U.S. agricultural\n              production. Small farms where farming is the primary occupation\n              accounted for almost one fifth of production.\n\n\n\n\n                                          2\n\fAugust 3, 2006                                                                  DR 9700-001\n\n\n        e        Due to Congressional concern over the increasing average age of\n                 American farmers and ranchers, the Agricultural Credit Improvement\n                 Act of 1992 (Act) required the Secretary to establish: (1) beginning\n                 farmer loan programs; (2) Federal-State beginning farmer partnerships\n                 for the purpose of providing joint financing to beginning farmers and\n                 ranchers; and (3) an Advisory Committee on Beginning Farmers and\n                 Ranchers. The Act also required that loan funds be targeted to\n                 beginning farmers and ranchers.\n\n                 In accordance with the Act, USDA implemented beginning farmer and\n                 rancher loan programs in Fiscal Year (FY) 1994. Since then, through\n                 the end of FY 2005, the Farm Service Agency (FSA) has made more\n                 than 87,000 loans to beginning farmers and ranchers, totaling $7.6\n                 billion. FSA has also created Federal-State beginning farmer\n                 partnerships by signing Memorandums of Understanding (MOUs) with\n                 20 State beginning farmer programs through December 2005.\n\n                 USDA also established an Advisory Committee on Beginning Farmers\n                 and Ranchers in 1998. The Committee meets annually and has\n                 provided recommendations to the Secretary. USDA has implemented\n                 some of the recommendations.\n\n                 The Farm Security and Rural Investment Act of 2002 required the\n                 Natural Resources Conservation Service to provide higher payments to\n                 beginning farmers and ranchers in some of its programs, and authorized\n                 the Secretary to establish a Beginning Farmer and Rancher\n                 Development Program.\n\n\n4       POLICY\n\n        USDA’s policy for Small Farms and Beginning Farmers and Ranchers is based\n        on the guiding principles for Federal farm policy as recommended by the\n        Secretary of Agriculture's National Commission on Small Farms and the\n        Advisory Committee on Beginning Farmers and Ranchers.\n\n        It is the policy of USDA to:\n\n        a        Encourage farming systems that produce safe, healthy, and diverse\n                 food, fiber and wood products, and create greater opportunities to\n                 connect farmers with consumers.\n\n        b        Encourage and support an agricultural system that sustains and\n                 strengthens rural communities, cultural diversity, and encourages and\n                 rewards responsible stewardship of natural resources.\n\n\n\n\n                                            3\n\fDR 9700-001                                                                  August 3, 2006\n\n\n       c      Enable farmers, farm workers and ranchers to live and work in a safe\n              and responsible environment, own and operate farms and ranches as a\n              livelihood, and enhance opportunities for them to generate farm and\n              ranch incomes comparable to other economic sectors where feasible.\n\n       d      Establish and foster marketing, development, credit, and outreach\n              programs that improve the competitiveness of small and beginning\n              farmers and ranchers and give priority to farmer-owned and farm-based\n              businesses, especially those that foster local and regional competition\n              in production, processing, and distribution of food, fiber, and wood\n              products that connect small farms and beginning farmers and ranchers\n              and consumers at the local and regional levels.\n\n       e      Establish and support research, development, marketing, incentive,\n              regulatory, and outreach programs and initiatives that focus on the\n              special needs of small farms and beginning farmers and ranchers,\n              especially those programs that help small farms and beginning farmers\n              and ranchers develop alternative enterprises, value-added products, and\n              collaborative marketing efforts, including cooperatives that enhance\n              stewardship of biological, natural, human, and community resources.\n\n       f      Make special efforts to meet the credit needs of small farms and\n              underserved, minority, women, and beginning farmers and ranchers.\n\n       g      Encourage and emphasize educational, outreach, marketing, regulatory,\n              credit, and other programs that will help ensure new generations of\n              small farmers and ranchers can gain access to the resources they need.\n\n       h      Foster collaboration among public and private sector agencies,\n              programs, and institutions, including farm and community-based\n              organizations, to meet the financial, educational, and technological\n              needs of small farms and beginning farmers and ranchers, including\n              developing small farms and beginning farmer and rancher networks,\n              joint enterprises, and mentoring systems.\n\n       i      Encourage all USDA agencies, the land grant institutions, and\n              collaborating public and private sector institutions to emphasize\n              sustainable agriculture, sustainable forestry, and agroforestry as\n              profitable, environmentally sound, and socially desirable strategies for\n              small farms and beginning farmers and ranchers.\n\n\n\n\n                                          4\n\fAugust 3, 2006                                                                     DR 9700-001\n\n\n\n\n5       ACTION ORDERED\n\n        a        This regulation establishes a Small Farms and Beginning Farmers and\n                 Ranchers Council, chaired by the Deputy Secretary. Membership will\n                 be comprised of the Under Secretary, Marketing and Regulatory\n                 Programs; Under Secretary, Farm and Foreign Agricultural Services;\n                 Under Secretary, Food, Nutrition and Consumer Services; Under\n                 Secretary, Food Safety; Under Secretary, Natural Resources and\n                 Environment; Under Secretary, Research, Education and Economics;\n                 Under Secretary, Rural Development; Chief Economist; Assistant\n                 Secretary for Administration; Assistant Secretary for Civil Rights;\n                 Director of the Office of Outreach; General Counsel; and the Director,\n                 Office of Budget and Program Analysis.\n\n        b        The Director of the Office of Small Farms Coordination, Office of the\n                 Under Secretary, Research, Education and Economics, and the\n                 Designated Federal Official for the Secretary’s Advisory Committee on\n                 Beginning Farmers and Ranchers will serve as Co-Executive Directors\n                 of the Small Farms and Beginning Farmers and Ranchers Council and\n                 are responsible for coordinating, advocating, and facilitating\n                 implementation of small farms and beginning farmer and rancher\n                 policies and programs.\n\n        c        The Director of the Office of Small Farms Coordination will chair a\n                 Department-wide group of coordinators for each mission area,\n                 individual agencies, the Designated Federal Official for the Secretary’s\n                 Advisory Committee on Beginning Farmers and Ranchers, the Office\n                 of Outreach, the Office of Civil Rights, the Office of Chief Economist,\n                 the Office of Budget and Program Analysis and the Office of the\n                 General Counsel for the purpose of planning, recommending, and\n                 coordinating the implementation of small farms and beginning farmers\n                 and ranchers policies and programs within USDA. The Coordinators\n                 will make recommendations to the Council. The Council will be\n                 responsible for implementing any recommendations.\n\n        d        Equal opportunity practices, in line with USDA policies, will be\n                 followed in all membership appointments as coordinators and\n                 committees. To ensure that the recommendations of the coordinators\n                 and committees have taken into account the needs of the diverse groups\n                 served by the Department, membership shall include, to the extent\n                 practicable, individuals who are minorities, women, and persons with\n                 disabilities.\n\n        e        The policies and actions ordered in this regulation are to be reflected in\n                 all mission area and agency mission statements, strategic plans,\n\n\n\n                                             5\n\fDR 9700-001                                                                 August 3, 2006\n\n\n              performance plans, and performance goals. These policies are to be\n              incorporated into all technical guides, handbooks, and materials used to\n              provide service to small farms and beginning farmer and rancher\n              operators (including extension publications).\n\n\n                                     —END—\n\n\n\n\n                                          6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "c67e3bec-2db1-5260-a90c-19987694d439",
+          "title": "USDA Directives — DR9700-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-9700-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "catalog": {
+    "uuid": "8ac05fc4-2f32-52c5-ba40-d1e7152284a0",
+    "metadata": {
+      "title": "USDA DR3300-001-A: Procuring and Managing Telecommunications Devices and Services",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2020-08-25",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-001-A"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2020-08-25"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-001-a",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Digital, Infrastructure Services Center, Enterprise Network Services",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-001-a",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Digital, Infrastructure Services Center, Enterprise Network Services"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "2caebfd5-86bd-59a8-bdd8-20b3a479bcd4",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3300-001-a-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3300-001-a-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes United States Department of Agriculture\n     (USDA) policy for the procurement and management of USDA telecommunications devices\n     and services."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "feeb2954-5f2b-5142-9244-f5c008b7e7ff",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3300-001-a-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3300-001-a-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR replaces DR 3300-1-A, Long Distance and International Telephone Service,\n          dated March 23, 1999, and DR 3300-001-L, Local Telecommunications Services, dated\n          March 23, 1999.\n\n     b.   This DR will be in effect until superseded or the expiration date.\n\n     c.   All Mission Areas, agencies, and staff offices will align their policies and procedures\n\f       with this DR within 6 months of the publication date.\n\n  d.   All Mission Areas, agencies, and staff offices may supplement this DR when developing\n       their internal guidance. Modifications to the intent or purpose of this DR are not\n       allowed. If Mission Areas, agencies, and staff offices publish internal guidance that\n       supplements this DR, one copy of each supplement will be forwarded to the Office of\n       the Chief Information Officer (OCIO), Digital Infrastructure Services Center (DISC),\n       Enterprise Network Services (ENS), Organizational Compliance & Controls Branch\n       (OCCB) at SM.OCIO.ENS.Policy@usda.gov."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "abf30c5e-4fb0-551d-9ba1-1f466c1dcf42",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3300-001-a-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3300-001-a-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to telecommunications devices (e.g., cellular phones, landline phones)\n       that are provisioned for use on a third-party network and any associated\n       telecommunications services.\n\n  b.   This DR excludes USDA wireless devices (e.g., laptops) that use USDA wireless\n       networks.\n\n  c.   This DR applies to all USDA Mission Areas, agencies, staff offices, contractors, data\n       centers, cooperative partners, employees, and others working for, or on behalf of,\n       USDA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "964cae4b-1268-55bb-9eac-3e15edaa5a9f",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3300-001-a-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3300-001-a-4-stmt",
+                "name": "statement",
+                "prose": "a.   The procurement and management of USDA telecommunications devices and services\n       depends on and is derived from the rules and regulations promulgated by Congress and\n       the Executive Office of the President.\n\n  b.   The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) §§11101 et seq.,\n       transferred the authority for the procurement and management of information\n       technology (IT) from the General Services Administration (GSA) to the Office of\n       Management and Budget (OMB). While no longer having authority for procurement\n       and management of IT, GSA retained responsibility for negotiating telecommunications\n       devices and services contracts on behalf of the Federal Government. Through this\n       authority, and directed by OMB, GSA provides cost-effective solutions to Federal\n       Agencies for procuring telecommunications devices and services from GSA contracts.\n\n  c.   OMB directs all Federal Agency Chief Information Officers (CIO) to review cost-\n       benefit analyses, National Security System (NSS) requirements, and other substantive\n       data when considering agency requests to use a vehicle other than the enterprise\n       contracts for telecommunications devices and services.\n\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c081a598-90c8-5369-a2a2-3dfbab484fa5",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3300-001-a-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3300-001-a-5-stmt",
+                "name": "statement",
+                "prose": "a.   GSA provides the contracting vehicles that support the landline and cellular\n       telecommunications requirements of the Federal Government. Mission Areas, agencies,\n       and staff offices are directed to purchase telecommunications devices and services\n       through the GSA enterprise and regional contracting vehicles unless the USDA CIO\n       approves the use of an alternative telecommunications contract.\n\n  b.   USDA Mission Areas, agencies, and staff offices will determine their\n       telecommunications requirements prior to procuring telecommunications devices and\n       services to ensure the purchase of the appropriate number and types of\n       telecommunications resources.\n\n  c.   USDA Mission Areas, agencies, and staff offices will ensure that new or existing\n       telecommunications devices and services are aligned in accordance with the USDA\n       Integrated Information Technology Governance Framework (IITGF).\n\n  d.   USDA Mission Areas, agencies, and staff offices will maintain a comprehensive\n       inventory of telecommunications devices and services, which is reviewed and\n       revalidated at least every 6 months. When devices and services are determined to no\n       longer be needed in current configurations, Mission Areas, agencies, and staff offices\n       will reallocate them for other approved uses, discontinue services, or dispose of devices\n       through established procedures.\n\n  e.   USDA Mission Areas, agencies, and staff offices will ensure that telecommunications\n       devices, services, and facilities are fully compliant with DR 4030-001, Section 508\n       Program, and accessible to hearing-, speech-, and physically-impaired individuals."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "96fe69b1-97ae-58e7-bb25-0f7e37462b55",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3300-001-a-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3300-001-a-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO will:\n\n       (1) Represent the USDA to the Federal CIO Council, GSA, and OMB regarding\n           requests for exceptions to mandatory telecommunications services contracts;\n\n       (2) Represent the USDA to oversight agencies, such as OMB, Government\n           Accountability Office (GAO), Department of Homeland Security (DHS),\n           Department of Commerce (DOC), and Federal Communications Commission\n           (FCC) on telecommunications-related issues;\n\n       (3) Respond to oversight agencies with timely and accurate USDA telecommunications\n           program and cost information;\n\n       (4) Serve as the USDA liaison with international, inter- and intra-Local Access and\n           Transport Area (interLATA and intraLATA) telecommunications service providers;\n\n\n                                               3\n\f     (5) Serve as the USDA representative to the Diplomatic Telecommunications Service\n         Program Office (DTSPO); and\n\n     (6) Perform management and oversight responsibilities in accordance with the Federal\n         Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113-\n         291, as applicable to this directive.\n\nb.   The ENS Director will:\n\n     (1) Establish procedures for monitoring, measuring, and enforcing compliance with this\n         DR;\n\n     (2) Oversee Mission Area, agency, and staff office compliance with USDA\n         telecommunications policies and procedures;\n\n     (3) Manage USDA telecommunications services, devices, and facilities in accordance\n         with prescribed laws, regulations, standards, and related USDA 3300 Series\n         telecommunications management directives;\n\n     (4) Review and render decisions for Mission Area, agency, and staff office policy\n         waiver requests;\n\n     (5) Maintain an electronic file of approved waivers;\n\n     (6) Work with Mission Areas, agencies, and staff offices to eliminate redundant or\n         unused services and devices;\n\n     (7) Include telecommunications requirements and initiatives as part of the\n         telecommunications planning process;\n\n     (8) Use GSA- and USDA-mandated programs when Mission Area, agency, and staff\n         office requirements can be met cost-effectively; and\n\n     (9) Maintain inventories of USDA telecommunications resources to the extent\n         necessary to:\n\n         (a) Ensure adequate and appropriate telecommunications resources to support\n             Mission Area, agency, and staff office missions;\n\n         (b) Ensure accountability for USDA telecommunications property; and\n\n         (c) Meet Departmental and governmental requests for periodic or special inventory\n             reports.\n\nc.   Mission Area Assistant CIOs and Agency and Staff Office IT Directors will:\n\n\n\n                                            4\n\f     (1) Ensure Mission Area, agency, and staff office personnel comply with this directive;\n\n     (2) Ensure Mission Area, agency, and staff office internal directives conform to this\n         DR’s stated requirements;\n\n     (3) Provide guidance to end users on the appropriate and secure use of Government\n         systems-interfacing telecommunications devices;\n\n     (4) Determine their telecommunications requirements prior to procuring\n         telecommunications devices and services to ensure the purchase of the appropriate\n         number and types of telecommunications resources;\n\n     (5) Ensure that new or existing telecommunications devices and services are aligned in\n         accordance with the USDA IITGF;\n\n     (6) Use enterprise telecommunications contracts for Continental United States\n         (CONUS) and Outside the Continental United States (OCONUS)\n         telecommunications services;\n\n     (7) Establish controls for the strict management and oversight of all non-standard\n         options in telecommunications services contracts for which the Government will be\n         billed to avoid potential telecommunications fraud and abuse;\n\n     (8) Appoint a Telecommunications Mission Area Control Officer (TMACO) to select\n         required telecommunications services from GSA program contracts for the agency\n         or staff office. More information on this topic can be found in DR 3300-020,\n         Telecommunications Mission Area Control Officer Roles and Responsibilities;\n\n     (9) Obtain waivers and approvals from the ENS Director when Mission Area, agency,\n         and staff office telecommunications requirements cannot be met through mandated\n         programs; and\n\n     (10) Maintain inventories of USDA telecommunications resources to the extent\n          necessary to:\n\n         (a) Ensure adequate and appropriate telecommunications resources to support the\n             agency and staff office mission;\n\n         (b) Ensure accountability for USDA telecommunications property; and\n\n         (c) Meet Departmental and governmental requests for periodic or special inventory\n             reports.\n\nd.   The roles and responsibilities for TMACOs are provided in DR 3300-020.\n\n\n\n\n                                            5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ee761ed2-f3db-5f15-b332-13513d7aed25",
+        "class": "section",
+        "title": "Compliance",
+        "controls": [
+          {
+            "id": "dr3300-001-a-7",
+            "class": "policy-requirement",
+            "title": "Compliance",
+            "parts": [
+              {
+                "id": "dr3300-001-a-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16, sets forth\n       USDA’s policies, procedures, and standards on employee responsibilities and conduct\n       relative to the use of computers and telecommunications equipment. DR 4070-735-001,\n       Section 21, states that a violation of any of the responsibilities and conduct standards\n       contained in this directive may be cause for disciplinary or adverse action; and\n\n  b.   Such disciplinary or adverse action will be effected in accordance with applicable law\n       and regulations such as the Code of Ethics for Government Employees, Office of\n       Personnel Management (OPM) regulations, OMB regulations, and Standards of Conduct\n       for Federal employees."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b0f8b5c9-d5fb-5b71-9d5e-ad05f5189a0c",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3300-001-a-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3300-001-a-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy. If a specific policy requirement cannot be met as explicitly stated, Mission\n       Areas, agencies, and staff offices may submit a waiver request to the ENS Director for\n       review and determination. Submit the waiver request to\n       SM.OCIO.ENS.Policy@usda.gov. The waiver request will explain the reason for the\n       request, identify compensating controls and actions that meet the intent of the policy,\n       and identify how the compensating controls and actions provide a similar or greater\n       level of defense or compliance than the policy requirement.\n\n  b.   Waivers to stipulations of this directive that have been granted approval by the ENS\n       Director and that are associated with a control identified in National Institute of\n       Standards and Technology (NIST) Special Publication (SP) 800-53 Revision 4, Security\n       and Privacy Controls for Federal Information Systems and Organizations, will be\n       recorded and tracked as a Plan of Action and Milestones (POA&M) item in the USDA\n       Federal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §§3551 et\n       seq., data management and reporting tool.\n\n  c.   Waivers will expire at the end of the fiscal year or 6 months from the date of approval,\n       whichever is longer. Unless otherwise specified, Mission Areas, agencies, and staff\n       offices will review and renew approved policy waivers every fiscal year."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ef0caa16-e55b-5b69-a89a-0aab85b7cb62",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3300-001-a-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3300-001-a-9-stmt",
+                "name": "statement",
+                "prose": "Questions and comments concerning the requirements of this regulation should be\n  directed to OCIO, DISC, ENS, OCCB at SM.OCIO.ENS.Policy@usda.gov.\n\n\n                                            -END-\n\n\n\n                                               6\n\f                               APPENDIX A\n\n                   ACRONYMS AND ABBREVIATIONS\n\n\nCFR         Code of Federal Regulations\nCIO         Chief Information Officer\nCONUS       Continental United States\nDHS         Department of Homeland Security\nDISC        Digital Infrastructure Services Center\nDOC         Department of Commerce\nDR          Departmental Regulation\nDTSPO       Diplomatic Telecommunications Service Program Office\nEA          Enterprise Architecture\nENS         Enterprise Network Services\nFCC         Federal Communications Commission\nFISMA       Federal Information Security Modernization Act\nFITARA      Federal Information Technology Acquisition Reform Act\nGAO         Government Accountability Office\nGSA         General Services Administration\nIITGF       Integrated Information Technology Governance Framework\nInterLATA   Inter-Local Access and Transport\nIntraLATA   Intra-Local Access and Transport\nIT          Information Technology\nNIST        National Institute of Standards and Technology\nNSS         National Security System\nOCCB        Organizational Compliance & Controls Branch\nOCIO        Office of Chief Information Officer\nOCONUS      Outside the Continental United States\nOMB         Office of Management and Budget\nOPM         Office of Personnel Management\nP.L.        Public Law\nPOA&M       Plan of Action and Milestones\nSP          Special Publication\nTMACO       Telecommunications Mission Area Control Officer\nU.S.C.      United States Code\nUSDA        United States Department of Agriculture\n\n\n\n\n                                    A-1\n\f                                      APPENDIX B\n\n                                      DEFINITIONS\n\n\na.   Continental United States (CONUS). The 48 contiguous United States and the District\n     of Columbia. (Source: Federal Travel Regulation, Glossary of Terms, 41 Code of\n     Federal Regulations (CFR) § 300-3.1)\n\nb.   Enterprise Architecture (EA). The description of an enterprise’s entire set of\n     information systems: how they are configured, how they are integrated, how they\n     interface to the external environment at the enterprise’s boundary, how they are operated\n     to support the enterprise mission, and how they contribute to the enterprise’s overall\n     security posture. (Source: NIST, Computer Security Resource Center Glossary, August\n     14, 2020)\n\nc.   Information Technology (IT). Any services or equipment, or interconnected system(s)\n     or subsystem(s) of equipment, that are used in the automatic acquisition, storage,\n     analysis, evaluation, manipulation, management, movement, control, display, switching,\n     interchange, transmission, or reception of data or information by the agency where such\n     services or equipment are “used by an agency” if used by the agency directly or if used\n     by a contractor under a contract with the agency that requires either use of the services\n     or equipment or requires use of the services or equipment to a significant extent in the\n     performance of a service or the furnishing of a product. The term “information\n     technology” includes computers, ancillary equipment, peripheral equipment designed to\n     be controlled by the central processing unit of a computer, software, firmware, and\n     similar procedures, services, and related resources. (Source: OMB M-15-14,\n     Management and Oversight of Federal Information Technology, June 10, 2015)\n\nd.   Inter-Local Access and Transport (InterLATA). A telecommunications transmission\n     between two or more locations that are in different Local Access and Transport Areas.\n\ne.   Intra-Local Access and Transport (IntraLATA). A telecommunications transmission\n     between two or more locations that are in the same Local Access and Transport Areas.\n\nf.   Non-Foreign Area. The states of Alaska and Hawaii, the Commonwealths of Puerto\n     Rico and the Northern Mariana Islands, Guam, the U.S. Virgin Islands, and the\n     territories and possessions of the United States (excludes the former Trust Territories of\n     the Pacific Islands, which are considered foreign areas for the purposes of the Federal\n     Travel Regulation). (Source: Federal Travel Regulation, Glossary of Terms, 41 CFR\n     §300-3.1)\n\ng.   Outside the Continental United States (OCONUS). See Non-Foreign Area.\n\nh.   Telecommunications. Preparation, transmission, communication, or related processing\n     of information (writing, images, sounds, or other data) by electrical, electromagnetic,\n\n\n\n                                            B-1\n\f     electromechanical, electro-optical, or electronic means. (Source: NIST, Computer\n     Security Resource Center Glossary, August 14, 2020)\n\ni.   Telecommunications Services. The services and solutions that deliver or augment\n     communications between users up to and including interstate and international\n     communications. Telecommunications services refer to communications services or\n     solutions specified as a discrete offering or set of capabilities.\n\n\n\n\n                                          B-2\n\f                                       APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nClinger-Cohen Act of 1996, 40 U.S.C. §§11101 et seq., February 10, 1996\n\nFederal Information Security Modernization Act of 2014 (FISMA), 44 U.S.C. §§3551 et seq.,\nDecember 18, 2014\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, 128 Stat.\n3292, Title VIII, Subtitle D, §§831-837, December 19, 2014\n\nFederal Travel Regulation, Glossary of Terms, 41 CFR § 300-3.1\n\nNIST, Computer Security Resource Center Glossary\n\nNIST, SP 800-53 Revision 4, Security and Privacy Controls for Federal Information Systems\nand Organizations, April 2013\n\nOMB, M-15-14, Management and Oversight of Federal Information Technology, June 10, 2015\n\nUSDA, DR 3300-020, Telecommunications Mission Area Control Officer Roles and\nResponsibilities, July 12, 2019\n\nUSDA, DR 4030-001, Section 508 Program, September 8, 2014\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\nUSDA, Integrated Information Technology Governance Framework (IITGF)\n\nUSDA, 3300 Series Telecommunications Management Directives\n\n\n\n\n                                            C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "78071919-c01b-5990-be57-e2d2d2185cb6",
+          "title": "USDA Directives — DR3300-001-A",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-001-a",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

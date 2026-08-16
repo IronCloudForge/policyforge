@@ -1,0 +1,211 @@
+{
+  "catalog": {
+    "uuid": "d4aea0e3-cea6-5d6e-8dae-22cf8f259728",
+    "metadata": {
+      "title": "USDA DR1061-003: USDA Executive Resources Board",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2014-11-04",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1061-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2014-11-04"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1061-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Human Resources Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1061-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Human Resources Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "f681a082-feea-5ec8-ba13-a27bc3c72bf5",
+        "class": "section",
+        "title": "Special Instructions",
+        "controls": [
+          {
+            "id": "dr1061-003-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions",
+            "parts": [
+              {
+                "id": "dr1061-003-3-stmt",
+                "name": "statement",
+                "prose": "This replaces Departmental Regulation 1061-002, dated October 4, 2012."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4130b8e7-8a6f-5847-abcc-687d8b42cfca",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1061-003-4",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1061-003-4-stmt",
+                "name": "statement",
+                "prose": "It is USDA’s policy to ensure the conduct of proper merit staffing for career appointment\n     to SES and SL positions and to provide institutional continuity in executive personnel\n     management in the Department through the general oversight of the management of the\n     agency’s executive staffing resources, development, evaluation, and pay policy, through\n     the ERB.\n\n     There shall be one ERB at USDA that serves as the Departmental governing board for\n     executive resources policy. There will be no executive resources policy decisions made\n     or delegated to the agencies. The ERB will provide institutional continuity in executive\n     and senior employee personnel management for the Department by overseeing the merit\n     staffing process for career appointment to the SES and to SL positions and providing\n     advice to the Secretary in executive and senior employee personnel planning, executive\n     resource utilization, executive development, and other related activities as the Secretary\n     deems necessary. The Chair may establish ERB subgroups and committees to facilitate\n     the successful accomplishment of Board business, as deemed appropriate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "94d6a269-73b8-59d6-b44f-e752ec6d53fb",
+        "class": "section",
+        "title": "Delegations Of Authority",
+        "controls": [
+          {
+            "id": "dr1061-003-5",
+            "class": "policy-requirement",
+            "title": "Delegations Of Authority",
+            "parts": [
+              {
+                "id": "dr1061-003-5-stmt",
+                "name": "statement",
+                "prose": "Under this directive the Secretary reserves the right to delegate, in writing, additional\n     roles and responsibilities as deemed necessary.\n\n     The Secretary delegates authority to the Chairperson to appoint all other Members as\n     outlined in this directive."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "74592fc2-aa94-558e-b186-88fff838f948",
+        "class": "section",
+        "title": "Erb Membership",
+        "controls": [
+          {
+            "id": "dr1061-003-6",
+            "class": "policy-requirement",
+            "title": "Erb Membership",
+            "parts": [
+              {
+                "id": "dr1061-003-6-stmt",
+                "name": "statement",
+                "prose": "ERB members must be SES and SL/ST employees of the Department. To the extent\n     practicable, ERB membership should be a cross section of career and non-career\n     appointees and be reflective of the broad diversity of the Department.\n\n\n\n                                               2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "52bbe2a7-b4ac-5617-801b-253014df77e9",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr1061-003-7",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr1061-003-7-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Secretary shall:\n\n          (1)    Have the sole discretion to appoint the Chairperson.\n\n          The USDA Secretary may:\n\n          (1)    Establish a specific term of service for ERB members and the ERB\n                 Chairperson and document such discussions in the ERB Charter; and\n\n          (2)    Delegate to the ERB additional functions and authorities beyond the\n                 mandatory responsibilities in 5 U.S.C § 3393(b), 5 CFR § 412.302 (a), and\n                 5 CFR § 362.401, as the Secretary deems appropriate.\n\n     b.   The ERB Chairperson serves as a permanent member of the board and is\n          responsible for overseeing the activities of the ERB, to include, but not limited to\n          the following:\n\n          (1)    Appointing the Vice Chair, who will serve as a permanent member;\n\n          (2)    Appointing members as delegated by the Secretary;\n\n          (3)    Ensuring membership is a mix of career/non-career SES and SL/ST\n                 employees and is representative of USDA Mission Areas;\n\n          (4)    Convening ERB meetings;\n\n          (5)    Establishing the ERB agenda;\n\n          (6)    Serving as ERB point of contact with the appointing authority, the Office\n                 of Personnel Management, and others, as appropriate;\n\n          (7)    Seeking technical and or legal advice and guidance, as necessary; and\n\n          (8)    Distributing work of the ERB among small groups of members or\n                 appointing outside work groups and subcommittees to efficiently\n                 accomplish the work of the ERB.\n\n     c.   The Director for the Executive Resources Management Division in the Office of\n          Human Resources Management is responsible for:\n\n          (1)    Establishing, revising and issuing Department-wide policy directives and\n                 guidance for the ERB and updating such policy directives as needed;\n\n\n\n                                            3\n\f     (2)    Serving as Executive Secretary to the ERB;\n\n     (3)    Providing staff support to the ERB, including all administrative, analytical\n            or other services necessary to carry out the functions of the ERB; and\n\n     (4)    Conducting all day-to-day operations pertaining to personnel actions and\n            administration of executive personnel programs.\n\nd.   ERB Members are responsible for:\n\n     (1)    Overseeing the merit staffing process for career appointment to SES and\n            SL positions;\n\n     (2)    Advising the Secretary in executive and senior employee personnel\n            planning, executive resource utilization, executive development, and other\n            related activities as the USDA Secretary deems necessary; and\n\n     (3)    Communicating with their USDA Mission Area about the ERB’s\n            recommendations on the various SES and SL/ST policies under this\n            directive.\n\n     The major activities of ERB members include:\n\n     (1)    Position Management/Succession Planning/Resource Utilization\n\n            Ensures that USDA has the appropriate number and types of SES, SL and\n            ST positions and appointing authorities needed for accomplishing the\n            Department’s mission, and structures the work of its executive/senior\n            positions for maximum program efficiencies and effectiveness.\n\n     (2)    Staffing Management\n\n            Ensures that USDA recruits, selects, and retains SES and SL staff with the\n            qualifications needed for accomplishing the Department’s present mission\n            and future program needs.\n\n            Under this directive the Secretary authorizes the ERB to delegate the merit\n            staffing process for career appointments to the Executive Merit Staffing\n            Board (EMSB) for:\n\n            (a)    Reviewing the executive qualifications of each candidate for a\n                   position to be filled by a career appointee (5 U.S.C § 3393(b)(1));\n                   and\n\n            (b)    Making written recommendations to the appropriate appointing\n                   authority concerning such candidates (5 U.S.C. § 3393(b)(2)).\n\n                                      4\n\f      Each EMSB will have a Chairperson and members will be appointed in\n      accordance with USDA policy. The Chair of each EMSB will work\n      closely with the Executive Resources Management Division in the Office\n      of Human Resources Management to ensure adherence to merit staffing\n      principles in accordance with 5 CFR § 317 and 319. The EMSB will:\n\n      (c)    Review and evaluate competitive candidates against the executive\n             core qualifications and any mandatory technical qualifications\n             identified;\n\n      (d)    Ensure that candidates are evaluated and rated in accordance with\n             Departmental procedures and those evaluations are fully\n             documented; and\n\n      (e)    Certify and refer the “Best Qualified” group of candidates to the\n             Director, Executive Resources Management Division who refers\n             the certified group and the non-competitive group of qualified\n             applicants to the recommending official.\n\n(3)   Executive Development Management\n\n      Ensures that USDA identifies and prepares its best employees for the\n      future assumption of executive and management positions and provides\n      opportunities for continuing growth of its current executive and senior\n      team to enhance accomplishment of the Department’s mission.\n\n      The ERB will approve the SES Career Development Program (SES CDP)\n      Plan for USDA; certify Individual Development Plans (IDP’s) for each\n      candidate participating in the program; and certify graduate executive core\n      qualifications and completion of program requirements prior to\n      submission of a graduating participant’s packages to OPM.\n\n      The ERB may delegate the review of IDP’s and participant packages to a\n      sub or ad hoc executive group.\n\n(4)   Performance Management\n\n      Ensures the Department’s SES and SL/ST employees have clear work\n      objectives and performance standards; that progress and accomplishments\n      are reviewed periodically, with adjustments, as appropriate, to objectives,\n      standards, and assignments to improve the attainment of Departmental\n      goals.\n\n(5)   Compensation Management\n\n\n\n                                5\n\f                  Ensures that SES and SL/ST employees are compensated equitably for\n                  their work and that their accomplishments are recognized and rewarded,\n                  by reviewing and recommending pay level increases and/or nominations\n                  for Presidential Rank Awards; and providing advice on matters relating to\n                  executive/senior compensation (e.g., bonuses, incentive awards, base pay,\n                  etc.).\n\n           (6)    Presidential Management Fellows Program (PMF)\n\n                  Oversees the development and certification of USDA’s PMF Program.\n                  The ERB provides oversight of both the Senior component of the Program\n                  (GS-13 through GS-15) and the Fellows component of the Program (GS-9\n                  through GS-12). In accordance with 5 CFR 362.401, the ERB may\n                  delegate these responsibilities to a sub or ad hoc executive group to:\n\n                  (a)    Approve initial appointments of Senior Fellows;\n\n                  (b)    Request appointment extensions from the Office of Personnel\n                         Management (OPM) of up to one additional year for both Fellows\n                         and Senior Fellows;\n\n                  (c)    Certify IDP’s for Senior Fellows; and\n\n                  (d)    Certify successful completion of all program requirements and\n                         direct the Executive Secretary to submit certifications to OPM and\n                         agency PMF Coordinators for both Fellows and Senior Fellows."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "13b5e3cb-66a5-52ba-be12-c9b8e94c3ff3",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr1061-003-8",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr1061-003-8-stmt",
+                "name": "statement",
+                "prose": "(1)   A quorum is required for ERB action. A quorum is defined as the ERB\n           Chairperson or Vice-Chairperson and at least 50 percent of its appointed\n           members.\n\n     (2)   Consensus shall be the preferred decision-making process; however, in the\n           absence of consensus, the ERB Chairperson shall call for majority vote.\n\n     (3)   The ERB may establish such procedures as necessary to carry out its functions.\n\n\n                                         -END-\n\n                                        /s/\n                                        Thomas J. Vilsack\n                                        Secretary\n\n\n                                           6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "fbddc0d5-ec03-5400-9416-dfa13373d6f9",
+          "title": "USDA Directives — DR1061-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1061-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

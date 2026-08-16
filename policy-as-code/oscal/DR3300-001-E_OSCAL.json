@@ -1,0 +1,274 @@
+{
+  "catalog": {
+    "uuid": "fbcf18a9-d290-5f45-aae4-c484d1889bae",
+    "metadata": {
+      "title": "USDA DR3300-001-E: Video Teleconferencing Facilities and Systems",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2023-01-04",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3300-001-E"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2023-01-04"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3300-001-e",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Officer, Client   EXPIRATION DATE:",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3300-001-e",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Officer, Client   EXPIRATION DATE:"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "d853cc96-58d4-52e0-b0d1-960f5ca0a835",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3300-001-e-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3300-001-e-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) policy for the acquisition, management, and use of unclassified video teleconference\n     (VTC) facilities and systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dceea744-8cc5-5976-8e8b-f1114574a1d0",
+        "class": "section",
+        "title": "Special Instructions/Cancellatons",
+        "controls": [
+          {
+            "id": "dr3300-001-e-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellatons",
+            "parts": [
+              {
+                "id": "dr3300-001-e-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 3300-001-E, Video Teleconferencing, dated March 23, 1999.\n\n     b.   This DR is effective as of the publication date and will remain in effect until superseded\n          or expiration."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1d6961e7-7e36-5ea3-a492-d7fa6d0932fa",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3300-001-e-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3300-001-e-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR applies to all USDA Mission Areas, agencies, staff offices, contractors, data\n       centers, cooperative partners, employees, and others working for, or on behalf of,\n       USDA.\n\n  b.   This DR applies to unclassified VTC (e.g., VTC devices and VTC infrastructure).\n\n  c.   This DR excludes USDA devices signage, Voice over Internet Protocol (VoIP),\n       Desktop, and Mobile devices.\n\n  d.   This DR does not apply to web conferencing and software applications such as Cisco\n       Bridging, Microsoft Teams, Zoom, and Cisco Webex.\n\n  e.   This DR does not apply to the transmission of classified national security information\n       and related VTC capabilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3723b7d2-13bc-52fb-a392-c4872a34486e",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3300-001-e-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3300-001-e-4-stmt",
+                "name": "statement",
+                "prose": "The procurement and management of USDA telecommunications devices and services\n  depends on and is derived from the rules and regulations promulgated by Congress and the\n  Executive Office of the President. VTC permits USDA Mission Areas, agencies, and staff\n  offices to have live exchanges of information without the lost time and high cost of traveling\n  to attend a face-to-face meeting in a distant city. VTC offers many beneficial applications\n  including training and distance learning, data collaboration, telecommuting, large and small\n  meetings, and informational broadcasts. In our current environment where teleworking is a\n  regular occurrence, VTC provides real-time collaboration."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fd0b3802-a88d-5472-9099-6f73e11cd314",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3300-001-e-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3300-001-e-5-stmt",
+                "name": "statement",
+                "prose": "a.   The General Services Administration (GSA) provides the contracting vehicles that\n       support VTC. The Mandatory Enterprise Infrastructure Solutions (EIS) Long Distance\n       Network requires the use of the GSA mandatory Enterprise Infrastructure Solutions\n       contract by Federal agencies for long-distance telecommunications services. These\n       services include inbound and outbound VTC, which USDA Mission Areas, agencies, or\n       staff offices must continue to use. All unclassified VTC systems must use EIS long-\n       distance network services for inbound and outbound transmission unless the Mission\n       Area, agency, or staff office has been granted an exception by the GSA and the Chief\n       Information Officer (CIO).\n\n  b.   USDA Mission Areas, agencies, and staff offices will ensure that new or existing\n       telecommunications devices and services are aligned in accordance with DR 3130-010,\n       USDA Enterprise Information Technology Governance, and the USDA Integrated\n       Information Technology Governance Framework (IITGF).\n\n\n\n                                               2\n\fc.   Unclassified VTC systems being considered for acquisition must comply with the\n     standards requirements of DR 4030-001, Section 508 Program, and DR 3520-002,\n     Configuration Management.\n\nd.   USDA requires consideration of the shared use of existing USDA or other Federal\n     Government agency VTC facilities as an economic alternative for meeting Mission\n     Area, agency, or staff office requirements (see DR 3300-001-G, Sharing of\n     Telecommunications Resources).\n\ne.   USDA Mission Areas, agencies, and staff offices will maintain a comprehensive\n     inventory of telecommunications devices and services, which is reviewed and\n     revalidated quarterly (see DR 3300-001, Telecommunications & Internet Services and\n     Use, and DR 3300-020, Telecommunications Mission Area Control Officer [TMACO]\n     Roles and Responsibilities, Section 6d). When devices and services are determined to\n     no longer be needed in current configurations, Mission Areas, agencies, and staff offices\n     will reallocate them for other approved uses, discontinue services, or dispose of devices\n     through established procedures.\n\nf.   Where shared facilities exist and Mission Area, agency, or staff office requirements are\n     such that interagency sharing of these facilities is not feasible, the Mission Area, agency,\n     or staff office may seek a waiver in order to acquire new equipment and facilities by\n     submitting a proposal to the CIO. The proposal must:\n\n     (1) Specify the Mission Area’s, agency’s, or staff office’s requirements;\n\n     (2) Describe security measures;\n\n     (3) Describe the proposed system and ensure compliance with current USDA platform\n         standards and policies;\n\n     (4) Provide a benefit and cost analysis to demonstrate the cost effectiveness of the\n         proposed facility arrangement; and\n\n     (5) Identify how the equipment and system will be procured and managed.\n\n     Approval for acquisition of new facilities or equipment by Office of the Chief\n     Information Officer (OCIO) customers will be granted by submitting request to the\n     Client Experience Center (CEC) via email at OCIO-CEC-VTC-PD@usda.gov.\n\n\n\n\n                                              3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f12e37b6-11e8-53ac-8217-889f49d7395c",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3300-001-e-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3300-001-e-6-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA CIO will:\n\n       (1) Review Mission Area, agency, or staff office proposals and requests and issue\n           waivers, if justified, to acquire video teleconferencing facilities where shared\n           facilities exist and Mission Area, agency, or staff office requirements are such that\n           interagency sharing of these facilities is not feasible or proposed new facilities do\n           not meet the basic standards and requirements of this policy;\n\n       (2) Represent the USDA to the Federal CIO Council, GSA, and OMB regarding\n           requests for exceptions to mandatory telecommunications services contracts; and\n\n       (3) Represent the USDA to oversight agencies, such as Office of Management and\n           Budget (OMB), Government Accountability Office (GAO), Department of\n           Homeland Security (DHS), Department of Commerce (DOC), and Federal\n           Communications Commission (FCC) on telecommunications-related issues.\n\n  b.   The Associate Chief Information Officer, CEC, will:\n\n       (1) Review Mission Area, agency, and staff office proposals and requests and provide\n           recommendations to the CIO;\n\n       (2) Develop, maintain a USDA VTC Facility Directory of location addresses and\n           contacts for all business video conference studio and portable facilities; and\n\n       (3) Implement and execute the necessary internal controls to proactively and regularly\n           monitor, measure, audit, report, and enforce compliance with the provisions of this\n           directive.\n\n  c.   Mission Area, Agency, and Staff Office Heads will:\n\n       (1) Coordinate the use of existing USDA or other Federal agency video\n           teleconferencing facilities listed in the USDA VTC Facility Directory; and\n\n       (2) Conform to USDA VTC policies as found in this DR.\n\n  d.   Mission Area, Agency, and Staff Office TMACOs will maintain a comprehensive\n       inventory of telecommunications devices and services.\n\n\n\n\n                                               4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "610ed0d3-56ce-51ab-89ab-6a6bf7081066",
+        "class": "section",
+        "title": "Confidentiality And Security",
+        "controls": [
+          {
+            "id": "dr3300-001-e-7",
+            "class": "policy-requirement",
+            "title": "Confidentiality And Security",
+            "parts": [
+              {
+                "id": "dr3300-001-e-7-stmt",
+                "name": "statement",
+                "prose": "a.   Adequate security must be provided by the Mission Areas, agencies, or staff offices or\n       all sensitive information (as defined in DR 3140-001, USDA Information Systems\n       Security Policy).\n\n  b.   VTC users will conform to the call recording, monitoring, and consent requirements and\n       restrictions of DR 1710-001, Interception and Monitoring of Telephone and Non-\n       telephone Conversation, and applicable Federal and state laws.\n\n  c.   The requirements for the transmission of classified national security information and\n       related VTC capabilities are provided in DR 3300-015, Secure Communication Systems,\n       and Departmental Manual (DM) 3300-015, Secure Communication Systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1f8ecb01-1195-59f3-a139-6d88919d35b5",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3300-001-e-8",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3300-001-e-8-stmt",
+                "name": "statement",
+                "prose": "USDA Mission Areas, agencies, and staff offices should direct questions and inquiries\n  regarding this DR via email at OCIO-CEC-VTC-PD@usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                              5\n\f                                APPENDIX A\n\n                    ACRONYMS AND ABBREVIATIONS\n\n\nCEC         Client Experience Center (an OCIO component)\nCIO         Chief Information Officer\nDHS         Department of Homeland Security\nDM          Departmental Manual\nDOC         Department of Commerce\nDR          Departmental Regulation\nEIS         Enterprise Infrastructure Solutions\nFCC         Federal Communications Commission\nGAO         Government Accountability Office\nGSA         General Services Administration\nIITGF       Integrated Information Technology Governance Framework\nInterLATA   Inter-Local Access and Transport Area\nLATA        Local Access and Transport Area\nOCIO        Office of the Chief Information Officer\nOMB         Office of Management and Budget\nTMACO       Telecommunications Mission Area Control Officer\nUSDA        United States Department of Agriculture\nVoIP        Voice over Internet Protocol\nVTC         Video Teleconference\n\n\n\n\n                                     A-1\n\f                                         APPENDIX B\n\n                                        DEFINITIONS\n\n\nEnterprise Infrastructure Solutions (EIS). The GSA contracted the Governmentwide InterLATA\ntelecommunications network for long-distance services. Its use is mandatory for all Federal\nagencies, unless an exception to use services from another network is granted by GSA and\nOCIO. The services provided by the contract include voice, data, and video to all 50 states, the\nDistrict of Columbia, Puerto Rico, Midway, Guam, and the U.S. Virgin Islands.\n\nInter-Local Access and Transport Area (InterLATA). As applied to EIS network services, a\ntelecommunications transmission between two or more locations that are in different Local\nAccess and Transport Areas (LATA).\n\nVideo Teleconference (VTC). A video communication session among three or more participants\nthat are geographically separated. This form of conferencing started with room systems where\ngroups of people meet in a room with a wide-angle camera and large monitors and conference\nwith other groups at remote locations. Federal, state, and local governments are making major\ninvestments in group video conferencing for distance learning and telemedicine.\n\n\n\n\n                                              B-1\n\f                                        APPENDIX C\n\n                            AUTHORITIES AND REFERENCES\n\n\nGSA, EIS, Enterprise Infrastructure Solutions website, The Mandatory Enterprise Infrastructure\nContract, September 12, 2022\n\nUSDA, DM 3300-015, Secure Communication Systems, November 15, 2021\n\nUSDA, DR 1710-001, Interception and Monitoring of Telephone and Non-telephone\nConversations, February 6, 1984\n\nUSDA, DR 3130-010, United States Department of Agriculture Enterprise Information\nTechnology Governance, April 20, 2021\n\nUSDA, DR 3140-001, USDA Information Systems Security Policy, May 15, 1996\n\nUSDA, DR 3300-001, Telecommunications & Internet Services and Use, March 18, 2016\n\nUSDA, DR 3300-001-G, Sharing of Telecommunications Resources, September 12, 2019\n\nUSDA, DR 3300-015, Secure Communication Systems, March 22, 2022\n\nUSDA, DR 3300-020, Telecommunications Mission Area Control Officer Roles and\nResponsibilities, July 12, 2019\n\nUSDA, DR 3520-002, Configuration Management, July 17, 2019\n\nUSDA, DR 4030-001, Section 508 Program, September 8, 2014\n\nUSDA, Integrated Information Technology Governance Framework (IITGF) web page\n\nUSDA, OCIO, CEC, USDA VTC Facility Directory, unpublished, maintained by OCIO-CEC\n\n\n\n\n                                             C-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "e37a7c6c-5de4-52d3-831d-d414601f829b",
+          "title": "USDA Directives — DR3300-001-E",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3300-001-e",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

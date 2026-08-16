@@ -1,0 +1,250 @@
+{
+  "catalog": {
+    "uuid": "81bd45f0-5339-5562-ad98-5621ba885c47",
+    "metadata": {
+      "title": "USDA DR1270-002: Voice of the Customer (1/3/24)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "Unknown",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1270-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "Unknown"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1270-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Customer Experience",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AU",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1270-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Customer Experience"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "0d6ef75d-0aaa-5a1f-90f5-4f3864f2aa9c",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1270-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1270-002-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes a Departmentwide Voice of the Customer\n     policy. This policy outlines how the United States Department of Agriculture (USDA) will\n     listen from and better serve its customers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b4a74ad6-e5d8-5ff6-8b18-9f1deb4d8807",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr1270-002-2",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr1270-002-2-stmt",
+                "name": "statement",
+                "prose": "This directive applies to all Mission Areas, agencies, and staff offices of USDA, including\n     contractors, interns, fellows, and volunteers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ab04b993-0939-513d-aab0-729efa4ca862",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr1270-002-3",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr1270-002-3-stmt",
+                "name": "statement",
+                "prose": "a.   This DR remains in effect until it is superseded or expires.\n\n  b.   This DR uses Governmentwide Customer Experience (CX) policies for direction. This\n       DR recognizes that the Office of Management and Budget (OMB) uses High Impact\n       Service Providers (HISP) as a term to outline a public-facing service. For this DR,\n       USDA uses a similar term, customer-facing program or service, but includes HISPs and\n       broadens it to all public services.\n\n  c.   This policy complements the following USDA Departmental directives:\n\n       (1) Departmental Manual (DM) 3107-001, Management of USDA IT [Information\n           Technology] Enterprise Initiatives Procedures;\n\n       (2) DM 3410-001, Information Collection Procedures;\n\n       (3) DR 1230-001, U.S. Department of Agriculture Evaluation Policy;\n\n       (4) DR 1270-001, U.S. Department of Agriculture Customer Experience Policy;\n\n       (5) DR 1496-001, Digital Strategy Governance;\n\n       (6) DR 1497-001, Approval of Communications/Information Products and Services;\n\n       (7) DR 3080-001, Records Management;\n\n       (8) DR 3107-001, Management of USDA IT Enterprise Initiatives;\n\n       (9) DR 3130-010, United States Department of Agriculture Enterprise Information\n           Technology Governance;\n\n       (10) DR 3410-001, Information Collection Request Activities: Collection of Information\n            from the Public;\n\n       (11) DR 3430-001, Web Site Development and Maintenance.\n\n  d.   This regulation is effective immediately when published.\n\n  e.   All Mission Areas, agencies, and staff offices will align their policies and procedures\n       with this DR within 12 months of the publish date.\n\n\n\n\n                                               2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e7266239-a14d-5bdc-9408-ed4f5201d896",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr1270-002-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr1270-002-4-stmt",
+                "name": "statement",
+                "prose": "a.   USDA is committed to learning from its customers. Mission Areas, agencies, and staff\n       offices must create approaches to meet and sustain CX standards for customers.\n\n  b.   As authorized in DR 1270-001, the USDA Office of Customer Experience (OCX)\n       facilitates and supports cross-Departmental collaboration on CX activities.\n\n  c.   The Chief Customer Experience Officer outlines CX standards for the USDA. These\n       standards support service delivery, connect customer insights to strategic decisions-\n       making, and tie accountability metrics to organizational and individual performance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "17f1eefd-59ff-52fc-80d1-e174e32a818d",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1270-002-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1270-002-5-stmt",
+                "name": "statement",
+                "prose": "a.   USDA is committed to delivering exceptional CX to its customers.\n\n  b.   Central to the operations of OCX is the Voice of the Customer Framework. This is also\n       known as the “Listen Better, Serve Better” framework, as outlined in Appendix D, The\n       “Listen Better, Serve Better” Framework by the Office of Customer Experience. It helps\n       examine the experience of a customer from beginning to end to amplify their feedback\n       and increase insights.\n\n  c.   There are three parts to the “Listen Better, Serve Better” framework: Listen, Learn, and\n       Serve.\n\n       (1) Listen: Select and apply a listening tool.\n\n            (a) Each Mission Area, agency, and staff office will establish a Voice of the\n                Customer policy.\n\n            (b) The “Voice of the Customer” is a CX idea that describes a customer’s feedback\n                about their experiences with a program or service. A good Voice of the\n                Customer policy focuses on customer needs, their feedback, and service\n                delivery improvement.\n\n            (c) Each Mission Area, agency, and staff office will start their Voice of the\n                Customer policy by picking a customer-facing program or service. The\n                customer-facing program or service will be the point of reference the Mission\n                Area, agency, and staff office as they grow their CX abilities.\n\n            (d) The customer-facing program or service will review how they currently listen\n                to customer feedback. Reviewing previous feedback will outline how\n                customers prefer to share their experiences.\n\n\n\n\n                                               3\n\f    (e) The customer-facing program or service and their Mission Area, agency, or\n        staff office Head will select a listening tool that best serves their customers. A\n        good listening tool collects customer touchpoints or interactions. It can be\n        manual or electronic. The listening tool can have scaled questions or a yes or\n        no question, but it must be quantitative based.\n\n    (f) The listening tool should focus on creating touchpoints and interactions with\n        ease and efficiency.\n\n    (g) The listening tool must follow the procedures in the Paperwork Reduction Act\n        of 1995 (PRA), Public Law (P.L.) 104-13, to impose minimal burden on the\n        public.\n\n    (h) Further, any listening tool that collects information from the public, including\n        individuals, businesses, other private institutions, and State and local\n        governments, must follow the policies outlined in DR 3410-001.\n\n    (i) The customer-facing program or service must submit their listening tool for\n        approval by the Mission Area, agency, and staff office Head. It must be\n        reviewed by the Chief Customer Experience Officer.\n\n(2) Learn: Review customer touchpoints and interactions from listening tool.\n\n    (a) In their Voice of the Customer Policy, the Mission Area, agency, and staff\n        office must outline a complete collection plan. A good collection plan outlines\n        how the listening tool will gather and save customer touchpoints and\n        interactions.\n\n    (b) Each Mission Area, agency, and staff office Head will work with their\n        Assistant Chief Data Officers (ACDO) on the collection plan. The ACDOs can\n        ensure the Voice of the Customer policy activity follows the USDA\n        Information Technology Strategic Plan FY [Fiscal Year] 2022 – 2026 (2022)\n        and other data strategies at the USDA.\n\n    (c) The Mission Area, agency, and staff office must record all interactions for their\n        Voice of the Customer policy. The record must be kept per Federal record\n        keeping requirements, USDA record keeping requirements, following the\n        guidelines in DR 3080-001, and the Federal Records Schedule. At minimum,\n        data will be organized by demographic data, regional or state office, and date\n        of touchpoint or interaction.\n\n    (d) Every quarter, the Mission Area, agency, and staff office Heads and the\n        customer-facing program or service will write a report on their Voice of the\n        Customer policy. The quarterly report will review the listening tool, provide a\n        few examples of recent customer responses, and overall satisfaction of their\n\n\n\n\n                                        4\n\f                strategy. This report is due at the end of each fiscal quarter to the Chief\n                Customer Experience Officer.\n\n           (e) Every year, the Mission Area, agency, and staff office Head and the customer-\n               facing program or service will write a report of their Voice of the Customer\n               policy. The annual report will review the listening strategy and discuss actions\n               on how to improve their customer experience and their Voice of the Customer\n               policy. The annual report is due at the end of the fiscal year to the Chief\n               Customer Experience Officer.\n\n       (3) Serve: Turn customer touchpoints and interactions into actions.\n\n           (a) The customer-facing program or service will continually review the success of\n               the listening tool and how it collects touchpoints and interactions.\n\n           (b) To support the development of the Voice of the Customer policy, the Chief\n               Customer Experience Officer will provide occasions for the customer-facing\n               programs or services to share their experiences and support discussion.\n\n           (c) The Chief Customer Experience Officer will provide subject matter expertise,\n               direction, resources, consultation, documents, toolkits, and training to support\n               the Mission Area’s, agency’s, and staff office’s CX best practices and their\n               Voice of the Customer policy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d33408a7-aa03-5749-9080-a15161adb2d3",
+        "class": "section",
+        "title": "Roles And Responsbilities",
+        "controls": [
+          {
+            "id": "dr1270-002-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsbilities",
+            "parts": [
+              {
+                "id": "dr1270-002-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Chief Customer Experience Officer will:\n\n       (1) Advise the Assistant Secretary for Administration on CX matters;\n\n       (2) Implement and enforce compliance with this directive;\n\n       (3) Develop USDA policy and procedures for CX in partnership with Mission Areas,\n           agencies, and staff offices and ensure these policies and procedures are consistent\n           and current with Federal law, regulations, and USDA strategic goals and plans;\n\n       (4) Provide subject matter expert consultation and services on best practices of CX and\n           provide necessary guidance and resources to support the execution of this DR;\n\n       (5) Review the Mission Area’s, agency’s, and staff office’s listening tool;\n\n       (6) Provide evidence based CX data, tangible CX tools, integrated, multi-channel\n           technology, and promote engagement to support USDA in improving CX;\n\n\n\n\n                                               5\n\f     (7) Ensure CX is a driver in USDA strategic planning, performance improvement\n         efforts, budget formulation, policy, and other initiatives to improve the experience\n         with USDA’s delivery of services;\n\n     (8) Define CX outcome and operational measures, to ensure accountability for\n         improving service delivery and communicating performance across the organization\n         and to the public, routinely analyzing and making use of this data;\n\n     (9) Receive the quarterly and annual reports for review;\n\n     (10) Support the development of Voice of the Customer policy. Effective action plans\n          will clearly indicate goals, objectives, strategies, and measurements necessary to\n          achieve the initiative or effort; and\n\n     (11) Coordinate opportunities for Mission Area, agency, and staff office cross-\n          collaboration on Voice of the Customer strategies and experiences.\n\nb.   The Assistant Secretary for Administration will:\n\n     (1) Provide executive leadership and oversight for the Department’s CX Program; and\n\n     (2) Provide Departmentwide coordination for efforts to improve customer service and\n         experience.\n\nc.   Mission Area, Agency, and Staff Office Heads will:\n\n     (1) Deliver improved CX by collecting, analyzing, and acting on qualitative and\n         quantitative CX data, perceptions, and concerns;\n\n     (2) Establish a Voice of the Customer policy including understanding the best listening\n         tool or tools to collect customer touchpoints and interactions and approve\n         appropriate listening tool or tools;\n\n     (3) Designate a primary and a secondary point of contact to work with the Chief\n         Customer Experience Officer and OCX on implementation of this DR;\n\n     (4) Identify the customer-facing program or service to implement a Voice of the\n         Customer policy;\n\n     (5) Outline a comprehensive collection plan for the Voice of the Customer policy and\n         catalog and retain a record of all customer feedback in accordance with Federal and\n         USDA-specific record keeping requirements;\n\n     (6) Contact the Office of the Chief Information Officer (OCIO), Information Resource\n         Management Center, Information Management Division, PRA team if questions\n         arise related to collection plans and survey activity especially related to collecting\n\n\n\n                                             6\n\f         information from the public, including individuals, businesses, other private\n         institutions, and State and local governments;\n\n     (7) Use CX data and insights to develop and implement action plans to improve the\n         experience in coordination with the Chief Customer Experience Officer. The\n         Mission Area, agency, and staff offices collecting customer feedback must\n         collaborate with the OCIO and the PRA, per DR 3410-001 and DM 3410-001, for\n         approval to ensure standardization, comparability, and compliance;\n\n     (8) Submit the quarterly report to the Chief Customer Experience Officer;\n\n     (9) Submit the annual report to the Chief Customer Experience Officer;\n\n     (10) Align Mission Area, agency, and staff office policies and procedures to this DR\n          within 12 months of the publish date;\n\n     (11) Support employees and empower them with the knowledge, skills, and tools to\n          provide outstanding experiences to customers; and\n\n     (12) Incorporate CX performance metrics into employee performance plans.\n\nd.   Mission Area, Agency, or Staff Office Primary and Secondary Points of Contact will:\n\n     (1) Work with their Mission Area, agency, or staff office Head to establish a Voice of\n         the Customer policy;\n\n     (2) Assist the Mission Area, agency, or staff office Head with the writing, review, and\n         submission of the quarterly and annual Voice of the Customer policy report to the\n         Chief Customer Experience Officer;\n\n     (3) Help the Mission Area, agency, or staff office Head in developing a collection plan\n         for the customer touchpoints and interactions;\n\n     (4) Work with the customer-facing program or service to review current customer\n         listening tools to help learn how customers engage with the Mission Area, agency,\n         or staff office;\n\n     (5) Assist the Mission Area, agency, or staff office Head to organize a comprehensive\n         collection plan in the Voice of the Customer policy;\n\n     (6) Contact the OCIO PRA team if questions arise related to collection plans and\n         activity especially related to collecting information from the public, including\n         individuals, businesses, other private institutions, and State and local governments;\n         and\n\n\n\n\n                                             7\n\f     (7) Support the Mission Area, agency, or staff office Head to implement the policies\n         and procedures in this DR within 12 months of the publish date.\n\ne.   The Head of the Customer-Facing Program or Service will:\n\n     (1) Lead a program or service with high customer touchpoints or interactions to allow\n         for many points of customer feedback;\n\n     (2) Be selected by the Mission Area, agency, or staff office Head to apply a Voice of\n         the Customer policy;\n\n     (3) Review how they currently listen to customer feedback to understand how\n         customers and communities engage with the Mission Area, agency, or staff office;\n\n     (4) Work with Mission Area, agency, and staff office Heads to outline a comprehensive\n         collection plan to captures customer touchpoints and interactions;\n\n     (5) Contact the OCIO PRA team if questions arise related to collection plans and\n         activity especially related to collecting information from the public, including\n         individuals, businesses, other private institutions, and State and local governments;\n\n     (6) Continually review the success of their listening tool to collect touchpoints and\n         interactions; and\n\n     (7) Support the Mission Area, agency, and staff office Heads and the primary and\n         secondary points of contact to implement the policies and procedures in this DR\n         within 12 months of the publish date.\n\nf.   The USDA Departmental Chief Data Officer and Deputy Chief Data Officer will:\n\n     (1) Coordinate with Mission Area, agency, and staff office primary and secondary\n         points of contact on data collection plan for Voice of the Customer policy;\n\n     (2) Assist in improving of internal decision-making and efficient use of resources;\n\n     (3) Maximize the impact of the Voice of the Customer policy; and\n\n     (4) Ensure compliance with overall data strategy of the USDA.\n\ng.   Mission Area, Agency, and Staff Office ACDOs will:\n\n     (1) Serve as a point of contact for their respective Mission Area, agency, and staff\n         office Heads for questions related to the overall United States Department of\n         Agriculture Fiscal Year 2024-2026 Data Strategy; and\n\n\n\n\n                                             8\n\f       (2) Ensure compliance with overall data strategy of the USDA and for the respective\n           Mission Area, agency, and staff office Heads collection plans for their Voice of the\n           Customer policy.\n\n  h.   Supervisors will:\n\n       (1) Support employees and empower them with the knowledge, skills, and tools to\n           provide outstanding experiences to USDA’s customers; and\n\n       (2) Support implementation of CX best practices and utilize data, tools, and other\n           capabilities to deliver outstanding CX.\n\n  i.   Employees will:\n\n       (1) Provide the best experience possible to customers;\n\n       (2) Support implementation of their Mission Area, Agency, or staff office Voice of the\n           Customer policy and utilize CX data, tools, and other capabilities to deliver\n           outstanding CX; and\n\n       (3) Understand how their roles and responsibilities affect the customer’s experience."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e16170c0-5e5d-5e3a-ae83-fb27a1ef8c42",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr1270-002-7",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr1270-002-7-stmt",
+                "name": "statement",
+                "prose": "Please direct questions and comments concerning the requirements of this DR to the\n       Chief Customer Experience Officer and OCX at CustomerExperience@usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                              9\n\f 1                               APPENDIX A\n 2\n 3                   ACRONYMS AND ABBREVIATIONS\n 4\n 5\n 6   ACDO   Assistant Chief Data Officer\n 7   CX     Customer Experience\n 8   DR     Departmental Regulation\n 9   DM     Departmental Manual\n10   E.O.   Executive Order\n11   FY     Fiscal Year\n12   HISP   High Impact Service Provider\n13   IT     Information Technology\n14   OCIO   Office of the Chief Information Officer\n15   OCX    Office of Customer Experience\n16   OMB    Office of Management and Budget\n17   P.L.   Public Law\n18   PRA    Paperwork Reduction Act\n19   USDA   United States Department of Agriculture\n\n\n\n\n                                      A-1\n\f 1                                           APPENDIX B\n 2\n 3                                           DEFINITIONS\n 4\n 5\n 6   Customer. A stakeholder that interacts with the Federal government that seeks innovative\n 7   solutions to serve their needs and accountability from the government. (Source: Adapted from\n 8   USDA, Fiscal Year 2019 Annual Performance Report/Fiscal Year 2021 Annual Performance\n 9   Plan, 2019)\n10\n11   Customer Experience (CX). The public’s perceptions of and overall satisfaction with the service\n12   delivery of USDA services and programs. CX is a combination of factors that result from\n13   touchpoints between an individual, business, or organization and the Federal Government over\n14   the duration of an interaction and relationship. (Source: Adapted from USDA, Fiscal Year\n15   2019 Annual Performance Report/Fiscal Year 2021 Annual Performance Plan, 2019)\n16\n17   Customer-facing program or service. A service or program which provides customer-focused\n18   services that have a high impact on the public. (Source: Adapted from OMB, Circular A-11,\n19   Preparation, Submission, and Execution of the Budget, Part 6, The Federal Performance\n20   Framework for Improving Program and Service Delivery, December 2020)\n21\n22   Service delivery.\n23   An action by the USDA related to providing a benefit or service to a customer. Such actions\n24   encourage greater accountability throughout the Department to develop outcome oriented,\n25   program specific performance measures\n26   (Source: Adapted from OMB, Circular A-11, Preparation, Submission, and Execution of the\n27   Budget, Part 6, The Federal Performance Framework for Improving Program and Service\n28   Delivery, December 2020)\n\n\n\n\n                                                  B-1\n\f 1                                          APPENDIX C\n 2\n 3                              AUTHORITIES AND REFERENCES\n 4\n 5\n 6   General Services Administration, A Guide to the Paperwork Reduction Act, web page\n 7\n 8   OMB, Circular A-11, Preparation, Submission, and Execution of the Budget, Part 6, The\n 9   Federal Performance Framework for Improving Program and Service Delivery, December 2020\n10   Paperwork Reduction Act of 1995, Public Law 104-13, May 22, 1995\n11\n12   USDA, Data, web page\n13\n14   USDA, DM 3107-001, Management of USDA IT Enterprise Initiatives Procedures, May 18,\n15   2016\n16\n17   USDA, DM 3410-001, Information Collection Procedures, August 25, 2023\n18\n19   USDA, DR 1230-001, U.S. Department of Agriculture Evaluation Policy, March 1, 2022\n20\n21   USDA, DR 1270-001, U.S. Department of Agriculture Customer Experience Policy, June 17,\n22   2022\n23\n24   USDA, DR 1496-001, Digital Strategy Governance, November 21, 2012\n25\n26   USDA, DR 1497-001, Approval of Communications/Information Products and Services, October\n27   29, 2014\n28\n29   USDA, DR 3080-001, Records Management, August 16, 2016\n30\n31   USDA, DR 3107-001, Management of USDA IT Enterprise Initiatives, May 12, 2016\n32\n33   USDA, DR 3130-010, United States Department of Agriculture Enterprise Information\n34   Technology Governance, April 20, 2021\n35\n36   USDA, DR 3410-001, Information Collection Request Activities: Collection of Information from\n37   the Public, January 26, 2022\n38\n39   USDA, DR 3430-001, Web Site Development and Maintenance, May 19, 2004\n40\n41   USDA, Information Technology Strategic Plan FY 2022 – 2026, June 2022\n42\n43   USDA, United States Department of Agriculture Fiscal Year 2024-2026 Data Strategy, October\n44   2023\n45\n46   USDA, The Voice of the Customer, web page\n\n\n\n                                                 C-1\n\f               APPENDIX D\n\nTHE “Listen Better, Serve Better” FRAMEWORK\nBY THE OFFICE OF CUSTOMER EXPERIENCE\n\n\n\n\n                   D-1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "b4afe68e-33e5-5fe5-814f-ffa01569ed03",
+          "title": "USDA Directives — DR1270-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1270-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

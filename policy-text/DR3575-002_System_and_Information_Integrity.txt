@@ -1,0 +1,720 @@
+                            U.S. DEPARTMENT OF AGRICULTURE
+                                  WASHINGTON, D.C. 20250
+
+                                                                NUMBER:
+ DEPARTMENTAL REGULATION                                        DR 3575-002
+                                                                DATE:
+ SUBJECT: System and Information Integrity                      June 9, 2026
+ OPI: Office of the Chief Information Officer,                  EXPIRATION DATE:
+ Cybersecurity and Privacy Operations Center                    June 9, 2031
+
+
+
+
+Section                                                                                       Page
+
+1.    Purpose                                                                                      1
+2.    Scope                                                                                        1
+3.    Special Instructions/Cancellations                                                           2
+4.    Background                                                                                   3
+5.    Policy                                                                                       3
+6.    Roles And Responsibilities                                                                   5
+7.    Penalties And Disciplinary Actions For Noncompliance                                         9
+8.    Policy Exceptions                                                                            9
+9.    Inquiries                                                                                    9
+
+Appendix A – Acronyms And Abbreviations                                                       A-1
+Appendix B – Definitions                                                                      B-1
+Appendix C – Authorities And References                                                       C-1
+
+
+
+
+1. PURPOSE
+
+     This Departmental Regulation (DR) sets the United States Department of Agriculture’s
+     (USDA) policy for system and information integrity (SII).
+
+
+2. SCOPE
+
+     a.   This DR applies to all:
+
+          (1)   Mission Areas, agencies, staff offices, and USDA personnel who work for or on
+                behalf of USDA. The term “USDA personnel” encompasses USDA employees,
+                appointees, contractors, partners, interns, fellows, affiliates, and volunteers;
+       (2)   Federal data in any medium or form that the USDA or those on behalf of the
+             USDA generates, collects, provides, transmits, stores, maintains, or accesses;
+
+       (3)   Systems or services, including cloud-based, that the USDA or those on behalf of
+             the USDA use or operate. These include connections between or among data
+             systems or services; and
+
+       (4)   Facilities from which USDA systems operate, whether the USDA or another entity
+             on behalf of the USDA uses or operates them.
+
+  b.   Nothing in this policy alters the need to protect national security systems or data.
+
+
+3. SPECIAL INSTRUCTIONS/CANCELLATIONS
+
+  a.   This DR supersedes DR 3575-002, System and Information Integrity, dated August 16,
+       2018, in its entirety.
+
+  b.   This DR takes effect immediately when published. It remains in effect until superseded
+       or expired.
+
+  c.   All USDA Mission Areas, agencies, and staff offices will align their SII procedures with
+       this DR within 6 months of its publication.
+
+  d.   This DR complies with:
+
+       (1)   Committee on National Security Systems policies, directives, and instructions;
+
+       (2)   The Federal Information Security Modernization Act of 2014, 44 U.S.C. § 3551, et
+             seq.;
+
+       (3)   Federal requirements to set, implement, and enforce system integrity standards;
+
+       (4)   Intelligence community policies, directives, and instructions;
+
+       (5)   National Institute of Standards and Technology (NIST) Federal Information
+             Processing Standards Publication (FIPS PUB) 199, Standards for Security
+             Categorization of Federal Information and Information Systems;
+
+       (6)   NIST FIPS PUB 200, Minimum Security Requirements for Federal Information
+             and Information Systems;
+
+       (7)   NIST, Special Publication (SP) 800-37, Revision 2, Risk Management Framework
+             for Information Systems and Organizations;
+
+       (8)   NIST, SP 800-39, Managing Information Security Risk: Organization, Mission,
+             and Information System View;
+
+
+
+
+                                                2
+       (9)   NIST Special Publication (SP) 800-53, Revision 5, Security and Privacy Controls
+             for Information Systems and Organizations; and
+
+       (10) Office of Management and Budget (OMB), A-130, Managing Information as a
+            Strategic Resource.
+
+
+4. BACKGROUND
+
+  SII refers to ensuring the confidentiality, integrity, and availability of data systems and data.
+  It involves managing risks from system flaws and vulnerabilities, malicious code,
+  unauthorized code changes, and inadequate error handling. The goal is to provide assurance
+  that someone has not tampered with or damaged the accessed data.
+
+
+5. POLICY
+
+  a.   Mission Areas, agencies, and staff offices will set, implement, and maintain policies and
+       procedures that include robust integration of SII throughout life cycle activities of all
+       USDA data systems and services.
+
+  b.   Mission Areas, agencies, and staff offices will:
+
+       (1)   Identify, report, and correct system flaws;
+
+       (2)   Before installing, test software and firmware updates for efficacy and potential
+             side effects;
+
+       (3)   Install security-relevant software and firmware updates according to the system
+             security plan (SSP);
+
+       (4)   Document security-relevant changes in the associated SSP;
+
+       (5)   Implement signature-based and non-signature-based detection mechanisms at
+             system entry and exit points (e.g., servers, mobile devices, laptops);
+
+       (6)   Update protection mechanisms when new releases become available;
+
+       (7)   Configure malicious code protection mechanisms to:
+
+             (a)   Perform periodic scans of the system weekly;
+
+             (b)   Scan files in real-time from endpoint and network entry and exit points as
+                   they are downloaded, opened, or executed;
+
+             (c)   Block and quarantine malicious activity; and
+
+             (d)   Send alerts to authorized personnel only.
+
+
+
+                                                3
+     (8)   Address false positives during malicious code detection and the potential impact
+           on the availability of the system;
+
+     (9)   Configure systems to run anti-spam and anti-phishing detection solutions at system
+           entry and exit points. This will minimize false positives and false negatives;
+
+     (10) Check for valid syntax and semantics (e.g., character set, length, numerical range,
+          and acceptable values) of the system. Verify inputs match specified definitions for
+          format and content;
+
+     (11) Configure systems to generate and send error messages to authorized personnel
+          only; and
+
+     (12) Run Data Execution Prevention (DEP) to protect memory from unauthorized code
+          execution.
+
+c.   For system monitoring activities, Mission Areas, agencies, and staff offices will work
+     with the Cybersecurity and Privacy Operations Center (CPOC) to:
+
+     (1)   Comply with applicable federal laws, E.O.s, directives, policies, regulations,
+           standards, and guidelines;
+
+     (2)   Employ automated monitoring tools and layered protection mechanisms;
+
+     (3)   Continuously monitor all network traffic, as well as determined defined encrypted
+           traffic;
+
+     (4)   Analyze outbound traffic at interior points (subnetworks and subsystems) and
+           external interfaces to detect covert data exfiltration and anomalies;
+
+     (5)   Ensure authorized personnel have access to monitoring information;
+
+     (6)   Identify network services that have not been authorized or approved and alert
+           security personnel when detected; and
+
+     (7)   Employ an automated alert mechanism. This will alert malicious, risky, or atypical
+           activity to authorized personnel.
+
+d.   Mission Areas, agencies, and staff offices will work with the CPOC Security Operations
+     Center to continuously monitor all systems within their purview for:
+
+     (1)   Attacks, or indicators of potential attacks;
+
+     (2)   Unauthorized local, network, and remote connections;
+
+     (3)   Unauthorized access, use, or downloads; and
+
+     (4)   Attempts to deny service or degrade the performance.
+
+
+
+                                              4
+  e.   Mission Areas, agencies, and staff offices will:
+
+       (1)   Only accept security alerts, advisories, and directives from the USDA Chief
+             Information Security Officer (CISO);
+
+       (2)   Generate internal security alerts, advisories, and directives as necessary;
+
+       (3)   Disseminate security alerts, advisories, and directives to personnel within their
+             purview with a need to know, or those who implement the directives; and
+
+       (4)   Follow all alert, advisory, and directive implementation timelines according to the
+             relative USDA cybersecurity directive.
+
+  f.   Refer to the following policies related to system integrity:
+
+       (1)   DR 3080-001, Records Management for guidance on data retention and
+             management;
+
+       (2)   DR 3505-003, Access Control for Information and Information Systems for
+             guidance on privileged users and managing access to data systems;
+
+       (3)   DR 3505-005, Cybersecurity Incident Management for incident management;
+
+       (4)   DR 3515-002, Privacy Policy and Compliance for Personally Identifiable
+             Information for guidance on personally identifiable information (PII) management;
+
+       (5)   DR 3520-002, Configuration Management for guidance on system settings and
+             configurations;
+
+       (6)   DR 3530-006, Scanning and Remediation of Configuration and Patch
+             Vulnerabilities for guidance on system vulnerability management; and
+
+       (7)   DR 3575-003, Information Systems Log Retention Requirements for guidance on
+             creating, storing, and maintaining various system logs.
+
+
+6. ROLES AND RESPONSIBILITIES
+
+  a.   The Cybersecurity Defense Operations Division (CDOD), Cybersecurity Watch Branch
+       (CWB) will investigate malicious activity per DR 3505-005, Cybersecurity Incident
+       Management.
+
+  b.   The USDA Chief Information Officer (CIO) will:
+
+       (1)   Ensure compliance with all SII-related federal guidance;
+
+       (2)   Ensure USDA agencies have adequate resources to carry out SII requirements;
+
+
+
+
+                                                5
+     (3)   Serve as the Senior Agency Official for Privacy (SAOP) during system
+           authorizations, oversee privacy assessment conduct, and privacy and security
+           control implementation; and
+
+     (4)   Report at least annually on the efficacy of deployed privacy and security program
+           controls to all oversight bodies, as required.
+
+c.   The USDA CISO will:
+
+     (1)   Ensure SII control integrates with system life cycle management and all applicable
+           processes;
+
+     (2)   Ensure that the Department and USDA agencies develop, maintain, and comply
+           with federal and departmental SII requirements; and
+
+     (3)   Disseminate SII requirements and guidance to Mission Area Assistant CIOs,
+           CISOs, and Information System Security Managers (ISSM).
+
+d.   Mission Area Assistant CIOs will:
+
+     (1)   Ensure personnel under their purview comply with all federal and departmental SII
+           requirements;
+
+     (2)   Ensure relevant personnel assess, document, implement, and manage IT security
+           risks; and
+
+     (3)   Serve as authorizing official for their Mission Area. Ensure all data systems,
+           applications, or common control sets in their purview have a current authorization
+           to operate.
+
+e.   Mission Area Assistant CISOs will:
+
+     (1)   Coordinate with the USDA CISO to ensure SII controls integrate with system life
+           cycle management, and all applicable processes;
+
+     (2)   Conduct a full assessment of implemented controls and enhancements to
+           determine effectiveness;
+
+     (3)   Approve rules for acceptable data usage, creation, storage, processing, sharing, and
+           protection for which they have statutory, management, or operational authority;
+
+     (4)   Serve as the principal data security specialist to all personnel in their purview;
+
+     (5)   Make sure their personnel promptly respond to security alerts; and
+
+     (6)   Ensure all personnel in their purview take annual information security awareness
+           training per DR 3545-001, Information Security Awareness Program, and they
+           complete role-based training as appropriate.
+
+
+
+                                              6
+f.   Agency Contracting Officers will:
+
+     (1)   Ensure contract documents define the performance expectations for each required
+           SII security control as follows:
+
+           (a)   Describe measurable outcomes; and
+
+           (b)   Identify remedies.
+
+     (2)   Provide response requirements for any identified compliance failure with
+           departmental SII requirements.
+
+g.   Mission Area ISSMs will:
+
+     (1)   Ensure the personnel in their purview with SII responsibilities have awareness of
+           and understand federal and departmental requirements;
+
+     (2)   Verify systems under their purview have appropriately addressed SII controls;
+
+     (3)   Make sure their personnel immediately report incidents to CWB and respond to
+           CDOD inquiries and communications regarding incidents;
+
+     (4)   Inform the Mission Area, agency, and staff office head, Mission Area Assistant
+           CIO, and the USDA CIO of significant incidents;
+
+     (5)   Coordinate with System Owners to establish roles, privileges, access levels, and
+           required controls to protect system data that is generated, used, stored, transmitted,
+           and processed; and
+
+     (6)   Coordinate with, and offer guidance to, USDA personnel on managing life cycle
+           activities and data security.
+
+h.   System Owners will:
+
+     (1)   Comply with, implement, and follow policy and procedures for SII;
+
+     (2)   Coordinate with ISSM and Information System Security Officers (ISSO) in other
+           duties assigned under other USDA directives and federal guidance;
+
+     (3)   Ensure vulnerability remediation processes integrate with configuration
+           management processes;
+
+     (4)   Implement malicious code protection mechanisms;
+
+     (5)   Ensure mail and messaging systems deploy integrity protection mechanisms;
+
+     (6)   Ensure automatic protections respond appropriately to integrity violations;
+
+     (7)   Approve and monitor all maintenance activities;
+
+
+                                              7
+     (8)   Check their systems’ inputs for valid system inputs; and
+
+     (9)   Ensure that users, including information system support staff, are trained prior to
+           gaining access to the data system. Training must comply with DR 3545-001.
+
+i.   System and Network Administrators will:
+
+     (1)   Comply with, implement, and follow policy and procedures for SII;
+
+     (2)   Perform other flaw remediation-specific functions assigned to DR 3530-006;
+
+     (3)   Ensure security-relevant software and firmware regularly update;
+
+     (4)   Implement and maintain integrity verification mechanisms to detect unauthorized
+           changes to systems. Follow documented processes when there are notifications of
+           discrepancies discovered during integrity verification; and
+
+     (5)   Review system audit records for indications of inappropriate usage. Report
+           findings to designated officials, as specified in internal procedures.
+
+j.   ISSO will:
+
+     (1)   Support the System Owner in SII functions assigned in this DR. Ensure
+           implementation of SII controls throughout the system life cycle activities; and
+
+     (2)   Ensure collaboration to improve visibility and the detection of cybersecurity
+           vulnerabilities and threats to the Government. This requirement appears in E.O.
+           14028, Improving the Nation’s Cybersecurity.
+
+k.   All users will:
+
+     (1)   Maintain knowledge of federal and departmental SII requirements;
+
+     (2)   Complete annual information security awareness training, and sign rules of
+           behavior and an acceptable use agreement;
+
+     (3)   Review DR 4070-735-001, Employee Responsibilities and Conduct, annually;
+
+     (4)   Notify their supervisor if an access control vulnerability or policy violation is
+           discovered or suspected; and
+
+     (5)   Report any suspicious or unusual activity to their supervisor as soon as possible.
+
+
+
+
+                                              8
+7. PENALTIES AND DISCIPLINARY ACTIONS FOR NONCOMPLIANCE
+
+  a.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16: Computers, sets
+       forth USDA policy, procedures, and standards on employee duties and conduct
+       regarding the use of computers and telecommunications equipment. In addition, Section
+       21: Disciplinary or Adverse Action, states:
+
+       (1)   Any violation of the responsibilities or standards contained in this DR may be
+             cause for disciplinary or adverse action; and
+
+       (2)   Any disciplinary or adverse action taken will be consistent with the applicable
+             laws and regulations.
+
+  b.   Such disciplinary actions will follow applicable laws and regulations. These include
+       those from the Office of Personnel Management, OMB, and 5 CFR § 2635, Standards of
+       Ethical Conduct for Employees of the Executive Branch.
+
+
+8. POLICY EXCEPTIONS
+
+  All Mission Areas, agencies, and staff offices will conform to this policy. Any Mission Area,
+  agency, or staff office that cannot meet a specific policy requirement must request a policy
+  exception. To do so, email the OCIO CPOC SMD, Risk Management Branch at
+  POAMProgram@usda.gov. Note that an approved risk-based decision is an acceptance of
+  risk but does not constitute compliance.
+
+
+9. INQUIRIES
+
+  Send any questions or concerns about this DR to the OCIO CPOC via CPOC-
+  CyberPolicy@usda.gov.
+
+
+                                            -END-
+
+
+
+
+                                               9
+                                 APPENDIX A
+
+                    ACRONYMS AND ABBREVIATIONS
+
+
+
+CDOD       Cyber Defense Operations Division
+CFR        Code of Federal Regulations
+CIO        Chief Information Officer
+CISO       Chief Information Security Officer
+CNSS       Committee on National Security Systems
+CNSSI      Committee on National Security Systems Instruction
+CPOC       Cybersecurity and Privacy Operations Center
+CWB        Cyber Watch Branch
+DR         Departmental Regulation
+E.O.       Executive Order
+FIPS PUB   Federal Information Processing Standards Publication
+FISMA      Federal Information Security Modernization Act
+ISSM       Information System Security Manager
+ISSO       Information System Security Officer
+IT         Information Technology
+NIST       National Institute of Standards and Technology
+OCIO       Office of the Chief Information Officer
+OMB        Office of Management and Budget
+PII        Personally Identifiable Information
+SAOP       Senior Agency Official for Privacy
+SII        System and Information Integrity
+SMD        Security Management Division
+SP         Special Publication
+SSP        System Security Plan
+U.S.C.     United States Code
+USDA       United States Department of Agriculture
+
+
+
+
+                                       A-1
+                                           APPENDIX B
+
+                                          DEFINITIONS
+
+
+
+Access Control. The process of granting or denying specific requests. Requests can be for
+obtaining and using information and related information processing services. Requests can also
+be to enter specific physical facilities (e.g., Federal buildings, military establishments, and border
+crossing entrances). (Source: CNSS, CNSS Instruction (CNSSI) 4009, Committee on National
+Security Systems (CNSS) Glossary)
+
+Continuous Monitoring. Maintaining ongoing awareness of information security, vulnerabilities,
+and threats. This supports organizational risk management decisions. (Source: NIST SP 800-137,
+Information Security Continuous Monitoring (ISCM) for Federal Information Systems and
+Organizations)
+
+False Negative. An instance in which a security tool intended to detect a particular threat fails to
+do so. (Source: NIST SP 800-83, Revision 1, Guide to Malware Incident Prevention and
+Handling for Desktops and Laptops)
+
+False Positive. An instance in which a security tool incorrectly classifies benign content as
+malicious. (Source: NIST SP 800-83, Revision 1)
+
+Flaw. Imperfection or defect. (Source: NIST SP 800-160, Revision 1, Engineering Trustworthy
+Secure Systems)
+
+Impact. The effect on organizational operations, organizational assets, individuals, other
+organizations, or the Nation (including the national security interests of the United States) of a
+loss of confidentiality, integrity, or availability of information or a system. (Source: NIST SP
+800-53, Revision 5)
+
+Integrity. Guarding against improper information modification or destruction and includes
+ensuring information non-repudiation and authenticity. (Source: NIST SP 800-53, Revision 5)
+
+Malicious Code (or Malware). Software or firmware intended to perform an unauthorized
+process that will have adverse impact on the confidentiality, integrity, or availability of an
+information system. A virus, worm, Trojan horse, or other code-based entity that infects a host.
+Spyware and some forms of adware are also examples of malicious code. (Source: NIST SP 800-
+128, Guide for Security-Focused Configuration Management of Information Systems)
+
+Potential Impact. The loss of confidentiality, integrity, or availability could be expected to have a
+limited adverse effect (FIPS PUB 199 low); a serious adverse effect (FIPS PUB 199 moderate);
+or a severe or catastrophic adverse effect (FIPS PUB 199 high) on organizational operations,
+organizational assets, or individuals. (Source: NIST SP 800-53, Revision 5)
+
+
+                                                 B-1
+Technical Vulnerability Information. A hardware, firmware, communication, or software flaw
+that leaves a computer processing system open for potential exploitation, either externally or
+internally, thereby resulting in risk for the owner, user, or manager of the system. (Source:
+CNSSI 4009)
+
+
+
+
+                                              B-2
+                                          APPENDIX C
+
+                            AUTHORITIES AND REFERENCES
+
+
+
+5 CFR § 2635.101, et seq., Part 2635—Standards of Ethical Conduct for Employees of the
+Executive Branch
+
+7 CFR § 2.32, Chief Information Officer
+
+Paperwork Reduction Act, 44 U.S.C. § 3506(b)(2), Federal Agency Responsibilities
+
+CNSS, CNSSI 1253, Security Categorization and Control Selection for National Security
+Systems, August 1, 2022
+
+CNSS, CNSSI 4009, Committee on National Security Systems (CNSS) Glossary, March 7, 2022
+
+CNSS, Committee on National Security Systems website, May 6, 2016
+
+E.O. 13526, Classified National Security Information, December 29, 2009
+
+E.O. 13556, Controlled Unclassified Information, November 4, 2010
+
+E.O. 13587, Structural Reforms to Improve the Security of Classified Networks and the
+Responsible Sharing and Safeguarding of Classified Information, October 7, 2011
+
+E.O. 13800, Strengthening the Cybersecurity of Federal Networks and Critical Infrastructure,
+May 11, 2017
+
+E.O. 14028, Executive Order on Improving the Nation’s Cybersecurity, May 12, 2021
+
+Federal Information Technology Acquisition Reform Act (FITARA) Enhancement Act of 2017,
+Public Law 115-88, November 21, 2017, as amended
+
+Federal Information Security Modernization Act, 44 U.S.C. § 3551, et seq.
+
+NIST, FIPS PUB 140-3, Security Requirements for Cryptographic Modules, March 22, 2019
+
+NIST, FIPS PUB 199, Standards for Security Categorization of Federal Information and
+Information Systems, February 2004, as amended
+
+NIST, FIPS PUB 200, Minimum Security Requirements for Federal Information and Information
+Systems, March 9, 2006, as amended
+
+
+
+
+                                             C-1
+NIST, SP 800-18, Revision 1, Guide for Developing Security Plans for Federal Information
+Systems, February 2006
+
+NIST, SP 800-30, Revision 1, Guide for Conducting Risk Assessments, September 2012, as
+amended
+
+NIST, SP 800-34, Revision 1, Contingency Planning Guide for Federal Information Systems,
+May 2010, as amended
+
+NIST, SP 800-37, Revision 2, Risk Management Framework for Information Systems and
+Organizations: A System Life Cycle Approach for Security and Privacy, December 2018, as
+amended
+
+NIST, SP 800-39, Managing Information Security Risk: Organization, Mission, and Information
+System View, March 2011, as amended
+
+NIST, SP 800-47, Revision 1, Managing the Security of Information Exchanges, July 2021, as
+amended
+
+NIST, SP 800-53, Revision 5, Security and Privacy Controls for Information Systems and
+Organizations, September 2020, includes updates as of December 10, 2020, as amended
+
+NIST, SP 800-53A, Revision 5, Assessing Security and Privacy Controls in Information Systems
+and Organizations, January 2022, as amended
+
+NIST, SP 800-53B, Control Baselines for Information Systems and Organizations, October
+2020, includes updates as of December 10, 2020, as amended
+
+NIST, SP 800-60, Volume 1, Revision 1, Volume I: Guide for Mapping Types of Information
+and Information Systems to Security Categories, August 2008, as amended
+
+NIST, SP 800-60, Volume 2, Revision 1, Volume II: Appendices to Guide for Mapping Types of
+Information and Information Systems to Security Categories, August 2008, as amended
+
+NIST, SP 800-83, Revision 1, Guide to Malware Incident Prevention and Handling for Desktops
+and Laptops, July 2013
+
+NIST, SP 800-122, Guide to Protecting the Confidentiality of Personally Identifiable
+Information (PII), April 2010, as amended
+
+NIST, SP 800-128, Guide for Security-Focused Configuration Management of Information
+Systems, August 2011, includes updates as of October 10, 2019
+
+NIST, SP 800-137, Information Security Continuous Monitoring (ISCM) for Federal Information
+Systems and Organizations, September 2011, as amended
+
+
+
+                                              C-2
+NIST, SP 800-150, Guide to Cyber Threat Information Sharing, October 2016, as amended
+
+NIST, SP 800-160, Volume 2, Revision 1, Developing Cyber-Resilient Systems: A Systems
+Security Engineering Approach, December 2021
+
+NIST, SP 800-161, Revision 1SP 800-161, Revision 1, Cybersecurity Supply Chain Risk
+Management Practices for Systems and Organizations, May 2022, as amended
+
+NIST, SP 800-171, Revision 3, Protecting Controlled Unclassified Information in Nonfederal
+Systems and Organizations, May 2024, as amended
+
+NIST, SP 800-172, Enhanced Security Requirements for Protecting Controlled Unclassified
+Information: A Supplement to NIST Special Publication 800-171, February 2021, as amended
+
+OMB, Circular A-108, Federal Agency Responsibilities for Review, Reporting, and Publication
+under the Privacy Act, December 23, 2016, as amended
+
+OMB, A-130, Managing Information as a Strategic Resource, July 28, 2016
+
+OMB, M-02-01, Guidance for Preparing and Submitting Security Plans of Action and
+Milestones, October 17, 2001
+
+OMB, M-15-14, Management and Oversight of Federal Information Technology, June 10, 2015
+
+OMB, M-21-30, Protecting Critical Software Through Enhanced Security Measures, August 10,
+2021
+
+OMB, M-21-31, Improving the Federal Government’s Investigative and Remediation
+Capabilities Related to Cybersecurity Incidents, August 27, 2021
+
+OMB, M-22-09, Moving the U.S. Government Toward Zero Trust Cybersecurity Principles,
+January 26, 2022
+
+Privacy Act of 1974, 5 U.S.C. § 552a, Records Maintained on Individuals
+
+USDA, DR 3080-001, Records Management, August 16, 2016
+
+USDA, DR 3145-001, Oversight and Management of the Federal Information Technology
+Acquisition Reform Act (FITARA), May 7, 2021
+
+USDA, DR 3170-001, End User Workstation Configurations, October 13, 2022
+
+USDA, DR 3180-001, Information Technology Standards, January 5, 2021
+
+USDA, DR 3185-001, Enterprise Architecture, April 19, 2022
+
+USDA, DR 3185-004, Enterprise Zero Trust Architecture, September 9, 2024
+
+
+                                             C-3
+USDA, DR 3440-003, Controlled Unclassified Information (CUI) Program, September 13, 2021
+
+USDA, DR 3450-001, Computer Matching Program Involving Personally Identifiable
+Information, October 29, 2020
+
+USDA, DR 35XX-XXX, Cybersecurity Risk Management Framework, [forthcoming]
+
+USDA, DR 3505-003, Access Control for Information and Information Systems, July 17, 2019
+
+USDA, DR 3505-005, Cybersecurity Incident Management, November 30, 2018
+
+USDA, DR 3515-002, Privacy Policy and Compliance for Personally Identifiable Information
+(PII), October 30, 2020
+
+USDA, DR 3520-002, Configuration Management, July 17, 2019
+
+USDA, DR 3530-006, Scanning and Remediation of Configuration and Patch Vulnerabilities,
+June 5, 2019
+
+USDA, DR 3545-001, Information Security Awareness Program, October 25, 2023
+
+USDA, DR 3575-003, Information Systems Log Retention Requirements, July 7, 2022
+
+USDA, DR 3575-004, Information Technology Security Baselines and Security Control
+Tailoring, November 21, 2023
+
+USDA, DR 3650-001, Cloud Computing, May 24, 2023
+
+USDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007
+
+
+
+
+                                           C-4
+

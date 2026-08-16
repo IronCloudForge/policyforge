@@ -1,0 +1,149 @@
+{
+  "catalog": {
+    "uuid": "35b9a095-08eb-5307-833b-8a170192284a",
+    "metadata": {
+      "title": "USDA SM1078-007: Restructuring of Federal Advisory Committees within the Department of Agriculture",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2025-04-21",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1078-007"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2025-04-21"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1078-007",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1078-007",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "572a4d55-c2e4-58a9-8724-0e41d8c8ae1b",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "sm1078-007-2",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "sm1078-007-2-stmt",
+                "name": "statement",
+                "prose": "a.   The Committee Management Officer is hereby ordered to pause the terminations, until\n       further notice, of the following Federal Advisory Committees:\n             •   Agricultural Technical Advisory Committee for Trade in Animal and\n                 Animal Products\n             •   Agricultural Technical Advisory Committee for Trade in Fruits and\n                 Vegetables\n             •   Agricultural Technical Advisory Committee for Trade in Grains, Feed,\n                 Oilseeds, and Planting Seeds\n             •   Agricultural Technical Advisory Committee for Trade in Processed Foods\n             •   Agricultural Technical Advisory Committee for Trade in Sweeteners and\n                 Sweetener Products\n             •   Agricultural Technical Advisory Committee for Trade in Tobacco, Cotton,\n                 Peanuts, and Hemp\n             •   Black Hills National Forest Advisory Board\n             •    General Conference Committee of the National Poultry Improvement Plan\n\n  b.   The White House Liaison Office (WHL ), in coordination with all effected mission\n       areas, is hereby tasked with creating a strategy to ensure an efficient and effective\n       rollout strategy for the termination of all Federal Advisory Committees listed in\n       Memo 1078-002. Additionally, within 60 days of the date of this Memo, WHL shall\n       provide a plan for potential consolidations, terminations, and reorganizations of all\n       Federal Advisory Committees in the United States Department of Agriculture."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9f6563e5-36f9-552c-9986-63941c4628f1",
+        "class": "section",
+        "title": "Incidental Transfers",
+        "controls": [
+          {
+            "id": "sm1078-007-3",
+            "class": "policy-requirement",
+            "title": "Incidental Transfers",
+            "parts": [
+              {
+                "id": "sm1078-007-3-stmt",
+                "name": "statement",
+                "prose": "The Assistant Secretary for Administration, the Chief Financial Officer, and the Director,\n  Office of Budget and Program Analysis, are authorized to approve such transfers of funds,\n  terminations, personnel, employment authority, space, records, property, and incidentals as\n  may be necessary to implement the provisions of this Memo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4786ab68-f2de-5f45-9a89-f14ddf19f176",
+        "class": "section",
+        "title": "Effective Da Te And Termination",
+        "controls": [
+          {
+            "id": "sm1078-007-4",
+            "class": "policy-requirement",
+            "title": "Effective Da Te And Termination",
+            "parts": [
+              {
+                "id": "sm1078-007-4-stmt",
+                "name": "statement",
+                "prose": "This Memo is effective immediately and will remain in effect until the Secretary issues\n  orders resuming the terminations began in Memo 1078-002.\n\n\n\n\n                                          Isl Brooke L. Rollins\n                                          Secretary\n                                          U.S. Department of Agriculture\n\n\n\n\n                                               2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "d08c8692-1f7d-50ef-b63b-9e1fc55037fd",
+          "title": "USDA Directives — SM1078-007",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1078-007",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

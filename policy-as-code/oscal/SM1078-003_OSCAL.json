@@ -1,0 +1,140 @@
+{
+  "catalog": {
+    "uuid": "5a8442d6-e8e5-5ff2-a12a-84b8634b5554",
+    "metadata": {
+      "title": "USDA SM1078-003: Directive on Conservation and Natural Resources Priorities",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2025-03-13",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "SM1078-003"
+        },
+        {
+          "name": "directive-type",
+          "value": "Secretary's Memorandum"
+        },
+        {
+          "name": "effective-date",
+          "value": "2025-03-13"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/sm-1078-003",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/sm-1078-003",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Unknown"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "7f8c40b5-fd2b-5f03-8c3c-c4c5a958a51d",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "sm1078-003-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "sm1078-003-1-stmt",
+                "name": "statement",
+                "prose": "It is the policy of the U.S. Department of Agriculture to establish a return to American\n     principles and realign the Department's focus towards its original objectives of maximizing\n     and promoting American agriculture; ensuring a safe, nutritious, and secure food supply;\n     enhancing rural prosperity; and managing our National Forests. This Memorandum\n     prioritizes multiple use management 1; conservation of our Nation's natural resources; and a\n     focus on serving the American people in furtherance of those policies. The Department's\n     resources must be conserved and focused upon its original objectives, as well as its\n     obligations under the Constitution and laws of the United States. The Department's\n     priorities include ensuring that its grants, cooperative agreements, and other similar\n     arrangements, including mutual interest agreements (collectively, \"awards\"), do not support\n     programs or organizations that promote or take part in climate change or environmental\n     justice initiatives. It is vital that the Department assess both whether all award payments are\n     free from fraud, abuse, and duplication, and whether they are in the best interests of the\n     United States. See, e.g., FAR 12.403, 49.101; 2 C.F.R. § 200.340(a)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3aaeae8e-4f49-59c9-b46c-dc4195270337",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "sm1078-003-2",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "sm1078-003-2-stmt",
+                "name": "statement",
+                "prose": "To establish and safeguard the Department's priorities, all USDA agencies and staff offices\n     that issue awards must conduct an internal review of all active awards still in their period of\n     performance, as well as awards selected for funding but not yet obligated or awarded to\n     specific individuals or entities (e.g., under existing notices of funding opportunities).\n\n     Such review shall be limited to ensuring that the Department does not fund programs or\n     organizations that promote or take part in climate change or environmental justice initiatives\n     that are either contrary to law or to the Department's policy objectives, as well as ensuring\n     that all awards are free from fraud, abuse, and duplication. Awards deemed inconsistent\n     with the Department's priorities shall, to the maximum extent permitted by law and in\n\n         1\n            See, e.g., Multiple-Use Sustained-Yield Act of 1960, 16 U.S.C. § 528 (\"It is the policy of the Congress\nthat the national forests are established and shall be administered for outdoor recreation, range, timber, watershed,\nand wildlife and fish purposes.\").\n\faccordance with any applicable regulations and notice and procedural requirements in the\nrelevant award, agreement, or other instrument, be terminated in whole or in part or\notherwise modified to minimize the scope of the Department's obligations.\n\nThis Directive shall be implemented by all Departmental personnel responsible for award­\nrelated activities, including but not limited to those responsible for planning, budgeting,\nexecuting, and administering awards.\n\nNotwithstanding this Directive, any disbursements on open awards paused due to any Office\nof Management and Budget memorandum or Executive Order shall be immediately released\nto the extent required by law or court order.\n\n\n\n\n                                        Isl Brooke L. Rollins\n                                        Secretary\n                                        U.S. Department ofAgriculture\n\n\n\n\n                                              2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "8bc618e6-e898-59ac-bb81-0e25a5d4d0aa",
+          "title": "USDA Directives — SM1078-003",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/sm-1078-003",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

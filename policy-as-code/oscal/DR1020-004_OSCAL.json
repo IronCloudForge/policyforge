@@ -1,0 +1,116 @@
+{
+  "catalog": {
+    "uuid": "d765e5cf-1de8-551e-be64-a21d257d411f",
+    "metadata": {
+      "title": "USDA DR1020-004: USDA Food and Nutrition Policy Statement",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2087-01-02",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1020-004"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2087-01-02"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1020-004",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Science and Education",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1020-004",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Science and Education"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "90f9c622-5f0f-59c6-87ac-8b07d78a0b89",
+        "class": "section",
+        "title": "Content",
+        "controls": [
+          {
+            "id": "dr1020-004-1",
+            "class": "policy-requirement",
+            "title": "Content",
+            "parts": [
+              {
+                "id": "dr1020-004-1-stmt",
+                "name": "statement",
+                "prose": "U.S. Department of Agriculture\n                                         Washington, D.C. 20250\n\n\n                                                                                                Number:\n        DEPARTMENTAL REGULATION                                                                 1020-004\n\nSUBJECT: USDA Food and Nutrition Policy                                DATE:\nStatement                                                              January 2, 1987\n\n                                                                       OPI: Science and Education\n\n\n1     PURPOSE\n\n      To state the policy and responsibilities of the United States Department of Agriculture (USDA)\n      with regard to food and human nutrition.\n\n\n\n\n2     POLICY\n\n      It is a policy of the USDA to promote optimal human health and well-being through improved\n      nutrition. The department recognizes the importance of coordination of its human nutrition-related\n      activities with the agricultural/food industry, other governmental agencies, and private or public\n      institutions.\n\n\n\n\n3     RESPONSIBILITIES\n\n      USDA has the mission to encourage the production and availability of a sufficient, safe, and\n      nutritionally adequate supply of wholesome food for Americans and help and encourage other\n      countries to meet their food requirements. USDA, in support of this mission, will:\n\n      a         Conduct research in the area of human nutrition and food science, including human\n      dietary requirements, nutritional status assessment, food composition, utilization of foods, and\n      food safety.\n\n      b        Provide food and nutrition education and guidance based on research, thus helping to\n      provide useful information to individuals to assist them in selecting diets to improve their health\n      and well being.\n\n      c        Encourage the training of professionals with expertise in human nutrition and related\n      fields and encourage action to assure the Nation of sufficient human capital in this area.\n\n      d        Assess the nutritional adequacy of domestic food supplies to identify nutrition and food\n      related problems and to develop strategies for improving them.\n\n      e        Monitor food use and food consumption patterns among the Nation's population, in\n      cooperation with the U.S. Department of Health and Human Services, to determine areas where\n      nutritional guidance, food assistance, and food production programs may be focused.\n\fDR 1020-004                                                                               January 2, 1987\n\n\n       f         Conduct domestic and international food assistance and distribution programs to improve\n       the nutritional quality of diets.\n\n       g         Work cooperatively with governments and institutions of other countries and with\n       international organizations to identify world food and nutrition related problems and to develop\n       multilateral approaches for correcting them.\n\n\n\n\n                                                   2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "b10de3a4-cf1c-5030-9630-2e9ecd25fe67",
+          "title": "USDA Directives — DR1020-004",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1020-004",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

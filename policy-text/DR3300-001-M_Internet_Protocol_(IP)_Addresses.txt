@@ -1,0 +1,454 @@
+DR 3300-1                                                                     March 23, 1999
+
+
+                                     APPENDIX       M
+
+
+
+                       INTERNET PROTOCOL (IP) ADDRESSES
+
+
+
+1      PURPOSE
+
+       This Appendix establishes the policy for the management and use of Internet
+       Protocol (IP) addresses within the United States Department of Agriculture
+       (USDA).
+
+
+
+2      BACKGROUND
+
+       This directive augments the USDA IP Addressing Plan and other internal and
+       external regulations that establish general policies governing all
+       telecommunications networks, systems, hosts, and routers using Internet Protocol
+       addressing. IP addresses are a Departmental resource that must be managed to
+       ensure that the Office of the Chief Information Officer (OCIO) achieves greater
+       assignment and routing efficiencies.
+
+       These addresses assigned to USDA are divided into three categories; the three
+       Class B network addresses used on the USDA Internet Access Network, an 8K
+       (8192) Classless Interdomain Routing (CIDR) block, and the other Class B and
+       Class C network addresses in use in the Department. In each of these categories,
+       addresses were delegated to USDA from the InterNIC and represent official
+       licenses to operate on the Internet. Because of this and the scarcity of the resource
+       in general, care must be taken in the allocation, use and management of these
+       addresses. Routing constraints and capabilities will be an important consideration
+       to be managed during the implementation of an Enterprise Network (EN).
+
+       Although the next generation of IP (Ipv6 or Ipng) will provide for a much larger
+       addressing space, its delay in implementation makes it imperative to continue to
+       efficiently manage USDA’s current IP address allocation. The importance of
+       assigning these addresses efficiently is necessary to provide the types of Internet-
+       based services which are continuing to be more important to USDA’s
+       constituents. The goal of achieving at least 25-50 percent assignment efficiency at
+       the host level must be obtained. With the implementation of an EN the importance
+       of assigning IP addresses efficiently within a geographically based topology is
+       critical. Agencies must work with the OCIO to ensure that variable length
+       addresses are used on Local Area Networks (LAN) to ensure that only the number
+       of needed addresses is assigned to each LAN. The use of classless routing
+
+
+                                             1
+DR 3300-1                                                                 March 23, 1999
+
+
+       protocols such as Open Shortest Path First can support splitting of Class C
+       network addresses between sites. Address distribution must be based on location
+       of a network supporting limited agency autonomy without compromising the
+       concept of a shared network.
+
+
+
+3      REFERENCES
+
+       Source                Publication           Title/Subject
+
+       Internet      Request for Comment Internet Protocol Network Information
+                     Center (RFC) 791 (InterNIC)
+
+       InterNIC              RFC 950               Internet Standard Subnetting
+                             Procedures
+
+       InterNIC              RFC 917               Internet Subnets
+
+       InterNIC              RFC 1069              IP ISO Addressing
+
+
+
+4      ABBREVIATIONS
+
+       AS            -       Autonomous System
+
+       CIDR          -       Classless Interdomain Routing
+
+       CIO           -       Chief Information Officer
+
+       CO            -       Certifying Official
+
+       EN            -       Enterprise Network
+
+       FTS2000       -       Federal Telecommunications System 2000
+
+       IAN           -       Internet Access Network
+
+       InterNIC      -       Internet Network Information Center
+
+       IP            -       Internet Protocol
+
+       ISSTD -       Information Systems Security and Telecommunications Division
+
+
+
+
+                                           2
+DR 3300-1                                                                March 23, 1999
+
+
+       ITU-TSS -     International Telecommunications Union- Telecommunications
+                     Standards Sector
+
+       NSAP          -      Network Service Access Point
+
+       NSEL          -      Network Selector
+
+       OCIO          -      Office of the Chief Information Officer
+
+       OSPF          -      Open Shortest Path First
+
+       PRMD          -      Private Management Domain
+
+       RD            -      Routing Domain
+
+       RFC           -      Request for Comment
+
+       TCP/IP        -      Transmission Control Protocol/Internet Protocol
+
+       TSO           -      Telecommunications Services and Operations
+
+       USDA          -      United States Department of Agriculture
+
+
+
+5      POLICY
+
+       a      Authority
+
+              (1)     The Chief Information Officer (CIO) is the central IP addressing
+              authority for USDA. The CIO delegates functional responsibility to the
+              Office of the Chief Information Officer Telecommunications Services and
+              Operations (OCIO/TSO) to ensure success of this program by:
+
+                     (a)    Managing USDA’s IP Addresses Resources;
+
+                     (b)    Providing IP Address Provisioning and IP Address
+                     Allocations;
+
+                     (c)    Providing administration and maintenance of the Network
+                     Information Base (NIB) database;
+
+                     (d)    Maintaining the USDA IP Addressing Registry;
+
+
+
+
+                                          3
+DR 3300-1                                                                  March 23, 1999
+
+
+                   (e)     Developing a transition plan to move the three Class B IP
+                   addresses assigned to the USDA Internet Access Network to the
+                   use of Class C addresses; and
+
+                   (f)     Ensuring all existing and future IP addresses will be
+                   registered with OCIO/TSO.
+
+       b    Domain Names
+
+            (1)     The use of the second level domain name, “usda.gov” has been
+            officially registered with the InterNIC and will be used in official agency
+            domain names of the form “...<q4>.<q3>.usda.gov”
+
+            (2)     To use a second-level domain name other than “usda.gov,” an
+            agency must send a request for approval to OCIO/TSO that contains
+            justification for its use.
+
+            (3)    Agencies using previously assigned second-level domain name,
+            “ag.gov,” and all third-level domain names must use “usda.gov” as the
+            second-level domain name as of January 1999.
+
+            (4)    Agencies will not connect a host or other device that uses IP and
+            has an unregistered IP address to the Internet, the USDA Internet Access
+            Network, or to any network connected to either of these networks.
+
+       c    Host Address Efficiency
+
+            (1)    Achieve 25-50 percent assignment and routing efficiencies
+            advocated by the InterNIC.
+
+       d    USDA Address Advertisement
+
+            (1)     The advertisement of USDA IP addresses will be made by the
+            OCIO/TSO. Agencies using private ISPs must obtain their addresses and
+            advertisement through the private ISP.
+
+
+
+6      RESPONSIBILITIES
+
+       a    Office of the Chief Information Officer will:
+
+            (1)    Develop and maintain Department-wide policies and guidelines for
+            implementing IP addresses according to the InterNIC recommendations
+            and standards; and
+
+
+
+
+                                          4
+DR 3300-1                                                                    March 23, 1999
+
+
+              (2)   Review and provide comments on all agencies supplements and
+              agency-unique directives relating to this policy.
+
+       b      Office of the Chief Information Officer-Telecommunications Services and
+       Operations will:
+
+              (1)   Assist the agencies in meeting addressing requirements as the
+              Department transitions to a geographically based Enterprise Network;
+
+              (2)     Maintain a USDA IP Addressing Plan. This plan will encompass
+              all addressing resources allocated to the Department, including a
+              geographic allocation plan for the unallocated portions of the Departments
+              8K (8192) Classless Inter-Domain Routing (CIDR) blocks of IP addresses.
+              The plan will be updated to meet the requirements of the USDA Enterprise
+              Network as it is developed.
+
+              (3)     Ensure that all addresses assigned under the allocation plan will be
+              advertised to the Internet through the Department’s Internet Access
+              Network and may not advertise their addresses through other Internet
+              service providers to include:
+
+                     (a)     Ensuring that the Departments 8K CIDR block will remain
+                     a single route advertisement to present a consistent external view
+                     to the Internet;
+
+                     (b)    Continually assessing the internal network topology to
+                     ensure that the advantages of routing efficiencies provided by the
+                     CIDR concept will be realized; and
+
+                     (c)    Reducing the number of internal routes thereby reducing
+                     the need to readdress end systems devices.
+
+              (4)     Coordinate the use from other USDA addressing resources or from
+              private network addresses described in RFC1918 to include:
+
+                     (a) Router-to-router Network Addressing will not be made from
+                     the 2.5K block; or
+
+                     (b)    If the OCIO/TSO determines that these network addresses
+                     need to be allocated from this 2.5K block of addresses, some of
+                     each sub-zone can be set aside for this purpose.
+
+              (5)     Determine if Class B and Class C Network addresses that are not
+              parts of the USDA 8K CIDR block used by agencies will remain on the
+              network.
+
+
+
+
+                                            5
+DR 3300-1                                                                 March 23, 1999
+
+
+            (6)    Coordinate with and assist the agencies in migrating to geography-
+            based IP addressing environment.
+
+            (7)     Receive and process agency IP Address Allocation request forms
+            for IP addresses; and
+
+            (8)     Maintain an electronic Network Information Base (NIB) data base
+            of IP Addresses, keeping it current and accurate by requesting yearly calls
+            for information from the agencies.
+
+       c    Agencies and Staff Offices will:
+
+            (1)   Designate an appropriate technical manager to be the IP
+            Addressing Custodian;
+
+            (2) Require the Custodian to develop an agency IP addressing plan that
+            efficiently distributes the IP addressing resource assigned to the agency.
+            The plan should contain procedures for accurately reporting the utilization
+            of the resource. This plan will be incorporated in the overall USDA IP
+            Addressing Plan maintained by the CIO;
+
+            (3)     Request assistance from OCIO/TSO, as necessary, in migrating
+            from existing, poorly utilized, address spaces to other portions of USDA’s
+            collective addressing space to include:
+
+                   (a) Establishing an active address management program to return
+                   resources no longer needed to the InterNIC.
+
+            (4)    Maintain and provide a complete electronic format inventory of IP
+            resources, including the following information for each network and/or
+            subnetwork address assigned:
+
+                   (a)     Network Address;
+
+                   (b)     Network Mask;
+
+                   (c)     Physical Location of the Network;
+
+                   (d)     Point-of-contact, responsible for network; management at
+                   the location to include a name, telephone number, e-mail address
+                   and a postal address; and
+
+                   (e)     The number of Host (or device) Addresses assigned;
+
+            (5)   Submit a request for IP Address Allocation to the USDA
+            Addressing Authority. Include justification for the resource being
+
+
+                                         6
+DR 3300-1                                                                  March 23, 1999
+
+
+            requested. For large address block requests, detail the request and
+            supporting justification to include:
+
+                   (a)     Total number and type of addresses being requested;
+
+                   (b)     Network description;
+
+                   (c) Total number of local area networks to be addressed;
+
+                   (d)     Number of devices in the network;
+
+                   (e) Future growth projections; and
+
+                   (f) Other supporting documentation to include any requirements
+                   analysis prepared for technical approval of the network;
+
+                   If the request represents an increase in existing address allocations,
+                   demonstration of efficient use of the existing resource should be
+                   provided. Currently the InterNIC expects a minimum of 25 percent
+                   utilization;
+
+            (6) Respond to queries concerning agency specific addresses. This may
+            include identifying an address and determining the individual responsible
+            for actions taken on the Internet or USDA networks using that address. All
+            information requested from outside the Department will be coordinated
+            through the OCIO. (See section “Agencies and Staff Offices will” in
+            Appendix I);
+
+            (7)   Develop and submit yearly an Individual Agency Network IP
+            Addressing Plan to include:
+
+                   (a)     Points-of-Contacts;
+
+                   (b)     Addressing Resource;
+
+                   (c)     Justification for Addressing Resource;
+
+                   (d)     Method of Address Distribution;
+
+                   (e)     Method of Recording Address Distribution;
+
+            (8)     Achieve at a minimum 25 percent IP address assignment
+            efficiency.
+
+
+
+
+                                         7
+DR 3300-1                                                                   March 23, 1999
+
+
+7      FORMS
+
+       Obtain IP address delegation from the USDA Addressing authority by submitting
+       form “USDA IP Network/Subnetwork Address Request Form.” (See Figure 1)
+
+
+
+       These forms are available from OCIO/TSO and may be obtained electronically
+       on-line and are located on the following computer host:
+
+              http://www.net.usda.gov/internet/resources/addresses/index.html
+
+
+
+8      DEFINITIONS
+
+       a       Address. The uniquely coded label assigned to an object, device, or item
+       of data to identify its location.
+
+       b       CIDR. CIDR is an IP addressing concept based on route aggregation.
+       Blocks of network addresses are grouped in binary (or power of two) groups
+       using network masks. In this way, large groups of addresses can be represented in
+       network routing tables as a single entry. This also yields management efficiencies
+       regarding security, accounting, and other network management activities. Within
+       the context of a network segment, each of these large groups can then be
+       subdivided along binary boundaries into smaller groups. The smaller groups then
+       can be allocated throughout the network segment and can even impact the way
+       allocations are made on individual LANs.
+
+       c       Domain. A defined set of applications, systems, users, or organizations
+       interrelated by virtue of being administered by a common authority.
+
+       d      InterNIC. The official network information center established by the
+       National Science Foundation (NSF) to provide and coordinate registration
+       services, directory and database services, and information services for the
+       NSFNET community of Internet users.
+
+
+
+
+                                            8
+DR 3300-1                                                                    March 23, 1999
+
+
+                                                Figure 1
+
+                         USDA IP Network/Subnetwork Address Request Form
+
+ To request IP addresses for your subnetwork, please complete this form. Any
+subnetworks servicing USDA personnel and personnel supporting the mission of USDA
+may apply. If you have any questions, please contact us at the address listed below.
+
+Request Date :
+
+Agency Information
+Name :
+Unit(s) :
+Address :
+
+Administrative Authority Information Technical Contact(s) Information
+Name:
+Title:
+Email:
+Voice:
+Fax:
+Postal:
+
+Is your network currently connected to the Internet? [ ]Yes[ ] No
+If so, please describe the connection point, method, and speed of access :
+
+Description of Network (Use Attachment if necessary):
+
+
+---------- Please send the completed form to :
+
+Email : Domain.Names@usda.gov
+Fax : 970/498-1660
+Address : USDA/OCIO/TSO
+3825 East Mulberry Street
+Fort Collins, CO 80524
+--------------------------------------------------------------------
+
+
+
+
+                                                     9
+

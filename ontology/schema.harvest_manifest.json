@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/harvest-manifest",
+  "title": "USDA Policy Harvest Manifest",
+  "description": "Top-level array in harvest_manifest.json enumerating every directive to be ingested by the OSCAL and Rego pipelines.",
+  "type": "array",
+  "items": { "$ref": "#/$defs/ManifestEntry" },
+  "minItems": 1,
+  "$defs": {
+    "ManifestEntry": {
+      "title": "ManifestEntry",
+      "description": "A single USDA directive entry linking its canonical label to its authoritative source URL and display title.",
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string",
+          "pattern": "^(DR|DM|SM|DN|DG)\\d{4}-\\d{3,4}(-[A-Z0-9]+)?$",
+          "description": "Unique directive identifier. Prefix encodes type: DR=Departmental Regulation, DM=Departmental Manual, SM=Secretary's Memorandum, DN=Departmental Notice, DG=Departmental Guideline. Optional suffix (e.g. -A, -01) distinguishes chapters of multi-file manuals.",
+          "examples": ["DR0100-001", "DM3505-005", "DR3300-001-A"]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Authoritative USDA directives portal URL for the source PDF or HTML document.",
+          "examples": ["https://www.usda.gov/directives/dr-0100-001"]
+        },
+        "title": {
+          "type": "string",
+          "description": "Human-readable directive title including the effective-date annotation when present.",
+          "examples": ["Preparing Departmental Directives (01/04/18)"]
+        }
+      },
+      "required": ["label", "url", "title"],
+      "additionalProperties": false
+    }
+  }
+}

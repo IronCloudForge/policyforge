@@ -1,0 +1,349 @@
+{
+  "catalog": {
+    "uuid": "2899abf2-ccbc-5ab8-95b2-e98bf31a40a2",
+    "metadata": {
+      "title": "USDA DR1490-002: Creative, Media and Broadcast Policy",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2011-08-04",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR1490-002"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2011-08-04"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-1490-002",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of, Communications, Creative",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SC",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-1490-002",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of, Communications, Creative"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "2fa9ba5f-1670-5ba8-95fe-ee251f445e10",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr1490-002-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr1490-002-1-stmt",
+                "name": "statement",
+                "prose": "This regulation prescribes policies and procedures for graphic design, video, audio and\n  video conferencing, multimedia, and broadcast activities for all agencies and staff offices\n  in USDA. The purpose is to ensure that the communications products of USDA are\n  produced in the most efficient and cost effective manner and provide the public with\n  accurate and timely information. This regulation takes precedence over any agency\n  regulations that are in conflict with the policies and procedures described herein."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bac4fd73-5b25-5a0f-a26e-03d5bf6f47da",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr1490-002-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr1490-002-2-stmt",
+                "name": "statement",
+                "prose": "This regulation supersedes DR 1470-001, “Policy for Visual Communication Standards”\n  and DR-1490-001, \"Broadcast Media and Technology Policy.\""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b63d3f71-ee19-5c48-b7a8-2186b193e201",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr1490-002-3",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr1490-002-3-stmt",
+                "name": "statement",
+                "prose": "The policy of USDA is to use print, exhibits, electronic/digital media, video, audio and\n  video conferencing, radio, and new and emerging technologies in the most efficient and\n  cost effective manner to communicate information about USDA and its programs to\n  various audiences including farmers and ranchers, land-grant universities, agribusiness\n  groups, the general public, and others. This policy also includes the application of\n  standards to all information products regardless of media.\n\n  The Creative Media and Broadcast Center (CMBC), Office of Communications,\n  oversees, directs, coordinates, produces, and/or contracts for graphic design, video, audio\n  and video conferencing, multimedia and broadcast activities of regional, national, and\n  international importance for USDA and its agencies and staff offices to ensure that\n  products are produced and disseminated in the most efficient and cost effective manner.\n\n  All graphic design, video, audio and video conferencing, multimedia and broadcast\n  services will be acquired using the principle of least cost to the taxpayer when all costs\n  are considered regardless of funding means and operational procedures, as well as other\n  appropriate contract evaluation criteria. As a Working Capital Fund (WCF) activity\n  center at USDA, CMBC will recapture operational costs for hours worked on product\n  development and production as defined by the WCF operation.\n  All work will be performed in accordance with the Department’s Visual Management\n  Manual, Visual Management Guides, and other guidance issued by the Office of\n  Communications."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e21f54c7-a89d-5b3b-aa6e-36a804292cdc",
+        "class": "section",
+        "title": "Authority",
+        "controls": [
+          {
+            "id": "dr1490-002-4",
+            "class": "policy-requirement",
+            "title": "Authority",
+            "parts": [
+              {
+                "id": "dr1490-002-4-stmt",
+                "name": "statement",
+                "prose": "The Director of the Office of Communications established this Departmental Regulation\n  pursuant to the authorities delegated at 7 CFR 2.36.\n\n\n                                           2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4254839e-681f-506f-9910-7a9ff945edfa",
+        "class": "section",
+        "title": "Applicability And Scope",
+        "controls": [
+          {
+            "id": "dr1490-002-5",
+            "class": "policy-requirement",
+            "title": "Applicability And Scope",
+            "parts": [
+              {
+                "id": "dr1490-002-5-stmt",
+                "name": "statement",
+                "prose": "This regulation applies to all agencies and staff offices of the USDA.\n\n  This regulation applies to all graphic design, video, audio and video conferencing,\n  multimedia and broadcast activities and all information products, regardless of media or\n  production technology, developed to provide information to the public on topics of\n  regional, national, or international significance. Information products may include, but\n  are not limited to, video and audio products, static and interactive presentations,\n  educational/advertising campaigns, print materials, exhibit/dimensional products,\n  signage, visitor centers, electronic/digital materials, and products intended for distribution\n  via the Internet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "66581029-abe2-5bb2-b623-3d1d99385167",
+        "class": "section",
+        "title": "Responsibilities",
+        "controls": [
+          {
+            "id": "dr1490-002-6",
+            "class": "policy-requirement",
+            "title": "Responsibilities",
+            "parts": [
+              {
+                "id": "dr1490-002-6-stmt",
+                "name": "statement",
+                "prose": "a. The Director, Office of Communications, will:\n\n      (1)    Exercise final review and approval of all public information material prepared\n             by the Department and its agencies and select the most effective method and\n             medium for distributing information to the intended audience.\n\n      (2)    Determine policy, procedures, and standards for the development of\n             Department and agency strategic communications plans and provide\n             centralized communication strategies for the Secretary and agencies, including\n             the creation, production and oversight of communication products.\n\n      (3)    Provide overall leadership, coordination, and centralized operational direction\n             for USDA and agency communication activities using graphic design, video,\n             audio and video conferencing, computer-based multimedia and radio so that\n             materials and messages effectively support USDA policies and programs in\n             the most efficient and cost effective manner.\n\n  b. The Audiovisual Manager will:\n\n      (1)    Provide general oversight, leadership, and coordination of audiovisual\n             activities for the Department. The Director of the Creative Media and\n             Broadcast Center serves as the Audiovisual Manager.\n\n  c. The Creative Media and Broadcast Center will:\n\n      (1)    Maintain a capability for in-house development of a variety of print, digital,\n             and dimensional products; videos; radio/TV features; public service\n\n\n                                            3\n\f       announcements (PSAs); multimedia content; and audio and video\n       conferencing. Such capability includes, but is not limited to, graphic design,\n       video production and direction, sound recording, multimedia\n       design/production, etc. The center procures and maintains appropriate\n       equipment and assets to perform these tasks, including but not limited to stock\n       footage library, graphics, animation, music library, and a production studio.\n\n (2)   Contract for graphic design, video, audio and video conferencing, multimedia\n       and broadcast services when deemed necessary. Contracted services may\n       include, but are not be limited to, directing, copy writing, script writing,\n       translations, graphics, illustrations, actors, narrators, original music,\n       captioning, and specialized production or fabrication services.\n\n (3)   Provide services and equipment needed for production of live teleconferences\n       and news conferences, including satellite uplinking and downlinking,\n       compressed videoconferencing, audio and video Web streaming.\n\n (4)   Provide services and equipment needed for the design and production of a\n       broad range of information products including presentations,\n       educational/advertising campaigns, print materials, exhibit and dimensional\n       products, and electronic/digital materials.\n\n (5)   Use Federal Supply Schedules and other approved sources for mass videotape\n       and multimedia (CD, DVD, etc.) duplication.\n\n (6)   Recapture operational costs for hours worked on print and exhibit design and\n       production, video and audio production, multimedia design and production,\n       and audio and video conferencing as prescribed for working capital fund units.\n\n (7)   Review and approve agency acquisitions of any video or audio production\n       equipment costing $10,000 or more.\n\n (8)   Provide cost estimates for graphic design, video, multimedia and\n       teleconference projects and provide periodic updates on actual expenses.\n\n (9)   Establish and maintain a library of master tapes or files representing every\n       video produced by CMBC. A duplicate master may be kept by the sponsoring\n       agency. After five years, CMBC will coordinate transfer to the National\n       Archives.\n\n(10)   Provide content for USDA's Video Network that includes an Employee\n       Informational Channel and provides off-air and cable TV news channels for\n       live viewing by selected locations throughout the USDA Washington\n       downtown complex and Washington area offices connected to CMBC.\n\n(11)   Operate and maintain the Department's on-line \"streaming server\" and provide\n\n\n                                    4\n\f          leadership and guidance to the Department in such use.\n\nd. Agency Administrators and Staff Office Heads will:\n\n    (1)   Ensure that graphic design, video and audio production, multimedia,\n          broadcasting, and audio and video conferencing activities occurring in their\n          respective agencies and offices comply with USDA regulations.\n\n    (2)   Ensure that graphic design, video and audio production, multimedia,\n          broadcasting, and audio and video conferencing planning in headquarters and\n          field offices is done in cooperation with the CMBC Director.\n\n    (3)   Ensure that broadcast-quality video products and footage originating in\n          agency and staff offices, whether at headquarters or in field offices, is made\n          available to CMBC for inclusion in USDA’s centralized video repository for\n          possible use in other USDA video efforts.\n\n    (4)   Work with the CMBC Director in complying with the policies for centralized\n          leadership and acquisition for graphic design, video and audio production,\n          multimedia, broadcasting, and audio and video conferencing services.\n\n    (5)   Direct staff to consult with CMBC on the planning and production of all print,\n          digital, and dimensional products, videos, multimedia productions, and\n          teleconferences of regional, national, and international importance.\n\n    (6)   Direct staff to meet with CMBC staff on each proposed project to formulate\n          budget and to discuss project specifics such as medium, format, audience,\n          purpose and message. Complete and submit form AD 652: Request for\n          Creative Services, to initiate work with CMBC.\n\n    (7)   Furnish qualified technical advisors or information experts to counsel CMBC\n          regarding agency policies and technical accuracy of subject matter depicted in\n          print, digital and dimensional products, videos, multimedia productions,\n          broadcasts and teleconferences.\n\n    (8)   Direct staff to organize information content per information product, allowing\n          for adequate planning, scheduling and production time to reduce costs to the\n          taxpayer.\n\n    (9)   Direct staff to provide CMBC with fully edited and cleared manuscripts from\n          the Office of Communication’s Brand, Events, Exhibits and Editorial Review\n          Division prior to initiating print design and production.\n\n   (10)   Direct staff to provide CMBC with cleared and approved photography from\n          Office of Communication’s Photography Services Division prior to initiating\n          product production.\n\n\n                                       5\n\f(11)   Direct staff to complete the review for accuracy of all text in all information\n       products, regardless of media, submitted by CMBC, within the timeframes\n       agreed upon, to maintain the already approved production schedules and avoid\n       incurring additional charges to the agency for change orders, including\n       schedule changes, author’s alterations, and modifications to contracts already\n       finalized.\n\n(12)   Provide sufficient funding and adequate production time per information\n       product to ensure final product meets all applicable access requirements\n       (including Architectural Barriers Act of 1968; Uniform Federal Accessibility\n       Standards; Architectural and Transportation Barriers Compliance Board\n       guidelines; and Americans with Disabilities Act of 1990, Section 508:\n       Electronic and Information Technology Accessibility Standards; and other\n       access laws, standards, or guidelines).\n\n(13)   Present a strategic communication plan or phase thereof to the Director of the\n       Office of Communications at the beginning of each fiscal year. Meet with the\n       CMBC Director in the last quarter of a fiscal year and review projected\n       service requirements for the coming fiscal year.\n\n(14)   Obtain written prior approval from the OC Director on promotions and new\n       appointments at any grade level in any visual information, video or broadcast\n       positions before personnel action is initiated. Visual information positions are\n       predominantly covered under Job Series 1084, visual information specialist.\n       Video positions are predominantly covered under Job Series 1071, audiovisual\n       production specialist.\n\n(15)   Ensure that Government employees will not appear as actors in Government\n       productions, except as permitted by OMB Circular No. A-130.\n\n(16)   Obtain written prior approval from the Director, CMBC for all proposed\n       purchases of video and audio equipment costing $10,000 or more. Requests\n       for exemption should be made in writing.\n\n(17)   Grants and cooperative agreements should not be used for the procurement of\n       multimedia and broadcast materials or services.\n\n(18)   Request an exemption from the Director, CMBC, to use Government\n       Schedules or other contracting mechanisms set up by USDA or other agencies\n       such as GSA to create multimedia or broadcast products with a value of over\n       $25,000. Requests for exemption should be in writing.\n\n(19)   Request an exemption from the Director, CMBC, to use Government\n       Schedules or other contracting mechanisms set up by USDA or other agencies\n       such as GSA to create print, digital, and exhibit/dimensional products with a\n\n\n                                    6\n\f                                                                                     s, visitor\n             center, or similar scope exhibit design and/or fabrication projects including\n             signage include a CMBC member or appointee.\n\n     (21)    If building construction contracts include visitor-center exhibit design and\n             fabrication, ensure that the specifications for the visitor center related work\n             are reviewed by CMBC staff prior to award."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9c88cef4-5195-5fd9-b442-ab582135f4d3",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr1490-002-7",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr1490-002-7-stmt",
+                "name": "statement",
+                "prose": "Costs. Costs include personnel, material, and equipment, related overhead expenses as\n  defined by the Working Capital Fund (WCF) board, as well as costs to expedite\n  production of any or all of the elements of a project due to slippages in schedule.\n\n  Audiovisual Manager. USDA's chief officer to manage the Department's audiovisual\n  production and to provide general oversight, leadership, and coordination of audiovisual\n  activities. The Director of the Creative Media and Broadcast Center serves as the\n  Audiovisual Manager.\n\n  Graphic Design. The art or profession of visual communication using various methods to\n  combine images and words to create a visual representation of ideas and messages to\n  convey information to an audience, especially to produce a specific effect.\n\n  Multimedia. The combination of audio, video, graphics, and animation using various\n  methods to convey information to an audience, especially to produce a specific effect.\n  Multimedia can be distributed in many forms, including, but not limited to, CD, DVD,\n  Flash, internet, computer, etc., and emerging technologies.\n\n  Audio and video conferencing. Electronic communication among three or more people at\n  two or more sites. This can be either through telephone line or satellite transmission."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6c2d148c-9ec5-51be-9c69-2e27fe9449be",
+        "class": "section",
+        "title": "Restrictions",
+        "controls": [
+          {
+            "id": "dr1490-002-8",
+            "class": "policy-requirement",
+            "title": "Restrictions",
+            "parts": [
+              {
+                "id": "dr1490-002-8-stmt",
+                "name": "statement",
+                "prose": "a. Influencing Legislation. USDA graphic design, video, audio and video conferencing,\n     multimedia and broadcast activities and products may discuss the pros and cons of\n     issues even after the issues have been introduced in bill form before either or both\n     Houses of Congress. However, at no time will the materials produced be used for\n     publicity or propaganda or to \"lobby\" by soliciting direct support of pending\n     legislation. Also, care must be taken not to be in the posture of \"selling\" pending\n     legislation. Every effort must be made to be sure content of print, exhibit,\n     digital/multimedia, video, audio, and broadcast products provide information in as\n     unbiased a manner as possible.\n\n\n                                           7\n\f  b. Endorsement, Commercial References, and Use of Brand Names. USDA's policy is to\n     avoid endorsement, directly or indirectly, of any commercial enterprise or product\n     whenever possible. However, it is recognized that occasions may arise when\n     mentioning or picturing specific commercial enterprises or products is in the public\n     interest or is difficult, if not impossible, to avoid. These occasions must be fully\n     justified."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f1f410a3-4a6c-5644-b87c-29d52486bbf7",
+        "class": "section",
+        "title": "Use Of Private Sector",
+        "controls": [
+          {
+            "id": "dr1490-002-9",
+            "class": "policy-requirement",
+            "title": "Use Of Private Sector",
+            "parts": [
+              {
+                "id": "dr1490-002-9-stmt",
+                "name": "statement",
+                "prose": "a. Use of Private Commercial Sources. CMBC will contract to the private sector as\n     needed for overflow work or for services not available in-house.\n\n  b. CMBC will consult with agencies to determine when graphic design, video, audio and\n     video conferencing, multimedia and broadcast products and services need to be\n     procured in part or total. Such products and services will be procured by CMBC in\n     accordance with OMB Circular A-76 and Office of Procurement and Property\n     Management (OPPM) policy guidance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c4c8867d-c7f1-59f5-9467-7b3ebea8b382",
+        "class": "section",
+        "title": "Exceptions",
+        "controls": [
+          {
+            "id": "dr1490-002-10",
+            "class": "policy-requirement",
+            "title": "Exceptions",
+            "parts": [
+              {
+                "id": "dr1490-002-10-stmt",
+                "name": "statement",
+                "prose": "Any exceptions or variations to any part of these regulations must be requested in writing\n  and approved prior to project initiation by the Director, Office of Communications."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bd0518b9-d300-5338-82f7-33dab22c5255",
+        "class": "section",
+        "title": "Planning Of Information Materials",
+        "controls": [
+          {
+            "id": "dr1490-002-11",
+            "class": "policy-requirement",
+            "title": "Planning Of Information Materials",
+            "parts": [
+              {
+                "id": "dr1490-002-11-stmt",
+                "name": "statement",
+                "prose": "In planning the development of information materials, agencies will confer with the\n  CMBC Director or his/her designee. Consideration will be given to alignment with the\n  agency strategic communications plan and/or the Department's strategic communications\n  objectives, cost effectiveness of proposed venture, desired objectives, adaptability of\n  subject matter to the selected medium, distribution, shelf life, audience size, and\n  coordination with other forms of communication. Agencies will schedule production\n  needs with CMBC with as much advance notice as possible."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "27721e5f-d19e-5b52-a441-112dd8f66682",
+        "class": "section",
+        "title": "Ownership Of Originals",
+        "controls": [
+          {
+            "id": "dr1490-002-12",
+            "class": "policy-requirement",
+            "title": "Ownership Of Originals",
+            "parts": [
+              {
+                "id": "dr1490-002-12-stmt",
+                "name": "statement",
+                "prose": "The original materials embodying works of authorship produced to fulfill the\n\n\n                                          8\n\f  requirements of a given project and for which USDA and agency funds are use wil\n  become the property of the Federal Government and will be under the care and\n  management of CMBC.\n  Copyright protection is not available for works prepared by an officer or employee of the\n  U.S. Government as part of that person’s official duties, but the Government is not\n  precluded from receiving copyrights from an outside source. When copyrighted subject\n  matter is to be reproduced or otherwise used, rights of sufficient scope must be obtained\n  to permit USDA to fulfill all program requirements. A copyright notice should be used\n  with copyrighted subject matter included in an information product."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e6a4022b-c2b1-5c6c-87a7-f93e0fe3b64d",
+        "class": "section",
+        "title": "Records Management Requirements",
+        "controls": [
+          {
+            "id": "dr1490-002-13",
+            "class": "policy-requirement",
+            "title": "Records Management Requirements",
+            "parts": [
+              {
+                "id": "dr1490-002-13-stmt",
+                "name": "statement",
+                "prose": "Nothing in this regulation will be construed as exempting the filing, controlling, and\n  scheduling of official record copies of visual and audiovisual materials and documents\n  from applicable records management requirements.\n\n\n                                       -END-\n\n\n\n\n                                          9"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "f28c05a4-a81f-59e8-9ecb-82a206f2c921",
+          "title": "USDA Directives — DR1490-002",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-1490-002",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

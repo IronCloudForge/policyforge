@@ -1,0 +1,263 @@
+{
+  "catalog": {
+    "uuid": "64af8806-0aa6-5d0a-8056-00d959465c2c",
+    "metadata": {
+      "title": "USDA DM3107-001: Management of USDA IT Enterprise Initiatives Procedures",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2016-05-18",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DM3107-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Manual"
+        },
+        {
+          "name": "effective-date",
+          "value": "2016-05-18"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dm-3107-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Initiatives Procedures                            Office of the Chief Information Officer, Enterprise Management",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dm-3107-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Initiatives Procedures                            Office of the Chief Information Officer, Enterprise Management"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "bc616691-74f0-58cf-9297-964942d674ed",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dm3107-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dm3107-001-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Manual (DM) establishes the United States Department of Agriculture\n     (USDA) process for identifying, evaluating, and designating information technology (IT)\n     related enterprise initiatives in the form of a recommendation to the USDA Chief\n     Information Officer (CIO). The intent of this DM is to promote the effective and efficient\n     sharing of IT resources across the entire organization to drive down costs and improve\n     customer service."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2662794d-5d10-5e5a-a3ae-ce4b652ec2ad",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dm3107-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dm3107-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DM transmits the procedures to implement Departmental Regulation (DR) 3107-\n          001, Management of USDA IT Enterprise Initiatives.\n\n     b.   This DM applies to all agencies and staff offices.\n\n     c.   Nothing in this DM is intended to supplant the delegation of authorities and\n          responsibilities of the USDA CIO, the USDA Chief Financial Officer (CFO), the\n          Assistant Secretary for Civil Rights, and/or the Assistant Secretary for Administration\n\f       under 7 Code of Federal Regulations (CFR) Part 2 or any other authorities otherwise\n       provided by law, Federal regulation, or USDA Departmental Regulation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "95f3f0b2-5da6-59d8-99bf-76ae3ace8e76",
+        "class": "section",
+        "title": "Authority",
+        "controls": [
+          {
+            "id": "dm3107-001-3",
+            "class": "policy-requirement",
+            "title": "Authority",
+            "parts": [
+              {
+                "id": "dm3107-001-3-stmt",
+                "name": "statement",
+                "prose": "The authority for this DM is derived from 7 CFR 2.89(a)(11)(x), and other Federal and\n  Departmental regulations which authorize the USDA CIO to improve the management and\n  operational effectiveness of information resources."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "47f69c92-de28-5fff-bd45-cfa8d3ca702e",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dm3107-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dm3107-001-4-stmt",
+                "name": "statement",
+                "prose": "Enterprise-wide IT initiatives present special opportunities and management challenges for\n  USDA, given its diverse set of missions and component agencies and staff offices. For\n  example, the pooling of USDA’s purchasing power across the entire enterprise to purchase a\n  commonly needed product can reduce the total cost of acquisition, but a shared investment in\n  a one-dimensional service may not deliver a useful solution for all agencies and staff offices\n  because of their mission diversity. The CIO Council (CIOC), established by the USDA CIO\n  and comprised of the USDA CIO and senior IT representatives from the Office of the Chief\n  Information Officer (OCIO) and agencies and staff offices, is uniquely positioned to evaluate\n  potential IT initiatives and designate (under the authority of the CIO) those with the highest\n  value as enterprise-level initiatives. The guidance in this DM is established to ensure that IT\n  enterprise-wide initiatives are effectively identified, evaluated and implemented to\n  accomplish the best possible value for USDA agencies, staff offices, and their customers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d2bdfe56-3b1d-5832-ba0c-4d0da3fea9a2",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dm3107-001-5",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dm3107-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   Executive Sponsor: The executive sponsor is a CIOC voting member from one USDA\n       agency or staff office involved in establishing or to benefit from the enterprise initiative.\n       The executive sponsor shall oversee the analysis and documentation process required for\n       the CIOC evaluation of an enterprise initiative.\n\n  b.   Initiative Owner: The initiative owner is an official from one USDA agency or staff\n       office involved in establishing an enterprise initiative and shall be accountable for the\n       establishment and management of an approved enterprise initiative, reporting initiative\n       status and measureable outcomes to the CIOC, and for reporting changes that affect the\n       viability and continued suitability of an initiative.\n\n  c.   IT Enterprise Initiative: Typically a methodology, product or service shared across\n       multiple agencies and/or staff offices. Examples of an IT enterprise initiative are:\n\n       (1) A common approach or set of technologies across the Department or across one or\n           more lines of business;\n\n\n\n                                                2\n\f       (2) An acquisition vehicle for use across the Department; or\n\n       (3) An application or service used across the Department or across one or more lines of\n           business.\n\n  d.   Mandatory Enterprise-wide Initiative: All Agencies and staff offices shall use the\n       enterprise-wide initiative for the functionality that it provides, unless exempted by the\n       USDA CIO.\n\n  e.   Optional Enterprise-wide Initiative: All organizational agencies and staff offices of the\n       enterprise shall consider and may use the enterprise initiative for the functionality that it\n       provides."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9378cec4-3ac2-5e3b-a141-aa917d73c929",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dm3107-001-6",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dm3107-001-6-stmt",
+                "name": "statement",
+                "prose": "a.   Identify: Consistent with the intent of this DM to promote the effective and efficient\n       sharing of IT resources, the CIOC can designate an IT initiative brought to its attention\n       as an enterprise-wide initiative. Although anyone can identify a prospective initiative,\n       candidate initiatives must be proposed to the CIOC by a voting member. The proposing\n       member must submit a Form AD-3107, Request for USDA CIO Council Action to the\n       CIOC Advisory Board Chair that justifies the enterprise-wide designation requested.\n\n  b.   Analyze: When an initiative is accepted by the CIOC as a candidate for enterprise-wide\n       initiative designation, the requester shall perform an Enterprise Initiative Analysis that\n       establishes the business case for the initiative supporting whether it should be mandatory\n       or optional according to the enterprise-wide scope defined in Section 6a of DR 3107-001\n\n       (1) When a mandatory enterprise-wide initiative is proposed, the CIOC will appoint an\n           Executive Sponsor to lead an Enterprise Initiative Evaluation Working Group,\n           which will conduct the enterprise-wide initiative analysis.\n\n       (2) When optional enterprise-wide initiatives are proposed, the CIOC may vote on the\n           designation at the same CIOC meeting during which the designation is first\n           proposed and, if approved, set an effective date for use on or after the date proposed\n           by the Executive Sponsor. If the CIOC determines that the proposed optional\n           enterprise-wide initiative is complex or high-impact, it may appoint an Executive\n           Sponsor to lead an Enterprise-wide Initiative Evaluation Working Group.\n\n       (3) Working Groups will include representation from the Office of the Chief\n           Information Officer’s Information Resources Management functional area to ensure\n           that, whenever applicable, the USDA Enterprise IT Governance Process is\n           followed.\n\n  c.   Act: For mandatory enterprise-wide initiatives or complex optional enterprise-wide\n       initiatives designated by the CIOC, the Executive Sponsor will present\n\n                                                3\n\f       recommendations to the CIOC following the completion of the Enterprise Initiative\n       Evaluation Working Group analysis. The completed Enterprise Initiative Analysis shall\n       be provided in advance of the CIOC vote regarding the designation and provide the\n       CIOC with all necessary information in detail, proportional to the proposed cost and\n       scope of the initiative. The CIOC will discuss the proposal, and either request additional\n       information from the Enterprise Initiative Evaluation Working Group or vote on the\n       designation of the proposed enterprise-wide initiative, including whether it shall be\n       mandatory or optional. If approved, the CIOC shall establish an effective date for the\n       execution of the shared approach implementation of each enterprise-wide initiative on or\n       after that proposed by the Executive Sponsor.\n\n  d.   Execute: The CIOC will designate an Initiative Owner to execute the enterprise-wide\n       initiative. The Initiative Owner will ensure that all existing USDA policies, procedures,\n       and governance processes (e.g., Capital Planning and Investment Control (CPIC), IT\n       Governance, Earned Value Management (EVM), Acquisition Approval Request (AAR),\n       Federal IT Dashboard) apply to approved enterprise-wide initiatives. The Initiative\n       Owner will report to the CIOC on initiative progress and outcome metrics until the\n       approach is deemed complete. For initiatives requiring or contemplating an enterprise-\n       level contract, the CIOC will coordinate with Office of Procurement and Property\n       Management (OPPM) to designate an acquisition specialist to support the initiative.\n\n  e.   Monitor: All approved IT enterprise-wide initiatives will be reviewed twice a year by\n       the CIOC at its January and June meetings, or as soon after as possible, to ensure\n       continued compliance with the criteria for IT enterprise-wide initiatives established in\n       Section 6b of DR 3107-001. The Initiative Owner shall update the CIOC whenever an\n       initiative is experiencing operational issues and risks that will impact agency and staff\n       office budgets or delivery of products or services. This review will leverage, if\n       applicable, existing reporting requirements and reports already required as part of the\n       CPIC, IT Governance, EVM, AAR, Federal IT Dashboard, and other existing\n       governance reporting/artifact requirements.\n\n  f. Consultation of the IT Enterprise Initiative Reference List: The IT Enterprise Initiative\n     Reference List is maintained by OCIO Enterprise Management for mandatory or optional\n     products or services. As part of the technology (IT) governance process, the Capital\n     Planning office and USDA Enterprise Architecture Architect using the Department’s\n     capital planning and enterprise architecture data management and reporting tools shall\n     request confirmation from a single submitting agency that the Reference List was\n     consulted, that mandatory initiatives (that involve technology investments) are being\n     used, and that optional initiatives (that involve technology investments) were considered\n     in advance of initiating any new product or service initiatives. If an initiative is not used\n     or considered, a reasonable justification must be provided."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3b8c0ff0-7d35-5862-adf1-6af1b423e999",
+        "class": "section",
+        "title": "Acronyms And Abbreviations",
+        "controls": [
+          {
+            "id": "dm3107-001-7",
+            "class": "policy-requirement",
+            "title": "Acronyms And Abbreviations",
+            "parts": [
+              {
+                "id": "dm3107-001-7-stmt",
+                "name": "statement",
+                "prose": "AAR        Acquisition Approval Request\n\n                                               4\n\f  AGAR          Agriculture Acquisition Regulation\n  CFO           Chief Financial Officer\n  CIO           Chief Information Officer\n  CIOC          Chief Information Officer Council\n  CFR           Code of Federal Regulations\n  CPIC          Capital Planning and Investment Control\n  DM            Departmental Manual\n  DR            Departmental Regulation\n  EVM           Earned Value Management\n  FITARA        Federal Information Technology Acquisition Reform Act\n  IT            Information Technology\n  OCIO          Office of the Chief Information Officer\n  OMB           Office of Management and Budget\n  OPPM          Office of Procurement and Property Management\n  P.L.          Public Law\n  U.S.C.        United States Code\n  USDA          United States Department of Agriculture"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b180f6b0-0286-568c-8fe9-e06f39571fc2",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dm3107-001-8",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dm3107-001-8-stmt",
+                "name": "statement",
+                "prose": "Authorities\n\n     Title 7 CFR Part 2, Delegations of Authority by the Secretary of Agriculture and the\n     General Officers of the Department\n\n     Title 7 CFR 2.89, Delegations of Authority from the Secretary to the Chief Information\n     Officer\n\n\n  References\n\n     Federal Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.)\n     113-291, Title VIII, Subtitle D, Sections 831-837\n\n     The Clinger-Cohen Act of 1996, 40 U.S.C. §§11312 et seq.\n\n     The Paperwork Reduction Act of 1995, 44 U.S.C. §3501 et seq.\n\n     Federal CIO, 25 Point Implementation Plan to Reform Federal Information Technology\n     Management, December 9, 2010\n\n     Office of Management and Budget (OMB), Circular A-130, Management of Federal\n     Information Resources, November 28, 2000, including policy regarding Information\n     Management and Information Systems and Information Technology Management -\n     Capital Planning, Enterprise Architecture, Security, Performance, and Acquisition\n\n                                              5\n\f     OMB, Federal Information Technology Shared Services Strategy, May 2, 2012\n\n     OMB Memorandum M-11-29, Chief Information Officer Authorities, August 8, 2011\n\n     OMB Memorandum M-13-08, Improving Financial Systems Through Shared Services,\n     March 25, 2013\n\n     OMB Memorandum M-13-09, Memorandum for the Heads of Executive Departments\n     and Agencies: Fiscal Year 2013 PortfolioStat Guidance: Strengthening Federal IT\n     Portfolio Management, March 27, 2013\n\n     USDA DR 3107-001, Management of USDA IT Enterprise Initiatives, month dd, 2016\n\n     USDA DR 3600-000, USDA Information and Technology Transformation, November 2,\n     2004\n\n     USDA DR 3630-001, USDA Enterprise Shared Services (ESS), June 1, 2005\n\n  Other Guidance\n\n     USDA, CIOC, Form AD-3107, Request for USDA CIO Council Action, May, 2016\n\n     USDA, CIOC, USDA CIO Council Advisory Board, Operations Manual, Version 1.0,\n     November 26, 2014\n\n     USDA, OCIO, Integrated IT Governance Framework: Guidebook, version 3.2, April 1,\n     2014\n\n     USDA, OCIO, USDA Information Technology Capital Planning and Investment Control\n     Guide, May 5, 2013\n\n     USDA, Office of Procurement and Property Management (OPPM), Agriculture Advisory\n     Regulation (AGAR) Advisory No. 101, Shared First Policy in USDA Contracts,\n     September 26, 2012"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4a9b2ff9-3c17-5701-b6c0-c65c258c6ca0",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dm3107-001-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dm3107-001-9-stmt",
+                "name": "statement",
+                "prose": "Inquiries regarding this DM should be directed to the USDA, OCIO, Executive Officer for\n  Enterprise Management.\n\n\n                                         -END-\n\n\n\n\n                                            6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "648c10a2-c4e9-5cef-924e-bca1bd6af027",
+          "title": "USDA Directives — DM3107-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dm-3107-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

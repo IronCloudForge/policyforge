@@ -1,0 +1,298 @@
+{
+  "catalog": {
+    "uuid": "2ada7a78-3e2a-5899-88a9-c3b00aec1552",
+    "metadata": {
+      "title": "USDA DR3145-001: Oversight and Management of the Federal Information Technology Acquisition Reform Act (FITARA)",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-05-07",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR3145-001"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-05-07"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-3145-001",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of the Chief Information Office – Information",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PE",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PL",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PM",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "RA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-3145-001",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of the Chief Information Office – Information"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "06e897ae-6274-59bb-a994-8af2553c4d73",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr3145-001-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr3145-001-1-stmt",
+                "name": "statement",
+                "prose": "a.   This Departmental Regulation (DR) establishes the United States Department of\n          Agriculture (USDA) policy governing the oversight and management of the Federal\n          Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113-291.\n\n     b.   FITARA requires that the USDA Chief Information Officer (CIO) coordinate FITARA-\n          related activities with other senior Department officials including the following: Chief\n          Financial Officer (CFO), Chief Acquisition Officer (CAO), Chief Operating Officer\n          (COO) (represented by the USDA Deputy Secretary), Senior Procurement Executive\n          (SPE), Chief Human Capital Officer (CHCO), and the Director, Office of Budget and\n          Program Analysis (OBPA).\n\n     c.   The USDA CIO, CFO, COO, CAO, SPE, CHCO, and OBPA, as a group, will be\n          identified in this DR as the Chief Executive Officers (CXO). The CXOs are tasked with\n          fully defining and understanding the costs of the Department’s information technology\n\f       (IT) investments, products, and services to be included and incorporated into the USDA\n       budget formulation, budget execution, acquisition, governance, program management,\n       information security, cybersecurity, and IT workforce planning processes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d9f39bbe-5af0-55a8-b07f-5b1dd248f1b9",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr3145-001-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr3145-001-2-stmt",
+                "name": "statement",
+                "prose": "a.   This DR supersedes DR 3145-001, Oversight and Management of the Federal\n       Information Technology Acquisition Reform Act (FITARA), dated September 13, 2016.\n\n  b.   This DR is effective immediately upon publication and remains in effect until it is\n       superseded or expires.\n\n  c.   All USDA Mission Areas, agencies, and staff offices will align their policies and\n       procedures, as appropriate, with this DR within 6 months of the published date.\n\n  d.   Nothing in this DR is intended to supplant the delegation of authorities and\n       responsibilities of the USDA CIO under 7 Code of Federal Regulations (CFR) § 2.32,\n       Chief Information Officer, or any other authorities otherwise provided by law, Federal\n       regulation, or USDA Departmental directives."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b35048b5-7262-589c-8539-322b7971d859",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr3145-001-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr3145-001-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all USDA Mission Areas, agencies, staff offices, employees, appointees,\n  contractors, and others who work for, or on behalf of, USDA and are tasked with the\n  accomplishment and implementation of the requirements identified in FITARA, OMB, and\n  USDA guidance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ba471b8a-ef18-5b94-91d3-4f891027a4c9",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr3145-001-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr3145-001-4-stmt",
+                "name": "statement",
+                "prose": "FITARA was enacted on December 19, 2014, and outlines specific requirements related to\n  Federal CIO authority enhancements; enhanced transparency and improved risk management\n  in IT investments; portfolio reviews; the Federal Data Center Consolidation Initiative\n  (DCOI); expansion of training and use of IT cadres; maximizing the benefit of the Federal\n  strategic sourcing initiative (SSI); Category Management and the Governmentwide software\n  purchasing program.\n\n  In order to provide more specific guidance for the implementation of FITARA, Office of\n  Management and Budget (OMB) issued Memorandum M-15-14, Management and Oversight\n  of Federal Information Technology. M-15-14 states that each covered Agency will:\n\n  a.   Conduct a self-assessment to identify current conformity and compliance;\n\n\n\n\n                                               2\n\f  b.   Develop an Agency Common Baseline implementation plan describing the changes to\n       be made to ensure that all OMB Common Baseline for IT Management and CIO\n       Assignment Plan (OMB Common Baseline) requirements would be implemented by\n       December 31, 2015; and\n\n  c.   Update the implementation progress in the Actions and Milestones Table document.\n\n  OMB also established an Actions and Milestones Table to track and identify the progression\n  of tasks related to the success of the common baseline implementation.\n\n  On May 15, 2018, Executive Order (E.O.) 13833, Enhancing the Effectiveness of Agency\n  Chief Information Officers, was signed by the President to implement successful IT\n  management practices from the private sector, enabling Agencies to reduce costs, better\n  protect sensitive data, and improve services offered to the public. The E.O. provides covered\n  Agency CIOs, as described in the Chief Financial Officers (CFO) Act of 1990, P.L. 101-576,\n  greater visibility into and control over their Agency’s IT resources, enhancing their\n  effectiveness and better positioning them to modernize their IT systems, execute IT programs\n  more efficiently, reduce cybersecurity risks, and serve the American people well.\n\n  In response to FITARA and objectives further delineated in M-15-14, USDA developed the\n  United States Department of Agriculture Federal Information Technology Acquisition\n  Reform Act Common Baseline and Implementation Plan (USDA Common Baseline Plan),\n  dated November 14, 2015, which further delineates the role of the USDA CIO in establishing\n  an inclusive, integrated governance process that manages IT as a strategic resource.\n\n  The USDA Common Baseline Plan establishes a framework for USDA to implement the\n  specific authorities that FITARA gives to the USDA CIO under the CFO Act of 1990 and\n  builds upon the responsibilities outlined in the Clinger-Cohen Act of 1996, 40 United States\n  Code (U.S.C.) § 11101 et seq. The OMB Common Baseline and USDA Common Baseline\n  Plan speak to the roles and responsibilities of the CXOs, which includes the USDA CIO.\n\n  In conjunction with the activities listed above, the USDA CIO, or designee, will engage at\n  the Departmental level and throughout all Mission Areas, agencies, and staff offices using IT\n  governance bodies and decision-making processes in the key areas of finance, budget,\n  acquisition, and human resources. The USDA CIO will engage directly with these\n  stakeholders, ensuring active involvement in policy decisions that are related to IT."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f3c55454-26c3-5052-9333-3355ce62c85c",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr3145-001-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr3145-001-5-stmt",
+                "name": "statement",
+                "prose": "a.   The USDA Deputy Secretary will ensure engagement at the Department level and within\n       the Mission Areas, agencies, and staff offices to consistently align USDA’s budget,\n       finance, acquisitions, governance, program management, human resources, information\n       security, cybersecurity, and IT communities to FITARA.\n\n\n\n\n                                              3\n\f  b.   The USDA CIO will use the enhanced authority provided under FITARA to ensure\n       greater transparency and risk management of IT investments; review of Mission Area,\n       agency, and staff office IT portfolios; consolidation of data centers; expansion of IT-\n       related training (e.g., acquisition, program management, networks, systems, contracting)\n       and use of IT cadres; maximizing the benefit of the Federal SSIs; Category\n       Management; and Federal software purchasing programs.\n\n  c.   The USDA Deputy Secretary will ensure all applicable policies, procedures, and\n       governance structures are consistent with FITARA’s requirements.\n\n  d.   The USDA CIO may, where authorized by FITARA, delegate authority for fulfilling\n       FITARA requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "78cc201e-faf5-5f78-86f3-aad6c458e723",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr3145-001-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr3145-001-6-stmt",
+                "name": "statement",
+                "prose": "All roles and responsibilities identified in FITARA, and further delineated in M-15-14, are in\n  effect. The USDA SPE may fulfill the CAO requirements identified in M-15-14, and the\n  USDA OBPA Director may fulfill the budget formulation requirements normally performed\n  by the CFO.\n\n  a.   The USDA Deputy Secretary, serving as the USDA COO, will:\n\n       (1) Serve as the Chair of the Executive Information Technology Investment Review\n           Board (E-Board);\n\n       (2) Finalize recommendations to the Secretary concerning major IT investments\n           proceeding through the USDA IT governance process;\n\n       (3) Review and prioritize the USDA major IT investments portfolio consulting with\n           USDA Under Secretaries and the USDA CIO, as necessary.\n\n       (4) Approve self-assessment and plan documents; and\n\n       (5) Oversee progress towards implementing FITARA actions within the USDA\n           Common Baseline Plan and the Actions and Milestones Table.\n\n  b.   The Assistant Secretary for Administration (ASA), serving as the CAO, will:\n\n       (1) Manage the overall IT acquisition strategy and IT contract portfolio for the\n           Department;\n\n       (2) Review the IT acquisition process in coordination with the USDA CIO, SPE, and\n           CFO to ensure FITARA requirements are met;\n\n\n\n\n                                              4\n\f     (3) Delegate policy and oversight aspects of IT acquisitions to the USDA SPE, as\n         appropriate; and\n\n     (4) Address other CAO responsibilities as outlined and updated in the USDA Common\n         Baseline Plan and the Actions and Milestones Table.\n\nc.   The USDA CIO will:\n\n     (1) Leadership and Accountability\n\n         (a) Report directly to the Secretary and or Deputy Secretary of Agriculture\n             regarding IT matters and receive management guidance from the Deputy\n             Secretary, serving as the Department’s COO;\n\n         (b) Designate a USDA Chief Information Security Officer (CISO);\n\n         (c) Develop a USDA assignment plan to delegate aspects of the USDA Common\n             Baseline Plan to other CXOs;\n\n         (d) Provide a delegation of authority memorandum to the Mission Area Assistant\n             CIOs, in a rules-based manner, if a Mission Area, agency, or staff office\n             assumes responsibility for a USDA Common Baseline Plan activity;\n\n         (e) Use PortfolioStat to improve the management of the USDA IT portfolio;\n\n         (f) Use TechStat sessions to review high-risk IT investments to recommend\n             termination or corrective actions; and\n\n         (g) Address other USDA CIO and OCIO responsibilities as outlined and updated\n             in the USDA Common Baseline Plan and the Actions and Milestones Table.\n\n     (2) IT Strategic Planning\n\n         (a) Establish goals for improving USDA operations through IT;\n\n         (b) Measure performance of how well IT supports USDA programs;\n\n         (c) Prepare an annual report on the progress of achieving the USDA IT strategic\n             planning goals;\n\n         (d) Benchmark USDA IT processes against the private and public sector; and\n\n         (e) Ensure that USDA IT processes are analyzed and revised as appropriate before\n             making significant IT investments.\n\n\n\n\n                                           5\n\f(3) IT Budget\n\n    (a) Fully participate in IT planning, programming, and budgeting decisions;\n\n    (b) Participate in the planning, programming, and budgeting stages for programs\n        that include IT resources;\n\n    (c) Designate a representative for participating in Mission Area, agency, and staff\n        office investment review boards that include IT resources;\n\n    (d) Review and approve funding for IT reprogramming requests (i.e., changes in\n        funding levels for IT resources that require Congressional notification);\n\n    (e) Define, in consultation with the CFO and OBPA Director, the level of detail\n        with which IT resource levels are described distinctly from other resources\n        throughout the planning, programming, and budgeting stages;\n\n    (a) Evaluate whether to continue, modify, or terminate any acquisition,\n        investment, or activity that includes a significant IT component and advise the\n        Secretary;\n\n    (f) Coordinate with the Secretary and the USDA CFO to ensure that financial\n        systems are approved and effectively implemented;\n\n    (g) Manage IT investments and advise and assist the USDA Secretary, Deputy\n        Secretary, Under Secretaries, Mission Area Assistant CIOs, and executive\n        governance boards, in the following:\n\n        1    Executing IT investments;\n\n        2    IT governance oversight; and\n\n        3    Improving IT personnel capabilities;\n\n    (h) Define Departmentwide policy for the level of detail of planned IT expenditure\n        reporting for all transactions that include IT resources;\n\n    (i) Review and approve the IT budget requests in collaboration with the Director,\n        OBPA and other appropriate CXO as it relates to their scope of responsibility\n        (e.g., financial, acquisition, human resources, property); and\n\n    (j) Establish and maintain a process to regularly engage with program managers to\n        evaluate IT resources supporting each Mission Area, agency, and staff office\n        strategic objective.\n\n\n\n\n                                       6\n\f(4) Acquisition\n\n    (a) Maintain an inventory of data centers and a strategy to consolidate and\n        optimize them;\n\n    (b) Manage the IT execution decision and the governance and oversight processes\n        related to IT;\n\n    (c) Define overall policies for capital planning, enterprise architecture, project\n        management, and reporting for IT resources;\n\n    (d) Participate, or designate a representative, on executive level governance boards\n        that include IT resources, including Mission Area, agency, and staff office\n        investment review boards;\n\n    (e) Certify that IT investments are adequately implementing incremental\n        development, as defined in capital planning guidance issued by OMB; and\n\n    (f) Review and approve IT contracts, acquisition plans, and acquisition strategies.\n\n(5) IT Organization and Workforce\n\n    (a) Annually assess the requirements established for Mission Area personnel\n        regarding IT management knowledge and skills;\n\n    (b) Annually assess the extent to which USDA personnel meet IT management and\n        information security knowledge and skill requirements;\n\n    (c) Annually report to the Secretary of Agriculture on progress made in improving\n        IT personnel capabilities;\n\n    (d) Annually develop strategies for hiring and training to rectify any knowledge\n        and skill deficiencies;\n\n    (e) Collaborate with the Office of Human Resources Management (OHRM) in\n        establishing a documented process for:\n\n        1    Review and concurrence of performance assessments for Mission Area\n             Assistant CIO positions at the Senior Executive Service (SES), Senior\n             Level (SL), and General Schedule (GS)-15 level; and\n\n        2    USDA CIO involvement in the recruitment and selection of SES, SL, and\n             GS-15 Mission Area Assistant CIO positions;\n\n    (f) Provide guidance to Mission Areas on recruitment and selection activities for\n        Mission Area Assistant CIO positions in collaboration with OHRM. “Mission\n\n\n\n                                        7\n\f        Area Assistant CIO” is defined as SES, SL, or GS-15 positions classified as\n        having a key IT role for a component organization;\n\n    (g) Provide guidance to Mission Areas in establishing and implementing a formal\n        documented process for the USDA CIO’s involvement in the performance\n        evaluation of Mission Area Assistant CIOs in collaboration with the OHRM;\n\n    (h) Recommend approval or disapproval of a proposed Mission Area Assistant\n        CIO recruitment or reassignment action based on the needs of the Department\n        before any staffing activities begin;\n\n    (i) Review and approve the hiring manager’s tentative executive and non-\n        executive Mission Area Assistant CIO selection;\n\n    (j) Develop proposed mandatory language for the Office of the Chief Information\n        Officer (OCIO) performance goals annually; no later than 30 days before the\n        beginning of the new performance year;\n\n    (k) Provide ongoing feedback, with documentation, to Mission Area Assistant\n        CIOs throughout the performance year;\n\n    (l) Provide input into the Mission Area Assistant CIO performance evaluations;\n\n    (m) Ensure the USDA IT Leadership Directory as identified in the OMB Common\n        Baseline is populated, kept up-to-date, and posted in concert with the CHCO;\n        and\n\n    (n) Establish a set of technical, and as applicable, leadership, competency\n        requirements for all IT staff to ensure that USDA can:\n\n        1    Anticipate and respond to changing mission requirements;\n\n        2    Maintain workforce skills in a rapidly developing IT environment; and\n\n        3    Recruit and retain the IT talent needed to accomplish the mission.\n\n(6) Information Security\n\n    (a) Ensure that senior USDA officials, including the Mission Area Assistant CIOs,\n        carry out their information security responsibilities, through delegation of\n        authority to the USDA CISO; and\n\n    (b) Ensure that USDA personnel are held accountable for complying with the\n        Departmentwide information security program, through delegation of authority\n        to the USDA CISO.\n\n\n\n\n                                       8\n\fd.   The USDA CFO will:\n\n     (1) Collaborate with the USDA CIO and his or her staff in overall portfolio planning of\n         IT investments;\n\n     (2) Provide guidance and advice for capturing spending data that will be electronically\n         accessible by the USDA CIO to assist in evaluating the compliance of investments;\n         and\n\n     (3) Address other CFO and Office of the Chief Financial Officer (OCFO)\n         responsibilities as outlined and updated in the USDA Common Baseline Plan and\n         the Actions and Milestones Table.\n\ne.   The Director, OBPA will:\n\n     (1) Coordinate with the USDA CIO in the development of guidance for Mission Area,\n         agency, and staff office submissions of IT-related budget materials throughout all\n         stages of the budget formulation process;\n\n     (2) Collaborate with the USDA CIO in the review and analysis of budget and other\n         funding proposals with IT impacts;\n\n     (3) Collaborate with the USDA CIO on the annual development and signature of a joint\n         certification letter;\n\n     (4) Collaborate with the USDA CIO for the Department’s Strategic Planning and\n         Performance Management activities;\n\n     (5) Meet with the USDA CIO before the start of the annual budget formulation process\n         to develop joint guidance and agree to a calendar of deliverables and data requests\n         for USDA;\n\n     (6) Coordinate with the USDA CIO in the development of guidance on budgetary\n         reprogramming activities and associated Congressional notification requirements\n         where there is an impact on IT; and\n\n     (7) Address other OBPA responsibilities as outlined and updated in the USDA Common\n         Baseline Plan and the Actions and Milestones Table.\n\nf.   The Director, Office of Contracting and Procurement (OCP), serving as the SPE, will:\n\n     (1) Establish policy regarding the acquisition of IT products and services and ensuring\n         that IT procurements comply with all applicable laws, regulations, guidance, and\n         procedures;\n\n\n\n\n                                            9\n\f     (2) Collaborate with the USDA CIO to issue IT policy related to the acquisition of IT\n         products and services, including policy to ensure IT acquisitions are approved by\n         the USDA CIO prior to obligating funds;\n\n     (3) Ensure contract actions that contain IT are consistent with CIO approved\n         acquisition strategies and plans; and\n\n     (4) Address other USDA SPE and OCP responsibilities as outlined and updated in the\n         USDA Common Baseline Plan and the Actions and Milestones Table.\n\ng.   The USDA Director, OHRM, serving as the CHCO, will:\n\n     (1) Administer USDA human resources and human capital policies for all IT positions;\n\n     (2) Provide technical guidance and direction for IT-related human resources functions\n         to ensure compliance with Federal regulations and USDA policies;\n\n     (3) Notify the USDA CIO of any proposed SES, SL, or Scientific and Professional (ST)\n         Mission Area Assistant CIO recruitment actions for consultation regarding position\n         structure and recruitment strategies;\n\n     (4) Review and either approve or recommend changes to proposed mandatory\n         performance plan language for Mission Area Assistant CIOs within 5 working days\n         of receiving it from the USDA CIO;\n\n     (5) Provide annual guidance on establishing performance plans specifying the approved\n         mandatory language for executive level Mission Area Assistant CIOs;\n\n     (6) Advise the CIO on any collective bargaining agreement implications related to\n         competency requirements;\n\n     (7) In collaboration with the USDA CIO, establish a set of technical competency\n         requirements for all IT staff;\n\n     (8) Notify the CIO of the need to participate on recruitment boards for staffing SES\n         Mission Area Assistant CIO positions;\n\n     (9) Provide technical guidance and direction for all IT related human resource functions\n         to ensure compliance with Federal regulations and USDA policies;\n\n     (10) In concert with the USDA CIO, ensure the USDA IT Leadership Directory is\n          populated, kept up-to-date, and posted as identified in the OMB Common Baseline;\n          and\n\n     (11) Address other CHCO and OHRM responsibilities as outlined and updated in the\n          USDA Common Baseline Plan and the Actions and Milestones Table.\n\n\n\n                                           10\n\fh.   The USDA Associate Chief Information Officer (ACIO), Information Resource\n     Management Center (IRMC) will:\n\n     (1) Collaborate with OHRM, OCP, the IT Workforce Program Manager, and FITARA\n         Operations Director in identifying, analyzing, and addressing IT workforce\n         competency gaps;\n\n     (2) Develop technical solutions for the Mission Area Assistant CIOs performance plan\n         scorecards;\n\n     (3) Participate on governance boards, as appropriate; and\n\n     (4) Address other IRMC responsibilities as outlined and updated in the USDA Common\n         Baseline Plan and the Actions and Milestones Table.\n\ni.   The USDA IRMC Director, FITARA Operations will:\n\n     (1) Establish the processes and procedures that will bring USDA into compliance with\n         FITARA;\n\n     (2) Assist USDA Mission Areas, agencies, and staff offices in establishing\n         management practices that align IT resources with the Department’s strategic\n         missions, goals, programmatic priorities, and statutory requirements as related to\n         FITARA processes;\n\n     (3) Establish Departmentwide IT management controls that meet FITARA\n         requirements while providing Mission Areas, agencies, and staff offices with the\n         flexibility to adapt to Department processes and unique mission requirements;\n\n     (4) Establish and update, as needed, the USDA Common Baseline Plan roles,\n         responsibilities, and authorities of the USDA CIO and the roles and responsibilities\n         of other applicable CXOs for managing IT as a strategic resource\n\n     (5) Assist the Mission Areas, agencies, and staff offices to strengthen the USDA CIO’s\n         accountability for IT cost, schedule, performance, and security;\n\n     (6) Provide Department-level oversight that will ensure consistent Departmentwide\n         interpretation and use of FITARA terms and requirements;\n\n     (7) Lead the Department’s effort in establishing and executing an inclusive IT\n         governance process that will enable effective planning, programming, budgeting,\n         and execution for IT resources;\n\n     (8) Receive, review, and provide recommendations to the USDA CIO on policy waiver\n         exceptions;\n\n\n\n                                            11\n\f     (9) In keeping with FITARA provisions, provide appropriate visibility and involvement\n         of the USDA CIO in the management and oversight of IT resources across the\n         USDA; and\n\n     (10) Address other FITARA Operations Director and OCIO responsibilities as outlined\n          and updated in the USDA Common Baseline Plan and the Actions and Milestones\n          Table.\n\nj.   The USDA Associate CIO, Client Experience Center (CEC) will:\n\n     (1) Collaborate with the USDA CIO, SPE, and CFO communities and Director,\n         FITARA Operations to identify, analyze, and address IT Category Management key\n         principles to acquire and manage the organization’s common requirements in a\n         more collaborative and coordinated way;\n\n     (2) Work closely with the Federal IT Category Manager to develop and implement IT\n         category-specific strategies, including, but not limited to, gathering Departmental\n         sales and pricing data, and developing teams of experts;\n\n     (3) Report to the Federal IT Category Manager, OMB, and other interested parties on\n         the success of IT Category Management through the assessment of metrics,\n         including increasing savings, reducing duplication, increasing spend under\n         management, achieving Governmentwide small business goals, and other relevant\n         category management issues; and\n\n     (4) Address other IT Category Management responsibilities as outlined and updated in\n         the USDA Common Baseline Plan and the Actions and Milestones Table.\n\nk.   USDA Mission Area Assistant CIOs will:\n\n     (1) Review and approve annual and multi-year planning, programming, budgeting, and\n         execution decisions as well as all management, governance, and oversight processes\n         related to the Mission Area IT;\n\n     (2) Develop Mission Area IT budget proposals and IT reprogramming requests in\n         collaboration with the USDA CIO and OBPA Director;\n\n     (3) Provide oversight and management of IT investments as presented in the USDA\n         Common Baseline Plan and the Action and Milestones Table for their respective IT\n         portfolios;\n\n     (4) Ensure that program managers define IT performance metrics and strategies to\n         support fulfillment and traceability of Departmental strategic objectives defined in\n         the USDA Strategic Plan FY 2018 – 2022;\n\n\n\n\n                                            12\n\f       (5) Develop SES, SL, ST, and GS-15 recruitment packages in coordination with the\n           USDA CIO and OHRM Director to include, but not limited to:\n\n           (a) Making tentative selections;\n\n           (b) Obtaining the USDA CIO’s approval on tentative selections; and\n\n           (c) Notifying the USDA CIO of any proposed actions for pre-consultation;\n\n       (6) Develop performance plans that contain the USDA CIO’s performance goals;\n\n       (7) Ensure persons applying for positions with IT-related competencies are made aware\n           of the requirements when applying for the position;\n\n       (8) Ensure persons currently occupying positions with new IT-related competencies are\n           made aware of the requirements and given tools, resources, and a deadline for\n           attaining them;\n\n       (9) Address any employee’s failure to attain the necessary IT competencies;\n\n       (10) Update Mission Area policies, processes, and procedures based on guidance from\n            the CXOs’ policies and procedures, and FITARA-related policies and guidance;\n\n       (11) Ensure the Mission Area achieves and maintains the highest maturity level in IT\n            management; and\n\n       (12) Support implementation of FITARA requirements as provided for in M-15-14."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5c35cebf-4054-5a2b-beac-43da5dcf49e5",
+        "class": "section",
+        "title": "Compliance",
+        "controls": [
+          {
+            "id": "dr3145-001-7",
+            "class": "policy-requirement",
+            "title": "Compliance",
+            "parts": [
+              {
+                "id": "dr3145-001-7-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices will comply with this DR and other\n       USDA policies and guidance by providing the required FITARA products identified in\n       the USDA Common Baseline Plan and the Actions and Milestones Table.\n\n  b.   Mission Areas, agencies, and staff offices not able to create the required products must\n       submit a waiver request as noted in Section 8 of this DR."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "68f48d09-e03a-5ab5-b3ea-82921b76be50",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr3145-001-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr3145-001-8-stmt",
+                "name": "statement",
+                "prose": "a.   All USDA Mission Areas, agencies, and staff offices are required to conform to this\n       policy. If a policy requirement cannot be met as explicitly stated, the Mission Area,\n       agency, or staff office may submit a waiver request memorandum. These waiver\n       requests will explain the reason for the request, identify compensating controls and\n       actions that meet the intent of the policy, and identify how the compensating\n\n\n\n                                              13\n\f       controls/actions provide a similar or greater level of compliance than the policy\n       requirement.\n\n  b.   Mission Areas, agencies, and staff offices will address all policy waiver request\n       memoranda to the USDA CIO and submit the request for review and determination to\n       AgITGovernance@ocio.usda.gov, with “FITARA” in the subject line. Upon receipt of\n       requests, the FITARA Operations Director will review and provide recommendations to\n       the USDA CIO."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d5ce84cb-6d49-5212-9fae-53972ce09bcb",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr3145-001-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr3145-001-9-stmt",
+                "name": "statement",
+                "prose": "Direct all questions concerning this DR to the FITARA Operations Director at\n  AgITGovernance@ocio.usda.gov, with “FITARA” in the subject line.\n\n\n                                            -END-\n\n\n\n\n                                              14\n\f                               APPENDIX A\n\n                  ACRONYMS AND ABBREVIATIONS\n\n\nACIO      Associate Chief Information Officer\nASA       Assistant Secretary for Administration\nCAO       Chief Acquisition Officer\nCEC       Client Experience Center\nCFO       Chief Financial Officer\nCFR       Code of Federal Regulations\nCHCO      Chief Human Capital Officer\nCIO       Chief Information Officer\nCIOC      Chief Information Officer Council\nCISO      Chief Information Security Officer\nCOO       Chief Operating Officer\nCXO       Chief Executive Officers (senior USDA officials such as a CAO, CFO,\n          CHCO, CIO, COO)\nDCOI      Data Center Optimization Initiative\nDM        Departmental Manual\nDR        Departmental Regulation\nE-Board   Executive Information Technology Investment Review Board\nE.O.      Executive Order\nFITARA    Federal Information Technology Acquisition Reform Act\nFOIA      Freedom of Information Act\nFSSI      Federal Strategic Sourcing Initiative\nFY        Fiscal Year\nGS        General Schedule\nIRM       Information Resources Management\nIRMC      Information Resource Management Center\nIT        Information Technology\nOBPA      Office of Budget and Program Analysis\nOCFO      Office of the Chief Financial Officer\nOCIO      Office of the Chief Information Officer\nOCP       Office of Contracting and Procurement\nOHRM      Office of Human Resources Management\nOMB       Office of Management and Budget\nP.L.      Public Law\nSES       Senior Executive Service\nSL        Senior Level\nSPE       Senior Procurement Executive\nSSI       Strategic Sourcing Initiative\nST        Scientific and Professional\nU.S.C.    United States Code\nUSDA      United States Department of Agriculture\n\n\n\n\n                                    A-1\n\f                                          APPENDIX B\n\n                            AUTHORITIES AND REFERENCES\n\n\nAccountability, 40 U.S.C. § 11316\n\nAgency Chief Information Officer, 40 U.S.C. § 11315\n\nCapital Planning and Investment Control, 40 U.S.C. § 11302\n\nCapital Planning and Investment Control, 40 U.S.C. § 11312\n\nChief Financial Officers (CFO) Act of 1990, P.L. 101-576, November 15, 1990\n\nChief Information Officer, 7 CFR § 2.32\n\nClinger-Cohen Act of 1996, 40 U.S.C. § 11101 et seq., February 10, 1996\n\nE.O. 13833, Enhancing the Effectiveness of Agency Chief Information Officers, May 15, 2018\n\nFederal agency responsibilities, 44 U.S.C. § 3506\n\nFederal Information Technology Acquisition Reform Act (FITARA), P.L. 113-291, December\n19, 2014, as amended\n\nGeneral Services Administration, Federal Strategic Sourcing Initiative (FSSI)\n\nOMB, Circular A-130, Memorandum for Heads of Executive Departments and Agencies:\nManagement of Federal Information Resources, November 28, 2000, revised\n\nOMB, Federal Chief Information Officer and Administrator, Office of Information and\nRegulatory Affairs Memorandum, Applying FITARA Baseline to Statistical Agencies and Units,\nMay 4, 2016\n\nOMB, M-12-10, Implementing PortfolioStat, March 30, 2012\n\nOMB, M-13-09, Fiscal Year 2013 PortfolioStat Guidance: Strengthening Federal IT Portfolio\nManagement, March 27, 2013\n\nOMB, M-15-14, Management and Oversight of Federal Information Technology, June 10, 2015\n\nOMB, M-16-02, Category Management Policy 15-1: Improving the Acquisition and\nManagement of Common Information Technology: Laptops and Desktops, October 16, 2015\n\n\n\n\n                                              B-1\n\fOMB, M-16-12, Category Management Policy 16-1: Improving the Acquisition and\nManagement of Common Information Technology: Software Licensing, June 2, 2016\n\nOMB, M-16-14, Category Management Policy 16-2: Providing Comprehensive Identity\nProtection Services, Identity Monitoring, and Data Breach Response, July 1, 2016\n\nOMB, M-16-19, Data Center Optimization Initiative (DCOI), August 1, 2016\n\nOMB, M-16-20, Category Management Policy 16-3: Improving the Acquisition and\nManagement of Common Information Technology: Mobile Devices and Services, August 4, 2016\n\nOMB, M-18-12, Implementation of the Modernizing Government Technology Act, February 27,\n2018\n\nPerformance and Results-Based Management, 40 U.S.C. § 11313\n\nResources, Planning, and Portfolio Management, 40 U.S.C. § 11319\n\nUSDA, Actions and Milestones Table\n\nUSDA, Departmental Manual (DM) 3107-001, Management of USDA IT Enterprise Initiatives\nProcedures, May 18, 2016\n\nUSDA, DR 3105-001, USDA Chief Information Officers Council, April 6, 2016\n\nUSDA, DR 3107-001, Management of USDA IT Enterprise Initiatives, May 12, 2016\n\nUSDA, DR 3111-001, Departmental Long-Range IRM Planning, February 2, 1989\n\nUSDA, DR 3130-008, Definition of Major Information Technology Investments, August 13,\n2020\n\nUSDA, DR 3130-009, Non-Major Information Technology (IT) Investments, September 28, 2020\n\nUSDA, DR 3130-010, United States Department of Agriculture Enterprise Information\nTechnology Governance, December 3, 2015\n\nUSDA, DR 3130-011, Information Technology Program and Project Manager Certification\nRequirements, February 4, 2016\n\nUSDA, DR 3130-012, Information Technology Cost Estimating, March 4, 2016\n\nUSDA, DR 3130-013, Information Technology Capital Planning and Investment Control, July 8,\n2016\n\nUSDA, DR 3185-001, Enterprise Architecture, July 29, 2019\n\n\n\n                                           B-2\n\fUSDA, DR 3545-001, Information Security Awareness and Training Policy, October 22, 2013\n\nUSDA, DR 3620-001, USDA eLearning Services, Courseware and Content, September 9, 2019\n\nUSDA, Office of the Chief Information Officers Process Guide: Recruitment and Performance\nManagement\n\nUSDA, OHRM Advisory 2016-006, Federal Information Technology Acquisition Reform Act\n(FITARA) Implementation, July 6, 2016\n\nUSDA, Contracting Desk Book\n\nUSDA, Secretary’s Memorandum 1076-033, Realignment of the USDA Departmental FOIA\nOffice, September 24, 2019\n\nUSDA, Secretary’s Memorandum 1076-034, Realignment of the Office of the Chief Information\nOfficer, September 30, 2019\n\nUSDA, Strategic Plan FY 2018 – 2022, May 2018\n\nUSDA, Agriculture Acquisition Regulation\n\nUSDA, United States Department of Agriculture Federal Information Technology Acquisition\nReform Act Common Baseline and Implementation Plan, version 2.0, November 14, 2015\n\n\n\n\n                                            B-3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "e58b8ddf-8be7-5e27-a4ff-494c1d84d57f",
+          "title": "USDA Directives — DR3145-001",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-3145-001",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

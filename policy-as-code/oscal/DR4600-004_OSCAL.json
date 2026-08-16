@@ -1,0 +1,288 @@
+{
+  "catalog": {
+    "uuid": "8f205b9c-74c6-51a0-9507-88db95f18ea0",
+    "metadata": {
+      "title": "USDA DR4600-004: Foreign Visits and Assignments Vetting",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2021-05-27",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4600-004"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2021-05-27"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4600-004",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Office of Homeland Security, May 27, 2026",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AC",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "CP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "IR",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "PS",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SA",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SR",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4600-004",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Office of Homeland Security, May 27, 2026"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b7986bb5-3f5e-52ee-9235-32504f7eac70",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4600-004-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4600-004-1-stmt",
+                "name": "statement",
+                "prose": "This Departmental Regulation (DR) establishes the United States Department of Agriculture\n     (USDA) policy for processing and vetting non-United States (U.S.) Citizen visits and\n     assignments."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b8352d0c-37e5-5672-afe9-5f6c46f21add",
+        "class": "section",
+        "title": "Special Instructions/Cancellations",
+        "controls": [
+          {
+            "id": "dr4600-004-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellations",
+            "parts": [
+              {
+                "id": "dr4600-004-2-stmt",
+                "name": "statement",
+                "prose": "a.   This directive is effective upon publication and remains in effect until it is superseded or\n          expires.\n\n     b.   This regulation supersedes the following memoranda:\n\f      (1) Memorandum from James R. Moseley, Deputy Secretary, Office of the Secretary\n          (OSEC), Termination of USDA Sponsorship of Foreign Research Scientists and\n          Submission of Waiver Recommendations for Foreign Physicians, February 27,\n          2002.\n\n      (2) Memorandum from James R. Moseley, Deputy Secretary, OSEC, USDA\n          Sponsorship of Non-citizens to Work in USDA Facilities, May 6, 2003.\n\n      (3) Memorandum from Edward Knipling, Administrator, Agricultural Research Service\n          (ARS), Clearance Procedures for Non-Citizens to Work in ARS Facilities, May 19,\n          2003.\n\n      (4) Memorandum Update from Edward Knipling, Administrator, ARS, Non-citizens in\n          ARS Facilities, May 10, 2004.\n\n      (5) Memorandum from Mr. Todd H. Repass, Jr., Director, Office of Homeland Security\n          and Emergency Coordination (OHSEC), Strengthening U.S. Department of\n          Agriculture Visitor Policy, May 21, 2014."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1a56c112-671b-5980-8ded-76c179c43c62",
+        "class": "section",
+        "title": "Scope",
+        "controls": [
+          {
+            "id": "dr4600-004-3",
+            "class": "policy-requirement",
+            "title": "Scope",
+            "parts": [
+              {
+                "id": "dr4600-004-3-stmt",
+                "name": "statement",
+                "prose": "This DR applies to all Mission Areas, agencies, staff offices, USDA operated facilities (e.g.,\n  owned, leased, occupied) in the U.S., Federal employees, and any category of non-Federal\n  person who performs duties in partnership with or on behalf of USDA, such as a consultant,\n  contractor, cooperator, affiliate, advisor, fellow, volunteer, student, or intern, whether onsite\n  or by remote access."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d7b34b1a-5dd0-5cf9-9194-501a17f35825",
+        "class": "section",
+        "title": "Background",
+        "controls": [
+          {
+            "id": "dr4600-004-4",
+            "class": "policy-requirement",
+            "title": "Background",
+            "parts": [
+              {
+                "id": "dr4600-004-4-stmt",
+                "name": "statement",
+                "prose": "USDA is mandated by Executive Order (E.O.) 12977, Interagency Security Committee (ISC),\n  to protect Government property and facilities; restrict access to certain areas and materials;\n  protect sensitive and Controlled Unclassified Information (CUI); and ensure the health,\n  safety, and security of Federal and non-Federal employees in our facilities. In fulfilling this\n  mandate, USDA strives to take necessary actions and implement systems in a manner that\n  protects its interests without negatively impacting its domestic and international cooperation\n  efforts and the fulfillment of needs that are dependent upon collaboration.\n\n  Collaboration with domestic and foreign governments, organizations, and individuals has\n  always been a critical component of USDA’s ability to carry out its mission. These\n  collaborations benefit USDA and the Nation by strengthening and advancing scientific\n  research and development, enhancing understanding of agricultural and natural resource\n  management issues, and allowing nations to pool resources to work together, particularly in\n  emergency situations.\n\n\n\n\n                                                2\n\f  USDA must take appropriate security precautions that allow the Department to meet its\n  needs while also managing risks in accordance with best practices identified by the ISC.\n  Certain non-U.S. Citizen access to Federal facilities and information requires close\n  coordination with security elements. The goal of non-U.S. Citizen vetting is an\n  understanding of the individual’s background to determine the risks associated with granting\n  access to the Department’s facilities, personnel, programs, information, and systems.\n\n  In addition, USDA must strengthen its protections of its Research and Development (R&D)\n  against foreign government interference and exploitation by controlling access to and\n  utilization of our research facilities and information in accordance with National Security\n  Presidential Memorandum (NSPM) 33, United States Government-Supported Research and\n  Development National Security Policy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "19596ca3-fd5f-514a-a144-cc1a04504151",
+        "class": "section",
+        "title": "Policy",
+        "controls": [
+          {
+            "id": "dr4600-004-5",
+            "class": "policy-requirement",
+            "title": "Policy",
+            "parts": [
+              {
+                "id": "dr4600-004-5-stmt",
+                "name": "statement",
+                "prose": "a.   The following categories of non-U.S. citizens require a name trace check:\n\n       (1) Any non-U.S. Citizen, to include all Lawful Permanent Residents (LPR), working\n           on assignment with USDA in the U.S., whether onsite or by remote access, whose\n           assignment would include access to CUI or protected information, restricted spaces,\n           or access to the USDA Information Technology (IT) architecture. This applies to\n           Federal employees and any category of non-Federal person working with USDA,\n           such as a J-1 Visa Exchange Visitor, consultant, contractor, cooperator, affiliate,\n           advisor, fellow, volunteer, student, intern, or research collaborator. This also\n           includes university affiliated individuals that may have such access during\n           collaborations with USDA.\n\n       (2) Any non-U.S. Citizen, to include all LPRs, visiting a USDA facility in the U.S.\n           whose visit would include access to CUI or protected information, restricted spaces,\n           or access to the USDA IT architecture.\n\n       (3) Any non-U.S. Citizen, to include all LPRs, visiting or on assignment at USDA in\n           the U.S. whose country of nationality is listed on the U.S. Department of State\n           (DOS) State Sponsors of Terrorism website. (see State Sponsors of Terrorism\n           Requests subsection 5c below).\n\n       (4) Any non-U.S. Citizen, to include all LPRs, visiting or on assignment at USDA in\n           the U.S. that the Department, Mission Area, agency, or staff office considers to be\n           an increased security concern due to the subject matter that will be discussed or the\n           sensitivity of the location.\n\n  b.   The following categories of non-U.S. citizens do not require a name trace check:\n\n       (1) Any non-U.S. Citizen, including a family member, visiting or on assignment at a\n           USDA facility in the U.S. who will not access CUI or protected information,\n\n\n\n                                               3\n\f           restricted spaces, or have access to the USDA IT architecture. The individual must\n           not be national from a country listed on the DOS State Sponsors of Terrorism\n           website.\n\n       (2) Dual U.S. Citizens.\n\n       (3) Any foreign diplomat whose sole purpose of their visit is to meet with a principal\n           from the Office of the Secretary (i.e., Secretary, Deputy Secretary, Chief of Staff,\n           Deputy Chief of Staff, and Under Secretary offices).\n\n       (4) Any non-U.S. Citizen attending an event that is open to the public on USDA\n           property. Visitors in public areas or to events open to the public may be provided\n           alternate security instructions by the Chair of the Facility Security Committee.\n\n       (5) Any non-U.S. Citizen receiving a waiver from the Director of the Office of\n           Homeland Security (OHS) with USDA, including State Sponsors of Terrorism\n           requests.\n\n  c.   Visitor access requests to a USDA facility in the U.S. for non-U.S. Citizens from a\n       country on the DOS State Sponsors of Terrorism website require approval by the\n       Agency Administrator, or Staff Office Director before the visit can be approved. Once\n       approved, subsequent access requests to the hosting site for the same non-U.S. Citizen\n       may be approved by the Approval Authority for that USDA facility.\n\n  d.   Once OHS issues a favorable name trace response, the sponsoring designated Foreign\n       Visits and Assignments (FVA) point of contact (POC) must prepare, submit, and receive\n       approval on a Request for Approval memorandum before allowing a non-U.S. Citizen\n       from a country on the DOS State Sponsors of Terrorism website to visit or be assigned\n       to a USDA facility.\n\n  e.   The name trace check supplements, but does not replace, any required credentialing,\n       fitness, or suitability background investigation requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e5795302-b5b8-5ab1-a07b-35ddae1cb2bf",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr4600-004-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr4600-004-6-stmt",
+                "name": "statement",
+                "prose": "a.   The Secretary of Agriculture, in accordance with 7 Code of Federal Regulations (CFR) §\n       2.95, has delegated responsibility for matters relating to anti-terrorism,\n       counterintelligence, and insider threats to the OHS Director.\n\n  b.   The OHS Director will:\n\n       (1) Determine the overall policy for the vetting of non-U.S. citizens visiting or on\n           assignment to USDA;\n\n\n\n\n                                               4\n\f     (2) Provide guidance to the designated FVA POCs for the implementation of USDA's\n         vetting program and monitor compliance across USDA;\n\n     (3) Conduct initial name trace checks as requested by Mission Areas, agencies, and\n         staff offices, and subsequent name trace checks every 2 years at a minimum, as part\n         of continuous vetting;\n\n     (4) Develop and maintain an internal tracking system to track name trace checks,\n         assessments, and access denials;\n\n     (5) Serve as the POC for intelligence agencies on any potential counterintelligence (CI)\n         or insider threat issue concerning non-U.S. Citizens at USDA facilities;\n\n     (6) Educate Designated FVA POC(s) about the DOS State Sponsors of Terrorism\n         website;\n\n     (7) Distribute billing rates for name trace checks from the Department of Homeland\n         Security (DHS) each fiscal year to the Designated FVA POCs; and\n\n     (8) Maintain all name trace records in accordance to the National Archives and Records\n         Administration (NARA), General Records Schedule (GRS) 5.6: Security Records\n         (Items 110 and 111, Visitor Processing Records), and DR-3080-001, Records\n         Management.\n\nc.   Mission Areas, Agencies, Staff Offices Heads or Designated Officials will:\n\n     (1) Ensure visitor management controls are in place at their respective facilities;\n\n     (2) Assign at least one primary FVA POC and one alternate FVA POC for their\n         organization, and provide those assignments in writing to the OHS Director;\n\n     (3) Ensure internal policies and procedures provide uniform and standardized\n         guidelines for non-U.S. Citizen visits and assignments;\n\n     (4) Support and implement this policy throughout their respective facilities;\n\n     (5) Fund name trace checks for their respective facilities;\n\n     (6) Respond to OHS CI or insider threat inquiries on requests for information\n         pertaining to non-U.S. Citizens in their respective facilities; and\n\n     (7) Ensure requests to visit a USDA facility in the U.S. for non-U.S. Citizens from a\n         country listed on the DOS State Sponsors of Terrorism website receive approval at\n         the Mission Area, Agency, or Staff Office Administrator level before the visit is\n         allowed.\n\n\n\n\n                                             5\n\fd.   Designated FVA POCs will:\n\n     (1) Maintain, at a minimum, a public trust position designation;\n\n     (2) Centrally manage foreign access management for their Mission Area, agency, or\n         staff office;\n\n     (3) Create and maintain a centralized, secure, unclassified non-U.S. Citizen visitor\n         tracking database until a Departmentwide visitor tracking system is available;\n\n     (4) Be familiar with the DOS State Sponsors of Terrorism website;\n\n     (5) Work with hosts to ensure required name trace checks are requested prior to a non-\n         U.S. Citizens arrival date at a USDA facility in the U.S.;\n\n     (6) Provide OHS with statistical data and reports from their respective tracking\n         databases, as requested;\n\n     (7) Periodically conduct tracking system compliance checks to ensure information in\n         the database is up-to-date and accurate, to include marking individuals as inactive\n         upon departure from USDA;\n\n     (8) Coordinate and process any State Sponsors of Terrorism justification requests and\n         non-U.S. Citizen name trace exceptions for review and approval; and\n\n     (9) Maintain related documentation on non-U.S. citizens in accordance with the NARA\n         GRS 5.6: Security Records (Items 110 and 111), and DR-3080-001.\n\ne.   Hosts will:\n\n     (1) Update their Mission Area, agency, or staff office non-U.S. Citizen visitor tracking\n         database with all required data for each non-U.S. Citizen visitor or assignee,\n         including the start and end dates for each period of activity;\n\n     (2) Ensure all required information is included in the submission of a non-U.S. Citizen\n         name trace check request and that the request is submitted within the timeframe\n         provided by OHS that are necessary in order to receive a timely result prior to the\n         estimated arrival date;\n\n     (3) Ensure that non-U.S. Citizen visitors do not access unauthorized areas (in\n         accordance with their site security plan), CUI or protected information, restricted\n         spaces, or USDA IT architecture;\n\n     (4) Ensure the non-U.S. Citizen on assignment does not have access to USDA assets\n         outside of their scope of work;\n\n\n\n\n                                             6\n\f       (5) Ensure all non-U.S. Citizen visitors are escorted by a USDA Federal employee at\n           all times, or as deemed appropriate by their facility Security Plan or local operating\n           procedures;\n\n       (6) Notify the OHS Personnel and Document Security Division (PDSD), Classified\n           National Security Information Staff (CNSIS) at CNSIS@usda.gov if there are\n           specific security concerns regarding proximity to secure space; and\n\n       (7) Respond to OHS requests for information needed to conduct name trace checks\n           under continuous vetting.\n\n  f.   USDA Employees or Non-Federal Persons Acting for or on Behalf of USDA will:\n\n       (1) Complete any required CI or Insider Threat awareness training assigned in AgLearn\n           based on their position; and\n\n       (2) Report any potential security anomalies, suspicious behavior, concerns, or incidents\n           regarding non-U.S. Citizen visitors or assignees to OHS at CI@usda.gov. A\n           favorable name trace check or background investigation does not eliminate all risk.\n           Contact your local law enforcement or nearest Federal Bureau of Investigation\n           (FBI) field office if you have any immediate national security or terrorism concerns.\n           You can locate the appropriate FBI field office by visiting the FBI Field Offices\n           webpage. The FBI will coordinate with USDA on reported concerns."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "63eaae85-2d8d-5f0b-bc53-71ddad22a3ed",
+        "class": "section",
+        "title": "Penalties And Disciplinary Actions For Non-Compliance",
+        "controls": [
+          {
+            "id": "dr4600-004-7",
+            "class": "policy-requirement",
+            "title": "Penalties And Disciplinary Actions For Non-Compliance",
+            "parts": [
+              {
+                "id": "dr4600-004-7-stmt",
+                "name": "statement",
+                "prose": "a.   DR 4070-735-001, Employee Responsibilities and Conduct, Section 16 sets forth USDA\n       policy, procedures, and standards on employee responsibilities and conduct regarding\n       the use of computers and telecommunications equipment. DR 4070-735-001, Section\n       21, states that a violation of any of the responsibilities and conduct standards contained\n       in this directive may be cause for disciplinary or adverse action; and\n\n  b.   Such disciplinary or adverse action will be affected in accordance with applicable law\n       and regulations, such as Office of Personnel Management and Office of Management\n       and Budget regulations, and Title 5 CFR § 2635, Standards of Ethical Conduct for\n       Employees of the Executive Branch."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "125e1f3c-4e2a-5205-a8c9-3a0b3aaf68a4",
+        "class": "section",
+        "title": "Policy Exceptions",
+        "controls": [
+          {
+            "id": "dr4600-004-8",
+            "class": "policy-requirement",
+            "title": "Policy Exceptions",
+            "parts": [
+              {
+                "id": "dr4600-004-8-stmt",
+                "name": "statement",
+                "prose": "Non-U.S. Citizen Name Trace Exceptions\n\n  The OHS Director may grant exceptions in extraordinary circumstances, if a Mission Area,\n  agency, or staff office is unable to meet the submission timeliness and completion of a name\n  trace check before a non-U.S. Citizen arrives at a USDA facility in the U.S. This exception\n\n\n\n                                               7\n\f  will allow the individual to come onsite. The individual must have a continual Federal\n  employee escort and will not be allowed computer network access (standalone use only) until\n  favorable completion of the name trace. The waiver request must be in writing, justify the\n  immediate need, and must be signed by the Under Secretary, or responsible agency or staff\n  office head."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cb212044-c99e-5919-b323-18794c80cfa0",
+        "class": "section",
+        "title": "Inquiries",
+        "controls": [
+          {
+            "id": "dr4600-004-9",
+            "class": "policy-requirement",
+            "title": "Inquiries",
+            "parts": [
+              {
+                "id": "dr4600-004-9-stmt",
+                "name": "statement",
+                "prose": "All USDA Mission Areas, agencies, and staff offices will direct questions and inquiries\n  regarding this DR to FVALiaison@usda.gov.\n\n\n                                           -END-\n\n\n\n\n                                              8\n\f                             APPENDIX A\n\n                 ACRONYMS AND ABBREVIATIONS\n\n\nARS      Agricultural Research Service\nCFR      Code of Federal Regulations\nCI       Counterintelligence\nCNSIS    Classified National Security Information Staff\nCUI      Controlled Unclassified Information\nDHS      Department of Homeland Security\nDOS      Department of State\nDR       Departmental Regulation\nE.O.     Executive Order\nFBI      Federal Bureau of Investigation\nFVA      Foreign Visits and Assignments\nGRS      General Records Schedule\nISC      Interagency Security Committee\nIT       Information Technology\nLPR      Lawful Permanent Resident\nMOA      Memorandum of Agreement\nNARA     National Archives and Records Administration\nNCSC     The National Counterintelligence and Security Center\nNSPM     National Security Presidential Memorandum\nODNI     Office of the Director of National Intelligence\nOHS      Office of Homeland Security\nOHSEC    Office of Homeland Security and Emergency Coordination (Now OHS)\nOSEC     Office of the Secretary\nPDSD     Personnel and Document Security Division (OHS Component)\nPOC      Point of Contact\nR&D      Research and Development\nU.S.     United States\nU.S.C.   United States Code\nUSDA     United States Department of Agriculture\n\n\n\n\n                                 A-1\n\f                                          APPENDIX B\n\n                                         DEFINITIONS\n\n\nCollaboration. Individuals, groups, or organizations working with USDA through partnerships,\nagreements, or formal arrangements for the purpose of mutually agreed upon objectives.\n\nContinuous Vetting. The ongoing assessment of an individual, at any time, to determine whether\nthe individual continues to meet the requirements for employment or assignment.\n\nControlled Unclassified Information (CUI). Unclassified information that requires safeguarding\nand dissemination controls pursuant to law, regulation, or Governmentwide policy, as listed in\nthe NARA CUI Registry website.\n\nDesignated Agency POC. The individual who has been assigned the responsibility and\naccountability to carry our foreign access management for their agency.\n\nDesignated FVA POC. The individual who has been assigned the responsibility and\naccountability to carry out foreign visits and assignments management for their agency.\n\nDual U.S. Citizen. Dual citizenship (or dual nationality) means a person may be a citizen of the\nUnited States and of another country at the same time.\n\nFacility Security Committee Chairperson. The highest-ranking official of the primary occupant\nagency of a Federal facility, or alternatively, a designee selected by mutual agreement of tenant\nagency officials.\n\nForeign Access. A potentially exploitable proximity to or ability by non-U.S. Citizens to access\ninformation, personnel, systems, technologies, facilities, resources, and programs that expose an\norganization to loss or compromise.\n\nForeign Visits and Assignments (FVA). The management of risks and threats and accompanying\nprotective measures, focused on mission critical engagement with foreign representatives or\nforeign counterparts. With non-U.S. Citizen screening at its nucleus: log, track, correlate,\nanalyze, and assess all non-U.S. Citizen access to personnel, information, facilities, programs,\nand systems to identify, prepare for, and mitigate the security risks.\n\nForeign National (or Non-U.S. Citizen). A person who was born outside the jurisdiction of the\nUnited States, who is subject to some foreign government, and who has not been naturalized\nunder U.S. law.\n\nForeign National Assignment (or Non-U.S. Citizen Assignment). A non-U.S. Citizen working at\na USDA facility in the U.S., whether onsite or remotely, whose assignment requires access to\nCUI or protected information, restricted spaces, or the USDA IT architecture. This applies to\nFederal employees and any category of non-Federal person working with USDA, such as a J-1\n\n\n\n                                               B-1\n\fVisa Exchange Visitor, consultant, contractor, cooperator, affiliate, advisor, fellow, volunteer,\nstudent, intern, or research collaborator. This also includes university affiliated individuals that\nmay have such access during collaborations with USDA.\n\nForeign National Visit (or Non-U.S. Citizen Visit). A non-U.S. Citizen who is visiting a USDA\nfacility in the U.S. and who will not have access to CUI or protected information, restricted\nspaces, or the USDA IT architecture. All non-U.S. Citizen visitors must be escorted at all times\nby a USDA Federal employee, or as deemed appropriate by their facility Security Plan or local\noperating procedures.\n\nHost. A USDA Federal employee who is hosting a non-USDA employee or contractor who will\naccess a USDA facility, program, system, or information. Hosts are responsible for ensuring\nadherence to all related security requirements.\n\nJ-1 Visa Exchange Visitor. A non-immigrant visa issued by the United States to research\nscholars, professors, and exchange visitors participating in programs that promote cultural\nexchange, especially to obtain medical or business training within the United States\n\nLawful Permanent Resident (LPR). As defined by the Department of Homeland Security (DHS),\nlawful permanent residents (LPR), also known as “green card” holders, are non-U.S. citizens\nwho are lawfully authorized to live permanently within the United States. LPRs may accept an\noffer of employment without special restrictions, own property, receive financial assistance at\npublic colleges and universities, and join the Armed Forces. They also may apply to become\nU.S. citizens if they meet certain eligibility requirements. Name trace checks will be conducted\non all LPRs regardless of the amount time spent residing in the U.S.\n\nName Trace. A vetting process that includes making queries against existing intelligence\ncommunity and law enforcement databases to identify potential issues from a national security,\ncounterintelligence, anti-terrorism, or insider threat perspective.\n\nState Sponsors of Terrorism. Countries that the Department of State has listed as State Sponsors\nof Terrorism because of their identified sponsorship of groups and or activities supporting\nterrorism or terrorist activities.\n\nVisitor. Any individual entering a USDA operated facility that does not possess a USDA issued\nidentification badge.\n\n\n\n\n                                                 B-2\n\f                                     APPENDIX C\n\n                         AUTHORITIES AND REFERENCES\n\n\n5 CFR § 2635, Standards of Ethical Conduct for Employees of the Executive Branch\n\n7 CFR § 2.95, Director, Office of Homeland Security\n\nCounterintelligence Enhancement Act of 2002, Public Law 107-306, Title IX,\nCounterintelligence Activities, November 27, 2002, codified at 50 U.S.C. § 3382, as\namended\n\nDHS, Cybersecurity and Infrastructure Security Agency, Interagency Security Committee,\nFacility Access Control, An Interagency Security Committee Best Practice, 2020 Edition\n\nDOS, State Sponsors of Terrorism website\n\nE.O. 12977, Interagency Security Committee, October 19, 1995\n\nE.O. 13556, Controlled Unclassified Information, November 4, 2010\n\nFBI, Field Offices webpage\n\nMemorandum of Agreement (MOA) between the Department of Homeland Security (DHS),\nOffice of the Chief Security Officer, and the United States Department of Agriculture\n(USDA), OHSEC, December 15, 2016\n\nNational Archives and Records Administration (NARA), CUI Registry website\n\nNARA, General Records Schedule 5.6: Security Records, April 2020\n\nNational Security Presidential Memorandum (NSPM) 33, United States Government-\nSupported Research and Development National Security Policy, January 14, 2021\n\nOffice of the Director of National Intelligence (ODNI), National Counterintelligence\nStrategy for the United States of America, 2016\n\nODNI, National Counterintelligence and Security Center (NCSC), Countering Foreign\nIntelligence Threats: Implementation and Best Practices Guide, June 2017\n\nOffice of the National Counterintelligence Executive, Defensive Counterintelligence\nProgram Blueprint, 2010\n\nUSDA, DR 3080-001, Records Management, August 16, 2016\n\n\n\n\n                                           C-1\n\fUSDA, DR 3440-002, Control and Protection of “Sensitive Security Information,” January\n30, 2003\n\nUSDA, DR 4070-735-001, Employee Responsibilities and Conduct, October 4, 2007\n\n\n\n\n                                        C-2\n\f                                    APPENDIX D\n\n                            SAMPLE MEMORANDUM\n\nAPPROVAL REQUEST FOR A VISIT OR ASSIGNMENT BY A NON-U.S. CITIZEN\n   FROM A COUNTRY ON THE STATE SPONSORS OF TERRORISM LIST\n\n\nDate:\n\nTo:      (Agency Administrator, or equivalent)\n         (Title, Mission Area, agency, staff office)\n\nFrom:    (Name of Designated Agency POC)\n         (Title, Agency)\n\nSubject: APPROVAL REQUEST FOR A VISIT OR ASSIGNMENT BY A NON-U.S.\n         CITIZEN FROM A COUNTRY IDENTIFIED ON THE STATE SPONSORS OF\n         TERRORISM LIST\n\nAccess requests to a USDA facility in the U.S., restricted spaces, or Controlled\nUnclassified Information (CUI) or protected information, for non-U.S. Citizens from a\ncountry listed on the Department of State’s State Sponsors of Terrorism website, require\napproval before the visit can be approved. Request details are provided below. Additional\nlanguage may be attached to elaborate on the purpose or justification for the visit or\nassignment.\n\nINDIVIDUAL’S FULL NAME:\n\nCOUNTRY OF CITIZENSHIP:\n\nUSDA FACILITIES TO BE ACCESSED:\n\nANTICIPATED VISIT START AND END DATES:\n\nPURPOSE OF ACCESS (INCLUDE ANY CUI or PROTECTED INFORMATION THAT\nWILL BE DISCUSSED):\n\nAGENCY JUSTIFICATION FOR ACCESS (Include desired outcome, extraordinary need\nfor the visit or skills, how USDA will benefit from the visit):\n\nIS ACCESS TO USDA IT NETWORK REQUIRED? YES ☐ or NO ☐\n\nHAS OHS COMPLETED THE NAME CHECK PROCESS? YES ☐ or NO ☐\n\nWAS THE NAME CHECK RESULT FAVORABLE? YES ☐ or NO ☐\n\n\n                                         D-1\n\fInformation regarding the name trace check can be obtained from USDA’s Office of\nHomeland Security (OHS). A security clearance may be required to discuss results.\n\nThe non-U.S. Citizen will be escorted at all times while in a USDA facility by a Federal\nemployee. Subject matter advice, including questions on the purpose and justification\npertaining to this visit, can be obtained from the following onsite host:\n\nName of Host: __________________________ Organization: _________________\n\nSignature of Host: ______________________ Telephone Number: _________________\n,\n\nAUTHORIZATION\n\nI certify that I have reviewed the request for the above non-U.S. Citizen and considered all\nthe sensitivity factors associated with the requested access to USDA sites, programs,\ninformation, or technologies. I have sought additional advice from the on-site Host, agency\nor office FVA POC, or OHS, when appropriate, to address any concerns to my satisfaction.\nMy determination is consistent with the professional standards and practices used to ensure\nany risk to the Government associated with access approval is appropriately identified and\nevaluated.\n\nBy checking APPROVED below, I certify that, in my opinion, the benefits to USDA are\ngreater than the risks associated with the presence of the non-U.S. Citizen and that all DR\nrelated terms and conditions associated have been met.\n\nBy checking DENIED below, I certify that, in my opinion, the risks associated with the\npresence of the non-U.S. Citizen outweigh the benefits to USDA.\n\n\nName of Approving Official (Agency Administrator, or equivalent):\n\n_______________________\n\nSignature of Approving Official:\n\n________________________\n\n\nVisit or assignment has been: APPROVED ☐ DENIED ☐\n\n\n\n\n                                         D-2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "85390287-f37b-57ed-bb43-8e25413ede83",
+          "title": "USDA Directives — DR4600-004",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4600-004",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

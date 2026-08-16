@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://usda.gov/policy-forge/schemas/directive",
+  "title": "Directive",
+  "description": "The `directive` constant declared at the top of every Rego module. Carries the authoritative metadata for one USDA departmental directive.",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "pattern": "^(DR|DM|SM|DN|DG)\\d{4}-\\d{3,4}(-[A-Z0-9]+)?$",
+      "description": "Unique directive label. Example: DR0100-001, DM3505-005, DR3300-001-A."
+    },
+    "title": {
+      "type": "string",
+      "description": "Official directive title as extracted from the document header."
+    },
+    "directive_type": {
+      "type": "string",
+      "enum": [
+        "Departmental Regulation",
+        "Departmental Manual",
+        "Secretary's Memorandum",
+        "Departmental Notice",
+        "Departmental Guideline"
+      ],
+      "description": "Directive classification derived from the label prefix (DR/DM/SM/DN/DG)."
+    },
+    "effective_date": {
+      "type": "string",
+      "description": "ISO-8601 date on which the directive became effective, or 'Unknown' when not parseable from the document header.",
+      "examples": ["2018-01-04", "Unknown"]
+    },
+    "expiration_date": {
+      "type": "string",
+      "description": "ISO-8601 date on which the directive expires. Present only when an explicit expiration date appears in the document header.",
+      "examples": ["2027-12-31"]
+    },
+    "opi": {
+      "type": "string",
+      "description": "Office of Primary Interest — the USDA office responsible for maintaining the directive.",
+      "examples": ["Office of the Chief Financial Officer"]
+    },
+    "nist_families": {
+      "type": "array",
+      "description": "NIST SP 800-53 Rev5 control family codes inferred from directive content using keyword mapping.",
+      "items": {
+        "type": "string",
+        "enum": ["AC","AT","AU","CA","CM","CP","IA","IR","MA","MP","PE","PL","PM","PS","PT","RA","SA","SC","SI","SR"]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Authoritative USDA directives portal URL from the harvest manifest."
+    }
+  },
+  "required": ["label", "title", "directive_type", "effective_date", "opi", "nist_families", "source_url"],
+  "additionalProperties": false,
+  "$defs": {
+    "NistFamily": {
+      "description": "NIST SP 800-53 Rev5 control family two-letter abbreviation.",
+      "type": "string",
+      "enum": [
+        "AC", "AT", "AU", "CA", "CM", "CP",
+        "IA", "IR", "MA", "MP", "PE", "PL",
+        "PM", "PS", "PT", "RA", "SA", "SC", "SI", "SR"
+      ]
+    }
+  }
+}

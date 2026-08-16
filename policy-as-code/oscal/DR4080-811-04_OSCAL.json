@@ -1,0 +1,325 @@
+{
+  "catalog": {
+    "uuid": "f22516ed-d774-5bd5-8e01-be03447afe72",
+    "metadata": {
+      "title": "USDA DR4080-811-04: USDA Commuter Transit Subsidy Benefits Program",
+      "last-modified": "2026-08-15T17:05:05Z",
+      "version": "2015-07-29",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "label",
+          "value": "DR4080-811-04"
+        },
+        {
+          "name": "directive-type",
+          "value": "Departmental Regulation"
+        },
+        {
+          "name": "effective-date",
+          "value": "2015-07-29"
+        },
+        {
+          "name": "source-url",
+          "value": "https://www.usda.gov/directives/dr-4080-811-04",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "office-of-primary-interest",
+          "value": "Management (OHRM)",
+          "ns": "https://usda.gov/policy-forge"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "AT",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "MP",
+          "class": "nist-sp-800-53-rev5"
+        },
+        {
+          "name": "nist-800-53-family",
+          "value": "SI",
+          "class": "nist-sp-800-53-rev5"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.usda.gov/directives/dr-4080-811-04",
+          "rel": "canonical"
+        }
+      ],
+      "roles": [
+        {
+          "id": "prepared-by",
+          "title": "Policy Forge — USDA OCIO DISC Digital Modernization Fellowship"
+        },
+        {
+          "id": "office-of-primary-interest",
+          "title": "Management (OHRM)"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d227fa02-83fe-5701-8e53-f743e1df641f",
+          "type": "organization",
+          "name": "U.S. Department of Agriculture — Office of the Chief Information Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "prepared-by",
+          "party-uuids": [
+            "d227fa02-83fe-5701-8e53-f743e1df641f"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "f6411047-dfcc-54c7-ae37-fa1708955dfd",
+        "class": "section",
+        "title": "Purpose",
+        "controls": [
+          {
+            "id": "dr4080-811-04-1",
+            "class": "policy-requirement",
+            "title": "Purpose",
+            "parts": [
+              {
+                "id": "dr4080-811-04-1-stmt",
+                "name": "statement",
+                "prose": "a. BACKGROUND\n\n     USDA supports programs that improve air quality and reduce traffic congestion. USDA\n     will provide a non-taxable subsidy designed to encourage employees to use mass\n     transportation for their daily commute to and from their duty station. USDA offers\n     transit benefit distribution services nationwide, to all USDA agencies and offices,\n     utilizing the automated TRANServe service by the Department of Transportation (DOT).\n     This established distribution system provides extensive and effective internal controls to\n     Federal employees and eliminates duplication and repetition of these functions.\n\n     Any mission area/agency/staff office granted a waiver from participating in the\n     Department-wide Service Agreement will not be exempt from the other requirements of\n     this DR.\n\n  b. AUTHORITY\n\n     USDA’s Transit Benefit Program was established in 1991 when the Federal Transit\n     Administration (FTA) began pilot testing a program, which provided up to $21 per month\n     in transit fare media to its employees. In 1993, as part of a national effort to improve air\n     quality and to reduce traffic congestion, the Federal Employees Clean Air Incentive Act\n     (FECAIA Public Law No. 103-172) was signed into law, authorizing Federal participation\n     in the Transit Benefit Program.\n\n     On April 21, 2000, President Clinton signed Executive Order 13150, Federal Workforce\n     Transportation Fringe Benefit, which sought to reduce Federal employees’ contribution\n     to traffic congestion and air pollution.\n\n     In 2005, the Safe, Accountable, Flexible, Efficient Transportation Equity Act: A Legacy\n     for Users (SAFETEA- LU), which is Public Law 109-59 (August 10, 2005), required\n     Federal agencies to implement Transit Benefit Programs for all eligible employees."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8accaeba-e5f1-5204-830e-cf8875fc1ed8",
+        "class": "section",
+        "title": "Special Instructions/Cancellation",
+        "controls": [
+          {
+            "id": "dr4080-811-04-2",
+            "class": "policy-requirement",
+            "title": "Special Instructions/Cancellation",
+            "parts": [
+              {
+                "id": "dr4080-811-04-2-stmt",
+                "name": "statement",
+                "prose": "a. The directive is to set forth USDA policy on the Commuter Transit Subsidy Program.\n     This directive supersedes previously issued Departmental Regulation (DR) 4080-811-04,\n     December 7, 2004.\n\n  b. Revisions include the conversion to electronic applications to meet the Government\n     Paperwork Reduction Act (GPRA)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8ccf0446-2382-50c3-88f9-34e03c65d7dc",
+        "class": "section",
+        "title": "Definitions",
+        "controls": [
+          {
+            "id": "dr4080-811-04-3",
+            "class": "policy-requirement",
+            "title": "Definitions",
+            "parts": [
+              {
+                "id": "dr4080-811-04-3-stmt",
+                "name": "statement",
+                "prose": "a. Amended Application. An application for transit benefits that reflects changes such as\n     name, duty location, and actual cost of transit requested/reported.\n\n                                            2\n\fb. Approving Official. Supervisor, or person of authority, required to review application for\n   completion and reasonableness.\n\nc. Carpool. An arrangement between two or more employees to commute to and from work\n   on a daily basis. A carpool does not qualify as a Commuter Highway Vehicle (van pool).\n\nd. Cash reimbursement. Agency/office reimbursement for the actual cost of mass\n   transportation up to the limit of the benefit for the month when fare media is unavailable.\n\ne. Certification. Occurs during initial application or change in application by his/her\n   supervisor and USDA Transit Benefit Coordinator and/or Program Manager.\n\nf. Contracting Officer Representative (COR). Ensures proper development of requirements\n   and assists Contracting Officer (CO) with managing the funding contract (Inter-Agency\n   Agreement/Service Agreement).\n\ng. Daily commute to and/or from work. Using some form of mass transportation when\n   commuting to and from work.\n\nh. EFM. Electronic fare media.\n\ni. Extended leave. A period greater than 90 days that an employee is absent from work.\n\nj. False Claim. Knowingly presenting or causing to be presented to the Government an\n   untrue statement.\n\nk. Fare Media. Any fare card, transit pass, token, voucher, or similar item that can be\n   exchanged for mass transit.\n\nl. Fund Certifying Official. Federal employee in authority to review the budgetary funding.\n\nm. Integrity Awareness Training. The Training Management System (TMS) course clarifies\n   transit benefit requirements by educating participants of their roles and responsibilities, to\n   enhance participant understanding, addressing ramifications of non-compliance,\n   emphasizing internal controls to minimize fraud and abuse, as well as penalty for fraud.\n\nn. Mass Transit Expense Worksheet. A form used by a qualified Federal employee to\n   determine the transit benefit amount per month. This worksheet is posted on TRANServe\n   website at https://transitapp.ost.dot.gov\n\no. Mass Transportation. Public Transportation operated for use by the public (e.g., buses,\n   subways, ferries, commuter buses, trains, and qualified vanpools).\n\np. National Capital Region (NCR). Per Executive Order 13150, the NCR consists of the\n   District of Columbia; Montgomery, Prince George’s, and Frederick Counties in\n   Maryland; Arlington, Fairfax, Loudon, and Prince William Counties in Virginia; and\n   cities now or hereafter existing in Maryland or Virginia within the specified geographic\n   area above.\n\n                                            3\n\fq. POV. Privately-owned vehicle.\n\nr. Qualified Federal Employee. A current USDA paid Federal employee or USDA paid\n   intern. Employees are required to complete the Transit Subsidy’s Integrity Awareness\n   Training in TRANServe website: https://transitapp.ost.dot.gov\n\ns. Qualified Ferry. Ferries are approved form of public transportation as walk on only. They\n   are not approved to shuttle a participant’s POV from one point to another then complete the journey by\n   POV. Approved vanpools and their riders are eligible to claim ferry ticket costs and may include the\n   cost of the van ticket.\n\na. Qualified Vanpool. A highway vehicle with seating capacity for at least six adults,\n   excluding the driver. Vanpools may be privately-owned, operated by a transportation\n   company or a public transportation provider. Qualified Vanpools are as the following:\n\n     (1)    Each vanpool shall designate a primary operator who is the permit holder. One\n            alternate operator may be named. The primary operator may not apply for the\n            transit benefit. All other federal employees in the vanpool, including the alternate,\n            are eligible to collect the transit benefit.\n\n     (2)    Transportation of employees to and from work must represent 80% of the van’s\n            usage and may be made up of Government and non-Government employees.\n\n     (3)    Per the Internal Revenue Service (IRS) Regulation 26 CFR §1.132-9 – Qualified\n            transportation fringes – General Rules – Q3 A3 (b) - … A qualified vanpool\n            service must be “provided by any person in the business of transporting persons\n            for compensation or hire in a highway vehicle with a seating capacity of at least\n            six adults (excluding the driver).”\n\n     (4)    In the NCR, vanpools are required to register with the local transportation\n            authority in order to be eligible to receive and negotiate vouchers.\n\n     (5)    Individual Federal employees are eligible to start up a private vanpool. When a\n            private vanpool meets the established criteria, riders are eligible to receive the\n            transit benefit. Private vanpools operated by Federal employees are not connected\n            with or sanctioned by the Federal government.\n\n     (6)    Vanpool riders may not use their transit benefit to “hold” a seat for a period of 30\n            days or more. Riders must withdraw from the vanpool program after 60 days of\n            inactivity.\n\n     (7)    Vanpool charges must reflect reasonably and equally costs and rates charged for\n            all passengers. Rates may be reduced or waived for the driver, who is not eligible\n            to receive the transit benefit.\n\nb. Recertification. The process by which a qualified Federal employee completes annually\n   to confirm his or her eligibility to continue to receive the transit benefit.\n\n\n                                               4\n\f  c. Transit Benefit Coordinator (TBC). Federal employee who has the overall responsibility\n     for communication, coordination, and management of their respective agency/office’s\n     transit benefit program to ensure transparency and prevent any misuse of benefits.\n\n  d. Transit Benefit Program Manager (PM). Federal employee who has overall\n     responsibility to manage USDA Transit Benefit Program, the PM is managing the\n     lifecycle activities to ensure the intended outcomes are achieved.\n\n  e. Transit Benefit. A non-taxable transportation fringe benefit providing employees with\n     vouchers or other fare media to commute via mass transit to and from work."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aad004a9-bf2e-56e5-890f-8c3f336a3863",
+        "class": "section",
+        "title": "Usda Policy",
+        "controls": [
+          {
+            "id": "dr4080-811-04-4",
+            "class": "policy-requirement",
+            "title": "Usda Policy",
+            "parts": [
+              {
+                "id": "dr4080-811-04-4-stmt",
+                "name": "statement",
+                "prose": "USDA will provide a non-taxable subsidy designed to encourage its USDA paid employees to\n  use mass transportation for their daily commute to and from work, up to the limit of funding\n  authorized by Congress.\n\n  f. This policy and guidance applies to all USDA organizations including all applicable\n     agencies and offices using TRANServe.\n\n  g. Indirect costs, such as gas, mileage, parking, or an employee’s payments for a personal or\n     leased vehicle, are not included as part of the cost qualifying for the transit benefit.\n\n  h. PROHIBITED: Deliberately overestimating transit costs, giving, or selling the transit\n     benefit to others, or purchasing fare media from participant(s) is prohibited.\n\n     LIMITATIONS: Participants are not permitted to accumulate fare media in excess of\n     their actual monthly commuting costs. The monthly benefit may be issued in advance of\n     the month for which it is intended, the amount of any unused benefit must be returned.\n\n  i. LIABILITY: Once fare media is issued, it remains in the personal possession of the\n     employee. Lost, stolen, or damaged fare media will not be replaced by the program.\n\n  j. CERTIFICATIONS: All transit benefit recipients are required to self-certify annually in\n     order to continue to receive the transit benefit. The benefit is tied to the calendar month\n     and will not be issued retroactively. Participants will be automatically withdrawn from\n     the program if annual recertification is not completed or inactive for 3 months.\n\n  k. CHANGES: Participants are responsible for adjusting their transit benefit amount when\n     changes to commuting methods, teleworking, or change of address.\n\n  l. MANDATORY TRAINING: Approving Officials, Supervisors, TBCs, and participants\n     must complete a mandatory transit training annually at http://transerve.dot.gov. TBCs are\n     authorized to disqualify employees under their jurisdiction who have been determined to\n     have misused the transit benefit subsidies. Instances of fraud or possible fraud shall be\n     referred to the USDA Office of the Inspector General.\n\n\n                                             5\n\f  m. NON-PARTICIPATION IN PROGRAM: Participants who decide to stop participating\n     in the Transit Benefit Program or on extended leave of 90 days or more must withdraw\n     from the program.\n\n  n. NON-PICKUP: Participants who do not pick up their transit benefit for three months\n     will be automatically withdrawn from the program.\n\n  o. EXCESS VOUCHER FUND: There are occasions where available voucher\n     denominations do not precisely match the cost of a ticket. When the voucher amount is\n     $2 or less over the actual ticket amount the additional cost is acceptable.\n\n  p. PARKING PERMITS: Employees named on a federally-subsidized workplace motor\n     vehicle parking permit are not eligible to participate in this program. The phrase, named\n     on a federally-subsidized workplace permit, means an individual who drives, or is a\n     passenger in a privately-owned or leased vehicle and who parks in a federally-subsidized\n     parking area. Any government-provided, owned, or leased parking area is considered\n     federally-subsidized.\n\n     Exception is some agency’s locations (Forest Service) permit all employees to park,\n     whether they use it or not. If, for agency operations reasons or under exigent\n     circumstances, transit benefit participants need to commute by privately-owned or leased\n     vehicles, they may request temporary parking permits. If a participant uses their parking\n     permit, they shall make corresponding adjustments to their request for transit benefits.\n\n     Managers may determine that it is necessary to Agency operations for selected employees\n     to use federally-subsidized parking areas because of changes in their work schedules or in\n     exigent circumstances. Some participants may request authority to use the facility\n     parking areas on an extremely limited basis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b9bbe57c-5cbf-521e-9e91-a98f522f27de",
+        "class": "section",
+        "title": "Procedures",
+        "controls": [
+          {
+            "id": "dr4080-811-04-5",
+            "class": "policy-requirement",
+            "title": "Procedures",
+            "parts": [
+              {
+                "id": "dr4080-811-04-5-stmt",
+                "name": "statement",
+                "prose": "a. Initial registration in the TRANServe Transit Subsidy Benefits electronic application\n     (eApp) via TRANServe website (https://transitapp.ost.dot.gov).\n\n     (1) The “Applicant Guide” and “Approving Official” Guide can be found in the above\n         website, under the USDA section.\n\n     (2) Transit Subsidy Benefit participants shall register in the eApp (See Applicant Guide)\n\n     (3) Participant’s supervisors will register in the eApp (See Approving Official Guide)\n\n          (a) The supervisors (with the National Finance Center Supervisor code) will inform\n              the TBC or the PM/COR of the registration status and request “elevation” to\n              first approval level user.\n\n          (b) DOT and the PM/COR will confirm the requesting supervisor and will elevate\n              the user.\n\n                                            6\n\f     (4) The TBC will register in the eApp\n\n         (a) The TBC will inform the PM/COR of the registration status and request\n             “elevation” to second approval level user.\n\n         (b) The PM/COR will inform DOT to elevate the user.\n\n     (5) Departmental PM/COR are the Admin User level.\n\n  b. Enrollment/Change/Recertification:\n\n     (1) Participants submit their enrollment/change/re-certification on line.\n\n     (2) The electronic application will then be sent to the Supervisor for approval.\n         Supervisor will ensure the participant has taken the Integrity Awareness Training\n         and the correct monthly transit estimates.\n\n     (3) If approved by the supervisor, the eApp will be sent in the system to the TBC.\n\n     (4) The TBC will review the application and approve the eApp in the system.\n\n     (5) If approved, the eApp is routed to DOT for processing.\n\n     (6) NOTE: If a TBC is also a participant, the application will go to the supervisor, then\n         to the headquarters level TBC or the Departmental PM/COR.\n\n     The approval chain is as the following:\n\n         (a) Participant\n\n         (b) Participant’s Supervisor\n\n         (c) TBC - Field / Headquarters\n\n         (d) Departmental COR / PM\n\n         (e) DOT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b6f9c023-cfcc-5758-a7e0-b4b747b8db81",
+        "class": "section",
+        "title": "Roles And Responsibilities",
+        "controls": [
+          {
+            "id": "dr4080-811-04-6",
+            "class": "policy-requirement",
+            "title": "Roles And Responsibilities",
+            "parts": [
+              {
+                "id": "dr4080-811-04-6-stmt",
+                "name": "statement",
+                "prose": "a. Department of Transportation (DOT):\n\n     Transit Program Office: DOT TRANServe provides a service to USDA with participants\n     in the Transit Benefit Program. The role of the TRANServe Program Office is to:\n\n     (1) Enroll new participants.\n\n     (2) Distribute the Transit Benefit.\n\n                                            7\n\f   (3) Administer the Transit Benefit Program, IRS directives, monitor, and reporting.\n\n   (4) Establish and implement established directives.\n\n   (5) Automatically withdrawal participants who have not used their benefits for 90-days\n       or more. Monitor program’s integrity.\n\n   NCR distribution occurs electronically via WMATA Smart Benefits or the Debit Card.\n   DOT is tasked of fare media distributions for regions outside of the NCR.\n\nb. U.S. Department of Agriculture (USDA)\n\n   (1) Office of the Chief Financial Officer (OCFO):\n\n       (a) Monitoring and examining transit budget and current internal controls for\n           agencies and offices,\n\n       (b) Identifying potential program vulnerabilities.\n\n       (c) Developing and implementing solutions for identified vulnerabilities.\n\n       (d) Having knowledge of existing rules and regulations concerning internal\n           controls.\n\n       (e) Keeping abreast of new developments for best practices in internal controls.\n\n   (2) Agency/Staff Office Transit Benefit Coordinators (TBC) will:\n\n       (a) Designate TBC who have overall responsibility for communication,\n           coordination, and management of their respective organization’s transit benefit\n           program, nationwide. DOT will provide guidance and serve on national Transit\n           Benefit Program questions or issues. TBC shall review, monitor, and approve\n           all transit applications with employees’ supervisors.\n\n       (b) Validate mandatory Transit Subsidy Benefit program “Integrity training” is\n           completed before enrollment and annual re-certifications are processed.\n\n       (c) Maintain and audit participant rosters and audit transit reports provided by\n           PM/COR to ensure accuracy.\n\n       (d) TBC shall ensure accuracy and integrity of program’s funding for his/her\n           agency/office. Non-participating benefit participants must be withdrawn in\n           order to ensure proper stewardship and limit fiscal waste of service expenses.\n\n   (3) USDA Transit Benefit Program Manager (PM) and Contracting Officer\n       Representative (COR):\n\n       (a) Transit Benefit PM and the COR have overall responsibility to manage the\n           Transit Benefit Program for USDA. After the DOT Customer Agreement is\n\n                                         8\n\f               signed, the PM takes over the day-to-day contact to ensure the program is\n               implemented efficiently and effectively.\n\n     (4) Procurement Office: The Procurement Office is responsible for all aspects of\n         procurement.\n\n     (5) Office of the Inspector General (OIG): Provides independent oversight and\n         investigative capability related to USDA employee participation in the transit\n         Program. OIG provides centralized monitoring and initial investigation of alleged\n         transit benefit sales on the internet, in order to avoid duplication of effort.\n\n     (6) Program Participants:\n\n          Federal employees who participate in the Transit Benefit Program are required:\n\n          (a) To understand the scope and limitations of the Transit Benefit Program.\n\n          (b) To understand the penalties involved in misuse or false claims involving the\n              transit benefit.\n\n          (c) Not to be named on a worksite parking permit at any Federal agency, nor\n              otherwise participate in a carpool.\n\n          (d) To use their transit benefit only for their home to work transportation.\n\n          (e) To make sure that the amount of the transit benefit received does not exceed\n              actual monthly commuting cost by public transportation even though they\n              receive the benefit quarterly.\n\n          (f) To understand that it is a violation of law to provide false or fraudulent\n              information to obtain the transit benefit, to transfer, or to sell the transit benefit.\n\n          (g) To personally adjust the transit benefit amount or changes.\n\n          (h) To report to OIG when transit providers charge excessive fees. Employees are\n              responsible for determining that charges represent fair market value."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "382b4989-cd36-591e-be10-5e72237a1328",
+        "class": "section",
+        "title": "Applicable Laws And Authority",
+        "controls": [
+          {
+            "id": "dr4080-811-04-7",
+            "class": "policy-requirement",
+            "title": "Applicable Laws And Authority",
+            "parts": [
+              {
+                "id": "dr4080-811-04-7-stmt",
+                "name": "statement",
+                "prose": "See Section 1.b"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "84de0e3a-2365-5cb9-bc3e-9e7b2335f81a",
+        "class": "section",
+        "title": "Usda Transit Benefit Program",
+        "controls": [
+          {
+            "id": "dr4080-811-04-8",
+            "class": "policy-requirement",
+            "title": "Usda Transit Benefit Program",
+            "parts": [
+              {
+                "id": "dr4080-811-04-8-stmt",
+                "name": "statement",
+                "prose": "USDA seeks to maintain a program use of mass transit, in line with congestion reduction,\n  while having effective and useful controls in place to ensure the program accomplishes its\n  intended results.\n\n\n                                              9\n\fa. Approved Public Transportation Modes\n\n   (1) Rail (subway, commuter and light)\n\n   (2) Bus (transit authority and commuter)\n\n   (3) Ferry – approved form of public transportation when used as walk on fares or on\n       bicycle\n\n   (4) Bicycle – Federal employees who ride bicycles to and from work may claim the\n       transit benefit to cover the cost of using mass transit as part of the commute. The\n       Bicycle Benefit Policy, if available, is managed by each agency individually.\n\n   (5) Qualified vanpools.\n\nb. Eligibility: The USDA transit benefit is available to all USDA paid employees working in\n   a full or part time – after all processes are completed and approved:\n\n   (1) Transit Benefit Integrity Awareness Training\n\n   (2) Submission of transit benefit application\n\n   (3) Approval of transit benefit application\n\n   (4) It is the participant’s responsibility to follow up on the status of their transit benefit\n       application\n\n   (5) The transit benefit is tied to the calendar month and will not be issued retroactively.\n\nc. Calculation of Benefit:\n\n   It is the employee’s responsibility to research the projected cost of transit fares. The\n   application in http://transerve.dot.gov can assist in the estimation.\n\n   Participant will have out of pocket expenses for the commuting expenses above the\n   maximum benefit.\n\n   Employees must ensure vanpool charges reflect reasonable costs and profits. Rates may\n   be reduced or waived for the driver, who is not eligible to receive the transit benefit.\n\nd. Application:\n\n   For USDA employees, the Transit Benefit application must be completed on-line at\n   http://transerve.dot.gov. Employees are asked to confirm specific information including\n   their complete home address as well as their permanent duty station location.\n\ne. Termination of Benefits:\n\n   Media can be returned by mail or in person to the TBC. The media must be undamaged,\n\n                                           10\n\f     unused, and accompanied with a completed Media Return Form, see your TBC\n\n     When an employee terminates Federal service or transfers to another Agency, he/she must\n     do the following:\n\n     (1) Return or repay excess fare media in the form of a money order\n\n     (2) Withdraw from the program (https://transitapp.ost.dot.gov/)\n\n  f. Parking: Employees who are receiving the transit benefit may not be named on a\n     federally-subsidized parking permit nor allow their name to be used on a carpool list if\n     that carpool parks in a federally-subsidized parking lot, except for a few offices located\n     outside of NCR where exceptions are posted.\n\n  g. Reporting:\n\n     (1) Distribution Reports:\n\n          The DOT maintains a certified reporting system based on information submitted on\n          the application. Standard reports are produced for USDA on a monthly basis and Ad\n          Hoc basis.\n\n     (2) Account Activity Statement (AAS):\n\n          A monthly AAS will be provided with a detailed report of employee participation in\n          the program. The monthly reports will be sent to the TBC and OCFO for review and\n          audit.\n\n          Billing records and other information will be maintained according to National\n          Archives and Records Association guidelines and requirements to enable the agency\n          to comply with audit requirements.\n\n     (3) Six-Month Report:\n\n          The Quarterly Six-Month report is used as a means to review six months’ worth of\n          pickup records for participants and gives TBC the tool to evaluate if participants are\n          adjusting their transit benefit amounts upon changes to commuting methods, work\n          schedules (such as leave, holidays or teleworking), or changes of address."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c5017302-5db4-5cb0-9bff-63247c0b23eb",
+        "class": "section",
+        "title": "Internal Controls And Testing",
+        "controls": [
+          {
+            "id": "dr4080-811-04-9",
+            "class": "policy-requirement",
+            "title": "Internal Controls And Testing",
+            "parts": [
+              {
+                "id": "dr4080-811-04-9-stmt",
+                "name": "statement",
+                "prose": "Fare media is a cash equivalent and requires an extensive system of internal controls that\n  provide oversight for inventory maintenance and distribution activities. Internal controls\n  must be tested on an annual basis and subjected to a certified and accredited audit by a third\n  party every three years. The controls must be highlighted in management’s assurance\n  statement.\n\n  a. Secure Media: USDA recognizes the fare media it distributes is a cash equivalent and has\n                                             11\n\f     an extensive system for internal controls that provides oversight for inventory\n     maintenance and distribution activities. USDA and DOT use various types of internal\n     controls to ensure effective inventory control. OCFO and each TBC will monitor and\n     review USDA’s internal controls and ensure that all requirements are effectively fulfilled.\n\n  b. Fraud and Abuse:\n\n     (1) Application/Estimate of Transit Benefit: Initial applications include street address,\n         city, work location, mode of transportation, and commuting costs must be reviewed\n         and approved by an Approving Official.\n\n         (a) The Participant must certify that information is accurate and acknowledge\n             punitive actions may result from violations of program requirements.\n\n         (b) Continuing Eligibility – All participating employees must recertify annually.\n             Employees must update changes to mode of transit or commuting costs.\n\n         (c) TBC and agencies shall audit the transit and parking systems on a regular basis\n             to ensure employees are not receiving both benefits.\n\n     (2) Verification of Eligibility: The Approving Official must ensure that the employee is\n         aware of the limitations and use requirements of the transit benefit.\n\n     (3) Human Resources (HR) Exit Procedures: HR Exit Procedures include withdrawal of\n         participants from the Transit Benefit Program.\n\n     (4) Distribution: For on-site distribution, check the following information:\n\n         (a) Government identification.\n\n         (b) Enrollment in the program’s verification.\n\n         (c) Amount of benefit’s verification.\n\n     (5) Parking Permit List: All agency employees who receive parking are not eligible for\n         the transit benefit. Parking Office is responsible for auditing parking permits against\n         the transit benefits’ report monthly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16f94d7c-ebc4-5854-ac8e-c7c5740e61f6",
+        "class": "section",
+        "title": "Integrity Awareness Training",
+        "controls": [
+          {
+            "id": "dr4080-811-04-10",
+            "class": "policy-requirement",
+            "title": "Integrity Awareness Training",
+            "parts": [
+              {
+                "id": "dr4080-811-04-10-stmt",
+                "name": "statement",
+                "prose": "a. USDA Employees:\n\n     All USDA participants of the Transit Benefit Program are required to complete the\n     Transit Benefit Integrity Awareness Training Management System (TMS) to emphasize\n     responsibility and identify prohibited practices such as unauthorized use by ineligible\n     employees and inappropriate transfer of fare media.\n\n     A slide presentation is available on http://transerve.dot.gov . The participant is required\n\n                                            12\n\f     to abide the honor system for the participant’s transit benefit application.\n\n  b. Frequently Asked Questions (FAQ) are posted at http://transerve.dot.gov"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "98328b57-06bf-56ef-a37a-e6a7365d3e91",
+        "class": "section",
+        "title": "References",
+        "controls": [
+          {
+            "id": "dr4080-811-04-11",
+            "class": "policy-requirement",
+            "title": "References",
+            "parts": [
+              {
+                "id": "dr4080-811-04-11-stmt",
+                "name": "statement",
+                "prose": "a. DOT Transit Benefit Program Requirements\n\n  b. Executive Order 13150, Federal Workforce Transportation, April 21, 2000.\n\n  c. Government Accountability Office (GAO), Federal Transit Benefits Program: Ineffective\n     Controls Result in Fraud and Abuse by Federal Workers, GAO-07-724T, Washington,\n     DC, April 24, 2007.\n\n  d. Fiscal and Payroll Policies and Procedures for the Transit Benefit Program, OF Bulletin\n     07GA2.12, March 27, 2007.\n\n  e. GAO Testimony before the Permanent Subcommittee on Investigations, Committee on\n     Homeland Security and Government Affairs, US Senate. Federal Transit Benefits\n     Program – Ineffective Controls Result in Fraud and Abuse by Federal Workers, April 24,\n     2007.\n\n  f. IRS Regulation 26 CFR §1.132-9 – Qualified Transportation Fringes – General Rules.\n\n  g. Internal Revenue Service (IRS) Notice 94-3, Qualified Transportation Fringes Under\n     Section 132 (f). Office of Management and Budget (OMB) Memorandum for the Heads of\n     Departments and Agencies from Robert Shea, Associate Director for Management.\n     “Federal Transit Benefit Program,” May 14, 2007.\n\n  h. OMB Circular 123 Management’s Responsibility for Internal Control, Washington DC,\n     December 30,\n\n  i. 2005, Appendix A, Implementation Plans August 1, 2005."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6ecfc6f2-706a-52dc-bfbb-4d96bc438a85",
+        "class": "section",
+        "title": "Forms",
+        "controls": [
+          {
+            "id": "dr4080-811-04-12",
+            "class": "policy-requirement",
+            "title": "Forms",
+            "parts": [
+              {
+                "id": "dr4080-811-04-12-stmt",
+                "name": "statement",
+                "prose": "a. The DOT Fare Media Return form is for use only by the TBCs.\n\n\n\n\n                                             13\n\f                 FIGURE 1\n\n\nSAMPLE TRANSIT BENEFIT APPLICATION (PAGE 1)\n\n\n\n\n                    14\n\f                 FIGURE 2\n\n\nSAMPLE TRANSIT BENEFIT APPLICATION (PAGE 2)\n\n\n\n\n                    15\n\f            FIGURE 3\n\n\nSAMPLE MEDIA RETURN FORM (PAGE 1)\n\n\n\n\n               16\n                                    DR 4080-811 (6/2014)\n\f                   FIGURE 4\n\n\nFARE MEDIA RETURN FORM INSTRUCTIONS (FORM PAGE 2)\n\n\n\n\n                      17\n                                          DR 4080-811 (6/2014)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "af5ab0d8-c5a5-5956-97f8-4ead207a88ef",
+          "title": "USDA Directives — DR4080-811-04",
+          "rlinks": [
+            {
+              "href": "https://www.usda.gov/directives/dr-4080-811-04",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
