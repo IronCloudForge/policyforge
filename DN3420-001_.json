@@ -1,0 +1,444 @@
+{
+  "document": {
+    "doc_id": "DN 3420-001",
+    "doc_type": "DN",
+    "doc_type_name": "Departmental Notice",
+    "subject": "Implementation of Requirements in Authoritative References",
+    "opi": "Office of the Chief Information Officer, Information Security Center",
+    "date_issued": "2022-04-12",
+    "expiration_date": "2023-04-12",
+    "series": "3000",
+    "source_file": "DN3420-001_.txt",
+    "doc_id_mismatch": false,
+    "sections_found": [
+      "1. PURPOSE [standalone]",
+      "2. SPECIAL INSTRUCTIONS AND CANCELLATIONS [standalone]",
+      "3. SCOPE [standalone]",
+      "4. POLICY [standalone]",
+      "5. ROLES AND RESPONSIBILITIES [standalone]",
+      "6. INQUIRIES [standalone]"
+    ]
+  },
+  "provenance": {
+    "extraction_run_id": "pf-v3-pilot-001",
+    "method": "deterministic-scaffold-v3",
+    "model": "claude-opus-5",
+    "temperature": 0,
+    "deterministic": true,
+    "source_commit": "6c85b79d1a297e94fa424c23d19f340976d1be0a",
+    "source_branch": "PF_v3",
+    "snapshot_captured": "2026-08-16",
+    "extracted_at": "2026-08-19"
+  },
+  "statement_count": 20,
+  "statements": [
+    {
+      "statement_id": "DN3420-001-0001",
+      "statement_ref": "DN 3420-001, Sec 1",
+      "statement_text": "This Departmental Notice (DN) guides all United States Department of Agriculture (USDA) Mission Areas, agencies, and staff offices on updating cybersecurity Departmental directives and their local procedures. This DN requires Mission Areas, agencies, and staff offices to update their policy documents to align with the most recent release of the related authoritative references, as directed by Departmental Regulation (DR) 0100-001, Departmental Directives System. These authorities include enacted legislation or rules in the Federal Register, Executive Orders, Office of Management and Budget (OMB) and Department of Homeland Security (DHS) cybersecurity directives, or guidance from the National Institute of Standards and Technology (NIST).",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "1. PURPOSE",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0002",
+      "statement_ref": "DN 3420-001, Sec 2.a",
+      "statement_text": "This DN is effective immediately upon issuance and will expire within 1 year of that date.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "2. SPECIAL INSTRUCTIONS AND CANCELLATIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0003",
+      "statement_ref": "DN 3420-001, Sec 2.b",
+      "statement_text": "The requirements of this DN will be codified in the forthcoming policy DR, Risk Management Framework.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "2. SPECIAL INSTRUCTIONS AND CANCELLATIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0004",
+      "statement_ref": "DN 3420-001, Sec 3",
+      "statement_text": "This DN applies to all:",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "3. SCOPE",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0005",
+      "statement_ref": "DN 3420-001, Sec 3.a",
+      "statement_text": "USDA Mission Areas, agencies, and staff offices;",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "3. SCOPE",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0006",
+      "statement_ref": "DN 3420-001, Sec 3.b",
+      "statement_text": "Personnel working for, or on behalf of, the USDA who hold information security and privacy duties that fall under the purview of the authoritative references, noted in Section 1; and",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "3. SCOPE",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0007",
+      "statement_ref": "DN 3420-001, Sec 3.c",
+      "statement_text": "USDA published cybersecurity and privacy policies and procedures.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "3. SCOPE",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0008",
+      "statement_ref": "DN 3420-001, Sec 4.a",
+      "statement_text": "All policies and procedures from USDA Mission Areas, agencies, and staff offices will comply with respective authoritative references within the prescribed timeframes and as directed by DR 0100-001, Departmental Directives System:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "All policies and procedures from USDA Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-2831023a",
+      "actor_resolution_status": "resolved",
+      "cross_references": [
+        "DR 0100-001"
+      ],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-2831023a"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0009",
+      "statement_ref": "DN 3420-001, Sec 4.a(1)",
+      "statement_text": "Per Section 9c(2), determine the impact of new and revised laws, regulations, standards, and guidance, and issue or update Departmental directives as appropriate and;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "All policies and procedures from USDA Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-2831023a",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-2831023a"
+        ],
+        "actor_inherited_from": "DN 3420-001, Sec 4.a"
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0010",
+      "statement_ref": "DN 3420-001, Sec 4.a(2)",
+      "statement_text": "Per Section 9c(12), at least annually, review Departmental directives for which they are responsible and amend, revise and reissue, rescind, or codify as appropriate.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "All policies and procedures from USDA Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-2831023a",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-2831023a"
+        ],
+        "actor_inherited_from": "DN 3420-001, Sec 4.a"
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0011",
+      "statement_ref": "DN 3420-001, Sec 4.b",
+      "statement_text": "Mission Areas, agencies, and staff offices will conduct a gap analysis of current policies and procedures against any changes in respective authoritative references and act upon gaps in accordance with DR 0100-001:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [
+        "DR 0100-001"
+      ],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0012",
+      "statement_ref": "DN 3420-001, Sec 4.b(1)",
+      "statement_text": "Per Section 9b(2), ensure that all Departmental directives in their area of responsibility are complete, accurate, and current;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": "DN 3420-001, Sec 4.b"
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0013",
+      "statement_ref": "DN 3420-001, Sec 4.b(2)",
+      "statement_text": "Per Section 9c(1), prepare Departmental directives within the scope of their delegated Authority; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": "DN 3420-001, Sec 4.b"
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0014",
+      "statement_ref": "DN 3420-001, Sec 4.b(3)",
+      "statement_text": "Comply with Sections 9c(2) and 9c(12). This analysis will guide and inform updates to policy and procedures.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": "DN 3420-001, Sec 4.b"
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0015",
+      "statement_ref": "DN 3420-001, Sec 4.c",
+      "statement_text": "Authoritative references include but are not limited to enacted legislation or rules in the Federal Register, Executive Orders, and guidance from OMB, DHS, or NIST (see Appendix B, Authorities and References).",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0016",
+      "statement_ref": "DN 3420-001, Sec 4.d",
+      "statement_text": "Mission Areas, agencies, and staff offices will document and analyze lessons learned on their programs, control activities, procedures, and tasks. They will use this qualitative and quantitative data to assess effectiveness and to guide process improvement.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0017",
+      "statement_ref": "DN 3420-001, Sec 5.a",
+      "statement_text": "The USDA Chief Information Officer (CIO) will:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0018",
+      "statement_ref": "DN 3420-001, Sec 5.a(1)",
+      "statement_text": "Ensure USDA complies with Federal laws, regulations, and directives related to information systems security; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": "DN 3420-001, Sec 5.a"
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0019",
+      "statement_ref": "DN 3420-001, Sec 5.a(2)",
+      "statement_text": "Oversee the information security and privacy program and control activities, to ensure they are implemented, operating as intended, and producing the desired outcomes to meet all requirements.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": "DN 3420-001, Sec 5.a"
+      }
+    },
+    {
+      "statement_id": "DN3420-001-0020",
+      "statement_ref": "DN 3420-001, Sec 5.b",
+      "statement_text": "The USDA Chief Information Security Officer (CISO) will implement and manage the Departmentwide Cybersecurity Program.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Security Officer (CISO)",
+      "responsible_party_actor_id": "ACT-d2ee02bb",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d2ee02bb"
+        ],
+        "actor_inherited_from": null
+      }
+    }
+  ]
+}

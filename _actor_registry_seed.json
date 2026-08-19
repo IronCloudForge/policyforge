@@ -1,0 +1,843 @@
+{
+  "run_id": "pf-v3-pilot-001",
+  "scope": "pilot batch (7 documents)",
+  "review_status": "pending-paul-approval",
+  "actor_count": 64,
+  "actors": [
+    {
+      "actor_id": "ACT-2831023a",
+      "canonical_name": "policies and procedures from USDA Mission Areas, agencies, and staff offices",
+      "surface_forms": [
+        "All policies and procedures from USDA Mission Areas, agencies, and staff offices"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DN 3420-001"
+      ],
+      "observation_count": 3,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-d0ce8697",
+      "canonical_name": "Mission Areas, agencies, and staff offices",
+      "surface_forms": [
+        "Mission Areas, agencies, and staff offices",
+        "All Mission Areas, agencies, and staff offices"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DN 3420-001",
+        "DR 3300-001-B"
+      ],
+      "observation_count": 12,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-34e81dd0",
+      "canonical_name": "USDA Chief Information Officer",
+      "surface_forms": [
+        "The USDA Chief Information Officer (CIO)"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DN 3420-001",
+        "DR 3300-001-B"
+      ],
+      "observation_count": 10,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-d2ee02bb",
+      "canonical_name": "USDA Chief Information Security Officer",
+      "surface_forms": [
+        "The USDA Chief Information Security Officer (CISO)"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DN 3420-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-37d1f32e",
+      "canonical_name": "Prior delegations of authority, administrative regulations, and other directives not inconsistent with the provisions of this Memorandum",
+      "surface_forms": [
+        "Prior delegations of authority, administrative regulations, and other directives not inconsistent with the provisions of this Memorandum"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "SM 1078-018"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-65847992",
+      "canonical_name": "In addition to these five hubs, USDA",
+      "surface_forms": [
+        "In addition to these five hubs, USDA"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-937a6933",
+      "canonical_name": "Agriculture Research Service",
+      "surface_forms": [
+        "The Agriculture Research Service"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-24913ab2",
+      "canonical_name": "National Agricultural Statistics Service",
+      "surface_forms": [
+        "The National Agricultural Statistics Service"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-089f4b2d",
+      "canonical_name": "Food and Nutrition Service",
+      "surface_forms": [
+        "The Food and Nutrition Service"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-618a7770",
+      "canonical_name": "Forest Service",
+      "surface_forms": [
+        "The Forest Service"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-7b104285",
+      "canonical_name": "Natural Resources Conservation Service",
+      "surface_forms": [
+        "The Natural Resources Conservation Service"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-a61bafa7",
+      "canonical_name": "Animal and Plant Health Inspection Service centers",
+      "surface_forms": [
+        "Animal and Plant Health Inspection Service centers"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-3c585c4c",
+      "canonical_name": "Consolidate civil rights functions into the Office of the Assistant Secretary for Civil Rights, which",
+      "surface_forms": [
+        "Consolidate civil rights functions into the Office of the Assistant Secretary for Civil Rights, which"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-f2a10cc9",
+      "canonical_name": "Consolidate human resources functions in the Office of the Assistant Secretary for Administration. Although human resources",
+      "surface_forms": [
+        "Consolidate human resources functions in the Office of the Assistant Secretary for Administration (ASA). Although human resources"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-06932950",
+      "canonical_name": "Consolidate contracting functions in the ASA . Although contracting resources",
+      "surface_forms": [
+        "Consolidate contracting functions in the ASA . Although contracting resources"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-b6093d52",
+      "canonical_name": "Consolidate grants and financial assistance to provide better controls and promote efficiency. This consolidation",
+      "surface_forms": [
+        "Consolidate grants and financial assistance to provide better controls and promote efficiency. This consolidation"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-0e3cd6d2",
+      "canonical_name": "Deputy Secretary. The Deputy Secretary",
+      "surface_forms": [
+        "Deputy Secretary. The Deputy Secretary"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-4f91df7a",
+      "canonical_name": "Office of the General Counsel",
+      "surface_forms": [
+        "The Office of the General Counsel and the ASA. The Office of the General Counsel and the Office of the ASA"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-be70dbe3",
+      "canonical_name": "ASA. The Office of the General Counsel",
+      "surface_forms": [
+        "The Office of the General Counsel and the ASA. The Office of the General Counsel and the Office of the ASA"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-09e9cd42",
+      "canonical_name": "Office of the ASA",
+      "surface_forms": [
+        "The Office of the General Counsel and the ASA. The Office of the General Counsel and the Office of the ASA"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-78163c6a",
+      "canonical_name": "Office of the Assistant Secretary for Congressional Relations. The Office of the Assistant Secretary for Congressional Relations",
+      "surface_forms": [
+        "The Office of the Assistant Secretary for Congressional Relations. The Office of the Assistant Secretary for Congressional Relations"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-bafdc484",
+      "canonical_name": "Department Officials",
+      "surface_forms": [
+        "Department Officials"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-0ebca878",
+      "canonical_name": "implementation of this Secretary Memorandum",
+      "surface_forms": [
+        "The implementation of this Secretary Memorandum"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "SM 1078-015"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-4d6e7003",
+      "canonical_name": "USDA",
+      "surface_forms": [
+        "USDA"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 2,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-510af88d",
+      "canonical_name": "USDA agencies",
+      "surface_forms": [
+        "USDA agencies"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-2110ba2c",
+      "canonical_name": "SCI material",
+      "surface_forms": [
+        "SCI material"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-56a3341f",
+      "canonical_name": "Annual security awareness training",
+      "surface_forms": [
+        "Annual security awareness training"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-1cec720c",
+      "canonical_name": "Destruction of SCI",
+      "surface_forms": [
+        "Destruction of SCI"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-fb360cb6",
+      "canonical_name": "Incidents involving the alleged mishandling and potential compromise of SCI",
+      "surface_forms": [
+        "Incidents involving the alleged mishandling and potential compromise of SCI"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-f19a0e2e",
+      "canonical_name": "SCI cleared persons",
+      "surface_forms": [
+        "SCI cleared persons"
+      ],
+      "role_type": "personnel-class",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-b56ca203",
+      "canonical_name": "Secretary of Agriculture",
+      "surface_forms": [
+        "The Secretary of Agriculture"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-1c79afab",
+      "canonical_name": "Senior Agency Official is the primary liaison between USDA",
+      "surface_forms": [
+        "The Senior Agency Official is the primary liaison between USDA and the CIA and the National Security Agency (NSA). This position"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-e4206c04",
+      "canonical_name": "National Security Agency. This position",
+      "surface_forms": [
+        "The Senior Agency Official is the primary liaison between USDA and the CIA and the National Security Agency (NSA). This position"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-1198ba56",
+      "canonical_name": "Agency Administrators",
+      "surface_forms": [
+        "Subcabinet Officials, Agency Administrators, and Staff Office Directors, whose organizations require access to SCI material"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 3,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-0b4d7f49",
+      "canonical_name": "Staff Office Directors",
+      "surface_forms": [
+        "Subcabinet Officials, Agency Administrators, and Staff Office Directors, whose organizations require access to SCI material"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 3,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-64b28cc4",
+      "canonical_name": "Director, OHSEC",
+      "surface_forms": [
+        "The Director, OHSEC"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 8,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-c4b038d0",
+      "canonical_name": "Chief",
+      "surface_forms": [
+        "The Chief, Office of Chief Information Office"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 6,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-0cdfc264",
+      "canonical_name": "Office of Chief Information Office",
+      "surface_forms": [
+        "The Chief, Office of Chief Information Office"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 6,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-0a22058c",
+      "canonical_name": "PDSD",
+      "surface_forms": [
+        "PDSD"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 7,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-47159eed",
+      "canonical_name": "Notifying CIA of any personnel security issues or concerns that",
+      "surface_forms": [
+        "Notifying CIA of any personnel security issues or concerns that"
+      ],
+      "role_type": "personnel-class",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-b968aff0",
+      "canonical_name": "Employees, contractors, and other individuals maintaining SCI access at USDA",
+      "surface_forms": [
+        "Employees, contractors, and other individuals maintaining SCI access at USDA"
+      ],
+      "role_type": "personnel-class",
+      "observed_in": [
+        "DR 3441-001"
+      ],
+      "observation_count": 6,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-eb244cbb",
+      "canonical_name": "Telephone equipment that is paid by the Government is available for conducting official business or for limited personal use as outlined in this DR. Official calls",
+      "surface_forms": [
+        "Telephone equipment that is paid by the Government is available for conducting official business or for limited personal use as outlined in this DR. Official calls"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-2d80251a",
+      "canonical_name": "following types of calls",
+      "surface_forms": [
+        "The following types of calls"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 3,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-d2ea419a",
+      "canonical_name": "Incoming collect calls (calls placed from a non-Government number to a Federal Government number) and third-party calls",
+      "surface_forms": [
+        "Incoming collect calls (calls placed from a non-Government number to a Federal Government number) and third-party calls"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-ce79c0a1",
+      "canonical_name": "Interception and Monitoring of Telephone and Non-telephone Conversations, and DR 4070-735-001, Employee Responsibilities and Conduct, all parties on the call",
+      "surface_forms": [
+        "Interception and Monitoring of Telephone and Non-telephone Conversations, and DR 4070-735-001, Employee Responsibilities and Conduct, all parties on the call"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-56cbd445",
+      "canonical_name": "Telecommunications & Internet Services and Use, and DR 1710-001, employees at customer service call centers, and at other locations where calls from the general public",
+      "surface_forms": [
+        "Telecommunications & Internet Services and Use, and DR 1710-001, employees at customer service call centers, and at other locations where calls from the general public"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-85e31f4e",
+      "canonical_name": "USDA customer service telephone numbers equipped with call monitoring or recording equipment",
+      "surface_forms": [
+        "USDA customer service telephone numbers equipped with call monitoring or recording equipment"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-48ccdb9a",
+      "canonical_name": "For those calls that continue to be monitored or recorded, an automatic tone warning device, sometimes called a beep tone",
+      "surface_forms": [
+        "For those calls that continue to be monitored or recorded, an automatic tone warning device, sometimes called a beep tone"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-b83eb2f2",
+      "canonical_name": "If speakerphones are used, all parties",
+      "surface_forms": [
+        "If speakerphones are used, all parties"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-c616fed4",
+      "canonical_name": "USDA personnel",
+      "surface_forms": [
+        "USDA personnel"
+      ],
+      "role_type": "personnel-class",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 2,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-c8987566",
+      "canonical_name": "ENS Director",
+      "surface_forms": [
+        "The ENS Director"
+      ],
+      "role_type": "position",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 13,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-8c886bd3",
+      "canonical_name": "Agency",
+      "surface_forms": [
+        "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 10,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-0481e943",
+      "canonical_name": "Staff Office Information Technology Directors",
+      "surface_forms": [
+        "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 10,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-06f7ecaf",
+      "canonical_name": "USDA Mission Areas, agencies, and staff offices",
+      "surface_forms": [
+        "All USDA Mission Areas, agencies, and staff offices"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-36a3038f",
+      "canonical_name": "Waivers",
+      "surface_forms": [
+        "Waivers"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DR 3300-001-B"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-3b91e84c",
+      "canonical_name": "a Agencies",
+      "surface_forms": [
+        "a Agencies"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 4430-002"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-ec198c95",
+      "canonical_name": "Agencies",
+      "surface_forms": [
+        "Agencies"
+      ],
+      "role_type": "office",
+      "observed_in": [
+        "DR 4430-002"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-1a7a6dfc",
+      "canonical_name": "Employees",
+      "surface_forms": [
+        "Employees"
+      ],
+      "role_type": "personnel-class",
+      "observed_in": [
+        "DR 4430-002"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-24ac06fa",
+      "canonical_name": "Analyze: When an initiative is accepted by the CIOC as a candidate for enterprise-wide initiative designation, the requester",
+      "surface_forms": [
+        "Analyze: When an initiative is accepted by the CIOC as a candidate for enterprise-wide initiative designation, the requester"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DM 3107-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-aee558bb",
+      "canonical_name": "When a mandatory enterprise-wide initiative is proposed, the CIOC",
+      "surface_forms": [
+        "When a mandatory enterprise-wide initiative is proposed, the CIOC"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DM 3107-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-d2991097",
+      "canonical_name": "When optional enterprise-wide initiatives are proposed, the CIOC",
+      "surface_forms": [
+        "When optional enterprise-wide initiatives are proposed, the CIOC"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DM 3107-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-0b0b46d5",
+      "canonical_name": "Working Groups",
+      "surface_forms": [
+        "Working Groups"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DM 3107-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-af7b0421",
+      "canonical_name": "Act: For mandatory enterprise-wide initiatives or complex optional enterprise-wide initiatives designated by the CIOC, the Executive Sponsor",
+      "surface_forms": [
+        "Act: For mandatory enterprise-wide initiatives or complex optional enterprise-wide initiatives designated by the CIOC, the Executive Sponsor"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DM 3107-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    },
+    {
+      "actor_id": "ACT-eb50194a",
+      "canonical_name": "Execute: The CIOC",
+      "surface_forms": [
+        "Execute: The CIOC"
+      ],
+      "role_type": "unclassified",
+      "observed_in": [
+        "DM 3107-001"
+      ],
+      "observation_count": 1,
+      "review_status": "pending-paul-approval"
+    }
+  ]
+}

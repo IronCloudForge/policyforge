@@ -1,0 +1,161 @@
+{
+  "document": {
+    "doc_id": "DR 4430-002",
+    "doc_type": "DR",
+    "doc_type_name": "Departmental Regulation",
+    "subject": "DATE: June 14, 1993 Wellness Programs",
+    "opi": "Office of Finance and Management Safety and Health Management Division",
+    "date_issued": "1993-06-14",
+    "expiration_date": null,
+    "series": "4000",
+    "source_file": "DR4430-002_Wellness_Program.txt",
+    "doc_id_mismatch": true,
+    "sections_found": [
+      "1. PURPOSE [standalone]",
+      "2. CANCELLATION [standalone]",
+      "3. AUTHORITIES [standalone]",
+      "7. USE OF OFFICIAL TIME, EXCUSED ABSENCES, AND WORK [standalone]",
+      "8. USE OF APPROPRIATED FUNDS FOR WELLNESS PROGRAMS [standalone]",
+      "9. LIABILITY [standalone]",
+      "12. RESOURCES [standalone]"
+    ]
+  },
+  "provenance": {
+    "extraction_run_id": "pf-v3-pilot-001",
+    "method": "deterministic-scaffold-v3",
+    "model": "claude-opus-5",
+    "temperature": 0,
+    "deterministic": true,
+    "source_commit": "6c85b79d1a297e94fa424c23d19f340976d1be0a",
+    "source_branch": "PF_v3",
+    "snapshot_captured": "2026-08-16",
+    "extracted_at": "2026-08-19"
+  },
+  "statement_count": 6,
+  "statements": [
+    {
+      "statement_id": "DR4430-002-0001",
+      "statement_ref": "DR 4430-002, Sec 1",
+      "statement_text": "This regulation provides guidance to agencies in the design and delivery of wellness programs to Department of Agriculture (USDA) employees.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "1. PURPOSE",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR4430-002-0002",
+      "statement_ref": "DR 4430-002, Sec 2",
+      "statement_text": "Thi s regulation supersedes Departmental Regulation 0-2, dated April 18, 1991.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "2. CANCELLATION",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR4430-002-0003",
+      "statement_ref": "DR 4430-002, Sec 3",
+      "statement_text": "a DISTRIBUTION 44 5 U.S.C., Section 7901 and Federal Personnel Manual (FPM) Chapter 792 authorize agencies to establish health service programs. 41 CFR Part 101-5, Subpart 101-5.3, establishes General Services Administration (GSA) policy on and provides guidelines for the installation of physical fitness facilities. FPM Letter 792-15 clarifies the scope of occupational health programs to include establishing physical fitness programs and granting Federal agencies broader discretionary authority on the use of appropriated funds to start or enhance exercise and fitness facilities. FPM Letter 792-20 clarifies the scope of health service programs to include smoking cessation programs for the prevention of smoking-related illness and disease. FPM Letter 792-23 provides agencies with guidance relative to the use of official time, excused absences, and work scheduling accommodations for employees to participate in health and fitness activities. DR 4430-2 June 14, 1993 f Federal Employees’ Compensation Act (FECA) Bulletin 87-9 provides agencies with guidance relative to worker’s compensation claims and physical fitness activities. POLICY It is USDA policy to promote wellness programs that improve employee health, morale, and productivity. Programs should identify goals and objectives for the workplace. They should target key lifestyle traits that employees can change to improve their overall health. Programs should provide equal opportunities for all employees regardless of age, sex, or grade level, and should include provisions for employees with disabilities. SCOPE Wellness, as used in this directive, includes the following health-related activities: a Physical fitness; b Nutrition and weight management; and c Health promotion and educational activities such as stress management, control of hypertension, smoking cessation, cholesterol control, and health risk assessments. RESPONSIBILITIES a Director, Office of Finance and Management (OFM). The Director has overall responsibility for wellness programs and support of special emphasis programs (e.g. health fairs, federal fitness activities, etc.) that are consistent with this directive. b Chief, Safety and Health Management Division, (OFM). The Chief provides consultation to agencies when planning wellness programs and develops guidelines and procedures, as necessary, to support and evaluate agency wellness programs. c Agency Officials. Agency officials should encourage development of and participation in wellness programs by employees at all organizational levels and ensure an equal opportunity for all employees to participate. June 14, 1993 DR 4430-2",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [
+        "DR 4430-2"
+      ],
+      "_proposed": {
+        "modal_verb_surface": "should",
+        "is_prohibitive": false,
+        "source_section": "3. AUTHORITIES",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR4430-002-0004",
+      "statement_ref": "DR 4430-002, Sec 7",
+      "statement_text": "a Agencies may use official time for employees to participate in physical activities in order to help them meet job related medical standards or physical requirements. b Agencies are encouraged to grant short periods of excused absences for employees to participate in officially authorized special or one-time educational or awareness programs, such as Federal Fitness Day activities, a medical fitness screening procedure as part of joining a fitness program, or an agency- sponsored health fair. Such programs would not be regular and recurring and would not continue over an extended or indefinite period. c Agencies are encouraged to facilitate employee participation in health and fitness activities that take place over extended or indefinite periods, such as use of fitness centers, running, aerobic classes, etc., through use of non-duty time. Non-duty time includes lunch periods, as well as before and after working hours. Agencies are encouraged to accommodate to the extent possible employee requests for flexible work schedules and annual leave in order to participate in health and fitness activities.",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": "a Agencies",
+      "responsible_party_actor_id": "ACT-3b91e84c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "7. USE OF OFFICIAL TIME, EXCUSED ABSENCES, AND WORK",
+        "sub_heading": "SCHEDULING ACCOMMODATIONS FOR WELLNESS ACTIVITIES",
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [
+          "ACT-3b91e84c"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR4430-002-0005",
+      "statement_ref": "DR 4430-002, Sec 8",
+      "statement_text": "Agencies may use appropriated funds to establish fitness facilities (renovating space, purchasing equipment, staffing the facility) or to educate and counsel employees (teaching smoking cessation and nutritional/ weight management classes, conducting health risk assessments and health screening).",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": "Agencies",
+      "responsible_party_actor_id": "ACT-ec198c95",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "8. USE OF APPROPRIATED FUNDS FOR WELLNESS PROGRAMS",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [
+          "ACT-ec198c95"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR4430-002-0006",
+      "statement_ref": "DR 4430-002, Sec 9",
+      "statement_text": "Employees may file workers’ compensation claims with the Department of Labor if injured while participating in-an agency-sponsored physical fitness program. Injuries and occupational diseases arising from participation in an agency-sponsored physical fitness program are compensable under the Federal Employees Compensation Act, 5 U.S.C. 8108, et seq. . DR 4430-2 June 14, 1993 WELLNESS PROGRAM DELIVERY OPTIONS Agencies may decide to manage their wellness program in- house with the assistance of volunteers or salaried health care personnel. Such personnel should possess the appropriate knowledge, skills, and ability to conduct health and fitness programs. Other options which may prove more cost-effective include: a Participate in a Cooperative Administrative Support Unit (CASU). CASUs provide common services on a reimbursable basis in multi-tenant buildings. The services can extend to Federal agencies housed in nearby buildings. Some CASU sites provide health services and physical fitness facilities; b Participate in an arrangement where multi-tenant buildings do not have CASUs. Tenant agencies should consider joint agreements to develop a wellness program. The lead agency may arrange a reimbursable agreement with the participating agencies; c Utilize services of an employee association. Many locations have established employee associations. These associations may provide recreational opportunities and other employee benefits. Agencies should consider using these associations to provide wellness program activities; and a Contract with a private vendor. Agencies may contract for services to provide wellness program activities. Such services may include group memberships in a health and fitness facility. Membership must be by agency name not by individual employee name. INCENTIVE PROGRAMS Group and individual incentives to recognize employee achievements are important to a successful wellness program FPM 451 Subchapter 7 and Personnel Bulletin No. 451-24 provide guidance in the use of non-monetary awards when cash awards are not appropriate. The Federal Fitkit provides examples of successful incentive programs. The Office of Personnel Management (OPM) recognizes Federal Health/Fitness programs through the \"Director’s Award for Outstanding Health/Fitness Programs.\" OPM announces this annual event in February or March each year. June 14, 1993 DR 4430-2",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": "Employees",
+      "responsible_party_actor_id": "ACT-1a7a6dfc",
+      "actor_resolution_status": "resolved",
+      "cross_references": [
+        "DR 4430-2"
+      ],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "9. LIABILITY",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [
+          "ACT-1a7a6dfc"
+        ],
+        "actor_inherited_from": null
+      }
+    }
+  ]
+}
