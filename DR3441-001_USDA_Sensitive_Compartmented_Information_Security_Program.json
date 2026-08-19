@@ -1,0 +1,924 @@
+{
+  "document": {
+    "doc_id": "DR 3441-001",
+    "doc_type": "DR",
+    "doc_type_name": "Departmental Regulation",
+    "subject": "DATE: USDA Sensitive Compartmented Information January 18, 2012 Security Program",
+    "opi": "Office of Homeland Security and Emergency Coordination",
+    "date_issued": "2012-01-18",
+    "expiration_date": null,
+    "series": "3000",
+    "source_file": "DR3441-001_USDA_Sensitive_Compartmented_Information_Security_Program.txt",
+    "doc_id_mismatch": false,
+    "sections_found": [
+      "1. PURPOSE [standalone]",
+      "2. REFERENCES [standalone]",
+      "3. POLICY [standalone]",
+      "4. ROLES AND RESPONSIBILITIES [standalone]"
+    ]
+  },
+  "provenance": {
+    "extraction_run_id": "pf-v3-pilot-001",
+    "method": "deterministic-scaffold-v3",
+    "model": "claude-opus-5",
+    "temperature": 0,
+    "deterministic": true,
+    "source_commit": "6c85b79d1a297e94fa424c23d19f340976d1be0a",
+    "source_branch": "PF_v3",
+    "snapshot_captured": "2026-08-16",
+    "extracted_at": "2026-08-19"
+  },
+  "statement_count": 42,
+  "statements": [
+    {
+      "statement_id": "DR3441-001-0001",
+      "statement_ref": "DR 3441-001, Sec 1",
+      "statement_text": "This regulation establishes the responsibilities and procedures for accessing, safeguarding, and disseminating Sensitive Compartmented Information (SCI) within U.S. Department of Agriculture (USDA). SCI is defined as classified information concerning or derived from intelligence sources, methods, or analytical processes, which is required to be handled within formal access control systems established by the Director of National Intelligence. This Departmental Regulation (DR) is applicable Departmental employees, contractors, and individuals serving in advisory, consultant, or non-employee affiliate capacities who have been granted access to SCI materials.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is required to",
+        "is_prohibitive": false,
+        "source_section": "1. PURPOSE",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0002",
+      "statement_ref": "DR 3441-001, Sec 3",
+      "statement_text": "USDA will safeguard SCI within its control from unauthorized disclosure. It is the policy of USDA that:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "USDA",
+      "responsible_party_actor_id": "ACT-4d6e7003",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "3. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [
+          "ACT-4d6e7003"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0003",
+      "statement_ref": "DR 3441-001, Sec 3.a",
+      "statement_text": "USDA agencies must provide a legitimate justification when requesting SCI access for each individual and limit the number of SCI clearances to the minimum necessary to meet USDA mission requirements;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "USDA agencies",
+      "responsible_party_actor_id": "ACT-510af88d",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "must",
+        "is_prohibitive": false,
+        "source_section": "3. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-510af88d"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0004",
+      "statement_ref": "DR 3441-001, Sec 3.b",
+      "statement_text": "SCI shall not be released or shared with persons who do not possess an active security clearance equal to or higher than the classification level of the material in question and without a verified need to know;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "USDA",
+      "responsible_party_actor_id": "ACT-4d6e7003",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "shall not",
+        "is_prohibitive": true,
+        "source_section": "3. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-4d6e7003"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 3"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0005",
+      "statement_ref": "DR 3441-001, Sec 3.c",
+      "statement_text": "SCI material may only be processed, stored, discussed, or safeguarded in facilities within USDA identified and accredited as SCI Facilities (SCIFs);",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "SCI material",
+      "responsible_party_actor_id": "ACT-2110ba2c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may only",
+        "is_prohibitive": true,
+        "source_section": "3. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-2110ba2c"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0006",
+      "statement_ref": "DR 3441-001, Sec 3.d",
+      "statement_text": "Annual security awareness training is required of all employees cleared to access SCI;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Annual security awareness training",
+      "responsible_party_actor_id": "ACT-56a3341f",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is required of",
+        "is_prohibitive": false,
+        "source_section": "3. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-56a3341f"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0007",
+      "statement_ref": "DR 3441-001, Sec 3.e",
+      "statement_text": "Destruction of SCI shall be completed by shredding with a National Security Agency certified shredder;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Destruction of SCI",
+      "responsible_party_actor_id": "ACT-1cec720c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "shall",
+        "is_prohibitive": false,
+        "source_section": "3. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-1cec720c"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0008",
+      "statement_ref": "DR 3441-001, Sec 3.f",
+      "statement_text": "Incidents involving the alleged mishandling and potential compromise of SCI must be reported immediately upon discovery to the Personnel and Document Security Division (PDSD) of the Office of Homeland Security and Emergency Coordination; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Incidents involving the alleged mishandling and potential compromise of SCI",
+      "responsible_party_actor_id": "ACT-fb360cb6",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "must",
+        "is_prohibitive": false,
+        "source_section": "3. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-fb360cb6"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0009",
+      "statement_ref": "DR 3441-001, Sec 3.g",
+      "statement_text": "SCI cleared persons must report any personal foreign travel in advance to PDSD and may be required to attend specialized briefings or debriefings related to the travel itinerary.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "SCI cleared persons",
+      "responsible_party_actor_id": "ACT-f19a0e2e",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "must",
+        "is_prohibitive": false,
+        "source_section": "3. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-f19a0e2e"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0010",
+      "statement_ref": "DR 3441-001, Sec 4.a",
+      "statement_text": "The Secretary of Agriculture is responsible for designating a Senior Agency Official to manage, develop and administer the SCI Security Program. This designation is currently made to the Director, Office of Homeland Security and Emergency Coordination (OHSEC). The Senior Agency Official is required to maintain a Top Secret clearance, with SCI access.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Secretary of Agriculture",
+      "responsible_party_actor_id": "ACT-b56ca203",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-b56ca203"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0011",
+      "statement_ref": "DR 3441-001, Sec 4.b",
+      "statement_text": "The Senior Agency Official is the primary liaison between USDA and the CIA and the National Security Agency (NSA). This position is responsible for identifying necessary resources to manage the SCI Security Program and providing program oversight.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Senior Agency Official is the primary liaison between USDA and the CIA and the National Security Agency (NSA). This position",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-1c79afab",
+          "ACT-e4206c04"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0012",
+      "statement_ref": "DR 3441-001, Sec 4.c",
+      "statement_text": "Subcabinet Officials, Agency Administrators, and Staff Office Directors, whose organizations require access to SCI material, are responsible for:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Subcabinet Officials, Agency Administrators, and Staff Office Directors, whose organizations require access to SCI material",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-1198ba56",
+          "ACT-0b4d7f49"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0013",
+      "statement_ref": "DR 3441-001, Sec 4.c(1)",
+      "statement_text": "Ensuring the number of persons granted access to SCI material is based on clearly-articulated, mission related “need-to-know” criteria, endorsing the written justification, and submitting the SCI request to OHSEC; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Subcabinet Officials, Agency Administrators, and Staff Office Directors, whose organizations require access to SCI material",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-1198ba56",
+          "ACT-0b4d7f49"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.c"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0014",
+      "statement_ref": "DR 3441-001, Sec 4.c(2)",
+      "statement_text": "Ensuring employees who hold a security clearance with access to SCI receive initial SCI security indoctrination training, annual security refresher training, and a debriefing after SCI access is terminated.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Subcabinet Officials, Agency Administrators, and Staff Office Directors, whose organizations require access to SCI material",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-1198ba56",
+          "ACT-0b4d7f49"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.c"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0015",
+      "statement_ref": "DR 3441-001, Sec 4.d",
+      "statement_text": "The Director, OHSEC, is responsible for:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Director, OHSEC",
+      "responsible_party_actor_id": "ACT-64b28cc4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-64b28cc4"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0016",
+      "statement_ref": "DR 3441-001, Sec 4.d(1)",
+      "statement_text": "Establishing and administering the USDA SCI Security Program in accordance with all applicable authorities, regulations and manuals;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Director, OHSEC",
+      "responsible_party_actor_id": "ACT-64b28cc4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-64b28cc4"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.d"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0017",
+      "statement_ref": "DR 3441-001, Sec 4.d(2)",
+      "statement_text": "Maintaining an oversight role to ensure consistent and effective implementation of the SCI Security Program throughout USDA;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Director, OHSEC",
+      "responsible_party_actor_id": "ACT-64b28cc4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-64b28cc4"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.d"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0018",
+      "statement_ref": "DR 3441-001, Sec 4.d(3)",
+      "statement_text": "Approving or denying requests for access to SCI;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Director, OHSEC",
+      "responsible_party_actor_id": "ACT-64b28cc4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-64b28cc4"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.d"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0019",
+      "statement_ref": "DR 3441-001, Sec 4.d(4)",
+      "statement_text": "Serving as the focal point for intelligence liaison between USDA and the intelligence community for matters of national security and intelligence related matters, excluding cyber-security;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Director, OHSEC",
+      "responsible_party_actor_id": "ACT-64b28cc4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-64b28cc4"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.d"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0020",
+      "statement_ref": "DR 3441-001, Sec 4.d(5)",
+      "statement_text": "Approving all requests for installation, maintenance, upgrade and disposal of all Information Technology (IT) systems and equipment whereby SCI is accessed, stored, and processed;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Director, OHSEC",
+      "responsible_party_actor_id": "ACT-64b28cc4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-64b28cc4"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.d"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0021",
+      "statement_ref": "DR 3441-001, Sec 4.d(6)",
+      "statement_text": "Approving all requests for the construction, modification, or closure of any SCIF within USDA operations; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Director, OHSEC",
+      "responsible_party_actor_id": "ACT-64b28cc4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-64b28cc4"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.d"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0022",
+      "statement_ref": "DR 3441-001, Sec 4.d(7)",
+      "statement_text": "Obtaining final accreditation for SCIFs and ensuring such facilities are adequately justified by USDA mission requirements.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Director, OHSEC",
+      "responsible_party_actor_id": "ACT-64b28cc4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-64b28cc4"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.d"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0023",
+      "statement_ref": "DR 3441-001, Sec 4.f",
+      "statement_text": "The Chief, Office of Chief Information Office is responsible for:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Chief, Office of Chief Information Office",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c4b038d0",
+          "ACT-0cdfc264"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0024",
+      "statement_ref": "DR 3441-001, Sec 4.f(1)",
+      "statement_text": "Providing Communications Security support to maintain the integrity of technical equipment to support the ongoing requirements for secure telecommunications and SCI connectivity;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Chief, Office of Chief Information Office",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c4b038d0",
+          "ACT-0cdfc264"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.f"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0025",
+      "statement_ref": "DR 3441-001, Sec 4.f(2)",
+      "statement_text": "Incorporating, where appropriate, applicable USDA information security policies and procedures into USDA policies and standards for IT system protection;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Chief, Office of Chief Information Office",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c4b038d0",
+          "ACT-0cdfc264"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.f"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0026",
+      "statement_ref": "DR 3441-001, Sec 4.f(3)",
+      "statement_text": "Serving as the focal point for intelligence liaison between USDA and the intelligence community for matters related to cyber security;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Chief, Office of Chief Information Office",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c4b038d0",
+          "ACT-0cdfc264"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.f"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0027",
+      "statement_ref": "DR 3441-001, Sec 4.f(4)",
+      "statement_text": "Coordinating with OHSEC to investigate the potential breaches or mishandling of classified information occurring within classified IT systems, conducting requisite forensic investigations; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Chief, Office of Chief Information Office",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c4b038d0",
+          "ACT-0cdfc264"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.f"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0028",
+      "statement_ref": "DR 3441-001, Sec 4.f(5)",
+      "statement_text": "Sharing with OHSEC the results of any forensic investigation to confirm or mitigate mishandling or compromise of classified information.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The Chief, Office of Chief Information Office",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c4b038d0",
+          "ACT-0cdfc264"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.f"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0029",
+      "statement_ref": "DR 3441-001, Sec 4.g",
+      "statement_text": "PDSD is responsible for implementing all policies and directives noted herein to maintain proper control and protection of collateral and SCI related documents and systems. This includes:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "PDSD",
+      "responsible_party_actor_id": "ACT-0a22058c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-0a22058c"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0030",
+      "statement_ref": "DR 3441-001, Sec 4.g(1)",
+      "statement_text": "Day-to-day management of the Department’s SCI information security program;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "PDSD",
+      "responsible_party_actor_id": "ACT-0a22058c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-0a22058c"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.g"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0031",
+      "statement_ref": "DR 3441-001, Sec 4.g(2)",
+      "statement_text": "Processing and sponsoring all SCI clearance requests to the CIA and notifying appropriate officials of all approvals and denials of access;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "PDSD",
+      "responsible_party_actor_id": "ACT-0a22058c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-0a22058c"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.g"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0032",
+      "statement_ref": "DR 3441-001, Sec 4.g(3)",
+      "statement_text": "Issuing and updating Department-wide SCI information security policies and procedures;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "PDSD",
+      "responsible_party_actor_id": "ACT-0a22058c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-0a22058c"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.g"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0033",
+      "statement_ref": "DR 3441-001, Sec 4.g(4)",
+      "statement_text": "Coordinating and providing initial SCI security indoctrination training, annual refresher training, and security debriefings;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "PDSD",
+      "responsible_party_actor_id": "ACT-0a22058c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-0a22058c"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.g"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0034",
+      "statement_ref": "DR 3441-001, Sec 4.g(5)",
+      "statement_text": "Coordinating approval, construction, accreditation, and maintenance of all SCIFs and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "PDSD",
+      "responsible_party_actor_id": "ACT-0a22058c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-0a22058c"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.g"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0035",
+      "statement_ref": "DR 3441-001, Sec 4.g(6)",
+      "statement_text": "Receiving reports of incidents of suspected mishandling or inadvertent disclosure of classified information; conducting requisite security inquiries/investigations; and making referrals to external agencies when a compromise of SCI has occurred; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "PDSD",
+      "responsible_party_actor_id": "ACT-0a22058c",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "is responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-0a22058c"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.g"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0036",
+      "statement_ref": "DR 3441-001, Sec 4.g(7)",
+      "statement_text": "Notifying CIA of any personnel security issues or concerns that may jeopardize an individual’s continued eligibility for SCI access.",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": "Notifying CIA of any personnel security issues or concerns that",
+      "responsible_party_actor_id": "ACT-47159eed",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-47159eed"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0037",
+      "statement_ref": "DR 3441-001, Sec 4.h",
+      "statement_text": "Employees, contractors, and other individuals maintaining SCI access at USDA are responsible for the following:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Employees, contractors, and other individuals maintaining SCI access at USDA",
+      "responsible_party_actor_id": "ACT-b968aff0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-b968aff0"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0038",
+      "statement_ref": "DR 3441-001, Sec 4.h(1)",
+      "statement_text": "Adhering to the provisions of this DR;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Employees, contractors, and other individuals maintaining SCI access at USDA",
+      "responsible_party_actor_id": "ACT-b968aff0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-b968aff0"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.h"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0039",
+      "statement_ref": "DR 3441-001, Sec 4.h(2)",
+      "statement_text": "Immediately reporting security irregularities and security violations to their respective information security coordinators and supervisors;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Employees, contractors, and other individuals maintaining SCI access at USDA",
+      "responsible_party_actor_id": "ACT-b968aff0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-b968aff0"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.h"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0040",
+      "statement_ref": "DR 3441-001, Sec 4.h(3)",
+      "statement_text": "Completing an initial SCI security indoctrination briefing, annual security refresher briefing, and security debriefings in a timely manner;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Employees, contractors, and other individuals maintaining SCI access at USDA",
+      "responsible_party_actor_id": "ACT-b968aff0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-b968aff0"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.h"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0041",
+      "statement_ref": "DR 3441-001, Sec 4.h(4)",
+      "statement_text": "Notifying PDSD of impending personal travel to or through foreign countries by completion of form AD-1196 and participating in any required defensive threat briefings, and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Employees, contractors, and other individuals maintaining SCI access at USDA",
+      "responsible_party_actor_id": "ACT-b968aff0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-b968aff0"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.h"
+      }
+    },
+    {
+      "statement_id": "DR3441-001-0042",
+      "statement_ref": "DR 3441-001, Sec 4.h(5)",
+      "statement_text": "Reporting to PDSD any close and continuing contact with foreign nationals by submitting a completed Foreign Contact Questionnaire. Contact includes personal and/or intimate relationships, outside employment, domestic help, and any situation that causes SCI cleared persons to believe they are being targeted by a foreign government. END",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Employees, contractors, and other individuals maintaining SCI access at USDA",
+      "responsible_party_actor_id": "ACT-b968aff0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are responsible for",
+        "is_prohibitive": false,
+        "source_section": "4. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-b968aff0"
+        ],
+        "actor_inherited_from": "DR 3441-001, Sec 4.h"
+      }
+    }
+  ]
+}

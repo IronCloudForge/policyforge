@@ -1,0 +1,1439 @@
+{
+  "document": {
+    "doc_id": "DR 3300-001-B",
+    "doc_type": "DR",
+    "doc_type_name": "Departmental Regulation",
+    "subject": "Telephone Use July 16, 2020",
+    "opi": "Office of the Chief Information Officer, Digital",
+    "date_issued": "2020-07-16",
+    "expiration_date": "2025-07-16",
+    "series": "3000",
+    "source_file": "DR3300-001-B_Telephone_Use.txt",
+    "doc_id_mismatch": false,
+    "sections_found": [
+      "1. PURPOSE [standalone]",
+      "2. SPECIAL INSTRUCTIONS/CANCELLATIONS [standalone]",
+      "3. SCOPE [standalone]",
+      "4. BACKGROUND [standalone]",
+      "5. POLICY [standalone]",
+      "6. ROLES AND RESPONSIBILITIES [standalone]",
+      "7. COMPLIANCE [standalone]",
+      "8. POLICY EXCEPTIONS [standalone]",
+      "9. INQUIRIES [standalone]"
+    ]
+  },
+  "provenance": {
+    "extraction_run_id": "pf-v3-pilot-001",
+    "method": "deterministic-scaffold-v3",
+    "model": "claude-opus-5",
+    "temperature": 0,
+    "deterministic": true,
+    "source_commit": "6c85b79d1a297e94fa424c23d19f340976d1be0a",
+    "source_branch": "PF_v3",
+    "snapshot_captured": "2026-08-16",
+    "extracted_at": "2026-08-19"
+  },
+  "statement_count": 67,
+  "statements": [
+    {
+      "statement_id": "DR3300-001-B-0001",
+      "statement_ref": "DR 3300-001-B, Sec 1",
+      "statement_text": "This Departmental Regulation (DR) establishes United States Department of Agriculture (USDA) policy for the management and use of Government telephone equipment.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "1. PURPOSE",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0002",
+      "statement_ref": "DR 3300-001-B, Sec 2.a",
+      "statement_text": "This DR replaces DR 3300-1-B, Telephone Use, dated March 23, 1999.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [
+        "DR 3300-1-B"
+      ],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "2. SPECIAL INSTRUCTIONS/CANCELLATIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0003",
+      "statement_ref": "DR 3300-001-B, Sec 2.b",
+      "statement_text": "This DR will be in effect until superseded or the expiration date.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "2. SPECIAL INSTRUCTIONS/CANCELLATIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0004",
+      "statement_ref": "DR 3300-001-B, Sec 2.c",
+      "statement_text": "All Mission Areas, agencies, and staff offices will align their policies and procedures with this DR within 6 months of the publication date.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "All Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "2. SPECIAL INSTRUCTIONS/CANCELLATIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0005",
+      "statement_ref": "DR 3300-001-B, Sec 2.d",
+      "statement_text": "All Mission Areas, agencies, and staff offices may supplement this DR when developing their internal guidance. Modifications to the intent or purpose of this DR are not allowed. If Mission Areas, agencies, and staff offices publish internal guidance that supplements this DR, one copy of each supplement will be forwarded to the Office of the Chief Information Officer (OCIO), Digital Infrastructure Services Center (DISC), Enterprise Network Services (ENS), Telecommunications Infrastructure Management and Governance (TIMG) at ens.policy@ocio.usda.gov.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "All Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": true,
+        "source_section": "2. SPECIAL INSTRUCTIONS/CANCELLATIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0006",
+      "statement_ref": "DR 3300-001-B, Sec 3",
+      "statement_text": "This DR applies to all USDA Mission Areas, agencies, staff offices, employees, contractors, data centers, cloud service providers, cooperative partners, and others working for, or on behalf of, the USDA.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "3. SCOPE",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0007",
+      "statement_ref": "DR 3300-001-B, Sec 4",
+      "statement_text": "The USDA telephone use policy depends on, and is derived from, the regulations promulgated by Congress and the Executive Office of the President. Managers responsible for telecommunications systems within Mission Areas, agencies, and staff offices must be proactive in educating employees on telephone abuse to mitigate the risk of abuse and fraud to the systems.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "must",
+        "is_prohibitive": false,
+        "source_section": "4. BACKGROUND",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0008",
+      "statement_ref": "DR 3300-001-B, Sec 5.a",
+      "statement_text": "Telephone equipment that is paid by the Government is available for conducting official business or for limited personal use as outlined in this DR. Official calls may include emergency calls and calls that Mission Areas, agencies, and staff offices determine are necessary in the interest of the Government. Supervisors are responsible for the management of telephone use within the scope of their jurisdiction.",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": "Telephone equipment that is paid by the Government is available for conducting official business or for limited personal use as outlined in this DR. Official calls",
+      "responsible_party_actor_id": "ACT-eb244cbb",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": "Use of Government Telephone Equipment",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-eb244cbb"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0009",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(1)",
+      "statement_text": "Use of Government telephone equipment for limited personal use may be authorized if such use satisfies the following criteria:",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": "Criteria for Authorized Limited Personal Use",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0010",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(1)(a)",
+      "statement_text": "It is of reasonable duration and frequency;",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": "DR 3300-001-B, Sec 5.a(1)"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0011",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(1)(b)",
+      "statement_text": "It reasonably could not have been made at another time; and",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": "DR 3300-001-B, Sec 5.a(1)"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0012",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(1)(c)",
+      "statement_text": "It does not adversely affect the performance of the employee’s official duties.",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": "DR 3300-001-B, Sec 5.a(1)"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0013",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(2)",
+      "statement_text": "Personal long distance toll and toll-free calls can be made during work hours using any type of Government telephone (e.g., cellular, smartphone, Voice over Internet Protocol (VoIP), analog) if the call is consistent with the criteria specified in Section 5a(1).",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": "Long Distance Calls",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0014",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(3)",
+      "statement_text": "The following types of calls are prohibited when using Government equipment:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The following types of calls",
+      "responsible_party_actor_id": "ACT-2d80251a",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are prohibited",
+        "is_prohibitive": true,
+        "source_section": "5. POLICY",
+        "sub_heading": "Prohibited Calls",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-2d80251a"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0015",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(3)(a)",
+      "statement_text": "Calls that interfere with the performance of Government business; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The following types of calls",
+      "responsible_party_actor_id": "ACT-2d80251a",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are prohibited",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-2d80251a"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 5.a(3)"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0016",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(3)(b)",
+      "statement_text": "Calls to unsafe and unauthorized parties (e.g., “900” calls).",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The following types of calls",
+      "responsible_party_actor_id": "ACT-2d80251a",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are prohibited",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-2d80251a"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 5.a(3)"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0017",
+      "statement_ref": "DR 3300-001-B, Sec 5.a(4)",
+      "statement_text": "Incoming collect calls (calls placed from a non-Government number to a Federal Government number) and third-party calls are prohibited, except for official business and only when authorized in writing by the employee’s supervisor. Since the telephone company charges an additional fee for collect calls, employees and their supervisors should consult with the Telecommunications Mission Area Control Officer (TMACO) to determine if there is an alternative, cost-effective method for accepting collect calls.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Incoming collect calls (calls placed from a non-Government number to a Federal Government number) and third-party calls",
+      "responsible_party_actor_id": "ACT-d2ea419a",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are prohibited",
+        "is_prohibitive": true,
+        "source_section": "5. POLICY",
+        "sub_heading": "Collect Calls",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d2ea419a"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0018",
+      "statement_ref": "DR 3300-001-B, Sec 5.b",
+      "statement_text": "Mission Areas, agencies, and staff offices will determine whether it is necessary to install Government-furnished telephones in an employee’s private residence. In general, this practice is discouraged to avoid possible conflicts of interest. If it is acceptable for the employee to perform Government work on his or her personal telephone, the supervisor may allow telework without providing a Government-furnished telephone for offsite use. If it is mandated that an employee must use a Government telephone for telework, the employee must adhere to this policy.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": "Installation of Government Telecommunications Resources in Private Residences",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0019",
+      "statement_ref": "DR 3300-001-B, Sec 5.c",
+      "statement_text": "Monitoring and Recording Telephone Conversations",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0020",
+      "statement_ref": "DR 3300-001-B, Sec 5.c(1)",
+      "statement_text": "In accordance with DR 1710-001, Interception and Monitoring of Telephone and Non-telephone Conversations, and DR 4070-735-001, Employee Responsibilities and Conduct, all parties on the call must receive prior and adequate notice that their call is being monitored and recorded, and all parties on the call must agree in advance to the monitoring and recording.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Interception and Monitoring of Telephone and Non-telephone Conversations, and DR 4070-735-001, Employee Responsibilities and Conduct, all parties on the call",
+      "responsible_party_actor_id": "ACT-ce79c0a1",
+      "actor_resolution_status": "resolved",
+      "cross_references": [
+        "DR 1710-001",
+        "DR 4070-735-001"
+      ],
+      "_proposed": {
+        "modal_verb_surface": "must",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-ce79c0a1"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0021",
+      "statement_ref": "DR 3300-001-B, Sec 5.c(2)",
+      "statement_text": "In accordance with DR 3300-001, Telecommunications & Internet Services and Use, and DR 1710-001, employees at customer service call centers, and at other locations where calls from the general public may be received, will be reminded that any such calls in which they participate may be monitored for evaluating the performance of employees and for quality control purposes.",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": "Telecommunications & Internet Services and Use, and DR 1710-001, employees at customer service call centers, and at other locations where calls from the general public",
+      "responsible_party_actor_id": "ACT-56cbd445",
+      "actor_resolution_status": "resolved",
+      "cross_references": [
+        "DR 3300-001",
+        "DR 1710-001"
+      ],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-56cbd445"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0022",
+      "statement_ref": "DR 3300-001-B, Sec 5.c(3)",
+      "statement_text": "USDA customer service telephone numbers equipped with call monitoring or recording equipment will provide a suitable greeting announcement such as: “This call may be recorded for quality control or training purposes.” Once the caller on the incoming call is connected to a live USDA employee, the caller should be given the opportunity to provide consent to the recording or monitoring of the call. The call cannot be recorded or monitored if the caller does not provide consent.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "USDA customer service telephone numbers equipped with call monitoring or recording equipment",
+      "responsible_party_actor_id": "ACT-85e31f4e",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": true,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-85e31f4e"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0023",
+      "statement_ref": "DR 3300-001-B, Sec 5.c(4)",
+      "statement_text": "For those calls that continue to be monitored or recorded, an automatic tone warning device, sometimes called a beep tone, will be provided. This tone would automatically produce a distinct signal that is repeated at regular intervals during the course of the telephone conversation when the recording or monitoring device is in use.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "For those calls that continue to be monitored or recorded, an automatic tone warning device, sometimes called a beep tone",
+      "responsible_party_actor_id": "ACT-48ccdb9a",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-48ccdb9a"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0024",
+      "statement_ref": "DR 3300-001-B, Sec 5.c(5)",
+      "statement_text": "If speakerphones are used, all parties will be informed of the names of persons listening in prior to the subject matter of the call being introduced.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "If speakerphones are used, all parties",
+      "responsible_party_actor_id": "ACT-b83eb2f2",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-b83eb2f2"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0025",
+      "statement_ref": "DR 3300-001-B, Sec 5.c(6)",
+      "statement_text": "The Office of Inspector General (OIG) has an exception to the requirement for consensual recording of conversations. This exception is described in DR 1710- 001, Section 3b(1).",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0026",
+      "statement_ref": "DR 3300-001-B, Sec 5.d",
+      "statement_text": "Mission Areas, agencies, and staff offices will implement cost-effective actions to minimize their exposure to telephone abuse. Abuse can be minimized by:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": "Minimizing Telephone Abuse and Fraud",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0027",
+      "statement_ref": "DR 3300-001-B, Sec 5.d(1)",
+      "statement_text": "Reviewing and validating office telephone bills;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 5.d"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0028",
+      "statement_ref": "DR 3300-001-B, Sec 5.d(2)",
+      "statement_text": "Blocking collect and third party calls through the Local Exchange Carrier (LEC) and telephone systems; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 5.d"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0029",
+      "statement_ref": "DR 3300-001-B, Sec 5.d(3)",
+      "statement_text": "Educating employees on the telephone use policy.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-d0ce8697",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-d0ce8697"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 5.d"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0030",
+      "statement_ref": "DR 3300-001-B, Sec 5.e",
+      "statement_text": "USDA personnel will report the loss of Government telephone equipment to their manager as soon as possible to enable services to be deactivated and tracked and to minimize financial losses.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "USDA personnel",
+      "responsible_party_actor_id": "ACT-c616fed4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": "Loss of Government Telephone Equipment",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c616fed4"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0031",
+      "statement_ref": "DR 3300-001-B, Sec 5.f",
+      "statement_text": "USDA personnel will comply with DR 3580-004, Securing Remote Access to USDA Information Systems and Client Devices and DR 3580-005, Securing Client Devices for International Travel, regarding the use of telephone equipment while traveling.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "USDA personnel",
+      "responsible_party_actor_id": "ACT-c616fed4",
+      "actor_resolution_status": "resolved",
+      "cross_references": [
+        "DR 3580-004",
+        "DR 3580-005"
+      ],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "5. POLICY",
+        "sub_heading": "Travel Regulations for Telephone Equipment",
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c616fed4"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0032",
+      "statement_ref": "DR 3300-001-B, Sec 6.a",
+      "statement_text": "The USDA Chief Information Officer (CIO) will:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0033",
+      "statement_ref": "DR 3300-001-B, Sec 6.a(1)",
+      "statement_text": "Represent the USDA to the Federal CIO Council, General Services Administration (GSA), and Office of Management and Budget (OMB) regarding requests for exceptions to mandatory telecommunications services contracts;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.a"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0034",
+      "statement_ref": "DR 3300-001-B, Sec 6.a(2)",
+      "statement_text": "Represent the USDA to oversight agencies, such as OMB, Government Accountability Office (GAO), Department of Homeland Security (DHS), Department of Commerce (DOC), and Federal Communications Commission (FCC) on telecommunications-related issues;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.a"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0035",
+      "statement_ref": "DR 3300-001-B, Sec 6.a(3)",
+      "statement_text": "Respond to oversight agencies with timely and accurate USDA telecommunications program and cost information;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.a"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0036",
+      "statement_ref": "DR 3300-001-B, Sec 6.a(4)",
+      "statement_text": "Serve as the USDA liaison with international, inter- and intra-Local Access and Transport Area (interLATA and intraLATA) telecommunications service providers;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.a"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0037",
+      "statement_ref": "DR 3300-001-B, Sec 6.a(5)",
+      "statement_text": "Serve as the USDA representative to the Diplomatic Telecommunications Service Program Office (DTSPO); and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.a"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0038",
+      "statement_ref": "DR 3300-001-B, Sec 6.a(6)",
+      "statement_text": "Perform management and oversight responsibilities in accordance with the Federal Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.) 113- 291, as applicable to this directive.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The USDA Chief Information Officer (CIO)",
+      "responsible_party_actor_id": "ACT-34e81dd0",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-34e81dd0"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.a"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0039",
+      "statement_ref": "DR 3300-001-B, Sec 6.b",
+      "statement_text": "The ENS Director will:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0040",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(1)",
+      "statement_text": "Establish procedures for monitoring, measuring, and enforcing compliance with this DR;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0041",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(2)",
+      "statement_text": "Oversee Mission Area, agency, and staff office compliance with USDA telecommunications policies and procedures;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0042",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(3)",
+      "statement_text": "Manage USDA telecommunications services, equipment, and facilities in accordance with prescribed laws, regulations, standards, and related USDA 3300 Series telecommunications management directives;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0043",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(4)",
+      "statement_text": "Review and render a decision for Mission Area, agency, and staff office policy waiver requests;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0044",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(5)",
+      "statement_text": "Maintain an electronic file of approved waivers;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0045",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(6)",
+      "statement_text": "Work with Mission Areas, agencies, and staff offices to eliminate redundant or unused services and equipment;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0046",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(7)",
+      "statement_text": "Include telecommunications requirements and initiatives as part of the telecommunications planning process;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0047",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(8)",
+      "statement_text": "Use GSA and USDA mandated programs when Mission Area, agency, and staff office requirements can be met cost-effectively through those programs;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0048",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(9)",
+      "statement_text": "Maintain inventories of USDA telecommunications resources to the extent necessary to:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0049",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(9)(a)",
+      "statement_text": "Ensure adequate and appropriate telecommunications resources to support the Mission Area, agency, and staff office mission;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0050",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(9)(b)",
+      "statement_text": "Ensure accountability for USDA telecommunications property; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0051",
+      "statement_ref": "DR 3300-001-B, Sec 6.b(9)(c)",
+      "statement_text": "Meet Departmental and Governmental requests for periodic or special inventory reports.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "The ENS Director",
+      "responsible_party_actor_id": "ACT-c8987566",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-c8987566"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.b"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0052",
+      "statement_ref": "DR 3300-001-B, Sec 6.c",
+      "statement_text": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors will:",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0053",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(1)",
+      "statement_text": "Ensure Mission Area, agency, and staff office personnel comply with this DR;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0054",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(2)",
+      "statement_text": "Ensure Mission Area, agency, and staff office internal directives conform to this DR’s stated requirements;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0055",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(3)",
+      "statement_text": "Provide guidance, oversight, and training on the issuance and use of Government- furnished telecommunications in Government and non-Government buildings;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0056",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(4)",
+      "statement_text": "Include telecommunications requirements and initiatives as part of the telecommunications planning process;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0057",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(5)",
+      "statement_text": "Select the most cost-effective solution to meet the telephone needs of the office;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0058",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(6)",
+      "statement_text": "Implement cost-effective actions to minimize the exposure to telephone abuse;",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0059",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(7)",
+      "statement_text": "Require supervisory personnel to authorize, in writing, the approval of all international calls that incur charges for USDA.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0060",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(8)",
+      "statement_text": "Obtain waivers and approvals from the ENS Director when Mission Area, agency, and staff office telecommunications requirements cannot be met through mandated programs; and",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "cannot",
+        "is_prohibitive": true,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0061",
+      "statement_ref": "DR 3300-001-B, Sec 6.c(9)",
+      "statement_text": "Provide the TMACO’s name and contact information to the DTSPO and USDA CIO.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Mission Area Assistant CIOs and Agency and Staff Office Information Technology (IT) Directors",
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "conflicting",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-8c886bd3",
+          "ACT-0481e943"
+        ],
+        "actor_inherited_from": "DR 3300-001-B, Sec 6.c"
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0062",
+      "statement_ref": "DR 3300-001-B, Sec 6.d",
+      "statement_text": "The roles and responsibilities for TMACOs are provided in DR 3300-020, Telecommunications Mission Area Control Officer Roles and Responsibilities.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [
+        "DR 3300-020"
+      ],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "6. ROLES AND RESPONSIBILITIES",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0063",
+      "statement_ref": "DR 3300-001-B, Sec 7.a",
+      "statement_text": "DR 4070-735-001, Section 16, sets forth USDA’s policies, procedures, and standards on employee responsibilities and conduct relative to the use of computers and telecommunications equipment. DR 4070-735-001, Section 21, states that a violation of any of the responsibilities and conduct standards contained in this directive may be cause for disciplinary or adverse action; and",
+      "modal_verb": "discretionary",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [
+        "DR 4070-735-001"
+      ],
+      "_proposed": {
+        "modal_verb_surface": "may",
+        "is_prohibitive": false,
+        "source_section": "7. COMPLIANCE",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0064",
+      "statement_ref": "DR 3300-001-B, Sec 7.b",
+      "statement_text": "Such disciplinary or adverse action will be affected in accordance with applicable laws and regulations, including the Office of Personnel Management (OPM) regulations, OMB regulations, and the Standards of Ethical Conduct for Employees of the Executive Branch.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "7. COMPLIANCE",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0065",
+      "statement_ref": "DR 3300-001-B, Sec 8.a",
+      "statement_text": "All USDA Mission Areas, agencies, and staff offices are required to conform to this policy. If a specific policy requirement cannot be met as explicitly stated, Mission Areas, agencies, and staff offices may submit a waiver request to the ENS Director for review and determination. Submit the waiver request to ens.policy@ocio.usda.gov. The waiver request will explain the reason for the request, identify compensating controls and actions that meet the intent of the policy, and identify how the compensating controls and actions provide a similar or greater level of defense or compliance than the policy requirement.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "All USDA Mission Areas, agencies, and staff offices",
+      "responsible_party_actor_id": "ACT-06f7ecaf",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "are required to",
+        "is_prohibitive": true,
+        "source_section": "8. POLICY EXCEPTIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-06f7ecaf"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0066",
+      "statement_ref": "DR 3300-001-B, Sec 8.b",
+      "statement_text": "Waivers to stipulations of this directive that have been granted approval by the ENS Director and that are associated with a National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53 Revision 4, Security and Privacy Controls for Federal Information Systems and Organizations, control will be recorded and tracked as a Plan of Action and Milestones (POA&M) item in the USDA Federal Information Security Modernization Act of 2014 (FISMA), 44 United States Code (U.S.C.) Section 3551, data management and reporting tool.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "8. POLICY EXCEPTIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "DR3300-001-B-0067",
+      "statement_ref": "DR 3300-001-B, Sec 8.c",
+      "statement_text": "Waivers will expire at the end of the fiscal year or 6 months from the date of approval, whichever is longer. Unless otherwise specified, Mission Areas, agencies, and staff offices will review and renew approved policy waivers every fiscal year.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Waivers",
+      "responsible_party_actor_id": "ACT-36a3038f",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "8. POLICY EXCEPTIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [
+          "ACT-36a3038f"
+        ],
+        "actor_inherited_from": null
+      }
+    }
+  ]
+}
