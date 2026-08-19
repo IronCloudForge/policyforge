@@ -1,0 +1,131 @@
+{
+  "document": {
+    "doc_id": "SM 1078-018",
+    "doc_type": "SM",
+    "doc_type_name": "Secretary's Memorandum",
+    "subject": null,
+    "opi": null,
+    "date_issued": null,
+    "expiration_date": null,
+    "series": "1000",
+    "source_file": "SM1078-018_Delegation_of_Authority_for_the_Department_of_Agriculture_Under_the_Se.txt",
+    "doc_id_mismatch": false,
+    "sections_found": [
+      "1. PURPOSE [standalone]",
+      "2. DELEGATIONS [standalone]",
+      "3. EXISTING DIRECTIVES [standalone]",
+      "4. EFFECTIVE DA TE AND TERMINATION [standalone]"
+    ]
+  },
+  "provenance": {
+    "extraction_run_id": "pf-v3-pilot-001",
+    "method": "deterministic-scaffold-v3",
+    "model": "claude-opus-5",
+    "temperature": 0,
+    "deterministic": true,
+    "source_commit": "6c85b79d1a297e94fa424c23d19f340976d1be0a",
+    "source_branch": "PF_v3",
+    "snapshot_captured": "2026-08-16",
+    "extracted_at": "2026-08-19"
+  },
+  "statement_count": 5,
+  "statements": [
+    {
+      "statement_id": "SM1078-018-0001",
+      "statement_ref": "SM 1078-018, Sec 1",
+      "statement_text": "The purpose of this memorandum is to delegate authority under the \"Service First\" initiative to the Assistant Secretary for Administration at the Department of Agriculture (USDA) to create a co-location program for Federal offices and facilities leased by the USDA. This furthers the Administration's Return-to-Office initiative and promotes customer service and efficiency.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "1. PURPOSE",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "SM1078-018-0002",
+      "statement_ref": "SM 1078-018, Sec 2.a",
+      "statement_text": "The Assistant Secretary for Administration is hereby delegated the authority under the Service First Initiative; Permit_s for Multijurisdictional Trips (16 United States Code (U.S.C.) § 8544) to create the co-location program in Federal offices and facilities leased by an agency of either Department.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "2. DELEGATIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "SM1078-018-0003",
+      "statement_ref": "SM 1078-018, Sec 2.b",
+      "statement_text": "This delegation allows all agencies and staff offices of the USDA to use the \"Service First\" initiative to exercise the authority necessary to participate in the co-location program, which promotes customer service and efficiency.",
+      "modal_verb": "none",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": null,
+        "is_prohibitive": false,
+        "source_section": "2. DELEGATIONS",
+        "sub_heading": null,
+        "ref_confidence": "high",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "SM1078-018-0004",
+      "statement_ref": "SM 1078-018, Sec 3",
+      "statement_text": "Prior delegations of authority, administrative regulations, and other directives not inconsistent with the provisions of this Memorandum will remain in full force and effect.",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": "Prior delegations of authority, administrative regulations, and other directives not inconsistent with the provisions of this Memorandum",
+      "responsible_party_actor_id": "ACT-37d1f32e",
+      "actor_resolution_status": "resolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "3. EXISTING DIRECTIVES",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [
+          "ACT-37d1f32e"
+        ],
+        "actor_inherited_from": null
+      }
+    },
+    {
+      "statement_id": "SM1078-018-0005",
+      "statement_ref": "SM 1078-018, Sec 4",
+      "statement_text": "This delegation is effective immediately and will remain in effect until the Department's published delegations of authority have been revised to incorporate the provisions of this Memorandum or it is otherwise terminated. Isl Brooke L. Rollins Secretary U.S. Department ofAgriculture",
+      "modal_verb": "mandatory",
+      "responsible_party_raw": null,
+      "responsible_party_actor_id": null,
+      "actor_resolution_status": "unresolved",
+      "cross_references": [],
+      "_proposed": {
+        "modal_verb_surface": "will",
+        "is_prohibitive": false,
+        "source_section": "4. EFFECTIVE DA TE AND TERMINATION",
+        "sub_heading": null,
+        "ref_confidence": "section-only",
+        "responsible_party_actor_ids": [],
+        "actor_inherited_from": null
+      }
+    }
+  ]
+}
