@@ -1,6 +1,6 @@
  DEPRECATED / UNVALIDATED POLICY-AS-CODE ARTIFACTS
 Pre-v3 policy-as-code artifacts removed: Earlier experimental Rego and OSCAL outputs were removed from the active repository after subsequent Policy Forge research identified source-extraction, linguistic-analysis, obligation-boundary, and responsible-party resolution deficiencies in the methodology used to generate them. Those artifacts should not be treated as validated or authoritative representations of USDA policy. Their historical versions remain available through Git history for research and provenance purposes. 
-DO NOT use the Rego or OSCAL artifacts in this directory for policy enforcement, compliance determinations, security authorization, audit conclusions, control implementation, or any other operational or authoritative purpose.
+DO NOT use the Rego or OSCAL artifacts previously stored in this directory for policy enforcement, compliance determinations, security authorization, audit conclusions, control implementation, or any other operational or authoritative purpose.
 Why These Artifacts Are Untrusted
 
 Policy Forge originally attempted to translate USDA policy text directly into machine-readable Rego and OSCAL artifacts.
