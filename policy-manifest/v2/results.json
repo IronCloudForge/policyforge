@@ -1,0 +1,324 @@
+{
+  "DR3450-001_Computer_Matching_Program_Involving_Personally_Identifiable_Informatio": {
+    "date": "2020-10-29",
+    "n_words": 3849,
+    "unique_words": 811,
+    "ttr": 0.211,
+    "n_sentences": 98,
+    "avg_sentence_len_words": 37.9,
+    "flesch_reading_ease": -1.1,
+    "flesch_kincaid_grade": 23.2,
+    "modal_counts": {
+      "shall": 1,
+      "must": 0,
+      "will": 13,
+      "may": 10,
+      "should": 6,
+      "can": 4,
+      "could": 0,
+      "would": 1,
+      "might": 0
+    },
+    "total_modals": 35,
+    "modals_per_1000w": 9.1,
+    "hedge_hits": [
+      [
+        "as needed",
+        1
+      ]
+    ],
+    "total_hedges": 1,
+    "hedges_per_1000w": 0.3,
+    "negation_counts": {
+      "\\bwill not\\b": 1,
+      "\\bcannot\\b": 1,
+      "\\bnot be\\b": 1
+    },
+    "total_negation": 3,
+    "conditional_counts": {
+      "\\bif\\b": 3,
+      "\\bwhen\\b": 5,
+      "\\bupon\\b": 1,
+      "\\bsubject to\\b": 1,
+      "\\bwhere\\b": 4
+    },
+    "total_conditional": 14,
+    "conditional_per_1000w": 3.6,
+    "temporal_counts": {
+      "\\bannually\\b": 1,
+      "\\bupon\\b": 1,
+      "\\bimmediately\\b": 1
+    },
+    "total_temporal": 3,
+    "passive_sentences": 37,
+    "active_finite_sentences": 51,
+    "passive_pct_of_finite": 42.0,
+    "nominalizations": 107,
+    "nominalizations_per_1000w": 27.8,
+    "n_list_items": 112,
+    "modal_bearing_sentences": 30,
+    "modal_sentences_with_explicit_actor": 30,
+    "modal_sentences_with_inherited_actor": 0,
+    "actor_inheritance_pct": 0.0
+  },
+  "DR2236-001_Shared_Cost_Programs": {
+    "date": "2021-04-16",
+    "n_words": 1237,
+    "unique_words": 359,
+    "ttr": 0.29,
+    "n_sentences": 40,
+    "avg_sentence_len_words": 29.8,
+    "flesch_reading_ease": 12.2,
+    "flesch_kincaid_grade": 19.2,
+    "modal_counts": {
+      "shall": 0,
+      "must": 2,
+      "will": 13,
+      "may": 3,
+      "should": 1,
+      "can": 0,
+      "could": 0,
+      "would": 1,
+      "might": 0
+    },
+    "total_modals": 20,
+    "modals_per_1000w": 16.2,
+    "hedge_hits": [
+      [
+        "generally",
+        1
+      ],
+      [
+        "as needed",
+        1
+      ],
+      [
+        "where necessary",
+        1
+      ]
+    ],
+    "total_hedges": 3,
+    "hedges_per_1000w": 2.4,
+    "negation_counts": {
+      "\\bmay not\\b": 2,
+      "\\bwill not\\b": 1
+    },
+    "total_negation": 3,
+    "conditional_counts": {
+      "\\bif\\b": 2,
+      "\\bwhen\\b": 1,
+      "\\bbefore\\b": 1,
+      "\\bafter\\b": 1,
+      "\\bsubject to\\b": 1,
+      "\\bwhere\\b": 1
+    },
+    "total_conditional": 7,
+    "conditional_per_1000w": 5.7,
+    "temporal_counts": {},
+    "total_temporal": 0,
+    "passive_sentences": 10,
+    "active_finite_sentences": 24,
+    "passive_pct_of_finite": 29.4,
+    "nominalizations": 38,
+    "nominalizations_per_1000w": 30.7,
+    "n_list_items": 61,
+    "modal_bearing_sentences": 17,
+    "modal_sentences_with_explicit_actor": 17,
+    "modal_sentences_with_inherited_actor": 0,
+    "actor_inheritance_pct": 0.0
+  },
+  "DR2235-001_Economy_Act_Agreements": {
+    "date": "2021-07-14",
+    "n_words": 4218,
+    "unique_words": 771,
+    "ttr": 0.183,
+    "n_sentences": 143,
+    "avg_sentence_len_words": 28.5,
+    "flesch_reading_ease": 12.5,
+    "flesch_kincaid_grade": 18.8,
+    "modal_counts": {
+      "shall": 0,
+      "must": 25,
+      "will": 23,
+      "may": 12,
+      "should": 11,
+      "can": 9,
+      "could": 0,
+      "would": 2,
+      "might": 0
+    },
+    "total_modals": 82,
+    "modals_per_1000w": 19.4,
+    "hedge_hits": [
+      [
+        "generally",
+        1
+      ]
+    ],
+    "total_hedges": 1,
+    "hedges_per_1000w": 0.2,
+    "negation_counts": {
+      "\\bmay not\\b": 2,
+      "\\bcannot\\b": 7,
+      "\\bnot be\\b": 2
+    },
+    "total_negation": 11,
+    "conditional_counts": {
+      "\\bif\\b": 16,
+      "\\bwhen\\b": 9,
+      "\\bunless\\b": 3,
+      "\\bbefore\\b": 3,
+      "\\bafter\\b": 6,
+      "\\bupon\\b": 1,
+      "\\bin the event of\\b": 1,
+      "\\bsubject to\\b": 1,
+      "\\bwhere\\b": 1
+    },
+    "total_conditional": 41,
+    "conditional_per_1000w": 9.7,
+    "temporal_counts": {
+      "\\bperiodically\\b": 1,
+      "\\bwithin \\d+ (calendar )?days?\\b": 2,
+      "\\bupon\\b": 1,
+      "\\bimmediately\\b": 1,
+      "\\bwithin \\d+ (business )?days?\\b": 2
+    },
+    "total_temporal": 7,
+    "passive_sentences": 48,
+    "active_finite_sentences": 69,
+    "passive_pct_of_finite": 41.0,
+    "nominalizations": 156,
+    "nominalizations_per_1000w": 37.0,
+    "n_list_items": 121,
+    "modal_bearing_sentences": 69,
+    "modal_sentences_with_explicit_actor": 69,
+    "modal_sentences_with_inherited_actor": 0,
+    "actor_inheritance_pct": 0.0
+  },
+  "DR4300-007_Processing_Equal_Employment_Opportunity_(EEO)_Complaints_of_Discrimina": {
+    "date": "2021-08-04",
+    "n_words": 5785,
+    "unique_words": 944,
+    "ttr": 0.163,
+    "n_sentences": 174,
+    "avg_sentence_len_words": 32.1,
+    "flesch_reading_ease": 17.8,
+    "flesch_kincaid_grade": 19.0,
+    "modal_counts": {
+      "shall": 0,
+      "must": 22,
+      "will": 50,
+      "may": 28,
+      "should": 2,
+      "can": 2,
+      "could": 0,
+      "would": 2,
+      "might": 0
+    },
+    "total_modals": 106,
+    "modals_per_1000w": 18.3,
+    "hedge_hits": [
+      [
+        "as appropriate",
+        1
+      ],
+      [
+        "where applicable",
+        2
+      ],
+      [
+        "as necessary",
+        2
+      ],
+      [
+        "generally",
+        1
+      ]
+    ],
+    "total_hedges": 6,
+    "hedges_per_1000w": 1.0,
+    "negation_counts": {
+      "\\bmay not\\b": 5,
+      "\\bwill not\\b": 1,
+      "\\bnot be\\b": 4
+    },
+    "total_negation": 10,
+    "conditional_counts": {
+      "\\bif\\b": 19,
+      "\\bwhen\\b": 6,
+      "\\bunless\\b": 1,
+      "\\bexcept\\b": 3,
+      "\\bbefore\\b": 3,
+      "\\bafter\\b": 5,
+      "\\bupon\\b": 4,
+      "\\bin the event of\\b": 1,
+      "\\bsubject to\\b": 3,
+      "\\bwhere\\b": 14
+    },
+    "total_conditional": 59,
+    "conditional_per_1000w": 10.2,
+    "temporal_counts": {
+      "\\bwithin \\d+ (calendar )?days?\\b": 12,
+      "\\bupon\\b": 4,
+      "\\bwithin \\d+ (business )?days?\\b": 2
+    },
+    "total_temporal": 18,
+    "passive_sentences": 46,
+    "active_finite_sentences": 103,
+    "passive_pct_of_finite": 30.9,
+    "nominalizations": 208,
+    "nominalizations_per_1000w": 36.0,
+    "n_list_items": 113,
+    "modal_bearing_sentences": 87,
+    "modal_sentences_with_explicit_actor": 86,
+    "modal_sentences_with_inherited_actor": 1,
+    "actor_inheritance_pct": 1.1
+  },
+  "DR3185-001_Enterprise_Architecture": {
+    "date": "2022-04-19",
+    "n_words": 2139,
+    "unique_words": 577,
+    "ttr": 0.27,
+    "n_sentences": 48,
+    "avg_sentence_len_words": 42.8,
+    "flesch_reading_ease": -12.2,
+    "flesch_kincaid_grade": 26.0,
+    "modal_counts": {
+      "shall": 0,
+      "must": 4,
+      "will": 14,
+      "may": 6,
+      "should": 0,
+      "can": 1,
+      "could": 0,
+      "would": 0,
+      "might": 0
+    },
+    "total_modals": 25,
+    "modals_per_1000w": 11.7,
+    "hedge_hits": [],
+    "total_hedges": 0,
+    "hedges_per_1000w": 0.0,
+    "negation_counts": {},
+    "total_negation": 0,
+    "conditional_counts": {
+      "\\bif\\b": 1
+    },
+    "total_conditional": 1,
+    "conditional_per_1000w": 0.5,
+    "temporal_counts": {
+      "\\bimmediately\\b": 1
+    },
+    "total_temporal": 1,
+    "passive_sentences": 14,
+    "active_finite_sentences": 26,
+    "passive_pct_of_finite": 35.0,
+    "nominalizations": 99,
+    "nominalizations_per_1000w": 46.3,
+    "n_list_items": 68,
+    "modal_bearing_sentences": 19,
+    "modal_sentences_with_explicit_actor": 19,
+    "modal_sentences_with_inherited_actor": 0,
+    "actor_inheritance_pct": 0.0
+  }
+}

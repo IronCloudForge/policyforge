@@ -1,0 +1,359 @@
+
+
+1. PURPOSE
+
+     This Departmental Regulation (DR) establishes the United States Department of Agriculture
+     (USDA) policy and approach to Enterprise Architecture (EA) in support of the Clinger-
+     Cohen Act of 1996, 40 United States Code (U.S.C.) Section 11101 et seq.; E- Government
+     Act of 2002, 44 U.S.C. § 3501; The Common Approach to Federal Enterprise Architecture
+     (“Common Approach”); Federal Information Technology Acquisition Reform Act (FITARA),
+     Public Law (P.L.) 113-291 § 831-837; Federal Information Security Modernization Act of
+     2014 (FISMA 2014), 44 U.S.C. § 3551; and various Office of Management and Budget
+     (OMB) guidance documents.
+
+2. SCOPE
+
+     This DR applies to all USDA Mission Areas, agencies, staff offices, and others who work
+     for, or on behalf of, USDA and are responsible for the development, implementation, and
+     oversight of information technology (IT) and Enterprise Architecture.
+
+3. SPECIAL INSTRUCTIONS/CANCELLATIONS
+
+  a.   This DR supersedes DR 3185-001, Enterprise Architecture, dated July 29, 2019.
+
+  b.   This policy is effective immediately and remains in effect until superseded or expiration.
+
+  c.   All Mission Areas, agencies, and staff offices will align their policies and procedures
+       with this DR within 6 months of the publication date.
+
+  d.   EA procedures will be provided in the companion Departmental Manual(DM) 3185-001,
+       Enterprise Architecture Procedures.
+
+4. BACKGROUND
+
+  FITARA requires Chief Information Officers (CIO) to have a significant role in Information
+  Technology (IT) decisions,including annual and multi-year planning, programming,
+  budgeting, execution, reporting, management, governance, and oversight functions.
+
+5. POLICY
+
+  USDA’s EA is an asset that captures and contextualizes information and data regarding the
+  Department’s and its Mission Area, agency, and staff office business operations, capabilities,
+  and supporting technologies. EA supports and provides information for USDA’s IT
+  investment and management processes and seeks to reduce unnecessary duplication of both
+  material expenditures and efforts.
+
+  a.   Mission Area, agency, and staff office Enterprise Architects must comply with
+       legislative mandates, Federal initiatives, and oversight requirements, which includes the
+       Federal Enterprise Architecture Framework Version 2 (FEAF v2) taxonomy and the
+       Technology Business Management Council, Technology Business Management
+       Taxonomy.
+
+  b.   USDA’s Mission Area, agency, and staff office Enterprise Architects will:
+
+       (1) Align with and support the business and operational needs, requirements, and
+           priorities expressed through the USDA Strategic Plan Fiscal Years 2022-2026;
+
+       (2) Conform to the USDA Standards Profile as approved by the Enterprise Architecture
+           Committee (EAC). Usage of unapproved standards may occur if the responsible
+           Mission Area, agency, or staff office has received an exception via theUSDA Office
+           of the Chief Information Officer (OCIO) Acquisition Approval Request process;
+
+       (3) Incorporate security controls for all systems and applications to ensure the
+           authorization, integrity, completeness, and accuracy of transactions;
+       (4) Be designed and implemented in the context of the USDA EA and carried out to
+           create a more responsive and cost-effective Government;
+
+       (5) Install a robust configuration management process that must be in place forsystems,
+           applications, and data;
+
+       (6) Ensure data is an asset that has value to the enterprise and is managed accordingly;
+
+       (7) Utilize the Enterprise Architecture Visioning Environment (EAVE) to develop and
+           maintain the Mission Area, agency, and staff office IT asset inventory and their
+           attributes;
+
+       (8) Identify legacy systems which include IT assets with an expected decommission
+           date of less than 5 years;
+
+       (9) Maintain legacy system classifications within EAVE (e.g., expected decommission
+           dates, actual decommission dates and an expected decommission reason) for all
+           applicable IT assets within the Mission Area, agency, and staff office inventory;
+
+       (10) Develop and maintain the Mission Area, agency, and staff office application
+            roadmap or strategy to support strategic goals and technology modernization
+            efforts, to include modernizing legacy systems by re-architecting, rebuilding, or
+            replacing; and
+
+       (11) Provide the OCIO, Information Resource Management Center (IRMC), Enterprise
+            Architecture Division (EAD) with the most current Mission Area, agency, and staff
+            office application roadmap or strategy for inclusion into the USDA OCIO Target
+            Architecture to facilitate effective decision-making.
+
+6. ROLES AND RESPONSIBILITIES
+
+  a.   The USDA CIO will:
+
+       (1) Appoint a Chief Enterprise Architect (CEA) for USDA;
+
+       (2) Provide sufficient support to ensure the USDA’s EA is effectively and efficiently
+           governed;
+
+       (3) Ensure that the EA program complies with applicable laws, OMB policies and
+           memorandum, USDA policies and procedures, and has an effective governance
+           process; and
+
+       (4) Ensure that EA practices, principles, and information are incorporated into IT
+           governance, portfolio management, capital planning, investment management, and
+         other processes related to the planning, acquisition, maintenance, end of life and
+         disposition of IT.
+
+b.   The IRMC Associate Chief Information Officer will:
+
+     (1) Address USDA’s information and IT requirements as collaborative and integrated
+         processes, and work in concert with the USDA EAC;
+
+     (2) Implement, manage, monitor, maintain, and report on USDA’s infrastructure and
+         office automation technology base (i.e., its shared services environment); and
+
+     (3) Ensure tight integration of USDA’s EA, Capital Planning and Investment Control
+         (CPIC), program management, and IT waiver processes.
+
+c.   USDA OCIO CEA will:
+
+     (1) Disseminate and make available the contents of the USDA’s EA program;
+
+     (2) Serve as the Enterprise Architecture Executive Steering Committee (EA ESC)
+         Chair and direct and oversee all meetings;
+
+     (3) Serve as the Chair and oversee and establish EAC Integrated Project Teams to
+         address specific processes, work, or issues;
+
+     (4) Provide day-to-day management and stewardship of USDA’s EAD;
+
+     (5) Conduct periodic reviews of Mission Area, agency, and staff office EA activities;
+
+     (6) Coordinate USDA’s EA-specific responses to internal and external oversight
+         organizations (Government Accountability Office, General Services
+         Administration, OMB, National Institute of Standards and Technology, and other
+         organizations or Federal agencies);
+
+     (7) Oversee an Enterprise Architecture Repository (EAR) that supports enterprise IT
+         decision making andreporting activities;
+
+     (8) Align USDA Classifications and Standards with OMB EA Standards for
+         compliance. This can be integrated with the USDA EAR; and
+
+     (9) Ensure creation and dissemination of a detailed operating procedures, policies, and
+         other core EA artifacts that define the operation of the EAD.
+
+d.   The USDA Enterprise Architecture Executive Steering Committee (EA ESC) will:
+
+     (1) Be chaired by the USDA CEA;
+     (2) Be comprised of three to five voting members from the USDA CIO Council;
+
+     (3) Provide overall strategic direction and guidance for USDA’s EA;
+
+     (4) Serve as the Department’s senior governing body for EA and be primarily
+         responsible for facilitating the development and prioritization of EA strategies;
+
+     (5) Serve as an adjudicating authority for the resolution of any issues that arise from or
+         are identified by the EAC;
+
+     (6) Assist in the establishment of a shared understanding of current EA challenges
+         within the USDA and potential solutions for overcoming them; and
+
+     (7) Facilitate agreement on a future-state vision for the USDA’s EA.
+
+e.   The USDA EAC will:
+
+     (1) Be chaired by the USDA CEA;
+
+     (2) Be comprised of one voting member from each agency and staff office;
+
+     (3) Collaborate with Mission Areas, agencies, and staff offices in the creation,
+         maintenance, and updating of EA-related standards, guidelines, directives, policies
+         and procedures within USDA;
+
+     (4) Establish EA value and performance measures;
+
+     (5) Assess compliance with, completeness of, and benefits derived directly and
+         indirectly from the use of the USDA EA; and
+
+     (6) Develop and maintain EA reference models and make recommendations to the EA
+         ESC and the USDA’s CIO Council for improvements to USDA’s EA domains.
+
+f.   Mission Area Assistant CIOs will:
+
+     (1) Ensure collaboration and coordination of EA functions across agency and Mission
+         Area leadership, Enterprise Architects, and the USDA CEA;
+
+     (2) Appoint and oversee data content stewards to ensure the accuracy and timeliness of
+         data content in the USDA;
+
+     (3) Align each IT project with USDA’s EA vision, principles, and standards; is
+         consistent with agreements reached through collaborative decision-making
+         processes; and is represented in the EAR; and
+
+     (4) Develop internal policies, procedures, and controls to support the EA function.
+  g.   Agency and Staff Office IT Directors and Program Managers will:
+
+       (1) Incorporate EA policies, requirements, and standards into agency and staff office IT
+           governance and CPIC processes;
+
+       (2) Implement and maintain business, performance, application, data, infrastructure,and
+           security configuration settings and controls;
+
+       (3) Ensure Enterprise Architects and decision makers share a consistent understanding
+           of the unique requirements for each EA subject area; and
+
+       (4) Stay current on trends, developments, and innovations pertaining to EA-related
+           tools, methods, and frameworks in the public and private sectors.
+
+7. INQUIRIES
+
+  All inquiries regarding this DR will be directed to the USDA OCIO IRMC EAD at
+  enterprise.architecture@ocio.usda.gov.
+
+                                           -END-
+                            APPENDIX A
+
+                 ACRONYMS AND ABBREVIATIONS
+
+AAR      Acquisition Approval Request
+ACIO     Associate Chief Information Officer
+CEA      Chief Enterprise Architect
+CIO      Chief Information Officer
+CPIC     Capital Planning and Investment Control
+DR       Departmental Regulation
+DM       Departmental Manual
+EA       Enterprise Architecture
+EAC      Enterprise Architecture Committee
+EAD      Enterprise Architecture Division (OCIO-IRMC component)
+EAR      Enterprise Architecture Repository
+EAVE     Enterprise Architecture Visioning Environment
+ESC      Executive Steering Committee
+FEAF     Federal Enterprise Architecture Framework
+FISMA    Federal Information Security Modernization Act
+FITARA   Federal Information Technology Acquisition Reform Act
+GAO      Government Accountability Office
+GPEA     Government Paperwork Elimination Act
+GSA      General Services Administration
+IPT      Integrated Project Team
+IRMC     Information Resource Management Center (OCIO component)
+IT       Information Technology
+NIST     National Institute of Standards and Technology
+OCIO     Office of the Chief Information Officer
+OMB      Office of Management and Budget
+P.L.     Public Law
+PM       Program Management
+TBM      Technology Business Management
+U.S.C.   United States Code
+USDA     United States Department of Agriculture
+
+                                 A-1
+
+                                          APPENDIX B
+
+                                         DEFINITIONS
+
+Enterprise Architecture (EA). A strategic information asset base which defines the mission,
+the information necessary to perform the mission, the technologies necessary to perform the
+mission,and the transitional processes for implementing new technologies in response to
+changing mission needs. The EA includes baseline architecture, target architecture, and a
+sequencing plan. It is a framework for streamlining business processes, information flows,
+applications, and infrastructure to support Agency and interagency goals. (Source: OMB,
+Circular A-130, Managing Information as a Strategic Resource)
+
+An EA is the explicit description and documentation of the current and desired relationships
+among business and management processes and IT. It describes the “current architecture”
+and “target architecture” to include the rules and standards and systems life cycle
+information to optimize and maintain the environment which the agency or staff office
+wishes to create and maintain by managing its IT portfolio. The EA must also provide a
+strategy that will enable the Mission Areas, agency, or staff office to support its current state,
+and act as the roadmap for transition to its target environment. These transition processes
+will include a Mission Area, agency, or staff office, CPIC process, Mission Area, agency,
+and staff office EA planning process, and Mission Area, agency, and staff office systems life
+cycle methodologies. The EA will define principles and goals and set direction on such
+issues as the promotion of interoperability, open systems, public access, and compliance with
+the Government Paperwork Elimination Act (GPEA), 44 U.S.C. § 3504, end user
+satisfaction, and IT security. The MissionArea, agency, or staff office must support the EA
+with a complete inventory of Mission Area, agency, and staff office information resources,
+including personnel, equipment, and funds devoted to information resources management
+and IT, at an appropriate level of detail. (Source: OMB, Circular A-130)
+
+Federal Enterprise Architecture. A business-based framework for Governmentwide
+improvement developed by the OMB to facilitate efforts to transform the Federal Government
+toone that is citizen-centered, results-oriented, and market-based. The Federal EA is
+constructed through a collection of interrelated “reference models” designed to facilitate
+cross-agency analysis and the identification of duplicative investments, gaps, and
+opportunities for collaboration within and across Federal Agencies. These models are defined
+as: Performance Reference Model, Business Reference Model, Application Reference Model,
+Infrastructure Reference Model, Data Reference Model, and Security Reference Model.
+(Source: OMB, Common Approach)
+
+Legacy System. A legacy system is identified as a system that is outdated or obsolete and
+may also be based on outdated technologies but is critical to day-to-day operations. A legacy
+system, in the context of computing, refers to outdated computer systems, programming
+languages, or application software that are used instead of available upgraded versions. A
+legacy system is also known as a legacy platform. (Source: Federal Information Security
+Modernization Act of 2014 (FISMA 2014))
+
+                                               B-1
+
+                                    APPENDIX C
+
+                        AUTHORITIES AND REFERENCES
+
+The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) Section 11101, et
+seq.,as amended
+
+E-Government Act of 2002, 44 U.S.C. § 3501, December 17, 2002
+
+Federal Information Security Modernization Act of 2014 (FISMA 2014), 44 U.S.C. § 3551,
+December 18, 2014
+
+Federal Information Technology Acquisition Reform Act (FITARA), Public Law (P.L.)
+113-291, Title VIII, Subtitle D, §§ 831-837, December 14, 2014
+
+Government Paperwork Elimination Act (GPEA), 44 U.S.C. § 3504, October 21, 1998
+
+OMB, Circular A-130, Managing Information as a Strategic Resource, July 28, 2016
+
+OMB, The Common Approach to Federal Enterprise Architecture, “Common Approach”
+May 2, 2012
+
+OMB, Federal Enterprise Architecture Framework Version 2 (FEAF v2), January 29, 2013
+
+Technology Business Management Council, Technology Business Management (TBM)
+Taxonomy, March 1, 2018
+
+USDA, Standards Profile
+
+USDA, DM 3185-001, Enterprise Architecture Procedures (forthcoming)
+
+USDA, DR 3105-001, USDA Chief Information Officers Council, April 6, 2016
+
+USDA, DR 3107-001, Management of USDA IT Enterprise Initiatives, May 12, 2016
+
+USDA, DR 3130-010, United States Department of Agriculture Enterprise Information
+Technology Governance, April 20, 2021
+
+USDA, DR 3130-011, Information Technology Program and Project Manager
+CertificationRequirements, February 4, 2016
+
+USDA, DR 3130-013, Information Technology Capital Planning and Investment Control,
+May 24, 2021
+
+USDA, DR 3180-001, Information Technology Standards, January 5, 2021
+
+                                         C-1
+
+USDA, Enterprise Architecture Committee Charter, Version 1.02, May 5, 2016
+
+USDA, OCIO Target Architecture, September 14, 2021
+
+USDA, USDA Strategic Plan Fiscal Years 2022-2026
+
+                                        C-2
+
