@@ -1,6 +1,4 @@
-I think your doubt is justified, but I do **not** think the evidence says Policy Forge is failing. I think it says the original abstraction was wrong.
-
-My adversarial assessment is this:
+Adversarial assessment is:
 
 > **If Policy Forge remains a project whose thesis is “give an LLM the USDA policy corpus and it can rationalize it into machine-readable policy,” I would recommend stopping the project.**
 >
