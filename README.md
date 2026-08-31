@@ -325,8 +325,8 @@ See: [`docs/v4-semantic-policy-intelligence-overview.md`](docs/v4-semantic-polic
 | --- | --- | --- |
 | `docs/` | **Current** | Policy Forge methodology, research documentation, decision records, and project reference material |
 | `policy-source/` | **Root authoritative source** | Original USDA source PDFs — the sole root source for all current extraction and analysis |
-| `policy-derived/` | **Current pipeline output** | HTML and JSON produced by spatially-aware VLM extraction directly against `policy-source/`; JSON is the source of truth for downstream analysis |
-| `policy-text/` | **Deprecated / superseded** | Earlier plain-text transformations of the source corpus. This intermediate representation and all analysis built on it have been superseded by direct PDF-native extraction. Retained for research history only — do not build new conclusions on these files |
+| `policy-text/` | **Current pipeline output** | HTML and JSON produced by spatially-aware VLM extraction directly against `policy-source/`; JSON is the source of truth for downstream analysis |
+| `policy-text-legacy/` | **Deprecated / superseded** | Earlier plain-text transformations of the source corpus. This intermediate representation and all analysis built on it have been superseded by direct PDF-native extraction. Retained for research history only — do not build new conclusions on these files |
 | `policyforge_pilot_v3/` | **Experimental / historical** | Pilot code and outputs that exposed important extraction and actor-resolution failure classes |
 | `ontology/` | **Pre-foundation / untrusted** | Earlier experimental semantic/ontology artifacts created before the current methodology; do not build production or analytical conclusions from these artifacts |
 
@@ -352,11 +352,11 @@ Everything derived from the source corpus must be treated according to its evide
 
 The original source PDFs retained by this research project, and the sole root authoritative source for the current pipeline. Even these are a frozen snapshot and should not replace the official current USDA source.
 
-## `policy-derived/`
+## `policy-text/`
 
 Machine-derived HTML and JSON produced by direct, spatially-aware extraction against `policy-source/`. JSON is the current source of truth for downstream linguistic and obligation analysis, chosen because it natively supports array fields, ingests cleanly into structured datastores, and is suitable for external publication. Statements are cited by DR/DM number, section, and paragraph (for example, `3575-004, Sec 5.b(2)`) rather than by page number. Do not treat a derived file as authoritative merely because it appears clean or complete — extraction defects are tracked in an ongoing failure-mode catalog and disclosed rather than silently corrected.
 
-## `policy-text/` (deprecated)
+## `policy-text-legacy/` (deprecated)
 
 Earlier plain-text transformations of the source corpus. These files may contain OCR errors, line/paragraph boundary errors, enumerator loss, page-transition artifacts, layout loss, column-order problems, and table degradation. This representation is no longer part of the active pipeline and should not be used as a basis for new analysis.
 
@@ -446,7 +446,7 @@ If you use material from this repository:
 
 1. treat the repository as a **research snapshot**, not an authoritative policy source;
 2. verify policy against the official USDA source;
-3. distinguish original source documents (`policy-source/`) from machine-derived artifacts (`policy-derived/`);
+3. distinguish original source documents (`policy-source/`) from machine-derived artifacts (`policy-text/`);
 4. do not represent experimental Policy Forge interpretations as USDA determinations;
 5. preserve the snapshot date and project limitations when using derived data.
 
