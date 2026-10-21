@@ -1,0 +1,321 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "USDA Departmental Regulation Extraction Schema",
+  "description": "Schema for extracting universally useful metadata and key policy details from a USDA Departmental Regulation document.",
+  "additionalProperties": false,
+  "properties": {
+    "document_type": {
+      "type": "string",
+      "description": "Type of document, such as Departmental Regulation."
+    },
+    "issuing_organization": {
+      "type": "string",
+      "description": "Organization issuing the document."
+    },
+    "issuing_location": {
+      "type": "string",
+      "description": "Location of the issuing organization as stated in the document header."
+    },
+    "regulation_number": {
+      "type": "string",
+      "description": "Official regulation or document number."
+    },
+    "subject": {
+      "type": "string",
+      "description": "Subject or title of the document."
+    },
+    "issue_date": {
+      "type": "string",
+      "description": "Date the document was issued or dated, as written in the document."
+    },
+    "expiration_date": {
+      "type": "string",
+      "description": "Expiration date of the document, as written in the document."
+    },
+    "opi": {
+      "type": "string",
+      "description": "Office of Primary Interest (OPI) or equivalent responsible office listed in the document."
+    },
+    "supersedes": {
+      "type": "object",
+      "description": "Information about any prior document this document supersedes.",
+      "additionalProperties": false,
+      "properties": {
+        "document_number": {
+          "type": "string",
+          "description": "Number of the superseded document."
+        },
+        "document_title": {
+          "type": "string",
+          "description": "Title or subject of the superseded document."
+        },
+        "document_date": {
+          "type": "string",
+          "description": "Date of the superseded document, as written in the document."
+        }
+      }
+    },
+    "scope": {
+      "type": "string",
+      "description": "Statement describing to whom or what the document applies."
+    },
+    "purpose": {
+      "type": "string",
+      "description": "High-level purpose statement of the document."
+    },
+    "inquiries": {
+      "type": "object",
+      "description": "Contact information for questions or inquiries about the document.",
+      "additionalProperties": false,
+      "properties": {
+        "office": {
+          "type": "string",
+          "description": "Office or division to which inquiries should be directed."
+        },
+        "email": {
+          "type": "string",
+          "description": "Email address provided for inquiries."
+        }
+      }
+    },
+    "table_of_contents": {
+      "type": "array",
+      "description": "Top-level table of contents entries listed in the document.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "section_number": {
+            "type": "string",
+            "description": "Section or appendix identifier."
+          },
+          "section_title": {
+            "type": "string",
+            "description": "Title of the section or appendix."
+          },
+          "page": {
+            "type": "string",
+            "description": "Page number listed in the table of contents."
+          }
+        },
+        "required": [
+          "section_title"
+        ]
+      }
+    },
+    "major_it_investment_definition": {
+      "type": "object",
+      "description": "Definition and criteria describing when an investment is considered a major IT investment.",
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description": "Concise summary of the document's definition of a major IT investment."
+        },
+        "omb_criteria": {
+          "type": "array",
+          "description": "Criteria attributed to OMB for defining a major IT investment.",
+          "items": {
+            "type": "string",
+            "description": "One OMB criterion."
+          }
+        },
+        "usda_cpic_criteria": {
+          "type": "array",
+          "description": "Criteria attributed to the USDA CPIC process for classifying an IT investment as major.",
+          "items": {
+            "type": "string",
+            "description": "One USDA CPIC criterion."
+          }
+        },
+        "critical_investment_attributes": {
+          "type": "array",
+          "description": "Attributes listed as examples of investments identified as critical.",
+          "items": {
+            "type": "string",
+            "description": "One attribute of a critical investment."
+          }
+        }
+      }
+    },
+    "policy_actors": {
+      "type": "array",
+      "description": "Actors explicitly named in the policy text as having responsibility, authority, decision-making, definitional, oversight, contact, or other operative roles.",
+      "items": {
+        "type": "string",
+        "description": "One named policy actor as written in the document."
+      }
+    },
+    "policy_obligations": {
+      "type": "array",
+      "description": "Policy statements that describe rules, classifications, determinations, responsibilities, or actions established by the document.",
+      "items": {
+        "type": "string",
+        "description": "One obligation, rule, or operative policy statement summarized or quoted from the document."
+      }
+    },
+    "obligation_conditions": {
+      "type": "array",
+      "description": "Conditions, criteria, thresholds, or triggering circumstances under which a policy obligation, determination, or classification applies.",
+      "items": {
+        "type": "string",
+        "description": "One condition or criterion associated with a policy obligation."
+      }
+    },
+    "actor_roles": {
+      "type": "array",
+      "description": "Roles played by named policy actors in relation to the document's rules, such as defining criteria, identifying critical investments, applying the policy, or handling inquiries.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "actor": {
+            "type": "string",
+            "description": "Name of the policy actor."
+          },
+          "role": {
+            "type": "string",
+            "description": "Role or function the actor performs in the policy."
+          },
+          "details": {
+            "type": "string",
+            "description": "Optional supporting detail about how the actor's role is described in the document."
+          }
+        },
+        "required": [
+          "actor",
+          "role"
+        ]
+      }
+    },
+    "policy_statements": {
+      "type": "array",
+      "description": "Structured policy statements extracted from the document, preserving hierarchy and separating statement function from normative force.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "statement_id": {
+            "type": "string",
+            "description": "Unique identifier for the statement within the extracted document, such as '4', '4a', or '4b(1)'."
+          },
+          "parent_statement_id": {
+            "type": "string",
+            "description": "Identifier of the parent statement when this statement is nested under another statement."
+          },
+          "text": {
+            "type": "string",
+            "description": "The statement text as written or closely paraphrased from the document."
+          },
+          "statement_function": {
+            "type": "string",
+            "description": "Functional role of the statement in the document, such as definition, obligation, condition, scope, exception, authority, inquiry, classification_rule, responsibility, or reference.",
+            "enum": [
+              "definition",
+              "obligation",
+              "condition",
+              "scope",
+              "exception",
+              "authority",
+              "inquiry",
+              "classification_rule",
+              "responsibility",
+              "reference",
+              "purpose",
+              "supersession",
+              "contact",
+              "other"
+            ]
+          },
+          "normative_force": {
+            "type": "string",
+            "description": "Normative force of the statement, kept separate from statement function.",
+            "enum": [
+              "mandatory",
+              "permissive",
+              "descriptive",
+              "discretionary",
+              "prohibitive",
+              "conditional",
+              "other"
+            ]
+          },
+          "actor": {
+            "type": "string",
+            "description": "Actor associated with the statement, if one is explicitly identified."
+          },
+          "target": {
+            "type": "string",
+            "description": "Person, organization, system, investment, or subject to which the statement applies, if identifiable."
+          },
+          "conditions": {
+            "type": "array",
+            "description": "Conditions, thresholds, or triggering circumstances that qualify the statement.",
+            "items": {
+              "type": "string",
+              "description": "One condition associated with the statement."
+            }
+          },
+          "classification_result": {
+            "type": "string",
+            "description": "Resulting classification, determination, or status produced by the statement, if applicable."
+          },
+          "consequences": {
+            "type": "array",
+            "description": "Consequences, follow-on effects, or outcomes stated or implied by the policy statement.",
+            "items": {
+              "type": "string",
+              "description": "One consequence or outcome associated with the statement."
+            }
+          },
+          "citation": {
+            "type": "string",
+            "description": "Section or paragraph citation for the statement, if available."
+          }
+        },
+        "required": [
+          "statement_id",
+          "text",
+          "statement_function",
+          "normative_force"
+        ]
+      }
+    },
+    "acronyms": {
+      "type": "array",
+      "description": "Acronyms and abbreviations defined in the document.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "acronym": {
+            "type": "string",
+            "description": "Acronym or abbreviation."
+          },
+          "definition": {
+            "type": "string",
+            "description": "Meaning of the acronym or abbreviation."
+          }
+        },
+        "required": [
+          "acronym",
+          "definition"
+        ]
+      }
+    },
+    "authorities_and_references": {
+      "type": "array",
+      "description": "Authorities and references cited in the document.",
+      "items": {
+        "type": "string",
+        "description": "One authority or reference citation as written in the document."
+      }
+    }
+  },
+  "required": [
+    "document_type",
+    "regulation_number",
+    "subject"
+  ]
+}
