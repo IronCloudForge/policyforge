@@ -1,102 +1,102 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "title": "USDA Departmental Regulation Extraction Schema",
-  "description": "Schema for extracting universally useful metadata and key policy details from a USDA Departmental Regulation document.",
+  "title": "USDA Directive Extraction Schema v2 (DR/DM)",
+  "description": "Extracts metadata and structured policy statements from ONE USDA Departmental Regulation (DR) or Departmental Manual (DM). Governing rules: (1) Any field described as verbatim must be copied character-for-character from the source document. Never paraphrase, merge, abbreviate, summarize, or insert ellipses. (2) Do not infer. If the source does not support an optional field, omit the field entirely. Never return an empty string or a guess. (3) Only the label fields in policy_statements (statement_kind, statement_function, modal_use, normative_force, actor_basis) are interpretations. Every other field is quoted or copied from the document.",
   "additionalProperties": false,
   "properties": {
     "document_type": {
       "type": "string",
-      "description": "Type of document, such as Departmental Regulation."
+      "description": "Type of document as printed in the header, such as 'Departmental Regulation' or 'Departmental Manual'."
     },
     "issuing_organization": {
       "type": "string",
-      "description": "Organization issuing the document."
+      "description": "Organization issuing the document, verbatim from the header."
     },
     "issuing_location": {
       "type": "string",
-      "description": "Location of the issuing organization as stated in the document header."
+      "description": "Location of the issuing organization, verbatim from the header."
     },
     "regulation_number": {
       "type": "string",
-      "description": "Official regulation or document number."
+      "description": "Official document number from the header, verbatim, for example 'DR 3105-001'."
     },
     "subject": {
       "type": "string",
-      "description": "Subject or title of the document."
+      "description": "Subject or title of the document, verbatim from the header."
     },
     "issue_date": {
       "type": "string",
-      "description": "Date the document was issued or dated, as written in the document."
+      "description": "Issue date from the header, as written."
     },
     "expiration_date": {
       "type": "string",
-      "description": "Expiration date of the document, as written in the document."
+      "description": "Expiration date from the header, as written. Omit if none is printed."
     },
     "opi": {
       "type": "string",
-      "description": "Office of Primary Interest (OPI) or equivalent responsible office listed in the document."
+      "description": "Office of Primary Interest (OPI) from the header, verbatim."
     },
     "supersedes": {
       "type": "object",
-      "description": "Information about any prior document this document supersedes.",
+      "description": "The prior document this document supersedes. Take all three values from the supersession paragraph in the body (usually under Special Instructions/Cancellations), NOT from the header. Omit the whole object if the document supersedes nothing.",
       "additionalProperties": false,
       "properties": {
         "document_number": {
           "type": "string",
-          "description": "Number of the superseded document."
+          "description": "Number of the superseded document as written in the supersession paragraph. If it is identical to this document's own number, still copy it from the supersession paragraph, not the header."
         },
         "document_title": {
           "type": "string",
-          "description": "Title or subject of the superseded document."
+          "description": "Title of the superseded document as written in the supersession paragraph."
         },
         "document_date": {
           "type": "string",
-          "description": "Date of the superseded document, as written in the document."
+          "description": "Date of the superseded document as written in the supersession paragraph."
         }
       }
     },
     "scope": {
       "type": "string",
-      "description": "Statement describing to whom or what the document applies."
+      "description": "The text of the Scope section, verbatim. Do not add words."
     },
     "purpose": {
       "type": "string",
-      "description": "High-level purpose statement of the document."
+      "description": "The text of the Purpose section, verbatim. Do not add words."
     },
     "inquiries": {
       "type": "object",
-      "description": "Contact information for questions or inquiries about the document.",
+      "description": "Contact information from the Inquiries section. Omit any property the document does not state; never return an empty string.",
       "additionalProperties": false,
       "properties": {
         "office": {
           "type": "string",
-          "description": "Office or division to which inquiries should be directed."
+          "description": "Office or division named for inquiries, verbatim. Omit if the document names no office."
         },
         "email": {
           "type": "string",
-          "description": "Email address provided for inquiries."
+          "description": "Email address given for inquiries, verbatim, without trailing punctuation."
         }
       }
     },
     "table_of_contents": {
       "type": "array",
-      "description": "Top-level table of contents entries listed in the document.",
+      "description": "Top-level entries of the printed table of contents, in order, including appendices.",
       "items": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
           "section_number": {
             "type": "string",
-            "description": "Section or appendix identifier."
+            "description": "Section or appendix identifier as printed, for example '1.' or 'Appendix A'."
           },
           "section_title": {
             "type": "string",
-            "description": "Title of the section or appendix."
+            "description": "Section or appendix title as printed in the table of contents."
           },
           "page": {
             "type": "string",
-            "description": "Page number listed in the table of contents."
+            "description": "Page number exactly as printed in the table of contents, for example '2' or 'A-1'. Copy it even if the section actually starts on a different page."
           }
         },
         "required": [
@@ -104,198 +104,198 @@
         ]
       }
     },
-    "major_it_investment_definition": {
-      "type": "object",
-      "description": "Definition and criteria describing when an investment is considered a major IT investment.",
-      "additionalProperties": false,
-      "properties": {
-        "summary": {
-          "type": "string",
-          "description": "Concise summary of the document's definition of a major IT investment."
-        },
-        "omb_criteria": {
-          "type": "array",
-          "description": "Criteria attributed to OMB for defining a major IT investment.",
-          "items": {
-            "type": "string",
-            "description": "One OMB criterion."
-          }
-        },
-        "usda_cpic_criteria": {
-          "type": "array",
-          "description": "Criteria attributed to the USDA CPIC process for classifying an IT investment as major.",
-          "items": {
-            "type": "string",
-            "description": "One USDA CPIC criterion."
-          }
-        },
-        "critical_investment_attributes": {
-          "type": "array",
-          "description": "Attributes listed as examples of investments identified as critical.",
-          "items": {
-            "type": "string",
-            "description": "One attribute of a critical investment."
-          }
-        }
-      }
-    },
-    "policy_actors": {
+    "actors": {
       "type": "array",
-      "description": "Actors explicitly named in the policy text as having responsibility, authority, decision-making, definitional, oversight, contact, or other operative roles.",
-      "items": {
-        "type": "string",
-        "description": "One named policy actor as written in the document."
-      }
-    },
-    "policy_obligations": {
-      "type": "array",
-      "description": "Policy statements that describe rules, classifications, determinations, responsibilities, or actions established by the document.",
-      "items": {
-        "type": "string",
-        "description": "One obligation, rule, or operative policy statement summarized or quoted from the document."
-      }
-    },
-    "obligation_conditions": {
-      "type": "array",
-      "description": "Conditions, criteria, thresholds, or triggering circumstances under which a policy obligation, determination, or classification applies.",
-      "items": {
-        "type": "string",
-        "description": "One condition or criterion associated with a policy obligation."
-      }
-    },
-    "actor_roles": {
-      "type": "array",
-      "description": "Roles played by named policy actors in relation to the document's rules, such as defining criteria, identifying critical investments, applying the policy, or handling inquiries.",
+      "description": "Registry of every distinct entity that the policy text names in an acting role. One entry per entity. Include every entity used as actor_name in policy_statements. Also include entities the document names as having a role in a statement without being directed to act (mark those mentioned_only).",
       "items": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "actor": {
+          "name": {
             "type": "string",
-            "description": "Name of the policy actor."
+            "description": "The entity's name exactly as written in the policy text, without a leading article ('the'). Keep a compound name intact if the document writes it as one phrase, for example 'USDA Mission Areas, agencies, and staff offices'. This is the join key used by actor_name in policy_statements, so spell it identically there."
           },
-          "role": {
-            "type": "string",
-            "description": "Role or function the actor performs in the policy."
+          "components": {
+            "type": "array",
+            "description": "Only for a compound name that bundles several entities: each component as a verbatim substring of the name. Omit for single entities.",
+            "items": {
+              "type": "string",
+              "description": "One verbatim component of a compound actor name."
+            }
           },
-          "details": {
+          "actor_type": {
             "type": "string",
-            "description": "Optional supporting detail about how the actor's role is described in the document."
+            "description": "Kind of entity.",
+            "enum": [
+              "position",
+              "office",
+              "council_or_body",
+              "group",
+              "external_entity",
+              "document"
+            ]
+          },
+          "binding_status": {
+            "type": "string",
+            "description": "bound_by_this_document: the document directs, permits, or assigns a role to this entity and has authority over it. mentioned_only: the document names the entity but cannot or does not impose anything on it (for example a council or agency outside USDA that the document says a USDA body partners with).",
+            "enum": [
+              "bound_by_this_document",
+              "mentioned_only"
+            ]
           }
         },
         "required": [
-          "actor",
-          "role"
+          "name",
+          "actor_type",
+          "binding_status"
         ]
       }
     },
     "policy_statements": {
       "type": "array",
-      "description": "Structured policy statements extracted from the document, preserving hierarchy and separating statement function from normative force.",
+      "description": "Structured statements from the numbered body sections only (not the table of contents, not the appendices). RULES. (a) SENTENCES: emit one statement per sentence. If a paragraph has more than one sentence, give each its own statement with ids suffixed .s1, .s2, and so on. Abbreviations and legal citations ('U.S.C.', 'CFR', '§', 'et seq.', 'Inc.') do not end a sentence. (b) LISTS: when text introduces a list (usually ends with a colon, for example 'The USDA CIO will:'), emit the introducing text as one statement with statement_kind 'lead_in', and emit EVERY item of the list as its own statement with statement_kind 'list_item' and parent_statement_id set to the id of the lead_in. Never skip list items, including lists of legal authorities. For a list inside a list, parent_statement_id is the immediate parent. (c) NEVER merge text from different sentences, paragraphs, or list items into one statement. (d) Copy text exactly; do not summarize.",
       "items": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
           "statement_id": {
             "type": "string",
-            "description": "Unique identifier for the statement within the extracted document, such as '4', '4a', or '4b(1)'."
+            "description": "Printed numbering path of the statement: section number, then paragraph letter, then item number in parentheses, for example '1', '3.a', '5.d.s2', '6.a(1)'. Add '.sN' only when a paragraph contains more than one sentence. Must be unique within the document."
+          },
+          "statement_kind": {
+            "type": "string",
+            "description": "standalone: a complete sentence that stands on its own. lead_in: text that introduces a list and is incomplete without its items. list_item: a list item that completes its lead_in.",
+            "enum": [
+              "standalone",
+              "lead_in",
+              "list_item"
+            ]
           },
           "parent_statement_id": {
             "type": "string",
-            "description": "Identifier of the parent statement when this statement is nested under another statement."
+            "description": "Required when statement_kind is list_item: the statement_id of its immediate lead_in. Omit for standalone and lead_in statements that are not themselves list items."
           },
-          "text": {
+          "section_number": {
             "type": "string",
-            "description": "The statement text as written or closely paraphrased from the document."
+            "description": "Number of the section containing the statement, digits only, for example '6'."
+          },
+          "section_title": {
+            "type": "string",
+            "description": "Title of the section containing the statement, as shown in the table of contents, for example 'Roles and Responsibilities'."
+          },
+          "source_text": {
+            "type": "string",
+            "description": "VERBATIM text of this one sentence or list item exactly as printed, including trailing punctuation such as ':' or ';' and including any list-ending words such as 'and'. No paraphrase, no ellipses, no text from any other statement. For a list_item, give only the item's own text, not the lead_in."
           },
           "statement_function": {
             "type": "string",
-            "description": "Functional role of the statement in the document, such as definition, obligation, condition, scope, exception, authority, inquiry, classification_rule, responsibility, or reference.",
+            "description": "What the statement does. obligation: a required action or compliance requirement on an actor. responsibility: a standing duty or function assigned to an actor, including present-tense descriptions of what a body does. role_designation: assigns an entity to a role, for example membership or voting status. authority: names a legal source of authority or a grant of authority. scope: states what or whom the document applies to. purpose: states why the document exists. definition: defines a term. condition: states a standalone triggering condition. exception: carves out an exception. savings_clause: states that the document does not displace existing authorities or delegations. effectivity: states when the document takes effect or how long it lasts. supersession: states that the document replaces another. classification_rule: states a rule that classifies something or applies a requirement when a status is met. reference: points to another document or location. inquiry: tells who may be contacted. container: use for every lead_in statement. other: none of the above.",
             "enum": [
-              "definition",
               "obligation",
-              "condition",
-              "scope",
-              "exception",
-              "authority",
-              "inquiry",
-              "classification_rule",
               "responsibility",
-              "reference",
+              "role_designation",
+              "authority",
+              "scope",
               "purpose",
+              "definition",
+              "condition",
+              "exception",
+              "savings_clause",
+              "effectivity",
               "supersession",
-              "contact",
+              "classification_rule",
+              "reference",
+              "inquiry",
+              "container",
               "other"
+            ]
+          },
+          "modal_verb": {
+            "type": "string",
+            "description": "The operative modal word or phrase exactly as written, for example 'will', 'can', 'may', 'must', 'shall', 'must not'. For a list_item whose own text has no modal, copy the modal from its lead_in. Omit if no modal appears."
+          },
+          "modal_use": {
+            "type": "string",
+            "description": "deontic: the modal directs, permits, or prohibits action by an actor (for example 'The Deputy CIO will serve', 'can direct questions'). predictive: the modal only states what will happen or remain true (for example 'It will remain in effect until superseded'). none: no modal is present.",
+            "enum": [
+              "deontic",
+              "predictive",
+              "none"
             ]
           },
           "normative_force": {
             "type": "string",
-            "description": "Normative force of the statement, kept separate from statement function.",
+            "description": "Derived from modal_verb and modal_use. mandatory: deontic 'will', 'shall', or 'must' directing an actor to act or to serve in a role. prohibitive: deontic 'must not', 'shall not', or 'may not'. permissive: deontic 'may' or 'can'. descriptive: no modal, a predictive modal, or a statement about the document itself (purpose, scope, supersession, effectivity, savings clause, reference, or a present-tense description of what a body does). not_applicable: use for every lead_in; its force is carried by its list_items.",
             "enum": [
               "mandatory",
+              "prohibitive",
               "permissive",
               "descriptive",
-              "discretionary",
-              "prohibitive",
-              "conditional",
-              "other"
+              "not_applicable"
             ]
           },
-          "actor": {
+          "actor_name": {
             "type": "string",
-            "description": "Actor associated with the statement, if one is explicitly identified."
+            "description": "The entity directed to act, permitted to act, or assigned a role by this statement, spelled exactly as in the matching actors[].name and as it appears in source_text or in the lead_in's text. Omit when the statement binds no actor (scope, purpose, supersession, effectivity, savings clauses, and statements whose only subject is the document itself, for example 'This DR'). Never supply an actor that is not stated in the text. Always omit for lead_in statements."
+          },
+          "actor_basis": {
+            "type": "string",
+            "description": "Required when actor_name is present. explicit_in_statement: the actor appears in this statement's own source_text. inherited_from_lead_in: the actor appears only in the lead_in that this list_item completes.",
+            "enum": [
+              "explicit_in_statement",
+              "inherited_from_lead_in"
+            ]
           },
           "target": {
             "type": "string",
-            "description": "Person, organization, system, investment, or subject to which the statement applies, if identifiable."
+            "description": "VERBATIM phrase naming what the action is directed at or what the statement applies to. Omit if none."
+          },
+          "resulting_status": {
+            "type": "string",
+            "description": "VERBATIM phrase naming the status or role that a role_designation or classification_rule confers, for example 'voting member' or 'advisory (non-voting) members'. Omit for other statements."
           },
           "conditions": {
             "type": "array",
-            "description": "Conditions, thresholds, or triggering circumstances that qualify the statement.",
+            "description": "VERBATIM phrases that restrict when or to what the statement applies, for example 'that the CIO Council designates as enterprise initiatives'. Do NOT treat a non-restrictive descriptive phrase between commas (for example 'appointed by the USDA CIO' in 'The Secretariat, appointed by the USDA CIO, will serve') as a condition. Omit if there are none.",
             "items": {
               "type": "string",
-              "description": "One condition associated with the statement."
+              "description": "One verbatim condition phrase copied from source_text."
             }
           },
-          "classification_result": {
-            "type": "string",
-            "description": "Resulting classification, determination, or status produced by the statement, if applicable."
-          },
-          "consequences": {
+          "cross_references": {
             "type": "array",
-            "description": "Consequences, follow-on effects, or outcomes stated or implied by the policy statement.",
+            "description": "Other documents, laws, or sections named in source_text, each copied verbatim as written, for example 'DR 3130-010, United States Department of Agriculture Enterprise Information Technology Governance'. Omit if none.",
             "items": {
               "type": "string",
-              "description": "One consequence or outcome associated with the statement."
+              "description": "One verbatim reference."
             }
-          },
-          "citation": {
-            "type": "string",
-            "description": "Section or paragraph citation for the statement, if available."
           }
         },
         "required": [
           "statement_id",
-          "text",
+          "statement_kind",
+          "section_number",
+          "source_text",
           "statement_function",
+          "modal_use",
           "normative_force"
         ]
       }
     },
     "acronyms": {
       "type": "array",
-      "description": "Acronyms and abbreviations defined in the document.",
+      "description": "Acronyms and abbreviations listed in the acronym appendix, one entry per row, in order.",
       "items": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
           "acronym": {
             "type": "string",
-            "description": "Acronym or abbreviation."
+            "description": "Acronym or abbreviation exactly as printed."
           },
           "definition": {
             "type": "string",
-            "description": "Meaning of the acronym or abbreviation."
+            "description": "Meaning exactly as printed."
           }
         },
         "required": [
@@ -306,10 +306,10 @@
     },
     "authorities_and_references": {
       "type": "array",
-      "description": "Authorities and references cited in the document.",
+      "description": "Entries of the Authorities and References appendix, one per entry, each copied verbatim, including any date, in order.",
       "items": {
         "type": "string",
-        "description": "One authority or reference citation as written in the document."
+        "description": "One appendix entry exactly as printed, joined across line breaks."
       }
     }
   },
