@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "title": "USDA Departmental Manual Extraction Schema",
-  "description": "Schema for extracting broadly useful structured data from a USDA departmental manual concerning legislative reports and proposals.",
+  "description": "Schema for extracting unstructured text in PDF and converting it to structured data.",
   "properties": {
     "document_title": {
       "type": "string",
