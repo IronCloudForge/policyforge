@@ -1,0 +1,195 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "USDA Departmental Manual Extraction Schema",
+  "description": "Schema for extracting broadly useful structured data from a USDA departmental manual concerning legislative reports and proposals.",
+  "properties": {
+    "document_title": {
+      "type": "string",
+      "description": "Full title of the document."
+    },
+    "document_type": {
+      "type": "string",
+      "description": "Type of document, such as Departmental Manual."
+    },
+    "document_number": {
+      "type": "string",
+      "description": "Document or manual number."
+    },
+    "subject": {
+      "type": "string",
+      "description": "Subject line of the document."
+    },
+    "issuing_organization": {
+      "type": "string",
+      "description": "Organization issuing the document."
+    },
+    "office_of_primary_interest": {
+      "type": "string",
+      "description": "Office of Primary Interest (OPI) listed in the document."
+    },
+    "publication_date": {
+      "type": "string",
+      "description": "Document issue or publication date as written in the document."
+    },
+    "expiration_date": {
+      "type": "string",
+      "description": "Document expiration date as written in the document."
+    },
+    "purpose": {
+      "type": "string",
+      "description": "Statement of the document's purpose."
+    },
+    "scope": {
+      "type": "string",
+      "description": "Statement describing who or what the document applies to."
+    },
+    "background": {
+      "type": "string",
+      "description": "Background information explaining the context for the document."
+    },
+    "policy": {
+      "type": "array",
+      "description": "Policy statements, obligations, or directives stated in the document.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "policy_id": {
+            "type": "string",
+            "description": "Identifier or letter/number for the policy item, if present."
+          },
+          "policy_text": {
+            "type": "string",
+            "description": "Text of the policy statement, obligation, or directive."
+          },
+          "policy_actor_01": {
+            "type": "string",
+            "description": "Primary actor responsible for or subject to the policy obligation."
+          },
+          "policy_actor_02": {
+            "type": "string",
+            "description": "Second actor responsible for or subject to the policy obligation, if applicable."
+          },
+          "policy_actor_03": {
+            "type": "string",
+            "description": "Third actor responsible for or subject to the policy obligation, if applicable."
+          },
+          "policy_actor_04": {
+            "type": "string",
+            "description": "Fourth actor responsible for or subject to the policy obligation, if applicable."
+          }
+        },
+        "required": ["policy_text"],
+        "additionalProperties": false
+      }
+    },
+    "sections": {
+      "type": "array",
+      "description": "Top-level sections listed in the document.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "section_number": {
+            "type": "string",
+            "description": "Section number or appendix label."
+          },
+          "section_title": {
+            "type": "string",
+            "description": "Title of the section or appendix."
+          },
+          "page_reference": {
+            "type": "string",
+            "description": "Page number or page reference shown in the table of contents, if available."
+          }
+        },
+        "required": ["section_title"],
+        "additionalProperties": false
+      }
+    },
+    "contacts": {
+      "type": "array",
+      "description": "Contact points or inquiry channels provided in the document.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "contact_type": {
+            "type": "string",
+            "description": "Type of contact, such as email or office."
+          },
+          "contact_value": {
+            "type": "string",
+            "description": "Actual contact information, such as an email address."
+          },
+          "context": {
+            "type": "string",
+            "description": "Context describing when or why this contact is used."
+          }
+        },
+        "required": ["contact_value"],
+        "additionalProperties": false
+      }
+    },
+    "acronyms": {
+      "type": "array",
+      "description": "Acronyms and abbreviations defined in the document.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "acronym": {
+            "type": "string",
+            "description": "Acronym or abbreviation."
+          },
+          "meaning": {
+            "type": "string",
+            "description": "Expanded meaning of the acronym."
+          }
+        },
+        "required": ["acronym", "meaning"],
+        "additionalProperties": false
+      }
+    },
+    "definitions": {
+      "type": "array",
+      "description": "Defined terms and their definitions from the document.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "term": {
+            "type": "string",
+            "description": "Defined term."
+          },
+          "definition": {
+            "type": "string",
+            "description": "Definition of the term."
+          },
+          "source": {
+            "type": "string",
+            "description": "Source cited for the definition, if provided."
+          }
+        },
+        "required": ["term", "definition"],
+        "additionalProperties": false
+      }
+    },
+    "authorities_and_references": {
+      "type": "array",
+      "description": "Authorities and references cited in the document.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "citation": {
+            "type": "string",
+            "description": "Citation or title of the authority/reference."
+          },
+          "description": {
+            "type": "string",
+            "description": "Explanation of the authority or reference, if provided."
+          }
+        },
+        "required": ["citation"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
