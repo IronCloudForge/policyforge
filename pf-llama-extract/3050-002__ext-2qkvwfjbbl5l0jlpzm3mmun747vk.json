@@ -1,0 +1,2417 @@
+{
+  "file_input": null,
+  "id": "ext-2qkvwfjbbl5l0jlpzm3mmun747vk",
+  "project_id": null,
+  "configuration_id": null,
+  "configuration": {
+    "target_pages": null,
+    "max_pages": null,
+    "tier": "agentic",
+    "version": "2.6",
+    "disable_cache": false,
+    "data_schema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "title": "USDA Directive Extraction Schema v2.1 (DR/DM)",
+      "description": "Extracts metadata and structured policy statements from 3000 series USDA Departmental Regulation (DR) or Departmental Manual (DM). Governing rules: (1) Any field described as verbatim must be copied character-for-character from the source document. Never paraphrase, merge, abbreviate, summarize, or insert ellipses. (2) Do not infer. If the source does not support an optional field, leave the field out entirely. Never return an empty string or a guess. (3) Only the label fields in policy_statements (statement_kind, statement_function, modal_use, normative_force, actor_basis) are interpretations. Every other field is quoted or copied from the document.",
+      "additionalProperties": false,
+      "properties": {
+        "document_type": {
+          "type": "string",
+          "description": "Type of document as printed in the header, such as 'Departmental Regulation' or 'Departmental Manual'."
+        },
+        "issuing_organization": {
+          "type": "string",
+          "description": "Organization issuing the document, verbatim from the header."
+        },
+        "issuing_location": {
+          "type": "string",
+          "description": "Location of the issuing organization, verbatim from the header."
+        },
+        "regulation_number": {
+          "type": "string",
+          "description": "Official document number from the header, verbatim, for example 'DR 3105-001'."
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject or title of the document, verbatim from the header."
+        },
+        "issue_date": {
+          "type": "string",
+          "description": "Issue date from the header, as written."
+        },
+        "expiration_date": {
+          "type": "string",
+          "description": "Expiration date from the header, as written. Leave out if none is printed."
+        },
+        "opi": {
+          "type": "string",
+          "description": "Office of Primary Interest (OPI) from the header, verbatim."
+        },
+        "supersedes": {
+          "type": "object",
+          "description": "The prior document this document supersedes. Take all values from the supersession paragraph in the body (usually under Special Instructions/Cancellations), NOT from the header. Leave the whole object out if the document supersedes nothing.",
+          "additionalProperties": false,
+          "properties": {
+            "document_number": {
+              "type": "string",
+              "description": "Number of the superseded document as written in the supersession paragraph. If it is identical to this document's own number, still copy it from the supersession paragraph, not the header."
+            },
+            "document_title": {
+              "type": "string",
+              "description": "Title of the superseded document as written in the supersession paragraph."
+            },
+            "document_date": {
+              "type": "string",
+              "description": "Date of the superseded document as written in the supersession paragraph."
+            }
+          },
+          "required": [
+            "document_number"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "description": "The text of the Scope section, verbatim. Do not add words. Leave out if the document has no Scope section."
+        },
+        "purpose": {
+          "type": "string",
+          "description": "The text of the Purpose section, verbatim. Do not add words. Leave out if the document has no Purpose section."
+        },
+        "inquiries": {
+          "type": "object",
+          "description": "Contact information from the Inquiries section. Leave out any property the document does not state; never return an empty string.",
+          "additionalProperties": false,
+          "properties": {
+            "office": {
+              "type": "string",
+              "description": "Office or division named for inquiries, verbatim. Leave out if the document names no office."
+            },
+            "email": {
+              "type": "string",
+              "description": "Email address given for inquiries, verbatim, without trailing punctuation. Leave out if none is given."
+            }
+          }
+        },
+        "table_of_contents": {
+          "type": "array",
+          "description": "Top-level entries of the printed table of contents, in order, including appendices. Return an empty list if the document prints no table of contents.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "section_number": {
+                "type": "string",
+                "description": "Section or appendix identifier as printed, for example '1.' or 'Appendix A'."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Section or appendix title as printed in the table of contents."
+              },
+              "page": {
+                "type": "string",
+                "description": "Page number exactly as printed in the table of contents, for example '2' or 'A-1'. Copy it even if the section actually starts on a different page. Leave out if no page number is printed."
+              }
+            },
+            "required": [
+              "section_number",
+              "section_title"
+            ]
+          }
+        },
+        "actors": {
+          "type": "array",
+          "description": "Registry of every distinct entity that the policy text names in an acting role. One entry per entity. Include every entity used as actor_name in policy_statements. Also include entities the document names in a role without being directed to act (mark those mentioned_only). Documents (bylaws, regulations, directives) are NEVER actors and must not appear here. Return an empty list if the document names no actors.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "The entity's name exactly as written in the policy text, without a leading article ('the') and without a possessive. Keep a compound name intact if the document writes it as one phrase, for example 'USDA Mission Areas, agencies, and staff offices'. This is the join key used by actor_name in policy_statements, so spell it identically there."
+              },
+              "components": {
+                "type": "array",
+                "description": "ONLY for a name that joins separate entities with commas or 'and' (for example 'USDA Mission Areas, agencies, and staff offices' gives 'USDA Mission Areas', 'agencies', 'staff offices'). NEVER split a job title from the organization that qualifies it ('Director of IT, Office of the Inspector General' is ONE position), and never split an organization name from the position it modifies ('Office of the Chief Information Officer (OCIO) Associate CIOs (ACIO)' is ONE group). Each component is a verbatim substring of the name. Leave out for single entities.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim component of a compound actor name."
+                }
+              },
+              "actor_type": {
+                "type": "string",
+                "description": "Kind of entity. Use exactly one of: position (a job title, singular or plural, for example 'USDA CIO' or 'Mission Area Assistant CIOs'), office (an organizational unit, for example 'OCIO Executive Secretariat'), council_or_body (a council, committee, board, or similar body), group (a category of organizations or units, not job titles, for example 'USDA Mission Areas, agencies, and staff offices'), external_entity (an entity outside the document's authority), program_or_system (an IT initiative, system, program, or project that the document says must act or conform).",
+                "enum": [
+                  "position",
+                  "office",
+                  "council_or_body",
+                  "group",
+                  "external_entity",
+                  "program_or_system"
+                ]
+              },
+              "binding_status": {
+                "type": "string",
+                "description": "bound_by_this_document: the document directs, permits, or assigns a function or role to this entity and has authority over it. mentioned_only: the document names the entity but cannot or does not impose anything on it (for example a council or agency outside USDA that the document says a USDA body partners with).",
+                "enum": [
+                  "bound_by_this_document",
+                  "mentioned_only"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "actor_type",
+              "binding_status"
+            ]
+          }
+        },
+        "policy_statements": {
+          "type": "array",
+          "description": "Structured statements from the numbered body sections only (not the table of contents, not the appendices). RULES. (a) SENTENCES: emit one statement per sentence. If a paragraph has more than one sentence, give each its own statement with ids suffixed .s1, .s2, and so on. Abbreviations and legal citations ('U.S.C.', 'CFR', '§', 'et seq.') do not end a sentence. (b) LISTS: when text introduces a list (usually ends with a colon, for example 'The USDA CIO will:'), emit the introducing text as one statement with statement_kind 'lead_in', and emit EVERY item of the list as its own statement with statement_kind 'list_item' and parent_statement_id set to the id of the lead_in. Never skip list items, including lists of legal authorities. For a list inside a list, parent_statement_id is the immediate parent. (c) NEVER merge text from different sentences, paragraphs, or list items into one statement. (d) Copy text exactly; do not summarize. (e) PRONOUNS: when a sentence's subject is a pronoun ('It', 'Its', 'They') that refers to a named actor in the preceding sentence, resolve it: set actor_name to that actor and actor_basis to resolved_from_prior_sentence. (f) DOCUMENT AS SUBJECT: when the grammatical subject is the document itself ('This DR', 'This policy', 'Nothing in this DR'), leave actor_name out; the entities the document acts on belong in target.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "statement_id": {
+                "type": "string",
+                "description": "Printed numbering path of the statement: section number, then paragraph letter, then item number in parentheses, for example '1', '3.a', '5.d.s2', '6.a(1)'. Add '.sN' only when a paragraph contains more than one sentence. Must be unique within the document."
+              },
+              "statement_kind": {
+                "type": "string",
+                "description": "standalone: a complete sentence that stands on its own. lead_in: text that introduces a list and is incomplete without its items. list_item: a list item that completes its lead_in.",
+                "enum": [
+                  "standalone",
+                  "lead_in",
+                  "list_item"
+                ]
+              },
+              "parent_statement_id": {
+                "type": "string",
+                "description": "Include ONLY when statement_kind is list_item: the statement_id of its immediate lead_in. For every other statement leave this field out entirely; never return an empty string."
+              },
+              "section_number": {
+                "type": "string",
+                "description": "Number of the section containing the statement, digits only, for example '6'."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Title of the section containing the statement, as shown in the table of contents, for example 'Roles and Responsibilities'."
+              },
+              "source_text": {
+                "type": "string",
+                "description": "VERBATIM text of this one sentence or list item exactly as printed, including trailing punctuation such as ':' or ';' and including any list-ending words such as 'and'. No paraphrase, no ellipses, no text from any other statement. For a list_item, give only the item's own text, not the lead_in."
+              },
+              "statement_function": {
+                "type": "string",
+                "description": "What the statement does. obligation: a required action or compliance requirement on an actor. responsibility: a standing duty or function assigned to an actor, including present-tense descriptions of what a body does. role_designation: assigns an entity to a role, for example membership or voting status. authority: names a legal source of authority or a grant of authority. scope: states what or whom the document applies to. purpose: states why the document or a body exists. definition: defines a term. condition: states a standalone triggering condition. exception: carves out an exception. savings_clause: states that the document does not displace existing authorities or delegations. effectivity: states when the document takes effect or how long it lasts. supersession: states that the document replaces another. classification_rule: states a rule that classifies something or applies a requirement when a status is met. reference: points to another document or location. inquiry: tells who may be contacted. container: use for every lead_in statement. other: none of the above.",
+                "enum": [
+                  "obligation",
+                  "responsibility",
+                  "role_designation",
+                  "authority",
+                  "scope",
+                  "purpose",
+                  "definition",
+                  "condition",
+                  "exception",
+                  "savings_clause",
+                  "effectivity",
+                  "supersession",
+                  "classification_rule",
+                  "reference",
+                  "inquiry",
+                  "container",
+                  "other"
+                ]
+              },
+              "modal_verb": {
+                "type": "string",
+                "description": "The modal word or phrase of the statement's MAIN clause, exactly as written, for example 'will', 'can', 'may', 'must', 'shall', 'must not'. Ignore modals inside relative or subordinate clauses (for 'advises the USDA CIO on IT matters that may become IT investments', the 'may' is not the statement's modal). For a list_item whose own text has no modal, copy the modal from its lead_in. Leave out if the main clause has no modal."
+              },
+              "modal_use": {
+                "type": "string",
+                "description": "deontic: the main-clause modal directs, permits, or prohibits action by an actor (for example 'The Deputy CIO will serve', 'can direct questions'). predictive: the modal only states what will happen or remain true (for example 'It will remain in effect until superseded'). none: the main clause has no modal.",
+                "enum": [
+                  "deontic",
+                  "predictive",
+                  "none"
+                ]
+              },
+              "normative_force": {
+                "type": "string",
+                "description": "mandatory: deontic 'will', 'shall', or 'must' directing an actor to act or to serve in a role. prohibitive: deontic 'must not', 'shall not', or 'may not'. permissive: deontic 'may' or 'can'. assigned: a present-tense statement with no deontic modal that assigns or describes a function, duty, or role of a named actor (for example 'The CIO Council advises the USDA CIO on...', 'It assesses the needs of...'); use it only when actor_name is present, and never for purpose statements. descriptive: everything else with no deontic force, including purpose, scope, supersession, effectivity, savings clauses, references, authorities, definitions, and statements about the document itself or about other documents. not_applicable: use for every lead_in; its force is carried by its list_items.",
+                "enum": [
+                  "mandatory",
+                  "prohibitive",
+                  "permissive",
+                  "assigned",
+                  "descriptive",
+                  "not_applicable"
+                ]
+              },
+              "actor_name": {
+                "type": "string",
+                "description": "The entity directed to act, permitted to act, or assigned a function or role by this statement, spelled exactly as in the matching actors[].name. It must appear in source_text or in the lead_in's text (leading article removed); for a resolved pronoun, copy it from the antecedent sentence. Leave out when the statement binds no actor: scope, supersession, effectivity, savings clauses, statements about documents (including bylaws), and any statement whose subject is the document itself ('This DR', 'This policy', 'Nothing in this DR'). Never supply an actor that is not stated in the text or resolvable from the preceding sentence. Always leave out for lead_in statements."
+              },
+              "actor_basis": {
+                "type": "string",
+                "description": "Include ONLY when actor_name is present; otherwise leave this field out entirely. explicit_in_statement: the actor appears in this statement's own source_text. inherited_from_lead_in: the actor appears only in the lead_in that this list_item completes. resolved_from_prior_sentence: the subject is a pronoun resolved to the actor named in the preceding sentence.",
+                "enum": [
+                  "explicit_in_statement",
+                  "inherited_from_lead_in",
+                  "resolved_from_prior_sentence"
+                ]
+              },
+              "target": {
+                "type": "string",
+                "description": "VERBATIM phrase naming what the action is directed at or what the statement applies to, starting at the first word after any leading article ('a', 'an', 'the'). For a role_designation, the body or unit the role is within (for example 'CIO Council'). Leave out if none."
+              },
+              "resulting_status": {
+                "type": "string",
+                "description": "VERBATIM phrase naming the status or role that a role_designation or classification_rule confers, for example 'voting member' or 'advisory (non-voting) members'. Leave out for other statements."
+              },
+              "conditions": {
+                "type": "array",
+                "description": "VERBATIM phrases that restrict when or to what the statement applies, for example 'that the CIO Council designates as enterprise initiatives'. Do NOT treat a non-restrictive descriptive phrase set off by commas (for example 'appointed by the USDA CIO' in 'The Secretariat, appointed by the USDA CIO, will serve') as a condition. Leave out if there are none.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim condition phrase copied from source_text."
+                }
+              },
+              "cross_references": {
+                "type": "array",
+                "description": "Other documents, laws, or regulations cited in source_text, each copied verbatim as ONE entry per cited authority, including its code citation (for example 'The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) § 11101 et seq.' is one entry; for a list_item that is just a citation, the entry is the item text without the trailing ';' or 'and'). Never add a separate entry for a title that is part of the same citation (the words 'Chief Information Officer' after '7 CFR § 2.32'). Never list generic categories such as 'law' or 'Federal regulation'. Leave out if none.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim cited authority."
+                }
+              }
+            },
+            "required": [
+              "statement_id",
+              "statement_kind",
+              "section_number",
+              "section_title",
+              "source_text",
+              "statement_function",
+              "modal_use",
+              "normative_force"
+            ]
+          }
+        },
+        "acronyms": {
+          "type": "array",
+          "description": "Acronyms and abbreviations listed in the acronym appendix, one entry per row, in order. Return an empty list if the document has no acronym appendix.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "acronym": {
+                "type": "string",
+                "description": "Acronym or abbreviation exactly as printed."
+              },
+              "definition": {
+                "type": "string",
+                "description": "Meaning exactly as printed."
+              }
+            },
+            "required": [
+              "acronym",
+              "definition"
+            ]
+          }
+        },
+        "authorities_and_references": {
+          "type": "array",
+          "description": "Entries of the Authorities and References appendix, one per entry, each copied verbatim, including any date, in order. Return an empty list if the document has no such appendix.",
+          "items": {
+            "type": "string",
+            "description": "One appendix entry exactly as printed, joined across line breaks."
+          }
+        }
+      },
+      "required": [
+        "document_type",
+        "issuing_organization",
+        "issuing_location",
+        "regulation_number",
+        "subject",
+        "issue_date",
+        "opi",
+        "table_of_contents",
+        "actors",
+        "policy_statements",
+        "acronyms",
+        "authorities_and_references"
+      ]
+    },
+    "extraction_target": "per_doc",
+    "system_prompt": null,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "advanced_citations": true,
+    "granular_bboxes": [],
+    "spreadsheet_mode": false,
+    "sheet_names": null,
+    "validators": null,
+    "model_policy": null,
+    "parse_tier": "agentic",
+    "parse_config_id": null,
+    "extract_version": "2.6"
+  },
+  "status": "COMPLETED",
+  "error_message": null,
+  "extract_result": {
+    "document_type": "DEPARTMENTAL REGULATION",
+    "issuing_organization": "U.S. Department of Agriculture",
+    "issuing_location": "Washington, D.C. 20250",
+    "regulation_number": "3050-002",
+    "subject": "Private Express Statute Violations",
+    "issue_date": "December 21, 1983",
+    "opi": "Mail and Reproduction Management Division, OO",
+    "purpose": "This regulation is to inform all agencies and staff offices of their responsibility to ensure that private carriers are not used to transport items in violation of the Private Express Statutes. These statutes restrict the transportation of certain items by means other than the U.S. Postal Service (USPS).",
+    "inquiries": {
+      "office": "Mail and Reproduction Management Division, Office of Operations",
+      "email": ""
+    },
+    "table_of_contents": [],
+    "actors": [
+      {
+        "name": "all agencies and staff offices",
+        "components": [
+          "all agencies",
+          "staff offices"
+        ],
+        "actor_type": "group",
+        "binding_status": "bound_by_this_document"
+      },
+      {
+        "name": "private carriers",
+        "actor_type": "group",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "U.S. Postal Service (USPS)",
+        "actor_type": "external_entity",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "USDA",
+        "actor_type": "office",
+        "binding_status": "bound_by_this_document"
+      },
+      {
+        "name": "Director of Transportation, General Services Administration",
+        "actor_type": "position",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "DHL Airways, Inc.",
+        "actor_type": "external_entity",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "Federal Agencies",
+        "actor_type": "group",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "Mail and Reproduction Management Division, Office of Operations",
+        "actor_type": "office",
+        "binding_status": "bound_by_this_document"
+      }
+    ],
+    "policy_statements": [
+      {
+        "statement_id": "1.s1",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "PURPOSE",
+        "source_text": "This regulation is to inform all agencies and staff offices of their responsibility to ensure that private carriers are not used to transport items in violation of the Private Express Statutes.",
+        "statement_function": "purpose",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "target": "all agencies and staff offices"
+      },
+      {
+        "statement_id": "1.s2",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "PURPOSE",
+        "source_text": "These statutes restrict the transportation of certain items by means other than the U.S. Postal Service (USPS).",
+        "statement_function": "other",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "target": "transportation of certain items by means other than the U.S. Postal Service (USPS)",
+        "cross_references": [
+          "Private Express Statutes"
+        ]
+      },
+      {
+        "statement_id": "2",
+        "statement_kind": "standalone",
+        "section_number": "2",
+        "section_title": "POLICY",
+        "source_text": "It is the policy of USDA to comply with the provisions of the Private Express Statutes (39 U.S.C., 601-606 and 39 CFR parts 310 & 320) when sending material delivered by persons other than USDA employees.",
+        "statement_function": "obligation",
+        "modal_use": "none",
+        "normative_force": "assigned",
+        "actor_name": "USDA",
+        "actor_basis": "explicit_in_statement",
+        "target": "provisions of the Private Express Statutes (39 U.S.C., 601-606 and 39 CFR parts 310 & 320)",
+        "conditions": [
+          "when sending material delivered by persons other than USDA employees"
+        ],
+        "cross_references": [
+          "39 U.S.C., 601-606",
+          "39 CFR parts 310 & 320"
+        ]
+      },
+      {
+        "statement_id": "3.s1",
+        "statement_kind": "standalone",
+        "section_number": "3",
+        "section_title": "SPECIAL INSTRUCTIONS",
+        "source_text": "Effective October 1, 1983, the Director of Transportation, General Services Administration, entered into a contract with DHL Airways, Inc., (#GS 00T 42276) whereby overnight service is offered to Federal Agencies for express small package shipments.",
+        "statement_function": "other",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "actor_name": "Director of Transportation, General Services Administration",
+        "actor_basis": "explicit_in_statement",
+        "target": "contract with DHL Airways, Inc., (#GS 00T 42276)",
+        "conditions": [
+          "Effective October 1, 1983"
+        ]
+      },
+      {
+        "statement_id": "3.s2",
+        "statement_kind": "standalone",
+        "section_number": "3",
+        "section_title": "SPECIAL INSTRUCTIONS",
+        "source_text": "While use of this service is generally mandatory, employees should be cautioned regarding the shipment of recording discs, magnetic tapes and messages or letters through DHL and other private carriers.",
+        "statement_function": "other",
+        "modal_verb": "should",
+        "modal_use": "deontic",
+        "normative_force": "descriptive",
+        "target": "employees",
+        "conditions": [
+          "While use of this service is generally mandatory"
+        ]
+      },
+      {
+        "statement_id": "3.s3",
+        "statement_kind": "standalone",
+        "section_number": "3",
+        "section_title": "SPECIAL INSTRUCTIONS",
+        "source_text": "In most cases, it is unlawful under the Private Express Statutes for any one other than USPS to carry such items.",
+        "statement_function": "classification_rule",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "target": "any one other than USPS to carry such items",
+        "conditions": [
+          "In most cases"
+        ],
+        "cross_references": [
+          "Private Express Statutes"
+        ]
+      },
+      {
+        "statement_id": "4",
+        "statement_kind": "standalone",
+        "section_number": "4",
+        "section_title": "INQUIRIES",
+        "source_text": "Questions should be directed to Mail and Reproduction Management Division, Office of Operations, on 382-1666 or 447-8393.",
+        "statement_function": "inquiry",
+        "modal_verb": "should",
+        "modal_use": "deontic",
+        "normative_force": "descriptive",
+        "target": "Mail and Reproduction Management Division, Office of Operations"
+      }
+    ],
+    "acronyms": [],
+    "authorities_and_references": []
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "document_type": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "DEPARTMENTAL REGULATION",
+              "bounding_boxes": [
+                {
+                  "x": 92.08230721950531,
+                  "y": 116.59495961666107,
+                  "w": 281.33157777786255,
+                  "h": 14.805074393749237
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9290590382762193,
+          "extraction_confidence": 0.9290590382762193
+        },
+        "issuing_organization": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "U.S. Department of Agriculture",
+              "bounding_boxes": [
+                {
+                  "x": 254.42438864707947,
+                  "y": 72.78746008872986,
+                  "w": 102.90375566482544,
+                  "h": 8.865074157714844
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9290283535443129,
+          "extraction_confidence": 0.9290283535443129
+        },
+        "issuing_location": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Washington, D.C. 20250",
+              "bounding_boxes": [
+                {
+                  "x": 265.3131937980652,
+                  "y": 81.94496315717697,
+                  "w": 81.126145362854,
+                  "h": 8.865074157714844
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9130292693338496,
+          "extraction_confidence": 0.9130292693338496
+        },
+        "regulation_number": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "3050-002",
+              "bounding_boxes": [
+                {
+                  "x": 476.65486192703247,
+                  "y": 126.24746811389923,
+                  "w": 46.4799479842186,
+                  "h": 10.350074216723442
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9494685402937709,
+          "extraction_confidence": 0.9494685402937709
+        },
+        "subject": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Private Express Statute Violations",
+              "bounding_boxes": [
+                {
+                  "x": 137.12233918905258,
+                  "y": 155.2049582004547,
+                  "w": 165.7618067264557,
+                  "h": 12.825074806809425
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9483152127119349,
+          "extraction_confidence": 0.9483152127119349
+        },
+        "issue_date": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "December 21, 1983",
+              "bounding_boxes": [
+                {
+                  "x": 359.60028862953186,
+                  "y": 166.58995914459229,
+                  "w": 94.98460060358047,
+                  "h": 12.330073803663254
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9134458603526457,
+          "extraction_confidence": 0.9134458603526457
+        },
+        "opi": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Mail and Reproduction Management Division, OO",
+              "bounding_boxes": [
+                {
+                  "x": 359.60032510757446,
+                  "y": 195.79496669769287,
+                  "w": 199.912987947464,
+                  "h": 25.69507285952568
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9496741081621534,
+          "extraction_confidence": 0.9496741081621534
+        },
+        "purpose": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This regulation is to inform all agencies and staff offices of their responsibility to ensure that private carriers are not used to transport items in violation of the Private Express Statutes. These statutes restrict the transportation of certain items by means other than the U.S. Postal Service (USPS).",
+              "bounding_boxes": [
+                {
+                  "x": 161.1271984577179,
+                  "y": 271.2824478149414,
+                  "w": 360.27531480789185,
+                  "h": 45.24760437011719
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9570550635467998,
+          "extraction_confidence": 0.9570550635467998
+        },
+        "inquiries": {
+          "office": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Mail and Reproduction Management Division, Office of Operations",
+                "bounding_boxes": [
+                  {
+                    "x": 161.1271984577179,
+                    "y": 626.939968585968,
+                    "w": 352.8511941432953,
+                    "h": 22.72504323720932
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 612.0,
+                  "height": 792.0
+                }
+              }
+            ],
+            "confidence": 0.9517038878658194,
+            "extraction_confidence": 0.9517038878658194
+          },
+          "email": {
+            "confidence": 0.7967356887764265,
+            "extraction_confidence": 0.7967356887764265
+          }
+        },
+        "actors": [
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "all agencies and staff offices",
+                  "bounding_boxes": [
+                    {
+                      "x": 308.86841440200806,
+                      "y": 271.2824478149414,
+                      "w": 115.77227890491486,
+                      "h": 10.845104724168777
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9580810030973645,
+              "extraction_confidence": 0.9580810030973645
+            },
+            "components": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "all agencies",
+                    "bounding_boxes": [
+                      {
+                        "x": 310.86,
+                        "y": 272.11,
+                        "w": 46.27999999999997,
+                        "h": 9.110000000000014
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9398527163961312,
+                "extraction_confidence": 0.9398527163961312
+              },
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "staff offices",
+                    "bounding_boxes": [
+                      {
+                        "x": 377.41,
+                        "y": 272.11,
+                        "w": 46.559999999999945,
+                        "h": 7.079999999999984
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9349677886830681,
+                "extraction_confidence": 0.9349677886830681
+              }
+            ],
+            "actor_type": {
+              "confidence": 0.8381894098990246,
+              "extraction_confidence": 0.8381894098990246
+            },
+            "binding_status": {
+              "confidence": 0.8748615236655033,
+              "extraction_confidence": 0.8748615236655033
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.1.name",
+                  "bounding_boxes": [
+                    {
+                      "x": 326.66397088556414,
+                      "y": 283.14,
+                      "w": 184.3671653861706,
+                      "h": 8.414999999999996
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9189455772060345,
+              "extraction_confidence": 0.9189455772060345
+            },
+            "actor_type": {
+              "confidence": 0.8513285775076521,
+              "extraction_confidence": 0.8513285775076521
+            },
+            "binding_status": {
+              "confidence": 0.892858830256017,
+              "extraction_confidence": 0.892858830256017
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "U.S. Postal Service (USPS)",
+                  "bounding_boxes": [
+                    {
+                      "x": 194.53601503372192,
+                      "y": 305.68495631217957,
+                      "w": 114.78242897987366,
+                      "h": 10.845095872879028
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9672000741376422,
+              "extraction_confidence": 0.9672000741376422
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.2.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 305.68495631217957,
+                      "w": 148.33971118927002,
+                      "h": 10.201595306396484
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.934849378304701,
+              "extraction_confidence": 0.934849378304701
+            },
+            "binding_status": {
+              "confidence": 0.8907446790576417,
+              "extraction_confidence": 0.8907446790576417
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.3.name",
+                  "bounding_boxes": [
+                    {
+                      "x": 269.25030327537405,
+                      "y": 382.14,
+                      "w": 20.540234532955914,
+                      "h": 8.66249999999999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9195271639129733,
+              "extraction_confidence": 0.9195271639129733
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Office",
+                  "bounding_boxes": [
+                    {
+                      "x": 162.35,
+                      "y": 639.61,
+                      "w": 24.909999999999997,
+                      "h": 7.090000000000032
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9730699695507697,
+              "extraction_confidence": 0.9730699695507697
+            },
+            "binding_status": {
+              "confidence": 0.8995708227120736,
+              "extraction_confidence": 0.8995708227120736
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Director of Transportation, General Services Administration",
+                  "bounding_boxes": [
+                    {
+                      "x": 368.5,
+                      "y": 482.59,
+                      "w": 60.64,
+                      "h": 9.09
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9614946054512187,
+              "extraction_confidence": 0.9614946054512187
+            },
+            "actor_type": {
+              "confidence": 0.8998344773080038,
+              "extraction_confidence": 0.8998344773080038
+            },
+            "binding_status": {
+              "confidence": 0.8842140662357196,
+              "extraction_confidence": 0.8842140662357196
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "DHL Airways, Inc.",
+                  "bounding_boxes": [
+                    {
+                      "x": 339.63,
+                      "y": 494.11,
+                      "w": 79.07,
+                      "h": 9.110000000000014
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9749141893291262,
+              "extraction_confidence": 0.9749141893291262
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.5.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 343.98706025070766,
+                      "y": 501.6825,
+                      "w": 69.53983016579052,
+                      "h": 8.662500000000035
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9583327869068798,
+              "extraction_confidence": 0.9583327869068798
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.5.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 322.9518803073191,
+                      "y": 502.425,
+                      "w": 71.51961180752126,
+                      "h": 8.662499999999948
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.941416058971115,
+              "extraction_confidence": 0.941416058971115
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Federal Agencies",
+                  "bounding_boxes": [
+                    {
+                      "x": 320.9945547580719,
+                      "y": 504.674955368042,
+                      "w": 70.73227429389954,
+                      "h": 10.845074482262135
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9508303833237676,
+              "extraction_confidence": 0.9508303833237676
+            },
+            "actor_type": {
+              "confidence": 0.8059006622020148,
+              "extraction_confidence": 0.8059006622020148
+            },
+            "binding_status": {
+              "confidence": 0.8888469008222175,
+              "extraction_confidence": 0.8888469008222175
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Mail and Reproduction Management Division, Office of Operations",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 626.939968585968,
+                      "w": 352.8511941432953,
+                      "h": 22.72504323720932
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9793296294578204,
+              "extraction_confidence": 0.9793296294578204
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Office",
+                  "bounding_boxes": [
+                    {
+                      "x": 162.35,
+                      "y": 639.61,
+                      "w": 24.909999999999997,
+                      "h": 7.090000000000032
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9713257318591353,
+              "extraction_confidence": 0.9713257318591353
+            },
+            "binding_status": {
+              "confidence": 0.8936077880997718,
+              "extraction_confidence": 0.8936077880997718
+            }
+          }
+        ],
+        "policy_statements": [
+          {
+            "statement_id": {
+              "confidence": 0.8327631447341269,
+              "extraction_confidence": 0.8327631447341269
+            },
+            "statement_kind": {
+              "confidence": 0.864276913394252,
+              "extraction_confidence": 0.864276913394252
+            },
+            "parent_statement_id": {
+              "confidence": 0.9705592978596735,
+              "extraction_confidence": 0.9705592978596735
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 90.35000145435333,
+                      "y": 246.03746008872986,
+                      "w": 4.1621081829071045,
+                      "h": 8.617592096328735
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8668728337606056,
+              "extraction_confidence": 0.8668728337606056
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "PURPOSE",
+                  "bounding_boxes": [
+                    {
+                      "x": 125.24364763498306,
+                      "y": 246.03746008872986,
+                      "w": 45.24259454011917,
+                      "h": 8.617592096328735
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8038810779128613,
+              "extraction_confidence": 0.8038810779128613
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "This regulation is to inform all agencies and staff offices of their responsibility to ensure that private carriers are not used to transport items in violation of the Private Express Statutes.",
+                  "bounding_boxes": [
+                    {
+                      "x": 162.1,
+                      "y": 272.11,
+                      "w": 350.76,
+                      "h": 32.06999999999999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9697748391817245,
+              "extraction_confidence": 0.9697748391817245
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "PURPOSE",
+                  "bounding_boxes": [
+                    {
+                      "x": 125.24364763498306,
+                      "y": 246.03746008872986,
+                      "w": 45.24259454011917,
+                      "h": 8.617592096328735
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.890998327325797,
+              "extraction_confidence": 0.890998327325797
+            },
+            "modal_verb": {
+              "confidence": 0.9652235639893062,
+              "extraction_confidence": 0.9652235639893062
+            },
+            "modal_use": {
+              "confidence": 0.8082415728431513,
+              "extraction_confidence": 0.8082415728431513
+            },
+            "normative_force": {
+              "confidence": 0.9420397810210143,
+              "extraction_confidence": 0.9420397810210143
+            },
+            "actor_name": {
+              "confidence": 0.9061744663625801,
+              "extraction_confidence": 0.9061744663625801
+            },
+            "actor_basis": {
+              "confidence": 0.9562671943187748,
+              "extraction_confidence": 0.9562671943187748
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "all agencies and staff offices",
+                  "bounding_boxes": [
+                    {
+                      "x": 308.86841440200806,
+                      "y": 271.2824478149414,
+                      "w": 115.77227890491486,
+                      "h": 10.845104724168777
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9741781524046272,
+              "extraction_confidence": 0.9741781524046272
+            },
+            "resulting_status": {
+              "confidence": 0.9705592978596735,
+              "extraction_confidence": 0.9705592978596735
+            }
+          },
+          {
+            "statement_id": {
+              "confidence": 0.7886296517507776,
+              "extraction_confidence": 0.7886296517507776
+            },
+            "statement_kind": {
+              "confidence": 0.8029790881786895,
+              "extraction_confidence": 0.8029790881786895
+            },
+            "parent_statement_id": {
+              "confidence": 0.9661032556246385,
+              "extraction_confidence": 0.9661032556246385
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 90.35000145435333,
+                      "y": 246.03746008872986,
+                      "w": 4.1621081829071045,
+                      "h": 8.617592096328735
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8327209704222708,
+              "extraction_confidence": 0.8327209704222708
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.1.section_title",
+                  "bounding_boxes": [
+                    {
+                      "x": 125.24364763498306,
+                      "y": 356.917448759079,
+                      "w": 37.57093387842178,
+                      "h": 8.617592096328735
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8332285525855198,
+              "extraction_confidence": 0.8332285525855198
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.1.source_text",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.59967650626768,
+                      "y": 382.63500000000005,
+                      "w": 350.66882329154873,
+                      "h": 30.9375
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9392035806521022,
+              "extraction_confidence": 0.9392035806521022
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "other",
+                  "bounding_boxes": [
+                    {
+                      "x": 499.422376871109,
+                      "y": 294.05244970321655,
+                      "w": 21.980136394500732,
+                      "h": 8.865097761154175
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9544023898754777,
+              "extraction_confidence": 0.9544023898754777
+            },
+            "modal_verb": {
+              "confidence": 0.9616004909549529,
+              "extraction_confidence": 0.9616004909549529
+            },
+            "modal_use": {
+              "confidence": 0.6779635345079216,
+              "extraction_confidence": 0.6779635345079216
+            },
+            "normative_force": {
+              "confidence": 0.8955331857448212,
+              "extraction_confidence": 0.8955331857448212
+            },
+            "actor_name": {
+              "confidence": 0.9063879916375649,
+              "extraction_confidence": 0.9063879916375649
+            },
+            "actor_basis": {
+              "confidence": 0.9541176823996699,
+              "extraction_confidence": 0.9541176823996699
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "transportation of certain items by means other than the U.S. Postal Service (USPS)",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 294.05244970321655,
+                      "w": 360.27531480789185,
+                      "h": 22.47760248184204
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.952297596524271,
+              "extraction_confidence": 0.952297596524271
+            },
+            "resulting_status": {
+              "confidence": 0.9661032556246385,
+              "extraction_confidence": 0.9661032556246385
+            },
+            "cross_references": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Private Express Statutes",
+                    "bounding_boxes": [
+                      {
+                        "x": 161.1271984577179,
+                        "y": 282.41994309425354,
+                        "w": 347.5057017803192,
+                        "h": 22.725103721022606
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9648349440825458,
+                "extraction_confidence": 0.9648349440825458
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 356.917448759079,
+                      "w": 6.141899228096008,
+                      "h": 8.370110034942627
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7690169123083117,
+              "extraction_confidence": 0.7690169123083117
+            },
+            "statement_kind": {
+              "confidence": 0.8975528348647077,
+              "extraction_confidence": 0.8975528348647077
+            },
+            "parent_statement_id": {
+              "confidence": 0.976762930196811,
+              "extraction_confidence": 0.976762930196811
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 356.917448759079,
+                      "w": 6.141899228096008,
+                      "h": 8.370110034942627
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7655451692950904,
+              "extraction_confidence": 0.7655451692950904
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "POLICY",
+                  "bounding_boxes": [
+                    {
+                      "x": 125.24364763498306,
+                      "y": 356.917448759079,
+                      "w": 37.57093387842178,
+                      "h": 8.617592096328735
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9258322472294009,
+              "extraction_confidence": 0.9258322472294009
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "It is the policy of USDA to comply with the provisions of the Private Express Statutes (39 U.S.C., 601-606 and 39 CFR parts 310 & 320) when sending material delivered by persons other than USDA employees.",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 382.1624364852905,
+                      "w": 347.65420389175415,
+                      "h": 33.862627029418945
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9733729416748729,
+              "extraction_confidence": 0.9733729416748729
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "This regulation is to inform all agencies and staff offices of their responsibility to ensure that private carriers are not used to transport items in violation of the Private Express Statutes. These statutes restrict the transportation of certain items by means other than the U.S. Postal Service (USPS).",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 271.2824478149414,
+                      "w": 360.27531480789185,
+                      "h": 45.24760437011719
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9454337193081016,
+              "extraction_confidence": 0.9454337193081016
+            },
+            "modal_verb": {
+              "confidence": 0.9784000396085134,
+              "extraction_confidence": 0.9784000396085134
+            },
+            "modal_use": {
+              "confidence": 0.7904941491534293,
+              "extraction_confidence": 0.7904941491534293
+            },
+            "normative_force": {
+              "confidence": 0.9263495571642228,
+              "extraction_confidence": 0.9263495571642228
+            },
+            "actor_name": {
+              "confidence": 0.8262924881754942,
+              "extraction_confidence": 0.8262924881754942
+            },
+            "actor_basis": {
+              "confidence": 0.8965737755593324,
+              "extraction_confidence": 0.8965737755593324
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "provisions of the Private Express Statutes (39 U.S.C., 601-606 and 39 CFR parts 310 & 320)",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.62213253974915,
+                      "y": 382.1624364852905,
+                      "w": 347.4067368507385,
+                      "h": 22.47760248184204
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9673567362008944,
+              "extraction_confidence": 0.9673567362008944
+            },
+            "resulting_status": {
+              "confidence": 0.976762930196811,
+              "extraction_confidence": 0.976762930196811
+            },
+            "conditions": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "when sending material delivered by persons other than USDA employees",
+                    "bounding_boxes": [
+                      {
+                        "x": 161.37466549873352,
+                        "y": 393.79494309425354,
+                        "w": 330.8261168003082,
+                        "h": 22.230120420455933
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9454105784603348,
+                "extraction_confidence": 0.9454105784603348
+              }
+            ],
+            "cross_references": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "39 U.S.C., 601-606",
+                    "bounding_boxes": [
+                      {
+                        "x": 196.54,
+                        "y": 394.63,
+                        "w": 80.22999999999999,
+                        "h": 9.089999999999975
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.8854210767997144,
+                "extraction_confidence": 0.8854210767997144
+              },
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "39 CFR parts 310 & 320",
+                    "bounding_boxes": [
+                      {
+                        "x": 297.04,
+                        "y": 394.63,
+                        "w": 101.19,
+                        "h": 9.089999999999975
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.8736333530252212,
+                "extraction_confidence": 0.8736333530252212
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "confidence": 0.7995149521587634,
+              "extraction_confidence": 0.7995149521587634
+            },
+            "statement_kind": {
+              "confidence": 0.8765966194815182,
+              "extraction_confidence": 0.8765966194815182
+            },
+            "parent_statement_id": {
+              "confidence": 0.9738319263235353,
+              "extraction_confidence": 0.9738319263235353
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.60758209228516,
+                      "y": 456.4124364852905,
+                      "w": 5.399479866027832,
+                      "h": 8.617615699768066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8289905747763201,
+              "extraction_confidence": 0.8289905747763201
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "SPECIAL INSTRUCTIONS",
+                  "bounding_boxes": [
+                    {
+                      "x": 125.73859083652496,
+                      "y": 456.4124364852905,
+                      "w": 115.77231538295746,
+                      "h": 8.617615699768066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.91672277576475,
+              "extraction_confidence": 0.91672277576475
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Effective October 1, 1983, the Director of Transportation, General Services Administration, entered into a contract with DHL Airways, Inc., (#GS 00T 42276) whereby overnight service is offered to Federal Agencies for express small package shipments.",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 481.40994215011597,
+                      "w": 339.4876456260681,
+                      "h": 45.49507462978363
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9691026023860988,
+              "extraction_confidence": 0.9691026023860988
+            },
+            "statement_function": {
+              "confidence": 0.9419641620052077,
+              "extraction_confidence": 0.9419641620052077
+            },
+            "modal_verb": {
+              "confidence": 0.9724996920001477,
+              "extraction_confidence": 0.9724996920001477
+            },
+            "modal_use": {
+              "confidence": 0.7709810747589855,
+              "extraction_confidence": 0.7709810747589855
+            },
+            "normative_force": {
+              "confidence": 0.9219900197725631,
+              "extraction_confidence": 0.9219900197725631
+            },
+            "actor_name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Director of Transportation, General Services Administration",
+                  "bounding_boxes": [
+                    {
+                      "x": 368.5,
+                      "y": 482.59,
+                      "w": 60.64,
+                      "h": 9.09
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9173975263239823,
+              "extraction_confidence": 0.9173975263239823
+            },
+            "actor_basis": {
+              "confidence": 0.8783863425448565,
+              "extraction_confidence": 0.8783863425448565
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "contract with DHL Airways, Inc., (#GS 00T 42276)",
+                  "bounding_boxes": [
+                    {
+                      "x": 282.8837549686432,
+                      "y": 493.04242515563965,
+                      "w": 209.8119614124298,
+                      "h": 10.84511947631836
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9704893905692968,
+              "extraction_confidence": 0.9704893905692968
+            },
+            "resulting_status": {
+              "confidence": 0.9738319263235353,
+              "extraction_confidence": 0.9738319263235353
+            },
+            "conditions": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Effective October 1, 1983",
+                    "bounding_boxes": [
+                      {
+                        "x": 197.2582072019577,
+                        "y": 481.6574478149414,
+                        "w": 107.3582171201706,
+                        "h": 10.350104458630085
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9063839364488183,
+                "extraction_confidence": 0.9063839364488183
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "confidence": 0.8141089756788736,
+              "extraction_confidence": 0.8141089756788736
+            },
+            "statement_kind": {
+              "confidence": 0.8666220856072864,
+              "extraction_confidence": 0.8666220856072864
+            },
+            "parent_statement_id": {
+              "confidence": 0.9721683949327852,
+              "extraction_confidence": 0.9721683949327852
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.60758209228516,
+                      "y": 456.4124364852905,
+                      "w": 5.399479866027832,
+                      "h": 8.617615699768066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8165725677746334,
+              "extraction_confidence": 0.8165725677746334
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "SPECIAL INSTRUCTIONS",
+                  "bounding_boxes": [
+                    {
+                      "x": 125.73859083652496,
+                      "y": 456.4124364852905,
+                      "w": 115.77231538295746,
+                      "h": 8.617615699768066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9035653990187502,
+              "extraction_confidence": 0.9035653990187502
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "While use of this service is generally mandatory, employees should be cautioned regarding the shipment of recording discs, magnetic tapes and messages or letters through DHL and other private carriers.",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 516.0599799156189,
+                      "w": 342.457396030426,
+                      "h": 34.11004418134689
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9718880060577108,
+              "extraction_confidence": 0.9718880060577108
+            },
+            "statement_function": {
+              "confidence": 0.9594245114575414,
+              "extraction_confidence": 0.9594245114575414
+            },
+            "modal_verb": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "should",
+                  "bounding_boxes": [
+                    {
+                      "x": 450.6702389717102,
+                      "y": 516.0599799156189,
+                      "w": 28.26599621772766,
+                      "h": 8.865026950836182
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9226603203953029,
+              "extraction_confidence": 0.9226603203953029
+            },
+            "modal_use": {
+              "confidence": 0.8992471912336716,
+              "extraction_confidence": 0.8992471912336716
+            },
+            "normative_force": {
+              "confidence": 0.9201775453046235,
+              "extraction_confidence": 0.9201775453046235
+            },
+            "actor_name": {
+              "confidence": 0.9293791988649418,
+              "extraction_confidence": 0.9293791988649418
+            },
+            "actor_basis": {
+              "confidence": 0.9637016183529827,
+              "extraction_confidence": 0.9637016183529827
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "employees",
+                  "bounding_boxes": [
+                    {
+                      "x": 405.13524556159973,
+                      "y": 516.0599799156189,
+                      "w": 43.75778317451477,
+                      "h": 10.845025062561035
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9741957575570193,
+              "extraction_confidence": 0.9741957575570193
+            },
+            "resulting_status": {
+              "confidence": 0.9721683949327852,
+              "extraction_confidence": 0.9721683949327852
+            },
+            "conditions": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "While use of this service is generally mandatory",
+                    "bounding_boxes": [
+                      {
+                        "x": 206.9096406698227,
+                        "y": 516.0599799156189,
+                        "w": 196.44843113422394,
+                        "h": 10.845025062561035
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9147145300399401,
+                "extraction_confidence": 0.9147145300399401
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "confidence": 0.7930076722702274,
+              "extraction_confidence": 0.7930076722702274
+            },
+            "statement_kind": {
+              "confidence": 0.8460317241423678,
+              "extraction_confidence": 0.8460317241423678
+            },
+            "parent_statement_id": {
+              "confidence": 0.9713136208209319,
+              "extraction_confidence": 0.9713136208209319
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.60758209228516,
+                      "y": 456.4124364852905,
+                      "w": 5.399479866027832,
+                      "h": 8.617615699768066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8435758962650968,
+              "extraction_confidence": 0.8435758962650968
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "SPECIAL INSTRUCTIONS",
+                  "bounding_boxes": [
+                    {
+                      "x": 125.73859083652496,
+                      "y": 456.4124364852905,
+                      "w": 115.77231538295746,
+                      "h": 8.617615699768066
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9037615730794553,
+              "extraction_confidence": 0.9037615730794553
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "In most cases, it is unlawful under the Private Express Statutes for any one other than USPS to carry such items.",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 539.0774874687195,
+                      "w": 341.96235251426697,
+                      "h": 22.47755527496338
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9593334791711223,
+              "extraction_confidence": 0.9593334791711223
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "This regulation is to inform all agencies and staff offices of their responsibility to ensure that private carriers are not used to transport items in violation of the Private Express Statutes. These statutes restrict the transportation of certain items by means other than the U.S. Postal Service (USPS).",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 271.2824478149414,
+                      "w": 360.27531480789185,
+                      "h": 45.24760437011719
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.96695201598521,
+              "extraction_confidence": 0.96695201598521
+            },
+            "modal_verb": {
+              "confidence": 0.9662221899462174,
+              "extraction_confidence": 0.9662221899462174
+            },
+            "modal_use": {
+              "confidence": 0.7163940794969416,
+              "extraction_confidence": 0.7163940794969416
+            },
+            "normative_force": {
+              "confidence": 0.9236231487624166,
+              "extraction_confidence": 0.9236231487624166
+            },
+            "actor_name": {
+              "confidence": 0.9132069145607179,
+              "extraction_confidence": 0.9132069145607179
+            },
+            "actor_basis": {
+              "confidence": 0.9599419712961508,
+              "extraction_confidence": 0.9599419712961508
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "any one other than USPS to carry such items",
+                  "bounding_boxes": [
+                    {
+                      "x": 274.9646272659302,
+                      "y": 550.7099704742432,
+                      "w": 181.84752917289734,
+                      "h": 10.845072269439697
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9739410632886402,
+              "extraction_confidence": 0.9739410632886402
+            },
+            "resulting_status": {
+              "confidence": 0.9713136208209319,
+              "extraction_confidence": 0.9713136208209319
+            },
+            "conditions": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "In most cases",
+                    "bounding_boxes": [
+                      {
+                        "x": 350.1963222026825,
+                        "y": 539.3249931335449,
+                        "w": 57.368762254714966,
+                        "h": 10.102508068084717
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9243703453836123,
+                "extraction_confidence": 0.9243703453836123
+              }
+            ],
+            "cross_references": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Private Express Statutes",
+                    "bounding_boxes": [
+                      {
+                        "x": 161.1271984577179,
+                        "y": 550.9574761390686,
+                        "w": 97.95428717136383,
+                        "h": 10.597566604614258
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9542435999453246,
+                "extraction_confidence": 0.9542435999453246
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "4",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 601.9424629211426,
+                      "w": 6.141899228096008,
+                      "h": 8.370062828063965
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7503102925730171,
+              "extraction_confidence": 0.7503102925730171
+            },
+            "statement_kind": {
+              "confidence": 0.8870150439548751,
+              "extraction_confidence": 0.8870150439548751
+            },
+            "parent_statement_id": {
+              "confidence": 0.970372278752278,
+              "extraction_confidence": 0.970372278752278
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "4",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 601.9424629211426,
+                      "w": 6.141899228096008,
+                      "h": 8.370062828063965
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7696844119342772,
+              "extraction_confidence": 0.7696844119342772
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "INQUIRIES",
+                  "bounding_boxes": [
+                    {
+                      "x": 125.49112379550934,
+                      "y": 601.9424629211426,
+                      "w": 50.934455037117004,
+                      "h": 10.3500439748168
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9395565528351855,
+              "extraction_confidence": 0.9395565528351855
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Questions should be directed to Mail and Reproduction Management Division, Office of Operations, on 382-1666 or 447-8393.",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 626.939968585968,
+                      "w": 352.8511941432953,
+                      "h": 22.72504323720932
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9641819659707865,
+              "extraction_confidence": 0.9641819659707865
+            },
+            "statement_function": {
+              "confidence": 0.890965715246605,
+              "extraction_confidence": 0.890965715246605
+            },
+            "modal_verb": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "should",
+                  "bounding_boxes": [
+                    {
+                      "x": 240.0709902048111,
+                      "y": 627.1874742507935,
+                      "w": 29.156874373555183,
+                      "h": 8.8650439158082
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8995748161358241,
+              "extraction_confidence": 0.8995748161358241
+            },
+            "modal_use": {
+              "confidence": 0.8872135777987843,
+              "extraction_confidence": 0.8872135777987843
+            },
+            "normative_force": {
+              "confidence": 0.9311482203942695,
+              "extraction_confidence": 0.9311482203942695
+            },
+            "actor_name": {
+              "confidence": 0.9100201518638753,
+              "extraction_confidence": 0.9100201518638753
+            },
+            "actor_basis": {
+              "confidence": 0.9601288287507794,
+              "extraction_confidence": 0.9601288287507794
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Mail and Reproduction Management Division, Office of Operations",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 626.939968585968,
+                      "w": 352.8511941432953,
+                      "h": 22.72504323720932
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9739186305561708,
+              "extraction_confidence": 0.9739186305561708
+            },
+            "resulting_status": {
+              "confidence": 0.970372278752278,
+              "extraction_confidence": 0.970372278752278
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": null,
+    "parse_tier": "agentic"
+  },
+  "metadata": null,
+  "grounded_items": null,
+  "usage": {
+    "credits": 25.0,
+    "extract_credits": 15.0,
+    "parse_credits": 10.0
+  },
+  "created_at": "2026-10-25T21:19:39.368518Z",
+  "updated_at": "2026-10-25T21:21:53.692347Z",
+  "document_input_value": null
+}

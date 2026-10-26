@@ -1,0 +1,1214 @@
+{
+  "file_input": null,
+  "id": "ext-66i584zy7lt37udkfl6b20pev9le",
+  "project_id": null,
+  "configuration_id": null,
+  "configuration": {
+    "target_pages": null,
+    "max_pages": null,
+    "tier": "agentic",
+    "version": "2.6",
+    "disable_cache": false,
+    "data_schema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "title": "USDA Directive Extraction Schema v2.1 (DR/DM)",
+      "description": "Extracts metadata and structured policy statements from 3000 series USDA Departmental Regulation (DR) or Departmental Manual (DM). Governing rules: (1) Any field described as verbatim must be copied character-for-character from the source document. Never paraphrase, merge, abbreviate, summarize, or insert ellipses. (2) Do not infer. If the source does not support an optional field, leave the field out entirely. Never return an empty string or a guess. (3) Only the label fields in policy_statements (statement_kind, statement_function, modal_use, normative_force, actor_basis) are interpretations. Every other field is quoted or copied from the document.",
+      "additionalProperties": false,
+      "properties": {
+        "document_type": {
+          "type": "string",
+          "description": "Type of document as printed in the header, such as 'Departmental Regulation' or 'Departmental Manual'."
+        },
+        "issuing_organization": {
+          "type": "string",
+          "description": "Organization issuing the document, verbatim from the header."
+        },
+        "issuing_location": {
+          "type": "string",
+          "description": "Location of the issuing organization, verbatim from the header."
+        },
+        "regulation_number": {
+          "type": "string",
+          "description": "Official document number from the header, verbatim, for example 'DR 3105-001'."
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject or title of the document, verbatim from the header."
+        },
+        "issue_date": {
+          "type": "string",
+          "description": "Issue date from the header, as written."
+        },
+        "expiration_date": {
+          "type": "string",
+          "description": "Expiration date from the header, as written. Leave out if none is printed."
+        },
+        "opi": {
+          "type": "string",
+          "description": "Office of Primary Interest (OPI) from the header, verbatim."
+        },
+        "supersedes": {
+          "type": "object",
+          "description": "The prior document this document supersedes. Take all values from the supersession paragraph in the body (usually under Special Instructions/Cancellations), NOT from the header. Leave the whole object out if the document supersedes nothing.",
+          "additionalProperties": false,
+          "properties": {
+            "document_number": {
+              "type": "string",
+              "description": "Number of the superseded document as written in the supersession paragraph. If it is identical to this document's own number, still copy it from the supersession paragraph, not the header."
+            },
+            "document_title": {
+              "type": "string",
+              "description": "Title of the superseded document as written in the supersession paragraph."
+            },
+            "document_date": {
+              "type": "string",
+              "description": "Date of the superseded document as written in the supersession paragraph."
+            }
+          },
+          "required": [
+            "document_number"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "description": "The text of the Scope section, verbatim. Do not add words. Leave out if the document has no Scope section."
+        },
+        "purpose": {
+          "type": "string",
+          "description": "The text of the Purpose section, verbatim. Do not add words. Leave out if the document has no Purpose section."
+        },
+        "inquiries": {
+          "type": "object",
+          "description": "Contact information from the Inquiries section. Leave out any property the document does not state; never return an empty string.",
+          "additionalProperties": false,
+          "properties": {
+            "office": {
+              "type": "string",
+              "description": "Office or division named for inquiries, verbatim. Leave out if the document names no office."
+            },
+            "email": {
+              "type": "string",
+              "description": "Email address given for inquiries, verbatim, without trailing punctuation. Leave out if none is given."
+            }
+          }
+        },
+        "table_of_contents": {
+          "type": "array",
+          "description": "Top-level entries of the printed table of contents, in order, including appendices. Return an empty list if the document prints no table of contents.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "section_number": {
+                "type": "string",
+                "description": "Section or appendix identifier as printed, for example '1.' or 'Appendix A'."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Section or appendix title as printed in the table of contents."
+              },
+              "page": {
+                "type": "string",
+                "description": "Page number exactly as printed in the table of contents, for example '2' or 'A-1'. Copy it even if the section actually starts on a different page. Leave out if no page number is printed."
+              }
+            },
+            "required": [
+              "section_number",
+              "section_title"
+            ]
+          }
+        },
+        "actors": {
+          "type": "array",
+          "description": "Registry of every distinct entity that the policy text names in an acting role. One entry per entity. Include every entity used as actor_name in policy_statements. Also include entities the document names in a role without being directed to act (mark those mentioned_only). Documents (bylaws, regulations, directives) are NEVER actors and must not appear here. Return an empty list if the document names no actors.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "The entity's name exactly as written in the policy text, without a leading article ('the') and without a possessive. Keep a compound name intact if the document writes it as one phrase, for example 'USDA Mission Areas, agencies, and staff offices'. This is the join key used by actor_name in policy_statements, so spell it identically there."
+              },
+              "components": {
+                "type": "array",
+                "description": "ONLY for a name that joins separate entities with commas or 'and' (for example 'USDA Mission Areas, agencies, and staff offices' gives 'USDA Mission Areas', 'agencies', 'staff offices'). NEVER split a job title from the organization that qualifies it ('Director of IT, Office of the Inspector General' is ONE position), and never split an organization name from the position it modifies ('Office of the Chief Information Officer (OCIO) Associate CIOs (ACIO)' is ONE group). Each component is a verbatim substring of the name. Leave out for single entities.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim component of a compound actor name."
+                }
+              },
+              "actor_type": {
+                "type": "string",
+                "description": "Kind of entity. Use exactly one of: position (a job title, singular or plural, for example 'USDA CIO' or 'Mission Area Assistant CIOs'), office (an organizational unit, for example 'OCIO Executive Secretariat'), council_or_body (a council, committee, board, or similar body), group (a category of organizations or units, not job titles, for example 'USDA Mission Areas, agencies, and staff offices'), external_entity (an entity outside the document's authority), program_or_system (an IT initiative, system, program, or project that the document says must act or conform).",
+                "enum": [
+                  "position",
+                  "office",
+                  "council_or_body",
+                  "group",
+                  "external_entity",
+                  "program_or_system"
+                ]
+              },
+              "binding_status": {
+                "type": "string",
+                "description": "bound_by_this_document: the document directs, permits, or assigns a function or role to this entity and has authority over it. mentioned_only: the document names the entity but cannot or does not impose anything on it (for example a council or agency outside USDA that the document says a USDA body partners with).",
+                "enum": [
+                  "bound_by_this_document",
+                  "mentioned_only"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "actor_type",
+              "binding_status"
+            ]
+          }
+        },
+        "policy_statements": {
+          "type": "array",
+          "description": "Structured statements from the numbered body sections only (not the table of contents, not the appendices). RULES. (a) SENTENCES: emit one statement per sentence. If a paragraph has more than one sentence, give each its own statement with ids suffixed .s1, .s2, and so on. Abbreviations and legal citations ('U.S.C.', 'CFR', '§', 'et seq.') do not end a sentence. (b) LISTS: when text introduces a list (usually ends with a colon, for example 'The USDA CIO will:'), emit the introducing text as one statement with statement_kind 'lead_in', and emit EVERY item of the list as its own statement with statement_kind 'list_item' and parent_statement_id set to the id of the lead_in. Never skip list items, including lists of legal authorities. For a list inside a list, parent_statement_id is the immediate parent. (c) NEVER merge text from different sentences, paragraphs, or list items into one statement. (d) Copy text exactly; do not summarize. (e) PRONOUNS: when a sentence's subject is a pronoun ('It', 'Its', 'They') that refers to a named actor in the preceding sentence, resolve it: set actor_name to that actor and actor_basis to resolved_from_prior_sentence. (f) DOCUMENT AS SUBJECT: when the grammatical subject is the document itself ('This DR', 'This policy', 'Nothing in this DR'), leave actor_name out; the entities the document acts on belong in target.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "statement_id": {
+                "type": "string",
+                "description": "Printed numbering path of the statement: section number, then paragraph letter, then item number in parentheses, for example '1', '3.a', '5.d.s2', '6.a(1)'. Add '.sN' only when a paragraph contains more than one sentence. Must be unique within the document."
+              },
+              "statement_kind": {
+                "type": "string",
+                "description": "standalone: a complete sentence that stands on its own. lead_in: text that introduces a list and is incomplete without its items. list_item: a list item that completes its lead_in.",
+                "enum": [
+                  "standalone",
+                  "lead_in",
+                  "list_item"
+                ]
+              },
+              "parent_statement_id": {
+                "type": "string",
+                "description": "Include ONLY when statement_kind is list_item: the statement_id of its immediate lead_in. For every other statement leave this field out entirely; never return an empty string."
+              },
+              "section_number": {
+                "type": "string",
+                "description": "Number of the section containing the statement, digits only, for example '6'."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Title of the section containing the statement, as shown in the table of contents, for example 'Roles and Responsibilities'."
+              },
+              "source_text": {
+                "type": "string",
+                "description": "VERBATIM text of this one sentence or list item exactly as printed, including trailing punctuation such as ':' or ';' and including any list-ending words such as 'and'. No paraphrase, no ellipses, no text from any other statement. For a list_item, give only the item's own text, not the lead_in."
+              },
+              "statement_function": {
+                "type": "string",
+                "description": "What the statement does. obligation: a required action or compliance requirement on an actor. responsibility: a standing duty or function assigned to an actor, including present-tense descriptions of what a body does. role_designation: assigns an entity to a role, for example membership or voting status. authority: names a legal source of authority or a grant of authority. scope: states what or whom the document applies to. purpose: states why the document or a body exists. definition: defines a term. condition: states a standalone triggering condition. exception: carves out an exception. savings_clause: states that the document does not displace existing authorities or delegations. effectivity: states when the document takes effect or how long it lasts. supersession: states that the document replaces another. classification_rule: states a rule that classifies something or applies a requirement when a status is met. reference: points to another document or location. inquiry: tells who may be contacted. container: use for every lead_in statement. other: none of the above.",
+                "enum": [
+                  "obligation",
+                  "responsibility",
+                  "role_designation",
+                  "authority",
+                  "scope",
+                  "purpose",
+                  "definition",
+                  "condition",
+                  "exception",
+                  "savings_clause",
+                  "effectivity",
+                  "supersession",
+                  "classification_rule",
+                  "reference",
+                  "inquiry",
+                  "container",
+                  "other"
+                ]
+              },
+              "modal_verb": {
+                "type": "string",
+                "description": "The modal word or phrase of the statement's MAIN clause, exactly as written, for example 'will', 'can', 'may', 'must', 'shall', 'must not'. Ignore modals inside relative or subordinate clauses (for 'advises the USDA CIO on IT matters that may become IT investments', the 'may' is not the statement's modal). For a list_item whose own text has no modal, copy the modal from its lead_in. Leave out if the main clause has no modal."
+              },
+              "modal_use": {
+                "type": "string",
+                "description": "deontic: the main-clause modal directs, permits, or prohibits action by an actor (for example 'The Deputy CIO will serve', 'can direct questions'). predictive: the modal only states what will happen or remain true (for example 'It will remain in effect until superseded'). none: the main clause has no modal.",
+                "enum": [
+                  "deontic",
+                  "predictive",
+                  "none"
+                ]
+              },
+              "normative_force": {
+                "type": "string",
+                "description": "mandatory: deontic 'will', 'shall', or 'must' directing an actor to act or to serve in a role. prohibitive: deontic 'must not', 'shall not', or 'may not'. permissive: deontic 'may' or 'can'. assigned: a present-tense statement with no deontic modal that assigns or describes a function, duty, or role of a named actor (for example 'The CIO Council advises the USDA CIO on...', 'It assesses the needs of...'); use it only when actor_name is present, and never for purpose statements. descriptive: everything else with no deontic force, including purpose, scope, supersession, effectivity, savings clauses, references, authorities, definitions, and statements about the document itself or about other documents. not_applicable: use for every lead_in; its force is carried by its list_items.",
+                "enum": [
+                  "mandatory",
+                  "prohibitive",
+                  "permissive",
+                  "assigned",
+                  "descriptive",
+                  "not_applicable"
+                ]
+              },
+              "actor_name": {
+                "type": "string",
+                "description": "The entity directed to act, permitted to act, or assigned a function or role by this statement, spelled exactly as in the matching actors[].name. It must appear in source_text or in the lead_in's text (leading article removed); for a resolved pronoun, copy it from the antecedent sentence. Leave out when the statement binds no actor: scope, supersession, effectivity, savings clauses, statements about documents (including bylaws), and any statement whose subject is the document itself ('This DR', 'This policy', 'Nothing in this DR'). Never supply an actor that is not stated in the text or resolvable from the preceding sentence. Always leave out for lead_in statements."
+              },
+              "actor_basis": {
+                "type": "string",
+                "description": "Include ONLY when actor_name is present; otherwise leave this field out entirely. explicit_in_statement: the actor appears in this statement's own source_text. inherited_from_lead_in: the actor appears only in the lead_in that this list_item completes. resolved_from_prior_sentence: the subject is a pronoun resolved to the actor named in the preceding sentence.",
+                "enum": [
+                  "explicit_in_statement",
+                  "inherited_from_lead_in",
+                  "resolved_from_prior_sentence"
+                ]
+              },
+              "target": {
+                "type": "string",
+                "description": "VERBATIM phrase naming what the action is directed at or what the statement applies to, starting at the first word after any leading article ('a', 'an', 'the'). For a role_designation, the body or unit the role is within (for example 'CIO Council'). Leave out if none."
+              },
+              "resulting_status": {
+                "type": "string",
+                "description": "VERBATIM phrase naming the status or role that a role_designation or classification_rule confers, for example 'voting member' or 'advisory (non-voting) members'. Leave out for other statements."
+              },
+              "conditions": {
+                "type": "array",
+                "description": "VERBATIM phrases that restrict when or to what the statement applies, for example 'that the CIO Council designates as enterprise initiatives'. Do NOT treat a non-restrictive descriptive phrase set off by commas (for example 'appointed by the USDA CIO' in 'The Secretariat, appointed by the USDA CIO, will serve') as a condition. Leave out if there are none.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim condition phrase copied from source_text."
+                }
+              },
+              "cross_references": {
+                "type": "array",
+                "description": "Other documents, laws, or regulations cited in source_text, each copied verbatim as ONE entry per cited authority, including its code citation (for example 'The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) § 11101 et seq.' is one entry; for a list_item that is just a citation, the entry is the item text without the trailing ';' or 'and'). Never add a separate entry for a title that is part of the same citation (the words 'Chief Information Officer' after '7 CFR § 2.32'). Never list generic categories such as 'law' or 'Federal regulation'. Leave out if none.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim cited authority."
+                }
+              }
+            },
+            "required": [
+              "statement_id",
+              "statement_kind",
+              "section_number",
+              "section_title",
+              "source_text",
+              "statement_function",
+              "modal_use",
+              "normative_force"
+            ]
+          }
+        },
+        "acronyms": {
+          "type": "array",
+          "description": "Acronyms and abbreviations listed in the acronym appendix, one entry per row, in order. Return an empty list if the document has no acronym appendix.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "acronym": {
+                "type": "string",
+                "description": "Acronym or abbreviation exactly as printed."
+              },
+              "definition": {
+                "type": "string",
+                "description": "Meaning exactly as printed."
+              }
+            },
+            "required": [
+              "acronym",
+              "definition"
+            ]
+          }
+        },
+        "authorities_and_references": {
+          "type": "array",
+          "description": "Entries of the Authorities and References appendix, one per entry, each copied verbatim, including any date, in order. Return an empty list if the document has no such appendix.",
+          "items": {
+            "type": "string",
+            "description": "One appendix entry exactly as printed, joined across line breaks."
+          }
+        }
+      },
+      "required": [
+        "document_type",
+        "issuing_organization",
+        "issuing_location",
+        "regulation_number",
+        "subject",
+        "issue_date",
+        "opi",
+        "table_of_contents",
+        "actors",
+        "policy_statements",
+        "acronyms",
+        "authorities_and_references"
+      ]
+    },
+    "extraction_target": "per_doc",
+    "system_prompt": null,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "advanced_citations": true,
+    "granular_bboxes": [],
+    "spreadsheet_mode": false,
+    "sheet_names": null,
+    "validators": null,
+    "model_policy": null,
+    "parse_tier": "agentic",
+    "parse_config_id": null,
+    "extract_version": "2.6"
+  },
+  "status": "COMPLETED",
+  "error_message": null,
+  "extract_result": {
+    "document_type": "",
+    "issuing_organization": "",
+    "issuing_location": "",
+    "regulation_number": "DR 3300-1",
+    "subject": "INTERNET PROTOCOL (IP) ADDRESSES",
+    "issue_date": "March 23, 1999",
+    "opi": "",
+    "purpose": "This Appendix establishes the policy for the management and use of Internet Protocol (IP) addresses within the United States Department of Agriculture (USDA).",
+    "table_of_contents": [],
+    "actors": [
+      {
+        "name": "Chief Information Officer (CIO)",
+        "actor_type": "position",
+        "binding_status": "bound_by_this_document"
+      },
+      {
+        "name": "Office of the Chief Information Officer (OCIO)",
+        "actor_type": "office",
+        "binding_status": "bound_by_this_document"
+      },
+      {
+        "name": "Office of the Chief Information Officer Telecommunications Services and Operations (OCIO/TSO)",
+        "actor_type": "office",
+        "binding_status": "bound_by_this_document"
+      },
+      {
+        "name": "Agencies and Staff Offices",
+        "actor_type": "group",
+        "binding_status": "bound_by_this_document",
+        "components": [
+          "Agencies",
+          "Staff Offices"
+        ]
+      },
+      {
+        "name": "IP Addressing Custodian",
+        "actor_type": "position",
+        "binding_status": "bound_by_this_document"
+      },
+      {
+        "name": "InterNIC",
+        "actor_type": "external_entity",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "private ISP",
+        "actor_type": "external_entity",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "National Science Foundation (NSF)",
+        "actor_type": "external_entity",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "Point-of-contact",
+        "actor_type": "position",
+        "binding_status": "bound_by_this_document"
+      }
+    ],
+    "policy_statements": [],
+    "acronyms": [],
+    "authorities_and_references": []
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "document_type": {
+          "confidence": 0.895991023580849,
+          "extraction_confidence": 0.895991023580849
+        },
+        "issuing_organization": {
+          "confidence": 0.9064574152308448,
+          "extraction_confidence": 0.9064574152308448
+        },
+        "issuing_location": {
+          "confidence": 0.892383753697799,
+          "extraction_confidence": 0.892383753697799
+        },
+        "regulation_number": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "DR 3300-1",
+              "bounding_boxes": [
+                {
+                  "x": 89.36010593175888,
+                  "y": 37.64245820045471,
+                  "w": 44.995109260082245,
+                  "h": 8.617583245038986
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8450638763658819,
+          "extraction_confidence": 0.8450638763658819
+        },
+        "subject": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "INTERNET PROTOCOL (IP) ADDRESSES",
+              "bounding_boxes": [
+                {
+                  "x": 200.47533345222473,
+                  "y": 129.2174652814865,
+                  "w": 219.21592783927917,
+                  "h": 12.825074806809425
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.945350484519321,
+          "extraction_confidence": 0.945350484519321
+        },
+        "issue_date": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "March 23, 1999",
+              "bounding_boxes": [
+                {
+                  "x": 457.5994620323181,
+                  "y": 37.394958436489105,
+                  "w": 64.79295587539673,
+                  "h": 10.350081592798233
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9122440979901534,
+          "extraction_confidence": 0.9122440979901534
+        },
+        "opi": {
+          "confidence": 0.9066367393383193,
+          "extraction_confidence": 0.9066367393383193
+        },
+        "purpose": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This Appendix establishes the policy for the management and use of Internet Protocol (IP) addresses within the United States Department of Agriculture (USDA).",
+              "bounding_boxes": [
+                {
+                  "x": 125.49112379550934,
+                  "y": 212.62497425079346,
+                  "w": 370.17428827285767,
+                  "h": 40.545073449611664
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9467869460346171,
+          "extraction_confidence": 0.9467869460346171
+        },
+        "actors": [
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "Chief Information Officer (CIO)",
+                  "bounding_boxes": [
+                    {
+                      "x": 220.11,
+                      "y": 477.67,
+                      "w": 155.39999999999998,
+                      "h": 10.879999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9588247888460705,
+              "extraction_confidence": 0.9588247888460705
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "actors.0.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 197.97816417306916,
+                      "y": 477.18,
+                      "w": 114.33238980994741,
+                      "h": 11.88000000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9600977327224676,
+              "extraction_confidence": 0.9600977327224676
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "actors.0.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 278.90173877881114,
+                      "y": 490.79249999999996,
+                      "w": 25.24221593206632,
+                      "h": 11.63250000000006
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9755703148075071,
+              "extraction_confidence": 0.9755703148075071
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Office of the Chief Information Officer (OCIO)",
+                  "bounding_boxes": [
+                    {
+                      "x": 198.2480753660202,
+                      "y": 378.6974515914917,
+                      "w": 230.59966707229614,
+                      "h": 12.82510431110859
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9611984908200574,
+              "extraction_confidence": 0.9611984908200574
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Office",
+                  "bounding_boxes": [
+                    {
+                      "x": 199.37,
+                      "y": 379.87,
+                      "w": 29.900000000000006,
+                      "h": 8.5
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9710255944114999,
+              "extraction_confidence": 0.9710255944114999
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.1.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 198.4731095835018,
+                      "y": 379.4175,
+                      "w": 239.05863323898097,
+                      "h": 10.889999999999988
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9809651513490714,
+              "extraction_confidence": 0.9809651513490714
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "Office of the Chief Information Officer Telecommunications Services and Operations (OCIO/TSO)",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.62211430072784,
+                      "y": 504.1799440383911,
+                      "w": 357.800607919693,
+                      "h": 26.685074865818024
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9670051688303374,
+              "extraction_confidence": 0.9670051688303374
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "Office",
+                  "bounding_boxes": [
+                    {
+                      "x": 162.42,
+                      "y": 505.27,
+                      "w": 29.879999999999995,
+                      "h": 8.5
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9590705619291298,
+              "extraction_confidence": 0.9590705619291298
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "actors.2.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.35220380105136,
+                      "y": 504.9,
+                      "w": 341.7598059037606,
+                      "h": 11.88000000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9838242573716927,
+              "extraction_confidence": 0.9838242573716927
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "Agencies and Staff Offices",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 212.37746858596802,
+                      "w": 130.62064790725708,
+                      "h": 11.637076824903488
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9499200661162887,
+              "extraction_confidence": 0.9499200661162887
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "actors.3.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 160.87971317768097,
+                      "y": 212.37746858596802,
+                      "w": 155.86286973953247,
+                      "h": 11.340074010193348
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8395438646029937,
+              "extraction_confidence": 0.8395438646029937
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "actors.3.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 160.87971317768097,
+                      "y": 212.37746858596802,
+                      "w": 155.86286973953247,
+                      "h": 11.340074010193348
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9647550499857406,
+              "extraction_confidence": 0.9647550499857406
+            },
+            "components": [
+              {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Agencies",
+                    "bounding_boxes": [
+                      {
+                        "x": 161.1271984577179,
+                        "y": 212.62497425079346,
+                        "w": 45.984986543655396,
+                        "h": 11.389556407928467
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.8618008268495158,
+                "extraction_confidence": 0.8618008268495158
+              },
+              {
+                "citation": [
+                  {
+                    "page": 6,
+                    "matching_text": "Staff Offices",
+                    "bounding_boxes": [
+                      {
+                        "x": 229.92460441589355,
+                        "y": 212.37746858596802,
+                        "w": 63.506065249443054,
+                        "h": 10.350074216723442
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.9537878570908433,
+                "extraction_confidence": 0.9537878570908433
+              }
+            ]
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "IP Addressing Custodian",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 240.0974657535553,
+                      "w": 305.83130729198456,
+                      "h": 26.685089617967606
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9732446311644386,
+              "extraction_confidence": 0.9732446311644386
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "actors.4.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 240.34497141838074,
+                      "w": 305.83130729198456,
+                      "h": 26.685089617967606
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9618338895077415,
+              "extraction_confidence": 0.9618338895077415
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "actors.4.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.62211430072784,
+                      "y": 240.34497141838074,
+                      "w": 303.158652305603,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9808383729488115,
+              "extraction_confidence": 0.9808383729488115
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "InterNIC",
+                  "bounding_boxes": [
+                    {
+                      "x": 342.53,
+                      "y": 476.92,
+                      "w": 42.610000000000014,
+                      "h": 8.29000000000002
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9619883071544807,
+              "extraction_confidence": 0.9619883071544807
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.5.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 341.5347933769226,
+                      "y": 476.2124648094177,
+                      "w": 44.005190938711166,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9706459641176107,
+              "extraction_confidence": 0.9706459641176107
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.5.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 341.5347933769226,
+                      "y": 476.2124648094177,
+                      "w": 44.005190938711166,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9705593343155158,
+              "extraction_confidence": 0.9705593343155158
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "private ISP",
+                  "bounding_boxes": [
+                    {
+                      "x": 290.32,
+                      "y": 545.95,
+                      "w": 55.81999999999999,
+                      "h": 10.879999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9660920286665747,
+              "extraction_confidence": 0.9660920286665747
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "actors.6.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 298.69955519611807,
+                      "y": 545.7375000000001,
+                      "w": 49.49454104326727,
+                      "h": 11.137499999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9548001905451263,
+              "extraction_confidence": 0.9548001905451263
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "actors.6.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 298.69955519611807,
+                      "y": 545.7375000000001,
+                      "w": 49.49454104326727,
+                      "h": 11.137499999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9638985094823252,
+              "extraction_confidence": 0.9638985094823252
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "National Science Foundation (NSF)",
+                  "bounding_boxes": [
+                    {
+                      "x": 124.74870443344116,
+                      "y": 531.4050006866455,
+                      "w": 175.46272265911102,
+                      "h": 12.825043827295303
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9552439582710534,
+              "extraction_confidence": 0.9552439582710534
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "actors.7.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 124.99618059396744,
+                      "y": 531.4050006866455,
+                      "w": 141.0145280957222,
+                      "h": 10.102508068084717
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9599966519464637,
+              "extraction_confidence": 0.9599966519464637
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "actors.7.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 124.99618059396744,
+                      "y": 531.4050006866455,
+                      "w": 141.0145280957222,
+                      "h": 10.102508068084717
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9631982808013136,
+              "extraction_confidence": 0.9631982808013136
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "Point-of-contact",
+                  "bounding_boxes": [
+                    {
+                      "x": 233.14173066616058,
+                      "y": 600.704981803894,
+                      "w": 82.1160135269165,
+                      "h": 11.835044033825397
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9663408205268965,
+              "extraction_confidence": 0.9663408205268965
+            },
+            "actor_type": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "actors.8.actor_type",
+                  "bounding_boxes": [
+                    {
+                      "x": 233.14174890518188,
+                      "y": 600.4574761390686,
+                      "w": 79.6412792801857,
+                      "h": 10.3500439748168
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9515320385658446,
+              "extraction_confidence": 0.9515320385658446
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "actors.8.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 303.15406389001214,
+                      "y": 597.465,
+                      "w": 197.48321876263645,
+                      "h": 12.62249999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9794773448394871,
+              "extraction_confidence": 0.9794773448394871
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": null,
+    "parse_tier": "agentic"
+  },
+  "metadata": null,
+  "grounded_items": null,
+  "usage": {
+    "credits": 225.0,
+    "extract_credits": 135.0,
+    "parse_credits": 90.0
+  },
+  "created_at": "2026-10-25T23:25:37.750062Z",
+  "updated_at": "2026-10-25T23:26:53.802545Z",
+  "document_input_value": null
+}

@@ -1,0 +1,5364 @@
+{
+  "file_input": null,
+  "id": "ext-pbn6yqssunkgh7n1q5husvdhv4sb",
+  "project_id": null,
+  "configuration_id": null,
+  "configuration": {
+    "target_pages": null,
+    "max_pages": null,
+    "tier": "agentic",
+    "version": "2.6",
+    "disable_cache": false,
+    "data_schema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "title": "USDA Departmental Manual Extraction Schema",
+      "description": "Schema for extracting broadly useful structured data from a USDA departmental manual concerning legislative reports and proposals.",
+      "properties": {
+        "document_title": {
+          "type": "string",
+          "description": "Full title of the document."
+        },
+        "document_type": {
+          "type": "string",
+          "description": "Type of document, such as Departmental Manual."
+        },
+        "document_number": {
+          "type": "string",
+          "description": "Document or manual number."
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject line of the document."
+        },
+        "issuing_organization": {
+          "type": "string",
+          "description": "Organization issuing the document."
+        },
+        "office_of_primary_interest": {
+          "type": "string",
+          "description": "Office of Primary Interest (OPI) listed in the document."
+        },
+        "publication_date": {
+          "type": "string",
+          "description": "Document issue or publication date as written in the document."
+        },
+        "expiration_date": {
+          "type": "string",
+          "description": "Document expiration date as written in the document."
+        },
+        "purpose": {
+          "type": "string",
+          "description": "Statement of the document's purpose."
+        },
+        "scope": {
+          "type": "string",
+          "description": "Statement describing who or what the document applies to."
+        },
+        "background": {
+          "type": "string",
+          "description": "Background information explaining the context for the document."
+        },
+        "policy": {
+          "type": "array",
+          "description": "Policy statements, obligations, or directives stated in the document.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "policy_id": {
+                "type": "string",
+                "description": "Identifier or letter/number for the policy item, if present."
+              },
+              "policy_text": {
+                "type": "string",
+                "description": "Text of the policy statement, obligation, or directive."
+              },
+              "policy_actor_01": {
+                "type": "string",
+                "description": "Primary actor responsible for or subject to the policy obligation."
+              },
+              "policy_actor_02": {
+                "type": "string",
+                "description": "Second actor responsible for or subject to the policy obligation, if applicable."
+              },
+              "policy_actor_03": {
+                "type": "string",
+                "description": "Third actor responsible for or subject to the policy obligation, if applicable."
+              },
+              "policy_actor_04": {
+                "type": "string",
+                "description": "Fourth actor responsible for or subject to the policy obligation, if applicable."
+              }
+            },
+            "required": [
+              "policy_text"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "sections": {
+          "type": "array",
+          "description": "Top-level sections listed in the document.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "section_number": {
+                "type": "string",
+                "description": "Section number or appendix label."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Title of the section or appendix."
+              },
+              "page_reference": {
+                "type": "string",
+                "description": "Page number or page reference shown in the table of contents, if available."
+              }
+            },
+            "required": [
+              "section_title"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "contacts": {
+          "type": "array",
+          "description": "Contact points or inquiry channels provided in the document.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "contact_type": {
+                "type": "string",
+                "description": "Type of contact, such as email or office."
+              },
+              "contact_value": {
+                "type": "string",
+                "description": "Actual contact information, such as an email address."
+              },
+              "context": {
+                "type": "string",
+                "description": "Context describing when or why this contact is used."
+              }
+            },
+            "required": [
+              "contact_value"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "acronyms": {
+          "type": "array",
+          "description": "Acronyms and abbreviations defined in the document.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "acronym": {
+                "type": "string",
+                "description": "Acronym or abbreviation."
+              },
+              "meaning": {
+                "type": "string",
+                "description": "Expanded meaning of the acronym."
+              }
+            },
+            "required": [
+              "acronym",
+              "meaning"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "definitions": {
+          "type": "array",
+          "description": "Defined terms and their definitions from the document.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "term": {
+                "type": "string",
+                "description": "Defined term."
+              },
+              "definition": {
+                "type": "string",
+                "description": "Definition of the term."
+              },
+              "source": {
+                "type": "string",
+                "description": "Source cited for the definition, if provided."
+              }
+            },
+            "required": [
+              "term",
+              "definition"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "authorities_and_references": {
+          "type": "array",
+          "description": "Authorities and references cited in the document.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "citation": {
+                "type": "string",
+                "description": "Citation or title of the authority/reference."
+              },
+              "description": {
+                "type": "string",
+                "description": "Explanation of the authority or reference, if provided."
+              }
+            },
+            "required": [
+              "citation"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "extraction_target": "per_doc",
+    "system_prompt": null,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "advanced_citations": true,
+    "granular_bboxes": [],
+    "spreadsheet_mode": false,
+    "sheet_names": null,
+    "validators": null,
+    "model_policy": null,
+    "parse_tier": "agentic",
+    "parse_config_id": null,
+    "extract_version": "2.6"
+  },
+  "status": "COMPLETED",
+  "error_message": null,
+  "extract_result": {
+    "document_title": "Legislative Reports and Proposals",
+    "document_type": "DEPARTMENTAL MANUAL",
+    "document_number": "DM 1260-001",
+    "subject": "Legislative Reports and Proposals",
+    "issuing_organization": "U.S. DEPARTMENT OF AGRICULTURE",
+    "office_of_primary_interest": "Office of Budget and Program Analysis",
+    "publication_date": "May 27, 2021",
+    "expiration_date": "May 27, 2026",
+    "purpose": "This United States Department of Agriculture (USDA) Departmental Manual (DM) provides instructions on the preparation, review and clearance of the various types of legislative reports in support of Office of Management and Budget (OMB) Circular No. A-19, Legislative Coordination and Clearance, on legislative coordination and clearance. All individuals who prepare, review, or clear legislative reports must follow these instructions.",
+    "scope": "This DM applies to all USDA Mission Areas, agencies, and staff offices.",
+    "background": "OMB performs legislative coordination and clearance functions to:\na. Assist the President in developing a position on legislation;\nb. Make known the Administration’s position on legislation;\nc. Assure appropriate consideration of the views of all affected Federal agencies and departments; and\nd. Assist the President with respect to action on enrolled bills.\nUSDA’s Office of Budget and Program Analysis-Legislative and Regulatory Affairs Staff (OBPA-LRAS) is responsible for this function in coordination with the Office of Congressional Relations (OCR).",
+    "policy": [
+      {
+        "policy_id": "1",
+        "policy_text": "All individuals who prepare, review, or clear legislative reports must follow these instructions.",
+        "policy_actor_01": "All individuals who prepare, review, or clear legislative reports"
+      },
+      {
+        "policy_id": "5a",
+        "policy_text": "USDA Mission Areas, agencies, and staff offices will use this manual for detailed instructions on the preparation, review, and clearance of the various types of legislative reports under OMB’s purview.",
+        "policy_actor_01": "USDA Mission Areas",
+        "policy_actor_02": "agencies",
+        "policy_actor_03": "staff offices"
+      },
+      {
+        "policy_id": "5b",
+        "policy_text": "Moreover, this manual supports OMB’s legislative coordination and clearance oversight role of the Executive Branch in the most efficient, effective, and timely manner, and to ensure that USDA speaks with “one voice.”",
+        "policy_actor_01": "OMB",
+        "policy_actor_02": "USDA"
+      },
+      {
+        "policy_id": "5c",
+        "policy_text": "While process should not impede results, release of USDA legislative reports outside of official review channels is not permitted. Accordingly, any questions on the status of legislative reports should be referred to <OBPA-USDA-LEG@usda.gov>.",
+        "policy_actor_01": "USDA"
+      },
+      {
+        "policy_id": "5d",
+        "policy_text": "Finally, this DM ensures that roles and responsibilities within USDA are clear.",
+        "policy_actor_01": "USDA"
+      },
+      {
+        "policy_id": "7c",
+        "policy_text": "USDA Mission Areas, agencies, or staff offices may sometimes request a voluntary report. Determining the necessity for a voluntary report is the responsibility of each Mission Area, agency, or staff office working with OCR and OBPA-LRAS.",
+        "policy_actor_01": "USDA Mission Areas, agencies, or staff offices"
+      },
+      {
+        "policy_id": "8a",
+        "policy_text": "OBPA-LRAS coordinates LRM requests. Accordingly, the following sequential steps are required:\n(1) OBPA-LRAS reviews the request, assigns the lead Mission Area, agency, or staff office, and identifies any other Mission Area, agency, staff office, or USDA entity that may have a substantive interest in the request. The request is entered into a tracking database and emailed to the Mission Areas, agency, and staff offices with instructions for commenting and due date.\n(2) The Mission Area, agency, or staff office drafts the response, and emails the response back to OBPA-LRAS.\n(3) Office of the General Counsel (OGC). OBPA-LRAS emails the draft Mission Area, agency, or staff office response to OGC’s General Law and Research Division for legal sufficiency review and clearance.\n(4) Departmental Reviewers. OBPA-LRAS emails the response to the following reviewers concurrently:\n(a) OBPA-Program Analysis Staff – to ensure consistency with program, policy, and budgetary objectives;\n\n(b) OCR;\n\n(c) Mission Area; and\n\n(d) OES (only if a formal views letter is required; see Note 2).\n(5) Office of the Secretary (OSEC). OBPA-LRAS submits the response to OSEC for final policy-level approval prior to submission to OMB. See Section 9 on Exemptions.\n(6) OMB. OBPA-LRAS submits the cleared USDA response to the OMB lead LRM desk officer. A copy of the response is provided to OCR and the Mission Area chief of staff.\nNote 1 – Testimony. LRM on Congressional testimony, follow-up questions and answers (Q and A’s) to hearings, and Statements of Administration Policy (SAP) are coordinated by OCR.\nNote 2 – Formal Views Letters. Formal views letters to OMB are less frequent than emailed response comments due to OMB deadlines and other efficiency considerations; however, some LRM s will require a signed USDA views letter. Typically, the necessity for a formal views letter will be clear such as for a major Farm Bill reauthorization, enrolled bill, or other legislation where USDA is the lead or primary Federal stakeholder. In such instances, OBPA-LRAS can provide Mission Areas, agencies, and staff offices with sample views letters and guidance. When clearing LRM s requiring a formal views letter, OES must be added per Section 8a(4), Departmental Reviewers.",
+        "policy_actor_01": "OBPA-LRAS",
+        "policy_actor_02": "Mission Area, agency, or staff office",
+        "policy_actor_03": "OGC",
+        "policy_actor_04": "OSEC"
+      },
+      {
+        "policy_id": "8b",
+        "policy_text": "Congressional committees and staff offices often request USDA views on pending bills or draft legislation. These requests are mailed, emailed, or both, often to the Secretary of Agriculture. Accordingly, such correspondence is coordinated by OCR. OMB approval is required before any signed USDA response letter can be transmitted back to Congress. The steps are as follows:\n(1) OCR receives request; facilitates the drafting and clearance process;\n(2) Agency – Drafts the views letter;\n(3) Departmental Clearance to include:\n(a) OGC;\n\n(b) OBPA; and\n\n(c) OCR.\n(4) OSEC approves the draft letter for submittal to OMB;\n(5) OMB approves the proposed USDA letter;\n(6) OES obtains the Secretary’s signature on the letter; and\n(7) Congress – OCR transmits the signed views letter to Congress.",
+        "policy_actor_01": "OCR",
+        "policy_actor_02": "OMB",
+        "policy_actor_03": "OSEC",
+        "policy_actor_04": "OES"
+      },
+      {
+        "policy_id": "9",
+        "policy_text": "The following categories of responses are exempt from OSEC clearance should the legislative referral be unrelated to the programs administered by USDA, or have no direct impact or has a limited impact on agriculture or rural communities:\na. No comment;\nb. No objection;\nc. Defer to another Department;\nd. No impact;\ne. Support for the release of routine documents providing only programmatic information and do not contain policy recommendations or guidance;\nf. Minor comment, correction, or edit; and\ng. No additional comments in cases where USDA has previously reviewed the document, provided comments, and those comments are addressed in the revised document being circulated by OMB.",
+        "policy_actor_01": "OSEC"
+      },
+      {
+        "policy_id": "10a",
+        "policy_text": "a. Mission Area, Agency, and Staff Office Heads will:\n(1) Prepare a draft Legislative Report response (these can include “no comment,” “concur,” and “no objection” responses);\n(2) Identify any other Mission Areas, agencies, and staff offices with interest in the Legislative Report;\n(3) Mark-up other Federal agency reports as needed;\n(4) Avoid contacting OMB and Congress directly without approval;\n(5) Inform OCR of all direct requests for reports received directly from Congress;\n(6) Request an extension from the OBPA lead analyst if additional time is needed to prepare response; and\n(7) Consult with OGC when preparing a draft Legislative Report when provisions in a report involve pending litigation that USDA is involved or interested in.",
+        "policy_actor_01": "Mission Area, Agency, and Staff Office Heads"
+      },
+      {
+        "policy_id": "10b",
+        "policy_text": "b. The Director, OBPA, will:\n(1) Assign lead Mission Area, agency, or staff office and due date on LRMs and coordinate and clear USDA response;\n(2) Ensure that all other potentially impacted USDA Mission Areas, agencies, staff offices, and views are accounted for;\n(3) Assist and guide Mission Areas, agencies, and staff offices with drafting responses as needed (including views letters);\n(4) Ensure that all Legislative Reports are consistent with program, policy, and budgetary objectives;\n(5) Ensure proper submission requirements, including timeliness, formatting;\n(6) Send bills of interest to other USDA Mission Areas, agencies, and staff offices as needed and copies OCR on all final dispositions to OMB;\n(7) Track and maintain complete records for all LRMs, including final disposition;\n(8) Coordinate annual OMB expiring law requests;\n(9) Identify Legislative Proposals; and\n(10) Transmit signed formal views letters to OMB when one is required.",
+        "policy_actor_01": "Director, OBPA"
+      },
+      {
+        "policy_id": "10c",
+        "policy_text": "c. OSEC will:\n(1) Review and provide final policy-level approval for LRM responses prior to submittal to OMB; and\n(2) Review and provide final approval for draft Congressional Request letters prior to submittal to OMB.",
+        "policy_actor_01": "OSEC"
+      },
+      {
+        "policy_id": "10d",
+        "policy_text": "d. The General Counsel will review legislative reports for legal sufficiency including:\n(1) The interpretation of relevant statutes and Congressional intent;\n(2) The effect of provisions of existing law, pending litigation that USDA is involved or interested in, or pending rulemakings, if relevant;\n(3) The legal implications of enactment or of recommended changes;\n(4) Whether the legislation as drafted reflects the policy intention of USDA expressed in the report; and\n(5) Whether the report is responsive, in proper format, and cleared by appropriate Mission Areas, agencies, and staff offices, and consistent with USDA policy.",
+        "policy_actor_01": "General Counsel"
+      },
+      {
+        "policy_id": "10e",
+        "policy_text": "e. The Director, OCR, will:\n(1) Monitor all direct requests for reports received from Congress;\n(2) Coordinate USDA responses to incoming Congressional request correspondence;\n(3) Facilitate the drafting and clearance process for Congressional requests;\n(4) Work with the Mission Areas, agencies, staff offices, and OBPA-LRAS to determine the necessity for a voluntary report;\n(5) Coordinate LRMs on Congressional testimony, follow-up Q and A’s to hearings, and SAPs;\n(6) Provide policy-level review and clearance for draft LRM and Congressional request responses;\n(7) Obtain the Secretary’s signature through OES on Congressional request response letters;\n(8) Transmit signed views letters to Congress; and\n(9) Maintain copies of all final dispositions sent to OMB.",
+        "policy_actor_01": "Director, OCR"
+      },
+      {
+        "policy_id": "10f",
+        "policy_text": "f. The Executive Secretary to the Department or the Director, OES, will:\nProvide reviews and clearance for formal views letters.",
+        "policy_actor_01": "Executive Secretary to the Department",
+        "policy_actor_02": "Director, OES"
+      },
+      {
+        "policy_id": "10g",
+        "policy_text": "g. USDA Policy Official Review.\nAll Legislative Reports must have some form of policy-level review and approval. These can include:\n(1) OCR;\n(2) Mission Area(s); and\n(3) OSEC.",
+        "policy_actor_01": "OCR",
+        "policy_actor_02": "Mission Area(s)",
+        "policy_actor_03": "OSEC"
+      },
+      {
+        "policy_id": "11",
+        "policy_text": "Each year USDA prepares and submits a budget in accordance with the President’s Federal budget release in February. These annual budget submissions often include descriptions of proposed legislation in support of the budget. Accordingly, the responsible USDA Mission Area, agency, or staff office is responsible for preparing and submitting any follow-on legislative proposal described in the budget within the agency’s program area. OBPA, in consultation with the OCR, will alert Mission Areas, agencies, and staff offices of the need to prepare such proposals. USDA organizations may also develop legislative proposals separately from the annual budget process. Like for Congressional Requests in Section 8b, OBPA will clear the legislative proposal through the Department. After Departmental approval, all legislative proposals are subject to review and approval by OMB. Only upon OMB approval can a legislative proposal be transmitted to Congress. Typically, upon the need for a legislative proposal:",
+        "policy_actor_01": "USDA Mission Area, agency, or staff office",
+        "policy_actor_02": "OBPA",
+        "policy_actor_03": "OCR",
+        "policy_actor_04": "OMB"
+      },
+      {
+        "policy_id": "11a",
+        "policy_text": "OGC will assist Mission Areas, agencies, and staff offices in drafting legislation for USDA. Mission Areas, agencies, and staff offices should consult with OGC and the Office of the Assistant Secretary for Civil Rights (OASCR) in drafting legislative proposals.",
+        "policy_actor_01": "OGC",
+        "policy_actor_02": "Mission Areas, agencies, and staff offices",
+        "policy_actor_03": "Office of the Assistant Secretary for Civil Rights (OASCR)"
+      },
+      {
+        "policy_id": "11b",
+        "policy_text": "b. Contents of a Legislative Proposal (see example package in Appendix E):\n(1) A transmittal letter to the Speaker of the House;\n(2) A transmittal letter to the President of the Senate;\n(3) The proposed legislation; and\n(4) Section-by-section analysis."
+      }
+    ],
+    "sections": [
+      {
+        "section_number": "1",
+        "section_title": "Purpose",
+        "page_reference": "1"
+      },
+      {
+        "section_number": "2",
+        "section_title": "Special Instructions/Cancellations",
+        "page_reference": "2"
+      },
+      {
+        "section_number": "3",
+        "section_title": "Scope",
+        "page_reference": "2"
+      },
+      {
+        "section_number": "4",
+        "section_title": "Background",
+        "page_reference": "2"
+      },
+      {
+        "section_number": "5",
+        "section_title": "Policy",
+        "page_reference": "2"
+      },
+      {
+        "section_number": "6",
+        "section_title": "What is a Legislative Report?",
+        "page_reference": "3"
+      },
+      {
+        "section_number": "7",
+        "section_title": "Who Requests Legislative Reports?",
+        "page_reference": "3"
+      },
+      {
+        "section_number": "8",
+        "section_title": "Legislative Report Clearance and Procedures Steps",
+        "page_reference": "3"
+      },
+      {
+        "section_number": "9",
+        "section_title": "Exemptions",
+        "page_reference": "5"
+      },
+      {
+        "section_number": "10",
+        "section_title": "Roles and Responsibilities",
+        "page_reference": "6"
+      },
+      {
+        "section_number": "11",
+        "section_title": "Legislative Proposals",
+        "page_reference": "8"
+      },
+      {
+        "section_number": "12",
+        "section_title": "Inquiries",
+        "page_reference": "9"
+      },
+      {
+        "section_number": "Appendix A",
+        "section_title": "Acronyms and Abbreviations",
+        "page_reference": "A-1"
+      },
+      {
+        "section_number": "Appendix B",
+        "section_title": "Definitions",
+        "page_reference": "B-1"
+      },
+      {
+        "section_number": "Appendix C",
+        "section_title": "Authorities and References",
+        "page_reference": "C-1"
+      },
+      {
+        "section_number": "Appendix D",
+        "section_title": "Sample Enrolled Bill Letter",
+        "page_reference": "D-1"
+      },
+      {
+        "section_number": "Appendix E",
+        "section_title": "Sample Legislative Proposal",
+        "page_reference": "E-1"
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "contact_value": "OBPA-USDA-LEG@usda.gov",
+        "context": "All inquiries; also used for questions on the status of legislative reports and OMB Legislative Referral Memorandum requests."
+      },
+      {
+        "contact_type": "office",
+        "contact_value": "Legislative and Regulatory Affairs Staff Division in the Office of Budget and Program Analysis",
+        "context": "Direct all inquiries to this office."
+      }
+    ],
+    "acronyms": [
+      {
+        "acronym": "CFR",
+        "meaning": "Code of Federal Regulations"
+      },
+      {
+        "acronym": "DM",
+        "meaning": "Departmental Manual"
+      },
+      {
+        "acronym": "DR",
+        "meaning": "Departmental Regulation"
+      },
+      {
+        "acronym": "LRAS",
+        "meaning": "Legislative and Regulatory Affairs Staff"
+      },
+      {
+        "acronym": "LRM",
+        "meaning": "Legislative Referral Memorandum"
+      },
+      {
+        "acronym": "OASCR",
+        "meaning": "Office of the Assistant Secretary for Civil Rights"
+      },
+      {
+        "acronym": "OBPA",
+        "meaning": "Office of Budget and Program Analysis"
+      },
+      {
+        "acronym": "OCR",
+        "meaning": "Office of Congressional Relations"
+      },
+      {
+        "acronym": "OES",
+        "meaning": "Office of the Executive Secretariat"
+      },
+      {
+        "acronym": "OGC",
+        "meaning": "Office of the General Counsel"
+      },
+      {
+        "acronym": "OMB",
+        "meaning": "Office of Management and Budget"
+      },
+      {
+        "acronym": "OSEC",
+        "meaning": "Office of the Secretary"
+      },
+      {
+        "acronym": "Q & A’s",
+        "meaning": "Questions and Answers"
+      },
+      {
+        "acronym": "SAP",
+        "meaning": "Statements of Administration Policy"
+      },
+      {
+        "acronym": "USDA",
+        "meaning": "United States Department of Agriculture"
+      },
+      {
+        "acronym": "OBPA-LRAS",
+        "meaning": "Office of Budget and Program Analysis-Legislative and Regulatory Affairs Staff"
+      },
+      {
+        "acronym": "REE",
+        "meaning": "Research, Education, and Economics"
+      },
+      {
+        "acronym": "APHIS",
+        "meaning": "Animal and Plant Health Inspection Service"
+      },
+      {
+        "acronym": "AWA",
+        "meaning": "Animal Welfare Act"
+      },
+      {
+        "acronym": "PAYGO",
+        "meaning": "Statutory Pay-As-You-Go Act of 2010"
+      }
+    ],
+    "definitions": [
+      {
+        "term": "Agency",
+        "definition": "Organizational units of the Department, other than staff offices as defined below, whose heads report to officials within the Office of the Secretary, Deputy Secretary, Under Secretaries, Assistant Secretaries, and Assistant to the Secretary.",
+        "source": "USDA, Departmental Regulation (DR) 0100-001, Departmental Directives System"
+      },
+      {
+        "term": "Enrolled Bill",
+        "definition": "A bill or resolution that has passed both houses of Congress and is awaiting presidential action.",
+        "source": "OMB, Circular No. A-19, Legislative Coordination and Clearance"
+      },
+      {
+        "term": "Expiring Law",
+        "definition": "A list of laws or provisions that will expire in the coming year with an explanation of the consequences the expiration may have, and possibly a statement regarding whether the relevant agency supports a reauthorization.",
+        "source": "OMB, Circular No. A-19"
+      },
+      {
+        "term": "Legislative Proposal",
+        "definition": "A legislative proposal requests Congress to enact a change in law and explains the rationale for such change. It consists of two identical letters, one addressed to the President of the Senate and the other to the Speaker of the House. The letters must enclose draft legislation.",
+        "source": "OMB, Circular No. A-19"
+      },
+      {
+        "term": "Legislative Report",
+        "definition": "Any written expression of official USDA position, including edits, on a bill or draft legislation, another agency’s position on a bill, report to Congress, legislative proposal, or testimony, and executive orders.",
+        "source": "OMB, Circular No. A-19"
+      },
+      {
+        "term": "Mission Area",
+        "definition": "A group of agencies with related functions that report to the same Under or Assistant Secretary. Research, Education, and Economics (REE) is an example of a Mission Area.",
+        "source": "USDA, DR 0100-001"
+      },
+      {
+        "term": "Staff Office",
+        "definition": "Departmental administrative offices whose heads report to officials within the Office of the Secretary.",
+        "source": "USDA, DR 0100-001"
+      }
+    ],
+    "authorities_and_references": [
+      {
+        "citation": "7 Code of Federal Regulations (CFR) § 3100, Cultural and Environmental Quality",
+        "description": "This CFR part discuss the requirements for environmental assessments and impact statements prepared by an agency regarding legislative proposals"
+      },
+      {
+        "citation": "40 CFR, Chapter V, Subchapter A, National Environmental Policy Act Implementing Regulations, §§ 1500-1508",
+        "description": "These CFR parts discuss the requirements for environmental assessments and impact statements prepared by a Federal agency regarding legislative proposals."
+      },
+      {
+        "citation": "Executive Order 12988, Civil Justice Reform, February 5, 1996",
+        "description": "This executive order specifies requirements for agencies in developing legislative proposals in order to minimize litigation."
+      },
+      {
+        "citation": "Executive Order 13132, Federalism, August 4, 1999",
+        "description": "This executive order requires that agencies draft its regulations, legislative comments or proposed legislation consistent with the principles of Federalism."
+      },
+      {
+        "citation": "OMB, Circular No. A-11, Preparation, Submission, and Execution of the Budget, December 23, 2020",
+        "description": "This circular provides instructions for the preparation of annual estimates, including requirements for those estimates for which additional authorizing legislation is required for the budget year."
+      },
+      {
+        "citation": "OMB, Circular No. A-19, Legislative Coordination and Clearance, September 20, 1979",
+        "description": "This circular outlines procedures for the coordination and clearance by OMB of Federal agency recommendations on proposed, pending and enrolled legislation. It also includes instructions on the timing and preparation of Federal agency legislative programs and legislative proposals."
+      },
+      {
+        "citation": "USDA, DR 0100-001, Departmental Directives System, January 4, 2018"
+      },
+      {
+        "citation": "USDA, DR 1512-001, Regulatory Decisionmaking Requirements, March 14, 1997",
+        "description": "This Departmental Regulation has requirements pertaining to the preparation of Regulatory Impact Analyses for legislative proposals expected to have a major impact in terms of Federal or non-Federal costs or burdens."
+      },
+      {
+        "citation": "USDA, DR 4300-004, Civil Rights and Impact Analysis, October 17, 2016",
+        "description": "This Departmental Regulation has requirements pertaining to the preparation of a Civil Rights Impact Analysis that may be required for legislative proposals under this directive."
+      }
+    ]
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "document_title": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Legislative Reports and Proposals",
+              "bounding_boxes": [
+                {
+                  "x": 135.8849766254425,
+                  "y": 159.90745961666107,
+                  "w": 164.7719203233719,
+                  "h": 12.330073803663254
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8995819731302438,
+          "extraction_confidence": 0.8995819731302438
+        },
+        "document_type": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "DEPARTMENTAL MANUAL",
+              "bounding_boxes": [
+                {
+                  "x": 100.24890196323395,
+                  "y": 124.26745820045471,
+                  "w": 239.75616645812988,
+                  "h": 14.805074393749237
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.840652091834699,
+          "extraction_confidence": 0.840652091834699
+        },
+        "document_number": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "DM 1260-001",
+              "bounding_boxes": [
+                {
+                  "x": 373.21126770973206,
+                  "y": 129.9599586725235,
+                  "w": 68.25754460692406,
+                  "h": 9.85507395118475
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8278770543783557,
+          "extraction_confidence": 0.8278770543783557
+        },
+        "subject": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Legislative Reports and Proposals",
+              "bounding_boxes": [
+                {
+                  "x": 135.8849766254425,
+                  "y": 159.90745961666107,
+                  "w": 164.7719203233719,
+                  "h": 12.330073803663254
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9089788280543356,
+          "extraction_confidence": 0.9089788280543356
+        },
+        "issuing_organization": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "U.S. DEPARTMENT OF AGRICULTURE",
+              "bounding_boxes": [
+                {
+                  "x": 200.74,
+                  "y": 75.07,
+                  "w": 210.47000000000003,
+                  "h": 8.269999999999996
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8629829996865215,
+          "extraction_confidence": 0.8629829996865215
+        },
+        "office_of_primary_interest": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Office of Budget and Program Analysis",
+              "bounding_boxes": [
+                {
+                  "x": 104.703418135643,
+                  "y": 189.85496056079865,
+                  "w": 191.99391496181488,
+                  "h": 12.330073803663254
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9253997851117924,
+          "extraction_confidence": 0.9253997851117924
+        },
+        "publication_date": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "May 27, 2021",
+              "bounding_boxes": [
+                {
+                  "x": 373.21126770973206,
+                  "y": 165.10496056079865,
+                  "w": 66.77273780107498,
+                  "h": 12.330073803663254
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8150822089953276,
+          "extraction_confidence": 0.8150822089953276
+        },
+        "expiration_date": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "May 27, 2026",
+              "bounding_boxes": [
+                {
+                  "x": 373.21126770973206,
+                  "y": 196.53746008872986,
+                  "w": 67.76260140538216,
+                  "h": 12.330073803663254
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8453244221918609,
+          "extraction_confidence": 0.8453244221918609
+        },
+        "purpose": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This United States Department of Agriculture (USDA) Departmental Manual (DM) provides instructions on the preparation, review and clearance of the various types of legislative reports in support of Office of Management and Budget (OMB) Circular No.  A-19 , *Legislative Coordination and Clearance*, on legislative coordination and clearance. All individuals who prepare, review, or clear legislative reports must follow these instructions.",
+              "bounding_boxes": [
+                {
+                  "x": 88.86516273021698,
+                  "y": 596.9924912452698,
+                  "w": 447.3856830596924,
+                  "h": 67.77004158496857
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8596478581669528,
+          "extraction_confidence": 0.8596478581669528
+        },
+        "scope": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "This DM applies to all USDA Mission Areas, agencies, and staff offices.",
+              "bounding_boxes": [
+                {
+                  "x": 89.36009681224823,
+                  "y": 199.50745725631714,
+                  "w": 350.37645077705383,
+                  "h": 12.330073803663254
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9138680330954013,
+          "extraction_confidence": 0.9138680330954013
+        },
+        "background": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "background",
+              "bounding_boxes": [
+                {
+                  "x": 88.86516273021698,
+                  "y": 269.79748463630676,
+                  "w": 435.50700974464417,
+                  "h": 191.52007699012756
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8991389752837984,
+          "extraction_confidence": 0.8991389752837984
+        },
+        "policy": [
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.53196412324905,
+                      "y": 569.767481803894,
+                      "w": 8.369151044636965,
+                      "h": 9.855043709278107
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9588214021236607,
+              "extraction_confidence": 0.9588214021236607
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "All individuals who prepare, review, or clear legislative reports must follow these instructions.",
+                  "bounding_boxes": [
+                    {
+                      "x": 88.86516273021698,
+                      "y": 638.5724987983704,
+                      "w": 436.9918484687805,
+                      "h": 26.19004288315773
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.92942363404289,
+              "extraction_confidence": 0.92942363404289
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "All individuals who prepare, review, or clear legislative reports",
+                  "bounding_boxes": [
+                    {
+                      "x": 88.86516273021698,
+                      "y": 638.5724987983704,
+                      "w": 436.9918484687805,
+                      "h": 26.19004288315773
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9495867326123456,
+              "extraction_confidence": 0.9495867326123456
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "policy.1.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.60758209228516,
+                      "y": 520.5149874687195,
+                      "w": 8.616624355316162,
+                      "h": 7.380040168762207
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8407190538214261,
+              "extraction_confidence": 0.8407190538214261
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "USDA Mission Areas, agencies, and staff offices will use this manual for detailed instructions on the preparation, review, and clearance of the various types of legislative reports under OMB’s purview.",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 518.0399780273438,
+                      "w": 420.65865898132324,
+                      "h": 40.05004441738129
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8526005823471672,
+              "extraction_confidence": 0.8526005823471672
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "USDA Mission Areas",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 517.7924723625183,
+                      "w": 109.33801728487015,
+                      "h": 11.835044033825397
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9307220544084154,
+              "extraction_confidence": 0.9307220544084154
+            },
+            "policy_actor_02": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "agencies",
+                  "bounding_boxes": [
+                    {
+                      "x": 223.4903154373169,
+                      "y": 518.0399780273438,
+                      "w": 44.99509558081627,
+                      "h": 12.33004429936409
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9510333292071205,
+              "extraction_confidence": 0.9510333292071205
+            },
+            "policy_actor_03": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "staff offices",
+                  "bounding_boxes": [
+                    {
+                      "x": 291.0503497123718,
+                      "y": 518.0399780273438,
+                      "w": 57.86369177699089,
+                      "h": 9.855043709278107
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8919578758746464,
+              "extraction_confidence": 0.8919578758746464
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "policy.2.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.1126297712326,
+                      "y": 573.2324666976929,
+                      "w": 9.85399603843689,
+                      "h": 9.85504961013794
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7259163019567223,
+              "extraction_confidence": 0.7259163019567223
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Moreover, this manual supports OMB’s legislative coordination and clearance oversight role of the Executive Branch in the most efficient, effective, and timely manner, and to ensure that USDA speaks with “one voice.”",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 572.737455368042,
+                      "w": 425.60810923576355,
+                      "h": 40.5450439453125
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8527551391012619,
+              "extraction_confidence": 0.8527551391012619
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "policy.2.policy_actor_01",
+                  "bounding_boxes": [
+                    {
+                      "x": 267.78791892528534,
+                      "y": 573.2324666976929,
+                      "w": 31.3841392993927,
+                      "h": 9.6075439453125
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9421771113503801,
+              "extraction_confidence": 0.9421771113503801
+            },
+            "policy_actor_02": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "USDA",
+                  "bounding_boxes": [
+                    {
+                      "x": 167.84,
+                      "y": 601.58,
+                      "w": 32.47,
+                      "h": 8.419999999999959
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9582349456125189,
+              "extraction_confidence": 0.9582349456125189
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "policy.3.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 630.8999648094177,
+                      "w": 8.864100515842438,
+                      "h": 7.380040168762207
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8487610905610524,
+              "extraction_confidence": 0.8487610905610524
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "While process should not impede results, release of USDA legislative reports outside of official review channels is not permitted. Accordingly, any questions on the status of legislative reports should be referred to    .",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 628.424955368042,
+                      "w": 424.1232705116272,
+                      "h": 40.05004441738129
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8935402481996453,
+              "extraction_confidence": 0.8935402481996453
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "USDA",
+                  "bounding_boxes": [
+                    {
+                      "x": 362.3,
+                      "y": 629.31,
+                      "w": 32.28000000000003,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9473078897298927,
+              "extraction_confidence": 0.9473078897298927
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "policy.4.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 683.6174912452698,
+                      "w": 9.606519877910614,
+                      "h": 9.85504961013794
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8839885916864267,
+              "extraction_confidence": 0.8839885916864267
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Finally, this DM ensures that roles and responsibilities within USDA are clear.",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 683.6174912452698,
+                      "w": 379.0832841396332,
+                      "h": 12.33004429936409
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9302263715916049,
+              "extraction_confidence": 0.9302263715916049
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "USDA",
+                  "bounding_boxes": [
+                    {
+                      "x": 411.45,
+                      "y": 684.5,
+                      "w": 32.339999999999975,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9563639408047656,
+              "extraction_confidence": 0.9563639408047656
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "policy.5.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 460.37243270874023,
+                      "w": 58.85358273983002,
+                      "h": 10.350104458630085
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7718441866571965,
+              "extraction_confidence": 0.7718441866571965
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "USDA Mission Areas, agencies, or staff offices may sometimes request a voluntary report. Determining the necessity for a voluntary report is the responsibility of each Mission Area, agency, or staff office working with OCR and OBPA-LRAS.",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 488.3399591445923,
+                      "w": 405.31533765792847,
+                      "h": 40.05007392168045
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9248206070422961,
+              "extraction_confidence": 0.9248206070422961
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "USDA Mission Areas, agencies, or staff offices",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 488.3399591445923,
+                      "w": 229.60976243019104,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.933236052719633,
+              "extraction_confidence": 0.933236052719633
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "8a",
+                  "bounding_boxes": [
+                    {
+                      "x": 364.0548048019409,
+                      "y": 640.0574855804443,
+                      "w": 28.661942571401596,
+                      "h": 11.835044033825397
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8308334483990184,
+              "extraction_confidence": 0.8308334483990184
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "policy.6.policy_text",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.85766275778407,
+                      "y": 74.25,
+                      "w": 426.14799838253134,
+                      "h": 584.3475
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7697303089688996,
+              "extraction_confidence": 0.7697303089688996
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "policy.6.policy_actor_01",
+                  "bounding_boxes": [
+                    {
+                      "x": 142.54427820460978,
+                      "y": 661.3199999999999,
+                      "w": 49.49454104326729,
+                      "h": 12.12750000000005
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.955234524339836,
+              "extraction_confidence": 0.955234524339836
+            },
+            "policy_actor_02": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "Mission Area, agency, or staff office",
+                  "bounding_boxes": [
+                    {
+                      "x": 156.76,
+                      "y": 116.38,
+                      "w": 175.85000000000002,
+                      "h": 10.800000000000011
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9337067264281768,
+              "extraction_confidence": 0.9337067264281768
+            },
+            "policy_actor_03": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "OGC",
+                  "bounding_boxes": [
+                    {
+                      "x": 283.12,
+                      "y": 157.87,
+                      "w": 34.879999999999995,
+                      "h": 10.219999999999999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9195096011845968,
+              "extraction_confidence": 0.9195096011845968
+            },
+            "policy_actor_04": {
+              "citation": [
+                {
+                  "page": 4,
+                  "matching_text": "policy.6.policy_actor_04",
+                  "bounding_boxes": [
+                    {
+                      "x": 296.9672462596037,
+                      "y": 377.19,
+                      "w": 24.252325111200985,
+                      "h": 11.88000000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9402158163802271,
+              "extraction_confidence": 0.9402158163802271
+            }
+          },
+          {
+            "policy_id": {
+              "confidence": 0.7006660276695735,
+              "extraction_confidence": 0.7006660276695735
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "policy.7.policy_text",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.88012647628784,
+                      "y": 74.02496480941772,
+                      "w": 422.63843178749084,
+                      "h": 343.73259115219116
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8713816889056584,
+              "extraction_confidence": 0.8713816889056584
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "OCR",
+                  "bounding_boxes": [
+                    {
+                      "x": 445.23,
+                      "y": 102.67,
+                      "w": 26.480000000000018,
+                      "h": 8.269999999999996
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9018661383517931,
+              "extraction_confidence": 0.9018661383517931
+            },
+            "policy_actor_02": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "OMB",
+                  "bounding_boxes": [
+                    {
+                      "x": 478.1397006511688,
+                      "y": 101.99246764183044,
+                      "w": 27.67205160856247,
+                      "h": 9.85507395118475
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9345168735723571,
+              "extraction_confidence": 0.9345168735723571
+            },
+            "policy_actor_03": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "OSEC",
+                  "bounding_boxes": [
+                    {
+                      "x": 135.43,
+                      "y": 323.5,
+                      "w": 29.860000000000014,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9608816339710978,
+              "extraction_confidence": 0.9608816339710978
+            },
+            "policy_actor_04": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "OES",
+                  "bounding_boxes": [
+                    {
+                      "x": 135.43,
+                      "y": 378.7,
+                      "w": 21.439999999999998,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9041844150939063,
+              "extraction_confidence": 0.9041844150939063
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "9",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 447.00745725631714,
+                      "w": 9.853986918926239,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7995720061192559,
+              "extraction_confidence": 0.7995720061192559
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "The following categories of responses are exempt from OSEC clearance should the legislative referral be unrelated to the programs administered by USDA, or have no direct impact or has a limited impact on agriculture or rural communities:",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 474.47992515563965,
+                      "w": 432.0423982143402,
+                      "h": 40.05007982254028
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9064262316073762,
+              "extraction_confidence": 0.9064262316073762
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 5,
+                  "matching_text": "OSEC",
+                  "bounding_boxes": [
+                    {
+                      "x": 358.3,
+                      "y": 475.32,
+                      "w": 29.889999999999986,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.971091178534653,
+              "extraction_confidence": 0.971091178534653
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "policy.9.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.60758209228516,
+                      "y": 173.2724586725235,
+                      "w": 8.616624355316162,
+                      "h": 7.380075573921204
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8552642522175518,
+              "extraction_confidence": 0.8552642522175518
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "policy.9.policy_text",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.61019005256773,
+                      "y": 171.0225,
+                      "w": 422.9308532147189,
+                      "h": 260.12250000000006
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9099118629185303,
+              "extraction_confidence": 0.9099118629185303
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "Mission Area, Agency, and Staff Office Heads",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 170.79746103286743,
+                      "w": 225.65019857883453,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9586408570625411,
+              "extraction_confidence": 0.9586408570625411
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "policy.10.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 447.00745725631714,
+                      "w": 10.150958083570004,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.88580597841774,
+              "extraction_confidence": 0.88580597841774
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "policy.10.policy_text",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.61019005256773,
+                      "y": 447.2325,
+                      "w": 424.16821674080063,
+                      "h": 250.71749999999997
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9075226465722886,
+              "extraction_confidence": 0.9075226465722886
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 6,
+                  "matching_text": "Director, OBPA",
+                  "bounding_boxes": [
+                    {
+                      "x": 131.72743731737137,
+                      "y": 447.00745725631714,
+                      "w": 83.79882770776749,
+                      "h": 11.34010425209999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9793968254375404,
+              "extraction_confidence": 0.9793968254375404
+            }
+          },
+          {
+            "policy_id": {
+              "confidence": 0.5188740111375084,
+              "extraction_confidence": 0.5188740111375084
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "(1) Review and provide final policy-level approval for LRM responses prior to submittal to OMB; and",
+                  "bounding_boxes": [
+                    {
+                      "x": 112.12758439779282,
+                      "y": 212.37746858596802,
+                      "w": 384.52774143218994,
+                      "h": 25.200073331594467
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9158974176921797,
+              "extraction_confidence": 0.9158974176921797
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "OSEC",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.88012647628784,
+                      "y": 184.65745961666107,
+                      "w": 31.63158582150936,
+                      "h": 9.85507395118475
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9674546965371803,
+              "extraction_confidence": 0.9674546965371803
+            }
+          },
+          {
+            "policy_id": {
+              "confidence": 0.5234667557300042,
+              "extraction_confidence": 0.5234667557300042
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "policy.12.policy_text",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.83259199353012,
+                      "y": 294.52500000000003,
+                      "w": 439.7589971694298,
+                      "h": 189.3375
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9309547328475203,
+              "extraction_confidence": 0.9309547328475203
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "General Counsel",
+                  "bounding_boxes": [
+                    {
+                      "x": 133.65771853923798,
+                      "y": 295.042448759079,
+                      "w": 81.1261271238327,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9478216782590358,
+              "extraction_confidence": 0.9478216782590358
+            }
+          },
+          {
+            "policy_id": {
+              "confidence": 0.5350211178694984,
+              "extraction_confidence": 0.5350211178694984
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "policy.13.policy_text",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.83259199353012,
+                      "y": 501.1875,
+                      "w": 434.8095430651031,
+                      "h": 186.8625
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8353213659337627,
+              "extraction_confidence": 0.8353213659337627
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 7,
+                  "matching_text": "Director, OCR",
+                  "bounding_boxes": [
+                    {
+                      "x": 133.65771853923798,
+                      "y": 502.19994592666626,
+                      "w": 74.19690406322479,
+                      "h": 11.340074010193348
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9494431042498374,
+              "extraction_confidence": 0.9494431042498374
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "policy.14.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 212.12996292114258,
+                      "w": 7.626737952232361,
+                      "h": 10.10257887840271
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.6560996345297369,
+              "extraction_confidence": 0.6560996345297369
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "f. The Executive Secretary to the Department or the Director, OES, will:",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 212.37746858596802,
+                      "w": 361.26525592803955,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8431737462530827,
+              "extraction_confidence": 0.8431737462530827
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "Executive Secretary to the Department",
+                  "bounding_boxes": [
+                    {
+                      "x": 133.65771853923798,
+                      "y": 212.37746858596802,
+                      "w": 188.23233568668365,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8645037545256005,
+              "extraction_confidence": 0.8645037545256005
+            },
+            "policy_actor_02": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "Director, OES",
+                  "bounding_boxes": [
+                    {
+                      "x": 353.4134666919708,
+                      "y": 212.37746858596802,
+                      "w": 72.21710845828056,
+                      "h": 11.340074010193348
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9108235584711069,
+              "extraction_confidence": 0.9108235584711069
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "policy.15.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 268.51045989990234,
+                      "w": 9.606519877910614,
+                      "h": 11.389603614807129
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7784760918055732,
+              "extraction_confidence": 0.7784760918055732
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "All Legislative Reports must have some form of policy-level review and approval. These can include:",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.88012647628784,
+                      "y": 294.79494309425354,
+                      "w": 396.6538088321686,
+                      "h": 23.962612867355347
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9132501087573699,
+              "extraction_confidence": 0.9132501087573699
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "OCR",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.64761406183243,
+                      "y": 336.62245631217957,
+                      "w": 28.66191293299198,
+                      "h": 11.34010425209999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9318409163779071,
+              "extraction_confidence": 0.9318409163779071
+            },
+            "policy_actor_02": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "Mission Area(s)",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.15267086029053,
+                      "y": 364.0949478149414,
+                      "w": 82.1160135269165,
+                      "h": 11.835104517638683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9369301559314327,
+              "extraction_confidence": 0.9369301559314327
+            },
+            "policy_actor_03": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "OSEC",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.40013790130615,
+                      "y": 391.8149449825287,
+                      "w": 34.60125871002674,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9550011919848027,
+              "extraction_confidence": 0.9550011919848027
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "11",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.36,
+                      "y": 433.92,
+                      "w": 12.840000000000003,
+                      "h": 8.230000000000018
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7658226559597352,
+              "extraction_confidence": 0.7658226559597352
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "Each year USDA prepares and submits a budget in accordance with the President’s Federal budget release in February. These annual budget submissions often include descriptions of proposed legislation in support of the budget. Accordingly, the responsible USDA Mission Area, agency, or staff office is responsible for preparing and submitting any follow-on legislative proposal described in the budget within the agency’s program area. OBPA, in consultation with the OCR, will alert Mission Areas, agencies, and staff offices of the need to prepare such proposals. USDA organizations may also develop legislative proposals separately from the annual budget process. Like for Congressional Requests in Section 8b, OBPA will clear the legislative proposal through the Department. After Departmental approval, all legislative proposals are subject to review and approval by OMB. Only upon OMB approval can a legislative proposal be transmitted to Congress. Typically, upon the need for a legislative proposal:",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 460.12497425079346,
+                      "w": 450.3553969860077,
+                      "h": 164.7900434732437
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8367008618144389,
+              "extraction_confidence": 0.8367008618144389
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "USDA Mission Area, agency, or staff office",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 488.3399591445923,
+                      "w": 440.9514305591583,
+                      "h": 26.19004288315773
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9452320370207042,
+              "extraction_confidence": 0.9452320370207042
+            },
+            "policy_actor_02": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "policy.16.policy_actor_02",
+                  "bounding_boxes": [
+                    {
+                      "x": 469.9731059074402,
+                      "y": 515.267942905426,
+                      "w": 21.4357221275568,
+                      "h": 11.34010425209999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9702357025779276,
+              "extraction_confidence": 0.9702357025779276
+            },
+            "policy_actor_03": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "OCR",
+                  "bounding_boxes": [
+                    {
+                      "x": 194.11,
+                      "y": 530.52,
+                      "w": 26.680000000000007,
+                      "h": 9.789999999999964
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9357219835827514,
+              "extraction_confidence": 0.9357219835827514
+            },
+            "policy_actor_04": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "policy.16.policy_actor_04",
+                  "bounding_boxes": [
+                    {
+                      "x": 429.8600889607764,
+                      "y": 584.595,
+                      "w": 28.954306510311355,
+                      "h": 9.652500000000014
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9553021522345451,
+              "extraction_confidence": 0.9553021522345451
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "policy.17.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.60758209228516,
+                      "y": 642.5324950218201,
+                      "w": 8.616624355316162,
+                      "h": 7.380040168762207
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8258790860515407,
+              "extraction_confidence": 0.8258790860515407
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "OGC will assist Mission Areas, agencies, and staff offices in drafting legislation for USDA. Mission Areas, agencies, and staff offices should consult with OGC and the Office of the Assistant Secretary for Civil Rights (OASCR) in drafting legislative proposals.",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 640.0574855804443,
+                      "w": 406.8001763820648,
+                      "h": 53.91004300117493
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9037071778144923,
+              "extraction_confidence": 0.9037071778144923
+            },
+            "policy_actor_01": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "policy.17.policy_actor_01",
+                  "bounding_boxes": [
+                    {
+                      "x": 112.35260816821673,
+                      "y": 647.7075000000001,
+                      "w": 16.33319854427821,
+                      "h": 10.642499999999993
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9509263776895709,
+              "extraction_confidence": 0.9509263776895709
+            },
+            "policy_actor_02": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "policy.17.policy_actor_02",
+                  "bounding_boxes": [
+                    {
+                      "x": 192.2862919530934,
+                      "y": 647.7075000000001,
+                      "w": 121.7565709664375,
+                      "h": 10.642499999999993
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9514068478363779,
+              "extraction_confidence": 0.9514068478363779
+            },
+            "policy_actor_03": {
+              "citation": [
+                {
+                  "page": 8,
+                  "matching_text": "Office of the Assistant Secretary for Civil Rights (OASCR)",
+                  "bounding_boxes": [
+                    {
+                      "x": 112.12759351730347,
+                      "y": 667.7774591445923,
+                      "w": 287.71638429164886,
+                      "h": 12.33004429936409
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9388089946237796,
+              "extraction_confidence": 0.9388089946237796
+            }
+          },
+          {
+            "policy_id": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "policy.18.policy_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.1126297712326,
+                      "y": 74.02496480941772,
+                      "w": 9.65601260215044,
+                      "h": 10.350074216723442
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7215803201091878,
+              "extraction_confidence": 0.7215803201091878
+            },
+            "policy_text": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "policy.18.policy_text",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 74.02496480941772,
+                      "w": 354.8309669494629,
+                      "h": 123.21005952358246
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9323402998598873,
+              "extraction_confidence": 0.9323402998598873
+            }
+          }
+        ],
+        "sections": [
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.53196412324905,
+                      "y": 279.94495725631714,
+                      "w": 8.369151044636965,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9811178728628814,
+              "extraction_confidence": 0.9811178728628814
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 279.94495725631714,
+                      "w": 40.04565900564194,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9762169782123936,
+              "extraction_confidence": 0.9762169782123936
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 516.4980039596558,
+                      "y": 279.6974515914917,
+                      "w": 5.3994485177099705,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9572216043605661,
+              "extraction_confidence": 0.9572216043605661
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.38,
+                      "y": 294.46,
+                      "w": 7.810000000000002,
+                      "h": 8.230000000000018
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9794483085630151,
+              "extraction_confidence": 0.9794483085630151
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Special Instructions/Cancellations",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 293.5574383735657,
+                      "w": 164.7719203233719,
+                      "h": 12.82510431110859
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9633006955403822,
+              "extraction_confidence": 0.9633006955403822
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 516.48,
+                      "y": 294.46,
+                      "w": 5.340000000000032,
+                      "h": 8.110000000000014
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9535480523776014,
+              "extraction_confidence": 0.9535480523776014
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.54,
+                      "y": 308.26,
+                      "w": 7.659999999999997,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9831898570991385,
+              "extraction_confidence": 0.9831898570991385
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Scope",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 307.417448759079,
+                      "w": 30.641701698303223,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.984055460843288,
+              "extraction_confidence": 0.984055460843288
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 516.48,
+                      "y": 308.26,
+                      "w": 5.340000000000032,
+                      "h": 8.110000000000014
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9610273442743799,
+              "extraction_confidence": 0.9610273442743799
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "4",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.17,
+                      "y": 322.06,
+                      "w": 8.030000000000001,
+                      "h": 8.230000000000018
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9791840232260649,
+              "extraction_confidence": 0.9791840232260649
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Background",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.1126297712326,
+                      "y": 321.2774591445923,
+                      "w": 60.33842146396637,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9758160409558089,
+              "extraction_confidence": 0.9758160409558089
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 516.48,
+                      "y": 322.06,
+                      "w": 5.340000000000032,
+                      "h": 8.110000000000014
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9611993825708768,
+              "extraction_confidence": 0.9611993825708768
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "5",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.41,
+                      "y": 335.83,
+                      "w": 7.790000000000006,
+                      "h": 8.29000000000002
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9814114639420262,
+              "extraction_confidence": 0.9814114639420262
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.1126297712326,
+                      "y": 335.13744592666626,
+                      "w": 32.126531302928925,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.98406923606239,
+              "extraction_confidence": 0.98406923606239
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 516.48,
+                      "y": 335.86,
+                      "w": 5.340000000000032,
+                      "h": 8.110000000000014
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9588316354891774,
+              "extraction_confidence": 0.9588316354891774
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "6",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.78954476118088,
+                      "y": 348.99745631217957,
+                      "w": 9.359042007476091,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9807243148968454,
+              "extraction_confidence": 0.9807243148968454
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "What is a Legislative Report?",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 348.99745631217957,
+                      "w": 143.98419642448425,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.953772649142624,
+              "extraction_confidence": 0.953772649142624
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 515.7556028366089,
+                      "y": 348.99745631217957,
+                      "w": 6.3893115520477295,
+                      "h": 9.855096817016602
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9574356844361245,
+              "extraction_confidence": 0.9574356844361245
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "7",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.26,
+                      "y": 363.63,
+                      "w": 7.929999999999993,
+                      "h": 8.060000000000002
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9795266489878073,
+              "extraction_confidence": 0.9795266489878073
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Who Requests Legislative Reports?",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 362.6099374294281,
+                      "w": 172.6910480260849,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.957804453809761,
+              "extraction_confidence": 0.957804453809761
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 516.64,
+                      "y": 363.46,
+                      "w": 4.659999999999968,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9595353102918318,
+              "extraction_confidence": 0.9595353102918318
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "8",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.7,
+                      "y": 377.26,
+                      "w": 7.5,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9759236596925709,
+              "extraction_confidence": 0.9759236596925709
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Legislative Report Clearance and Procedures Steps",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 376.4699478149414,
+                      "w": 246.43790423870087,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9507402561345093,
+              "extraction_confidence": 0.9507402561345093
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 516.64,
+                      "y": 377.26,
+                      "w": 4.659999999999968,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9619900374121733,
+              "extraction_confidence": 0.9619900374121733
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "9",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.38,
+                      "y": 391.18,
+                      "w": 7.810000000000002,
+                      "h": 8.240000000000009
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9779789388139739,
+              "extraction_confidence": 0.9779789388139739
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Exemptions",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 390.3299582004547,
+                      "w": 58.35863953828812,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9709952733262196,
+              "extraction_confidence": 0.9709952733262196
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "5",
+                  "bounding_boxes": [
+                    {
+                      "x": 515.5081357955933,
+                      "y": 390.3299582004547,
+                      "w": 6.6367785930633545,
+                      "h": 9.85507321357727
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9578265725909342,
+              "extraction_confidence": 0.9578265725909342
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "10",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.36,
+                      "y": 404.86,
+                      "w": 12.840000000000003,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.972805042038628,
+              "extraction_confidence": 0.972805042038628
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Roles and Responsibilities",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.60758209228516,
+                      "y": 404.189968585968,
+                      "w": 128.14594101905823,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.959011976005756,
+              "extraction_confidence": 0.959011976005756
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "6",
+                  "bounding_boxes": [
+                    {
+                      "x": 516.65,
+                      "y": 405.12,
+                      "w": 5.1200000000000045,
+                      "h": 8.0
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9583846249309294,
+              "extraction_confidence": 0.9583846249309294
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "11",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.36,
+                      "y": 418.68,
+                      "w": 12.840000000000003,
+                      "h": 8.230000000000018
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9732818584810051,
+              "extraction_confidence": 0.9732818584810051
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Legislative Proposals",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.1126297712326,
+                      "y": 417.80244970321655,
+                      "w": 104.38855791091919,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9624375447627768,
+              "extraction_confidence": 0.9624375447627768
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "8",
+                  "bounding_boxes": [
+                    {
+                      "x": 515.7556028366089,
+                      "y": 417.5549440383911,
+                      "w": 6.884284391999245,
+                      "h": 10.350104458630085
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9636838358597238,
+              "extraction_confidence": 0.9636838358597238
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "12",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.36,
+                      "y": 432.48,
+                      "w": 12.840000000000003,
+                      "h": 8.230000000000018
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9726647843596137,
+              "extraction_confidence": 0.9726647843596137
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Inquiries",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.60758209228516,
+                      "y": 431.6624364852905,
+                      "w": 43.51027509570122,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9698508699546838,
+              "extraction_confidence": 0.9698508699546838
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "9",
+                  "bounding_boxes": [
+                    {
+                      "x": 515.5081357955933,
+                      "y": 431.6624364852905,
+                      "w": 6.884282112121582,
+                      "h": 9.855096817016602
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9641376040584543,
+              "extraction_confidence": 0.9641376040584543
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Appendix A",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 459.38245725631714,
+                      "w": 60.33842146396637,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9673932588125778,
+              "extraction_confidence": 0.9673932588125778
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Acronyms and Abbreviations",
+                  "bounding_boxes": [
+                    {
+                      "x": 142.31924736499786,
+                      "y": 459.38245725631714,
+                      "w": 142.004414498806,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9652462507828494,
+              "extraction_confidence": 0.9652462507828494
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "A-1",
+                  "bounding_boxes": [
+                    {
+                      "x": 502.63952136039734,
+                      "y": 459.1349515914917,
+                      "w": 18.763004444539547,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9513087493789502,
+              "extraction_confidence": 0.9513087493789502
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Appendix B",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 472.9949383735657,
+                      "w": 58.85358273983002,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9681470429837826,
+              "extraction_confidence": 0.9681470429837826
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Definitions",
+                  "bounding_boxes": [
+                    {
+                      "x": 141.82432240247726,
+                      "y": 472.9949383735657,
+                      "w": 54.89401888847351,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9697974876143417,
+              "extraction_confidence": 0.9697974876143417
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "B-1",
+                  "bounding_boxes": [
+                    {
+                      "x": 504.32,
+                      "y": 473.88,
+                      "w": 16.52000000000004,
+                      "h": 8.110000000000014
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9496594393157172,
+              "extraction_confidence": 0.9496594393157172
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Appendix C",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.54207316040993,
+                      "y": 486.85492515563965,
+                      "w": 59.34853050112724,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.968646048268441,
+              "extraction_confidence": 0.968646048268441
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Authorities and References",
+                  "bounding_boxes": [
+                    {
+                      "x": 141.82432240247726,
+                      "y": 486.85492515563965,
+                      "w": 131.61054342985153,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9654723441654104,
+              "extraction_confidence": 0.9654723441654104
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "C-1",
+                  "bounding_boxes": [
+                    {
+                      "x": 504.46,
+                      "y": 487.68,
+                      "w": 16.390000000000043,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9499297582518557,
+              "extraction_confidence": 0.9499297582518557
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Appendix D",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 500.7149591445923,
+                      "w": 60.33842146396637,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9726265057317105,
+              "extraction_confidence": 0.9726265057317105
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Sample Enrolled Bill Letter",
+                  "bounding_boxes": [
+                    {
+                      "x": 142.56674176454544,
+                      "y": 500.7149591445923,
+                      "w": 134.5802117586136,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9689271180367977,
+              "extraction_confidence": 0.9689271180367977
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "sections.15.page_reference",
+                  "bounding_boxes": [
+                    {
+                      "x": 503.62938952445984,
+                      "y": 486.85492515563965,
+                      "w": 18.020590782165527,
+                      "h": 9.855144023895264
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9317158660472344,
+              "extraction_confidence": 0.9317158660472344
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Appendix E",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 514.5749931335449,
+                      "w": 58.85358273983002,
+                      "h": 12.33004429936409
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.967748534097731,
+              "extraction_confidence": 0.967748534097731
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Sample Legislative Proposal",
+                  "bounding_boxes": [
+                    {
+                      "x": 141.32937920093536,
+                      "y": 514.5749931335449,
+                      "w": 138.0448324084282,
+                      "h": 12.33004429936409
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9673066820620816,
+              "extraction_confidence": 0.9673066820620816
+            },
+            "page_reference": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "E-1",
+                  "bounding_boxes": [
+                    {
+                      "x": 503.87685656547546,
+                      "y": 514.3274874687195,
+                      "w": 17.77311348170042,
+                      "h": 9.855043709278107
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9627295614898702,
+              "extraction_confidence": 0.9627295614898702
+            }
+          }
+        ],
+        "contacts": [
+          {
+            "contact_type": {
+              "confidence": 0.8583007818903391,
+              "extraction_confidence": 0.8583007818903391
+            },
+            "contact_value": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "contacts.0.contact_value",
+                  "bounding_boxes": [
+                    {
+                      "x": 237.07885159725032,
+                      "y": 267.5475,
+                      "w": 150.71087747674883,
+                      "h": 10.889999999999988
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.914049411897053,
+              "extraction_confidence": 0.914049411897053
+            },
+            "context": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "OMB requests USDA’s views on a wide range of legislative and executive office documents such as bills, other Federal agencies’ views on bills, agency reports to Congress, executive orders, and testimony. These documents address issues that affect, or have the potential to affect, USDA or USDA programs. OMB submits these requests, or Legislative Referral Memorandums (LRM), to    .",
+                  "bounding_boxes": [
+                    {
+                      "x": 111.63265031576157,
+                      "y": 267.32247519493103,
+                      "w": 427.0929479598999,
+                      "h": 67.77004158496857
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8317589609049586,
+              "extraction_confidence": 0.8317589609049586
+            }
+          },
+          {
+            "contact_type": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "Office",
+                  "bounding_boxes": [
+                    {
+                      "x": 483.33665442466736,
+                      "y": 253.70994687080383,
+                      "w": 32.819465920329094,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9136458169086379,
+              "extraction_confidence": 0.9136458169086379
+            },
+            "contact_value": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "Legislative and Regulatory Affairs Staff Division in the Office of Budget and Program Analysis",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 253.70997047424316,
+                      "w": 439.466591835022,
+                      "h": 26.19007533788681
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8964790959729257,
+              "extraction_confidence": 0.8964790959729257
+            },
+            "context": {
+              "citation": [
+                {
+                  "page": 9,
+                  "matching_text": "contacts.1.context",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.1126297712326,
+                      "y": 253.4624412059784,
+                      "w": 69.84136193990707,
+                      "h": 12.42907990515232
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8867809548386385,
+              "extraction_confidence": 0.8867809548386385
+            }
+          }
+        ],
+        "acronyms": [
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "CFR",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.54207316040993,
+                      "y": 143.32495772838593,
+                      "w": 23.71245811879635,
+                      "h": 9.85507395118475
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9159043587596642,
+              "extraction_confidence": 0.9159043587596642
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Code of Federal Regulations",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.62213253974915,
+                      "y": 143.32495772838593,
+                      "w": 138.5397756099701,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9355764788842337,
+              "extraction_confidence": 0.9355764788842337
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "DM",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.22,
+                      "y": 158.04,
+                      "w": 18.799999999999997,
+                      "h": 7.939999999999998
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9114427083431065,
+              "extraction_confidence": 0.9114427083431065
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Departmental Manual",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 157.18496811389923,
+                      "w": 106.36833071708679,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.933108827112209,
+              "extraction_confidence": 0.933108827112209
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "DR",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.22,
+                      "y": 171.84,
+                      "w": 16.36,
+                      "h": 7.939999999999998
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8911152314661666,
+              "extraction_confidence": 0.8911152314661666
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Departmental Regulation",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 170.79746103286743,
+                      "w": 122.20657700300217,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9273947094693661,
+              "extraction_confidence": 0.9273947094693661
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "LRAS",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.17,
+                      "y": 185.47,
+                      "w": 29.75,
+                      "h": 8.27000000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9033253789585312,
+              "extraction_confidence": 0.9033253789585312
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Legislative and Regulatory Affairs Staff",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37464725971222,
+                      "y": 184.65745961666107,
+                      "w": 195.45854473114014,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9252598113539451,
+              "extraction_confidence": 0.9252598113539451
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "LRM",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.17,
+                      "y": 199.44,
+                      "w": 25.549999999999997,
+                      "h": 7.939999999999998
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9073892237581738,
+              "extraction_confidence": 0.9073892237581738
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Legislative Referral Memorandum",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 198.5174582004547,
+                      "w": 167.7415795326233,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9321485980384665,
+              "extraction_confidence": 0.9321485980384665
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "OASCR",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.54207316040993,
+                      "y": 212.37746858596802,
+                      "w": 41.035549968481064,
+                      "h": 9.85507395118475
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9092279098349934,
+              "extraction_confidence": 0.9092279098349934
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Office of the Assistant Secretary for Civil Rights",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 212.37746858596802,
+                      "w": 236.0440514087677,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9419778516433508,
+              "extraction_confidence": 0.9419778516433508
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "OBPA",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 225.74246764183044,
+                      "w": 33.611367747187614,
+                      "h": 10.350074216723442
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.911333125888443,
+              "extraction_confidence": 0.911333125888443
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Office of Budget and Program Analysis",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.62215077877045,
+                      "y": 225.98997330665588,
+                      "w": 191.49894440174103,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9456140779432448,
+              "extraction_confidence": 0.9456140779432448
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "OCR",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.43,
+                      "y": 240.7,
+                      "w": 24.17,
+                      "h": 8.27000000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9075283594854938,
+              "extraction_confidence": 0.9075283594854938
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Office of Congressional Relations",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 239.84996008872986,
+                      "w": 164.7719203233719,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9307640683527896,
+              "extraction_confidence": 0.9307640683527896
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "OES",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.43,
+                      "y": 254.5,
+                      "w": 21.439999999999998,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9209690910249807,
+              "extraction_confidence": 0.9209690910249807
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Office of the Executive Secretariat",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 253.70994687080383,
+                      "w": 167.7415795326233,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9298975721744496,
+              "extraction_confidence": 0.9298975721744496
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "OGC",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.43,
+                      "y": 268.3,
+                      "w": 24.47,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9175731070417674,
+              "extraction_confidence": 0.9175731070417674
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Office of the General Counsel",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.62213253974915,
+                      "y": 267.56995725631714,
+                      "w": 145.4690169095993,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9309244306043942,
+              "extraction_confidence": 0.9309244306043942
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "OMB",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.54207316040993,
+                      "y": 281.4299440383911,
+                      "w": 27.672021970152855,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8980459594708337,
+              "extraction_confidence": 0.8980459594708337
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Office of Management and Budget",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 281.4299440383911,
+                      "w": 168.7314841747284,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9492669582467634,
+              "extraction_confidence": 0.9492669582467634
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "OSEC",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.43,
+                      "y": 295.9,
+                      "w": 29.86,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9101006451078191,
+              "extraction_confidence": 0.9101006451078191
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Office of the Secretary",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.62213253974915,
+                      "y": 295.042448759079,
+                      "w": 110.3278945684433,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9451934365354754,
+              "extraction_confidence": 0.9451934365354754
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Q & A’s",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 308.65495347976685,
+                      "w": 42.52038413286209,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9133929328390885,
+              "extraction_confidence": 0.9133929328390885
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Questions and Answers",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.37466549873352,
+                      "y": 308.9024591445923,
+                      "w": 114.28744930028915,
+                      "h": 11.835104517638683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9474786114324771,
+              "extraction_confidence": 0.9474786114324771
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "SAP",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.53,
+                      "y": 323.5,
+                      "w": 21.370000000000005,
+                      "h": 8.269999999999982
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.929761843031676,
+              "extraction_confidence": 0.929761843031676
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "Statements of Administration Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.62213253974915,
+                      "y": 322.76244592666626,
+                      "w": 176.15565955638885,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9415431466521159,
+              "extraction_confidence": 0.9415431466521159
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "USDA",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.0471253991127,
+                      "y": 336.62245631217957,
+                      "w": 34.10631322860718,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8927396302348805,
+              "extraction_confidence": 0.8927396302348805
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 10,
+                  "matching_text": "United States Department of Agriculture",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1271984577179,
+                      "y": 336.62245631217957,
+                      "w": 196.44843113422394,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9469590394607753,
+              "extraction_confidence": 0.9469590394607753
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "OBPA-LRAS",
+                  "bounding_boxes": [
+                    {
+                      "x": 90.6,
+                      "y": 436.08,
+                      "w": 73.51000000000002,
+                      "h": 10.220000000000027
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9161624426886401,
+              "extraction_confidence": 0.9161624426886401
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Office of Budget and Program Analysis-Legislative and Regulatory Affairs Staff",
+                  "bounding_boxes": [
+                    {
+                      "x": 132.71732372045517,
+                      "y": 421.01992893218994,
+                      "w": 391.6548578739166,
+                      "h": 12.82510431110859
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9420901464304553,
+              "extraction_confidence": 0.9420901464304553
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "REE",
+                  "bounding_boxes": [
+                    {
+                      "x": 350.93872332572937,
+                      "y": 460.8674440383911,
+                      "w": 31.631615459918976,
+                      "h": 11.34010425209999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9028308553269335,
+              "extraction_confidence": 0.9028308553269335
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Research, Education, and Economics",
+                  "bounding_boxes": [
+                    {
+                      "x": 169.29377496242523,
+                      "y": 460.37243270874023,
+                      "w": 179.6202893257141,
+                      "h": 11.835104517638683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9273482995429793,
+              "extraction_confidence": 0.9273482995429793
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 14,
+                  "matching_text": "APHIS",
+                  "bounding_boxes": [
+                    {
+                      "x": 359.42,
+                      "y": 378.7,
+                      "w": 41.44999999999999,
+                      "h": 10.220000000000027
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9049417368626711,
+              "extraction_confidence": 0.9049417368626711
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 14,
+                  "matching_text": "Animal and Plant Health Inspection Service",
+                  "bounding_boxes": [
+                    {
+                      "x": 142.8637095093727,
+                      "y": 377.9549582004547,
+                      "w": 213.47453927993774,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9467290674792842,
+              "extraction_confidence": 0.9467290674792842
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 14,
+                  "matching_text": "AWA",
+                  "bounding_boxes": [
+                    {
+                      "x": 262.37,
+                      "y": 696.14,
+                      "w": 38.35000000000002,
+                      "h": 10.220000000000027
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9292412721590833,
+              "extraction_confidence": 0.9292412721590833
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 14,
+                  "matching_text": "Animal Welfare Act",
+                  "bounding_boxes": [
+                    {
+                      "x": 161.1,
+                      "y": 696.06,
+                      "w": 97.71000000000001,
+                      "h": 8.32000000000005
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9461514178355308,
+              "extraction_confidence": 0.9461514178355308
+            }
+          },
+          {
+            "acronym": {
+              "citation": [
+                {
+                  "page": 15,
+                  "matching_text": "acronyms.19.acronym",
+                  "bounding_boxes": [
+                    {
+                      "x": 285.58350181965227,
+                      "y": 464.0625,
+                      "w": 29.201779215527722,
+                      "h": 11.88000000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8980199897622757,
+              "extraction_confidence": 0.8980199897622757
+            },
+            "meaning": {
+              "citation": [
+                {
+                  "page": 15,
+                  "matching_text": "Statutory Pay-As-You-Go Act of 2010",
+                  "bounding_boxes": [
+                    {
+                      "x": 94.13,
+                      "y": 465.03,
+                      "w": 185.12,
+                      "h": 10.81000000000006
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8701137991869774,
+              "extraction_confidence": 0.8701137991869774
+            }
+          }
+        ],
+        "definitions": [
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Agency",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 143.32495772838593,
+                      "w": 41.035549968481064,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9510418958355035,
+              "extraction_confidence": 0.9510418958355035
+            },
+            "definition": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Organizational units of the Department, other than staff offices as defined below, whose heads report to officials within the Office of the Secretary, Deputy Secretary, Under Secretaries, Assistant Secretaries, and Assistant to the Secretary.",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.28,
+                      "y": 143.98,
+                      "w": 436.35,
+                      "h": 38.41
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9617086365131583,
+              "extraction_confidence": 0.9617086365131583
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "definitions.0.source",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.0471253991127,
+                      "y": 170.54996716976166,
+                      "w": 468.1734251976013,
+                      "h": 26.685074865818024
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9382663348287605,
+              "extraction_confidence": 0.9382663348287605
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Enrolled Bill",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 212.37746858596802,
+                      "w": 66.2777626812458,
+                      "h": 9.85507395118475
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9628559016787804,
+              "extraction_confidence": 0.9628559016787804
+            },
+            "definition": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "A bill or resolution that has passed both houses of Congress and is awaiting presidential action.",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.0471253991127,
+                      "y": 212.12996292114258,
+                      "w": 436.0019438266754,
+                      "h": 26.19007533788681
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9592185124172022,
+              "extraction_confidence": 0.9592185124172022
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "OMB,  Circular No. A-19 , *Legislative Coordination and Clearance",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 225.98997330665588,
+                      "w": 414.2243700027466,
+                      "h": 25.6950581073761
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9592450606470179,
+              "extraction_confidence": 0.9592450606470179
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Expiring Law",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 267.56995725631714,
+                      "w": 70.23732653260231,
+                      "h": 11.142092049121857
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9458839766171924,
+              "extraction_confidence": 0.9458839766171924
+            },
+            "definition": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "A list of laws or provisions that will expire in the coming year with an explanation of the consequences the expiration may have, and possibly a statement regarding whether the relevant agency supports a reauthorization.",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.0471253991127,
+                      "y": 267.3224515914917,
+                      "w": 448.3755877017975,
+                      "h": 40.05007392168045
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9590167171379546,
+              "extraction_confidence": 0.9590167171379546
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "OMB, Circular No. A-19",
+                  "bounding_boxes": [
+                    {
+                      "x": 389.54453015327454,
+                      "y": 295.042448759079,
+                      "w": 126.16613173484802,
+                      "h": 11.835104517638683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9425829137881014,
+              "extraction_confidence": 0.9425829137881014
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Legislative Proposal",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 322.76244592666626,
+                      "w": 101.91383278369904,
+                      "h": 11.14209794998169
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9502404939151808,
+              "extraction_confidence": 0.9502404939151808
+            },
+            "definition": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "A legislative proposal requests Congress to enact a change in law and explains the rationale for such change. It consists of two identical letters, one addressed to the President of the Senate and the other to the Speaker of the House. The letters must enclose draft legislation.",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.0471253991127,
+                      "y": 322.5149874687195,
+                      "w": 464.70877718925476,
+                      "h": 53.91004300117493
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9640133319143628,
+              "extraction_confidence": 0.9640133319143628
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "OMB, Circular No. A-19",
+                  "bounding_boxes": [
+                    {
+                      "x": 177.21292090415955,
+                      "y": 364.0949478149414,
+                      "w": 125.67119765281677,
+                      "h": 11.835104517638683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9603513706751469,
+              "extraction_confidence": 0.9603513706751469
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Legislative Report",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.29460155963898,
+                      "y": 391.8149449825287,
+                      "w": 92.50986635684967,
+                      "h": 11.142092049121857
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9451096852006865,
+              "extraction_confidence": 0.9451096852006865
+            },
+            "definition": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Any written expression of official USDA position, including edits, on a bill or draft legislation, another agency’s position on a bill, report to Congress, legislative proposal, or testimony, and executive orders.",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.0471253991127,
+                      "y": 391.56743931770325,
+                      "w": 461.73909974098206,
+                      "h": 40.05007392168045
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.962170337900449,
+              "extraction_confidence": 0.962170337900449
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "OMB, Circular No. A-19",
+                  "bounding_boxes": [
+                    {
+                      "x": 295.5048841238022,
+                      "y": 419.2874364852905,
+                      "w": 126.16613173484802,
+                      "h": 11.835104517638683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9535140264774694,
+              "extraction_confidence": 0.9535140264774694
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "definitions.5.term",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.04712083935738,
+                      "y": 446.7599515914917,
+                      "w": 70.53430339694023,
+                      "h": 11.63709231466055
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9657782089353212,
+              "extraction_confidence": 0.9657782089353212
+            },
+            "definition": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "A group of agencies with related functions that report to the same Under or Assistant Secretary. Research, Education, and Economics (REE) is an example of a  Mission Area.",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.2,
+                      "y": 447.63,
+                      "w": 441.68,
+                      "h": 35.91999999999996
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9631565366768213,
+              "extraction_confidence": 0.9631565366768213
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "USDA, DR 0100-001",
+                  "bounding_boxes": [
+                    {
+                      "x": 150.23839330673218,
+                      "y": 474.47992515563965,
+                      "w": 109.33799904584885,
+                      "h": 11.835104517638683
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9640259986938806,
+              "extraction_confidence": 0.9640259986938806
+            }
+          },
+          {
+            "term": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Staff Office",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.78954476118088,
+                      "y": 502.19994592666626,
+                      "w": 60.33842146396637,
+                      "h": 9.85507395118475
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9684248250386958,
+              "extraction_confidence": 0.9684248250386958
+            },
+            "definition": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "Departmental administrative offices whose heads report to officials within the Office of the Secretary.",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.54207316040993,
+                      "y": 502.1999931335449,
+                      "w": 441.4463646411896,
+                      "h": 26.19004288315773
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9691240956834235,
+              "extraction_confidence": 0.9691240956834235
+            },
+            "source": {
+              "citation": [
+                {
+                  "page": 11,
+                  "matching_text": "USDA, DR 0100-001",
+                  "bounding_boxes": [
+                    {
+                      "x": 236.35889339447021,
+                      "y": 516.0599799156189,
+                      "w": 109.83294224739075,
+                      "h": 11.835044033825397
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9709990340534989,
+              "extraction_confidence": 0.9709990340534989
+            }
+          }
+        ],
+        "authorities_and_references": [
+          {
+            "citation": {
+              "confidence": 0.6996725277108713,
+              "extraction_confidence": 0.6996725277108713
+            },
+            "description": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "This CFR part discuss the requirements for environmental assessments and impact statements prepared by an agency regarding legislative proposals",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 156.9374624490738,
+                      "w": 450.3553969860077,
+                      "h": 26.19007533788681
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8815766972122705,
+              "extraction_confidence": 0.8815766972122705
+            }
+          },
+          {
+            "citation": {
+              "confidence": 0.646320365112347,
+              "extraction_confidence": 0.646320365112347
+            },
+            "description": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "These CFR parts discuss the requirements for environmental assessments and impact statements prepared by a Federal agency regarding legislative proposals.",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 225.98997330665588,
+                      "w": 409.2749562263489,
+                      "h": 26.19007533788681
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.892970902885373,
+              "extraction_confidence": 0.892970902885373
+            }
+          },
+          {
+            "citation": {
+              "confidence": 0.7264425010150639,
+              "extraction_confidence": 0.7264425010150639
+            },
+            "description": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "This executive order specifies requirements for agencies in developing legislative proposals in order to minimize litigation.",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 281.1824383735657,
+                      "w": 441.4463646411896,
+                      "h": 26.19011664390564
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8742451893318982,
+              "extraction_confidence": 0.8742451893318982
+            }
+          },
+          {
+            "citation": {
+              "confidence": 0.7135449608860568,
+              "extraction_confidence": 0.7135449608860568
+            },
+            "description": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "This executive order requires that agencies draft its regulations, legislative comments or proposed legislation consistent with the principles of Federalism.",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 336.3749506473541,
+                      "w": 424.1233069896698,
+                      "h": 26.190104842185974
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.87799869847001,
+              "extraction_confidence": 0.87799869847001
+            }
+          },
+          {
+            "citation": {
+              "confidence": 0.6368533310280017,
+              "extraction_confidence": 0.6368533310280017
+            },
+            "description": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "This circular provides instructions for the preparation of annual estimates, including requirements for those estimates for which additional authorizing legislation is required for the budget year.",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 405.42744970321655,
+                      "w": 438.9717307090759,
+                      "h": 40.05007392168045
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8729033604205477,
+              "extraction_confidence": 0.8729033604205477
+            }
+          },
+          {
+            "citation": {
+              "confidence": 0.5952176934765105,
+              "extraction_confidence": 0.5952176934765105
+            },
+            "description": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "This circular outlines procedures for the coordination and clearance by OMB of Federal agency recommendations on proposed, pending and enrolled legislation. It also includes instructions on the timing and preparation of Federal agency legislative programs and legislative proposals.",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 474.4799723625183,
+                      "w": 427.0929844379425,
+                      "h": 53.91004300117493
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8985365288172347,
+              "extraction_confidence": 0.8985365288172347
+            }
+          },
+          {
+            "citation": {
+              "confidence": 0.40051549954998755,
+              "extraction_confidence": 0.40051549954998755
+            }
+          },
+          {
+            "citation": {
+              "confidence": 0.7480265756318817,
+              "extraction_confidence": 0.7480265756318817
+            },
+            "description": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "This Departmental Regulation has requirements pertaining to the preparation of Regulatory Impact Analyses for legislative proposals expected to have a major impact in terms of Federal or non-Federal costs or burdens.",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36010593175888,
+                      "y": 584.6174912452698,
+                      "w": 439.7140588760376,
+                      "h": 37.82252883911133
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9240984516044116,
+              "extraction_confidence": 0.9240984516044116
+            }
+          },
+          {
+            "citation": {
+              "confidence": 0.7879845859298386,
+              "extraction_confidence": 0.7879845859298386
+            },
+            "description": {
+              "citation": [
+                {
+                  "page": 12,
+                  "matching_text": "This Departmental Regulation has requirements pertaining to the preparation of a Civil Rights Impact Analysis that may be required for legislative proposals under this directive.",
+                  "bounding_boxes": [
+                    {
+                      "x": 89.36009681224823,
+                      "y": 653.9174723625183,
+                      "w": 432.0424346923828,
+                      "h": 26.19004288315773
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9275926777866921,
+              "extraction_confidence": 0.9275926777866921
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": null,
+    "parse_tier": "agentic"
+  },
+  "metadata": null,
+  "grounded_items": null,
+  "usage": {
+    "credits": 525.0,
+    "extract_credits": 315.0,
+    "parse_credits": 210.0
+  },
+  "created_at": "2026-10-25T20:34:37.647432Z",
+  "updated_at": "2026-10-25T20:36:37.533099Z",
+  "document_input_value": null
+}

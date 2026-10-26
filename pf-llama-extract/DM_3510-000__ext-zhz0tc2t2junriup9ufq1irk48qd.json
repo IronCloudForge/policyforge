@@ -1,0 +1,3448 @@
+{
+  "file_input": null,
+  "id": "ext-zhz0tc2t2junriup9ufq1irk48qd",
+  "project_id": null,
+  "configuration_id": null,
+  "configuration": {
+    "target_pages": null,
+    "max_pages": null,
+    "tier": "agentic",
+    "version": "2.6",
+    "disable_cache": false,
+    "data_schema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "title": "USDA Directive Extraction Schema v2.1 (DR/DM)",
+      "description": "Extracts metadata and structured policy statements from 3000 series USDA Departmental Regulation (DR) or Departmental Manual (DM). Governing rules: (1) Any field described as verbatim must be copied character-for-character from the source document. Never paraphrase, merge, abbreviate, summarize, or insert ellipses. (2) Do not infer. If the source does not support an optional field, leave the field out entirely. Never return an empty string or a guess. (3) Only the label fields in policy_statements (statement_kind, statement_function, modal_use, normative_force, actor_basis) are interpretations. Every other field is quoted or copied from the document.",
+      "additionalProperties": false,
+      "properties": {
+        "document_type": {
+          "type": "string",
+          "description": "Type of document as printed in the header, such as 'Departmental Regulation' or 'Departmental Manual'."
+        },
+        "issuing_organization": {
+          "type": "string",
+          "description": "Organization issuing the document, verbatim from the header."
+        },
+        "issuing_location": {
+          "type": "string",
+          "description": "Location of the issuing organization, verbatim from the header."
+        },
+        "regulation_number": {
+          "type": "string",
+          "description": "Official document number from the header, verbatim, for example 'DR 3105-001'."
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject or title of the document, verbatim from the header."
+        },
+        "issue_date": {
+          "type": "string",
+          "description": "Issue date from the header, as written."
+        },
+        "expiration_date": {
+          "type": "string",
+          "description": "Expiration date from the header, as written. Leave out if none is printed."
+        },
+        "opi": {
+          "type": "string",
+          "description": "Office of Primary Interest (OPI) from the header, verbatim."
+        },
+        "supersedes": {
+          "type": "object",
+          "description": "The prior document this document supersedes. Take all values from the supersession paragraph in the body (usually under Special Instructions/Cancellations), NOT from the header. Leave the whole object out if the document supersedes nothing.",
+          "additionalProperties": false,
+          "properties": {
+            "document_number": {
+              "type": "string",
+              "description": "Number of the superseded document as written in the supersession paragraph. If it is identical to this document's own number, still copy it from the supersession paragraph, not the header."
+            },
+            "document_title": {
+              "type": "string",
+              "description": "Title of the superseded document as written in the supersession paragraph."
+            },
+            "document_date": {
+              "type": "string",
+              "description": "Date of the superseded document as written in the supersession paragraph."
+            }
+          },
+          "required": [
+            "document_number"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "description": "The text of the Scope section, verbatim. Do not add words. Leave out if the document has no Scope section."
+        },
+        "purpose": {
+          "type": "string",
+          "description": "The text of the Purpose section, verbatim. Do not add words. Leave out if the document has no Purpose section."
+        },
+        "inquiries": {
+          "type": "object",
+          "description": "Contact information from the Inquiries section. Leave out any property the document does not state; never return an empty string.",
+          "additionalProperties": false,
+          "properties": {
+            "office": {
+              "type": "string",
+              "description": "Office or division named for inquiries, verbatim. Leave out if the document names no office."
+            },
+            "email": {
+              "type": "string",
+              "description": "Email address given for inquiries, verbatim, without trailing punctuation. Leave out if none is given."
+            }
+          }
+        },
+        "table_of_contents": {
+          "type": "array",
+          "description": "Top-level entries of the printed table of contents, in order, including appendices. Return an empty list if the document prints no table of contents.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "section_number": {
+                "type": "string",
+                "description": "Section or appendix identifier as printed, for example '1.' or 'Appendix A'."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Section or appendix title as printed in the table of contents."
+              },
+              "page": {
+                "type": "string",
+                "description": "Page number exactly as printed in the table of contents, for example '2' or 'A-1'. Copy it even if the section actually starts on a different page. Leave out if no page number is printed."
+              }
+            },
+            "required": [
+              "section_number",
+              "section_title"
+            ]
+          }
+        },
+        "actors": {
+          "type": "array",
+          "description": "Registry of every distinct entity that the policy text names in an acting role. One entry per entity. Include every entity used as actor_name in policy_statements. Also include entities the document names in a role without being directed to act (mark those mentioned_only). Documents (bylaws, regulations, directives) are NEVER actors and must not appear here. Return an empty list if the document names no actors.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "The entity's name exactly as written in the policy text, without a leading article ('the') and without a possessive. Keep a compound name intact if the document writes it as one phrase, for example 'USDA Mission Areas, agencies, and staff offices'. This is the join key used by actor_name in policy_statements, so spell it identically there."
+              },
+              "components": {
+                "type": "array",
+                "description": "ONLY for a name that joins separate entities with commas or 'and' (for example 'USDA Mission Areas, agencies, and staff offices' gives 'USDA Mission Areas', 'agencies', 'staff offices'). NEVER split a job title from the organization that qualifies it ('Director of IT, Office of the Inspector General' is ONE position), and never split an organization name from the position it modifies ('Office of the Chief Information Officer (OCIO) Associate CIOs (ACIO)' is ONE group). Each component is a verbatim substring of the name. Leave out for single entities.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim component of a compound actor name."
+                }
+              },
+              "actor_type": {
+                "type": "string",
+                "description": "Kind of entity. Use exactly one of: position (a job title, singular or plural, for example 'USDA CIO' or 'Mission Area Assistant CIOs'), office (an organizational unit, for example 'OCIO Executive Secretariat'), council_or_body (a council, committee, board, or similar body), group (a category of organizations or units, not job titles, for example 'USDA Mission Areas, agencies, and staff offices'), external_entity (an entity outside the document's authority), program_or_system (an IT initiative, system, program, or project that the document says must act or conform).",
+                "enum": [
+                  "position",
+                  "office",
+                  "council_or_body",
+                  "group",
+                  "external_entity",
+                  "program_or_system"
+                ]
+              },
+              "binding_status": {
+                "type": "string",
+                "description": "bound_by_this_document: the document directs, permits, or assigns a function or role to this entity and has authority over it. mentioned_only: the document names the entity but cannot or does not impose anything on it (for example a council or agency outside USDA that the document says a USDA body partners with).",
+                "enum": [
+                  "bound_by_this_document",
+                  "mentioned_only"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "actor_type",
+              "binding_status"
+            ]
+          }
+        },
+        "policy_statements": {
+          "type": "array",
+          "description": "Structured statements from the numbered body sections only (not the table of contents, not the appendices). RULES. (a) SENTENCES: emit one statement per sentence. If a paragraph has more than one sentence, give each its own statement with ids suffixed .s1, .s2, and so on. Abbreviations and legal citations ('U.S.C.', 'CFR', '§', 'et seq.') do not end a sentence. (b) LISTS: when text introduces a list (usually ends with a colon, for example 'The USDA CIO will:'), emit the introducing text as one statement with statement_kind 'lead_in', and emit EVERY item of the list as its own statement with statement_kind 'list_item' and parent_statement_id set to the id of the lead_in. Never skip list items, including lists of legal authorities. For a list inside a list, parent_statement_id is the immediate parent. (c) NEVER merge text from different sentences, paragraphs, or list items into one statement. (d) Copy text exactly; do not summarize. (e) PRONOUNS: when a sentence's subject is a pronoun ('It', 'Its', 'They') that refers to a named actor in the preceding sentence, resolve it: set actor_name to that actor and actor_basis to resolved_from_prior_sentence. (f) DOCUMENT AS SUBJECT: when the grammatical subject is the document itself ('This DR', 'This policy', 'Nothing in this DR'), leave actor_name out; the entities the document acts on belong in target.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "statement_id": {
+                "type": "string",
+                "description": "Printed numbering path of the statement: section number, then paragraph letter, then item number in parentheses, for example '1', '3.a', '5.d.s2', '6.a(1)'. Add '.sN' only when a paragraph contains more than one sentence. Must be unique within the document."
+              },
+              "statement_kind": {
+                "type": "string",
+                "description": "standalone: a complete sentence that stands on its own. lead_in: text that introduces a list and is incomplete without its items. list_item: a list item that completes its lead_in.",
+                "enum": [
+                  "standalone",
+                  "lead_in",
+                  "list_item"
+                ]
+              },
+              "parent_statement_id": {
+                "type": "string",
+                "description": "Include ONLY when statement_kind is list_item: the statement_id of its immediate lead_in. For every other statement leave this field out entirely; never return an empty string."
+              },
+              "section_number": {
+                "type": "string",
+                "description": "Number of the section containing the statement, digits only, for example '6'."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Title of the section containing the statement, as shown in the table of contents, for example 'Roles and Responsibilities'."
+              },
+              "source_text": {
+                "type": "string",
+                "description": "VERBATIM text of this one sentence or list item exactly as printed, including trailing punctuation such as ':' or ';' and including any list-ending words such as 'and'. No paraphrase, no ellipses, no text from any other statement. For a list_item, give only the item's own text, not the lead_in."
+              },
+              "statement_function": {
+                "type": "string",
+                "description": "What the statement does. obligation: a required action or compliance requirement on an actor. responsibility: a standing duty or function assigned to an actor, including present-tense descriptions of what a body does. role_designation: assigns an entity to a role, for example membership or voting status. authority: names a legal source of authority or a grant of authority. scope: states what or whom the document applies to. purpose: states why the document or a body exists. definition: defines a term. condition: states a standalone triggering condition. exception: carves out an exception. savings_clause: states that the document does not displace existing authorities or delegations. effectivity: states when the document takes effect or how long it lasts. supersession: states that the document replaces another. classification_rule: states a rule that classifies something or applies a requirement when a status is met. reference: points to another document or location. inquiry: tells who may be contacted. container: use for every lead_in statement. other: none of the above.",
+                "enum": [
+                  "obligation",
+                  "responsibility",
+                  "role_designation",
+                  "authority",
+                  "scope",
+                  "purpose",
+                  "definition",
+                  "condition",
+                  "exception",
+                  "savings_clause",
+                  "effectivity",
+                  "supersession",
+                  "classification_rule",
+                  "reference",
+                  "inquiry",
+                  "container",
+                  "other"
+                ]
+              },
+              "modal_verb": {
+                "type": "string",
+                "description": "The modal word or phrase of the statement's MAIN clause, exactly as written, for example 'will', 'can', 'may', 'must', 'shall', 'must not'. Ignore modals inside relative or subordinate clauses (for 'advises the USDA CIO on IT matters that may become IT investments', the 'may' is not the statement's modal). For a list_item whose own text has no modal, copy the modal from its lead_in. Leave out if the main clause has no modal."
+              },
+              "modal_use": {
+                "type": "string",
+                "description": "deontic: the main-clause modal directs, permits, or prohibits action by an actor (for example 'The Deputy CIO will serve', 'can direct questions'). predictive: the modal only states what will happen or remain true (for example 'It will remain in effect until superseded'). none: the main clause has no modal.",
+                "enum": [
+                  "deontic",
+                  "predictive",
+                  "none"
+                ]
+              },
+              "normative_force": {
+                "type": "string",
+                "description": "mandatory: deontic 'will', 'shall', or 'must' directing an actor to act or to serve in a role. prohibitive: deontic 'must not', 'shall not', or 'may not'. permissive: deontic 'may' or 'can'. assigned: a present-tense statement with no deontic modal that assigns or describes a function, duty, or role of a named actor (for example 'The CIO Council advises the USDA CIO on...', 'It assesses the needs of...'); use it only when actor_name is present, and never for purpose statements. descriptive: everything else with no deontic force, including purpose, scope, supersession, effectivity, savings clauses, references, authorities, definitions, and statements about the document itself or about other documents. not_applicable: use for every lead_in; its force is carried by its list_items.",
+                "enum": [
+                  "mandatory",
+                  "prohibitive",
+                  "permissive",
+                  "assigned",
+                  "descriptive",
+                  "not_applicable"
+                ]
+              },
+              "actor_name": {
+                "type": "string",
+                "description": "The entity directed to act, permitted to act, or assigned a function or role by this statement, spelled exactly as in the matching actors[].name. It must appear in source_text or in the lead_in's text (leading article removed); for a resolved pronoun, copy it from the antecedent sentence. Leave out when the statement binds no actor: scope, supersession, effectivity, savings clauses, statements about documents (including bylaws), and any statement whose subject is the document itself ('This DR', 'This policy', 'Nothing in this DR'). Never supply an actor that is not stated in the text or resolvable from the preceding sentence. Always leave out for lead_in statements."
+              },
+              "actor_basis": {
+                "type": "string",
+                "description": "Include ONLY when actor_name is present; otherwise leave this field out entirely. explicit_in_statement: the actor appears in this statement's own source_text. inherited_from_lead_in: the actor appears only in the lead_in that this list_item completes. resolved_from_prior_sentence: the subject is a pronoun resolved to the actor named in the preceding sentence.",
+                "enum": [
+                  "explicit_in_statement",
+                  "inherited_from_lead_in",
+                  "resolved_from_prior_sentence"
+                ]
+              },
+              "target": {
+                "type": "string",
+                "description": "VERBATIM phrase naming what the action is directed at or what the statement applies to, starting at the first word after any leading article ('a', 'an', 'the'). For a role_designation, the body or unit the role is within (for example 'CIO Council'). Leave out if none."
+              },
+              "resulting_status": {
+                "type": "string",
+                "description": "VERBATIM phrase naming the status or role that a role_designation or classification_rule confers, for example 'voting member' or 'advisory (non-voting) members'. Leave out for other statements."
+              },
+              "conditions": {
+                "type": "array",
+                "description": "VERBATIM phrases that restrict when or to what the statement applies, for example 'that the CIO Council designates as enterprise initiatives'. Do NOT treat a non-restrictive descriptive phrase set off by commas (for example 'appointed by the USDA CIO' in 'The Secretariat, appointed by the USDA CIO, will serve') as a condition. Leave out if there are none.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim condition phrase copied from source_text."
+                }
+              },
+              "cross_references": {
+                "type": "array",
+                "description": "Other documents, laws, or regulations cited in source_text, each copied verbatim as ONE entry per cited authority, including its code citation (for example 'The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) § 11101 et seq.' is one entry; for a list_item that is just a citation, the entry is the item text without the trailing ';' or 'and'). Never add a separate entry for a title that is part of the same citation (the words 'Chief Information Officer' after '7 CFR § 2.32'). Never list generic categories such as 'law' or 'Federal regulation'. Leave out if none.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim cited authority."
+                }
+              }
+            },
+            "required": [
+              "statement_id",
+              "statement_kind",
+              "section_number",
+              "section_title",
+              "source_text",
+              "statement_function",
+              "modal_use",
+              "normative_force"
+            ]
+          }
+        },
+        "acronyms": {
+          "type": "array",
+          "description": "Acronyms and abbreviations listed in the acronym appendix, one entry per row, in order. Return an empty list if the document has no acronym appendix.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "acronym": {
+                "type": "string",
+                "description": "Acronym or abbreviation exactly as printed."
+              },
+              "definition": {
+                "type": "string",
+                "description": "Meaning exactly as printed."
+              }
+            },
+            "required": [
+              "acronym",
+              "definition"
+            ]
+          }
+        },
+        "authorities_and_references": {
+          "type": "array",
+          "description": "Entries of the Authorities and References appendix, one per entry, each copied verbatim, including any date, in order. Return an empty list if the document has no such appendix.",
+          "items": {
+            "type": "string",
+            "description": "One appendix entry exactly as printed, joined across line breaks."
+          }
+        }
+      },
+      "required": [
+        "document_type",
+        "issuing_organization",
+        "issuing_location",
+        "regulation_number",
+        "subject",
+        "issue_date",
+        "opi",
+        "table_of_contents",
+        "actors",
+        "policy_statements",
+        "acronyms",
+        "authorities_and_references"
+      ]
+    },
+    "extraction_target": "per_doc",
+    "system_prompt": null,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "advanced_citations": true,
+    "granular_bboxes": [],
+    "spreadsheet_mode": false,
+    "sheet_names": null,
+    "validators": null,
+    "model_policy": null,
+    "parse_tier": "agentic",
+    "parse_config_id": null,
+    "extract_version": "2.6"
+  },
+  "status": "COMPLETED",
+  "error_message": null,
+  "extract_result": {
+    "document_type": "DEPARTMENTAL MANUAL",
+    "issuing_organization": "U.S. DEPARTMENT OF AGRICULTURE",
+    "issuing_location": "WASHINGTON, D.C. 20250",
+    "regulation_number": "DM 3510-000",
+    "subject": "USDA Information Technology (IT) Restricted Space",
+    "issue_date": "August 19, 2004",
+    "opi": "OCIO, Cyber Security",
+    "scope": "This manual applies to all USDA agencies, programs, teams, organizations, appointees, employees, and other activities.",
+    "purpose": "This Departmental Manual establishes policy and procedures for physical security standards within Information Technology (IT) Restricted Space. This refers to special use space in USDA facilities that house web farms, computer or telecommunications equipment/devices and the general security employed surrounding these areas. This policy and guidance represents minimum physical security standards for all IT Restricted Space in USDA. Cyber Security (CS) does not have direct responsibility for the control of physical security in USDA facilities. However, CS is responsible for security of the critical IT Infrastructure resident in these facilities. In order to meet the regulatory requirements for the infrastructure outlined below, we are publishing this policy and guidance.\n\nPart 1 identifies procedures for controlling and securing all IT Restricted Space, which can include by are not limited to, Computing Facilities, Web Farms, Telecommunications/Magnetic Media Rooms, Sensitive Compartmented Information Facilities (SCIF), and Isolation Zones. It also establishes a requirement for formal coordination with Cyber Security concerning the design and construction of all new IT Restricted Space in USDA.",
+    "table_of_contents": [
+      {
+        "section_number": "Chapter 2",
+        "section_title": "General Information"
+      },
+      {
+        "section_number": "1",
+        "section_title": "Purpose",
+        "page": "1"
+      },
+      {
+        "section_number": "2",
+        "section_title": "Cancellation",
+        "page": "1"
+      },
+      {
+        "section_number": "3",
+        "section_title": "Scope",
+        "page": "2"
+      },
+      {
+        "section_number": "4",
+        "section_title": "Abbreviations",
+        "page": "2"
+      },
+      {
+        "section_number": "3510-001",
+        "section_title": "Part I – Physical Security Standards for Information Technology (IT) Restricted Space"
+      },
+      {
+        "section_number": "1",
+        "section_title": "Background",
+        "page": "1"
+      },
+      {
+        "section_number": "2",
+        "section_title": "Policy",
+        "page": "1"
+      },
+      {
+        "section_number": "3",
+        "section_title": "Procedures",
+        "page": "2"
+      },
+      {
+        "section_number": "4",
+        "section_title": "Responsibilities",
+        "page": "6"
+      }
+    ],
+    "actors": [
+      {
+        "name": "CS",
+        "actor_type": "office",
+        "binding_status": "bound_by_this_document"
+      }
+    ],
+    "policy_statements": [
+      {
+        "statement_id": "1.s1",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "Purpose",
+        "source_text": "This Departmental Manual establishes policy and procedures for physical security standards within Information Technology (IT) Restricted Space.",
+        "statement_function": "purpose",
+        "modal_use": "none",
+        "normative_force": "descriptive"
+      },
+      {
+        "statement_id": "1.s2",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "Purpose",
+        "source_text": "This refers to special use space in USDA facilities that house web farms, computer or telecommunications equipment/devices and the general security employed surrounding these areas.",
+        "statement_function": "definition",
+        "modal_use": "none",
+        "normative_force": "descriptive"
+      },
+      {
+        "statement_id": "1.s3",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "Purpose",
+        "source_text": "This policy and guidance represents minimum physical security standards for all IT Restricted Space in USDA.",
+        "statement_function": "scope",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "target": "all IT Restricted Space in USDA"
+      },
+      {
+        "statement_id": "1.s4",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "Purpose",
+        "source_text": "Cyber Security (CS) does not have direct responsibility for the control of physical security in USDA facilities.",
+        "statement_function": "responsibility",
+        "modal_use": "none",
+        "normative_force": "assigned",
+        "actor_name": "CS",
+        "actor_basis": "explicit_in_statement",
+        "target": "the control of physical security in USDA facilities"
+      },
+      {
+        "statement_id": "1.s5",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "Purpose",
+        "source_text": "However, CS is responsible for security of the critical IT Infrastructure resident in these facilities.",
+        "statement_function": "responsibility",
+        "modal_use": "none",
+        "normative_force": "assigned",
+        "actor_name": "CS",
+        "actor_basis": "explicit_in_statement",
+        "target": "security of the critical IT Infrastructure resident in these facilities"
+      },
+      {
+        "statement_id": "1.s6",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "Purpose",
+        "source_text": "In order to meet the regulatory requirements for the infrastructure outlined below, we are publishing this policy and guidance.",
+        "statement_function": "purpose",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "conditions": [
+          "In order to meet the regulatory requirements for the infrastructure outlined below"
+        ]
+      },
+      {
+        "statement_id": "1.s7",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "Purpose",
+        "source_text": "Part 1 identifies procedures for controlling and securing all IT Restricted Space, which can include by are not limited to, Computing Facilities, Web Farms, Telecommunications/Magnetic Media Rooms, Sensitive Compartmented Information Facilities (SCIF), and Isolation Zones.",
+        "statement_function": "purpose",
+        "modal_use": "none",
+        "normative_force": "descriptive"
+      },
+      {
+        "statement_id": "1.s8",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "Purpose",
+        "source_text": "It also establishes a requirement for formal coordination with Cyber Security concerning the design and construction of all new IT Restricted Space in USDA.",
+        "statement_function": "purpose",
+        "modal_use": "none",
+        "normative_force": "descriptive"
+      },
+      {
+        "statement_id": "2",
+        "statement_kind": "standalone",
+        "section_number": "2",
+        "section_title": "Cancellation",
+        "source_text": "This Departmental Manual will be in effect until superseded.",
+        "statement_function": "effectivity",
+        "modal_verb": "will",
+        "modal_use": "predictive",
+        "normative_force": "descriptive",
+        "conditions": [
+          "until superseded"
+        ]
+      },
+      {
+        "statement_id": "3",
+        "statement_kind": "standalone",
+        "section_number": "3",
+        "section_title": "Scope",
+        "source_text": "This manual applies to all USDA agencies, programs, teams, organizations, appointees, employees, and other activities.",
+        "statement_function": "scope",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "target": "all USDA agencies, programs, teams, organizations, appointees, employees, and other activities"
+      }
+    ],
+    "acronyms": [],
+    "authorities_and_references": []
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "document_type": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "DEPARTMENTAL MANUAL",
+              "bounding_boxes": [
+                {
+                  "x": 120.2941882610321,
+                  "y": 93.57746386528015,
+                  "w": 266.4831540584564,
+                  "h": 17.032573744654655
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8728185462339751,
+          "extraction_confidence": 0.8728185462339751
+        },
+        "issuing_organization": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "U.S. DEPARTMENT OF AGRICULTURE",
+              "bounding_boxes": [
+                {
+                  "x": 234.3791205883026,
+                  "y": 51.254957020282745,
+                  "w": 142.25189065933228,
+                  "h": 7.380081474781036
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8267951788297941,
+          "extraction_confidence": 0.8267951788297941
+        },
+        "issuing_location": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "WASHINGTON, D.C. 20250",
+              "bounding_boxes": [
+                {
+                  "x": 251.94968175888062,
+                  "y": 61.15495938062668,
+                  "w": 104.88352847099304,
+                  "h": 8.370080530643463
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8111555699736459,
+          "extraction_confidence": 0.8111555699736459
+        },
+        "regulation_number": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "DM 3510-000",
+              "bounding_boxes": [
+                {
+                  "x": 480.119509935379,
+                  "y": 15.367460265755653,
+                  "w": 58.358630418777466,
+                  "h": 8.617578819394112
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.7794665545181554,
+          "extraction_confidence": 0.7794665545181554
+        },
+        "subject": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "USDA INFORMATION TECHNOLOGY (IT) RESTRICTED SPACE",
+              "bounding_boxes": [
+                {
+                  "x": 139.844540476799,
+                  "y": 74.27246457338333,
+                  "w": 332.5584225654602,
+                  "h": 12.825074806809425
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.874287240016674,
+          "extraction_confidence": 0.874287240016674
+        },
+        "issue_date": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "August 19, 2004",
+              "bounding_boxes": [
+                {
+                  "x": 71.29460155963898,
+                  "y": 15.119960501790047,
+                  "w": 67.76260140538216,
+                  "h": 10.84507890790701
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.7583133918524446,
+          "extraction_confidence": 0.7583133918524446
+        },
+        "opi": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "OCIO, Cyber Security",
+              "bounding_boxes": [
+                {
+                  "x": 377.91325092315674,
+                  "y": 146.04746103286743,
+                  "w": 90.7776153087616,
+                  "h": 10.597578406333923
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9040398837685008,
+          "extraction_confidence": 0.9040398837685008
+        },
+        "scope": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "This manual applies to all USDA agencies, programs, teams, organizations, appointees, employees, and other activities.",
+              "bounding_boxes": [
+                {
+                  "x": 107.17814326286316,
+                  "y": 118.82246339321136,
+                  "w": 426.350546836853,
+                  "h": 27.675068020820618
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.7923174387233236,
+          "extraction_confidence": 0.7923174387233236
+        },
+        "purpose": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "purpose",
+              "bounding_boxes": [
+                {
+                  "x": 135.36756975333603,
+                  "y": 270.765,
+                  "w": 390.01698342094625,
+                  "h": 309.6225
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8340955816908762,
+          "extraction_confidence": 0.8340955816908762
+        },
+        "table_of_contents": [
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Chapter 2",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.78954476118088,
+                      "y": 192.08246433734894,
+                      "w": 59.34853050112724,
+                      "h": 13.320074334740639
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.7924224314885475,
+              "extraction_confidence": 0.7924224314885475
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "General Information",
+                  "bounding_boxes": [
+                    {
+                      "x": 143.30916112661362,
+                      "y": 192.3299582004547,
+                      "w": 117.75206995010376,
+                      "h": 10.350074216723442
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8860272163342938,
+              "extraction_confidence": 0.8860272163342938
+            },
+            "page": {
+              "confidence": 0.9956315974479177,
+              "extraction_confidence": 0.9956315974479177
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.03,
+                      "y": 208.1,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.918759294552961,
+              "extraction_confidence": 0.918759294552961
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9344673240507813,
+              "extraction_confidence": 0.9344673240507813
+            },
+            "page": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 468.2408001422882,
+                      "y": 207.42747330665588,
+                      "w": 4.904582262039185,
+                      "h": 9.85507321357727
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9664554171082999,
+              "extraction_confidence": 0.9664554171082999
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.88,
+                      "y": 222.72,
+                      "w": 6.180000000000007,
+                      "h": 8.460000000000008
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9544510571339859,
+              "extraction_confidence": 0.9544510571339859
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Cancellation",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 221.78247141838074,
+                      "w": 75.68172910809517,
+                      "h": 10.350074216723442
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9526002656923951,
+              "extraction_confidence": 0.9526002656923951
+            },
+            "page": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 469.06,
+                      "y": 222.81,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9763824258125299,
+              "extraction_confidence": 0.9763824258125299
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.98,
+                      "y": 237.42,
+                      "w": 6.060000000000002,
+                      "h": 8.580000000000013
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9367832109125368,
+              "extraction_confidence": 0.9367832109125368
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Scope",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 236.1374695301056,
+                      "w": 38.06587480008602,
+                      "h": 13.320074334740639
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9462234709202287,
+              "extraction_confidence": 0.9462234709202287
+            },
+            "page": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 468.9,
+                      "y": 237.42,
+                      "w": 6.180000000000007,
+                      "h": 8.460000000000008
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9754332685098838,
+              "extraction_confidence": 0.9754332685098838
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "4",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.78954476118088,
+                      "y": 251.48246669769287,
+                      "w": 6.884318590164185,
+                      "h": 10.10257887840271
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9371398713695244,
+              "extraction_confidence": 0.9371398713695244
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Abbreviations",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 251.23496103286743,
+                      "w": 81.72006261348724,
+                      "h": 10.350088968873024
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9597943133909177,
+              "extraction_confidence": 0.9597943133909177
+            },
+            "page": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 467.74586606025696,
+                      "y": 251.23496103286743,
+                      "w": 6.884344808757305,
+                      "h": 10.350088968873024
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9765431835699575,
+              "extraction_confidence": 0.9765431835699575
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3510-001",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.03701636195183,
+                      "y": 295.2899544239044,
+                      "w": 48.95467311143875,
+                      "h": 10.350104458630085
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9329859757614575,
+              "extraction_confidence": 0.9329859757614575
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Part I – Physical Security Standards for Information Technology (IT) Restricted Space",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.03701636195183,
+                      "y": 309.6449525356293,
+                      "w": 438.47668719291687,
+                      "h": 27.922609090805054
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9421007088759982,
+              "extraction_confidence": 0.9421007088759982
+            },
+            "page": {
+              "confidence": 0.993378768655867,
+              "extraction_confidence": 0.993378768655867
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.03701636195183,
+                      "y": 354.44243931770325,
+                      "w": 4.904532104730606,
+                      "h": 9.855120420455933
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9415333785898583,
+              "extraction_confidence": 0.9415333785898583
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Background",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.92056262493134,
+                      "y": 353.9474515914917,
+                      "w": 71.22723117470741,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9569029718595236,
+              "extraction_confidence": 0.9569029718595236
+            },
+            "page": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 468.2408001422882,
+                      "y": 354.44243931770325,
+                      "w": 4.904582262039185,
+                      "h": 9.855120420455933
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9680094860788907,
+              "extraction_confidence": 0.9680094860788907
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.88,
+                      "y": 369.84,
+                      "w": 6.180000000000007,
+                      "h": 8.45999999999998
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9567475562709317,
+              "extraction_confidence": 0.9567475562709317
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9461015368597814,
+              "extraction_confidence": 0.9461015368597814
+            },
+            "page": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 469.05,
+                      "y": 369.93,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9725295918981479,
+              "extraction_confidence": 0.9725295918981479
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.98,
+                      "y": 384.6,
+                      "w": 6.060000000000002,
+                      "h": 8.579999999999984
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9483131739145076,
+              "extraction_confidence": 0.9483131739145076
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Procedures",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 383.64744687080383,
+                      "w": 66.5747349858284,
+                      "h": 10.350104458630085
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.959605037914422,
+              "extraction_confidence": 0.959605037914422
+            },
+            "page": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 468.9,
+                      "y": 384.6,
+                      "w": 6.180000000000007,
+                      "h": 8.45999999999998
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9725813745338115,
+              "extraction_confidence": 0.9725813745338115
+            }
+          },
+          {
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "4",
+                  "bounding_boxes": [
+                    {
+                      "x": 71.78954476118088,
+                      "y": 398.7449383735657,
+                      "w": 6.884318590164185,
+                      "h": 10.102602481842041
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9357300042235751,
+              "extraction_confidence": 0.9357300042235751
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Responsibilities",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.92056262493134,
+                      "y": 398.49743270874023,
+                      "w": 85.18468326330185,
+                      "h": 12.82510431110859
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9504073412577648,
+              "extraction_confidence": 0.9504073412577648
+            },
+            "page": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "6",
+                  "bounding_boxes": [
+                    {
+                      "x": 467.74586606025696,
+                      "y": 398.7449383735657,
+                      "w": 7.379290290176868,
+                      "h": 10.350104458630085
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9524158098207826,
+              "extraction_confidence": 0.9524158098207826
+            }
+          }
+        ],
+        "actors": [
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "actors.0.name",
+                  "bounding_boxes": [
+                    {
+                      "x": 135.3900334239006,
+                      "y": 373.74745631217957,
+                      "w": 373.6387903690338,
+                      "h": 13.023085534572601
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8797903390710547,
+              "extraction_confidence": 0.8797903390710547
+            },
+            "actor_type": {
+              "confidence": 0.8496768632452983,
+              "extraction_confidence": 0.8496768632452983
+            },
+            "binding_status": {
+              "confidence": 0.5838651024222601,
+              "extraction_confidence": 0.5838651024222601
+            }
+          }
+        ],
+        "policy_statements": [
+          {
+            "statement_id": {
+              "confidence": 0.9478096737122879,
+              "extraction_confidence": 0.9478096737122879
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9541032830160457,
+              "extraction_confidence": 0.9541032830160457
+            },
+            "parent_statement_id": {
+              "confidence": 0.991601464056601,
+              "extraction_confidence": 0.991601464056601
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.03,
+                      "y": 208.1,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9307364456647074,
+              "extraction_confidence": 0.9307364456647074
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8219808878491386,
+              "extraction_confidence": 0.8219808878491386
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "This Departmental Manual establishes policy and procedures for physical security standards within Information Technology (IT) Restricted Space.",
+                  "bounding_boxes": [
+                    {
+                      "x": 135.71,
+                      "y": 272.1,
+                      "w": 370.22,
+                      "h": 40.69999999999999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9461689184497272,
+              "extraction_confidence": 0.9461689184497272
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8556364604077569,
+              "extraction_confidence": 0.8556364604077569
+            },
+            "modal_verb": {
+              "confidence": 0.9951348698506169,
+              "extraction_confidence": 0.9951348698506169
+            },
+            "modal_use": {
+              "confidence": 0.8536607148100889,
+              "extraction_confidence": 0.8536607148100889
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9318244997732312,
+              "extraction_confidence": 0.9318244997732312
+            },
+            "actor_name": {
+              "confidence": 0.9791836830525512,
+              "extraction_confidence": 0.9791836830525512
+            },
+            "actor_basis": {
+              "confidence": 0.9928208651676774,
+              "extraction_confidence": 0.9928208651676774
+            },
+            "target": {
+              "confidence": 0.9928219092636109,
+              "extraction_confidence": 0.9928219092636109
+            },
+            "resulting_status": {
+              "confidence": 0.9917168786200478,
+              "extraction_confidence": 0.9917168786200478
+            }
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9583403653193542,
+              "extraction_confidence": 0.9583403653193542
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9407606357763925,
+              "extraction_confidence": 0.9407606357763925
+            },
+            "parent_statement_id": {
+              "confidence": 0.9942397101298758,
+              "extraction_confidence": 0.9942397101298758
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.03,
+                      "y": 208.1,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9281829222840645,
+              "extraction_confidence": 0.9281829222840645
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9036556614783017,
+              "extraction_confidence": 0.9036556614783017
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "This refers to special use space in USDA facilities that house web farms, computer or telecommunications equipment/devices and the general security employed surrounding these areas.",
+                  "bounding_boxes": [
+                    {
+                      "x": 135.85,
+                      "y": 301.51,
+                      "w": 387.28999999999996,
+                      "h": 55.59000000000003
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.955533320137614,
+              "extraction_confidence": 0.955533320137614
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8653739463640652,
+              "extraction_confidence": 0.8653739463640652
+            },
+            "modal_verb": {
+              "confidence": 0.9962190608097723,
+              "extraction_confidence": 0.9962190608097723
+            },
+            "modal_use": {
+              "confidence": 0.8298896367023791,
+              "extraction_confidence": 0.8298896367023791
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9263532350758674,
+              "extraction_confidence": 0.9263532350758674
+            },
+            "actor_name": {
+              "confidence": 0.9850470406204209,
+              "extraction_confidence": 0.9850470406204209
+            },
+            "actor_basis": {
+              "confidence": 0.9953032072974025,
+              "extraction_confidence": 0.9953032072974025
+            },
+            "target": {
+              "confidence": 0.9950559420517219,
+              "extraction_confidence": 0.9950559420517219
+            },
+            "resulting_status": {
+              "confidence": 0.9941107995866829,
+              "extraction_confidence": 0.9941107995866829
+            }
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9713948214828132,
+              "extraction_confidence": 0.9713948214828132
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9610219500829461,
+              "extraction_confidence": 0.9610219500829461
+            },
+            "parent_statement_id": {
+              "confidence": 0.9974687313263589,
+              "extraction_confidence": 0.9974687313263589
+            },
+            "section_number": {
+              "confidence": 0.9263024877727035,
+              "extraction_confidence": 0.9263024877727035
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9196424216965658,
+              "extraction_confidence": 0.9196424216965658
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "This policy and guidance represents minimum physical security standards for all IT Restricted Space in USDA.",
+                  "bounding_boxes": [
+                    {
+                      "x": 136.27,
+                      "y": 345.66,
+                      "w": 371.16999999999996,
+                      "h": 38.14999999999998
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9611220271496701,
+              "extraction_confidence": 0.9611220271496701
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Scope",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 236.1374695301056,
+                      "w": 38.06587480008602,
+                      "h": 13.320074334740639
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9450879086269981,
+              "extraction_confidence": 0.9450879086269981
+            },
+            "modal_verb": {
+              "confidence": 0.9975478873141658,
+              "extraction_confidence": 0.9975478873141658
+            },
+            "modal_use": {
+              "confidence": 0.8621099966917507,
+              "extraction_confidence": 0.8621099966917507
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9404924737876951,
+              "extraction_confidence": 0.9404924737876951
+            },
+            "actor_name": {
+              "confidence": 0.9903983375967579,
+              "extraction_confidence": 0.9903983375967579
+            },
+            "actor_basis": {
+              "confidence": 0.9970079042962225,
+              "extraction_confidence": 0.9970079042962225
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "all IT Restricted Space in USDA",
+                  "bounding_boxes": [
+                    {
+                      "x": 135.3900334239006,
+                      "y": 359.3924582004547,
+                      "w": 373.6387903690338,
+                      "h": 26.58609974384308
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9099341571539267,
+              "extraction_confidence": 0.9099341571539267
+            },
+            "resulting_status": {
+              "confidence": 0.9965833180133966,
+              "extraction_confidence": 0.9965833180133966
+            }
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9710386530779175,
+              "extraction_confidence": 0.9710386530779175
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9632466321811934,
+              "extraction_confidence": 0.9632466321811934
+            },
+            "parent_statement_id": {
+              "confidence": 0.997740931177436,
+              "extraction_confidence": 0.997740931177436
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.03,
+                      "y": 208.1,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9503008503695262,
+              "extraction_confidence": 0.9503008503695262
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9271767811150776,
+              "extraction_confidence": 0.9271767811150776
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Cyber Security (CS) does not have direct responsibility for the control of physical security in USDA facilities.",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.89508110284805,
+                      "y": 373.4999506473541,
+                      "w": 374.13383388519287,
+                      "h": 28.665105432271957
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9552463659645067,
+              "extraction_confidence": 0.9552463659645067
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "responsibility",
+                  "bounding_boxes": [
+                    {
+                      "x": 417.01395535469055,
+                      "y": 373.9949383735657,
+                      "w": 74.98881956934929,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9278903233678936,
+              "extraction_confidence": 0.9278903233678936
+            },
+            "modal_verb": {
+              "confidence": 0.9980610820628105,
+              "extraction_confidence": 0.9980610820628105
+            },
+            "modal_use": {
+              "confidence": 0.8596612279224137,
+              "extraction_confidence": 0.8596612279224137
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9093899060785395,
+              "extraction_confidence": 0.9093899060785395
+            },
+            "actor_name": {
+              "confidence": 0.9536157972531498,
+              "extraction_confidence": 0.9536157972531498
+            },
+            "actor_basis": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9241895728430515,
+              "extraction_confidence": 0.9241895728430515
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "the control of physical security in USDA facilities",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.89508110284805,
+                      "y": 388.8449478149414,
+                      "w": 277.1245468854904,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9149322000546513,
+              "extraction_confidence": 0.9149322000546513
+            },
+            "resulting_status": {
+              "confidence": 0.9972560254664447,
+              "extraction_confidence": 0.9972560254664447
+            }
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.967963456707161,
+              "extraction_confidence": 0.967963456707161
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9584777588993417,
+              "extraction_confidence": 0.9584777588993417
+            },
+            "parent_statement_id": {
+              "confidence": 0.9975332064272101,
+              "extraction_confidence": 0.9975332064272101
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.03,
+                      "y": 208.1,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9449732363677611,
+              "extraction_confidence": 0.9449732363677611
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.924520167702715,
+              "extraction_confidence": 0.924520167702715
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "However, CS is responsible for security of the critical IT Infrastructure resident in these facilities.",
+                  "bounding_boxes": [
+                    {
+                      "x": 136.09,
+                      "y": 389.81,
+                      "w": 371.91999999999996,
+                      "h": 38.160000000000025
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9538095265682462,
+              "extraction_confidence": 0.9538095265682462
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "responsibility",
+                  "bounding_boxes": [
+                    {
+                      "x": 417.01395535469055,
+                      "y": 373.9949383735657,
+                      "w": 74.98881956934929,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9269629643301242,
+              "extraction_confidence": 0.9269629643301242
+            },
+            "modal_verb": {
+              "confidence": 0.9980058279474145,
+              "extraction_confidence": 0.9980058279474145
+            },
+            "modal_use": {
+              "confidence": 0.8581790328989873,
+              "extraction_confidence": 0.8581790328989873
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9085268041324357,
+              "extraction_confidence": 0.9085268041324357
+            },
+            "actor_name": {
+              "confidence": 0.9498771185371195,
+              "extraction_confidence": 0.9498771185371195
+            },
+            "actor_basis": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9162551466250842,
+              "extraction_confidence": 0.9162551466250842
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "security of the critical IT Infrastructure resident in these facilities",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.89508110284805,
+                      "y": 403.69495725631714,
+                      "w": 390.961993932724,
+                      "h": 28.170102953910828
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9040057304286132,
+              "extraction_confidence": 0.9040057304286132
+            },
+            "resulting_status": {
+              "confidence": 0.9971313656849894,
+              "extraction_confidence": 0.9971313656849894
+            }
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9677953075859954,
+              "extraction_confidence": 0.9677953075859954
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9559983171329332,
+              "extraction_confidence": 0.9559983171329332
+            },
+            "parent_statement_id": {
+              "confidence": 0.9944797723739548,
+              "extraction_confidence": 0.9944797723739548
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.03,
+                      "y": 208.1,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9394034490765826,
+              "extraction_confidence": 0.9394034490765826
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8477041581714633,
+              "extraction_confidence": 0.8477041581714633
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "In order to meet the regulatory requirements for the infrastructure outlined below, we are publishing this policy and guidance.",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.89508110284805,
+                      "y": 418.54496669769287,
+                      "w": 390.961993932724,
+                      "h": 42.525074511766434
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9384360851079698,
+              "extraction_confidence": 0.9384360851079698
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8947029790372216,
+              "extraction_confidence": 0.8947029790372216
+            },
+            "modal_verb": {
+              "confidence": 0.9960864054671085,
+              "extraction_confidence": 0.9960864054671085
+            },
+            "modal_use": {
+              "confidence": 0.8354830279718093,
+              "extraction_confidence": 0.8354830279718093
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9421208683830723,
+              "extraction_confidence": 0.9421208683830723
+            },
+            "actor_name": {
+              "confidence": 0.9839722531631692,
+              "extraction_confidence": 0.9839722531631692
+            },
+            "actor_basis": {
+              "confidence": 0.9946166688042801,
+              "extraction_confidence": 0.9946166688042801
+            },
+            "target": {
+              "confidence": 0.9944465361213759,
+              "extraction_confidence": 0.9944465361213759
+            },
+            "resulting_status": {
+              "confidence": 0.9943801954779201,
+              "extraction_confidence": 0.9943801954779201
+            },
+            "conditions": [
+              {
+                "citation": [
+                  {
+                    "page": 2,
+                    "matching_text": "In order to meet the regulatory requirements for the infrastructure outlined below",
+                    "bounding_boxes": [
+                      {
+                        "x": 134.89508110284805,
+                        "y": 418.54496669769287,
+                        "w": 390.961993932724,
+                        "h": 27.675044417381287
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.8021107459466397,
+                "extraction_confidence": 0.8021107459466397
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9616032861759903,
+              "extraction_confidence": 0.9616032861759903
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9237456465868059,
+              "extraction_confidence": 0.9237456465868059
+            },
+            "parent_statement_id": {
+              "confidence": 0.9933891463950166,
+              "extraction_confidence": 0.9933891463950166
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.03,
+                      "y": 208.1,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9418455304640013,
+              "extraction_confidence": 0.9418455304640013
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8682647860021807,
+              "extraction_confidence": 0.8682647860021807
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "Part 1 identifies procedures for controlling and securing all IT Restricted Space, which can include by are not limited to, Computing Facilities, Web Farms, Telecommunications/Magnetic Media Rooms, Sensitive Compartmented Information Facilities (SCIF), and Isolation Zones.",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.89508110284805,
+                      "y": 477.4499931335449,
+                      "w": 378.5882771015167,
+                      "h": 71.7300437092781
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9639586533169461,
+              "extraction_confidence": 0.9639586533169461
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8851553965222023,
+              "extraction_confidence": 0.8851553965222023
+            },
+            "modal_verb": {
+              "confidence": 0.9959896331745994,
+              "extraction_confidence": 0.9959896331745994
+            },
+            "modal_use": {
+              "confidence": 0.7639471319283329,
+              "extraction_confidence": 0.7639471319283329
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9257300799279777,
+              "extraction_confidence": 0.9257300799279777
+            },
+            "actor_name": {
+              "confidence": 0.9838354025828604,
+              "extraction_confidence": 0.9838354025828604
+            },
+            "actor_basis": {
+              "confidence": 0.9954570146670428,
+              "extraction_confidence": 0.9954570146670428
+            },
+            "target": {
+              "confidence": 0.9949176995414067,
+              "extraction_confidence": 0.9949176995414067
+            },
+            "resulting_status": {
+              "confidence": 0.9935917136491171,
+              "extraction_confidence": 0.9935917136491171
+            }
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9662691018684936,
+              "extraction_confidence": 0.9662691018684936
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9443760731457734,
+              "extraction_confidence": 0.9443760731457734
+            },
+            "parent_statement_id": {
+              "confidence": 0.9939138174045322,
+              "extraction_confidence": 0.9939138174045322
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 73.03,
+                      "y": 208.1,
+                      "w": 3.3799999999999955,
+                      "h": 8.379999999999995
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9494684594895901,
+              "extraction_confidence": 0.9494684594895901
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8777679389269796,
+              "extraction_confidence": 0.8777679389269796
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "It also establishes a requirement for formal coordination with Cyber Security concerning the design and construction of all new IT Restricted Space in USDA.",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.89508110284805,
+                      "y": 535.3649969100952,
+                      "w": 365.7197721004486,
+                      "h": 43.02004453539848
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9567042235327651,
+              "extraction_confidence": 0.9567042235327651
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Purpose",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 207.17996764183044,
+                      "w": 46.4799479842186,
+                      "h": 12.825074806809425
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8961439230669334,
+              "extraction_confidence": 0.8961439230669334
+            },
+            "modal_verb": {
+              "confidence": 0.9962662849520283,
+              "extraction_confidence": 0.9962662849520283
+            },
+            "modal_use": {
+              "confidence": 0.8145138027384687,
+              "extraction_confidence": 0.8145138027384687
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9411087004379478,
+              "extraction_confidence": 0.9411087004379478
+            },
+            "actor_name": {
+              "confidence": 0.9853031735525312,
+              "extraction_confidence": 0.9853031735525312
+            },
+            "actor_basis": {
+              "confidence": 0.9954093558166344,
+              "extraction_confidence": 0.9954093558166344
+            },
+            "target": {
+              "confidence": 0.9949607926691089,
+              "extraction_confidence": 0.9949607926691089
+            },
+            "resulting_status": {
+              "confidence": 0.9942144450871628,
+              "extraction_confidence": 0.9942144450871628
+            }
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.88,
+                      "y": 222.72,
+                      "w": 6.180000000000007,
+                      "h": 8.460000000000008
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.962660235768903,
+              "extraction_confidence": 0.962660235768903
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "policy_statements.8.statement_kind",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.89508110284805,
+                      "y": 638.9684228897095,
+                      "w": 345.4270005226135,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9685899427192922,
+              "extraction_confidence": 0.9685899427192922
+            },
+            "parent_statement_id": {
+              "confidence": 0.9980044423044757,
+              "extraction_confidence": 0.9980044423044757
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.88,
+                      "y": 222.72,
+                      "w": 6.180000000000007,
+                      "h": 8.460000000000008
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9264975773789885,
+              "extraction_confidence": 0.9264975773789885
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Cancellation",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 221.78247141838074,
+                      "w": 75.68172910809517,
+                      "h": 10.350074216723442
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9192802116824481,
+              "extraction_confidence": 0.9192802116824481
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "This Departmental Manual will be in effect until superseded.",
+                  "bounding_boxes": [
+                    {
+                      "x": 134.40013790130615,
+                      "y": 638.8199572563171,
+                      "w": 345.9219346046448,
+                      "h": 13.320043355226517
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9616584957870248,
+              "extraction_confidence": 0.9616584957870248
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8963298907471119,
+              "extraction_confidence": 0.8963298907471119
+            },
+            "modal_verb": {
+              "citation": [
+                {
+                  "page": 2,
+                  "matching_text": "will",
+                  "bounding_boxes": [
+                    {
+                      "x": 290.30793035030365,
+                      "y": 639.0674629211426,
+                      "w": 17.773144260048866,
+                      "h": 10.3500439748168
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9377186802384276,
+              "extraction_confidence": 0.9377186802384276
+            },
+            "modal_use": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9447762269129016,
+              "extraction_confidence": 0.9447762269129016
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9500671394669031,
+              "extraction_confidence": 0.9500671394669031
+            },
+            "actor_name": {
+              "confidence": 0.9916499746379078,
+              "extraction_confidence": 0.9916499746379078
+            },
+            "actor_basis": {
+              "confidence": 0.9972150996402765,
+              "extraction_confidence": 0.9972150996402765
+            },
+            "target": {
+              "confidence": 0.9973230745317504,
+              "extraction_confidence": 0.9973230745317504
+            },
+            "resulting_status": {
+              "confidence": 0.9974187064635269,
+              "extraction_confidence": 0.9974187064635269
+            },
+            "conditions": [
+              {
+                "citation": [
+                  {
+                    "page": 2,
+                    "matching_text": "until superseded",
+                    "bounding_boxes": [
+                      {
+                        "x": 382.1203365325928,
+                        "y": 638.8199572563171,
+                        "w": 98.44918477535248,
+                        "h": 13.320043355226517
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.8100611450854377,
+                "extraction_confidence": 0.8100611450854377
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.98,
+                      "y": 237.42,
+                      "w": 6.060000000000002,
+                      "h": 8.580000000000013
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9380919457532457,
+              "extraction_confidence": 0.9380919457532457
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.965127382061719,
+              "extraction_confidence": 0.965127382061719
+            },
+            "parent_statement_id": {
+              "confidence": 0.9971499325003633,
+              "extraction_confidence": 0.9971499325003633
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 72.98,
+                      "y": 237.42,
+                      "w": 6.060000000000002,
+                      "h": 8.580000000000013
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8900429138103929,
+              "extraction_confidence": 0.8900429138103929
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Scope",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 236.1374695301056,
+                      "w": 38.06587480008602,
+                      "h": 13.320074334740639
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8647924945190315,
+              "extraction_confidence": 0.8647924945190315
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "This manual applies to all USDA agencies, programs, teams, organizations, appointees, employees, and other activities.",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 118.82246339321136,
+                      "w": 426.350546836853,
+                      "h": 27.675068020820618
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9178364485596066,
+              "extraction_confidence": 0.9178364485596066
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Scope",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 236.1374695301056,
+                      "w": 38.06587480008602,
+                      "h": 13.320074334740639
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8888487727211358,
+              "extraction_confidence": 0.8888487727211358
+            },
+            "modal_verb": {
+              "confidence": 0.9977666364443686,
+              "extraction_confidence": 0.9977666364443686
+            },
+            "modal_use": {
+              "confidence": 0.8255338267612191,
+              "extraction_confidence": 0.8255338267612191
+            },
+            "normative_force": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Policy",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.16802966594696,
+                      "y": 368.549955368042,
+                      "w": 34.60125871002674,
+                      "h": 13.320103839039803
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9260005646270942,
+              "extraction_confidence": 0.9260005646270942
+            },
+            "actor_name": {
+              "confidence": 0.9906070342052602,
+              "extraction_confidence": 0.9906070342052602
+            },
+            "actor_basis": {
+              "confidence": 0.9972455828142371,
+              "extraction_confidence": 0.9972455828142371
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 3,
+                  "matching_text": "all USDA agencies, programs, teams, organizations, appointees, employees, and other activities",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 118.82246339321136,
+                      "w": 426.350546836853,
+                      "h": 27.675068020820618
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8546600150355552,
+              "extraction_confidence": 0.8546600150355552
+            },
+            "resulting_status": {
+              "confidence": 0.9969705487464374,
+              "extraction_confidence": 0.9969705487464374
+            }
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": null,
+    "parse_tier": "agentic"
+  },
+  "metadata": null,
+  "grounded_items": null,
+  "usage": {
+    "credits": 75.0,
+    "extract_credits": 45.0,
+    "parse_credits": 30.0
+  },
+  "created_at": "2026-10-25T21:19:39.319903Z",
+  "updated_at": "2026-10-25T21:21:11.283828Z",
+  "document_input_value": null
+}

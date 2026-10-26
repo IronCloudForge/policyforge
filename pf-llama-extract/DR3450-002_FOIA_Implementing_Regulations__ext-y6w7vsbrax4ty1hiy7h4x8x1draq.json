@@ -1,0 +1,2144 @@
+{
+  "file_input": null,
+  "id": "ext-y6w7vsbrax4ty1hiy7h4x8x1draq",
+  "project_id": null,
+  "configuration_id": null,
+  "configuration": {
+    "target_pages": null,
+    "max_pages": null,
+    "tier": "agentic",
+    "version": "2.6",
+    "disable_cache": false,
+    "data_schema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "title": "USDA Directive Extraction Schema v2.1 (DR/DM)",
+      "description": "Extracts metadata and structured policy statements from 3000 series USDA Departmental Regulation (DR) or Departmental Manual (DM). Governing rules: (1) Any field described as verbatim must be copied character-for-character from the source document. Never paraphrase, merge, abbreviate, summarize, or insert ellipses. (2) Do not infer. If the source does not support an optional field, leave the field out entirely. Never return an empty string or a guess. (3) Only the label fields in policy_statements (statement_kind, statement_function, modal_use, normative_force, actor_basis) are interpretations. Every other field is quoted or copied from the document.",
+      "additionalProperties": false,
+      "properties": {
+        "document_type": {
+          "type": "string",
+          "description": "Type of document as printed in the header, such as 'Departmental Regulation' or 'Departmental Manual'."
+        },
+        "issuing_organization": {
+          "type": "string",
+          "description": "Organization issuing the document, verbatim from the header."
+        },
+        "issuing_location": {
+          "type": "string",
+          "description": "Location of the issuing organization, verbatim from the header."
+        },
+        "regulation_number": {
+          "type": "string",
+          "description": "Official document number from the header, verbatim, for example 'DR 3105-001'."
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject or title of the document, verbatim from the header."
+        },
+        "issue_date": {
+          "type": "string",
+          "description": "Issue date from the header, as written."
+        },
+        "expiration_date": {
+          "type": "string",
+          "description": "Expiration date from the header, as written. Leave out if none is printed."
+        },
+        "opi": {
+          "type": "string",
+          "description": "Office of Primary Interest (OPI) from the header, verbatim."
+        },
+        "supersedes": {
+          "type": "object",
+          "description": "The prior document this document supersedes. Take all values from the supersession paragraph in the body (usually under Special Instructions/Cancellations), NOT from the header. Leave the whole object out if the document supersedes nothing.",
+          "additionalProperties": false,
+          "properties": {
+            "document_number": {
+              "type": "string",
+              "description": "Number of the superseded document as written in the supersession paragraph. If it is identical to this document's own number, still copy it from the supersession paragraph, not the header."
+            },
+            "document_title": {
+              "type": "string",
+              "description": "Title of the superseded document as written in the supersession paragraph."
+            },
+            "document_date": {
+              "type": "string",
+              "description": "Date of the superseded document as written in the supersession paragraph."
+            }
+          },
+          "required": [
+            "document_number"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "description": "The text of the Scope section, verbatim. Do not add words. Leave out if the document has no Scope section."
+        },
+        "purpose": {
+          "type": "string",
+          "description": "The text of the Purpose section, verbatim. Do not add words. Leave out if the document has no Purpose section."
+        },
+        "inquiries": {
+          "type": "object",
+          "description": "Contact information from the Inquiries section. Leave out any property the document does not state; never return an empty string.",
+          "additionalProperties": false,
+          "properties": {
+            "office": {
+              "type": "string",
+              "description": "Office or division named for inquiries, verbatim. Leave out if the document names no office."
+            },
+            "email": {
+              "type": "string",
+              "description": "Email address given for inquiries, verbatim, without trailing punctuation. Leave out if none is given."
+            }
+          }
+        },
+        "table_of_contents": {
+          "type": "array",
+          "description": "Top-level entries of the printed table of contents, in order, including appendices. Return an empty list if the document prints no table of contents.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "section_number": {
+                "type": "string",
+                "description": "Section or appendix identifier as printed, for example '1.' or 'Appendix A'."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Section or appendix title as printed in the table of contents."
+              },
+              "page": {
+                "type": "string",
+                "description": "Page number exactly as printed in the table of contents, for example '2' or 'A-1'. Copy it even if the section actually starts on a different page. Leave out if no page number is printed."
+              }
+            },
+            "required": [
+              "section_number",
+              "section_title"
+            ]
+          }
+        },
+        "actors": {
+          "type": "array",
+          "description": "Registry of every distinct entity that the policy text names in an acting role. One entry per entity. Include every entity used as actor_name in policy_statements. Also include entities the document names in a role without being directed to act (mark those mentioned_only). Documents (bylaws, regulations, directives) are NEVER actors and must not appear here. Return an empty list if the document names no actors.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "The entity's name exactly as written in the policy text, without a leading article ('the') and without a possessive. Keep a compound name intact if the document writes it as one phrase, for example 'USDA Mission Areas, agencies, and staff offices'. This is the join key used by actor_name in policy_statements, so spell it identically there."
+              },
+              "components": {
+                "type": "array",
+                "description": "ONLY for a name that joins separate entities with commas or 'and' (for example 'USDA Mission Areas, agencies, and staff offices' gives 'USDA Mission Areas', 'agencies', 'staff offices'). NEVER split a job title from the organization that qualifies it ('Director of IT, Office of the Inspector General' is ONE position), and never split an organization name from the position it modifies ('Office of the Chief Information Officer (OCIO) Associate CIOs (ACIO)' is ONE group). Each component is a verbatim substring of the name. Leave out for single entities.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim component of a compound actor name."
+                }
+              },
+              "actor_type": {
+                "type": "string",
+                "description": "Kind of entity. Use exactly one of: position (a job title, singular or plural, for example 'USDA CIO' or 'Mission Area Assistant CIOs'), office (an organizational unit, for example 'OCIO Executive Secretariat'), council_or_body (a council, committee, board, or similar body), group (a category of organizations or units, not job titles, for example 'USDA Mission Areas, agencies, and staff offices'), external_entity (an entity outside the document's authority), program_or_system (an IT initiative, system, program, or project that the document says must act or conform).",
+                "enum": [
+                  "position",
+                  "office",
+                  "council_or_body",
+                  "group",
+                  "external_entity",
+                  "program_or_system"
+                ]
+              },
+              "binding_status": {
+                "type": "string",
+                "description": "bound_by_this_document: the document directs, permits, or assigns a function or role to this entity and has authority over it. mentioned_only: the document names the entity but cannot or does not impose anything on it (for example a council or agency outside USDA that the document says a USDA body partners with).",
+                "enum": [
+                  "bound_by_this_document",
+                  "mentioned_only"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "actor_type",
+              "binding_status"
+            ]
+          }
+        },
+        "policy_statements": {
+          "type": "array",
+          "description": "Structured statements from the numbered body sections only (not the table of contents, not the appendices). RULES. (a) SENTENCES: emit one statement per sentence. If a paragraph has more than one sentence, give each its own statement with ids suffixed .s1, .s2, and so on. Abbreviations and legal citations ('U.S.C.', 'CFR', '§', 'et seq.') do not end a sentence. (b) LISTS: when text introduces a list (usually ends with a colon, for example 'The USDA CIO will:'), emit the introducing text as one statement with statement_kind 'lead_in', and emit EVERY item of the list as its own statement with statement_kind 'list_item' and parent_statement_id set to the id of the lead_in. Never skip list items, including lists of legal authorities. For a list inside a list, parent_statement_id is the immediate parent. (c) NEVER merge text from different sentences, paragraphs, or list items into one statement. (d) Copy text exactly; do not summarize. (e) PRONOUNS: when a sentence's subject is a pronoun ('It', 'Its', 'They') that refers to a named actor in the preceding sentence, resolve it: set actor_name to that actor and actor_basis to resolved_from_prior_sentence. (f) DOCUMENT AS SUBJECT: when the grammatical subject is the document itself ('This DR', 'This policy', 'Nothing in this DR'), leave actor_name out; the entities the document acts on belong in target.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "statement_id": {
+                "type": "string",
+                "description": "Printed numbering path of the statement: section number, then paragraph letter, then item number in parentheses, for example '1', '3.a', '5.d.s2', '6.a(1)'. Add '.sN' only when a paragraph contains more than one sentence. Must be unique within the document."
+              },
+              "statement_kind": {
+                "type": "string",
+                "description": "standalone: a complete sentence that stands on its own. lead_in: text that introduces a list and is incomplete without its items. list_item: a list item that completes its lead_in.",
+                "enum": [
+                  "standalone",
+                  "lead_in",
+                  "list_item"
+                ]
+              },
+              "parent_statement_id": {
+                "type": "string",
+                "description": "Include ONLY when statement_kind is list_item: the statement_id of its immediate lead_in. For every other statement leave this field out entirely; never return an empty string."
+              },
+              "section_number": {
+                "type": "string",
+                "description": "Number of the section containing the statement, digits only, for example '6'."
+              },
+              "section_title": {
+                "type": "string",
+                "description": "Title of the section containing the statement, as shown in the table of contents, for example 'Roles and Responsibilities'."
+              },
+              "source_text": {
+                "type": "string",
+                "description": "VERBATIM text of this one sentence or list item exactly as printed, including trailing punctuation such as ':' or ';' and including any list-ending words such as 'and'. No paraphrase, no ellipses, no text from any other statement. For a list_item, give only the item's own text, not the lead_in."
+              },
+              "statement_function": {
+                "type": "string",
+                "description": "What the statement does. obligation: a required action or compliance requirement on an actor. responsibility: a standing duty or function assigned to an actor, including present-tense descriptions of what a body does. role_designation: assigns an entity to a role, for example membership or voting status. authority: names a legal source of authority or a grant of authority. scope: states what or whom the document applies to. purpose: states why the document or a body exists. definition: defines a term. condition: states a standalone triggering condition. exception: carves out an exception. savings_clause: states that the document does not displace existing authorities or delegations. effectivity: states when the document takes effect or how long it lasts. supersession: states that the document replaces another. classification_rule: states a rule that classifies something or applies a requirement when a status is met. reference: points to another document or location. inquiry: tells who may be contacted. container: use for every lead_in statement. other: none of the above.",
+                "enum": [
+                  "obligation",
+                  "responsibility",
+                  "role_designation",
+                  "authority",
+                  "scope",
+                  "purpose",
+                  "definition",
+                  "condition",
+                  "exception",
+                  "savings_clause",
+                  "effectivity",
+                  "supersession",
+                  "classification_rule",
+                  "reference",
+                  "inquiry",
+                  "container",
+                  "other"
+                ]
+              },
+              "modal_verb": {
+                "type": "string",
+                "description": "The modal word or phrase of the statement's MAIN clause, exactly as written, for example 'will', 'can', 'may', 'must', 'shall', 'must not'. Ignore modals inside relative or subordinate clauses (for 'advises the USDA CIO on IT matters that may become IT investments', the 'may' is not the statement's modal). For a list_item whose own text has no modal, copy the modal from its lead_in. Leave out if the main clause has no modal."
+              },
+              "modal_use": {
+                "type": "string",
+                "description": "deontic: the main-clause modal directs, permits, or prohibits action by an actor (for example 'The Deputy CIO will serve', 'can direct questions'). predictive: the modal only states what will happen or remain true (for example 'It will remain in effect until superseded'). none: the main clause has no modal.",
+                "enum": [
+                  "deontic",
+                  "predictive",
+                  "none"
+                ]
+              },
+              "normative_force": {
+                "type": "string",
+                "description": "mandatory: deontic 'will', 'shall', or 'must' directing an actor to act or to serve in a role. prohibitive: deontic 'must not', 'shall not', or 'may not'. permissive: deontic 'may' or 'can'. assigned: a present-tense statement with no deontic modal that assigns or describes a function, duty, or role of a named actor (for example 'The CIO Council advises the USDA CIO on...', 'It assesses the needs of...'); use it only when actor_name is present, and never for purpose statements. descriptive: everything else with no deontic force, including purpose, scope, supersession, effectivity, savings clauses, references, authorities, definitions, and statements about the document itself or about other documents. not_applicable: use for every lead_in; its force is carried by its list_items.",
+                "enum": [
+                  "mandatory",
+                  "prohibitive",
+                  "permissive",
+                  "assigned",
+                  "descriptive",
+                  "not_applicable"
+                ]
+              },
+              "actor_name": {
+                "type": "string",
+                "description": "The entity directed to act, permitted to act, or assigned a function or role by this statement, spelled exactly as in the matching actors[].name. It must appear in source_text or in the lead_in's text (leading article removed); for a resolved pronoun, copy it from the antecedent sentence. Leave out when the statement binds no actor: scope, supersession, effectivity, savings clauses, statements about documents (including bylaws), and any statement whose subject is the document itself ('This DR', 'This policy', 'Nothing in this DR'). Never supply an actor that is not stated in the text or resolvable from the preceding sentence. Always leave out for lead_in statements."
+              },
+              "actor_basis": {
+                "type": "string",
+                "description": "Include ONLY when actor_name is present; otherwise leave this field out entirely. explicit_in_statement: the actor appears in this statement's own source_text. inherited_from_lead_in: the actor appears only in the lead_in that this list_item completes. resolved_from_prior_sentence: the subject is a pronoun resolved to the actor named in the preceding sentence.",
+                "enum": [
+                  "explicit_in_statement",
+                  "inherited_from_lead_in",
+                  "resolved_from_prior_sentence"
+                ]
+              },
+              "target": {
+                "type": "string",
+                "description": "VERBATIM phrase naming what the action is directed at or what the statement applies to, starting at the first word after any leading article ('a', 'an', 'the'). For a role_designation, the body or unit the role is within (for example 'CIO Council'). Leave out if none."
+              },
+              "resulting_status": {
+                "type": "string",
+                "description": "VERBATIM phrase naming the status or role that a role_designation or classification_rule confers, for example 'voting member' or 'advisory (non-voting) members'. Leave out for other statements."
+              },
+              "conditions": {
+                "type": "array",
+                "description": "VERBATIM phrases that restrict when or to what the statement applies, for example 'that the CIO Council designates as enterprise initiatives'. Do NOT treat a non-restrictive descriptive phrase set off by commas (for example 'appointed by the USDA CIO' in 'The Secretariat, appointed by the USDA CIO, will serve') as a condition. Leave out if there are none.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim condition phrase copied from source_text."
+                }
+              },
+              "cross_references": {
+                "type": "array",
+                "description": "Other documents, laws, or regulations cited in source_text, each copied verbatim as ONE entry per cited authority, including its code citation (for example 'The Clinger-Cohen Act of 1996, 40 United States Code (U.S.C.) § 11101 et seq.' is one entry; for a list_item that is just a citation, the entry is the item text without the trailing ';' or 'and'). Never add a separate entry for a title that is part of the same citation (the words 'Chief Information Officer' after '7 CFR § 2.32'). Never list generic categories such as 'law' or 'Federal regulation'. Leave out if none.",
+                "items": {
+                  "type": "string",
+                  "description": "One verbatim cited authority."
+                }
+              }
+            },
+            "required": [
+              "statement_id",
+              "statement_kind",
+              "section_number",
+              "section_title",
+              "source_text",
+              "statement_function",
+              "modal_use",
+              "normative_force"
+            ]
+          }
+        },
+        "acronyms": {
+          "type": "array",
+          "description": "Acronyms and abbreviations listed in the acronym appendix, one entry per row, in order. Return an empty list if the document has no acronym appendix.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "acronym": {
+                "type": "string",
+                "description": "Acronym or abbreviation exactly as printed."
+              },
+              "definition": {
+                "type": "string",
+                "description": "Meaning exactly as printed."
+              }
+            },
+            "required": [
+              "acronym",
+              "definition"
+            ]
+          }
+        },
+        "authorities_and_references": {
+          "type": "array",
+          "description": "Entries of the Authorities and References appendix, one per entry, each copied verbatim, including any date, in order. Return an empty list if the document has no such appendix.",
+          "items": {
+            "type": "string",
+            "description": "One appendix entry exactly as printed, joined across line breaks."
+          }
+        }
+      },
+      "required": [
+        "document_type",
+        "issuing_organization",
+        "issuing_location",
+        "regulation_number",
+        "subject",
+        "issue_date",
+        "opi",
+        "table_of_contents",
+        "actors",
+        "policy_statements",
+        "acronyms",
+        "authorities_and_references"
+      ]
+    },
+    "extraction_target": "per_doc",
+    "system_prompt": null,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "advanced_citations": true,
+    "granular_bboxes": [],
+    "spreadsheet_mode": false,
+    "sheet_names": null,
+    "validators": null,
+    "model_policy": null,
+    "parse_tier": "agentic",
+    "parse_config_id": null,
+    "extract_version": "2.6"
+  },
+  "status": "COMPLETED",
+  "error_message": null,
+  "extract_result": {
+    "document_type": "DEPARTMENTAL REGULATION",
+    "issuing_organization": "U.S. DEPARTMENT OF AGRICULTURE",
+    "issuing_location": "WASHINGTON, D.C. 20250",
+    "regulation_number": "3450-002",
+    "subject": "Freedom of Information Act Implementing Regulations",
+    "issue_date": "February 7, 2003",
+    "opi": "Office of Communications, Communications Coordination and Review Center",
+    "supersedes": {
+      "document_number": "DR 3450-2",
+      "document_date": "October 7, 1986"
+    },
+    "purpose": "These regulations establish Department wide policy, procedures, requirements, and responsibilities for administration and coordination of the Freedom of Information Act (FOIA), pursuant to which official records may be obtained by any person.",
+    "table_of_contents": [],
+    "actors": [
+      {
+        "name": "Each agency",
+        "actor_type": "group",
+        "binding_status": "bound_by_this_document"
+      },
+      {
+        "name": "Office of the Secretary",
+        "actor_type": "office",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "Office of Communications",
+        "actor_type": "office",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "FOIA Officer, Office of Communications",
+        "actor_type": "position",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "public",
+        "actor_type": "external_entity",
+        "binding_status": "mentioned_only"
+      },
+      {
+        "name": "any person",
+        "actor_type": "external_entity",
+        "binding_status": "mentioned_only"
+      }
+    ],
+    "policy_statements": [
+      {
+        "statement_id": "1",
+        "statement_kind": "standalone",
+        "section_number": "1",
+        "section_title": "PURPOSE",
+        "source_text": "These regulations establish Department wide policy, procedures, requirements, and responsibilities for administration and coordination of the Freedom of Information Act (FOIA), pursuant to which official records may be obtained by any person.",
+        "statement_function": "purpose",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "target": "administration and coordination of the Freedom of Information Act (FOIA)",
+        "cross_references": [
+          "Freedom of Information Act (FOIA)"
+        ]
+      },
+      {
+        "statement_id": "2",
+        "statement_kind": "standalone",
+        "section_number": "2",
+        "section_title": "SPECIAL INSTRUCTIONS/CANCELLATIONS",
+        "source_text": "This regulation supersedes DR 3450-2, dated October 7, 1986.",
+        "statement_function": "supersession",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "cross_references": [
+          "DR 3450-2"
+        ]
+      },
+      {
+        "statement_id": "3.s1",
+        "statement_kind": "standalone",
+        "section_number": "3",
+        "section_title": "OBJECTIVE",
+        "source_text": "The overall significance of these regulations is to provide assistance to the public in accessing information in Department files, provide guidance to agencies in processing and responding to FOIA requests and appeals, and to promote consistency among agencies in permitting public access.",
+        "statement_function": "purpose",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "target": "public",
+        "cross_references": [
+          "FOIA"
+        ]
+      },
+      {
+        "statement_id": "3.s2",
+        "statement_kind": "standalone",
+        "section_number": "3",
+        "section_title": "OBJECTIVE",
+        "source_text": "These regulations also set forth guidance on how the FOIA is implemented in the Office of the Secretary and in the Office of Communications, as required under a provision that each agency publish implementing regulations.",
+        "statement_function": "purpose",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "cross_references": [
+          "FOIA"
+        ]
+      },
+      {
+        "statement_id": "3.s3",
+        "statement_kind": "standalone",
+        "section_number": "3",
+        "section_title": "OBJECTIVE",
+        "source_text": "The Department’s final FOIA Implementing Regulations (7 CFR Part 1, Subpart A) were published in the FEDERAL REGISTER on July 28, 2000 (65 FR 46335) and are attached as Appendix A.",
+        "statement_function": "reference",
+        "modal_use": "none",
+        "normative_force": "descriptive",
+        "cross_references": [
+          "Department’s final FOIA Implementing Regulations (7 CFR Part 1, Subpart A)",
+          "65 FR 46335"
+        ]
+      },
+      {
+        "statement_id": "4.s1",
+        "statement_kind": "standalone",
+        "section_number": "4",
+        "section_title": "RESPONSIBILITY",
+        "source_text": "Each agency should review its existing FOIA implementing regulations (required under section 1.3 of the attached), and make any necessary revisions.",
+        "statement_function": "obligation",
+        "modal_use": "deontic",
+        "normative_force": "mandatory",
+        "modal_verb": "should",
+        "actor_name": "Each agency",
+        "actor_basis": "explicit_in_statement",
+        "target": "existing FOIA implementing regulations",
+        "cross_references": [
+          "section 1.3 of the attached"
+        ]
+      },
+      {
+        "statement_id": "4.s2",
+        "statement_kind": "standalone",
+        "section_number": "4",
+        "section_title": "RESPONSIBILITY",
+        "source_text": "All revised agency implementing regulations should be published in the FEDERAL REGISTER.",
+        "statement_function": "obligation",
+        "modal_use": "deontic",
+        "normative_force": "mandatory",
+        "modal_verb": "should",
+        "target": "revised agency implementing regulations"
+      },
+      {
+        "statement_id": "4.s3",
+        "statement_kind": "standalone",
+        "section_number": "4",
+        "section_title": "RESPONSIBILITY",
+        "source_text": "Each agency should forward a copy of the revised published regulations to the FOIA Officer, Office of Communications, within 30 days after publication.",
+        "statement_function": "obligation",
+        "modal_use": "deontic",
+        "normative_force": "mandatory",
+        "modal_verb": "should",
+        "actor_name": "Each agency",
+        "actor_basis": "explicit_in_statement",
+        "target": "copy of the revised published regulations",
+        "conditions": [
+          "within 30 days after publication"
+        ]
+      }
+    ],
+    "acronyms": [],
+    "authorities_and_references": []
+  },
+  "extract_metadata": {
+    "field_metadata": {
+      "document_metadata": {
+        "document_type": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "DEPARTMENTAL REGULATION",
+              "bounding_boxes": [
+                {
+                  "x": 198.00060832500458,
+                  "y": 95.557461977005,
+                  "w": 191.00404679775238,
+                  "h": 9.85507395118475
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9079645532059569,
+          "extraction_confidence": 0.9079645532059569
+        },
+        "issuing_organization": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "U.S. DEPARTMENT OF AGRICULTURE",
+              "bounding_boxes": [
+                {
+                  "x": 198.00060832500458,
+                  "y": 52.244961977005005,
+                  "w": 223.17549169063568,
+                  "h": 10.350077904760838
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8733792416212258,
+          "extraction_confidence": 0.8733792416212258
+        },
+        "issuing_location": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "WASHINGTON, D.C. 20250",
+              "bounding_boxes": [
+                {
+                  "x": 234.87405467033386,
+                  "y": 66.10496056079865,
+                  "w": 148.93362843990326,
+                  "h": 12.330073803663254
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8136361924794765,
+          "extraction_confidence": 0.8136361924794765
+        },
+        "regulation_number": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "3450-002",
+              "bounding_boxes": [
+                {
+                  "x": 487.7,
+                  "y": 104.42,
+                  "w": 45.22999999999996,
+                  "h": 8.290000000000006
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.85828278162291,
+          "extraction_confidence": 0.85828278162291
+        },
+        "subject": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Freedom of Information Act Implementing Regulations",
+              "bounding_boxes": [
+                {
+                  "x": 89.85504913330078,
+                  "y": 154.46246480941772,
+                  "w": 141.01451897621155,
+                  "h": 26.685074865818024
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.845004710154514,
+          "extraction_confidence": 0.845004710154514
+        },
+        "issue_date": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "February 7, 2003",
+              "bounding_boxes": [
+                {
+                  "x": 351.23572754859924,
+                  "y": 140.35496056079865,
+                  "w": 90.7280507683754,
+                  "h": 12.825074806809425
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8413999030208259,
+          "extraction_confidence": 0.8413999030208259
+        },
+        "opi": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Office of Communications, Communications Coordination and Review Center",
+              "bounding_boxes": [
+                {
+                  "x": 321.984459400177,
+                  "y": 177.97496008872986,
+                  "w": 217.73103439807892,
+                  "h": 23.715074747800827
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.9014804354673728,
+          "extraction_confidence": 0.9014804354673728
+        },
+        "supersedes": {
+          "document_number": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "DR 3450-2",
+                "bounding_boxes": [
+                  {
+                    "x": 239.32,
+                    "y": 376.16,
+                    "w": 55.860000000000014,
+                    "h": 9.819999999999993
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 612.0,
+                  "height": 792.0
+                }
+              }
+            ],
+            "confidence": 0.8324826183901097,
+            "extraction_confidence": 0.8324826183901097
+          },
+          "document_date": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "October 7, 1986",
+                "bounding_boxes": [
+                  {
+                    "x": 325.7460386753082,
+                    "y": 375.479948759079,
+                    "w": 82.80892306566238,
+                    "h": 11.34010425209999
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 612.0,
+                  "height": 792.0
+                }
+              }
+            ],
+            "confidence": 0.861639258542557,
+            "extraction_confidence": 0.861639258542557
+          }
+        },
+        "purpose": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "These regulations establish Department wide policy, procedures, requirements, and responsibilities for administration and coordination of the Freedom of Information Act (FOIA), pursuant to which official records may be obtained by any person.",
+              "bounding_boxes": [
+                {
+                  "x": 107.17814326286316,
+                  "y": 277.22244215011597,
+                  "w": 418.1839156150818,
+                  "h": 40.545073449611664
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ],
+          "confidence": 0.8913198831316087,
+          "extraction_confidence": 0.8913198831316087
+        },
+        "actors": [
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.0.name",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 641.0474610328674,
+                      "w": 52.419284641742706,
+                      "h": 9.85504961013794
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8543955054700714,
+              "extraction_confidence": 0.8543955054700714
+            },
+            "actor_type": {
+              "confidence": 0.9430632502650055,
+              "extraction_confidence": 0.9430632502650055
+            },
+            "binding_status": {
+              "confidence": 0.8784556751356026,
+              "extraction_confidence": 0.8784556751356026
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Office of the Secretary",
+                  "bounding_boxes": [
+                    {
+                      "x": 262.83848690986633,
+                      "y": 501.20997047424316,
+                      "w": 110.8228195309639,
+                      "h": 12.330073803663254
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9429863647910545,
+              "extraction_confidence": 0.9429863647910545
+            },
+            "actor_type": {
+              "confidence": 0.9281362587185312,
+              "extraction_confidence": 0.9281362587185312
+            },
+            "binding_status": {
+              "confidence": 0.9326371884128258,
+              "extraction_confidence": 0.9326371884128258
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Office of Communications",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 500.9624648094177,
+                      "w": 364.23493337631226,
+                      "h": 26.685074865818024
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9218927887313735,
+              "extraction_confidence": 0.9218927887313735
+            },
+            "actor_type": {
+              "confidence": 0.9018679570241832,
+              "extraction_confidence": 0.9018679570241832
+            },
+            "binding_status": {
+              "confidence": 0.9292361155845538,
+              "extraction_confidence": 0.9292361155845538
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "FOIA Officer, Office of Communications",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 668.767481803894,
+                      "w": 421.64852714538574,
+                      "h": 26.68504536151886
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9551257192331737,
+              "extraction_confidence": 0.9551257192331737
+            },
+            "actor_type": {
+              "confidence": 0.91700824106032,
+              "extraction_confidence": 0.91700824106032
+            },
+            "binding_status": {
+              "confidence": 0.9331063063743921,
+              "extraction_confidence": 0.9331063063743921
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.4.name",
+                  "bounding_boxes": [
+                    {
+                      "x": 461.2891225232511,
+                      "y": 313.08750000000003,
+                      "w": 32.41892438334009,
+                      "h": 10.642499999999993
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9057126910547046,
+              "extraction_confidence": 0.9057126910547046
+            },
+            "actor_type": {
+              "confidence": 0.8787962500483155,
+              "extraction_confidence": 0.8787962500483155
+            },
+            "binding_status": {
+              "confidence": 0.9232462274892393,
+              "extraction_confidence": 0.9232462274892393
+            }
+          },
+          {
+            "name": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "any person",
+                  "bounding_boxes": [
+                    {
+                      "x": 411.8170380592346,
+                      "y": 307.9124364852905,
+                      "w": 56.37885761260986,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9341529804435815,
+              "extraction_confidence": 0.9341529804435815
+            },
+            "actor_type": {
+              "confidence": 0.9273246309137195,
+              "extraction_confidence": 0.9273246309137195
+            },
+            "binding_status": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "actors.5.binding_status",
+                  "bounding_boxes": [
+                    {
+                      "x": 341.7598059037606,
+                      "y": 277.2,
+                      "w": 70.03477557622325,
+                      "h": 11.137500000000026
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9506238009625664,
+              "extraction_confidence": 0.9506238009625664
+            }
+          }
+        ],
+        "policy_statements": [
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 78.22383373975754,
+                      "y": 249.50246858596802,
+                      "w": 4.904533244669437,
+                      "h": 9.85508944094181
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.949434780955424,
+              "extraction_confidence": 0.949434780955424
+            },
+            "statement_kind": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.0.statement_kind",
+                  "bounding_boxes": [
+                    {
+                      "x": 158.63000404367165,
+                      "y": 277.2,
+                      "w": 366.0121310149616,
+                      "h": 38.36250000000002
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8462384182048432,
+              "extraction_confidence": 0.8462384182048432
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "1",
+                  "bounding_boxes": [
+                    {
+                      "x": 78.22383373975754,
+                      "y": 249.50246858596802,
+                      "w": 4.904533244669437,
+                      "h": 9.85508944094181
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9154368707946834,
+              "extraction_confidence": 0.9154368707946834
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "PURPOSE",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 249.25496292114258,
+                      "w": 53.904127925634384,
+                      "h": 10.350088968873024
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9393242844831076,
+              "extraction_confidence": 0.9393242844831076
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "These regulations establish Department wide policy, procedures, requirements, and responsibilities for administration and coordination of the Freedom of Information Act (FOIA), pursuant to which official records may be obtained by any person.",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 277.22244215011597,
+                      "w": 418.1839156150818,
+                      "h": 40.545073449611664
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9126695354357317,
+              "extraction_confidence": 0.9126695354357317
+            },
+            "statement_function": {
+              "confidence": 0.94061526639289,
+              "extraction_confidence": 0.94061526639289
+            },
+            "modal_use": {
+              "confidence": 0.944224472090173,
+              "extraction_confidence": 0.944224472090173
+            },
+            "normative_force": {
+              "confidence": 0.9385858830459866,
+              "extraction_confidence": 0.9385858830459866
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "administration and coordination of the Freedom of Information Act (FOIA)",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 291.5774402618408,
+                      "w": 418.1839156150818,
+                      "h": 26.190104842185974
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.957199583835683,
+              "extraction_confidence": 0.957199583835683
+            },
+            "cross_references": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Freedom of Information Act (FOIA)",
+                    "bounding_boxes": [
+                      {
+                        "x": 107.17814326286316,
+                        "y": 291.5774402618408,
+                        "w": 418.1839156150818,
+                        "h": 26.190104842185974
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.885630758226333,
+                "extraction_confidence": 0.885630758226333
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 77.23394733667374,
+                      "y": 347.51244592666626,
+                      "w": 7.13178563117981,
+                      "h": 9.607614755630493
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9588364577719254,
+              "extraction_confidence": 0.9588364577719254
+            },
+            "statement_kind": {
+              "confidence": 0.9414964287806212,
+              "extraction_confidence": 0.9414964287806212
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "2",
+                  "bounding_boxes": [
+                    {
+                      "x": 77.23394733667374,
+                      "y": 347.51244592666626,
+                      "w": 7.13178563117981,
+                      "h": 9.607614755630493
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9402523054040801,
+              "extraction_confidence": 0.9402523054040801
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "SPECIAL INSTRUCTIONS/CANCELLATIONS",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.67308646440506,
+                      "y": 347.51244592666626,
+                      "w": 240.993501663208,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9021916564554884,
+              "extraction_confidence": 0.9021916564554884
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "This regulation supersedes DR 3450-2, dated October 7, 1986.",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 375.479948759079,
+                      "w": 301.3768640756607,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9680139092585565,
+              "extraction_confidence": 0.9680139092585565
+            },
+            "statement_function": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.1.statement_function",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 375.479948759079,
+                      "w": 301.3768640756607,
+                      "h": 12.330104045569897
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8751553562771415,
+              "extraction_confidence": 0.8751553562771415
+            },
+            "modal_use": {
+              "confidence": 0.9754656288533786,
+              "extraction_confidence": 0.9754656288533786
+            },
+            "normative_force": {
+              "confidence": 0.9679813345789828,
+              "extraction_confidence": 0.9679813345789828
+            },
+            "cross_references": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "DR 3450-2",
+                    "bounding_boxes": [
+                      {
+                        "x": 239.32,
+                        "y": 376.16,
+                        "w": 55.860000000000014,
+                        "h": 9.819999999999993
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.7276289794974075,
+                "extraction_confidence": 0.7276289794974075
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.2.statement_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.89809947432268,
+                      "y": 445.5,
+                      "w": 416.24909017387785,
+                      "h": 122.51249999999999
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9497852043772672,
+              "extraction_confidence": 0.9497852043772672
+            },
+            "statement_kind": {
+              "confidence": 0.8591479750969481,
+              "extraction_confidence": 0.8591479750969481
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 77.23394733667374,
+                      "y": 417.3074383735657,
+                      "w": 6.636842429637909,
+                      "h": 9.855096817016602
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9380825615939807,
+              "extraction_confidence": 0.9380825615939807
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "OBJECTIVE",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 417.3074383735657,
+                      "w": 65.28787171840668,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9071208254154347,
+              "extraction_confidence": 0.9071208254154347
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "The overall significance of these regulations is to provide assistance to the public in accessing information in Department files, provide guidance to agencies in processing and responding to FOIA requests and appeals, and to promote consistency among agencies in permitting public access.",
+                  "bounding_boxes": [
+                    {
+                      "x": 108.2,
+                      "y": 446.0,
+                      "w": 413.44,
+                      "h": 52.74000000000001
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9614696712469698,
+              "extraction_confidence": 0.9614696712469698
+            },
+            "statement_function": {
+              "confidence": 0.9409452535484826,
+              "extraction_confidence": 0.9409452535484826
+            },
+            "modal_use": {
+              "confidence": 0.9338805918368934,
+              "extraction_confidence": 0.9338805918368934
+            },
+            "normative_force": {
+              "confidence": 0.9360279938868605,
+              "extraction_confidence": 0.9360279938868605
+            },
+            "target": {
+              "confidence": 0.9429344903971038,
+              "extraction_confidence": 0.9429344903971038
+            },
+            "cross_references": [
+              {
+                "confidence": 0.899737748575971,
+                "extraction_confidence": 0.899737748575971
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.3.statement_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 371.20905782450467,
+                      "y": 502.92,
+                      "w": 149.7209866558835,
+                      "h": 10.890000000000033
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9617533833652325,
+              "extraction_confidence": 0.9617533833652325
+            },
+            "statement_kind": {
+              "confidence": 0.9059877453929046,
+              "extraction_confidence": 0.9059877453929046
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 77.23394733667374,
+                      "y": 417.3074383735657,
+                      "w": 6.636842429637909,
+                      "h": 9.855096817016602
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9606974052907383,
+              "extraction_confidence": 0.9606974052907383
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "OBJECTIVE",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 417.3074383735657,
+                      "w": 65.28787171840668,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9497382573069132,
+              "extraction_confidence": 0.9497382573069132
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "These regulations also set forth guidance on how the FOIA is implemented in the Office of the Secretary and in the Office of Communications, as required under a provision that each agency publish implementing regulations.",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 487.1024308204651,
+                      "w": 420.65865898132324,
+                      "h": 54.405072033405304
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9766868335058131,
+              "extraction_confidence": 0.9766868335058131
+            },
+            "statement_function": {
+              "confidence": 0.967293291209075,
+              "extraction_confidence": 0.967293291209075
+            },
+            "modal_use": {
+              "confidence": 0.9652634975991569,
+              "extraction_confidence": 0.9652634975991569
+            },
+            "normative_force": {
+              "confidence": 0.9524339357185656,
+              "extraction_confidence": 0.9524339357185656
+            },
+            "cross_references": [
+              {
+                "confidence": 0.899737748575971,
+                "extraction_confidence": 0.899737748575971
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.4.statement_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.89809947432268,
+                      "y": 524.6999999999999,
+                      "w": 416.24909017387785,
+                      "h": 43.3125
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9633088711683955,
+              "extraction_confidence": 0.9633088711683955
+            },
+            "statement_kind": {
+              "confidence": 0.9032955778802026,
+              "extraction_confidence": 0.9032955778802026
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "3",
+                  "bounding_boxes": [
+                    {
+                      "x": 77.23394733667374,
+                      "y": 417.3074383735657,
+                      "w": 6.636842429637909,
+                      "h": 9.855096817016602
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9505153815909287,
+              "extraction_confidence": 0.9505153815909287
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "OBJECTIVE",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 417.3074383735657,
+                      "w": 65.28787171840668,
+                      "h": 9.855104193091393
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9502593731586216,
+              "extraction_confidence": 0.9502593731586216
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "The Department’s final FOIA Implementing Regulations (7 CFR Part 1, Subpart A) were published in the FEDERAL REGISTER on July 28, 2000 (65 FR 46335) and are attached as Appendix A.",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 528.9299912452698,
+                      "w": 410.2647879123688,
+                      "h": 40.5450439453125
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9720831408744626,
+              "extraction_confidence": 0.9720831408744626
+            },
+            "statement_function": {
+              "confidence": 0.9531221848490937,
+              "extraction_confidence": 0.9531221848490937
+            },
+            "modal_use": {
+              "confidence": 0.9609256967948093,
+              "extraction_confidence": 0.9609256967948093
+            },
+            "normative_force": {
+              "confidence": 0.9463815976423496,
+              "extraction_confidence": 0.9463815976423496
+            },
+            "cross_references": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "Department’s final FOIA Implementing Regulations (7 CFR Part 1, Subpart A)",
+                    "bounding_boxes": [
+                      {
+                        "x": 107.17814326286316,
+                        "y": 528.9299912452698,
+                        "w": 410.2647879123688,
+                        "h": 26.68504536151886
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.8433893444434548,
+                "extraction_confidence": 0.8433893444434548
+              },
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "65 FR 46335",
+                    "bounding_boxes": [
+                      {
+                        "x": 107.17814326286316,
+                        "y": 543.2849893569946,
+                        "w": 397.39628291130066,
+                        "h": 26.19004288315773
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.7867750452074652,
+                "extraction_confidence": 0.7867750452074652
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.5.statement_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 157.88758592802265,
+                      "y": 636.0749999999999,
+                      "w": 365.5171856045289,
+                      "h": 53.212500000000055
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9321214118158074,
+              "extraction_confidence": 0.9321214118158074
+            },
+            "statement_kind": {
+              "confidence": 0.8433320696646953,
+              "extraction_confidence": 0.8433320696646953
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "4",
+                  "bounding_boxes": [
+                    {
+                      "x": 76.98647117614746,
+                      "y": 598.9724893569946,
+                      "w": 7.379261791706085,
+                      "h": 9.6075439453125
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8995421319104204,
+              "extraction_confidence": 0.8995421319104204
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "RESPONSIBILITY",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 598.7249836921692,
+                      "w": 96.96438252925873,
+                      "h": 10.3500439748168
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8817536577579487,
+              "extraction_confidence": 0.8817536577579487
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Each agency should review its existing FOIA implementing regulations (required under section 1.3 of the attached), and make any necessary revisions.",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 626.6924629211426,
+                      "w": 423.62833642959595,
+                      "h": 26.68504536151886
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9514098228877289,
+              "extraction_confidence": 0.9514098228877289
+            },
+            "statement_function": {
+              "confidence": 0.9378245133810438,
+              "extraction_confidence": 0.9378245133810438
+            },
+            "modal_use": {
+              "confidence": 0.8759056522581216,
+              "extraction_confidence": 0.8759056522581216
+            },
+            "normative_force": {
+              "confidence": 0.9521294669180433,
+              "extraction_confidence": 0.9521294669180433
+            },
+            "modal_verb": {
+              "confidence": 0.9393616403366435,
+              "extraction_confidence": 0.9393616403366435
+            },
+            "actor_name": {
+              "confidence": 0.9473765512257785,
+              "extraction_confidence": 0.9473765512257785
+            },
+            "actor_basis": {
+              "confidence": 0.8395788790243286,
+              "extraction_confidence": 0.8395788790243286
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "existing FOIA implementing regulations",
+                  "bounding_boxes": [
+                    {
+                      "x": 256.4041979312897,
+                      "y": 626.939968585968,
+                      "w": 196.44841289520264,
+                      "h": 12.33004429936409
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9572567992595377,
+              "extraction_confidence": 0.9572567992595377
+            },
+            "cross_references": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "section 1.3 of the attached",
+                    "bounding_boxes": [
+                      {
+                        "x": 107.67308646440506,
+                        "y": 641.0474610328674,
+                        "w": 133.5903435945511,
+                        "h": 11.835044033825397
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.7512618159118004,
+                "extraction_confidence": 0.7512618159118004
+              }
+            ]
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.6.statement_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 156.47471594810486,
+                      "y": 653.8679523468018,
+                      "w": 354.533962726593,
+                      "h": 13.61709263920784
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9322771731083832,
+              "extraction_confidence": 0.9322771731083832
+            },
+            "statement_kind": {
+              "confidence": 0.8620697914707244,
+              "extraction_confidence": 0.8620697914707244
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "4",
+                  "bounding_boxes": [
+                    {
+                      "x": 76.98647117614746,
+                      "y": 598.9724893569946,
+                      "w": 7.379261791706085,
+                      "h": 9.6075439453125
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9100910980357356,
+              "extraction_confidence": 0.9100910980357356
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "RESPONSIBILITY",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 598.7249836921692,
+                      "w": 96.96438252925873,
+                      "h": 10.3500439748168
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8673368524622184,
+              "extraction_confidence": 0.8673368524622184
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "All revised agency implementing regulations should be published in the FEDERAL REGISTER.",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 641.0474610328674,
+                      "w": 403.5830683708191,
+                      "h": 26.190045833587646
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9676802147643002,
+              "extraction_confidence": 0.9676802147643002
+            },
+            "statement_function": {
+              "confidence": 0.9401414151450709,
+              "extraction_confidence": 0.9401414151450709
+            },
+            "modal_use": {
+              "confidence": 0.8927651224222828,
+              "extraction_confidence": 0.8927651224222828
+            },
+            "normative_force": {
+              "confidence": 0.9552554986168114,
+              "extraction_confidence": 0.9552554986168114
+            },
+            "modal_verb": {
+              "confidence": 0.942368168667868,
+              "extraction_confidence": 0.942368168667868
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "revised agency implementing regulations",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 641.0474610328674,
+                      "w": 403.5830683708191,
+                      "h": 26.190045833587646
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9597133230521155,
+              "extraction_confidence": 0.9597133230521155
+            }
+          },
+          {
+            "statement_id": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "policy_statements.7.statement_id",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 669.0149874687195,
+                      "w": 419.4212872982025,
+                      "h": 26.190045833587646
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9465111343790172,
+              "extraction_confidence": 0.9465111343790172
+            },
+            "statement_kind": {
+              "confidence": 0.8220156429262392,
+              "extraction_confidence": 0.8220156429262392
+            },
+            "section_number": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "4",
+                  "bounding_boxes": [
+                    {
+                      "x": 76.98647117614746,
+                      "y": 598.9724893569946,
+                      "w": 7.379261791706085,
+                      "h": 9.6075439453125
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9017778964697654,
+              "extraction_confidence": 0.9017778964697654
+            },
+            "section_title": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "RESPONSIBILITY",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.42561030387878,
+                      "y": 598.7249836921692,
+                      "w": 96.96438252925873,
+                      "h": 10.3500439748168
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.8697930638015766,
+              "extraction_confidence": 0.8697930638015766
+            },
+            "source_text": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "Each agency should forward a copy of the revised published regulations to the FOIA Officer, Office of Communications, within 30 days after publication.",
+                  "bounding_boxes": [
+                    {
+                      "x": 107.17814326286316,
+                      "y": 654.6599893569946,
+                      "w": 422.1434977054596,
+                      "h": 40.5450439453125
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9684671822956514,
+              "extraction_confidence": 0.9684671822956514
+            },
+            "statement_function": {
+              "confidence": 0.9337212946109332,
+              "extraction_confidence": 0.9337212946109332
+            },
+            "modal_use": {
+              "confidence": 0.8598745256818991,
+              "extraction_confidence": 0.8598745256818991
+            },
+            "normative_force": {
+              "confidence": 0.9516396238182514,
+              "extraction_confidence": 0.9516396238182514
+            },
+            "modal_verb": {
+              "confidence": 0.937177703364274,
+              "extraction_confidence": 0.937177703364274
+            },
+            "actor_name": {
+              "confidence": 0.9521949853854638,
+              "extraction_confidence": 0.9521949853854638
+            },
+            "actor_basis": {
+              "confidence": 0.8369727214995311,
+              "extraction_confidence": 0.8369727214995311
+            },
+            "target": {
+              "citation": [
+                {
+                  "page": 1,
+                  "matching_text": "copy of the revised published regulations",
+                  "bounding_boxes": [
+                    {
+                      "x": 227.25189471244812,
+                      "y": 669.0149874687195,
+                      "w": 201.7938505411148,
+                      "h": 12.33004429936409
+                    }
+                  ],
+                  "page_dimensions": {
+                    "width": 612.0,
+                    "height": 792.0
+                  }
+                }
+              ],
+              "confidence": 0.9449328497546226,
+              "extraction_confidence": 0.9449328497546226
+            },
+            "conditions": [
+              {
+                "citation": [
+                  {
+                    "page": 1,
+                    "matching_text": "within 30 days after publication",
+                    "bounding_boxes": [
+                      {
+                        "x": 241.80329596996307,
+                        "y": 682.8749742507935,
+                        "w": 156.85275614261627,
+                        "h": 12.33004429936409
+                      }
+                    ],
+                    "page_dimensions": {
+                      "width": 612.0,
+                      "height": 792.0
+                    }
+                  }
+                ],
+                "confidence": 0.7765753307902121,
+                "extraction_confidence": 0.7765753307902121
+              }
+            ]
+          }
+        ]
+      },
+      "page_metadata": null,
+      "row_metadata": null
+    },
+    "parse_job_id": null,
+    "parse_tier": "agentic"
+  },
+  "metadata": null,
+  "grounded_items": null,
+  "usage": {
+    "credits": 525.0,
+    "extract_credits": 315.0,
+    "parse_credits": 210.0
+  },
+  "created_at": "2026-10-25T23:57:33.022723Z",
+  "updated_at": "2026-10-25T23:58:35.914276Z",
+  "document_input_value": null
+}
